@@ -1,0 +1,67 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goldenizacja-api
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --reload-dir /workspace/app
+    depends_on:
+      mssql:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - ./app:/workspace/app
+      - filestream_data:/data/filestream
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: goldenizacja-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "${MSSQL_PASSWORD}"
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "${MSSQL_PASSWORD}", "-Q", "SELECT 1", "-C"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+  neo4j:
+    image: neo4j:5.24
+    container_name: goldenizacja-neo4j
+    environment:
+      NEO4J_AUTH: "${NEO4J_USER}/${NEO4J_PASSWORD}"
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--spider", "http://localhost:7474"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+
+  adminer:
+    image: adminer:latest
+    container_name: goldenizacja-adminer
+    depends_on:
+      mssql:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+
+volumes:
+  mssql_data:
+  neo4j_data:
+  neo4j_logs:
+  filestream_data:
