@@ -1,0 +1,18 @@
+from datetime import datetime
+
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+
+
+def log_message() -> None:
+    print("Goldenizacja DAG działa poprawnie.")
+
+
+with DAG(
+    dag_id="goldenizacja_example",
+    start_date=datetime(2026, 1, 1),
+    schedule="@daily",
+    catchup=False,
+    tags=["goldenizacja"],
+) as dag:
+    PythonOperator(task_id="log_message", python_callable=log_message)

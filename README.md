@@ -1,167 +1,106 @@
-# Platforma Goldenizacji Danych (FastAPI)
+# Platforma Goldenizacji Danych (FastAPI + React + Airflow)
 
-To jest backendowy projekt studencki pod platformę integracji i goldenizacji danych podmiotów/osób.
-Repo jest przygotowane tak, żeby dało się go szybko uruchomić lokalnie, pokazać działający przepływ danych i dalej rozbudowywać zgodnie z prezentacją (`Pobranie -> Staging -> Integracja -> Analityka -> Prezentacja`).
+Projekt studencki do integracji i goldenizacji danych podmiotów/osób.
+Aktualny setup developerski działa lokalnie przez `docker compose` i obejmuje backend API, frontend React, MS SQL, Neo4j i Airflow.
 
-## Co jest w projekcie i po co
+## Co działa teraz
 
-W tym momencie projekt ma dwie warstwy:
+- Backend FastAPI z endpointami:
+  - `GET /health`
+  - `POST /files/line-count` (tylko CSV)
+  - `POST /documents`
+  - `GET /documents`
+  - `GET /documents/search?q=...`
+- Frontend React (Vite) do szybkiego testu połączenia z API.
+- Airflow do uruchamiania DAG-ów ETL (przykładowy DAG w `airflow/dags`).
+- MS SQL jako baza relacyjna.
+- Neo4j jako baza grafowa.
 
-1. Działający rdzeń API (testowe endpointy i podstawowy przepływ danych)
-2. Szkielet docelowej architektury warstwowej pod pełną goldenizację
+## Aktualny stack (docker compose)
 
-Rdzeń API pozwala:
-- wrzucić plik CSV i dostać liczbę odczytanych wierszy,
-- zapisać dokument (MSSQL + plik na wolumenie),
-- wyszukać podobne rekordy (RapidFuzz),
-- zapisać relację dokumentu w Neo4j.
+Usługi aktywne w `docker-compose.yml`:
+- `api` (FastAPI)
+- `frontend` (React/Vite)
+- `airflow` (Apache Airflow)
+- `mssql` (SQL Server 2022)
+- `neo4j` (Neo4j 5.24)
 
-Szkielet warstwowy odzwierciedla podział z prezentacji:
-- `ingestion`
-- `staging_validation`
-- `integration_golden`
-- `analytics`
-- `serving`
+Uwaga: `adminer` jest obecnie zakomentowany w `docker-compose.yml`.
 
-Dzięki temu możesz pokazać zespołowi nie tylko "co działa", ale też "jak to będzie rosło" bez przebudowy całego repo od zera.
+## Porty lokalne
 
-## Stack technologiczny
+- API + Swagger: `http://localhost:8000/docs`
+- Frontend React: `http://localhost:5173`
+- Airflow UI: `http://localhost:8080`
+- Neo4j Browser: `http://localhost:7474`
+- Neo4j Bolt: `localhost:7687`
+- MS SQL: `localhost:1433`
 
-- Python 3.12
-- FastAPI
-- Pydantic
-- SQLAlchemy + pyodbc
-- MS SQL Server (Docker)
-- Neo4j (Docker)
-- RapidFuzz
-- Docker Compose
-- Adminer (panel www)
+## Konfiguracja
 
-## Struktura katalogów
+Plik środowiskowy: `.env`
 
-- `app/` - kod aplikacji FastAPI
-- `app/api/` - obecne endpointy rdzenia
-- `app/layers/` - warstwy docelowej architektury
-- `app/db/` - połączenia i inicjalizacja baz
-- `app/models/`, `app/repositories/`, `app/services/`, `app/schemas/` - klasyczny podział backendowy
-- `tests/` - testy API
-- `docker-compose.yml` - cały stack lokalny
-- `Dockerfile` - obraz API
-- `ARCHITEKTURA_WARSTW.md` - opis warstw pod prezentację
+Kluczowe zmienne:
+- `MSSQL_PASSWORD`
+- `NEO4J_PASSWORD`
+- `CORS_ORIGINS` (domyślnie `http://localhost:5173`)
+- `AIRFLOW_UID`
+- `AIRFLOW_USERNAME`
+- `AIRFLOW_PASSWORD`
 
-## Endpointy (co działa teraz)
+Hasła do baz są wymagane z `.env` (nie ma fallbacku w kodzie).
 
-- `GET /health`
-- `POST /files/line-count` - przyjmuje tylko `.csv`, zwraca liczbę wierszy
-- `POST /documents`
-- `GET /documents`
-- `GET /documents/search?q=...`
-
-Endpointy techniczne warstw:
-- `GET /layers/ingestion/status`
-- `GET /layers/staging_validation/status`
-- `GET /layers/integration_golden/status`
-- `GET /layers/analytics/status`
-- `GET /layers/serving/status`
-
-## Jak uruchomić
-
-1. Uruchom środowisko:
+## Uruchomienie (dev)
 
 ```bash
 docker compose up -d
 ```
 
-## Adminer + MSSQL
+Zatrzymanie:
 
-Dane logowania do SQL Server w Adminer:
-- `System`: `MS SQL`
-- `Serwer`: `mssql`
-- `Użytkownik`: `sa`
-- `Hasło`: wartość `MSSQL_PASSWORD` z `.env`
-- `Baza`: `goldenizacja`
-
-## Tryb developerski (bez rebuildu po każdej zmianie)
-
-API działa na `uvicorn --reload`, a katalog `./app` jest podmontowany do kontenera.
-To znaczy, że zmiany w kodzie Python ładują się automatycznie.
-
-Rebuild (`docker compose up --build`) jest potrzebny tylko gdy zmienisz:
-- `requirements.txt`
-- `Dockerfile`
-
-## Jak ten projekt ma się do wymagań z prezentacji/PDF
-
-Zrobione teraz:
-- działający backend i środowisko uruchomieniowe,
-- podstawowy ingest CSV,
-- baza relacyjna + grafowa,
-- fundament pod warstwy goldenizacji.
-
-
-## Uwagi praktyczne
-
-- W projekcie używamy wariantu `file-stream-like` (wolumen Docker) jako prostego i stabilnego odpowiednika składowania plików.
-- Pełny SQL Server FILESTREAM można dodać później, jeśli będzie wymagany przez docelowe środowisko.
-
-# Architektura warstwowa (zgodna z prezentacją)
-
-## Warstwy
-
-1. ingestion
-2. staging_validation
-3. integration_golden
-4. analytics
-5. serving
-
-## Struktura katalogów
-
-```text
-app/layers/
-  ingestion/
-    api.py
-    service.py
-    repository.py
-    models.py
-    schemas.py
-    README.md
-  staging_validation/
-    api.py
-    service.py
-    repository.py
-    models.py
-    schemas.py
-    README.md
-  integration_golden/
-    api.py
-    service.py
-    repository.py
-    models.py
-    schemas.py
-    README.md
-  analytics/
-    api.py
-    service.py
-    repository.py
-    models.py
-    schemas.py
-    README.md
-  serving/
-    api.py
-    service.py
-    repository.py
-    models.py
-    schemas.py
-    README.md
-  router.py
+```bash
+docker compose down
 ```
 
-## Endpointy techniczne warstw
+Pełny reset wolumenów (uwaga: usuwa dane):
 
-- `GET /layers/ingestion/status`
-- `GET /layers/staging_validation/status`
-- `GET /layers/integration_golden/status`
-- `GET /layers/analytics/status`
-- `GET /layers/serving/status`
+```bash
+docker compose down -v
+```
 
-Te endpointy służą jako techniczny szkielet. Logika biznesowa jest rozwijana w plikach `service.py` i `repository.py` każdej warstwy.
+## Airflow logowanie
+
+Airflow startuje z komendą, która:
+1. robi migrację DB,
+2. tworzy użytkownika admin z `.env`,
+3. jeśli user już istnieje, resetuje mu hasło,
+4. uruchamia `airflow standalone`.
+
+Czyli logujesz się danymi:
+- `AIRFLOW_USERNAME`
+- `AIRFLOW_PASSWORD`
+
+(domyślnie: `admin/admin`).
+
+## Frontend
+
+Frontend działa w trybie dev (`vite`) z hot reloadem.
+Połączenie do API idzie przez `VITE_API_URL=http://localhost:8000` ustawione w `docker-compose.yml`.
+
+## Struktura projektu
+
+- `app/` - backend FastAPI
+- `frontend/` - frontend React (Vite)
+- `airflow/` - DAG-i i pliki Airflow
+- `tests/` - testy backendu
+- `openshift/` - manifesty pod OpenShift
+
+## OpenShift
+
+Manifesty są w katalogu `openshift/`.
+Po dodaniu React + Airflow manifesty zostały rozszerzone o:
+- `09-frontend.yaml`
+- `10-airflow.yaml`
+- `11-airflow-dags-configmap.yaml`
+
+Szczegóły wdrożenia: `openshift/README.md`.

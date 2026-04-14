@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goldenizacja-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: goldenizacja-api
+  template:
+    metadata:
+      labels:
+        app: goldenizacja-api
+    spec:
+      containers:
+        - name: api
+          image: image-registry.openshift-image-registry.svc:5000/REPLACE_WITH_PROJECT/goldenizacja-api:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: goldenizacja-config
+          env:
+            - name: MSSQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: goldenizacja-secrets
+                  key: MSSQL_PASSWORD
+            - name: NEO4J_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: goldenizacja-secrets
+                  key: NEO4J_PASSWORD
+          volumeMounts:
+            - name: filestream-data
+              mountPath: /data/filestream
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 20
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 15
+      volumes:
+        - name: filestream-data
+          persistentVolumeClaim:
+            claimName: filestream-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: goldenizacja-api
+spec:
+  selector:
+    app: goldenizacja-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8000

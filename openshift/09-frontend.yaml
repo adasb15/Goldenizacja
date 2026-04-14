@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goldenizacja-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: goldenizacja-frontend
+  template:
+    metadata:
+      labels:
+        app: goldenizacja-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: image-registry.openshift-image-registry.svc:5000/REPLACE_WITH_PROJECT/goldenizacja-frontend:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 20
+            periodSeconds: 15
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: goldenizacja-frontend
+spec:
+  selector:
+    app: goldenizacja-frontend
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080

@@ -11,13 +11,14 @@ class Settings(BaseSettings):
     mssql_port: int = 1433
     mssql_db: str = "goldenizacja"
     mssql_user: str = "sa"
-    mssql_password: str = "YourStrong!Passw0rd"
+    mssql_password: str
 
     neo4j_uri: str = "bolt://neo4j:7687"
     neo4j_user: str = "neo4j"
-    neo4j_password: str = "neo4j_password"
+    neo4j_password: str
 
     filestream_path: str = "/data/filestream"
+    cors_origins: str = "http://localhost:5173"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", case_sensitive=False)
 
@@ -38,6 +39,10 @@ class Settings(BaseSettings):
             f"{self.mssql_server}:{self.mssql_port}/master"
             f"?driver={driver.replace(' ', '+')}&TrustServerCertificate=yes"
         )
+
+    @property
+    def cors_origins_list(self) -> list[str]:
+        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
 
 
 settings = Settings()

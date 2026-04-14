@@ -1,0 +1,54 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: goldenizacja-api
+spec:
+  to:
+    kind: Service
+    name: goldenizacja-api
+  port:
+    targetPort: http
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: goldenizacja-frontend
+spec:
+  to:
+    kind: Service
+    name: goldenizacja-frontend
+  port:
+    targetPort: http
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: adminer
+spec:
+  to:
+    kind: Service
+    name: adminer
+  port:
+    targetPort: http
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: airflow
+spec:
+  to:
+    kind: Service
+    name: airflow
+  port:
+    targetPort: http
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: neo4j-browser
+spec:
+  to:
+    kind: Service
+    name: neo4j
+  port:
+    targetPort: http
