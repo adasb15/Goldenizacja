@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego>
+  <record>
+    <field name="ID">600260</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP261/2022</field>
+    <field name="Nazwa">Vistula Brokers 261 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-18</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-20</field>
+    <field name="KRS">0001000260</field>
+    <field name="NIP">5000012603</field>
+    <field name="Adres siedziby">ul Szkolna 131/11, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600261</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP262/2023</field>
+    <field name="Nazwa">Nova Markets 262 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-19</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-21</field>
+    <field name="KRS">0001000261</field>
+    <field name="NIP">5000012611</field>
+    <field name="Adres siedziby">ulica Lipowa 132/12, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600262</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP263/2024</field>
+    <field name="Nazwa">Meridian Pay 263 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-20</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-22</field>
+    <field name="KRS">0001000262</field>
+    <field name="NIP">5000012626</field>
+    <field name="Adres siedziby">ul. Słoneczna 133, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600263</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP264/2025</field>
+    <field name="Nazwa">Helix Invest 264 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-12-21</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-23</field>
+    <field name="KRS">0001000263</field>
+    <field name="NIP">5000012632</field>
+    <field name="Adres siedziby">60-126 Poznań, Różana 134 m. 14</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600264</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP265/2020</field>
+    <field name="Nazwa">Lumen Finance 265 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-22</field>
+    <field name="Data wykreślenia">2025-01-22</field>
+    <field name="Data decyzji">2020-02-24</field>
+    <field name="KRS">0001000264</field>
+    <field name="NIP">5000012649</field>
+    <field name="Adres siedziby">ul Wiosenna 135/15, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600265</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP266/2021</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 266 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-23</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-25</field>
+    <field name="KRS">0001000265</field>
+    <field name="NIP">5000012655</field>
+    <field name="Adres siedziby">ulica Topolowa 136/16, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600266</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP267/2022</field>
+    <field name="Nazwa">Atlas Data 267 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-24</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-26</field>
+    <field name="KRS">0001000266</field>
+    <field name="NIP">5000012661</field>
+    <field name="Adres siedziby">ul. Bałtycka 137, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600267</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP268/2023</field>
+    <field name="Nazwa">Pomerania Trade 268 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2023-04-25</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-27</field>
+    <field name="KRS">0001000267</field>
+    <field name="NIP">5000012678</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Jarzębinowa 138 m. 18</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600268</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP269/2024</field>
+    <field name="Nazwa">Mazovia Asset 269 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-26</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-01</field>
+    <field name="KRS">0001000268</field>
+    <field name="NIP">5000012684</field>
+    <field name="Adres siedziby">ul Srebrna 139/19, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600269</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP270/2025</field>
+    <field name="Nazwa">Kurs Solutions 270 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-06-27</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-02</field>
+    <field name="KRS">0001000269</field>
+    <field name="NIP">5000012690</field>
+    <field name="Adres siedziby">ulica Portowa 140/20, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600270</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP271/2020</field>
+    <field name="Nazwa">Nebula Analytics 271 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-01</field>
+    <field name="Data wykreślenia">2025-07-01</field>
+    <field name="Data decyzji">2020-08-03</field>
+    <field name="KRS">0001000270</field>
+    <field name="NIP">5000012709</field>
+    <field name="Adres siedziby">ul. Głogowska 141, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600271</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP272/2021</field>
+    <field name="Nazwa">Baltic Med Supply 272 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-02</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-04</field>
+    <field name="KRS">0001000271</field>
+    <field name="NIP">5000012715</field>
+    <field name="Adres siedziby">30-302 Kraków, Królewska 142 m. 22</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600272</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP273/2022</field>
+    <field name="Nazwa">Orbis Retail Solutions 273 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-03</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-05</field>
+    <field name="KRS">0001000272</field>
+    <field name="NIP">5000012721</field>
+    <field name="Adres siedziby">ul Piękna 143/23, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600273</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP274/2023</field>
+    <field name="Nazwa">Finex Capital 274 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-04</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-06</field>
+    <field name="KRS">0001000273</field>
+    <field name="NIP">5000012738</field>
+    <field name="Adres siedziby">ulica Leśna 144/24, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600274</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP275/2024</field>
+    <field name="Nazwa">Aster Payments 275 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-05</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-07</field>
+    <field name="KRS">0001000274</field>
+    <field name="NIP">5000012744</field>
+    <field name="Adres siedziby">ul. Polna 145, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600275</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP276/2025</field>
+    <field name="Nazwa">Vistula Brokers 276 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-06</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-08</field>
+    <field name="KRS">0001000275</field>
+    <field name="NIP">5000012750</field>
+    <field name="Adres siedziby">20-819 Lublin, Szkolna 146 m. 1</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600276</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP277/2020</field>
+    <field name="Nazwa">Nova Markets 277 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-01-07</field>
+    <field name="Data wykreślenia">2025-01-07</field>
+    <field name="Data decyzji">2020-02-09</field>
+    <field name="KRS">0001000276</field>
+    <field name="NIP">5000012767</field>
+    <field name="Adres siedziby">ul Lipowa 147/2, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600277</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP278/2021</field>
+    <field name="Nazwa">Meridian Pay 278 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-02-08</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-10</field>
+    <field name="KRS">0001000277</field>
+    <field name="NIP">5000012773</field>
+    <field name="Adres siedziby">ulica Słoneczna 148/3, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600278</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP279/2022</field>
+    <field name="Nazwa">Helix Invest 279 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-03-09</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-11</field>
+    <field name="KRS">0001000278</field>
+    <field name="NIP">5000012788</field>
+    <field name="Adres siedziby">ul. Różana 149, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600279</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP280/2023</field>
+    <field name="Nazwa">Lumen Finance 280 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2023-04-10</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-12</field>
+    <field name="KRS">0001000279</field>
+    <field name="NIP">5000012796</field>
+    <field name="Adres siedziby">90-001 Łódź, Wiosenna 150 m. 5</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600280</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP281/2024</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 281 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-11</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-13</field>
+    <field name="KRS">0001000280</field>
+    <field name="NIP">5000012804</field>
+    <field name="Adres siedziby">ul Topolowa 151/6, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600281</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP282/2025</field>
+    <field name="Nazwa">Atlas Data 282 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-06-12</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-14</field>
+    <field name="KRS">0001000281</field>
+    <field name="NIP">5000012810</field>
+    <field name="Adres siedziby">ulica Bałtycka 152/7, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600282</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP283/2020</field>
+    <field name="Nazwa">Pomerania Trade 283 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-13</field>
+    <field name="Data wykreślenia">2025-07-13</field>
+    <field name="Data decyzji">2020-08-15</field>
+    <field name="KRS">0001000282</field>
+    <field name="NIP">5000012827</field>
+    <field name="Adres siedziby">ul. Jarzębinowa 153, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600283</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP284/2021</field>
+    <field name="Nazwa">Mazovia Asset 284 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-14</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-16</field>
+    <field name="KRS">0001000283</field>
+    <field name="NIP">5000012833</field>
+    <field name="Adres siedziby">60-126 Poznań, Srebrna 154 m. 9</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600284</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP285/2022</field>
+    <field name="Nazwa">Kurs Solutions 285 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-15</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-17</field>
+    <field name="KRS">0001000284</field>
+    <field name="NIP">5000012844</field>
+    <field name="Adres siedziby">ul Portowa 155/10, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600285</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP286/2023</field>
+    <field name="Nazwa">Nebula Analytics 286 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-16</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-18</field>
+    <field name="KRS">0001000285</field>
+    <field name="NIP">5000012856</field>
+    <field name="Adres siedziby">ulica Głogowska 156/11, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600286</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP287/2024</field>
+    <field name="Nazwa">Baltic Med Supply 287 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-17</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-19</field>
+    <field name="KRS">0001000286</field>
+    <field name="NIP">5000012862</field>
+    <field name="Adres siedziby">ul. Królewska 157, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600287</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP288/2025</field>
+    <field name="Nazwa">Orbis Retail Solutions 288 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-18</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-20</field>
+    <field name="KRS">0001000287</field>
+    <field name="NIP">5000012879</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Piękna 158 m. 13</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600288</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP289/2020</field>
+    <field name="Nazwa">Finex Capital 289 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-01-19</field>
+    <field name="Data wykreślenia">2025-01-19</field>
+    <field name="Data decyzji">2020-02-21</field>
+    <field name="KRS">0001000288</field>
+    <field name="NIP">5000012885</field>
+    <field name="Adres siedziby">ul Leśna 159/14, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600289</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP290/2021</field>
+    <field name="Nazwa">Aster Payments 290 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-20</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-22</field>
+    <field name="KRS">0001000289</field>
+    <field name="NIP">5000012891</field>
+    <field name="Adres siedziby">ulica Polna 160/15, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600290</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP291/2022</field>
+    <field name="Nazwa">Vistula Brokers 291 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-21</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-23</field>
+    <field name="KRS">0001000290</field>
+    <field name="NIP">5000012900</field>
+    <field name="Adres siedziby">ul. Szkolna 161, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600291</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP292/2023</field>
+    <field name="Nazwa">Nova Markets 292 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-22</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-24</field>
+    <field name="KRS">0001000291</field>
+    <field name="NIP">5000012916</field>
+    <field name="Adres siedziby">30-302 Kraków, Lipowa 162 m. 17</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600292</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP293/2024</field>
+    <field name="Nazwa">Meridian Pay 293 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-23</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-25</field>
+    <field name="KRS">0001000292</field>
+    <field name="NIP">5000012922</field>
+    <field name="Adres siedziby">ul Słoneczna 163/18, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600293</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP294/2025</field>
+    <field name="Nazwa">Helix Invest 294 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-24</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-26</field>
+    <field name="KRS">0001000293</field>
+    <field name="NIP">5000012939</field>
+    <field name="Adres siedziby">ulica Różana 164/19, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600294</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP295/2020</field>
+    <field name="Nazwa">Lumen Finance 295 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-25</field>
+    <field name="Data wykreślenia">2025-07-25</field>
+    <field name="Data decyzji">2020-08-27</field>
+    <field name="KRS">0001000294</field>
+    <field name="NIP">5000012945</field>
+    <field name="Adres siedziby">ul. Wiosenna 165, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600295</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP296/2021</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 296 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-26</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-01</field>
+    <field name="KRS">0001000295</field>
+    <field name="NIP">5000012951</field>
+    <field name="Adres siedziby">20-819 Lublin, Topolowa 166 m. 21</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600296</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP297/2022</field>
+    <field name="Nazwa">Atlas Data 297 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-27</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-02</field>
+    <field name="KRS">0001000296</field>
+    <field name="NIP">5000012968</field>
+    <field name="Adres siedziby">ul Bałtycka 167/22, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600297</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP298/2023</field>
+    <field name="Nazwa">Pomerania Trade 298 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-01</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-03</field>
+    <field name="KRS">0001000297</field>
+    <field name="NIP">5000012974</field>
+    <field name="Adres siedziby">ulica Jarzębinowa 168/23, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600298</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP299/2024</field>
+    <field name="Nazwa">Mazovia Asset 299 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-02</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-04</field>
+    <field name="KRS">0001000298</field>
+    <field name="NIP">5000012980</field>
+    <field name="Adres siedziby">ul. Srebrna 169, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600299</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP300/2025</field>
+    <field name="Nazwa">Kurs Solutions 300 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-03</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-05</field>
+    <field name="KRS">0001000299</field>
+    <field name="NIP">5000012997</field>
+    <field name="Adres siedziby">90-001 Łódź, Portowa 170 m. 25</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600300</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP301/2020</field>
+    <field name="Nazwa">Nebula Analytics 301 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-01-04</field>
+    <field name="Data wykreślenia">2025-01-04</field>
+    <field name="Data decyzji">2020-02-06</field>
+    <field name="KRS">0001000300</field>
+    <field name="NIP">5000013005</field>
+    <field name="Adres siedziby">ul Głogowska 171/1, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600301</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP302/2021</field>
+    <field name="Nazwa">Baltic Med Supply 302 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-05</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-07</field>
+    <field name="KRS">0001000301</field>
+    <field name="NIP">5000013011</field>
+    <field name="Adres siedziby">ulica Królewska 172/2, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600302</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP303/2022</field>
+    <field name="Nazwa">Orbis Retail Solutions 303 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-06</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-08</field>
+    <field name="KRS">0001000302</field>
+    <field name="NIP">5000013028</field>
+    <field name="Adres siedziby">ul. Piękna 173, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600303</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP304/2023</field>
+    <field name="Nazwa">Finex Capital 304 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-07</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-09</field>
+    <field name="KRS">0001000303</field>
+    <field name="NIP">5000013034</field>
+    <field name="Adres siedziby">60-126 Poznań, Leśna 174 m. 4</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600304</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP305/2024</field>
+    <field name="Nazwa">Aster Payments 305 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-08</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-10</field>
+    <field name="KRS">0001000304</field>
+    <field name="NIP">5000013040</field>
+    <field name="Adres siedziby">ul Polna 175/5, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600305</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP306/2025</field>
+    <field name="Nazwa">Vistula Brokers 306 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-09</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-11</field>
+    <field name="KRS">0001000305</field>
+    <field name="NIP">5000013057</field>
+    <field name="Adres siedziby">ulica Szkolna 176/6, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600306</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP307/2020</field>
+    <field name="Nazwa">Nova Markets 307 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-07-10</field>
+    <field name="Data wykreślenia">2025-07-10</field>
+    <field name="Data decyzji">2020-08-12</field>
+    <field name="KRS">0001000306</field>
+    <field name="NIP">5000013063</field>
+    <field name="Adres siedziby">ul. Lipowa 177, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600307</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP308/2021</field>
+    <field name="Nazwa">Meridian Pay 308 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-11</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-13</field>
+    <field name="KRS">0001000307</field>
+    <field name="NIP">5000013077</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Słoneczna 178 m. 8</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600308</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP309/2022</field>
+    <field name="Nazwa">Helix Invest 309 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-12</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-14</field>
+    <field name="KRS">0001000308</field>
+    <field name="NIP">5000013086</field>
+    <field name="Adres siedziby">ul Różana 179/9, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600309</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP310/2023</field>
+    <field name="Nazwa">Lumen Finance 310 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2023-10-13</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-15</field>
+    <field name="KRS">0001000309</field>
+    <field name="NIP">5000013092</field>
+    <field name="Adres siedziby">ulica Wiosenna 180/10, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600310</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP311/2024</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 311 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-14</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-16</field>
+    <field name="KRS">0001000310</field>
+    <field name="NIP">5000013100</field>
+    <field name="Adres siedziby">ul. Topolowa 1, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600311</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP312/2025</field>
+    <field name="Nazwa">Atlas Data 312 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-15</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-17</field>
+    <field name="KRS">0001000311</field>
+    <field name="NIP">5000013117</field>
+    <field name="Adres siedziby">30-302 Kraków, Bałtycka 2 m. 12</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600312</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP313/2020</field>
+    <field name="Nazwa">Pomerania Trade 313 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-16</field>
+    <field name="Data wykreślenia">2025-01-16</field>
+    <field name="Data decyzji">2020-02-18</field>
+    <field name="KRS">0001000312</field>
+    <field name="NIP">5000013123</field>
+    <field name="Adres siedziby">ul Jarzębinowa 3/13, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600313</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP314/2021</field>
+    <field name="Nazwa">Mazovia Asset 314 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-02-17</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-19</field>
+    <field name="KRS">0001000313</field>
+    <field name="NIP">5000013133</field>
+    <field name="Adres siedziby">ulica Srebrna 4/14, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600314</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP315/2022</field>
+    <field name="Nazwa">Kurs Solutions 315 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-18</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-20</field>
+    <field name="KRS">0001000314</field>
+    <field name="NIP">5000013146</field>
+    <field name="Adres siedziby">ul. Portowa 5, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600315</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP316/2023</field>
+    <field name="Nazwa">Nebula Analytics 316 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-19</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-21</field>
+    <field name="KRS">0001000315</field>
+    <field name="NIP">5000013152</field>
+    <field name="Adres siedziby">20-819 Lublin, Głogowska 6 m. 16</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600316</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP317/2024</field>
+    <field name="Nazwa">Baltic Med Supply 317 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-20</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-22</field>
+    <field name="KRS">0001000316</field>
+    <field name="NIP">5000013169</field>
+    <field name="Adres siedziby">ul Królewska 7/17, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600317</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP318/2025</field>
+    <field name="Nazwa">Orbis Retail Solutions 318 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-06-21</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-23</field>
+    <field name="KRS">0001000317</field>
+    <field name="NIP">5000013175</field>
+    <field name="Adres siedziby">ulica Piękna 8/18, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600318</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP319/2020</field>
+    <field name="Nazwa">Finex Capital 319 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-22</field>
+    <field name="Data wykreślenia">2025-07-22</field>
+    <field name="Data decyzji">2020-08-24</field>
+    <field name="KRS">0001000318</field>
+    <field name="NIP">5000013181</field>
+    <field name="Adres siedziby">ul. Leśna 9, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600319</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP320/2021</field>
+    <field name="Nazwa">Aster Payments 320 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-23</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-25</field>
+    <field name="KRS">0001000319</field>
+    <field name="NIP">5000013198</field>
+    <field name="Adres siedziby">90-001 Łódź, Polna 10 m. 20</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600320</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP321/2022</field>
+    <field name="Nazwa">Vistula Brokers 321 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-24</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-26</field>
+    <field name="KRS">0001000320</field>
+    <field name="NIP">5000013206</field>
+    <field name="Adres siedziby">ul Szkolna 11/21, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600321</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP322/2023</field>
+    <field name="Nazwa">Nova Markets 322 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-25</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-27</field>
+    <field name="KRS">0001000321</field>
+    <field name="NIP">5000013212</field>
+    <field name="Adres siedziby">ulica Lipowa 12/22, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600322</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP323/2024</field>
+    <field name="Nazwa">Meridian Pay 323 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-26</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-01</field>
+    <field name="KRS">0001000322</field>
+    <field name="NIP">5000013229</field>
+    <field name="Adres siedziby">ul. Słoneczna 13, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600323</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP324/2025</field>
+    <field name="Nazwa">Helix Invest 324 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-12-27</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-02</field>
+    <field name="KRS">0001000323</field>
+    <field name="NIP">5000013235</field>
+    <field name="Adres siedziby">60-126 Poznań, Różana 14 m. 24</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600324</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP325/2020</field>
+    <field name="Nazwa">Lumen Finance 325 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-01</field>
+    <field name="Data wykreślenia">2025-01-01</field>
+    <field name="Data decyzji">2020-02-03</field>
+    <field name="KRS">0001000324</field>
+    <field name="NIP">5000013241</field>
+    <field name="Adres siedziby">ul Wiosenna 15/25, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600325</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP326/2021</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 326 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-02-02</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-04</field>
+    <field name="KRS">0001000325</field>
+    <field name="NIP">5000013258</field>
+    <field name="Adres siedziby">ulica Topolowa 16/1, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600326</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP327/2022</field>
+    <field name="Nazwa">Atlas Data 327 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-03</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-05</field>
+    <field name="KRS">0001000326</field>
+    <field name="NIP">5000013264</field>
+    <field name="Adres siedziby">ul. Bałtycka 17, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600327</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP328/2023</field>
+    <field name="Nazwa">Pomerania Trade 328 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2023-04-04</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-06</field>
+    <field name="KRS">0001000327</field>
+    <field name="NIP">5000013270</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Jarzębinowa 18 m. 3</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600328</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP329/2024</field>
+    <field name="Nazwa">Mazovia Asset 329 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-05</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-07</field>
+    <field name="KRS">0001000328</field>
+    <field name="NIP">5000013287</field>
+    <field name="Adres siedziby">ul Srebrna 19/4, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600329</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP330/2025</field>
+    <field name="Nazwa">Kurs Solutions 330 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-06</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-08</field>
+    <field name="KRS">0001000329</field>
+    <field name="NIP">5000013293</field>
+    <field name="Adres siedziby">ulica Portowa 20/5, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600330</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP331/2020</field>
+    <field name="Nazwa">Nebula Analytics 331 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-07</field>
+    <field name="Data wykreślenia">2025-07-07</field>
+    <field name="Data decyzji">2020-08-09</field>
+    <field name="KRS">0001000330</field>
+    <field name="NIP">5000013301</field>
+    <field name="Adres siedziby">ul. Głogowska 21, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600331</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP332/2021</field>
+    <field name="Nazwa">Baltic Med Supply 332 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-08-08</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-10</field>
+    <field name="KRS">0001000331</field>
+    <field name="NIP">5000013318</field>
+    <field name="Adres siedziby">30-302 Kraków, Królewska 22 m. 7</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600332</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP333/2022</field>
+    <field name="Nazwa">Orbis Retail Solutions 333 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-09</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-11</field>
+    <field name="KRS">0001000332</field>
+    <field name="NIP">5000013324</field>
+    <field name="Adres siedziby">ul Piękna 23/8, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600333</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP334/2023</field>
+    <field name="Nazwa">Finex Capital 334 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-10</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-12</field>
+    <field name="KRS">0001000333</field>
+    <field name="NIP">5000013330</field>
+    <field name="Adres siedziby">ulica Leśna 24/9, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600334</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP335/2024</field>
+    <field name="Nazwa">Aster Payments 335 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2024-11-11</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-13</field>
+    <field name="KRS">0001000334</field>
+    <field name="NIP">5000013347</field>
+    <field name="Adres siedziby">ul. Polna 25, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600335</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP336/2025</field>
+    <field name="Nazwa">Vistula Brokers 336 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-12</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-14</field>
+    <field name="KRS">0001000335</field>
+    <field name="NIP">5000013353</field>
+    <field name="Adres siedziby">20-819 Lublin, Szkolna 26 m. 11</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600336</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP337/2020</field>
+    <field name="Nazwa">Nova Markets 337 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-13</field>
+    <field name="Data wykreślenia">2025-01-13</field>
+    <field name="Data decyzji">2020-02-15</field>
+    <field name="KRS">0001000336</field>
+    <field name="NIP">5000013366</field>
+    <field name="Adres siedziby">ul Lipowa 27/12, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600337</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP338/2021</field>
+    <field name="Nazwa">Meridian Pay 338 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-14</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-16</field>
+    <field name="KRS">0001000337</field>
+    <field name="NIP">5000013376</field>
+    <field name="Adres siedziby">ulica Słoneczna 28/13, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600338</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP339/2022</field>
+    <field name="Nazwa">Helix Invest 339 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2022-03-15</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-17</field>
+    <field name="KRS">0001000338</field>
+    <field name="NIP">5000013382</field>
+    <field name="Adres siedziby">ul. Różana 29, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600339</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP340/2023</field>
+    <field name="Nazwa">Lumen Finance 340 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-16</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-18</field>
+    <field name="KRS">0001000339</field>
+    <field name="NIP">5000013399</field>
+    <field name="Adres siedziby">90-001 Łódź, Wiosenna 30 m. 15</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600340</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP341/2024</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 341 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-17</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-19</field>
+    <field name="KRS">0001000340</field>
+    <field name="NIP">5000013407</field>
+    <field name="Adres siedziby">ul Topolowa 31/16, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600341</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP342/2025</field>
+    <field name="Nazwa">Atlas Data 342 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-18</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-20</field>
+    <field name="KRS">0001000341</field>
+    <field name="NIP">5000013413</field>
+    <field name="Adres siedziby">ulica Bałtycka 32/17, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600342</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP343/2020</field>
+    <field name="Nazwa">Pomerania Trade 343 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-19</field>
+    <field name="Data wykreślenia">2025-07-19</field>
+    <field name="Data decyzji">2020-08-21</field>
+    <field name="KRS">0001000342</field>
+    <field name="NIP">5000013422</field>
+    <field name="Adres siedziby">ul. Jarzębinowa 33, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600343</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP344/2021</field>
+    <field name="Nazwa">Mazovia Asset 344 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-20</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-22</field>
+    <field name="KRS">0001000343</field>
+    <field name="NIP">5000013436</field>
+    <field name="Adres siedziby">60-126 Poznań, Srebrna 34 m. 19</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600344</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP345/2022</field>
+    <field name="Nazwa">Kurs Solutions 345 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-21</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-23</field>
+    <field name="KRS">0001000344</field>
+    <field name="NIP">5000013442</field>
+    <field name="Adres siedziby">ul Portowa 35/20, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600345</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP346/2023</field>
+    <field name="Nazwa">Nebula Analytics 346 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-22</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-24</field>
+    <field name="KRS">0001000345</field>
+    <field name="NIP">5000013459</field>
+    <field name="Adres siedziby">ulica Głogowska 36/21, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600346</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP347/2024</field>
+    <field name="Nazwa">Baltic Med Supply 347 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2024-11-23</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-25</field>
+    <field name="KRS">0001000346</field>
+    <field name="NIP">5000013465</field>
+    <field name="Adres siedziby">ul. Królewska 37, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600347</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP348/2025</field>
+    <field name="Nazwa">Orbis Retail Solutions 348 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-24</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-26</field>
+    <field name="KRS">0001000347</field>
+    <field name="NIP">5000013471</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Piękna 38 m. 23</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600348</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP349/2020</field>
+    <field name="Nazwa">Finex Capital 349 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-25</field>
+    <field name="Data wykreślenia">2025-01-25</field>
+    <field name="Data decyzji">2020-02-27</field>
+    <field name="KRS">0001000348</field>
+    <field name="NIP">5000013488</field>
+    <field name="Adres siedziby">ul Leśna 39/24, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600349</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP350/2021</field>
+    <field name="Nazwa">Aster Payments 350 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-26</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-01</field>
+    <field name="KRS">0001000349</field>
+    <field name="NIP">5000013494</field>
+    <field name="Adres siedziby">ulica Polna 40/25, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600350</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP351/2022</field>
+    <field name="Nazwa">Vistula Brokers 351 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-03-27</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-02</field>
+    <field name="KRS">0001000350</field>
+    <field name="NIP">5000013502</field>
+    <field name="Adres siedziby">ul. Szkolna 41, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600351</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP352/2023</field>
+    <field name="Nazwa">Nova Markets 352 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-01</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-03</field>
+    <field name="KRS">0001000351</field>
+    <field name="NIP">5000013519</field>
+    <field name="Adres siedziby">30-302 Kraków, Lipowa 42 m. 2</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600352</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP353/2024</field>
+    <field name="Nazwa">Meridian Pay 353 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-02</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-04</field>
+    <field name="KRS">0001000352</field>
+    <field name="NIP">5000013525</field>
+    <field name="Adres siedziby">ul Słoneczna 43/3, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600353</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP354/2025</field>
+    <field name="Nazwa">Helix Invest 354 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-03</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-05</field>
+    <field name="KRS">0001000353</field>
+    <field name="NIP">5000013531</field>
+    <field name="Adres siedziby">ulica Różana 44/4, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600354</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP355/2020</field>
+    <field name="Nazwa">Lumen Finance 355 sp z oo</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-07-04</field>
+    <field name="Data wykreślenia">2025-07-04</field>
+    <field name="Data decyzji">2020-08-06</field>
+    <field name="KRS">0001000354</field>
+    <field name="NIP">5000013548</field>
+    <field name="Adres siedziby">ul. Wiosenna 45, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600355</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP356/2021</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 356 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-05</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-07</field>
+    <field name="KRS">0001000355</field>
+    <field name="NIP">5000013554</field>
+    <field name="Adres siedziby">20-819 Lublin, Topolowa 46 m. 6</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600356</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP357/2022</field>
+    <field name="Nazwa">Atlas Data 357 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-06</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-08</field>
+    <field name="KRS">0001000356</field>
+    <field name="NIP">5000013560</field>
+    <field name="Adres siedziby">ul Bałtycka 47/7, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600357</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP358/2023</field>
+    <field name="Nazwa">Pomerania Trade 358 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-07</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-09</field>
+    <field name="KRS">0001000357</field>
+    <field name="NIP">5000013577</field>
+    <field name="Adres siedziby">ulica Jarzębinowa 48/8, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600358</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP359/2024</field>
+    <field name="Nazwa">Mazovia Asset 359 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-08</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-10</field>
+    <field name="KRS">0001000358</field>
+    <field name="NIP">5000013583</field>
+    <field name="Adres siedziby">ul. Srebrna 49, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600359</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP360/2025</field>
+    <field name="Nazwa">Kurs Solutions 360 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-12-09</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-11</field>
+    <field name="KRS">0001000359</field>
+    <field name="NIP">5000013599</field>
+    <field name="Adres siedziby">90-001 Łódź, Portowa 50 m. 10</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600360</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP361/2020</field>
+    <field name="Nazwa">Nebula Analytics 361 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-01-10</field>
+    <field name="Data wykreślenia">2025-01-10</field>
+    <field name="Data decyzji">2020-02-12</field>
+    <field name="KRS">0001000360</field>
+    <field name="NIP">5000013608</field>
+    <field name="Adres siedziby">ul Głogowska 51/11, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600361</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP362/2021</field>
+    <field name="Nazwa">Baltic Med Supply 362 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-02-11</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-13</field>
+    <field name="KRS">0001000361</field>
+    <field name="NIP">5000013614</field>
+    <field name="Adres siedziby">ulica Królewska 52/12, 30-302 Kraków</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600362</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP363/2022</field>
+    <field name="Nazwa">Orbis Retail Solutions 363 Sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-03-12</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-14</field>
+    <field name="KRS">0001000362</field>
+    <field name="NIP">5000013620</field>
+    <field name="Adres siedziby">ul. Piękna 53, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600363</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP364/2023</field>
+    <field name="Nazwa">Finex Capital 364 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2023-04-13</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-15</field>
+    <field name="KRS">0001000363</field>
+    <field name="NIP">5000013637</field>
+    <field name="Adres siedziby">60-126 Poznań, Leśna 54 m. 14</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600364</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">AISP365/2024</field>
+    <field name="Nazwa">Aster Payments 365 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-14</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-16</field>
+    <field name="KRS">0001000364</field>
+    <field name="NIP">5000013643</field>
+    <field name="Adres siedziby">ul Polna 55/15, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600365</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP366/2025</field>
+    <field name="Nazwa">Vistula Brokers 366 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2025-06-15</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-17</field>
+    <field name="KRS">0001000365</field>
+    <field name="NIP">5000013655</field>
+    <field name="Adres siedziby">ulica Szkolna 56/16, 20-819 Lublin</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600366</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP367/2020</field>
+    <field name="Nazwa">Nova Markets 367 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-16</field>
+    <field name="Data wykreślenia">2025-07-16</field>
+    <field name="Data decyzji">2020-08-18</field>
+    <field name="KRS">0001000366</field>
+    <field name="NIP">5000013666</field>
+    <field name="Adres siedziby">ul. Lipowa 57, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600367</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">AISP368/2021</field>
+    <field name="Nazwa">Meridian Pay 368 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-08-17</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-19</field>
+    <field name="KRS">0001000367</field>
+    <field name="NIP">5000013672</field>
+    <field name="Adres siedziby">10-687 Olsztyn, Słoneczna 58 m. 18</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600368</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP369/2022</field>
+    <field name="Nazwa">Helix Invest 369 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-09-18</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-10-20</field>
+    <field name="KRS">0001000368</field>
+    <field name="NIP">5000013689</field>
+    <field name="Adres siedziby">ul Różana 59/19, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600369</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP370/2023</field>
+    <field name="Nazwa">Lumen Finance 370 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-10-19</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-11-21</field>
+    <field name="KRS">0001000369</field>
+    <field name="NIP">5000013695</field>
+    <field name="Adres siedziby">ulica Wiosenna 60/20, 90-001 Łódź</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+  <record>
+    <field name="ID">600370</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP371/2024</field>
+    <field name="Nazwa">Sfera Ubezpieczenia 371 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-11-20</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-12-22</field>
+    <field name="KRS">0001000370</field>
+    <field name="NIP">5000013703</field>
+    <field name="Adres siedziby">ul. Topolowa 61, 00-810 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
+  </record>
+  <record>
+    <field name="ID">600371</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP372/2025</field>
+    <field name="Nazwa">Atlas Data 372 sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-12-21</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-01-23</field>
+    <field name="KRS">0001000371</field>
+    <field name="NIP">5000013711</field>
+    <field name="Adres siedziby">30-302 Kraków, Bałtycka 62 m. 22</field>
+    <field name="Siedziba">Kraków</field>
+  </record>
+  <record>
+    <field name="ID">600372</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">MIP373/2020</field>
+    <field name="Nazwa">Pomerania Trade 373 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2020-01-22</field>
+    <field name="Data wykreślenia">2025-01-22</field>
+    <field name="Data decyzji">2020-02-24</field>
+    <field name="KRS">0001000372</field>
+    <field name="NIP">5000013726</field>
+    <field name="Adres siedziby">ul Jarzębinowa 63/23, 80-241 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
+  </record>
+  <record>
+    <field name="ID">600373</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">MIP374/2021</field>
+    <field name="Nazwa">Mazovia Asset 374 SP Z OO</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2021-02-23</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-03-25</field>
+    <field name="KRS">0001000373</field>
+    <field name="NIP">5000013732</field>
+    <field name="Adres siedziby">ulica Srebrna 64/24, 60-126 Poznań</field>
+    <field name="Siedziba">Poznań</field>
+  </record>
+  <record>
+    <field name="ID">600374</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">IP375/2022</field>
+    <field name="Nazwa">Kurs Solutions 375 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2022-03-24</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2022-04-26</field>
+    <field name="KRS">0001000374</field>
+    <field name="NIP">5000013749</field>
+    <field name="Adres siedziby">ul. Portowa 65, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
+  </record>
+  <record>
+    <field name="ID">600375</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP376/2023</field>
+    <field name="Nazwa">Nebula Analytics 376 spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2023-04-25</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2023-05-27</field>
+    <field name="KRS">0001000375</field>
+    <field name="NIP">5000013755</field>
+    <field name="Adres siedziby">20-819 Lublin, Głogowska 66 m. 1</field>
+    <field name="Siedziba">Lublin</field>
+  </record>
+  <record>
+    <field name="ID">600376</field>
+    <field name="Typ podmiotu">Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku</field>
+    <field name="Numer UKNF">AISP377/2024</field>
+    <field name="Nazwa">Baltic Med Supply 377 sp. z o.o.</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2024-05-26</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2024-06-01</field>
+    <field name="KRS">0001000376</field>
+    <field name="NIP">5000013761</field>
+    <field name="Adres siedziby">ul Królewska 67/2, 85-707 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
+  </record>
+  <record>
+    <field name="ID">600377</field>
+    <field name="Typ podmiotu">Krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Numer UKNF">IP378/2025</field>
+    <field name="Nazwa">Orbis Retail Solutions 378 Sp. z o.o.</field>
+    <field name="Status">Wykreślony</field>
+    <field name="Data wpisu">2025-06-27</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2025-07-02</field>
+    <field name="KRS">0001000377</field>
+    <field name="NIP">5000013778</field>
+    <field name="Adres siedziby">ulica Piękna 68/3, 10-687 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
+  </record>
+  <record>
+    <field name="ID">600378</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">MIP379/2020</field>
+    <field name="Nazwa">Finex Capital 379 SP Z OO</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2020-07-01</field>
+    <field name="Data wykreślenia">2025-07-01</field>
+    <field name="Data decyzji">2020-08-03</field>
+    <field name="KRS">0001000378</field>
+    <field name="NIP">5000013784</field>
+    <field name="Adres siedziby">ul. Leśna 69, 81-350 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
+  </record>
+  <record>
+    <field name="ID">600379</field>
+    <field name="Typ podmiotu">Mała instytucja płatnicza</field>
+    <field name="Numer UKNF">IP380/2021</field>
+    <field name="Nazwa">Aster Payments 380 sp z oo</field>
+    <field name="Status">Wpisany</field>
+    <field name="Data wpisu">2021-08-02</field>
+    <field name="Data wykreślenia"></field>
+    <field name="Data decyzji">2021-09-04</field>
+    <field name="KRS">0001000379</field>
+    <field name="NIP">5000013790</field>
+    <field name="Adres siedziby">90-001 Łódź, Polna 70 m. 5</field>
+    <field name="Siedziba">Łódź</field>
+  </record>
+</KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego>

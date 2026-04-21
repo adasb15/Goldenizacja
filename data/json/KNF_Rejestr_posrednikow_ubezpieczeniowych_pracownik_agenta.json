@@ -1,0 +1,1302 @@
+[
+  {
+    "Numer pracownika": "11400130/P",
+    "Numer agenta": "11100130/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "K. Wrona Serwis",
+    "Imię agenta": "Katarzyna",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000001309",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400131/P",
+    "Numer agenta": "11100131/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Rafał Woźniak Studio Danych",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000001315",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400132/P",
+    "Numer agenta": "11100132/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Magdalena Szymańska Konsulting",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Szymańska",
+    "Numer NIP agenta": "5000001321",
+    "Numer KRS agenta": "0001002132"
+  },
+  {
+    "Numer pracownika": "11400133/P",
+    "Numer agenta": "11100133/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Dawid Dorska Biuro Usług",
+    "Imię agenta": "Dawid",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000001338",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400134/P",
+    "Numer agenta": "11100134/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Karolina Król Konsulting",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001344",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400135/P",
+    "Numer agenta": "11100135/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "R. Krawiec Doradztwo",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Krawiec",
+    "Numer NIP agenta": "5000001350",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400136/P",
+    "Numer agenta": "11100136/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Marta Woźniak Konsulting",
+    "Imię agenta": "Marta",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000001367",
+    "Numer KRS agenta": "0001002136"
+  },
+  {
+    "Numer pracownika": "11400137/P",
+    "Numer agenta": "11100137/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Andrzej Jasieński Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000001373",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400138/P",
+    "Numer agenta": "11100138/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Marta Dorska Usługi Finansowe",
+    "Imię agenta": "Marta",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000001388",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400139/P",
+    "Numer agenta": "11100139/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Rafał Kaczmarek Usługi Finansowe",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000001396",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400140/P",
+    "Numer agenta": "11100140/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "B. Wójcik Doradztwo",
+    "Imię agenta": "Barbara",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000001404",
+    "Numer KRS agenta": "0001002140"
+  },
+  {
+    "Numer pracownika": "11400141/P",
+    "Numer agenta": "11100141/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marek Kamińska Konsulting",
+    "Imię agenta": "Marek",
+    "Nazwisko agenta": "Kamińska",
+    "Numer NIP agenta": "5000001410",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400142/P",
+    "Numer agenta": "11100142/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Paulina Zieliński Studio Danych",
+    "Imię agenta": "Paulina",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000001427",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400143/P",
+    "Numer agenta": "11100143/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Krzysztof Wrona Studio Danych",
+    "Imię agenta": "Krzysztof",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000001433",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400144/P",
+    "Numer agenta": "11100144/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Barbara Mazur Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Barbara",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000001444",
+    "Numer KRS agenta": "0001002144"
+  },
+  {
+    "Numer pracownika": "11400145/P",
+    "Numer agenta": "11100145/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "R. Kowalski Serwis",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000001456",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400146/P",
+    "Numer agenta": "11100146/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Paulina Zieliński Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Paulina",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000001462",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400147/P",
+    "Numer agenta": "11100147/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marek Kowalski Usługi Finansowe",
+    "Imię agenta": "Marek",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000001479",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400148/P",
+    "Numer agenta": "11100148/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Agnieszka Dorska Konsulting",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000001485",
+    "Numer KRS agenta": "0001002148"
+  },
+  {
+    "Numer pracownika": "11400149/P",
+    "Numer agenta": "11100149/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Patryk Milewska Studio Danych",
+    "Imię agenta": "Patryk",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000001491",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400150/P",
+    "Numer agenta": "11100150/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "K. Milewska Serwis",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000001500",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400151/P",
+    "Numer agenta": "11100151/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Dawid Jasieński Studio Danych",
+    "Imię agenta": "Dawid",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000001516",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400152/P",
+    "Numer agenta": "11100152/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Karolina Kaczmarek Usługi Finansowe",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000001522",
+    "Numer KRS agenta": "0001002152"
+  },
+  {
+    "Numer pracownika": "11400153/P",
+    "Numer agenta": "11100153/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Tomasz Król Studio Danych",
+    "Imię agenta": "Tomasz",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001539",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400154/P",
+    "Numer agenta": "11100154/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Alicja Krawiec Studio Danych",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Krawiec",
+    "Numer NIP agenta": "5000001545",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400155/P",
+    "Numer agenta": "11100155/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "M. Nowacki Instalacje",
+    "Imię agenta": "Maciej",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000001551",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400156/P",
+    "Numer agenta": "11100156/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Joanna Wiśniewski Biuro Usług",
+    "Imię agenta": "Joanna",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000001568",
+    "Numer KRS agenta": "0001002156"
+  },
+  {
+    "Numer pracownika": "11400157/P",
+    "Numer agenta": "11100157/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Paweł Wójcik Studio Danych",
+    "Imię agenta": "Paweł",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000001574",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400158/P",
+    "Numer agenta": "11100158/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Oliwia Tracz Konsulting",
+    "Imię agenta": "Oliwia",
+    "Nazwisko agenta": "Tracz",
+    "Numer NIP agenta": "5000001580",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400159/P",
+    "Numer agenta": "11100159/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Paweł Szymańska Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Paweł",
+    "Nazwisko agenta": "Szymańska",
+    "Numer NIP agenta": "5000001597",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400160/P",
+    "Numer agenta": "11100160/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "A. Mazur Serwis",
+    "Imię agenta": "Anna",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000001605",
+    "Numer KRS agenta": "0001002160"
+  },
+  {
+    "Numer pracownika": "11400161/P",
+    "Numer agenta": "11100161/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Szymon Król Konsulting",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001611",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400162/P",
+    "Numer agenta": "11100162/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Barbara Woźniak Konsulting",
+    "Imię agenta": "Barbara",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000001628",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400163/P",
+    "Numer agenta": "11100163/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Michał Król Usługi Finansowe",
+    "Imię agenta": "Michał",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001634",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400164/P",
+    "Numer agenta": "11100164/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Magdalena Szymańska Konsulting",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Szymańska",
+    "Numer NIP agenta": "5000001640",
+    "Numer KRS agenta": "0001002164"
+  },
+  {
+    "Numer pracownika": "11400165/P",
+    "Numer agenta": "11100165/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "P. Mazur Doradztwo",
+    "Imię agenta": "Paweł",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000001657",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400166/P",
+    "Numer agenta": "11100166/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Paulina Jasieński Konsulting",
+    "Imię agenta": "Paulina",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000001663",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400167/P",
+    "Numer agenta": "11100167/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Dawid Nowacki Konsulting",
+    "Imię agenta": "Dawid",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000001677",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400168/P",
+    "Numer agenta": "11100168/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Ewa Kaczmarek Usługi Finansowe",
+    "Imię agenta": "Ewa",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000001686",
+    "Numer KRS agenta": "0001002168"
+  },
+  {
+    "Numer pracownika": "11400169/P",
+    "Numer agenta": "11100169/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Paweł Duda Studio Danych",
+    "Imię agenta": "Paweł",
+    "Nazwisko agenta": "Duda",
+    "Numer NIP agenta": "5000001692",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400170/P",
+    "Numer agenta": "11100170/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "K. Mazur Instalacje",
+    "Imię agenta": "Katarzyna",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000001700",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400171/P",
+    "Numer agenta": "11100171/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Szymon Pawlik Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Pawlik",
+    "Numer NIP agenta": "5000001717",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400172/P",
+    "Numer agenta": "11100172/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Anna Woźniak Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Anna",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000001723",
+    "Numer KRS agenta": "0001002172"
+  },
+  {
+    "Numer pracownika": "11400173/P",
+    "Numer agenta": "11100173/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Patryk Wrona Usługi Finansowe",
+    "Imię agenta": "Patryk",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000001733",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400174/P",
+    "Numer agenta": "11100174/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Agnieszka Kaczmarek Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000001746",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400175/P",
+    "Numer agenta": "11100175/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "P. Tracz Serwis",
+    "Imię agenta": "Piotr",
+    "Nazwisko agenta": "Tracz",
+    "Numer NIP agenta": "5000001752",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400176/P",
+    "Numer agenta": "11100176/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Agnieszka Jasieński Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000001769",
+    "Numer KRS agenta": "0001002176"
+  },
+  {
+    "Numer pracownika": "11400177/P",
+    "Numer agenta": "11100177/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Tomasz Król Studio Danych",
+    "Imię agenta": "Tomasz",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001775",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400178/P",
+    "Numer agenta": "11100178/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Anna Pawlik Studio Danych",
+    "Imię agenta": "Anna",
+    "Nazwisko agenta": "Pawlik",
+    "Numer NIP agenta": "5000001781",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400179/P",
+    "Numer agenta": "11100179/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Maciej Duda Biuro Usług",
+    "Imię agenta": "Maciej",
+    "Nazwisko agenta": "Duda",
+    "Numer NIP agenta": "5000001798",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400180/P",
+    "Numer agenta": "11100180/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "A. Duda Doradztwo",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Duda",
+    "Numer NIP agenta": "5000001806",
+    "Numer KRS agenta": "0001002180"
+  },
+  {
+    "Numer pracownika": "11400181/P",
+    "Numer agenta": "11100181/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Szymon Król Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000001812",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400182/P",
+    "Numer agenta": "11100182/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Alicja Kaczmarek Studio Danych",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000001829",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400183/P",
+    "Numer agenta": "11100183/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marcin Nowacki Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Marcin",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000001835",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400184/P",
+    "Numer agenta": "11100184/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Paulina Cieślar Usługi Finansowe",
+    "Imię agenta": "Paulina",
+    "Nazwisko agenta": "Cieślar",
+    "Numer NIP agenta": "5000001841",
+    "Numer KRS agenta": "0001002184"
+  },
+  {
+    "Numer pracownika": "11400185/P",
+    "Numer agenta": "11100185/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "R. Wrona Doradztwo",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000001858",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400186/P",
+    "Numer agenta": "11100186/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Joanna Wiśniewski Studio Danych",
+    "Imię agenta": "Joanna",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000001864",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400187/P",
+    "Numer agenta": "11100187/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Krzysztof Wójcik Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Krzysztof",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000001870",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400188/P",
+    "Numer agenta": "11100188/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Agnieszka Milewska Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000001887",
+    "Numer KRS agenta": "0001002188"
+  },
+  {
+    "Numer pracownika": "11400189/P",
+    "Numer agenta": "11100189/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Andrzej Nowacki Studio Danych",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000001893",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400190/P",
+    "Numer agenta": "11100190/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "A. Kamińska Instalacje",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Kamińska",
+    "Numer NIP agenta": "5000001901",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400191/P",
+    "Numer agenta": "11100191/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marcin Woźniak Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Marcin",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000001918",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400192/P",
+    "Numer agenta": "11100192/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Natalia Dorska Studio Danych",
+    "Imię agenta": "Natalia",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000001924",
+    "Numer KRS agenta": "0001002192"
+  },
+  {
+    "Numer pracownika": "11400193/P",
+    "Numer agenta": "11100193/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Andrzej Kowalski Biuro Usług",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000001930",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400194/P",
+    "Numer agenta": "11100194/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Natalia Milewska Konsulting",
+    "Imię agenta": "Natalia",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000001947",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400195/P",
+    "Numer agenta": "11100195/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "A. Cieślar Doradztwo",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Cieślar",
+    "Numer NIP agenta": "5000001953",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400196/P",
+    "Numer agenta": "11100196/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Barbara Zieliński Studio Danych",
+    "Imię agenta": "Barbara",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000001966",
+    "Numer KRS agenta": "0001002196"
+  },
+  {
+    "Numer pracownika": "11400197/P",
+    "Numer agenta": "11100197/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Patryk Cieślar Biuro Usług",
+    "Imię agenta": "Patryk",
+    "Nazwisko agenta": "Cieślar",
+    "Numer NIP agenta": "5000001976",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400198/P",
+    "Numer agenta": "11100198/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Magdalena Dorska Studio Danych",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000001982",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400199/P",
+    "Numer agenta": "11100199/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Tomasz Wiśniewski Konsulting",
+    "Imię agenta": "Tomasz",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000001999",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400200/P",
+    "Numer agenta": "11100200/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "B. Dorska Instalacje",
+    "Imię agenta": "Barbara",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000002007",
+    "Numer KRS agenta": "0001002200"
+  },
+  {
+    "Numer pracownika": "11400201/P",
+    "Numer agenta": "11100201/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Łukasz Król Studio Danych",
+    "Imię agenta": "Łukasz",
+    "Nazwisko agenta": "Król",
+    "Numer NIP agenta": "5000002013",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400202/P",
+    "Numer agenta": "11100202/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Magdalena Krawiec Usługi Finansowe",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Krawiec",
+    "Numer NIP agenta": "5000002022",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400203/P",
+    "Numer agenta": "11100203/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Łukasz Woźniak Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Łukasz",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000002036",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400204/P",
+    "Numer agenta": "11100204/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Magdalena Milewska Konsulting",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000002042",
+    "Numer KRS agenta": "0001002204"
+  },
+  {
+    "Numer pracownika": "11400205/P",
+    "Numer agenta": "11100205/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "M. Wrona Instalacje",
+    "Imię agenta": "Maciej",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000002059",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400206/P",
+    "Numer agenta": "11100206/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Oliwia Mazur Usługi Finansowe",
+    "Imię agenta": "Oliwia",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002065",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400207/P",
+    "Numer agenta": "11100207/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Andrzej Mazur Studio Danych",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002071",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400208/P",
+    "Numer agenta": "11100208/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Marta Milewska Studio Danych",
+    "Imię agenta": "Marta",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000002088",
+    "Numer KRS agenta": "0001002208"
+  },
+  {
+    "Numer pracownika": "11400209/P",
+    "Numer agenta": "11100209/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Rafał Kowalski Usługi Finansowe",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000002094",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400210/P",
+    "Numer agenta": "11100210/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "K. Wójcik Doradztwo",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000002102",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400211/P",
+    "Numer agenta": "11100211/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Michał Wiśniewski Biuro Usług",
+    "Imię agenta": "Michał",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002119",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400212/P",
+    "Numer agenta": "11100212/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Renata Kaczmarek Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Renata",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000002125",
+    "Numer KRS agenta": "0001002212"
+  },
+  {
+    "Numer pracownika": "11400213/P",
+    "Numer agenta": "11100213/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Piotr Tracz Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Piotr",
+    "Nazwisko agenta": "Tracz",
+    "Numer NIP agenta": "5000002131",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400214/P",
+    "Numer agenta": "11100214/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Magdalena Pawlik Studio Danych",
+    "Imię agenta": "Magdalena",
+    "Nazwisko agenta": "Pawlik",
+    "Numer NIP agenta": "5000002148",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400215/P",
+    "Numer agenta": "11100215/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "A. Szymańska Instalacje",
+    "Imię agenta": "Andrzej",
+    "Nazwisko agenta": "Szymańska",
+    "Numer NIP agenta": "5000002154",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400216/P",
+    "Numer agenta": "11100216/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Monika Kowalski Studio Danych",
+    "Imię agenta": "Monika",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000002160",
+    "Numer KRS agenta": "0001002216"
+  },
+  {
+    "Numer pracownika": "11400217/P",
+    "Numer agenta": "11100217/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Rafał Kowalski Studio Danych",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000002177",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400218/P",
+    "Numer agenta": "11100218/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Oliwia Mazur Biuro Usług",
+    "Imię agenta": "Oliwia",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002183",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400219/P",
+    "Numer agenta": "11100219/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Dawid Kamińska Biuro Usług",
+    "Imię agenta": "Dawid",
+    "Nazwisko agenta": "Kamińska",
+    "Numer NIP agenta": "5000002199",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400220/P",
+    "Numer agenta": "11100220/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "A. Wójcik Serwis",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000002208",
+    "Numer KRS agenta": "0001002220"
+  },
+  {
+    "Numer pracownika": "11400221/P",
+    "Numer agenta": "11100221/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Szymon Wiśniewski Usługi Finansowe",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002214",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400222/P",
+    "Numer agenta": "11100222/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Agnieszka Woźniak Studio Danych",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000002220",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400223/P",
+    "Numer agenta": "11100223/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Tomasz Wiśniewski Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Tomasz",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002237",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400224/P",
+    "Numer agenta": "11100224/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Renata Szymańska Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Renata",
+    "Nazwisko agenta": "Szymańska",
+    "Numer NIP agenta": "5000002243",
+    "Numer KRS agenta": "0001002224"
+  },
+  {
+    "Numer pracownika": "11400225/P",
+    "Numer agenta": "11100225/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "D. Kowalski Instalacje",
+    "Imię agenta": "Dawid",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000002255",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400226/P",
+    "Numer agenta": "11100226/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Monika Duda Usługi Finansowe",
+    "Imię agenta": "Monika",
+    "Nazwisko agenta": "Duda",
+    "Numer NIP agenta": "5000002266",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400227/P",
+    "Numer agenta": "11100227/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Rafał Wójcik Usługi Finansowe",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000002272",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400228/P",
+    "Numer agenta": "11100228/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Agnieszka Zieliński Konsulting",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000002289",
+    "Numer KRS agenta": "0001002228"
+  },
+  {
+    "Numer pracownika": "11400229/P",
+    "Numer agenta": "11100229/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Michał Wiśniewski Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Michał",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002295",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400230/P",
+    "Numer agenta": "11100230/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "A. Tracz Instalacje",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Tracz",
+    "Numer NIP agenta": "5000002303",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400231/P",
+    "Numer agenta": "11100231/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Rafał Wrona Studio Danych",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000002311",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400232/P",
+    "Numer agenta": "11100232/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Alicja Nowacki Studio Danych",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000002326",
+    "Numer KRS agenta": "0001002232"
+  },
+  {
+    "Numer pracownika": "11400233/P",
+    "Numer agenta": "11100233/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Rafał Zieliński Biuro Usług",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000002332",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400234/P",
+    "Numer agenta": "11100234/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Joanna Zieliński Usługi Finansowe",
+    "Imię agenta": "Joanna",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000002349",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400235/P",
+    "Numer agenta": "11100235/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "K. Nowacki Instalacje",
+    "Imię agenta": "Krzysztof",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000002355",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400236/P",
+    "Numer agenta": "11100236/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Monika Jasieński Konsulting",
+    "Imię agenta": "Monika",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000002361",
+    "Numer KRS agenta": "0001002236"
+  },
+  {
+    "Numer pracownika": "11400237/P",
+    "Numer agenta": "11100237/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marcin Cieślar Konsulting",
+    "Imię agenta": "Marcin",
+    "Nazwisko agenta": "Cieślar",
+    "Numer NIP agenta": "5000002378",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400238/P",
+    "Numer agenta": "11100238/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Alicja Pawlik Biuro Usług",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Pawlik",
+    "Numer NIP agenta": "5000002384",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400239/P",
+    "Numer agenta": "11100239/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Maciej Kowalski Usługi Finansowe",
+    "Imię agenta": "Maciej",
+    "Nazwisko agenta": "Kowalski",
+    "Numer NIP agenta": "5000002390",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400240/P",
+    "Numer agenta": "11100240/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "K. Milewska Instalacje",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000002409",
+    "Numer KRS agenta": "0001002240"
+  },
+  {
+    "Numer pracownika": "11400241/P",
+    "Numer agenta": "11100241/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Szymon Wiśniewski Biuro Usług",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002415",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400242/P",
+    "Numer agenta": "11100242/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Alicja Dorska Konsulting",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000002421",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400243/P",
+    "Numer agenta": "11100243/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Jan Zieliński Studio Danych",
+    "Imię agenta": "Jan",
+    "Nazwisko agenta": "Zieliński",
+    "Numer NIP agenta": "5000002438",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400244/P",
+    "Numer agenta": "11100244/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Karolina Wrona Usługi Finansowe",
+    "Imię agenta": "Karolina",
+    "Nazwisko agenta": "Wrona",
+    "Numer NIP agenta": "5000002444",
+    "Numer KRS agenta": "0001002244"
+  },
+  {
+    "Numer pracownika": "11400245/P",
+    "Numer agenta": "11100245/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "M. Dorska Instalacje",
+    "Imię agenta": "Marek",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000002450",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400246/P",
+    "Numer agenta": "11100246/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Agnieszka Wójcik Biuro Usług",
+    "Imię agenta": "Agnieszka",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000002467",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400247/P",
+    "Numer agenta": "11100247/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Krzysztof Mazur Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Krzysztof",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002473",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400248/P",
+    "Numer agenta": "11100248/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Oliwia Jasieński Biuro Usług",
+    "Imię agenta": "Oliwia",
+    "Nazwisko agenta": "Jasieński",
+    "Numer NIP agenta": "5000002488",
+    "Numer KRS agenta": "0001002248"
+  },
+  {
+    "Numer pracownika": "11400249/P",
+    "Numer agenta": "11100249/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Szymon Milewska Usługi Finansowe",
+    "Imię agenta": "Szymon",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000002496",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400250/P",
+    "Numer agenta": "11100250/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "P. Wójcik Serwis",
+    "Imię agenta": "Paulina",
+    "Nazwisko agenta": "Wójcik",
+    "Numer NIP agenta": "5000002504",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400251/P",
+    "Numer agenta": "11100251/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Marek Woźniak Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Marek",
+    "Nazwisko agenta": "Woźniak",
+    "Numer NIP agenta": "5000002510",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400252/P",
+    "Numer agenta": "11100252/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Anna Mazur Studio Danych",
+    "Imię agenta": "Anna",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002527",
+    "Numer KRS agenta": "0001002252"
+  },
+  {
+    "Numer pracownika": "11400253/P",
+    "Numer agenta": "11100253/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Marek Kaczmarek Studio Danych",
+    "Imię agenta": "Marek",
+    "Nazwisko agenta": "Kaczmarek",
+    "Numer NIP agenta": "5000002533",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400254/P",
+    "Numer agenta": "11100254/A",
+    "Nazwa zakładu ubezpieczeń": "Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.",
+    "Nazwa agenta": "Alicja Milewska Studio Danych",
+    "Imię agenta": "Alicja",
+    "Nazwisko agenta": "Milewska",
+    "Numer NIP agenta": "5000002544",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400255/P",
+    "Numer agenta": "11100255/A",
+    "Nazwa zakładu ubezpieczeń": "UNIQA Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Ł. Nowacki Instalacje",
+    "Imię agenta": "Łukasz",
+    "Nazwisko agenta": "Nowacki",
+    "Numer NIP agenta": "5000002556",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400256/P",
+    "Numer agenta": "11100256/A",
+    "Nazwa zakładu ubezpieczeń": "INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group",
+    "Nazwa agenta": "Joanna Wiśniewski Konsulting",
+    "Imię agenta": "Joanna",
+    "Nazwisko agenta": "Wiśniewski",
+    "Numer NIP agenta": "5000002562",
+    "Numer KRS agenta": "0001002256"
+  },
+  {
+    "Numer pracownika": "11400257/P",
+    "Numer agenta": "11100257/A",
+    "Nazwa zakładu ubezpieczeń": "Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.",
+    "Nazwa agenta": "Paweł Mazur Pośrednictwo Ubezpieczeniowe",
+    "Imię agenta": "Paweł",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002579",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400258/P",
+    "Numer agenta": "11100258/A",
+    "Nazwa zakładu ubezpieczeń": "PZU SA",
+    "Nazwa agenta": "Oliwia Mazur Usługi Finansowe",
+    "Imię agenta": "Oliwia",
+    "Nazwisko agenta": "Mazur",
+    "Numer NIP agenta": "5000002585",
+    "Numer KRS agenta": ""
+  },
+  {
+    "Numer pracownika": "11400259/P",
+    "Numer agenta": "11100259/A",
+    "Nazwa zakładu ubezpieczeń": "WARTA S.A.",
+    "Nazwa agenta": "Rafał Dorska Konsulting",
+    "Imię agenta": "Rafał",
+    "Nazwisko agenta": "Dorska",
+    "Numer NIP agenta": "5000002591",
+    "Numer KRS agenta": ""
+  }
+]

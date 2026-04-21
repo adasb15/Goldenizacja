@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KNF_Rejestr_posrednikow_ubezpieczeniowych_agent>
+  <record>
+    <field name="Numer agenta">11100260/A</field>
+    <field name="Firma/Nazwa">N. Milewska Doradztwo</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002260</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Głogowska 81</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000002600</field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100261/A</field>
+    <field name="Firma/Nazwa">Patryk Zieliński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Królewska 82</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000002616</field>
+    <field name="Imię">Patryk</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100262/A</field>
+    <field name="Firma/Nazwa">Marta Tracz Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Piękna 83</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000002622</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100263/A</field>
+    <field name="Firma/Nazwa">Patryk Kamińska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Leśna 84</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000002639</field>
+    <field name="Imię">Patryk</field>
+    <field name="Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100264/A</field>
+    <field name="Firma/Nazwa">Renata Duda Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002264</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Polna 85</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000002645</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100265/A</field>
+    <field name="Firma/Nazwa">M. Milewska Instalacje</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Szkolna 86</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000002651</field>
+    <field name="Imię">Maciej</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100266/A</field>
+    <field name="Firma/Nazwa">Magdalena Pawlik Konsulting</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Lipowa 87</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000002668</field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100267/A</field>
+    <field name="Firma/Nazwa">Tomasz Mazur Studio Danych</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Słoneczna 88</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000002674</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100268/A</field>
+    <field name="Firma/Nazwa">Monika Pawlik Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002268</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Różana 89</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000002680</field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100269/A</field>
+    <field name="Firma/Nazwa">Maciej Duda Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Wiosenna 90</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000002697</field>
+    <field name="Imię">Maciej</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100270/A</field>
+    <field name="Firma/Nazwa">A. Jasieński Instalacje</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Topolowa 91</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000002705</field>
+    <field name="Imię">Agnieszka</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100271/A</field>
+    <field name="Firma/Nazwa">Szymon Milewska Konsulting</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Bałtycka 92</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000002711</field>
+    <field name="Imię">Szymon</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100272/A</field>
+    <field name="Firma/Nazwa">Monika Nowacki Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002272</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Jarzębinowa 93</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000002728</field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Nowacki</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100273/A</field>
+    <field name="Firma/Nazwa">Andrzej Wrona Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Srebrna 94</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000002734</field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100274/A</field>
+    <field name="Firma/Nazwa">Monika Nowacki Konsulting</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Portowa 95</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000002740</field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Nowacki</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100275/A</field>
+    <field name="Firma/Nazwa">J. Kaczmarek Instalacje</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Głogowska 96</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000002757</field>
+    <field name="Imię">Jan</field>
+    <field name="Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100276/A</field>
+    <field name="Firma/Nazwa">Anna Pawlik Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002276</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Królewska 97</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000002763</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100277/A</field>
+    <field name="Firma/Nazwa">Krzysztof Nowacki Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Piękna 98</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000002777</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Nowacki</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100278/A</field>
+    <field name="Firma/Nazwa">Anna Wiśniewski Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Leśna 99</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000002786</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100279/A</field>
+    <field name="Firma/Nazwa">Piotr Duda Studio Danych</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Polna 100</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000002792</field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100280/A</field>
+    <field name="Firma/Nazwa">A. Dorska Doradztwo</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002280</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Szkolna 101</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000002800</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100281/A</field>
+    <field name="Firma/Nazwa">Michał Tracz Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Lipowa 102</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000002817</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100282/A</field>
+    <field name="Firma/Nazwa">Karolina Mazur Konsulting</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Słoneczna 103</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000002823</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100283/A</field>
+    <field name="Firma/Nazwa">Piotr Wrona Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Różana 104</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000002833</field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100284/A</field>
+    <field name="Firma/Nazwa">Ewa Kowalski Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002284</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Wiosenna 105</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000002846</field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100285/A</field>
+    <field name="Firma/Nazwa">M. Pawlik Serwis</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Topolowa 106</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000002852</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100286/A</field>
+    <field name="Firma/Nazwa">Barbara Jasieński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Bałtycka 107</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000002869</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100287/A</field>
+    <field name="Firma/Nazwa">Michał Pawlik Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Jarzębinowa 108</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000002875</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100288/A</field>
+    <field name="Firma/Nazwa">Paulina Krawiec Studio Danych</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002288</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Srebrna 109</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000002881</field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Krawiec</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100289/A</field>
+    <field name="Firma/Nazwa">Maciej Kaczmarek Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Portowa 110</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000002898</field>
+    <field name="Imię">Maciej</field>
+    <field name="Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100290/A</field>
+    <field name="Firma/Nazwa">E. Krawiec Serwis</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Głogowska 111</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000002906</field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Krawiec</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100291/A</field>
+    <field name="Firma/Nazwa">Szymon Tracz Konsulting</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Królewska 112</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000002912</field>
+    <field name="Imię">Szymon</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100292/A</field>
+    <field name="Firma/Nazwa">Ewa Wójcik Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002292</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Piękna 113</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000002929</field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100293/A</field>
+    <field name="Firma/Nazwa">Tomasz Jasieński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Leśna 114</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000002935</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100294/A</field>
+    <field name="Firma/Nazwa">Renata Szymańska Konsulting</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Polna 115</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000002941</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Szymańska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100295/A</field>
+    <field name="Firma/Nazwa">T. Jasieński Instalacje</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Szkolna 116</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000002958</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100296/A</field>
+    <field name="Firma/Nazwa">Natalia Król Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002296</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Lipowa 117</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000002964</field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100297/A</field>
+    <field name="Firma/Nazwa">Krzysztof Zieliński Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Słoneczna 118</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000002970</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100298/A</field>
+    <field name="Firma/Nazwa">Alicja Jasieński Studio Danych</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Różana 119</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000002987</field>
+    <field name="Imię">Alicja</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100299/A</field>
+    <field name="Firma/Nazwa">Łukasz Król Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Wiosenna 120</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000002993</field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100300/A</field>
+    <field name="Firma/Nazwa">A. Szymańska Instalacje</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002300</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Topolowa 121</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003001</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Szymańska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100301/A</field>
+    <field name="Firma/Nazwa">Paweł Zieliński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Bałtycka 122</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003018</field>
+    <field name="Imię">Paweł</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100302/A</field>
+    <field name="Firma/Nazwa">Natalia Wiśniewski Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Jarzębinowa 123</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003024</field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100303/A</field>
+    <field name="Firma/Nazwa">Piotr Wrona Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Srebrna 124</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003030</field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100304/A</field>
+    <field name="Firma/Nazwa">Barbara Jasieński Konsulting</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002304</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Portowa 125</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003047</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100305/A</field>
+    <field name="Firma/Nazwa">M. Wrona Doradztwo</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Głogowska 126</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003053</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100306/A</field>
+    <field name="Firma/Nazwa">Karolina Duda Konsulting</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Królewska 127</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003066</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100307/A</field>
+    <field name="Firma/Nazwa">Andrzej Pawlik Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Piękna 128</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003076</field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100308/A</field>
+    <field name="Firma/Nazwa">Monika Tracz Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002308</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Leśna 129</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003082</field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100309/A</field>
+    <field name="Firma/Nazwa">Paweł Tracz Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Polna 130</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003099</field>
+    <field name="Imię">Paweł</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100310/A</field>
+    <field name="Firma/Nazwa">M. Duda Doradztwo</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Szkolna 131</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003107</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100311/A</field>
+    <field name="Firma/Nazwa">Paweł Kamińska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Lipowa 132</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003113</field>
+    <field name="Imię">Paweł</field>
+    <field name="Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100312/A</field>
+    <field name="Firma/Nazwa">Renata Tracz Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002312</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Słoneczna 133</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003122</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100313/A</field>
+    <field name="Firma/Nazwa">Szymon Kowalski Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Różana 134</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003136</field>
+    <field name="Imię">Szymon</field>
+    <field name="Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100314/A</field>
+    <field name="Firma/Nazwa">Natalia Jasieński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Wiosenna 135</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003142</field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100315/A</field>
+    <field name="Firma/Nazwa">K. Tracz Serwis</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Topolowa 136</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003159</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100316/A</field>
+    <field name="Firma/Nazwa">Marta Milewska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002316</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Bałtycka 137</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003165</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100317/A</field>
+    <field name="Firma/Nazwa">Marcin Wrona Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Jarzębinowa 138</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003171</field>
+    <field name="Imię">Marcin</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100318/A</field>
+    <field name="Firma/Nazwa">Anna Nowacki Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Srebrna 139</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003188</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Nowacki</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100319/A</field>
+    <field name="Firma/Nazwa">Paweł Dorska Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Portowa 140</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003194</field>
+    <field name="Imię">Paweł</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100320/A</field>
+    <field name="Firma/Nazwa">R. Kowalski Doradztwo</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002320</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Głogowska 141</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003202</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100321/A</field>
+    <field name="Firma/Nazwa">Andrzej Dorska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Królewska 142</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003219</field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100322/A</field>
+    <field name="Firma/Nazwa">Anna Jasieński Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Piękna 143</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003225</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100323/A</field>
+    <field name="Firma/Nazwa">Jan Dorska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Leśna 144</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003231</field>
+    <field name="Imię">Jan</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100324/A</field>
+    <field name="Firma/Nazwa">Barbara Jasieński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002324</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Polna 145</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003248</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100325/A</field>
+    <field name="Firma/Nazwa">A. Wiśniewski Doradztwo</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Szkolna 146</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003254</field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100326/A</field>
+    <field name="Firma/Nazwa">Oliwia Jasieński Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Lipowa 147</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003260</field>
+    <field name="Imię">Oliwia</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100327/A</field>
+    <field name="Firma/Nazwa">Paweł Pawlik Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Słoneczna 148</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003277</field>
+    <field name="Imię">Paweł</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100328/A</field>
+    <field name="Firma/Nazwa">Natalia Dorska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002328</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Różana 149</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003283</field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100329/A</field>
+    <field name="Firma/Nazwa">Marek Wójcik Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Wiosenna 150</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003299</field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100330/A</field>
+    <field name="Firma/Nazwa">B. Mazur Instalacje</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Topolowa 151</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003308</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100331/A</field>
+    <field name="Firma/Nazwa">Patryk Szymańska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Bałtycka 152</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003314</field>
+    <field name="Imię">Patryk</field>
+    <field name="Nazwisko">Szymańska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100332/A</field>
+    <field name="Firma/Nazwa">Karolina Kowalski Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002332</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Jarzębinowa 153</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003320</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100333/A</field>
+    <field name="Firma/Nazwa">Dawid Kaczmarek Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Srebrna 154</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003337</field>
+    <field name="Imię">Dawid</field>
+    <field name="Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100334/A</field>
+    <field name="Firma/Nazwa">Ewa Pawlik Studio Danych</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Portowa 155</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003343</field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100335/A</field>
+    <field name="Firma/Nazwa">J. Milewska Doradztwo</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Głogowska 156</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003355</field>
+    <field name="Imię">Jan</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100336/A</field>
+    <field name="Firma/Nazwa">Anna Milewska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002336</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Królewska 157</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003366</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100337/A</field>
+    <field name="Firma/Nazwa">Dawid Zieliński Studio Danych</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Piękna 158</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003372</field>
+    <field name="Imię">Dawid</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100338/A</field>
+    <field name="Firma/Nazwa">Ewa Tracz Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Leśna 159</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003389</field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100339/A</field>
+    <field name="Firma/Nazwa">Łukasz Cieślar Konsulting</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Polna 160</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003395</field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Cieślar</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100340/A</field>
+    <field name="Firma/Nazwa">M. Zieliński Instalacje</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002340</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Szkolna 161</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003403</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100341/A</field>
+    <field name="Firma/Nazwa">Jan Woźniak Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Lipowa 162</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003411</field>
+    <field name="Imię">Jan</field>
+    <field name="Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100342/A</field>
+    <field name="Firma/Nazwa">Barbara Król Konsulting</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Słoneczna 163</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003426</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100343/A</field>
+    <field name="Firma/Nazwa">Maciej Woźniak Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Różana 164</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003432</field>
+    <field name="Imię">Maciej</field>
+    <field name="Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100344/A</field>
+    <field name="Firma/Nazwa">Oliwia Dorska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002344</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Wiosenna 165</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003449</field>
+    <field name="Imię">Oliwia</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100345/A</field>
+    <field name="Firma/Nazwa">S. Kamińska Doradztwo</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Topolowa 166</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003455</field>
+    <field name="Imię">Szymon</field>
+    <field name="Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100346/A</field>
+    <field name="Firma/Nazwa">Agnieszka Pawlik Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Bałtycka 167</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003461</field>
+    <field name="Imię">Agnieszka</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100347/A</field>
+    <field name="Firma/Nazwa">Michał Zieliński Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Jarzębinowa 168</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003478</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100348/A</field>
+    <field name="Firma/Nazwa">Oliwia Wójcik Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002348</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Srebrna 169</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003484</field>
+    <field name="Imię">Oliwia</field>
+    <field name="Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100349/A</field>
+    <field name="Firma/Nazwa">Patryk Wiśniewski Studio Danych</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Portowa 170</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003490</field>
+    <field name="Imię">Patryk</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100350/A</field>
+    <field name="Firma/Nazwa">P. Woźniak Serwis</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Głogowska 171</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003509</field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100351/A</field>
+    <field name="Firma/Nazwa">Michał Zieliński Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Królewska 172</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003515</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Zieliński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100352/A</field>
+    <field name="Firma/Nazwa">Marta Kowalski Konsulting</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002352</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Piękna 173</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003521</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100353/A</field>
+    <field name="Firma/Nazwa">Michał Duda Konsulting</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Leśna 174</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003538</field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100354/A</field>
+    <field name="Firma/Nazwa">Karolina Wiśniewski Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Polna 175</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003544</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100355/A</field>
+    <field name="Firma/Nazwa">K. Tracz Instalacje</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Szkolna 176</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003550</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100356/A</field>
+    <field name="Firma/Nazwa">Renata Milewska Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002356</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Lipowa 177</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003567</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100357/A</field>
+    <field name="Firma/Nazwa">Krzysztof Kamińska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Słoneczna 178</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003573</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100358/A</field>
+    <field name="Firma/Nazwa">Renata Milewska Konsulting</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Różana 179</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003588</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100359/A</field>
+    <field name="Firma/Nazwa">Szymon Jasieński Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Wiosenna 180</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003596</field>
+    <field name="Imię">Szymon</field>
+    <field name="Nazwisko">Jasieński</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100360/A</field>
+    <field name="Firma/Nazwa">M. Tracz Doradztwo</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002360</field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Topolowa 1</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003604</field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Tracz</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100361/A</field>
+    <field name="Firma/Nazwa">Maciej Wójcik Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Bałtycka 2</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003610</field>
+    <field name="Imię">Maciej</field>
+    <field name="Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100362/A</field>
+    <field name="Firma/Nazwa">Anna Mazur Konsulting</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Jarzębinowa 3</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003627</field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100363/A</field>
+    <field name="Firma/Nazwa">Tomasz Wrona Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Srebrna 4</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003633</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100364/A</field>
+    <field name="Firma/Nazwa">Karolina Milewska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002364</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Portowa 5</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003644</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100365/A</field>
+    <field name="Firma/Nazwa">Ł. Milewska Serwis</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Głogowska 6</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003656</field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100366/A</field>
+    <field name="Firma/Nazwa">Barbara Wrona Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Królewska 7</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003662</field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100367/A</field>
+    <field name="Firma/Nazwa">Jan Wiśniewski Usługi Finansowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Piękna 8</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003679</field>
+    <field name="Imię">Jan</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100368/A</field>
+    <field name="Firma/Nazwa">Paulina Milewska Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002368</field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Leśna 9</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003685</field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100369/A</field>
+    <field name="Firma/Nazwa">Krzysztof Pawlik Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Polna 10</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003691</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100370/A</field>
+    <field name="Firma/Nazwa">R. Milewska Serwis</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Warszawa</field>
+    <field name="Ulica i numer">Szkolna 11</field>
+    <field name="Kod pocztowy">00-810</field>
+    <field name="Numer NIP">5000003700</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Milewska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100371/A</field>
+    <field name="Firma/Nazwa">Tomasz Mazur Konsulting</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Kraków</field>
+    <field name="Ulica i numer">Lipowa 12</field>
+    <field name="Kod pocztowy">30-302</field>
+    <field name="Numer NIP">5000003716</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100372/A</field>
+    <field name="Firma/Nazwa">Magdalena Wiśniewski Konsulting</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002372</field>
+    <field name="Miejscowość">Gdańsk</field>
+    <field name="Ulica i numer">Słoneczna 13</field>
+    <field name="Kod pocztowy">80-241</field>
+    <field name="Numer NIP">5000003722</field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100373/A</field>
+    <field name="Firma/Nazwa">Marek Woźniak Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Poznań</field>
+    <field name="Ulica i numer">Różana 14</field>
+    <field name="Kod pocztowy">60-126</field>
+    <field name="Numer NIP">5000003739</field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100374/A</field>
+    <field name="Firma/Nazwa">Renata Pawlik Studio Danych</field>
+    <field name="Zakład ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">Wiosenna 15</field>
+    <field name="Kod pocztowy">50-101</field>
+    <field name="Numer NIP">5000003745</field>
+    <field name="Imię">Renata</field>
+    <field name="Nazwisko">Pawlik</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100375/A</field>
+    <field name="Firma/Nazwa">P. Dorska Doradztwo</field>
+    <field name="Zakład ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Lublin</field>
+    <field name="Ulica i numer">Topolowa 16</field>
+    <field name="Kod pocztowy">20-819</field>
+    <field name="Numer NIP">5000003751</field>
+    <field name="Imię">Patryk</field>
+    <field name="Nazwisko">Dorska</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100376/A</field>
+    <field name="Firma/Nazwa">Karolina Duda Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Zakład ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS">0001002376</field>
+    <field name="Miejscowość">Bydgoszcz</field>
+    <field name="Ulica i numer">Bałtycka 17</field>
+    <field name="Kod pocztowy">85-707</field>
+    <field name="Numer NIP">5000003768</field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100377/A</field>
+    <field name="Firma/Nazwa">Piotr Duda Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Olsztyn</field>
+    <field name="Ulica i numer">Jarzębinowa 18</field>
+    <field name="Kod pocztowy">10-687</field>
+    <field name="Numer NIP">5000003774</field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100378/A</field>
+    <field name="Firma/Nazwa">Oliwia Wrona Studio Danych</field>
+    <field name="Zakład ubezpieczeń">PZU SA</field>
+    <field name="Rodzaj agenta">Dział I. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Gdynia</field>
+    <field name="Ulica i numer">Srebrna 19</field>
+    <field name="Kod pocztowy">81-350</field>
+    <field name="Numer NIP">5000003780</field>
+    <field name="Imię">Oliwia</field>
+    <field name="Nazwisko">Wrona</field>
+  </record>
+  <record>
+    <field name="Numer agenta">11100379/A</field>
+    <field name="Firma/Nazwa">Tomasz Duda Biuro Usług</field>
+    <field name="Zakład ubezpieczeń">WARTA S.A.</field>
+    <field name="Rodzaj agenta">Dział II. Rozdział I. Agent ubezpieczeniowy</field>
+    <field name="Numer KRS"></field>
+    <field name="Miejscowość">Łódź</field>
+    <field name="Ulica i numer">Portowa 20</field>
+    <field name="Kod pocztowy">90-001</field>
+    <field name="Numer NIP">5000003797</field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Duda</field>
+  </record>
+</KNF_Rejestr_posrednikow_ubezpieczeniowych_agent>

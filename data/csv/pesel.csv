@@ -1,111 +1,131 @@
-AdresKorespondencyjny,AdresZameldowania,DataUrodzenia,DrugieImie,Email,Imie,ImieMatki,ImieOjca,MiejsceUrodzenia,Nazwisko,NazwiskoRodowe,NumerDowoduOsobistego,Obywatelstwo,PESEL,Plec,Telefon
-,"20-819 Lublin, ul Topolowa 7 m.8",1981-02-03,,katarzyna.jasieński@example.test,Katarzyna,Magdalena,Marek,Lublin,Jasieński,Jasieński,BXO816184,"PL,DE",9402197912,K,+48 595 931 034
-"ul Portowa 42, 81-350 Gdynia","ul Portowa 42, 81-350 Gdynia",2001-08-05,Paulina,izabela.pawlik@example.test,Izabela,Alicja,Tomasz,Gdynia,Pawlik,Pawlik,XSN965328,PL,0122203803,K,+48 571 012 269
-"ulica Głogowska 142/1, 60-126 Poznań","ul. Głogowska 142/1, 60-126 Poznań",1967-06-27,Anna,izabela.borkowska@example.test,Izabela,Anna,Jan,Poznań,Borkowska,Borkowska,CXP182278,PL,7711112827,K,48-524-896-383
-,"50-101 Wrocław, Kazimierza Wielkiego 31",1966-11-14,Jan,magdalena.krawiec@example.test,Magdalena,Paulina,Michał,Wrocław,Krawiec,Krawiec,UUD065133,PL,9709084608,K,538726247
-,"ul. Chorzowska 26, 40-121 Katowice",1963-10-16,Mateusz,joanna.duda@example.test,Joanna,Marta,Piotr,Katowice,Duda,Nowacki,CVH619399,PL,7007168886,K,48-509-169-985
-,"ulica Bałtycka 172/15, 85-707 Bydgoszcz",1966-03-09,Karolina,,Marek,Barbara,Marek,Bydgoszcz,Krawiec,Krawiec,TGW534874,PL,8910192638,M,48-501-640-052
-,"ul Chorzowska 3, 40-121 Katowice",2002-12-26,,marta.nowacki@example.test,Marta,Katarzyna,Andrzej,Katowice,Nowacki,Zieliński,BPH375433,PL,8310183426,K,503 654 145
-"20-819 Lublin, Topolowa 67","20-819 Lublin, Topolowa 67",1967-12-10,Izabela,piotr.jasieński@example.test,Piotr,Paulina,Łukasz,Lublin,Jasieński,Jasieński,REG662994,PL,9807126139,M,568 044 369
-"ul. Jarzębinowa 131, 10-687 Olsztyn","10-687 Olsztyn, Jarzębinowa 131",1966-07-08,,izabela.milewska@example.test,Izabela,Marta,Mateusz,Olsztyn,Milewska,Milewska,DOE788957,PL,7809226491,K,48-598-687-277
-"50-101 Wrocław, Kazimierza Wielkiego 161","50-101 Wrocław, Kazimierza Wielkiego 161",1961-10-13,Michał,marek.tracz@example.test,Marek,Magdalena,Piotr,Wrocław,Tracz,Tracz,NRX893734,"PL,DE",7505116238,M,567065627
-"ul. 3 Maja 170, 35-001 Rzeszów","ul 3 Maja 170, 35-001 Rzeszów",1961-10-05,,tomasz.wiśniewska@example.test,Tomasz,Monika,Tomasz,Rzeszów,Wiśniewska,Wiśniewska,GOW452991,PL,7101097211,M,(48) 524190496
-"ulica Głogowska 176/4, 60-126 Poznań","ulica Głogowska 176/4, 60-126 Poznań",1975-02-09,Mateusz,magdalena.borkowska@example.test,Magdalena,Monika,Jan,Poznań,Borkowska,Borkowska,KAP527354,"PL,DE",8711122129,K,+48 554 948 083
-"10-687 Olsztyn, Jarzębinowa 177","10-687 Olsztyn, Jarzębinowa 177",1994-12-06,,paweł.krawiec@example.test,Paweł,Barbara,Jan,Olsztyn,Krawiec,Krawiec,YQT413435,PL,6505087625,M,524 082 400
-,"ulica Kazimierza Wielkiego 27/19, 50-101 Wrocław",1974-09-13,Paweł,paweł.kowalski@example.test,Paweł,Ewa,Paweł,Wrocław,Kowalski,Kowalski,TBT133412,"PL,DE",8806061841,M,532 812 067
-"ulica Głogowska 180/3, 60-126 Poznań","ul. Głogowska 180/3, 60-126 Poznań",1987-12-11,,ewa.cieślar@example.test,Ewa,Joanna,Piotr,Poznań,Cieślar,Cieślar,SSA490278,PL,8702184683,K,48-574-296-717
-"ul Bałtycka 85, 85-707 Bydgoszcz","ul Bałtycka 85, 85-707 Bydgoszcz",1978-08-23,Marta,andrzej.król@example.test,Andrzej,Anna,Marek,Bydgoszcz,Król,Król,WFJ808613,"PL,DE",9501152442,M,(48) 517127484
-"ul Bałtycka 99, 85-707 Bydgoszcz","85-707 Bydgoszcz, Bałtycka 99",1986-01-11,,joanna.pawlik@example.test,Joanna,Paulina,Mateusz,Bydgoszcz,Pawlik,Pawlik,UEP028951,"PL,DE",8606269318,K,+48 571 870 262
-,"ul. Konopnickiej 167, 30-302 Kraków",1969-04-17,,łukasz.borkowska@example.test,Łukasz,Izabela,Adam,Kraków,Borkowska,Borkowska,TMT379237,"PL,DE",8406218994,M,+48 547 407 482
-,"ul Konopnickiej 177, 30-302 Kraków",2002-11-27,,jan.król@example.test,Jan,Joanna,Łukasz,Kraków,Król,Król,ZOB952145,PL,9002087248,M,48-562-328-588
-,"ul. Głogowska 87/15, 60-126 Poznań",1989-12-10,Monika,katarzyna.duda@example.test,Katarzyna,Katarzyna,Marek,Poznań,Duda,Duda,PDD382675,"PL,DE",8509122479,K,(48) 586926179
-"ul. Kazimierza Wielkiego 114/28, 50-101 Wrocław","50-101 Wrocław, ul Kazimierza Wielkiego 114 m.28",1974-06-25,Paulina,marek.mazur@example.test,Marek,Anna,Adam,Wrocław,Mazur,Mazur,RIZ210205,PL,9411121992,M,(48) 539502402
-"ulica Portowa 132/15, 81-350 Gdynia","ul. Portowa 132/15, 81-350 Gdynia",1978-08-17,,karolina.nowacki@example.test,Karolina,Barbara,Marek,Gdynia,Nowacki,Lis,YRX367365,"PL,DE",0229108504,K,48-576-615-654
-,"ulica Konopnickiej 25/12, 30-302 Kraków",1974-07-28,,marta.nowacki@example.test,Marta,Izabela,Adam,Kraków,Nowacki,Nowacki,IWY455022,PL,9709186400,K,(48) 596120183
-,"81-350 Gdynia, ul Portowa 146 m.29",1960-04-10,,katarzyna.wrona@example.test,Katarzyna,Ewa,Tomasz,Gdynia,Wrona,Nowacki,PXN226838,PL,9901222336,K,+48 585 160 607
-"ul. Konopnickiej 75, 30-302 Kraków","ul. Konopnickiej 75, 30-302 Kraków",2001-03-08,,magdalena.wrona@example.test,Magdalena,Ewa,Tomasz,Kraków,Wrona,Mazur,YYU127799,PL,9908276928,K,(48) 579955271
-"00-810 Warszawa, ul Srebrna 91 m.10","ulica Srebrna 91/10, 00-810 Warszawa",1981-12-03,,paweł.nowacki@example.test,Paweł,Alicja,Piotr,Warszawa,Nowacki,Nowacki,QQT255466,PL,6306275703,M,(48) 559051518
-"ul. Topolowa 150/30, 20-819 Lublin","ulica Topolowa 150/30, 20-819 Lublin",1978-02-17,,andrzej.król@example.test,Andrzej,Magdalena,Łukasz,Lublin,Król,Król,EFF927065,PL,6810232388,M,48-537-947-383
-,"81-350 Gdynia, ul Portowa 174 m.15",1974-08-12,Katarzyna,andrzej.król@example.test,Andrzej,Anna,Michał,Gdynia,Król,Król,MCL305152,PL,9209143655,M,+48 520 472 779
-"ulica Bałtycka 141/20, 85-707 Bydgoszcz","ul. Bałtycka 141/20, 85-707 Bydgoszcz",1971-11-22,Monika,,Marek,Magdalena,Krzysztof,Bydgoszcz,Tracz,Tracz,ZQR067065,PL,7505041782,M,48-540-515-319
-"85-707 Bydgoszcz, Bałtycka 176","ul. Bałtycka 176, 85-707 Bydgoszcz",1983-07-13,,łukasz.wrona@example.test,Łukasz,Magdalena,Michał,Bydgoszcz,Wrona,Wrona,LZQ416169,"PL,DE",6802238498,M,48-528-451-154
-,"ul Portowa 115, 81-350 Gdynia",1983-06-15,Ewa,adam.zieliński@example.test,Adam,Katarzyna,Adam,Gdynia,Zieliński,Zieliński,UIH102786,PL,7711261939,M,(48) 581447394
-,"85-707 Bydgoszcz, ul Bałtycka 114 m.26",1964-05-13,Paweł,łukasz.mazur@example.test,Łukasz,Paulina,Krzysztof,Bydgoszcz,Mazur,Mazur,KUC778528,"PL,DE",6409185757,M,592268018
-"10-687 Olsztyn, ul Jarzębinowa 89 m.17","ul. Jarzębinowa 89/17, 10-687 Olsztyn",1976-11-07,Krzysztof,marek.pawlik@example.test,Marek,Izabela,Adam,Olsztyn,Pawlik,Pawlik,RJU473647,"PL,DE",7211185496,M,48-510-276-773
-,"81-350 Gdynia, Portowa 103",1979-08-01,Andrzej,krzysztof.borkowska@example.test,Krzysztof,Marta,Michał,Gdynia,Borkowska,Borkowska,LBB479748,PL,6606088642,M,+48 501 624 565
-"40-121 Katowice, Chorzowska 74","ul. Chorzowska 74, 40-121 Katowice",1998-09-05,Andrzej,krzysztof.pawlik@example.test,Krzysztof,Magdalena,Adam,Katowice,Pawlik,Pawlik,XJS588879,PL,9911202946,M,48-547-055-169
-,"35-001 Rzeszów, 3 Maja 148",2002-08-17,,karolina.kowalski@example.test,Karolina,Katarzyna,Rafał,Rzeszów,Kowalski,Kowalski,LVY497334,"PL,DE",7009217229,K,(48) 584344375
-"ul. Chorzowska 98/13, 40-121 Katowice","ul. Chorzowska 98/13, 40-121 Katowice",1966-07-11,,tomasz.tracz@example.test,Tomasz,Izabela,Marek,Katowice,Tracz,Tracz,FNU773454,"PL,DE",6205232294,M,501938026
-,"50-101 Wrocław, ul Kazimierza Wielkiego 48 m.28",1972-03-20,Karolina,piotr.krawiec@example.test,Piotr,Marta,Michał,Wrocław,Krawiec,Krawiec,DFE753046,"PL,DE",7910202758,M,48-537-454-990
-,"ul. Głogowska 41, 60-126 Poznań",1967-01-27,Katarzyna,mateusz.jasieński@example.test,Mateusz,Marta,Adam,Poznań,Jasieński,Jasieński,QOD397187,PL,0025124618,M,507 286 790
-"ulica Głogowska 1/19, 60-126 Poznań","60-126 Poznań, ul Głogowska 1 m.19",1968-12-08,Magdalena,,Anna,Ewa,Piotr,Poznań,Zieliński,Zieliński,NRM337524,PL,8212039866,K,+48 531 069 033
-,"00-810 Warszawa, ul Srebrna 63 m.13",1995-08-02,Krzysztof,jan.borkowska@example.test,Jan,Izabela,Łukasz,Warszawa,Borkowska,Borkowska,NNE462873,PL,7301059255,M,534 270 866
-"81-350 Gdynia, Portowa 166","ul Portowa 166, 81-350 Gdynia",1990-04-23,Mateusz,rafał.milewska@example.test,Rafał,Alicja,Michał,Gdynia,Milewska,Milewska,MOR544587,PL,9412274120,M,+48 571 753 556
-,"ulica Głogowska 142/19, 60-126 Poznań",1964-11-02,Joanna,andrzej.dorski@example.test,Andrzej,Katarzyna,Michał,Poznań,Dorski,Dorski,EAG875099,PL,7206087223,M,+48 577 008 860
-"00-810 Warszawa, ul Srebrna 129 m.22","ul. Srebrna 129/22, 00-810 Warszawa",1990-01-21,,,Tomasz,Katarzyna,Mateusz,Warszawa,Jasieński,Jasieński,UZK918033,PL,6609054948,M,+48 597 401 489
-"ul. Bałtycka 102/10, 85-707 Bydgoszcz","85-707 Bydgoszcz, ul Bałtycka 102 m.10",1984-07-06,Tomasz,,Karolina,Karolina,Marek,Bydgoszcz,Duda,Duda,CIE626551,"PL,DE",9607229856,K,+48 510 475 412
-"ul. Konopnickiej 27, 30-302 Kraków","30-302 Kraków, Konopnickiej 27",1977-07-10,,,Krzysztof,Magdalena,Marek,Kraków,Milewska,Milewska,PTT371240,"PL,DE",9810266315,M,565 965 756
-"10-687 Olsztyn, Jarzębinowa 123","ul Jarzębinowa 123, 10-687 Olsztyn",2000-05-08,Adam,,Rafał,Katarzyna,Łukasz,Olsztyn,Tracz,Tracz,COT796886,PL,0028194971,M,48-580-589-113
-"30-302 Kraków, ul Konopnickiej 85 m.14","ul. Konopnickiej 85/14, 30-302 Kraków",1989-04-17,,anna.jasieński@example.test,Anna,Monika,Rafał,Kraków,Jasieński,Jasieński,OKC401051,"PL,DE",7604179499,K,(48) 523828258
-"ulica Bałtycka 48/14, 85-707 Bydgoszcz","ul. Bałtycka 48/14, 85-707 Bydgoszcz",1997-02-12,Piotr,piotr.cieślar@example.test,Piotr,Karolina,Paweł,Bydgoszcz,Cieślar,Cieślar,JTS125134,PL,8810147370,M,512528669
-"40-121 Katowice, ul Chorzowska 178 m.30","ul. Chorzowska 178/30, 40-121 Katowice",1978-01-09,Katarzyna,marta.wrona@example.test,Marta,Ewa,Krzysztof,Katowice,Wrona,Duda,YYP881914,PL,9105054065,K,+48 585 807 836
-"ul. Kazimierza Wielkiego 68, 50-101 Wrocław","ul Kazimierza Wielkiego 68, 50-101 Wrocław",1966-03-25,Marta,monika.jasieński@example.test,Monika,Ewa,Piotr,Wrocław,Jasieński,Jasieński,EHE536729,"PL,DE",7504266744,K,48-546-671-168
-"ul Portowa 149, 81-350 Gdynia","ul. Portowa 149, 81-350 Gdynia",1967-03-15,Alicja,barbara.wiśniewska@example.test,Barbara,Paulina,Piotr,Gdynia,Wiśniewska,Krawiec,UJF415415,"PL,DE",0031236869,K,+48 520 643 611
-"ul. Kazimierza Wielkiego 3, 50-101 Wrocław","ul. Kazimierza Wielkiego 3, 50-101 Wrocław",1969-07-20,,marek.zieliński@example.test,Marek,Joanna,Jan,Wrocław,Zieliński,Zieliński,SXM565234,"PL,DE",6808034751,M,48-513-899-940
-"ul. Konopnickiej 76/26, 30-302 Kraków","30-302 Kraków, ul Konopnickiej 76 m.26",1992-05-21,Joanna,,Monika,Barbara,Michał,Kraków,Król,Król,RTE414183,"PL,DE",6704162163,K,528569146
-"ulica Kazimierza Wielkiego 157/10, 50-101 Wrocław","ul. Kazimierza Wielkiego 157/10, 50-101 Wrocław",1991-10-06,Jan,joanna.krawiec@example.test,Joanna,Ewa,Tomasz,Wrocław,Krawiec,Krawiec,DHX800030,PL,6812013684,K,575622086
-"60-126 Poznań, ul Głogowska 20 m.4","ulica Głogowska 20/4, 60-126 Poznań",1975-03-01,Paulina,katarzyna.duda@example.test,Katarzyna,Alicja,Piotr,Poznań,Duda,Duda,WAK064138,"PL,DE",9301132129,K,536702410
-"50-101 Wrocław, ul Kazimierza Wielkiego 22 m.17","50-101 Wrocław, ul Kazimierza Wielkiego 22 m.17",1967-09-12,,,Izabela,Ewa,Paweł,Wrocław,Król,Król,CFZ490352,PL,6410192020,K,513568044
-,"ul. Chorzowska 64, 40-121 Katowice",1985-08-01,,katarzyna.jasieński@example.test,Katarzyna,Paulina,Łukasz,Katowice,Jasieński,Jasieński,FII720999,"PL,DE",6001274641,K,48-534-768-701
-"40-121 Katowice, ul Chorzowska 64 m.26","40-121 Katowice, ul Chorzowska 64 m.26",1977-09-27,,paulina.mazur@example.test,Paulina,Karolina,Jan,Katowice,Mazur,Mazur,FFH955905,PL,9009268940,K,599293784
-"ul Srebrna 135, 00-810 Warszawa","ul Srebrna 135, 00-810 Warszawa",2000-08-21,Mateusz,adam.cieślar@example.test,Adam,Barbara,Tomasz,Warszawa,Cieślar,Cieślar,TZL392644,PL,6806233907,M,522 096 902
-,"ul. Topolowa 128, 20-819 Lublin",1990-10-21,Barbara,alicja.mazur@example.test,Alicja,Monika,Tomasz,Lublin,Mazur,Mazur,KID152621,PL,8003212453,K,581599706
-,"ulica Portowa 53/14, 81-350 Gdynia",1967-05-26,Katarzyna,łukasz.tracz@example.test,Łukasz,Monika,Paweł,Gdynia,Tracz,Tracz,RMF565270,"PL,DE",7904041813,M,547743490
-"ulica Chorzowska 106/19, 40-121 Katowice","40-121 Katowice, ul Chorzowska 106 m.19",1987-04-27,,,Marta,Ewa,Adam,Katowice,Nowacki,Nowacki,CCM868548,PL,8409149773,K,570998616
-,"ul. Topolowa 145/26, 20-819 Lublin",1979-05-09,,,Krzysztof,Izabela,Mateusz,Lublin,Mazur,Mazur,XOY546913,"PL,DE",8605138955,M,573678508
-"ul. Chorzowska 146, 40-121 Katowice","ul. Chorzowska 146, 40-121 Katowice",1978-01-13,,alicja.nowacki@example.test,Alicja,Karolina,Tomasz,Katowice,Nowacki,Milewska,VGI680072,PL,7501151828,K,(48) 529034944
-"50-101 Wrocław, ul Kazimierza Wielkiego 78 m.27","50-101 Wrocław, ul Kazimierza Wielkiego 78 m.27",1980-11-05,,,Adam,Monika,Łukasz,Wrocław,Jasieński,Jasieński,MMX099353,PL,6009227131,M,48-587-584-282
-,"ulica Chorzowska 47/29, 40-121 Katowice",1963-03-05,,,Łukasz,Paulina,Rafał,Katowice,Milewska,Milewska,WFY175250,PL,7406086031,M,+48 507 432 927
-"ul. Konopnickiej 123, 30-302 Kraków","ul. Konopnickiej 123, 30-302 Kraków",1987-11-05,Mateusz,,Marta,Magdalena,Paweł,Kraków,Cieślar,Cieślar,ZMA332309,PL,8301119700,K,582 150 648
-,"00-810 Warszawa, ul Srebrna 13 m.14",1976-09-07,Paulina,michał.jasieński@example.test,Michał,Paulina,Mateusz,Warszawa,Jasieński,Jasieński,PGW753001,PL,9505163508,M,48-519-721-811
-,"ul Głogowska 119, 60-126 Poznań",1990-07-21,Marta,anna.tracz@example.test,Anna,Katarzyna,Marek,Poznań,Tracz,Tracz,FDN979729,PL,8311117979,K,(48) 565902771
-,"ul. Srebrna 174/24, 00-810 Warszawa",1974-09-21,Izabela,izabela.kaczmarek@example.test,Izabela,Alicja,Michał,Warszawa,Kaczmarek,Kaczmarek,SOC775170,"PL,DE",9309232560,K,516 608 801
-,"ul. Jarzębinowa 168/11, 10-687 Olsztyn",1972-02-28,Marta,piotr.duda@example.test,Piotr,Monika,Jan,Olsztyn,Duda,Duda,YNB917798,"PL,DE",8906188751,M,(48) 527080869
-,"ul Bałtycka 27, 85-707 Bydgoszcz",1968-12-21,,krzysztof.król@example.test,Krzysztof,Marta,Krzysztof,Bydgoszcz,Król,Król,DYL879968,PL,8610235067,M,+48 546 081 062
-,"ulica Bałtycka 74/5, 85-707 Bydgoszcz",1974-11-23,Paulina,barbara.tracz@example.test,Barbara,Marta,Adam,Bydgoszcz,Tracz,Wiśniewska,XGJ721228,PL,7309026876,K,516064842
-,"ul Bałtycka 11, 85-707 Bydgoszcz",2002-06-11,Monika,adam.nowacki@example.test,Adam,Alicja,Andrzej,Bydgoszcz,Nowacki,Nowacki,RYU015739,PL,0030275934,M,593 056 164
-"ul. Portowa 132/15, 81-350 Gdynia","ulica Portowa 132/15, 81-350 Gdynia",1963-03-26,,,Piotr,Joanna,Krzysztof,Gdynia,Tracz,Tracz,NMO665061,PL,0124119419,M,580 919 015
-"ul Kazimierza Wielkiego 98, 50-101 Wrocław","ul. Kazimierza Wielkiego 98, 50-101 Wrocław",1973-07-21,Paulina,,Monika,Katarzyna,Tomasz,Wrocław,Wrona,Mazur,GDF908781,PL,9404057406,K,48-541-413-975
-"10-687 Olsztyn, Jarzębinowa 82","ul. Jarzębinowa 82, 10-687 Olsztyn",1998-02-27,,adam.tracz@example.test,Adam,Marta,Tomasz,Olsztyn,Tracz,Tracz,UCX108099,PL,9703196971,M,(48) 569308488
-,"ul 3 Maja 75, 35-001 Rzeszów",1983-07-16,,paulina.mazur@example.test,Paulina,Anna,Piotr,Rzeszów,Mazur,Mazur,QUI498926,"PL,DE",9201224913,K,565 918 463
-,"ul. 3 Maja 2/5, 35-001 Rzeszów",1996-10-06,,tomasz.duda@example.test,Tomasz,Marta,Łukasz,Rzeszów,Duda,Duda,FIF869904,PL,6409215600,M,(48) 513797723
-,"35-001 Rzeszów, ul 3 Maja 169 m.6",1998-09-27,,paweł.milewska@example.test,Paweł,Izabela,Łukasz,Rzeszów,Milewska,Milewska,BWQ637659,PL,7407133166,M,48-591-624-731
-"ul. Srebrna 2/4, 00-810 Warszawa","ulica Srebrna 2/4, 00-810 Warszawa",1979-10-12,Rafał,paulina.cieślar@example.test,Paulina,Katarzyna,Mateusz,Warszawa,Cieślar,Cieślar,OZW213865,"PL,DE",8007122746,K,(48) 589026012
-,"ul. Portowa 21/24, 81-350 Gdynia",1977-07-12,,,Michał,Karolina,Michał,Gdynia,Lis,Lis,WCC848955,"PL,DE",7812201941,M,48-543-937-690
-"ul. Głogowska 88/26, 60-126 Poznań","60-126 Poznań, ul Głogowska 88 m.26",1975-05-03,Łukasz,krzysztof.pawlik@example.test,Krzysztof,Barbara,Łukasz,Poznań,Pawlik,Pawlik,FPK539423,"PL,DE",8807198923,M,573334333
-,"ulica Topolowa 21/22, 20-819 Lublin",1985-11-25,Joanna,adam.krawiec@example.test,Adam,Joanna,Paweł,Lublin,Krawiec,Krawiec,WAA369155,PL,9401288901,M,594 284 347
-"ul. Konopnickiej 180/12, 30-302 Kraków","ul. Konopnickiej 180/12, 30-302 Kraków",1996-01-13,,andrzej.wiśniewska@example.test,Andrzej,Katarzyna,Mateusz,Kraków,Wiśniewska,Wiśniewska,PUD754558,PL,7110054744,M,584506159
-,"ul. Głogowska 91, 60-126 Poznań",1983-12-19,Marta,mateusz.wiśniewska@example.test,Mateusz,Katarzyna,Michał,Poznań,Wiśniewska,Wiśniewska,HVI132611,"PL,DE",6507205694,M,+48 517 800 681
-"ul. Jarzębinowa 64/15, 10-687 Olsztyn","ul. Jarzębinowa 64/15, 10-687 Olsztyn",1979-06-14,Jan,,Katarzyna,Ewa,Tomasz,Olsztyn,Lis,Wiśniewska,YEL478077,PL,7001026846,K,48-540-649-308
-,"85-707 Bydgoszcz, Bałtycka 166",1969-01-18,,jan.pawlik@example.test,Jan,Joanna,Tomasz,Bydgoszcz,Pawlik,Pawlik,OXA312073,PL,6507214924,M,+48 556 475 705
-,"20-819 Lublin, Topolowa 140",1963-11-07,Jan,ewa.król@example.test,Ewa,Izabela,Jan,Lublin,Król,Król,ZIS163009,PL,6002255078,K,+48 579 251 327
-,"ul. Srebrna 16, 00-810 Warszawa",1989-05-28,Magdalena,barbara.borkowska@example.test,Barbara,Marta,Marek,Warszawa,Borkowska,Borkowska,IRL708620,PL,6603164812,K,595935186
-,"ul 3 Maja 73, 35-001 Rzeszów",1960-04-21,Paweł,,Marek,Monika,Marek,Rzeszów,Jasieński,Jasieński,XNL094801,"PL,DE",9311031717,M,(48) 541381138
-,"85-707 Bydgoszcz, ul Bałtycka 143 m.14",1984-09-24,,izabela.mazur@example.test,Izabela,Monika,Rafał,Bydgoszcz,Mazur,Mazur,BJT082404,PL,8912227997,K,533 504 888
-,"85-707 Bydgoszcz, Bałtycka 36",1974-12-21,Marek,alicja.pawlik@example.test,Alicja,Izabela,Łukasz,Bydgoszcz,Pawlik,Pawlik,BKR925832,PL,7902197550,K,(48) 506799813
-,"ulica Kazimierza Wielkiego 147/18, 50-101 Wrocław",1987-06-12,Alicja,andrzej.milewska@example.test,Andrzej,Magdalena,Rafał,Wrocław,Milewska,Milewska,JFL979270,PL,8509143136,M,533 521 103
-,"20-819 Lublin, Topolowa 79",1984-11-09,Tomasz,magdalena.cieślar@example.test,Magdalena,Anna,Marek,Lublin,Cieślar,Cieślar,MQW157981,PL,9404079952,K,523 878 003
-"ulica Srebrna 89/12, 00-810 Warszawa","ul. Srebrna 89/12, 00-810 Warszawa",1981-08-18,Karolina,jan.lis@example.test,Jan,Izabela,Jan,Warszawa,Lis,Lis,ZGE482629,PL,7701215221,M,525188125
-"30-302 Kraków, Konopnickiej 78","ul. Konopnickiej 78, 30-302 Kraków",1991-08-05,Magdalena,tomasz.cieślar@example.test,Tomasz,Alicja,Jan,Kraków,Cieślar,Cieślar,AIN333127,PL,6603061429,M,597 573 660
-,"ulica 3 Maja 147/17, 35-001 Rzeszów",1969-08-27,Paweł,marta.jasieński@example.test,Marta,Barbara,Marek,Rzeszów,Jasieński,Jasieński,SWR266570,"PL,DE",8808271694,K,527937145
-,"ulica Portowa 22/13, 81-350 Gdynia",1960-10-16,Anna,paulina.borkowska@example.test,Paulina,Karolina,Jan,Gdynia,Borkowska,Borkowska,OCT903849,PL,8401253799,K,583022050
-"ul Portowa 23, 81-350 Gdynia","ul Portowa 23, 81-350 Gdynia",1973-12-07,,tomasz.wrona@example.test,Tomasz,Karolina,Marek,Gdynia,Wrona,Wrona,CPX946954,PL,7810223906,M,589 952 997
-"35-001 Rzeszów, ul 3 Maja 60 m.7","35-001 Rzeszów, ul 3 Maja 60 m.7",1985-12-19,,joanna.krawiec@example.test,Joanna,Alicja,Tomasz,Rzeszów,Krawiec,Krawiec,PPZ027278,PL,8911262932,K,557 608 495
-,"81-350 Gdynia, ul Portowa 17 m.9",1962-04-03,,magdalena.król@example.test,Magdalena,Anna,Krzysztof,Gdynia,Król,Król,KPX845218,"PL,DE",0029273719,K,48-523-076-810
-,"ul. Kazimierza Wielkiego 12, 50-101 Wrocław",1977-03-23,Barbara,piotr.tracz@example.test,Piotr,Alicja,Adam,Wrocław,Tracz,Tracz,KRO020701,PL,0024114285,M,(48) 560166299
-,"ul. Chorzowska 21/25, 40-121 Katowice",1989-03-10,,adam.dorski@example.test,Adam,Karolina,Adam,Katowice,Dorski,Dorski,WZD581487,PL,6512152593,M,(48) 569639382
-"ul. 3 Maja 111/14, 35-001 Rzeszów","ul. 3 Maja 111/14, 35-001 Rzeszów",1963-02-07,Jan,krzysztof.duda@example.test,Krzysztof,Izabela,Adam,Rzeszów,Duda,Duda,ORJ699733,PL,7111222276,M,+48 554 946 519
-,"60-126 Poznań, Głogowska 16",1968-01-03,,anna.borkowska@example.test,Anna,Barbara,Tomasz,Poznań,Borkowska,Dorski,ECE679692,PL,8202285623,K,578687653
-"10-687 Olsztyn, Jarzębinowa 129","ul Jarzębinowa 129, 10-687 Olsztyn",1981-09-25,,piotr.nowacki@example.test,Piotr,Monika,Paweł,Olsztyn,Nowacki,Nowacki,KNL442094,PL,9608237038,M,48-594-079-290
-"ul. Bałtycka 130, 85-707 Bydgoszcz","ul. Bałtycka 130, 85-707 Bydgoszcz",1986-07-08,Ewa,,Andrzej,Izabela,Mateusz,Bydgoszcz,Dorski,Dorski,LBU410276,"PL,DE",9905095209,M,48-574-783-667
-"ul. Kazimierza Wielkiego 98/17, 50-101 Wrocław","50-101 Wrocław, ul Kazimierza Wielkiego 98 m.17",1986-02-17,,joanna.borkowska@example.test,Joanna,Monika,Łukasz,Wrocław,Borkowska,Borkowska,IGB091093,PL,0026288074,K,591119269
+﻿PESEL,Imie,DrugieImie,Nazwisko,NazwiskoRodowe,DataUrodzenia,Plec,MiejsceUrodzenia,Obywatelstwo,ImieOjca,ImieMatki,AdresZameldowania,AdresKorespondencyjny,NumerDowoduOsobistego,Telefon,Email
+70010100001,Karolina,Anna,Jasieński,Jasieński,1970-01-01,K,Warszawa,PL;DE,Maciej,Magdalena,"ul. Topolowa 1, 00-810 Warszawa","00-810 Warszawa, skrytka 1",HHE181960,+48 500 000 000,
+71020200136,Marek,,Cieślar,Duda,1971-02-02,M,Kraków,PL,Krzysztof,Alicja,"30-302 Kraków, Bałtycka 2 m. 2",,ARG863794,+48 500 000 001,marek.cieslar@example.test
+72030300247,Marta,,Wrona,Wrona,1972-03-03,K,Gdańsk,PL,Maciej,Barbara,"ul Jarzębinowa 3/3, 80-241 Gdańsk",,KIE351161,(48) 500000002,marta.wrona@example.test
+73040400372,Dawid,Paweł,Wiśniewski,Pawlik,1973-04-04,M,Poznań,PL,Marcin,Anna,"ulica Srebrna 4/4, 60-126 Poznań",,XOR161849,(48) 500000003,dawid.wisniewski@example.test
+74050500483,Alicja,,Cieślar,Cieślar,1974-05-05,K,Wrocław,PL,Maciej,Katarzyna,"ul. Portowa 5, 50-101 Wrocław","50-101 Wrocław, skrytka 5",BVH413164,48-500-000-004,alicja.cieslar@example.test
+75060600518,Szymon,,Wiśniewski,Wrona,1975-06-06,M,Lublin,PL,Michał,Ewa,"20-819 Lublin, Głogowska 6 m. 6",,GVI192832,48-500-000-005,szymon.wisniewski@example.test
+76070700629,Barbara,Patryk,Pawlik,Pawlik,1976-07-07,K,Bydgoszcz,PL,Szymon,Paulina,"ul Królewska 7/7, 85-707 Bydgoszcz",,RHV503056,(48) 500000006,barbara.pawlik@example.test
+77080800754,Marek,,Cieślar,Mazur,1977-08-08,M,Olsztyn,PL,Patryk,Paulina,"ulica Piękna 8/8, 10-687 Olsztyn",,KGU767242,500000007,
+78090900865,Paulina,,Kaczmarek,Kaczmarek,1978-09-09,K,Gdynia,PL,Krzysztof,Magdalena,"ul. Leśna 9, 81-350 Gdynia","81-350 Gdynia, skrytka 9",XSN965328,48-500-000-008,paulina.kaczmarek@example.test
+79101000992,Marek,Marcin,Nowacki,Jasieński,1979-10-10,M,Łódź,PL;DE,Tomasz,Karolina,"90-001 Łódź, Polna 10 m. 10",,FZV691669,48-500-000-009,marek.nowacki@example.test
+80111101003,Renata,,Pawlik,Pawlik,1980-11-11,K,Warszawa,PL,Krzysztof,Natalia,"ul Szkolna 11/11, 00-810 Warszawa",,AVX184514,48-500-000-010,renata.pawlik@example.test
+81121201138,Tomasz,,Zieliński,Krawiec,1981-12-12,M,Kraków,PL,Maciej,Oliwia,"ulica Lipowa 12/12, 30-302 Kraków",,XIQ281489,500000011,tomasz.zielinski@example.test
+82011301244,Joanna,Łukasz,Wiśniewski,Wiśniewski,1982-01-13,K,Gdańsk,PL,Tomasz,Renata,"ul. Słoneczna 13, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13",YQA957015,(48) 500000012,joanna.wisniewski@example.test
+83021401379,Andrzej,,Nowacki,Duda,1983-02-14,M,Poznań,PL,Patryk,Alicja,"60-126 Poznań, Różana 14 m. 14",,CCX718227,500 000 013,andrzej.nowacki@example.test
+84031501480,Joanna,,Pawlik,Pawlik,1984-03-15,K,Wrocław,PL,Krzysztof,Natalia,"ul Wiosenna 15/15, 50-101 Wrocław",,TNG834657,500 000 014,
+85041601515,Jan,Monika,Jasieński,Duda,1985-04-16,M,Lublin,PL,Marek,Ewa,"ulica Topolowa 16/16, 20-819 Lublin",,ASR393010,500000015,jan.jasienski@example.test
+86051701626,Katarzyna,,Nowacki,Nowacki,1986-05-17,K,Bydgoszcz,PL,Dawid,Ewa,"ul. Bałtycka 17, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17",CQH473829,500 000 016,katarzyna.nowacki@example.test
+87061801751,Jan,,Duda,Szymańska,1987-06-18,M,Olsztyn,PL,Marcin,Barbara,"10-687 Olsztyn, Jarzębinowa 18 m. 18",,GDD656670,+48 500 000 017,jan.duda@example.test
+88071901862,Anna,Krzysztof,Wójcik,Wójcik,1988-07-19,K,Gdynia,PL;DE,Michał,Marta,"ul Srebrna 19/19, 81-350 Gdynia",,DHG387262,(48) 500000018,anna.wojcik@example.test
+89082001996,Jan,,Duda,Milewska,1989-08-20,M,Łódź,PL,Jan,Marta,"ulica Portowa 20/20, 90-001 Łódź",,RDB801326,48-500-000-019,jan.duda@example.test
+90092102007,Monika,,Cieślar,Cieślar,1990-09-21,K,Warszawa,PL,Dawid,Barbara,"ul. Głogowska 21, 00-810 Warszawa","00-810 Warszawa, skrytka 21",BFM064746,500 000 020,monika.cieslar@example.test
+91102202135,Szymon,Magdalena,Szymańska,Cieślar,1991-10-22,M,Kraków,PL,Paweł,Agnieszka,"30-302 Kraków, Królewska 22 m. 22",,BSX805009,48-500-000-021,
+92112302246,Renata,,Woźniak,Woźniak,1992-11-23,K,Gdańsk,PL,Tomasz,Anna,"ul Piękna 23/23, 80-241 Gdańsk",,QCF191361,500 000 022,renata.wozniak@example.test
+93122402371,Andrzej,,Mazur,Król,1993-12-24,M,Poznań,PL,Piotr,Alicja,"ulica Leśna 24/24, 60-126 Poznań",,CNV998543,(48) 500000023,andrzej.mazur@example.test
+94012502487,Agnieszka,Marta,Pawlik,Pawlik,1994-01-25,K,Wrocław,PL,Tomasz,Karolina,"ul. Polna 25, 50-101 Wrocław","50-101 Wrocław, skrytka 25",UJO510799,+48 500 000 024,agnieszka.pawlik@example.test
+95022602512,Marek,,Kaczmarek,Cieślar,1995-02-26,M,Lublin,PL,Krzysztof,Magdalena,"20-819 Lublin, Szkolna 26 m. 1",,ELC354278,(48) 500000025,marek.kaczmarek@example.test
+96032702623,Alicja,,Woźniak,Woźniak,1996-03-27,K,Bydgoszcz,PL,Piotr,Karolina,"ul Lipowa 27/2, 85-707 Bydgoszcz",,RJV124118,500000026,alicja.wozniak@example.test
+97040102751,Paweł,Paweł,Tracz,Cieślar,1997-04-01,M,Olsztyn,PL;DE,Maciej,Ewa,"ulica Słoneczna 28/3, 10-687 Olsztyn",,GVU487401,48-500-000-027,paweł.tracz@example.test
+98050202862,Natalia,,Pawlik,Pawlik,1998-05-02,K,Gdynia,PL,Piotr,Anna,"ul. Różana 29, 81-350 Gdynia","81-350 Gdynia, skrytka 29",KYE427868,+48 500 000 028,
+99060302997,Marek,,Milewska,Dorska,1999-06-03,M,Łódź,PL,Krzysztof,Anna,"90-001 Łódź, Wiosenna 30 m. 5",,LSR262045,+48 500 000 029,marek.milewska@example.test
+70070403001,Oliwia,Barbara,Wiśniewski,Wiśniewski,1970-07-04,K,Warszawa,PL,Szymon,Agnieszka,"ul Topolowa 31/6, 00-810 Warszawa",,VDL869232,500000030,oliwia.wisniewski@example.test
+71080503136,Patryk,,Kamińska,Krawiec,1971-08-05,M,Kraków,PL,Tomasz,Paulina,"ulica Bałtycka 32/7, 30-302 Kraków",,KZN342160,48-500-000-031,patryk.kaminska@example.test
+72090603247,Agnieszka,,Cieślar,Cieślar,1972-09-06,K,Gdańsk,PL,Dawid,Oliwia,"ul. Jarzębinowa 33, 80-241 Gdańsk","80-241 Gdańsk, skrytka 33",OLJ330365,(48) 500000032,agnieszka.cieslar@example.test
+73100703375,Dawid,Łukasz,Milewska,Pawlik,1973-10-07,M,Poznań,PL,Michał,Karolina,"60-126 Poznań, Srebrna 34 m. 9",,QMV850142,500 000 033,dawid.milewska@example.test
+74110803486,Magdalena,,Nowacki,Nowacki,1974-11-08,K,Wrocław,PL,Marek,Alicja,"ul Portowa 35/10, 50-101 Wrocław",,NLX569816,500 000 034,magdalena.nowacki@example.test
+75120903511,Andrzej,,Pawlik,Nowacki,1975-12-09,M,Lublin,PL,Maciej,Barbara,"ulica Głogowska 36/11, 20-819 Lublin",,AQZ835615,500 000 035,
+76011003626,Ewa,Krzysztof,Jasieński,Jasieński,1976-01-10,K,Bydgoszcz,PL;DE,Patryk,Magdalena,"ul. Królewska 37, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 37",QJV656482,500000036,ewa.jasienski@example.test
+77021103751,Rafał,,Wójcik,Wrona,1977-02-11,M,Olsztyn,PL,Łukasz,Alicja,"10-687 Olsztyn, Piękna 38 m. 13",,JMR044369,500 000 037,rafał.wojcik@example.test
+78031203862,Karolina,,Kowalski,Kowalski,1978-03-12,K,Gdynia,PL,Jan,Monika,"ul Leśna 39/14, 81-350 Gdynia",,OVG872148,500 000 038,karolina.kowalski@example.test
+79041303997,Michał,Maciej,Milewska,Duda,1979-04-13,M,Łódź,PL,Szymon,Magdalena,"ulica Polna 40/15, 90-001 Łódź",,HZG200379,+48 500 000 039,michał.milewska@example.test
+80051404008,Monika,,Kamińska,Kamińska,1980-05-14,K,Warszawa,PL,Patryk,Karolina,"ul. Szkolna 41, 00-810 Warszawa","00-810 Warszawa, skrytka 41",SGW676320,+48 500 000 040,monika.kaminska@example.test
+81061504133,Marcin,,Kamińska,Duda,1981-06-15,M,Kraków,PL,Tomasz,Marta,"30-302 Kraków, Lipowa 42 m. 17",,WQO083172,48-500-000-041,marcin.kaminska@example.test
+82071604244,Karolina,Tomasz,Woźniak,Woźniak,1982-07-16,K,Gdańsk,PL,Łukasz,Ewa,"ul Słoneczna 43/18, 80-241 Gdańsk",,YOT868727,48-500-000-042,
+83081704379,Paweł,,Duda,Pawlik,1983-08-17,M,Poznań,PL,Marcin,Marta,"ulica Różana 44/19, 60-126 Poznań",,QPU347143,(48) 500000043,paweł.duda@example.test
+84091804480,Ewa,,Kowalski,Kowalski,1984-09-18,K,Wrocław,PL,Patryk,Renata,"ul. Wiosenna 45, 50-101 Wrocław","50-101 Wrocław, skrytka 45",CEE362316,48-500-000-044,ewa.kowalski@example.test
+85101904518,Michał,Oliwia,Kaczmarek,Kamińska,1985-10-19,M,Lublin,PL;DE,Piotr,Agnieszka,"20-819 Lublin, Topolowa 46 m. 21",,NMY909670,(48) 500000045,michał.kaczmarek@example.test
+86112004628,Magdalena,,Wójcik,Wójcik,1986-11-20,K,Bydgoszcz,PL,Dawid,Oliwia,"ul Bałtycka 47/22, 85-707 Bydgoszcz",,NRX893734,48-500-000-046,magdalena.wojcik@example.test
+87122104753,Jan,,Krawiec,Wójcik,1987-12-21,M,Olsztyn,PL,Michał,Karolina,"ulica Jarzębinowa 48/23, 10-687 Olsztyn",,VZM272980,48-500-000-047,jan.krawiec@example.test
+88012204869,Alicja,Rafał,Mazur,Mazur,1988-01-22,K,Gdynia,PL,Piotr,Katarzyna,"ul. Srebrna 49, 81-350 Gdynia","81-350 Gdynia, skrytka 49",UNE720465,500000048,alicja.mazur@example.test
+89022304994,Jan,,Kowalski,Kowalski,1989-02-23,M,Łódź,PL,Marcin,Oliwia,"90-001 Łódź, Portowa 50 m. 25",,MIY641708,+48 500 000 049,
+90032405005,Ewa,,Duda,Duda,1990-03-24,K,Warszawa,PL,Szymon,Katarzyna,"ul Głogowska 51/1, 00-810 Warszawa",,YUB033092,500000050,ewa.duda@example.test
+91042505130,Tomasz,Rafał,Szymańska,Jasieński,1991-04-25,M,Kraków,PL,Łukasz,Agnieszka,"ulica Królewska 52/2, 30-302 Kraków",,OWI529912,(48) 500000051,tomasz.szymanska@example.test
+92052605241,Katarzyna,,Mazur,Mazur,1992-05-26,K,Gdańsk,PL,Piotr,Oliwia,"ul. Piękna 53, 80-241 Gdańsk","80-241 Gdańsk, skrytka 3",JSV663193,+48 500 000 052,katarzyna.mazur@example.test
+93062705376,Maciej,,Tracz,Król,1993-06-27,M,Poznań,PL,Marcin,Katarzyna,"60-126 Poznań, Leśna 54 m. 4",,ZSZ058651,500 000 053,maciej.tracz@example.test
+94070105480,Karolina,Anna,Kowalski,Kowalski,1994-07-01,K,Wrocław,PL;DE,Dawid,Barbara,"ul Polna 55/5, 50-101 Wrocław",,PDN572628,(48) 500000054,karolina.kowalski@example.test
+95080205515,Łukasz,,Kaczmarek,Szymańska,1995-08-02,M,Lublin,PL,Jan,Barbara,"ulica Szkolna 56/6, 20-819 Lublin",,XSI531473,48-500-000-055,łukasz.kaczmarek@example.test
+96090305626,Alicja,,Król,Król,1996-09-03,K,Bydgoszcz,PL,Szymon,Barbara,"ul. Lipowa 57, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 7",KAP527354,(48) 500000056,
+97100405754,Paweł,Jan,Król,Pawlik,1997-10-04,M,Olsztyn,PL,Krzysztof,Anna,"10-687 Olsztyn, Słoneczna 58 m. 8",,QGC367837,48-500-000-057,paweł.krol@example.test
+98110505865,Monika,,Krawiec,Krawiec,1998-11-05,K,Gdynia,PL,Marek,Magdalena,"ul Różana 59/9, 81-350 Gdynia",,HMW349578,500 000 058,monika.krawiec@example.test
+99120605990,Michał,,Kamińska,Kaczmarek,1999-12-06,M,Łódź,PL,Michał,Ewa,"ulica Wiosenna 60/10, 90-001 Łódź",,WOI443135,+48 500 000 059,michał.kaminska@example.test
+70010706009,Paulina,Łukasz,Kaczmarek,Kaczmarek,1970-01-07,K,Warszawa,PL,Maciej,Joanna,"ul. Topolowa 61, 00-810 Warszawa","00-810 Warszawa, skrytka 11",GGX749894,+48 500 000 060,paulina.kaczmarek@example.test
+71020806134,Dawid,,Cieślar,Tracz,1971-02-08,M,Kraków,PL,Andrzej,Ewa,"30-302 Kraków, Bałtycka 62 m. 12",,FJA824008,(48) 500000061,dawid.cieslar@example.test
+72030906245,Paulina,,Dorska,Dorska,1972-03-09,K,Gdańsk,PL,Szymon,Natalia,"ul Jarzębinowa 63/13, 80-241 Gdańsk",,YPD094777,(48) 500000062,paulina.dorska@example.test
+73041006379,Tomasz,Renata,Nowacki,Szymańska,1973-04-10,M,Poznań,PL;DE,Marek,Natalia,"ulica Srebrna 64/14, 60-126 Poznań",,CMP190229,(48) 500000063,
+74051106480,Katarzyna,,Duda,Duda,1974-05-11,K,Wrocław,PL,Marek,Renata,"ul. Portowa 65, 50-101 Wrocław","50-101 Wrocław, skrytka 15",YNT993867,48-500-000-064,katarzyna.duda@example.test
+75061206515,Paweł,,Mazur,Kamińska,1975-06-12,M,Lublin,PL,Paweł,Alicja,"20-819 Lublin, Głogowska 66 m. 16",,TBT133412,500000065,paweł.mazur@example.test
+76071306626,Joanna,Joanna,Kaczmarek,Kaczmarek,1976-07-13,K,Bydgoszcz,PL,Tomasz,Anna,"ul Królewska 67/17, 85-707 Bydgoszcz",,NOW974034,(48) 500000066,joanna.kaczmarek@example.test
+77081406751,Maciej,,Zieliński,Milewska,1977-08-14,M,Olsztyn,PL,Szymon,Agnieszka,"ulica Piękna 68/18, 10-687 Olsztyn",,IZZ936183,500000067,maciej.zielinski@example.test
+78091506862,Oliwia,,Pawlik,Pawlik,1978-09-15,K,Gdynia,PL,Dawid,Joanna,"ul. Leśna 69, 81-350 Gdynia","81-350 Gdynia, skrytka 19",CBF499471,48-500-000-068,oliwia.pawlik@example.test
+79101606990,Maciej,Jan,Tracz,Wójcik,1979-10-16,M,Łódź,PL,Paweł,Renata,"90-001 Łódź, Polna 70 m. 20",,RPO190659,(48) 500000069,maciej.tracz@example.test
+80111707001,Anna,,Milewska,Milewska,1980-11-17,K,Warszawa,PL,Andrzej,Karolina,"ul Szkolna 71/21, 00-810 Warszawa",,SSA490278,48-500-000-070,
+81121807136,Patryk,,Pawlik,Wrona,1981-12-18,M,Kraków,PL,Łukasz,Barbara,"ulica Lipowa 72/22, 30-302 Kraków",,UPC756551,500000071,patryk.pawlik@example.test
+82011907242,Ewa,Jan,Kamińska,Kamińska,1982-01-19,K,Gdańsk,PL;DE,Jan,Magdalena,"ul. Słoneczna 73, 80-241 Gdańsk","80-241 Gdańsk, skrytka 23",VMY807154,(48) 500000072,ewa.kaminska@example.test
+83022007376,Marek,,Wójcik,Woźniak,1983-02-20,M,Poznań,PL,Dawid,Anna,"60-126 Poznań, Różana 74 m. 24",,VRO603859,48-500-000-073,marek.wojcik@example.test
+84032107487,Karolina,,Zieliński,Zieliński,1984-03-21,K,Wrocław,PL,Marcin,Anna,"ul Wiosenna 75/25, 50-101 Wrocław",,GIR247710,500 000 074,karolina.zielinski@example.test
+85042207512,Marcin,Jan,Duda,Wrona,1985-04-22,M,Lublin,PL,Paweł,Renata,"ulica Topolowa 76/1, 20-819 Lublin",,ARN131712,48-500-000-075,marcin.duda@example.test
+86052307623,Oliwia,,Tracz,Tracz,1986-05-23,K,Bydgoszcz,PL,Krzysztof,Paulina,"ul. Bałtycka 77, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 27",INP737826,500000076,oliwia.tracz@example.test
+87062407758,Patryk,,Król,Woźniak,1987-06-24,M,Olsztyn,PL,Maciej,Oliwia,"10-687 Olsztyn, Jarzębinowa 78 m. 3",,ECI658404,(48) 500000077,
+88072507869,Natalia,Andrzej,Mazur,Mazur,1988-07-25,K,Gdynia,PL,Szymon,Monika,"ul Srebrna 79/4, 81-350 Gdynia",,EOR755886,48-500-000-078,natalia.mazur@example.test
+89082607994,Patryk,,Kowalski,Cieślar,1989-08-26,M,Łódź,PL,Maciej,Agnieszka,"ulica Portowa 80/5, 90-001 Łódź",,SMH605766,500000079,patryk.kowalski@example.test
+90092708005,Monika,,Nowacki,Nowacki,1990-09-27,K,Warszawa,PL,Tomasz,Renata,"ul. Głogowska 81, 00-810 Warszawa","00-810 Warszawa, skrytka 31",SKD718702,48-500-000-080,monika.nowacki@example.test
+91100108136,Dawid,Joanna,Dorska,Szymańska,1991-10-01,M,Kraków,PL;DE,Marcin,Magdalena,"30-302 Kraków, Królewska 82 m. 7",,KTW615865,48-500-000-081,dawid.dorska@example.test
+92110208247,Natalia,,Kaczmarek,Kaczmarek,1992-11-02,K,Gdańsk,PL,Piotr,Alicja,"ul Piękna 83/8, 80-241 Gdańsk",,CHU431611,48-500-000-082,natalia.kaczmarek@example.test
+93120308372,Tomasz,,Tracz,Krawiec,1993-12-03,M,Poznań,PL,Piotr,Ewa,"ulica Leśna 84/9, 60-126 Poznań",,ZBJ556238,48-500-000-083,tomasz.tracz@example.test
+94010408488,Alicja,Ewa,Wrona,Wrona,1994-01-04,K,Wrocław,PL,Tomasz,Katarzyna,"ul. Polna 85, 50-101 Wrocław","50-101 Wrocław, skrytka 35",TMT379237,(48) 500000084,
+95020508513,Jan,,Pawlik,Krawiec,1995-02-05,M,Lublin,PL,Patryk,Marta,"20-819 Lublin, Szkolna 86 m. 11",,OJV821759,(48) 500000085,jan.pawlik@example.test
+96030608624,Karolina,,Kamińska,Kamińska,1996-03-06,K,Bydgoszcz,PL,Maciej,Magdalena,"ul Lipowa 87/12, 85-707 Bydgoszcz",,OJG671369,(48) 500000086,karolina.kaminska@example.test
+97040708759,Łukasz,Jan,Tracz,Tracz,1997-04-07,M,Olsztyn,PL,Piotr,Natalia,"ulica Słoneczna 88/13, 10-687 Olsztyn",,VMI090974,500000087,łukasz.tracz@example.test
+98050808860,Alicja,,Wiśniewski,Wiśniewski,1998-05-08,K,Gdynia,PL,Andrzej,Karolina,"ul. Różana 89, 81-350 Gdynia","81-350 Gdynia, skrytka 39",GTI210470,500 000 088,alicja.wisniewski@example.test
+99060908995,Michał,,Dorska,Milewska,1999-06-09,M,Łódź,PL,Patryk,Magdalena,"90-001 Łódź, Wiosenna 90 m. 15",,KXN232858,500 000 089,michał.dorska@example.test
+70071009008,Oliwia,Maciej,Pawlik,Pawlik,1970-07-10,K,Warszawa,PL;DE,Tomasz,Magdalena,"ul Topolowa 91/16, 00-810 Warszawa",,PZJ517123,48-500-000-090,oliwia.pawlik@example.test
+71081109133,Dawid,,Kaczmarek,Wiśniewski,1971-08-11,M,Kraków,PL,Marek,Marta,"ulica Bałtycka 92/17, 30-302 Kraków",,MAI817549,48-500-000-091,
+72091209244,Natalia,,Wiśniewski,Wiśniewski,1972-09-12,K,Gdańsk,PL,Marek,Karolina,"ul. Jarzębinowa 93, 80-241 Gdańsk","80-241 Gdańsk, skrytka 43",HPA985931,48-500-000-092,natalia.wisniewski@example.test
+73101309372,Patryk,Michał,Tracz,Kamińska,1973-10-13,M,Poznań,PL,Marek,Joanna,"60-126 Poznań, Srebrna 94 m. 19",,BBJ711382,48-500-000-093,patryk.tracz@example.test
+74111409483,Monika,,Wiśniewski,Wiśniewski,1974-11-14,K,Wrocław,PL,Szymon,Paulina,"ul Portowa 95/20, 50-101 Wrocław",,WRN926179,48-500-000-094,monika.wisniewski@example.test
+75121509518,Paweł,,Nowacki,Wiśniewski,1975-12-15,M,Lublin,PL,Andrzej,Monika,"ulica Głogowska 96/21, 20-819 Lublin",,OHL158506,(48) 500000095,paweł.nowacki@example.test
+76011609624,Agnieszka,Marcin,Jasieński,Jasieński,1976-01-16,K,Bydgoszcz,PL,Dawid,Monika,"ul. Królewska 97, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 47",CVG900532,500 000 096,agnieszka.jasienski@example.test
+77021709759,Andrzej,,Milewska,Kaczmarek,1977-02-17,M,Olsztyn,PL,Andrzej,Alicja,"10-687 Olsztyn, Piękna 98 m. 23",,GHK290422,500 000 097,andrzej.milewska@example.test
+78031809860,Magdalena,,Wrona,Wrona,1978-03-18,K,Gdynia,PL,Marek,Karolina,"ul Leśna 99/24, 81-350 Gdynia",,AEA539502,(48) 500000098,
+79041909995,Piotr,Krzysztof,Dorska,Kamińska,1979-04-19,M,Łódź,PL;DE,Krzysztof,Katarzyna,"ulica Polna 100/25, 90-001 Łódź",,XCP758917,500 000 099,piotr.dorska@example.test
+80052010008,Agnieszka,,Król,Król,1980-05-20,K,Warszawa,PL,Piotr,Paulina,"ul. Szkolna 101, 00-810 Warszawa","00-810 Warszawa, skrytka 1",ZVQ470076,48-500-000-100,agnieszka.krol@example.test
+81062110133,Szymon,,Jasieński,Szymańska,1981-06-21,M,Kraków,PL,Maciej,Oliwia,"30-302 Kraków, Lipowa 102 m. 2",,OCC592124,500 000 101,szymon.jasienski@example.test
+82072210244,Karolina,Tomasz,Mazur,Mazur,1982-07-22,K,Gdańsk,PL,Maciej,Ewa,"ul Słoneczna 103/3, 80-241 Gdańsk",,MTQ478961,+48 500 000 102,karolina.mazur@example.test
+83082310379,Dawid,,Kaczmarek,Cieślar,1983-08-23,M,Poznań,PL,Rafał,Monika,"ulica Różana 104/4, 60-126 Poznań",,HNK766156,(48) 500000103,dawid.kaczmarek@example.test
+84092410480,Karolina,,Pawlik,Pawlik,1984-09-24,K,Wrocław,PL,Michał,Joanna,"ul. Wiosenna 105, 50-101 Wrocław","50-101 Wrocław, skrytka 5",VPC111615,500000104,karolina.pawlik@example.test
+85102510518,Krzysztof,Andrzej,Nowacki,Kaczmarek,1985-10-25,M,Lublin,PL,Krzysztof,Ewa,"20-819 Lublin, Topolowa 106 m. 6",,VDN560494,(48) 500000105,
+86112610629,Katarzyna,,Mazur,Mazur,1986-11-26,K,Bydgoszcz,PL,Krzysztof,Agnieszka,"ul Bałtycka 107/7, 85-707 Bydgoszcz",,EVP315851,(48) 500000106,katarzyna.mazur@example.test
+87122710754,Łukasz,,Duda,Kamińska,1987-12-27,M,Olsztyn,PL,Dawid,Renata,"ulica Jarzębinowa 108/8, 10-687 Olsztyn",,YTT809402,(48) 500000107,łukasz.duda@example.test
+88010110863,Paulina,Patryk,Tracz,Tracz,1988-01-01,K,Gdynia,PL;DE,Michał,Ewa,"ul. Srebrna 109, 81-350 Gdynia","81-350 Gdynia, skrytka 9",AFE961201,500 000 108,paulina.tracz@example.test
+89020210998,Andrzej,,Wójcik,Kamińska,1989-02-02,M,Łódź,PL,Jan,Ewa,"90-001 Łódź, Portowa 110 m. 10",,FLJ599102,500000109,andrzej.wojcik@example.test
+90030311009,Marta,,Król,Król,1990-03-03,K,Warszawa,PL,Piotr,Karolina,"ul Głogowska 111/11, 00-810 Warszawa",,CIO679764,500000110,marta.krol@example.test
+91040411134,Marcin,Agnieszka,Woźniak,Wiśniewski,1991-04-04,M,Kraków,PL,Rafał,Katarzyna,"ulica Królewska 112/12, 30-302 Kraków",,JVV978403,48-500-000-111,marcin.wozniak@example.test
+92050511245,Alicja,,Nowacki,Nowacki,1992-05-05,K,Gdańsk,PL,Piotr,Agnieszka,"ul. Piękna 113, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13",JGY244510,48-500-000-112,
+93060611370,Maciej,,Kamińska,Wrona,1993-06-06,M,Poznań,PL,Tomasz,Barbara,"60-126 Poznań, Leśna 114 m. 14",,RWH885160,48-500-000-113,maciej.kaminska@example.test
+94070711481,Anna,Patryk,Zieliński,Zieliński,1994-07-07,K,Wrocław,PL,Marek,Natalia,"ul Polna 115/15, 50-101 Wrocław",,KSN966416,+48 500 000 114,anna.zielinski@example.test
+95080811516,Michał,,Wrona,Król,1995-08-08,M,Lublin,PL,Jan,Natalia,"ulica Szkolna 116/16, 20-819 Lublin",,WLC613696,500 000 115,michał.wrona@example.test
+96090911627,Katarzyna,,Wójcik,Wójcik,1996-09-09,K,Bydgoszcz,PL,Dawid,Magdalena,"ul. Lipowa 117, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17",XKH521818,500 000 116,katarzyna.wojcik@example.test
+97101011754,Andrzej,Paulina,Wiśniewski,Dorska,1997-10-10,M,Olsztyn,PL;DE,Andrzej,Katarzyna,"10-687 Olsztyn, Słoneczna 118 m. 18",,EIG292127,48-500-000-117,andrzej.wisniewski@example.test
+98111111865,Marta,,Mazur,Mazur,1998-11-11,K,Gdynia,PL,Marcin,Alicja,"ul Różana 119/19, 81-350 Gdynia",,OVS955271,48-500-000-118,marta.mazur@example.test
+99121211990,Jan,,Tracz,Pawlik,1999-12-12,M,Łódź,PL,Łukasz,Anna,"ulica Wiosenna 120/20, 90-001 Łódź",,LQC477005,(48) 500000119,
+70011312009,Katarzyna,Paweł,Milewska,Milewska,1970-01-13,K,Warszawa,PL,Łukasz,Renata,"ul. Topolowa 121, 00-810 Warszawa","00-810 Warszawa, skrytka 21",MOS807935,500 000 120,katarzyna.milewska@example.test
+71021412134,Jan,,Woźniak,Dorska,1971-02-14,M,Kraków,PL,Piotr,Monika,"30-302 Kraków, Bałtycka 122 m. 22",,DZK182037,48-500-000-121,jan.wozniak@example.test
+72031512245,Renata,,Woźniak,Woźniak,1972-03-15,K,Gdańsk,PL,Łukasz,Joanna,"ul Jarzębinowa 123/23, 80-241 Gdańsk",,LLJ665905,+48 500 000 122,renata.wozniak@example.test
+73041612370,Michał,Tomasz,Jasieński,Wójcik,1973-04-16,M,Poznań,PL,Paweł,Magdalena,"ulica Srebrna 124/24, 60-126 Poznań",,XVT251925,(48) 500000123,michał.jasienski@example.test
+74051712481,Karolina,,Wójcik,Wójcik,1974-05-17,K,Wrocław,PL,Tomasz,Alicja,"ul. Portowa 125, 50-101 Wrocław","50-101 Wrocław, skrytka 25",WCJ865281,48-500-000-124,karolina.wojcik@example.test
+75061812516,Krzysztof,,Wiśniewski,Krawiec,1975-06-18,M,Lublin,PL,Michał,Magdalena,"20-819 Lublin, Głogowska 126 m. 1",,FGK733221,(48) 500000125,krzysztof.wisniewski@example.test
+76071912627,Natalia,Marek,Jasieński,Jasieński,1976-07-19,K,Bydgoszcz,PL;DE,Marcin,Renata,"ul Królewska 127/2, 85-707 Bydgoszcz",,XQB592962,500000126,
+77082012751,Tomasz,,Król,Wrona,1977-08-20,M,Olsztyn,PL,Maciej,Monika,"ulica Piękna 128/3, 10-687 Olsztyn",,BNL379473,500 000 127,tomasz.krol@example.test
+78092112862,Agnieszka,,Tracz,Tracz,1978-09-21,K,Gdynia,PL,Marcin,Marta,"ul. Leśna 129, 81-350 Gdynia","81-350 Gdynia, skrytka 29",PGL977468,500 000 128,agnieszka.tracz@example.test
+79102212990,Rafał,Maciej,Wrona,Cieślar,1979-10-22,M,Łódź,PL,Marcin,Alicja,"90-001 Łódź, Polna 130 m. 5",,EIB758181,(48) 500000129,rafał.wrona@example.test

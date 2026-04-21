@@ -1,106 +1,70 @@
 {
-  "csv": {
-    "pesel": {
-      "records": 110,
-      "file": "csv/pesel.csv"
+  "registries": {
+    "PESEL": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "ceidg": {
-      "records": 110,
-      "file": "csv/ceidg.csv"
+    "CEIDG": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "regon": {
-      "records": 200,
-      "file": "csv/regon.csv"
+    "REGON": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "krs": {
-      "records": 90,
-      "file": "csv/krs.csv"
+    "KRS": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "vat": {
-      "records": 200,
-      "file": "csv/vat.csv"
+    "VAT": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "gleif": {
-      "records": 66,
-      "file": "csv/gleif.csv"
-    }
-  },
-  "json": {
-    "pesel": {
-      "records": 110,
-      "file": "json/pesel.json"
+    "GLEIF_Level1": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "ceidg": {
-      "records": 110,
-      "file": "json/ceidg.json"
+    "GLEIF_Level2": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "regon": {
-      "records": 200,
-      "file": "json/regon.json"
+    "KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "krs": {
-      "records": 90,
-      "file": "json/krs.json"
+    "KNF_Rejestr_posrednikow_ubezpieczeniowych_agent": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "vat": {
-      "records": 200,
-      "file": "json/vat.json"
+    "KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     },
-    "gleif": {
-      "records": 59,
-      "file": "json/gleif.json"
-    }
-  },
-  "xml": {
-    "pesel": {
-      "records": 110,
-      "file": "xml/pesel.xml"
-    },
-    "ceidg": {
-      "records": 110,
-      "file": "xml/ceidg.xml"
-    },
-    "regon": {
-      "records": 200,
-      "file": "xml/regon.xml"
-    },
-    "krs": {
-      "records": 90,
-      "file": "xml/krs.xml"
-    },
-    "vat": {
-      "records": 200,
-      "file": "xml/vat.xml"
-    },
-    "gleif": {
-      "records": 55,
-      "file": "xml/gleif.xml"
-    }
-  },
-  "xlsx": {
-    "pesel": {
-      "records": 110,
-      "file": "xlsx/pesel.xlsx"
-    },
-    "ceidg": {
-      "records": 110,
-      "file": "xlsx/ceidg.xlsx"
-    },
-    "regon": {
-      "records": 200,
-      "file": "xlsx/regon.xlsx"
-    },
-    "krs": {
-      "records": 90,
-      "file": "xlsx/krs.xlsx"
-    },
-    "vat": {
-      "records": 200,
-      "file": "xlsx/vat.xlsx"
-    },
-    "gleif": {
-      "records": 60,
-      "file": "xlsx/gleif.xlsx"
+    "KNF_Rejestr_firm_inwestycyjnych": {
+      "csv": 130,
+      "json": 130,
+      "xml": 120,
+      "xlsx": 120
     }
   }
 }

@@ -1,0 +1,131 @@
+﻿ID,Typ podmiotu,Numer UKNF,Nazwa,Status,Data wpisu,Data wykreślenia,Data decyzji,KRS,NIP,Adres siedziby,Siedziba
+600000,Krajowa instytucja pieniądza elektronicznego,MIP1/2020,Nebula Analytics 1 spółka z ograniczoną odpowiedzialnością,Wykreślony,2020-01-01,2025-01-01,2020-02-03,0001000000,5000010001,"ul Głogowska 51/1, 00-810 Warszawa",Warszawa
+600001,Krajowa instytucja pieniądza elektronicznego,IP2/2021,Baltic Med Supply 2 sp. z o.o.,Wpisany,2021-02-02,,2021-03-04,0001000001,5000010018,"ulica Królewska 52/2, 30-302 Kraków",Kraków
+600002,Krajowa instytucja pieniądza elektronicznego,AISP3/2022,Orbis Retail Solutions 3 Sp. z o.o.,Wpisany,2022-03-03,,2022-04-05,0001000002,5000010024,"ul. Piękna 53, 80-241 Gdańsk",Gdańsk
+600003,Krajowa instytucja pieniądza elektronicznego,IP4/2023,Finex Capital 4 SP Z OO,Wpisany,2023-04-04,,2023-05-06,0001000003,5000010030,"60-126 Poznań, Leśna 54 m. 4",Poznań
+600004,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP5/2024,Aster Payments 5 sp z oo,Wpisany,2024-05-05,,2024-06-07,0001000004,5000010047,"ul Polna 55/5, 50-101 Wrocław",Wrocław
+600005,Krajowa instytucja pieniądza elektronicznego,IP6/2025,Vistula Brokers 6 spółka z ograniczoną odpowiedzialnością,Wpisany,2025-06-06,,2025-07-08,0001000005,5000010053,"ulica Szkolna 56/6, 20-819 Lublin",Lublin
+600006,Krajowa instytucja pieniądza elektronicznego,AISP7/2020,Nova Markets 7 sp. z o.o.,Wpisany,2020-07-07,2025-07-07,2020-08-09,0001000006,5000010066,"ul. Lipowa 57, 85-707 Bydgoszcz",Bydgoszcz
+600007,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP8/2021,Meridian Pay 8 Sp. z o.o.,Wykreślony,2021-08-08,,2021-09-10,0001000007,5000010076,"10-687 Olsztyn, Słoneczna 58 m. 8",Olsztyn
+600008,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP9/2022,Helix Invest 9 SP Z OO,Wpisany,2022-09-09,,2022-10-11,0001000008,5000010082,"ul Różana 59/9, 81-350 Gdynia",Gdynia
+600009,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP10/2023,Lumen Finance 10 sp z oo,Wpisany,2023-10-10,,2023-11-12,0001000009,5000010099,"ulica Wiosenna 60/10, 90-001 Łódź",Łódź
+600010,Krajowa instytucja pieniądza elektronicznego,IP11/2024,Sfera Ubezpieczenia 11 spółka z ograniczoną odpowiedzialnością,Wpisany,2024-11-11,,2024-12-13,0001000010,5000010107,"ul. Topolowa 61, 00-810 Warszawa",Warszawa
+600011,Krajowa instytucja pieniądza elektronicznego,MIP12/2025,Atlas Data 12 sp. z o.o.,Wpisany,2025-12-12,,2025-01-14,0001000011,5000010113,"30-302 Kraków, Bałtycka 62 m. 12",Kraków
+600012,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP13/2020,Pomerania Trade 13 Sp. z o.o.,Wykreślony,2020-01-13,2025-01-13,2020-02-15,0001000012,5000010122,"ul Jarzębinowa 63/13, 80-241 Gdańsk",Gdańsk
+600013,Mała instytucja płatnicza,IP14/2021,Mazovia Asset 14 SP Z OO,Wpisany,2021-02-14,,2021-03-16,0001000013,5000010136,"ulica Srebrna 64/14, 60-126 Poznań",Poznań
+600014,Krajowa instytucja pieniądza elektronicznego,AISP15/2022,Kurs Solutions 15 sp z oo,Wpisany,2022-03-15,,2022-04-17,0001000014,5000010142,"ul. Portowa 65, 50-101 Wrocław",Wrocław
+600015,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP16/2023,Nebula Analytics 16 spółka z ograniczoną odpowiedzialnością,Wpisany,2023-04-16,,2023-05-18,0001000015,5000010159,"20-819 Lublin, Głogowska 66 m. 16",Lublin
+600016,Krajowa instytucja pieniądza elektronicznego,MIP17/2024,Baltic Med Supply 17 sp. z o.o.,Wpisany,2024-05-17,,2024-06-19,0001000016,5000010165,"ul Królewska 67/17, 85-707 Bydgoszcz",Bydgoszcz
+600017,Mała instytucja płatnicza,IP18/2025,Orbis Retail Solutions 18 Sp. z o.o.,Wpisany,2025-06-18,,2025-07-20,0001000017,5000010171,"ulica Piękna 68/18, 10-687 Olsztyn",Olsztyn
+600018,Krajowa instytucja pieniądza elektronicznego,IP19/2020,Finex Capital 19 SP Z OO,Wpisany,2020-07-19,2025-07-19,2020-08-21,0001000018,5000010188,"ul. Leśna 69, 81-350 Gdynia",Gdynia
+600019,Mała instytucja płatnicza,MIP20/2021,Aster Payments 20 sp z oo,Wpisany,2021-08-20,,2021-09-22,0001000019,5000010194,"90-001 Łódź, Polna 70 m. 20",Łódź
+600020,Krajowa instytucja pieniądza elektronicznego,MIP21/2022,Vistula Brokers 21 spółka z ograniczoną odpowiedzialnością,Wpisany,2022-09-21,,2022-10-23,0001000020,5000010202,"ul Szkolna 71/21, 00-810 Warszawa",Warszawa
+600021,Krajowa instytucja pieniądza elektronicznego,AISP22/2023,Nova Markets 22 sp. z o.o.,Wpisany,2023-10-22,,2023-11-24,0001000021,5000010219,"ulica Lipowa 72/22, 30-302 Kraków",Kraków
+600022,Krajowa instytucja pieniądza elektronicznego,IP23/2024,Meridian Pay 23 Sp. z o.o.,Wpisany,2024-11-23,,2024-12-25,0001000022,5000010225,"ul. Słoneczna 73, 80-241 Gdańsk",Gdańsk
+600023,Krajowa instytucja pieniądza elektronicznego,IP24/2025,Helix Invest 24 SP Z OO,Wykreślony,2025-12-24,,2025-01-26,0001000023,5000010231,"60-126 Poznań, Różana 74 m. 24",Poznań
+600024,Mała instytucja płatnicza,IP25/2020,Lumen Finance 25 sp z oo,Wpisany,2020-01-25,2025-01-25,2020-02-27,0001000024,5000010248,"ul Wiosenna 75/25, 50-101 Wrocław",Wrocław
+600025,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP26/2021,Sfera Ubezpieczenia 26 spółka z ograniczoną odpowiedzialnością,Wykreślony,2021-02-26,,2021-03-01,0001000025,5000010254,"ulica Topolowa 76/1, 20-819 Lublin",Lublin
+600026,Krajowa instytucja pieniądza elektronicznego,AISP27/2022,Atlas Data 27 sp. z o.o.,Wpisany,2022-03-27,,2022-04-02,0001000026,5000010260,"ul. Bałtycka 77, 85-707 Bydgoszcz",Bydgoszcz
+600027,Mała instytucja płatnicza,AISP28/2023,Pomerania Trade 28 Sp. z o.o.,Wpisany,2023-04-01,,2023-05-03,0001000027,5000010277,"10-687 Olsztyn, Jarzębinowa 78 m. 3",Olsztyn
+600028,Mała instytucja płatnicza,IP29/2024,Mazovia Asset 29 SP Z OO,Wpisany,2024-05-02,,2024-06-04,0001000028,5000010283,"ul Srebrna 79/4, 81-350 Gdynia",Gdynia
+600029,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP30/2025,Kurs Solutions 30 sp z oo,Wpisany,2025-06-03,,2025-07-05,0001000029,5000010299,"ulica Portowa 80/5, 90-001 Łódź",Łódź
+600030,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP31/2020,Nebula Analytics 31 spółka z ograniczoną odpowiedzialnością,Wpisany,2020-07-04,2025-07-04,2020-08-06,0001000030,5000010308,"ul. Głogowska 81, 00-810 Warszawa",Warszawa
+600031,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP32/2021,Baltic Med Supply 32 sp. z o.o.,Wpisany,2021-08-05,,2021-09-07,0001000031,5000010314,"30-302 Kraków, Królewska 82 m. 7",Kraków
+600032,Mała instytucja płatnicza,IP33/2022,Orbis Retail Solutions 33 Sp. z o.o.,Wpisany,2022-09-06,,2022-10-08,0001000032,5000010320,"ul Piękna 83/8, 80-241 Gdańsk",Gdańsk
+600033,Krajowa instytucja pieniądza elektronicznego,MIP34/2023,Finex Capital 34 SP Z OO,Wpisany,2023-10-07,,2023-11-09,0001000033,5000010337,"ulica Leśna 84/9, 60-126 Poznań",Poznań
+600034,Krajowa instytucja pieniądza elektronicznego,AISP35/2024,Aster Payments 35 sp z oo,Wpisany,2024-11-08,,2024-12-10,0001000034,5000010343,"ul. Polna 85, 50-101 Wrocław",Wrocław
+600035,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP36/2025,Vistula Brokers 36 spółka z ograniczoną odpowiedzialnością,Wykreślony,2025-12-09,,2025-01-11,0001000035,5000010355,"20-819 Lublin, Szkolna 86 m. 11",Lublin
+600036,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP37/2020,Nova Markets 37 sp. z o.o.,Wykreślony,2020-01-10,2025-01-10,2020-02-12,0001000036,5000010366,"ul Lipowa 87/12, 85-707 Bydgoszcz",Bydgoszcz
+600037,Krajowa instytucja pieniądza elektronicznego,MIP38/2021,Meridian Pay 38 Sp. z o.o.,Wpisany,2021-02-11,,2021-03-13,0001000037,5000010372,"ulica Słoneczna 88/13, 10-687 Olsztyn",Olsztyn
+600038,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP39/2022,Helix Invest 39 SP Z OO,Wykreślony,2022-03-12,,2022-04-14,0001000038,5000010389,"ul. Różana 89, 81-350 Gdynia",Gdynia
+600039,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP40/2023,Lumen Finance 40 sp z oo,Wpisany,2023-04-13,,2023-05-15,0001000039,5000010395,"90-001 Łódź, Wiosenna 90 m. 15",Łódź
+600040,Mała instytucja płatnicza,IP41/2024,Sfera Ubezpieczenia 41 spółka z ograniczoną odpowiedzialnością,Wpisany,2024-05-14,,2024-06-16,0001000040,5000010403,"ul Topolowa 91/16, 00-810 Warszawa",Warszawa
+600041,Krajowa instytucja pieniądza elektronicznego,IP42/2025,Atlas Data 42 sp. z o.o.,Wykreślony,2025-06-15,,2025-07-17,0001000041,5000010411,"ulica Bałtycka 92/17, 30-302 Kraków",Kraków
+600042,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP43/2020,Pomerania Trade 43 Sp. z o.o.,Wpisany,2020-07-16,2025-07-16,2020-08-18,0001000042,5000010426,"ul. Jarzębinowa 93, 80-241 Gdańsk",Gdańsk
+600043,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP44/2021,Mazovia Asset 44 SP Z OO,Wpisany,2021-08-17,,2021-09-19,0001000043,5000010432,"60-126 Poznań, Srebrna 94 m. 19",Poznań
+600044,Krajowa instytucja pieniądza elektronicznego,MIP45/2022,Kurs Solutions 45 sp z oo,Wykreślony,2022-09-18,,2022-10-20,0001000044,5000010449,"ul Portowa 95/20, 50-101 Wrocław",Wrocław
+600045,Mała instytucja płatnicza,AISP46/2023,Nebula Analytics 46 spółka z ograniczoną odpowiedzialnością,Wpisany,2023-10-19,,2023-11-21,0001000045,5000010455,"ulica Głogowska 96/21, 20-819 Lublin",Lublin
+600046,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP47/2024,Baltic Med Supply 47 sp. z o.o.,Wykreślony,2024-11-20,,2024-12-22,0001000046,5000010461,"ul. Królewska 97, 85-707 Bydgoszcz",Bydgoszcz
+600047,Mała instytucja płatnicza,MIP48/2025,Orbis Retail Solutions 48 Sp. z o.o.,Wpisany,2025-12-21,,2025-01-23,0001000047,5000010478,"10-687 Olsztyn, Piękna 98 m. 23",Olsztyn
+600048,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP49/2020,Finex Capital 49 SP Z OO,Wykreślony,2020-01-22,2025-01-22,2020-02-24,0001000048,5000010484,"ul Leśna 99/24, 81-350 Gdynia",Gdynia
+600049,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP50/2021,Aster Payments 50 sp z oo,Wpisany,2021-02-23,,2021-03-25,0001000049,5000010490,"ulica Polna 100/25, 90-001 Łódź",Łódź
+600050,Krajowa instytucja pieniądza elektronicznego,MIP51/2022,Vistula Brokers 51 spółka z ograniczoną odpowiedzialnością,Wpisany,2022-03-24,,2022-04-26,0001000050,5000010509,"ul. Szkolna 101, 00-810 Warszawa",Warszawa
+600051,Krajowa instytucja pieniądza elektronicznego,IP52/2023,Nova Markets 52 sp. z o.o.,Wykreślony,2023-04-25,,2023-05-27,0001000051,5000010515,"30-302 Kraków, Lipowa 102 m. 2",Kraków
+600052,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP53/2024,Meridian Pay 53 Sp. z o.o.,Wpisany,2024-05-26,,2024-06-01,0001000052,5000010521,"ul Słoneczna 103/3, 80-241 Gdańsk",Gdańsk
+600053,Mała instytucja płatnicza,MIP54/2025,Helix Invest 54 SP Z OO,Wpisany,2025-06-27,,2025-07-02,0001000053,5000010538,"ulica Różana 104/4, 60-126 Poznań",Poznań
+600054,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP55/2020,Lumen Finance 55 sp z oo,Wpisany,2020-07-01,2025-07-01,2020-08-03,0001000054,5000010544,"ul. Wiosenna 105, 50-101 Wrocław",Wrocław
+600055,Mała instytucja płatnicza,AISP56/2021,Sfera Ubezpieczenia 56 spółka z ograniczoną odpowiedzialnością,Wykreślony,2021-08-02,,2021-09-04,0001000055,5000010550,"20-819 Lublin, Topolowa 106 m. 6",Lublin
+600056,Krajowa instytucja pieniądza elektronicznego,AISP57/2022,Atlas Data 57 sp. z o.o.,Wpisany,2022-09-03,,2022-10-05,0001000056,5000010567,"ul Bałtycka 107/7, 85-707 Bydgoszcz",Bydgoszcz
+600057,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP58/2023,Pomerania Trade 58 Sp. z o.o.,Wpisany,2023-10-04,,2023-11-06,0001000057,5000010573,"ulica Jarzębinowa 108/8, 10-687 Olsztyn",Olsztyn
+600058,Mała instytucja płatnicza,AISP59/2024,Mazovia Asset 59 SP Z OO,Wykreślony,2024-11-05,,2024-12-07,0001000058,5000010588,"ul. Srebrna 109, 81-350 Gdynia",Gdynia
+600059,Krajowa instytucja pieniądza elektronicznego,IP60/2025,Kurs Solutions 60 sp z oo,Wpisany,2025-12-06,,2025-01-08,0001000059,5000010596,"90-001 Łódź, Portowa 110 m. 10",Łódź
+600060,Mała instytucja płatnicza,IP61/2020,Nebula Analytics 61 spółka z ograniczoną odpowiedzialnością,Wpisany,2020-01-07,2025-01-07,2020-02-09,0001000060,5000010604,"ul Głogowska 111/11, 00-810 Warszawa",Warszawa
+600061,Mała instytucja płatnicza,AISP62/2021,Baltic Med Supply 62 sp. z o.o.,Wykreślony,2021-02-08,,2021-03-10,0001000061,5000010610,"ulica Królewska 112/12, 30-302 Kraków",Kraków
+600062,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP63/2022,Orbis Retail Solutions 63 Sp. z o.o.,Wpisany,2022-03-09,,2022-04-11,0001000062,5000010627,"ul. Piękna 113, 80-241 Gdańsk",Gdańsk
+600063,Mała instytucja płatnicza,AISP64/2023,Finex Capital 64 SP Z OO,Wykreślony,2023-04-10,,2023-05-12,0001000063,5000010633,"60-126 Poznań, Leśna 114 m. 14",Poznań
+600064,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP65/2024,Aster Payments 65 sp z oo,Wpisany,2024-05-11,,2024-06-13,0001000064,5000010644,"ul Polna 115/15, 50-101 Wrocław",Wrocław
+600065,Mała instytucja płatnicza,IP66/2025,Vistula Brokers 66 spółka z ograniczoną odpowiedzialnością,Wpisany,2025-06-12,,2025-07-14,0001000065,5000010656,"ulica Szkolna 116/16, 20-819 Lublin",Lublin
+600066,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP67/2020,Nova Markets 67 sp. z o.o.,Wykreślony,2020-07-13,2025-07-13,2020-08-15,0001000066,5000010662,"ul. Lipowa 117, 85-707 Bydgoszcz",Bydgoszcz
+600067,Mała instytucja płatnicza,MIP68/2021,Meridian Pay 68 Sp. z o.o.,Wpisany,2021-08-14,,2021-09-16,0001000067,5000010679,"10-687 Olsztyn, Słoneczna 118 m. 18",Olsztyn
+600068,Krajowa instytucja pieniądza elektronicznego,AISP69/2022,Helix Invest 69 SP Z OO,Wpisany,2022-09-15,,2022-10-17,0001000068,5000010685,"ul Różana 119/19, 81-350 Gdynia",Gdynia
+600069,Krajowa instytucja pieniądza elektronicznego,IP70/2023,Lumen Finance 70 sp z oo,Wykreślony,2023-10-16,,2023-11-18,0001000069,5000010691,"ulica Wiosenna 120/20, 90-001 Łódź",Łódź
+600070,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP71/2024,Sfera Ubezpieczenia 71 spółka z ograniczoną odpowiedzialnością,Wpisany,2024-11-17,,2024-12-19,0001000070,5000010700,"ul. Topolowa 121, 00-810 Warszawa",Warszawa
+600071,Mała instytucja płatnicza,MIP72/2025,Atlas Data 72 sp. z o.o.,Wpisany,2025-12-18,,2025-01-20,0001000071,5000010716,"30-302 Kraków, Bałtycka 122 m. 22",Kraków
+600072,Krajowa instytucja pieniądza elektronicznego,AISP73/2020,Pomerania Trade 73 Sp. z o.o.,Wpisany,2020-01-19,2025-01-19,2020-02-21,0001000072,5000010722,"ul Jarzębinowa 123/23, 80-241 Gdańsk",Gdańsk
+600073,Krajowa instytucja pieniądza elektronicznego,IP74/2021,Mazovia Asset 74 SP Z OO,Wpisany,2021-02-20,,2021-03-22,0001000073,5000010739,"ulica Srebrna 124/24, 60-126 Poznań",Poznań
+600074,Krajowa instytucja pieniądza elektronicznego,AISP75/2022,Kurs Solutions 75 sp z oo,Wykreślony,2022-03-21,,2022-04-23,0001000074,5000010745,"ul. Portowa 125, 50-101 Wrocław",Wrocław
+600075,Mała instytucja płatnicza,AISP76/2023,Nebula Analytics 76 spółka z ograniczoną odpowiedzialnością,Wykreślony,2023-04-22,,2023-05-24,0001000075,5000010751,"20-819 Lublin, Głogowska 126 m. 1",Lublin
+600076,Krajowa instytucja pieniądza elektronicznego,IP77/2024,Baltic Med Supply 77 sp. z o.o.,Wpisany,2024-05-23,,2024-06-25,0001000076,5000010768,"ul Królewska 127/2, 85-707 Bydgoszcz",Bydgoszcz
+600077,Mała instytucja płatnicza,IP78/2025,Orbis Retail Solutions 78 Sp. z o.o.,Wpisany,2025-06-24,,2025-07-26,0001000077,5000010774,"ulica Piękna 128/3, 10-687 Olsztyn",Olsztyn
+600078,Krajowa instytucja pieniądza elektronicznego,IP79/2020,Finex Capital 79 SP Z OO,Wpisany,2020-07-25,2025-07-25,2020-08-27,0001000078,5000010780,"ul. Leśna 129, 81-350 Gdynia",Gdynia
+600079,Krajowa instytucja pieniądza elektronicznego,IP80/2021,Aster Payments 80 sp z oo,Wykreślony,2021-08-26,,2021-09-01,0001000079,5000010797,"90-001 Łódź, Polna 130 m. 5",Łódź
+600080,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP81/2022,Vistula Brokers 81 spółka z ograniczoną odpowiedzialnością,Wpisany,2022-09-27,,2022-10-02,0001000080,5000010805,"ul Szkolna 131/6, 00-810 Warszawa",Warszawa
+600081,Mała instytucja płatnicza,AISP82/2023,Nova Markets 82 sp. z o.o.,Wykreślony,2023-10-01,,2023-11-03,0001000081,5000010811,"ulica Lipowa 132/7, 30-302 Kraków",Kraków
+600082,Mała instytucja płatnicza,MIP83/2024,Meridian Pay 83 Sp. z o.o.,Wpisany,2024-11-02,,2024-12-04,0001000082,5000010828,"ul. Słoneczna 133, 80-241 Gdańsk",Gdańsk
+600083,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP84/2025,Helix Invest 84 SP Z OO,Wykreślony,2025-12-03,,2025-01-05,0001000083,5000010834,"60-126 Poznań, Różana 134 m. 9",Poznań
+600084,Krajowa instytucja pieniądza elektronicznego,IP85/2020,Lumen Finance 85 sp z oo,Wykreślony,2020-01-04,2025-01-04,2020-02-06,0001000084,5000010840,"ul Wiosenna 135/10, 50-101 Wrocław",Wrocław
+600085,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP86/2021,Sfera Ubezpieczenia 86 spółka z ograniczoną odpowiedzialnością,Wykreślony,2021-02-05,,2021-03-07,0001000085,5000010857,"ulica Topolowa 136/11, 20-819 Lublin",Lublin
+600086,Krajowa instytucja pieniądza elektronicznego,IP87/2022,Atlas Data 87 sp. z o.o.,Wpisany,2022-03-06,,2022-04-08,0001000086,5000010863,"ul. Bałtycka 137, 85-707 Bydgoszcz",Bydgoszcz
+600087,Krajowa instytucja pieniądza elektronicznego,MIP88/2023,Pomerania Trade 88 Sp. z o.o.,Wpisany,2023-04-07,,2023-05-09,0001000087,5000010877,"10-687 Olsztyn, Jarzębinowa 138 m. 13",Olsztyn
+600088,Krajowa instytucja pieniądza elektronicznego,AISP89/2024,Mazovia Asset 89 SP Z OO,Wpisany,2024-05-08,,2024-06-10,0001000088,5000010886,"ul Srebrna 139/14, 81-350 Gdynia",Gdynia
+600089,Mała instytucja płatnicza,AISP90/2025,Kurs Solutions 90 sp z oo,Wykreślony,2025-06-09,,2025-07-11,0001000089,5000010892,"ulica Portowa 140/15, 90-001 Łódź",Łódź
+600090,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP91/2020,Nebula Analytics 91 spółka z ograniczoną odpowiedzialnością,Wpisany,2020-07-10,2025-07-10,2020-08-12,0001000090,5000010900,"ul. Głogowska 141, 00-810 Warszawa",Warszawa
+600091,Krajowa instytucja pieniądza elektronicznego,AISP92/2021,Baltic Med Supply 92 sp. z o.o.,Wpisany,2021-08-11,,2021-09-13,0001000091,5000010917,"30-302 Kraków, Królewska 142 m. 17",Kraków
+600092,Krajowa instytucja pieniądza elektronicznego,MIP93/2022,Orbis Retail Solutions 93 Sp. z o.o.,Wykreślony,2022-09-12,,2022-10-14,0001000092,5000010923,"ul Piękna 143/18, 80-241 Gdańsk",Gdańsk
+600093,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP94/2023,Finex Capital 94 SP Z OO,Wykreślony,2023-10-13,,2023-11-15,0001000093,5000010933,"ulica Leśna 144/19, 60-126 Poznań",Poznań
+600094,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP95/2024,Aster Payments 95 sp z oo,Wpisany,2024-11-14,,2024-12-16,0001000094,5000010946,"ul. Polna 145, 50-101 Wrocław",Wrocław
+600095,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP96/2025,Vistula Brokers 96 spółka z ograniczoną odpowiedzialnością,Wykreślony,2025-12-15,,2025-01-17,0001000095,5000010952,"20-819 Lublin, Szkolna 146 m. 21",Lublin
+600096,Krajowa instytucja pieniądza elektronicznego,MIP97/2020,Nova Markets 97 sp. z o.o.,Wpisany,2020-01-16,2025-01-16,2020-02-18,0001000096,5000010969,"ul Lipowa 147/22, 85-707 Bydgoszcz",Bydgoszcz
+600097,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP98/2021,Meridian Pay 98 Sp. z o.o.,Wpisany,2021-02-17,,2021-03-19,0001000097,5000010975,"ulica Słoneczna 148/23, 10-687 Olsztyn",Olsztyn
+600098,Mała instytucja płatnicza,AISP99/2022,Helix Invest 99 SP Z OO,Wpisany,2022-03-18,,2022-04-20,0001000098,5000010981,"ul. Różana 149, 81-350 Gdynia",Gdynia
+600099,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP100/2023,Lumen Finance 100 sp z oo,Wpisany,2023-04-19,,2023-05-21,0001000099,5000010998,"90-001 Łódź, Wiosenna 150 m. 25",Łódź
+600100,Mała instytucja płatnicza,MIP101/2024,Sfera Ubezpieczenia 101 spółka z ograniczoną odpowiedzialnością,Wpisany,2024-05-20,,2024-06-22,0001000100,5000011006,"ul Topolowa 151/1, 00-810 Warszawa",Warszawa
+600101,Krajowa instytucja pieniądza elektronicznego,IP102/2025,Atlas Data 102 sp. z o.o.,Wpisany,2025-06-21,,2025-07-23,0001000101,5000011012,"ulica Bałtycka 152/2, 30-302 Kraków",Kraków
+600102,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP103/2020,Pomerania Trade 103 Sp. z o.o.,Wykreślony,2020-07-22,2025-07-22,2020-08-24,0001000102,5000011029,"ul. Jarzębinowa 153, 80-241 Gdańsk",Gdańsk
+600103,Mała instytucja płatnicza,AISP104/2021,Mazovia Asset 104 SP Z OO,Wpisany,2021-08-23,,2021-09-25,0001000103,5000011035,"60-126 Poznań, Srebrna 154 m. 4",Poznań
+600104,Krajowa instytucja pieniądza elektronicznego,MIP105/2022,Kurs Solutions 105 sp z oo,Wpisany,2022-09-24,,2022-10-26,0001000104,5000011041,"ul Portowa 155/5, 50-101 Wrocław",Wrocław
+600105,Krajowa instytucja pieniądza elektronicznego,AISP106/2023,Nebula Analytics 106 spółka z ograniczoną odpowiedzialnością,Wpisany,2023-10-25,,2023-11-27,0001000105,5000011058,"ulica Głogowska 156/6, 20-819 Lublin",Lublin
+600106,Mała instytucja płatnicza,IP107/2024,Baltic Med Supply 107 sp. z o.o.,Wpisany,2024-11-26,,2024-12-01,0001000106,5000011064,"ul. Królewska 157, 85-707 Bydgoszcz",Bydgoszcz
+600107,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP108/2025,Orbis Retail Solutions 108 Sp. z o.o.,Wpisany,2025-12-27,,2025-01-02,0001000107,5000011070,"10-687 Olsztyn, Piękna 158 m. 8",Olsztyn
+600108,Krajowa instytucja pieniądza elektronicznego,AISP109/2020,Finex Capital 109 SP Z OO,Wykreślony,2020-01-01,2025-01-01,2020-02-03,0001000108,5000011087,"ul Leśna 159/9, 81-350 Gdynia",Gdynia
+600109,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP110/2021,Aster Payments 110 sp z oo,Wpisany,2021-02-02,,2021-03-04,0001000109,5000011093,"ulica Polna 160/10, 90-001 Łódź",Łódź
+600110,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,MIP111/2022,Vistula Brokers 111 spółka z ograniczoną odpowiedzialnością,Wpisany,2022-03-03,,2022-04-05,0001000110,5000011101,"ul. Szkolna 161, 00-810 Warszawa",Warszawa
+600111,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP112/2023,Nova Markets 112 sp. z o.o.,Wykreślony,2023-04-04,,2023-05-06,0001000111,5000011118,"30-302 Kraków, Lipowa 162 m. 12",Kraków
+600112,Mała instytucja płatnicza,IP113/2024,Meridian Pay 113 Sp. z o.o.,Wpisany,2024-05-05,,2024-06-07,0001000112,5000011124,"ul Słoneczna 163/13, 80-241 Gdańsk",Gdańsk
+600113,Krajowa instytucja pieniądza elektronicznego,AISP114/2025,Helix Invest 114 SP Z OO,Wpisany,2025-06-06,,2025-07-08,0001000113,5000011130,"ulica Różana 164/14, 60-126 Poznań",Poznań
+600114,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP115/2020,Lumen Finance 115 sp z oo,Wpisany,2020-07-07,2025-07-07,2020-08-09,0001000114,5000011147,"ul. Wiosenna 165, 50-101 Wrocław",Wrocław
+600115,Mała instytucja płatnicza,IP116/2021,Sfera Ubezpieczenia 116 spółka z ograniczoną odpowiedzialnością,Wpisany,2021-08-08,,2021-09-10,0001000115,5000011153,"20-819 Lublin, Topolowa 166 m. 16",Lublin
+600116,Krajowa instytucja pieniądza elektronicznego,MIP117/2022,Atlas Data 117 sp. z o.o.,Wpisany,2022-09-09,,2022-10-11,0001000116,5000011166,"ul Bałtycka 167/17, 85-707 Bydgoszcz",Bydgoszcz
+600117,Mała instytucja płatnicza,IP118/2023,Pomerania Trade 118 Sp. z o.o.,Wpisany,2023-10-10,,2023-11-12,0001000117,5000011176,"ulica Jarzębinowa 168/18, 10-687 Olsztyn",Olsztyn
+600118,Mała instytucja płatnicza,MIP119/2024,Mazovia Asset 119 SP Z OO,Wykreślony,2024-11-11,,2024-12-13,0001000118,5000011182,"ul. Srebrna 169, 81-350 Gdynia",Gdynia
+600119,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP120/2025,Kurs Solutions 120 sp z oo,Wpisany,2025-12-12,,2025-01-14,0001000119,5000011199,"90-001 Łódź, Portowa 170 m. 20",Łódź
+600120,Mała instytucja płatnicza,AISP121/2020,Nebula Analytics 121 spółka z ograniczoną odpowiedzialnością,Wykreślony,2020-01-13,2025-01-13,2020-02-15,0001000120,5000011207,"ul Głogowska 171/21, 00-810 Warszawa",Warszawa
+600121,Mała instytucja płatnicza,MIP122/2021,Baltic Med Supply 122 sp. z o.o.,Wpisany,2021-02-14,,2021-03-16,0001000121,5000011213,"ulica Królewska 172/22, 30-302 Kraków",Kraków
+600122,Mała instytucja płatnicza,IP123/2022,Orbis Retail Solutions 123 Sp. z o.o.,Wykreślony,2022-03-15,,2022-04-17,0001000122,5000011222,"ul. Piękna 173, 80-241 Gdańsk",Gdańsk
+600123,Krajowa instytucja pieniądza elektronicznego,IP124/2023,Finex Capital 124 SP Z OO,Wpisany,2023-04-16,,2023-05-18,0001000123,5000011236,"60-126 Poznań, Leśna 174 m. 24",Poznań
+600124,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,IP125/2024,Aster Payments 125 sp z oo,Wpisany,2024-05-17,,2024-06-19,0001000124,5000011242,"ul Polna 175/25, 50-101 Wrocław",Wrocław
+600125,Dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku,AISP126/2025,Vistula Brokers 126 spółka z ograniczoną odpowiedzialnością,Wpisany,2025-06-18,,2025-07-20,0001000125,5000011259,"ulica Szkolna 176/1, 20-819 Lublin",Lublin
+600126,Krajowa instytucja pieniądza elektronicznego,AISP127/2020,Nova Markets 127 sp. z o.o.,Wykreślony,2020-07-19,2025-07-19,2020-08-21,0001000126,5000011265,"ul. Lipowa 177, 85-707 Bydgoszcz",Bydgoszcz
+600127,Krajowa instytucja pieniądza elektronicznego,AISP128/2021,Meridian Pay 128 Sp. z o.o.,Wykreślony,2021-08-20,,2021-09-22,0001000127,5000011271,"10-687 Olsztyn, Słoneczna 178 m. 3",Olsztyn
+600128,Krajowa instytucja pieniądza elektronicznego,IP129/2022,Helix Invest 129 SP Z OO,Wykreślony,2022-09-21,,2022-10-23,0001000128,5000011288,"ul Różana 179/4, 81-350 Gdynia",Gdynia
+600129,Krajowa instytucja pieniądza elektronicznego,AISP130/2023,Lumen Finance 130 sp z oo,Wpisany,2023-10-22,,2023-11-24,0001000129,5000011294,"ulica Wiosenna 180/5, 90-001 Łódź",Łódź
