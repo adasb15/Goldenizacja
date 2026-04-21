@@ -1,0 +1,201 @@
+accountNumbers,hasVirtualAccounts,krs,name,nip,pesel,registrationLegalDate,regon,removalDate,residenceAddress,statusVat,workingAddress
+[],False,,Katarzyna Jasieński Studio Danych,0013389083,9402197912,2018-11-10,863794026,,"20-819 Lublin, ul Topolowa 7 m.8",Czynny,
+"[""48942443793666044867118816""]",True,,Izabela Pawlik Doradztwo Biznesowe,8327648350,0122203803,2025-12-15,305641395,,"ul Portowa 42, 81-350 Gdynia",Zwolniony,"ul Portowa 42, 81-350 Gdynia"
+"[""96 7845 2733 1881 5675 4135 4557""]",False,,Izabela Borkowska Konsulting,4627048281,7711112827,2010-12-15,489325288,,"ul. Głogowska 142/1, 60-126 Poznań",Czynny,"ulica Głogowska 142/1, 60-126 Poznań"
+[],True,,Magdalena Krawiec Studio Danych,0103105183,9709084608,2019-11-21,473829973,2025-06-11,"50-101 Wrocław, Kazimierza Wielkiego 31",Czynny,
+[],True,,Joanna Duda Konsulting,3602606474,7007168886,2025-04-04,687234309,,"ul. Chorzowska 26, 40-121 Katowice",Czynny,
+[],True,,Marek Krawiec Projektowanie IT,1838425135,8910192638,2013-11-06,427849808,,"ulica Bałtycka 172/15, 85-707 Bydgoszcz",Czynny,
+"[""24 0555 2517 7485 6526 4243 7428""]",True,,Marta Nowacki Doradztwo Biznesowe,6204505331,8310183426,2014-01-06,586923226,,"ul Chorzowska 3, 40-121 Katowice",Czynny,
+"[""96072652014876096737250093""]",True,,Piotr Jasieński Projektowanie IT,6981693406,9807126139,2020-07-24,088356159,,"20-819 Lublin, Topolowa 67",Czynny,"20-819 Lublin, Topolowa 67"
+"[""06 5069 6158 8445 2364 9411 0020""]",False,,Izabela Milewska Konsulting,1343320037,7809226491,2025-07-24,917693676,,"10-687 Olsztyn, Jarzębinowa 131",Czynny,"ul. Jarzębinowa 131, 10-687 Olsztyn"
+"[""21517519679296058653143422""]",False,,Marek Tracz oDradztwo Biznesowe,8122362316,7505116238,2011-05-07,658760366,,"50-101 Wrocław, Kazimierza Wielkiego 161",Czynny,"50-101 Wrocław, Kazimierza Wielkiego 161"
+"[""22 8749 9589 3674 2860 1767 8738""]",True,,Tomasz Wiśniewsak Usługi Instalacyjne,5375564641,7101097211,2013-02-03,708053100,,"ul 3 Maja 170, 35-001 Rzeszów",Czynny,"ul. 3 Maja 170, 35-001 Rzeszów"
+"[""PL 92383522377504480632448968""]",False,,Magdalena Borkowska Projektowanie IT,8506716572,8711122129,2011-05-28,628498776,,"ulica Głogowska 176/4, 60-126 Poznań",Czynny,"ulica Głogowska 176/4, 60-126 Poznań"
+"[""55 4279 3399 7021 4616 9047 6102""]",False,,Paweł Krawiec Usługi Instalacyjne,3495788568,6505087625,2021-05-10,557444313,,"10-687 Olsztyn, Jarzębinowa 177",Czynny,"10-687 Olsztyn, Jarzębinowa 177"
+"[""70296705035623724645604851""]",True,,Paweł Kowalski Studio Danych,4711671902,8806061841,2022-06-25,294131869,,"ulica Kazimierza Wielkiego 27/19, 50-101 Wrocław",Czynny,
+"[""79111785125927291694222925""]",False,,Ewa Cieślar Konsulting,2421024994,8702184683,2012-09-15,717464887,,"ul. Głogowska 180/3, 60-126 Poznań",Czynny,"ulica Głogowska 180/3, 60-126 Poznań"
+"[""PL 65722458836607983340833783""]",True,,Andrzej Król Projektowanie IT,5451680876,9501152442,2021-11-19,038597703,,"ul Bałtycka 85, 85-707 Bydgoszcz",Czynny,"ul Bałtycka 85, 85-707 Bydgoszcz"
+"[""80807956530002275093604709""]",True,,Joanna Pawlik Konsulting,4044997278,8606269318,2017-04-15,755886753,,"85-707 Bydgoszcz, Bałtycka 99",Zwolniony,"ul Bałtycka 99, 85-707 Bydgoszcz"
+"[""74 7279 3922 6894 9542 7629 3369""]",True,,Łukasz Borkowska Konsulting,8091343161,8406218994,2014-05-01,172400504,,"ul. Konopnickiej 167, 30-302 Kraków",Czynny,
+"[""PL 95981618098098804093362724""]",False,,Jan Król Konsulting,9594406409,9002087248,2014-03-16,097439533,,"ul Konopnickiej 177, 30-302 Kraków",Zwolniony,
+"[""27 2221 5532 5016 9932 9745 1165""]",True,,Katarzyna Ddua Konsulting,6048175496,8509122479,2023-01-18,513709859,,"ul. Głogowska 87/15, 60-126 Poznań",Czynny,
+[],False,,Marek Mazur Studio Danych,6431713900,9411121992,2013-04-07,532931839,,"50-101 Wrocław, ul Kazimierza Wielkiego 114 m.28",Czynny,"ul. Kazimierza Wielkiego 114/28, 50-101 Wrocław"
+"[""PL 57529664711813207239191846""]",False,,Karolnia Nowacki Projektowanie IT,0076617711,0229108504,2011-07-07,592124998,,"ul. Portowa 132/15, 81-350 Gdynia",Zwolniony,"ulica Portowa 132/15, 81-350 Gdynia"
+"[""16 7655 9991 9669 7602 2364 4995""]",True,,Marta Nowacki Konsulting,1656049451,9709186400,2019-04-15,983273158,,"ulica Konopnickiej 25/12, 30-302 Kraków",Zwolniony,
+[],False,,Katarzyna Wrona Doradztwo Biznesowe,4767976438,9901222336,2014-05-20,156149784,,"81-350 Gdynia, ul Portowa 146 m.29",Czynny,
+"[""PL 77744222124219738190347317""]",True,,Magdalena Wrona Konsulting,1613696816,9908276928,2011-11-06,453521818,,"ul. Konopnickiej 75, 30-302 Kraków",Czynny,"ul. Konopnickiej 75, 30-302 Kraków"
+"[""08332710453513563431719163""]",False,,Paweł Nowacki Doradztwo Biznesowe,1199867980,6306275703,2018-08-21,793597820,,"ulica Srebrna 91/10, 00-810 Warszawa",Zwolniony,"00-810 Warszawa, ul Srebrna 91 m.10"
+[],True,,Andrzej Król Projektowanie IT,4865281685,6810232388,2017-11-21,054235733,,"ulica Topolowa 150/30, 20-819 Lublin",Czynny,"ul. Topolowa 150/30, 20-819 Lublin"
+"[""68 9220 6829 9458 0284 5718 6919""]",True,,Andrzej Król Studio Danych,3924075818,9209143655,2023-12-06,141247826,,"81-350 Gdynia, ul Portowa 174 m.15",Czynny,
+"[""45 3651 3386 1367 4616 1605 4337""]",True,,Marek Tracz Konsulting,3697117980,7505041782,2025-11-26,893246095,,"ul. Bałtycka 141/20, 85-707 Bydgoszcz",Czynny,"ulica Bałtycka 141/20, 85-707 Bydgoszcz"
+"[""74706953121789406972967204""]",False,,Łukasz Wrona Projektowanie IT,0430305486,6802238498,2015-10-07,874034505,,"ul. Bałtycka 176, 85-707 Bydgoszcz",Czynny,"85-707 Bydgoszcz, Bałtycka 176"
+"[""PL 78758647401925531755046161""]",True,,Adam Zieliński Usługi Instalacyjne,1658202970,7711261939,2018-01-08,213556909,,"ul Portowa 115, 81-350 Gdynia",Czynny,
+"[""45769094142509563603855288""]",True,,Łukasz Mazur Usługi Instalacyjne,4225831323,6409185757,2013-04-05,705895782,2025-10-20,"85-707 Bydgoszcz, ul Bałtycka 114 m.26",Czynny,
+"[""PL 43585991977638586922543763""]",False,,Marek Pawlik Konsulting,2498182992,7211185496,2015-09-16,299590010,,"ul. Jarzębinowa 89/17, 10-687 Olsztyn",Czynny,"10-687 Olsztyn, ul Jarzębinowa 89 m.17"
+[],False,,Krzysztof Borkowska Doradztwo Biznesowe,1473210469,6606088642,2021-04-21,632595327,,"81-350 Gdynia, Portowa 103",Czynny,
+[],False,,Krzysztof Pawlik Studio Danych,2165585239,9911202946,2021-01-14,868000257,,"ul. Chorzowska 74, 40-121 Katowice",Czynny,"40-121 Katowice, Chorzowska 74"
+"[""PL 29486309972855417939431491""]",True,,Karolina Kowalski Konsulting,2309130756,7009217229,2012-06-09,263689702,,"35-001 Rzeszów, 3 Maja 148",Czynny,
+"[""76 2428 5740 4052 7703 5476 6307""]",False,,Tomasz Tracz Studio Danych,5747338484,6205232294,2025-06-03,219933083,,"ul. Chorzowska 98/13, 40-121 Katowice",Czynny,"ul. Chorzowska 98/13, 40-121 Katowice"
+"[""PL 51940723461504117082922092""]",True,,Piotr Karwiec Usługi Instalacyjne,5478872874,7910202758,2016-10-01,315274205,,"50-101 Wrocław, ul Kazimierza Wielkiego 48 m.28",Czynny,
+"[""PL 14747299055523783904975745""]",False,,Mateusz Jasieński Konsulting,3272795687,0025124618,2019-03-27,833918785,,"ul. Głogowska 41, 60-126 Poznań",Czynny,
+"[""88465190348308241301606449""]",True,,Anna Zieliński Studio Danych,0170462265,8212039866,2021-11-24,676618251,,"60-126 Poznań, ul Głogowska 1 m.19",Czynny,"ulica Głogowska 1/19, 60-126 Poznań"
+[],True,,Jan Borkowska Projektowanie IT,4395995342,7301059255,2025-11-16,836440892,2025-12-21,"00-810 Warszawa, ul Srebrna 63 m.13",Czynny,
+"[""30718218216063923186781108""]",True,,Rafał Milewska Usługi Instalacyjne,0469901398,9412274120,2017-09-18,373540331,2025-04-13,"ul Portowa 166, 81-350 Gdynia",Czynny,"81-350 Gdynia, Portowa 166"
+"[""PL 02579535644119354728639962""]",True,,Andrzej Dorski Konsulting,9378547772,7206087223,2015-04-17,522872808,2025-12-09,"ulica Głogowska 142/19, 60-126 Poznań",Zwolniony,
+"[""17591450909039572869395391""]",False,,TomaszJ asieński Konsulting,3984546156,6609054948,2025-04-08,793341016,,"ul. Srebrna 129/22, 00-810 Warszawa",Czynny,"00-810 Warszawa, ul Srebrna 129 m.22"
+[],False,,Karolina Duda Projektowanie IT,5621850163,9607229856,2016-05-18,159996504,,"85-707 Bydgoszcz, ul Bałtycka 102 m.10",Czynny,"ul. Bałtycka 102/10, 85-707 Bydgoszcz"
+"[""66899238585520101544484792""]",False,,Krzysztof Milewska Konsulting,6046618398,9810266315,2018-01-12,262244472,,"30-302 Kraków, Konopnickiej 27",Zwolniony,"ul. Konopnickiej 27, 30-302 Kraków"
+"[""70 3221 7759 9025 4983 9103 2041""]",True,,Rafał Tracz Doradztw oBiznesowe,5646519398,0028194971,2017-11-16,280737416,,"ul Jarzębinowa 123, 10-687 Olsztyn",Zwolniony,"10-687 Olsztyn, Jarzębinowa 123"
+[],False,,Anna Jasieński Usługi Instalacyjne,8993756798,7604179499,2015-10-11,250714611,2025-08-11,"ul. Konopnickiej 85/14, 30-302 Kraków",Czynny,"30-302 Kraków, ul Konopnickiej 85 m.14"
+"[""PL 37007963302251766689921274""]",True,,Piotr Cieślar Projektowanie IT,0334191825,8810147370,2013-04-07,537147859,,"ul. Bałtycka 48/14, 85-707 Bydgoszcz",Czynny,"ulica Bałtycka 48/14, 85-707 Bydgoszcz"
+"[""PL 29565621929590994414753763""]",True,,Marta Wrona Usługi Instalacyjne,5790507236,9105054065,2021-07-10,887676772,,"ul. Chorzowska 178/30, 40-121 Katowice",Zwolniony,"40-121 Katowice, ul Chorzowska 178 m.30"
+[],False,,Monika Jasieński Konsulting,9629233095,7504266744,2023-10-12,849825449,,"ul Kazimierza Wielkiego 68, 50-101 Wrocław",Czynny,"ul. Kazimierza Wielkiego 68, 50-101 Wrocław"
+"[""PL 51865067996451159059256870""]",True,,BarbaraW iśniewska Studio Danych,1863637454,0031236869,2023-05-13,589297500,,"ul. Portowa 149, 81-350 Gdynia",Czynny,"ul Portowa 149, 81-350 Gdynia"
+[],True,,Marek Zieliński Doradztwo Biznesowe,6111554262,6808034751,2019-12-13,218909275,,"ul. Kazimierza Wielkiego 3, 50-101 Wrocław",Czynny,"ul. Kazimierza Wielkiego 3, 50-101 Wrocław"
+"[""82 8504 1627 5020 9225 2123 8029""]",False,,Monika Król Studio Danych,8055269658,6704162163,2018-12-27,271091043,,"30-302 Kraków, ul Konopnickiej 76 m.26",Zwolniony,"ul. Konopnickiej 76/26, 30-302 Kraków"
+"[""51 4874 9715 1295 4589 3853 3584""]",True,,Joanna Krawiec Projektowanie IT,7588425241,6812013684,2023-10-12,056481491,2025-04-12,"ul. Kazimierza Wielkiego 157/10, 50-101 Wrocław",Czynny,"ulica Kazimierza Wielkiego 157/10, 50-101 Wrocław"
+"[""52287512090181749731114963""]",False,,Katarzyna Duda Doradztwo Biznesowe,7445187053,9301132129,2010-10-18,494937597,,"ulica Głogowska 20/4, 60-126 Poznań",Zwolniony,"60-126 Poznań, ul Głogowska 20 m.4"
+"[""04596197400597583445942104""]",True,,Izabela Król Projektowanie IT,6234456557,6410192020,2019-02-17,431329121,,"50-101 Wrocław, ul Kazimierza Wielkiego 22 m.17",Czynny,"50-101 Wrocław, ul Kazimierza Wielkiego 22 m.17"
+"[""90 7872 5505 4151 9093 7577 0796""]",True,,Katarzyna Jasieński Projektowanie IT,2365199410,6001274641,2022-02-22,137215107,,"ul. Chorzowska 64, 40-121 Katowice",Czynny,
+"[""PL 12848369559582770699226915""]",False,,Paulina Mazur Studi oDanych,5985642059,9009268940,2010-07-01,304078593,,"40-121 Katowice, ul Chorzowska 64 m.26",Czynny,"40-121 Katowice, ul Chorzowska 64 m.26"
+"[""PL 02351209459691573494385633""]",False,,Adam Cieślar Doradztwo Biznesowe,5002921851,6806233907,2018-10-23,569154522,,"ul Srebrna 135, 00-810 Warszawa",Czynny,"ul Srebrna 135, 00-810 Warszawa"
+"[""87018811133795233143241707""]",True,,Alicja Mazur Projektowanie IT,5704331541,8003212453,2025-09-16,006762676,,"ul. Topolowa 128, 20-819 Lublin",Zwolniony,
+"[""90 8132 2082 2044 8435 1978 8164""]",False,,Łukasz Trac zStudio Danych,6987205061,7904041813,2025-02-26,497310324,,"ulica Portowa 53/14, 81-350 Gdynia",Zwolniony,
+"[""59900284224170183137743403""]",False,,Marta Nowacki Doradztwo Biznesowe,7937416089,8409149773,2025-10-06,899217223,,"40-121 Katowice, ul Chorzowska 106 m.19",Czynny,"ulica Chorzowska 106/19, 40-121 Katowice"
+"[""PL 33581368220152979685462116""]",True,,Krzysztof Mazur Doradztwo Biznesowe,9970246299,8605138955,2011-07-06,606530745,,"ul. Topolowa 145/26, 20-819 Lublin",Czynny,
+[],False,,Alicja Nowacki Konsulting,5345786103,7501151828,2010-08-27,579727985,,"ul. Chorzowska 146, 40-121 Katowice",Czynny,"ul. Chorzowska 146, 40-121 Katowice"
+"[""PL 53629213501134496895092918""]",False,,Adam Jasieński Usługi Instalacyjne,8994417154,6009227131,2021-05-22,544432830,,"50-101 Wrocław, ul Kazimierza Wielkiego 78 m.27",Zwolniony,"50-101 Wrocław, ul Kazimierza Wielkiego 78 m.27"
+"[""PL 54720474421756394904651444""]",False,,Łukasz Milewska Projektowanie IT,6554947170,7406086031,2021-08-10,999173816,,"ulica Chorzowska 47/29, 40-121 Katowice",Zwolniony,
+"[""PL 52888646508930431784213913""]",False,,Marta Cieślar Studio Danych,3003354216,8301119700,2020-05-17,894210447,,"ul. Konopnickiej 123, 30-302 Kraków",Zwolniony,"ul. Konopnickiej 123, 30-302 Kraków"
+"[""PL 27154224125038341247223720""]",False,,Michał Jasieński Projektowanie IT,3046184992,9505163508,2012-10-16,618914117,,"00-810 Warszawa, ul Srebrna 13 m.14",Czynny,
+[],True,,Anna Tracz Studio Danych,1100225579,8311117979,2023-04-06,415521667,,"ul Głogowska 119, 60-126 Poznań",Czynny,
+"[""87733521085837558263218945""]",True,,Izabela Kaczmarek Konsulting,6375628900,9309232560,2021-09-19,287721753,,"ul. Srebrna 174/24, 00-810 Warszawa",Zwolniony,
+"[""PL 81199428178342064339553433""]",False,,Piotr Duda Usługi Instalacyjne,5711305548,8906188751,2013-10-15,851027261,,"ul. Jarzębinowa 168/11, 10-687 Olsztyn",Zwolniony,
+[],True,,Krzysztof Król Usługi Instalacyjne,4654722698,8610235067,2015-05-05,485833394,,"ul Bałtycka 27, 85-707 Bydgoszcz",Czynny,
+[],True,,Barbara Tracz oKnsulting,7198386384,7309026876,2010-10-21,066658004,,"ulica Bałtycka 74/5, 85-707 Bydgoszcz",Zwolniony,
+"[""63 3243 0872 4478 3907 1212 5798""]",False,,Adam Nowacki Studio Danych,7985158328,0030275934,2012-01-05,182688615,,"ul Bałtycka 11, 85-707 Bydgoszcz",Czynny,
+[],True,,Piotr Tracz Konsulting,1128801336,0124119419,2025-03-09,138612075,,"ulica Portowa 132/15, 81-350 Gdynia",Zwolniony,"ul. Portowa 132/15, 81-350 Gdynia"
+[],False,,Monika Wrona UsługiI nstalacyjne,8424508821,9404057406,2022-10-19,009968814,,"ul. Kazimierza Wielkiego 98, 50-101 Wrocław",Czynny,"ul Kazimierza Wielkiego 98, 50-101 Wrocław"
+[],True,,Adam Tracz Usługi Instalacyjne,5620533645,9703196971,2012-02-25,257775478,,"ul. Jarzębinowa 82, 10-687 Olsztyn",Czynny,"10-687 Olsztyn, Jarzębinowa 82"
+"[""66501800544027760123162575""]",True,,Paulina Mazur Konsulting,9282722992,9201224913,2011-01-07,750373145,,"ul 3 Maja 75, 35-001 Rzeszów",Zwolniony,
+"[""43973847184581630212918236""]",False,,Tomasz Duda Doradztwo Biznesowe,3222591365,6409215600,2014-06-27,177739260,,"ul. 3 Maja 2/5, 35-001 Rzeszów",Zwolniony,
+"[""03 1026 2370 5067 4825 2292 5465""]",False,,Paweł Milewska Doradztwo Biznesowe,1038862912,7407133166,2025-07-08,799088117,,"35-001 Rzeszów, ul 3 Maja 169 m.6",Zwolniony,
+"[""90 3653 5423 7246 6762 2676 1747""]",True,,Paulina iCeślar Projektowanie IT,2694486959,8007122746,2018-06-25,463688725,,"ulica Srebrna 2/4, 00-810 Warszawa",Czynny,"ul. Srebrna 2/4, 00-810 Warszawa"
+"[""20596425497806437196034897""]",True,,Mihcał Lis Doradztwo Biznesowe,2770384309,7812201941,2013-07-02,883920530,,"ul. Portowa 21/24, 81-350 Gdynia",Czynny,
+"[""PL 99521154240150437908680883""]",False,,Krzysztof Pawlik Konsulting,3577907141,8807198923,2021-09-21,633565880,,"60-126 Poznań, ul Głogowska 88 m.26",Czynny,"ul. Głogowska 88/26, 60-126 Poznań"
+"[""75 9799 7425 4290 4368 2756 8497""]",False,,Adam Krawiec Usługi Instalacyjne,5957947284,9401288901,2011-12-15,639208678,,"ulica Topolowa 21/22, 20-819 Lublin",Czynny,
+[],False,,Andrzej Wiśniewska Doradztwo Biznesowe,1438663227,7110054744,2015-06-08,026728857,,"ul. Konopnickiej 180/12, 30-302 Kraków",Czynny,"ul. Konopnickiej 180/12, 30-302 Kraków"
+"[""86789451193246719992752371""]",True,,Mateusz Wiśniewska Usług iInstalacyjne,7225699611,6507205694,2014-12-26,253554496,,"ul. Głogowska 91, 60-126 Poznań",Czynny,
+"[""35187570532093613014464197""]",False,,Katarzyna Lis Doradztwo Biznesowe,5778487282,7001026846,2012-11-02,997968845,,"ul. Jarzębinowa 64/15, 10-687 Olsztyn",Zwolniony,"ul. Jarzębinowa 64/15, 10-687 Olsztyn"
+[],False,,Jan Pawlik Usługi Instalcayjne,8944846312,6507214924,2017-03-23,241797497,,"85-707 Bydgoszcz, Bałtycka 166",Zwolniony,
+[],False,,Ewa Król Konsulting,6730371837,6002255078,2011-02-03,645208814,,"20-819 Lublin, Topolowa 140",Zwolniony,
+"[""PL 70971846790877373169275927""]",False,,Barbara Borkowska Projektowanie IT,5857306524,6603164812,2011-02-02,077848739,,"ul. Srebrna 16, 00-810 Warszawa",Czynny,
+[],False,,Marek Jasieński Doradztwo Biznesowe,2203173109,9311031717,2019-01-01,678994053,,"ul 3 Maja 73, 35-001 Rzeszów",Zwolniony,
+"[""25 6618 0610 8537 0070 0102 2212""]",False,,Izabela Mazur Usługi Instalacjyne,1228685289,8912227997,2016-10-02,755855665,,"85-707 Bydgoszcz, ul Bałtycka 143 m.14",Czynny,
+"[""18169349106769871014941163""]",True,,Alicja Pawilk Projektowanie IT,9315727919,7902197550,2014-06-04,409610556,,"85-707 Bydgoszcz, Bałtycka 36",Czynny,
+[],False,,Andrzej Milewska Konsutling,2783769389,8509143136,2022-02-14,833146591,,"ulica Kazimierza Wielkiego 147/18, 50-101 Wrocław",Czynny,
+"[""PL 25449655024218254805759502""]",True,,Magdalena Cieślar Projektowanie IT,8487920698,9404079952,2018-11-25,042043940,,"20-819 Lublin, Topolowa 79",Czynny,
+"[""PL 17548771320206139203186767""]",False,,Jan Lis Konsulting,6084325621,7701215221,2015-03-17,689363926,,"ul. Srebrna 89/12, 00-810 Warszawa",Czynny,"ulica Srebrna 89/12, 00-810 Warszawa"
+[],True,,Tomasz Cieślar Projektowanie IT,9949993933,6603061429,2011-05-20,051728975,,"ul. Konopnickiej 78, 30-302 Kraków",Czynny,"30-302 Kraków, Konopnickiej 78"
+[],False,,Marta Jasieński StudioD anych,3886086803,8808271694,2022-08-25,476447264,,"ulica 3 Maja 147/17, 35-001 Rzeszów",Zwolniony,
+"[""96499104716495458446577137""]",False,,Paulina Borkowska Doradztwo Biznesowe,5922220644,8401253799,2016-05-06,742123094,,"ulica Portowa 22/13, 81-350 Gdynia",Czynny,
+"[""28732276654842749464540300""]",True,,Tomasz Wrona Projektowanie IT,7950145561,7810223906,2019-04-13,681472145,,"ul Portowa 23, 81-350 Gdynia",Czynny,"ul Portowa 23, 81-350 Gdynia"
+"[""38 8232 3453 3566 8228 9657 5492""]",True,,Joanna Krawiec Usługi Instalacyjne,3966055830,8911262932,2017-12-20,344144885,,"35-001 Rzeszów, ul 3 Maja 60 m.7",Zwolniony,"35-001 Rzeszów, ul 3 Maja 60 m.7"
+[],False,,Magdalena Król Doradztwo Biznesowe,9962914504,0029273719,2022-02-26,617357438,,"81-350 Gdynia, ul Portowa 17 m.9",Czynny,
+"[""01411158162315394281158765""]",True,,Piotr Tracz Konsulting,3448571422,0024114285,2022-04-20,410988138,,"ul. Kazimierza Wielkiego 12, 50-101 Wrocław",Zwolniony,
+[],True,,Adam Dorski Konsulting,7477332945,6512152593,2013-06-03,625577017,2025-01-21,"ul. Chorzowska 21/25, 40-121 Katowice",Czynny,
+[],True,,Krzysztof Duda Doradztwo Biznesowe,9719975817,7111222276,2010-11-19,246191965,,"ul. 3 Maja 111/14, 35-001 Rzeszów",Zwolniony,"ul. 3 Maja 111/14, 35-001 Rzeszów"
+"[""PL 73206569427638082632676311""]",True,,Anna Borkowska Studio Danych,0369656666,8202285623,2012-12-02,832723865,,"60-126 Poznań, Głogowska 16",Czynny,
+"[""71 4142 6429 3064 6143 8381 6742""]",False,,Piotr Nowacki Doradztwo Biznesoew,1971284781,9608237038,2019-01-12,891371894,,"ul Jarzębinowa 129, 10-687 Olsztyn",Zwolniony,"10-687 Olsztyn, Jarzębinowa 129"
+"[""94752897245979898224554042""]",True,,Andrzej Dorski Projektowanie TI,0192927524,9905095209,2010-02-10,372805129,,"ul. Bałtycka 130, 85-707 Bydgoszcz",Czynny,"ul. Bałtycka 130, 85-707 Bydgoszcz"
+"[""77 8545 3905 7986 6269 2339 5300""]",True,,Joanna Borkowska Usługi Instalacyjne,9454414967,0026288074,2021-12-12,393852580,,"50-101 Wrocław, ul Kazimierza Wielkiego 98 m.17",Czynny,"ul. Kazimierza Wielkiego 98/17, 50-101 Wrocław"
+"[""PL 56377312524587013111751733"", ""83624921515694438787171359""]",False,4214066504,Altair Finance Services Sp. z o.o.,7128639174,,2021-01-13,427173962,,"ul Topolowa 164, 20-819 Lublin",Wykreślony,
+[],False,3461571732,Helix Retail Polska SA,4787005050,,2019-02-16,030937618,2025-05-18,"ulica Kazimierza Wielkiego 75/6, 50-101 Wrocław",Wykreślony,
+[],False,2582739021,Baltic Med Supply Polska sp z oo,1946723248,,2018-04-04,962071002,,"ul. Jarzębinowa 12/11, 10-687 Olsztyn",Czynny,
+[],True,7811379956,Nebula Analytics Solutions spółka z ograniczoną odpowiedzialnością,3631797062,,2020-11-20,353153136,,"ul. Kazimierza Wielkiego 12, 50-101 Wrocław",Czynny,
+"[""28687842775153672097506699"", ""28 5685 9441 6493 3111 5685 4026""]",True,2906007806,Amber Tech Group SA,0632543107,,2023-12-02,867177318,,"ul Jarzębinowa 64, 10-687 Olsztyn",Czynny,"ul Jarzębinowa 64, 10-687 Olsztyn"
+[],True,9335548640,Vistula Data Hub Group sp z oo,8847951371,,2019-01-28,155778817,,"ul. Chorzowska 53, 40-121 Katowice",Wykreślony,"ul. Chorzowska 53, 40-121 Katowice"
+[],False,2547292842,Polaris Medical Holding spółka akcyjna,7452380552,,2019-12-16,222310592,,"ul. Głogowska 44/8, 60-126 Poznań",Wykreślony,"ul. Głogowska 44/8, 60-126 Poznań"
+"[""61307398714845443007457774""]",False,7186375998,Altair Finance Group SP Z O O,4554781376,,2024-03-27,056265650,,"ul 3 Maja 135, 35-001 Rzeszów",Czynny,"ul 3 Maja 135, 35-001 Rzeszów"
+"[""31 6332 5336 3057 5786 6070 2507"", ""66606950852610689655326474""]",False,3264870494,Polaris Medical Tech sp. z o.o.,7146273014,,2022-05-17,787300244,,"ul Głogowska 107, 60-126 Poznań",Czynny,"ul Głogowska 107, 60-126 Poznań"
+"[""39684835960001820871638819""]",True,5765213283,Orbis Retail Solutions Polska Sp. z o.o.,1120754527,,2022-01-24,389888167,,"ul. Topolowa 137/27, 20-819 Lublin",Czynny,"ul. Topolowa 137/27, 20-819 Lublin"
+[],True,7140140119,Nebula Analytics Tech spółka z ograniczoną odpowiedzialnością,9552893891,,2019-08-04,393250124,,"ul Konopnickiej 11, 30-302 Kraków",Wykreślony,"ul Konopnickiej 11, 30-302 Kraków"
+"[""50 1817 5760 1808 6752 2624 9152""]",True,5207167811,Meridian Trade Group S.A.,5396136749,,2023-03-10,266912153,,"ulica Kazimierza Wielkiego 58/10, 50-101 Wrocław",Wykreślony,
+"[""17731319749313527625593765""]",True,6756770028,Nebula Analytics Services spółka akcyjna,9788977828,,2022-10-03,427624671,,"ul Chorzowska 140, 40-121 Katowice",Czynny,"ul Chorzowska 140, 40-121 Katowice"
+"[""PL 16391727154836281341350334""]",True,5917135785,Nebula Analytics Holding sp z oo,3440496391,,2025-07-07,294563718,,"00-810 Warszawa, Srebrna 179",Czynny,"00-810 Warszawa, Srebrna 179"
+"[""PL 87574465448218739821255887"", ""PL 40503151346508656996387447""]",True,7489690835,Helix Retail Group sp. z o.o.,3644249363,,2019-06-20,723246651,,"40-121 Katowice, ul Chorzowska 47 m.21",Wykreślony,"40-121 Katowice, ul Chorzowska 47 m.21"
+"[""PL 83410657299766562067039336"", ""77 4410 8439 7118 2003 4093 5827""]",True,5963632123,Baltic Med Supply Group Sp. z o.o.,1586734257,,2018-12-26,476490785,,"ul Chorzowska 65, 40-121 Katowice",Czynny,"ul Chorzowska 65, 40-121 Katowice"
+[],True,7560417765,Nova Systems Holding sp. z o.o.,8570027206,,2021-01-01,612481569,,"ul Głogowska 78, 60-126 Poznań",Czynny,"ul Głogowska 78, 60-126 Poznań"
+"[""51847887978884587957971149""]",False,6771333447,Amber Tech Polska SP Z O O,2620443973,,2018-01-09,626393436,,"ul Topolowa 95, 20-819 Lublin",Czynny,"ul Topolowa 95, 20-819 Lublin"
+"[""06923951083278668689984200"", ""PL 26503052411420765133529495""]",False,5027456449,Helix Retail Services spółka z ograniczoną odpowiedzialnością,7032032074,,2021-10-01,485625728,,"ul Kazimierza Wielkiego 34, 50-101 Wrocław",Czynny,"ul Kazimierza Wielkiego 34, 50-101 Wrocław"
+"[""10 8492 9704 5386 8761 2976 7621""]",True,7749050975,Baltic Med Supply Services SA,9616423610,,2020-02-10,923045018,,"20-819 Lublin, Topolowa 83",Wykreślony,"20-819 Lublin, Topolowa 83"
+"[""31 5383 4899 5312 0085 9040 0241""]",False,6108573278,Meridian Trade Holding sp z oo,2438649081,,2025-11-24,814761742,,"ul 3 Maja 154, 35-001 Rzeszów",Czynny,"ul 3 Maja 154, 35-001 Rzeszów"
+[],False,2321941680,Polaris Medical Solutions S.A.,7499564122,,2025-01-28,061027769,,"60-126 Poznań, ul Głogowska 81 m.15",Czynny,
+"[""24 1471 8976 2177 9429 2101 7274"", ""PL 21517507963132404961965196""]",True,9730806958,Polaris Medical Services SP Z O O,6024375738,,2018-01-12,146717957,,"35-001 Rzeszów, ul 3 Maja 142 m.2",Czynny,
+"[""58686237857717121999391767""]",False,8910771199,Helix Retail oHlding SA,2478712552,,2023-01-15,180812135,,"ul. Portowa 91/25, 81-350 Gdynia",Czynny,
+"[""62 4452 7843 0039 8780 6465 9491"", ""86 8498 7493 2039 2268 6870 3755""]",False,4550489267,Helix Retail HoldingS P Z O O,1085628843,,2018-08-11,389975634,,"ul. 3 Maja 15/23, 35-001 Rzeszów",Czynny,"ul. 3 Maja 15/23, 35-001 Rzeszów"
+"[""PL 65309246430813222575041226"", ""43 5094 5573 1492 6622 4776 0382""]",True,6110627371,VistulaD ata Hub Services sp z oo,7677622827,,2018-12-06,586988649,,"ulica Portowa 133/27, 81-350 Gdynia",Czynny,
+"[""86417939969793393383387688"", ""PL 86898258173868165223507993""]",False,6044327018,Nebula Analytics Group SP Z O O,5679228777,,2021-08-17,510679497,,"ul. Portowa 78, 81-350 Gdynia",Czynny,
+"[""80684960334299508672266281"", ""76777867397181905974689933""]",False,5641118242,Orbis Retail Solutions Services SP Z O O,5200461526,,2021-04-25,241246209,,"ul Kazimierza Wielkiego 6, 50-101 Wrocław",Czynny,
+[],False,1382496718,Nebula Analytics Holding SP Z O O,7007942007,,2022-12-15,325823868,,"30-302 Kraków, Konopnickiej 163",Czynny,"30-302 Kraków, Konopnickiej 163"
+[],False,8071569562,Polaris Medical Services spółka z ograniczoną odpowiedzialnością,4531943375,,2022-11-18,017537030,,"85-707 Bydgoszcz, ul Bałtycka 106 m.23",Wykreślony,
+[],False,6351903613,Meridian Trade Solutions spółka z ograniczoną odpowiedzialnością,0954317350,,2025-02-21,325411076,,"10-687 Olsztyn, Jarzębinowa 13",Czynny,"10-687 Olsztyn, Jarzębinowa 13"
+[],True,1963990767,Nebula Analytics Holding S.A.,9311091939,,2018-09-19,699150785,,"ulica Topolowa 27/18, 20-819 Lublin",Czynny,"ulica Topolowa 27/18, 20-819 Lublin"
+"[""72 4763 9857 2685 0072 8438 5800""]",False,9594652170,Amber Tech Tech SP Z O O,7563620501,,2018-11-05,730337933,2025-07-22,"50-101 Wrocław, ul Kazimierza Wielkiego 178 m.15",Czynny,
+"[""45051490487359754345364996"", ""07 7997 7222 2646 1533 0027 0275""]",True,5596309938,Orbis Retail Solutions Group sp z oo,7317912868,,2022-09-03,425304289,,"ul. Topolowa 31, 20-819 Lublin",Wykreślony,
+"[""69 3805 1453 8690 1681 2075 0006"", ""PL 91558593922445565232214894""]",True,3415148881,Altair Fiannce Services sp z oo,5354443928,,2024-10-25,431115083,,"ulica Konopnickiej 95/11, 30-302 Kraków",Wykreślony,"ulica Konopnickiej 95/11, 30-302 Kraków"
+"[""17699330381569590705695106"", ""61 1287 4081 1730 6993 8214 5287""]",False,6377805292,BalticM ed Supply Holding S.A.,8459090225,,2021-05-22,407553666,,"ul Kazimierza Wielkiego 119, 50-101 Wrocław",Wykreślony,"ul Kazimierza Wielkiego 119, 50-101 Wrocław"
+"[""PL 28405218505608319126048589"", ""54 9818 4409 3865 4719 2705 4874""]",False,6729949387,Nova Systems Group S.A.,8597779014,,2019-06-03,430271693,,"ul. Topolowa 100/28, 20-819 Lublin",Czynny,
+"[""05609446150123506656605059"", ""PL 85576578937939194743729903""]",True,4125777118,Meridian Trade Group spółka z ograniczoną odpowiedzialnością,1241862104,,2018-01-11,372742209,,"ul. Kazimierza Wielkiego 98, 50-101 Wrocław",Czynny,
+"[""PL 09102764714243211190266237""]",True,5520650637,Meridian Trade Polska spółka z ograniczoną odpowiedzialnością,4971892419,,2018-03-12,314950136,,"10-687 Olsztyn, Jarzębinowa 139",Wykreślony,"10-687 Olsztyn, Jarzębinowa 139"
+[],True,5338033968,Altair Finance Polska Sp. z o.o.,2321298338,,2020-08-01,527017130,,"00-810 Warszawa, ul Srebrna 134 m.14",Czynny,"00-810 Warszawa, ul Srebrna 134 m.14"
+[],True,3008576665,Orbis Retail Solutions Tech sp. z o.o.,9236458750,,2024-05-23,674916016,2025-08-18,"35-001 Rzeszów, 3 Maja 124",Czynny,"35-001 Rzeszów, 3 Maja 124"
+"[""33 2874 2565 6866 8058 0005 8953""]",True,6864622522,Orbis Retail Solutions Services spółka z ograniczoną odpowiedzialnością,3023467912,,2025-06-20,372817932,,"30-302 Kraków, Konopnickiej 179",Czynny,
+"[""43 8578 1807 7949 1488 1514 4661""]",False,4357978630,Obris Retail Solutions Polska SP Z O O,6915671649,,2022-04-24,505057397,,"00-810 Warszawa, ul Srebrna 117 m.13",Czynny,"00-810 Warszawa, ul Srebrna 117 m.13"
+"[""56266688545536377665995990""]",True,4111593195,Meridian Trade Group spółka z ograniczoną odpowiedzialnością,3665528993,,2023-03-27,256904098,2025-05-10,"ulica Konopnickiej 168/18, 30-302 Kraków",Czynny,
+"[""16226648491861462883635805"", ""31 5131 3561 1702 7847 3447 9372""]",True,8612590472,Helix Retail Tech sp. z o.o.,0591266201,,2025-06-01,927742333,,"ul. Portowa 101, 81-350 Gdynia",Czynny,
+"[""19682258858431357408747407""]",False,5182606888,Meridian Trade Holding spółka z ograniczoną odpowiedzialnością,9208751029,,2023-10-18,718981312,,"ul 3 Maja 47, 35-001 Rzeszów",Wykreślony,
+"[""65 7799 0618 3442 5118 0954 5519""]",True,2671462831,Baltic Med Supply Solutions sp z oo,5660931418,,2023-12-19,435989262,,"60-126 Poznań, ul Głogowska 33 m.14",Czynny,"60-126 Poznań, ul Głogowska 33 m.14"
+"[""34 8401 6170 6491 4453 3752 0156""]",True,2269405396,Nebula Analytics Tech sp. z o.o.,8341465111,,2022-09-16,727578446,2025-05-14,"ul. Kazimierza Wielkiego 152, 50-101 Wrocław",Czynny,"ul. Kazimierza Wielkiego 152, 50-101 Wrocław"
+"[""15 7337 6840 9134 1781 0907 1957""]",True,8909728321,Vistula Data Hub Group SA,5153814474,,2020-07-04,528506762,2025-11-10,"00-810 Warszawa, ul Srebrna 109 m.24",Czynny,"00-810 Warszawa, ul Srebrna 109 m.24"
+"[""14955838736807296618084388""]",False,5313402665,Orbis Retail Solutions Holding spółka z ograniczoną odpowiedzialnością,7256862110,,2024-04-16,023741678,,"ulica Kazimierza Wielkiego 169/6, 50-101 Wrocław",Czynny,
+[],True,6843356708,Nova Systems Polska S.A.,3502000534,,2019-01-19,604145456,,"ul Bałtycka 110, 85-707 Bydgoszcz",Czynny,"ul Bałtycka 110, 85-707 Bydgoszcz"
+"[""64 4503 0060 4519 9081 8733 0027"", ""PL 63272237369504326059047353""]",True,7161768802,Altair iFnance Solutions S.A.,7881278686,,2022-03-09,942409036,,"ul. Bałtycka 50, 85-707 Bydgoszcz",Czynny,"ul. Bałtycka 50, 85-707 Bydgoszcz"
+"[""93 0539 7345 1359 9642 6060 0989""]",False,3424089164,Nebula Analytics Tech S.A.,6273652717,,2024-07-01,983735439,,"ul. 3 Maja 76, 35-001 Rzeszów",Wykreślony,"ul. 3 Maja 76, 35-001 Rzeszów"
+[],False,5723084810,Amber Tech Services S.A.,3036625436,,2022-10-27,018418620,,"20-819 Lublin, Topolowa 52",Czynny,"20-819 Lublin, Topolowa 52"
+[],True,5226557676,Meridian Trade Tech spółka z ograniczoną odpowiedzialnością,8788361968,,2021-01-24,952366878,,"ul. Kazimierza Wielkiego 18, 50-101 Wrocław",Czynny,
+[],True,2272847657,Baltic Med Supply Polska sp z oo,2066784984,,2024-03-24,041200928,2025-12-12,"ul. Portowa 37, 81-350 Gdynia",Czynny,
+[],False,1115950342,Vistula Data Hub Tech Sp.z  o.o.,3034199097,,2022-03-05,811390438,,"ul Konopnickiej 43, 30-302 Kraków",Czynny,"ul Konopnickiej 43, 30-302 Kraków"
+[],True,3399129710,Amber Tech Services sp z oo,4214955112,,2020-02-19,248171752,,"85-707 Bydgoszcz, Bałtycka 87",Wykreślony,"85-707 Bydgoszcz, Bałtycka 87"
+"[""PL 38959458922517475294977565"", ""12 8895 6383 6766 5703 1012 2133""]",False,3802146296,Nebula Analytics Solutions spółka akcyjna,7112166365,,2024-05-09,136715778,,"ul Chorzowska 116, 40-121 Katowice",Czynny,"ul Chorzowska 116, 40-121 Katowice"
+[],True,6778265960,Vistula Data Hub Holding Sp. z o.o.,0272751648,,2025-11-19,893199255,,"ul. Srebrna 24/14, 00-810 Warszawa",Wykreślony,"ul. Srebrna 24/14, 00-810 Warszawa"
+"[""45749883968382525430935352""]",False,8177665586,Vistula Data Hub Polska Sp. z o.o.,9286646491,,2024-02-16,851276528,,"ul 3 Maja 4, 35-001 Rzeszów",Czynny,"ul 3 Maja 4, 35-001 Rzeszów"
+"[""06 8992 4715 7561 0801 0302 2123""]",False,6053844446,Polaris Medical Services SA,9552963863,,2024-01-21,306000258,,"ul Kazimierza Wielkiego 32, 50-101 Wrocław",Czynny,"ul Kazimierza Wielkiego 32, 50-101 Wrocław"
+[],True,1209117911,Meridian Trade Holding Sp. z o.o.,6170617136,,2023-02-07,244211753,,"ul. Głogowska 50/8, 60-126 Poznań",Czynny,"ul. Głogowska 50/8, 60-126 Poznań"
+[],True,6199423767,Nova Systems Holding Sp. z o.o.,3955172084,,2023-04-18,694591966,,"ul. Kazimierza Wielkiego 112/13, 50-101 Wrocław",Czynny,
+"[""21445371504519678778801159"", ""32 6842 3263 5546 9033 6931 0571""]",False,0461172959,oNva Systems Polska S.A.,4260880501,,2024-04-06,639040907,,"ul. Konopnickiej 82/7, 30-302 Kraków",Czynny,"ul. Konopnickiej 82/7, 30-302 Kraków"
+"[""55278762602356409309998689""]",False,5296718839,Orbis Retail Solutions Solutions sp. z o.o.,1583311703,,2024-04-03,774573144,,"30-302 Kraków, ul Konopnickiej 70 m.30",Wykreślony,
+"[""PL 69999381919487461231900241"", ""51 7586 3735 3327 0289 9666 8685""]",False,1563268685,Vistula Data Hub Holding SP Z O O,4362948978,,2022-12-20,074510663,,"00-810 Warszawa, ul Srebrna 122 m.15",Czynny,"00-810 Warszawa, ul Srebrna 122 m.15"
+[],False,4120957907,Polaris Medical Services sp. z o.o.,8221145775,,2018-06-10,371009438,,"ulica Kazimierza Wielkiego 37/22, 50-101 Wrocław",Czynny,"ulica Kazimierza Wielkiego 37/22, 50-101 Wrocław"
+"[""47 3965 4310 5577 1030 2759 6088"", ""PL 58697935843423149452125860""]",True,3614878245,Meridian Trade Holding spółka z ograniczoną odpowiedzialnością,8591679541,,2020-09-10,569644309,,"ul Kazimierza Wielkiego 8, 50-101 Wrocław",Czynny,
+[],True,4254882142,Vistula Data Hub Tech spółka akcyjna,3666144942,,2023-08-12,369143075,,"50-101 Wrocław, Kazimierza Wielkiego 79",Wykreślony,"50-101 Wrocław, Kazimierza Wielkiego 79"
+"[""99151414050850134742963641"", ""PL 26472543924539604240817442""]",True,2607870104,Amber Tech Holding sp z oo,1980382872,,2025-03-27,159149750,,"ul. Portowa 33/29, 81-350 Gdynia",Wykreślony,"ul. Portowa 33/29, 81-350 Gdynia"
+"[""85276820918812246614280970""]",True,7546617662,Altair Finance Holding SP Z O O,0970527740,,2023-12-17,047196094,,"40-121 Katowice, Chorzowska 52",Wykreślony,"40-121 Katowice, Chorzowska 52"
+"[""PL 63515911753317025337970860"", ""PL 37758725371720153330032569""]",False,8425995996,Orbis Retail Solutions Solutions SP Z O O,5331266109,,2019-10-01,100231177,,"ulica Kazimierza Wielkiego 97/20, 50-101 Wrocław",Wykreślony,"ulica Kazimierza Wielkiego 97/20, 50-101 Wrocław"
+[],True,5598217661,Nova Systems Solutions SA,0985034465,,2023-11-02,912841173,,"ul. Chorzowska 128, 40-121 Katowice",Czynny,
+"[""48 4226 6315 4309 9034 9131 5653"", ""PL 66713646351452282325348529""]",True,7430003896,Helix Retail Group sp z oo,8217195535,,2020-10-13,087066266,,"00-810 Warszawa, Srebrna 27",Czynny,"00-810 Warszawa, Srebrna 27"
+"[""PL 75833521970640641231540244""]",True,8105697413,Helix Retail Holding SP Z O O,0377107044,,2023-05-26,283483152,2025-01-15,"ulica Chorzowska 75/8, 40-121 Katowice",Czynny,"ulica Chorzowska 75/8, 40-121 Katowice"
+[],True,2044138459,Meridian Trade Services sp. z o.o.,1495427707,,2021-02-21,609454490,,"ul. 3 Maja 133, 35-001 Rzeszów",Czynny,
+"[""14 1052 6963 6427 2126 4543 6768"", ""79674672698630133327988217""]",True,7181335956,Nova Systems Holding SP Z O O,6574902504,,2023-04-13,164205955,,"ulica Portowa 139/20, 81-350 Gdynia",Czynny,"ulica Portowa 139/20, 81-350 Gdynia"
+"[""61 4949 1851 4756 1603 8495 2606"", ""22 8795 6141 0966 1592 9325 7890""]",False,3943535375,Helix Retail Solutions Sp. z o.o.,1579376392,,2020-10-09,137651588,,"40-121 Katowice, ul Chorzowska 14 m.22",Czynny,
+"[""34711202730238595129207223"", ""PL 33582339895111399773879278""]",False,1206021288,Helix Retail Tech SA,5599910157,,2025-12-05,665268341,,"ul Topolowa 108, 20-819 Lublin",Czynny,
+"[""84 2296 6514 4486 5743 0620 6814"", ""84 9919 8720 2981 1300 8433 9141""]",True,9889864565,Nova Systems Holding spółka z ograniczoną odpowiedzialnością,5154214477,,2025-09-05,220368499,2025-02-23,"35-001 Rzeszów, ul 3 Maja 72 m.4",Czynny,"35-001 Rzeszów, ul 3 Maja 72 m.4"
+[],True,1506185380,Helix Retail Holding SP Z O O,2727423183,,2021-02-25,032963347,,"10-687 Olsztyn, Jarzębinowa 20",Czynny,"10-687 Olsztyn, Jarzębinowa 20"
+"[""PL 95044327192980284416169362""]",True,3608545667,Nova Systems Polska SP Z O O,4763928319,,2024-04-18,664047350,,"ulica Kazimierza Wielkiego 126/22, 50-101 Wrocław",Czynny,"ulica Kazimierza Wielkiego 126/22, 50-101 Wrocław"
+[],False,4111860089,Baltic Med Supply Services sp. z o.o.,8044731497,,2023-08-19,219639456,,"ul. Jarzębinowa 9, 10-687 Olsztyn",Czynny,"ul. Jarzębinowa 9, 10-687 Olsztyn"
+[],False,6452059960,Nova Systems Polska Sp. z o.o.,7788116162,,2025-02-02,438787535,,"50-101 Wrocław, ul Kazimierza Wielkiego 134 m.19",Czynny,
+"[""62 2659 4152 5838 5163 5781 1644""]",False,4839589477,Vistula Data Hub Solutions sp. z o.o.,2271043318,,2019-12-07,352287056,,"60-126 Poznań, Głogowska 134",Czynny,
+[],True,1922270510,Orbis Retail Solutions Polska sp. z o.o.,3866675485,,2023-03-24,287675481,,"ul. 3 Maja 172/7, 35-001 Rzeszów",Czynny,
+[],True,4090797727,Polaris Medical Services Sp. z o.o.,1610705184,,2023-12-06,810509222,,"ulica Głogowska 9/21, 60-126 Poznań",Czynny,"ulica Głogowska 9/21, 60-126 Poznań"
+"[""11858110146023535968289014"", ""81 2356 3167 6602 7168 9278 8847""]",False,4485157919,Helix Retail Services spółka z ograniczoną odpowiedzialnością,0203571343,,2022-03-09,711121259,,"ul. Głogowska 156, 60-126 Poznań",Wykreślony,"ul. Głogowska 156, 60-126 Poznań"
+"[""34 7705 1047 3080 2821 3114 8241"", ""43 0444 6978 9425 9634 9001 9768""]",True,0962893654,Polaris Medical Tech sp. z o.o.,3740182727,,2024-12-13,358841834,,"81-350 Gdynia, ul Portowa 90 m.17",Wykreślony,

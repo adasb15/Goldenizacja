@@ -1,0 +1,3123 @@
+[
+  {
+    "name": "Katarzyna Lis Projektowanie IT",
+    "nip": "3922501425",
+    "statusVat": "Czynny",
+    "regon": "762702324",
+    "pesel": "7005209586",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 148, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "89605034611734174146554512"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-06-19",
+    "removalDate": null
+  },
+  {
+    "name": "Alicja Wrona Studio Danych",
+    "nip": "8099613273",
+    "statusVat": "Czynny",
+    "regon": "034615626",
+    "pesel": "7506126568",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 89",
+    "workingAddress": "ul Topolowa 89, 20-819 Lublin",
+    "accountNumbers": [
+      "15663036338648650074435250"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-06-08",
+    "removalDate": null
+  },
+  {
+    "name": "Krzysztof Mazur Doradztwo Biznesowe",
+    "nip": "5126861205",
+    "statusVat": "Czynny",
+    "regon": "943897607",
+    "pesel": "9012119765",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, ul Topolowa 155 m.30",
+    "workingAddress": null,
+    "accountNumbers": [
+      "96778134145244864915350904"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2012-09-09",
+    "removalDate": "2025-01-13"
+  },
+  {
+    "name": "Izabel aKowalski Konsulting",
+    "nip": "9389701550",
+    "statusVat": "Zwolniony",
+    "regon": "291681546",
+    "pesel": "8705128504",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 22/5, 85-707 Bydgoszcz",
+    "workingAddress": "85-707 Bydgoszcz, ul Bałtycka 22 m.5",
+    "accountNumbers": [
+      "46513271004991264384709819"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-01-20",
+    "removalDate": null
+  },
+  {
+    "name": "Paweł Kaczmarek Doradztwo Biznesowe",
+    "nip": "5319497969",
+    "statusVat": "Czynny",
+    "regon": "586780555",
+    "pesel": "6604081296",
+    "krs": null,
+    "residenceAddress": "ul Konopnickiej 169, 30-302 Kraków",
+    "workingAddress": "ul. Konopnickiej 169, 30-302 Kraków",
+    "accountNumbers": [
+      "23625932865711924912830062"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2016-11-20",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Borkowska Projektowanie IT",
+    "nip": "2691163319",
+    "statusVat": "Czynny",
+    "regon": "422686536",
+    "pesel": "9104139807",
+    "krs": null,
+    "residenceAddress": "ul 3 Maja 111, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 17761960791172923359133531"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-07-06",
+    "removalDate": null
+  },
+  {
+    "name": "Karolina Zieliński Doradztwo Bizneoswe",
+    "nip": "2971509688",
+    "statusVat": "Czynny",
+    "regon": "327532735",
+    "pesel": "6106205095",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, Srebrna 159",
+    "workingAddress": "ul. Srebrna 159, 00-810 Warszawa",
+    "accountNumbers": [
+      "45040941477168289821824468"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-04-13",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Król Usługi Instalacyjne",
+    "nip": "7611249125",
+    "statusVat": "Czynny",
+    "regon": "652373415",
+    "pesel": "6206139381",
+    "krs": null,
+    "residenceAddress": "ul Srebrna 113, 00-810 Warszawa",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 47322322426378368125414528"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2025-06-20",
+    "removalDate": null
+  },
+  {
+    "name": "Katarzyna Tracz Konsulting",
+    "nip": "0394290458",
+    "statusVat": "Czynny",
+    "regon": "867925298",
+    "pesel": "8405214734",
+    "krs": null,
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 113 m.5",
+    "workingAddress": "ul. Kazimierza Wielkiego 113/5, 50-101 Wrocław",
+    "accountNumbers": [
+      "76434410579406525329324448"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-19",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Wiśniewska Doradztwo Biznesowe",
+    "nip": "4233720948",
+    "statusVat": "Czynny",
+    "regon": "413128403",
+    "pesel": "9609085009",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 85/9, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "97754728157066250162204377"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-09-16",
+    "removalDate": null
+  },
+  {
+    "name": "Magdalena Lis Konsulting",
+    "nip": "4835488471",
+    "statusVat": "Zwolniony",
+    "regon": "270587722",
+    "pesel": "9009105909",
+    "krs": null,
+    "residenceAddress": "ul. Głogowska 105/16, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2013-06-06",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Kowalski Doradztwo Biznesowe",
+    "nip": "5557469660",
+    "statusVat": "Zwolniony",
+    "regon": "606527403",
+    "pesel": "7906056017",
+    "krs": null,
+    "residenceAddress": "ulica 3 Maja 107/9, 35-001 Rzeszów",
+    "workingAddress": "ulica 3 Maja 107/9, 35-001 Rzeszów",
+    "accountNumbers": [
+      "PL 56820808207809882209252109"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2016-11-12",
+    "removalDate": null
+  },
+  {
+    "name": "Paweł Tracz Doradztwo Biznesowe",
+    "nip": "5622949381",
+    "statusVat": "Czynny",
+    "regon": "735984884",
+    "pesel": "6708052212",
+    "krs": null,
+    "residenceAddress": "ulica Topolowa 15/9, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "27 9299 0251 0022 7982 5799 8835"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2016-03-14",
+    "removalDate": null
+  },
+  {
+    "name": "Krzysztof Kowalski Usługi Instalacyjne",
+    "nip": "1918182819",
+    "statusVat": "Czynny",
+    "regon": "793164772",
+    "pesel": "7810112099",
+    "krs": null,
+    "residenceAddress": "ulica Konopnickiej 9/28, 30-302 Kraków",
+    "workingAddress": "ulica Konopnickiej 9/28, 30-302 Kraków",
+    "accountNumbers": [
+      "80 7700 3781 7150 6852 4608 8895"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2011-09-11",
+    "removalDate": null
+  },
+  {
+    "name": "Alicja Tracz Usługi Instalacyjne",
+    "nip": "9028515533",
+    "statusVat": "Czynny",
+    "regon": "342643350",
+    "pesel": "7102019739",
+    "krs": null,
+    "residenceAddress": "81-350 Gdynia, Portowa 148",
+    "workingAddress": null,
+    "accountNumbers": [
+      "86600999749411715903648737"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-02-05",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Krawiec Konsulting",
+    "nip": "6155416431",
+    "statusVat": "Zwolniony",
+    "regon": "670450232",
+    "pesel": "6007267881",
+    "krs": null,
+    "residenceAddress": "ul. Chorzowska 93, 40-121 Katowice",
+    "workingAddress": "ul Chorzowska 93, 40-121 Katowice",
+    "accountNumbers": [
+      "PL 34329786715429599571947700"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2012-12-21",
+    "removalDate": "2025-12-24"
+  },
+  {
+    "name": "Piotr Dorski Usługi Instalacyjne",
+    "nip": "9822105316",
+    "statusVat": "Czynny",
+    "regon": "117768729",
+    "pesel": "8601187177",
+    "krs": null,
+    "residenceAddress": "ul Srebrna 85, 00-810 Warszawa",
+    "workingAddress": "00-810 Warszawa, Srebrna 85",
+    "accountNumbers": [
+      "36359217234051558866314387"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2013-02-11",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Kaczmarek Studio Danych",
+    "nip": "9060320203",
+    "statusVat": "Czynny",
+    "regon": "265097753",
+    "pesel": "8706223379",
+    "krs": null,
+    "residenceAddress": "60-126 Poznań, ul Głogowska 85 m.15",
+    "workingAddress": null,
+    "accountNumbers": [
+      "88959491926595173366648143"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-05-01",
+    "removalDate": null
+  },
+  {
+    "name": "Joanna Brokowska Konsulting",
+    "nip": "4768182683",
+    "statusVat": "Zwolniony",
+    "regon": "230358929",
+    "pesel": "7803286695",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 59/27, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 11063822443265495189819785"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-10-04",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Zieliński Projektowanie IT",
+    "nip": "3626693351",
+    "statusVat": "Czynny",
+    "regon": "342619237",
+    "pesel": "6803163625",
+    "krs": null,
+    "residenceAddress": "ul Chorzowska 172, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "03459489304940809100695698"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2016-04-03",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Kowalski Studio Danych",
+    "nip": "4448564510",
+    "statusVat": "Czynny",
+    "regon": "173973964",
+    "pesel": "8707022723",
+    "krs": null,
+    "residenceAddress": "ul Chorzowska 27, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "64 0307 5059 9906 4081 0671 0917"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-01",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Kaczmarek Konsulting",
+    "nip": "7455534705",
+    "statusVat": "Czynny",
+    "regon": "742388565",
+    "pesel": "6605141464",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 172/7, 30-302 Kraków",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 53749455839318566549347812"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2010-08-21",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Milewska Projektowanie IT",
+    "nip": "4258562614",
+    "statusVat": "Czynny",
+    "regon": "991537038",
+    "pesel": "7202037629",
+    "krs": null,
+    "residenceAddress": "40-121 Katowice, ul Chorzowska 76 m.18",
+    "workingAddress": "ulica Chorzowska 76/18, 40-121 Katowice",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2015-01-03",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Kaczmarek Konsulting",
+    "nip": "5389218785",
+    "statusVat": "Czynny",
+    "regon": "193583749",
+    "pesel": "9406033203",
+    "krs": null,
+    "residenceAddress": "ul. Portowa 68, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 81762325588119127761518078"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2014-05-13",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Borkowska Studio Danych",
+    "nip": "9059119186",
+    "statusVat": "Czynny",
+    "regon": "233922071",
+    "pesel": "9706281111",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 85, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "25976571254458479519614990"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-12-19",
+    "removalDate": null
+  },
+  {
+    "name": "Marek Wrona Doradztwo Biznesowe",
+    "nip": "5640995123",
+    "statusVat": "Zwolniony",
+    "regon": "972835129",
+    "pesel": "6009011076",
+    "krs": null,
+    "residenceAddress": "35-001 Rzeszów, ul 3 Maja 16 m.2",
+    "workingAddress": "ul. 3 Maja 16/2, 35-001 Rzeszów",
+    "accountNumbers": [
+      "96252165389739076667524420"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-08-19",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Mazur Konsulting",
+    "nip": "3605079181",
+    "statusVat": "Czynny",
+    "regon": "589988683",
+    "pesel": "6904279040",
+    "krs": null,
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 30 m.3",
+    "workingAddress": null,
+    "accountNumbers": [
+      "11245077836350968019227166"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2017-06-06",
+    "removalDate": null
+  },
+  {
+    "name": "Magdalena Borkowska Usługi Instalacyjne",
+    "nip": "8828503172",
+    "statusVat": "Zwolniony",
+    "regon": "351373990",
+    "pesel": "6311288107",
+    "krs": null,
+    "residenceAddress": "ul. Srebrna 13/13, 00-810 Warszawa",
+    "workingAddress": "00-810 Warszawa, ul Srebrna 13 m.13",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-06-11",
+    "removalDate": null
+  },
+  {
+    "name": "Piotr Wiśniewska Usługi Instalacyjne",
+    "nip": "1112712852",
+    "statusVat": "Czynny",
+    "regon": "464844941",
+    "pesel": "6811234653",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 154, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "61354270182332002530467407"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2017-04-04",
+    "removalDate": null
+  },
+  {
+    "name": "Andrzej Wrona Sutdio Danych",
+    "nip": "6624813235",
+    "statusVat": "Zwolniony",
+    "regon": "707139848",
+    "pesel": "8208071924",
+    "krs": null,
+    "residenceAddress": "ulica Portowa 12/5, 81-350 Gdynia",
+    "workingAddress": "ul. Portowa 12/5, 81-350 Gdynia",
+    "accountNumbers": [
+      "56287531848336492152964587"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-04-21",
+    "removalDate": null
+  },
+  {
+    "name": "Mateusz Duda Doradztwo Biznesowe",
+    "nip": "7727853242",
+    "statusVat": "Czynny",
+    "regon": "642506420",
+    "pesel": "9110096654",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 73/13, 30-302 Kraków",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2013-07-25",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Król Konsulting",
+    "nip": "7496033582",
+    "statusVat": "Czynny",
+    "regon": "686270369",
+    "pesel": "6908049893",
+    "krs": null,
+    "residenceAddress": "ul. Chorzowska 105, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 18215574125121883340179194"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-08-14",
+    "removalDate": "2025-12-13"
+  },
+  {
+    "name": "Adam Wiśniewska Konsulting",
+    "nip": "4418222618",
+    "statusVat": "Zwolniony",
+    "regon": "962887431",
+    "pesel": "9006233870",
+    "krs": null,
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 79 m.12",
+    "workingAddress": null,
+    "accountNumbers": [
+      "53671171203457417565923002"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2015-03-08",
+    "removalDate": null
+  },
+  {
+    "name": "Andrzej Milweska Konsulting",
+    "nip": "0996254384",
+    "statusVat": "Czynny",
+    "regon": "807520344",
+    "pesel": "8210269105",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 172",
+    "workingAddress": null,
+    "accountNumbers": [
+      "33519997211152927099306764"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2013-12-25",
+    "removalDate": "2025-02-16"
+  },
+  {
+    "name": "Andrzej Milewska Projektowanie IT",
+    "nip": "8102131251",
+    "statusVat": "Zwolniony",
+    "regon": "293110059",
+    "pesel": "8811036220",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 142, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2012-01-03",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Wrona Konsulting",
+    "nip": "3428931132",
+    "statusVat": "Czynny",
+    "regon": "532694968",
+    "pesel": "9201033881",
+    "krs": null,
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 74 m.19",
+    "workingAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 74 m.19",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-01-02",
+    "removalDate": null
+  },
+  {
+    "name": "Rafał Borkowska Usługi Instalacyjne",
+    "nip": "0567756777",
+    "statusVat": "Czynny",
+    "regon": "226602562",
+    "pesel": "7204193794",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 95, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "56686510389537227839290253"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-09-18",
+    "removalDate": "2025-09-28"
+  },
+  {
+    "name": "Mateusz Kowalski Usługi Instalacyjne",
+    "nip": "8736704254",
+    "statusVat": "Czynny",
+    "regon": "969192845",
+    "pesel": "9805054852",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, ul Srebrna 91 m.3",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 69657765439592891463124534"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2012-02-13",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Kaczmarek Projektowani eIT",
+    "nip": "9417634250",
+    "statusVat": "Zwolniony",
+    "regon": "733055978",
+    "pesel": "6509168580",
+    "krs": null,
+    "residenceAddress": "ulica Srebrna 81/4, 00-810 Warszawa",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2015-03-06",
+    "removalDate": null
+  },
+  {
+    "name": "Karolina Wiśniewska Projektowanie IT",
+    "nip": "4397429250",
+    "statusVat": "Zwolniony",
+    "regon": "105875256",
+    "pesel": "8002098470",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 115/18, 85-707 Bydgoszcz",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 94474848569445142157299142"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-02-08",
+    "removalDate": null
+  },
+  {
+    "name": "Łukasz Król Usługi Instalacyjne",
+    "nip": "3721433080",
+    "statusVat": "Czynny",
+    "regon": "037003322",
+    "pesel": "6909272465",
+    "krs": null,
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 103 m.17",
+    "workingAddress": null,
+    "accountNumbers": [
+      "82764612395545259137206773"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-04-28",
+    "removalDate": null
+  },
+  {
+    "name": "Andrzej Borkowska Usługi Instalacyjne",
+    "nip": "3945354614",
+    "statusVat": "Czynny",
+    "regon": "707986321",
+    "pesel": "8309133619",
+    "krs": null,
+    "residenceAddress": "ulica Chorzowska 2/24, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "62 0753 9191 9382 8918 3507 3984"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-01-12",
+    "removalDate": null
+  },
+  {
+    "name": "Adam Wrona Studio Danych",
+    "nip": "3191009004",
+    "statusVat": "Czynny",
+    "regon": "047692105",
+    "pesel": "9108185675",
+    "krs": null,
+    "residenceAddress": "ul Konopnickiej 84, 30-302 Kraków",
+    "workingAddress": null,
+    "accountNumbers": [
+      "14 6278 5662 1762 7243 8144 5651"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-06-07",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Król Projektowanie IT",
+    "nip": "7620901447",
+    "statusVat": "Czynny",
+    "regon": "340433700",
+    "pesel": "6101168085",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 178, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "33845545012221988481312059"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2017-01-19",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Kaczmarek Doradztwo Biznesowe",
+    "nip": "8205829582",
+    "statusVat": "Czynny",
+    "regon": "923616188",
+    "pesel": "8211158385",
+    "krs": null,
+    "residenceAddress": "ul Portowa 111, 81-350 Gdynia",
+    "workingAddress": "ul Portowa 111, 81-350 Gdynia",
+    "accountNumbers": [
+      "PL 02417669706838282667400097"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-12-28",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Tracz Studio Danych",
+    "nip": "3000413211",
+    "statusVat": "Czynny",
+    "regon": "471656094",
+    "pesel": "7309212582",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 19/10, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 19/10, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "PL 95901213553012534364669370"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-07-10",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Król Usługi Instalacyjne",
+    "nip": "0548739610",
+    "statusVat": "Czynny",
+    "regon": "290871827",
+    "pesel": "8104208688",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 22, 20-819 Lublin",
+    "workingAddress": "ul Topolowa 22, 20-819 Lublin",
+    "accountNumbers": [
+      "PL 22119457205553216855502694"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-09-27",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Wiśniewska Studio Danych",
+    "nip": "2990775608",
+    "statusVat": "Czynny",
+    "regon": "581670468",
+    "pesel": "6702063280",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 47, 60-126 Poznań",
+    "workingAddress": "ul. Głogowska 47, 60-126 Poznań",
+    "accountNumbers": [
+      "88499392886689801065285443"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2015-11-07",
+    "removalDate": null
+  },
+  {
+    "name": "Magdalena Nowacki Usługi Instalacyjne",
+    "nip": "4980425373",
+    "statusVat": "Czynny",
+    "regon": "377731268",
+    "pesel": "9201049594",
+    "krs": null,
+    "residenceAddress": "ulica Głogowska 35/13, 60-126 Poznań",
+    "workingAddress": "ul. Głogowska 35/13, 60-126 Poznań",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-04-21",
+    "removalDate": null
+  },
+  {
+    "name": "Łukasz Wrona Usługi Instalacyjne",
+    "nip": "7169061812",
+    "statusVat": "Czynny",
+    "regon": "054647548",
+    "pesel": "7510175712",
+    "krs": null,
+    "residenceAddress": "ulica Kazimierza Wielkiego 158/17, 50-101 Wrocław",
+    "workingAddress": "ulica Kazimierza Wielkiego 158/17, 50-101 Wrocław",
+    "accountNumbers": [
+      "PL 42005029407993977881048591"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-05-06",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Kaczmarek Konsulting",
+    "nip": "4963924358",
+    "statusVat": "Zwolniony",
+    "regon": "853798214",
+    "pesel": "9311145563",
+    "krs": null,
+    "residenceAddress": "10-687 Olsztyn, Jarzębinowa 145",
+    "workingAddress": null,
+    "accountNumbers": [
+      "04147140887795156992291379"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-09-17",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Pawlik Projektowanie IT",
+    "nip": "9176651221",
+    "statusVat": "Zwolniony",
+    "regon": "500141884",
+    "pesel": "6307219020",
+    "krs": null,
+    "residenceAddress": "40-121 Katowice, ul Chorzowska 150 m.17",
+    "workingAddress": "ulica Chorzowska 150/17, 40-121 Katowice",
+    "accountNumbers": [
+      "63309947914159284276774165"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-07-24",
+    "removalDate": "2025-07-25"
+  },
+  {
+    "name": "Paweł Jasieński Studio Danych",
+    "nip": "3379223410",
+    "statusVat": "Zwolniony",
+    "regon": "346996733",
+    "pesel": "6604287658",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, Srebrna 42",
+    "workingAddress": "ul Srebrna 42, 00-810 Warszawa",
+    "accountNumbers": [
+      "63 7164 3611 1685 9524 1716 8747"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-07-21",
+    "removalDate": null
+  },
+  {
+    "name": "Magdalena Mazur Konsulting",
+    "nip": "3697093170",
+    "statusVat": "Czynny",
+    "regon": "695560767",
+    "pesel": "8505085762",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 44/7, 30-302 Kraków",
+    "workingAddress": "ul. Konopnickiej 44/7, 30-302 Kraków",
+    "accountNumbers": [
+      "10110288314914101120174748"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2025-10-14",
+    "removalDate": null
+  },
+  {
+    "name": "Alicja Zieliński Konsulting",
+    "nip": "3190924876",
+    "statusVat": "Czynny",
+    "regon": "230391114",
+    "pesel": "7903172094",
+    "krs": null,
+    "residenceAddress": "ul. Bałtycka 112, 85-707 Bydgoszcz",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2011-03-24",
+    "removalDate": null
+  },
+  {
+    "name": "Joanna Król Konsulting",
+    "nip": "8768868785",
+    "statusVat": "Zwolniony",
+    "regon": "996486287",
+    "pesel": "6801108549",
+    "krs": null,
+    "residenceAddress": "85-707 Bydgoszcz, ul Bałtycka 29 m.6",
+    "workingAddress": null,
+    "accountNumbers": [
+      "47 0807 0927 8574 3642 5424 7026"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-11-10",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Nowacki Doradztwo Bizneswoe",
+    "nip": "4505766194",
+    "statusVat": "Zwolniony",
+    "regon": "588707155",
+    "pesel": "7503212659",
+    "krs": null,
+    "residenceAddress": "ulica Kazimierza Wielkiego 96/15, 50-101 Wrocław",
+    "workingAddress": "ul. Kazimierza Wielkiego 96/15, 50-101 Wrocław",
+    "accountNumbers": [
+      "07 2972 2318 7086 3344 5397 5082"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2016-09-24",
+    "removalDate": null
+  },
+  {
+    "name": "Mateusz Pawlik Doradztwo Biznesowe",
+    "nip": "1964630040",
+    "statusVat": "Zwolniony",
+    "regon": "236936268",
+    "pesel": "6903254216",
+    "krs": null,
+    "residenceAddress": "ul Bałtycka 97, 85-707 Bydgoszcz",
+    "workingAddress": "85-707 Bydgoszcz, Bałtycka 97",
+    "accountNumbers": [
+      "PL 28440278362684941479044751"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-11-20",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Kowalski Usługi Instalacyjne",
+    "nip": "7609441283",
+    "statusVat": "Czynny",
+    "regon": "337218856",
+    "pesel": "7706175924",
+    "krs": null,
+    "residenceAddress": "ul 3 Maja 63, 35-001 Rzeszów",
+    "workingAddress": "ul. 3 Maja 63, 35-001 Rzeszów",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-09-25",
+    "removalDate": null
+  },
+  {
+    "name": "Adam Król Doradztwo Biznesowe",
+    "nip": "0286712007",
+    "statusVat": "Czynny",
+    "regon": "202455910",
+    "pesel": "6502032348",
+    "krs": null,
+    "residenceAddress": "ul. Bałtycka 87, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 87, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "00297806782465530922221288"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-04-26",
+    "removalDate": null
+  },
+  {
+    "name": "Barbara Kowalski Projektowanie IT",
+    "nip": "4663453372",
+    "statusVat": "Czynny",
+    "regon": "201091217",
+    "pesel": "8806176020",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, ul Srebrna 101 m.22",
+    "workingAddress": null,
+    "accountNumbers": [
+      "22 3272 3442 4160 8388 1489 9482"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2016-11-07",
+    "removalDate": null
+  },
+  {
+    "name": "Mateusz Zieliński Proejktowanie IT",
+    "nip": "0246175202",
+    "statusVat": "Zwolniony",
+    "regon": "389743260",
+    "pesel": "0226254014",
+    "krs": null,
+    "residenceAddress": "81-350 Gdynia, Portowa 116",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 61999710818632133752145544"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2014-08-01",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Zielińsk iProjektowanie IT",
+    "nip": "5937440394",
+    "statusVat": "Zwolniony",
+    "regon": "640830373",
+    "pesel": "8910194783",
+    "krs": null,
+    "residenceAddress": "ulica Konopnickiej 151/26, 30-302 Kraków",
+    "workingAddress": "ulica Konopnickiej 151/26, 30-302 Kraków",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-05-06",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Tracz Doradztwo Biznesowe",
+    "nip": "6325144881",
+    "statusVat": "Zwolniony",
+    "regon": "121031421",
+    "pesel": "0225143651",
+    "krs": null,
+    "residenceAddress": "ul Srebrna 26, 00-810 Warszawa",
+    "workingAddress": "00-810 Warszawa, Srebrna 26",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2011-04-16",
+    "removalDate": null
+  },
+  {
+    "name": "Michał Jasieński Doradztwo Biznesowe",
+    "nip": "3979137876",
+    "statusVat": "Czynny",
+    "regon": "553007309",
+    "pesel": "9207073744",
+    "krs": null,
+    "residenceAddress": "ul. Portowa 8, 81-350 Gdynia",
+    "workingAddress": "81-350 Gdynia, Portowa 8",
+    "accountNumbers": [
+      "83743200608307736675859877"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-04-08",
+    "removalDate": "2025-04-11"
+  },
+  {
+    "name": "Łukasz Dorski Studio Danych",
+    "nip": "5618517446",
+    "statusVat": "Zwolniony",
+    "regon": "004521289",
+    "pesel": "7607055598",
+    "krs": null,
+    "residenceAddress": "ul. Srebrna 28, 00-810 Warszawa",
+    "workingAddress": "ul. Srebrna 28, 00-810 Warszawa",
+    "accountNumbers": [
+      "PL 90238940569476192781207962"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-03-06",
+    "removalDate": null
+  },
+  {
+    "name": "Katarzyna Milewska Konsulting",
+    "nip": "7075681429",
+    "statusVat": "Czynny",
+    "regon": "831522910",
+    "pesel": "6610012750",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 169",
+    "workingAddress": "ul Topolowa 169, 20-819 Lublin",
+    "accountNumbers": [
+      "17 3720 1701 1755 5677 4735 1067"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-05-23",
+    "removalDate": null
+  },
+  {
+    "name": "Piotr Jasieński Konsulting",
+    "nip": "2929132033",
+    "statusVat": "Zwolniony",
+    "regon": "016234190",
+    "pesel": "8510075144",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 108, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 07167788030249230083341871"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2010-04-20",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Wiśniewska Konsulting",
+    "nip": "1424426078",
+    "statusVat": "Czynny",
+    "regon": "197543734",
+    "pesel": "9305077773",
+    "krs": null,
+    "residenceAddress": "ul Srebrna 111, 00-810 Warszawa",
+    "workingAddress": null,
+    "accountNumbers": [
+      "03543137312950488819875997"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2015-11-19",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Kowalski tSudio Danych",
+    "nip": "5869507321",
+    "statusVat": "Zwolniony",
+    "regon": "464493699",
+    "pesel": "9301051320",
+    "krs": null,
+    "residenceAddress": "40-121 Katowice, ul Chorzowska 158 m.30",
+    "workingAddress": "40-121 Katowice, ul Chorzowska 158 m.30",
+    "accountNumbers": [
+      "92839863910620467863038169"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-08-02",
+    "removalDate": null
+  },
+  {
+    "name": "Marek Nowacki Studio Danych",
+    "nip": "1497315391",
+    "statusVat": "Zwolniony",
+    "regon": "149830748",
+    "pesel": "7601197703",
+    "krs": null,
+    "residenceAddress": "ul. Bałtycka 57/7, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 57/7, 85-707 Bydgoszcz",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-05-27",
+    "removalDate": null
+  },
+  {
+    "name": "Piotr Wiśniewska Konsulting",
+    "nip": "1354621276",
+    "statusVat": "Zwolniony",
+    "regon": "025082611",
+    "pesel": "7410051515",
+    "krs": null,
+    "residenceAddress": "ul. Jarzębinowa 51, 10-687 Olsztyn",
+    "workingAddress": "10-687 Olsztyn, Jarzębinowa 51",
+    "accountNumbers": [
+      "01 5427 2557 3018 0872 5842 3022"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2015-08-23",
+    "removalDate": null
+  },
+  {
+    "name": "Krzysztof Wiśniewska Konsulting",
+    "nip": "0381876920",
+    "statusVat": "Czynny",
+    "regon": "828323089",
+    "pesel": "6510043077",
+    "krs": null,
+    "residenceAddress": "ul Srebrna 51, 00-810 Warszawa",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-12-22",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Krawiec Projektowanie IT",
+    "nip": "9113717850",
+    "statusVat": "Czynny",
+    "regon": "902556184",
+    "pesel": "6102113702",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 87, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "34 1663 8267 7597 2777 1984 6053"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-12-11",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina Król Usługi Instalacyjne",
+    "nip": "2483550542",
+    "statusVat": "Czynny",
+    "regon": "960807063",
+    "pesel": "9602087766",
+    "krs": null,
+    "residenceAddress": "ulica Topolowa 93/9, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "83 4869 8716 4629 2917 7360 5390"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2012-01-01",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Dorski Doradztwo Biznesowe",
+    "nip": "9428946420",
+    "statusVat": "Czynny",
+    "regon": "362586314",
+    "pesel": "6403237554",
+    "krs": null,
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 136 m.13",
+    "workingAddress": "10-687 Olsztyn, ul Jarzębinowa 136 m.13",
+    "accountNumbers": [
+      "PL 18263741987032250819339227"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-05-22",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Kaczmarek Konsulting",
+    "nip": "5040433335",
+    "statusVat": "Czynny",
+    "regon": "384951632",
+    "pesel": "6808202008",
+    "krs": null,
+    "residenceAddress": "ul Jarzębinowa 28, 10-687 Olsztyn",
+    "workingAddress": null,
+    "accountNumbers": [
+      "72787924477174066867994206"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-07-20",
+    "removalDate": null
+  },
+  {
+    "name": "Anna Wrona Usługi Instalacyjne",
+    "nip": "9156182980",
+    "statusVat": "Czynny",
+    "regon": "365774491",
+    "pesel": "7301261481",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 129/25, 50-101 Wrocław",
+    "workingAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 129 m.25",
+    "accountNumbers": [
+      "PL 82593087879091281212635815"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2012-01-06",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Pawlik Usługi Instalacyjne",
+    "nip": "1404288605",
+    "statusVat": "Czynny",
+    "regon": "053766608",
+    "pesel": "8106142257",
+    "krs": null,
+    "residenceAddress": "35-001 Rzeszów, 3 Maja 130",
+    "workingAddress": null,
+    "accountNumbers": [
+      "19335628443728284012520043"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2012-09-06",
+    "removalDate": null
+  },
+  {
+    "name": "Karolina Cieślar Projektowanie IT",
+    "nip": "1348087354",
+    "statusVat": "Czynny",
+    "regon": "378826033",
+    "pesel": "9305101660",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 161/14, 50-101 Wrocław",
+    "workingAddress": "ulica Kazimierza Wielkiego 161/14, 50-101 Wrocław",
+    "accountNumbers": [
+      "96 6678 3031 7294 0993 7513 7684"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-12-21",
+    "removalDate": null
+  },
+  {
+    "name": "Marek Lis Usługi Instalacyjne",
+    "nip": "9693259140",
+    "statusVat": "Czynny",
+    "regon": "849932312",
+    "pesel": "7803186999",
+    "krs": null,
+    "residenceAddress": "ul Konopnickiej 169, 30-302 Kraków",
+    "workingAddress": "ul. Konopnickiej 169, 30-302 Kraków",
+    "accountNumbers": [
+      "91 8451 9208 4965 3851 9405 6845"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-01-04",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Krawiec Studio Danych",
+    "nip": "2996508269",
+    "statusVat": "Czynny",
+    "regon": "582641869",
+    "pesel": "8207222930",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 169/25, 85-707 Bydgoszcz",
+    "workingAddress": "ulica Bałtycka 169/25, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "99722575022593122725449550"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-10-11",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Lis Projektowanie IT",
+    "nip": "1016831139",
+    "statusVat": "Czynny",
+    "regon": "500168094",
+    "pesel": "8710137378",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 123/1, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 123/1, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "72 3967 7839 0751 6380 6626 7940"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-04-15",
+    "removalDate": null
+  },
+  {
+    "name": "Magdalena Krawiec Doradztwo Biznesowe",
+    "nip": "7602991406",
+    "statusVat": "Zwolniony",
+    "regon": "884133373",
+    "pesel": "9502249062",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 106/20, 30-302 Kraków",
+    "workingAddress": "30-302 Kraków, ul Konopnickiej 106 m.20",
+    "accountNumbers": [
+      "64 8036 1454 4029 1956 5058 4841"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2015-03-18",
+    "removalDate": null
+  },
+  {
+    "name": "Marek Borkowska Projektowanie IT",
+    "nip": "2950264801",
+    "statusVat": "Czynny",
+    "regon": "644037341",
+    "pesel": "7805091805",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 32, 30-302 Kraków",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 22935117486369380584607043"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-06-20",
+    "removalDate": null
+  },
+  {
+    "name": "Marta Kaczmarek Doradztwo Biznesowe",
+    "nip": "9707986617",
+    "statusVat": "Czynny",
+    "regon": "706736820",
+    "pesel": "8601114750",
+    "krs": null,
+    "residenceAddress": "ulica Chorzowska 63/28, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2011-09-22",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Zieliński Projektowanie IT",
+    "nip": "8022050938",
+    "statusVat": "Zwolniony",
+    "regon": "694842495",
+    "pesel": "9910185731",
+    "krs": null,
+    "residenceAddress": "35-001 Rzeszów, ul 3 Maja 11 m.18",
+    "workingAddress": "ulica 3 Maja 11/18, 35-001 Rzeszów",
+    "accountNumbers": [
+      "PL 47961265088997558537997881"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2011-10-13",
+    "removalDate": null
+  },
+  {
+    "name": "Paweł Borkowska Doradztwo Biznesowe",
+    "nip": "9968722589",
+    "statusVat": "Zwolniony",
+    "regon": "370858062",
+    "pesel": "9107183456",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 158",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-11-10",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Dorski Konsulting",
+    "nip": "6338915624",
+    "statusVat": "Czynny",
+    "regon": "152857256",
+    "pesel": "9412195411",
+    "krs": null,
+    "residenceAddress": "ul Portowa 157, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [
+      "78 5457 4770 6085 5883 4856 4327"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-02-03",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Lis Usługi Instalacyjne",
+    "nip": "7972038593",
+    "statusVat": "Czynny",
+    "regon": "401536415",
+    "pesel": "9602272854",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, Srebrna 50",
+    "workingAddress": "ul Srebrna 50, 00-810 Warszawa",
+    "accountNumbers": [
+      "70156266998180527920085463"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-12-14",
+    "removalDate": "2025-01-13"
+  },
+  {
+    "name": "Krzysztof Nowacki Projektowanie IT",
+    "nip": "7045238885",
+    "statusVat": "Czynny",
+    "regon": "622586605",
+    "pesel": "9812273156",
+    "krs": null,
+    "residenceAddress": "ul. Chorzowska 32/17, 40-121 Katowice",
+    "workingAddress": "40-121 Katowice, ul Chorzowska 32 m.17",
+    "accountNumbers": [
+      "93 2375 5838 8333 1493 2548 5928"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2010-07-14",
+    "removalDate": null
+  },
+  {
+    "name": "Ewa Mazur Studio Danych",
+    "nip": "1321551305",
+    "statusVat": "Czynny",
+    "regon": "570836821",
+    "pesel": "0024194802",
+    "krs": null,
+    "residenceAddress": "ulica Bałtycka 2/2, 85-707 Bydgoszcz",
+    "workingAddress": null,
+    "accountNumbers": [
+      "10 9002 8100 0326 6617 8088 6449"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-03-16",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Krawiec Projektowanei IT",
+    "nip": "0601836472",
+    "statusVat": "Czynny",
+    "regon": "387508276",
+    "pesel": "0025202517",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 33",
+    "workingAddress": "ul Topolowa 33, 20-819 Lublin",
+    "accountNumbers": [
+      "94250122915353759271976616"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2014-10-25",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Cieślar Konsulting",
+    "nip": "9920522299",
+    "statusVat": "Czynny",
+    "regon": "936216591",
+    "pesel": "7208264559",
+    "krs": null,
+    "residenceAddress": "ulica Kazimierza Wielkiego 31/6, 50-101 Wrocław",
+    "workingAddress": "ul. Kazimierza Wielkiego 31/6, 50-101 Wrocław",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-11-02",
+    "removalDate": null
+  },
+  {
+    "name": "Monika Wiśniewska Projektowanie IT",
+    "nip": "7120539787",
+    "statusVat": "Czynny",
+    "regon": "137529883",
+    "pesel": "6003193856",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 157/4, 50-101 Wrocław",
+    "workingAddress": "ul. Kazimierza Wielkiego 157/4, 50-101 Wrocław",
+    "accountNumbers": [
+      "08348649175078312331534976"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-05-03",
+    "removalDate": null
+  },
+  {
+    "name": "Jan Król Usługi Insatlacyjne",
+    "nip": "1715239102",
+    "statusVat": "Zwolniony",
+    "regon": "929501437",
+    "pesel": "0122276254",
+    "krs": null,
+    "residenceAddress": "00-810 Warszawa, Srebrna 52",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 51416486689823973278602849"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-06-12",
+    "removalDate": "2025-11-22"
+  },
+  {
+    "name": "Marek Dorski Doradztwo Biznesowe",
+    "nip": "7258733930",
+    "statusVat": "Czynny",
+    "regon": "493665380",
+    "pesel": "7101041522",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 30, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 99149952535953019654970594"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2013-05-11",
+    "removalDate": "2025-03-25"
+  },
+  {
+    "name": "Barbara Krawiec Usułgi Instalacyjne",
+    "nip": "2970137124",
+    "statusVat": "Czynny",
+    "regon": "365858564",
+    "pesel": "7312226656",
+    "krs": null,
+    "residenceAddress": "81-350 Gdynia, ul Portowa 90 m.27",
+    "workingAddress": null,
+    "accountNumbers": [
+      "38870713604212100468797521"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-09-14",
+    "removalDate": null
+  },
+  {
+    "name": "Izabela Krawiec Projektowanie IT",
+    "nip": "0301095679",
+    "statusVat": "Zwolniony",
+    "regon": "756491579",
+    "pesel": "7412235676",
+    "krs": null,
+    "residenceAddress": "20-819 Lublin, Topolowa 88",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-03-06",
+    "removalDate": null
+  },
+  {
+    "name": "Marta Krawie cDoradztwo Biznesowe",
+    "nip": "7129015071",
+    "statusVat": "Zwolniony",
+    "regon": "380671307",
+    "pesel": "9302267000",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 42, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "44 1710 5673 9293 6907 0648 7235"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-02-15",
+    "removalDate": null
+  },
+  {
+    "name": "Andrzej Zieliński Doradztwo Biznesowe",
+    "nip": "1591832700",
+    "statusVat": "Czynny",
+    "regon": "046661459",
+    "pesel": "8507273439",
+    "krs": null,
+    "residenceAddress": "ul. Jarzębinowa 156, 10-687 Olsztyn",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 00483076273255382743832622"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-04-10",
+    "removalDate": null
+  },
+  {
+    "name": "Michał Lis Doradztwo Biznesowe",
+    "nip": "3797166984",
+    "statusVat": "Zwolniony",
+    "regon": "166123740",
+    "pesel": "9111082066",
+    "krs": null,
+    "residenceAddress": "ul. 3 Maja 77/20, 35-001 Rzeszów",
+    "workingAddress": "ul. 3 Maja 77/20, 35-001 Rzeszów",
+    "accountNumbers": [
+      "23014646750380954185203971"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2010-05-25",
+    "removalDate": null
+  },
+  {
+    "name": "Katarzyna Krawiec Studio Danych",
+    "nip": "1813599898",
+    "statusVat": "Czynny",
+    "regon": "972117088",
+    "pesel": "0031215251",
+    "krs": null,
+    "residenceAddress": "85-707 Bydgoszcz, Bałtycka 28",
+    "workingAddress": "85-707 Bydgoszcz, Bałtycka 28",
+    "accountNumbers": [
+      "98099340960087684865584225"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-07-17",
+    "removalDate": null
+  },
+  {
+    "name": "Alicja Król Studio Danych",
+    "nip": "1128794296",
+    "statusVat": "Zwolniony",
+    "regon": "882769704",
+    "pesel": "9602107606",
+    "krs": null,
+    "residenceAddress": "ul. Kazimierza Wielkiego 171, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "44292775019325267494222166"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2015-04-17",
+    "removalDate": null
+  },
+  {
+    "name": "Barbara Pawlik Studio Danych",
+    "nip": "7842170285",
+    "statusVat": "Czynny",
+    "regon": "162259364",
+    "pesel": "9907015352",
+    "krs": null,
+    "residenceAddress": "ul Głogowska 157, 60-126 Poznań",
+    "workingAddress": "ul. Głogowska 157, 60-126 Poznań",
+    "accountNumbers": [
+      "42 0357 7793 1240 4938 6362 3175"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2016-04-24",
+    "removalDate": null
+  },
+  {
+    "name": "Alicja Zieliński Projektowanie IT",
+    "nip": "6052304588",
+    "statusVat": "Czynny",
+    "regon": "165025447",
+    "pesel": "6604078784",
+    "krs": null,
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 92 m.20",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2016-01-28",
+    "removalDate": null
+  },
+  {
+    "name": "Michał Lis Doradztwo Biznesowe",
+    "nip": "9266486989",
+    "statusVat": "Zwolniony",
+    "regon": "396987486",
+    "pesel": "6604276348",
+    "krs": null,
+    "residenceAddress": "ul. Topolowa 70, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "27 6546 9915 8973 0378 5814 4298"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-09-15",
+    "removalDate": null
+  },
+  {
+    "name": "Paulina oDrski Doradztwo Biznesowe",
+    "nip": "5590670009",
+    "statusVat": "Czynny",
+    "regon": "942489420",
+    "pesel": "6609195258",
+    "krs": null,
+    "residenceAddress": "ul. Konopnickiej 54, 30-302 Kraków",
+    "workingAddress": "30-302 Kraków, Konopnickiej 54",
+    "accountNumbers": [
+      "56115551074981886961158890"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2012-12-17",
+    "removalDate": null
+  },
+  {
+    "name": "Tomasz Wrona Doradztwo Biznesowe",
+    "nip": "0165995300",
+    "statusVat": "Czynny",
+    "regon": "622122427",
+    "pesel": "8606235738",
+    "krs": null,
+    "residenceAddress": "ul. Portowa 67/29, 81-350 Gdynia",
+    "workingAddress": "81-350 Gdynia, ul Portowa 67 m.29",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2015-07-17",
+    "removalDate": null
+  },
+  {
+    "name": "Joanna Wrona Konsulting",
+    "nip": "0472642612",
+    "statusVat": "Czynny",
+    "regon": "120384375",
+    "pesel": "9610128275",
+    "krs": null,
+    "residenceAddress": "ulica Kazimierza Wielkiego 127/5, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "42060511697690543526821947"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2014-11-08",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Group spółka akcyjna",
+    "nip": "8621750801",
+    "statusVat": "Czynny",
+    "regon": "334272038",
+    "pesel": null,
+    "krs": "7489791776",
+    "residenceAddress": "ulica Bałtycka 51/3, 85-707 Bydgoszcz",
+    "workingAddress": "ulica Bałtycka 51/3, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "73 2575 9212 3034 8990 5643 1721",
+      "04631186701987835054459318"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-09-03",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Solutions SP Z O O",
+    "nip": "4869996988",
+    "statusVat": "Czynny",
+    "regon": "539128788",
+    "pesel": null,
+    "krs": "5179937810",
+    "residenceAddress": "ul Portowa 67, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [
+      "97341350540764718629436813",
+      "45 3948 0720 7845 8458 4022 2776"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-06-16",
+    "removalDate": null
+  },
+  {
+    "name": "Altair iFnance Group SA",
+    "nip": "8809832210",
+    "statusVat": "Czynny",
+    "regon": "187062932",
+    "pesel": null,
+    "krs": "3972833912",
+    "residenceAddress": "40-121 Katowice, ul Chorzowska 98 m.6",
+    "workingAddress": "40-121 Katowice, ul Chorzowska 98 m.6",
+    "accountNumbers": [
+      "72 5279 3444 5190 6774 2108 3063"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-12-17",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Holding sp. z o.o.",
+    "nip": "1003076205",
+    "statusVat": "Czynny",
+    "regon": "682354695",
+    "pesel": null,
+    "krs": "8453198074",
+    "residenceAddress": "ul. Głogowska 49, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 84257542373534972486898322",
+      "35022774690338471370587752"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-08-27",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Tech spółka akcyjna",
+    "nip": "6683482689",
+    "statusVat": "Wykreślony",
+    "regon": "970890583",
+    "pesel": null,
+    "krs": "4078516994",
+    "residenceAddress": "81-350 Gdynia, ul Portowa 77 m.23",
+    "workingAddress": "81-350 Gdynia, ul Portowa 77 m.23",
+    "accountNumbers": [
+      "00 4023 4203 3873 8453 5002 1563",
+      "36669436586949199785134455"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-10-15",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Solutions SA",
+    "nip": "2118824199",
+    "statusVat": "Czynny",
+    "regon": "774127469",
+    "pesel": null,
+    "krs": "5217558517",
+    "residenceAddress": "ul. Konopnickiej 4, 30-302 Kraków",
+    "workingAddress": "ul. Konopnickiej 4, 30-302 Kraków",
+    "accountNumbers": [
+      "PL 94283188861666334280911541"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-09-05",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Group S.A.",
+    "nip": "1261685071",
+    "statusVat": "Czynny",
+    "regon": "178822473",
+    "pesel": null,
+    "krs": "7282895400",
+    "residenceAddress": "30-302 Kraków, ul Konopnickiej 71 m.15",
+    "workingAddress": null,
+    "accountNumbers": [
+      "49114065476512674907535138"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-07-19",
+    "removalDate": null
+  },
+  {
+    "name": "Amber Tech Solutions sp z oo",
+    "nip": "0450258963",
+    "statusVat": "Wykreślony",
+    "regon": "827348131",
+    "pesel": null,
+    "krs": "5294471619",
+    "residenceAddress": "ul 3 Maja 134, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [
+      "95 6515 8223 0947 6059 6765 6124"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-05-18",
+    "removalDate": "2025-04-25"
+  },
+  {
+    "name": "Vistula Data Hub Servcies Sp. z o.o.",
+    "nip": "1311178619",
+    "statusVat": "Czynny",
+    "regon": "855107409",
+    "pesel": null,
+    "krs": "1562392090",
+    "residenceAddress": "ulica Kazimierza Wielkiego 71/13, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "79 6938 9252 9149 3735 2908 3116"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-01-22",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Solutions spółka z ograniczoną odpowiedzialnością",
+    "nip": "0717327980",
+    "statusVat": "Czynny",
+    "regon": "594795074",
+    "pesel": null,
+    "krs": "0260151532",
+    "residenceAddress": "ul. Bałtycka 47, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 47, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "86 8732 0718 1169 4418 2697 1870"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-04-22",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Solutions Sp. z o.o.",
+    "nip": "0561006799",
+    "statusVat": "Wykreślony",
+    "regon": "285535952",
+    "pesel": null,
+    "krs": "1184913599",
+    "residenceAddress": "00-810 Warszawa, Srebrna 55",
+    "workingAddress": "00-810 Warszawa, Srebrna 55",
+    "accountNumbers": [
+      "PL 05419199949851174261422740"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-01-13",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finanec Polska Sp. z o.o.",
+    "nip": "3088684302",
+    "statusVat": "Wykreślony",
+    "regon": "110090605",
+    "pesel": null,
+    "krs": "2902923345",
+    "residenceAddress": "60-126 Poznań, ul Głogowska 34 m.6",
+    "workingAddress": "60-126 Poznań, ul Głogowska 34 m.6",
+    "accountNumbers": [
+      "93 7081 0357 4318 9100 4924 6012",
+      "54997263150810866704295790"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-05-22",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Group sp. z o.o.",
+    "nip": "2380236219",
+    "statusVat": "Czynny",
+    "regon": "709207115",
+    "pesel": null,
+    "krs": "0275582147",
+    "residenceAddress": "ul Głogowska 43, 60-126 Poznań",
+    "workingAddress": null,
+    "accountNumbers": [
+      "82359848876918648412123496",
+      "PL 59370627235264361138870571"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-12-01",
+    "removalDate": null
+  },
+  {
+    "name": "Polaris Medical Group spółka z ograniczoną odpowiedzialnością",
+    "nip": "2845401822",
+    "statusVat": "Wykreślony",
+    "regon": "318692897",
+    "pesel": null,
+    "krs": "6880053789",
+    "residenceAddress": "ulica 3 Maja 81/15, 35-001 Rzeszów",
+    "workingAddress": "ulica 3 Maja 81/15, 35-001 Rzeszów",
+    "accountNumbers": [
+      "PL 87009646146994838560166858"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-09-05",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Solutions sp. z o.o.",
+    "nip": "3028165064",
+    "statusVat": "Czynny",
+    "regon": "227752135",
+    "pesel": null,
+    "krs": "0202030423",
+    "residenceAddress": "ul. Chorzowska 29, 40-121 Katowice",
+    "workingAddress": "ul. Chorzowska 29, 40-121 Katowice",
+    "accountNumbers": [
+      "PL 97539303619993260386157423"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-02-26",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Polska SP Z O O",
+    "nip": "4407663493",
+    "statusVat": "Wykreślony",
+    "regon": "986550494",
+    "pesel": null,
+    "krs": "5667063621",
+    "residenceAddress": "ul. Topolowa 108, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-03-15",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Tech SP Z O O",
+    "nip": "8532472505",
+    "statusVat": "Wykreślony",
+    "regon": "341996433",
+    "pesel": null,
+    "krs": "8087991962",
+    "residenceAddress": "ulica Portowa 168/11, 81-350 Gdynia",
+    "workingAddress": "ulica Portowa 168/11, 81-350 Gdynia",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-12-25",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Group Sp. z o.o.",
+    "nip": "6647213074",
+    "statusVat": "Wykreślony",
+    "regon": "152692559",
+    "pesel": null,
+    "krs": "4508095948",
+    "residenceAddress": "ul. Topolowa 111, 20-819 Lublin",
+    "workingAddress": null,
+    "accountNumbers": [
+      "65456566363638139222304210"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-22",
+    "removalDate": "2025-10-24"
+  },
+  {
+    "name": "Nova Systems Holding SA",
+    "nip": "7772966563",
+    "statusVat": "Wykreślony",
+    "regon": "732086523",
+    "pesel": null,
+    "krs": "4268744701",
+    "residenceAddress": "ul. Chorzowska 72, 40-121 Katowice",
+    "workingAddress": "ul. Chorzowska 72, 40-121 Katowice",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-02-14",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Solutions sp. z o.o.",
+    "nip": "3899204573",
+    "statusVat": "Wykreślony",
+    "regon": "533222739",
+    "pesel": null,
+    "krs": "0929735259",
+    "residenceAddress": "35-001 Rzeszów, 3 Maja 89",
+    "workingAddress": "35-001 Rzeszów, 3 Maja 89",
+    "accountNumbers": [
+      "37012335793775901292992920",
+      "33 7045 7408 5074 9113 9282 3696"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2023-01-16",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Services sp z oo",
+    "nip": "2233222801",
+    "statusVat": "Czynny",
+    "regon": "484673574",
+    "pesel": null,
+    "krs": "1583882176",
+    "residenceAddress": "ul Jarzębinowa 98, 10-687 Olsztyn",
+    "workingAddress": "ul Jarzębinowa 98, 10-687 Olsztyn",
+    "accountNumbers": [
+      "31380033833673614047619456",
+      "58181106994292231978958932"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-12-27",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Polska spółka akcyjna",
+    "nip": "1362608463",
+    "statusVat": "Wykreślony",
+    "regon": "538418520",
+    "pesel": null,
+    "krs": "8046741307",
+    "residenceAddress": "ulica Jarzębinowa 163/16, 10-687 Olsztyn",
+    "workingAddress": "ulica Jarzębinowa 163/16, 10-687 Olsztyn",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-05-01",
+    "removalDate": null
+  },
+  {
+    "name": "OrbisR etail Solutions Services SA",
+    "nip": "7609873126",
+    "statusVat": "Czynny",
+    "regon": "393696789",
+    "pesel": null,
+    "krs": "0197121241",
+    "residenceAddress": "ul Srebrna 36, 00-810 Warszawa",
+    "workingAddress": "ul Srebrna 36, 00-810 Warszawa",
+    "accountNumbers": [
+      "PL 74783019441088344425374249",
+      "17 8584 7702 3928 3109 1571 9104"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-04-01",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Solutions S.p z o.o.",
+    "nip": "7416365604",
+    "statusVat": "Wykreślony",
+    "regon": "486764979",
+    "pesel": null,
+    "krs": "7000268764",
+    "residenceAddress": "ul. Portowa 125/9, 81-350 Gdynia",
+    "workingAddress": "ul. Portowa 125/9, 81-350 Gdynia",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-08-07",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Tech spz  oo",
+    "nip": "9895965466",
+    "statusVat": "Wykreślony",
+    "regon": "364315948",
+    "pesel": null,
+    "krs": "0255128276",
+    "residenceAddress": "ul. Konopnickiej 58, 30-302 Kraków",
+    "workingAddress": "ul. Konopnickiej 58, 30-302 Kraków",
+    "accountNumbers": [
+      "25 0596 3106 2684 4187 7689 6176"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-03-08",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Solutions spółka z ograniczoną odpowiedzialnością",
+    "nip": "3004496461",
+    "statusVat": "Czynny",
+    "regon": "465579220",
+    "pesel": null,
+    "krs": "2170754853",
+    "residenceAddress": "ul Jarzębinowa 41, 10-687 Olsztyn",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-09",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Group spółka akcyjna",
+    "nip": "6800852946",
+    "statusVat": "Czynny",
+    "regon": "310437968",
+    "pesel": null,
+    "krs": "2033474246",
+    "residenceAddress": "ul. Srebrna 53, 00-810 Warszawa",
+    "workingAddress": "ul. Srebrna 53, 00-810 Warszawa",
+    "accountNumbers": [
+      "10 1410 0825 9230 6511 7682 5152",
+      "80049605469050849517042047"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-08-10",
+    "removalDate": null
+  },
+  {
+    "name": "Meridian Trade Holding Sp. z o.o.",
+    "nip": "3033467711",
+    "statusVat": "Wykreślony",
+    "regon": "025691330",
+    "pesel": null,
+    "krs": "2332829302",
+    "residenceAddress": "ul. Chorzowska 157/14, 40-121 Katowice",
+    "workingAddress": "ul. Chorzowska 157/14, 40-121 Katowice",
+    "accountNumbers": [
+      "PL 26322844133358021037700233"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2020-04-01",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Polska sp z oo",
+    "nip": "8727258122",
+    "statusVat": "Czynny",
+    "regon": "992406583",
+    "pesel": null,
+    "krs": "4871775461",
+    "residenceAddress": "ul Bałtycka 75, 85-707 Bydgoszcz",
+    "workingAddress": "ul Bałtycka 75, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "41570883286041614354349189"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-12-12",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Group spółka z ogarniczoną odpowiedzialnością",
+    "nip": "1626549633",
+    "statusVat": "Wykreślony",
+    "regon": "872205422",
+    "pesel": null,
+    "krs": "7122276433",
+    "residenceAddress": "ul. 3 Maja 159/23, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [
+      "43 3304 0305 8181 5853 5062 9258"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-05-15",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Tech SP Z O O",
+    "nip": "7522592061",
+    "statusVat": "Wykreślony",
+    "regon": "295634277",
+    "pesel": null,
+    "krs": "5377492663",
+    "residenceAddress": "ul. Portowa 158/25, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2023-10-24",
+    "removalDate": "2025-04-15"
+  },
+  {
+    "name": "Nova Systems Services sp. z o.o.",
+    "nip": "1380049832",
+    "statusVat": "Czynny",
+    "regon": "498085133",
+    "pesel": null,
+    "krs": "6294206615",
+    "residenceAddress": "ul 3 Maja 103, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-05-18",
+    "removalDate": null
+  },
+  {
+    "name": "Meridian Trade Tech sp z oo",
+    "nip": "1042948314",
+    "statusVat": "Czynny",
+    "regon": "262213204",
+    "pesel": null,
+    "krs": "4196234219",
+    "residenceAddress": "ulica Jarzębinowa 81/25, 10-687 Olsztyn",
+    "workingAddress": null,
+    "accountNumbers": [
+      "50 2208 0538 4792 7951 3246 5183",
+      "59 1461 2014 0798 3400 7716 0108"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-02-16",
+    "removalDate": "2025-02-28"
+  },
+  {
+    "name": "Meridian Trade Services sp. z o.o.",
+    "nip": "3838058269",
+    "statusVat": "Czynny",
+    "regon": "631050524",
+    "pesel": null,
+    "krs": "0005328538",
+    "residenceAddress": "40-121 Katowice, Chorzowska 6",
+    "workingAddress": null,
+    "accountNumbers": [
+      "96321553397531752861224000",
+      "59375818350022874089757842"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-03-13",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Solutions sp. z o.o.",
+    "nip": "0881431927",
+    "statusVat": "Wykreślony",
+    "regon": "776106592",
+    "pesel": null,
+    "krs": "5279187506",
+    "residenceAddress": "35-001 Rzeszów, 3 Maja 40",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2019-03-11",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Solutions spółka akcyjna",
+    "nip": "9747485994",
+    "statusVat": "Czynny",
+    "regon": "799670808",
+    "pesel": null,
+    "krs": "7472966941",
+    "residenceAddress": "ulica Srebrna 114/29, 00-810 Warszawa",
+    "workingAddress": "ulica Srebrna 114/29, 00-810 Warszawa",
+    "accountNumbers": [
+      "PL 84163447792796939205515704",
+      "33 0434 9481 5988 2687 4433 7314"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-01-26",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Group Sp. z o.o.",
+    "nip": "7418563027",
+    "statusVat": "Czynny",
+    "regon": "057488399",
+    "pesel": null,
+    "krs": "5813088983",
+    "residenceAddress": "ulica Chorzowska 155/1, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-12-13",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Services spółka z ograniczoną odpowiedzialnością",
+    "nip": "4429906745",
+    "statusVat": "Czynny",
+    "regon": "136510344",
+    "pesel": null,
+    "krs": "8701872600",
+    "residenceAddress": "ul. Kazimierza Wielkiego 139/29, 50-101 Wrocław",
+    "workingAddress": "ul. Kazimierza Wielkiego 139/29, 50-101 Wrocław",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-01-13",
+    "removalDate": "2025-06-12"
+  },
+  {
+    "name": "Nova Systems Group SA",
+    "nip": "1383507124",
+    "statusVat": "Czynny",
+    "regon": "455939652",
+    "pesel": null,
+    "krs": "4704747648",
+    "residenceAddress": "ul Topolowa 156, 20-819 Lublin",
+    "workingAddress": "ul Topolowa 156, 20-819 Lublin",
+    "accountNumbers": [
+      "21634844305344755082382888"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2023-09-11",
+    "removalDate": "2025-02-08"
+  },
+  {
+    "name": "Amber Tech Polska spółka z ograniczoną odpowiedzialnością",
+    "nip": "4784171594",
+    "statusVat": "Wykreślony",
+    "regon": "744735352",
+    "pesel": null,
+    "krs": "5080549147",
+    "residenceAddress": "ul. Chorzowska 84, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "88073271463554284686387203"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-01-11",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula AnalyticsS olutions SP Z O O",
+    "nip": "7465353780",
+    "statusVat": "Czynny",
+    "regon": "486251521",
+    "pesel": null,
+    "krs": "2815278730",
+    "residenceAddress": "ulica Chorzowska 154/14, 40-121 Katowice",
+    "workingAddress": "ulica Chorzowska 154/14, 40-121 Katowice",
+    "accountNumbers": [
+      "94 3274 0265 5859 2458 0233 1081"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-06-02",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Tech SP Z O O",
+    "nip": "5759582819",
+    "statusVat": "Wykreślony",
+    "regon": "499795728",
+    "pesel": null,
+    "krs": "6844246488",
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 176 m.6",
+    "workingAddress": null,
+    "accountNumbers": [
+      "14388273749099447181324062"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2025-03-17",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Polska Sp. z o.o.",
+    "nip": "3515880705",
+    "statusVat": "Czynny",
+    "regon": "055286693",
+    "pesel": null,
+    "krs": "9009921779",
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 157 m.16",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-01-10",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Solutions sp z oo",
+    "nip": "6639792551",
+    "statusVat": "Czynny",
+    "regon": "561547315",
+    "pesel": null,
+    "krs": "9335390058",
+    "residenceAddress": "ul Kazimierza Wielkiego 21, 50-101 Wrocław",
+    "workingAddress": null,
+    "accountNumbers": [
+      "63 4814 1577 1807 4922 3966 5285",
+      "PL 14190827457456599250763373"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-02-27",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Solutions sp z oo",
+    "nip": "9530969067",
+    "statusVat": "Czynny",
+    "regon": "144471893",
+    "pesel": null,
+    "krs": "3042763628",
+    "residenceAddress": "81-350 Gdynia, Portowa 32",
+    "workingAddress": "81-350 Gdynia, Portowa 32",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-02-25",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Gruop sp z oo",
+    "nip": "2542041231",
+    "statusVat": "Czynny",
+    "regon": "538602826",
+    "pesel": null,
+    "krs": "7041309091",
+    "residenceAddress": "81-350 Gdynia, Portowa 132",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-03-25",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Polska sp. z o..o",
+    "nip": "2867202009",
+    "statusVat": "Czynny",
+    "regon": "686163070",
+    "pesel": null,
+    "krs": "2611890034",
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 77 m.6",
+    "workingAddress": null,
+    "accountNumbers": [
+      "63 2310 2655 7474 4936 6735 2160",
+      "34028974093934964793539562"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2025-04-20",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Group Sp. z o.o.",
+    "nip": "3442252160",
+    "statusVat": "Czynny",
+    "regon": "707443602",
+    "pesel": null,
+    "krs": "5461719281",
+    "residenceAddress": "20-819 Lublin, Topolowa 168",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 71889267013619166732217759"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-10-27",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Solutions spółka akcyjna",
+    "nip": "0884474083",
+    "statusVat": "Wykreślony",
+    "regon": "868623760",
+    "pesel": null,
+    "krs": "2686498647",
+    "residenceAddress": "ul. 3 Maja 171, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [
+      "53376979162762439606300798"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-01-17",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Holding spółka akcyjna",
+    "nip": "8899114160",
+    "statusVat": "Wykreślony",
+    "regon": "467391900",
+    "pesel": null,
+    "krs": "3300008863",
+    "residenceAddress": "ulica Kazimierza Wielkiego 176/5, 50-101 Wrocław",
+    "workingAddress": "ulica Kazimierza Wielkiego 176/5, 50-101 Wrocław",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-01-20",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data HubT ech SP Z O O",
+    "nip": "6999449466",
+    "statusVat": "Wykreślony",
+    "regon": "353466075",
+    "pesel": null,
+    "krs": "2942034015",
+    "residenceAddress": "ul. Topolowa 170/21, 20-819 Lublin",
+    "workingAddress": "ul. Topolowa 170/21, 20-819 Lublin",
+    "accountNumbers": [
+      "PL 39211878162698773510597344"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-12-11",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Polska sp z oo",
+    "nip": "0012838271",
+    "statusVat": "Czynny",
+    "regon": "079230466",
+    "pesel": null,
+    "krs": "1255904610",
+    "residenceAddress": "ul. Topolowa 144/18, 20-819 Lublin",
+    "workingAddress": "ul. Topolowa 144/18, 20-819 Lublin",
+    "accountNumbers": [
+      "79 2936 1662 9087 9296 8636 7763"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-08-14",
+    "removalDate": "2025-07-08"
+  },
+  {
+    "name": "Orbis Retail Solutions Holding SP Z O O",
+    "nip": "5622419768",
+    "statusVat": "Czynny",
+    "regon": "726708666",
+    "pesel": null,
+    "krs": "6176822512",
+    "residenceAddress": "10-687 Olsztyn, Jarzębinowa 80",
+    "workingAddress": "10-687 Olsztyn, Jarzębinowa 80",
+    "accountNumbers": [
+      "00 7550 4084 1383 8901 1752 8207"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-05-24",
+    "removalDate": "2025-08-16"
+  },
+  {
+    "name": "Altair Finance Holding spółka z ograniczoną odpowiedzialnością",
+    "nip": "4882188496",
+    "statusVat": "Wykreślony",
+    "regon": "730634359",
+    "pesel": null,
+    "krs": "1197388182",
+    "residenceAddress": "ul. Bałtycka 5/22, 85-707 Bydgoszcz",
+    "workingAddress": "ul. Bałtycka 5/22, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "86 1825 6166 4028 0280 2224 4661",
+      "65 1758 6662 6570 4388 3392 3840"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-01-27",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Polska spółka akcyjna",
+    "nip": "0841947855",
+    "statusVat": "Wykreślony",
+    "regon": "786016259",
+    "pesel": null,
+    "krs": "0347131719",
+    "residenceAddress": "ulica 3 Maja 160/2, 35-001 Rzeszów",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 49857742735984070547209264"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2023-09-06",
+    "removalDate": "2025-03-19"
+  },
+  {
+    "name": "Meridian Trade Polska SP Z O O",
+    "nip": "0768102480",
+    "statusVat": "Czynny",
+    "regon": "477183753",
+    "pesel": null,
+    "krs": "8197223996",
+    "residenceAddress": "ul Jarzębinowa 120, 10-687 Olsztyn",
+    "workingAddress": "ul Jarzębinowa 120, 10-687 Olsztyn",
+    "accountNumbers": [
+      "71891668073100179776600220"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-05-13",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Services spółka akcyjna",
+    "nip": "2484813004",
+    "statusVat": "Czynny",
+    "regon": "424319839",
+    "pesel": null,
+    "krs": "6107033508",
+    "residenceAddress": "ul. Bałtycka 23, 85-707 Bydgoszcz",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-04-02",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Polska spółka z ograniczoną odpowiedzialnością",
+    "nip": "8177512395",
+    "statusVat": "Czynny",
+    "regon": "157385512",
+    "pesel": null,
+    "krs": "1476427896",
+    "residenceAddress": "ul Portowa 60, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [
+      "12456212025409411396545255"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-11-02",
+    "removalDate": null
+  },
+  {
+    "name": "Polaris Medical Polska sp. z o.o.",
+    "nip": "0274148572",
+    "statusVat": "Wykreślony",
+    "regon": "703175438",
+    "pesel": null,
+    "krs": "0871564783",
+    "residenceAddress": "ul Bałtycka 10, 85-707 Bydgoszcz",
+    "workingAddress": "ul Bałtycka 10, 85-707 Bydgoszcz",
+    "accountNumbers": [
+      "49 5092 6289 7572 0314 3061 4328"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-08-03",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Holding SP Z O O",
+    "nip": "1597640535",
+    "statusVat": "Czynny",
+    "regon": "508927396",
+    "pesel": null,
+    "krs": "6932055340",
+    "residenceAddress": "ul. Chorzowska 122/14, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [
+      "90 6998 1892 3710 4490 7113 6468",
+      "06887858039127790538751895"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-03-21",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Polska SP Z O O",
+    "nip": "8014264710",
+    "statusVat": "Wykreślony",
+    "regon": "039220269",
+    "pesel": null,
+    "krs": "6983052169",
+    "residenceAddress": "60-126 Poznań, ul Głogowska 41 m.18",
+    "workingAddress": "60-126 Poznań, ul Głogowska 41 m.18",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-28",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Solutions SP Z O O",
+    "nip": "0496026676",
+    "statusVat": "Czynny",
+    "regon": "281291635",
+    "pesel": null,
+    "krs": "5193932727",
+    "residenceAddress": "ul Portowa 67, 81-350 Gdynia",
+    "workingAddress": null,
+    "accountNumbers": [
+      "00414326944104232008658623",
+      "48781934211474675732514156"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-09-01",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Group S.A.",
+    "nip": "4503698884",
+    "statusVat": "Czynny",
+    "regon": "255501935",
+    "pesel": null,
+    "krs": "3332023510",
+    "residenceAddress": "ulica Chorzowska 147/19, 40-121 Katowice",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-06-28",
+    "removalDate": null
+  },
+  {
+    "name": "Nebula Analytics Services Sp. z o.o.",
+    "nip": "2647528646",
+    "statusVat": "Czynny",
+    "regon": "671317536",
+    "pesel": null,
+    "krs": "1937591922",
+    "residenceAddress": "ul. Głogowska 41, 60-126 Poznań",
+    "workingAddress": "ul. Głogowska 41, 60-126 Poznań",
+    "accountNumbers": [
+      "61740353005684172734069754",
+      "32 6301 5089 2298 3092 2133 7045"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-02-09",
+    "removalDate": "2025-04-21"
+  },
+  {
+    "name": "Altair Finance Group spółka z ograniczoną odpowiedzialnością",
+    "nip": "3332998651",
+    "statusVat": "Czynny",
+    "regon": "487706769",
+    "pesel": null,
+    "krs": "8834581920",
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 155 m.12",
+    "workingAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 155 m.12",
+    "accountNumbers": [
+      "29 4306 2873 4512 9519 7285 5867"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-12-17",
+    "removalDate": "2025-02-13"
+  },
+  {
+    "name": "Baltic Med Supply Solutions sp z oo",
+    "nip": "9290096627",
+    "statusVat": "Czynny",
+    "regon": "012234149",
+    "pesel": null,
+    "krs": "2472863942",
+    "residenceAddress": "85-707 Bydgoszcz, ul Bałtycka 47 m.1",
+    "workingAddress": "85-707 Bydgoszcz, ul Bałtycka 47 m.1",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2020-03-06",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Tech spółka z ograniczoną odpowiedzialnością",
+    "nip": "7623133610",
+    "statusVat": "Wykreślony",
+    "regon": "953723461",
+    "pesel": null,
+    "krs": "7626438500",
+    "residenceAddress": "81-350 Gdynia, Portowa 103",
+    "workingAddress": "81-350 Gdynia, Portowa 103",
+    "accountNumbers": [
+      "76 5612 8069 5521 1095 3161 5667",
+      "PL 85971341129288104238524796"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-05-20",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Holding spółka z ograniczoną odpowiedzialnością",
+    "nip": "9479025485",
+    "statusVat": "Wykreślony",
+    "regon": "234565386",
+    "pesel": null,
+    "krs": "2483744417",
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 159 m.7",
+    "workingAddress": null,
+    "accountNumbers": [
+      "PL 88598069043987888999498440"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-05-23",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Polsk aSp. z o.o.",
+    "nip": "3788443706",
+    "statusVat": "Czynny",
+    "regon": "146047614",
+    "pesel": null,
+    "krs": "3599009378",
+    "residenceAddress": "81-350 Gdynia, ul Portowa 124 m.9",
+    "workingAddress": "81-350 Gdynia, ul Portowa 124 m.9",
+    "accountNumbers": [
+      "94052198990207773088153029"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-07-28",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Solutions spółka akcyjna",
+    "nip": "4698330677",
+    "statusVat": "Czynny",
+    "regon": "566050337",
+    "pesel": null,
+    "krs": "8450786043",
+    "residenceAddress": "ul. Srebrna 39, 00-810 Warszawa",
+    "workingAddress": "ul. Srebrna 39, 00-810 Warszawa",
+    "accountNumbers": [
+      "PL 29792538412791325332588840"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-07-16",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Group SA",
+    "nip": "0739928919",
+    "statusVat": "Czynny",
+    "regon": "663201629",
+    "pesel": null,
+    "krs": "7048618670",
+    "residenceAddress": "ul. Srebrna 172/19, 00-810 Warszawa",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-12-11",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Polska sp. z o.o.",
+    "nip": "7305498243",
+    "statusVat": "Czynny",
+    "regon": "706921958",
+    "pesel": null,
+    "krs": "5490145996",
+    "residenceAddress": "10-687 Olsztyn, ul Jarzębinowa 179 m.22",
+    "workingAddress": null,
+    "accountNumbers": [
+      "48 5024 6101 6810 7137 7973 0951"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-11-28",
+    "removalDate": null
+  },
+  {
+    "name": "Polaris Medical Polska SP Z O O",
+    "nip": "0728895927",
+    "statusVat": "Czynny",
+    "regon": "968244850",
+    "pesel": null,
+    "krs": "8081726282",
+    "residenceAddress": "85-707 Bydgoszcz, ul Bałtycka 106 m.2",
+    "workingAddress": null,
+    "accountNumbers": [
+      "20403240440121785634361455"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-04-22",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Group Sp. z .oo.",
+    "nip": "3967024365",
+    "statusVat": "Czynny",
+    "regon": "302849760",
+    "pesel": null,
+    "krs": "3690912375",
+    "residenceAddress": "60-126 Poznań, ul Głogowska 170 m.5",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-09-12",
+    "removalDate": null
+  },
+  {
+    "name": "Baltic Med Supply Group Sp. z o.o.",
+    "nip": "6179962356",
+    "statusVat": "Czynny",
+    "regon": "226992066",
+    "pesel": null,
+    "krs": "9722042986",
+    "residenceAddress": "ul. Chorzowska 105, 40-121 Katowice",
+    "workingAddress": "ul. Chorzowska 105, 40-121 Katowice",
+    "accountNumbers": [
+      "46983633209481685319990870"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2021-02-11",
+    "removalDate": "2025-07-04"
+  },
+  {
+    "name": "Polaris Medical Services SP Z O O",
+    "nip": "2099865642",
+    "statusVat": "Czynny",
+    "regon": "038975287",
+    "pesel": null,
+    "krs": "1430491341",
+    "residenceAddress": "ulica Srebrna 168/23, 00-810 Warszawa",
+    "workingAddress": "ulica Srebrna 168/23, 00-810 Warszawa",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2023-10-23",
+    "removalDate": null
+  },
+  {
+    "name": "Meridian Trade Group SA",
+    "nip": "9572404347",
+    "statusVat": "Wykreślony",
+    "regon": "307966186",
+    "pesel": null,
+    "krs": "8056820175",
+    "residenceAddress": "35-001 Rzeszów, ul 3 Maja 67 m.20",
+    "workingAddress": null,
+    "accountNumbers": [
+      "78314642508823243969647732"
+    ],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2018-03-23",
+    "removalDate": "2025-03-09"
+  },
+  {
+    "name": "Polaris Medical Holding spółka z ograniczoną odpowiedzialnością",
+    "nip": "0851732895",
+    "statusVat": "Wykreślony",
+    "regon": "107651917",
+    "pesel": null,
+    "krs": "4760786235",
+    "residenceAddress": "60-126 Poznań, Głogowska 80",
+    "workingAddress": "60-126 Poznań, Głogowska 80",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2024-01-21",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Group SP Z O O",
+    "nip": "2652951646",
+    "statusVat": "Czynny",
+    "regon": "886407880",
+    "pesel": null,
+    "krs": "0396620385",
+    "residenceAddress": "ul. Jarzębinowa 155/23, 10-687 Olsztyn",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2024-03-07",
+    "removalDate": null
+  },
+  {
+    "name": "Amber Tech Group spółka z ograniczoną odpowiedzialnością",
+    "nip": "8052632119",
+    "statusVat": "Wykreślony",
+    "regon": "661158485",
+    "pesel": null,
+    "krs": "9918431132",
+    "residenceAddress": "ulica Chorzowska 124/2, 40-121 Katowice",
+    "workingAddress": "ulica Chorzowska 124/2, 40-121 Katowice",
+    "accountNumbers": [
+      "PL 05692745056958261691343812"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2019-05-13",
+    "removalDate": "2025-03-11"
+  },
+  {
+    "name": "Nebula Analytics Holding spółka z ograniczoną odpowiedzialnością",
+    "nip": "6306636050",
+    "statusVat": "Czynny",
+    "regon": "703686050",
+    "pesel": null,
+    "krs": "2618402578",
+    "residenceAddress": "81-350 Gdynia, ul Portowa 180 m.13",
+    "workingAddress": null,
+    "accountNumbers": [
+      "47 6044 0424 1426 5626 1604 6430"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-12-20",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Tech sp. z o.o.",
+    "nip": "5583445662",
+    "statusVat": "Czynny",
+    "regon": "118081896",
+    "pesel": null,
+    "krs": "0548944538",
+    "residenceAddress": "ul. Kazimierza Wielkiego 76/9, 50-101 Wrocław",
+    "workingAddress": "ul. Kazimierza Wielkiego 76/9, 50-101 Wrocław",
+    "accountNumbers": [
+      "PL 05313978374766937772424278",
+      "12 8761 2826 1249 9877 9994 8194"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2025-10-16",
+    "removalDate": null
+  },
+  {
+    "name": "Meridian Trade Services sp. z o.o.",
+    "nip": "0587905224",
+    "statusVat": "Czynny",
+    "regon": "173167156",
+    "pesel": null,
+    "krs": "5158501530",
+    "residenceAddress": "ul Kazimierza Wielkiego 164, 50-101 Wrocław",
+    "workingAddress": "ul Kazimierza Wielkiego 164, 50-101 Wrocław",
+    "accountNumbers": [
+      "61 0408 6732 5868 4810 6247 1656"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-12-13",
+    "removalDate": null
+  },
+  {
+    "name": "Polaris Medcial Polska sp. z o.o.",
+    "nip": "2973239644",
+    "statusVat": "Wykreślony",
+    "regon": "209567333",
+    "pesel": null,
+    "krs": "7718430192",
+    "residenceAddress": "ulica Konopnickiej 141/12, 30-302 Kraków",
+    "workingAddress": "ulica Konopnickiej 141/12, 30-302 Kraków",
+    "accountNumbers": [
+      "PL 12054152807864770169620233"
+    ],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-02-14",
+    "removalDate": null
+  },
+  {
+    "name": "Vistula Data Hub Holding S.A.",
+    "nip": "4332262277",
+    "statusVat": "Czynny",
+    "regon": "913831006",
+    "pesel": null,
+    "krs": "4526075699",
+    "residenceAddress": "35-001 Rzeszów, ul 3 Maja 3 m.16",
+    "workingAddress": "35-001 Rzeszów, ul 3 Maja 3 m.16",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2022-03-21",
+    "removalDate": null
+  },
+  {
+    "name": "Orbis Retail Solutions Holding spółka z ograniczoną odpowiedzialnością",
+    "nip": "7931839979",
+    "statusVat": "Czynny",
+    "regon": "461497459",
+    "pesel": null,
+    "krs": "6200363856",
+    "residenceAddress": "ul Bałtycka 110, 85-707 Bydgoszcz",
+    "workingAddress": "ul Bałtycka 110, 85-707 Bydgoszcz",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-10-23",
+    "removalDate": null
+  },
+  {
+    "name": "Nova Systems Solutions sp z oo",
+    "nip": "2762239847",
+    "statusVat": "Wykreślony",
+    "regon": "948534001",
+    "pesel": null,
+    "krs": "1212898115",
+    "residenceAddress": "ul. Jarzębinowa 33, 10-687 Olsztyn",
+    "workingAddress": "ul. Jarzębinowa 33, 10-687 Olsztyn",
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2018-07-23",
+    "removalDate": null
+  },
+  {
+    "name": "Helix Retail Services SP Z O O",
+    "nip": "1662016555",
+    "statusVat": "Wykreślony",
+    "regon": "361080926",
+    "pesel": null,
+    "krs": "4963830972",
+    "residenceAddress": "30-302 Kraków, ul Konopnickiej 7 m.11",
+    "workingAddress": "30-302 Kraków, ul Konopnickiej 7 m.11",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2025-11-17",
+    "removalDate": null
+  },
+  {
+    "name": "Meridian Trade Solutions S.A.",
+    "nip": "4023386860",
+    "statusVat": "Czynny",
+    "regon": "244418997",
+    "pesel": null,
+    "krs": "0516654512",
+    "residenceAddress": "50-101 Wrocław, ul Kazimierza Wielkiego 87 m.26",
+    "workingAddress": null,
+    "accountNumbers": [],
+    "hasVirtualAccounts": true,
+    "registrationLegalDate": "2021-01-20",
+    "removalDate": null
+  },
+  {
+    "name": "Altair Finance Holding SA",
+    "nip": "0957394059",
+    "statusVat": "Czynny",
+    "regon": "507356748",
+    "pesel": null,
+    "krs": "4135694804",
+    "residenceAddress": "ul 3 Maja 125, 35-001 Rzeszów",
+    "workingAddress": "ul 3 Maja 125, 35-001 Rzeszów",
+    "accountNumbers": [],
+    "hasVirtualAccounts": false,
+    "registrationLegalDate": "2022-05-05",
+    "removalDate": null
+  }
+]

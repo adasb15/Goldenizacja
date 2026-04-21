@@ -1,0 +1,106 @@
+{
+  "csv": {
+    "pesel": {
+      "records": 110,
+      "file": "csv/pesel.csv"
+    },
+    "ceidg": {
+      "records": 110,
+      "file": "csv/ceidg.csv"
+    },
+    "regon": {
+      "records": 200,
+      "file": "csv/regon.csv"
+    },
+    "krs": {
+      "records": 90,
+      "file": "csv/krs.csv"
+    },
+    "vat": {
+      "records": 200,
+      "file": "csv/vat.csv"
+    },
+    "gleif": {
+      "records": 66,
+      "file": "csv/gleif.csv"
+    }
+  },
+  "json": {
+    "pesel": {
+      "records": 110,
+      "file": "json/pesel.json"
+    },
+    "ceidg": {
+      "records": 110,
+      "file": "json/ceidg.json"
+    },
+    "regon": {
+      "records": 200,
+      "file": "json/regon.json"
+    },
+    "krs": {
+      "records": 90,
+      "file": "json/krs.json"
+    },
+    "vat": {
+      "records": 200,
+      "file": "json/vat.json"
+    },
+    "gleif": {
+      "records": 59,
+      "file": "json/gleif.json"
+    }
+  },
+  "xml": {
+    "pesel": {
+      "records": 110,
+      "file": "xml/pesel.xml"
+    },
+    "ceidg": {
+      "records": 110,
+      "file": "xml/ceidg.xml"
+    },
+    "regon": {
+      "records": 200,
+      "file": "xml/regon.xml"
+    },
+    "krs": {
+      "records": 90,
+      "file": "xml/krs.xml"
+    },
+    "vat": {
+      "records": 200,
+      "file": "xml/vat.xml"
+    },
+    "gleif": {
+      "records": 55,
+      "file": "xml/gleif.xml"
+    }
+  },
+  "xlsx": {
+    "pesel": {
+      "records": 110,
+      "file": "xlsx/pesel.xlsx"
+    },
+    "ceidg": {
+      "records": 110,
+      "file": "xlsx/ceidg.xlsx"
+    },
+    "regon": {
+      "records": 200,
+      "file": "xlsx/regon.xlsx"
+    },
+    "krs": {
+      "records": 90,
+      "file": "xlsx/krs.xlsx"
+    },
+    "vat": {
+      "records": 200,
+      "file": "xlsx/vat.xlsx"
+    },
+    "gleif": {
+      "records": 60,
+      "file": "xlsx/gleif.xlsx"
+    }
+  }
+}
