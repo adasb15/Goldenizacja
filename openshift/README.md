@@ -10,7 +10,6 @@ Ten katalog zawiera manifesty OpenShift dla projektu `goldenizacja`.
 - `04-mssql.yaml` - SQL Server (Deployment + Service)
 - `05-neo4j.yaml` - Neo4j (Deployment + Service)
 - `06-api.yaml` - FastAPI (Deployment + Service)
-- `07-adminer.yaml` - Adminer (Deployment + Service)
 - `09-frontend.yaml` - React frontend (Deployment + Service)
 - `10-airflow.yaml` - Airflow (Deployment + Service)
 - `11-airflow-dags-configmap.yaml` - przykładowy DAG
@@ -33,7 +32,6 @@ oc apply -f openshift/02-secrets.yaml
 oc apply -f openshift/03-pvc.yaml
 oc apply -f openshift/04-mssql.yaml
 oc apply -f openshift/05-neo4j.yaml
-oc apply -f openshift/07-adminer.yaml
 oc apply -f openshift/11-airflow-dags-configmap.yaml
 oc apply -f openshift/10-airflow.yaml
 ```

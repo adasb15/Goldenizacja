@@ -101,15 +101,6 @@ services:
       - neo4j_data:/data
       - neo4j_logs:/logs
 
-  # adminer:
-  #   image: adminer:latest
-  #   container_name: goldenizacja-adminer
-  #   depends_on:
-  #     mssql:
-  #       condition: service_healthy
-  #   ports:
-  #     - "8082:8080"
-
 volumes:
   mssql_data:
   neo4j_data:
