@@ -3,9 +3,9 @@ import csv
 import hashlib
 import io
 import json
-import zipfile
 from pathlib import Path
 from xml.etree import ElementTree
+from openpyxl import load_workbook
 
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
@@ -16,18 +16,19 @@ from app.layers.ingestion.schemas import RawLoadResponse
 
 SUPPORTED_FILE_TYPES = {"csv", "json", "xml", "xlsx"}
 SUPPORTED_SOURCE_SYSTEMS = {
-    "CEIDG",
-    "KRS",
-    "REGON",
-    "VAT",
-    "PESEL",
-    "GLEIF_LEVEL1",
-    "GLEIF_LEVEL2",
-    "KNF_REJESTR_FIRM_INWESTYCYJNYCH",
-    "KNF_REJESTR_DOSTAWCOW_I_WYDAWCOW_PIENIADZA_ELEKTRONICZNEGO",
-    "KNF_REJESTR_POSREDNIKOW_UBEZPIECZENIOWYCH_AGENT",
-    "KNF_REJESTR_POSREDNIKOW_UBEZPIECZENIOWYCH_PRACOWNIK_AGENTA",
+    "CEIDG": "Centralna Ewidencja i Informacja o Dzialalnosci Gospodarczej",
+    "KRS": "Krajowy Rejestr Sadowy",
+    "REGON": "Rejestr REGON",
+    "VAT": "Wykaz podatnikow VAT",
+    "PESEL": "Rejestr PESEL",
+    "KNF_AGENT": "KNF Rejestr posrednikow ubezpieczeniowych - agent",
+    "KNF_PRACOWNIK_AGENTA": "KNF Rejestr posrednikow ubezpieczeniowych - pracownik agenta",
+    "KNF_FIRMY_INWESTYCYJNE": "KNF Rejestr firm inwestycyjnych",
+    "KNF_PIENIADZ_ELEKTRONICZNY": "KNF Rejestr dostawcow i wydawcow pieniadza elektronicznego",
+    "GLEIF_L1": "GLEIF Level 1",
+    "GLEIF_L2": "GLEIF Level 2",
 }
+
 
 
 class UnsupportedFileTypeError(ValueError):
@@ -59,6 +60,7 @@ def _validate_source_system_code(source_system_code: str) -> str:
     return normalized
 
 
+
 def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
     if not content:
         raise InvalidFileContentError("Uploaded file is empty.")
@@ -84,11 +86,28 @@ def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
         return len(list(root))
 
     if file_type == "xlsx":
-        with zipfile.ZipFile(io.BytesIO(content)) as archive:
-            names = set(archive.namelist())
-            if "[Content_Types].xml" not in names or "xl/workbook.xml" not in names:
-                raise InvalidFileContentError("Invalid XLSX file.")
-        return None
+        try:
+            workbook = load_workbook(
+                filename=io.BytesIO(content),
+                read_only=True,
+                data_only=True,
+            )
+        except Exception as exc:
+            raise InvalidFileContentError("Invalid XLSX file.") from exc
+
+        sheet = workbook.active
+        row_count = 0
+
+        for row in sheet.iter_rows(values_only=True):
+            if any(cell is not None for cell in row):
+                row_count += 1
+
+        workbook.close()
+
+        if row_count == 0:
+            raise InvalidFileContentError("XLSX file has no rows.")
+
+        return max(row_count - 1, 0)
 
     return None
 
@@ -109,7 +128,10 @@ def import_raw_file(
         file_type = _get_file_type(filename)
         records_in = _validate_and_count_records(file_type, content)
 
-        source = repo.get_or_create_source_system(source_system_code)
+        source = repo.get_or_create_source_system(
+            source_system_code,
+            SUPPORTED_SOURCE_SYSTEMS[source_system_code],
+        )
         batch = repo.create_import_batch(source.SourceSystem_ID, created_by)
         batch = repo.update_import_batch_status(batch, "PROCESSING")
 
