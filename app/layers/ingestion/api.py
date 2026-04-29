@@ -6,6 +6,7 @@ from app.layers.ingestion.schemas import LayerStatus, RawLoadResponse
 from app.layers.ingestion.service import (
     InvalidFileContentError,
     UnsupportedFileTypeError,
+    UnsupportedSourceSystemError,
     import_raw_file,
 )
 
@@ -36,6 +37,8 @@ async def raw_load(
             created_by=created_by,
         )
     except UnsupportedFileTypeError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except UnsupportedSourceSystemError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except InvalidFileContentError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc

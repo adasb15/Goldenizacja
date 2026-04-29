@@ -15,9 +15,25 @@ from app.layers.ingestion.schemas import RawLoadResponse
 
 
 SUPPORTED_FILE_TYPES = {"csv", "json", "xml", "xlsx"}
+SUPPORTED_SOURCE_SYSTEMS = {
+    "CEIDG",
+    "KRS",
+    "REGON",
+    "VAT",
+    "PESEL",
+    "GLEIF_LEVEL1",
+    "GLEIF_LEVEL2",
+    "KNF_REJESTR_FIRM_INWESTYCYJNYCH",
+    "KNF_REJESTR_DOSTAWCOW_I_WYDAWCOW_PIENIADZA_ELEKTRONICZNEGO",
+    "KNF_REJESTR_POSREDNIKOW_UBEZPIECZENIOWYCH_AGENT",
+    "KNF_REJESTR_POSREDNIKOW_UBEZPIECZENIOWYCH_PRACOWNIK_AGENTA",
+}
 
 
 class UnsupportedFileTypeError(ValueError):
+    pass
+
+class UnsupportedSourceSystemError(ValueError):
     pass
 
 
@@ -32,6 +48,15 @@ def _get_file_type(filename: str) -> str:
             f"Unsupported file type '{suffix}'. Supported types: {', '.join(sorted(SUPPORTED_FILE_TYPES))}."
         )
     return suffix
+
+
+def _validate_source_system_code(source_system_code: str) -> str:
+    normalized = source_system_code.strip().upper()
+    if normalized not in SUPPORTED_SOURCE_SYSTEMS:
+        raise UnsupportedSourceSystemError(
+            f"Unsupported source system '{source_system_code}'."
+        )
+    return normalized
 
 
 def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
@@ -75,6 +100,7 @@ def import_raw_file(
     source_system_code: str,
     created_by: str | None = None,
 ) -> RawLoadResponse:
+    source_system_code = _validate_source_system_code(source_system_code)
     repo = IngestionRepository(db)
     batch = None
     process_log = None
