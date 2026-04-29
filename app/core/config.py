@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from sqlalchemy.engine import URL
 
 
 class Settings(BaseSettings):
@@ -12,6 +13,9 @@ class Settings(BaseSettings):
     mssql_db: str = "goldenizacja"
     mssql_user: str = "sa"
     mssql_password: str
+    mssql_encrypt: str = "yes"
+    mssql_trust_server_certificate: str = "yes"
+
 
     neo4j_uri: str = "bolt://neo4j:7687"
     neo4j_user: str = "neo4j"
@@ -24,21 +28,37 @@ class Settings(BaseSettings):
 
     @property
     def sqlalchemy_database_url(self) -> str:
-        driver = "ODBC Driver 18 for SQL Server"
-        return (
-            f"mssql+pyodbc://{self.mssql_user}:{self.mssql_password}@"
-            f"{self.mssql_server}:{self.mssql_port}/{self.mssql_db}"
-            f"?driver={driver.replace(' ', '+')}&TrustServerCertificate=yes"
-        )
+        return URL.create(
+            "mssql+pyodbc",
+            username=self.mssql_user,
+            password=self.mssql_password,
+            host=self.mssql_server,
+            port=self.mssql_port,
+            database=self.mssql_db,
+            query={
+                "driver": "ODBC Driver 18 for SQL Server",
+                "Encrypt": self.mssql_encrypt,
+                "TrustServerCertificate": self.mssql_trust_server_certificate,
+            },
+        ).render_as_string(hide_password=False)
+
 
     @property
     def sqlalchemy_master_url(self) -> str:
-        driver = "ODBC Driver 18 for SQL Server"
-        return (
-            f"mssql+pyodbc://{self.mssql_user}:{self.mssql_password}@"
-            f"{self.mssql_server}:{self.mssql_port}/master"
-            f"?driver={driver.replace(' ', '+')}&TrustServerCertificate=yes"
-        )
+        return URL.create(
+            "mssql+pyodbc",
+            username=self.mssql_user,
+            password=self.mssql_password,
+            host=self.mssql_server,
+            port=self.mssql_port,
+            database="master",
+            query={
+                "driver": "ODBC Driver 18 for SQL Server",
+                "Encrypt": self.mssql_encrypt,
+                "TrustServerCertificate": self.mssql_trust_server_certificate,
+            },
+        ).render_as_string(hide_password=False)
+
 
     @property
     def cors_origins_list(self) -> list[str]:
