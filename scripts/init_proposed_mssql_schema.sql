@@ -271,7 +271,6 @@ DECLARE @CEIDG_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (CEIDG)
-    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.id', N'Source_Record_ID'),
     (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.pesel', N'PESEL'),
     (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.imie', N'First_Name'),
     (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.drugieImie', N'Second_Name'),
@@ -283,7 +282,6 @@ USING (VALUES
     (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.adresKorespondencyjny', N'Street'),
 
     -- PARTY (CEIDG)
-    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.id', N'Source_Record_ID'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.nazwa', N'Name'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.skroconaNazwa', N'Short_Name'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.dataRozpoczeciaDzialalnosci', N'Establishment_Date'),
@@ -310,7 +308,6 @@ DECLARE @GLEIF_L1_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (GLEIF L1)
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'LEI', N'Source_Record_ID'),
     (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalName', N'Name'),
     (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalJurisdiction', N'Registration_Country'),
     (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalForm.EntityLegalFormCode', N'Legal_Entity_Type'),
@@ -341,8 +338,7 @@ DECLARE @GLEIF_L2_SourceSystem_ID INT = (
 
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
-    -- PARTY (GLEIF L2) - minimal
-    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Source_Record_ID'),
+    -- PARTY (GLEIF L2)
     (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Identifiers_JSON'),
     (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'EndNode.NodeID', N'Identifiers_JSON')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
@@ -363,7 +359,6 @@ DECLARE @KRS_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (KRS) - data/csv/krs.csv
-    (@KRS_SourceSystem_ID, N'PARTY', N'numerKRS', N'Source_Record_ID'),
     (@KRS_SourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
     (@KRS_SourceSystem_ID, N'PARTY', N'nazwaSkrocona', N'Short_Name'),
     (@KRS_SourceSystem_ID, N'PARTY', N'formaPrawna', N'Legal_Entity_Type'),
@@ -391,7 +386,6 @@ DECLARE @REGON_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (REGON) - data/csv/regon.csv
-    (@REGON_SourceSystem_ID, N'PARTY', N'regon', N'Source_Record_ID'),
     (@REGON_SourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
     (@REGON_SourceSystem_ID, N'PARTY', N'formaPrawna', N'Legal_Entity_Type'),
     (@REGON_SourceSystem_ID, N'PARTY', N'dataPowstania', N'Establishment_Date'),
@@ -421,7 +415,6 @@ DECLARE @VAT_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (VAT) - data/csv/vat.csv
-    (@VAT_SourceSystem_ID, N'PARTY', N'nip', N'Source_Record_ID'),
     (@VAT_SourceSystem_ID, N'PARTY', N'name', N'Name'),
     (@VAT_SourceSystem_ID, N'PARTY', N'registrationLegalDate', N'Establishment_Date'),
     (@VAT_SourceSystem_ID, N'PARTY', N'workingAddress', N'Street'),
@@ -447,7 +440,6 @@ DECLARE @PESEL_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (PESEL) - data/csv/pesel.csv
-    (@PESEL_SourceSystem_ID, N'PERSON', N'PESEL', N'Source_Record_ID'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'NumerDowoduOsobistego', N'Serial_Number_ID_Card'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'Imie', N'First_Name'),
@@ -480,12 +472,10 @@ DECLARE @KNF_AGENT_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_AGENT) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_agent.csv
-    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Numer agenta', N'Source_Record_ID'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
 
     -- PARTY (KNF_AGENT)
-    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Source_Record_ID'),
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Firma/Nazwa', N'Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Miejscowość', N'City'),
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Ulica i numer', N'Street'),
@@ -510,12 +500,10 @@ DECLARE @KNF_PRACOWNIK_AGENTA_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_PRACOWNIK_AGENTA) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta.csv
-    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Numer pracownika', N'Source_Record_ID'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię agenta', N'First_Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko agenta', N'Last_Name'),
 
     -- PARTY (KNF_PRACOWNIK_AGENTA) - agent jako podmiot
-    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Source_Record_ID'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Nazwa agenta', N'Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer NIP agenta', N'Identifiers_JSON'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer KRS agenta', N'Identifiers_JSON')
@@ -537,7 +525,6 @@ DECLARE @KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (KNF_FIRMY_INWESTYCYJNE) - data/csv/KNF_Rejestr_firm_inwestycyjnych.csv
-    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Firma lub nazwa', N'Source_Record_ID'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Firma lub nazwa', N'Name'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
@@ -558,7 +545,6 @@ DECLARE @KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID INT = (
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (KNF_PIENIADZ_ELEKTRONICZNY) - data/csv/KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego.csv
-    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'ID', N'Source_Record_ID'),
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Nazwa', N'Name'),
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Typ podmiotu', N'Legal_Entity_Type'),
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Data wpisu', N'Establishment_Date'),
