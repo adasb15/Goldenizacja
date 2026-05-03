@@ -262,7 +262,7 @@ WHEN NOT MATCHED THEN
     VALUES (source.[SourceSystem_Code], source.[SourceSystem_Name], source.[Trust_Level]);
 GO
 
-DECLARE @DefaultSourceSystem_ID INT = (
+DECLARE @CEIDG_SourceSystem_ID INT = (
     SELECT [SourceSystem_ID]
     FROM [meta].[SourceSystem]
     WHERE [SourceSystem_Code] = N'CEIDG'
@@ -270,21 +270,306 @@ DECLARE @DefaultSourceSystem_ID INT = (
 
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
-    (@DefaultSourceSystem_ID, N'PARTY', N'name', N'Name'),
-    (@DefaultSourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
-    (@DefaultSourceSystem_ID, N'PARTY', N'nazwa_firmy', N'Name'),
-    (@DefaultSourceSystem_ID, N'PERSON', N'firstName', N'First_Name'),
-    (@DefaultSourceSystem_ID, N'PERSON', N'imie', N'First_Name'),
-    (@DefaultSourceSystem_ID, N'PERSON', N'surname', N'Last_Name'),
-    (@DefaultSourceSystem_ID, N'PERSON', N'nazwisko', N'Last_Name'),
-    (@DefaultSourceSystem_ID, N'PERSON', N'pesel', N'PESEL'),
-    (@DefaultSourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
-    (@DefaultSourceSystem_ID, N'PARTY', N'regon', N'Identifiers_JSON'),
-    (@DefaultSourceSystem_ID, N'PARTY', N'krs', N'Identifiers_JSON')
+    -- PERSON (CEIDG)
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.id', N'Source_Record_ID'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.pesel', N'PESEL'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.imie', N'First_Name'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.drugieImie', N'Second_Name'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.wlasciciel.nazwisko', N'Last_Name'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.telefon', N'Phone_Number'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.email', N'Email_Address'),
+    -- CEIDG adresy są w 1 polu tekstowym; wrzucamy oba do Street (później można je sparsować)
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.adresDzialalnosci', N'Street'),
+    (@CEIDG_SourceSystem_ID, N'PERSON', N'firma.adresKorespondencyjny', N'Street'),
+
+    -- PARTY (CEIDG)
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.id', N'Source_Record_ID'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.nazwa', N'Name'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.skroconaNazwa', N'Short_Name'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.dataRozpoczeciaDzialalnosci', N'Establishment_Date'),
+    -- CEIDG adresy są w 1 polu tekstowym; wrzucamy oba do Street (później można je sparsować)
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.adresDzialalnosci', N'Street'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.adresKorespondencyjny', N'Street'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.nip', N'Identifiers_JSON'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.regon', N'Identifiers_JSON')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
-    AND target.[Entity_Type] = source.[Entity_Type]
-    AND target.[Source_Column_Name] = source.[Source_Column_Name]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @GLEIF_L1_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'GLEIF_L1'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (GLEIF L1)
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'LEI', N'Source_Record_ID'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalName', N'Name'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalJurisdiction', N'Registration_Country'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalForm.EntityLegalFormCode', N'Legal_Entity_Type'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Registration.InitialRegistrationDate', N'Establishment_Date'),
+
+    -- adres legalny (Street/City/Postal/Country) bez parsera
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.FirstAddressLine', N'Street'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.City', N'City'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.PostalCode', N'Postal_Code'),
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.Country', N'Country'),
+
+    -- identyfikator: LEI do Identifiers_JSON
+    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'LEI', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @GLEIF_L2_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'GLEIF_L2'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (GLEIF L2) - minimal
+    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Source_Record_ID'),
+    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Identifiers_JSON'),
+    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'EndNode.NodeID', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @KRS_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'KRS'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (KRS) - data/csv/krs.csv
+    (@KRS_SourceSystem_ID, N'PARTY', N'numerKRS', N'Source_Record_ID'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'nazwaSkrocona', N'Short_Name'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'formaPrawna', N'Legal_Entity_Type'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'dataRejestracji', N'Establishment_Date'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'siedziba', N'City'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'adres', N'Street'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'regon', N'Identifiers_JSON'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'numerKRS', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @REGON_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'REGON'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (REGON) - data/csv/regon.csv
+    (@REGON_SourceSystem_ID, N'PARTY', N'regon', N'Source_Record_ID'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'formaPrawna', N'Legal_Entity_Type'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'dataPowstania', N'Establishment_Date'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'adresSiedziby', N'Street'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'miejscowosc', N'City'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'kodPocztowy', N'Postal_Code'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'powiat', N'District'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'wojewodztwo', N'Province'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'krs', N'Identifiers_JSON'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'regon', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @VAT_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'VAT'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (VAT) - data/csv/vat.csv
+    (@VAT_SourceSystem_ID, N'PARTY', N'nip', N'Source_Record_ID'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'name', N'Name'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'registrationLegalDate', N'Establishment_Date'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'workingAddress', N'Street'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'residenceAddress', N'Postal_City'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'regon', N'Identifiers_JSON'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'krs', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @PESEL_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'PESEL'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PERSON (PESEL) - data/csv/pesel.csv
+    (@PESEL_SourceSystem_ID, N'PERSON', N'PESEL', N'Source_Record_ID'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'NumerDowoduOsobistego', N'Serial_Number_ID_Card'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Imie', N'First_Name'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'DrugieImie', N'Second_Name'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'NazwiskoRodowe', N'Family_Name'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'DataUrodzenia', N'Birth_Date'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'MiejsceUrodzenia', N'Place_Of_Birth'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Plec', N'Sex'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Obywatelstwo', N'Citizenship'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Telefon', N'Phone_Number'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'Email', N'Email_Address'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'AdresZameldowania', N'Street'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'AdresKorespondencyjny', N'Postal_City')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @KNF_AGENT_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'KNF_AGENT'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PERSON (KNF_AGENT) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_agent.csv
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Numer agenta', N'Source_Record_ID'),
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
+
+    -- PARTY (KNF_AGENT)
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Source_Record_ID'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Firma/Nazwa', N'Name'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Miejscowość', N'City'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Ulica i numer', N'Street'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Kod pocztowy', N'Postal_Code'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer NIP', N'Identifiers_JSON'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer KRS', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @KNF_PRACOWNIK_AGENTA_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'KNF_PRACOWNIK_AGENTA'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PERSON (KNF_PRACOWNIK_AGENTA) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta.csv
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Numer pracownika', N'Source_Record_ID'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię agenta', N'First_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko agenta', N'Last_Name'),
+
+    -- PARTY (KNF_PRACOWNIK_AGENTA) - agent jako podmiot
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Source_Record_ID'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Nazwa agenta', N'Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer NIP agenta', N'Identifiers_JSON'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer KRS agenta', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'KNF_FIRMY_INWESTYCYJNE'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (KNF_FIRMY_INWESTYCYJNE) - data/csv/KNF_Rejestr_firm_inwestycyjnych.csv
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Firma lub nazwa', N'Source_Record_ID'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Firma lub nazwa', N'Name'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
+GO
+
+DECLARE @KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'KNF_PIENIADZ_ELEKTRONICZNY'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    -- PARTY (KNF_PIENIADZ_ELEKTRONICZNY) - data/csv/KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego.csv
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'ID', N'Source_Record_ID'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Nazwa', N'Name'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Typ podmiotu', N'Legal_Entity_Type'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Data wpisu', N'Establishment_Date'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Siedziba', N'City'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'NIP', N'Identifiers_JSON'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'KRS', N'Identifiers_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
 WHEN NOT MATCHED THEN
     INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
     VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
