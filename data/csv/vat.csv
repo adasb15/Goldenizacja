@@ -1,131 +1,131 @@
-﻿name,nip,statusVat,regon,pesel,krs,residenceAddress,workingAddress,accountNumbers,hasVirtualAccounts,registrationLegalDate,registrationDenialDate,registrationDenialBasis,removalDate,removalBasis,restorationDate,restorationBasis,exemptionSmeDate,representatives,authorizedClerks,partners
-K. Jasieński Instalacje,5000000008,Zwolniony,300000002,70010100001,,"ul. Topolowa 1, 00-810 Warszawa","00-810 Warszawa, skrytka 1","[""79102055581111000045049006""]",True,2016-01-01,,,2025-01-01,art. 96 ust. 9,,,,[],[],[]
-Marek Cieślar Usługi Finansowe,5000000014,Czynny,300000019,71020200136,,"30-302 Kraków, Bałtycka 2 m. 2",,"[""48102055581111000047828631""]",False,2017-02-02,,,,,,,,[],[],[]
-Marta Wrona Pośrednictwo Ubezpieczeniowe,5000000020,Czynny,300000025,72030300247,,"ul Jarzębinowa 3/3, 80-241 Gdańsk",,"[""61102055581111000064459981""]",False,2018-03-03,,,,,,,,[],[],[]
-Dawid Wiśniewski Konsulting,5000000037,Zwolniony,300000031,73040400372,,"ulica Srebrna 4/4, 60-126 Poznań",,"[""93102055581111000011595945""]",True,2019-04-04,,,,,,,,[],[],[]
-Alicja Cieślar Biuro Usług,5000000043,Czynny,300000048,74050500483,,"ul. Portowa 5, 50-101 Wrocław","50-101 Wrocław, skrytka 5","[""93102055581111000078806311""]",False,2020-05-05,,,,,,,,[],[],[]
-S. Wiśniewski Doradztwo,5000000055,Czynny,300000054,75060600518,,"20-819 Lublin, Głogowska 6 m. 6",,"[""60102055581111000040545068""]",False,2021-06-06,,,,,,,,[],[],[]
-Barbara Pawlik Konsulting,5000000066,Czynny,300000060,76070700629,,"ul Królewska 7/7, 85-707 Bydgoszcz",,"[""36102055581111000073678024""]",True,2022-07-07,,,,,,,,[],[],[]
-Marek Cieślar Usługi Finansowe,5000000072,Czynny,300000077,77080800754,,"ulica Piękna 8/8, 10-687 Olsztyn",,"[""76102055581111000088786294""]",False,2023-08-08,,,,,,,,[],[],[]
-Paulina Kaczmarek Studio Danych,5000000089,Zwolniony,300000083,78090900865,,"ul. Leśna 9, 81-350 Gdynia","81-350 Gdynia, skrytka 9","[""69102055581111000071928212""]",False,2024-09-09,,,2025-09-09,art. 96 ust. 9,,,,[],[],[]
-Marek Nowacki Pośrednictwo Ubezpieczeniowe,5000000095,Czynny,300000090,79101000992,,"90-001 Łódź, Polna 10 m. 10",,"[""20102055581111000052020192""]",True,2025-10-10,,,,,,,,[],[],[]
-R. Pawlik Serwis,5000000103,Czynny,300000108,80111101003,,"ul Szkolna 11/11, 00-810 Warszawa",,"[""64102055581111000066061116""]",False,2016-11-11,,,,,,,,[],[],[]
-Tomasz Zieliński Pośrednictwo Ubezpieczeniowe,5000000111,Czynny,300000114,81121201138,,"ulica Lipowa 12/12, 30-302 Kraków",,"[""66102055581111000070394210""]",False,2017-12-12,,,,,,,,[],[],[]
-Joanna Wiśniewski Biuro Usług,5000000126,Zwolniony,300000120,82011301244,,"ul. Słoneczna 13, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13","[""13102055581111000060291405""]",True,2018-01-13,,,,,,,,[],[],[]
-Andrzej Nowacki Pośrednictwo Ubezpieczeniowe,5000000132,Czynny,300000137,83021401379,,"60-126 Poznań, Różana 14 m. 14",,"[""83102055581111000027226260""]",False,2019-02-14,,,,,,,,[],[],[]
-Joanna Pawlik Konsulting,5000000149,Czynny,300000143,84031501480,,"ul Wiosenna 15/15, 50-101 Wrocław",,"[""11102055581111000077082048""]",False,2020-03-15,,,,,,,,[],[],[]
-J. Jasieński Instalacje,5000000155,Zwolniony,300000150,85041601515,,"ulica Topolowa 16/16, 20-819 Lublin",,"[""55102055581111000055610169""]",True,2021-04-16,,,,,,,,[],[],[]
-Katarzyna Nowacki Studio Danych,5000000161,Czynny,300000166,86051701626,,"ul. Bałtycka 17, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17","[""63102055581111000067139083""]",False,2022-05-17,,,2025-05-17,art. 96 ust. 9,,,,[],[],[]
-Jan Duda Pośrednictwo Ubezpieczeniowe,5000000178,Zwolniony,300000172,87061801751,,"10-687 Olsztyn, Jarzębinowa 18 m. 18",,"[""61102055581111000082155988""]",False,2023-06-18,,,,,,,,[],[],[]
-Anna Wójcik Pośrednictwo Ubezpieczeniowe,5000000184,Czynny,300000189,88071901862,,"ul Srebrna 19/19, 81-350 Gdynia",,"[""51102055581111000088779778""]",True,2024-07-19,,,,,,,,[],[],[]
-Jan Duda Studio Danych,5000000190,Czynny,300000195,89082001996,,"ulica Portowa 20/20, 90-001 Łódź",,"[""82102055581111000014323017""]",False,2025-08-20,,,,,,,,[],[],[]
-M. Cieślar Instalacje,5000000209,Czynny,300000203,90092102007,,"ul. Głogowska 21, 00-810 Warszawa","00-810 Warszawa, skrytka 21","[""29102055581111000054325475""]",False,2016-09-21,,,,,,,,[],[],[]
-Szymon Szymańska Studio Danych,5000000215,Zwolniony,300000210,91102202135,,"30-302 Kraków, Królewska 22 m. 22",,"[""90102055581111000090933663""]",True,2017-10-22,,,,,,,,[],[],[]
-Renata Woźniak Usługi Finansowe,5000000221,Zwolniony,300000226,92112302246,,"ul Piękna 23/23, 80-241 Gdańsk",,"[""83102055581111000062463815""]",False,2018-11-23,,,,,,,,[],[],[]
-Andrzej Mazur Biuro Usług,5000000238,Czynny,300000232,93122402371,,"ulica Leśna 24/24, 60-126 Poznań",,"[""36102055581111000062430296""]",False,2019-12-24,,,,,,,,[],[],[]
-Agnieszka Pawlik Pośrednictwo Ubezpieczeniowe,5000000244,Czynny,300000249,94012502487,,"ul. Polna 25, 50-101 Wrocław","50-101 Wrocław, skrytka 25","[""78102055581111000061866272""]",True,2020-01-25,,,2025-01-25,art. 96 ust. 9,,,,[],[],[]
-M. Kaczmarek Serwis,5000000250,Czynny,300000255,95022602512,,"20-819 Lublin, Szkolna 26 m. 1",,"[""70102055581111000024581193""]",False,2021-02-26,,,,,,,,[],[],[]
-Alicja Woźniak Usługi Finansowe,5000000267,Czynny,300000261,96032702623,,"ul Lipowa 27/2, 85-707 Bydgoszcz",,"[""82102055581111000070604045""]",False,2022-03-27,,,,,,,,[],[],[]
-Paweł Tracz Konsulting,5000000273,Zwolniony,300000278,97040102751,,"ulica Słoneczna 28/3, 10-687 Olsztyn",,"[""48102055581111000022514663""]",True,2023-04-01,,,,,,,,[],[],[]
-Natalia Pawlik Biuro Usług,5000000288,Czynny,300000284,98050202862,,"ul. Różana 29, 81-350 Gdynia","81-350 Gdynia, skrytka 29","[""23102055581111000084209891""]",False,2024-05-02,,,,,,,,[],[],[]
-Marek Milewska Pośrednictwo Ubezpieczeniowe,5000000296,Czynny,300000290,99060302997,,"90-001 Łódź, Wiosenna 30 m. 5",,"[""14102055581111000090982133""]",False,2025-06-03,,,,,,,,[],[],[]
-O. Wiśniewski Instalacje,5000000304,Czynny,300000309,70070403001,,"ul Topolowa 31/6, 00-810 Warszawa",,"[""13102055581111000035057390""]",True,2016-07-04,,,,,,,,[],[],[]
-Patryk Kamińska Studio Danych,5000000310,Czynny,300000315,71080503136,,"ulica Bałtycka 32/7, 30-302 Kraków",,"[""18102055581111000061793831""]",False,2017-08-05,,,,,,,,[],[],[]
-Agnieszka Cieślar Biuro Usług,5000000327,Czynny,300000321,72090603247,,"ul. Jarzębinowa 33, 80-241 Gdańsk","80-241 Gdańsk, skrytka 33","[""36102055581111000041278022""]",False,2018-09-06,,,2025-09-06,art. 96 ust. 9,,,,[],[],[]
-Dawid Milewska Usługi Finansowe,5000000333,Czynny,300000338,73100703375,,"60-126 Poznań, Srebrna 34 m. 9",,"[""94102055581111000080383199""]",True,2019-10-07,,,,,,,,[],[],[]
-Magdalena Nowacki Studio Danych,5000000344,Czynny,300000344,74110803486,,"ul Portowa 35/10, 50-101 Wrocław",,"[""68102055581111000017711235""]",False,2020-11-08,,,,,,,,[],[],[]
-A. Pawlik Serwis,5000000356,Czynny,300000350,75120903511,,"ulica Głogowska 36/11, 20-819 Lublin",,"[""76102055581111000011482715""]",False,2021-12-09,,,,,,,,[],[],[]
-Ewa Jasieński Studio Danych,5000000362,Czynny,300000367,76011003626,,"ul. Królewska 37, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 37","[""51102055581111000065144861""]",True,2022-01-10,,,,,,,,[],[],[]
-Rafał Wójcik Konsulting,5000000379,Czynny,300000373,77021103751,,"10-687 Olsztyn, Piękna 38 m. 13",,"[""30102055581111000024863801""]",False,2023-02-11,,,,,,,,[],[],[]
-Karolina Kowalski Konsulting,5000000385,Czynny,300000380,78031203862,,"ul Leśna 39/14, 81-350 Gdynia",,"[""78102055581111000066158469""]",False,2024-03-12,,,,,,,,[],[],[]
-Michał Milewska Usługi Finansowe,5000000391,Czynny,300000396,79041303997,,"ulica Polna 40/15, 90-001 Łódź",,"[""18102055581111000062209742""]",True,2025-04-13,,,,,,,,[],[],[]
-M. Kamińska Serwis,5000000400,Czynny,300000404,80051404008,,"ul. Szkolna 41, 00-810 Warszawa","00-810 Warszawa, skrytka 41","[""26102055581111000037605500""]",False,2016-05-14,,,2025-05-14,art. 96 ust. 9,,,,[],[],[]
-Marcin Kamińska Pośrednictwo Ubezpieczeniowe,5000000416,Czynny,300000410,81061504133,,"30-302 Kraków, Lipowa 42 m. 17",,"[""65102055581111000099226958""]",False,2017-06-15,,,,,,,,[],[],[]
-Karolina Woźniak Pośrednictwo Ubezpieczeniowe,5000000422,Czynny,300000427,82071604244,,"ul Słoneczna 43/18, 80-241 Gdańsk",,"[""30102055581111000091028510""]",True,2018-07-16,,,,,,,,[],[],[]
-Paweł Duda Pośrednictwo Ubezpieczeniowe,5000000439,Zwolniony,300000433,83081704379,,"ulica Różana 44/19, 60-126 Poznań",,"[""49102055581111000088851835""]",False,2019-08-17,,,,,,,,[],[],[]
-Ewa Kowalski Biuro Usług,5000000445,Czynny,300000440,84091804480,,"ul. Wiosenna 45, 50-101 Wrocław","50-101 Wrocław, skrytka 45","[""74102055581111000071600090""]",False,2020-09-18,,,,,,,,[],[],[]
-M. Kaczmarek Serwis,5000000451,Czynny,300000456,85101904518,,"20-819 Lublin, Topolowa 46 m. 21",,"[""35102055581111000010999023""]",True,2021-10-19,,,,,,,,[],[],[]
-Magdalena Wójcik Pośrednictwo Ubezpieczeniowe,5000000468,Czynny,300000462,86112004628,,"ul Bałtycka 47/22, 85-707 Bydgoszcz",,"[""67102055581111000018585913""]",False,2022-11-20,,,,,,,,[],[],[]
-Jan Krawiec Usługi Finansowe,5000000474,Czynny,300000479,87122104753,,"ulica Jarzębinowa 48/23, 10-687 Olsztyn",,"[""87102055581111000043130320""]",False,2023-12-21,,,,,,,,[],[],[]
-Alicja Mazur Pośrednictwo Ubezpieczeniowe,5000000480,Zwolniony,300000485,88012204869,,"ul. Srebrna 49, 81-350 Gdynia","81-350 Gdynia, skrytka 49","[""52102055581111000086400632""]",True,2024-01-22,,,2025-01-22,art. 96 ust. 9,,,,[],[],[]
-Jan Kowalski Pośrednictwo Ubezpieczeniowe,5000000497,Czynny,300000491,89022304994,,"90-001 Łódź, Portowa 50 m. 25",,"[""68102055581111000072101932""]",False,2025-02-23,,,,,,,,[],[],[]
-E. Duda Doradztwo,5000000505,Zwolniony,300000500,90032405005,,"ul Głogowska 51/1, 00-810 Warszawa",,"[""15102055581111000022227594""]",False,2016-03-24,,,,,,,,[],[],[]
-Tomasz Szymańska Usługi Finansowe,5000000511,Czynny,300000516,91042505130,,"ulica Królewska 52/2, 30-302 Kraków",,"[""92102055581111000071244438""]",True,2017-04-25,,,,,,,,[],[],[]
-Katarzyna Mazur Studio Danych,5000000528,Czynny,300000522,92052605241,,"ul. Piękna 53, 80-241 Gdańsk","80-241 Gdańsk, skrytka 3","[""99102055581111000049922892""]",False,2018-05-26,,,,,,,,[],[],[]
-Maciej Tracz Usługi Finansowe,5000000534,Czynny,300000539,93062705376,,"60-126 Poznań, Leśna 54 m. 4",,"[""88102055581111000033505052""]",False,2019-06-27,,,,,,,,[],[],[]
-Karolina Kowalski Pośrednictwo Ubezpieczeniowe,5000000540,Czynny,300000545,94070105480,,"ul Polna 55/5, 50-101 Wrocław",,"[""41102055581111000034102565""]",True,2020-07-01,,,,,,,,[],[],[]
-Ł. Kaczmarek Instalacje,5000000557,Zwolniony,300000551,95080205515,,"ulica Szkolna 56/6, 20-819 Lublin",,"[""65102055581111000071448654""]",False,2021-08-02,,,,,,,,[],[],[]
-Alicja Król Pośrednictwo Ubezpieczeniowe,5000000563,Czynny,300000568,96090305626,,"ul. Lipowa 57, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 7","[""94102055581111000034621479""]",False,2022-09-03,,,2025-09-03,art. 96 ust. 9,,,,[],[],[]
-Paweł Król Biuro Usług,5000000577,Zwolniony,300000574,97100405754,,"10-687 Olsztyn, Słoneczna 58 m. 8",,"[""82102055581111000022822379""]",True,2023-10-04,,,,,,,,[],[],[]
-Monika Krawiec Biuro Usług,5000000586,Czynny,300000580,98110505865,,"ul Różana 59/9, 81-350 Gdynia",,"[""99102055581111000015860545""]",False,2024-11-05,,,,,,,,[],[],[]
-Michał Kamińska Pośrednictwo Ubezpieczeniowe,5000000592,Czynny,300000597,99120605990,,"ulica Wiosenna 60/10, 90-001 Łódź",,"[""30102055581111000046745629""]",False,2025-12-06,,,,,,,,[],[],[]
-P. Kaczmarek Doradztwo,5000000600,Zwolniony,300000605,70010706009,,"ul. Topolowa 61, 00-810 Warszawa","00-810 Warszawa, skrytka 11","[""78102055581111000049176757""]",True,2016-01-07,,,,,,,,[],[],[]
-Dawid Cieślar Pośrednictwo Ubezpieczeniowe,5000000617,Zwolniony,300000611,71020806134,,"30-302 Kraków, Bałtycka 62 m. 12",,"[""18102055581111000039159454""]",False,2017-02-08,,,,,,,,[],[],[]
-Paulina Dorska Konsulting,5000000623,Czynny,300000628,72030906245,,"ul Jarzębinowa 63/13, 80-241 Gdańsk",,"[""62102055581111000084198767""]",False,2018-03-09,,,,,,,,[],[],[]
-Tomasz Nowacki Usługi Finansowe,5000000633,Czynny,300000634,73041006379,,"ulica Srebrna 64/14, 60-126 Poznań",,"[""57102055581111000020272170""]",True,2019-04-10,,,,,,,,[],[],[]
-Katarzyna Duda Biuro Usług,5000000646,Czynny,300000640,74051106480,,"ul. Portowa 65, 50-101 Wrocław","50-101 Wrocław, skrytka 15","[""74102055581111000053756742""]",False,2020-05-11,,,2025-05-11,art. 96 ust. 9,,,,[],[],[]
-P. Mazur Serwis,5000000652,Czynny,300000657,75061206515,,"20-819 Lublin, Głogowska 66 m. 16",,"[""67102055581111000032124330""]",False,2021-06-12,,,,,,,,[],[],[]
-Joanna Kaczmarek Usługi Finansowe,5000000669,Czynny,300000663,76071306626,,"ul Królewska 67/17, 85-707 Bydgoszcz",,"[""36102055581111000077922837""]",True,2022-07-13,,,,,,,,[],[],[]
-Maciej Zieliński Konsulting,5000000675,Czynny,300000670,77081406751,,"ulica Piękna 68/18, 10-687 Olsztyn",,"[""69102055581111000013586013""]",False,2023-08-14,,,,,,,,[],[],[]
-Oliwia Pawlik Biuro Usług,5000000681,Czynny,300000686,78091506862,,"ul. Leśna 69, 81-350 Gdynia","81-350 Gdynia, skrytka 19","[""91102055581111000071995701""]",False,2024-09-15,,,,,,,,[],[],[]
-Maciej Tracz Konsulting,5000000698,Czynny,300000692,79101606990,,"90-001 Łódź, Polna 70 m. 20",,"[""53102055581111000063598753""]",True,2025-10-16,,,,,,,,[],[],[]
-A. Milewska Instalacje,5000000706,Czynny,300000700,80111707001,,"ul Szkolna 71/21, 00-810 Warszawa",,"[""60102055581111000015070029""]",False,2016-11-17,,,,,,,,[],[],[]
-Patryk Pawlik Pośrednictwo Ubezpieczeniowe,5000000712,Czynny,300000717,81121807136,,"ulica Lipowa 72/22, 30-302 Kraków",,"[""42102055581111000025392453""]",False,2017-12-18,,,,,,,,[],[],[]
-Ewa Kamińska Studio Danych,5000000729,Zwolniony,300000723,82011907242,,"ul. Słoneczna 73, 80-241 Gdańsk","80-241 Gdańsk, skrytka 23","[""27102055581111000053904009""]",True,2018-01-19,,,2025-01-19,art. 96 ust. 9,,,,[],[],[]
-Marek Wójcik Pośrednictwo Ubezpieczeniowe,5000000735,Zwolniony,300000730,83022007376,,"60-126 Poznań, Różana 74 m. 24",,"[""69102055581111000075063283""]",False,2019-02-20,,,,,,,,[],[],[]
-Karolina Zieliński Usługi Finansowe,5000000741,Czynny,300000746,84032107487,,"ul Wiosenna 75/25, 50-101 Wrocław",,"[""18102055581111000021079489""]",False,2020-03-21,,,,,,,,[],[],[]
-M. Duda Doradztwo,5000000758,Zwolniony,300000752,85042207512,,"ulica Topolowa 76/1, 20-819 Lublin",,"[""94102055581111000042520097""]",True,2021-04-22,,,,,,,,[],[],[]
-Oliwia Tracz Biuro Usług,5000000764,Zwolniony,300000769,86052307623,,"ul. Bałtycka 77, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 27","[""66102055581111000028824809""]",False,2022-05-23,,,,,,,,[],[],[]
-Patryk Król Biuro Usług,5000000770,Czynny,300000775,87062407758,,"10-687 Olsztyn, Jarzębinowa 78 m. 3",,"[""45102055581111000031658249""]",False,2023-06-24,,,,,,,,[],[],[]
-Natalia Mazur Studio Danych,5000000787,Czynny,300000781,88072507869,,"ul Srebrna 79/4, 81-350 Gdynia",,"[""12102055581111000091468625""]",True,2024-07-25,,,,,,,,[],[],[]
-Patryk Kowalski Pośrednictwo Ubezpieczeniowe,5000000793,Czynny,300000798,89082607994,,"ulica Portowa 80/5, 90-001 Łódź",,"[""32102055581111000049479427""]",False,2025-08-26,,,,,,,,[],[],[]
-M. Nowacki Serwis,5000000801,Czynny,300000806,90092708005,,"ul. Głogowska 81, 00-810 Warszawa","00-810 Warszawa, skrytka 31","[""78102055581111000062458932""]",False,2016-09-27,,,2025-09-27,art. 96 ust. 9,,,,[],[],[]
-Dawid Dorska Biuro Usług,5000000818,Czynny,300000812,91100108136,,"30-302 Kraków, Królewska 82 m. 7",,"[""19102055581111000011504663""]",True,2017-10-01,,,,,,,,[],[],[]
-Natalia Kaczmarek Biuro Usług,5000000824,Zwolniony,300000829,92110208247,,"ul Piękna 83/8, 80-241 Gdańsk",,"[""44102055581111000030601948""]",False,2018-11-02,,,,,,,,[],[],[]
-Tomasz Tracz Konsulting,5000000830,Czynny,300000835,93120308372,,"ulica Leśna 84/9, 60-126 Poznań",,"[""55102055581111000033882733""]",False,2019-12-03,,,,,,,,[],[],[]
-Alicja Wrona Studio Danych,5000000847,Czynny,300000841,94010408488,,"ul. Polna 85, 50-101 Wrocław","50-101 Wrocław, skrytka 35","[""14102055581111000081443936""]",True,2020-01-04,,,,,,,,[],[],[]
-J. Pawlik Doradztwo,5000000853,Czynny,300000858,95020508513,,"20-819 Lublin, Szkolna 86 m. 11",,"[""66102055581111000016409704""]",False,2021-02-05,,,,,,,,[],[],[]
-Karolina Kamińska Pośrednictwo Ubezpieczeniowe,5000000866,Zwolniony,300000864,96030608624,,"ul Lipowa 87/12, 85-707 Bydgoszcz",,"[""76102055581111000096035199""]",False,2022-03-06,,,,,,,,[],[],[]
-Łukasz Tracz Konsulting,5000000876,Zwolniony,300000870,97040708759,,"ulica Słoneczna 88/13, 10-687 Olsztyn",,"[""94102055581111000023796681""]",True,2023-04-07,,,,,,,,[],[],[]
-Alicja Wiśniewski Konsulting,5000000882,Czynny,300000887,98050808860,,"ul. Różana 89, 81-350 Gdynia","81-350 Gdynia, skrytka 39","[""98102055581111000051382580""]",False,2024-05-08,,,2025-05-08,art. 96 ust. 9,,,,[],[],[]
-Michał Dorska Konsulting,5000000899,Czynny,300000893,99060908995,,"90-001 Łódź, Wiosenna 90 m. 15",,"[""16102055581111000090289763""]",False,2025-06-09,,,,,,,,[],[],[]
-O. Pawlik Instalacje,5000000907,Czynny,300000901,70071009008,,"ul Topolowa 91/16, 00-810 Warszawa",,"[""16102055581111000060653170""]",True,2016-07-10,,,,,,,,[],[],[]
-Dawid Kaczmarek Konsulting,5000000913,Czynny,300000918,71081109133,,"ulica Bałtycka 92/17, 30-302 Kraków",,"[""41102055581111000060283960""]",False,2017-08-11,,,,,,,,[],[],[]
-Natalia Wiśniewski Konsulting,5000000922,Czynny,300000924,72091209244,,"ul. Jarzębinowa 93, 80-241 Gdańsk","80-241 Gdańsk, skrytka 43","[""35102055581111000022265679""]",False,2018-09-12,,,,,,,,[],[],[]
-Patryk Tracz Pośrednictwo Ubezpieczeniowe,5000000936,Czynny,300000930,73101309372,,"60-126 Poznań, Srebrna 94 m. 19",,"[""63102055581111000013750602""]",True,2019-10-13,,,,,,,,[],[],[]
-Monika Wiśniewski Usługi Finansowe,5000000942,Czynny,300000947,74111409483,,"ul Portowa 95/20, 50-101 Wrocław",,"[""53102055581111000035790180""]",False,2020-11-14,,,,,,,,[],[],[]
-P. Nowacki Instalacje,5000000959,Zwolniony,300000953,75121509518,,"ulica Głogowska 96/21, 20-819 Lublin",,"[""95102055581111000018478733""]",False,2021-12-15,,,,,,,,[],[],[]
-Agnieszka Jasieński Biuro Usług,5000000965,Czynny,300000960,76011609624,,"ul. Królewska 97, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 47","[""22102055581111000099135168""]",True,2022-01-16,,,2025-01-16,art. 96 ust. 9,,,,[],[],[]
-Andrzej Milewska Konsulting,5000000971,Czynny,300000976,77021709759,,"10-687 Olsztyn, Piękna 98 m. 23",,"[""31102055581111000015907259""]",False,2023-02-17,,,,,,,,[],[],[]
-Magdalena Wrona Studio Danych,5000000988,Czynny,300000982,78031809860,,"ul Leśna 99/24, 81-350 Gdynia",,"[""75102055581111000024453078""]",False,2024-03-18,,,,,,,,[],[],[]
-Piotr Dorska Biuro Usług,5000000994,Czynny,300000999,79041909995,,"ulica Polna 100/25, 90-001 Łódź",,"[""51102055581111000085437626""]",True,2025-04-19,,,,,,,,[],[],[]
-A. Król Doradztwo,5000001002,Zwolniony,300001007,80052010008,,"ul. Szkolna 101, 00-810 Warszawa","00-810 Warszawa, skrytka 1","[""34102055581111000093842238""]",False,2016-05-20,,,,,,,,[],[],[]
-Szymon Jasieński Usługi Finansowe,5000001019,Czynny,300001013,81062110133,,"30-302 Kraków, Lipowa 102 m. 2",,"[""79102055581111000063024581""]",False,2017-06-21,,,,,,,,[],[],[]
-Karolina Mazur Konsulting,5000001025,Czynny,300001020,82072210244,,"ul Słoneczna 103/3, 80-241 Gdańsk",,"[""25102055581111000041193292""]",True,2018-07-22,,,,,,,,[],[],[]
-Dawid Kaczmarek Konsulting,5000001031,Czynny,300001036,83082310379,,"ulica Różana 104/4, 60-126 Poznań",,"[""23102055581111000057858864""]",False,2019-08-23,,,,,,,,[],[],[]
-Karolina Pawlik Studio Danych,5000001048,Czynny,300001042,84092410480,,"ul. Wiosenna 105, 50-101 Wrocław","50-101 Wrocław, skrytka 5","[""32102055581111000012012537""]",False,2020-09-24,,,2025-09-24,art. 96 ust. 9,,,,[],[],[]
-K. Nowacki Instalacje,5000001054,Czynny,300001059,85102510518,,"20-819 Lublin, Topolowa 106 m. 6",,"[""93102055581111000052445044""]",True,2021-10-25,,,,,,,,[],[],[]
-Katarzyna Mazur Usługi Finansowe,5000001060,Czynny,300001065,86112610629,,"ul Bałtycka 107/7, 85-707 Bydgoszcz",,"[""59102055581111000038557229""]",False,2022-11-26,,,,,,,,[],[],[]
-Łukasz Duda Konsulting,5000001077,Czynny,300001071,87122710754,,"ulica Jarzębinowa 108/8, 10-687 Olsztyn",,"[""38102055581111000018860555""]",False,2023-12-27,,,,,,,,[],[],[]
-Paulina Tracz Konsulting,5000001083,Zwolniony,300001088,88010110863,,"ul. Srebrna 109, 81-350 Gdynia","81-350 Gdynia, skrytka 9","[""45102055581111000097234140""]",True,2024-01-01,,,,,,,,[],[],[]
-Andrzej Wójcik Pośrednictwo Ubezpieczeniowe,5000001099,Zwolniony,300001094,89020210998,,"90-001 Łódź, Portowa 110 m. 10",,"[""57102055581111000015897385""]",False,2025-02-02,,,,,,,,[],[],[]
-M. Król Serwis,5000001108,Czynny,300001102,90030311009,,"ul Głogowska 111/11, 00-810 Warszawa",,"[""37102055581111000065176483""]",False,2016-03-03,,,,,,,,[],[],[]
-Marcin Woźniak Konsulting,5000001114,Czynny,300001119,91040411134,,"ulica Królewska 112/12, 30-302 Kraków",,"[""86102055581111000077051958""]",True,2017-04-04,,,,,,,,[],[],[]
-Alicja Nowacki Usługi Finansowe,5000001120,Czynny,300001125,92050511245,,"ul. Piękna 113, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13","[""78102055581111000086397410""]",False,2018-05-05,,,2025-05-05,art. 96 ust. 9,,,,[],[],[]
-Maciej Kamińska Usługi Finansowe,5000001137,Czynny,300001131,93060611370,,"60-126 Poznań, Leśna 114 m. 14",,"[""42102055581111000022716400""]",False,2019-06-06,,,,,,,,[],[],[]
-Anna Zieliński Pośrednictwo Ubezpieczeniowe,5000001143,Zwolniony,300001148,94070711481,,"ul Polna 115/15, 50-101 Wrocław",,"[""51102055581111000094674464""]",True,2020-07-07,,,,,,,,[],[],[]
-M. Wrona Instalacje,5000001155,Zwolniony,300001154,95080811516,,"ulica Szkolna 116/16, 20-819 Lublin",,"[""59102055581111000027841755""]",False,2021-08-08,,,,,,,,[],[],[]
-Katarzyna Wójcik Usługi Finansowe,5000001166,Czynny,300001160,96090911627,,"ul. Lipowa 117, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17","[""32102055581111000095275696""]",False,2022-09-09,,,,,,,,[],[],[]
-Andrzej Wiśniewski Biuro Usług,5000001172,Zwolniony,300001177,97101011754,,"10-687 Olsztyn, Słoneczna 118 m. 18",,"[""50102055581111000099438746""]",True,2023-10-10,,,,,,,,[],[],[]
-Marta Mazur Studio Danych,5000001189,Czynny,300001183,98111111865,,"ul Różana 119/19, 81-350 Gdynia",,"[""18102055581111000054977061""]",False,2024-11-11,,,,,,,,[],[],[]
-Jan Tracz Studio Danych,5000001195,Czynny,300001190,99121211990,,"ulica Wiosenna 120/20, 90-001 Łódź",,"[""87102055581111000088522325""]",False,2025-12-12,,,,,,,,[],[],[]
-K. Milewska Instalacje,5000001203,Czynny,300001208,70011312009,,"ul. Topolowa 121, 00-810 Warszawa","00-810 Warszawa, skrytka 21","[""58102055581111000078588767""]",True,2016-01-13,,,2025-01-13,art. 96 ust. 9,,,,[],[],[]
-Jan Woźniak Pośrednictwo Ubezpieczeniowe,5000001211,Zwolniony,300001214,71021412134,,"30-302 Kraków, Bałtycka 122 m. 22",,"[""39102055581111000077567894""]",False,2017-02-14,,,,,,,,[],[],[]
-Renata Woźniak Konsulting,5000001226,Zwolniony,300001220,72031512245,,"ul Jarzębinowa 123/23, 80-241 Gdańsk",,"[""11102055581111000041219836""]",False,2018-03-15,,,,,,,,[],[],[]
-Michał Jasieński Biuro Usług,5000001232,Czynny,300001237,73041612370,,"ulica Srebrna 124/24, 60-126 Poznań",,"[""88102055581111000026650536""]",True,2019-04-16,,,,,,,,[],[],[]
-Karolina Wójcik Pośrednictwo Ubezpieczeniowe,5000001249,Czynny,300001243,74051712481,,"ul. Portowa 125, 50-101 Wrocław","50-101 Wrocław, skrytka 25","[""40102055581111000067512010""]",False,2020-05-17,,,,,,,,[],[],[]
-K. Wiśniewski Doradztwo,5000001255,Czynny,300001250,75061812516,,"20-819 Lublin, Głogowska 126 m. 1",,"[""89102055581111000020655497""]",False,2021-06-18,,,,,,,,[],[],[]
-Natalia Jasieński Usługi Finansowe,5000001261,Czynny,300001266,76071912627,,"ul Królewska 127/2, 85-707 Bydgoszcz",,"[""27102055581111000060267710""]",True,2022-07-19,,,,,,,,[],[],[]
-Tomasz Król Pośrednictwo Ubezpieczeniowe,5000001278,Czynny,300001272,77082012751,,"ulica Piękna 128/3, 10-687 Olsztyn",,"[""47102055581111000037113563""]",False,2023-08-20,,,,,,,,[],[],[]
-Agnieszka Tracz Konsulting,5000001284,Czynny,300001289,78092112862,,"ul. Leśna 129, 81-350 Gdynia","81-350 Gdynia, skrytka 29","[""58102055581111000037432134""]",False,2024-09-21,,,2025-09-21,art. 96 ust. 9,,,,[],[],[]
-Rafał Wrona Pośrednictwo Ubezpieczeniowe,5000001290,Zwolniony,300001295,79102212990,,"90-001 Łódź, Polna 130 m. 5",,"[""14102055581111000041952404""]",True,2025-10-22,,,,,,,,[],[],[]
+﻿name,nip,statusVat,regon,pesel,krs,residenceAddress,workingAddress,accountNumbers,hasVirtualAccounts,registrationLegalDate,removalDate
+Polaris Capital Markets SP Z O O,7484988293,Czynny,451822550,,0000910002,"Głogowska 78, 28-662 Olsztyn","Głogowska 78, 28-662 Olsztyn",13326270248233305893236880,False,2018-03-06,
+Optima Trade spółka z ograniczoną odpowiedzialnością,8987696287,Czynny,563454216,,0000764271,"ulica Leśna 108, 88-143 Rzeszów","ulica Leśna 108, 88-143 Rzeszów",04521401942858273810051846,False,2023-03-03,2021-08-23
+Amber Payments spółka z ograniczoną odpowiedzialnością,3500779471,Czynny,454078737,,0000358675,"ul. Kościuszki 174, 03-377 Opole",,14851461196894955594913303,True,2024-12-29,
+Vistula Fintech Services sp z oo,7018725794,Wykreślony,375591430,,0000146984,"ulica Krótka 122/64, 46-241 Wrocław",,28155640451735815624364698,False,2015-11-04,2022-12-17
+Nova Data Technologie S.A.,0577942050,Wykreślony,347703365,,0000205498,"54-172 Rzeszów, ul Leśna 120","54-172 Rzeszów, ul Leśna 120",58832676109275201080501172,False,2025-06-03,2024-06-01
+Nova Data S.A.,8002462803,Wykreślony,325698954,,0000294290,"ulica Kwiatowa 164, 59-184 Olsztyn","ulica Kwiatowa 164, 59-184 Olsztyn",15583899266966632022015674,True,2024-02-26,
+Orbis Retail Solutions sp. z o.o.,8648123755,Czynny,779700642,,0000821089,"Głogowska 161/66, 47-434 Gdańsk",,75269041247646653999029120,False,2019-11-30,2020-01-25
+Vistula Fintech S.A.,6674571408,Czynny,910962045,,0000251643,"Topolowa 28, 60-220 Bydgoszcz","Topolowa 28, 60-220 Bydgoszcz",51903758900026900403365383,True,2016-06-17,2021-08-11
+Astra Finance Holding Spółka Akcyjna,8440543074,Czynny,996093533,,0000456371,"Leśna 135/54, 72-274 Gdynia",,15107773585418382603168375,False,2022-09-21,2021-11-13
+Ewa Duda Studio Danych,0634794926,Czynny,218837580,83072906786,,"56-748 Opole, ul Żeromskiego 148","56-748 Opole, ul Żeromskiego 148",89 7586 6823 3611 8170 6680 9300,False,2021-05-13,
+Piotr Dąbrowski Usługi Finansowe,3283693229,Wykreślony,195166960,02310563154,,"ulica Łąkowa 15/57, 06-115 Łódź",,71 7016 3704 6826 7545 5756 4895,True,2018-12-28,
+Robert Woźniak Biuro Ubezpieczeń,0811799008,Czynny,670032343,67112951158,,"ulica Bałtycka 33, 95-340 Olsztyn",,64 4746 5102 7161 4753 4529 6928,True,2018-02-10,
+Adam Duda Studio Danych,6831671786,Zwolniony,619434908,00211032175,,"ulica Łąkowa 145/61, 58-245 Opole",,99 1569 9804 8938 4118 9245 2139,False,2018-10-16,
+Baltic Med Supply sp. z o.o.,2020822752,Wykreślony,888680955,,0000072879,"ulica Wiosenna 102, 22-973 Rzeszów","ulica Wiosenna 102, 22-973 Rzeszów",47850103403013111334862395,False,2021-03-24,2020-03-05
+Silesia Invest sp. z o.o.,0178645385,Czynny,369745702,,0000756311,"ulica Topolowa 50, 81-651 Łódź",,22013625243720396504218573,False,2015-08-02,2021-04-12
+Silesia Invest Holding Spółka Akcyjna,5903971156,Czynny,076325616,,0000861168,"Jarzębinowa 54, 47-766 Kraków","Jarzębinowa 54, 47-766 Kraków",02403663119255574857101208,False,2023-01-03,2023-10-13
+Adam Kamiński Usługi Finansowe,4409581783,Wykreślony,179857138,99022298936,,"ulica Srebrna 146/48, 02-405 Wrocław",,69 5289 3220 9564 2452 5916 2238,True,2015-08-03,
+Lumen Advisory SP Z O O,0171916119,Czynny,041347430,,0000347545,"ul. Krótka 28, 82-986 Białystok",,18883948848151237847530011,True,2025-03-16,2025-04-10
+Silesia Invest Markets sp z oo,7064230069,Czynny,727716939,,0000900333,"ul. Głogowska 122, 71-559 Olsztyn","ul. Głogowska 122, 71-559 Olsztyn",54243830408237050705859496,True,2016-03-13,2021-06-28
+Astra Finance SP Z O O,4606969132,Wykreślony,605837149,,0000148818,"ulica Łąkowa 104/39, 26-106 Lublin","ulica Łąkowa 104/39, 26-106 Lublin",86410193829779756031588842,False,2020-07-19,2020-11-08
+Karolina Kozłowska Biuro Ubezpieczeń,5232091345,Czynny,251800341,73072338243,,"Głogowska 137, 57-165 Wrocław","Głogowska 137, 57-165 Wrocław",16 4888 9356 7436 6465 8802 5553,False,2015-08-13,
+Silesia Invest sp. z o.o.,1558439913,Czynny,129838306,,0000604729,"Jarzębinowa 28, 67-932 Warszawa",,92340208575457241735020603,True,2019-11-10,2021-11-06
+Katarzyna Duda Pośrednictwo,3947461090,Czynny,443369038,76122012645,,"ul. Słoneczna 90/32, 35-106 Warszawa",,77 5848 3328 6468 6320 9514 2166,False,2015-04-22,
+Marcin Pawłowski Biuro Ubezpieczeń,8414777597,Wykreślony,414055957,85021853330,,"44-508 Rzeszów, ul Łąkowa 38 m. 43",,82 7089 9889 6693 6636 9986 6976,False,2018-05-17,
+Optima Trade Spółka Akcyjna,8677237728,Czynny,236740151,,0000393021,"ul. Srebrna 136/65, 39-325 Kielce","ul. Srebrna 136/65, 39-325 Kielce",32785530116504621220160736,True,2025-03-21,2023-07-22
+Marek Pawlik Konsulting,1325173150,Wykreślony,484831045,86092920758,,"ulica Jarzębinowa 88/76, 74-428 Gdańsk","ulica Jarzębinowa 88/76, 74-428 Gdańsk",65 9689 9458 1214 3090 7990 5139,True,2017-12-01,
+Magdalena Piotrowska Studio Danych,1396806496,Czynny,430936935,,,"95-195 Lublin, ul Kościuszki 89",,35 2001 1097 4381 2542 3583 6248,True,2019-12-26,
+Marcin Lewandowski Studio Danych,5458429320,Wykreślony,092646176,70110356955,,"ul. Wiosenna 83/82, 88-531 Poznań",,51 7786 2727 3009 2857 7787 1352,True,2022-03-25,
+Silesia Invest sp z oo,0191553737,Czynny,556557367,,0000045564,"ul. Głogowska 106/57, 66-858 Poznań",,96108201602725630582958242,True,2015-01-14,2024-04-06
+Aurum Invest Holding Spółka Akcyjna,2645093105,Czynny,112575751,,0000732802,"81-844 Toruń, ul Jarzębinowa 82","81-844 Toruń, ul Jarzębinowa 82",82112651581052138156023974,True,2021-04-17,
+Silesia Invest SP Z O O,9417819894,Czynny,575741260,,0000958920,"ulica Kwiatowa 76/33, 03-183 Białystok",,06371769247603596413660581,True,2022-09-21,
+Paulina Wojciechowska Konsulting,1941737354,Wykreślony,283280595,79060487162,,"ulica Polna 77/59, 43-838 Szczecin",,45 4828 8969 1504 1449 8465 2353,False,2024-02-20,
+Bartosz Kaczmarek Usługi Finansowe,6424501648,Zwolniony,838749195,83062093458,,"ulica Polna 159/7, 65-858 Toruń",,10 8189 4055 1907 4577 7893 3103,False,2022-05-19,
+Agnieszka Kaimńska Biuro Ubezpieczeń,3435701585,Wykreślony,242175338,83080876882,,"ul. Portowa 1, 74-386 Katowice",,47 1128 8962 5636 7616 7337 6862,True,2018-12-13,
+Sebastian Pawłowski Konsulting,5773973799,Wykreślony,515307518,87021910411,,"Topolowa 91, 36-418 Warszawa","Topolowa 91, 36-418 Warszawa",69 3147 5577 5652 9756 7662 7530,False,2017-12-04,
+Andrzej Jasieński Biuro Ubezpieczeń,8568178866,Wykreślony,568826817,67100498658,,"ulica Kwiatowa 169, 36-721 Zielona Góra",,17 1431 1050 1394 6574 5178 2179,True,2020-11-08,
+Iwona Nowacka Biuro Ubezpieczeń,0113014653,Czynny,668233971,,,"73-500 Toruń, ul Jarzębinowa 68 m. 42",,53 8323 7958 5686 4421 5055 3450,True,2022-01-13,
+Jakub Jasieński Studio Danych,8664977943,Czynny,687070623,82081018417,,"51-932 Wrocław, ul Krótka 57","51-932 Wrocław, ul Krótka 57",61 9019 1427 9547 7346 1071 1243,True,2021-09-16,
+Orbis Retail Solutions sp z oo,8614634282,Czynny,152850982,,0000505217,"ulica Polna 1, 68-311 Białystok",,36190135664156966891487285,True,2016-11-17,2022-10-02
+Wojciech Cieślar Konsulting,6313585955,Zwolniony,700190131,97120376492,,"13-912 Kraków, ul Krótka 8",,87 6058 1165 4153 1596 6560 1707,False,2018-01-21,
+Astra Finance Spółka Akcyjna,0171393199,Czynny,343853671,,0000411103,"ul. Leśna 168, 87-753 Gdańsk",,14424446731522305123680769,False,2023-02-06,
+Astra Finance S.A.,4991784334,Czynny,112459950,,0000004578,"ulica Portowa 133, 15-622 Gdynia","ulica Portowa 133, 15-622 Gdynia",90025651052963670391687079,True,2019-09-04,2026-09-05
+Paulina Kwiatkowska Biuro Ubezpieczeń,7895921669,Zwolniony,066887345,94060367346,,"Kwiatowa 151/6, 08-920 Bydgoszcz",,35 5438 5229 4831 5684 5295 5323,False,2025-10-14,
+Katarzyna Kaczmarek Biuro Ubezpieczeń,6329873007,Zwolniony,902966658,98051742608,,"ul. Polna 67, 58-525 Bydgoszcz",,57 8410 8709 4000 1435 5885 6310,True,2025-08-27,
+Dorota Woźniak Konsulting,4578683865,Zwolniony,967097456,75022830263,,"Leśna 87, 71-965 Szczecin","Leśna 87, 71-965 Szczecin",73 7148 2187 2862 8745 8963 8151,True,2022-10-26,
+Quantum Services Services spółka z ograniczoną odpowiedzialnością,4232412675,Czynny,865152310,,0000714629,"ulica Żeromskiego 30/31, 97-419 Warszawa",,97842284175870224084854883,True,2016-06-21,2024-09-28
+Monika Kozłowska Pośrednictwo,3465556739,Czynny,104821831,85050167769,,"Topolowa 86/88, 84-671 Poznań",,40 7660 3984 7536 8384 1341 8155,False,2023-06-04,
+Orbis Retail Solutions spółka z ograniczoną odpowiedzialnością,1344110989,Czynny,405408360,,0000305604,"Portowa 100/92, 34-387 Lublin","Portowa 100/92, 34-387 Lublin",25719194865260210791113297,False,2020-06-18,
+Dariusz Nowak Studio Danych,3261162973,Wykreślony,733605649,66120411591,,"ulica Polna 5, 03-596 Gdańsk",,82 3487 5088 3862 7303 5744 1672,True,2020-06-16,
+Astra Finance SP Z O O,5494673377,Wykreślony,127055215,,0000503294,"Mickiewicza 30, 49-129 Gdańsk","Mickiewicza 30, 49-129 Gdańsk",99659463854206812171847506,True,2024-06-28,2022-09-26
+Helios Markets sp. z o.o.,7541877824,Czynny,391913447,,0000456103,"ul. Kościuszki 60/65, 77-585 Szczecin",,37378645078730931665956661,False,2018-08-29,
+Optima Trade S.A.,7860910685,Czynny,098915000,,0000299278,"32-317 Lublin, ul Bałtycka 7 m. 13","32-317 Lublin, ul Bałtycka 7 m. 13",45332738620200028199130210,True,2019-02-22,
+Mazovia Broker Services S.A.,4599384151,Czynny,525914430,,0000172886,"29-402 Gdańsk, ul Łąkowa 25","29-402 Gdańsk, ul Łąkowa 25",63563954637537244414353152,False,2023-03-21,
+Wojciech Kowalski Studio Danych,1265090778,Czynny,008532446,77062194912,,"ulica Leśna 13, 26-277 Gdynia",,46 7768 6973 5256 3505 7757 5320,False,2018-11-19,
+Nova Data Spółka Akcyjna,0558905533,Czynny,558878957,,0000338167,"ulica Słoneczna 87/41, 64-921 Katowice",,28331918237210162279055664,True,2017-05-28,2026-03-13
+Helios Markets Finanse S.A.,6654820788,Czynny,598950103,,0000518267,"ul. Głogowska 78/54, 34-193 Katowice",,91946234142231735286298255,False,2025-06-22,
+Katarzyna Krawczyk Studio Danych,1421952879,Czynny,798211664,70032087500,,"ulica Topolowa 116/48, 16-139 Zielona Góra",,77 4279 7270 8447 4455 5660 9553,False,2025-01-30,
+Marek Woźniak Pośrednictwo,9832876026,Wykreślony,401974594,96120380812,,"Jarzębinowa 64, 52-463 Gdynia",,74 9603 8320 3304 4933 5205 3129,True,2023-03-15,
+Justyna Nowak Konsulting,4239352663,Czynny,203360632,75052295304,,"Leśna 156, 82-407 Katowice",,17 4565 4833 6115 5248 2621 3897,True,2024-03-29,
+Helios Markets S.A.,2091941441,Czynny,184409350,,0000530503,"ulica Jarzębinowa 146, 06-472 Białystok",,63559782244445277607572597,True,2022-06-22,2021-07-01
+Justyna Woźniak Biuro Ubezpieczeń,3960271136,Zwolniony,711643905,74061581882,,"ulica Kościuszki 15/67, 60-131 Gdynia","ulica Kościuszki 15/67, 60-131 Gdynia",36 2442 8110 1806 1824 6489 3219,True,2024-12-24,
+Baltic Med Supply SP Z O O,6914313351,Czynny,745054192,,0000443456,"ulica Polna 82, 34-151 Gdynia","ulica Polna 82, 34-151 Gdynia",68170234918999794215552758,False,2022-12-11,2025-01-13
+Tomasz Jasieński Usługi Finansowe,4590917108,Czynny,909587898,88011365477,,"ul. Topolowa 166, 25-131 Lublin",,50 9488 9790 1944 9290 5300 3201,False,2016-11-28,
+Mazovia Broker S.A.,4759878443,Czynny,350084247,,0000195232,"ul. Piłsudskiego 165/68, 77-792 Kielck","ul. Piłsudskiego 165/68, 77-792 Kielck",34638020113682312261481152,True,2022-06-04,2026-08-13
+Tomasz Jankowski Biuro Ubezpieczeń,3433774108,Wykreślony,282871874,89071828155,,"04-317 Kielce, ul Bałtycka 112",,63 3719 7156 1422 5574 9175 8254,False,2019-02-20,
+Amber Payments sp z oo,2920336395,Czynny,893623910,,0000633126,"ul. Topolowa 153/30, 66-576 Lublin","ul. Topolowa 153/30, 66-576 Lublin",89861186576030950528392644,True,2022-08-22,2024-10-17
+Polaris Capital sp z oo,5588328333,Wykreślony,828069574,,0000492704,"95-801 Bydgoszcz, ul Długa 160",,77057403208971067722722685,True,2023-08-10,
+Natalia Piotrowska Studio Danych,3347396438,Zwolniony,193883580,93041563902,,"ul. Srebrna 77, 99-427 Wrocław",,46 6764 3592 3744 7679 7233 3894,False,2023-08-25,
+Polaris Capital sp. z o.o.,5672313877,Czynny,130659400,,0000216423,"ulica Bałtycka 122, 44-400 Lublin",,02924480679215350596702581,True,2020-10-10,2026-07-28
+Amber Payments Services sp. z o.o.,2801920107,Czynny,541733206,,0000112656,"Żeromskiego 85, 43-416 Bydgoszcz",,99089058445101873169551369,False,2021-02-23,
+Orbis Retail Solutions Spółka Akcyjna,5521484552,Wykreślony,650374220,,0000661262,"Srebrna 156/18, 22-438 Opole","Srebrna 156/18, 22-438 Opole",61755593946058186960480713,True,2021-01-22,2023-11-26
+Orbis Retail Solutions Services SP Z O O,3830556107,Czynny,792953904,,0000999671,"ulica Jarzębinowa 163/31, 22-109 Łódź",,04100821615474771190136680,False,2022-09-23,2024-03-08
+Nova Data Markets sp z oo,6336425959,Czynny,979534278,,0000296690,"Jarzębinowa 85/65, 94-395 Szczerin","Jarzębinowa 85/65, 94-395 Szczerin",20674295558925347197511309,False,2016-04-26,
+Rafał Duda Pośrednictwo,1663654275,Wykreślony,505125179,35082102858,,"ul. Krótka 146, 99-815 Szczecin","ul. Krótka 146, 99-815 Szczecin",96 5145 1341 5435 3263 3316 5466,True,2025-01-14,
+Bartosz Nowak Pośrednictwo,4906508961,Czynny,677229066,70100582014,,"13-247 Lublin, ul Jarzębinowa 135 m. 95",,91 8896 7598 1976 1090 2487 8812,False,2025-07-04,
+Astra Finance Markets sp z oo,9387687369,Czynny,812311800,,0000880995,"Głogowska 12, 61-653 Zielona Góra","Głogowska 12, 61-653 Zielona Góra",29317443034950499440857187,False,2025-04-30,
+Sebastian Jankowski Usługi Finansowe,8029173011,Zwolniony,545523150,73073016717,,"89-26 Zielona Góra, ul Topolowa 33",,93 2882 3508 3276 7219 9217 8958,True,2019-10-28,
+Patrycja Kowalska Biuro Ubezpieczeń,3436140663,Czynny,562797836,97030435883,,"uly Mickiewicza 177/80, 51-427 Bydgoszcz",,99 8082 6553 7405 7733 6346 6368,False,2023-11-28,
+Aurum Invest Technologie Spółka Akcyjna,5060532387,Wykreślony,139415561,,0000651230,"ul. Polna 54, 71-139 Poznań","ul. Polna 54, 71-139 Poznań",48281021908976505416990014,False,2024-01-18,
+Krzysztof Grabowski Usługi Finansowe,9786580489,Zwolniony,896824299,74051981034,,"Wiosenna 57/1, 22-479 Łódź","Wiosenna 57/1, 22-479 Łódź",73 1437 7251 3844 6935 8251 8924,False,2018-06-21,
+Michał Woźniak Pośrednictwo,0436782118,Wykreślony,755281320,68073110417,,"ul. Bałtycka 38/19, 88-478 Gdańsk",,65 2301 1010 8091 1220 4239 7000,True,2022-09-03,
+Aurum Invest spółka z ograniczoną odpowiedzialnością,3957264623,Wykreślony,715803205,,0000473502,"93-710 Gdynia, ul Długa 128",,20229416686617030795651206,True,2025-06-25,2023-04-20
+Aleksandra Pawłowska Konsulting,9901822767,Wykreślony,733943553,02303090342,,"87-428 Lublin, ul Słoneczna 170",,26 2399 6551 2838 7620 3194 9893,False,2018-10-19,
+Krzysztof Jasieński Usługi Finansowe,3769877746,Zwolniony,640144634,78112589030,,"ul. Leśna 121/1, 08-852 Lublin","ul. Leśna 121/1, 08-852 Lublin",82 2595 4681 5365 8187 2300 2254,True,2015-12-30,
+Bartosz Krawczyk Pośrednictwo,1824123035,Zwolniony,304680689,70070577614,,"47-166 Opole, ul Wiosenna 84 m. 9",,28 8880 3064 2404 5535 1429 8219,True,2023-04-23,
+Lumen Advisory spółka z ograniczoną odpowiedzialnością,6858920391,Czynny,136510856,,0000518860,"ulica Jarzębinowa 135, 71-712 Wrocław","ulica Jarzębinowa 135, 71-712 Wrocław",35219464533238690069684477,True,2020-04-15,
+Małgorzata Cieślicka Konsulting,0247339586,Wykreślony,180440015,89062254248,,"58-665 Lublin, ul Wiosenna 174",,38 8025 8810 5468 1469 3929 2288,True,2023-07-10,
+Polaris Capital Spółka Akcyjna,9625152506,Czynny,093112844,,0000647598,"ulica Długa 78/67, 57-767 Poznań",,72284082543517544876775522,False,2021-05-17,
+Baltic Med Supply SP Z O O,7122521152,Czynny,217928820,,0000416481,"Żeromskiego 141/75, 82-63 Łódź",,20684139347379931739297210,True,2024-06-28,2025-12-11
+Baltic Med Supply Polska Spółka Akcyjna,4015111759,Wykreślony,803313186,,0000953737,"93-880 Zielona Góra, ul Łąkowa 25",,57174787384995597817395527,False,2024-09-30,2024-08-21
+Orbis Retail Solutions Markets spółka z ograniczoną odpowiedzialnością,1541390438,Czynny,102008043,,0000318243,"Wiosenna 40, 14-302 Olsztyn","Wiosenna 40, 14-302 Olsztyn",06128949487563584723139023,False,2019-09-03,
+Quantum Services Markets sp. z o.o.,6012113693,Czynny,284457711,,0000725853,"ulica Kościuszki 39/82, 00-496 Wrocław","ulica Kościuszki 39/82, 00-496 Wrocław",44732616685724800335230298,True,2019-04-24,2025-10-26
+Katarzyna Piotrowska Biuro Ubezpieczeń,8421639749,Czynny,504257750,94061857644,,"ul. Krótka 29/89, 78-745 Poznań",,22 7061 5233 7676 1693 6643 3949,False,2018-12-20,
+Silesia Invest sp z oo,0399476857,Wykreślony,844587196,,0000041143,"Prtowa 120/30, 14-830 Poznań","Prtowa 120/30, 14-830 Poznań",39792053444535653384244136,True,2024-02-11,2026-06-21
+Quantum Services Finanse sp z oo,2707980312,Czynny,550160427,,0000460977,"ul. Żeromskiego 57/23, 98-379 Kielce","ul. Żeromskiego 57/23, 98-379 Kielce",32900424536983715809962464,False,2019-06-01,
+Lumen Advisory spółka z ograniczoną odpowiedzialnością,8269771792,Czynny,170052999,,0000486259,"ulica Polna 36, 83-940 Kraków","ulica Polna 36, 83-940 Kraków",02514786631393229259072490,False,2015-02-16,
+Aurum Invest SP Z O O,5637106496,Wykreślony,316186112,,0000734069,"79-107 Zielona Góra, ul Długa 8 m. 12",,81709638469042688673857908,False,2019-10-18,
+Orbis Retail Solutions sp. z o.o.,5883285451,Wykreślony,203988313,,0000903502,"ulica Mickiewicza 104/32, 01-145 Poznań","ulica Mickiewicza 104/32, 01-145 Poznań",06922131195708448192496904,True,2021-02-11,
+Vistula Fintech sp. z o.o.,9881009743,Wykreślony,460156562,,0000642286,"20-576 Katowice, ul Portowa 81","20-576 Katowice, ul Portowa 81",76266814439892730249544777,False,2017-04-04,
+Marcin Lewandowski Pośrednictwo,9344205694,Wykreślony,320348451,81011216378,,"Długa 48/86, 08-425 Szczecin","Długa 48/86, 08-425 Szczecin",79 7205 7091 3870 3075 5815 6028,True,2016-02-09,
+Bartosz Dąbrowski Studio Danych,4746089951,Wykreślony,231173612,79072505070,,"ul. Srebrna 47/75, 16-504 Warszawa",,42 4776 7407 4938 6962 2234 6635,True,2018-02-01,
+Nebula Analytics Polska Spółka Akcyjna,3810691374,Czynny,417480632,,0000226006,"Słoneczna 74, 36-741 Zielona Góra","Słoneczna 74, 36-741 Zielona Góra",85933161882241401152780367,True,2016-01-22,
+Optima Trade sp z oo,8454410420,Czynny,793635081,,0000741852,"Wiosenna 80/81, 87-360 Szczecin",,86752659990606625830354175,False,2021-09-24,2026-05-12
+Lumen Advisory spółka z ograniczoną odpowiedzialnością,1600414578,Czynny,251908535,,0000746555,"ulica Kwiatowa 154/91, 18-491 Poznań","ulica Kwiatowa 154/91, 18-491 Poznań",96023753468842729044822717,False,2017-05-29,
+Marcin Wojciechowski Pośrednictwo,6079974924,Zwolniony,364416342,85081879758,,"01-968 Gdańsk, ul Leśna 89","01-968 Gdańsk, ul Leśna 89",37 8227 9151 5976 5618 1563 1723,True,2020-07-13,
+Optima Trade Finanse spółka z ograniczoną odpowiedzialnością,3029682543,Czynny,949866383,,0000570793,"ulica Piłsudskiego 8, 51-444 Łódź",,86779968859685503289438305,False,2024-07-28,
+Piotr Pawlik Pośrednictwo,7650613165,Wykreślony,921104040,,,"ul. Polna 27, 49-294 Kielce",,44 8796 1559 8862 4744 9641 8181,True,2015-04-19,
+Baltic Med Supply Holding S.A.,2284822875,Czynny,851693056,,0000661139,"ulica Łąkowa 29, 74-813 Poznań",,83380983435618519750472986,True,2021-10-10,
+Polaris Capital SP Z O O,2648972758,Czynny,921626471,,0000445680,"Krótka 148/87, 81-446 Katowice",,46565713819779761895464071,True,2020-10-11,2024-01-26
+Barbara Mazur Konsulting,5695000432,Zwolniony,342275189,,,"ul. Portowa 58/43, 86-234 Gdynia","ul. Portowa 58/43, 86-234 Gdynia",65 8330 8185 6802 9664 5176 9997,False,2018-04-09,
+Joanna Cieślar Usługi Finansowe,5275151012,Wykreślony,400847698,02280418540,,"Polna 23, 61-585 Katowice",,35 8961 9161 6172 2780 2792 4364,True,2023-11-26,
+Iwona Grabowska Konsulting,3523834133,Zwolniony,161908306,87091213207,,"32-272 Warszawa, ul Głogowska 2 m. 82",,43 2645 4639 7633 3561 9380 7751,False,2015-10-03,
+Piotr Wiśniewski Usługi Finansowe,8449328265,Wykreślony,903907379,65100508531,,"ul. Żeromskiego 35/54, 12-986 Poznań",,42 9795 8042 6512 5171 9190 1427,False,2017-04-25,
+Barbara Grabowska Studio Danych,9931797212,Czynny,747980520,83012714183,,"Słoneczna 72, 84-836 Poznań",,19 1006 8480 4093 4368 4341 5572,True,2017-03-19,
+Nebula Analytics Polska S.A.,4537923605,Wykreślony,601348270,,0000303705,"57-391 Opole, ul Żeromskiego 33",,01922992128248587963657963,False,2017-03-03,
+Nova Data spółka z ograniczoną odpowiedzialnością,7075237833,Czynny,617898555,,0000945504,"ul. Kwiatowa 117, 18-829 Białystok","ul. Kwiatowa 117, 18-829 Białystok",04327899191892167249319636,True,2023-05-26,2022-08-20
+Anna Woźniak Studio Danych,3668751989,Zwolniony,928389040,67012369420,,"ul. Bałtycka 110/64, 86-816 Toruń",,33 8711 7437 5062 4622 3078 2183,False,2019-07-17,
+Aleksandra Dąbrowska Pośrednictwo,3254991987,Zwolniony,988903620,85072954028,,"Mickiewicza 179/81, 81-682 Białystok",,26 6981 2908 8961 1068 6748 9860,True,2015-06-14,
+Maria Krawczyk Biuro Ubezpieczeń,8617120419,Czynny,102235170,67031980460,,"ul. Krótka 5, 99-188 Opole",,84 9427 9684 9006 4061 1382 5593,False,2021-10-27,
+Vistula Fintech sp z oo,0880861093,Czynny,024052857,,0000509022,"ulica Żeromskiego 133/58, 20-537 Kielce",,32531215644135530625764487,False,2023-03-21,
+Jakub Grabowski Konsulting,2543505768,Zwolniony,138361478,83112171738,,"Głogowska 82/92, 06-569 Lublin",,41 6733 7021 8761 7357 3471 7294,False,2021-01-06,
+Quantum Services sp. z o.o.,9343518847,Wykreślony,135163588,,0000390934,"Wiosenna 154/31, 98-480 Opole","Wiosenna 154/31, 98-480 Opole",80071522130426450448238687,True,2021-07-12,2023-12-25
+Vistula Fintech sp z oo,7590151116,Wykreślony,557000359,,0000633497,"Mickiewicza 163, 02-237 Gdynia","Mickiewicza 163, 02-237 Gdynia",54801573904874559167621771,False,2018-12-06,2026-01-23
+Natalia Jasieńska Usługi Finansowe,8967429815,Czynny,315977930,74032045320,,"ul. Srebrna 107, 42-553 Łódź",,51 8878 3262 2565 4199 9770 3038,False,2019-10-09,
+Quantum Services Technologie sp. z o.o.,0632966978,Wykreślony,811787104,,0000425421,"35-v31 Katowice, ul Srebrna 94 m. 34",,20268512581285263255075493,False,2015-05-28,2025-03-23
+Amber Payments S.A.,8585635444,Wykreślony,636483049,,0000974133,"Piłsudskiego 125, 59-978 Bydgoszcz","Piłsudskiego 125, 59-978 Bydgoszcz",55564099257571324034280987,False,2022-08-21,2021-11-25
+Jakub Duda Biuro Ubezpieczeń,9533269548,Zwolniony,451104121,66040781936,,"56-891 Wrocław, ul Piłsudskiego 45",,42 2979 6720 4492 5204 8056 7267,True,2019-10-28,
+Tomasz Kozłowski Studio Danych,6508830842,Wykreślony,367396002,71091738691,,"Jarzębinowa 125, 06-275 Poznań","Jarzębinowa 125, 06-275 Poznań",70 8317 7767 8425 1573 1698 1874,True,2020-05-31,
+Aurum Invest sp. z o.o.,6107365954,Wykreślony,764251029,,0000038347,"ulica Jarzębinowa 94, 48-423 Kielce","ulica Jarzębinowa 94, 48-423 Kielce",21746261007819245618174103,True,2020-08-25,2022-09-06
+Monika Jankowska Konsulting,7482909728,Wykreślony,999088886,,,"98-426 Wrocław, ul Kościuszki 84",,14 6606 1895 9317 5570 4410 4578,True,2021-02-25,

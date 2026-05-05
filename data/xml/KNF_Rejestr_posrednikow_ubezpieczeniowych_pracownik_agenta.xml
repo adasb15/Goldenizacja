@@ -1,1203 +1,1803 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta>
+<dataset name="knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta">
   <record>
-    <field name="Numer pracownika">11400260/P</field>
-    <field name="Numer agenta">11100260/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">N. Milewska Doradztwo</field>
-    <field name="Imię agenta">Natalia</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000002600</field>
-    <field name="Numer KRS agenta">0001002260</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400261/P</field>
-    <field name="Numer agenta">11100261/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Patryk Zieliński Usługi Finansowe</field>
-    <field name="Imię agenta">Patryk</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000002616</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400262/P</field>
-    <field name="Numer agenta">11100262/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Marta Tracz Biuro Usług</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000002622</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400263/P</field>
-    <field name="Numer agenta">11100263/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Patryk Kamińska Biuro Usług</field>
-    <field name="Imię agenta">Patryk</field>
-    <field name="Nazwisko agenta">Kamińska</field>
-    <field name="Numer NIP agenta">5000002639</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400264/P</field>
-    <field name="Numer agenta">11100264/A</field>
+    <field name="Numer pracownika">64151871/P/202877</field>
+    <field name="Numer agenta">88465067/A/346955</field>
     <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Renata Duda Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000002645</field>
-    <field name="Numer KRS agenta">0001002264</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400265/P</field>
-    <field name="Numer agenta">11100265/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">M. Milewska Instalacje</field>
-    <field name="Imię agenta">Maciej</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000002651</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400266/P</field>
-    <field name="Numer agenta">11100266/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Magdalena Pawlik Konsulting</field>
-    <field name="Imię agenta">Magdalena</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000002668</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400267/P</field>
-    <field name="Numer agenta">11100267/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Tomasz Mazur Studio Danych</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Mazur</field>
-    <field name="Numer NIP agenta">5000002674</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400268/P</field>
-    <field name="Numer agenta">11100268/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Monika Pawlik Usługi Finansowe</field>
-    <field name="Imię agenta">Monika</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000002680</field>
-    <field name="Numer KRS agenta">0001002268</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400269/P</field>
-    <field name="Numer agenta">11100269/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Maciej Duda Studio Danych</field>
-    <field name="Imię agenta">Maciej</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000002697</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400270/P</field>
-    <field name="Numer agenta">11100270/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">A. Jasieński Instalacje</field>
-    <field name="Imię agenta">Agnieszka</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000002705</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400271/P</field>
-    <field name="Numer agenta">11100271/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Szymon Milewska Konsulting</field>
-    <field name="Imię agenta">Szymon</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000002711</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400272/P</field>
-    <field name="Numer agenta">11100272/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Monika Nowacki Biuro Usług</field>
-    <field name="Imię agenta">Monika</field>
-    <field name="Nazwisko agenta">Nowacki</field>
-    <field name="Numer NIP agenta">5000002728</field>
-    <field name="Numer KRS agenta">0001002272</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400273/P</field>
-    <field name="Numer agenta">11100273/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Andrzej Wrona Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Andrzej</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000002734</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400274/P</field>
-    <field name="Numer agenta">11100274/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Monika Nowacki Konsulting</field>
-    <field name="Imię agenta">Monika</field>
-    <field name="Nazwisko agenta">Nowacki</field>
-    <field name="Numer NIP agenta">5000002740</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400275/P</field>
-    <field name="Numer agenta">11100275/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">J. Kaczmarek Instalacje</field>
-    <field name="Imię agenta">Jan</field>
-    <field name="Nazwisko agenta">Kaczmarek</field>
-    <field name="Numer NIP agenta">5000002757</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400276/P</field>
-    <field name="Numer agenta">11100276/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Anna Pawlik Usługi Finansowe</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000002763</field>
-    <field name="Numer KRS agenta">0001002276</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400277/P</field>
-    <field name="Numer agenta">11100277/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Krzysztof Nowacki Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Nowacki</field>
-    <field name="Numer NIP agenta">5000002777</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400278/P</field>
-    <field name="Numer agenta">11100278/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Anna Wiśniewski Usługi Finansowe</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000002786</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400279/P</field>
-    <field name="Numer agenta">11100279/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Piotr Duda Studio Danych</field>
-    <field name="Imię agenta">Piotr</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000002792</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400280/P</field>
-    <field name="Numer agenta">11100280/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">A. Dorska Doradztwo</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000002800</field>
-    <field name="Numer KRS agenta">0001002280</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400281/P</field>
-    <field name="Numer agenta">11100281/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Michał Tracz Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000002817</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400282/P</field>
-    <field name="Numer agenta">11100282/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Karolina Mazur Konsulting</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Mazur</field>
-    <field name="Numer NIP agenta">5000002823</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400283/P</field>
-    <field name="Numer agenta">11100283/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Piotr Wrona Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Piotr</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000002833</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400284/P</field>
-    <field name="Numer agenta">11100284/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Ewa Kowalski Studio Danych</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Kowalski</field>
-    <field name="Numer NIP agenta">5000002846</field>
-    <field name="Numer KRS agenta">0001002284</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400285/P</field>
-    <field name="Numer agenta">11100285/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">M. Pawlik Serwis</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000002852</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400286/P</field>
-    <field name="Numer agenta">11100286/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Barbara Jasieński Usługi Finansowe</field>
+    <field name="Nazwa agenta">Barbara Cieślar Studio Danych</field>
     <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000002869</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400287/P</field>
-    <field name="Numer agenta">11100287/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Michał Pawlik Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000002875</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400288/P</field>
-    <field name="Numer agenta">11100288/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Paulina Krawiec Studio Danych</field>
-    <field name="Imię agenta">Paulina</field>
-    <field name="Nazwisko agenta">Krawiec</field>
-    <field name="Numer NIP agenta">5000002881</field>
-    <field name="Numer KRS agenta">0001002288</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400289/P</field>
-    <field name="Numer agenta">11100289/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Maciej Kaczmarek Usługi Finansowe</field>
-    <field name="Imię agenta">Maciej</field>
-    <field name="Nazwisko agenta">Kaczmarek</field>
-    <field name="Numer NIP agenta">5000002898</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400290/P</field>
-    <field name="Numer agenta">11100290/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">E. Krawiec Serwis</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Krawiec</field>
-    <field name="Numer NIP agenta">5000002906</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400291/P</field>
-    <field name="Numer agenta">11100291/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Szymon Tracz Konsulting</field>
-    <field name="Imię agenta">Szymon</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000002912</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400292/P</field>
-    <field name="Numer agenta">11100292/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Ewa Wójcik Usługi Finansowe</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Wójcik</field>
-    <field name="Numer NIP agenta">5000002929</field>
-    <field name="Numer KRS agenta">0001002292</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400293/P</field>
-    <field name="Numer agenta">11100293/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Tomasz Jasieński Usługi Finansowe</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000002935</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400294/P</field>
-    <field name="Numer agenta">11100294/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Renata Szymańska Konsulting</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Szymańska</field>
-    <field name="Numer NIP agenta">5000002941</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400295/P</field>
-    <field name="Numer agenta">11100295/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">T. Jasieński Instalacje</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000002958</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400296/P</field>
-    <field name="Numer agenta">11100296/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Natalia Król Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Natalia</field>
-    <field name="Nazwisko agenta">Król</field>
-    <field name="Numer NIP agenta">5000002964</field>
-    <field name="Numer KRS agenta">0001002296</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400297/P</field>
-    <field name="Numer agenta">11100297/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Krzysztof Zieliński Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000002970</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400298/P</field>
-    <field name="Numer agenta">11100298/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Alicja Jasieński Studio Danych</field>
-    <field name="Imię agenta">Alicja</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000002987</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400299/P</field>
-    <field name="Numer agenta">11100299/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Łukasz Król Biuro Usług</field>
-    <field name="Imię agenta">Łukasz</field>
-    <field name="Nazwisko agenta">Król</field>
-    <field name="Numer NIP agenta">5000002993</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400300/P</field>
-    <field name="Numer agenta">11100300/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">A. Szymańska Instalacje</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Szymańska</field>
-    <field name="Numer NIP agenta">5000003001</field>
-    <field name="Numer KRS agenta">0001002300</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400301/P</field>
-    <field name="Numer agenta">11100301/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Paweł Zieliński Usługi Finansowe</field>
-    <field name="Imię agenta">Paweł</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000003018</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400302/P</field>
-    <field name="Numer agenta">11100302/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Natalia Wiśniewski Biuro Usług</field>
-    <field name="Imię agenta">Natalia</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003024</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400303/P</field>
-    <field name="Numer agenta">11100303/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Piotr Wrona Usługi Finansowe</field>
-    <field name="Imię agenta">Piotr</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003030</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400304/P</field>
-    <field name="Numer agenta">11100304/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Barbara Jasieński Konsulting</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003047</field>
-    <field name="Numer KRS agenta">0001002304</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400305/P</field>
-    <field name="Numer agenta">11100305/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">M. Wrona Doradztwo</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003053</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400306/P</field>
-    <field name="Numer agenta">11100306/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Karolina Duda Konsulting</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003066</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400307/P</field>
-    <field name="Numer agenta">11100307/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Andrzej Pawlik Usługi Finansowe</field>
-    <field name="Imię agenta">Andrzej</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003076</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400308/P</field>
-    <field name="Numer agenta">11100308/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Monika Tracz Usługi Finansowe</field>
-    <field name="Imię agenta">Monika</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003082</field>
-    <field name="Numer KRS agenta">0001002308</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400309/P</field>
-    <field name="Numer agenta">11100309/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Paweł Tracz Biuro Usług</field>
-    <field name="Imię agenta">Paweł</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003099</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400310/P</field>
-    <field name="Numer agenta">11100310/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">M. Duda Doradztwo</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003107</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400311/P</field>
-    <field name="Numer agenta">11100311/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Paweł Kamińska Studio Danych</field>
-    <field name="Imię agenta">Paweł</field>
-    <field name="Nazwisko agenta">Kamińska</field>
-    <field name="Numer NIP agenta">5000003113</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400312/P</field>
-    <field name="Numer agenta">11100312/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Renata Tracz Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003122</field>
-    <field name="Numer KRS agenta">0001002312</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400313/P</field>
-    <field name="Numer agenta">11100313/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Szymon Kowalski Usługi Finansowe</field>
-    <field name="Imię agenta">Szymon</field>
-    <field name="Nazwisko agenta">Kowalski</field>
-    <field name="Numer NIP agenta">5000003136</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400314/P</field>
-    <field name="Numer agenta">11100314/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Natalia Jasieński Usługi Finansowe</field>
-    <field name="Imię agenta">Natalia</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003142</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400315/P</field>
-    <field name="Numer agenta">11100315/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">K. Tracz Serwis</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003159</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400316/P</field>
-    <field name="Numer agenta">11100316/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Marta Milewska Biuro Usług</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003165</field>
-    <field name="Numer KRS agenta">0001002316</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400317/P</field>
-    <field name="Numer agenta">11100317/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Marcin Wrona Biuro Usług</field>
-    <field name="Imię agenta">Marcin</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003171</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400318/P</field>
-    <field name="Numer agenta">11100318/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Anna Nowacki Usługi Finansowe</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Nowacki</field>
-    <field name="Numer NIP agenta">5000003188</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400319/P</field>
-    <field name="Numer agenta">11100319/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Paweł Dorska Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Paweł</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003194</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400320/P</field>
-    <field name="Numer agenta">11100320/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">R. Kowalski Doradztwo</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Kowalski</field>
-    <field name="Numer NIP agenta">5000003202</field>
-    <field name="Numer KRS agenta">0001002320</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400321/P</field>
-    <field name="Numer agenta">11100321/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Andrzej Dorska Biuro Usług</field>
-    <field name="Imię agenta">Andrzej</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003219</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400322/P</field>
-    <field name="Numer agenta">11100322/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Anna Jasieński Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003225</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400323/P</field>
-    <field name="Numer agenta">11100323/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Jan Dorska Studio Danych</field>
-    <field name="Imię agenta">Jan</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003231</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400324/P</field>
-    <field name="Numer agenta">11100324/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Barbara Jasieński Usługi Finansowe</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003248</field>
-    <field name="Numer KRS agenta">0001002324</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400325/P</field>
-    <field name="Numer agenta">11100325/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">A. Wiśniewski Doradztwo</field>
-    <field name="Imię agenta">Andrzej</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003254</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400326/P</field>
-    <field name="Numer agenta">11100326/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Oliwia Jasieński Biuro Usług</field>
-    <field name="Imię agenta">Oliwia</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003260</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400327/P</field>
-    <field name="Numer agenta">11100327/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Paweł Pawlik Biuro Usług</field>
-    <field name="Imię agenta">Paweł</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003277</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400328/P</field>
-    <field name="Numer agenta">11100328/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Natalia Dorska Biuro Usług</field>
-    <field name="Imię agenta">Natalia</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003283</field>
-    <field name="Numer KRS agenta">0001002328</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400329/P</field>
-    <field name="Numer agenta">11100329/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Marek Wójcik Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Marek</field>
-    <field name="Nazwisko agenta">Wójcik</field>
-    <field name="Numer NIP agenta">5000003299</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400330/P</field>
-    <field name="Numer agenta">11100330/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">B. Mazur Instalacje</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Mazur</field>
-    <field name="Numer NIP agenta">5000003308</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400331/P</field>
-    <field name="Numer agenta">11100331/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Patryk Szymańska Biuro Usług</field>
-    <field name="Imię agenta">Patryk</field>
-    <field name="Nazwisko agenta">Szymańska</field>
-    <field name="Numer NIP agenta">5000003314</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400332/P</field>
-    <field name="Numer agenta">11100332/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Karolina Kowalski Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Kowalski</field>
-    <field name="Numer NIP agenta">5000003320</field>
-    <field name="Numer KRS agenta">0001002332</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400333/P</field>
-    <field name="Numer agenta">11100333/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Dawid Kaczmarek Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Dawid</field>
-    <field name="Nazwisko agenta">Kaczmarek</field>
-    <field name="Numer NIP agenta">5000003337</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400334/P</field>
-    <field name="Numer agenta">11100334/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Ewa Pawlik Studio Danych</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003343</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400335/P</field>
-    <field name="Numer agenta">11100335/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">J. Milewska Doradztwo</field>
-    <field name="Imię agenta">Jan</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003355</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400336/P</field>
-    <field name="Numer agenta">11100336/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Anna Milewska Studio Danych</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003366</field>
-    <field name="Numer KRS agenta">0001002336</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400337/P</field>
-    <field name="Numer agenta">11100337/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Dawid Zieliński Studio Danych</field>
-    <field name="Imię agenta">Dawid</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000003372</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400338/P</field>
-    <field name="Numer agenta">11100338/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Ewa Tracz Usługi Finansowe</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003389</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400339/P</field>
-    <field name="Numer agenta">11100339/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Łukasz Cieślar Konsulting</field>
-    <field name="Imię agenta">Łukasz</field>
     <field name="Nazwisko agenta">Cieślar</field>
-    <field name="Numer NIP agenta">5000003395</field>
+    <field name="Numer NIP agenta">5329801651</field>
     <field name="Numer KRS agenta"></field>
+    <field name="Imię">Rafał</field>
+    <field name="Nazwisko">Kamiński</field>
+    <field name="PESEL">94062703050</field>
+    <field name="Data wpisu">2020-07-02</field>
+    <field name="Data zakończenia">2025-11-04</field>
   </record>
   <record>
-    <field name="Numer pracownika">11400340/P</field>
-    <field name="Numer agenta">11100340/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">M. Zieliński Instalacje</field>
+    <field name="Numer pracownika">54371950/P/305896</field>
+    <field name="Numer agenta">38013665/A/868986</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Marta Nowak Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000003403</field>
-    <field name="Numer KRS agenta">0001002340</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400341/P</field>
-    <field name="Numer agenta">11100341/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Jan Woźniak Studio Danych</field>
-    <field name="Imię agenta">Jan</field>
-    <field name="Nazwisko agenta">Woźniak</field>
-    <field name="Numer NIP agenta">5000003411</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">7119398776</field>
     <field name="Numer KRS agenta"></field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Wojciechowska</field>
+    <field name="PESEL">78072088266</field>
+    <field name="Data wpisu">2023-09-11</field>
+    <field name="Data zakończenia">2026-06-22</field>
   </record>
   <record>
-    <field name="Numer pracownika">11400342/P</field>
-    <field name="Numer agenta">11100342/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Barbara Król Konsulting</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Król</field>
-    <field name="Numer NIP agenta">5000003426</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400343/P</field>
-    <field name="Numer agenta">11100343/A</field>
+    <field name="Numer pracownika">48206466/P/504555</field>
+    <field name="Numer agenta">80066892/A/486782</field>
     <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Maciej Woźniak Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Maciej</field>
-    <field name="Nazwisko agenta">Woźniak</field>
-    <field name="Numer NIP agenta">5000003432</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400344/P</field>
-    <field name="Numer agenta">11100344/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Oliwia Dorska Biuro Usług</field>
-    <field name="Imię agenta">Oliwia</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003449</field>
-    <field name="Numer KRS agenta">0001002344</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400345/P</field>
-    <field name="Numer agenta">11100345/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">S. Kamińska Doradztwo</field>
-    <field name="Imię agenta">Szymon</field>
-    <field name="Nazwisko agenta">Kamińska</field>
-    <field name="Numer NIP agenta">5000003455</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400346/P</field>
-    <field name="Numer agenta">11100346/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Agnieszka Pawlik Usługi Finansowe</field>
-    <field name="Imię agenta">Agnieszka</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003461</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400347/P</field>
-    <field name="Numer agenta">11100347/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Michał Zieliński Usługi Finansowe</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000003478</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400348/P</field>
-    <field name="Numer agenta">11100348/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Oliwia Wójcik Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Oliwia</field>
-    <field name="Nazwisko agenta">Wójcik</field>
-    <field name="Numer NIP agenta">5000003484</field>
-    <field name="Numer KRS agenta">0001002348</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400349/P</field>
-    <field name="Numer agenta">11100349/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Patryk Wiśniewski Studio Danych</field>
-    <field name="Imię agenta">Patryk</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003490</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400350/P</field>
-    <field name="Numer agenta">11100350/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">P. Woźniak Serwis</field>
-    <field name="Imię agenta">Paulina</field>
-    <field name="Nazwisko agenta">Woźniak</field>
-    <field name="Numer NIP agenta">5000003509</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400351/P</field>
-    <field name="Numer agenta">11100351/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Michał Zieliński Biuro Usług</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Zieliński</field>
-    <field name="Numer NIP agenta">5000003515</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400352/P</field>
-    <field name="Numer agenta">11100352/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Marta Kowalski Konsulting</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Kowalski</field>
-    <field name="Numer NIP agenta">5000003521</field>
-    <field name="Numer KRS agenta">0001002352</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400353/P</field>
-    <field name="Numer agenta">11100353/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Michał Duda Konsulting</field>
-    <field name="Imię agenta">Michał</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003538</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400354/P</field>
-    <field name="Numer agenta">11100354/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Karolina Wiśniewski Biuro Usług</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003544</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400355/P</field>
-    <field name="Numer agenta">11100355/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">K. Tracz Instalacje</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003550</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400356/P</field>
-    <field name="Numer agenta">11100356/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Renata Milewska Biuro Usług</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003567</field>
-    <field name="Numer KRS agenta">0001002356</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400357/P</field>
-    <field name="Numer agenta">11100357/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Krzysztof Kamińska Studio Danych</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Kamińska</field>
-    <field name="Numer NIP agenta">5000003573</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400358/P</field>
-    <field name="Numer agenta">11100358/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Renata Milewska Konsulting</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003588</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400359/P</field>
-    <field name="Numer agenta">11100359/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Szymon Jasieński Studio Danych</field>
-    <field name="Imię agenta">Szymon</field>
-    <field name="Nazwisko agenta">Jasieński</field>
-    <field name="Numer NIP agenta">5000003596</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400360/P</field>
-    <field name="Numer agenta">11100360/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">M. Tracz Doradztwo</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Tracz</field>
-    <field name="Numer NIP agenta">5000003604</field>
-    <field name="Numer KRS agenta">0001002360</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400361/P</field>
-    <field name="Numer agenta">11100361/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Maciej Wójcik Biuro Usług</field>
-    <field name="Imię agenta">Maciej</field>
-    <field name="Nazwisko agenta">Wójcik</field>
-    <field name="Numer NIP agenta">5000003610</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400362/P</field>
-    <field name="Numer agenta">11100362/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Anna Mazur Konsulting</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Mazur</field>
-    <field name="Numer NIP agenta">5000003627</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400363/P</field>
-    <field name="Numer agenta">11100363/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Tomasz Wrona Usługi Finansowe</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003633</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400364/P</field>
-    <field name="Numer agenta">11100364/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Karolina Milewska Studio Danych</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003644</field>
-    <field name="Numer KRS agenta">0001002364</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400365/P</field>
-    <field name="Numer agenta">11100365/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Ł. Milewska Serwis</field>
-    <field name="Imię agenta">Łukasz</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003656</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400366/P</field>
-    <field name="Numer agenta">11100366/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Barbara Wrona Usługi Finansowe</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003662</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400367/P</field>
-    <field name="Numer agenta">11100367/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Jan Wiśniewski Usługi Finansowe</field>
-    <field name="Imię agenta">Jan</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003679</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400368/P</field>
-    <field name="Numer agenta">11100368/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Paulina Milewska Studio Danych</field>
-    <field name="Imię agenta">Paulina</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003685</field>
-    <field name="Numer KRS agenta">0001002368</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400369/P</field>
-    <field name="Numer agenta">11100369/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Krzysztof Pawlik Biuro Usług</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003691</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400370/P</field>
-    <field name="Numer agenta">11100370/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">R. Milewska Serwis</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Milewska</field>
-    <field name="Numer NIP agenta">5000003700</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400371/P</field>
-    <field name="Numer agenta">11100371/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Tomasz Mazur Konsulting</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Mazur</field>
-    <field name="Numer NIP agenta">5000003716</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400372/P</field>
-    <field name="Numer agenta">11100372/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Magdalena Wiśniewski Konsulting</field>
-    <field name="Imię agenta">Magdalena</field>
-    <field name="Nazwisko agenta">Wiśniewski</field>
-    <field name="Numer NIP agenta">5000003722</field>
-    <field name="Numer KRS agenta">0001002372</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400373/P</field>
-    <field name="Numer agenta">11100373/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Marek Woźniak Pośrednictwo Ubezpieczeniowe</field>
+    <field name="Nazwa agenta">Marek Wojciechowski Konsulting</field>
     <field name="Imię agenta">Marek</field>
-    <field name="Nazwisko agenta">Woźniak</field>
-    <field name="Numer NIP agenta">5000003739</field>
+    <field name="Nazwisko agenta">Wojciechowski</field>
+    <field name="Numer NIP agenta">5449712192</field>
     <field name="Numer KRS agenta"></field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">92120763239</field>
+    <field name="Data wpisu">2019-07-14</field>
+    <field name="Data zakończenia">2025-10-11</field>
   </record>
   <record>
-    <field name="Numer pracownika">11400374/P</field>
-    <field name="Numer agenta">11100374/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.</field>
-    <field name="Nazwa agenta">Renata Pawlik Studio Danych</field>
-    <field name="Imię agenta">Renata</field>
-    <field name="Nazwisko agenta">Pawlik</field>
-    <field name="Numer NIP agenta">5000003745</field>
+    <field name="Numer pracownika">11915264/P/723961</field>
+    <field name="Numer agenta">85387724/A/588064</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Rafał Jankowski Studio Danych</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Jankowski</field>
+    <field name="Numer NIP agenta">0042923270</field>
     <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">76032514695</field>
+    <field name="Data wpisu">2024-09-22</field>
+    <field name="Data zakończenia"></field>
   </record>
   <record>
-    <field name="Numer pracownika">11400375/P</field>
-    <field name="Numer agenta">11100375/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">UNIQA Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">P. Dorska Doradztwo</field>
-    <field name="Imię agenta">Patryk</field>
-    <field name="Nazwisko agenta">Dorska</field>
-    <field name="Numer NIP agenta">5000003751</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400376/P</field>
-    <field name="Numer agenta">11100376/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group</field>
-    <field name="Nazwa agenta">Karolina Duda Pośrednictwo Ubezpieczeniowe</field>
-    <field name="Imię agenta">Karolina</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003768</field>
-    <field name="Numer KRS agenta">0001002376</field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400377/P</field>
-    <field name="Numer agenta">11100377/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.</field>
-    <field name="Nazwa agenta">Piotr Duda Biuro Usług</field>
-    <field name="Imię agenta">Piotr</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003774</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400378/P</field>
-    <field name="Numer agenta">11100378/A</field>
-    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
-    <field name="Nazwa agenta">Oliwia Wrona Studio Danych</field>
-    <field name="Imię agenta">Oliwia</field>
-    <field name="Nazwisko agenta">Wrona</field>
-    <field name="Numer NIP agenta">5000003780</field>
-    <field name="Numer KRS agenta"></field>
-  </record>
-  <record>
-    <field name="Numer pracownika">11400379/P</field>
-    <field name="Numer agenta">11100379/A</field>
+    <field name="Numer pracownika">58754877/P/678958</field>
+    <field name="Numer agenta">44594921/A/360344</field>
     <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
-    <field name="Nazwa agenta">Tomasz Duda Biuro Usług</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Duda</field>
-    <field name="Numer NIP agenta">5000003797</field>
+    <field name="Nazwa agenta">Krzysztof Jasieński Konsulting</field>
+    <field name="Imię agenta">Krzysztof</field>
+    <field name="Nazwisko agenta">Jasieński</field>
+    <field name="Numer NIP agenta">1059610872</field>
     <field name="Numer KRS agenta"></field>
+    <field name="Imię">Rafał</field>
+    <field name="Nazwisko">Jankowski</field>
+    <field name="PESEL">94013103816</field>
+    <field name="Data wpisu">2020-03-25</field>
+    <field name="Data zakończenia">2025-04-14</field>
   </record>
-</KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta>
+  <record>
+    <field name="Numer pracownika">52936393/P/721595</field>
+    <field name="Numer agenta">17283451/A/256799</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Małgorzata Dąbrowska Usługi Finansowe</field>
+    <field name="Imię agenta">Małgorzata</field>
+    <field name="Nazwisko agenta">Dąbrowska</field>
+    <field name="Numer NIP agenta">9450506371</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Jasieński</field>
+    <field name="PESEL">68013177713</field>
+    <field name="Data wpisu">2020-05-06</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">53425236/P/594887</field>
+    <field name="Numer agenta">77783472/A/224581</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Tomasz Krawczyk Konsulting</field>
+    <field name="Imię agenta">Tomasz</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">6987666486</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Grabowski</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2021-11-14</field>
+    <field name="Data zakończenia">2025-10-13</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">52628957/P/847979</field>
+    <field name="Numer agenta">85396361/A/298272</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Monika Duda Konsulting</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Duda</field>
+    <field name="Numer NIP agenta">3815634412</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL">74012825991</field>
+    <field name="Data wpisu">2021-12-15</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">86175696/P/942820</field>
+    <field name="Numer agenta">72041894/A/525189</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Dariusz Grabowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Dariusz</field>
+    <field name="Nazwisko agenta">Grabowski</field>
+    <field name="Numer NIP agenta">5207882163</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Nowacki</field>
+    <field name="PESEL">87112972733</field>
+    <field name="Data wpisu">2021-06-01</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">15561654/P/275245</field>
+    <field name="Numer agenta">44450567/A/478043</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Krzysztof Nowak Studio Danych</field>
+    <field name="Imię agenta">Krzysztof</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">2536899708</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Jasieński</field>
+    <field name="PESEL">68062705237</field>
+    <field name="Data wpisu">2022-08-01</field>
+    <field name="Data zakończenia">2025-02-21</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">27673127/P/363287</field>
+    <field name="Numer agenta">91131011/A/657286</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Marta Kaczmarek Studio Danych</field>
+    <field name="Imię agenta">Marta</field>
+    <field name="Nazwisko agenta">Kaczmarek</field>
+    <field name="Numer NIP agenta">0138132107</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Zielińyka</field>
+    <field name="PESEL">85080170102</field>
+    <field name="Data wpisu">2025-06-12</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">54805490/P/643340</field>
+    <field name="Numer agenta">80102966/A/840951</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Marcin Kwiatkowski Studio Danych</field>
+    <field name="Imię agenta">Marcin</field>
+    <field name="Nazwisko agenta">Kwiatkowski</field>
+    <field name="Numer NIP agenta">7388487513</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Agnieszka</field>
+    <field name="Nazwisko">Wiśniewska</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2020-04-06</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">65559731/P/426853</field>
+    <field name="Numer agenta">72900918/A/396340</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Rafał Nowak Usługi Finansowe</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">2822642731</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Mazru</field>
+    <field name="PESEL">01221160450</field>
+    <field name="Data wpisu">2018-04-25</field>
+    <field name="Data zakończenia">2025-09-12</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">35446590/P/704454</field>
+    <field name="Numer agenta">95978820/A/910822</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Jakub Piotrowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Jakub</field>
+    <field name="Nazwisko agenta">Piotrowski</field>
+    <field name="Numer NIP agenta">6339601954</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Robert</field>
+    <field name="Nazwisko">Wojciechowski</field>
+    <field name="PESEL">86011264031</field>
+    <field name="Data wpisu">2019-06-14</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">63510722/P/524280</field>
+    <field name="Numer agenta">21538634/A/842405</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Adam Krawczyk Usługi Finansowe</field>
+    <field name="Imię agenta">Adam</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">5625707020</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Dąbrowska</field>
+    <field name="PESEL">74091898666</field>
+    <field name="Data wpisu">2023-12-20</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">40730884/P/506940</field>
+    <field name="Numer agenta">48270375/A/282491</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Andrzej Cieślicki Pośrednictwo</field>
+    <field name="Imię agenta">Andrzej</field>
+    <field name="Nazwisko agenta">Cieślicki</field>
+    <field name="Numer NIP agenta">4917001042</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Kowalska</field>
+    <field name="PESEL">67120126663</field>
+    <field name="Data wpisu">2020-10-30</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">71311046/P/334660</field>
+    <field name="Numer agenta">52402961/A/774036</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Rafał Kowalski Studio Danych</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Kowalski</field>
+    <field name="Numer NIP agenta">9692267504</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">04211374772</field>
+    <field name="Data wpisu">2024-04-05</field>
+    <field name="Data zakończenia">2025-10-24</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">19367056/P/343344</field>
+    <field name="Numer agenta">94222468/A/353424</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Grzegorz Kwiatkowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Grzegorz</field>
+    <field name="Nazwisko agenta">Kwiatkowski</field>
+    <field name="Numer NIP agenta">9841350298</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Kamińska</field>
+    <field name="PESEL">97040452702</field>
+    <field name="Data wpisu">2020-04-12</field>
+    <field name="Data zakończenia">2026-11-18</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">84480609/P/278175</field>
+    <field name="Numer agenta">43526014/A/101575</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Krzysztof Cieślicki Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Krzysztof</field>
+    <field name="Nazwisko agenta">Cieślicki</field>
+    <field name="Numer NIP agenta">4291718803</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Kozłowski</field>
+    <field name="PESEL">00282745336</field>
+    <field name="Data wpisu">2023-05-24</field>
+    <field name="Data zakończenia">2025-08-22</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">22295353/P/314916</field>
+    <field name="Numer agenta">97154261/A/275945</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Sebastian Piotrowski Konsulting</field>
+    <field name="Imię agenta">Sebastian</field>
+    <field name="Nazwisko agenta">Piotrowski</field>
+    <field name="Numer NIP agenta">1613689225</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">67081165482</field>
+    <field name="Data wpisu">2025-07-22</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">48577331/P/624507</field>
+    <field name="Numer agenta">38269593/A/862937</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Jan Nowacki Studio Danych</field>
+    <field name="Imię agenta">Jan</field>
+    <field name="Nazwisko agenta">Nowacki</field>
+    <field name="Numer NIP agenta">6550384799</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dariusz</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL">95041601538</field>
+    <field name="Data wpisu">2019-10-29</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">93324748/P/392406</field>
+    <field name="Numer agenta">40428045/A/356844</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Małgorzata Kamińska Studio Danych</field>
+    <field name="Imię agenta">Małgorzata</field>
+    <field name="Nazwisko agenta">Kamińska</field>
+    <field name="Numer NIP agenta">8322958397</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">76070371821</field>
+    <field name="Data wpisu">2019-06-05</field>
+    <field name="Data zakończenia">2025-05-05</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">49462194/P/662440</field>
+    <field name="Numer agenta">89524742/A/785832</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Dariusz Kozłowski Konsulting</field>
+    <field name="Imię agenta">Dariusz</field>
+    <field name="Nazwisko agenta">Kozłowski</field>
+    <field name="Numer NIP agenta">4558732856</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Kozłowski</field>
+    <field name="PESEL">99111811694</field>
+    <field name="Data wpisu">2020-11-24</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">30485706/P/768990</field>
+    <field name="Numer agenta">33076510/A/147691</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Grzegorz Dąbroski Studio Danych</field>
+    <field name="Imię agenta">Grzegorz</field>
+    <field name="Nazwisko agenta">Dąbroski</field>
+    <field name="Numer NIP agenta">2844607759</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Cieślicka</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2021-01-02</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">33368732/P/579671</field>
+    <field name="Numer agenta">11905080/A/741359</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Małgorzata Kwiatkowsta Pośrednictwo</field>
+    <field name="Imię agenta">Małgorzata</field>
+    <field name="Nazwisko agenta">Kwiatkowsta</field>
+    <field name="Numer NIP agenta">6869176140</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Cieślar</field>
+    <field name="PESEL">84111767687</field>
+    <field name="Data wpisu">2020-11-24</field>
+    <field name="Data zakończenia">2024-05-07</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">62693114/P/249113</field>
+    <field name="Numer agenta">37282826/A/420525</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Łukasz Wojciechowski Konsulting</field>
+    <field name="Imię agenta">Łukasz</field>
+    <field name="Nazwisko agenta">Wojciechowski</field>
+    <field name="Numer NIP agenta">0286688931</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Agnieszka</field>
+    <field name="Nazwisko">Pawlik</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2023-03-13</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">71981061/P/554655</field>
+    <field name="Numer agenta">57076383/A/976437</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Piotr Kamiński Studio Danych</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Kamiński</field>
+    <field name="Numer NIP agenta">3882889737</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Maria</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2024-04-08</field>
+    <field name="Data zakończenia">2025-03-26</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">97034309/P/675907</field>
+    <field name="Numer agenta">71148590/A/347898</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Agnieszka Jasieńska Pośrednictwo</field>
+    <field name="Imię agenta">Agnieszka</field>
+    <field name="Nazwisko agenta">Jasieńska</field>
+    <field name="Numer NIP agenta">5669487486</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Sebastian</field>
+    <field name="Nazwisko">Cieślicki</field>
+    <field name="PESEL">89040267893</field>
+    <field name="Data wpisu">2019-12-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">14928222/P/540815</field>
+    <field name="Numer agenta">99279072/A/927679</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Piotr Kozłowski Studio Danych</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Kozłowski</field>
+    <field name="Numer NIP agenta">0220932094</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">00220688194</field>
+    <field name="Data wpisu">2025-07-11</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">83120017/P/711199</field>
+    <field name="Numer agenta">82705720/A/483527</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Paulina Lewandowska Pośrednictwo</field>
+    <field name="Imię agenta">Paulina</field>
+    <field name="Nazwisko agenta">Lewandowska</field>
+    <field name="Numer NIP agenta">0953382838</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Patrycja</field>
+    <field name="Nazwisko">Cieślicka</field>
+    <field name="PESEL">72032403788</field>
+    <field name="Data wpisu">2019-11-10</field>
+    <field name="Data zakończenia">2024-12-22</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">11839031/P/662844</field>
+    <field name="Numer agenta">58367930/A/735197</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Karolina Nowacka Pośrednictwo</field>
+    <field name="Imię agenta">Karolina</field>
+    <field name="Nazwisko agenta">Nowacka</field>
+    <field name="Numer NIP agenta">0638115052</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Iwona</field>
+    <field name="Nazwisko">Dąbrowska</field>
+    <field name="PESEL">84111861428</field>
+    <field name="Data wpisu">2019-01-22</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">97402190/P/977917</field>
+    <field name="Numer agenta">99351147/A/673528</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Rafał Lewandowski Pośrednictwo</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Lewandowski</field>
+    <field name="Numer NIP agenta">3003142972</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Barbara</field>
+    <field name="Nazwisko">Pawlik</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2024-08-16</field>
+    <field name="Data zakończenia">2025-12-01</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">41107428/P/123297</field>
+    <field name="Numer agenta">80140785/A/112709</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Joanna Jankowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Joanna</field>
+    <field name="Nazwisko agenta">Jankowska</field>
+    <field name="Numer NIP agenta">0531702232</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Szymańska</field>
+    <field name="PESEL">90060928967</field>
+    <field name="Data wpisu">2021-05-23</field>
+    <field name="Data zakończenia">2024-10-21</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">49298597/P/427939</field>
+    <field name="Numer agenta">49533457/A/108031</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Driusz Kowalski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Driusz</field>
+    <field name="Nazwisko agenta">Kowalski</field>
+    <field name="Numer NIP agenta">1654750341</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dariusz</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2024-06-29</field>
+    <field name="Data zakończenia">2026-08-12</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">89294961/P/528793</field>
+    <field name="Numer agenta">16974664/A/240039</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Rafał Kamiński Studio Danych</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Kamiński</field>
+    <field name="Numer NIP agenta">6912562877</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Piotrowski</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2021-03-18</field>
+    <field name="Data zakończenia">2026-06-13</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">24651244/P/593307</field>
+    <field name="Numer agenta">36527981/A/931663</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Monika Cieślar Studio Danych</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">9593077746</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Anna</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">77102841064</field>
+    <field name="Data wpisu">2019-05-05</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">85918718/P/733142</field>
+    <field name="Numer agenta">34164615/A/322354</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Maria Cieślicka Usługi Finansowe</field>
+    <field name="Imię agenta">Maria</field>
+    <field name="Nazwisko agenta">Cieślicka</field>
+    <field name="Numer NIP agenta">3061154236</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Adam</field>
+    <field name="Nazwisko">Cieślar</field>
+    <field name="PESEL">80082714578</field>
+    <field name="Data wpisu">2019-09-23</field>
+    <field name="Data zakończenia">2026-04-18</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">66498557/P/123333</field>
+    <field name="Numer agenta">14513625/A/368440</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Barbara Mazur Studio Danych</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Mazur</field>
+    <field name="Numer NIP agenta">6096961321</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Patrycja</field>
+    <field name="Nazwisko">Piotrowska</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2019-12-19</field>
+    <field name="Data zakończenia">2026-11-10</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">89929913/P/841513</field>
+    <field name="Numer agenta">16717512/A/668302</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Jan Kwiatkowski Konsulting</field>
+    <field name="Imię agenta">Jan</field>
+    <field name="Nazwisko agenta">Kwiatkowski</field>
+    <field name="Numer NIP agenta">9116428029</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">94042427972</field>
+    <field name="Data wpisu">2025-07-06</field>
+    <field name="Data zakończenia">2024-05-03</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">77744092/P/869426</field>
+    <field name="Numer agenta">87844098/A/219241</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Monika Woźniak Pośrednictwo</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">7550076880</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Patrycja</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">94061642161</field>
+    <field name="Data wpisu">2018-07-12</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">44373036/P/906006</field>
+    <field name="Numer agenta">97370890/A/133564</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Magdalena Duda Studio Danych</field>
+    <field name="Imię agenta">Magdalena</field>
+    <field name="Nazwisko agenta">Duda</field>
+    <field name="Numer NIP agenta">9235303647</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2024-10-10</field>
+    <field name="Data zakończenia">2025-10-06</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">95995854/P/293632</field>
+    <field name="Numer agenta">80190739/A/619712</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Iwona Piotrowskf Usługi Finansowe</field>
+    <field name="Imię agenta">Iwona</field>
+    <field name="Nazwisko agenta">Piotrowskf</field>
+    <field name="Numer NIP agenta">0225473320</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marcin</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">93121940711</field>
+    <field name="Data wpisu">2024-06-27</field>
+    <field name="Data zakończenia">2026-12-20</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">38656742/P/547872</field>
+    <field name="Numer agenta">21862612/A/788713</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Iwona Nowak Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Iwona</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">3657017978</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Piotrowski</field>
+    <field name="PESEL">77061230536</field>
+    <field name="Data wpisu">2024-10-20</field>
+    <field name="Data zakończenia">2026-02-03</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">88206931/P/658673</field>
+    <field name="Numer agenta">29562004/A/431626</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Mateusz Kwiatkowski Pośrednictwo</field>
+    <field name="Imię agenta">Mateusz</field>
+    <field name="Nazwisko agenta">Kwiatkowski</field>
+    <field name="Numer NIP agenta">9178740970</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Maria</field>
+    <field name="Nazwisko">Cieślicka</field>
+    <field name="PESEL">86081181928</field>
+    <field name="Data wpisu">2024-12-27</field>
+    <field name="Data zakończenia">2024-03-24</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">74105649/P/829049</field>
+    <field name="Numer agenta">88162009/A/549188</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Patrycja Nowak Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Patrycja</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">4010369944</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Lewandowski</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2022-10-14</field>
+    <field name="Data zakończenia">2024-10-25</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">37736834/P/428799</field>
+    <field name="Numer agenta">77086721/A/163652</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Dorota Szymańska Studio Danych</field>
+    <field name="Imię agenta">Dorota</field>
+    <field name="Nazwisko agenta">Szymańska</field>
+    <field name="Numer NIP agenta">5932880195</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Katarzyna</field>
+    <field name="Nazwisko">Kwiatkowska</field>
+    <field name="PESEL">65122928528</field>
+    <field name="Data wpisu">2022-03-24</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">60396341/P/972286</field>
+    <field name="Numer agenta">42930739/A/281128</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Rafał Dąbrowski Pośrednictwo</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Dąbrowski</field>
+    <field name="Numer NIP agenta">1468794651</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Zieliński</field>
+    <field name="PESEL">87011665556</field>
+    <field name="Data wpisu">2020-01-01</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47770288/P/309000</field>
+    <field name="Numer agenta">25870796/A/761003</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Sebastian Wojciechowski Studio Danych</field>
+    <field name="Imię agenta">Sebastian</field>
+    <field name="Nazwisko agenta">Wojciechowski</field>
+    <field name="Numer NIP agenta">8310319763</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Adam</field>
+    <field name="Nazwisko">Wojciechowski</field>
+    <field name="PESEL">96102924113</field>
+    <field name="Data wpisu">2021-12-23</field>
+    <field name="Data zakończenia">2025-05-30</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">42834578/P/619009</field>
+    <field name="Numer agenta">88309781/A/201384</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Anna Wojciechowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Anna</field>
+    <field name="Nazwisko agenta">Wojciechowska</field>
+    <field name="Numer NIP agenta">2185052285</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL">02280904975</field>
+    <field name="Data wpisu">2024-02-07</field>
+    <field name="Data zakończenia">2025-12-21</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47871969/P/846616</field>
+    <field name="Numer agenta">82940689/A/599354</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Marcin Jasieński Studio Danych</field>
+    <field name="Imię agenta">Marcin</field>
+    <field name="Nazwisko agenta">Jasieński</field>
+    <field name="Numer NIP agenta">6337627027</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marcin</field>
+    <field name="Nazwisko">Cieślar</field>
+    <field name="PESEL">93051001153</field>
+    <field name="Data wpisu">2019-08-01</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">83514577/P/732763</field>
+    <field name="Numer agenta">56236192/A/682160</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Agnieszka Zielińzka Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Agnieszka</field>
+    <field name="Nazwisko agenta">Zielińzka</field>
+    <field name="Numer NIP agenta">9471995139</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dariusz</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">92122042910</field>
+    <field name="Data wpisu">2024-03-19</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">86130426/P/836403</field>
+    <field name="Numer agenta">94165087/A/433730</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Agnieszka Zielińska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Agnieszka</field>
+    <field name="Nazwisko agenta">Zielińska</field>
+    <field name="Numer NIP agenta">9473397247</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">91090590405</field>
+    <field name="Data wpisu">2024-07-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">22807962/P/673644</field>
+    <field name="Numer agenta">93443264/A/152266</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Piotr Kozłowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Kozłowski</field>
+    <field name="Numer NIP agenta">2005492055</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">65100984690</field>
+    <field name="Data wpisu">2018-05-08</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">59145328/P/419926</field>
+    <field name="Numer agenta">32952620/A/149115</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Robert Cieślar Pośrednictwo</field>
+    <field name="Imię agenta">Robert</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">9106784372</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Rafał</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL">99011698537</field>
+    <field name="Data wpisu">2020-02-24</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">59528120/P/210291</field>
+    <field name="Numer agenta">44944953/A/963993</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Jakub Kaczmarek Konsulting</field>
+    <field name="Imię agenta">Jakub</field>
+    <field name="Nazwisko agenta">Kaczmarek</field>
+    <field name="Numer NIP agenta">3860507183</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dariusz</field>
+    <field name="Nazwisko">Wojciechowski</field>
+    <field name="PESEL">77022573155</field>
+    <field name="Data wpisu">2022-07-20</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">72564978/P/625359</field>
+    <field name="Numer agenta">97586825/A/777150</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Jakub Kaczmarek Konsulting</field>
+    <field name="Imię agenta">Jakub</field>
+    <field name="Nazwisko agenta">Kaczmarek</field>
+    <field name="Numer NIP agenta">6947190847</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Ewa</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">67031058602</field>
+    <field name="Data wpisu">2023-04-26</field>
+    <field name="Data zakończenia">2024-06-10</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">14951159/P/372211</field>
+    <field name="Numer agenta">29514664/A/358907</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Iwona Wojciechowska Pośrednictwo</field>
+    <field name="Imię agenta">Iwona</field>
+    <field name="Nazwisko agenta">Wojciechowska</field>
+    <field name="Numer NIP agenta">2115973784</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Cieślicka</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2020-05-06</field>
+    <field name="Data zakończenia">2025-01-29</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47266822/P/581007</field>
+    <field name="Numer agenta">61476144/A/682722</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Barbara Szymańska Usługi Finansowe</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Szymańska</field>
+    <field name="Numer NIP agenta">0692631282</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Bartosz</field>
+    <field name="Nazwisko">Zieliński</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2023-03-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">46743954/P/696968</field>
+    <field name="Numer agenta">60706768/A/459017</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Grzegorz Woźniak Konsulting</field>
+    <field name="Imię agenta">Grzegorz</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">7016291251</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Katarzyna</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">96051494624</field>
+    <field name="Data wpisu">2024-08-06</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">87565838/P/999116</field>
+    <field name="Numer agenta">90206155/A/482179</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Barbara Grabowska Konsulting</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Grabowska</field>
+    <field name="Numer NIP agenta">2464146269</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Jakub</field>
+    <field name="Nazwisko">Kowalski</field>
+    <field name="PESEL">79031439370</field>
+    <field name="Data wpisu">2024-11-07</field>
+    <field name="Data zakończenia">2024-09-12</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">96670446/P/597516</field>
+    <field name="Numer agenta">67803644/A/684126</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Sebastian Krawczyk Usługi Finansowe</field>
+    <field name="Imię agenta">Sebastian</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">2787269844</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dorota</field>
+    <field name="Nazwisko">Duda</field>
+    <field name="PESEL">85090837480</field>
+    <field name="Data wpisu">2021-04-12</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">83930129/P/519249</field>
+    <field name="Numer agenta">56256951/A/597692</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Magdalena Woźniak Konsulting</field>
+    <field name="Imię agenta">Magdalena</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">4990700335</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Sebastian</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">95081396037</field>
+    <field name="Data wpisu">2024-07-13</field>
+    <field name="Data zakończenia">2026-11-20</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">30152240/P/549166</field>
+    <field name="Numer agenta">25199413/A/388120</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Andrzej Duda Usługi Finansowe</field>
+    <field name="Imię agenta">Andrzej</field>
+    <field name="Nazwisko agenta">Duda</field>
+    <field name="Numer NIP agenta">7971143326</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marcin</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">87060928073</field>
+    <field name="Data wpisu">2022-01-27</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">88184543/P/736429</field>
+    <field name="Numer agenta">51490106/A/563661</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Elżbieta Wojciechowska Studio Danych</field>
+    <field name="Imię agenta">Elżbieta</field>
+    <field name="Nazwisko agenta">Wojciechowska</field>
+    <field name="Numer NIP agenta">5659904259</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Mateusz</field>
+    <field name="Nazwisko">Kwiatkowski</field>
+    <field name="PESEL">76100614830</field>
+    <field name="Data wpisu">2024-02-06</field>
+    <field name="Data zakończenia">2026-08-10</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">52412192/P/132151</field>
+    <field name="Numer agenta">70922475/A/384855</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Małgorzata Wojciechowska Pośrednictwo</field>
+    <field name="Imię agenta">Małgorzata</field>
+    <field name="Nazwisko agenta">Wojciechowska</field>
+    <field name="Numer NIP agenta">1828513543</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Jasieńska</field>
+    <field name="PESEL">81052499280</field>
+    <field name="Data wpisu">2020-06-19</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">24769981/P/884789</field>
+    <field name="Numer agenta">89918111/A/920382</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Barbara Cieślar Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">7625991097</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2024-12-09</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">13227333/P/232039</field>
+    <field name="Numer agenta">37785105/A/637990</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Joanna Cieślar ośrednictwo</field>
+    <field name="Imię agenta">Joanna</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">1958722021</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL">04311915596</field>
+    <field name="Data wpisu">2022-09-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">26529800/P/891987</field>
+    <field name="Numer agenta">53244837/A/997223</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Mateusz Jasieński Usługi Finansowe</field>
+    <field name="Imię agenta">Mateusz</field>
+    <field name="Nazwisko agenta">Jasieński</field>
+    <field name="Numer NIP agenta">4936560624</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Aleksandra</field>
+    <field name="Nazwisko">Grabowska</field>
+    <field name="PESEL">71041662609</field>
+    <field name="Data wpisu">2025-04-25</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">82800960/P/440719</field>
+    <field name="Numer agenta">18412597/A/196411</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Mateusz Pawlik Usługi Finansowe</field>
+    <field name="Imię agenta">Mateusz</field>
+    <field name="Nazwisko agenta">Pawlik</field>
+    <field name="Numer NIP agenta">0747546354</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dorota</field>
+    <field name="Nazwisko">Kwiatkowska</field>
+    <field name="PESEL">80041873586</field>
+    <field name="Data wpisu">2020-04-11</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">39214761/P/422007</field>
+    <field name="Numer agenta">46180870/A/428234</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Grzegorz Szymański Konsulting</field>
+    <field name="Imię agenta">Grzegorz</field>
+    <field name="Nazwisko agenta">Szymański</field>
+    <field name="Numer NIP agenta">5627810354</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Zieliński</field>
+    <field name="PESEL">72100465896</field>
+    <field name="Data wpisu">2025-06-24</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">67452223/P/260263</field>
+    <field name="Numer agenta">26816306/A/940125</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Bartosz Dąbrowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Bartosz</field>
+    <field name="Nazwisko agenta">Dąbrowski</field>
+    <field name="Numer NIP agenta">3179151379</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marcin</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">87081563394</field>
+    <field name="Data wpisu">2022-10-22</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">11385248/P/841827</field>
+    <field name="Numer agenta">81828670/A/685343</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Marat Lewandowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Marat</field>
+    <field name="Nazwisko agenta">Lewandowska</field>
+    <field name="Numer NIP agenta">7118435831</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Lewandowski</field>
+    <field name="PESEL">70011414251</field>
+    <field name="Data wpisu">2022-03-16</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">85169441/P/698514</field>
+    <field name="Numer agenta">85545049/A/886355</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Agnieszka Kwiatkowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Agnieszka</field>
+    <field name="Nazwisko agenta">Kwiatkowska</field>
+    <field name="Numer NIP agenta">4411659582</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Sebastian</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL">85042887837</field>
+    <field name="Data wpisu">2019-05-21</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">61123698/P/697576</field>
+    <field name="Numer agenta">52524345/A/377158</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Sebastian Kowalski Pośrednictwo</field>
+    <field name="Imię agenta">Sebastian</field>
+    <field name="Nazwisko agenta">Kowalski</field>
+    <field name="Numer NIP agenta">5575079773</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Adam</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">88122988914</field>
+    <field name="Data wpisu">2019-04-12</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">39650572/P/495661</field>
+    <field name="Numer agenta">60140427/A/443410</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Barbara Wójcik Pośrednictwo</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Wójcik</field>
+    <field name="Numer NIP agenta">0715708888</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2019-07-27</field>
+    <field name="Data zakończenia">2026-07-31</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">18601847/P/787211</field>
+    <field name="Numer agenta">41477154/A/221486</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Paweł Wójcik Konsulting</field>
+    <field name="Imię agenta">Paweł</field>
+    <field name="Nazwisko agenta">Wójcik</field>
+    <field name="Numer NIP agenta">5551384973</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Katarzyna</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2023-12-29</field>
+    <field name="Data zakończenia">2026-09-03</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">88737294/P/141053</field>
+    <field name="Numer agenta">56052739/A/496139</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Piotr Dąbrowski Konsulting</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Dąbrowski</field>
+    <field name="Numer NIP agenta">0958577819</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2018-01-15</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">84347630/P/527685</field>
+    <field name="Numer agenta">51107469/A/171840</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Łukasz Woźniak Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Łukasz</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">0322736557</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Maria</field>
+    <field name="Nazwisko">Wiśniewska</field>
+    <field name="PESEL">88041589504</field>
+    <field name="Data wpisu">2023-10-11</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">41246989/P/614352</field>
+    <field name="Numer agenta">34487511/A/546336</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Andrzej Cieślicki Pośrednictwo</field>
+    <field name="Imię agenta">Andrzej</field>
+    <field name="Nazwisko agenta">Cieślicki</field>
+    <field name="Numer NIP agenta">2438049191</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">94101291164</field>
+    <field name="Data wpisu">2019-10-03</field>
+    <field name="Data zakończenia">2024-09-03</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">86641077/P/771665</field>
+    <field name="Numer agenta">94926941/A/886811</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Karolina Nowacka Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Karolina</field>
+    <field name="Nazwisko agenta">Nowacka</field>
+    <field name="Numer NIP agenta">5122790135</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">81031756506</field>
+    <field name="Data wpisu">2018-03-04</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">63415432/P/317894</field>
+    <field name="Numer agenta">74837419/A/957388</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Joanna Pawłowska Konsulting</field>
+    <field name="Imię agenta">Joanna</field>
+    <field name="Nazwisko agenta">Pawłowska</field>
+    <field name="Numer NIP agenta">2993024224</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Justyna</field>
+    <field name="Nazwisko">Wiśniewska</field>
+    <field name="PESEL">98012053400</field>
+    <field name="Data wpisu">2020-08-15</field>
+    <field name="Data zakończenia">2026-10-18</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">56910986/P/232099</field>
+    <field name="Numer agenta">33529231/A/924134</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Natalia Kozłowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Natalia</field>
+    <field name="Nazwisko agenta">Kozłowska</field>
+    <field name="Numer NIP agenta">3402111683</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2022-07-25</field>
+    <field name="Data zakończenia">2025-12-26</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">91762357/P/991843</field>
+    <field name="Numer agenta">90125033/A/355014</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Ewa Kowalska Studio Danych</field>
+    <field name="Imię agenta">Ewa</field>
+    <field name="Nazwisko agenta">Kowalska</field>
+    <field name="Numer NIP agenta">0522861652</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Bartosz</field>
+    <field name="Nazwisko">Szymański</field>
+    <field name="PESEL">79061751815</field>
+    <field name="Data wpisu">2018-04-28</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">32370526/P/118721</field>
+    <field name="Numer agenta">63979975/A/232262</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Sebastian Mazur Pośrednictwo</field>
+    <field name="Imię agenta">Sebastian</field>
+    <field name="Nazwisko agenta">Mazur</field>
+    <field name="Numer NIP agenta">5623028390</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Katarzyna</field>
+    <field name="Nazwisko">Cieślar</field>
+    <field name="PESEL">97090710902</field>
+    <field name="Data wpisu">2018-01-16</field>
+    <field name="Data zakończenia">2026-10-16</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">29120242/P/311959</field>
+    <field name="Numer agenta">14136131/A/690881</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Andrzej Lewandowski Pośrednictwo</field>
+    <field name="Imię agenta">Andrzej</field>
+    <field name="Nazwisko agenta">Lewandowski</field>
+    <field name="Numer NIP agenta">2419654519</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Cieślicki</field>
+    <field name="PESEL">04240789413</field>
+    <field name="Data wpisu">2024-04-02</field>
+    <field name="Data zakończenia">2024-11-24</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">51343968/P/949043</field>
+    <field name="Numer agenta">92756709/A/826363</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Maria Lewandowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Maria</field>
+    <field name="Nazwisko agenta">Lewandowska</field>
+    <field name="Numer NIP agenta">1343947768</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Dąbrowska</field>
+    <field name="PESEL">01311149004</field>
+    <field name="Data wpisu">2018-01-22</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47571325/P/790974</field>
+    <field name="Numer agenta">74295323/A/396990</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Patrycja Nowak Pośrednictwo</field>
+    <field name="Imię agenta">Patrycja</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">1429645237</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Joanna</field>
+    <field name="Nazwisko">Wojciechowska</field>
+    <field name="PESEL">67122128403</field>
+    <field name="Data wpisu">2018-04-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">27015520/P/106204</field>
+    <field name="Numer agenta">65793700/A/994007</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Adam Jankowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Adam</field>
+    <field name="Nazwisko agenta">Jankowski</field>
+    <field name="Numer NIP agenta">2499686199</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Jakub</field>
+    <field name="Nazwisko">Grabowski</field>
+    <field name="PESEL">71051767579</field>
+    <field name="Data wpisu">2025-03-30</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">95964903/P/305483</field>
+    <field name="Numer agenta">79500601/A/527689</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Marta Nowak Studio Danych</field>
+    <field name="Imię agenta">Marta</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">2633036544</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Kwiatkowska</field>
+    <field name="PESEL">82042823447</field>
+    <field name="Data wpisu">2018-12-15</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">50572776/P/627480</field>
+    <field name="Numer agenta">20276106/A/981084</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Paulina Duda Studio Danych</field>
+    <field name="Imię agenta">Paulina</field>
+    <field name="Nazwisko agenta">Duda</field>
+    <field name="Numer NIP agenta">0099713767</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Magdalena</field>
+    <field name="Nazwisko">Pawlik</field>
+    <field name="PESEL">72031084502</field>
+    <field name="Data wpisu">2024-04-28</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47162688/P/270325</field>
+    <field name="Numer agenta">62464000/A/465927</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Piotr Grabowski Konsulting</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Grabowski</field>
+    <field name="Numer NIP agenta">2266634241</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Andrzej</field>
+    <field name="Nazwisko">Lewandowski</field>
+    <field name="PESEL">86031983150</field>
+    <field name="Data wpisu">2022-11-01</field>
+    <field name="Data zakończenia">2026-05-11</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">30031101/P/431041</field>
+    <field name="Numer agenta">34814855/A/903411</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Monika Woźniak Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">1096663041</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Piotr</field>
+    <field name="Nazwisko">Wiśniewski</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2020-01-08</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">98748128/P/568407</field>
+    <field name="Numer agenta">14210466/A/149573</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Adam Cieślar Studio Danych</field>
+    <field name="Imię agenta">Adam</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">4971006875</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Katarzyna</field>
+    <field name="Nazwisko">Jankowska</field>
+    <field name="PESEL">66091583143</field>
+    <field name="Data wpisu">2020-05-31</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">36316998/P/885790</field>
+    <field name="Numer agenta">19714442/A/508204</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Małgorzata Cieślicka Pośrednictwo</field>
+    <field name="Imię agenta">Małgorzata</field>
+    <field name="Nazwisko agenta">Cieślicka</field>
+    <field name="Numer NIP agenta">1918715090</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Nowacka</field>
+    <field name="PESEL">90090672548</field>
+    <field name="Data wpisu">2022-07-18</field>
+    <field name="Data zakończenia">2026-11-06</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">84833296/P/530524</field>
+    <field name="Numer agenta">83929952/A/898295</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Aleksandra Krawczyk Konsulting</field>
+    <field name="Imię agenta">Aleksandra</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">9335064001</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Iwona</field>
+    <field name="Nazwisko">Grabowska</field>
+    <field name="PESEL">88052511321</field>
+    <field name="Data wpisu">2023-10-22</field>
+    <field name="Data zakończenia">2025-02-03</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">85525731/P/755560</field>
+    <field name="Numer agenta">76752571/A/877411</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Piotr Grabowski Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Piotr</field>
+    <field name="Nazwisko agenta">Grabowski</field>
+    <field name="Numer NIP agenta">3253259474</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dariusz</field>
+    <field name="Nazwisko">Kamiński</field>
+    <field name="PESEL">79081401811</field>
+    <field name="Data wpisu">2024-07-23</field>
+    <field name="Data zakończenia">2025-02-13</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">72516393/P/964579</field>
+    <field name="Numer agenta">84635114/A/620331</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Anna Wiśniewska Konsulting</field>
+    <field name="Imię agenta">Anna</field>
+    <field name="Nazwisko agenta">Wiśniewska</field>
+    <field name="Numer NIP agenta">8723562707</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Joanna</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2025-02-11</field>
+    <field name="Data zakończenia">2024-01-11</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">61593009/P/585667</field>
+    <field name="Numer agenta">45917040/A/267187</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Robert Krawczyk Studio Danych</field>
+    <field name="Imię agenta">Robert</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">3884954611</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Krzysztof</field>
+    <field name="Nazwisko">Jasieński</field>
+    <field name="PESEL">94120210476</field>
+    <field name="Data wpisu">2021-07-01</field>
+    <field name="Data zakończenia">2025-07-15</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">13584217/P/584493</field>
+    <field name="Numer agenta">26805512/A/875044</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Aleksandra Piotrowska Konsulting</field>
+    <field name="Imię agenta">Aleksandra</field>
+    <field name="Nazwisko agenta">Piotrowska</field>
+    <field name="Numer NIP agenta">0064856836</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Sebastian</field>
+    <field name="Nazwisko">Nowak</field>
+    <field name="PESEL">67071048672</field>
+    <field name="Data wpisu">2023-02-22</field>
+    <field name="Data zakończenia">2026-05-15</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">96625169/P/578936</field>
+    <field name="Numer agenta">65704959/A/226437</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Mara Nowak Konsulting</field>
+    <field name="Imię agenta">Mara</field>
+    <field name="Nazwisko agenta">Nowak</field>
+    <field name="Numer NIP agenta">9429667088</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Karolina</field>
+    <field name="Nazwisko">Lewandowska</field>
+    <field name="PESEL">98010769608</field>
+    <field name="Data wpisu">2018-07-10</field>
+    <field name="Data zakończenia">2024-09-29</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">47071345/P/163989</field>
+    <field name="Numer agenta">25032908/A/843790</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Tomasz Wiśniewski Studio Danych</field>
+    <field name="Imię agenta">Tomasz</field>
+    <field name="Nazwisko agenta">Wiśniewski</field>
+    <field name="Numer NIP agenta">3923256562</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Duda</field>
+    <field name="PESEL">80040470449</field>
+    <field name="Data wpisu">2025-05-28</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">84508853/P/173214</field>
+    <field name="Numer agenta">49943336/A/407284</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Dorota Pawlik Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Dorota</field>
+    <field name="Nazwisko agenta">Pawlik</field>
+    <field name="Numer NIP agenta">3577339757</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Michał</field>
+    <field name="Nazwisko">Dąbrowski</field>
+    <field name="PESEL">84060619994</field>
+    <field name="Data wpisu">2025-02-15</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">29015442/P/646984</field>
+    <field name="Numer agenta">38811902/A/186793</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Marcin Dąbrowski Usługi Finansowe</field>
+    <field name="Imię agenta">Marcin</field>
+    <field name="Nazwisko agenta">Dąbrowski</field>
+    <field name="Numer NIP agenta">9366318141</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Sebastian</field>
+    <field name="Nazwisko">Pawlik</field>
+    <field name="PESEL">93011792376</field>
+    <field name="Data wpisu">2023-03-19</field>
+    <field name="Data zakończenia">2025-08-23</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">72076005/P/238570</field>
+    <field name="Numer agenta">27859370/A/919278</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Magdalena Woźniak Usługi Finansowe</field>
+    <field name="Imię agenta">Magdalena</field>
+    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Numer NIP agenta">4195552671</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Monika</field>
+    <field name="Nazwisko">Jasieńska</field>
+    <field name="PESEL">74101230440</field>
+    <field name="Data wpisu">2021-03-30</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">38237391/P/516530</field>
+    <field name="Numer agenta">70018383/A/733262</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Justyna Mazur Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Justyna</field>
+    <field name="Nazwisko agenta">Mazur</field>
+    <field name="Numer NIP agenta">4274271506</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Robert</field>
+    <field name="Nazwisko">Wiśniewski</field>
+    <field name="PESEL">69062689792</field>
+    <field name="Data wpisu">2025-11-11</field>
+    <field name="Data zakończenia">2026-03-30</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">86421387/P/357043</field>
+    <field name="Numer agenta">39934637/A/399368</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Mateusz Lewandowski Studio Danych</field>
+    <field name="Imię agenta">Mateusz</field>
+    <field name="Nazwisko agenta">Lewandowski</field>
+    <field name="Numer NIP agenta">3606016408</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Paulina</field>
+    <field name="Nazwisko">Wójcik</field>
+    <field name="PESEL">70072182087</field>
+    <field name="Data wpisu">2022-01-14</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">32995854/P/146523</field>
+    <field name="Numer agenta">42829210/A/105808</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Bartosz Zieliński Konsulting</field>
+    <field name="Imię agenta">Bartosz</field>
+    <field name="Nazwisko agenta">Zieliński</field>
+    <field name="Numer NIP agenta">7407349322</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Jakub</field>
+    <field name="Nazwisko">Kozłowski</field>
+    <field name="PESEL">82080455552</field>
+    <field name="Data wpisu">2020-07-26</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">46379302/P/161704</field>
+    <field name="Numer agenta">84577849/A/479978</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Ewa Wojciechowska Studio Danych</field>
+    <field name="Imię agenta">Ewa</field>
+    <field name="Nazwisko agenta">Wojciechowska</field>
+    <field name="Numer NIP agenta">6698278973</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Wojciech</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">97030895056</field>
+    <field name="Data wpisu">2023-12-23</field>
+    <field name="Data zakończenia">2024-03-23</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">66342879/P/178317</field>
+    <field name="Numer agenta">52714892/A/565863</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Krzysztof Krawczyk Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Krzysztof</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">1858085454</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Dorota</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">90021525626</field>
+    <field name="Data wpisu">2019-11-24</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">60742722/P/570398</field>
+    <field name="Numer agenta">90989900/A/648562</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Patrycja Pawłowska Studio Danych</field>
+    <field name="Imię agenta">Patrycja</field>
+    <field name="Nazwisko agenta">Pawłowska</field>
+    <field name="Numer NIP agenta">0892823595</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Natalia</field>
+    <field name="Nazwisko">Kamińska</field>
+    <field name="PESEL">82121245964</field>
+    <field name="Data wpisu">2022-12-08</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">11737567/P/817403</field>
+    <field name="Numer agenta">24638090/A/148834</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Paweł Kaczmarek Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Paweł</field>
+    <field name="Nazwisko agenta">Kaczmarek</field>
+    <field name="Numer NIP agenta">6170071410</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marek</field>
+    <field name="Nazwisko">Kwiatkowski</field>
+    <field name="PESEL">74082811113</field>
+    <field name="Data wpisu">2024-09-02</field>
+    <field name="Data zakończenia">2026-11-17</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">63967519/P/848566</field>
+    <field name="Numer agenta">83731791/A/910301</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Karolina Grabowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Karolina</field>
+    <field name="Nazwisko agenta">Grabowska</field>
+    <field name="Numer NIP agenta">8239953086</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Łukasz</field>
+    <field name="Nazwisko">Dąbrowski</field>
+    <field name="PESEL">96020604682</field>
+    <field name="Data wpisu">2018-11-01</field>
+    <field name="Data zakończenia">2026-03-24</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">80541775/P/472719</field>
+    <field name="Numer agenta">52161986/A/534030</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Elżbieta Jasieńska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Elżbieta</field>
+    <field name="Nazwisko agenta">Jasieńska</field>
+    <field name="Numer NIP agenta">3661211617</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Cieślicki</field>
+    <field name="PESEL">00280903031</field>
+    <field name="Data wpisu">2024-03-23</field>
+    <field name="Data zakończenia">2025-10-04</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">99701887/P/119176</field>
+    <field name="Numer agenta">72840079/A/247450</field>
+    <field name="Nazwa zakładu ubezpieczeń">WARTA S.A.</field>
+    <field name="Nazwa agenta">Ewa Pawłowska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Ewa</field>
+    <field name="Nazwisko agenta">Pawłowska</field>
+    <field name="Numer NIP agenta">9597995700</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Maria</field>
+    <field name="Nazwisko">Duda</field>
+    <field name="PESEL">87110221648</field>
+    <field name="Data wpisu">2024-09-02</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">99628873/P/906416</field>
+    <field name="Numer agenta">79331788/A/854949</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Marcin Krawczyk Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Marcin</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Numer NIP agenta">0422391980</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Tomasz</field>
+    <field name="Nazwisko">Grabowski</field>
+    <field name="PESEL">73070310715</field>
+    <field name="Data wpisu">2023-10-03</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">96847644/P/892730</field>
+    <field name="Numer agenta">20500271/A/565627</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Wojciech Mazur Pośrednictwo</field>
+    <field name="Imię agenta">Wojciech</field>
+    <field name="Nazwisko agenta">Mazur</field>
+    <field name="Numer NIP agenta">0991455717</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Marta</field>
+    <field name="Nazwisko">Wiśniewska</field>
+    <field name="PESEL">75111919464</field>
+    <field name="Data wpisu">2023-07-03</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">41717814/P/977832</field>
+    <field name="Numer agenta">78499685/A/415978</field>
+    <field name="Nazwa zakładu ubezpieczeń">UNIQA TU S.A.</field>
+    <field name="Nazwa agenta">Barbara Cieślar Usługi Finansowe</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Cieślar</field>
+    <field name="Numer NIP agenta">5689731817</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Małgorzata</field>
+    <field name="Nazwisko">Pawłowska</field>
+    <field name="PESEL"></field>
+    <field name="Data wpisu">2020-01-26</field>
+    <field name="Data zakończenia">2026-12-01</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">96637406/P/814871</field>
+    <field name="Numer agenta">29205086/A/110332</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Elżbieta Kamińska Biuro Ubezpieczeń</field>
+    <field name="Imię agenta">Elżbieta</field>
+    <field name="Nazwisko agenta">Kamińska</field>
+    <field name="Numer NIP agenta">2741299329</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Grzegorz</field>
+    <field name="Nazwisko">Kaczmarek</field>
+    <field name="PESEL">71090708877</field>
+    <field name="Data wpisu">2021-10-21</field>
+    <field name="Data zakończenia">2026-01-25</field>
+  </record>
+  <record>
+    <field name="Numer pracownika">61462123/P/704929</field>
+    <field name="Numer agenta">42393712/A/685201</field>
+    <field name="Nazwa zakładu ubezpieczeń">PZU SA</field>
+    <field name="Nazwa agenta">Anna Pawłowska Studio Danych</field>
+    <field name="Imię agenta">Anna</field>
+    <field name="Nazwisko agenta">Pawłowska</field>
+    <field name="Numer NIP agenta">8033647165</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Robert</field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">77122904194</field>
+    <field name="Data wpisu">2021-04-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+  <record>
+    <field name="Numer pracownika">42622419/P/475496</field>
+    <field name="Numer agenta">62483557/A/296319</field>
+    <field name="Nazwa zakładu ubezpieczeń">ERGO HESTIA S.A.</field>
+    <field name="Nazwa agenta">Jakub Kwiatkowski Studio Danych</field>
+    <field name="Imię agenta">Jakub</field>
+    <field name="Nazwisko agenta">Kwiatkowski</field>
+    <field name="Numer NIP agenta">8315050231</field>
+    <field name="Numer KRS agenta"></field>
+    <field name="Imię">Adam</field>
+    <field name="Nazwisko">Cieślicki</field>
+    <field name="PESEL">74021585617</field>
+    <field name="Data wpisu">2020-04-23</field>
+    <field name="Data zakończenia"></field>
+  </record>
+</dataset>

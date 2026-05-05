@@ -1,652 +1,1692 @@
 [
   {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 131 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Topolowa 1, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 132 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Bałtycka 2 m. 7",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 133 Sp. z o.o.",
-    "Adres siedziby": "ul Jarzębinowa 3/8, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 134 SP Z OO",
-    "Adres siedziby": "ulica Srebrna 4/9, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 135 sp z oo",
-    "Adres siedziby": "ul. Portowa 5, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 136 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Głogowska 6 m. 11",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 137 sp. z o.o.",
-    "Adres siedziby": "ul Królewska 7/12, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 138 Sp. z o.o.",
-    "Adres siedziby": "ulica Piękna 8/13, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 139 SP Z OO",
-    "Adres siedziby": "ul. Leśna 9, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 140 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Polna 10 m. 15",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 141 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Szkolna 11/16, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 142 sp. z o.o.",
-    "Adres siedziby": "ulica Lipowa 12/17, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 143 Sp. z o.o.",
-    "Adres siedziby": "ul. Słoneczna 13, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 144 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Różana 14 m. 19",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 145 sp z oo",
-    "Adres siedziby": "ul Wiosenna 15/20, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 146 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Topolowa 16/21, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 147 sp. z o.o.",
-    "Adres siedziby": "ul. Bałtycka 17, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 148 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Jarzębinowa 18 m. 23",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 149 SP Z OO",
-    "Adres siedziby": "ul Srebrna 19/24, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 150 sp z oo",
-    "Adres siedziby": "ulica Portowa 20/25, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 151 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Głogowska 21, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 152 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Królewska 22 m. 2",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 153 Sp. z o.o.",
-    "Adres siedziby": "ul Piękna 23/3, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 154 SP Z OO",
-    "Adres siedziby": "ulica Leśna 24/4, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 155 sp z oo",
-    "Adres siedziby": "ul. Polna 25, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 156 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Szkolna 26 m. 6",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 157 sp. z o.o.",
-    "Adres siedziby": "ul Lipowa 27/7, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 158 Sp. z o.o.",
-    "Adres siedziby": "ulica Słoneczna 28/8, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 159 SP Z OO",
-    "Adres siedziby": "ul. Różana 29, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 160 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Wiosenna 30 m. 10",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 161 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Topolowa 31/11, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 162 sp. z o.o.",
-    "Adres siedziby": "ulica Bałtycka 32/12, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 163 Sp. z o.o.",
-    "Adres siedziby": "ul. Jarzębinowa 33, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 164 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Srebrna 34 m. 14",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 165 sp z oo",
-    "Adres siedziby": "ul Portowa 35/15, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 166 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Głogowska 36/16, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 167 sp. z o.o.",
-    "Adres siedziby": "ul. Królewska 37, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 168 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Piękna 38 m. 18",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 169 SP Z OO",
-    "Adres siedziby": "ul Leśna 39/19, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 170 sp z oo",
-    "Adres siedziby": "ulica Polna 40/20, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 171 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Szkolna 41, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 172 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Lipowa 42 m. 22",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 173 Sp. z o.o.",
-    "Adres siedziby": "ul Słoneczna 43/23, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 174 SP Z OO",
-    "Adres siedziby": "ulica Różana 44/24, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 175 sp z oo",
-    "Adres siedziby": "ul. Wiosenna 45, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 176 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Topolowa 46 m. 1",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 177 sp. z o.o.",
-    "Adres siedziby": "ul Bałtycka 47/2, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 178 Sp. z o.o.",
-    "Adres siedziby": "ulica Jarzębinowa 48/3, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 179 SP Z OO",
-    "Adres siedziby": "ul. Srebrna 49, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 180 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Portowa 50 m. 5",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 181 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Głogowska 51/6, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 182 sp. z o.o.",
-    "Adres siedziby": "ulica Królewska 52/7, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 183 Sp. z o.o.",
-    "Adres siedziby": "ul. Piękna 53, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 184 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Leśna 54 m. 9",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 185 sp z oo",
-    "Adres siedziby": "ul Polna 55/10, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 186 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Szkolna 56/11, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 187 sp. z o.o.",
-    "Adres siedziby": "ul. Lipowa 57, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 188 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Słoneczna 58 m. 13",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 189 SP Z OO",
-    "Adres siedziby": "ul Różana 59/14, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 190 sp z oo",
-    "Adres siedziby": "ulica Wiosenna 60/15, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 191 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Topolowa 61, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 192 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Bałtycka 62 m. 17",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 193 Sp. z o.o.",
-    "Adres siedziby": "ul Jarzębinowa 63/18, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 194 SP Z OO",
-    "Adres siedziby": "ulica Srebrna 64/19, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 195 sp z oo",
-    "Adres siedziby": "ul. Portowa 65, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 196 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Głogowska 66 m. 21",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 197 sp. z o.o.",
-    "Adres siedziby": "ul Królewska 67/22, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 198 Sp. z o.o.",
-    "Adres siedziby": "ulica Piękna 68/23, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 199 SP Z OO",
-    "Adres siedziby": "ul. Leśna 69, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 200 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Polna 70 m. 25",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 201 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Szkolna 71/1, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 202 sp. z o.o.",
-    "Adres siedziby": "ulica Lipowa 72/2, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 203 Sp. z o.o.",
-    "Adres siedziby": "ul. Słoneczna 73, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 204 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Różana 74 m. 4",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 205 sp z oo",
-    "Adres siedziby": "ul Wiosenna 75/5, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 206 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Topolowa 76/6, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 207 sp. z o.o.",
-    "Adres siedziby": "ul. Bałtycka 77, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 208 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Jarzębinowa 78 m. 8",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 209 SP Z OO",
-    "Adres siedziby": "ul Srebrna 79/9, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 210 sp z oo",
-    "Adres siedziby": "ulica Portowa 80/10, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 211 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Głogowska 81, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 212 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Królewska 82 m. 12",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 213 Sp. z o.o.",
-    "Adres siedziby": "ul Piękna 83/13, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 214 SP Z OO",
-    "Adres siedziby": "ulica Leśna 84/14, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 215 sp z oo",
-    "Adres siedziby": "ul. Polna 85, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 216 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Szkolna 86 m. 16",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 217 sp. z o.o.",
-    "Adres siedziby": "ul Lipowa 87/17, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 218 Sp. z o.o.",
-    "Adres siedziby": "ulica Słoneczna 88/18, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 219 SP Z OO",
-    "Adres siedziby": "ul. Różana 89, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 220 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Wiosenna 90 m. 20",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 221 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Topolowa 91/21, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 222 sp. z o.o.",
-    "Adres siedziby": "ulica Bałtycka 92/22, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 223 Sp. z o.o.",
-    "Adres siedziby": "ul. Jarzębinowa 93, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 224 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Srebrna 94 m. 24",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 225 sp z oo",
-    "Adres siedziby": "ul Portowa 95/25, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 226 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Głogowska 96/1, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 227 sp. z o.o.",
-    "Adres siedziby": "ul. Królewska 97, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 228 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Piękna 98 m. 3",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 229 SP Z OO",
-    "Adres siedziby": "ul Leśna 99/4, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 230 sp z oo",
-    "Adres siedziby": "ulica Polna 100/5, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 231 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Szkolna 101, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 232 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Lipowa 102 m. 7",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 233 Sp. z o.o.",
-    "Adres siedziby": "ul Słoneczna 103/8, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 234 SP Z OO",
-    "Adres siedziby": "ulica Różana 104/9, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 235 sp z oo",
-    "Adres siedziby": "ul. Wiosenna 105, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 236 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Topolowa 106 m. 11",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 237 sp. z o.o.",
-    "Adres siedziby": "ul Bałtycka 107/12, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 238 Sp. z o.o.",
-    "Adres siedziby": "ulica Jarzębinowa 108/13, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 239 SP Z OO",
-    "Adres siedziby": "ul. Srebrna 109, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 240 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Portowa 110 m. 15",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 241 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul Głogowska 111/16, 00-810 Warszawa",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 242 sp. z o.o.",
-    "Adres siedziby": "ulica Królewska 112/17, 30-302 Kraków",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 243 Sp. z o.o.",
-    "Adres siedziby": "ul. Piękna 113, 80-241 Gdańsk",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 244 SP Z OO",
-    "Adres siedziby": "60-126 Poznań, Leśna 114 m. 19",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 245 sp z oo",
-    "Adres siedziby": "ul Polna 115/20, 50-101 Wrocław",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Vistula Brokers 246 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ulica Szkolna 116/21, 20-819 Lublin",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Nova Markets 247 sp. z o.o.",
-    "Adres siedziby": "ul. Lipowa 117, 85-707 Bydgoszcz",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Meridian Pay 248 Sp. z o.o.",
-    "Adres siedziby": "10-687 Olsztyn, Słoneczna 118 m. 23",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Helix Invest 249 SP Z OO",
-    "Adres siedziby": "ul Różana 119/24, 81-350 Gdynia",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Lumen Finance 250 sp z oo",
-    "Adres siedziby": "ulica Wiosenna 120/25, 90-001 Łódź",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Sfera Ubezpieczenia 251 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "ul. Topolowa 121, 00-810 Warszawa",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Atlas Data 252 sp. z o.o.",
-    "Adres siedziby": "30-302 Kraków, Bałtycka 122 m. 2",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Pomerania Trade 253 Sp. z o.o.",
-    "Adres siedziby": "ul Jarzębinowa 123/3, 80-241 Gdańsk",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Mazovia Asset 254 SP Z OO",
-    "Adres siedziby": "ulica Srebrna 124/4, 60-126 Poznań",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Kurs Solutions 255 sp z oo",
-    "Adres siedziby": "ul. Portowa 125, 50-101 Wrocław",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Nebula Analytics 256 spółka z ograniczoną odpowiedzialnością",
-    "Adres siedziby": "20-819 Lublin, Głogowska 126 m. 6",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
-  },
-  {
-    "Firma lub nazwa": "Baltic Med Supply 257 sp. z o.o.",
-    "Adres siedziby": "ul Królewska 127/7, 85-707 Bydgoszcz",
-    "Zakres czynności": "przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy"
-  },
-  {
-    "Firma lub nazwa": "Orbis Retail Solutions 258 Sp. z o.o.",
-    "Adres siedziby": "ulica Piękna 128/8, 10-687 Olsztyn",
-    "Zakres czynności": "zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne"
-  },
-  {
-    "Firma lub nazwa": "Finex Capital 259 SP Z OO",
-    "Adres siedziby": "ul. Leśna 129, 81-350 Gdynia",
-    "Zakres czynności": "oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych"
-  },
-  {
-    "Firma lub nazwa": "Aster Payments 260 sp z oo",
-    "Adres siedziby": "90-001 Łódź, Polna 130 m. 10",
-    "Zakres czynności": "wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych"
+    "Firma lub nazwa": "Quantum Services spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Piłsudskiego 175, 86-146 Toruń",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000008093",
+    "NIP": "7161454313",
+    "REGON": "854809743",
+    "Data zezwolenia": "2019-11-06",
+    "Numer decyzji": "DFI/616/2021",
+    "CzlonekZarzadu1_PESEL": "83022340464",
+    "CzlonekZarzadu1_Imie": "Justyna",
+    "CzlonekZarzadu1_Nazwisko": "Szymańska"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Polska Spółka Akcyjna",
+    "Adres siedziby": "87-365 Lublin, ul Krótka 67 m. 33",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000668698",
+    "NIP": "4273364938",
+    "REGON": "797827357",
+    "Data zezwolenia": "2025-05-20",
+    "Numer decyzji": "DFI/694/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Barbara",
+    "CzlonekZarzadu1_Nazwisko": "Kozłowska"
+  },
+  {
+    "Firma lub nazwa": "Orbis Retail Solutions Technologie SP Z O O",
+    "Adres siedziby": "61-337 Kielce, ul Leśna 145 m. 42",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000608382",
+    "NIP": "2265681505",
+    "REGON": "426392792",
+    "Data zezwolenia": "2022-05-02",
+    "Numer decyzji": "DFI/491/2021",
+    "CzlonekZarzadu1_PESEL": "03301296433",
+    "CzlonekZarzadu1_Imie": "Krzysztof",
+    "CzlonekZarzadu1_Nazwisko": "Jasieński"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade Spółka Akcyjna",
+    "Adres siedziby": "Srebrna 104, 12-262 Poznań",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000775034",
+    "NIP": "5877616788",
+    "REGON": "306053040",
+    "Data zezwolenia": "2017-01-03",
+    "Numer decyzji": "DFI/675/2019",
+    "CzlonekZarzadu1_PESEL": "77050118708",
+    "CzlonekZarzadu1_Imie": "Patrycja",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments Holding sp z oo",
+    "Adres siedziby": "ulica Leśna 169/46, 92-497 Łódź",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000106144",
+    "NIP": "5310159269",
+    "REGON": "515788831",
+    "Data zezwolenia": "2018-08-19",
+    "Numer decyzji": "DFI/362/2023",
+    "CzlonekZarzadu1_PESEL": "98041366913",
+    "CzlonekZarzadu1_Imie": "Michał",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Markets SP Z O O",
+    "Adres siedziby": "ul. Jarzębinowa 44, 65-523 Rzeszów",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000846042",
+    "NIP": "0622863484",
+    "REGON": "196975376",
+    "Data zezwolenia": "2020-07-26",
+    "Numer decyzji": "DFI/632/2026",
+    "CzlonekZarzadu1_PESEL": "86080405708",
+    "CzlonekZarzadu1_Imie": "Paulina",
+    "CzlonekZarzadu1_Nazwisko": "Zielińska"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets Spółka Akcyjna",
+    "Adres siedziby": "Srebrna 107/96, 82-422 Łódź",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000953822",
+    "NIP": "0671419140",
+    "REGON": "484619865",
+    "Data zezwolenia": "2019-01-20",
+    "Numer decyzji": "DFI/122/2017",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Natalia",
+    "CzlonekZarzadu1_Nazwisko": "Grabowska"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance Spółka Akcyjna",
+    "Adres siedziby": "Długa 91, 67-134 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000092404",
+    "NIP": "8559346933",
+    "REGON": "775102565",
+    "Data zezwolenia": "2023-07-26",
+    "Numer decyzji": "DFI/428/2019",
+    "CzlonekZarzadu1_PESEL": "87091636211",
+    "CzlonekZarzadu1_Imie": "Wojciech",
+    "CzlonekZarzadu1_Nazwisko": "Cieślar"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets S.A.",
+    "Adres siedziby": "ul. Topolowa 45/91, 45-554 Katowice",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000659168",
+    "NIP": "6525083891",
+    "REGON": "947685269",
+    "Data zezwolenia": "2025-01-27",
+    "Numer decyzji": "DFI/548/2022",
+    "CzlonekZarzadu1_PESEL": "66100588747",
+    "CzlonekZarzadu1_Imie": "Anna",
+    "CzlonekZarzadu1_Nazwisko": "Kaczmarek"
+  },
+  {
+    "Firma lub nazwa": "Nova Dta Spółka Akcyjna",
+    "Adres siedziby": "67-281 Łódź, ul Wiosenna 95",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000204284",
+    "NIP": "4701032408",
+    "REGON": "016380579",
+    "Data zezwolenia": "2019-03-16",
+    "Numer decyzji": "DFI/806/2020",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Agnieszka",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowska"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital S.A.",
+    "Adres siedziby": "Głogowska 112, 83-282 Poznań",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000433882",
+    "NIP": "2774894178",
+    "REGON": "858628228",
+    "Data zezwolenia": "2017-05-13",
+    "Numer decyzji": "DFI/895/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Katarzyna",
+    "CzlonekZarzadu1_Nazwisko": "Kowalska"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics Holding S.A.",
+    "Adres siedziby": "ul. Portowa 35, 47-434 Rzeszów",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000521509",
+    "NIP": "8741472506",
+    "REGON": "265831030",
+    "Data zezwolenia": "2019-10-25",
+    "Numer decyzji": "DFI/540/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Marcin",
+    "CzlonekZarzadu1_Nazwisko": "Pawłowski"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply S.A.",
+    "Adres siedziby": "26-321 Katowice, ul Kwiatowa 104",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000177764",
+    "NIP": "8505652346",
+    "REGON": "342830107",
+    "Data zezwolenia": "2017-06-30",
+    "Numer decyzji": "DFI/925/2020",
+    "CzlonekZarzadu1_PESEL": "78080160897",
+    "CzlonekZarzadu1_Imie": "Robert",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics Spółka Akcyjna",
+    "Adres siedziby": "ulica Polna 5/3, 84-659 Białystok",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000522363",
+    "NIP": "7994303259",
+    "REGON": "418734550",
+    "Data zezwolenia": "2024-12-28",
+    "Numer decyzji": "DFI/439/2025",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Jasieńska"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance Markets Spółka Akcyjna",
+    "Adres siedziby": "ulica Srebrna 173, 73-286 Gdańsk",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000046361",
+    "NIP": "7159534292",
+    "REGON": "767341610",
+    "Data zezwolenia": "2020-08-17",
+    "Numer decyzji": "DFI/490/2024",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Mateusz",
+    "CzlonekZarzadu1_Nazwisko": "Wójcik"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest S.A.",
+    "Adres siedziby": "ul. Bałtycka 179, 26-236 Bydgoszcz",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000126022",
+    "NIP": "1390359530",
+    "REGON": "129778780",
+    "Data zezwolenia": "2021-09-09",
+    "Numer decyzji": "DFI/132/2021",
+    "CzlonekZarzadu1_PESEL": "74030484567",
+    "CzlonekZarzadu1_Imie": "Karolina",
+    "CzlonekZarzadu1_Nazwisko": "Zielińska"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest Polska spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Łąkowa 73, 60-598 Kielce",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000466427",
+    "NIP": "5064461460",
+    "REGON": "342028201",
+    "Data zezwolenia": "2025-02-02",
+    "Numer decyzji": "DFI/833/2026",
+    "CzlonekZarzadu1_PESEL": "65012207382",
+    "CzlonekZarzadu1_Imie": "Anna",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest SP Z O O",
+    "Adres siedziby": "29-243 Olsztyn, ul Leśna 116",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000762523",
+    "NIP": "0703494677",
+    "REGON": "819217330",
+    "Data zezwolenia": "2018-09-11",
+    "Numer decyzji": "DFI/985/2026",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Marta",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest sp. z o.o.",
+    "Adres siedziby": "57-745 Opole, ul Piłsudskiego 14",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000375691",
+    "NIP": "8540750163",
+    "REGON": "193645069",
+    "Data zezwolenia": "2021-01-29",
+    "Numer decyzji": "DFI/126/2026",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Wojciech",
+    "CzlonekZarzadu1_Nazwisko": "Jasieński"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ul. Słoneczna 35/81, 23-547 Kielce",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000066573",
+    "NIP": "6950086887",
+    "REGON": "275392969",
+    "Data zezwolenia": "2022-07-31",
+    "Numer decyzji": "DFI/191/2024",
+    "CzlonekZarzadu1_PESEL": "82021247253",
+    "CzlonekZarzadu1_Imie": "Piotr",
+    "CzlonekZarzadu1_Nazwisko": "Zieliński"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "63-886 Gdańsk, ul Długa 92 m. 11",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000021011",
+    "NIP": "3416419505",
+    "REGON": "053274816",
+    "Data zezwolenia": "2023-04-15",
+    "Numer decyzji": "DFI/719/2022",
+    "CzlonekZarzadu1_PESEL": "71120500611",
+    "CzlonekZarzadu1_Imie": "Adam",
+    "CzlonekZarzadu1_Nazwisko": "Kamiński"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech S.A.",
+    "Adres siedziby": "87-591 Bydgoszcz, ul Polna 77 m. 94",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000933475",
+    "NIP": "0446921969",
+    "REGON": "876324939",
+    "Data zezwolenia": "2025-08-28",
+    "Numer decyzji": "DFI/152/2021",
+    "CzlonekZarzadu1_PESEL": "87091436538",
+    "CzlonekZarzadu1_Imie": "Dariusz",
+    "CzlonekZarzadu1_Nazwisko": "Wojciechowski"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest sp z oo",
+    "Adres siedziby": "ulica Kościuszki 88, 78-278 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000163911",
+    "NIP": "1159180514",
+    "REGON": "562547690",
+    "Data zezwolenia": "2022-10-30",
+    "Numer decyzji": "DFI/828/2020",
+    "CzlonekZarzadu1_PESEL": "79010314821",
+    "CzlonekZarzadu1_Imie": "Iwona",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply S.A.",
+    "Adres siedziby": "ul. Krótka 57, 01-508 Kielce",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000523784",
+    "NIP": "7145775620",
+    "REGON": "941843520",
+    "Data zezwolenia": "2017-01-31",
+    "Numer decyzji": "DFI/381/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Patrycja",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade sp z oo",
+    "Adres siedziby": "ulica Krótka 29, 28-639 Olsztyn",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000448831",
+    "NIP": "4279343943",
+    "REGON": "226298533",
+    "Data zezwolenia": "2020-12-20",
+    "Numer decyzji": "DFI/427/2020",
+    "CzlonekZarzadu1_PESEL": "93031045025",
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Wiśniewska"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker S.A.",
+    "Adres siedziby": "Topolowa 72, 59-328 Zielona Góra",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000515543",
+    "NIP": "1616906456",
+    "REGON": "772366080",
+    "Data zezwolenia": "2019-09-28",
+    "Numer decyzji": "DFI/521/2025",
+    "CzlonekZarzadu1_PESEL": "67091192403",
+    "CzlonekZarzadu1_Imie": "Justyna",
+    "CzlonekZarzadu1_Nazwisko": "Wojciechowska"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker S.A.",
+    "Adres siedziby": "ulica Jarzębinowa 122/23, 36-977 Lublin",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000186021",
+    "NIP": "6906563808",
+    "REGON": "048740930",
+    "Data zezwolenia": "2023-11-13",
+    "Numer decyzji": "DFI/722/2023",
+    "CzlonekZarzadu1_PESEL": "74121155613",
+    "CzlonekZarzadu1_Imie": "Grzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Krawczyk"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments Spółka Akcyjna",
+    "Adres siedziby": "ul. Długa 93, 94-502 Zielona Góra",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000534962",
+    "NIP": "9220324979",
+    "REGON": "449553406",
+    "Data zezwolenia": "2020-07-16",
+    "Numer decyzji": "DFI/319/2026",
+    "CzlonekZarzadu1_PESEL": "97082266011",
+    "CzlonekZarzadu1_Imie": "Gzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Duda"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services sp. z o.o.",
+    "Adres siedziby": "ul. Krótka 92/89, 58-264 Poznań",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000322980",
+    "NIP": "6634573720",
+    "REGON": "627018380",
+    "Data zezwolenia": "2019-01-27",
+    "Numer decyzji": "DFI/909/2026",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Karolina",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply sp z oo",
+    "Adres siedziby": "Głogowska 111/24, 41-365 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000839899",
+    "NIP": "5759692992",
+    "REGON": "511720799",
+    "Data zezwolenia": "2019-01-01",
+    "Numer decyzji": "DFI/304/2022",
+    "CzlonekZarzadu1_PESEL": "69101932058",
+    "CzlonekZarzadu1_Imie": "Robert",
+    "CzlonekZarzadu1_Nazwisko": "Kozłowski"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics sp. z o.o.",
+    "Adres siedziby": "17-781 Kielce, ul Polna 107 m. 37",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000557044",
+    "NIP": "3859774719",
+    "REGON": "364652611",
+    "Data zezwolenia": "2023-04-03",
+    "Numer decyzji": "DFI/662/2020",
+    "CzlonekZarzadu1_PESEL": "89100633996",
+    "CzlonekZarzadu1_Imie": "Andrzej",
+    "CzlonekZarzadu1_Nazwisko": "Kozłowski"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ul. Polna 151, 12-121 Kielce",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000880744",
+    "NIP": "5040614797",
+    "REGON": "675782304",
+    "Data zezwolenia": "2017-11-29",
+    "Numer decyzji": "DFI/522/2023",
+    "CzlonekZarzadu1_PESEL": "75020952840",
+    "CzlonekZarzadu1_Imie": "Marta",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments Spółka Akcyjna",
+    "Adres siedziby": "ul. Piłsudskiego 108/13, 08-552 Kraków",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000692328",
+    "NIP": "1813641163",
+    "REGON": "415475383",
+    "Data zezwolenia": "2025-10-30",
+    "Numer decyzji": "DFI/372/2023",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Cieślar"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Głogowska 25/20, 62-230 Białystok",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000925754",
+    "NIP": "6705652468",
+    "REGON": "404104847",
+    "Data zezwolenia": "2022-05-08",
+    "Numer decyzji": "DFI/731/2020",
+    "CzlonekZarzadu1_PESEL": "81102296847",
+    "CzlonekZarzadu1_Imie": "Elżbieta",
+    "CzlonekZarzadu1_Nazwisko": "Grabowska"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech sp z oo",
+    "Adres siedziby": "Wiosenna 169, 10-851 Poznań",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000128189",
+    "NIP": "8978196415",
+    "REGON": "377127783",
+    "Data zezwolenia": "2025-10-06",
+    "Numer decyzji": "DFI/588/2026",
+    "CzlonekZarzadu1_PESEL": "69112621695",
+    "CzlonekZarzadu1_Imie": "Adam",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Nova Data Technologie SP Z O O",
+    "Adres siedziby": "ul. Portowa 152/9 ,46-594 Białystok",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000355336",
+    "NIP": "0904576560",
+    "REGON": "563596175",
+    "Data zezwolenia": "2021-09-28",
+    "Numer decyzji": "DFI/740/2018",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Krzysztof",
+    "CzlonekZarzadu1_Nazwisko": "Jasieński"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital Technologie S.A.",
+    "Adres siedziby": "ul. Głogowska 24, 23-862 Zielona Góra",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000574136",
+    "NIP": "7378860347",
+    "REGON": "676017267",
+    "Data zezwolenia": "2021-03-03",
+    "Numer decyzji": "DFI/121/2022",
+    "CzlonekZarzadu1_PESEL": "78071855322",
+    "CzlonekZarzadu1_Imie": "Barbara",
+    "CzlonekZarzadu1_Nazwisko": "Piotrowska"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services SP Z O O",
+    "Adres siedziby": "Długa 155, 67-533 Wrocław",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000606591",
+    "NIP": "6467007464",
+    "REGON": "154385331",
+    "Data zezwolenia": "2021-12-23",
+    "Numer decyzji": "DFI/364/2024",
+    "CzlonekZarzadu1_PESEL": "68030447611",
+    "CzlonekZarzadu1_Imie": "Sebastian",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicki"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments Services Spółka Akcyjna",
+    "Adres siedziby": "ulica Łąkowa 92, 55-451 Białystok",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000803617",
+    "NIP": "6355795060",
+    "REGON": "637454268",
+    "Data zezwolenia": "2021-03-21",
+    "Numer decyzji": "DFI/277/2024",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Wojciech",
+    "CzlonekZarzadu1_Nazwisko": "Wiśniewski"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Łąkowa 128/14, 84-360 Kielce",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000567424",
+    "NIP": "9711634229",
+    "REGON": "853607782",
+    "Data zezwolenia": "2020-02-17",
+    "Numer decyzji": "DFI/224/2024",
+    "CzlonekZarzadu1_PESEL": "72051958151",
+    "CzlonekZarzadu1_Imie": "Paweł",
+    "CzlonekZarzadu1_Nazwisko": "Cieślar"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments sp z oo",
+    "Adres siedziby": "Jarzębinoaw 16/6, 74-525 Kraków",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000010555",
+    "NIP": "3681356721",
+    "REGON": "129070696",
+    "Data zezwolenia": "2023-06-21",
+    "Numer decyzji": "DFI/877/2018",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Tomasz",
+    "CzlonekZarzadu1_Nazwisko": "Wiśniewski"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services sp. z o.o.",
+    "Adres siedziby": "Bałtycka 38, 00-724 Zielona Góra",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000831710",
+    "NIP": "6592915126",
+    "REGON": "615215836",
+    "Data zezwolenia": "2019-11-09",
+    "Numer decyzji": "DFI/579/2023",
+    "CzlonekZarzadu1_PESEL": "85042186433",
+    "CzlonekZarzadu1_Imie": "Tomasz",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicki"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Portowa 88/43, 04-413 Rzeszów",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000602786",
+    "NIP": "5804752445",
+    "REGON": "694869520",
+    "Data zezwolenia": "2018-03-07",
+    "Numer decyzji": "DFI/474/2023",
+    "CzlonekZarzadu1_PESEL": "98092412915",
+    "CzlonekZarzadu1_Imie": "Adam",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech sp z oo",
+    "Adres siedziby": "Żeromskiego 82/61, 92-861 Zielona Góra",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000426533",
+    "NIP": "5265510225",
+    "REGON": "883982893",
+    "Data zezwolenia": "2025-03-20",
+    "Numer decyzji": "DFI/570/2017",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Anna",
+    "CzlonekZarzadu1_Nazwisko": "Krawczyk"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets sp z oo",
+    "Adres siedziby": "Portowa 14/27, 32-562 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000083477",
+    "NIP": "6195700167",
+    "REGON": "660409092",
+    "Data zezwolenia": "2023-11-26",
+    "Numer decyzji": "DFI/699/2019",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Dariusz",
+    "CzlonekZarzadu1_Nazwisko": "Duda"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital sp z oo",
+    "Adres siedziby": "ul. Łąkowa 31/27, 40-256 Wrocław",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000266143",
+    "NIP": "3374397040",
+    "REGON": "755684519",
+    "Data zezwolenia": "2025-11-17",
+    "Numer decyzji": "DFI/289/2021",
+    "CzlonekZarzadu1_PESEL": "03303096178",
+    "CzlonekZarzadu1_Imie": "Marek",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowski"
+  },
+  {
+    "Firma lub nazwa": "Nova Data sp z oo",
+    "Adres siedziby": "Żeromskiego 158, 74-104 Bydgoszcz",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000192407",
+    "NIP": "2877893322",
+    "REGON": "610398140",
+    "Data zezwolenia": "2018-09-01",
+    "Numer decyzji": "DFI/284/2025",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Sebastian",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicki"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Łąkowa 54, 62-830 Opole",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000350486",
+    "NIP": "8449123528",
+    "REGON": "532568740",
+    "Data zezwolenia": "2021-07-11",
+    "Numer decyzji": "DFI/392/2026",
+    "CzlonekZarzadu1_PESEL": "93021160329",
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker sp z oo",
+    "Adres siedziby": "ul. Mickiewicza 9, 69-271 Katowice",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000507042",
+    "NIP": "4799496251",
+    "REGON": "997585221",
+    "Data zezwolenia": "2024-09-10",
+    "Numer decyzji": "DFI/355/2024",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Justyna",
+    "CzlonekZarzadu1_Nazwisko": "Krawczyk"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech S.A.",
+    "Adres siedziby": "ul. Długa 80, 64-378 Gdańsk",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000211298",
+    "NIP": "4154454842",
+    "REGON": "094867094",
+    "Data zezwolenia": "2018-11-05",
+    "Numer decyzji": "DFI/298/2025",
+    "CzlonekZarzadu1_PESEL": "86032568563",
+    "CzlonekZarzadu1_Imie": "Barbara",
+    "CzlonekZarzadu1_Nazwisko": "Zielińska"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory Spółka Akcyjna",
+    "Adres siedziby": "ul. Długa 21, 70-200 Rzeszów",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000082054",
+    "NIP": "1252469837",
+    "REGON": "873721522",
+    "Data zezwolenia": "2017-07-19",
+    "Numer decyzji": "DFI/721/2018",
+    "CzlonekZarzadu1_PESEL": "93011152167",
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Piotrowska"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services sp z oo",
+    "Adres siedziby": "ulica Żeromskiego 62, 41-418 Rzeszów",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000392138",
+    "NIP": "8216894262",
+    "REGON": "232324409",
+    "Data zezwolenia": "2018-12-10",
+    "Numer decyzji": "DFI/641/2023",
+    "CzlonekZarzadu1_PESEL": "76021712949",
+    "CzlonekZarzadu1_Imie": "Dorota",
+    "CzlonekZarzadu1_Nazwisko": "Cieślar"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker SP Z O O",
+    "Adres siedziby": "72-943 Katowice, ul Jarzębinowa 80",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000020230",
+    "NIP": "3920474057",
+    "REGON": "700319122",
+    "Data zezwolenia": "2021-02-28",
+    "Numer decyzji": "DFI/149/2023",
+    "CzlonekZarzadu1_PESEL": "89091260708",
+    "CzlonekZarzadu1_Imie": "Monika",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Services spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "47-794 Gdynia, ul Kościuszki 169 m. 48",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000240550",
+    "NIP": "3820949584",
+    "REGON": "154962969",
+    "Data zezwolenia": "2022-08-27",
+    "Numer decyzji": "DFI/897/2022",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Rafał",
+    "CzlonekZarzadu1_Nazwisko": "Lewandowski"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker sp. z o.o.",
+    "Adres siedziby": "50-913 Olsztyn, ul Piłsudskiego 24",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000373237",
+    "NIP": "9912719010",
+    "REGON": "588317833",
+    "Data zezwolenia": "2025-11-04",
+    "Numer decyzji": "DFI/936/2017",
+    "CzlonekZarzadu1_PESEL": "67070110604",
+    "CzlonekZarzadu1_Imie": "Iwona",
+    "CzlonekZarzadu1_Nazwisko": "Nowacka"
+  },
+  {
+    "Firma lub nazwa": "Nova Data Spółka Akcyjna",
+    "Adres siedziby": "ulica Piłsudskiego 164, 55-754 Wrocław",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000224245",
+    "NIP": "8738567119",
+    "REGON": "519907468",
+    "Data zezwolenia": "2023-07-04",
+    "Numer decyzji": "DFI/858/2019",
+    "CzlonekZarzadu1_PESEL": "85121373983",
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Grabowska"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital sp. z o.o.",
+    "Adres siedziby": "ulica Bałtycka 6, 99-746 Gdynia",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000796082",
+    "NIP": "0902324624",
+    "REGON": "947515320",
+    "Data zezwolenia": "2017-08-29",
+    "Numer decyzji": "DFI/573/2018",
+    "CzlonekZarzadu1_PESEL": "68080545741",
+    "CzlonekZarzadu1_Imie": "Natalia",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicka"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech S.A.",
+    "Adres siedziby": "19-873 Białystok, ul Słoneczna 136",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000047049",
+    "NIP": "5928541788",
+    "REGON": "353632784",
+    "Data zezwolenia": "2018-05-12",
+    "Numer decyzji": "DFI/932/2020",
+    "CzlonekZarzadu1_PESEL": "97013010476",
+    "CzlonekZarzadu1_Imie": "Tomasz",
+    "CzlonekZarzadu1_Nazwisko": "Grabowski"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Technologie Spółka Akcyjna",
+    "Adres siedziby": "Długa 25/24, 46-440 Opole",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000429477",
+    "NIP": "6584229184",
+    "REGON": "180020046",
+    "Data zezwolenia": "2022-08-09",
+    "Numer decyzji": "DFI/282/2020",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Nova Data Finanse SP Z O O",
+    "Adres siedziby": "ul. Srebrna 154, 06-216 Katowice",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000314399",
+    "NIP": "2121588795",
+    "REGON": "777160302",
+    "Data zezwolenia": "2020-04-24",
+    "Numer decyzji": "DFI/438/2018",
+    "CzlonekZarzadu1_PESEL": "85102279637",
+    "CzlonekZarzadu1_Imie": "Paweł",
+    "CzlonekZarzadu1_Nazwisko": "Wiśniewski"
+  },
+  {
+    "Firma lub nazwa": "Orbis Retail Solutions sp z oo",
+    "Adres siedziby": "ulica Srebrna 35, 25-945 Bydgoszcz",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000350236",
+    "NIP": "9522217269",
+    "REGON": "332883896",
+    "Data zezwolenia": "2024-05-18",
+    "Numer decyzji": "DFI/448/2020",
+    "CzlonekZarzadu1_PESEL": "97011000758",
+    "CzlonekZarzadu1_Imie": "Robert",
+    "CzlonekZarzadu1_Nazwisko": "Kozłowski"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital sp z oo",
+    "Adres siedziby": "ulica Długa 51, 98-290 Warszawa",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000297477",
+    "NIP": "5557017566",
+    "REGON": "050059891",
+    "Data zezwolenia": "2017-02-07",
+    "Numer decyzji": "DFI/797/2024",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Elżbieta",
+    "CzlonekZarzadu1_Nazwisko": "Kaczmarek"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ul. Krótka 63/37, 97-163 Szczecin",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000730908",
+    "NIP": "2709400543",
+    "REGON": "536924380",
+    "Data zezwolenia": "2022-01-24",
+    "Numer decyzji": "DFI/639/2025",
+    "CzlonekZarzadu1_PESEL": "01232115344",
+    "CzlonekZarzadu1_Imie": "Marta",
+    "CzlonekZarzadu1_Nazwisko": "Dąbrowska"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply Finanse sp. z o.o.",
+    "Adres siedziby": "Żeromskiego 69, 96-884 Lublin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000158037",
+    "NIP": "9891065648",
+    "REGON": "357052948",
+    "Data zezwolenia": "2022-10-19",
+    "Numer decyzji": "DFI/692/2019",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Monika",
+    "CzlonekZarzadu1_Nazwisko": "Pawłowksa"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade Holding sp. z o.o.",
+    "Adres siedziby": "ul. Słoneczna 176/73, 49-869 Poznań",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000919592",
+    "NIP": "3888339914",
+    "REGON": "153713974",
+    "Data zezwolenia": "2019-02-15",
+    "Numer decyzji": "DFI/575/2025",
+    "CzlonekZarzadu1_PESEL": "80092086658",
+    "CzlonekZarzadu1_Imie": "Wojciech",
+    "CzlonekZarzadu1_Nazwisko": "Piotrowski"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest sp. z o.o.",
+    "Adres siedziby": "Piłsudskiego 82, 57-921 Opole",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000079534",
+    "NIP": "3192299998",
+    "REGON": "265268533",
+    "Data zezwolenia": "2023-06-29",
+    "Numer decyzji": "DFI/293/2019",
+    "CzlonekZarzadu1_PESEL": "02231143080",
+    "CzlonekZarzadu1_Imie": "Iwona",
+    "CzlonekZarzadu1_Nazwisko": "Kozłowska"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory Spółka Akcyjna",
+    "Adres siedziby": "ul. Polna 1/75, 00-269 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000979018",
+    "NIP": "6167961701",
+    "REGON": "896771692",
+    "Data zezwolenia": "2023-06-25",
+    "Numer decyzji": "DFI/236/2026",
+    "CzlonekZarzadu1_PESEL": "90120732501",
+    "CzlonekZarzadu1_Imie": "Iwona",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory S.A.",
+    "Adres siedziby": "Leśna 172/19, 14-330 Katowice",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000479769",
+    "NIP": "1227472791",
+    "REGON": "427743727",
+    "Data zezwolenia": "2022-11-02",
+    "Numer decyzji": "DFI/556/2020",
+    "CzlonekZarzadu1_PESEL": "70090870771",
+    "CzlonekZarzadu1_Imie": "Wojciech",
+    "CzlonekZarzadu1_Nazwisko": "Kaczmarek"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply sp z oo",
+    "Adres siedziby": "ulica Portowa 69, 83-994 Gdańsk",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000707119",
+    "NIP": "0797192154",
+    "REGON": "136528796",
+    "Data zezwolenia": "2020-10-29",
+    "Numer decyzji": "DFI/905/2025",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Grzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowski"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics SP Z O O",
+    "Adres siedziby": "00-453 Wrocław, ul Leśna 147 m. 83",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000817953",
+    "NIP": "7961580870",
+    "REGON": "944426037",
+    "Data zezwolenia": "2020-10-05",
+    "Numer decyzji": "DFI/797/2021",
+    "CzlonekZarzadu1_PESEL": "93110732044",
+    "CzlonekZarzadu1_Imie": "Dorota",
+    "CzlonekZarzadu1_Nazwisko": "Wójcik"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory Holding spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ul. Mickiewicza 141/87, 75-301 Szczecin",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000889537",
+    "NIP": "7758341895",
+    "REGON": "256810686",
+    "Data zezwolenia": "2020-04-24",
+    "Numer decyzji": "DFI/831/2020",
+    "CzlonekZarzadu1_PESEL": "72042104888",
+    "CzlonekZarzadu1_Imie": "Barbara",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowska"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Polska SP Z O O",
+    "Adres siedziby": "43-122 Gdańsk, ul Srebrna 95 m. 27",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000887991",
+    "NIP": "7568934876",
+    "REGON": "452711917",
+    "Data zezwolenia": "2019-04-15",
+    "Numer decyzji": "DFI/735/2018",
+    "CzlonekZarzadu1_PESEL": "71120500611",
+    "CzlonekZarzadu1_Imie": "Adam",
+    "CzlonekZarzadu1_Nazwisko": "Kamiński"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest S.A.",
+    "Adres siedziby": "90-603 Białystok, ul Słoneczna 125 m. 56",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000924817",
+    "NIP": "5546678399",
+    "REGON": "957118960",
+    "Data zezwolenia": "2025-06-15",
+    "Numer decyzji": "DFI/687/2026",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Ewa",
+    "CzlonekZarzadu1_Nazwisko": "Dąbrowska"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Polska S.A.",
+    "Adres siedziby": "ulica Łąkowa 177/15, 25-191 Gdańsk",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000195806",
+    "NIP": "3776502757",
+    "REGON": "854772862",
+    "Data zezwolenia": "2024-07-30",
+    "Numer decyzji": "DFI/823/2017",
+    "CzlonekZarzadu1_PESEL": "80031018876",
+    "CzlonekZarzadu1_Imie": "Paweł",
+    "CzlonekZarzadu1_Nazwisko": "Duda"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Wiosenna 120, 11-745 Warszawa",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000375307",
+    "NIP": "7763104330",
+    "REGON": "477069054",
+    "Data zezwolenia": "2019-03-21",
+    "Numer decyzji": "DFI/400/2025",
+    "CzlonekZarzadu1_PESEL": "71043002096",
+    "CzlonekZarzadu1_Imie": "Grzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest S.A.",
+    "Adres siedziby": "Portowa 104/10, 05-820 Toruń",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000823943",
+    "NIP": "5719207588",
+    "REGON": "287989876",
+    "Data zezwolenia": "2018-01-01",
+    "Numer decyzji": "DFI/448/2020",
+    "CzlonekZarzadu1_PESEL": "67081904687",
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicka"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital sp z oo",
+    "Adres siedziby": "70-327 Olsztyn, ul Kwiatowa 116",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000109464",
+    "NIP": "6222476143",
+    "REGON": "019480117",
+    "Data zezwolenia": "2018-03-29",
+    "Numer decyzji": "DFI/729/2025",
+    "CzlonekZarzadu1_PESEL": "81062598928",
+    "CzlonekZarzadu1_Imie": "Karolina",
+    "CzlonekZarzadu1_Nazwisko": "Kaczmarek"
+  },
+  {
+    "Firma lub nazwa": "Orbis Retail Solutions Spółka Akcyjna",
+    "Adres siedziby": "Polna 147, 46-782 Katowice",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000690553",
+    "NIP": "9086125760",
+    "REGON": "408529207",
+    "Data zezwolenia": "2017-10-10",
+    "Numer decyzji": "DFI/533/2017",
+    "CzlonekZarzadu1_PESEL": "75062379140",
+    "CzlonekZarzadu1_Imie": "Natalia",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ulica Topolowa 55/71, 17-778 Wrocław",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000505295",
+    "NIP": "7461363477",
+    "REGON": "069288214",
+    "Data zezwolenia": "2021-05-04",
+    "Numer decyzji": "DFI/978/2021",
+    "CzlonekZarzadu1_PESEL": "74021290287",
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Pawłowksa"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker S.A.",
+    "Adres siedziby": "Słoneczna 25/85, 20-880 Bydgoszcz",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000437745",
+    "NIP": "5797230905",
+    "REGON": "958950978",
+    "Data zezwolenia": "2024-11-13",
+    "Numer decyzji": "DFI/407/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Lewandowska"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Holding sp z oo",
+    "Adres siedziby": "ul. Żeromskiego 58, 49-961 Bydgoszcz",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000086262",
+    "NIP": "7670166491",
+    "REGON": "381312678",
+    "Data zezwolenia": "2025-10-08",
+    "Numer decyzji": "DFI/183/2025",
+    "CzlonekZarzadu1_PESEL": "81122946164",
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowska"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply sp z oo",
+    "Adres siedziby": "49-606 Lublin, ul Krótka 130",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000891887",
+    "NIP": "2971429416",
+    "REGON": "693112535",
+    "Data zezwolenia": "2025-03-09",
+    "Numer decyzji": "DFI/154/2025",
+    "CzlonekZarzadu1_PESEL": "76102406482",
+    "CzlonekZarzadu1_Imie": "Agnieszka",
+    "CzlonekZarzadu1_Nazwisko": "Kowalska"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Bałtycka 147/92, 71-926 Kielce",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000502518",
+    "NIP": "1282647769",
+    "REGON": "590267855",
+    "Data zezwolenia": "2021-08-13",
+    "Numer decyzji": "DFI/493/2024",
+    "CzlonekZarzadu1_PESEL": "82091617549",
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Szymańska"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Markets S.A.",
+    "Adres siedziby": "ulica Topolowa 45, 19-148 Szczecin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000620155",
+    "NIP": "4759851728",
+    "REGON": "066628201",
+    "Data zezwolenia": "2022-07-21",
+    "Numer decyzji": "DFI/504/2018",
+    "CzlonekZarzadu1_PESEL": "71043002096",
+    "CzlonekZarzadu1_Imie": "Grzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital Finanse Spółka Akcyjna",
+    "Adres siedziby": "ulica Wiosenna 135/67, 70-575 Wrocław",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000700223",
+    "NIP": "8387536397",
+    "REGON": "024650067",
+    "Data zezwolenia": "2025-07-11",
+    "Numer decyzji": "DFI/959/2017",
+    "CzlonekZarzadu1_PESEL": "78080699739",
+    "CzlonekZarzadu1_Imie": "Tomasz",
+    "CzlonekZarzadu1_Nazwisko": "Zieliński"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance sp zroo",
+    "Adres siedziby": "ul. Mickiewicza 169, 16-789 Opole",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000943591",
+    "NIP": "8120151378",
+    "REGON": "100159648",
+    "Data zezwolenia": "2022-11-16",
+    "Numer decyzji": "DFI/231/2026",
+    "CzlonekZarzadu1_PESEL": "87042004557",
+    "CzlonekZarzadu1_Imie": "Jan",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Leśna 16, 67-106 Białystok",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000807851",
+    "NIP": "6208167664",
+    "REGON": "820575496",
+    "Data zezwolenia": "2022-07-12",
+    "Numer decyzji": "DFI/781/2018",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Jan",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance sp. z o.o.",
+    "Adres siedziby": "Mickiewicza 40/90, 97-111 Opole",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000537568",
+    "NIP": "5856148744",
+    "REGON": "413438455",
+    "Data zezwolenia": "2021-07-21",
+    "Numer decyzji": "DFI/553/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Kamiński"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest S.A.",
+    "Adres siedziby": "ulica Kościuszki 88/29, 88-712 Kielce",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000067333",
+    "NIP": "3677216907",
+    "REGON": "692112562",
+    "Data zezwolenia": "2019-09-29",
+    "Numer decyzji": "DFI/841/2017",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Katarzyna",
+    "CzlonekZarzadu1_Nazwisko": "Dąbrowska"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker SP Z O O",
+    "Adres siedziby": "ul. Polna 61/10, 05-275 Szczecin",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000900814",
+    "NIP": "9798017334",
+    "REGON": "740073693",
+    "Data zezwolenia": "2018-09-15",
+    "Numer decyzji": "DFI/914/2017",
+    "CzlonekZarzadu1_PESEL": "94041929420",
+    "CzlonekZarzadu1_Imie": "Monika",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance Spółka Akcyjna",
+    "Adres siedziby": "ulica oPrtowa 140, 08-325 Kielce",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000133270",
+    "NIP": "2534459891",
+    "REGON": "239286965",
+    "Data zezwolenia": "2018-01-04",
+    "Numer decyzji": "DFI/544/2021",
+    "CzlonekZarzadu1_PESEL": "78061186470",
+    "CzlonekZarzadu1_Imie": "Krzysztof",
+    "CzlonekZarzadu1_Nazwisko": "Grabowski"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply Technologie spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "98-585 Szczecin, ul Krótka 25 m. 26",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000258465",
+    "NIP": "8070720175",
+    "REGON": "912021810",
+    "Data zezwolenia": "2024-06-27",
+    "Numer decyzji": "DFI/525/2019",
+    "CzlonekZarzadu1_PESEL": "02320382880",
+    "CzlonekZarzadu1_Imie": "Paulina",
+    "CzlonekZarzadu1_Nazwisko": "Zielińska"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "ul. Polna 62, 33-614 Kraków",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000862641",
+    "NIP": "4803204735",
+    "REGON": "779610666",
+    "Data zezwolenia": "2024-02-12",
+    "Numer decyzji": "DFI/690/2020",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Adam",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowski"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Polska sp. z o.o.",
+    "Adres siedziby": "ulica Piłsudskiego 95, 07-341 Kielce",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000524095",
+    "NIP": "3874689857",
+    "REGON": "120648662",
+    "Data zezwolenia": "2024-05-27",
+    "Numer decyzji": "DFI/530/2018",
+    "CzlonekZarzadu1_PESEL": "97112297147",
+    "CzlonekZarzadu1_Imie": "Justyna",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance Polska spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Topolowa 115/85, 87-845 Łódź",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000599184",
+    "NIP": "8177449870",
+    "REGON": "310992616",
+    "Data zezwolenia": "2019-12-12",
+    "Numer decyzji": "DFI/349/2021",
+    "CzlonekZarzadu1_PESEL": "68022938147",
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade S.A.",
+    "Adres siedziby": "54-727 Toruń, ul Polna 90 m. 66",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000855590",
+    "NIP": "6131200808",
+    "REGON": "304528830",
+    "Data zezwolenia": "2019-10-08",
+    "Numer decyzji": "DFI/447/2022",
+    "CzlonekZarzadu1_PESEL": "85081122788",
+    "CzlonekZarzadu1_Imie": "Monika",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Mickiewicza 10, 84-737 Łódź",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000587384",
+    "NIP": "6810065589",
+    "REGON": "106734898",
+    "Data zezwolenia": "2017-07-16",
+    "Numer decyzji": "DFI/600/2022",
+    "CzlonekZarzadu1_PESEL": "89102167282",
+    "CzlonekZarzadu1_Imie": "Elżbieta",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Services sp z oo",
+    "Adres siedziby": "ulica Kościuszki 73/50, 79-521 Kielce",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000732451",
+    "NIP": "9802767545",
+    "REGON": "873677057",
+    "Data zezwolenia": "2022-08-17",
+    "Numer decyzji": "DFI/874/2021",
+    "CzlonekZarzadu1_PESEL": "03290492935",
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Nowak"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services sp z oo",
+    "Adres siedziby": "Łąkowa 48, 30-866 Poznań",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000617635",
+    "NIP": "4924247904",
+    "REGON": "301573160",
+    "Data zezwolenia": "2017-09-30",
+    "Numer decyzji": "DFI/374/2025",
+    "CzlonekZarzadu1_PESEL": "03220977499",
+    "CzlonekZarzadu1_Imie": "Sebastian",
+    "CzlonekZarzadu1_Nazwisko": "Wojciechowski"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments SP Z O O",
+    "Adres siedziby": "ulica Żeromskiego 61, 31-785 Lublin",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000221475",
+    "NIP": "9041600204",
+    "REGON": "422775303",
+    "Data zezwolenia": "2018-02-08",
+    "Numer decyzji": "DFI/744/2021",
+    "CzlonekZarzadu1_PESEL": "94112902419",
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets Holding sp z oo",
+    "Adres siedziby": "Bałtycka 162, 38-853 Zielona Góra",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000026609",
+    "NIP": "8804733627",
+    "REGON": "330403277",
+    "Data zezwolenia": "2023-12-08",
+    "Numer decyzji": "DFI/867/2026",
+    "CzlonekZarzadu1_PESEL": "65112845707",
+    "CzlonekZarzadu1_Imie": "Marta",
+    "CzlonekZarzadu1_Nazwisko": "Cieślar"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade Services sp z oo",
+    "Adres siedziby": "43-369 Szczecin, ul Polna 159 m. 21",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000031917",
+    "NIP": "0916444083",
+    "REGON": "883206440",
+    "Data zezwolenia": "2017-06-04",
+    "Numer decyzji": "DFI/615/2018",
+    "CzlonekZarzadu1_PESEL": "76071794001",
+    "CzlonekZarzadu1_Imie": "Karolina",
+    "CzlonekZarzadu1_Nazwisko": "Woźniak"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services Spółka Akcyjna",
+    "Adres siedziby": "ulica Wiosenna 60/37, 90-621 Toruń",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000094389",
+    "NIP": "6107903021",
+    "REGON": "879522002",
+    "Data zezwolenia": "2022-12-27",
+    "Numer decyzji": "DFI/695/2019",
+    "CzlonekZarzadu1_PESEL": "76041254957",
+    "CzlonekZarzadu1_Imie": "Robert",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics S.A.",
+    "Adres siedziby": "61-972 Gdynia, ul Portowa 122",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000289725",
+    "NIP": "8026287820",
+    "REGON": "266621208",
+    "Data zezwolenia": "2021-02-28",
+    "Numer decyzji": "DFI/502/2026",
+    "CzlonekZarzadu1_PESEL": "86011664350",
+    "CzlonekZarzadu1_Imie": "Bartosz",
+    "CzlonekZarzadu1_Nazwisko": "Dąbrowski"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest Spółka Akcyjna",
+    "Adres siedziby": "ulica Portowa 19, 47-716 Opole",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000705449",
+    "NIP": "4264923752",
+    "REGON": "441511377",
+    "Data zezwolenia": "2024-10-08",
+    "Numer decyzji": "DFI/403/2021",
+    "CzlonekZarzadu1_PESEL": "82031182452",
+    "CzlonekZarzadu1_Imie": "Sebastian",
+    "CzlonekZarzadu1_Nazwisko": "Lewandowski"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker Technologie sp z oo",
+    "Adres siedziby": "ulica Polna 63, 53-370 Rzeszów",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000786819",
+    "NIP": "0142520560",
+    "REGON": "410865560",
+    "Data zezwolenia": "2021-09-01",
+    "Numer decyzji": "DFI/687/2017",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Szymańska"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics Finanse Spółka Akcyjna",
+    "Adres siedziby": "ul. Wiosenna 66/26, 93-702 Bydgoszcz",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000915774",
+    "NIP": "5560013578",
+    "REGON": "475849813",
+    "Data zezwolenia": "2018-01-09",
+    "Numer decyzji": "DFI/988/2018",
+    "CzlonekZarzadu1_PESEL": "68011640615",
+    "CzlonekZarzadu1_Imie": "Mateusz",
+    "CzlonekZarzadu1_Nazwisko": "Cieślr"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech Spółka Akcyjna",
+    "Adres siedziby": "30-343 Gdynia, ul Kościuszki 160 m. 91",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000116906",
+    "NIP": "6111921717",
+    "REGON": "717712352",
+    "Data zezwolenia": "2023-04-09",
+    "Numer decyzji": "DFI/434/2026",
+    "CzlonekZarzadu1_PESEL": "89102167282",
+    "CzlonekZarzadu1_Imie": "Elżbieta",
+    "CzlonekZarzadu1_Nazwisko": "Pawlik"
+  },
+  {
+    "Firma lub nazwa": "Amber Payments Technologie Spółka Akcyjna",
+    "Adres siedziby": "ul. Łąkowa 35/84, 05-344 Białystok",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000561112",
+    "NIP": "4293702746",
+    "REGON": "176758453",
+    "Data zezwolenia": "2022-03-29",
+    "Numer decyzji": "DFI/322/2021",
+    "CzlonekZarzadu1_PESEL": "02251880370",
+    "CzlonekZarzadu1_Imie": "Paweł",
+    "CzlonekZarzadu1_Nazwisko": "Wojciechowski"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance Spółka Akcyjna",
+    "Adres siedziby": "Mickiewicza 166, 20-288 Toruń",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000672451",
+    "NIP": "3043359732",
+    "REGON": "901786598",
+    "Data zezwolenia": "2022-05-17",
+    "Numer decyzji": "DFI/916/2023",
+    "CzlonekZarzadu1_PESEL": "71043002096",
+    "CzlonekZarzadu1_Imie": "Grzegorz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Technologie sp. z o.o.",
+    "Adres siedziby": "Głogowska 31, 44-647 Białystok",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000014855",
+    "NIP": "9712699515",
+    "REGON": "748925397",
+    "Data zezwolenia": "2023-09-19",
+    "Numer decyzji": "DFI/314/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Rafał",
+    "CzlonekZarzadu1_Nazwisko": "Duda"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics SP Z O O",
+    "Adres siedziby": "Leśna 58, 04-299 Kielce",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000337843",
+    "NIP": "3037828607",
+    "REGON": "153303220",
+    "Data zezwolenia": "2024-12-24",
+    "Numer decyzji": "DFI/878/2017",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Krawczyk"
+  },
+  {
+    "Firma lub nazwa": "Aurum Invest Markets S.A.",
+    "Adres siedziby": "ul. Słoneczna 58/63, 49-668 Katowice",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000499103",
+    "NIP": "5212589566",
+    "REGON": "196636970",
+    "Data zezwolenia": "2025-08-27",
+    "Numer decyzji": "DFI/219/2026",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Iwona",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade Markets SP Z O O",
+    "Adres siedziby": "72-118 Rzeszów, ul Słoneczna 160",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000522127",
+    "NIP": "0786920609",
+    "REGON": "719984267",
+    "Data zezwolenia": "2018-11-09",
+    "Numer decyzji": "DFI/438/2020",
+    "CzlonekZarzadu1_PESEL": "75052671821",
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicka"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance sp z oo",
+    "Adres siedziby": "Piłsudskiego 158, 75-724 Opole",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000754509",
+    "NIP": "5986298471",
+    "REGON": "787538520",
+    "Data zezwolenia": "2024-09-24",
+    "Numer decyzji": "DFI/912/2018",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Marcin",
+    "CzlonekZarzadu1_Nazwisko": "Grabowski"
+  },
+  {
+    "Firma lub nazwa": "Quantum Services SP Z O O",
+    "Adres siedziby": "ul. Głogowska 148, 53-241 Zielona Góra",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000599180",
+    "NIP": "0191086833",
+    "REGON": "173381551",
+    "Data zezwolenia": "2018-11-12",
+    "Numer decyzji": "DFI/563/2018",
+    "CzlonekZarzadu1_PESEL": "66092188330",
+    "CzlonekZarzadu1_Imie": "Robert",
+    "CzlonekZarzadu1_Nazwisko": "Jankowski"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets Spółka Akcyjna",
+    "Adres siedziby": "23-395 Lublin, ul Polna 85",
+    "Zakres czynności": "zarządzanie portfelami",
+    "KRS": "0000085127",
+    "NIP": "9577088502",
+    "REGON": "773020946",
+    "Data zezwolenia": "2023-08-30",
+    "Numer decyzji": "DFI/679/2017",
+    "CzlonekZarzadu1_PESEL": "68060958712",
+    "CzlonekZarzadu1_Imie": "Jakub",
+    "CzlonekZarzadu1_Nazwisko": "Krawczyk"
+  },
+  {
+    "Firma lub nazwa": "Polaris Capital sp. z o.o.",
+    "Adres siedziby": "ulica Mickiewicza 71/18, 23-297 Rzeszów",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000980704",
+    "NIP": "0235256392",
+    "REGON": "135057455",
+    "Data zezwolenia": "2023-01-19",
+    "Numer decyzji": "DFI/258/2017",
+    "CzlonekZarzadu1_PESEL": "94112902419",
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply Finanse spółka z ograniczoną odpowiedzialnością",
+    "Adres siedziby": "Portowa 46, 52-225 Łódź",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000445428",
+    "NIP": "7754256715",
+    "REGON": "797733159",
+    "Data zezwolenia": "2020-08-04",
+    "Numer decyzji": "DFI/377/2023",
+    "CzlonekZarzadu1_PESEL": "81122946164",
+    "CzlonekZarzadu1_Imie": "Joanna",
+    "CzlonekZarzadu1_Nazwisko": "Kwiatkowska"
+  },
+  {
+    "Firma lub nazwa": "Lumen Advisory Polska sp z oo",
+    "Adres siedziby": "40-900 Kielce, ul Słoneczna 142 m. 87",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000390384",
+    "NIP": "5808454957",
+    "REGON": "764111848",
+    "Data zezwolenia": "2019-07-17",
+    "Numer decyzji": "DFI/483/2022",
+    "CzlonekZarzadu1_PESEL": "75080240422",
+    "CzlonekZarzadu1_Imie": "Patrycja",
+    "CzlonekZarzadu1_Nazwisko": "Wójcik"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance S.A.",
+    "Adres siedziby": "ulica Jarzębinowa 55/66, 32-692 Bydgoszcz",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000322522",
+    "NIP": "8438581285",
+    "REGON": "149056350",
+    "Data zezwolenia": "2023-09-12",
+    "Numer decyzji": "DFI/385/2021",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Jakub",
+    "CzlonekZarzadu1_Nazwisko": "Cieślicki"
+  },
+  {
+    "Firma lub nazwa": "Optima Trade sp z oo",
+    "Adres siedziby": "ulica Łąkowa 77/85, 96-118 Rzeszów",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000297286",
+    "NIP": "5090659922",
+    "REGON": "899202285",
+    "Data zezwolenia": "2017-08-25",
+    "Numer decyzji": "DFI/795/2024",
+    "CzlonekZarzadu1_PESEL": "83081517869",
+    "CzlonekZarzadu1_Imie": "Karolina",
+    "CzlonekZarzadu1_Nazwisko": "Wójcik"
+  },
+  {
+    "Firma lub nazwa": "Silesia Invest Markets S.A.",
+    "Adres siedziby": "ul. Topolowa 95/34, 52-659 Lublin",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000788653",
+    "NIP": "8148602398",
+    "REGON": "753419291",
+    "Data zezwolenia": "2018-12-09",
+    "Numer decyzji": "DFI/632/2023",
+    "CzlonekZarzadu1_PESEL": null,
+    "CzlonekZarzadu1_Imie": "Anna",
+    "CzlonekZarzadu1_Nazwisko": "Nowacka"
+  },
+  {
+    "Firma lub nazwa": "Vistula Fintech SP Z O O",
+    "Adres siedziby": "Portowa 71/65, 67-206 Łódź",
+    "Zakres czynności": "doradztwo inwestycyjne",
+    "KRS": "0000222886",
+    "NIP": "1929544918",
+    "REGON": "097628438",
+    "Data zezwolenia": "2025-05-07",
+    "Numer decyzji": "DFI/895/2021",
+    "CzlonekZarzadu1_PESEL": "85120441973",
+    "CzlonekZarzadu1_Imie": "Mateusz",
+    "CzlonekZarzadu1_Nazwisko": "Lewandowski"
+  },
+  {
+    "Firma lub nazwa": "Orbis Retail Solutions sp z oo",
+    "Adres siedziby": "Krótka 178, 25-311 Opole",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000969208",
+    "NIP": "9902818118",
+    "REGON": "198178419",
+    "Data zezwolenia": "2019-10-05",
+    "Numer decyzji": "DFI/806/2023",
+    "CzlonekZarzadu1_PESEL": "92030213602",
+    "CzlonekZarzadu1_Imie": "Aleksandra",
+    "CzlonekZarzadu1_Nazwisko": "Szymańska"
+  },
+  {
+    "Firma lub nazwa": "Helios Markets S.A.",
+    "Adres siedziby": "90-478 Kielce, ul Piłsudskiego 167 m. 39",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000228059",
+    "NIP": "4082841847",
+    "REGON": "387031957",
+    "Data zezwolenia": "2019-08-30",
+    "Numer decyzji": "DFI/543/2021",
+    "CzlonekZarzadu1_PESEL": "85120441973",
+    "CzlonekZarzadu1_Imie": "Mateusz",
+    "CzlonekZarzadu1_Nazwisko": "Lewandowski"
+  },
+  {
+    "Firma lub nazwa": "Baltic Med Supply Polska S.A.",
+    "Adres siedziby": "ulica Długa 136,18-554 Poznań",
+    "Zakres czynności": "wykonywanie zleceń na rachunek klientów",
+    "KRS": "0000907162",
+    "NIP": "6772574425",
+    "REGON": "352598252",
+    "Data zezwolenia": "2025-09-12",
+    "Numer decyzji": "DFI/824/2019",
+    "CzlonekZarzadu1_PESEL": "94112902419",
+    "CzlonekZarzadu1_Imie": "Łukasz",
+    "CzlonekZarzadu1_Nazwisko": "Mazur"
+  },
+  {
+    "Firma lub nazwa": "Nebula Analytics Spółka Akcyjna",
+    "Adres siedziby": "77-902 Wrocław, ul Długa 48",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000573181",
+    "NIP": "0909597006",
+    "REGON": "639617349",
+    "Data zezwolenia": "2024-03-23",
+    "Numer decyzji": "DFI/311/2021",
+    "CzlonekZarzadu1_PESEL": "69111356088",
+    "CzlonekZarzadu1_Imie": "Magdalena",
+    "CzlonekZarzadu1_Nazwisko": "Kamińska"
+  },
+  {
+    "Firma lub nazwa": "Mazovia Broker Holding SP Z O O",
+    "Adres siedziby": "80-424 Bydgoszcz, ul Długa 22",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000631573",
+    "NIP": "7193553225",
+    "REGON": "750607112",
+    "Data zezwolenia": "2020-08-16",
+    "Numer decyzji": "DFI/239/2022",
+    "CzlonekZarzadu1_PESEL": "98122629366",
+    "CzlonekZarzadu1_Imie": "Maria",
+    "CzlonekZarzadu1_Nazwisko": "Wojciechowska"
+  },
+  {
+    "Firma lub nazwa": "Astra Finance sp z oo",
+    "Adres siedziby": "ulica Piłsudskiego 61/34, 54-817 Olsztyn",
+    "Zakres czynności": "przyjmowanie i przekazywanie zleceń",
+    "KRS": "0000914152",
+    "NIP": "2233884524",
+    "REGON": "918407797",
+    "Data zezwolenia": "2025-06-23",
+    "Numer decyzji": "DFI/528/2022",
+    "CzlonekZarzadu1_PESEL": "01292305853",
+    "CzlonekZarzadu1_Imie": "Piotr",
+    "CzlonekZarzadu1_Nazwisko": "Nowacki"
   }
 ]
