@@ -1,8 +1,9 @@
 import csv
 import io
 import json
+import re
 from collections import Counter
-from collections.abc import Mapping
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
 from datetime import date, datetime
 from typing import Any
@@ -32,6 +33,36 @@ SOURCE_RECORD_ID_CANDIDATE_KEYS = {
     candidate.strip().casefold()
     for candidate in SOURCE_RECORD_ID_CANDIDATES
 }
+# Wskazujemy daty PARTY do normalizacji, żeby staging trzymał DATE niezależnie od formatu źródła
+PARTY_DATE_COLUMNS = {
+    "Establishment_Date",
+    "Registration_Date",
+    "Deregistration_Date",
+    "Decision_Date",
+    "Last_Update_Date",
+    "Next_Renewal_Date",
+    "Direct_Parent_Relationship_Start_Date",
+    "Direct_Parent_Relationship_End_Date",
+    "Ultimate_Parent_Relationship_Start_Date",
+    "Ultimate_Parent_Relationship_End_Date",
+}
+
+# Mapujemy prefiksy KRS na role, żeby później zasilić factless person-party role
+KRS_PERSON_ROLE_PREFIXES = {
+    "CzlonekZarzadu": "BOARD_MEMBER",
+    "Prokurent": "PROXY",
+    "WspolnikOsoba": "PERSON_SHAREHOLDER",
+    "Likwidator": "LIQUIDATOR",
+    "CzlonekRadyNadzorczej": "SUPERVISORY_BOARD_MEMBER",
+}
+KRS_PERSON_ROLE_COLUMN_RE = re.compile(
+    r"^(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|CzlonekRadyNadzorczej)"
+    r"(\d+)_(Imie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
+)
+# Rozpoznajemy wspólników podmiotowych KRS, żeby zapisać ich jako relacje party-party
+KRS_PARTY_RELATIONSHIP_COLUMN_RE = re.compile(
+    r"^(WspolnikPodmiot)(\d+)_(Nazwa|KRS|NIP|DataOd|DataDo)$"
+)
 
 
 class RawFileNotFoundError(ValueError):
@@ -51,6 +82,10 @@ class InvalidRawFileContentError(ValueError):
 
 
 class MissingColumnMappingError(ValueError):
+    pass
+
+
+class RawFileAlreadyLoadedToStagingError(ValueError):
     pass
 
 
@@ -101,6 +136,7 @@ def parse_raw_file_records(file_type: str, file_content: bytes | None) -> list[d
     normalized_file_type = file_type.strip().upper()
 
     if normalized_file_type == "CSV":
+        # Dekodujemy CSV przez utf-8-sig, żeby BOM nie zepsuł nazwy pierwszej kolumny
         text = file_content.decode("utf-8-sig")
         reader = csv.DictReader(io.StringIO(text))
         if reader.fieldnames is None:
@@ -108,6 +144,7 @@ def parse_raw_file_records(file_type: str, file_content: bytes | None) -> list[d
         return [dict(row) for row in reader]
 
     if normalized_file_type == "JSON":
+        # Przyjmujemy obiekt i listę JSON, żeby staging działał dla pojedynczego rekordu i paczki
         parsed = json.loads(file_content.decode("utf-8-sig"))
         if isinstance(parsed, list):
             if not all(isinstance(record, Mapping) for record in parsed):
@@ -137,6 +174,7 @@ def parse_xlsx_records(file_content: bytes) -> list[dict[str, Any]]:
         ) from exc
 
     try:
+        # Otwieramy XLSX w trybie read_only, żeby większe pliki testowe nie zużywały zbędnej pamięci
         workbook = load_workbook(
             filename=io.BytesIO(file_content),
             read_only=True,
@@ -186,6 +224,7 @@ def parse_xml_records(file_content: bytes) -> list[dict[str, Any]]:
         fields = list(record_element.findall("field"))
 
         if fields:
+            # Czytamy nazwy XML z atrybutu name, żeby obsłużyć kolumny ze spacjami i polskimi znakami
             for field in fields:
                 field_name = field.attrib.get("name")
                 if field_name:
@@ -225,6 +264,17 @@ def load_raw_file_to_staging(
                 f"ImportBatch_ID={raw_file.ImportBatch_ID} does not exist."
             )
 
+        existing_staging_records = repo.count_staging_records_for_raw_file(
+            raw_file.RawFile_ID,
+            entity_type,
+        )
+        if existing_staging_records:
+            # Blokujemy drugi staging-load tego samego pliku, żeby nie zdublować rekordów w stagingu
+            raise RawFileAlreadyLoadedToStagingError(
+                f"RawFile_ID={raw_file.RawFile_ID} is already loaded to {entity_type} staging "
+                f"({existing_staging_records} records)."
+            )
+
         batch = repo.update_import_batch_status(batch, "PROCESSING")
         process_log = repo.create_staging_process_log(
             import_batch_id=batch.ImportBatch_ID,
@@ -234,6 +284,7 @@ def load_raw_file_to_staging(
         source_records = parse_raw_file_records(raw_file.File_Type, raw_file.File_Content)
         mapping = repo.get_column_mapping(batch.SourceSystem_ID, entity_type)
         if not mapping:
+            # Wymagamy mapowania kolumn, żeby odróżnić świadomie pominięte pola od błędu konfiguracji
             raise MissingColumnMappingError(
                 f"No ColumnMapping rows for SourceSystem_ID={batch.SourceSystem_ID} and Entity_Type={entity_type}."
             )
@@ -278,6 +329,12 @@ def load_raw_file_to_staging(
             missing_columns=count_report_columns(canonical_records, MISSING_COLUMNS_KEY),
             unrecognized_columns=count_report_columns(canonical_records, UNRECOGNIZED_COLUMNS_KEY),
         )
+
+    except RawFileAlreadyLoadedToStagingError:
+        if hasattr(repo, "rollback"):
+            repo.rollback()
+        # Cofamy transakcję bez FAILED, żeby powtórzone wywołanie nie psuło statusu poprawnego importu
+        raise
 
     except Exception as exc:
         error_message = str(exc)
@@ -324,9 +381,19 @@ def build_staging_record(
     if entity_type == "PERSON":
         staging_record["Birth_Date"] = parse_date_value(staging_record.get("Birth_Date"))
     else:
-        staging_record["Establishment_Date"] = parse_date_value(
-            staging_record.get("Establishment_Date")
+        # Normalizujemy wszystkie daty PARTY jednym przebiegiem, żeby insert dostał wartości typu date
+        for column in PARTY_DATE_COLUMNS:
+            staging_record[column] = parse_date_value(staging_record.get(column))
+        staging_record["Bank_Accounts_JSON"] = normalize_json_array_value(
+            staging_record.get("Bank_Accounts_JSON")
         )
+        # Składamy szerokie dane KRS do JSON, żeby później zasiliły tabele relacji i ról
+        related_persons_json = extract_related_persons_json(source_record)
+        related_parties_json = extract_related_parties_json(source_record)
+        if related_persons_json is not None:
+            staging_record["Related_Persons_JSON"] = related_persons_json
+        if related_parties_json is not None:
+            staging_record["Related_Parties_JSON"] = related_parties_json
 
     return staging_record
 
@@ -340,6 +407,7 @@ def detect_source_record_id(
     if canonical_source_record_id not in (None, ""):
         return str(canonical_source_record_id)
 
+    # Wybieramy stabilne ID rekordu, żeby lineage nie opierał się wyłącznie na numerze wiersza
     lookup = {
         str(column_name).strip().casefold(): value
         for column_name, value in source_record.items()
@@ -361,9 +429,121 @@ def parse_date_value(value: Any) -> date | None:
         return value
 
     try:
+        # Bierzemy pierwsze 10 znaków daty, żeby ISO datetime zapisać jako czysty DATE
         return date.fromisoformat(str(value)[:10])
     except ValueError:
         return None
+
+
+def normalize_json_array_value(value: Any) -> str | None:
+    if value in (None, ""):
+        return None
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return None
+        try:
+            parsed = json.loads(stripped)
+        except json.JSONDecodeError:
+            # Zamieniamy tekst kont VAT na listę, żeby staging zawsze trzymał poprawny JSON array
+            parsed = [part.strip() for part in stripped.split(",") if part.strip()]
+    else:
+        parsed = value
+
+    if isinstance(parsed, list):
+        return json.dumps(parsed, ensure_ascii=False, default=str)
+    return json.dumps([parsed], ensure_ascii=False, default=str)
+
+
+def extract_related_persons_json(source_record: Mapping[str, Any]) -> str | None:
+    # Zbieramy osoby z KRS do listy, żeby goldenizacja mogła budować role person-party
+    persons_by_key: dict[tuple[str, int], dict[str, Any]] = {}
+    field_map = {
+        "Imie": "first_name",
+        "Nazwisko": "last_name",
+        "PESEL": "pesel",
+        "Funkcja": "role_name",
+        "DataOd": "valid_from",
+        "DataDo": "valid_to",
+    }
+
+    for source_column, value in source_record.items():
+        if value in (None, ""):
+            continue
+        match = KRS_PERSON_ROLE_COLUMN_RE.match(str(source_column))
+        if not match:
+            continue
+
+        prefix, slot, field_name = match.groups()
+        key = (prefix, int(slot))
+        person = persons_by_key.setdefault(
+            key,
+            {
+                "role_group": KRS_PERSON_ROLE_PREFIXES[prefix],
+                "slot": int(slot),
+            },
+        )
+        person[field_map[field_name]] = value
+
+    return compact_json_or_none(persons_by_key.values())
+
+
+def extract_related_parties_json(source_record: Mapping[str, Any]) -> str | None:
+    # Zbieramy podmioty z KRS osobno, żeby goldenizacja mogła budować relacje party-party
+    parties_by_key: dict[tuple[str, int], dict[str, Any]] = {}
+    field_map = {
+        "Nazwa": "name",
+        "KRS": "krs",
+        "NIP": "nip",
+        "DataOd": "valid_from",
+        "DataDo": "valid_to",
+    }
+
+    for source_column, value in source_record.items():
+        if value in (None, ""):
+            continue
+        match = KRS_PARTY_RELATIONSHIP_COLUMN_RE.match(str(source_column))
+        if not match:
+            continue
+
+        prefix, slot, field_name = match.groups()
+        key = (prefix, int(slot))
+        party = parties_by_key.setdefault(
+            key,
+            {
+                "relationship_group": "PARTY_SHAREHOLDER",
+                "slot": int(slot),
+            },
+        )
+        party[field_map[field_name]] = value
+
+    return compact_json_or_none(parties_by_key.values())
+
+
+def compact_json_or_none(items: Iterable[Mapping[str, Any]]) -> str | None:
+    # Usuwamy puste sloty KRS, żeby JSON zawierał tylko relacje z realnymi danymi
+    compact_items = [
+        {
+            key: value
+            for key, value in item.items()
+            if value not in (None, "")
+        }
+        for item in items
+    ]
+    compact_items = [
+        item
+        for item in compact_items
+        if any(key != "slot" and value not in (None, "") for key, value in item.items())
+    ]
+    if not compact_items:
+        return None
+    compact_items.sort(
+        key=lambda item: (
+            str(item.get("role_group") or item.get("relationship_group")),
+            item["slot"],
+        )
+    )
+    return json.dumps(compact_items, ensure_ascii=False, default=str)
 
 
 def count_report_columns(
@@ -378,6 +558,7 @@ def count_report_columns(
                 report_key == UNRECOGNIZED_COLUMNS_KEY
                 and column_name.strip().casefold() in SOURCE_RECORD_ID_CANDIDATE_KEYS
             ):
+                # Pomijamy ID źródłowe w raporcie, żeby unrecognized pokazywało realne braki mapowania
                 continue
             counter.update([column_name])
     return dict(counter)

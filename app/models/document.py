@@ -5,6 +5,7 @@ from app.models.base import Base
 
 
 class Document(Base):
+    # Prosty model demo do sprawdzenia SQL, zapisu pliku i wyszukiwania tekstowego
     __tablename__ = "documents"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)

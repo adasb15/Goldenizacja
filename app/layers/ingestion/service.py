@@ -25,8 +25,7 @@ SUPPORTED_SOURCE_SYSTEMS = {
     "KNF_PRACOWNIK_AGENTA": "KNF Rejestr posrednikow ubezpieczeniowych - pracownik agenta",
     "KNF_FIRMY_INWESTYCYJNE": "KNF Rejestr firm inwestycyjnych",
     "KNF_PIENIADZ_ELEKTRONICZNY": "KNF Rejestr dostawcow i wydawcow pieniadza elektronicznego",
-    "GLEIF_L1": "GLEIF Level 1",
-    "GLEIF_L2": "GLEIF Level 2",
+    "GLEIF": "GLEIF"
 }
 
 
@@ -43,6 +42,7 @@ class InvalidFileContentError(ValueError):
 
 
 def _get_file_type(filename: str) -> str:
+    # Wyciągamy typ z rozszerzenia, żeby zapisać go w RAW i dobrać późniejszy parser stagingu
     suffix = Path(filename).suffix.lower().lstrip(".")
     if suffix not in SUPPORTED_FILE_TYPES:
         raise UnsupportedFileTypeError(
@@ -52,6 +52,7 @@ def _get_file_type(filename: str) -> str:
 
 
 def _validate_source_system_code(source_system_code: str) -> str:
+    # Normalizujemy kod źródła, żeby użytkownik w Postmanie nie musiał pilnować wielkości liter
     normalized = source_system_code.strip().upper()
     if normalized not in SUPPORTED_SOURCE_SYSTEMS:
         raise UnsupportedSourceSystemError(
@@ -66,6 +67,7 @@ def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
         raise InvalidFileContentError("Uploaded file is empty.")
 
     if file_type == "csv":
+        # Liczymy rekordy CSV bez nagłówka, żeby raw-load raportował rozmiar paczki przed mapowaniem
         text = content.decode("utf-8-sig")
         reader = csv.reader(io.StringIO(text))
         rows = list(reader)
@@ -74,6 +76,7 @@ def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
         return max(len(rows) - 1, 0)
 
     if file_type == "json":
+        # Obsługujemy obiekt i listę JSON, żeby raw-load przyjął pojedynczy rekord albo paczkę
         parsed = json.loads(content.decode("utf-8-sig"))
         if isinstance(parsed, list):
             return len(parsed)
@@ -82,11 +85,13 @@ def _validate_and_count_records(file_type: str, content: bytes) -> int | None:
         raise InvalidFileContentError("JSON root must be an object or an array.")
 
     if file_type == "xml":
+        # Liczymy elementy XML pierwszego poziomu, żeby RAW miał szybki licznik przed dokładnym stagingiem
         root = ElementTree.fromstring(content)
         return len(list(root))
 
     if file_type == "xlsx":
         try:
+            # Liczymy niepuste wiersze XLSX, żeby formatowanie arkusza nie zawyżało liczby rekordów
             workbook = load_workbook(
                 filename=io.BytesIO(content),
                 read_only=True,
@@ -119,6 +124,7 @@ def import_raw_file(
     source_system_code: str,
     created_by: str | None = None,
 ) -> RawLoadResponse:
+    # Importujemy plik do RAW bez czyszczenia, żeby zachować oryginalne dane dla kolejnych warstw
     source_system_code = _validate_source_system_code(source_system_code)
     repo = IngestionRepository(db)
     batch = None
@@ -132,11 +138,13 @@ def import_raw_file(
             source_system_code,
             SUPPORTED_SOURCE_SYSTEMS[source_system_code],
         )
+        # Tworzymy batch przed zapisem pliku, żeby każdy błąd miał wspólny kontekst importu
         batch = repo.create_import_batch(source.SourceSystem_ID, created_by)
         batch = repo.update_import_batch_status(batch, "PROCESSING")
 
         process_log = repo.create_process_log(batch.ImportBatch_ID)
 
+        # Liczymy hash pliku, żeby zablokować przypadkowy duplikat identycznego RAW
         file_hash = hashlib.sha256(content).hexdigest()
         raw_file = repo.insert_raw_file(
             import_batch_id=batch.ImportBatch_ID,
@@ -169,6 +177,7 @@ def import_raw_file(
 
     except IntegrityError as exc:
         db.rollback()
+        # Zamieniamy konflikt hasha na błąd walidacji, żeby użytkownik wiedział że plik już istnieje
         error_message = "File with this hash already exists."
 
         if process_log is not None:
@@ -180,6 +189,7 @@ def import_raw_file(
 
     except Exception as exc:
         db.rollback()
+        # Domykamy logi przy błędzie technicznym, żeby baza nie zostawiała importu w PROCESSING
         error_message = str(exc)
 
         if process_log is not None:

@@ -34,6 +34,7 @@ PERSON_CANONICAL_COLUMNS = {
     "Raw_Record_JSON",
 }
 
+# Definiujemy szeroki model PARTY, żeby staging miał dane pod rejestry, relacje i lineage golden
 PARTY_CANONICAL_COLUMNS = {
     "Source_Record_ID",
     "Name",
@@ -51,6 +52,43 @@ PARTY_CANONICAL_COLUMNS = {
     "District",
     "Province",
     "Country",
+    "Register_Status",
+    "Registration_Date",
+    "Deregistration_Date",
+    "Decision_Date",
+    "Decision_Number",
+    "Register_Number",
+    "Bank_Accounts_JSON",
+    "Has_Virtual_Accounts",
+    "Business_Scope",
+    "Ownership_Form",
+    "Municipality",
+    "Phone_Number",
+    "Email_Address",
+    "Website",
+    "Agent_Type",
+    "Insurance_Company",
+    "Related_Persons_JSON",
+    "Related_Parties_JSON",
+    "Registration_Status",
+    "Last_Update_Date",
+    "Next_Renewal_Date",
+    "Managing_LOU",
+    "Validation_Sources",
+    "Validation_Authority_ID",
+    "Validation_Authority_Entity_ID",
+    "Direct_Parent_LEI",
+    "Direct_Parent_Name",
+    "Direct_Parent_Relationship_Type",
+    "Direct_Parent_Relationship_Status",
+    "Direct_Parent_Relationship_Start_Date",
+    "Direct_Parent_Relationship_End_Date",
+    "Ultimate_Parent_LEI",
+    "Ultimate_Parent_Name",
+    "Ultimate_Parent_Relationship_Type",
+    "Ultimate_Parent_Relationship_Status",
+    "Ultimate_Parent_Relationship_Start_Date",
+    "Ultimate_Parent_Relationship_End_Date",
     "Raw_Record_JSON",
 }
 
@@ -59,6 +97,7 @@ CANONICAL_COLUMNS_BY_ENTITY_TYPE = {
     "PARTY": PARTY_CANONICAL_COLUMNS,
 }
 
+# Ujednolicamy nazwy identyfikatorów, żeby NIP/KRS/REGON trafiały do jednego JSON
 IDENTIFIER_KEY_ALIASES = {
     "nip": "NIP",
     "numernip": "NIP",
@@ -67,8 +106,22 @@ IDENTIFIER_KEY_ALIASES = {
     "krs": "KRS",
     "numerkrs": "KRS",
     "numerkrsagenta": "KRS",
+    "numeruknf": "UKNF",
     "lei": "LEI",
 }
+
+# Rozpoznajemy sloty KRS regexami, żeby później złożyć je do JSON relacji zamiast setek kolumn
+KRS_RELATED_PERSON_COLUMN_RE = re.compile(
+    r"^(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|CzlonekRadyNadzorczej)"
+    r"\d+_(Imie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
+)
+KRS_RELATED_PARTY_COLUMN_RE = re.compile(
+    r"^WspolnikPodmiot\d+_(Nazwa|KRS|NIP|DataOd|DataDo)$"
+)
+KRS_RELATED_COUNT_COLUMN_RE = re.compile(
+    r"^Liczba(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|"
+    r"CzlonekRadyNadzorczej|WspolnikPodmiot)$"
+)
 
 
 class UnsupportedEntityTypeError(ValueError):
@@ -89,6 +142,7 @@ def normalize_column_name(name: str) -> str:
 
 
 def get_source_value(source_record: Mapping[str, Any], source_column: str) -> tuple[bool, Any]:
+    # Szukamy wartości po nazwie i ścieżce, żeby ten sam mapping działał dla CSV oraz JSON/XML
     lookup = {
         normalize_column_name(str(column_name)): column_name
         for column_name in source_record.keys()
@@ -119,6 +173,7 @@ def get_source_value(source_record: Mapping[str, Any], source_column: str) -> tu
 
 
 def identifier_key_from_source_column(source_column: str) -> str:
+    # Wyciągamy typ identyfikatora z kolumny źródłowej, żeby wartości trafiły do poprawnego klucza JSON
     last_path_part = source_column.split(".")[-1]
     compact = re.sub(r"[^0-9a-zA-Z]+", "", last_path_part).casefold()
     if compact in IDENTIFIER_KEY_ALIASES:
@@ -129,6 +184,16 @@ def identifier_key_from_source_column(source_column: str) -> str:
         return IDENTIFIER_KEY_ALIASES[compact_full_name]
 
     return last_path_part.strip().upper()
+
+
+def is_structured_related_column(source_column: str) -> bool:
+    # Oznaczamy kolumny relacyjne jako obsłużone, żeby raport unrecognized nie zgłaszał danych KRS
+    column = source_column.strip()
+    return bool(
+        KRS_RELATED_PERSON_COLUMN_RE.match(column)
+        or KRS_RELATED_PARTY_COLUMN_RE.match(column)
+        or KRS_RELATED_COUNT_COLUMN_RE.match(column)
+    )
 
 
 def map_record_to_canonical(
@@ -155,6 +220,7 @@ def map_record_to_canonical(
             continue
 
         if entity_type == "PARTY" and canonical_column == "Identifiers_JSON":
+            # Składamy identyfikatory z JSON albo pojedynczych kolumn, żeby PARTY miało jeden format wyjścia
             identifier_values: Mapping[str, Any] | None = None
 
             if isinstance(value, Mapping):
@@ -208,6 +274,7 @@ def map_record_to_canonical(
         for source_column in source_record.keys()
         if normalize_column_name(str(source_column)) not in mapped_columns
         and normalize_column_name(str(source_column)) not in mapped_top_level_columns
+        and not is_structured_related_column(str(source_column))
     ]
     return canonical_record
 

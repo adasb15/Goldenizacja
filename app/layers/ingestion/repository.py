@@ -11,6 +11,7 @@ class IngestionRepository:
         self.db = db
 
     def get_or_create_source_system(self, code: str, name: str | None = None) -> SourceSystem:
+        # Pobieramy albo tworzymy źródło, żeby raw-load działał także na świeżej bazie bez seeda
         source = self.db.scalar(
             select(SourceSystem).where(SourceSystem.SourceSystem_Code == code)
         )
@@ -28,6 +29,7 @@ class IngestionRepository:
         return source
 
     def create_import_batch(self, source_system_id: int, created_by: str | None) -> ImportBatch:
+        # Tworzymy batch jako NEW, żeby import miał identyfikator jeszcze przed etapem PROCESSING
         batch = ImportBatch(
             SourceSystem_ID=source_system_id,
             Import_Status="NEW",
@@ -45,6 +47,7 @@ class IngestionRepository:
         error_message: str | None = None,
         finish: bool = False,
     ) -> ImportBatch:
+        # Aktualizujemy status batcha, żeby kolejne warstwy wiedziały czy mogą pracować dalej
         batch.Import_Status = status
         batch.Error_Message = error_message
         if finish:
@@ -56,6 +59,7 @@ class IngestionRepository:
         return batch
 
     def create_process_log(self, import_batch_id: int) -> ProcessLog:
+        # Zakładamy log kroku, żeby było widać gdzie import się zaczął i gdzie ewentualnie stanął
         log = ProcessLog(
             ImportBatch_ID=import_batch_id,
             Step_Name="RAW_LOAD",
@@ -75,6 +79,7 @@ class IngestionRepository:
         records_out: int | None = None,
         error_message: str | None = None,
     ) -> ProcessLog:
+        # Domykamy log z licznikami, żeby odpowiedź API i diagnostyka pokazywały ten sam stan
         log.Step_Status = status
         log.RawFile_ID = raw_file_id
         log.Records_In = records_in
@@ -96,6 +101,7 @@ class IngestionRepository:
         file_hash: str,
         file_content: bytes,
     ) -> RawFile:
+        # Zapisujemy plik jako bajty, żeby staging czytał dokładnie tę wersję danych co raw-load
         raw_file = RawFile(
             ImportBatch_ID=import_batch_id,
             File_Name=file_name,

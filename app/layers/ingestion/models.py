@@ -7,6 +7,7 @@ from app.models.base import Base
 
 
 class SourceSystem(Base):
+    # Trzymamy słownik źródeł, żeby mapowania i poziom zaufania były przypięte do rejestru
     __tablename__ = "SourceSystem"
     __table_args__ = {"schema": "meta"}
 
@@ -18,6 +19,7 @@ class SourceSystem(Base):
 
 
 class ImportBatch(Base):
+    # Grupujemy import w batch, żeby kolejne warstwy mogły śledzić jeden przebieg danych
     __tablename__ = "ImportBatch"
     __table_args__ = {"schema": "meta"}
 
@@ -36,6 +38,7 @@ class ImportBatch(Base):
 
 
 class RawFile(Base):
+    # Zapisujemy oryginalny plik w RAW, żeby staging mógł odtworzyć import bez ponownego uploadu
     __tablename__ = "RawFile"
     __table_args__ = {"schema": "raw"}
 
@@ -54,6 +57,7 @@ class RawFile(Base):
 
 
 class ProcessLog(Base):
+    # Logujemy kroki procesu, żeby diagnozować status, liczniki rekordów i błędy importu
     __tablename__ = "ProcessLog"
     __table_args__ = {"schema": "meta"}
 
