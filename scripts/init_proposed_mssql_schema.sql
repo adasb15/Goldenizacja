@@ -116,12 +116,26 @@ BEGIN
         CONSTRAINT [FK_ProcessLog_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION'
+            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
         )),
         CONSTRAINT [CK_ProcessLog_Step_Status] CHECK ([Step_Status] IN (
             N'STARTED', N'SUCCESS', N'FAILED'
         ))
     );
+END;
+GO
+
+IF EXISTS (
+    SELECT 1
+    FROM sys.check_constraints
+    WHERE [name] = N'CK_ProcessLog_Step_Name'
+    AND parent_object_id = OBJECT_ID(N'meta.ProcessLog')
+)
+BEGIN
+    ALTER TABLE [meta].[ProcessLog] DROP CONSTRAINT [CK_ProcessLog_Step_Name];
+    ALTER TABLE [meta].[ProcessLog] ADD CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
+        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+    ));
 END;
 GO
 
@@ -420,6 +434,36 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Validation_Result] (
+        [Validation_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [Preprocessed_ID] BIGINT NULL,
+        [Validation_Level] NVARCHAR(30) NOT NULL,
+        [Rule_Code] NVARCHAR(100) NOT NULL,
+        [Field_Name] NVARCHAR(100) NOT NULL,
+        [Severity] NVARCHAR(20) NOT NULL,
+        [Status] NVARCHAR(20) NOT NULL,
+        [Message] NVARCHAR(MAX) NOT NULL,
+        [Checked_Value] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Validation_Result_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Validation_Result] PRIMARY KEY CLUSTERED ([Validation_ID]),
+        CONSTRAINT [FK_Validation_Result_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Validation_Result_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [CK_Validation_Result_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Validation_Result_Level] CHECK ([Validation_Level] IN (N'STAGING', N'PREPROCESSING')),
+        CONSTRAINT [CK_Validation_Result_Severity] CHECK ([Severity] IN (N'INFO', N'WARNING', N'ERROR')),
+        CONSTRAINT [CK_Validation_Result_Status] CHECK ([Status] IN (N'PASS', N'WARNING', N'ERROR'))
+    );
+END;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_ImportBatch_SourceSystem_ID' AND object_id = OBJECT_ID(N'[meta].[ImportBatch]'))
     CREATE INDEX [IX_ImportBatch_SourceSystem_ID] ON [meta].[ImportBatch] ([SourceSystem_ID]);
 GO
@@ -474,6 +518,14 @@ GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_Match] ON [stg].[Party_Preprocessed] ([NIP_Normalized], [REGON_Normalized], [KRS_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
+    CREATE INDEX [IX_Validation_Result_RawFile_Entity] ON [stg].[Validation_Result] ([RawFile_ID], [Entity_Type]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_Status' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
+    CREATE INDEX [IX_Validation_Result_Status] ON [stg].[Validation_Result] ([Status], [Rule_Code]);
 GO
 
 MERGE [meta].[SourceSystem] AS target
