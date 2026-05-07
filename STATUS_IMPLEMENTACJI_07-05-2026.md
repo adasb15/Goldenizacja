@@ -2,7 +2,7 @@
 
 ## Cel dokumentu
 
-Dokument przedstawia aktualny stan implementacji systemu odpowiedzialnego za przyjęcie danych źródłowych, zapis ich w warstwie RAW, przygotowanie wspólnego modelu stagingowego, preprocessing oraz walidację jakości danych. Jest to wersja przeznaczona do omówienia z opiekunami projektu.
+Dokument przedstawia aktualny stan implementacji systemu odpowiedzialnego za przyjęcie danych źródłowych, zapis ich w warstwie RAW, przygotowanie wspólnego modelu stagingowego, preprocessing oraz walidację danych.
 
 ## Aktualny zakres procesu
 
@@ -44,7 +44,7 @@ Warstwy integracji do golden recordów, analityki i serwowania danych mają przy
 Aktualna architektura rozdziela odpowiedzialności między warstwami:
 
 ```text
-RAW -> STAGING -> PREPROCESSING -> VALIDATION -> WIP
+RAW -> STAGING -> PREPROCESSING -> VALIDATION -> work in progress
 ```
 
 Takie rozdzielenie jest istotne, ponieważ każda warstwa ma inne zadanie:
@@ -133,7 +133,7 @@ Staging wykonuje tylko minimalne czyszczenie:
 - usuwa białe znaki z początku i końca wartości
 - usuwa znaki niedrukowalne
 
-Staging nie wykonuje splitowania adresów. Jest to świadoma decyzja projektowa: staging ma zachować dane po mapowaniu, a nie tworzyć interpretacje adresów. Split adresu jest wykonywany dopiero w preprocessingu.
+Staging nie wykonuje splitowania adresów - staging ma zachować dane po mapowaniu, a nie tworzyć interpretacje adresów. Split adresu jest wykonywany dopiero w preprocessingu.
 
 ## Unifikacja typów w stagingu
 
@@ -308,6 +308,6 @@ Wynik:
 
 ## Wnioski
 
-Zrealizowana część systemu obejmuje przepływ od przyjęcia pliku źródłowego do kontroli jakości danych po preprocessingu. System zachowuje oryginał danych, rejestruje przebieg importu, mapuje dane do wspólnego modelu, przygotowuje wartości porównawcze i zapisuje wyniki walidacji bez przerywania procesu przy błędnych rekordach.
+Zrealizowana część systemu obejmuje przepływ od przyjęcia pliku źródłowego do walidacji danych po preprocessingu. System zachowuje oryginał danych, rejestruje przebieg importu, mapuje dane do wspólnego modelu, przygotowuje wartości porównawcze i zapisuje wyniki walidacji bez przerywania procesu przy błędnych rekordach.
 
 Najważniejszym kolejnym krokiem jest wykorzystanie danych stagingowych, preprocessingowych i wyników walidacji do właściwego matchingu oraz budowy golden recordów.
