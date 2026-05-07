@@ -49,7 +49,7 @@ class PersonStaging(Base):
     Family_Name: Mapped[str | None] = mapped_column(String(100), nullable=True)
     Birth_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
     Place_Of_Birth: Mapped[str | None] = mapped_column(String(150), nullable=True)
-    Sex: Mapped[str | None] = mapped_column(String(1), nullable=True)
+    Sex: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
     Citizenship: Mapped[str | None] = mapped_column(String(100), nullable=True)
     Phone_Number: Mapped[str | None] = mapped_column(String(50), nullable=True)
     Email_Address: Mapped[str | None] = mapped_column(String(255), nullable=True)

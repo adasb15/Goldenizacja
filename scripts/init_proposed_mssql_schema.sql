@@ -141,7 +141,7 @@ BEGIN
         [Family_Name] NVARCHAR(100) NULL,
         [Birth_Date] DATE NULL,
         [Place_Of_Birth] NVARCHAR(150) NULL,
-        [Sex] NCHAR(1) NULL,
+        [Sex] BIT NULL,
         [Citizenship] NVARCHAR(100) NULL,
         [Phone_Number] NVARCHAR(50) NULL,
         [Email_Address] NVARCHAR(255) NULL,
@@ -161,11 +161,32 @@ BEGIN
             REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
         CONSTRAINT [FK_Person_Staging_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
-        CONSTRAINT [CK_Person_Staging_Sex] CHECK ([Sex] IS NULL OR [Sex] IN (N'K', N'M')),
         CONSTRAINT [CK_Person_Staging_Raw_JSON] CHECK ([Raw_Record_JSON] IS NULL OR ISJSON([Raw_Record_JSON]) = 1)
     );
 END;
 GO
+
+IF OBJECT_ID(N'[stg].[Person_Staging]', N'U') IS NOT NULL
+AND EXISTS (
+    SELECT 1
+    FROM sys.check_constraints
+    WHERE [name] = N'CK_Person_Staging_Sex'
+    AND parent_object_id = OBJECT_ID(N'stg.Person_Staging')
+)
+    ALTER TABLE [stg].[Person_Staging] DROP CONSTRAINT [CK_Person_Staging_Sex];
+
+IF COL_LENGTH(N'stg.Person_Staging', N'Sex') IS NOT NULL
+AND TYPE_NAME(COLUMNPROPERTY(OBJECT_ID(N'stg.Person_Staging'), N'Sex', 'SystemTypeId')) <> N'bit'
+BEGIN
+    UPDATE [stg].[Person_Staging]
+    SET [Sex] = CASE
+        WHEN [Sex] IN (N'K', N'k', N'1') THEN N'1'
+        WHEN [Sex] IN (N'M', N'm', N'0') THEN N'0'
+        ELSE NULL
+    END;
+
+    ALTER TABLE [stg].[Person_Staging] ALTER COLUMN [Sex] BIT NULL;
+END;
 
 IF OBJECT_ID(N'[stg].[Party_Staging]', N'U') IS NULL
 BEGIN

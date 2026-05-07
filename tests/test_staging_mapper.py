@@ -63,6 +63,33 @@ class StagingMapperTests(unittest.TestCase):
         self.assertEqual(result[MISSING_COLUMNS_KEY], [])
         self.assertEqual(result[UNRECOGNIZED_COLUMNS_KEY], [])
 
+    def test_maps_person_sex_to_bit_values(self) -> None:
+        female_record = build_staging_record(
+            canonical_record={
+                "PESEL": "90010112345",
+                "Sex": "kobieta",
+            },
+            source_record={"PESEL": "90010112345"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PERSON",
+            row_number=1,
+        )
+        male_record = build_staging_record(
+            canonical_record={
+                "PESEL": "90010112346",
+                "Sex": "M",
+            },
+            source_record={"PESEL": "90010112346"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PERSON",
+            row_number=2,
+        )
+
+        self.assertEqual(female_record["Sex"], True)
+        self.assertEqual(male_record["Sex"], False)
+
     def test_maps_nested_json_paths(self) -> None:
         source_record = {
             "firma": {

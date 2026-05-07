@@ -51,6 +51,8 @@ PARTY_BOOLEAN_COLUMNS = {
 }
 TRUE_VALUES = {"1", "true", "t", "yes", "y", "tak", "prawda"}
 FALSE_VALUES = {"0", "false", "f", "no", "n", "nie", "falsz", "fałsz"}
+FEMALE_VALUES = {"1", "k", "kobieta", "female", "f"}
+MALE_VALUES = {"0", "m", "mezczyzna", "mężczyzna", "male"}
 
 # Mapujemy prefiksy KRS na role, żeby później zasilić factless person-party role
 KRS_PERSON_ROLE_PREFIXES = {
@@ -403,6 +405,7 @@ def build_staging_record(
 
     if entity_type == "PERSON":
         staging_record["Birth_Date"] = parse_date_value(staging_record.get("Birth_Date"))
+        staging_record["Sex"] = parse_sex_value(staging_record.get("Sex"))
     else:
         # Normalizujemy wszystkie daty PARTY jednym przebiegiem, żeby insert dostał wartości typu date
         for column in PARTY_DATE_COLUMNS:
@@ -658,6 +661,17 @@ def parse_bool_value(value: Any) -> bool | None:
     if normalized_value in TRUE_VALUES:
         return True
     if normalized_value in FALSE_VALUES:
+        return False
+    return None
+
+
+def parse_sex_value(value: Any) -> bool | None:
+    if value in (None, ""):
+        return None
+    normalized_value = str(value).strip().casefold()
+    if normalized_value in FEMALE_VALUES:
+        return True
+    if normalized_value in MALE_VALUES:
         return False
     return None
 
