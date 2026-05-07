@@ -334,7 +334,7 @@ class StagingMapperTests(unittest.TestCase):
 
         self.assertEqual(json.loads(staging_record["Bank_Accounts_JSON"]), ["111", "222"])
 
-    def test_splits_street_building_and_apartment_from_address_line(self) -> None:
+    def test_preserves_party_address_line_in_staging(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "Name": "Address Company",
@@ -347,9 +347,9 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], "Krotka")
-        self.assertEqual(staging_record["Building_Number"], "122")
-        self.assertEqual(staging_record["Apartment_Number"], "64")
+        self.assertEqual(staging_record["Street"], "ulica Krotka 122/64")
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
 
     def test_sanitizes_staging_text_values_before_insert(self) -> None:
         staging_record = build_staging_record(
@@ -365,12 +365,12 @@ class StagingMapperTests(unittest.TestCase):
         )
 
         self.assertEqual(staging_record["Name"], "Dirty Company")
-        self.assertEqual(staging_record["Street"], "Testowa")
-        self.assertEqual(staging_record["Building_Number"], "12")
-        self.assertEqual(staging_record["Apartment_Number"], "3")
+        self.assertEqual(staging_record["Street"], "ul. Testowa 12/3")
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
         self.assertEqual(staging_record["Source_Record_ID"], "SRC-1")
 
-    def test_splits_person_street_building_and_apartment_from_address_line(self) -> None:
+    def test_preserves_person_address_line_in_staging(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "PESEL": "90010112345",
@@ -383,11 +383,11 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], "Kosciuszki")
-        self.assertEqual(staging_record["Building_Number"], "174")
-        self.assertEqual(staging_record["Apartment_Number"], "39")
+        self.assertEqual(staging_record["Street"], "ul. Kosciuszki 174/39")
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
 
-    def test_splits_full_address_from_street_line(self) -> None:
+    def test_preserves_full_address_mapped_to_street(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "Name": "Full Address Company",
@@ -400,13 +400,13 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], "Baltycka")
-        self.assertEqual(staging_record["Building_Number"], "136")
-        self.assertEqual(staging_record["Apartment_Number"], "11")
-        self.assertEqual(staging_record["Postal_Code"], "66-157")
-        self.assertEqual(staging_record["City"], "Bydgoszcz")
+        self.assertEqual(staging_record["Street"], "Baltycka 136/11, 66-157 Bydgoszcz")
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
+        self.assertIsNone(staging_record["Postal_Code"])
+        self.assertIsNone(staging_record["City"])
 
-    def test_splits_full_address_from_postal_city_line(self) -> None:
+    def test_preserves_full_address_mapped_to_postal_city(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "Name": "Postal City Company",
@@ -419,14 +419,14 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], "Baltycka")
-        self.assertEqual(staging_record["Building_Number"], "152")
-        self.assertEqual(staging_record["Apartment_Number"], None)
-        self.assertEqual(staging_record["Postal_Code"], "82-801")
-        self.assertEqual(staging_record["City"], "Krakow")
-        self.assertEqual(staging_record["Postal_City"], None)
+        self.assertIsNone(staging_record["Street"])
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
+        self.assertIsNone(staging_record["Postal_Code"])
+        self.assertIsNone(staging_record["City"])
+        self.assertEqual(staging_record["Postal_City"], "82-801 Krakow, ul Baltycka 152")
 
-    def test_splits_city_street_line_when_postal_code_is_separate(self) -> None:
+    def test_preserves_city_line_even_when_it_contains_street_details(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "PESEL": "90010112345",
@@ -440,13 +440,13 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], "Lakowa")
-        self.assertEqual(staging_record["Building_Number"], "38")
-        self.assertEqual(staging_record["Apartment_Number"], "43")
+        self.assertIsNone(staging_record["Street"])
+        self.assertIsNone(staging_record["Building_Number"])
+        self.assertIsNone(staging_record["Apartment_Number"])
         self.assertEqual(staging_record["Postal_Code"], "44-508")
-        self.assertEqual(staging_record["City"], "Rzeszow")
+        self.assertEqual(staging_record["City"], "Rzeszow, ul Lakowa 38 m. 43")
 
-    def test_moves_postal_city_line_out_of_street(self) -> None:
+    def test_preserves_postal_city_line_mapped_to_street(self) -> None:
         staging_record = build_staging_record(
             canonical_record={
                 "PESEL": "90010112345",
@@ -459,9 +459,9 @@ class StagingMapperTests(unittest.TestCase):
             row_number=3,
         )
 
-        self.assertEqual(staging_record["Street"], None)
-        self.assertEqual(staging_record["Postal_Code"], "54-172")
-        self.assertEqual(staging_record["City"], "Rzeszow")
+        self.assertEqual(staging_record["Street"], "54-172 Rzeszow")
+        self.assertIsNone(staging_record["Postal_Code"])
+        self.assertIsNone(staging_record["City"])
 
     def test_parses_xml_records_with_field_name_attributes(self) -> None:
         xml_content = b"""<?xml version="1.0" encoding="UTF-8"?>
