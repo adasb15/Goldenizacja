@@ -63,6 +63,19 @@ KRS_PERSON_ROLE_COLUMN_RE = re.compile(
 KRS_PARTY_RELATIONSHIP_COLUMN_RE = re.compile(
     r"^(WspolnikPodmiot)(\d+)_(Nazwa|KRS|NIP|DataOd|DataDo)$"
 )
+ADDRESS_PREFIX_RE = re.compile(r"^(?:ul\.?|ulica|al\.?|aleja)\s+", re.IGNORECASE)
+APARTMENT_PREFIX_RE = re.compile(r"\s+(?:m\.?|lok\.?|lokal)\s+", re.IGNORECASE)
+FULL_ADDRESS_STREET_FIRST_RE = re.compile(
+    r"^\s*(?P<street_part>.+?),\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>.+?)\s*$"
+)
+FULL_ADDRESS_POSTAL_FIRST_RE = re.compile(
+    r"^\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>[^,]+?),\s*(?P<street_part>.+?)\s*$"
+)
+CITY_STREET_LINE_RE = re.compile(r"^\s*(?P<city>[^,]+?),\s*(?P<street_part>.+?)\s*$")
+POSTAL_CITY_LINE_RE = re.compile(r"^\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>.+?)\s*$")
+STREET_BUILDING_LINE_RE = re.compile(
+    r"^\s*(?P<street>.+?)\s+(?P<building>\d+[A-Za-z]?(?:[-/]\d+[A-Za-z]?)?)\s*$"
+)
 
 
 class RawFileNotFoundError(ValueError):
@@ -377,6 +390,7 @@ def build_staging_record(
         source_record,
         row_number,
     )
+    split_address_fields(staging_record)
 
     if entity_type == "PERSON":
         staging_record["Birth_Date"] = parse_date_value(staging_record.get("Birth_Date"))
@@ -396,6 +410,144 @@ def build_staging_record(
             staging_record["Related_Parties_JSON"] = related_parties_json
 
     return staging_record
+
+
+def split_address_fields(staging_record: dict[str, Any]) -> None:
+    for column in ("Street", "Postal_City", "City"):
+        address_line = get_clean_string(staging_record.get(column))
+        if not address_line:
+            continue
+
+        if split_full_address_line(staging_record, address_line, column):
+            continue
+
+        if column == "Street":
+            split_street_line(staging_record, address_line)
+
+
+def split_full_address_line(
+    staging_record: dict[str, Any],
+    address_line: str,
+    source_column: str,
+) -> bool:
+    for pattern in (FULL_ADDRESS_STREET_FIRST_RE, FULL_ADDRESS_POSTAL_FIRST_RE):
+        full_match = pattern.match(address_line)
+        if full_match:
+            # Rozbijamy pełną linię adresu, żeby staging nie trzymał miasta i kodu w ulicy
+            set_address_part(
+                staging_record,
+                "Postal_Code",
+                full_match.group("postal_code").strip(),
+                source_column,
+            )
+            set_address_part(
+                staging_record,
+                "City",
+                full_match.group("city").strip(),
+                source_column,
+            )
+            split_street_line(staging_record, full_match.group("street_part"))
+            clear_embedded_address_source(staging_record, source_column)
+            return True
+
+    city_street_match = CITY_STREET_LINE_RE.match(address_line)
+    if city_street_match and looks_like_street_line(city_street_match.group("street_part")):
+        # Obsługujemy przypadek miasto-ulica, gdy kod pocztowy przyszedł już osobną kolumną
+        set_address_part(
+            staging_record,
+            "City",
+            city_street_match.group("city").strip(),
+            source_column,
+        )
+        split_street_line(staging_record, city_street_match.group("street_part"))
+        clear_embedded_address_source(staging_record, source_column)
+        return True
+
+    postal_city_match = POSTAL_CITY_LINE_RE.match(address_line)
+    if postal_city_match:
+        # Rozdzielamy linię kod-miasto, żeby adres bez ulicy nie udawał nazwy ulicy
+        set_address_part(
+            staging_record,
+            "Postal_Code",
+            postal_city_match.group("postal_code"),
+            source_column,
+        )
+        set_address_part(
+            staging_record,
+            "City",
+            postal_city_match.group("city"),
+            source_column,
+        )
+        if source_column == "Street":
+            staging_record["Street"] = None
+        return True
+
+    return False
+
+
+def split_street_line(staging_record: dict[str, Any], street_line: str) -> None:
+    normalized_line = normalize_street_line(street_line)
+    if not normalized_line:
+        staging_record["Street"] = None
+        return
+
+    street_match = STREET_BUILDING_LINE_RE.match(normalized_line)
+    if not street_match:
+        staging_record["Street"] = normalized_line
+        return
+
+    # Oddzielamy nazwę ulicy od numeru, żeby finalny DIM_ADDRESS dostał osobne pola adresowe
+    building_number, apartment_number = split_building_and_apartment(
+        street_match.group("building")
+    )
+    staging_record["Street"] = street_match.group("street").strip()
+    staging_record["Building_Number"] = staging_record.get("Building_Number") or building_number
+    staging_record["Apartment_Number"] = staging_record.get("Apartment_Number") or apartment_number
+
+
+def normalize_street_line(value: str) -> str:
+    without_prefix = ADDRESS_PREFIX_RE.sub("", value).strip()
+    return APARTMENT_PREFIX_RE.sub("/", without_prefix).strip()
+
+
+def looks_like_street_line(value: str) -> bool:
+    return STREET_BUILDING_LINE_RE.match(normalize_street_line(value)) is not None
+
+
+def clear_embedded_address_source(staging_record: dict[str, Any], source_column: str) -> None:
+    if source_column == "Street":
+        return
+    if source_column == "City":
+        staging_record[source_column] = staging_record.get("City")
+    else:
+        staging_record[source_column] = None
+
+
+def set_address_part(
+    staging_record: dict[str, Any],
+    target_column: str,
+    value: str,
+    source_column: str,
+) -> None:
+    current_value = staging_record.get(target_column)
+    if source_column == target_column or current_value in (None, ""):
+        staging_record[target_column] = value
+
+
+def get_clean_string(value: Any) -> str | None:
+    if value in (None, ""):
+        return None
+    cleaned_value = str(value).strip()
+    return cleaned_value or None
+
+
+def split_building_and_apartment(value: str) -> tuple[str, str | None]:
+    if "/" not in value:
+        return value, None
+
+    # Slash w danych testowych oznacza numer lokalu, więc zapisujemy go osobno od posesji
+    building_number, apartment_number = value.split("/", 1)
+    return building_number.strip(), apartment_number.strip() or None
 
 
 def detect_source_record_id(

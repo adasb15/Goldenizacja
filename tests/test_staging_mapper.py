@@ -273,6 +273,116 @@ class StagingMapperTests(unittest.TestCase):
 
         self.assertEqual(json.loads(staging_record["Bank_Accounts_JSON"]), ["111", "222"])
 
+    def test_splits_street_building_and_apartment_from_address_line(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "Name": "Address Company",
+                "Street": "ulica Krotka 122/64",
+            },
+            source_record={"nip": "1234567890"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], "Krotka")
+        self.assertEqual(staging_record["Building_Number"], "122")
+        self.assertEqual(staging_record["Apartment_Number"], "64")
+
+    def test_splits_person_street_building_and_apartment_from_address_line(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "PESEL": "90010112345",
+                "Street": "ul. Kosciuszki 174/39",
+            },
+            source_record={"PESEL": "90010112345"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PERSON",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], "Kosciuszki")
+        self.assertEqual(staging_record["Building_Number"], "174")
+        self.assertEqual(staging_record["Apartment_Number"], "39")
+
+    def test_splits_full_address_from_street_line(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "Name": "Full Address Company",
+                "Street": "Baltycka 136/11, 66-157 Bydgoszcz",
+            },
+            source_record={"nip": "1234567890"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], "Baltycka")
+        self.assertEqual(staging_record["Building_Number"], "136")
+        self.assertEqual(staging_record["Apartment_Number"], "11")
+        self.assertEqual(staging_record["Postal_Code"], "66-157")
+        self.assertEqual(staging_record["City"], "Bydgoszcz")
+
+    def test_splits_full_address_from_postal_city_line(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "Name": "Postal City Company",
+                "Postal_City": "82-801 Krakow, ul Baltycka 152",
+            },
+            source_record={"nip": "1234567890"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], "Baltycka")
+        self.assertEqual(staging_record["Building_Number"], "152")
+        self.assertEqual(staging_record["Apartment_Number"], None)
+        self.assertEqual(staging_record["Postal_Code"], "82-801")
+        self.assertEqual(staging_record["City"], "Krakow")
+        self.assertEqual(staging_record["Postal_City"], None)
+
+    def test_splits_city_street_line_when_postal_code_is_separate(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "PESEL": "90010112345",
+                "City": "Rzeszow, ul Lakowa 38 m. 43",
+                "Postal_Code": "44-508",
+            },
+            source_record={"PESEL": "90010112345"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PERSON",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], "Lakowa")
+        self.assertEqual(staging_record["Building_Number"], "38")
+        self.assertEqual(staging_record["Apartment_Number"], "43")
+        self.assertEqual(staging_record["Postal_Code"], "44-508")
+        self.assertEqual(staging_record["City"], "Rzeszow")
+
+    def test_moves_postal_city_line_out_of_street(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "PESEL": "90010112345",
+                "Street": "54-172 Rzeszow",
+            },
+            source_record={"PESEL": "90010112345"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PERSON",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Street"], None)
+        self.assertEqual(staging_record["Postal_Code"], "54-172")
+        self.assertEqual(staging_record["City"], "Rzeszow")
+
     def test_parses_xml_records_with_field_name_attributes(self) -> None:
         xml_content = b"""<?xml version="1.0" encoding="UTF-8"?>
 <dataset name="gleif">
