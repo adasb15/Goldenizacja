@@ -342,6 +342,84 @@ IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Relationship_End_Date') IS
     ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Relationship_End_Date] DATE NULL;
 GO
 
+IF OBJECT_ID(N'[stg].[Person_Preprocessed]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Person_Preprocessed] (
+        [Preprocessed_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [PESEL_Normalized] NVARCHAR(20) NULL,
+        [First_Name_Normalized] NVARCHAR(100) NULL,
+        [Second_Name_Normalized] NVARCHAR(100) NULL,
+        [Last_Name_Normalized] NVARCHAR(100) NULL,
+        [Family_Name_Normalized] NVARCHAR(100) NULL,
+        [Full_Name_Normalized] NVARCHAR(255) NULL,
+        [Phone_Normalized] NVARCHAR(50) NULL,
+        [Email_Normalized] NVARCHAR(255) NULL,
+        [Street_Normalized] NVARCHAR(150) NULL,
+        [Building_Number_Normalized] NVARCHAR(30) NULL,
+        [Apartment_Number_Normalized] NVARCHAR(30) NULL,
+        [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [Country_Normalized] NVARCHAR(100) NULL,
+        [Full_Address_Normalized] NVARCHAR(500) NULL,
+        [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Person_Preprocessed_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Person_Preprocessed] PRIMARY KEY CLUSTERED ([Preprocessed_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_Staging] FOREIGN KEY ([Staging_ID])
+            REFERENCES [stg].[Person_Staging] ([Staging_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [UQ_Person_Preprocessed_Staging] UNIQUE ([Staging_ID]),
+        CONSTRAINT [CK_Person_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[stg].[Party_Preprocessed]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Party_Preprocessed] (
+        [Preprocessed_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [Name_Normalized] NVARCHAR(255) NULL,
+        [Short_Name_Normalized] NVARCHAR(255) NULL,
+        [Legal_Entity_Type_Normalized] NVARCHAR(100) NULL,
+        [NIP_Normalized] NVARCHAR(20) NULL,
+        [REGON_Normalized] NVARCHAR(20) NULL,
+        [KRS_Normalized] NVARCHAR(20) NULL,
+        [LEI_Normalized] NVARCHAR(30) NULL,
+        [Phone_Normalized] NVARCHAR(50) NULL,
+        [Email_Normalized] NVARCHAR(255) NULL,
+        [Website_Normalized] NVARCHAR(255) NULL,
+        [Street_Normalized] NVARCHAR(150) NULL,
+        [Building_Number_Normalized] NVARCHAR(30) NULL,
+        [Apartment_Number_Normalized] NVARCHAR(30) NULL,
+        [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [Country_Normalized] NVARCHAR(100) NULL,
+        [Full_Address_Normalized] NVARCHAR(500) NULL,
+        [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Party_Preprocessed_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Party_Preprocessed] PRIMARY KEY CLUSTERED ([Preprocessed_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_Staging] FOREIGN KEY ([Staging_ID])
+            REFERENCES [stg].[Party_Staging] ([Staging_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [UQ_Party_Preprocessed_Staging] UNIQUE ([Staging_ID]),
+        CONSTRAINT [CK_Party_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
+    );
+END;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_ImportBatch_SourceSystem_ID' AND object_id = OBJECT_ID(N'[meta].[ImportBatch]'))
     CREATE INDEX [IX_ImportBatch_SourceSystem_ID] ON [meta].[ImportBatch] ([SourceSystem_ID]);
 GO
@@ -380,6 +458,22 @@ GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Staging_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Party_Staging]'))
     CREATE INDEX [IX_Party_Staging_RawFile_ID] ON [stg].[Party_Staging] ([RawFile_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_RawFile_ID] ON [stg].[Person_Preprocessed] ([RawFile_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Match] ON [stg].[Person_Preprocessed] ([PESEL_Normalized], [Full_Name_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_RawFile_ID] ON [stg].[Party_Preprocessed] ([RawFile_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Match] ON [stg].[Party_Preprocessed] ([NIP_Normalized], [REGON_Normalized], [KRS_Normalized]);
 GO
 
 MERGE [meta].[SourceSystem] AS target
