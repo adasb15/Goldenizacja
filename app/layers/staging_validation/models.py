@@ -1,6 +1,6 @@
 from datetime import date, datetime
 
-from sqlalchemy import BigInteger, Date, DateTime, ForeignKey, Integer, String, Text, func
+from sqlalchemy import BigInteger, Boolean, Date, DateTime, ForeignKey, Integer, String, Text, func
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
@@ -105,7 +105,7 @@ class PartyStaging(Base):
     Decision_Number: Mapped[str | None] = mapped_column(String(100), nullable=True)
     Register_Number: Mapped[str | None] = mapped_column(String(100), nullable=True)
     Bank_Accounts_JSON: Mapped[str | None] = mapped_column(Text, nullable=True)
-    Has_Virtual_Accounts: Mapped[str | None] = mapped_column(String(10), nullable=True)
+    Has_Virtual_Accounts: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
     Business_Scope: Mapped[str | None] = mapped_column(Text, nullable=True)
     Ownership_Form: Mapped[str | None] = mapped_column(String(150), nullable=True)
     Municipality: Mapped[str | None] = mapped_column(String(100), nullable=True)

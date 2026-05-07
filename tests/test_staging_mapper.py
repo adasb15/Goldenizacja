@@ -201,6 +201,40 @@ class StagingMapperTests(unittest.TestCase):
         self.assertEqual(result["Ultimate_Parent_Relationship_Start_Date"], date(2022, 3, 4))
         self.assertEqual(result["Ultimate_Parent_Relationship_End_Date"], None)
 
+    def test_normalizes_party_dates_and_boolean_values(self) -> None:
+        result = build_staging_record(
+            canonical_record={
+                "Name": "Typed Company",
+                "Registration_Date": "31.12.2024",
+                "Decision_Date": "2024/01/10",
+                "Has_Virtual_Accounts": "Prawda",
+            },
+            source_record={"nip": "1234567890"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(result["Registration_Date"], date(2024, 12, 31))
+        self.assertEqual(result["Decision_Date"], date(2024, 1, 10))
+        self.assertEqual(result["Has_Virtual_Accounts"], True)
+
+    def test_maps_false_boolean_values_to_bit_false(self) -> None:
+        result = build_staging_record(
+            canonical_record={
+                "Name": "Typed Company",
+                "Has_Virtual_Accounts": "nie",
+            },
+            source_record={"nip": "1234567890"},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(result["Has_Virtual_Accounts"], False)
+
     def test_builds_party_related_json_and_ignores_structured_krs_columns(self) -> None:
         source_record = {
             "nazwa": "KRS Company",

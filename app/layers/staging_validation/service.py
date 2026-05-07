@@ -46,6 +46,11 @@ PARTY_DATE_COLUMNS = {
     "Ultimate_Parent_Relationship_Start_Date",
     "Ultimate_Parent_Relationship_End_Date",
 }
+PARTY_BOOLEAN_COLUMNS = {
+    "Has_Virtual_Accounts",
+}
+TRUE_VALUES = {"1", "true", "t", "yes", "y", "tak", "prawda"}
+FALSE_VALUES = {"0", "false", "f", "no", "n", "nie", "falsz", "fałsz"}
 
 # Mapujemy prefiksy KRS na role, żeby później zasilić factless person-party role
 KRS_PERSON_ROLE_PREFIXES = {
@@ -402,6 +407,8 @@ def build_staging_record(
         # Normalizujemy wszystkie daty PARTY jednym przebiegiem, żeby insert dostał wartości typu date
         for column in PARTY_DATE_COLUMNS:
             staging_record[column] = parse_date_value(staging_record.get(column))
+        for column in PARTY_BOOLEAN_COLUMNS:
+            staging_record[column] = parse_bool_value(staging_record.get(column))
         staging_record["Bank_Accounts_JSON"] = normalize_json_array_value(
             staging_record.get("Bank_Accounts_JSON")
         )
@@ -612,11 +619,47 @@ def parse_date_value(value: Any) -> date | None:
     if isinstance(value, date):
         return value
 
-    try:
-        # Bierzemy pierwsze 10 znaków daty, żeby ISO datetime zapisać jako czysty DATE
-        return date.fromisoformat(str(value)[:10])
-    except ValueError:
+    raw_value = str(value).strip()
+    if not raw_value:
         return None
+
+    date_candidates = [
+        raw_value[:10],
+        raw_value.replace("/", "-")[:10],
+    ]
+    for candidate in date_candidates:
+        try:
+            # Bierzemy część datową, żeby ISO datetime zapisać jako czysty DATE
+            return date.fromisoformat(candidate)
+        except ValueError:
+            pass
+
+    for date_format in ("%d.%m.%Y", "%d-%m-%Y", "%d/%m/%Y"):
+        try:
+            return datetime.strptime(raw_value[:10], date_format).date()
+        except ValueError:
+            pass
+
+    return None
+
+
+def parse_bool_value(value: Any) -> bool | None:
+    if value in (None, ""):
+        return None
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        if value == 1:
+            return True
+        if value == 0:
+            return False
+
+    normalized_value = str(value).strip().casefold()
+    if normalized_value in TRUE_VALUES:
+        return True
+    if normalized_value in FALSE_VALUES:
+        return False
+    return None
 
 
 def normalize_json_array_value(value: Any) -> str | None:

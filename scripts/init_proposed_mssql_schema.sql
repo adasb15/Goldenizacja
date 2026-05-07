@@ -196,7 +196,7 @@ BEGIN
         [Decision_Number] NVARCHAR(100) NULL,
         [Register_Number] NVARCHAR(100) NULL,
         [Bank_Accounts_JSON] NVARCHAR(MAX) NULL,
-        [Has_Virtual_Accounts] NVARCHAR(10) NULL,
+        [Has_Virtual_Accounts] BIT NULL,
         [Business_Scope] NVARCHAR(MAX) NULL,
         [Ownership_Form] NVARCHAR(150) NULL,
         [Municipality] NVARCHAR(100) NULL,
@@ -259,7 +259,10 @@ IF COL_LENGTH(N'stg.Party_Staging', N'Register_Number') IS NULL
 IF COL_LENGTH(N'stg.Party_Staging', N'Bank_Accounts_JSON') IS NULL
     ALTER TABLE [stg].[Party_Staging] ADD [Bank_Accounts_JSON] NVARCHAR(MAX) NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Has_Virtual_Accounts') IS NULL
-    ALTER TABLE [stg].[Party_Staging] ADD [Has_Virtual_Accounts] NVARCHAR(10) NULL;
+    ALTER TABLE [stg].[Party_Staging] ADD [Has_Virtual_Accounts] BIT NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Has_Virtual_Accounts') IS NOT NULL
+AND TYPE_NAME(COLUMNPROPERTY(OBJECT_ID(N'stg.Party_Staging'), N'Has_Virtual_Accounts', 'SystemTypeId')) <> N'bit'
+    ALTER TABLE [stg].[Party_Staging] ALTER COLUMN [Has_Virtual_Accounts] BIT NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Business_Scope') IS NULL
     ALTER TABLE [stg].[Party_Staging] ADD [Business_Scope] NVARCHAR(MAX) NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Ownership_Form') IS NULL
