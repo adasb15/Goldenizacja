@@ -290,6 +290,25 @@ class StagingMapperTests(unittest.TestCase):
         self.assertEqual(staging_record["Building_Number"], "122")
         self.assertEqual(staging_record["Apartment_Number"], "64")
 
+    def test_sanitizes_staging_text_values_before_insert(self) -> None:
+        staging_record = build_staging_record(
+            canonical_record={
+                "Name": "\x00  Dirty Company\t",
+                "Street": "\x07 ul. Testowa 12/3 \n",
+            },
+            source_record={"id": "\t SRC-1\x00 "},
+            import_batch_id=1,
+            raw_file_id=2,
+            entity_type="PARTY",
+            row_number=3,
+        )
+
+        self.assertEqual(staging_record["Name"], "Dirty Company")
+        self.assertEqual(staging_record["Street"], "Testowa")
+        self.assertEqual(staging_record["Building_Number"], "12")
+        self.assertEqual(staging_record["Apartment_Number"], "3")
+        self.assertEqual(staging_record["Source_Record_ID"], "SRC-1")
+
     def test_splits_person_street_building_and_apartment_from_address_line(self) -> None:
         staging_record = build_staging_record(
             canonical_record={

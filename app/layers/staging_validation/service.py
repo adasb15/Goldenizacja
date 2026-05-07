@@ -294,7 +294,9 @@ def load_raw_file_to_staging(
             raw_file_id=raw_file.RawFile_ID,
         )
 
-        source_records = parse_raw_file_records(raw_file.File_Type, raw_file.File_Content)
+        source_records = sanitize_source_records(
+            parse_raw_file_records(raw_file.File_Type, raw_file.File_Content)
+        )
         mapping = repo.get_column_mapping(batch.SourceSystem_ID, entity_type)
         if not mapping:
             # Wymagamy mapowania kolumn, żeby odróżnić świadomie pominięte pola od błędu konfiguracji
@@ -373,6 +375,8 @@ def build_staging_record(
     entity_type: str,
     row_number: int,
 ) -> dict[str, Any]:
+    canonical_record = sanitize_mapping(canonical_record)
+    source_record = sanitize_mapping(source_record)
     canonical_columns = (
         PERSON_CANONICAL_COLUMNS
         if entity_type == "PERSON"
@@ -410,6 +414,34 @@ def build_staging_record(
             staging_record["Related_Parties_JSON"] = related_parties_json
 
     return staging_record
+
+
+def sanitize_source_records(source_records: list[Mapping[str, Any]]) -> list[dict[str, Any]]:
+    return [sanitize_mapping(source_record) for source_record in source_records]
+
+
+def sanitize_mapping(source_record: Mapping[str, Any]) -> dict[str, Any]:
+    return {
+        column_name: sanitize_value(value)
+        for column_name, value in source_record.items()
+    }
+
+
+def sanitize_value(value: Any) -> Any:
+    if isinstance(value, str):
+        return sanitize_text(value)
+    if isinstance(value, Mapping):
+        return sanitize_mapping(value)
+    if isinstance(value, list):
+        return [sanitize_value(item) for item in value]
+    if isinstance(value, tuple):
+        return tuple(sanitize_value(item) for item in value)
+    return value
+
+
+def sanitize_text(value: str) -> str:
+    # Czyścimy wartości przed stagingiem, żeby downstream nie porównywał zbędnych znaków
+    return "".join(character for character in value if character.isprintable()).strip()
 
 
 def split_address_fields(staging_record: dict[str, Any]) -> None:
