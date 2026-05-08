@@ -1,131 +1,201 @@
 ﻿PESEL,Imie,DrugieImie,Nazwisko,NazwiskoRodowe,DataUrodzenia,Plec,MiejsceUrodzenia,Obywatelstwo,ImieOjca,ImieMatki,AdresZameldowania,AdresKorespondencyjny,NumerDowoduOsobistego,NumerPaszportu,Telefon,Email
-90013195220,Iwona,,Nowacka,,1990-01-31,K,Kraków,PL,Piotr,Agnieszka,"Bałtycka 136/11, 66-157 Bydgoszcz",,ZBO347405,PL4755810,+48 655 775 891,iwona.nowacka@example.test
-73121552796,Michał,Dariusz,Kamiński,Kamiński,1973-12-15,M,Zielona Góra,PL,Tomasz,Małgorzata,"ulica Głogowska 82/50, 14-162 Katowice",,WLO992902,,502 693 570,michal.kaminski@example.test
-76100624000,Justyna,Sebastian,Kaczmarek,,1976-10-06,K,Gdańsk,PL,Bartosz,Monika,"82-801 Kraków, ul Bałtycka 152","82-801 Kraków, ul Bałtycka 152",XCY458224,,+48 730 415 891,justyna.kaczmarek@example.test
-02291403351,Wojciech,,Pawłowski,Pawłowski,2002-09-14,M,Kielce,PL,Andrzej,Ewa,"Głogowska 124/17, 01-503 Poznań","Głogowska 124/17, 01-503 Poznań",MHZ933022,,+48 585 442 911,wojciech.pawlowski@example.test
-87070846200,Barbara,Aleksandra,Mazur,,1987-07-08,K,Bydgoszcz,PL,Krzysztof,Natalia,"ul. Kościuszki 97, 56-275 Kraków",,IQC386302,PL1213488,48-750-561-231,barbara.mazur@example.test
-98021694285,Patrycja,Marek,Cieślicka,,1998-02-16,K,Szczecin,PL,Sebastian,Ewa,"19-254 Lublin, ul Portowa 66 m. 36","19-254 Lublin, ul Portowa 66 m. 36",,P3474580,+48 610 753 777,patrycja.cieslicka@example.test
-87071720262,Paulina,Krzysztof,Kamińska,Kamińska,1987-07-17,K,Olsztyn,PL,Piotr,Elżbieta,"83-814 Opole, ul Wiosenna 108","83-814 Opole, ul Wiosenna 108",CMQ933487,,637891891,paulina.kaminska@example.test
-67082641011,Marcin,Małgorzata,Kowalski,,1967-08-26,M,pOole,PL,Adam,Patrycja,"87-680 Białystok, ul Łąkowa 62 m. 49","87-680 Białystok, ul Łąkowa 62 m. 49",ZZM889111,,658 959 238,marcin.kowalski@example.test
-84041497180,Monika,,Kwiatkowska,Zielińska,1984-04-14,K,Łódź,PL,Rafał,Małgorzata,"74-781 Kraków, ul Krótka 120","74-781 Kraków, ul Krótka 120",,P3404168,+48 748 222 893,monika.kwiatkowska@example.test
-83072906786,Ewa,Maria,Duda,Woźniak,1983-07-29,K,Toruń,PL,Tomasz,Dorota,"56-748 Opole, ul Żeromskiego 148","56-748 Opole, ul Żeromskiego 148",ARD281442,PA4390829,48-767-186-359,ewa.duda@example.test
-02310563154,Piotr,,Dąbrowski,Dąbrowski,2002-11-05,M,Wrocław,PL,Wojciech,Karolina,"ulica Łąkowa 15/57, 06-115 Łódź","ulica Łąkowa 15/57, 06-115 Łódź",BYE882647,,624 981 029,piotr.dabrowski@example.test
-67112951158,Robert,,Woźniak,,1967-11-29,M,Lublin,PL,Marek,Aleksandra,"ulica Bałtycka 33, 95-340 Olsztyn",,FKT940906,,48-648-771-123,robert.wozniak@example.test
-00211032175,Adam,Mateusz,Duda,Duda,2000-01-10,M,Warszawa,PL,Mateusz,Justyna,"ulica Łąkowa 145/61, 58-245 Opole",,,P8508672,48-522-351-266,adam.duda@example.test
-82120594243,Małgorzata,,Cieślicka,Cieślicka,1982-12-05,K,Kraków,PL,Mateusz,Ewa,"ul. Srebrna 29/59, 19-585 Kraków",,NFN295148,,48-517-681-696,malgorzata.cieslicka@example.test
-73030545375,Adam,Robert,Wójcik,Wójcik,1973-03-05,M,Gdańsk,PL,Paweł,Aleksandra,"ulica Słoneczna 116/2, 62-405 Wrocław","ulica Słoneczna 116/2, 62-405 Wrocław",SHZ547813,,48-597-944-002,adam.wojcik@example.test
-71021870237,Wojciech,,Pawłowski,Pawłowski,1971-02-18,M,Poznań,PL,Grzegorz,Karolina,"ulica Bałtycka 50/38, 65-687 Toruń",,TNB781433,,760 771 195,wojciech.pawlowski@example.test
-99022298936,Adam,,Kamiński,,1999-02-22,M,Lublin,PL,Marcin,Karolina,"ulica Srebrna 146/48, 02-405 Wrocław",,,PA4781605,+48 541 787 494,adam.kaminski@example.test
-79060630485,Justyna,,Wiśniewska,Piotrowska,1979-06-06,K,Kielce,PL,Marcin,Natalia,"41-947 Bydgoszcz, ul Wiosenna 142 m. 97","41-947 Bydgoszcz, ul Wiosenna 142 m. 97",BJX962921,,759944841,justyna.wisniewska@example.test
-66120358722,Magdalena,Joanna,Wiśniewska,Wiśniewska,1966-12-03,K,Szczecin,PL,Wojciech,Małgorzata,"76-526 Wrocław, ul Krótka 7","76-526 Wrocław, ul Krótka 7",ELB379270,,(48) 707834915,magdalena.wisniewska@example.test
-67051277191,Piotr,Paulina,Cieślicki,Cieślicki,1967-05-12,M,Łódź,PL,Krzysztof,Katarzyna,"ulica Portowa 48, 87-823 Kraków",,,PA2616842,48-700-232-510,piotr.cieslicki@example.test
-73072338243,Karolina,,Kozłowska,Kozłowska,1973-07-23,K,Poznań,PL,Mateusz,Iwona,"Głogowska 137, 57-165 Wrocław","Głogowska 137, 57-165 Wrocław",YLZ971863,,48-662-247-653,karolina.kozlowska@example.test
-85051085925,Justyna,,Zielińska,,1985-05-10,K,Katowice,PL,Krzysztof,Aleksandra,"ulica Polna 68/86, 16-682 Olsztyn","ulica Polna 68/86, 16-682 Olsztyn",RIV887845,,789 108 568,justyna.zielinska@example.test
-76122012645,Katarzyna,Marta,Duda,Pawłowska,1976-12-20,K,Olsztyn,PL,Tomasz,Joanna,"ul. Słoneczna 90/32, 35-106 Warszawa","ul. Słoneczna 90/32, 35-106 Warszawa",,P1491097,780 297 949,katarzyna.duda@example.test
-85021853330,Marcin,,Pawłowski,Pawłowski,1985-02-18,M,Katowice,PL,Dariusz,Magdalena,"44-508 Rzeszów, ul Łąkowa 38 m. 43","44-508 Rzeszów, ul Łąkowa 38 m. 43",JSZ579289,,+48 569 897 630,marcin.pawlowski@example.test
-94110927726,Ewa,Krzysztof,Zielińska,Jasieńska,1994-11-09,K,Kielce,PL,Piotr,Barbara,"Topolowa 92/98, 43-576 Wrocław","Topolowa 92/98, 43-576 Wrocław",BCM184808,,748 565 064,ewa.zielinska@example.test
-86092920758,Marek,,Pawlik,Pawlik,1986-09-29,M,Lublin,PL,Łukasz,Agnieszka,"ulica Jarzębinowa 88/76, 74-428 Gdańsk","ulica Jarzębinowa 88/76, 74-428 Gdańsk",IWT185561,,+48 561 589 249,marek.pawlik@example.test
-98061580407,Magdalena,Piotr,Piotrowska,,1998-06-15,K,Kraków,PL,Piotr,Monika,"95-195 Lublin, ul Kościuszki 89",,YBO163625,PA9556848,+48 636 846 057,magdalena.piotrowska@example.test
-70110356955,Marcin,,Lewandowski,Lewandowski,1970-11-03,M,Gdańsk,PL,Mateusz,Anna,"ul. Wiosenna 83/82, 88-531 Poznań","ul. Wiosenna 83/82, 88-531 Poznań",,PA3592018,48-511-660-885,marcin.lewandowski@example.test
-95012543449,Iwona,Magdalena,Duda,Jasieńska,1995-01-25,K,Białystok,PL,Wojciech,Dorota,"ulica Bałtycka 66/20, 65-585 Rzeszów","ulica Bałtycka 66/20, 65-585 Rzeszów",IOU835813,,48-712-533-813,iwona.duda@example.test
-81040170575,Krzysztof,,Szymański,,1981-04-01,M,Zielona Góra,PL,Sebastian,Marta,"67-943 Kraków, ul Żeromskiego 28",,OYV940266,,(48) 701828060,krzysztof.szymanski@example.test
-68012851063,Maria,,Dąbrowska,Cieślicka,1968-01-28,K,Gdańsk,PL,Mateusz,Marta,"ul. Polna 27/78, 95-273 Kielce","ul. Polna 27/78, 95-273 Kielce",MNL213327,,608 762 062,maria.dabrowska@example.test
-79060487162,Paulina,,Wojciechowska,Wojciechowska,1979-06-04,K,Toruń,PL,Dariusz,Justyna,"ulica Polna 77/59, 43-838 Szczecin",,RLK486584,PA4853513,637252877,paulina.wojciechowska@example.test
-83062093458,Bartosz,,Kaczmarek,Kaczmarek,1983-06-20,M,Lublin,PL,Krzysztof,Małgorzata,"ulica Polna 159/7, 65-858 Toruń","ulica Polna 159/7, 65-858 Toruń",UIZ776201,,+48 665 510 566,bartosz.kaczmarek@example.test
-83080876882,Agnieszka,,Kaimńska,,1983-08-08,K,Katowice,PL,Wojciech,Patrycja,"ul. Portowa 1, 74-386 Katowice",,NPM741916,,+48 604 651 911,agnieszka.kaminska@example.test
-87021910411,Sebastian,,Pawłowski,Pawłowski,1987-02-19,M,Rzeszów,PL,Paweł,Karolina,"Topolowa 91, 36-418 Warszawa","Topolowa 91, 36-418 Warszawa",ORU996573,,547 215 542,sebastian.pawlowski@example.test
-67100498658,Andrzej,,Jasieński,,1967-10-04,M,Gdańsk,PL,Marek,Dorota,"ulica Kwiatowa 169, 36-721 Zielona Góra",,TYQ541901,,659 454 793,andrzej.jasienski@example.test
-66070314704,Iwona,Agnieszka,Nowacka,Nowak,1966-07-03,K,Poznań,PL,Paweł,Justyna,"73-500 Toruń, ul Jarzębinowa 68 m. 42","73-500 Toruń, ul Jarzębinowa 68 m. 42",ZIO326625,,(48) 553682704,iwona.nowacka@example.test
-82081018417,Jakub,Małgorzata,Jasieński,Jasieński,1982-08-10,M,Olsztyn,PL,Grzegorz,Justyna,"51-932 Wrocław, ul Krótka 57","51-932 Wrocław, ul Krótka 57",MKM639974,,+48 726 445 217,jakub.jasienski@example.test
-03261868530,Rafał,,Cieślicki,Cieślicki,2003-06-18,M,Wrocław,PL,Marcin,Barbara,"44-199 Opole, ul Polna 20","44-199 Opole, ul Polna 20",XOO577636,,+48 753 434 973,rafal.cieslicki@example.test
-97120376492,Wojciech,,Cieślar,Cieślar,1997-12-03,M,Gdynia,PL,Wojciech,Barbara,"13-912 Kraków, ul Krótka 8",,MCA483918,,667 481 564,wojciech.cieslar@example.test
-74091959631,Jan,Paulina,Kowalski,Kowalski,1974-09-19,M,Zielona Góra,PL,Marcin,Natalia,"ul. Polna 118, 88-794 Opole","ul. Polna 118, 88-794 Opole",NYX948349,,729486079,jan.kowalski@example.test
-84021234381,Iwona,Barbara,Nowak,Pawlik,1984-02-12,K,Rzeszów,PL,Mateusz,Magdalena,"Srebrna 8/41, 92-173 Białystok",,BRI656678,PA8175810,(48) 525384817,iwona.nowak@example.test
-94060367346,Paulina,,Kwiatkowska,Cieślar,1994-06-03,K,Gdańsk,PL,Łukasz,Patrycja,"Kwiatowa 151/6, 08-920 Bydgoszcz",,UIS663600,,48-698-700-040,paulina.kwiatkowska@example.test
-98051742608,Katarzyna,Elżbieta,Kaczmarek,,1998-05-17,K,Zielona Góra,PL,Adam,Natalia,"ul. Polna 67, 58-525 Bydgoszcz",,,PL4534077,48-596-628-738,katarzyna.kaczmarek@example.test
-75022830263,Dorota,Małgorzata,Woźniak,Woźniak,1975-02-28,K,Poznań,PL,Adam,Joanna,"Leśna 87, 71-965 Szczecin","Leśna 87, 71-965 Szczecin",LJK596309,,+48 609 401 694,dorota.wozniak@example.test
-74040541676,Paweł,Dariusz,Wójcik,,1974-04-05,M,Gdańsk,PL,Mateusz,Karolina,"89-415 Opole, ul Srebrna 166","89-415 Opole, ul Srebrna 166",DUN675863,,796 553 410,pawel.wojcik@example.test
-85050167769,Monika,Ewa,Kozłowska,Pawłowska,1985-05-01,K,Szczecin,PL,Sebastian,Monika,"Topolowa 86/88, 84-671 Poznań","Topolowa 86/88, 84-671 Poznań",TOI546333,P5900479,597 104 875,monika.kozlowska@example.test
-02292239108,Natalia,Karolina,Kowalska,Kozłowska,2002-09-22,K,Gdynia,PL,Marcin,Karolina,"ulica Łąkowa 87, 78-743 Kraków",,,P4928483,(48) 635945031,natalia.kowalska@example.test
-66120411591,Dariusz,,Nowak,Nowak,1966-12-04,M,Szczecin,PL,Marcin,Katarzyna,"ulica Polna 5, 03-596 Gdańsk",,FYL870960,,48-678-752-619,dariusz.nowak@example.test
-00232531743,Karolina,Adam,Kwiatkowska,,2000-03-25,K,Kielce,PL,Jan,Patrycja,"ulica Polna 33, 37-439 iałystok",,OGV587238,,48-782-655-352,karolina.kwiatkowska@example.test
-96031002274,Robert,,Kwiatkowski,Kwiatkowski,1996-03-10,M,Gdynia,PL,Sebastian,Patrycja,"ulica Kościuszki 24, 77-722 Zielona Góra",,WOV325326,,+48 737 784 018,robert.kwiatkowski@example.test
-80122582464,Justyna,,Kozłowska,Kozłowska,1980-12-25,K,Rzeszów,PL,Bartosz,Aleksandra,"Bałtycka 109/18, 79-584 Gdynia",,,P9695950,735497770,justyna.kozlowska@example.test
-00217370481,Aleksandra,,Kaczmarek,,2000-01-03,K,Szczecin,PL,Dariusz,Karolina,"99-485 Katowice, ul Bałtycka 89","99-485 Katowice, ul Bałtycka 89",,PL8874187,+48 542 555 664,aleksandra.kaczmarek@example.test
-77062194912,Wojciech,Barbara,Kowalski,Kowalski,1977-06-21,M,Wrocłah,PL,Wojciech,Anna,"ulica Leśna 13, 26-277 Gdynia",,OXJ517786,,48-565-266-403,wojciech.kowalski@example.test
-86010757051,Jakub,,Pawlik,,1986-01-07,M,Toruń,PL,Marcin,Patrycja,"ul. Srebrna 58, 20-326 Białystok","ul. Srebrna 58, 20-326 Białystok",GMI738970,,681332549,jakub.pawlik@example.test
-80122529739,Rafał,,Wojciechowski,Wojciechowski,1980-12-25,M,Szczecin,PL,Dariusz,Dorota,"ulica Głogowska 137/51, 07-171 Łódź","ulica Głogowska 137/51, 07-171 Łódź",SKK511554,,(48) 608106252,rafal.wojciechowski@example.test
-70032087500,Katarzyna,Paweł,Krawczyk,Piotrowska,1970-03-20,K,Gdynia,PL,Jan,Patrycja,"ulica Topolowa 116/48, 16-139 Zielona Góra",,LBO642056,,589 498 674,katarzyna.krawczyk@example.test
-96120380812,Marek,,Woźniak,Woźniak,1996-12-03,M,Kielce,PL,Wojciech,Ewa,"Jarzębinowa 64, 52-463 Gdynia","Jarzębinowa 64, 52-463 Gdynia",,PL6799346,500 231 747,marek.wozniak@example.test
-75052295304,Justyna,,Nowak,,1975-05-22,K,Toruń,PL,Marek,Paulina,"Leśna 156, 82-407 Katowice","Leśna 156, 82-407 Katowice",,P3943843,678907515,justyna.nowak@example.test
-71082731951,Tomasz,,Wojciechowski,,1971-08-27,M,Warszawa,PL,Piotr,Anna,"ulica Polna 46, 77-187 Szczecin",,EKB665887,P3191160,48-770-203-887,tomasz.wojciechowski@example.test
-74061581882,Justyna,Katarzyna,Woźniak,,1974-06-15,K,Rzeszów,PL,Mateusz,Katarzyna,"ulica Kościuszki 15/67, 60-131 Gdynia","ulica Kościuszki 15/67, 60-131 Gdynia",ZGG472606,,700 882 873,justyna.wozniak@example.test
-66123151452,Dariusz,,Nowacki,,1966-12-31,M,Bydgoszcz,PL,Łukasz,Marta,"03-534 Gdańsk, ul Portowa 143 m. 87",,DWI235664,PL9406100,48-594-863-198,dariusz.nowacki@example.test
-88011365477,Tomasz,,Jasieński,Jasieński,1988-01-13,M,Rzeszów,PL,Adam,Dorota,"ul. Topolowa 166, 25-131 Lublin",,,PA9652310,(48) 677656912,tomasz.jasienski@example.test
-88032932966,Monika,,Grabowska,Grabowska,1988-03-29,K,Lublin,PL,Marek,Anna,"ul. Kościuszki 163, 45-587 Gdynia","ul. Kościuszki 163, 45-587 Gdynia",,P9758448,+48 661 570 615,monika.grabowska@example.test
-89071828155,Tomasz,Natalia,Jankowski,Jankowski,1989-07-18,M,Toruń,PL,Marek,Anna,"04-317 Kielce, ul Bałtycka 112","04-317 Kielce, ul Bałtycka 112",CFG918218,PA2845185,(48) 768664943,tomasz.jankowski@example.test
-65070477965,Magdalena,,Kwiatkowska,,1965-07-04,K,Katowice,PL,Paweł,Ewa,"89-753 Poznań, ul Kościuszki 142",,XHQ223523,,+48 638 488 651,magdalena.kwiatkowska@example.test
-95100658301,Magdalona,Karolina,Nowacka,Mazur,1995-10-06,K,Poznfń,PL,Mateusz,Agnieszka,"ul. Łąkowa 152/31, 67-166 Wrocław","ul. Łąkowa 152/31, 67-166 Wrocław",PEF123815,,48-782-500-566,magdalena.nowacka@example.test
-93041563902,Natalia,Robert,Piotrowska,Mazur,1993-04-15,K,Gdynia,PL,Tomasz,Magdalena,"ul. Srebrna 77, 99-427 Wrocław",,OBU319534,,+48 716 523 426,natalia.piotrowska@example.test
-88082415802,Elżbieta,Ewa,Nowacka,,1988-08-24,K,Gdańsk,PL,Marek,Joanna,"ul. Kwiatowa 105, 65-751 Gdynia",,MVH815394,P6662066,48-549-155-087,elzbieta.nowacka@example.test
-98120318776,Bartosz,Paweł,Kaczmarek,,1998-12-03,M,Łódź,PL,Wojciech,Maria,"ulica Kwiatowa 9, 63-268 Gdańsk",,WBS726750,,647131229,bartosz.kaczmarek@example.test
-75012045561,Katarzyna,Agnieszka,Jaseńska,Pawłowska,1975-01-20,K,Kielce,PL,Andrzej,Elżbieta,"Słoneczna 1, 69-261 Białystok",,,PA7806091,(48) 613279362,katarzyna.jasienska@example.test
-91061085125,Ewa,Ewa,Nowak,,1991-06-10,K,Kraków,PL,Adam,Małgorzata,"ulica Wiosenna 1/39, 55-952 Kielce",,DTK415368,,48-556-901-193,ewa.nowak@example.test
-65020106424,Małgorzata,,Wójcik,,1965-02-01,K,Kraków,PL,Michał,Katarzyna,"ulica Topolowa 122/68, 10-20 5Olsztyn","ulica Topolowa 122/68, 10-20 5Olsztyn",NGY642935,,754267496,malgorzata.wojcik@example.test
-35082102858,Rafał,Jakub,Duda,Duda,1995-08-21,M,Poznań,PL,Wojciech,Barbara,"ul. Krótka 146, 99-815 Szczecin","ul. Krótka 146, 99-815 Szczecin",,PL7651435,612 599 428,rafal.duda@example.test
-70100582014,Bartosz,Jakub,Nowak,,1970-10-05,M,Warszawa,PL,Jakub,Paulina,"13-247 Lublin, ul Jarzębinowa 135 m. 95",,JDZ508722,,502357316,bartosz.nowak@example.test
-98052835659,Krzysztof,,Zieliński,Zieliński,1998-05-28,M,Kielce,PL,Bartosz,Magdalena,"60-700 Lublin, ul Topolowa 2 m. 28","60-700 Lublin, ul Topolowa 2 m. 28",DIT890310,,692296688,krzysztof.zielinski@example.test
-73073016717,Sebastian,,Jankowski,Jankowski,1973-07-30,M,Wrocław,PL,Tomasz,Iwona,"89-26 Zielona Góra, ul Topolowa 33","89-26 Zielona Góra, ul Topolowa 33",ENB145072,,48-799-952-364,sebastian.jankowski@example.test
-97030435883,Patrycja,,Kowalska,Kowalska,1997-03-04,K,Wrocław,PL,Sebastian,Dorota,"uly Mickiewicza 177/80, 51-427 Bydgoszcz",,EWV345263,,546 412 140,patrycja.kowalska@example.test
-80032911772,Wojciech,,Grabowski,Grabowski,1980-03-29,M,Białystok,PL,Bartosz,Małgorzata,"ul. Krótka 1/95, 04-121 Kraków","ul. Krótka 1/95, 04-121 Kraków",PNM604196,,635 627 527,wojciech.grabowski@example.test
-74051981034,Krzysztof,,Grabowski,,1974-05-19,M,Warszawa,PL,Jakub,Magdalena,"Wiosenna 57/1, 22-479 Łódź","Wiosenna 57/1, 22-479 Łódź",NVT500634,,704 912 670,krzysztof.grabowski@example.test
-68073110417,Michał,Magdalena,Woźniak,Woźniak,1968-07-31,M,Rzeszów,PL,Dariusz,Magdalena,"ul. Bałtycka 38/19, 88-478 Gdańsk",,,PA5391057,(48) 545982214,michal.wozniak@example.test
-96083075790,Krzysztof,Dariusz,Piotrowski,Piotrowski,1996-08-30,M,Poznań,PL,Dariusz,Dorota,"ul. Polna 166/67, 33-723 Szczecin","ul. Polna 166/67, 33-723 Szczecin",SBS291323,,619531753,krzysztof.piotrowski@example.test
-02303090342,Aleksandra,Paulina,Pawłowska,Pawłowska,2002-10-30,K,Poznań,PL,Grzegorz,Dorota,"87-428 Lublin, ul Słoneczna 170",,PGT585922,PA6720688,+48 510 692 520,aleksandra.pawlowska@example.test
-78112589030,Krzysztof,,Jasieński,Jasieński,1978-11-25,M,Gdynia,PL,Jakub,Maria,"ul. Leśna 121/1, 08-852 Lublin","ul. Leśna 121/1, 08-852 Lublin",RNS171846,,+48 696 535 170,krzysztof.jasienski@example.test
-70070577614,Bartosz,,Krawczyk,,1970-07-05,M,Warszawa,PL,Grzegorz,Karolina,"47-166 Opole, ul Wiosenna 84 m. 9",,PYC365547,,(48) 600825195,bartosz.krawczyk@example.test
-74073170164,Maria,,Kozłowska,,1974-07-31,K,Warszawa,PL,Sebastian,Dorota,"ulica Głogowska 165/57, 15-670 Poznań",,NQE963552,,535576924,maria.kozlowska@example.test
-89062254248,Małgorzata,,Cieślicka,Cieślicka,1989-06-22,K,Zielona Góra,PL,Łukasz,Paulina,"58-665 Lublin, ul Wiosenna 174",,LGC620467,,770152290,malgorzata.cieslicka@example.test
-78032343693,Krzysztof,,Krawczyk,Krawczyk,1978-03-23,M,Wrocław,PL,Krzysztof,Karolina,"ul. Jarzębinowa 154/83, 56-663 Warszawa",,,PL8443206,48-675-356-836,krzysztof.krawczyk@example.test
-95102075768,Monika,,Wiśniewska,Wiśniewska,1995-10-20,K,Olsztyn,PL,Marcin,Karolina,"ulica Długa 23/23, 92-330 Toruń","ulica Długa 23/23, 92-330 Toruń",DXC128984,,611 135 479,monika.wisniewska@example.test
-91072579923,Elżbieta,,Krawczyk,,1991-07-25,K,Gdańsk,PL,Paweł,Aleksandra,"ulica Wiosenna 72/25, 46-848 Wrocław","ulica Wiosenna 72/25, 46-848 Wrocław",NAK784836,,543 699 469,elzbieta.krawczyk@example.test
-71060984830,Dariusz,Karolina,Piotrowski,Piotrowski,1971-06-09,M,Kielce,PL,Andrzej,Justyna,"ulica Kwiatowa 137, 67-845 Katowice",,XMA442317,,48-514-295-408,dariusz.piotrowski@example.test
-83043097336,Dariusz,Marek,Pawlik,,1983-04-30,M,Wrocław,PL,Marek,Magdalena,"98-850 Szczecin, ul Kościuszki 23",,LMB251917,,758 710 384,dariusz.pawlik@example.test
-94061857644,Katarzyna,,Piotrowska,Piotrowska,1994-06-18,K,Katowice,PL,Grzegorz,Dorota,"ul. Krótka 29/89, 78-745 Poznań",,,P5337594,604395544,katarzyna.piotrowska@example.test
-83021871880,Katarzyna,Monika,Kowalska,,1983-02-18,K,Warszawa,PL,Robert,Iwona,"47-446 Kraków, ul Żeromskiego 59",,XOE436093,,504992428,katarzyna.kowalska@example.test
-02251718417,Marek,Anna,Zieliński,Zieliński,2002-05-17,M,Białystok,PL,Bartosz,Maria,"ulica Kościuszki 14/93, 82-293 Rzeszów",,HST781229,,695221141,marek.zielinski@example.test
-00230274800,Barbara,Rafał,Zielińska,,2000-03-02,K,Olsztyn,PL,Piotr,Anna,"ulica Żeromskiego 129, 37-603 Lublin","ulica Żeromskiego 129, 37-603 Lublin",FKW363276,,48-793-125-365,barbara.zielinska@example.test
-77102631494,Robert,,Dąbrowski,Dąbrowski,1977-10-26,M,Lublin,PL,Andrzej,Justyna,"ulica Żeromskiego 123, 19-850 Katowice","ulica Żeromskiego 123, 19-850 Katowice",,PA8660726,48-523-736-101,robert.dabrowski@example.test
-79010955376,Robert,Jan,Kamiński,,1979-01-09,M,Opole,PL,Adam,Magdalena,"ulica Wiosenna 133, 07-776 Gdynia",,OCS570598,,502807273,robert.kaminski@example.test
-70072602231,Jan,,Wiśniewski,Wiśniewski,1970-07-26,M,Toruń,PL,Adam,Małgorzata,"ulica Srebrna 153, 05-223 Gdynia","ulica Srebrna 153, 05-223 Gdynia",VTX705306,,(48) 724444407,jan.wisniewski@example.test
-81011216378,Marcin,Jakub,Lewandowski,Lewandowski,1981-01-12,M,Warszawa,PL,Krzysztof,Patrycja,"Długa 48/86, 08-425 Szczecin","Długa 48/86, 08-425 Szczecin",RDY316566,,766 601 078,marcin.lewandowski@example.test
-79072505070,Bartosz,Katarzyna,Dąbrowski,Dąbrowski,1979-07-25,M,Szczecin,PL,Grzegorz,Justyna,"ul. Srebrna 47/75, 16-504 Warszawa",,,P7021186,+48 672 226 141,bartosz.dabrowski@example.test
-78021244475,Rafał,Magdalena,Pawłowski,Pawłowski,1978-02-12,M,Łódź,PL,Andrzej,Magdalena,"17-220 Katowice, ul Długa 166 m. 29","17-220 Katowice, ul Długa 166 m. 29",,PA9578808,+48 513 180 013,rafal.pawlowski@example.test
-71070934805,Dorota,,Pawłowska,,1971-07-09,K,Gdynia,PL,Łukasz,Joanna,"ul. Srebrna 22, 78-903 Gdynia",,ICT290619,,+48 512 784 353,dorota.pawlowska@example.test
-00300555578,Robert,Krzysztof,Mazur,Mazur,2000-10-05,M,Gdańsk,PL,Marek,Katarzyna,"ulica Wiosenna 102/22, 75-935 Toruń","ulica Wiosenna 102/22, 75-935 Toruń",OYX868754,,(48) 707835614,robert.mazur@example.test
-85081879758,Marcin,,Wojciechowski,Wojciechowski,1985-08-18,M,Olsztyn,PL,Marcin,Ewa,"01-968 Gdańsk, ul Leśna 89","01-968 Gdańsk, ul Leśna 89",AMM548234,,547454516,marcin.wojciechowski@example.test
-80082495978,Mateusz,Michał,Jankowski,,1980-08-24,M,Białystok,PL,Adam,Anna,"ulica Topolowa 173/13, 39-881 Szczecin",,,PL8809488,730295265,mateusz.jankowski@example.test
-66102129313,Piotr,Łukasz,Pawlik,Pawlik,1966-10-21,M,Białystok,PL,Marek,Ewa,"ul. Polna 27, 49-294 Kielce",,DJB743073,,507870622,piotr.pawlik@example.test
-70111350613,Andrzej,,Pawłowski,Pawłowski,1970-11-13,M,Szczecin,PL,Mateusz,Natalia,"Krótka 115/26, 59-838 Zielona Góra","Krótka 115/26, 59-838 Zielona Góra",TSG110261,,48-748-236-429,andrzej.pawlowski@example.test
-86041627200,Małgorzata,Wojciech,Piotrowska,Piotrowska,1986-04-16,K,Gdynia,PL,Robert,Małgorzata,"Mickiewicza 38, 05-918 Kielce","Mickiewicza 38, 05-918 Kielce",MWC380710,,589140428,malgorzata.piotrowska@example.test
-78061304740,Barbara,,Mazur,,1978-06-13,K,Poznań,PL,Michał,Ewa,"ul. Portowa 58/43, 86-234 Gdynia","ul. Portowa 58/43, 86-234 Gdynia",,PA2983884,(48) 735609716,barbara.mazur@example.test
-02280418540,Joanna,Mateusz,Cieślar,Cieślar,2002-08-04,K,Białystok,PL,Robert,Dorota,"Polna 23, 61-585 Katowice",,YHB835942,,48-681-636-635,joanna.cieslar@example.test
-87091213207,Iwona,,Grabowska,Kwiatkowska,1987-09-12,K,Bydgoszcz,PL,Marek,Katarzyna,"32-272 Warszawa, ul Głogowska 2 m. 82",,QCK559069,,48-693-920-519,iwona.grabowska@example.test
-65100508531,Piotr,Magdalena,Wiśniewski,Wiśniewski,1965-10-05,M,Gdańsk,PL,Marek,Natalia,"ul. Żeromskiego 35/54, 12-986 Poznań","ul. Żeromskiego 35/54, 12-986 Poznań",RUY901445,,48-684-549-011,piotr.wisniewski@example.test
-83012714183,Barbara,Rafał,Grabowska,Kowalska,1983-01-27,K,Gdynia,PL,Krzysztof,Aleksandra,"Słoneczna 72, 84-836 Poznań",,,PL9092973,+48 633 477 668,barbara.grabowska@example.test
-97122444564,Monika,Robert,Nowacka,Piotrowska,1997-12-24,K,Lublin,PL,Marcin,Karolina,"ulica Kościuszki 49, 00-113 Kraków",,WZN867214,,(48) 648866880,monika.nowacka@example.test
-04291857529,Dorota,Adam,Kozłowska,,2004-09-18,K,Toruń,PL,Wojciech,Natalia,"ul. Jarzębinowa 68, 09-147 Bydgoszcz",,,P3601348,48-777-962-829,dorota.kozlowska@example.test
-67012369420,Anna,Natalia,Woźniak,Woźniak,1967-01-23,K,Łódź,PL,Wojciech,Paulina,"ul. Bałtycka 110/64, 86-816 Toruń",,VQF322140,,(48) 535992589,anna.wozniak@example.test
-85072954028,Aleksandra,,Dąbrowska,,1985-07-29,K,Bydgoszz,PL,Paweł,Barbara,"Mickiewicza 179/81, 81-682 Białystok",,SWV121746,PL1247498,+48 714 402 236,aleksandra.dabrowska@example.test
-67031980460,Maria,,Krawczyk,Cieślicka,1967-03-19,K,Gdynia,PL,Robert,Natalia,"ul. Krótka 5, 99-188 Opole",,NTQ337937,,48-649-418-065,maria.krawczyk@example.test
-68071961077,Mateusz,Justyna,Cieślar,Cieślar,1968-07-19,M,Rzeszów,PL,Wojciech,Marta,"ul. Kościuszki 89/44, 53-434 Opole",,,P1095916,48-721-805-790,mateusz.cieslar@example.test
-83112171738,Jakub,,Grabowski,Grabowski,1983-11-21,M,Gdynia,PL,Jakub,Barbara,"Głogowska 82/92, 06-569 Lublin",,RKQ934228,,48-799-866-070,jakub.grabowski@example.test
-79050388387,Elżbieta,Piotr,Wojciechowska,Szymańska,1979-05-03,K,Łódź,PL,Mateusz,Dorota,"ulica Mickiewicza 133, 47-400 Toruń",,,PA1770285,48-631-662-030,elzbieta.wojciechowska@example.test
-74111600280,Barbara,Robert,Cieślicka,,1974-11-16,K,Wrocław,PL,Marcin,Natalia,"ulica Kościuszki 34/61, 43-777 Toruń","ulica Kościuszki 34/61, 43-777 Toruń",LCM917243,PL2921112,787 118 919,barbara.cieslicka@example.test
-74032045320,Natalia,,Jasieńska,,1974-03-20,K,Toruń,PL,Rafał,Monika,"ul. Srebrna 107, 42-553 Łódź",,ZSV107507,,+48 647 691 646,natalia.jasienska@example.test
-79041782561,Małgorzata,Maria,Szymańska,,1979-04-17,K,Lublin,PL,Rafał,Agnieszka,"ulica Długa 144/16, 86-411 Szczecin","ulica Długa 144/16, 86-411 Szczecin",KQN706066,,640267570,malgorzata.szymanska@example.test
-68031283201,Justyna,,Jankowska,Duda,1968-03-12,K,Bydgoszcz,PL,Marek,Natalia,"Głogowska 44/19, 63-983 Łódź",,FSX662276,,+48 545 324 497,justyna.jankowska@example.test
-66040781936,Jakub,,Duda,Duda,1966-04-07,M,Gdynia,PL,Marek,Patrycja,"56-891 Wrocław, ul Piłsudskiego 45","56-891 Wrocław, ul Piłsudskiego 45",,P9562455,742 444 868,jakub.duda@example.test
-71091738691,Tomasz,Karolina,Kozłowski,,1971-09-17,M,Kraków,PL,Piotr,Paulina,"Jarzębinowa 125, 06-275 Poznań","Jarzębinowa 125, 06-275 Poznań",CVV461862,,48-775-743-448,tomasz.kozlowski@example.test
-97031142355,Łukasz,Marta,Duda,Duda,1997-03-11,M,Szczecin,PL,Adam,Iwona,"Kwiatowa 9/18, 41-617 Olsztyn","Kwiatowa 9/18, 41-617 Olsztyn",ZIS516073,PL1353650,743499610,lukasz.duda@example.test
-99121242105,Monika,Dariusz,Jankowska,,1999-12-12,K,Białystok,PL,Sebastian,Magdalena,"98-426 Wrocław, ul Kościuszki 84",,,PL6688025,48-535-123-037,monika.jankowska@example.test
+90013106842,Anna,,Kowalska,,1990-01-31,K,Kraków,PL,Krzysztof,Agnieszka,"os. Marszałkowska 1/1, 00-590 Warszawa","os. Marszałkowska 1/1, 00-590 Warszawa",,PL4755810,+48 655 775 891,anna.kowalska@astra-finance.pl
+73121508230,Tomasz,Robert,Nowacki,,1973-12-15,M,Zielona Góra,PL,Paweł,Barbara,"ul Krakowskie Przedmieście 18, 00-071 Warszawa","ul Krakowskie Przedmieście 18, 00-071 Warszawa",ONV883946,,502 693 570,t.nowacki@mail.pl
+76100609580,Katarzyna,Agnieszka,Wiśniewska,Krawczyk,1976-10-06,K,Gdańsk,PL,Adam,Justyna,"ulica Floriańska 35, 31-019 Kraków","ulica Floriańska 35, 31-019 Kraków",RSG860489,,+48 730 415 891,wisniewska.katarzyna@onet.pl
+02291410979,Krzysztof,,Wójcik,,2002-09-14,M,Kielce,PL,Robert,Anna,"Długa 52, 31-147 Kraków","Długa 52, 31-147 Kraków",UXR537032,,+48 585 442 911,krzysztofwojcik@wp.pl
+87070812320,Ewa,Justyna,Kowalczyk,Jankowska,1987-07-08,K,Bydgoszcz,PL,Marek,Maria,"ul. Piotrkowska 69/53, 90-102 Łódź","ul. Piotrkowska 69/53, 90-102 Łódź",XCC413575,PL1213488,48-750-561-231,ewa_kowalczyk@nova-data.pl
+98021613716,Adam,Piotr,Kamiński,,1998-02-16,M,Szczecin,PL,Wojciech,Katarzyna,"ul Zachodnia 86, 90-402 Łódź","ul Zachodnia 86, 90-402 Łódź",AHN990118,P3474580,+48 610 753 777,adam.kaminski75@proton.me
+87071715066,Monika,,Lewandowska,,1987-07-17,K,Olsztyn,PL,Rafał,Joanna,"ulica Świdnicka 103, 50-066 Wrocław","ulica Świdnicka 103, 50-066 Wrocław",DMY266661,,637891891,monika.lewandowska@biuro.pl
+67082616451,Mare,Michał,Zieliński,,1967-08-26,M,pOol,PL,Piotr,Ewa,"Legnicka 120, 54-203 Wrocław","Legnicka 120, 54-203 Wrocław",GRJ343204,,658 959 238,m.zielinski@poczta.pl
+84041417803,Barbara,Joanna,Szymańska,Król,1984-04-14,K,Łódź,PL,Tomasz,Magdalena,"ul. Święty Marcin 137/15, 61-806 Poznań","ul. Święty Marcin 137/15, 61-806 Poznań",,P3404168,+48 748 222 893,szymanska.barbara@silesia-invest.pl
+83072919195,Rafał,,Dąbrowski,,1983-07-29,M,Toruń,PL,Michał,Monika,"ul Głogowska 154, 60-734 Poznań","ul Głogowska 154, 60-734 Poznań",MBF996290,PA4390829,48-767-186-359,rafaldabrowski@onet.pl
+02310520548,Anna,Magdalena,Mazur,Jabłońska,2002-11-05,K,Wrocław,PL,Krzysztof,Agnieszka,"ulica Długa 171, 80-831 Gdańsk","ulica Długa 171, 80-831 Gdańsk",PGQ272833,,624 981 029,anna_mazur@wp.pl
+67112921937,Tomasz,Robert,Krawczyk,,1967-11-29,M,Lublin,PL,Paweł,Barbara,"Grunwaldzka 8, 80-236 Gdańsk","Grunwaldzka 8, 80-236 Gdańsk",SLB549376,,48-648-771-123,tomasz.krawczyk81@gmail.com
+00211023289,Katarzyna,,Woźniak,,2000-01-10,K,Warszawa,PL,Adam,Justyna,"ul. Jagiellońska 25/67, 70-435 Szczecin","ul. Jagiellońska 25/67, 70-435 Szczecin",VQM925919,P8508672,48-522-351-266,katarzyna.wozniak@helios-markets.pl
+82120524679,Krzysztof,Wojciech,Jankowski,,1982-12-05,M,Krakow,PL,Robert,Anna,"ul Wyszyńskiego 42, 70-200 Szczecin","ul Wyszyńskiego 42, 70-200 Szczecin",YVX202462,,48-517-681-696,k.jankowski@biuro.pl
+73030526028,Ewa,Justyna,Grabowska,Baran,1973-03-05,K,Gdańsk,PL,Marek,Maria,"ulica Mariacka 59, 40-014 Katowice","ulica Mariacka 59, 40-014 Katowice",BAI679005,,48-597-944-002,grabowska.ewa@poczta.pl
+71021827413,Adam,,Pawlak,,1971-02-18,M,Poznań,PL,Wojciech,Katarzyna,"Warszawska 76, 40-009 Katowice","Warszawska 76, 40-009 Katowice",EFT955548,,760 771 195,adampawlak@mail.pl
+99022228767,Monika,Maria,Michalska,Górska,1999-02-22,K,Lublin,PL,Rafał,Joanna,"ul. Krakowskie Przedmieście 93/29, 20-002 Lublin","ul. Krakowskie Przedmieście 93/29, 20-002 Lublin",,PA4781605,+48 541 787 494,monika_michalska@polaris-capital.pl
+79060630157,Marek,Michał,Król,,1979-06-06,M,Kielce,,Piotr,Ewa,"ul Narutowicza 110, 20-004 Lublin","ul Narutowicza 110, 20-004 Lublin",KPP308634,,759944841,
+66120331507,Barbara,,Wieczorek,,1966-12-03,K,Szczecin,PL,Tomasz,Magdalena,"ulica Lipowa 127, 15-424 Białystok","ulica Lipowa 127, 15-424 Białystok",NUA385177,,(48) 707834915,barbara.wieczorek@gmail.com
+67051232897,Rafał,Paweł,Jabłoński,,1967-05-12,M,Łódź,PL,Michał,Monika,"Sienkiewicza 144, Białystok","Sienkiewicza 144, Białystok",QZL461720,PA2616842,48-700-232-510,r.jablonski@proton.me
+73072334249,Anna,Magdalena,Witkowska,Zając,1973-07-23,K,Poznań,PL,Krzysztof,Agnieszka,"ul. Gdańska 161/81, 85-005 Bydgoszcz","ul. Gdańska 161/81, 85-005 Bydgoszcz",TEW538263,,48-662-247-653,witkowska.anna@astra-finance.pl
+85051035630,Tomasz,,Walczak,,1985-05-10,M,Katowice,PL,Paweł,Barbara,"ul Dworcowa 178, 85-009 Bydgoszcz","ul Dworcowa 178, 85-009 Bydgoszcz",WJH314806,,789 108 568,tomaszwalczak@poczta.pl
+76122036980,Katarzyna,Agnieszka,Stępień,Wójcicka,1976-12-20,K,Olsztyn,PL,Adam,Justyna,"ulica Szeroka 15, 87-100 Toruń","ulica Szeroka 15, 87-100 Toruń",ZOS991349,P1491097,780 297 949,katarzyna_stepien@mail.pl
+85021838377,Krzysztof,Wojciech,Baran,,1985-02-18,M,Katowice,PL,Robert,Anna,"Chełmińska 32, 87-100 Toruń","Chełmińska 32, 87-100 Toruń",CTD467892,,+48 569 897 630,krzysztof.baran93@onet.pl
+94110939721,Ewa,,Rutkowska,,1994-11-09,K,Kielce,PL,Marek,Maria,"ul. 3 Maja 49/43, 35-030 Rzeszów","ul. 3 Maja 49/43, 35-030 Rzeszów",,,748 565 064,ewa.rutkowska@nova-data.pl
+86092941113,Adam,Piotr,Górski,,1986-09-29,M,Lublin,PL,Wojciech,Katarzyna,"ul Piłsudskiego 66, 35-074 Rzeszów","ul Piłsudskiego 66, 35-074 Rzeszów",IDZ620978,,+48 561 589 249,a.gorski@gmail.com
+98061542469,Monika,Maria,Sikora,Kaczmarek,1998-06-15,K,Kraków,PL,Rafał,Joanna,"ulica Sienkiewicza 83, 25-007 Kielce","ulica Sienkiewicza 83, 25-007 Kielce",LIK797521,PA9556848,+48 636 846 057,sikora.monika@protonme
+70110343850,Marek,,Ostrowski,,1970-11-03,M,Gdańsk,PL,Piotr,Ewa,"Warszawska 100, 25-512 Kielce","Warszawska 100, 25-512 Kielce",ONV374064,PA3592018,48-511-660-885,marekostrowski@biuro.pl
+95012545205,Barbara,Joanna,Tomaszewska,Sadowska,1995-01-25,K,Białystok,PL,Tomasz,Magdalena,"ul. Kościuszki 117/5, 10-504 Olsztyn","ul. Kościuszki 117/5, 10-504 Olsztyn",RSG150607,,48-712-533-813,barbara_tomaszewska@silesia-invest.pl
+81040146596,Rafał,Paweł,Zając,,1981-04-01,M,Zielona Góra,PL,Michał,Monika,"os. Dąbrowszczaków 134, 10-540 Olsztyn","os. Dąbrowszczaków 134, 10-540 Olsztyn",UXR727150,,(48) 701828060,rafal.zajac70@mail.pl
+68012847943,Anna,,Pietrzak,,1968-01-28,K,Gdańsk,PL,Krzysztof,Agnieszka,"ulica Krakowska 151, 45-018 Opole","ulica Krakowska 151, 45-018 Opole",XCC603693,,608 762 062,anna.pietrzak@onet.pl
+79060449339,Tomasz,Robert,Wójcicki,,1979-06-04,M,Toruń,PL,Paweł,Barbara,"Ozimska 168, 45-057 Opole","Ozimska 168, 45-057 Opole",AHN180236,PA4853513,637252877,t.wojcicki@wp.pl
+83062050682,Katarzyna,Agnieszka,Czarnecka,Nowacka,1983-06-20,K,Lublin,PL,Adam,Justyna,"ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra","ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra",,,+48 665 510 566,czarnecka.katarzyna@helios-markets.pl
+83080852073,Krzysztof,,Lis,,1983-08-08,M,Katowice,PL,Robert,Anna,"ul Kupiecka 22, 65-058 Zielona Góra","ul Kupiecka 22, 65-058 Zielona Góra",GRJ533322,,+48 604 651 911,krzysztoflis@proton.me
+87021953423,Ewa,Justyna,Kołodziej,Wójcik,1987-02-19,K,Rzeszów,PL,Marek,Maria,"ulica Świętojańska 39, 81-372 Gdynia","ulica Świętojańska 39, 81-372 Gdynia",JWU109865,,547 215 542,ewa_kolodziej@biuro.pl
+67100454812,Adam,Piotr,Kaczmarek,,1967-10-04,M,Gdańsk,PL,Wojciech,Katarzyna,"10 Lutego 56, 81-364 Gdynia","10 Lutego 56, 81-364 Gdynia",MBF486408,,659 454 793,adam.kaczmarek76@poczta.pl
+66070356166,Monika,,Piątek,,1966-07-03,K,Poznań,PL,Rafał,Joanna,"ul. Bolesława Prusa 73/19, 05-800 Pruszków","ul. Bolesława Prusa 73/19, 05-800 Pruszków",PGQ462951,,(48) 553682704,monika.piatek@polaris-capital.pl
+82081057555,Marek,Michał,Sadowski,,1982-08-10,M,Olsztyn,PL,Piotr,Ewa,05-500 Piaseczno,05-500 Piaseczno,SLB739494,,+48 726 445 217,m.sadowski@onet.pl
+03261858902,Barbara,Joanna,Włodarczyk,Zielińska,2003-06-18,K,Wrocław,PL,Tomasz,Magdalena,"ulica Sienkiewicza 107, 32-020 Wieliczka","ulica Sienkiewicza 107, 32-020 Wieliczka",VQM416037,,+48 753 434 973,wlodarczyk.barbara@wp.pl
+97120360295,Rafał,,Borkowski,,1997-12-03,M,Gdynia,PL,Michał,Monika,"Dąbrowskiego 124, 32-600 Oświęcim","Dąbrowskiego 124, 32-600 Oświęcim",YVX492580,,667 481 564,rafalborkowski@gmail.com
+74091961643,Anna,Magdalena,Kowalska,Dąbrowska,1974-09-19,K,Zielona Góra,PL,Krzysztof,Agnieszka,"ul. Rynek 141/71, 38-400 Krosno","ul. Rynek 141/71, 38-400 Krosno",,,729486079,anna_kowalska@astra-finance.pl
+84021263037,Tomasz,Robert,Nowacki,,1984-02-12,M,Rzeszów,PL,Paweł,Barbara,"ul Mickiewicza 158, 39-300 Mielec","ul Mickiewicza 158, 39-300 Mielec",EFT145666,PA8175810,(48) 525384817,tomasz.nowacki82@biuro.pl
+94060364381,Katarzyna,,Wiśniewska,,1994-06-03,K,Gdańsk,PL,Adam,Justyna,"175, 58-100 Świdnica","175, 58-100 Świdnica",HKE222209,,48-698-700-040,katarzyna.wisniewska@poczta.pl
+98051765775,Krzysztof,Wojciech,Wójcik,,1998-05-17,M,Zielona Góra,PL,Robert,Anna,"Wojska Polskiego 12, 57-300 Kłodzko","Wojska Polskiego 12, 57-300 Kłodzko",KPP598752,PL4534077,48-596-628-738,k.wojcik@mail.pl
+75022867122,Ewa,Justyna,Kowalczyk,Jankowska,1975-02-28,K,Poznań,PL,Marek,Maria,"ul. Chrobrego 29/33, 62-200 Gniezno","ul. Chrobrego 29/33, 62-200 Gniezno",NUA575295,,+48 609 401 694,kowalczyk.ewa@nova-data.pl
+74040568518,Adam,,Kamiński,,1974-04-05,M,Gdańsk,PL,Wojciech,Katarzyna,"ul Słowiańska 46, 64-100 Leszno","ul Słowiańska 46, 64-100 Leszno",QZL951838,,796 553 410,adamkaminski@wp.pl
+85050169860,Monika,Maria,Lewandowska,Pawlak,1985-05-01,K,Szczecin,PL,Rafał,Joanna,"ulica Gdańska 63, 83-110 Tczew","ulica Gdańska 63, 83-110 Tczew",TEW728381,P5900479,597 104 875,monika_lewandowska@gmail.com
+02292271256,Marek,Michał,Zieliński,,2002-09-22,M,Gdynia,PL,Piotr,Ewa,"Sobieskiego 80, 84-200 Wejherowo","Sobieskiego 80, 84-200 Wejherowo",WJH504924,P4928483,(48) 635945031,marek.zielinski88@proton.me
+66120472606,Barbara,,Szymańska,,1966-12-04,K,Szczecin,PL,Tomasz,Magdalena,"ul. Głęboka 97/85, 43-400 Cieszyn","ul. Głęboka 97/85, 43-400 Cieszyn",,,48-678-752-619,barbara.szymanska@silesia-invest.pl
+00232573990,Rafał,Paweł,Dąbrowski,,2000-03-25,M,Kielce,PL,Michał,Monika,"114, 42-500 Będzin","114, 42-500 Będzin",CTD058010,,48-782-655-352,r.dabrowski@poczta.pl
+96031075346,Anna,Magdalena,Mazur,Jabłońska,1996-03-10,K,Gdynia,PL,Krzysztof,Agnieszka,"ulica Królowej Jadwigi 131, 88-100 Inowrocław","ulica Królowej Jadwigi 131, 88-100 Inowrocław",FYO334553,,+48 737 784 018,mazur.anna@mail.pl
+80122576731,Tomasz,,Krawczyk,,1980-12-25,M,Rzeszów,PL,Paweł,Barbara,"Wybickiego 148, 86-300 Grudziądz","Wybickiego 148, 86-300 Grudziądz",IDZ111096,P9695950,735497770,tomaszkrawczyk@onet.pl
+00210378083,Katarzyna,Agnieszka,Woźniak,Walczak,2000-01-03,K,Szczecin,PL,Adam,Justyna,"ul. Czarnieckiego 165/47, 14-100 Ostróda","ul. Czarnieckiego 165/47, 14-100 Ostróda",LIK287639,PL8874187,+48 542 555 664,katarzyna_wozniak@helios-markets.pl
+77062179478,Krzysztof,Wojciech,Jankowski,,1977-06-21,M,Wrocłah,PL,Robert,Anna,"ul Nieistniejąca 2, 99-999 Nibylandia","ul Nieistniejąca 2, 99-999 Nibylandia",ONV564182,,48-565-266-403,krzysztof.jankowski94@gmail.com
+86010780824,Ewa,,Grabowska,,1986-01-07,K,Toruń,PL,Marek,Maria,"ulica Lubelska 19, 24-100 Puławy","ulica Lubelska 19, 24-100 Puławy",RSG340725,,681332549,ewa.grabowska@proton.me
+80122582211,Adam,Piotr,Pawlak,,1980-12-25,M,Szczecin,PL,Wojciech,Katarzyna,"Staszica 36, 22-400 Zamość","Staszica 36, 22-400 Zamość",UXR217268,,(48) 608106252,a.pawlak@biuro.pl
+70032083568,Monika,Maria,Michalska,Górska,1970-03-20,K,Gdynia,PL,Rafał,Joanna,"53/9, 16-300 Augustów","53/9, 16-300 Augustów",,,589 498 674,michalska.monika@polaris-capital.pl
+96120384953,Marek,,Król,,1996-12-03,M,iKelec,PL,Piotr,Ewa,"ul Kościuszki 70, 16-400 Suwałki","ul Kościuszki 70, 16-400 Suwałki",AHN370354,PL6799346,500 231 747,marekkrol@mail.pl
+75052286302,Barbara,Joanna,Wieczorek,Ostrowska,1975-05-22,K,Toruń,PL,Tomasz,Magdalena,"os. Piastowska 87, 48-300 Nysa","os. Piastowska 87, 48-300 Nysa",DMY946897,P3943843,678907515,barbara_wieczorek@onet.pl
+81082787693,Rafał,Paweł,Jabłoński,,1971-08-27,M,Warszawa,PL,Michał,Monika,"Długa 104, 49-300 Brzeg","Długa 104, 49-300 Brzeg",GRJ723440,P3191160,48-770-203-887,rafal.jablonski71@wp.pl
+74061589042,Anna,,Witkowska,,1974-06-15,K,Rzeszów,PL,Krzysztof,Agnieszka,"ul. Rynek 121/61, 68-200 Żary","ul. Rynek 121/61, 68-200 Żary",JWU399983,,700 882 873,anna.witkowska@astra-finance.pl
+80071190439,Tomasz,Robert,Walczak,,,M,Bydgoszcz,PL,Paweł,Barbara,"ul Sikorskiego 138, 66-200 Świebodzin","ul Sikorskiego 138, 66-200 Świebodzin",MBF676526,PL9406100,48-594-863-198,t.walczak@proton.me
+88011391786,Katarzyna,Agnieszka,Stępień,Wójcicka,1988-01-13,K,Rzeszów,PL,Adam,Justyna,"ulica Armii Krajowej 155, 78-100 Kołobrzeg","ulica Armii Krajowej 155, 78-100 Kołobrzeg",PGQ253069,PA9652310,(48) 677656912,stepien.katarzyna@biuro.pl
+88032993170,Krzysztof,,Baran,,1988-03-29,M,Lublin,PL,Robert,Anna,"Piłsudskiego 172, 73-110 Stargard","Piłsudskiego 172, 73-110 Stargard",SLB029612,P9758448,+48 661 570 615,krzysztofbaran@poczta.pl
+89071894527,Ewa,Justyna,Rutkowska,Lis,1989-07-18,K,Toruń,PL,Marek,Maria,"ul. Mickiewicza 9/23, 27-600 Sandomierz","ul. Mickiewicza 9/23, 27-600 Sandomierz",,PA2845185,(48) 768664943,ewa_rutkowska@nova-data.pl
+65070495914,Adam,Piotr,Górski,,1965-07-04,M,Katowice,PL,Wojciech,Katarzyna,"ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski","ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski",YVX982698,,+48 638 488 651,adam.gorski77@onet.pl
+95100697265,Monika,,Sikora,,1995-10-06,K,Poznfń,PL,Rafał,Joanna,"ulica Marszałkowska 43, 00-590 Warszawa","ulica Marszałkowska 43, 00-590 Warszawa",BAI059241,,48-782-500-566,monika.sikora@wp.pl
+93041598654,Marek,Michał,Ostrowski,,1993-04-15,M,Gdynia,PL,Piotr,Ewa,"Krakowskie Przedmieście 60, 00-071 Warszawa","Krakowskie Przedmieście 60, 00-071 Warszawa",EFT335784,,+48 716 523 426,m.ostrowski@gmail.com
+88082400002,Barbara,Joanna,Tomaszewska,Sadowska,1988-08-24,K,Gdańsk,PL,Tomasz,Magdalena,"ul. Floriańska 77/75, 31-019 Kraków","ul. Floriańska 77/75, 31-019 Kraków",HKE412327,P6662066,48-549-155-087,tomaszewska.barbara@silesia-invest.pl
+98120301394,Rafał,,Zając,,1998-12-03,M,Łódź,PL,Michał,Monika,"ul Długa 94, 31-147 Kraków","ul Długa 94, 31-147 Kraków",KPP788870,,647131229,rafalzajac@biuro.pl
+75012002740,Anna,Magdalena,Pietrzak,Borkowska,1975-01-20,K,Kielce,PL,Krzysztof,Agnieszka,"ulica Piotrkowska 111, 90-102 Łódź","ulica Piotrkowska 111, 90-102 Łódź",NUA865413,PA7806091,(48) 613279362,anna_pietrzak@poczta.pl
+91061004137,Tomasz,Robert,Wójcicki,,1991-06-10,M,Kraków,PL,Paweł,Barbara,"Zachodnia 128, 90-402 Łódź","Zachodnia 128, 90-402 Łódź",QZL141956,,48-556-901-193,tomasz.wojcicki83@mail.pl
+65020105485,Katarzyna,,Czarnecka,,1965-02-01,K,Kraków,PL,Adam,Justyna,"ul. Świdnicka 145/37, 50-066 Wrocław","ul. Świdnicka 145/37, 50-066 Wrocław",,,754267496,katarzyna.czarnecka@helios-markets.pl
+95082106876,Krzysztof,Wojciech,Lis,,1995-08-21,M,Poznań,PL,Robert,Anna,"ul Legnicka 162, 54-203 Wrocław","ul Legnicka 162, 54-203 Wrocław",WJH095042,PL7651435,612 599 428,k.lis@wp.pl
+70100508221,Ewa,Justyna,Kołodziej,Wójcik,1970-10-05,K,Warszawa,PL,Marek,Maria,"ulica Święty Marcin 179, 61-806 Poznań","ulica Święty Marcin 179, 61-806 Poznań",ZOS371585,,502357316,kolodziej.ewa@gmail.com
+98052809616,Adam,,Kaczmarek,,1998-05-28,M,Kielce,PL,Wojciech,Katarzyna,"Głogowska 16, 60-734 Poznań","Głogowska 16, 60-734 Poznań",CTD548128,,692296688,adamkaczmarek@proton.me
+73073010964,Monika,Maria,Piątek,Kamińska,1973-07-30,K,Wrocław,PL,Rafał,Joanna,"ul. Długa 33/89, 80-831 Gdańsk","ul. Długa 33/89, 80-831 Gdańsk",FYO524671,,48-799-952-364,monika_piatek@polaris-capital.pl
+97030412358,Marek,Michał,Sadowski,,1997-03-04,M,Wrocław,PL,Piotr,Ewa,"ul Grunwaldzka 50, 80-236 Gdańsk","ul Grunwaldzka 50, 80-236 Gdańsk",IDZ401214,,546 412 140,marek.sadowski89@poczta.pl
+80032913705,Barbara,,Włodarczyk,,1980-03-29,K,Białystok,PL,Tomasz,Magdalena,"ulica Jagiellońska 67, 70-435 Szczecin","ulica Jagiellońska 67, 70-435 Szczecin",LIK477757,,635 627 527,barbara.wlodarczyk@mail.pl
+74051915099,Rafał,Paweł,Borkowski,,1974-05-19,M,Warszawa,PL,Michał,Monika,"Wyszyńskiego 84, 70-200 Szczecin","Wyszyńskiego 84, 70-200 Szczecin",ONV854300,,704 912 670,r.borkowski@onet.pl
+68073116444,Anna,Magdalena,Kowalska,Dąbrowska,1968-07-31,K,Rzeszów,PL,Krzysztof,Agnieszka,"ul. Mariacka 101/51, 40-014 Katowice","ul. Mariacka 101/51, 40-014 Katowice",,PA5391057,(48) 545982214,kowalska.anna@astra-finance.pl
+96083017831,Tomasz,,Nowacki,,1996-08-30,M,Poznań,PL,Paweł,Barbara,"ul Warszawska 118, 40-009 Katowice","ul Warszawska 118, 40-009 Katowice",UXR407386,,619531753,tomasznowacki@gmail.com
+02303019187,Katarzyna,Agnieszka,Wiśniewska,Krawczyk,2002-10-30,K,Poznań,PL,Adam,Justyna,"ulica Krakowskie Przedmieście 135, 20-002 Lublin","ulica Krakowskie Przedmieście 135, 20-002 Lublin",XCC483929,PA6720688,+48 510 692 520,katarzyna_wisniewska@proton.me
+78112520576,Krzysztof,Wojciech,Wójcik,,1978-11-25,M,Gdynia,PL,Robert,Anna,"Narutowicza 152, 20-004","Narutowicza 152, 20-004",AHN560472,,+48 696 535 170,krzysztof.wojcik95@biuro.pl
+70070521927,Ewa,,Kowalczyk,,1970-07-05,K,Warszawa,PL,Marek,Maria,"ul. Lipowa 169/13, 15-424 Białystok","ul. Lipowa 169/13, 15-424 Białystok",DMY537015,,(48) 600825195,ewa.kowalczyk@nova-data.pl
+74073123315,Adam,Piotr,Kamiński,,1974-07-31,M,Warszawa,PL,Wojciech,Katarzyna,"ul Sienkiewicza 6, 15-092 Białystok","ul Sienkiewicza 6, 15-092 Białystok",GRJ213558,,535576924,a.kaminski@mail.pl
+89062224669,Monika,Maria,Lewandowska,Pawlak,1989-06-22,K,Zielona Góra,PL,Rafał,Joanna,"ulica Gdańska 23, 85-005 Bydgoszcz","ulica Gdańska 23, 85-005 Bydgoszcz",JWU690101,,770152290,lewandowska.monika@onet.pl
+78032326058,Marek,,Zieliński,,1978-03-23,M,Wrocław,PL,Piotr,Ewa,"os. Dworcowa 40, 85-009 Bydgoszcz","os. Dworcowa 40, 85-009 Bydgoszcz",MBF866644,PL8443206,48-675-356-836,marekzielinski@wp.pl
+95102027406,Barbara,Joanna,Szymańska,Król,1995-10-20,K,Olsztyn,PL,Tomasz,Magdalena,"ul. Szeroka 57/65, 87-100 Toruń","ul. Szeroka 57/65, 87-100 Toruń",,,611 135 479,barbara_szymanska@silesia-invest.pl
+91072528798,Rafał,Paweł,Dąbrowski,,1991-07-25,M,Gdańsk,PL,Michał,Monika,"ul Chełmińska 74, 87-100 Toruń","ul Chełmińska 74, 87-100 Toruń",SLB219730,,543 699 469,rafal.dabrowski72@proton.me
+71060930145,Anna,,Mazur,,1971-06-09,K,Kielce,PL,Krzysztof,Agnieszka,"ulica 3 Maja 91, 35-030 Rzeszów","ulica 3 Maja 91, 35-030 Rzeszów",VQM896273,,48-514-295-408,anna.mazur@biuro.pl
+83043031530,Tomasz,Robert,Krawczyk,,1983-04-30,M,Wrocław,PL,Paweł,Barbara,"Piłsudskiego 108, 35-074 Rzeszów","Piłsudskiego 108, 35-074 Rzeszów",YVX272816,,758 710 384,t.krawczyk@poczta.pl
+94061832889,Katarzyna,Agnieszka,Woźniak,Walczak,1994-06-18,K,Katowice,PL,Adam,Justyna,"ul. Sienkiewicza 125/27, 25-007 Kielce","ul. Sienkiewicza 125/27, 25-007 Kielce",BAI549359,P5337594,604395544,wozniak.katarzyna@helios-markets.pl
+83021834270,Krzysztof,,Jankowski,,1983-02-18,M,Warszawa,PL,Robert,Anna,"ul Warszawska 142, 25-512 Kielce","ul Warszawska 142, 25-512 Kielce",EFT625902,,504992428,krzysztofjankowski@onet.pl
+02251735625,Ewa,Justyna,Grabowska,Baran,2002-05-17,K,Białystok,PL,Marek,Maria,"ulica Kościuszki 159, 10-504 Olsztyn","ulica Kościuszki 159, 10-504 Olsztyn",HKE602445,,695221141,ewa_grabowska@wp.pl
+00230237016,Adam,Piotr,Pawlak,,2000-03-02,M,Olsztyn,PL,Wojciech,Katarzyna,"Dąbrowszczaków 176, 10-540 Olsztyn","Dąbrowszczaków 176, 10-540 Olsztyn",KPP278988,,48-793-125-365,adam.pawlak78@gmail.com
+77102638361,Monika,,Michalska,,1977-10-26,K,Lublin,PL,Rafał,Joanna,"ul. Krakowska 13/79, 45-018 Opole","ul. Krakowska 13/79, 45-018 Opole",,PA8660726,48-523-736-101,monika.michalska@polaris-capital.pl
+79010939756,Marek,Michał,Król,,1979-01-09,M,Opole,PL,Piotr,Ewa,"ul Ozimska 30, 45-057 Opole","ul Ozimska 30, 45-057 Opole",QZL632074,,502807273,m.krol@biuro.pl
+70072641102,Barbara,Joanna,Wieczorek,Ostrowska,1970-07-26,K,Toruń,PL,Tomasz,Magdalena,"ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra","ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra",TEW508617,,(48) 724444407,wieczorek.barbara@poczta.pl
+81011242496,Rafał,,Jabłoński,,1981-01-12,M,Warszawa,PL,Michał,Monika,"Kupiecka 64, 65-058 Zielona Góra","Kupiecka 64, 65-058 Zielona Góra",WJH285160,,766 601 078,rafaljablonski@mail.pl
+79072543841,Anna,Magdalena,Witkowska,Zając,1979-07-25,K,Szczecin,PL,Krzysztof,Agnieszka,"ul. Świętojańska 81/41, 81-372 Gdynia","ul. Świętojańska 81/41, 81-372 Gdynia",ZOS661703,P7021186,+48 672 226 141,anna_witkowska@astra-finance.pl
+78021245230,Tomasz,Robert,Walczak,,1978-02-12,M,Łódź,PL,Paweł,Barbara,ul 10 Lutego 98,ul 10 Lutego 98,CTD738246,PA9578808,+48 513 180 013,tomasz.walczak84@wp.pl
+71070946589,Katarzyna,,Stępień,,1971-07-09,K,Gdynia,PL,Adam,Justyna,"ulica Bolesława Prusa 115, 05-800 Pruszków","ulica Bolesława Prusa 115, 05-800 Pruszków",FYO014789,,+48 512 784 353,katarzyna.stepien@gmail.com
+00300547973,Krzysztof,Wojciech,Baran,,2000-10-05,M,Gdańsk,PL,Robert,Anna,"Kościuszki 132, 05-500 Piaseczno","Kościuszki 132, 05-500 Piaseczno",IDZ691332,,(48) 707835614,k.baran@proton.me
+85081849322,Ewa,Justyna,Rutkowska,Lis,1985-08-18,K,Olsztyn,PL,Marek,Maria,"ul. Sienkiewicza 149/3, 32-020 Wieliczka","ul. Sienkiewicza 149/3, 32-020 Wieliczka",,,547454516,rutkowska.ewa@nova-data.pl
+80082450711,Adam,,Górski,,1980-08-24,M,Białystok,PL,Wojciech,Katarzyna,"ul Dąbrowskiego 166, 32-600 Oświęcim","ul Dąbrowskiego 166, 32-600 Oświęcim",ONV344418,PL8809488,730295265,adamgorski@poczta.pl
+66102152063,Monika,Maria,Sikora,Kaczmarek,1966-10-21,K,Białystok,PL,Rafał,Joanna,"ulica Rynek 3, 38-400 Krosno","ulica Rynek 3, 38-400 Krosno",RSG720961,,507870622,monika_sikora@mail.pl
+70111353456,Mraek,Michał,Ostrowski,,1970-11-13,M,Szcz,PL,Piotr,Ewa,"Mickiewicza 20, 39-300 Mielec","Mickiewicza 20, 39-300 Mielec",UXR797504,,48-748-236-429,marek.ostrowski90@onet.pl
+86041654800,Barbara,,Tomaszewska,,1986-04-16,K,Gdynia,PL,Tomasz,Magdalena,"ul. Długa 37/55, 58-100 Świdnica","ul. Długa 37/55, 58-100 Świdnica",XCC974047,,589140428,barbara.tomaszewska@silesia-invest.pl
+78061356198,Rafał,Paweł,Zając,,1978-06-13,M,Poznań,PL,Michał,Monika,"ul Wojska Polskiego 54, 57-300 Kłodzko","ul Wojska Polskiego 54, 57-300 Kłodzko",AHN750590,PA2983884,(48) 735609716,r.zajac@gmail.com
+02280457541,Anna,Magdalena,Pietrzak,Borkowska,2002-08-04,K,Białystok,PL,Krzysztof,Agnieszka,"ulica Chrobrego 71, 62-200 Gniezno","ulica Chrobrego 71, 62-200 Gniezno",DMY727133,,48-681-636-635,pietrzak.anna@proton.me
+87091258938,Tomasz,,Wójcicki,,1987-09-12,M,Bydgoszcz,PL,Paweł,Barbara,"Słowiańska 88, 64-100 Leszno","Słowiańska 88, 64-100 Leszno",GRJ403676,,48-693-920-519,tomaszwojcicki@biuro.pl
+65100560289,Katarzyna,Agnieszka,Czarnecka,Nowacka,1965-10-05,K,Gdańsk,PL,Adam,Justyna,"105/17, 83-110 Tczew","105/17, 83-110 Tczew",,,48-684-549-011,katarzyna_czarnecka@helios-markets.pl
+83012761673,Krzysztof,Wojciech,Lis,,1983-01-27,M,Gdynia,PL,Robert,Anna,"ul Sobieskiego 122, 84-200 Wejherowo","ul Sobieskiego 122, 84-200 Wejherowo",MBF056762,PL9092973,+48 633 477 668,krzysztof.lis96@mail.pl
+97122463026,Ewa,,Kołodziej,,1997-12-24,K,Lublin,PL,Marek,Maria,"ulica Głęboka 139, 43-400 Cieszyn","ulica Głęboka 139, 43-400 Cieszyn",PGQ733305,,(48) 648866880,ewa.kolodziej@onet.pl
+04291864413,Adam,Piotr,Kaczmarek,,2004-09-18,M,Toruń,PL,Wojciech,Katarzyna,"Małachowskiego 156, 42-500 Będzin","Małachowskiego 156, 42-500 Będzin",SLB709848,P3601348,48-777-962-829,a.kaczmarek@wp.pl
+67012365761,Monika,Maria,Piątek,Kamińska,1967-01-23,K,Łódź,PL,Rafał,Joanna,"os. Królowej Jadwigi 173/69, 88-100 Inowrocław","os. Królowej Jadwigi 173/69, 88-100 Inowrocław",VQM086391,,(48) 535992589,piatek.monika@polaris-capital.pl
+85072967154,Marek,,Sadowski,,1985-07-29,M,Bydgoszz,PL,Piotr,Ewa,"ul Wybickiego 10, 86-300 Grudziądz","ul Wybickiego 10, 86-300 Grudziądz",YVX462934,PL1247498,+48 714 402 236,mareksadowski@proton.me
+67031968509,Barbara,Joanna,Włodarczyk,Zielińska,1967-03-19,K,Gdynia,PL,Tomasz,Magdalena,"ulica Czarnieckiego 27, 14-100 Ostróda","ulica Czarnieckiego 27, 14-100 Ostróda",BAI739477,,48-649-418-065,barbara_wlodarczyk@biuro.pl
+68071969891,Rafał,Paweł,Borkowski,,1968-07-19,M,Rzeszów,PL,Michał,Monika,"44, Giżycko","44, Giżycko",EFT116020,P1095916,48-721-805-790,rafal.borkowski73@poczta.pl
+83112171240,Anna,,Kowalska,,1983-11-21,K,Gdynia,PL,Krzysztof,Agnieszka,"ul. Lubelska 61/31, 24-100 Puławy","ul. Lubelska 61/31, 24-100 Puławy",,,48-799-866-070,anna.kowalska@astra-finance.pl
+79050372630,Tomasz,Robert,Nowacki,,1979-05-03,M,Łódź,PL,Paweł,Barbara,"ul Staszica 78, 22-400 Zamość","ul Staszica 78, 22-400 Zamość",KPP869106,PA1770285,48-631-662-030,t.nowacki@onet.pl
+74111673987,Katarzyna,Agnieszka,Wiśniewska,Krawczyk,1974-11-16,K,Wrocław,PL,Adam,Justyna,"ulica 3 Maja 95, 16-300 Augustów","ulica 3 Maja 95, 16-300 Augustów",NUA545649,PL2921112,787 118 919,wisniewska.katarzyna@wp.pl
+74032075374,Krzysztof,,Wójcik,,1974-03-20,M,Toruń,PL,Robert,Anna,"Kościuszki 112, 16-400 Suwałki","Kościuszki 112, 16-400 Suwałki",QZL922192,,+48 647 691 646,krzysztofwojcik@gmail.com
+79041776722,Ewa,Justyna,Kowalczyk,Jankowska,1979-04-17,K,Lublin,PL,Marek,Maria,"ul. Piastowska 129/83, 48-300 Nysa","ul. Piastowska 129/83, 48-300 Nysa",TEW798735,,640267570,ewa_kowalczyk@nova-data.pl
+68031278111,Adam,Piotr,Kamiński,,1968-03-12,M,Bydgoszcz,PL,Wojciech,Katarzyna,"ul Długa 146, 49-300 Brzeg","ul Długa 146, 49-300 Brzeg",WJH775278,,+48 545 324 497,adam.kaminski79@biuro.pl
+66040779467,Monika,,Lewandowska,,1966-04-07,K,Gdynia,PL,Rafał,Joanna,"163, 68-200 Żary","163, 68-200 Żary",ZOS851821,P9562455,742 444 868,monika.lewandowska@poczta.pl
+71091780858,Marek,Michał,Zieliński,,1971-09-17,M,Kraków,PL,Piotr,Ewa,"Sikorskiego 180, 66-200 Świebodzin","Sikorskiego 180, 66-200 Świebodzin",CTD928364,,48-775-743-448,m.zielinski@mail.pl
+97031182203,Barbara,Joanna,Szymańska,Król,1997-03-11,K,Szczecin,PL,Tomasz,Magdalena,"ul. Armii Krajowej 17/45, 78-100 Kołobrzeg","ul. Armii Krajowej 17/45, 78-100 Kołobrzeg",,PL1353650,743499610,szymanska.barbara@silesia-invest.pl
+99121283597,Rafał,,Dąbrowski,,1999-12-12,M,Białystok,PL,Michał,Monika,"ul Piłsudskiego 34, 73-110 Stargard","ul Piłsudskiego 34, 73-110 Stargard",IDZ881450,PL6688025,48-535-123-037,rafaldabrowski@wp.pl
+77122484940,Anna,Magdalena,Mazur,Jabłońska,1977-12-24,K,Opole,PL,Krzysztof,Agnieszka,"ulica Mickiewicza 51, 27-600 Sandomierz","ulica Mickiewicza 51, 27-600 Sandomierz",LIK857993,PA9060697,528693432,anna_mazur@gmail.com
+68072686335,Tomasz,Robert,Krawczyk,,1968-07-26,M,Olsztyn,PL,Paweł,Barbara,"Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski","Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski",ONV534536,,(48) 598621261,tomasz.krawczyk85@proton.me
+02293087687,Katarzyna,,Woźniak,,2002-09-30,K,Poznań,PL,Adam,Justyna,"ul. Marszałkowska 85/7, 00-590 Warszawa","ul. Marszałkowska 85/7, 00-590 Warszawa",RSG511079,,+48 649 744 546,katarzyna.wozniakhelios-markets.pl
+71111489073,Krzysztof,Wojciech,Jankowski,,1971-11-14,M,Rzeszów,PL,Robert,Anna,"ul Krakowskie Przedmieście 102, 00-071 Warszawa","ul Krakowskie Przedmieście 102, 00-071 Warszawa",UXR987622,,48-605-626-115,k.jankowski@poczta.pl
+00243090424,Ewa,Justyna,Grabowska,Baran,2000-04-30,K,Toruń,PL,Marek,Maria,"ulica Floriańska 119, 31-019 Kraków","ulica Floriańska 119, 31-019 Kraków",XCC164165,,695891887,grabowska.ewa@mail.pl
+74030491819,Adam,,Pawlak,,1974-03-04,M,Bydgoszcz,PL,Wojciech,Katarzyna,"Długa 136, 31-147 Kraków","Długa 136, 31-147 Kraków",AHN340708,,706 311 814,adampawlak@onet.pl
+81072593160,Monika,Maria,Michalska,Górska,1981-07-25,K,Łódź,PL,Rafał,Joanna,"ul. Piotrkowska 153/59, 90-102 Łódź","ul. Piotrkowska 153/59, 90-102 Łódź",,PL3931143,+48 571 826 945,monika_michalska@polaris-capital.pl
+94042094552,Marek,Michał,Król,,1994-04-20,M,Wrocław,PL,Piotr,Ewa,90-402 Łódź,90-402 Łódź,GRJ693794,,48-772-475-286,marek.krol91@gmail.com
+98040895900,Barbara,,Wieczorek,,1998-04-08,K,Zielona Góra,PL,Tomasz,Magdalena,"ulica Świdnicka 7, 50-066 Wrocław","ulica Świdnicka 7, 50-066 Wrocław",JWU370337,,640 197 320,barbara.wieczorek@proton.me
+91072497296,Rafał,Paweł,Jabłoński,,1991-07-24,M,Gdynia,PL,Michał,Monika,"Legnicka 24, 54-203 Wrocław","Legnicka 24, 54-203 Wrocław",MBF246880,,698 366 708,r.jablonski@biuro.pl
+79123098645,Anna,Magdalena,Witkowska,Zając,1979-12-30,K,Poznań,PL,Krzysztof,Agnieszka,"ul. Święty Marcin 41/21, 61-806 Poznań","ul. Święty Marcin 41/21, 61-806 Poznań",PGQ923423,PA2151995,656161003,witkowska.anna@astra-finance.pl
+93072500033,Tomasz,,Walczak,,1993-07-25,M,Toruń,PL,Paweł,Barbara,"ul Głogowska 58, 60-734 Poznań","ul Głogowska 58, 60-734 Poznań",SLB999966,PA6946529,503 925 281,tomaszwalczak@mail.pl
+73042101387,Katarzyna,Agnieszka,Stępień,Wójcicka,1973-04-21,K,Wrocław,PL,Adam,Justyna,"ulica Długa 75, 80-831 Gdańsk","ulica Długa 75, 80-831 Gdańsk",,,+48 747 116 806,katarzyna_stepien@onet.pl
+97022502779,Krzysztof,Wojciech,Baran,,1997-02-25,M,Lublin,PL,Robert,Anna,"Grunwaldzka 92, 80-236 Gdańsk","Grunwaldzka 92, 80-236 Gdańsk",YVX953052,PA5532920,+48 502 275 283,krzysztof.baran97@wp.pl
+77010804126,Ewa,,Rutkowska,,1977-01-08,K,Katowice,PL,Marek,Maria,"ul. Jagiellońska 109/73, 70-435 Szczecin","ul. Jagiellońska 109/73, 70-435 Szczecin",,,788693410,ewa.rutkowska@nova-data.pl
+97013005515,Adam,Piotr,Górski,,1997-01-30,M,Gdańsk,PL,Wojciech,Katarzyna,"os. Wyszyńskiego 126, 70-200 Szczecin","os. Wyszyńskiego 126, 70-200 Szczecin",EFT606138,,+48 525 273 611,a.gorski@proton.me
+68110406862,Monika,Maria,Sikora,Kaczmarek,1968-11-04,K,Katowice,PL,Rafał,Joanna,"ulica Mariacka 143, 40-014 Katowice","ulica Mariacka 143, 40-014 Katowice",HKE082681,PL1009677,+48 555 187 775,sikora.monika@biuro.pl
+68060908250,Marek,,Ostrowski,,1968-06-09,M,Białystok,PL,Piotr,Ewa,"Warszawska 160, 40-009 Katowice","Warszawska 160, 40-009 Katowice",KPP059224,PL3212271,556 486 342,marekostrowski@poczta.pl
+00251309604,Barbara,Joanna,Tomaszewska,Sadowska,2000-05-13,K,Łódź,PL,Tomasz,Magdalena,"ul. Krakowskie Przedmieście 177/35, 20-002 Lublin","ul. Krakowskie Przedmieście 177/35, 20-002 Lublin",NUA735767,PA1105125,(48) 678881775,barbara_tomaszewska@silesia-invest.pl
+88011510990,Rafał,Paweł,Zając,,1988-01-15,M,Lublin,PL,Michał,Monika,"ul Narutowicza 14, 20-004 Lublin","ul Narutowicza 14, 20-004 Lublin",QZL112310,,(48) 766343541,rafal.zajac74@onet.pl
+67091112348,,,Pietrzak,,1967-09-11,K,Opole,,Krzysztof,Agnieszka,"ulica Lipowa 31, 15-424 Białystok","ulica Lipowa 31, 15-424 Białystok",TEW988853,,+48 717 324 164,anna.pietrzak@wp.pl
+90011413739,Tomasz,Robert,Wójcicki,,1990-01-14,M,Opole,PL,Paweł,Barbara,"Sienkiewicza 48, 15-092 Białystok","Sienkiewicza 48, 15-092 Białystok",WJH965396,,685 596 818,t.wojcicki@gmail.com
+95101715081,Katarzyna,Agnieszka,Czarnecka,Nowacka,1995-10-17,K,Gdynia,PL,Adam,Justyna,"ul. Gdańska 65/87, 85-005 Bydgoszcz","ul. Gdańska 65/87, 85-005 Bydgoszcz",,,(48) 654607799,czarnecka.katarzyna@helios-markets.pl
+90080816479,Krzysztof,,Lis,,1990-08-08,M,Białystok,PL,Robert,Anna,"ul Dworcowa 82, 85-009 Bydgoszcz","ul Dworcowa 82, 85-009 Bydgoszcz",CTD118482,,575901110,krzysztoflis@biuro.pl
+69030117823,Ewa,Justyna,Kołodziej,Wójcik,1969-03-01,K,Wrocław,PL,Marek,Maria,"ulica Szeroka 99, 87-100 Toruń","ulica Szeroka 99, 87-100 Toruń",FYO895025,,+48 609 797 136,ewa_kolodziej@poczta.pl
+03280619214,Adam,Piotr,Kaczmarek,,2003-08-06,M,Katowice,PL,Wojciech,Katarzyna,"Chełmińska 116, 87-100 Toruń","Chełmińska 116, 87-100 Toruń",IDZ371568,P4689255,+48 511 846 552,adam.kaczmarek80@mail.pl
+96112720567,Monika,,Piątek,,1996-11-27,K,Opole,PL,Rafał,Joanna,"ul. 3 Maja 133/49, 35-030 Rzeszów","ul. 3 Maja 133/49, 35-030 Rzeszów",LIK448111,,567 132 839,monika.piatek@polaris-capital.pl
+69041621955,Marek,Mcihał,Sadowski,,1969-04-16,M,Wrocł,PL,Piotr,Ewa,"ul Piłsudskiego 150, 35-074 Rzeszów","ul Piłsudskiego 150, 35-074 Rzeszów",ONV724654,,548 316 005,m.sadowski@wp.pl
+88041023307,Barbara,Joanna,Włodarczyk,Zielińska,1988-04-10,K,Rzeszów,PL,Tomasz,Magdalena,"ulica Sienkiewicza 167, 25-007 Kielce","ulica Sienkiewicza 167, 25-007 Kielce",RSG701197,PL1998522,(48) 585250137,wlodarczyk.barbara@gmail.com
+12281624696,Rafał,,Borkowski,,2002-08-16,M,Lublin,PL,Michał,Monika,"Warszawska 4, 25-512 Kielce","Warszawska 4, 25-512 Kielce",UXR177740,,+48 622 776 443,rafalborkowski@proton.me
+02320326046,Anna,Magdalena,Kowalska,Dąbrowska,2002-12-03,K,Rzeszów,PL,Krzysztof,Agnieszka,"ul. Kościuszki 21/11, 10-504 Olsztyn","ul. Kościuszki 21/11, 10-504 Olsztyn",,P6249254,(48) 709659943,anna_kowalska@astra-finance.pl
+72051827437,Tomasz,Robert,Nowacki,,1972-05-18,M,Białystok,PL,Paweł,Barbara,"ul Dąbrowszczaków 38, 10-540 Olsztyn","ul Dąbrowszczaków 38, 10-540 Olsztyn",AHN530826,,662247969,tomasz.nowacki86@poczta.pl
+80081128789,Katarzyna,,Wiśniewska,,1980-08-11,K,Toruń,PL,Adam,Justyna,"ulica Krakowska 55, 45-018 Opole","ulica Krakowska 55, 45-018 Opole",DMY407369,PA2358519,694 215 605,katarzyna.wisniewska@mail.pl
+99071630179,Krzysztof,Wojciech,Wójcik,,1999-07-16,M,Poznań,PL,Robert,Anna,"Ozimska 72, 45-057 Opole","Ozimska 72, 45-057 Opole",GRJ983912,,48-654-824-720,k.wojcik@onet.pl
+79111331529,Ewa,Justyna,Kowalczyk,Jankowska,1979-11-13,K,Białystok,PL,Marek,Maria,"ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra","ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra",JWU560455,P3502610,48-723-780-633,kowalczyk.ewa@nova-data.pl
+88062032911,Adam,,Kamiński,,1988-06-20,M,Kraków,PL,Wojciech,Katarzyna,"ul Kupiecka 106, 65-058 Zielona Góra","ul Kupiecka 106, 65-058 Zielona Góra",MBF736998,,570 500 727,adamkaminski@gmail.com
+67070134260,Monika,Maria,Lewandowska,Pawlak,1967-07-01,K,Kraków,PL,Rafał,Joanna,"ulica Świętojańska 123, 81-372 Gdynia","ulica Świętojańska 123, 81-372 Gdynia",PGQ113541,,(48) 593263908,monika_lewandowska@proton.me
+95061435652,Marek,Michał,Zieliński,,1995-06-14,M,Szczecin,PL,Piotr,Ewa,"10 Lutego 140, 81-364 Gdynia","10 Lutego 140, 81-364 Gdynia",SLB190084,P9764778,719723089,marek.zielinski92@biuro.pl
+82071737007,Barbara,,Szymańska,,1982-07-17,K,Opole,PL,Tomasz,Magdalena,"ul. Bolesława Prusa 157/25, 05-800 Pruszków","ul. Bolesława Prusa 157/25, 05-800 Pruszków",,,653243630,barbara.szymanska@silesia-invest.pl
+82062238391,Rafał,Paweł,Dąbrowski,,1982-06-22,M,Katowice,PL,Michał,Monika,"ul Kościuszki 174, 05-500 Piaseczno","ul Kościuszki 174, 05-500 Piaseczno",YVX143170,PL3800572,(48) 587229662,r.dabrowski@mail.pl
+91060639745,Anna,Magdalena,Mazur,Jabłońska,1991-06-06,K,Gdańsk,PL,Krzysztof,Agnieszka,"ulica Sienkiewicza 11, 32-020 Wieliczka","ulica Sienkiewicza 11, 32-020 Wieliczka",BAI219713,PL2492440,728216354,mazur.anna@onet.pl
+96121141137,Tomasz,,Krawczyk,,1996-12-11,M,Poznań,PL,Paweł,Barbara,"Dąbrowskiego 28, 32-600 Oświęcim","Dąbrowskiego 28, 32-600 Oświęcim",EFT896256,PA6319951,656 582 113,tomaszkrawczyk@wp.pl
+68102442485,Katarzyna,Agnieszka,Woźniak,Walczak,1968-10-24,K,Warszawa,PL,Adam,Justyna,"ul. Rynek 45/77, 38-400 Krosno","ul. Rynek 45/77, 38-400 Krosno",HKE572799,,730166519,katarzyna_wozniak@helios-markets.pl
+92081543873,Krzysztof,Wojciech,Jankowski,,1992-08-15,M,Poznań,PL,Robert,Anna,"ul Mickiewicza 62, 39-300 Mielec","ul Mickiewicza 62, 39-300 Mielec",KPP249342,,(48) 502462281,krzysztof.jankowski98@proton.me
+02310245227,Ewa,,Grabowska,,2002-11-02,K,Opole,PL,Marek,Maria,"os. Długa 79, 58-100 Świdnica","os. Długa 79, 58-100 Świdnica",NUA925885,,746 391 410,ewa.grabowska@biuro.pl
+91081246618,Adam,Piotr,Pawlak,,1991-08-12,M,Wrocław,PL,Wojciech,Katarzyna,"96, 57-300 Kłodzko","96, 57-300 Kłodzko",QZL602428,,707857404,a.pawlak@poczta.pl
+91060747965,Monika,Maria,Michalska,Górska,1991-06-07,K,Opole,PL,Rafał,Joanna,"ul. Chrobrego 113/39, 62-200 Gniezno","ul. Chrobrego 113/39, 62-200 Gniezno",,,(48) 778728075,michalska.monika@polaris-capital.pl
+04221949351,Marek,,Król,,2004-02-19,M,Kraków,PL,Piotr,Ewa,"ul Słowiańska 130, 64-100 Leszno","ul Słowiańska 130, 64-100 Leszno",WJH255514,PA2277949,618 880 851,marekkrol@onet.pl
+82080250706,Barbara,Joanna,Wieczorek,Ostrowska,1982-08-02,K,Rzeszów,PL,Tomasz,Magdalena,"ulica Gdańska 147, 83-110 Tczew","ulica Gdańska 147, 83-110 Tczew",ZOS832057,,+48 772 798 758,barbara_wieczorek@wp.pl
+71041152090,Rafał,Paweł,Jabłoński,,1971-04-11,M,Szczecin,PL,Michał,Monika,"Sobieskiego 164, 84-200 Wejherowo","Sobieskiego 164, 84-200 Wejherowo",CTD408600,PL5957709,(48) 704370174,rafal.jablonski75@gmail.com
+76112053449,Anna,,Witkowska,,1976-11-20,K,Warszawa,PL,Krzysztof,Agnieszka,"ul. Głęboka 1/1, 43-400 Cieszyn","ul. Głęboka 1/1, 43-400 Cieszyn",FYO085143,PA6817685,+48 562 893 965,anna.witkowska@astra-finance.pl
+83021054836,Tomasz,Robert,Walczak,,1983-02-10,M,Gdynia,PL,Paweł,Barbara,"ul Małachowskiego 18, 42-500 Będzin","ul Małachowskiego 18, 42-500 Będzin",IDZ561686,,532 165 021,t.walczak@biuro.pl
+79061256181,Katarzyna,Agnieszka,Stępień,Wójcicka,1979-06-12,K,Rzeszów,PL,Adam,Justyna,"ulica Królowej Jadwigi 35, 88-100 Inowrocław","ulica Królowej Jadwigi 35, 88-100 Inowrocław",LIK938229,PA2799307,+48 746 837 914,stepien.katarzyna@poczta.pl
+82021257577,Krzysztof,,Baran,,1982-02-12,M,Kielce,PL,Robert,Anna,"Wybickiego 52, 86-300","Wybickiego 52, 86-300",ONV914772,,+48 769 756 308,krzysztofbaran@mail.pl
+92030258920,Ewa,Justyna,Rutkowska,Lis,1992-03-02,K,Gdańsk,PL,Marek,Maria,"ul. Czarnieckiego 69/53, 14-100 Ostróda","ul. Czarnieckiego 69/53, 14-100 Ostróda",,,+48 625 682 313,ewa_rutkowska@nova-data.pl
+94070960311,Adam,Piotr,Górski,,1994-07-09,M,Kraków,PL,Wojciech,Katarzyna,"ul Warszawska 86, 11-500 Giżycko","ul Warszawska 86, 11-500 Giżycko",UXR667858,PL6396582,571 926 000,adam.gorski81@wp.pl
+75092361661,Monika,,Sikora,,1975-09-23,K,Opole,PL,Rafał,Joanna,"ulica Nieistniejąca 103, 99-999 Nibylandia","ulica Nieistniejąca 103, 99-999 Nibylandia",XCC644401,,751 190 376,monika.sikora@gmail.com
+00262563051,Marek,Michał,Ostrowski,,2000-06-25,M,Poznań,PL,Piotr,Ewa,"Staszica 120, 22-400 Zamość","Staszica 120, 22-400 Zamość",AHN720944,PA5401604,48-700-875-199,m.ostrowski@proton.me
+91041264403,Barbara,Joanna,Tomaszewska,Sadowska,1991-04-12,K,Lublin,PL,Tomasz,Magdalena,"ul. 3 Maja 137/15, 16-300 Augustów","ul. 3 Maja 137/15, 16-300 Augustów",DMY697487,,592 820 349,tomaszewska.barbara@silesia-invest.pl
+95112765796,Rafał,,Zając,,1995-11-27,M,Bydgoszcz,PL,Michał,Monika,"ul Kościuszki 154, 16-400 Suwałki","ul Kościuszki 154, 16-400 Suwałki",GRJ474030,,48-595-228-644,rafalzajac@poczta.pl
+84091667142,Anna,Magdalena,Pietrzak,Borkowska,1984-09-16,K,Wrocław,PL,Krzysztof,Agnieszka,"ulica Piastowska 171, 48-300 Nysa","ulica Piastowska 171, 48-300 Nysa",JWU750573,,591 258 662,anna_pietrzak@mail.pl
+91050868531,Tomasz,Robert,Wójcicki,,1991-05-08,M,Opole,PL,Paweł,Barbara,"Długa 8, 49-300 Brzeg","Długa 8, 49-300 Brzeg",MBF327116,PA3523980,48-655-961-184,tomasz.wojcicki87@onet.pl
+70092669887,Katarzyna,,Czarnecka,,1970-09-26,K,Szczecin,PL,Adam,Justyna,"ul. Rynek 25/67, 68-200 Żary","ul. Rynek 25/67, 68-200 Żary",,,(48) 675375387,katarzyna.czarnecka@helios-markets.pl
+81012971270,Krzysztof,Wojciech,Lis,,1981-01-29,M,Poznań,PL,Robert,Anna,"ul Sikorskiego 42, 66-200 Świebodzin","ul Sikorskiego 42, 66-200 Świebodzin",SLB480202,PA9658376,+48 690 409 695,k.lis@gmail.com
+85042572625,Ewa,Justyna,Kołodziej,Wójcik,1985-04-25,K,Olsztyn,PL,Marek,Maria,"ulica Armii Krajowej 59, 78-100 Kołobrzeg","ulica Armii Krajowej 59, 78-100 Kołobrzeg",VQM056745,PA3447977,774 434 477,kolodziej.ewa@proton.me
+84073074016,Adam,,Kaczmarek,,1984-07-30,M,Katowice,PL,Wojciech,Katarzyna,"Piłsudskiego 76, 73-110 Stargard","Piłsudskiego 76, 73-110 Stargard",YVX633288,,(48) 656868868,adamkaczmarek@biuro.pl
+84112675369,Monika,Maria,Piątek,Kamińska,1984-11-26,K,Kielce,PL,Rafał,Joanna,"93/29, 27-600 Sandomierz","93/29, 27-600 Sandomierz",BAI409831,,(48) 708349558,monika_piatek@polaris-capital.pl
+90042176755,Marek,Michał,Sadowski,,1990-04-21,M,pOole,PL,Piotr,Ewa,"ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski","ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski",EFT086374,PA7053075,(48) 758455703,marek.sadowski93@mail.pl
+87110178100,Barbara,,Włodarczyk,,1987-11-01,K,Katowice,PL,Tomasz,Magdalena,"ulica Marszałkowska 127, 00-590 Warszawa","ulica Marszałkowska 127, 00-590 Warszawa",HKE862917,,48-545-880-496,barbara.wlodarczyk@onet.pl
+75100979493,Rafał,Paweł,Borkowski,,1975-10-09,M,Katowice,PL,Michał,Monika,"Krakowskie Przedmieście 144, 00-071 Warszawa","Krakowskie Przedmieście 144, 00-071 Warszawa",KPP439460,PL2890785,539 887 629,r.borkowski@wp.pl
