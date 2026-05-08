@@ -539,9 +539,7 @@ USING (VALUES
     (N'KNF_PRACOWNIK_AGENTA', N'KNF Rejestr posrednikow ubezpieczeniowych - pracownik agenta', 80),
     (N'KNF_FIRMY_INWESTYCYJNE', N'KNF Rejestr firm inwestycyjnych', 80),
     (N'KNF_PIENIADZ_ELEKTRONICZNY', N'KNF Rejestr dostawcow i wydawcow pieniadza elektronicznego', 80),
-    (N'GLEIF', N'GLEIF', 75),
-    (N'GLEIF_L1', N'GLEIF Level 1', 75),
-    (N'GLEIF_L2', N'GLEIF Level 2', 75)
+    (N'GLEIF', N'GLEIF', 75)
 ) AS source ([SourceSystem_Code], [SourceSystem_Name], [Trust_Level])
 ON target.[SourceSystem_Code] = source.[SourceSystem_Code]
 WHEN NOT MATCHED THEN
@@ -636,57 +634,6 @@ USING (VALUES
     (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipStatus', N'Ultimate_Parent_Relationship_Status'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipStartDate', N'Ultimate_Parent_Relationship_Start_Date'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipEndDate', N'Ultimate_Parent_Relationship_End_Date')
-) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
-AND target.[Entity_Type] = source.[Entity_Type]
-AND target.[Source_Column_Name] = source.[Source_Column_Name]
-WHEN NOT MATCHED THEN
-    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
-GO
-
-DECLARE @GLEIF_L1_SourceSystem_ID INT = (
-    SELECT [SourceSystem_ID]
-    FROM [meta].[SourceSystem]
-    WHERE [SourceSystem_Code] = N'GLEIF_L1'
-);
-
-MERGE [meta].[ColumnMapping] AS target
-USING (VALUES
-    -- PARTY (GLEIF L1)
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalName', N'Name'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalJurisdiction', N'Registration_Country'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalForm.EntityLegalFormCode', N'Legal_Entity_Type'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Registration.InitialRegistrationDate', N'Establishment_Date'),
-
-    -- adres legalny (Street/City/Postal/Country) bez parsera
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.FirstAddressLine', N'Street'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.City', N'City'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.PostalCode', N'Postal_Code'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.Country', N'Country'),
-
-    -- identyfikator: LEI do Identifiers_JSON
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'LEI', N'Identifiers_JSON')
-) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
-AND target.[Entity_Type] = source.[Entity_Type]
-AND target.[Source_Column_Name] = source.[Source_Column_Name]
-WHEN NOT MATCHED THEN
-    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
-GO
-
-DECLARE @GLEIF_L2_SourceSystem_ID INT = (
-    SELECT [SourceSystem_ID]
-    FROM [meta].[SourceSystem]
-    WHERE [SourceSystem_Code] = N'GLEIF_L2'
-);
-
-MERGE [meta].[ColumnMapping] AS target
-USING (VALUES
-    -- PARTY (GLEIF L2)
-    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Identifiers_JSON'),
-    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'EndNode.NodeID', N'Identifiers_JSON')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]
