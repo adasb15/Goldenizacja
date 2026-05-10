@@ -3,6 +3,7 @@ from sqlalchemy.engine import URL
 
 
 class Settings(BaseSettings):
+    # Trzymamy parametry API w .env, żeby ten sam obraz działał lokalnie i w Dockerze
     app_name: str = "goldenizacja-api"
     app_env: str = "dev"
     api_host: str = "0.0.0.0"
@@ -17,6 +18,7 @@ class Settings(BaseSettings):
     mssql_trust_server_certificate: str = "yes"
 
 
+    # Konfigurujemy Neo4j dla modułu demo, żeby pokazać zapis dokumentu także w grafie
     neo4j_uri: str = "bolt://neo4j:7687"
     neo4j_user: str = "neo4j"
     neo4j_password: str
@@ -28,6 +30,7 @@ class Settings(BaseSettings):
 
     @property
     def sqlalchemy_database_url(self) -> str:
+        # Budujemy URL przez SQLAlchemy, żeby poprawnie złożyć hasło i parametry ODBC
         return URL.create(
             "mssql+pyodbc",
             username=self.mssql_user,
@@ -45,6 +48,7 @@ class Settings(BaseSettings):
 
     @property
     def sqlalchemy_master_url(self) -> str:
+        # Budujemy URL do master, żeby init_db mógł utworzyć bazę docelową przy pierwszym starcie
         return URL.create(
             "mssql+pyodbc",
             username=self.mssql_user,
@@ -62,6 +66,7 @@ class Settings(BaseSettings):
 
     @property
     def cors_origins_list(self) -> list[str]:
+        # Rozbijamy tekst z .env na listę originów, żeby CORS dostał format wymagany przez FastAPI
         return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
 
 

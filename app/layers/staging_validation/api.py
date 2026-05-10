@@ -9,6 +9,7 @@ from app.layers.staging_validation.service import (
     ImportBatchNotFoundError,
     InvalidRawFileContentError,
     MissingColumnMappingError,
+    RawFileAlreadyLoadedToStagingError,
     RawFileNotFoundError,
     UnsupportedStagingFileTypeError,
     load_raw_file_to_staging,
@@ -41,7 +42,9 @@ def staging_load(
         UnsupportedStagingFileTypeError,
         InvalidRawFileContentError,
         MissingColumnMappingError,
+        RawFileAlreadyLoadedToStagingError,
     ) as exc:
+        # Zwracamy błędy walidacyjne jako 400, żeby Postman pokazał problem danych wejściowych
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"STAGING_LOAD failed: {exc}") from exc

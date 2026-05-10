@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from app.layers.analytics.schemas import LayerStatus
 
+# Wystawiamy status analytics, żeby testować routing zanim pojawią się raporty
 router = APIRouter(prefix="/analytics", tags=["analytics"])
 
 

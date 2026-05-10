@@ -9,6 +9,7 @@ from app.models.base import Base
 
 
 def _ensure_database_exists() -> None:
+    # Zakładamy bazę z poziomu aplikacji, żeby świeże środowisko Dockerowe samo wystartowało
     master_engine = create_engine(settings.sqlalchemy_master_url, pool_pre_ping=True)
     create_sql = text(
         "IF DB_ID(:db_name) IS NULL "
@@ -29,9 +30,11 @@ def init_db() -> None:
     for _ in range(attempts):
         try:
             _ensure_database_exists()
+            # Tworzymy tabele z modeli SQLAlchemy, żeby podstawowe metadane istniały przed testami API
             Base.metadata.create_all(bind=engine)
             return
         except DBAPIError as exc:
+            # Ponawiamy połączenie z SQL Serverem, żeby API nie padło gdy baza startuje wolniej
             last_error = exc
             time.sleep(delay_s)
 

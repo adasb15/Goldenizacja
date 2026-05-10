@@ -16,6 +16,7 @@ router = APIRouter()
 
 
 def _save_to_neo4j(driver: Driver, doc_id: int, title: str) -> None:
+    # Zapisujemy dokument w Neo4j, żeby endpoint demo pokazywał integrację SQL i grafu
     with driver.session() as session:
         session.run(
             "MERGE (d:Document {id: $id}) SET d.title = $title",
@@ -32,6 +33,7 @@ def health() -> dict[str, str]:
 @router.post("/documents", response_model=DocumentRead)
 def create_document(payload: DocumentCreate, db: Session = Depends(get_db)) -> DocumentRead:
     storage = FileStorageService()
+    # Zapisujemy treść do pliku, żeby SQL przechowywał tylko ścieżkę i metadane dokumentu
     file_path = storage.save_document(payload.title, payload.content)
 
     repo = DocumentRepository(db)
@@ -54,6 +56,7 @@ def list_documents(db: Session = Depends(get_db)) -> list[DocumentRead]:
 def search_documents(q: str, db: Session = Depends(get_db)) -> list[MatchResult]:
     repo = DocumentRepository(db)
     docs = repo.list_all()
+    # Szukamy po dokumentach w pamięci, żeby moduł demo działał bez osobnego indeksu wyszukiwarki
     return find_best_matches(q, docs)
 
 
@@ -63,6 +66,7 @@ async def count_file_lines(file: UploadFile = File(...)) -> FileLineCountRespons
     if not filename.lower().endswith(".csv"):
         raise HTTPException(status_code=400, detail="Only CSV files are supported.")
 
+    # Liczymy wiersze parserem CSV, żeby upload testowy dawał wynik zgodny z formatem pliku
     content = await file.read()
     text_content = content.decode("utf-8", errors="ignore")
     reader = csv.reader(io.StringIO(text_content))

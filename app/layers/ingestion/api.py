@@ -26,6 +26,7 @@ async def raw_load(
     db: Session = Depends(get_db),
 ) -> RawLoadResponse:
     filename = file.filename or "uploaded_file"
+    # Odczytujemy upload do bajtów, żeby service mógł policzyć hash i zapisać oryginał w RAW
     content = await file.read()
 
     try:

@@ -1,603 +1,2603 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<KNF_Rejestr_firm_inwestycyjnych>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 261 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Szkolna 131/11, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 262 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Lipowa 132/12, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 263 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Słoneczna 133, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 264 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Różana 134 m. 14</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 265 sp z oo</field>
-    <field name="Adres siedziby">ul Wiosenna 135/15, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 266 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Topolowa 136/16, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 267 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Bałtycka 137, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 268 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Jarzębinowa 138 m. 18</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 269 SP Z OO</field>
-    <field name="Adres siedziby">ul Srebrna 139/19, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 270 sp z oo</field>
-    <field name="Adres siedziby">ulica Portowa 140/20, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 271 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Głogowska 141, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 272 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Królewska 142 m. 22</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 273 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Piękna 143/23, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 274 SP Z OO</field>
-    <field name="Adres siedziby">ulica Leśna 144/24, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 275 sp z oo</field>
-    <field name="Adres siedziby">ul. Polna 145, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 276 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Szkolna 146 m. 1</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 277 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Lipowa 147/2, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 278 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Słoneczna 148/3, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 279 SP Z OO</field>
-    <field name="Adres siedziby">ul. Różana 149, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 280 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Wiosenna 150 m. 5</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 281 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Topolowa 151/6, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 282 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Bałtycka 152/7, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 283 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Jarzębinowa 153, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 284 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Srebrna 154 m. 9</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 285 sp z oo</field>
-    <field name="Adres siedziby">ul Portowa 155/10, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 286 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Głogowska 156/11, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 287 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Królewska 157, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 288 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Piękna 158 m. 13</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 289 SP Z OO</field>
-    <field name="Adres siedziby">ul Leśna 159/14, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 290 sp z oo</field>
-    <field name="Adres siedziby">ulica Polna 160/15, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 291 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Szkolna 161, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 292 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Lipowa 162 m. 17</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 293 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Słoneczna 163/18, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 294 SP Z OO</field>
-    <field name="Adres siedziby">ulica Różana 164/19, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 295 sp z oo</field>
-    <field name="Adres siedziby">ul. Wiosenna 165, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 296 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Topolowa 166 m. 21</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 297 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Bałtycka 167/22, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 298 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Jarzębinowa 168/23, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 299 SP Z OO</field>
-    <field name="Adres siedziby">ul. Srebrna 169, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 300 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Portowa 170 m. 25</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 301 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Głogowska 171/1, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 302 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Królewska 172/2, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 303 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Piękna 173, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 304 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Leśna 174 m. 4</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 305 sp z oo</field>
-    <field name="Adres siedziby">ul Polna 175/5, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 306 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Szkolna 176/6, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 307 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Lipowa 177, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 308 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Słoneczna 178 m. 8</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 309 SP Z OO</field>
-    <field name="Adres siedziby">ul Różana 179/9, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 310 sp z oo</field>
-    <field name="Adres siedziby">ulica Wiosenna 180/10, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 311 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Topolowa 1, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 312 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Bałtycka 2 m. 12</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 313 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Jarzębinowa 3/13, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 314 SP Z OO</field>
-    <field name="Adres siedziby">ulica Srebrna 4/14, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 315 sp z oo</field>
-    <field name="Adres siedziby">ul. Portowa 5, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 316 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Głogowska 6 m. 16</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 317 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Królewska 7/17, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 318 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Piękna 8/18, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 319 SP Z OO</field>
-    <field name="Adres siedziby">ul. Leśna 9, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 320 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Polna 10 m. 20</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 321 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Szkolna 11/21, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 322 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Lipowa 12/22, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 323 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Słoneczna 13, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 324 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Różana 14 m. 24</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 325 sp z oo</field>
-    <field name="Adres siedziby">ul Wiosenna 15/25, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 326 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Topolowa 16/1, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 327 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Bałtycka 17, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 328 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Jarzębinowa 18 m. 3</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 329 SP Z OO</field>
-    <field name="Adres siedziby">ul Srebrna 19/4, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 330 sp z oo</field>
-    <field name="Adres siedziby">ulica Portowa 20/5, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 331 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Głogowska 21, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 332 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Królewska 22 m. 7</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 333 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Piękna 23/8, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 334 SP Z OO</field>
-    <field name="Adres siedziby">ulica Leśna 24/9, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 335 sp z oo</field>
-    <field name="Adres siedziby">ul. Polna 25, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 336 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Szkolna 26 m. 11</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 337 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Lipowa 27/12, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 338 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Słoneczna 28/13, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 339 SP Z OO</field>
-    <field name="Adres siedziby">ul. Różana 29, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 340 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Wiosenna 30 m. 15</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 341 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Topolowa 31/16, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 342 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Bałtycka 32/17, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 343 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Jarzębinowa 33, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 344 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Srebrna 34 m. 19</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 345 sp z oo</field>
-    <field name="Adres siedziby">ul Portowa 35/20, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 346 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Głogowska 36/21, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 347 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Królewska 37, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 348 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Piękna 38 m. 23</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 349 SP Z OO</field>
-    <field name="Adres siedziby">ul Leśna 39/24, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 350 sp z oo</field>
-    <field name="Adres siedziby">ulica Polna 40/25, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 351 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Szkolna 41, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 352 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Lipowa 42 m. 2</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 353 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Słoneczna 43/3, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 354 SP Z OO</field>
-    <field name="Adres siedziby">ulica Różana 44/4, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 355 sp z oo</field>
-    <field name="Adres siedziby">ul. Wiosenna 45, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 356 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Topolowa 46 m. 6</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 357 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Bałtycka 47/7, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 358 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Jarzębinowa 48/8, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 359 SP Z OO</field>
-    <field name="Adres siedziby">ul. Srebrna 49, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 360 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Portowa 50 m. 10</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 361 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Głogowska 51/11, 00-810 Warszawa</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 362 sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Królewska 52/12, 30-302 Kraków</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 363 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Piękna 53, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 364 SP Z OO</field>
-    <field name="Adres siedziby">60-126 Poznań, Leśna 54 m. 14</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 365 sp z oo</field>
-    <field name="Adres siedziby">ul Polna 55/15, 50-101 Wrocław</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Vistula Brokers 366 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Szkolna 56/16, 20-819 Lublin</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nova Markets 367 sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Lipowa 57, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Meridian Pay 368 Sp. z o.o.</field>
-    <field name="Adres siedziby">10-687 Olsztyn, Słoneczna 58 m. 18</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Helix Invest 369 SP Z OO</field>
-    <field name="Adres siedziby">ul Różana 59/19, 81-350 Gdynia</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Lumen Finance 370 sp z oo</field>
-    <field name="Adres siedziby">ulica Wiosenna 60/20, 90-001 Łódź</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Sfera Ubezpieczenia 371 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Topolowa 61, 00-810 Warszawa</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Atlas Data 372 sp. z o.o.</field>
-    <field name="Adres siedziby">30-302 Kraków, Bałtycka 62 m. 22</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Pomerania Trade 373 Sp. z o.o.</field>
-    <field name="Adres siedziby">ul Jarzębinowa 63/23, 80-241 Gdańsk</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Mazovia Asset 374 SP Z OO</field>
-    <field name="Adres siedziby">ulica Srebrna 64/24, 60-126 Poznań</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Kurs Solutions 375 sp z oo</field>
-    <field name="Adres siedziby">ul. Portowa 65, 50-101 Wrocław</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Nebula Analytics 376 spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">20-819 Lublin, Głogowska 66 m. 1</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Baltic Med Supply 377 sp. z o.o.</field>
-    <field name="Adres siedziby">ul Królewska 67/2, 85-707 Bydgoszcz</field>
-    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń nabycia lub zbycia instrumentów finansowych; wykonywanie zleceń, o których mowa w art. 69 ust. 2 pkt 2 ustawy</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions 378 Sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Piękna 68/3, 10-687 Olsztyn</field>
-    <field name="Zakres czynności">zarządzanie portfelami, w skład których wchodzi jeden lub większa liczba instrumentów finansowych; doradztwo inwestycyjne</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Finex Capital 379 SP Z OO</field>
-    <field name="Adres siedziby">ul. Leśna 69, 81-350 Gdynia</field>
-    <field name="Zakres czynności">oferowanie instrumentów finansowych; przechowywanie lub rejestrowanie instrumentów finansowych</field>
-  </record>
-  <record>
-    <field name="Firma lub nazwa">Aster Payments 380 sp z oo</field>
-    <field name="Adres siedziby">90-001 Łódź, Polna 70 m. 5</field>
-    <field name="Zakres czynności">wykonywanie zleceń nabycia lub zbycia instrumentów finansowych na rachunek dającego zlecenie; sporządzanie analiz inwestycyjnych</field>
-  </record>
-</KNF_Rejestr_firm_inwestycyjnych>
+<dataset name="knf_rejestr_firm_inwestycyjnych">
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory SP Z O O</field>
+    <field name="Adres siedziby">ul. Piotrkowska 141/71, 90-102 Łódź</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000038803</field>
+    <field name="NIP">1266481469</field>
+    <field name="REGON">266639842</field>
+    <field name="Data zezwolenia">2025-04-22</field>
+    <field name="Numer decyzji">DFI/243/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">67020276761</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
+    <field name="Adres siedziby">ul Zachodnia 158, 90-402 Łódź</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000038900</field>
+    <field name="NIP">1266560654</field>
+    <field name="REGON">266719038</field>
+    <field name="Data zezwolenia">2020-03-14</field>
+    <field name="Numer decyzji">DFI/719/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">68030378157</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data sp z oo</field>
+    <field name="Adres siedziby">ulica Świdnicka 175, 50-066 Wrocław</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000038997</field>
+    <field name="NIP">1266639841</field>
+    <field name="REGON">266798227</field>
+    <field name="Data zezwolenia">2019-09-25</field>
+    <field name="Numer decyzji">DFI/125/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">69040479504</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
+    <field name="Adres siedziby">Legnicka 12, 54-203 Wrocław</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000039094</field>
+    <field name="NIP">1266719037</field>
+    <field name="REGON">266877412</field>
+    <field name="Data zezwolenia">2023-07-15</field>
+    <field name="Numer decyzji">DFI/725/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">70050580892</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Święty Marcin 29/33, 61-806 Poznań</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000039191</field>
+    <field name="NIP">1266798226</field>
+    <field name="REGON">266956608</field>
+    <field name="Data zezwolenia">2021-05-13</field>
+    <field name="Numer decyzji">DFI/134/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">71060682240</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Services S.A.</field>
+    <field name="Adres siedziby">ul Głogowska 46, 60-734 Poznań</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000039288</field>
+    <field name="NIP">1266877411</field>
+    <field name="REGON">267035796</field>
+    <field name="Data zezwolenia">2024-06-10</field>
+    <field name="Numer decyzji">DFI/170/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">72070783635</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets Polska sp. z o.o.</field>
+    <field name="Adres siedziby">os. Długa 63, 80-831 Gdańsk</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000039385</field>
+    <field name="NIP">1266956607</field>
+    <field name="REGON">267114981</field>
+    <field name="Data zezwolenia">2019-05-09</field>
+    <field name="Numer decyzji">DFI/107/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">73080884983</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">iSlesia Invets sp. z o.o.</field>
+    <field name="Adres siedziby">Grunwaldzka 80, 80-236 Gdańsk</field>
+    <field name="Zakres czynności">zraządzanie portfelami</field>
+    <field name="KRS">0000039482</field>
+    <field name="NIP">1267035795</field>
+    <field name="REGON">267194170</field>
+    <field name="Data zezwolenia">2018-07-07</field>
+    <field name="Numer decyzji">DF/334/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">74090986379</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
+    <field name="Adres siedziby">ul. Jagiellońska 97/85, 70-435 Szczecin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000039579</field>
+    <field name="NIP">1267114980</field>
+    <field name="REGON">267273366</field>
+    <field name="Data zezwolenia">2017-06-21</field>
+    <field name="Numer decyzji">DFI/470/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">75101087728</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Holding Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Wyszyńskiego 114, 70-200 Szczecin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000039676</field>
+    <field name="NIP">1267273365</field>
+    <field name="REGON">267352551</field>
+    <field name="Data zezwolenia">2022-12-20</field>
+    <field name="Numer decyzji">DFI/572/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">76111189114</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
+    <field name="Adres siedziby">ulica Mariacka 131, 40-014 Katowice</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000039773</field>
+    <field name="NIP">1267273365</field>
+    <field name="REGON">267431747</field>
+    <field name="Data zezwolenia">2017-02-19</field>
+    <field name="Numer decyzji">DFI/633/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">77121290465</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
+    <field name="Adres siedziby">Warszawska 148, 40-009 Katowice</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000039870</field>
+    <field name="NIP">1267352550</field>
+    <field name="REGON">267510932</field>
+    <field name="Data zezwolenia">2023-02-08</field>
+    <field name="Numer decyzji">DFI/571/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">78011391855</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade SP Z O O</field>
+    <field name="Adres siedziby">ul. Krakowskie Przedmieście 165/47, 20-002 Lublin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000039967</field>
+    <field name="NIP">1267431746</field>
+    <field name="REGON">267590121</field>
+    <field name="Data zezwolenia">2018-01-28</field>
+    <field name="Numer decyzji">DFI/126/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">79021493203</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Polska S.A.</field>
+    <field name="Adres siedziby">ul Narutowicza 2, 20-004 Lublin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zlecen</field>
+    <field name="KRS">0000040064</field>
+    <field name="NIP">1267510931</field>
+    <field name="REGON">267669319</field>
+    <field name="Data zezwolenia">2022-06-21</field>
+    <field name="Numer decyzji">DFI/111/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">80031594598</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Technologie spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Lipowa 19, 15-424 Białystok</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000040161</field>
+    <field name="NIP">1267590120</field>
+    <field name="REGON">267748504</field>
+    <field name="Data zezwolenia">2021-12-12</field>
+    <field name="Numer decyzji">DFI/458/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">81041695945</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Polska spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Sienkiewicza 36, 15-092 Białystok</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000040258</field>
+    <field name="NIP">1267669318</field>
+    <field name="REGON">267827698</field>
+    <field name="Data zezwolenia">2020-03-08</field>
+    <field name="Numer decyzji">DFI/683/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">82051797331</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa"></field>
+    <field name="Adres siedziby">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000040355</field>
+    <field name="NIP"></field>
+    <field name="REGON">267906883</field>
+    <field name="Data zezwolenia">2023-09-04</field>
+    <field name="Numer decyzji">DFI/356/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">83061898689</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
+    <field name="Adres siedziby">ul Dworcowa 70, 85-009 Bydgoszcz</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000040452</field>
+    <field name="NIP">1267827697</field>
+    <field name="REGON">267986072</field>
+    <field name="Data zezwolenia">2024-09-07</field>
+    <field name="Numer decyzji">DFI/559/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">84071900078</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
+    <field name="Adres siedziby">ulica Szeroka 87, 87-100 Toruń</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000040549</field>
+    <field name="NIP">1267906882</field>
+    <field name="REGON">268065262</field>
+    <field name="Data zezwolenia">2018-04-26</field>
+    <field name="Numer decyzji">DFI/490/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">85082001424</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Finanse S.A.</field>
+    <field name="Adres siedziby">Chełmińska 104, Toruń</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000040646</field>
+    <field name="NIP">1267986071</field>
+    <field name="REGON">268144458</field>
+    <field name="Data zezwolenia">2017-04-11</field>
+    <field name="Numer decyzji">DFI/873/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">86092102819</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. 3 Maja 121/61, 35-030 Rzeszów</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000040743</field>
+    <field name="NIP">1268065261</field>
+    <field name="REGON">268223643</field>
+    <field name="Data zezwolenia">2024-06-13</field>
+    <field name="Numer decyzji">DFI/951/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">87102204161</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance S.A.</field>
+    <field name="Adres siedziby">ul Piłsudskiego 138, 35-074 Rzeszów</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000040840</field>
+    <field name="NIP">1268144457</field>
+    <field name="REGON">268302839</field>
+    <field name="Data zezwolenia">2021-08-06</field>
+    <field name="Numer decyzji">DFI/899/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">88112305556</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Technologie sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 155, 25-007 Kielce</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000040937</field>
+    <field name="NIP">1268223642</field>
+    <field name="REGON">268382028</field>
+    <field name="Data zezwolenia">2025-04-08</field>
+    <field name="Numer decyzji">DFI/475/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">89122406903</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply Services Spółka Akcyjna</field>
+    <field name="Adres siedziby">Warszawska 172, 25-512 Kielce</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000041034</field>
+    <field name="NIP">1268302838</field>
+    <field name="REGON">268461213</field>
+    <field name="Data zezwolenia">2019-12-28</field>
+    <field name="Numer decyzji">DFI/412/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">90012508294</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
+    <field name="Adres siedziby">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000041131</field>
+    <field name="NIP">1268382027</field>
+    <field name="REGON">268540409</field>
+    <field name="Data zezwolenia">2024-10-14</field>
+    <field name="Numer decyzji">DFI/949/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">91022609641</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000041228</field>
+    <field name="NIP">1268461212</field>
+    <field name="REGON">268619594</field>
+    <field name="Data zezwolenia">2025-01-26</field>
+    <field name="Numer decyzji">DFI/232/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">92032711030</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Krakowska 43, 45-018 Opole</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000041325</field>
+    <field name="NIP">1268540408</field>
+    <field name="REGON">268698783</field>
+    <field name="Data zezwolenia">2023-10-03</field>
+    <field name="Numer decyzji">DFI/842/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">93042812388</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Ozimska 60, 45-057 Opole</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000041422</field>
+    <field name="NIP">1268619593</field>
+    <field name="REGON">268777979</field>
+    <field name="Data zezwolenia">2020-09-15</field>
+    <field name="Numer decyzji">DFI/716/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">94050113779</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
+    <field name="Adres siedziby">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000041519</field>
+    <field name="NIP">1268698782</field>
+    <field name="REGON">268857164</field>
+    <field name="Data zezwolenia">2017-12-06</field>
+    <field name="Numer decyzji">DFI/437/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">95060215127</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
+    <field name="Adres siedziby">ul Kupiecka 94, 65-058 Zielona Góra</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000041616</field>
+    <field name="NIP">1268777978</field>
+    <field name="REGON">269094739</field>
+    <field name="Data zezwolenia">2020-03-29</field>
+    <field name="Numer decyzji">DFI/479/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">96070316512</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Świętojańska 111, 81-372 Gdynia</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000041713</field>
+    <field name="NIP">1268857163</field>
+    <field name="REGON">269094739</field>
+    <field name="Data zezwolenia">2024-03-04</field>
+    <field name="Numer decyzji">DFI/267/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">97080417860</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade S.A.</field>
+    <field name="Adres siedziby">10 Lutego 128, 81-364 Gdynia</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000041810</field>
+    <field name="NIP">1268936359</field>
+    <field name="REGON">269094739</field>
+    <field name="Data zezwolenia">2023-03-05</field>
+    <field name="Numer decyzji">DFI/562/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">98090519256</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker Services S.A.</field>
+    <field name="Adres siedziby">ul. Bolesława Prusa 145/37, 05-800 Pruszków</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000041907</field>
+    <field name="NIP">1269015549</field>
+    <field name="REGON">269173924</field>
+    <field name="Data zezwolenia">2019-01-10</field>
+    <field name="Numer decyzji">DFI/725/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">99100620609</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Kościuszki 162, 05-500 Piaseczno</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000042004</field>
+    <field name="NIP">1269094738</field>
+    <field name="REGON">269332305</field>
+    <field name="Data zezwolenia">2020-10-10</field>
+    <field name="Numer decyzji">DFI/884/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">00310721990</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Adres siedziby">179, 32-020 Wieliczka</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000042101</field>
+    <field name="NIP">1269173923</field>
+    <field name="REGON">269332305</field>
+    <field name="Data zezwolenia">2020-12-12</field>
+    <field name="Numer decyzji">DFI/947/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">01320823348</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets Finanse S.A.</field>
+    <field name="Adres siedziby">os. Dąbrowskiego 16, 32-600 Oświęcim</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000042198</field>
+    <field name="NIP">1269253119</field>
+    <field name="REGON">269411499</field>
+    <field name="Data zezwolenia">2017-09-14</field>
+    <field name="Numer decyzji">DFI/954/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">02210924738</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Rynek 33/89, 38-400 Krosno</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000042295</field>
+    <field name="NIP">1269332304</field>
+    <field name="REGON">269490688</field>
+    <field name="Data zezwolenia">2025-08-02</field>
+    <field name="Numer decyzji">DFI/484/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">03221026086</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital Markets sp. z o.o.</field>
+    <field name="Adres siedziby">39-300 Mielec</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000042392</field>
+    <field name="NIP">1269411498</field>
+    <field name="REGON">269569875</field>
+    <field name="Data zezwolenia">2018-03-10</field>
+    <field name="Numer decyzji">DFI/221/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">04231127471</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Długa 67, 58-100 Świdnica</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000042489</field>
+    <field name="NIP">1269490687</field>
+    <field name="REGON">269649060</field>
+    <field name="Data zezwolenia">2018-07-23</field>
+    <field name="Numer decyzji">DFI/368/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">05241228828</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets S.A.</field>
+    <field name="Adres siedziby">Wojska Polskiego 84, 57-300 Kłodzko</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000042586</field>
+    <field name="NIP">1269569874</field>
+    <field name="REGON">269728256</field>
+    <field name="Data zezwolenia">2022-03-25</field>
+    <field name="Numer decyzji">DFI/282/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">60051330213</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Chrobrego 101/51, 62-200 Gniezno</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000042683</field>
+    <field name="NIP">1269728255</field>
+    <field name="REGON">269807441</field>
+    <field name="Data zezwolenia">2019-05-19</field>
+    <field name="Numer decyzji">DFI/433/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">61061431561</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
+    <field name="Adres siedziby">ul Słowiańska 118, 64-100 Leszno</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000042780</field>
+    <field name="NIP">1269728255</field>
+    <field name="REGON">269886630</field>
+    <field name="Data zezwolenia">2017-07-21</field>
+    <field name="Numer decyzji">DFI/962/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">62071532956</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Gdańska 135, 83-110 Tczew</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000042877</field>
+    <field name="NIP">1269807440</field>
+    <field name="REGON">269965826</field>
+    <field name="Data zezwolenia">2022-12-20</field>
+    <field name="Numer decyzji">DFI/111/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">63081634304</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
+    <field name="Adres siedziby">Sobieskiego 152, 84-200 Wejherowo</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000042974</field>
+    <field name="NIP">1269965825</field>
+    <field name="REGON">270045016</field>
+    <field name="Data zezwolenia">2023-03-28</field>
+    <field name="Numer decyzji">DFI/539/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">64091735690</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
+    <field name="Adres siedziby">ul. Głęboka 169/13, 43-400 Cieszyn</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000043071</field>
+    <field name="NIP">1269965825</field>
+    <field name="REGON">270124201</field>
+    <field name="Data zezwolenia">2023-08-31</field>
+    <field name="Numer decyzji">DFI/758/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">65101837041</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments sp z oo</field>
+    <field name="Adres siedziby">ul Małachowskiego 6, 42-500 Będzin</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000043168</field>
+    <field name="NIP">1270045013</field>
+    <field name="REGON">270203395</field>
+    <field name="Data zezwolenia">2017-06-02</field>
+    <field name="Numer decyzji">DFI/341/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">66111938436</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
+    <field name="Adres siedziby">ulica Królowej Jadwigi 23, 88-100 Inowrocław</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000043265</field>
+    <field name="NIP">1270124209</field>
+    <field name="REGON">270282584</field>
+    <field name="Data zezwolenia">2020-10-25</field>
+    <field name="Numer decyzji">DFI/495/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">67122039783</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
+    <field name="Adres siedziby">Wybickiego 40, 86-300 Grudziądz</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000043362</field>
+    <field name="NIP">1270203392</field>
+    <field name="REGON">270440965</field>
+    <field name="Data zezwolenia">2017-11-11</field>
+    <field name="Numer decyzji">DFI/662/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">68012141177</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
+    <field name="Adres siedziby">57/65, 14-100 Ostróda</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000043459</field>
+    <field name="NIP">1270282581</field>
+    <field name="REGON">270440965</field>
+    <field name="Data zezwolenia">2018-08-31</field>
+    <field name="Numer decyzji">DFI/578/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">69022242524</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments Services sp. z o.o.</field>
+    <field name="Adres siedziby">ul Warszawska 74, 11-500 Giżycko</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000043556</field>
+    <field name="NIP">1270361777</field>
+    <field name="REGON">270520150</field>
+    <field name="Data zezwolenia">2024-04-28</field>
+    <field name="Numer decyzji">DFI/725/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">70032343918</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Lubelska 91, 24-100 Puławy</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000043653</field>
+    <field name="NIP">1270440962</field>
+    <field name="REGON">270599341</field>
+    <field name="Data zezwolenia">2024-05-15</field>
+    <field name="Numer decyzji">DFI/229/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">71042445267</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Services SP Z O O</field>
+    <field name="Adres siedziby">Staszica 108, 22-400 Zamość</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000043750</field>
+    <field name="NIP">1270520158</field>
+    <field name="REGON">270678537</field>
+    <field name="Data zezwolenia">2025-08-14</field>
+    <field name="Numer decyzji">DFI/966/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">72052546652</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Markets sp z oo</field>
+    <field name="Adres siedziby">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000043847</field>
+    <field name="NIP">1270599349</field>
+    <field name="REGON">270757722</field>
+    <field name="Data zezwolenia">2020-06-24</field>
+    <field name="Numer decyzji">DFI/328/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">73062648000</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
+    <field name="Adres siedziby">ul Kościuszki 142, 16-400 Suwałki</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000043944</field>
+    <field name="NIP">1270678534</field>
+    <field name="REGON">270836918</field>
+    <field name="Data zezwolenia">2023-11-05</field>
+    <field name="Numer decyzji">DFI/290/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">74072749396</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Piastowska 159, 48-300 Nysa</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000044041</field>
+    <field name="NIP">1270836915</field>
+    <field name="REGON">270916103</field>
+    <field name="Data zezwolenia">2021-02-05</field>
+    <field name="Numer decyzji">DFI/278/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">75082850746</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Markets sp z oo</field>
+    <field name="Adres siedziby">Długa 176, 49-300 Brzeg</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000044138</field>
+    <field name="NIP">1270836915</field>
+    <field name="REGON">270995290</field>
+    <field name="Data zezwolenia">2022-03-27</field>
+    <field name="Numer decyzji">DFI/936/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">76090152138</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Markets spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Rynek 13/79, 68-200 Żary</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000044235</field>
+    <field name="NIP">1270916100</field>
+    <field name="REGON">271074480</field>
+    <field name="Data zezwolenia">2019-06-15</field>
+    <field name="Numer decyzji">DFI/181/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">87100253489</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">aMzovia Broker Techonlogie Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Sikorskiego 30, 66-200 Świebodzin</field>
+    <field name="Zakres czynności">zarzązdanie portfelami</field>
+    <field name="KRS">0000044332</field>
+    <field name="NIP">1270995298</field>
+    <field name="REGON">271153676</field>
+    <field name="Data zezwolenia">2022-06-17</field>
+    <field name="Numer decyzji">DF/574/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">78110354874</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Technologie Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Armii Krajowej 47, 78-100 Kołobrzeg</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000044429</field>
+    <field name="NIP">1271074488</field>
+    <field name="REGON">271232861</field>
+    <field name="Data zezwolenia">2023-07-09</field>
+    <field name="Numer decyzji">DFI/474/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">79120456222</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Adres siedziby">Piłsudskiego 64, 73-110 Stargard</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000044526</field>
+    <field name="NIP">1271153673</field>
+    <field name="REGON">271312057</field>
+    <field name="Data zezwolenia">2022-06-03</field>
+    <field name="Numer decyzji">DFI/451/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">80010557611</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Mickiewicza 81/41, 27-600 Sandomierz</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000044623</field>
+    <field name="NIP">1271232869</field>
+    <field name="REGON">271391246</field>
+    <field name="Data zezwolenia">2019-12-31</field>
+    <field name="Numer decyzji">DFI/317/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">81020658969</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Sienkiewicza 98, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000044720</field>
+    <field name="NIP">1271312054</field>
+    <field name="REGON">271470431</field>
+    <field name="Data zezwolenia">2017-07-12</field>
+    <field name="Numer decyzji">DFI/831/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">82030760358</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Marszałkowska 115, 00-590 Warszawa</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000044817</field>
+    <field name="NIP">1271391243</field>
+    <field name="REGON">271549629</field>
+    <field name="Data zezwolenia">2017-05-13</field>
+    <field name="Numer decyzji">DFI/156/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">83040861705</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory sp z oo</field>
+    <field name="Adres siedziby">Krakowskie Przedmieście 132, 00-071 Warszawa</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000044914</field>
+    <field name="NIP">1271470439</field>
+    <field name="REGON">271628814</field>
+    <field name="Data zezwolenia">2017-08-11</field>
+    <field name="Numer decyzji">DFI/715/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">84050963092</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Spółka Akcyjna</field>
+    <field name="Adres siedziby">os. Floriańska 149/3, 31-019 Kraków</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000045011</field>
+    <field name="NIP">1271549626</field>
+    <field name="REGON">271787197</field>
+    <field name="Data zezwolenia">2017-12-21</field>
+    <field name="Numer decyzji">DFI/954/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">85061064448</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Długa 166, 31-147 Kraków</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000045108</field>
+    <field name="NIP">1271628811</field>
+    <field name="REGON">271787197</field>
+    <field name="Data zezwolenia">2020-12-21</field>
+    <field name="Numer decyzji">DFI/775/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">86071165833</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Piotrkowska 3, 90-102 Łódź</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000045205</field>
+    <field name="NIP">1271708007</field>
+    <field name="REGON">271866382</field>
+    <field name="Data zezwolenia">2020-10-18</field>
+    <field name="Numer decyzji">DFI/940/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">87081267182</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital Spółka Akcyjna</field>
+    <field name="Adres siedziby">Zachodnia 20, 90-402 Łódź</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000045302</field>
+    <field name="NIP">1271787194</field>
+    <field name="REGON">271945578</field>
+    <field name="Data zezwolenia">2021-08-26</field>
+    <field name="Numer decyzji">DFI/160/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">88091368577</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
+    <field name="Adres siedziby">ul. Świdnicka 37/55, 50-066 Wrocław</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000045399</field>
+    <field name="NIP">2271945575</field>
+    <field name="REGON">272024768</field>
+    <field name="Data zezwolenia">2018-09-20</field>
+    <field name="Numer decyzji">DFI/624/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">89101469927</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply Polska Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Legnicka 54, 54-203 Wrocław</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000045496</field>
+    <field name="NIP">1271945575</field>
+    <field name="REGON">272103953</field>
+    <field name="Data zezwolenia">2025-10-17</field>
+    <field name="Numer decyzji">DFI/589/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">90111571315</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Markets spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Święty Marcin 71, 61-806 Poznań</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000045593</field>
+    <field name="NIP">1272024765</field>
+    <field name="REGON">272183142</field>
+    <field name="Data zezwolenia">2021-11-18</field>
+    <field name="Numer decyzji">DFI/989/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">91121672663</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Markets sp. z o.o.</field>
+    <field name="Adres siedziby">Głogowska 88, 60-734 Poznań</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000045690</field>
+    <field name="NIP">1272103950</field>
+    <field name="REGON">272262338</field>
+    <field name="Data zezwolenia">2019-01-11</field>
+    <field name="Numer decyzji">DFI/513/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">92011774054</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Długa 105/17, 80-831 Gdańsk</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000045787</field>
+    <field name="NIP">1272262335</field>
+    <field name="REGON">272341523</field>
+    <field name="Data zezwolenia">2024-08-29</field>
+    <field name="Numer decyzji">DFI/565/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">93021875401</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
+    <field name="Adres siedziby">ul Grunwaldzka 122, 80-236 Gdańsk</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000045884</field>
+    <field name="NIP">1272262335</field>
+    <field name="REGON">272420719</field>
+    <field name="Data zezwolenia">2024-04-23</field>
+    <field name="Numer decyzji">DFI/830/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">94031976797</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Finanse sp z oo</field>
+    <field name="Adres siedziby">ulica Jagiellońska 139, 70-435 Szczecin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000045981</field>
+    <field name="NIP">1272341520</field>
+    <field name="REGON">272579093</field>
+    <field name="Data zezwolenia">2023-01-15</field>
+    <field name="Numer decyzji">DFI/832/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">95042078144</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Wyszyńskiego 156, 70-200 Szczecin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000046078</field>
+    <field name="NIP">1272420716</field>
+    <field name="REGON">272579093</field>
+    <field name="Data zezwolenia">2017-01-16</field>
+    <field name="Numer decyzji">DFI/322/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">96052179539</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest SP Z O O</field>
+    <field name="Adres siedziby">ul. Mariacka 173/69, 40-014 Katowice</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000046175</field>
+    <field name="NIP">1272499907</field>
+    <field name="REGON">272658289</field>
+    <field name="Data zezwolenia">2020-11-15</field>
+    <field name="Numer decyzji">DFI/268/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">97062280880</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
+    <field name="Adres siedziby">ul Warszawska 10, 40-009 Katowice</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000046272</field>
+    <field name="NIP">1272579090</field>
+    <field name="REGON">272737474</field>
+    <field name="Data zezwolenia">2022-01-04</field>
+    <field name="Numer decyzji">DFI/791/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">98072382276</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Krakowskie Przedmieście 27, 20-002 Lublin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000046369</field>
+    <field name="NIP">1272658286</field>
+    <field name="REGON">272895859</field>
+    <field name="Data zezwolenia">2019-03-16</field>
+    <field name="Numer decyzji">DFI/295/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">99082483623</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade S.A.</field>
+    <field name="Adres siedziby">Narutowicza 44, 20-004 Lublin</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000046466</field>
+    <field name="NIP">1272737471</field>
+    <field name="REGON">272895859</field>
+    <field name="Data zezwolenia">2024-04-16</field>
+    <field name="Numer decyzji">DFI/333/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">00292585014</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Lipowa 61/31, 15-424 Białystok</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000046563</field>
+    <field name="NIP">1272816667</field>
+    <field name="REGON">272975044</field>
+    <field name="Data zezwolenia">2018-05-28</field>
+    <field name="Numer decyzji">DFI/462/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">01302686365</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics Polska Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Sienkiewicza 78, 15-092 Białystok</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000046660</field>
+    <field name="NIP">1272895856</field>
+    <field name="REGON">273054234</field>
+    <field name="Data zezwolenia">2022-04-16</field>
+    <field name="Numer decyzji">DFI/906/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">02312787750</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade sp z oo</field>
+    <field name="Adres siedziby">ulica Gdańska 95, 85-005 Bydgoszcz</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000046757</field>
+    <field name="NIP">1272975041</field>
+    <field name="REGON">273212615</field>
+    <field name="Data zezwolenia">2022-12-01</field>
+    <field name="Numer decyzji">DFI/144/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">03322889108</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Dworcowa 112, 85-009</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000046854</field>
+    <field name="NIP">1273054231</field>
+    <field name="REGON">273212615</field>
+    <field name="Data zezwolenia">2025-07-10</field>
+    <field name="Numer decyzji">DFI/112/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">04210190498</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions SP Z O O</field>
+    <field name="Adres siedziby">ul. Szeroka 129/83, 87-100 Toruń</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000046951</field>
+    <field name="NIP">1273133427</field>
+    <field name="REGON">273291804</field>
+    <field name="Data zezwolenia">2024-03-25</field>
+    <field name="Numer decyzji">DFI/231/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">05220291845</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Finanse spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Chełmińska 146, 87-100 Toruń</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047048</field>
+    <field name="NIP">1273212612</field>
+    <field name="REGON">273370998</field>
+    <field name="Data zezwolenia">2024-08-22</field>
+    <field name="Numer decyzji">DFI/775/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">60030393237</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Technologie SP Z O O</field>
+    <field name="Adres siedziby">ulica 3 Maja 163, 35-030 Rzeszów</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000047145</field>
+    <field name="NIP">1273291801</field>
+    <field name="REGON">273450183</field>
+    <field name="Data zezwolenia">2021-08-19</field>
+    <field name="Numer decyzji">DFI/103/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">61040494585</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply Holding S.A.</field>
+    <field name="Adres siedziby">Piłsudskiego 180, 35-074 Rzeszów</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047242</field>
+    <field name="NIP"></field>
+    <field name="REGON">273529370</field>
+    <field name="Data zezwolenia">2025-08-17</field>
+    <field name="Numer decyzji">DFI/506/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">62050595970</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital SP Z O O</field>
+    <field name="Adres siedziby">ul. Sienkiewicza 17/45, 25-007 Kielce</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000047339</field>
+    <field name="NIP">1273450180</field>
+    <field name="REGON">273608566</field>
+    <field name="Data zezwolenia">2020-11-26</field>
+    <field name="Numer decyzji">DFI/149/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">63060697328</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Finanse S.A.</field>
+    <field name="Adres siedziby">ul Warszawska 34, 25-512 Kielce</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047436</field>
+    <field name="NIP">1273529378</field>
+    <field name="REGON">373687755</field>
+    <field name="Data zezwolenia">2019-05-13</field>
+    <field name="Numer decyzji">DFI/199/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">64070798713</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
+    <field name="Adres siedziby">ulica Kościuszki 51, 10-504 Olsztyn</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047533</field>
+    <field name="NIP">1273608563</field>
+    <field name="REGON">273766940</field>
+    <field name="Data zezwolenia">2024-11-27</field>
+    <field name="Numer decyzji">DFI/870/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">65080800065</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
+    <field name="Adres siedziby">Dąbrowszczaków 68, 10-540 Olsztyn</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047630</field>
+    <field name="NIP">1273687752</field>
+    <field name="REGON">273846136</field>
+    <field name="Data zezwolenia">2023-10-13</field>
+    <field name="Numer decyzji">DFI/121/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">66090901450</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Services S.A.</field>
+    <field name="Adres siedziby">ul. Krakowska 85/7, 45-018 Opole</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000047727</field>
+    <field name="NIP">1273766948</field>
+    <field name="REGON">273925321</field>
+    <field name="Data zezwolenia">2021-08-03</field>
+    <field name="Numer decyzji">DFI/382/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">67101002809</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets sp z oo</field>
+    <field name="Adres siedziby">os. Ozimska 102, 45-057 Opole</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000047824</field>
+    <field name="NIP">1273846133</field>
+    <field name="REGON">274004511</field>
+    <field name="Data zezwolenia">2024-01-06</field>
+    <field name="Numer decyzji">DFI/542/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">68111104196</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics Polska S.A.</field>
+    <field name="Adres siedziby">ulica Bohaterów Westerplatte 119, 65-034 Zielona Góra</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000047921</field>
+    <field name="NIP">1273925329</field>
+    <field name="REGON">274083700</field>
+    <field name="Data zezwolenia">2021-02-07</field>
+    <field name="Numer decyzji">DFI/765/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">69121205543</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Kupiecka 136, 65-058 Zielona Góra</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000048018</field>
+    <field name="NIP">1274004519</field>
+    <field name="REGON">274162894</field>
+    <field name="Data zezwolenia">2023-11-30</field>
+    <field name="Numer decyzji">DFI/559/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">70011306932</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
+    <field name="Adres siedziby">ul. Świętojańska 153/59, 81-372 Gdynia</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000048115</field>
+    <field name="NIP">1274083708</field>
+    <field name="REGON">274321275</field>
+    <field name="Data zezwolenia">2025-08-17</field>
+    <field name="Numer decyzji">DFI/762/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">71021408281</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
+    <field name="Adres siedziby">ul 10 Lutego 170, 81-364 Gdynia</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000048212</field>
+    <field name="NIP">1274162891</field>
+    <field name="REGON">274321275</field>
+    <field name="Data zezwolenia">2023-01-04</field>
+    <field name="Numer decyzji">DFI/153/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">72031509676</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
+    <field name="Adres siedziby">ulica Bolesława Prusa 7, 05-800 Pruszków</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000048309</field>
+    <field name="NIP">1274242087</field>
+    <field name="REGON">274400460</field>
+    <field name="Data zezwolenia">2023-07-04</field>
+    <field name="Numer decyzji">DFI/360/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">73041611027</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
+    <field name="Adres siedziby">Kościuszki 24, 05-500 Piaseczno</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000048406</field>
+    <field name="NIP">1274321272</field>
+    <field name="REGON">274479651</field>
+    <field name="Data zezwolenia">2021-01-07</field>
+    <field name="Numer decyzji">DFI/548/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">74051712412</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Sienkiewicza 41/21, 32-020 Wieliczka</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000048503</field>
+    <field name="NIP">1274400468</field>
+    <field name="REGON">274558847</field>
+    <field name="Data zezwolenia">2021-04-21</field>
+    <field name="Numer decyzji">DFI/466/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">75061813760</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
+    <field name="Adres siedziby">ul Dąbrowskiego 58</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000048600</field>
+    <field name="NIP">1274479659</field>
+    <field name="REGON">274638032</field>
+    <field name="Data zezwolenia">2023-06-09</field>
+    <field name="Numer decyzji">DFI/791/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">76071915156</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
+    <field name="Adres siedziby">ulica Rynek 75, 38-400 Krosno</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000048697</field>
+    <field name="NIP">1274558844</field>
+    <field name="REGON">274717228</field>
+    <field name="Data zezwolenia">2022-02-05</field>
+    <field name="Numer decyzji">DFI/971/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">77082016502</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest Services sp z oo</field>
+    <field name="Adres siedziby">Mickiewicza 92, 39-300 Mielec</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000048794</field>
+    <field name="NIP">1274717225</field>
+    <field name="REGON">274796417</field>
+    <field name="Data zezwolenia">2018-06-10</field>
+    <field name="Numer decyzji">DFI/933/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">78092117898</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services Technologie sp. z o.o.</field>
+    <field name="Adres siedziby">109/73, 58-100 Świdnica</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000048891</field>
+    <field name="NIP">1274717225</field>
+    <field name="REGON">274875602</field>
+    <field name="Data zezwolenia">2018-01-23</field>
+    <field name="Numer decyzji">DFI/547/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">79102219249</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments S.A.</field>
+    <field name="Adres siedziby">ul Wojska Polskiego 126, 57-300 Kłodzko</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000048988</field>
+    <field name="NIP">1274796414</field>
+    <field name="REGON">274954796</field>
+    <field name="Data zezwolenia">2024-08-18</field>
+    <field name="Numer decyzji">DFI/576/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">80112320636</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Holding spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Chrobrego 143, 62-200 Gniezno</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000049085</field>
+    <field name="NIP">1274954793</field>
+    <field name="REGON"></field>
+    <field name="Data zezwolenia">2020-01-18</field>
+    <field name="Numer decyzji">DFI/532/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">81122421984</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
+    <field name="Adres siedziby">Słowiańska 160, 64-100 Leszno</field>
+    <field name="Zakres czynności">wykonywaine zleceń na rachunek klientów</field>
+    <field name="KRS">0000049182</field>
+    <field name="NIP">1274954793</field>
+    <field name="REGON">275113171</field>
+    <field name="Data zezwolenia">2024-11-12</field>
+    <field name="Numer decyzji">FD/168/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">82012523375</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Gdańska 177/35, 83-110 Tczew</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000049279</field>
+    <field name="NIP">1275033983</field>
+    <field name="REGON">275192360</field>
+    <field name="Data zezwolenia">2018-03-04</field>
+    <field name="Numer decyzji">DFI/701/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">83022624722</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker Markets Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Sobieskiego 14, 84-200 Wejherowo</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000049376</field>
+    <field name="NIP">1275113179</field>
+    <field name="REGON">275271556</field>
+    <field name="Data zezwolenia">2020-08-14</field>
+    <field name="Numer decyzji">DFI/800/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">84032726118</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Głęboka 31, 43-400 Cieszyn</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000049473</field>
+    <field name="NIP">1275192368</field>
+    <field name="REGON">275350741</field>
+    <field name="Data zezwolenia">2019-11-06</field>
+    <field name="Numer decyzji">DFI/616/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">85042827466</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
+    <field name="Adres siedziby">48, 42-500 Będzin</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000049570</field>
+    <field name="NIP">1275271553</field>
+    <field name="REGON">275429939</field>
+    <field name="Data zezwolenia">2025-05-20</field>
+    <field name="Numer decyzji">DFI/694/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">86050128857</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Technologie SP Z O O</field>
+    <field name="Adres siedziby">ul. Królowej Jadwigi 65/87, 88-100 Inowrocław</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000049667</field>
+    <field name="NIP">1275350749</field>
+    <field name="REGON">275509124</field>
+    <field name="Data zezwolenia">2022-05-02</field>
+    <field name="Numer decyzji">DFI/491/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">87060230208</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Spolka Akcyjna</field>
+    <field name="Adres siedziby">ul Wybickiego 82, 86-300 Grudziądz</field>
+    <field name="Zakres czynności">wykonywanie zlecen na rachunek klientow</field>
+    <field name="KRS">0000049764</field>
+    <field name="NIP">1275429936</field>
+    <field name="REGON">275588313</field>
+    <field name="Data zezwolenia">2017-01-03</field>
+    <field name="Numer decyzji">DFI/675/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">88070331594</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymanski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments Holding sp z oo</field>
+    <field name="Adres siedziby">ulica Czarnieckiego 99, 14-100 Ostróda</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000049861</field>
+    <field name="NIP">1275509121</field>
+    <field name="REGON">275667509</field>
+    <field name="Data zezwolenia">2018-08-19</field>
+    <field name="Numer decyzji">DFI/362/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">89080432941</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Markets SP Z O O</field>
+    <field name="Adres siedziby">Warszawska 116, 11-500 Giżycko</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000049958</field>
+    <field name="NIP">1275588310</field>
+    <field name="REGON">275746692</field>
+    <field name="Data zezwolenia">2020-07-26</field>
+    <field name="Numer decyzji">DFI/632/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">90090534336</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Lubelska 133/49, 24-100 Puławy</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000050055</field>
+    <field name="NIP">1275667506</field>
+    <field name="REGON">275825888</field>
+    <field name="Data zezwolenia">2019-01-20</field>
+    <field name="Numer decyzji">DFI/122/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">91100635687</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Staszica 150, 22-400 Zamość</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000050152</field>
+    <field name="NIP">1275825885</field>
+    <field name="REGON">275905073</field>
+    <field name="Data zezwolenia">2023-07-26</field>
+    <field name="Numer decyzji">DFI/428/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">92110737073</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets S.A.</field>
+    <field name="Adres siedziby">167, 16-300 Augustów</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000050249</field>
+    <field name="NIP">1275825885</field>
+    <field name="REGON">275984262</field>
+    <field name="Data zezwolenia">2025-01-27</field>
+    <field name="Numer decyzji">DFI/548/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">93120838420</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Dta Spółka Akcyjna</field>
+    <field name="Adres siedziby">Kościuszki 4, Suwałki</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000050346</field>
+    <field name="NIP">1275905070</field>
+    <field name="REGON">276063452</field>
+    <field name="Data zezwolenia">2019-03-16</field>
+    <field name="Numer decyzji">DFI/806/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">94010939810</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital S.A.</field>
+    <field name="Adres siedziby">ul. Piastowska 21/11, 48-300 Nysa</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000050443</field>
+    <field name="NIP">1276142645</field>
+    <field name="REGON">276142648</field>
+    <field name="Data zezwolenia">2017-05-13</field>
+    <field name="Numer decyzji">DFI/895/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">95021041161</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics Holding S.A.</field>
+    <field name="Adres siedziby">ul Długa 38, 49-300 Brzeg</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000050540</field>
+    <field name="NIP">1276142645</field>
+    <field name="REGON">276221833</field>
+    <field name="Data zezwolenia">2019-10-25</field>
+    <field name="Numer decyzji">DFI/540/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">96031142556</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
+    <field name="Adres siedziby">os. Rynek 55, 68-200 Żary</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000050637</field>
+    <field name="NIP">1276142645</field>
+    <field name="REGON">276301029</field>
+    <field name="Data zezwolenia">2017-06-30</field>
+    <field name="Numer decyzji">DFI/925/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">97041243903</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics Spółka Akcyjna</field>
+    <field name="Adres siedziby">Sikorskiego 72, 66-200 Świebodzin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000050734</field>
+    <field name="NIP">1276221830</field>
+    <field name="REGON">276380218</field>
+    <field name="Data zezwolenia">2024-12-28</field>
+    <field name="Numer decyzji">DFI/439/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">98051345290</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance Markets Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Armii Krajowej 89/63, 78-100 Kołobrzeg</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000050831</field>
+    <field name="NIP">1276301026</field>
+    <field name="REGON">276459405</field>
+    <field name="Data zezwolenia">2020-08-17</field>
+    <field name="Numer decyzji">DFI/490/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">99061446647</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest S.A.</field>
+    <field name="Adres siedziby">ul Piłsudskiego 106, 73-110 Stargard</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000050928</field>
+    <field name="NIP">1276380215</field>
+    <field name="REGON">276538599</field>
+    <field name="Data zezwolenia">2021-09-09</field>
+    <field name="Numer decyzji">DFI/132/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">00271548038</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest Polska spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Mickiewicza 123, 27-600 Sandomierz</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000051025</field>
+    <field name="NIP">1276459402</field>
+    <field name="REGON">276617784</field>
+    <field name="Data zezwolenia">2025-02-02</field>
+    <field name="Numer decyzji">DFI/833/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">01281649386</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
+    <field name="Adres siedziby">Sienkiewicza 140, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000051122</field>
+    <field name="NIP">1276538596</field>
+    <field name="REGON">276696973</field>
+    <field name="Data zezwolenia">2018-09-11</field>
+    <field name="Numer decyzji">DFI/985/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">02291750774</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Marszałkowska 157/25, 00-590 Warszawa</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000051219</field>
+    <field name="NIP">1276617781</field>
+    <field name="REGON">276776169</field>
+    <field name="Data zezwolenia">2021-01-29</field>
+    <field name="Numer decyzji">DFI/126/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">03301852125</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Krakowskie Przedmieście 174, 00-071 Warszawa</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000051316</field>
+    <field name="NIP">1276696970</field>
+    <field name="REGON">276855354</field>
+    <field name="Data zezwolenia">2022-07-31</field>
+    <field name="Numer decyzji">DFI/191/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">04311953510</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Floriańska 11, 31-019 Kraków</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000051413</field>
+    <field name="NIP">1276776166</field>
+    <field name="REGON">277092929</field>
+    <field name="Data zezwolenia">2023-04-15</field>
+    <field name="Numer decyzji">DFI/719/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">05322054867</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
+    <field name="Adres siedziby">Długa 28, 31-147 Kraków</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000051510</field>
+    <field name="NIP">1276855351</field>
+    <field name="REGON">277092929</field>
+    <field name="Data zezwolenia">2025-08-28</field>
+    <field name="Numer decyzji">DFI/152/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">60012156254</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest sp z oo</field>
+    <field name="Adres siedziby">ul. Piotrkowska 45/77, 90-102 Łódź</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000051607</field>
+    <field name="NIP">1276934547</field>
+    <field name="REGON">277092929</field>
+    <field name="Data zezwolenia">2022-10-30</field>
+    <field name="Numer decyzji">DFI/828/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">61022257601</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
+    <field name="Adres siedziby">ul Zachodnia 62, 90-402 Łódź</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000051704</field>
+    <field name="NIP">1277013737</field>
+    <field name="REGON">277172114</field>
+    <field name="Data zezwolenia">2017-01-31</field>
+    <field name="Numer decyzji">DFI/381/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">62032358997</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade sp z oo</field>
+    <field name="Adres siedziby">ulica Świdnicka 79, 50-066 Wrocław</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000051801</field>
+    <field name="NIP">1277092926</field>
+    <field name="REGON">277330493</field>
+    <field name="Data zezwolenia">2020-12-20</field>
+    <field name="Numer decyzji">DFI/427/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">63042460348</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
+    <field name="Adres siedziby">Legnicka 96, 54-203 Wrocław</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000051898</field>
+    <field name="NIP">1277172111</field>
+    <field name="REGON">277330493</field>
+    <field name="Data zezwolenia">2019-09-28</field>
+    <field name="Numer decyzji">DFI/521/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">64052561733</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
+    <field name="Adres siedziby">ul. Święty Marcin 113/39, 61-806 Poznań</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000051995</field>
+    <field name="NIP">1277251307</field>
+    <field name="REGON">277409680</field>
+    <field name="Data zezwolenia">2023-11-13</field>
+    <field name="Numer decyzji">DFI/722/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">65062663082</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
+    <field name="Adres siedziby">60-734 Poznań</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000052092</field>
+    <field name="NIP">1277330490</field>
+    <field name="REGON">277568065</field>
+    <field name="Data zezwolenia">2020-07-16</field>
+    <field name="Numer decyzji">DFI/319/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">66072764477</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Długa 147, 80-831 Gdańsk</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000052189</field>
+    <field name="NIP">1277409688</field>
+    <field name="REGON">277568065</field>
+    <field name="Data zezwolenia">2019-01-27</field>
+    <field name="Numer decyzji">DFI/909/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">67082865824</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
+    <field name="Adres siedziby">Grunwaldzka 164, 80-236 Gdańsk</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000052286</field>
+    <field name="NIP">1277488877</field>
+    <field name="REGON">277647250</field>
+    <field name="Data zezwolenia">2019-01-01</field>
+    <field name="Numer decyzji">DFI/304/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">68090167216</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Jagiellońska 1/1, 70-435 Szczecin</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000052383</field>
+    <field name="NIP">1277568062</field>
+    <field name="REGON">277726446</field>
+    <field name="Data zezwolenia">2023-04-03</field>
+    <field name="Numer decyzji">DFI/662/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">69100268567</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Wyszyńskiego 18, 70-200 Szczecin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000052480</field>
+    <field name="NIP">1277647258</field>
+    <field name="REGON">277805631</field>
+    <field name="Data zezwolenia">2017-11-29</field>
+    <field name="Numer decyzji">DFI/522/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">70110369951</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Mariacka 35, 40-014 Katowice</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000052577</field>
+    <field name="NIP">1277726443</field>
+    <field name="REGON">277884820</field>
+    <field name="Data zezwolenia">2025-10-30</field>
+    <field name="Numer decyzji">DFI/372/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">71120471302</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Warszawska 52, 40-009 Katowice</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000052674</field>
+    <field name="NIP">1277805639</field>
+    <field name="REGON">277964016</field>
+    <field name="Data zezwolenia">2022-05-08</field>
+    <field name="Numer decyzji">DFI/731/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">72010572693</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
+    <field name="Adres siedziby">ul. Krakowskie Przedmieście 69/53, 20-002 Lublin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000052771</field>
+    <field name="NIP">1277884828</field>
+    <field name="REGON">278043206</field>
+    <field name="Data zezwolenia">2025-10-06</field>
+    <field name="Numer decyzji">DFI/588/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">73020674041</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Technologie SP Z O O</field>
+    <field name="Adres siedziby">ul Narutowicza 86, 20-004 Lublin</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000052868</field>
+    <field name="NIP">1277964013</field>
+    <field name="REGON">278201585</field>
+    <field name="Data zezwolenia">2021-09-28</field>
+    <field name="Numer decyzji">DFI/740/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">74030775436</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital Technologie S.A.</field>
+    <field name="Adres siedziby">ulica Lipowa 103, 15-424 Białystok</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000052965</field>
+    <field name="NIP">1278043203</field>
+    <field name="REGON">278201585</field>
+    <field name="Data zezwolenia">2021-03-03</field>
+    <field name="Numer decyzji">DFI/121/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">75040876784</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services SP Z O O</field>
+    <field name="Adres siedziby">Sienkiewicza 120, 15-092 Białystok</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000053062</field>
+    <field name="NIP">1278122397</field>
+    <field name="REGON">278280774</field>
+    <field name="Data zezwolenia">2021-12-23</field>
+    <field name="Numer decyzji">DFI/364/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">76050978170</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments Services Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Gdańska 137/15, 85-005 Bydgoszcz</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000053159</field>
+    <field name="NIP">1278201582</field>
+    <field name="REGON">278359961</field>
+    <field name="Data zezwolenia">2021-03-21</field>
+    <field name="Numer decyzji">DFI/277/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">77061079526</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Dworcowa 154, 85-009 Bydgoszcz</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000053256</field>
+    <field name="NIP">1278280771</field>
+    <field name="REGON">278439157</field>
+    <field name="Data zezwolenia">2020-02-17</field>
+    <field name="Numer decyzji"></field>
+    <field name="CzlonekZarzadu1_PESEL"></field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments sp z oo</field>
+    <field name="Adres siedziby">ulica Szeroka 171, 87-100 Toruń</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000053353</field>
+    <field name="NIP">1278359969</field>
+    <field name="REGON">278518342</field>
+    <field name="Data zezwolenia">2023-06-21</field>
+    <field name="Numer decyzji">DFI/877/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">79081282263</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
+    <field name="Adres siedziby">os. Chełmińska 8, 87-100 Toruń</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000053450</field>
+    <field name="NIP">1278439154</field>
+    <field name="REGON">278597531</field>
+    <field name="Data zezwolenia">2019-11-09</field>
+    <field name="Numer decyzji">DFI/579/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">80091383657</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. 3 Maja 25/67, 35-030 Rzeszów</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000053547</field>
+    <field name="NIP">1278597539</field>
+    <field name="REGON">278676727</field>
+    <field name="Data zezwolenia">2018-03-07</field>
+    <field name="Numer decyzji">DFI/474/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">81101485008</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
+    <field name="Adres siedziby">ul Piłsudskiego 42, 35-074 Rzeszów</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000053644</field>
+    <field name="NIP">1278597539</field>
+    <field name="REGON">278755912</field>
+    <field name="Data zezwolenia">2025-03-20</field>
+    <field name="Numer decyzji">DFI/570/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">82111586394</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets sp z oo</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 59, 25-007 Kielce</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000053741</field>
+    <field name="NIP">1278676724</field>
+    <field name="REGON">278835108</field>
+    <field name="Data zezwolenia">2023-11-26</field>
+    <field name="Numer decyzji">DFI/699/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">83121687741</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
+    <field name="Adres siedziby">Warszawska 76, 25-512 Kielce</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000053838</field>
+    <field name="NIP">1278835105</field>
+    <field name="REGON">278914291</field>
+    <field name="Data zezwolenia">2025-11-17</field>
+    <field name="Numer decyzji">DFI/289/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">84011789132</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data sp z oo</field>
+    <field name="Adres siedziby">ul. Kościuszki 93/29, 10-504 Olsztyn</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000053935</field>
+    <field name="NIP">1278835105</field>
+    <field name="REGON">278993480</field>
+    <field name="Data zezwolenia">2018-09-01</field>
+    <field name="Numer decyzji">DFI/284/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">95021890483</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Helios Markets spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Dąbrowszczaków 110, 10-540 Olsztyn</field>
+    <field name="Zakres czynności">przyjmownai  przekazywanie zleceń</field>
+    <field name="KRS">0000054032</field>
+    <field name="NIP">1278914299</field>
+    <field name="REGON">279072670</field>
+    <field name="Data zezwolenia">2021-07-11</field>
+    <field name="Numer decyzji">DF/392/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">86031991878</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker sp z oo</field>
+    <field name="Adres siedziby">ulica Krakowska 127, 45-018 Opole</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000054129</field>
+    <field name="NIP">1278993488</field>
+    <field name="REGON">279151866</field>
+    <field name="Data zezwolenia">2024-09-10</field>
+    <field name="Numer decyzji">DFI/355/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">87042093225</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
+    <field name="Adres siedziby">Ozimska 144, 45-057 Opole</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000054226</field>
+    <field name="NIP">1279072678</field>
+    <field name="REGON">279231051</field>
+    <field name="Data zezwolenia">2018-11-05</field>
+    <field name="Numer decyzji">DFI/298/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">88052194610</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Bohaterów Westerplatte 161/81, 65-034 Zielona Góra</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000054323</field>
+    <field name="NIP">1279151863</field>
+    <field name="REGON">279310247</field>
+    <field name="Data zezwolenia">2017-07-19</field>
+    <field name="Numer decyzji">DFI/721/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">89062295968</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
+    <field name="Adres siedziby">ul Kupiecka 178, 65-058 Zielona Góra</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000054420</field>
+    <field name="NIP">1279231059</field>
+    <field name="REGON">279389438</field>
+    <field name="Data zezwolenia">2018-12-10</field>
+    <field name="Numer decyzji">DFI/641/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">90072397353</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
+    <field name="Adres siedziby">ulica Świętojańska 15, 81-372 Gdynia</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000054517</field>
+    <field name="NIP">1279310244</field>
+    <field name="REGON">279468623</field>
+    <field name="Data zezwolenia">2021-02-28</field>
+    <field name="Numer decyzji">DFI/149/2023</field>
+    <field name="CzlonekZarzadu1_PESEL">91082498700</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">10 Lutego 32, 81-364 Gdynia</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000054614</field>
+    <field name="NIP">1279389435</field>
+    <field name="REGON">279547819</field>
+    <field name="Data zezwolenia">2022-08-27</field>
+    <field name="Numer decyzji">DFI/897/2022</field>
+    <field name="CzlonekZarzadu1_PESEL">92092500090</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Bolesława Prusa 49/43, 05-800 Pruszków</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000054711</field>
+    <field name="NIP">1279468620</field>
+    <field name="REGON">279627004</field>
+    <field name="Data zezwolenia">2025-11-04</field>
+    <field name="Numer decyzji">DFI/936/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">93102601440</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Kościuszki 66, 05-500 Piaseczno</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000054808</field>
+    <field name="NIP">1279547816</field>
+    <field name="REGON">279706198</field>
+    <field name="Data zezwolenia">2023-07-04</field>
+    <field name="Numer decyzji">DFI/858/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">94112702835</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 83, 32-020 Wieliczka</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000054905</field>
+    <field name="NIP">1279627001</field>
+    <field name="REGON">279785387</field>
+    <field name="Data zezwolenia">2017-08-29</field>
+    <field name="Numer decyzji">DFI/573/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">95122804184</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
+    <field name="Adres siedziby">Dąbrowskiego 100, 32-600 Oświęcim</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000055002</field>
+    <field name="NIP">2279706195</field>
+    <field name="REGON">279864572</field>
+    <field name="Data zezwolenia">2018-05-12</field>
+    <field name="Numer decyzji">DFI/932/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">96010105570</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Technologie Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Rynek 117/5, 38-400 Krosno</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000055099</field>
+    <field name="NIP">1279785384</field>
+    <field name="REGON">279943768</field>
+    <field name="Data zezwolenia">2022-08-09</field>
+    <field name="Numer decyzji">DFI/282/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">97020206927</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nova Data Finanse SP Z O O</field>
+    <field name="Adres siedziby">ul Mickiewicza 134, 39-300 Mielec</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000055196</field>
+    <field name="NIP">1279943765</field>
+    <field name="REGON">280022958</field>
+    <field name="Data zezwolenia">2020-04-24</field>
+    <field name="Numer decyzji">DFI/438/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">98030308313</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
+    <field name="Adres siedziby">ulica Długa 151, 58-100 Świdnica</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000055293</field>
+    <field name="NIP">1279943765</field>
+    <field name="REGON">280102143</field>
+    <field name="Data zezwolenia">2024-05-18</field>
+    <field name="Numer decyzji">DFI/448/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">99040409661</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
+    <field name="Adres siedziby">Wojska Polskiego 168, 57-300 Kłodzko</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000055390</field>
+    <field name="NIP">1280022953</field>
+    <field name="REGON">280181332</field>
+    <field name="Data zezwolenia">2017-02-07</field>
+    <field name="Numer decyzji">DFI/797/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">00250511055</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Chrobrego 5/57, 62-200 Gniezno</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000055487</field>
+    <field name="NIP">1280102149</field>
+    <field name="REGON">280260528</field>
+    <field name="Data zezwolenia">2022-01-24</field>
+    <field name="Numer decyzji">DFI/639/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">01260612402</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply Finanse sp. z o.o.</field>
+    <field name="Adres siedziby">ul Słowiańska 22, 64-100 Leszno</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000055584</field>
+    <field name="NIP">1280181338</field>
+    <field name="REGON">280339715</field>
+    <field name="Data zezwolenia">2022-10-19</field>
+    <field name="Numer decyzji">DFI/692/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">02270713798</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Optima Trade Holding sp. z o.o.</field>
+    <field name="Adres siedziby">39, 83-110 Tczew</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000055681</field>
+    <field name="NIP">1280260523</field>
+    <field name="REGON">280418900</field>
+    <field name="Data zezwolenia">2019-02-15</field>
+    <field name="Numer decyzji">DFI/575/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">03280815146</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
+    <field name="Adres siedziby">Sobieskiego 56, 84-200 Wejherowo</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000055778</field>
+    <field name="NIP">1280339710</field>
+    <field name="REGON">280498098</field>
+    <field name="Data zezwolenia">2023-06-29</field>
+    <field name="Numer decyzji">DFI/293/2019</field>
+    <field name="CzlonekZarzadu1_PESEL">04290916531</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Głęboka 73/19, 43-400 Cieszyn</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000055875</field>
+    <field name="NIP">1280418906</field>
+    <field name="REGON">280577283</field>
+    <field name="Data zezwolenia">2023-06-25</field>
+    <field name="Numer decyzji">DFI/236/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">05301017881</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
+    <field name="Adres siedziby">ul Małachowskiego 90, 42-500 Będzin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000055972</field>
+    <field name="NIP">1280498093</field>
+    <field name="REGON">280656479</field>
+    <field name="Data zezwolenia">2022-11-02</field>
+    <field name="Numer decyzji">DFI/556/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">60111119273</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
+    <field name="Adres siedziby">ulica Królowej Jadwigi 107, 88-100 Inowrocław</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000056069</field>
+    <field name="NIP">1280577289</field>
+    <field name="REGON">280735664</field>
+    <field name="Data zezwolenia">2020-10-29</field>
+    <field name="Numer decyzji">DFI/905/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">61121220623</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Nebula Analytics SP Z O O</field>
+    <field name="Adres siedziby">Wybickiego 124, 86-300 Grudziądz</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000056166</field>
+    <field name="NIP">1280656474</field>
+    <field name="REGON">280894049</field>
+    <field name="Data zezwolenia">2020-10-05</field>
+    <field name="Numer decyzji">DFI/797/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">62011322014</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Lumen Advisory Holding spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">os. Czarnieckiego 141/71, 14-100 Ostróda</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000056263</field>
+    <field name="NIP">1280814855</field>
+    <field name="REGON">280894049</field>
+    <field name="Data zezwolenia">2020-04-24</field>
+    <field name="Numer decyzji">DFI/831/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">63021423362</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Polska SP Z O O</field>
+    <field name="Adres siedziby">158, 11-500 Giżycko</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000056360</field>
+    <field name="NIP">1280814855</field>
+    <field name="REGON">280973234</field>
+    <field name="Data zezwolenia">2019-04-15</field>
+    <field name="Numer decyzji">DFI/735/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">64031524757</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
+    <field name="Adres siedziby">ulica Lubelska 175, 24-100 Puławy</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000056457</field>
+    <field name="NIP">1280894044</field>
+    <field name="REGON">281052424</field>
+    <field name="Data zezwolenia">2025-06-15</field>
+    <field name="Numer decyzji">DFI/687/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">65041626105</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest Polska S.A.</field>
+    <field name="Adres siedziby">Staszica 12, 22-400</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000056554</field>
+    <field name="NIP">1281131615</field>
+    <field name="REGON">281210805</field>
+    <field name="Data zezwolenia">2024-07-30</field>
+    <field name="Numer decyzji">DFI/823/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">66051727491</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. 3 Maja 29/33, 16-300 Augustów</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000056651</field>
+    <field name="NIP">1281131615</field>
+    <field name="REGON">281210805</field>
+    <field name="Data zezwolenia">2019-03-21</field>
+    <field name="Numer decyzji">DFI/400/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">67061828848</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
+    <field name="Adres siedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000056748</field>
+    <field name="NIP">1281131615</field>
+    <field name="REGON">281289994</field>
+    <field name="Data zezwolenia">2018-01-01</field>
+    <field name="Numer decyzji">DFI/448/2020</field>
+    <field name="CzlonekZarzadu1_PESEL">68071930237</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
+    <field name="Adres siedziby">ulica Piastowska 63, 48-300 Nysa</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000056845</field>
+    <field name="NIP">1281210800</field>
+    <field name="REGON">281448375</field>
+    <field name="Data zezwolenia">2018-03-29</field>
+    <field name="Numer decyzji">DFI/729/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">69082031584</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
+    <field name="Adres siedziby">Długa 80, 49-300 Brzeg</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000056942</field>
+    <field name="NIP">1281369185</field>
+    <field name="REGON">281448375</field>
+    <field name="Data zezwolenia">2017-10-10</field>
+    <field name="Numer decyzji">DFI/533/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">70092132978</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Amber Payments spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">97/85, 68-200 Żary</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000057039</field>
+    <field name="NIP">1281369185</field>
+    <field name="REGON">281527560</field>
+    <field name="Data zezwolenia">2021-05-04</field>
+    <field name="Numer decyzji">DFI/978/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">71102234329</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
+    <field name="Adres siedziby">ul Sikorskiego 114, 66-200 Świebodzin</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000057136</field>
+    <field name="NIP">1281448370</field>
+    <field name="REGON">381606756</field>
+    <field name="Data zezwolenia">2024-11-13</field>
+    <field name="Numer decyzji">DFI/407/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">72112335714</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
+    <field name="Adres siedziby">ulica Armii Krajowej 131, 78-100 Kołobrzeg</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000057233</field>
+    <field name="NIP">1281527566</field>
+    <field name="REGON">281685945</field>
+    <field name="Data zezwolenia">2025-10-08</field>
+    <field name="Numer decyzji">DFI/183/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">73122437063</field>
+    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
+    <field name="Adres siedziby">Piłsudskiego 148, 73-110 Stargard</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000057330</field>
+    <field name="NIP">1281606751</field>
+    <field name="REGON">281765130</field>
+    <field name="Data zezwolenia">2025-03-09</field>
+    <field name="Numer decyzji">DFI/154/2025</field>
+    <field name="CzlonekZarzadu1_PESEL">74012538453</field>
+    <field name="CzlonekZarzadu1_Imie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Mickiewicza 165/47, 27-600 Sandomierz</field>
+    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="KRS">0000057427</field>
+    <field name="NIP">1281685940</field>
+    <field name="REGON">281844326</field>
+    <field name="Data zezwolenia">2021-08-13</field>
+    <field name="Numer decyzji">DFI/493/2024</field>
+    <field name="CzlonekZarzadu1_PESEL">75022639800</field>
+    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Vistula Fintech Markets S.A.</field>
+    <field name="Adres siedziby">ul Sienkiewicza 2, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
+    <field name="KRS">0000057524</field>
+    <field name="NIP">1281765136</field>
+    <field name="REGON">281923511</field>
+    <field name="Data zezwolenia">2022-07-21</field>
+    <field name="Numer decyzji">DFI/504/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">76032741190</field>
+    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Polaris Capital Finanse Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Marszałkowska 19, 00-590 Warszawa</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000057621</field>
+    <field name="NIP">1281844321</field>
+    <field name="REGON">282002701</field>
+    <field name="Data zezwolenia">2025-07-11</field>
+    <field name="Numer decyzji">DFI/959/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">77042842547</field>
+    <field name="CzlonekZarzadu1_Imie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance sp zroo</field>
+    <field name="Adres siedziby">Krakowskie Przedmieście 36, 00-071 Warszawa</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000057718</field>
+    <field name="NIP">1281923517</field>
+    <field name="REGON">282081899</field>
+    <field name="Data zezwolenia">2022-11-16</field>
+    <field name="Numer decyzji">DFI/231/2026</field>
+    <field name="CzlonekZarzadu1_PESEL">78050143938</field>
+    <field name="CzlonekZarzadu1_Imie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Floriańska 53/9, 31-019 Kraków</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000057815</field>
+    <field name="NIP">1282002707</field>
+    <field name="REGON">282161084</field>
+    <field name="Data zezwolenia">2022-07-12</field>
+    <field name="Numer decyzji">DFI/781/2018</field>
+    <field name="CzlonekZarzadu1_PESEL">79060245287</field>
+    <field name="CzlonekZarzadu1_Imie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
+    <field name="Adres siedziby">ul Długa 70, 31-147 Kraków</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000057912</field>
+    <field name="NIP">1282081894</field>
+    <field name="REGON">282319467</field>
+    <field name="Data zezwolenia">2021-07-21</field>
+    <field name="Numer decyzji">DFI/553/2021</field>
+    <field name="CzlonekZarzadu1_PESEL">80070346671</field>
+    <field name="CzlonekZarzadu1_Imie">Michał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
+    <field name="Adres siedziby">ulica Piotrkowska 87, 90-102 Łódź</field>
+    <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
+    <field name="KRS">0000058009</field>
+    <field name="NIP">1282240275</field>
+    <field name="REGON">282319467</field>
+    <field name="Data zezwolenia">2019-09-29</field>
+    <field name="Numer decyzji">DFI/841/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">81080448029</field>
+    <field name="CzlonekZarzadu1_Imie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+  </record>
+  <record>
+    <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
+    <field name="Adres siedziby">Zachodnia 104, 90-402 Łódź</field>
+    <field name="Zakres czynności">zarządzanie portfelami</field>
+    <field name="KRS">0000058106</field>
+    <field name="NIP">1282240275</field>
+    <field name="REGON">282398656</field>
+    <field name="Data zezwolenia">2018-09-15</field>
+    <field name="Numer decyzji">DFI/914/2017</field>
+    <field name="CzlonekZarzadu1_PESEL">82090549414</field>
+    <field name="CzlonekZarzadu1_Imie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+  </record>
+</dataset>

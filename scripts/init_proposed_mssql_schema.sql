@@ -116,12 +116,26 @@ BEGIN
         CONSTRAINT [FK_ProcessLog_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION'
+            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
         )),
         CONSTRAINT [CK_ProcessLog_Step_Status] CHECK ([Step_Status] IN (
             N'STARTED', N'SUCCESS', N'FAILED'
         ))
     );
+END;
+GO
+
+IF EXISTS (
+    SELECT 1
+    FROM sys.check_constraints
+    WHERE [name] = N'CK_ProcessLog_Step_Name'
+    AND parent_object_id = OBJECT_ID(N'meta.ProcessLog')
+)
+BEGIN
+    ALTER TABLE [meta].[ProcessLog] DROP CONSTRAINT [CK_ProcessLog_Step_Name];
+    ALTER TABLE [meta].[ProcessLog] ADD CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
+        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+    ));
 END;
 GO
 
@@ -141,7 +155,7 @@ BEGIN
         [Family_Name] NVARCHAR(100) NULL,
         [Birth_Date] DATE NULL,
         [Place_Of_Birth] NVARCHAR(150) NULL,
-        [Sex] NCHAR(1) NULL,
+        [Sex] BIT NULL,
         [Citizenship] NVARCHAR(100) NULL,
         [Phone_Number] NVARCHAR(50) NULL,
         [Email_Address] NVARCHAR(255) NULL,
@@ -161,11 +175,32 @@ BEGIN
             REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
         CONSTRAINT [FK_Person_Staging_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
-        CONSTRAINT [CK_Person_Staging_Sex] CHECK ([Sex] IS NULL OR [Sex] IN (N'K', N'M')),
         CONSTRAINT [CK_Person_Staging_Raw_JSON] CHECK ([Raw_Record_JSON] IS NULL OR ISJSON([Raw_Record_JSON]) = 1)
     );
 END;
 GO
+
+IF OBJECT_ID(N'[stg].[Person_Staging]', N'U') IS NOT NULL
+AND EXISTS (
+    SELECT 1
+    FROM sys.check_constraints
+    WHERE [name] = N'CK_Person_Staging_Sex'
+    AND parent_object_id = OBJECT_ID(N'stg.Person_Staging')
+)
+    ALTER TABLE [stg].[Person_Staging] DROP CONSTRAINT [CK_Person_Staging_Sex];
+
+IF COL_LENGTH(N'stg.Person_Staging', N'Sex') IS NOT NULL
+AND TYPE_NAME(COLUMNPROPERTY(OBJECT_ID(N'stg.Person_Staging'), N'Sex', 'SystemTypeId')) <> N'bit'
+BEGIN
+    UPDATE [stg].[Person_Staging]
+    SET [Sex] = CASE
+        WHEN [Sex] IN (N'K', N'k', N'1') THEN N'1'
+        WHEN [Sex] IN (N'M', N'm', N'0') THEN N'0'
+        ELSE NULL
+    END;
+
+    ALTER TABLE [stg].[Person_Staging] ALTER COLUMN [Sex] BIT NULL;
+END;
 
 IF OBJECT_ID(N'[stg].[Party_Staging]', N'U') IS NULL
 BEGIN
@@ -189,6 +224,43 @@ BEGIN
         [District] NVARCHAR(100) NULL,
         [Province] NVARCHAR(100) NULL,
         [Country] NVARCHAR(100) NULL,
+        [Register_Status] NVARCHAR(100) NULL,
+        [Registration_Date] DATE NULL,
+        [Deregistration_Date] DATE NULL,
+        [Decision_Date] DATE NULL,
+        [Decision_Number] NVARCHAR(100) NULL,
+        [Register_Number] NVARCHAR(100) NULL,
+        [Bank_Accounts_JSON] NVARCHAR(MAX) NULL,
+        [Has_Virtual_Accounts] BIT NULL,
+        [Business_Scope] NVARCHAR(MAX) NULL,
+        [Ownership_Form] NVARCHAR(150) NULL,
+        [Municipality] NVARCHAR(100) NULL,
+        [Phone_Number] NVARCHAR(50) NULL,
+        [Email_Address] NVARCHAR(255) NULL,
+        [Website] NVARCHAR(255) NULL,
+        [Agent_Type] NVARCHAR(100) NULL,
+        [Insurance_Company] NVARCHAR(255) NULL,
+        [Related_Persons_JSON] NVARCHAR(MAX) NULL,
+        [Related_Parties_JSON] NVARCHAR(MAX) NULL,
+        [Registration_Status] NVARCHAR(50) NULL,
+        [Last_Update_Date] DATE NULL,
+        [Next_Renewal_Date] DATE NULL,
+        [Managing_LOU] NVARCHAR(50) NULL,
+        [Validation_Sources] NVARCHAR(100) NULL,
+        [Validation_Authority_ID] NVARCHAR(50) NULL,
+        [Validation_Authority_Entity_ID] NVARCHAR(100) NULL,
+        [Direct_Parent_LEI] NVARCHAR(20) NULL,
+        [Direct_Parent_Name] NVARCHAR(255) NULL,
+        [Direct_Parent_Relationship_Type] NVARCHAR(100) NULL,
+        [Direct_Parent_Relationship_Status] NVARCHAR(50) NULL,
+        [Direct_Parent_Relationship_Start_Date] DATE NULL,
+        [Direct_Parent_Relationship_End_Date] DATE NULL,
+        [Ultimate_Parent_LEI] NVARCHAR(20) NULL,
+        [Ultimate_Parent_Name] NVARCHAR(255) NULL,
+        [Ultimate_Parent_Relationship_Type] NVARCHAR(100) NULL,
+        [Ultimate_Parent_Relationship_Status] NVARCHAR(50) NULL,
+        [Ultimate_Parent_Relationship_Start_Date] DATE NULL,
+        [Ultimate_Parent_Relationship_End_Date] DATE NULL,
         [Raw_Record_JSON] NVARCHAR(MAX) NULL,
         [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Party_Staging_Created_At] DEFAULT SYSUTCDATETIME(),
         CONSTRAINT [PK_Party_Staging] PRIMARY KEY CLUSTERED ([Staging_ID]),
@@ -197,7 +269,197 @@ BEGIN
         CONSTRAINT [FK_Party_Staging_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [CK_Party_Staging_Identifiers_JSON] CHECK ([Identifiers_JSON] IS NULL OR ISJSON([Identifiers_JSON]) = 1),
+        CONSTRAINT [CK_Party_Staging_Bank_Accounts_JSON] CHECK ([Bank_Accounts_JSON] IS NULL OR ISJSON([Bank_Accounts_JSON]) = 1),
+        CONSTRAINT [CK_Party_Staging_Related_Persons_JSON] CHECK ([Related_Persons_JSON] IS NULL OR ISJSON([Related_Persons_JSON]) = 1),
+        CONSTRAINT [CK_Party_Staging_Related_Parties_JSON] CHECK ([Related_Parties_JSON] IS NULL OR ISJSON([Related_Parties_JSON]) = 1),
         CONSTRAINT [CK_Party_Staging_Raw_JSON] CHECK ([Raw_Record_JSON] IS NULL OR ISJSON([Raw_Record_JSON]) = 1)
+    );
+END;
+GO
+
+IF COL_LENGTH(N'stg.Party_Staging', N'Registration_Status') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Registration_Status] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Register_Status') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Register_Status] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Registration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Registration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Deregistration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Deregistration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Decision_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Decision_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Decision_Number') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Decision_Number] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Register_Number') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Register_Number] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Bank_Accounts_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Bank_Accounts_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Has_Virtual_Accounts') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Has_Virtual_Accounts] BIT NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Has_Virtual_Accounts') IS NOT NULL
+AND TYPE_NAME(COLUMNPROPERTY(OBJECT_ID(N'stg.Party_Staging'), N'Has_Virtual_Accounts', 'SystemTypeId')) <> N'bit'
+    ALTER TABLE [stg].[Party_Staging] ALTER COLUMN [Has_Virtual_Accounts] BIT NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Business_Scope') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Business_Scope] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ownership_Form') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ownership_Form] NVARCHAR(150) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Municipality') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Municipality] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Phone_Number') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Phone_Number] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Email_Address') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Email_Address] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Website') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Website] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Agent_Type') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Agent_Type] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Insurance_Company') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Insurance_Company] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Related_Persons_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Related_Persons_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Related_Parties_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Related_Parties_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Last_Update_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Last_Update_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Next_Renewal_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Next_Renewal_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Managing_LOU') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Managing_LOU] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Sources') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Validation_Sources] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_ID') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Validation_Authority_ID] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_Entity_ID') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Validation_Authority_Entity_ID] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_LEI') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_LEI] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_Name') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_Name] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_Relationship_Type') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_Relationship_Type] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_Relationship_Status') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_Relationship_Status] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Direct_Parent_Relationship_End_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_LEI') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_LEI] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Name') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Name] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Relationship_Type') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Relationship_Type] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Relationship_Status') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Relationship_Status] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Ultimate_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Staging] ADD [Ultimate_Parent_Relationship_End_Date] DATE NULL;
+GO
+
+IF OBJECT_ID(N'[stg].[Person_Preprocessed]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Person_Preprocessed] (
+        [Preprocessed_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [PESEL_Normalized] NVARCHAR(20) NULL,
+        [First_Name_Normalized] NVARCHAR(100) NULL,
+        [Second_Name_Normalized] NVARCHAR(100) NULL,
+        [Last_Name_Normalized] NVARCHAR(100) NULL,
+        [Family_Name_Normalized] NVARCHAR(100) NULL,
+        [Full_Name_Normalized] NVARCHAR(255) NULL,
+        [Phone_Normalized] NVARCHAR(50) NULL,
+        [Email_Normalized] NVARCHAR(255) NULL,
+        [Street_Normalized] NVARCHAR(150) NULL,
+        [Building_Number_Normalized] NVARCHAR(30) NULL,
+        [Apartment_Number_Normalized] NVARCHAR(30) NULL,
+        [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [Country_Normalized] NVARCHAR(100) NULL,
+        [Full_Address_Normalized] NVARCHAR(500) NULL,
+        [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Person_Preprocessed_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Person_Preprocessed] PRIMARY KEY CLUSTERED ([Preprocessed_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_Staging] FOREIGN KEY ([Staging_ID])
+            REFERENCES [stg].[Person_Staging] ([Staging_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Person_Preprocessed_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [UQ_Person_Preprocessed_Staging] UNIQUE ([Staging_ID]),
+        CONSTRAINT [CK_Person_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[stg].[Party_Preprocessed]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Party_Preprocessed] (
+        [Preprocessed_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [Name_Normalized] NVARCHAR(255) NULL,
+        [Short_Name_Normalized] NVARCHAR(255) NULL,
+        [Legal_Entity_Type_Normalized] NVARCHAR(100) NULL,
+        [NIP_Normalized] NVARCHAR(20) NULL,
+        [REGON_Normalized] NVARCHAR(20) NULL,
+        [KRS_Normalized] NVARCHAR(20) NULL,
+        [LEI_Normalized] NVARCHAR(30) NULL,
+        [Phone_Normalized] NVARCHAR(50) NULL,
+        [Email_Normalized] NVARCHAR(255) NULL,
+        [Website_Normalized] NVARCHAR(255) NULL,
+        [Street_Normalized] NVARCHAR(150) NULL,
+        [Building_Number_Normalized] NVARCHAR(30) NULL,
+        [Apartment_Number_Normalized] NVARCHAR(30) NULL,
+        [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [Country_Normalized] NVARCHAR(100) NULL,
+        [Full_Address_Normalized] NVARCHAR(500) NULL,
+        [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Party_Preprocessed_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Party_Preprocessed] PRIMARY KEY CLUSTERED ([Preprocessed_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_Staging] FOREIGN KEY ([Staging_ID])
+            REFERENCES [stg].[Party_Staging] ([Staging_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Party_Preprocessed_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [UQ_Party_Preprocessed_Staging] UNIQUE ([Staging_ID]),
+        CONSTRAINT [CK_Party_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Validation_Result] (
+        [Validation_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [RawFile_ID] BIGINT NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [Staging_ID] BIGINT NOT NULL,
+        [Preprocessed_ID] BIGINT NULL,
+        [Validation_Level] NVARCHAR(30) NOT NULL,
+        [Rule_Code] NVARCHAR(100) NOT NULL,
+        [Field_Name] NVARCHAR(100) NOT NULL,
+        [Severity] NVARCHAR(20) NOT NULL,
+        [Status] NVARCHAR(20) NOT NULL,
+        [Message] NVARCHAR(MAX) NOT NULL,
+        [Checked_Value] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Validation_Result_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Validation_Result] PRIMARY KEY CLUSTERED ([Validation_ID]),
+        CONSTRAINT [FK_Validation_Result_ImportBatch] FOREIGN KEY ([ImportBatch_ID])
+            REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [FK_Validation_Result_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [CK_Validation_Result_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Validation_Result_Level] CHECK ([Validation_Level] IN (N'STAGING', N'PREPROCESSING')),
+        CONSTRAINT [CK_Validation_Result_Severity] CHECK ([Severity] IN (N'INFO', N'WARNING', N'ERROR')),
+        CONSTRAINT [CK_Validation_Result_Status] CHECK ([Status] IN (N'PASS', N'WARNING', N'ERROR'))
     );
 END;
 GO
@@ -242,6 +504,30 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Staging_RawFile
     CREATE INDEX [IX_Party_Staging_RawFile_ID] ON [stg].[Party_Staging] ([RawFile_ID]);
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_RawFile_ID] ON [stg].[Person_Preprocessed] ([RawFile_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Match] ON [stg].[Person_Preprocessed] ([PESEL_Normalized], [Full_Name_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_RawFile_ID] ON [stg].[Party_Preprocessed] ([RawFile_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Match] ON [stg].[Party_Preprocessed] ([NIP_Normalized], [REGON_Normalized], [KRS_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
+    CREATE INDEX [IX_Validation_Result_RawFile_Entity] ON [stg].[Validation_Result] ([RawFile_ID], [Entity_Type]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_Status' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
+    CREATE INDEX [IX_Validation_Result_Status] ON [stg].[Validation_Result] ([Status], [Rule_Code]);
+GO
+
 MERGE [meta].[SourceSystem] AS target
 USING (VALUES
     (N'CEIDG', N'Centralna Ewidencja i Informacja o Dzialalnosci Gospodarczej', 80),
@@ -253,8 +539,7 @@ USING (VALUES
     (N'KNF_PRACOWNIK_AGENTA', N'KNF Rejestr posrednikow ubezpieczeniowych - pracownik agenta', 80),
     (N'KNF_FIRMY_INWESTYCYJNE', N'KNF Rejestr firm inwestycyjnych', 80),
     (N'KNF_PIENIADZ_ELEKTRONICZNY', N'KNF Rejestr dostawcow i wydawcow pieniadza elektronicznego', 80),
-    (N'GLEIF_L1', N'GLEIF Level 1', 75),
-    (N'GLEIF_L2', N'GLEIF Level 2', 75)
+    (N'GLEIF', N'GLEIF', 75)
 ) AS source ([SourceSystem_Code], [SourceSystem_Name], [Trust_Level])
 ON target.[SourceSystem_Code] = source.[SourceSystem_Code]
 WHEN NOT MATCHED THEN
@@ -266,6 +551,13 @@ DECLARE @CEIDG_SourceSystem_ID INT = (
     SELECT [SourceSystem_ID]
     FROM [meta].[SourceSystem]
     WHERE [SourceSystem_Code] = N'CEIDG'
+);
+
+DELETE FROM [meta].[ColumnMapping]
+WHERE [SourceSystem_ID] = @CEIDG_SourceSystem_ID
+AND [Source_Column_Name] IN (
+    N'firstName', N'imie', N'surname', N'nazwisko', N'pesel',
+    N'name', N'nazwa', N'nazwa_firmy', N'nip', N'regon', N'krs'
 );
 
 MERGE [meta].[ColumnMapping] AS target
@@ -285,6 +577,7 @@ USING (VALUES
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.nazwa', N'Name'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.skroconaNazwa', N'Short_Name'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.dataRozpoczeciaDzialalnosci', N'Establishment_Date'),
+    (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.przewazajacePKD', N'Business_Scope'),
     -- CEIDG adresy są w 1 polu tekstowym; wrzucamy oba do Street (później można je sparsować)
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.adresDzialalnosci', N'Street'),
     (@CEIDG_SourceSystem_ID, N'PARTY', N'firma.adresKorespondencyjny', N'Street'),
@@ -299,48 +592,48 @@ WHEN NOT MATCHED THEN
     VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
 GO
 
-DECLARE @GLEIF_L1_SourceSystem_ID INT = (
+DECLARE @GLEIF_SourceSystem_ID INT = (
     SELECT [SourceSystem_ID]
     FROM [meta].[SourceSystem]
-    WHERE [SourceSystem_Code] = N'GLEIF_L1'
+    WHERE [SourceSystem_Code] = N'GLEIF'
 );
+
+DELETE FROM [meta].[ColumnMapping]
+WHERE [SourceSystem_ID] = @GLEIF_SourceSystem_ID
+AND [Entity_Type] = N'PARTY'
+AND [Source_Column_Name] IN (N'DirectParentLEI', N'UltimateParentLEI');
 
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
-    -- PARTY (GLEIF L1)
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalName', N'Name'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalJurisdiction', N'Registration_Country'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalForm.EntityLegalFormCode', N'Legal_Entity_Type'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Registration.InitialRegistrationDate', N'Establishment_Date'),
-
-    -- adres legalny (Street/City/Postal/Country) bez parsera
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.FirstAddressLine', N'Street'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.City', N'City'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.PostalCode', N'Postal_Code'),
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'Entity.LegalAddress.Country', N'Country'),
-
-    -- identyfikator: LEI do Identifiers_JSON
-    (@GLEIF_L1_SourceSystem_ID, N'PARTY', N'LEI', N'Identifiers_JSON')
-) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
-AND target.[Entity_Type] = source.[Entity_Type]
-AND target.[Source_Column_Name] = source.[Source_Column_Name]
-WHEN NOT MATCHED THEN
-    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
-    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
-GO
-
-DECLARE @GLEIF_L2_SourceSystem_ID INT = (
-    SELECT [SourceSystem_ID]
-    FROM [meta].[SourceSystem]
-    WHERE [SourceSystem_Code] = N'GLEIF_L2'
-);
-
-MERGE [meta].[ColumnMapping] AS target
-USING (VALUES
-    -- PARTY (GLEIF L2)
-    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'StartNode.NodeID', N'Identifiers_JSON'),
-    (@GLEIF_L2_SourceSystem_ID, N'PARTY', N'EndNode.NodeID', N'Identifiers_JSON')
+    -- PARTY (scalony GLEIF) - data/*/gleif.*
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'LegalName', N'Name'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'LegalJurisdiction', N'Registration_Country'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'EntityLegalFormCode', N'Legal_Entity_Type'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'InitialRegistrationDate', N'Establishment_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'FirstAddressLine', N'Street'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'City', N'City'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'PostalCode', N'Postal_Code'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'Country', N'Country'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'RegistrationStatus', N'Registration_Status'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'LastUpdateDate', N'Last_Update_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'NextRenewalDate', N'Next_Renewal_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'ManagingLOU', N'Managing_LOU'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationSources', N'Validation_Sources'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationAuthorityID', N'Validation_Authority_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationAuthorityEntityID', N'Validation_Authority_Entity_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'LEI', N'Identifiers_JSON'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentLEI', N'Direct_Parent_LEI'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentName', N'Direct_Parent_Name'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentRelationshipType', N'Direct_Parent_Relationship_Type'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentRelationshipStatus', N'Direct_Parent_Relationship_Status'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentRelationshipStartDate', N'Direct_Parent_Relationship_Start_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentRelationshipEndDate', N'Direct_Parent_Relationship_End_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentLEI', N'Ultimate_Parent_LEI'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentName', N'Ultimate_Parent_Name'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipType', N'Ultimate_Parent_Relationship_Type'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipStatus', N'Ultimate_Parent_Relationship_Status'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipStartDate', N'Ultimate_Parent_Relationship_Start_Date'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'UltimateParentRelationshipEndDate', N'Ultimate_Parent_Relationship_End_Date')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]
@@ -356,13 +649,41 @@ DECLARE @KRS_SourceSystem_ID INT = (
     WHERE [SourceSystem_Code] = N'KRS'
 );
 
+DELETE FROM [meta].[ColumnMapping]
+WHERE [SourceSystem_ID] = @KRS_SourceSystem_ID
+AND [Entity_Type] = N'PARTY'
+AND [Source_Column_Name] IN (
+    N'WspolnikPodmiot1_Nazwa',
+    N'WspolnikPodmiot1_KRS',
+    N'WspolnikPodmiot1_NIP'
+);
+
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
+    -- PERSON (KRS) - pierwszy znaleziony slot osoby powiązanej w rekordzie
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Nazwisko', N'Last_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_PESEL', N'PESEL'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Nazwisko', N'Last_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_PESEL', N'PESEL'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Nazwisko', N'Last_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_PESEL', N'PESEL'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Nazwisko', N'Last_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_PESEL', N'PESEL'),
+
     -- PARTY (KRS) - data/csv/krs.csv
     (@KRS_SourceSystem_ID, N'PARTY', N'nazwa', N'Name'),
     (@KRS_SourceSystem_ID, N'PARTY', N'nazwaSkrocona', N'Short_Name'),
     (@KRS_SourceSystem_ID, N'PARTY', N'formaPrawna', N'Legal_Entity_Type'),
     (@KRS_SourceSystem_ID, N'PARTY', N'dataRejestracji', N'Establishment_Date'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'status', N'Register_Status'),
+    (@KRS_SourceSystem_ID, N'PARTY', N'pkd', N'Business_Scope'),
     (@KRS_SourceSystem_ID, N'PARTY', N'siedziba', N'City'),
     (@KRS_SourceSystem_ID, N'PARTY', N'adres', N'Street'),
     (@KRS_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
@@ -394,6 +715,12 @@ USING (VALUES
     (@REGON_SourceSystem_ID, N'PARTY', N'kodPocztowy', N'Postal_Code'),
     (@REGON_SourceSystem_ID, N'PARTY', N'powiat', N'District'),
     (@REGON_SourceSystem_ID, N'PARTY', N'wojewodztwo', N'Province'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'pkd', N'Business_Scope'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'formaWlasnosci', N'Ownership_Form'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'gmina', N'Municipality'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'telefon', N'Phone_Number'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'email', N'Email_Address'),
+    (@REGON_SourceSystem_ID, N'PARTY', N'stronaWWW', N'Website'),
     (@REGON_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
     (@REGON_SourceSystem_ID, N'PARTY', N'krs', N'Identifiers_JSON'),
     (@REGON_SourceSystem_ID, N'PARTY', N'regon', N'Identifiers_JSON')
@@ -417,6 +744,10 @@ USING (VALUES
     -- PARTY (VAT) - data/csv/vat.csv
     (@VAT_SourceSystem_ID, N'PARTY', N'name', N'Name'),
     (@VAT_SourceSystem_ID, N'PARTY', N'registrationLegalDate', N'Establishment_Date'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'statusVat', N'Register_Status'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'removalDate', N'Deregistration_Date'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'accountNumbers', N'Bank_Accounts_JSON'),
+    (@VAT_SourceSystem_ID, N'PARTY', N'hasVirtualAccounts', N'Has_Virtual_Accounts'),
     (@VAT_SourceSystem_ID, N'PARTY', N'workingAddress', N'Street'),
     (@VAT_SourceSystem_ID, N'PARTY', N'residenceAddress', N'Postal_City'),
     (@VAT_SourceSystem_ID, N'PARTY', N'nip', N'Identifiers_JSON'),
@@ -442,6 +773,7 @@ USING (VALUES
     -- PERSON (PESEL) - data/csv/pesel.csv
     (@PESEL_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'NumerDowoduOsobistego', N'Serial_Number_ID_Card'),
+    (@PESEL_SourceSystem_ID, N'PERSON', N'NumerPaszportu', N'Serial_Number_Passport'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'Imie', N'First_Name'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'DrugieImie', N'Second_Name'),
     (@PESEL_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
@@ -474,6 +806,7 @@ USING (VALUES
     -- PERSON (KNF_AGENT) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_agent.csv
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
 
     -- PARTY (KNF_AGENT)
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Firma/Nazwa', N'Name'),
@@ -481,7 +814,12 @@ USING (VALUES
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Ulica i numer', N'Street'),
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Kod pocztowy', N'Postal_Code'),
     (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer NIP', N'Identifiers_JSON'),
-    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer KRS', N'Identifiers_JSON')
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer KRS', N'Identifiers_JSON'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Source_Record_ID'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Zakład ubezpieczeń', N'Insurance_Company'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Rodzaj agenta', N'Agent_Type'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Data wpisu', N'Registration_Date'),
+    (@KNF_AGENT_SourceSystem_ID, N'PARTY', N'Data zakończenia', N'Deregistration_Date')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]
@@ -497,16 +835,27 @@ DECLARE @KNF_PRACOWNIK_AGENTA_SourceSystem_ID INT = (
     WHERE [SourceSystem_Code] = N'KNF_PRACOWNIK_AGENTA'
 );
 
+DELETE FROM [meta].[ColumnMapping]
+WHERE [SourceSystem_ID] = @KNF_PRACOWNIK_AGENTA_SourceSystem_ID
+AND [Entity_Type] = N'PERSON'
+AND [Source_Column_Name] IN (N'Imię agenta', N'Nazwisko agenta');
+
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_PRACOWNIK_AGENTA) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta.csv
-    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię agenta', N'First_Name'),
-    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko agenta', N'Last_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Numer pracownika', N'Source_Record_ID'),
 
     -- PARTY (KNF_PRACOWNIK_AGENTA) - agent jako podmiot
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Nazwa agenta', N'Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer NIP agenta', N'Identifiers_JSON'),
-    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer KRS agenta', N'Identifiers_JSON')
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer KRS agenta', N'Identifiers_JSON'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Numer agenta', N'Register_Number'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Nazwa zakładu ubezpieczeń', N'Insurance_Company'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Data wpisu', N'Registration_Date'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PARTY', N'Data zakończenia', N'Deregistration_Date')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]
@@ -526,7 +875,16 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PARTY (KNF_FIRMY_INWESTYCYJNE) - data/csv/KNF_Rejestr_firm_inwestycyjnych.csv
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Firma lub nazwa', N'Name'),
-    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street')
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'KRS', N'Identifiers_JSON'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'NIP', N'Identifiers_JSON'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'REGON', N'Identifiers_JSON'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Zakres czynności', N'Business_Scope'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Data zezwolenia', N'Registration_Date'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Numer decyzji', N'Decision_Number'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]
@@ -551,7 +909,11 @@ USING (VALUES
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Adres siedziby', N'Street'),
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Siedziba', N'City'),
     (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'NIP', N'Identifiers_JSON'),
-    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'KRS', N'Identifiers_JSON')
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'KRS', N'Identifiers_JSON'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Numer UKNF', N'Identifiers_JSON'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Status', N'Register_Status'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Data wykreślenia', N'Deregistration_Date'),
+    (@KNF_PIENIADZ_ELEKTRONICZNY_SourceSystem_ID, N'PARTY', N'Data decyzji', N'Decision_Date')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]

@@ -1,70 +1,50 @@
 {
-  "registries": {
-    "PESEL": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "CEIDG": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "REGON": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "KRS": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "VAT": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "GLEIF_Level1": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "GLEIF_Level2": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "KNF_Rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "KNF_Rejestr_posrednikow_ubezpieczeniowych_agent": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    },
-    "KNF_Rejestr_firm_inwestycyjnych": {
-      "csv": 130,
-      "json": 130,
-      "xml": 120,
-      "xlsx": 120
-    }
+  "csv": {
+    "ceidg": 200,
+    "gleif": 200,
+    "knf_rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": 200,
+    "knf_rejestr_firm_inwestycyjnych": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_agent": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": 200,
+    "krs": 200,
+    "pesel": 200,
+    "regon": 200,
+    "vat": 200
+  },
+  "json": {
+    "ceidg": 200,
+    "gleif": 200,
+    "knf_rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": 200,
+    "knf_rejestr_firm_inwestycyjnych": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_agent": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": 200,
+    "krs": 200,
+    "pesel": 200,
+    "regon": 200,
+    "vat": 200
+  },
+  "xml": {
+    "ceidg": 200,
+    "gleif": 200,
+    "knf_rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": 200,
+    "knf_rejestr_firm_inwestycyjnych": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_agent": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": 200,
+    "krs": 200,
+    "pesel": 200,
+    "regon": 200,
+    "vat": 200
+  },
+  "xlsx": {
+    "ceidg": 200,
+    "gleif": 200,
+    "knf_rejestr_dostawcow_i_wydawcow_pieniadza_elektronicznego": 200,
+    "knf_rejestr_firm_inwestycyjnych": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_agent": 200,
+    "knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta": 200,
+    "krs": 200,
+    "pesel": 200,
+    "regon": 200,
+    "vat": 200
   }
 }

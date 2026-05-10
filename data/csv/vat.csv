@@ -1,131 +1,201 @@
-﻿name,nip,statusVat,regon,pesel,krs,residenceAddress,workingAddress,accountNumbers,hasVirtualAccounts,registrationLegalDate,registrationDenialDate,registrationDenialBasis,removalDate,removalBasis,restorationDate,restorationBasis,exemptionSmeDate,representatives,authorizedClerks,partners
-K. Jasieński Instalacje,5000000008,Zwolniony,300000002,70010100001,,"ul. Topolowa 1, 00-810 Warszawa","00-810 Warszawa, skrytka 1","[""79102055581111000045049006""]",True,2016-01-01,,,2025-01-01,art. 96 ust. 9,,,,[],[],[]
-Marek Cieślar Usługi Finansowe,5000000014,Czynny,300000019,71020200136,,"30-302 Kraków, Bałtycka 2 m. 2",,"[""48102055581111000047828631""]",False,2017-02-02,,,,,,,,[],[],[]
-Marta Wrona Pośrednictwo Ubezpieczeniowe,5000000020,Czynny,300000025,72030300247,,"ul Jarzębinowa 3/3, 80-241 Gdańsk",,"[""61102055581111000064459981""]",False,2018-03-03,,,,,,,,[],[],[]
-Dawid Wiśniewski Konsulting,5000000037,Zwolniony,300000031,73040400372,,"ulica Srebrna 4/4, 60-126 Poznań",,"[""93102055581111000011595945""]",True,2019-04-04,,,,,,,,[],[],[]
-Alicja Cieślar Biuro Usług,5000000043,Czynny,300000048,74050500483,,"ul. Portowa 5, 50-101 Wrocław","50-101 Wrocław, skrytka 5","[""93102055581111000078806311""]",False,2020-05-05,,,,,,,,[],[],[]
-S. Wiśniewski Doradztwo,5000000055,Czynny,300000054,75060600518,,"20-819 Lublin, Głogowska 6 m. 6",,"[""60102055581111000040545068""]",False,2021-06-06,,,,,,,,[],[],[]
-Barbara Pawlik Konsulting,5000000066,Czynny,300000060,76070700629,,"ul Królewska 7/7, 85-707 Bydgoszcz",,"[""36102055581111000073678024""]",True,2022-07-07,,,,,,,,[],[],[]
-Marek Cieślar Usługi Finansowe,5000000072,Czynny,300000077,77080800754,,"ulica Piękna 8/8, 10-687 Olsztyn",,"[""76102055581111000088786294""]",False,2023-08-08,,,,,,,,[],[],[]
-Paulina Kaczmarek Studio Danych,5000000089,Zwolniony,300000083,78090900865,,"ul. Leśna 9, 81-350 Gdynia","81-350 Gdynia, skrytka 9","[""69102055581111000071928212""]",False,2024-09-09,,,2025-09-09,art. 96 ust. 9,,,,[],[],[]
-Marek Nowacki Pośrednictwo Ubezpieczeniowe,5000000095,Czynny,300000090,79101000992,,"90-001 Łódź, Polna 10 m. 10",,"[""20102055581111000052020192""]",True,2025-10-10,,,,,,,,[],[],[]
-R. Pawlik Serwis,5000000103,Czynny,300000108,80111101003,,"ul Szkolna 11/11, 00-810 Warszawa",,"[""64102055581111000066061116""]",False,2016-11-11,,,,,,,,[],[],[]
-Tomasz Zieliński Pośrednictwo Ubezpieczeniowe,5000000111,Czynny,300000114,81121201138,,"ulica Lipowa 12/12, 30-302 Kraków",,"[""66102055581111000070394210""]",False,2017-12-12,,,,,,,,[],[],[]
-Joanna Wiśniewski Biuro Usług,5000000126,Zwolniony,300000120,82011301244,,"ul. Słoneczna 13, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13","[""13102055581111000060291405""]",True,2018-01-13,,,,,,,,[],[],[]
-Andrzej Nowacki Pośrednictwo Ubezpieczeniowe,5000000132,Czynny,300000137,83021401379,,"60-126 Poznań, Różana 14 m. 14",,"[""83102055581111000027226260""]",False,2019-02-14,,,,,,,,[],[],[]
-Joanna Pawlik Konsulting,5000000149,Czynny,300000143,84031501480,,"ul Wiosenna 15/15, 50-101 Wrocław",,"[""11102055581111000077082048""]",False,2020-03-15,,,,,,,,[],[],[]
-J. Jasieński Instalacje,5000000155,Zwolniony,300000150,85041601515,,"ulica Topolowa 16/16, 20-819 Lublin",,"[""55102055581111000055610169""]",True,2021-04-16,,,,,,,,[],[],[]
-Katarzyna Nowacki Studio Danych,5000000161,Czynny,300000166,86051701626,,"ul. Bałtycka 17, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17","[""63102055581111000067139083""]",False,2022-05-17,,,2025-05-17,art. 96 ust. 9,,,,[],[],[]
-Jan Duda Pośrednictwo Ubezpieczeniowe,5000000178,Zwolniony,300000172,87061801751,,"10-687 Olsztyn, Jarzębinowa 18 m. 18",,"[""61102055581111000082155988""]",False,2023-06-18,,,,,,,,[],[],[]
-Anna Wójcik Pośrednictwo Ubezpieczeniowe,5000000184,Czynny,300000189,88071901862,,"ul Srebrna 19/19, 81-350 Gdynia",,"[""51102055581111000088779778""]",True,2024-07-19,,,,,,,,[],[],[]
-Jan Duda Studio Danych,5000000190,Czynny,300000195,89082001996,,"ulica Portowa 20/20, 90-001 Łódź",,"[""82102055581111000014323017""]",False,2025-08-20,,,,,,,,[],[],[]
-M. Cieślar Instalacje,5000000209,Czynny,300000203,90092102007,,"ul. Głogowska 21, 00-810 Warszawa","00-810 Warszawa, skrytka 21","[""29102055581111000054325475""]",False,2016-09-21,,,,,,,,[],[],[]
-Szymon Szymańska Studio Danych,5000000215,Zwolniony,300000210,91102202135,,"30-302 Kraków, Królewska 22 m. 22",,"[""90102055581111000090933663""]",True,2017-10-22,,,,,,,,[],[],[]
-Renata Woźniak Usługi Finansowe,5000000221,Zwolniony,300000226,92112302246,,"ul Piękna 23/23, 80-241 Gdańsk",,"[""83102055581111000062463815""]",False,2018-11-23,,,,,,,,[],[],[]
-Andrzej Mazur Biuro Usług,5000000238,Czynny,300000232,93122402371,,"ulica Leśna 24/24, 60-126 Poznań",,"[""36102055581111000062430296""]",False,2019-12-24,,,,,,,,[],[],[]
-Agnieszka Pawlik Pośrednictwo Ubezpieczeniowe,5000000244,Czynny,300000249,94012502487,,"ul. Polna 25, 50-101 Wrocław","50-101 Wrocław, skrytka 25","[""78102055581111000061866272""]",True,2020-01-25,,,2025-01-25,art. 96 ust. 9,,,,[],[],[]
-M. Kaczmarek Serwis,5000000250,Czynny,300000255,95022602512,,"20-819 Lublin, Szkolna 26 m. 1",,"[""70102055581111000024581193""]",False,2021-02-26,,,,,,,,[],[],[]
-Alicja Woźniak Usługi Finansowe,5000000267,Czynny,300000261,96032702623,,"ul Lipowa 27/2, 85-707 Bydgoszcz",,"[""82102055581111000070604045""]",False,2022-03-27,,,,,,,,[],[],[]
-Paweł Tracz Konsulting,5000000273,Zwolniony,300000278,97040102751,,"ulica Słoneczna 28/3, 10-687 Olsztyn",,"[""48102055581111000022514663""]",True,2023-04-01,,,,,,,,[],[],[]
-Natalia Pawlik Biuro Usług,5000000288,Czynny,300000284,98050202862,,"ul. Różana 29, 81-350 Gdynia","81-350 Gdynia, skrytka 29","[""23102055581111000084209891""]",False,2024-05-02,,,,,,,,[],[],[]
-Marek Milewska Pośrednictwo Ubezpieczeniowe,5000000296,Czynny,300000290,99060302997,,"90-001 Łódź, Wiosenna 30 m. 5",,"[""14102055581111000090982133""]",False,2025-06-03,,,,,,,,[],[],[]
-O. Wiśniewski Instalacje,5000000304,Czynny,300000309,70070403001,,"ul Topolowa 31/6, 00-810 Warszawa",,"[""13102055581111000035057390""]",True,2016-07-04,,,,,,,,[],[],[]
-Patryk Kamińska Studio Danych,5000000310,Czynny,300000315,71080503136,,"ulica Bałtycka 32/7, 30-302 Kraków",,"[""18102055581111000061793831""]",False,2017-08-05,,,,,,,,[],[],[]
-Agnieszka Cieślar Biuro Usług,5000000327,Czynny,300000321,72090603247,,"ul. Jarzębinowa 33, 80-241 Gdańsk","80-241 Gdańsk, skrytka 33","[""36102055581111000041278022""]",False,2018-09-06,,,2025-09-06,art. 96 ust. 9,,,,[],[],[]
-Dawid Milewska Usługi Finansowe,5000000333,Czynny,300000338,73100703375,,"60-126 Poznań, Srebrna 34 m. 9",,"[""94102055581111000080383199""]",True,2019-10-07,,,,,,,,[],[],[]
-Magdalena Nowacki Studio Danych,5000000344,Czynny,300000344,74110803486,,"ul Portowa 35/10, 50-101 Wrocław",,"[""68102055581111000017711235""]",False,2020-11-08,,,,,,,,[],[],[]
-A. Pawlik Serwis,5000000356,Czynny,300000350,75120903511,,"ulica Głogowska 36/11, 20-819 Lublin",,"[""76102055581111000011482715""]",False,2021-12-09,,,,,,,,[],[],[]
-Ewa Jasieński Studio Danych,5000000362,Czynny,300000367,76011003626,,"ul. Królewska 37, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 37","[""51102055581111000065144861""]",True,2022-01-10,,,,,,,,[],[],[]
-Rafał Wójcik Konsulting,5000000379,Czynny,300000373,77021103751,,"10-687 Olsztyn, Piękna 38 m. 13",,"[""30102055581111000024863801""]",False,2023-02-11,,,,,,,,[],[],[]
-Karolina Kowalski Konsulting,5000000385,Czynny,300000380,78031203862,,"ul Leśna 39/14, 81-350 Gdynia",,"[""78102055581111000066158469""]",False,2024-03-12,,,,,,,,[],[],[]
-Michał Milewska Usługi Finansowe,5000000391,Czynny,300000396,79041303997,,"ulica Polna 40/15, 90-001 Łódź",,"[""18102055581111000062209742""]",True,2025-04-13,,,,,,,,[],[],[]
-M. Kamińska Serwis,5000000400,Czynny,300000404,80051404008,,"ul. Szkolna 41, 00-810 Warszawa","00-810 Warszawa, skrytka 41","[""26102055581111000037605500""]",False,2016-05-14,,,2025-05-14,art. 96 ust. 9,,,,[],[],[]
-Marcin Kamińska Pośrednictwo Ubezpieczeniowe,5000000416,Czynny,300000410,81061504133,,"30-302 Kraków, Lipowa 42 m. 17",,"[""65102055581111000099226958""]",False,2017-06-15,,,,,,,,[],[],[]
-Karolina Woźniak Pośrednictwo Ubezpieczeniowe,5000000422,Czynny,300000427,82071604244,,"ul Słoneczna 43/18, 80-241 Gdańsk",,"[""30102055581111000091028510""]",True,2018-07-16,,,,,,,,[],[],[]
-Paweł Duda Pośrednictwo Ubezpieczeniowe,5000000439,Zwolniony,300000433,83081704379,,"ulica Różana 44/19, 60-126 Poznań",,"[""49102055581111000088851835""]",False,2019-08-17,,,,,,,,[],[],[]
-Ewa Kowalski Biuro Usług,5000000445,Czynny,300000440,84091804480,,"ul. Wiosenna 45, 50-101 Wrocław","50-101 Wrocław, skrytka 45","[""74102055581111000071600090""]",False,2020-09-18,,,,,,,,[],[],[]
-M. Kaczmarek Serwis,5000000451,Czynny,300000456,85101904518,,"20-819 Lublin, Topolowa 46 m. 21",,"[""35102055581111000010999023""]",True,2021-10-19,,,,,,,,[],[],[]
-Magdalena Wójcik Pośrednictwo Ubezpieczeniowe,5000000468,Czynny,300000462,86112004628,,"ul Bałtycka 47/22, 85-707 Bydgoszcz",,"[""67102055581111000018585913""]",False,2022-11-20,,,,,,,,[],[],[]
-Jan Krawiec Usługi Finansowe,5000000474,Czynny,300000479,87122104753,,"ulica Jarzębinowa 48/23, 10-687 Olsztyn",,"[""87102055581111000043130320""]",False,2023-12-21,,,,,,,,[],[],[]
-Alicja Mazur Pośrednictwo Ubezpieczeniowe,5000000480,Zwolniony,300000485,88012204869,,"ul. Srebrna 49, 81-350 Gdynia","81-350 Gdynia, skrytka 49","[""52102055581111000086400632""]",True,2024-01-22,,,2025-01-22,art. 96 ust. 9,,,,[],[],[]
-Jan Kowalski Pośrednictwo Ubezpieczeniowe,5000000497,Czynny,300000491,89022304994,,"90-001 Łódź, Portowa 50 m. 25",,"[""68102055581111000072101932""]",False,2025-02-23,,,,,,,,[],[],[]
-E. Duda Doradztwo,5000000505,Zwolniony,300000500,90032405005,,"ul Głogowska 51/1, 00-810 Warszawa",,"[""15102055581111000022227594""]",False,2016-03-24,,,,,,,,[],[],[]
-Tomasz Szymańska Usługi Finansowe,5000000511,Czynny,300000516,91042505130,,"ulica Królewska 52/2, 30-302 Kraków",,"[""92102055581111000071244438""]",True,2017-04-25,,,,,,,,[],[],[]
-Katarzyna Mazur Studio Danych,5000000528,Czynny,300000522,92052605241,,"ul. Piękna 53, 80-241 Gdańsk","80-241 Gdańsk, skrytka 3","[""99102055581111000049922892""]",False,2018-05-26,,,,,,,,[],[],[]
-Maciej Tracz Usługi Finansowe,5000000534,Czynny,300000539,93062705376,,"60-126 Poznań, Leśna 54 m. 4",,"[""88102055581111000033505052""]",False,2019-06-27,,,,,,,,[],[],[]
-Karolina Kowalski Pośrednictwo Ubezpieczeniowe,5000000540,Czynny,300000545,94070105480,,"ul Polna 55/5, 50-101 Wrocław",,"[""41102055581111000034102565""]",True,2020-07-01,,,,,,,,[],[],[]
-Ł. Kaczmarek Instalacje,5000000557,Zwolniony,300000551,95080205515,,"ulica Szkolna 56/6, 20-819 Lublin",,"[""65102055581111000071448654""]",False,2021-08-02,,,,,,,,[],[],[]
-Alicja Król Pośrednictwo Ubezpieczeniowe,5000000563,Czynny,300000568,96090305626,,"ul. Lipowa 57, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 7","[""94102055581111000034621479""]",False,2022-09-03,,,2025-09-03,art. 96 ust. 9,,,,[],[],[]
-Paweł Król Biuro Usług,5000000577,Zwolniony,300000574,97100405754,,"10-687 Olsztyn, Słoneczna 58 m. 8",,"[""82102055581111000022822379""]",True,2023-10-04,,,,,,,,[],[],[]
-Monika Krawiec Biuro Usług,5000000586,Czynny,300000580,98110505865,,"ul Różana 59/9, 81-350 Gdynia",,"[""99102055581111000015860545""]",False,2024-11-05,,,,,,,,[],[],[]
-Michał Kamińska Pośrednictwo Ubezpieczeniowe,5000000592,Czynny,300000597,99120605990,,"ulica Wiosenna 60/10, 90-001 Łódź",,"[""30102055581111000046745629""]",False,2025-12-06,,,,,,,,[],[],[]
-P. Kaczmarek Doradztwo,5000000600,Zwolniony,300000605,70010706009,,"ul. Topolowa 61, 00-810 Warszawa","00-810 Warszawa, skrytka 11","[""78102055581111000049176757""]",True,2016-01-07,,,,,,,,[],[],[]
-Dawid Cieślar Pośrednictwo Ubezpieczeniowe,5000000617,Zwolniony,300000611,71020806134,,"30-302 Kraków, Bałtycka 62 m. 12",,"[""18102055581111000039159454""]",False,2017-02-08,,,,,,,,[],[],[]
-Paulina Dorska Konsulting,5000000623,Czynny,300000628,72030906245,,"ul Jarzębinowa 63/13, 80-241 Gdańsk",,"[""62102055581111000084198767""]",False,2018-03-09,,,,,,,,[],[],[]
-Tomasz Nowacki Usługi Finansowe,5000000633,Czynny,300000634,73041006379,,"ulica Srebrna 64/14, 60-126 Poznań",,"[""57102055581111000020272170""]",True,2019-04-10,,,,,,,,[],[],[]
-Katarzyna Duda Biuro Usług,5000000646,Czynny,300000640,74051106480,,"ul. Portowa 65, 50-101 Wrocław","50-101 Wrocław, skrytka 15","[""74102055581111000053756742""]",False,2020-05-11,,,2025-05-11,art. 96 ust. 9,,,,[],[],[]
-P. Mazur Serwis,5000000652,Czynny,300000657,75061206515,,"20-819 Lublin, Głogowska 66 m. 16",,"[""67102055581111000032124330""]",False,2021-06-12,,,,,,,,[],[],[]
-Joanna Kaczmarek Usługi Finansowe,5000000669,Czynny,300000663,76071306626,,"ul Królewska 67/17, 85-707 Bydgoszcz",,"[""36102055581111000077922837""]",True,2022-07-13,,,,,,,,[],[],[]
-Maciej Zieliński Konsulting,5000000675,Czynny,300000670,77081406751,,"ulica Piękna 68/18, 10-687 Olsztyn",,"[""69102055581111000013586013""]",False,2023-08-14,,,,,,,,[],[],[]
-Oliwia Pawlik Biuro Usług,5000000681,Czynny,300000686,78091506862,,"ul. Leśna 69, 81-350 Gdynia","81-350 Gdynia, skrytka 19","[""91102055581111000071995701""]",False,2024-09-15,,,,,,,,[],[],[]
-Maciej Tracz Konsulting,5000000698,Czynny,300000692,79101606990,,"90-001 Łódź, Polna 70 m. 20",,"[""53102055581111000063598753""]",True,2025-10-16,,,,,,,,[],[],[]
-A. Milewska Instalacje,5000000706,Czynny,300000700,80111707001,,"ul Szkolna 71/21, 00-810 Warszawa",,"[""60102055581111000015070029""]",False,2016-11-17,,,,,,,,[],[],[]
-Patryk Pawlik Pośrednictwo Ubezpieczeniowe,5000000712,Czynny,300000717,81121807136,,"ulica Lipowa 72/22, 30-302 Kraków",,"[""42102055581111000025392453""]",False,2017-12-18,,,,,,,,[],[],[]
-Ewa Kamińska Studio Danych,5000000729,Zwolniony,300000723,82011907242,,"ul. Słoneczna 73, 80-241 Gdańsk","80-241 Gdańsk, skrytka 23","[""27102055581111000053904009""]",True,2018-01-19,,,2025-01-19,art. 96 ust. 9,,,,[],[],[]
-Marek Wójcik Pośrednictwo Ubezpieczeniowe,5000000735,Zwolniony,300000730,83022007376,,"60-126 Poznań, Różana 74 m. 24",,"[""69102055581111000075063283""]",False,2019-02-20,,,,,,,,[],[],[]
-Karolina Zieliński Usługi Finansowe,5000000741,Czynny,300000746,84032107487,,"ul Wiosenna 75/25, 50-101 Wrocław",,"[""18102055581111000021079489""]",False,2020-03-21,,,,,,,,[],[],[]
-M. Duda Doradztwo,5000000758,Zwolniony,300000752,85042207512,,"ulica Topolowa 76/1, 20-819 Lublin",,"[""94102055581111000042520097""]",True,2021-04-22,,,,,,,,[],[],[]
-Oliwia Tracz Biuro Usług,5000000764,Zwolniony,300000769,86052307623,,"ul. Bałtycka 77, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 27","[""66102055581111000028824809""]",False,2022-05-23,,,,,,,,[],[],[]
-Patryk Król Biuro Usług,5000000770,Czynny,300000775,87062407758,,"10-687 Olsztyn, Jarzębinowa 78 m. 3",,"[""45102055581111000031658249""]",False,2023-06-24,,,,,,,,[],[],[]
-Natalia Mazur Studio Danych,5000000787,Czynny,300000781,88072507869,,"ul Srebrna 79/4, 81-350 Gdynia",,"[""12102055581111000091468625""]",True,2024-07-25,,,,,,,,[],[],[]
-Patryk Kowalski Pośrednictwo Ubezpieczeniowe,5000000793,Czynny,300000798,89082607994,,"ulica Portowa 80/5, 90-001 Łódź",,"[""32102055581111000049479427""]",False,2025-08-26,,,,,,,,[],[],[]
-M. Nowacki Serwis,5000000801,Czynny,300000806,90092708005,,"ul. Głogowska 81, 00-810 Warszawa","00-810 Warszawa, skrytka 31","[""78102055581111000062458932""]",False,2016-09-27,,,2025-09-27,art. 96 ust. 9,,,,[],[],[]
-Dawid Dorska Biuro Usług,5000000818,Czynny,300000812,91100108136,,"30-302 Kraków, Królewska 82 m. 7",,"[""19102055581111000011504663""]",True,2017-10-01,,,,,,,,[],[],[]
-Natalia Kaczmarek Biuro Usług,5000000824,Zwolniony,300000829,92110208247,,"ul Piękna 83/8, 80-241 Gdańsk",,"[""44102055581111000030601948""]",False,2018-11-02,,,,,,,,[],[],[]
-Tomasz Tracz Konsulting,5000000830,Czynny,300000835,93120308372,,"ulica Leśna 84/9, 60-126 Poznań",,"[""55102055581111000033882733""]",False,2019-12-03,,,,,,,,[],[],[]
-Alicja Wrona Studio Danych,5000000847,Czynny,300000841,94010408488,,"ul. Polna 85, 50-101 Wrocław","50-101 Wrocław, skrytka 35","[""14102055581111000081443936""]",True,2020-01-04,,,,,,,,[],[],[]
-J. Pawlik Doradztwo,5000000853,Czynny,300000858,95020508513,,"20-819 Lublin, Szkolna 86 m. 11",,"[""66102055581111000016409704""]",False,2021-02-05,,,,,,,,[],[],[]
-Karolina Kamińska Pośrednictwo Ubezpieczeniowe,5000000866,Zwolniony,300000864,96030608624,,"ul Lipowa 87/12, 85-707 Bydgoszcz",,"[""76102055581111000096035199""]",False,2022-03-06,,,,,,,,[],[],[]
-Łukasz Tracz Konsulting,5000000876,Zwolniony,300000870,97040708759,,"ulica Słoneczna 88/13, 10-687 Olsztyn",,"[""94102055581111000023796681""]",True,2023-04-07,,,,,,,,[],[],[]
-Alicja Wiśniewski Konsulting,5000000882,Czynny,300000887,98050808860,,"ul. Różana 89, 81-350 Gdynia","81-350 Gdynia, skrytka 39","[""98102055581111000051382580""]",False,2024-05-08,,,2025-05-08,art. 96 ust. 9,,,,[],[],[]
-Michał Dorska Konsulting,5000000899,Czynny,300000893,99060908995,,"90-001 Łódź, Wiosenna 90 m. 15",,"[""16102055581111000090289763""]",False,2025-06-09,,,,,,,,[],[],[]
-O. Pawlik Instalacje,5000000907,Czynny,300000901,70071009008,,"ul Topolowa 91/16, 00-810 Warszawa",,"[""16102055581111000060653170""]",True,2016-07-10,,,,,,,,[],[],[]
-Dawid Kaczmarek Konsulting,5000000913,Czynny,300000918,71081109133,,"ulica Bałtycka 92/17, 30-302 Kraków",,"[""41102055581111000060283960""]",False,2017-08-11,,,,,,,,[],[],[]
-Natalia Wiśniewski Konsulting,5000000922,Czynny,300000924,72091209244,,"ul. Jarzębinowa 93, 80-241 Gdańsk","80-241 Gdańsk, skrytka 43","[""35102055581111000022265679""]",False,2018-09-12,,,,,,,,[],[],[]
-Patryk Tracz Pośrednictwo Ubezpieczeniowe,5000000936,Czynny,300000930,73101309372,,"60-126 Poznań, Srebrna 94 m. 19",,"[""63102055581111000013750602""]",True,2019-10-13,,,,,,,,[],[],[]
-Monika Wiśniewski Usługi Finansowe,5000000942,Czynny,300000947,74111409483,,"ul Portowa 95/20, 50-101 Wrocław",,"[""53102055581111000035790180""]",False,2020-11-14,,,,,,,,[],[],[]
-P. Nowacki Instalacje,5000000959,Zwolniony,300000953,75121509518,,"ulica Głogowska 96/21, 20-819 Lublin",,"[""95102055581111000018478733""]",False,2021-12-15,,,,,,,,[],[],[]
-Agnieszka Jasieński Biuro Usług,5000000965,Czynny,300000960,76011609624,,"ul. Królewska 97, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 47","[""22102055581111000099135168""]",True,2022-01-16,,,2025-01-16,art. 96 ust. 9,,,,[],[],[]
-Andrzej Milewska Konsulting,5000000971,Czynny,300000976,77021709759,,"10-687 Olsztyn, Piękna 98 m. 23",,"[""31102055581111000015907259""]",False,2023-02-17,,,,,,,,[],[],[]
-Magdalena Wrona Studio Danych,5000000988,Czynny,300000982,78031809860,,"ul Leśna 99/24, 81-350 Gdynia",,"[""75102055581111000024453078""]",False,2024-03-18,,,,,,,,[],[],[]
-Piotr Dorska Biuro Usług,5000000994,Czynny,300000999,79041909995,,"ulica Polna 100/25, 90-001 Łódź",,"[""51102055581111000085437626""]",True,2025-04-19,,,,,,,,[],[],[]
-A. Król Doradztwo,5000001002,Zwolniony,300001007,80052010008,,"ul. Szkolna 101, 00-810 Warszawa","00-810 Warszawa, skrytka 1","[""34102055581111000093842238""]",False,2016-05-20,,,,,,,,[],[],[]
-Szymon Jasieński Usługi Finansowe,5000001019,Czynny,300001013,81062110133,,"30-302 Kraków, Lipowa 102 m. 2",,"[""79102055581111000063024581""]",False,2017-06-21,,,,,,,,[],[],[]
-Karolina Mazur Konsulting,5000001025,Czynny,300001020,82072210244,,"ul Słoneczna 103/3, 80-241 Gdańsk",,"[""25102055581111000041193292""]",True,2018-07-22,,,,,,,,[],[],[]
-Dawid Kaczmarek Konsulting,5000001031,Czynny,300001036,83082310379,,"ulica Różana 104/4, 60-126 Poznań",,"[""23102055581111000057858864""]",False,2019-08-23,,,,,,,,[],[],[]
-Karolina Pawlik Studio Danych,5000001048,Czynny,300001042,84092410480,,"ul. Wiosenna 105, 50-101 Wrocław","50-101 Wrocław, skrytka 5","[""32102055581111000012012537""]",False,2020-09-24,,,2025-09-24,art. 96 ust. 9,,,,[],[],[]
-K. Nowacki Instalacje,5000001054,Czynny,300001059,85102510518,,"20-819 Lublin, Topolowa 106 m. 6",,"[""93102055581111000052445044""]",True,2021-10-25,,,,,,,,[],[],[]
-Katarzyna Mazur Usługi Finansowe,5000001060,Czynny,300001065,86112610629,,"ul Bałtycka 107/7, 85-707 Bydgoszcz",,"[""59102055581111000038557229""]",False,2022-11-26,,,,,,,,[],[],[]
-Łukasz Duda Konsulting,5000001077,Czynny,300001071,87122710754,,"ulica Jarzębinowa 108/8, 10-687 Olsztyn",,"[""38102055581111000018860555""]",False,2023-12-27,,,,,,,,[],[],[]
-Paulina Tracz Konsulting,5000001083,Zwolniony,300001088,88010110863,,"ul. Srebrna 109, 81-350 Gdynia","81-350 Gdynia, skrytka 9","[""45102055581111000097234140""]",True,2024-01-01,,,,,,,,[],[],[]
-Andrzej Wójcik Pośrednictwo Ubezpieczeniowe,5000001099,Zwolniony,300001094,89020210998,,"90-001 Łódź, Portowa 110 m. 10",,"[""57102055581111000015897385""]",False,2025-02-02,,,,,,,,[],[],[]
-M. Król Serwis,5000001108,Czynny,300001102,90030311009,,"ul Głogowska 111/11, 00-810 Warszawa",,"[""37102055581111000065176483""]",False,2016-03-03,,,,,,,,[],[],[]
-Marcin Woźniak Konsulting,5000001114,Czynny,300001119,91040411134,,"ulica Królewska 112/12, 30-302 Kraków",,"[""86102055581111000077051958""]",True,2017-04-04,,,,,,,,[],[],[]
-Alicja Nowacki Usługi Finansowe,5000001120,Czynny,300001125,92050511245,,"ul. Piękna 113, 80-241 Gdańsk","80-241 Gdańsk, skrytka 13","[""78102055581111000086397410""]",False,2018-05-05,,,2025-05-05,art. 96 ust. 9,,,,[],[],[]
-Maciej Kamińska Usługi Finansowe,5000001137,Czynny,300001131,93060611370,,"60-126 Poznań, Leśna 114 m. 14",,"[""42102055581111000022716400""]",False,2019-06-06,,,,,,,,[],[],[]
-Anna Zieliński Pośrednictwo Ubezpieczeniowe,5000001143,Zwolniony,300001148,94070711481,,"ul Polna 115/15, 50-101 Wrocław",,"[""51102055581111000094674464""]",True,2020-07-07,,,,,,,,[],[],[]
-M. Wrona Instalacje,5000001155,Zwolniony,300001154,95080811516,,"ulica Szkolna 116/16, 20-819 Lublin",,"[""59102055581111000027841755""]",False,2021-08-08,,,,,,,,[],[],[]
-Katarzyna Wójcik Usługi Finansowe,5000001166,Czynny,300001160,96090911627,,"ul. Lipowa 117, 85-707 Bydgoszcz","85-707 Bydgoszcz, skrytka 17","[""32102055581111000095275696""]",False,2022-09-09,,,,,,,,[],[],[]
-Andrzej Wiśniewski Biuro Usług,5000001172,Zwolniony,300001177,97101011754,,"10-687 Olsztyn, Słoneczna 118 m. 18",,"[""50102055581111000099438746""]",True,2023-10-10,,,,,,,,[],[],[]
-Marta Mazur Studio Danych,5000001189,Czynny,300001183,98111111865,,"ul Różana 119/19, 81-350 Gdynia",,"[""18102055581111000054977061""]",False,2024-11-11,,,,,,,,[],[],[]
-Jan Tracz Studio Danych,5000001195,Czynny,300001190,99121211990,,"ulica Wiosenna 120/20, 90-001 Łódź",,"[""87102055581111000088522325""]",False,2025-12-12,,,,,,,,[],[],[]
-K. Milewska Instalacje,5000001203,Czynny,300001208,70011312009,,"ul. Topolowa 121, 00-810 Warszawa","00-810 Warszawa, skrytka 21","[""58102055581111000078588767""]",True,2016-01-13,,,2025-01-13,art. 96 ust. 9,,,,[],[],[]
-Jan Woźniak Pośrednictwo Ubezpieczeniowe,5000001211,Zwolniony,300001214,71021412134,,"30-302 Kraków, Bałtycka 122 m. 22",,"[""39102055581111000077567894""]",False,2017-02-14,,,,,,,,[],[],[]
-Renata Woźniak Konsulting,5000001226,Zwolniony,300001220,72031512245,,"ul Jarzębinowa 123/23, 80-241 Gdańsk",,"[""11102055581111000041219836""]",False,2018-03-15,,,,,,,,[],[],[]
-Michał Jasieński Biuro Usług,5000001232,Czynny,300001237,73041612370,,"ulica Srebrna 124/24, 60-126 Poznań",,"[""88102055581111000026650536""]",True,2019-04-16,,,,,,,,[],[],[]
-Karolina Wójcik Pośrednictwo Ubezpieczeniowe,5000001249,Czynny,300001243,74051712481,,"ul. Portowa 125, 50-101 Wrocław","50-101 Wrocław, skrytka 25","[""40102055581111000067512010""]",False,2020-05-17,,,,,,,,[],[],[]
-K. Wiśniewski Doradztwo,5000001255,Czynny,300001250,75061812516,,"20-819 Lublin, Głogowska 126 m. 1",,"[""89102055581111000020655497""]",False,2021-06-18,,,,,,,,[],[],[]
-Natalia Jasieński Usługi Finansowe,5000001261,Czynny,300001266,76071912627,,"ul Królewska 127/2, 85-707 Bydgoszcz",,"[""27102055581111000060267710""]",True,2022-07-19,,,,,,,,[],[],[]
-Tomasz Król Pośrednictwo Ubezpieczeniowe,5000001278,Czynny,300001272,77082012751,,"ulica Piękna 128/3, 10-687 Olsztyn",,"[""47102055581111000037113563""]",False,2023-08-20,,,,,,,,[],[],[]
-Agnieszka Tracz Konsulting,5000001284,Czynny,300001289,78092112862,,"ul. Leśna 129, 81-350 Gdynia","81-350 Gdynia, skrytka 29","[""58102055581111000037432134""]",False,2024-09-21,,,2025-09-21,art. 96 ust. 9,,,,[],[],[]
-Rafał Wrona Pośrednictwo Ubezpieczeniowe,5000001290,Zwolniony,300001295,79102212990,,"90-001 Łódź, Polna 130 m. 5",,"[""14102055581111000041952404""]",True,2025-10-22,,,,,,,,[],[],[]
+﻿name,nip,statusVat,regon,pesel,krs,residenceAddress,workingAddress,accountNumbers,hasVirtualAccounts,registrationLegalDate,removalDate
+Astra Finance sp. z o.o.,1234805466,Czynny,234963846,65060606843,0000000003,"os. Marszałkowska 1/1, 00-590 Warszawa","os. Marszałkowska 1/1, 00-590 Warszawa",13326270248233305893236880,False,2018-03-06,
+Baltic Med Supply sp z oo,1234884655,Czynny,235043036,66070708239,0000000100,"ul Krakowskie Przedmieście 18, 00-071 Warszawa","ul Krakowskie Przedmieście 18, 00-071 Warszawa",04521401942858273810051846,False,2023-03-03,2021-08-23
+Helios Markets sp. z o. o.,1234963840,Czynny,235122221,67080809587,0000000197,"ulica Floriańska 35, 31-019 Kraków","ulica Floriańska 35, 31-019 Kraków",14851461196894955594913303,True,2024-12-29,
+Lumen Advisory Sp. z o.o.,1235043030,Wykreślony,235201417,68090910975,0000000294,"Długa 52, 31-147 Kraków","Długa 52, 31-147 Kraków",28155640451735815624364698,False,2015-11-04,2022-12-17
+Nova Data SP Z O O,1235122226,Wykreślony,235280606,69101012325,0000000391,"ul. Piotrkowska 69/53, 90-102 Łódź","ul. Piotrkowska 69/53, 90-102 Łódź",58832676109275201080501172,False,2025-06-03,2024-06-01
+Optima Trade spółka z ograniczoną odpowiedzialnością,1235201411,Wykreślony,235359791,70111113719,0000000488,"ul Zachodnia 86, 90-402 Łódź","ul Zachodnia 86, 90-402 Łódź",15583899266966632022015674,True,2024-02-26,
+Polaris Capital Spółka z ograniczoną odpowiedzialnością,1235280600,Czynny,235438987,71121215068,0000000585,"ulica Świdnicka 103, 50-066 Wrocław","ulica Świdnicka 103, 50-066 Wrocław",75269041247646653999029120,False,2019-11-30,2020-01-25
+Quantum Services S.A.,1235359796,Cyznny,235518172,72011316458,0000000682,"Legnicka 120, 54-203 Wrocław","Legnicka 120, 54-203 Wrocław",51903758900026900403365383,True,2016-06-17,2021-08-11
+Silesia Invest SA,1235438981,Czynny,235597361,73021417805,0000000779,"ul. Święty Marcin 137/15, 61-806 Poznań","ul. Święty Marcin 137/15, 61-806 Poznań",15107773585418382603168375,False,2022-09-21,2021-11-13
+Vistula Fintech S. A.,1235518177,Czynny,235676557,74031519192,0000000876,"ul Głogowska 154, 60-734 Poznań","ul Głogowska 154, 60-734 Poznań",89 7586 6823 3611 8170 6680 9300,False,2021-05-13,
+Astra Finance Spółka Akcyjna,1235597366,Wykreślony,235755742,75041620542,0000000973,"ulica Długa 171, 80-831 Gdańsk","ulica Długa 171, 80-831 Gdańsk",71 7016 3704 6826 7545 5756 4895,True,2018-12-28,
+Baltic Med Supply sp. z o.o.,1235676551,Czynny,235834938,76051721937,0000001070,"Grunwaldzka 8, 80-236 Gdańsk","Grunwaldzka 8, 80-236 Gdańsk",64 4746 5102 7161 4753 4529 6928,True,2018-02-10,
+Helios Markets sp z oo,1235755747,Zwolniony,235914123,77061823286,0000001167,"ul. Jagiellońska 25/67, 70-435 Szczecin","ul. Jagiellońska 25/67, 70-435 Szczecin",99 1569 9804 8938 4118 9245 2139,False,2018-10-16,
+Lumen Advisory sp. z o. o.,1235834932,Wykreslony,235993312,78071924671,0000001264,"ul Wyszyńskiego 42, 70-200 Szczecin","ul Wyszyńskiego 42, 70-200 Szczecin",47850103403013111334862395,False,2021-03-24,2020-03-05
+Nova Data Sp. z o.o.,1235914128,Czynny,236072502,79082026028,0000001361,"ulica Mariacka 59, 40-014 Katowice","ulica Mariacka 59, 40-014 Katowice",22013625243720396504218573,False,2015-08-02,2021-04-12
+Optima Trade SP Z O O,1235993317,Czynny,236151696,80092127412,0000001458,"Warszawska 76, 40-009 Katowice","Warszawska 76, 40-009 Katowice",02403663119255574857101208,False,2023-01-03,2023-10-13
+Polaris Capital spółka z ograniczoną odpowiedzialnością,1236072507,Wykreślony,236230881,81102228763,0000001555,"ul. Krakowskie Przedmieście 93/29, 20-002 Lublin","ul. Krakowskie Przedmieście 93/29, 20-002 Lublin",69 5289 3220 9564 2452 5916 2238,True,2015-08-03,
+Quantum Services Spółka z ograniczoną odpowiedzialnością,1236151690,,236310077,82112330152,0000001652,"ul Narutowicza 110, 20-004 Lublin",,18883948848151237847530011,True,2025-03-16,2025-04-10
+Silesia Invest S.A.,1236230886,Czynny,236389268,83122431509,0000001749,"ulica Lipowa 127, 15-424 Białystok","ulica Lipowa 127, 15-424 Białystok",54243830408237050705859496,True,2016-03-13,2021-06-28
+Vistula Fintech SA,1236310071,Wykreślony,236468453,84012532890,0000001846,"Sienkiewicza 144, Białystok","Sienkiewicza 144, Białystok",86410193829779756031588842,False,2020-07-19,2020-11-08
+Astra Finance S. A.,1236389262,Czynny,236547649,85022634248,0000001943,"ul. Gdańska 161/81, 85-005 Bydgoszcz","ul. Gdańska 161/81, 85-005 Bydgoszcz",16 4888 9356 7436 6465 8802 5553,False,2015-08-13,
+Baltic Med Supply Spółka Akcyjna,1236468458,Czynny,236626834,86032735633,0000002040,"ul Dworcowa 178, 85-009 Bydgoszcz","ul Dworcowa 178, 85-009 Bydgoszcz",92340208575457241735020603,True,2019-11-10,2021-11-06
+Helios Markets sp. z o.o.,1236547643,Czynny,236785219,87042836981,0000002137,"ulica Szeroka 15, 87-100 Toruń","ulica Szeroka 15, 87-100 Toruń",77 5848 3328 6468 6320 9514 2166,False,2015-04-22,
+Lumen Advisory sp z oo,1236626839,Wykreślony,236785219,88050138373,0000002234,"Chełmińska 32, 87-100 Toruń","Chełmińska 32, 87-100 Toruń",82 7089 9889 6693 6636 9986 6976,False,2018-05-17,
+Nova Data sp. z o. o.,1236706024,Czynny,236864404,89060239720,0000002331,"ul. 3 Maja 49/43, 35-030 Rzeszów","ul. 3 Maja 49/43, 35-030 Rzeszów",32785530116504621220160736,True,2025-03-21,2023-07-22
+Optima Trade Sp. z o.o.,1236785213,Wykreślony,236943598,90070341118,0000002428,"ul Piłsudskiego 66, 35-074 Rzeszów","ul Piłsudskiego 66, 35-074 Rzeszów",65 9689 9458 1214 3090 7990 5139,True,2017-12-01,
+Polaris Capital SP Z O O,1236864409,Czynny,237022788,91080442466,0000002525,"ulica Sienkiewicza 83, 25-007 Kielce","ulica Sienkiewicza 83, 25-007 Kielce",35 2001 1097 4381 2542 3583 6248,True,2019-12-26,
+Quantum Services spółka z ograniczoną odpowiedzialnością,1236943592,Wykreślony,237101973,92090543851,0000002622,"Warszawska 100, 25-512 Kielce","Warszawska 100, 25-512 Kielce",51 7786 2727 3009 2857 7787 1352,True,2022-03-25,
+Silesia Invest Spółka z ograniczoną odpowiedzialnością,1237022782,Czynny,237181162,93100645202,0000002719,"ul. Kościuszki 117/5, 10-504 Olsztyn","ul. Kościuszki 117/5, 10-504 Olsztyn",96108201602725630582958242,True,2015-01-14,2024-04-06
+Vistula Fintech S.A.,1237101978,Czynny,237260358,94110746598,0000002816,"os. Dąbrowszczaków 134, 10-540 Olsztyn","os. Dąbrowszczaków 134, 10-540 Olsztyn",82112651581052138156023974,True,2021-04-17,
+Astra Finance SA,1237181167,Czynny,237339545,95120847945,0000002913,"ulica Krakowska 151, 45-018 Opole","ulica Krakowska 151, 45-018 Opole",06371769247603596413660581,True,2022-09-21,
+Baltic Med Supply S. A.,1237260352,Wykreślony,237418730,96010949336,0000003010,"Ozimska 168, 45-057 Opole","Ozimska 168, 45-057 Opole",45 4828 8969 1504 1449 8465 2353,False,2024-02-20,
+Helios Markets Spółka Akcyjna,1237418735,Zwolniony,237577115,97021050686,0000003107,"ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra","ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra",10 8189 4055 1907 4577 7893 3103,False,2022-05-19,
+Lumen Advisory sp. z o.o.,1237418735,Wykreślony,237577115,98031152072,0000003204,"ul Kupiecka 22, 65-058 Zielona Góra","ul Kupiecka 22, 65-058 Zielona Góra",47 1128 8962 5636 7616 7337 6862,True,2018-12-13,
+Nova Data sp z oo,1237497924,Wykreślony,237656300,99041253429,0000003301,"ulica Świętojańska 39, 81-372 Gdynia","ulica Świętojańska 39, 81-372 Gdynia",69 3147 5577 5652 9756 7662 7530,False,2017-12-04,
+Optima Trade sp. z o. o.,1237656305,Wykreślony,237735494,00251354819,0000003398,"10 Lutego 56, 81-364 Gdynia","10 Lutego 56, 81-364 Gdynia",17 1431 1050 1394 6574 5178 2179,True,2020-11-08,
+Polaris Capital Sp. z o.o.,1237656305,Czynny,237893879,01261456168,0000003495,"ul. Bolesława Prusa 73/19, 05-800 Pruszków","ul. Bolesława Prusa 73/19, 05-800 Pruszków",53 8323 7958 5686 4421 5055 3450,True,2022-01-13,
+Quantum Services SP Z O O,1237735499,Czynny,237893879,02271557553,0000003592,05-500 Piaseczno,05-500 Piaseczno,61 9019 1427 9547 7346 1071 1243,True,2021-09-16,
+Silesia Invest spółka z ograniczoną odpowiedzialnością,1237814684,Czynny,237973064,03281658900,0000003689,"ulica Sienkiewicza 107, 32-020 Wieliczka","ulica Sienkiewicza 107, 32-020 Wieliczka",36190135664156966891487285,True,2016-11-17,2022-10-02
+Vistula Fintech Spółka z ograniczoną odpowiedzialnością,1237893873,Zwolniony,238052254,04291760290,0000003786,"Dąbrowskiego 124, 32-600 Oświęcim","Dąbrowskiego 124, 32-600 Oświęcim",87 6058 1165 4153 1596 6560 1707,False,2018-01-21,
+Astra Finance S.A.,1237973069,Czynny,238210635,05301861640,0000003883,"ul. Rynek 141/71, 38-400 Krosno","ul. Rynek 141/71, 38-400 Krosno",14424446731522305123680769,False,2023-02-06,
+Baltic Med Supply SA,1238052259,Czynny,238210635,60111963032,0000003980,"ul Mickiewicza 158, 39-300 Mielec","ul Mickiewicza 158, 39-300 Mielec",90025651052963670391687079,True,2019-09-04,2026-09-05
+Helios Markets S. A.,1238131444,Zwolniony,238289826,61122064389,0000004077,"175, 58-100 Świdnica","175, 58-100 Świdnica",35 5438 5229 4831 5684 5295 5323,False,2025-10-14,
+Lumen Advisory Spółka Akcyjna,1238289820,Zwolniony,238369011,62012165779,0000004174,"Wojska Polskiego 12, 57-300 Kłodzko","Wojska Polskiego 12, 57-300 Kłodzko",57 8410 8709 4000 1435 5885 6310,True,2025-08-27,
+Nova Data sp. z o.o.,1238289820,Zwolniony,238448207,63022267127,0000004271,"ul. Chrobrego 29/33, 62-200 Gniezno","ul. Chrobrego 29/33, 62-200 Gniezno",73 7148 2187 2862 8745 8963 8151,True,2022-10-26,
+Optima Trade sp z oo,1238369016,Czynny,238527390,64032368512,0000004368,"ul Słowiańska 46, 64-100 Leszno","ul Słowiańska 46, 64-100 Leszno",97842284175870224084854883,True,2016-06-21,2024-09-28
+Polaris Capital sp. z o. o.,1238448201,Czynny,238606586,65042469860,0000004465,"ulica Gdańska 63, 83-110 Tczew","ulica Gdańska 63, 83-110 Tczew",40 7660 3984 7536 8384 1341 8155,False,2023-06-04,
+Quantum Services Sp. z o.o.,1238527395,Czynny,238685775,66052571259,0000004562,"Sobieskiego 80, 84-200 Wejherowo","Sobieskiego 80, 84-200 Wejherowo",25719194865260210791113297,False,2020-06-18,
+Silesia Invest SP Z O O,1238606580,Wykreślony,238764960,67062672606,0000004659,"ul. Głęboka 97/85, 43-400 Cieszyn","ul. Głęboka 97/85, 43-400 Cieszyn",82 3487 5088 3862 7303 5744 1672,True,2020-06-16,
+Vistula Fintech spółka z ograniczoną odpowiedzialnością,1238764965,Wykreślony,238844156,68072773992,0000004756,"114, 42-500 Będzin","114, 42-500 Będzin",99659463854206812171847506,True,2024-06-28,2022-09-26
+Astra Finance Spółka z ograniczoną odpowiedzialnością,1238764965,Czynny,238923341,69082875340,0000004853,"ulica Królowej Jadwigi 131, 88-100 Inowrocław","ulica Królowej Jadwigi 131, 88-100 Inowrocław",37378645078730931665956661,False,2018-08-29,
+Baltic Med Supply S.A.,1238844150,Czynny,239002531,70090176730,0000004950,"Wybickiego 148, 86-300 Grudziądz","Wybickiego 148, 86-300 Grudziądz",45332738620200028199130210,True,2019-02-22,
+Helios Markets SA,1238923346,Czynny,239081720,71100278082,0000005047,"ul. Czarnieckiego 165/47, 14-100 Ostróda","ul. Czarnieckiego 165/47, 14-100 Ostróda",63563954637537244414353152,False,2023-03-21,
+Lumen Advisory S. A.,1239002536,Czynny,239160916,72110379477,0000005144,"ul Nieistniejąca 2, 99-999 Nibylandia","ul Nieistniejąca 2, 99-999 Nibylandia",46 7768 6973 5256 3505 7757 5320,False,2018-11-19,
+Nova Data Spółka Akcyjna,1239081725,Czynny,239240101,73120480827,0000005241,"ulica Lubelska 19, 24-100 Puławy","ulica Lubelska 19, 24-100 Puławy",28331918237210162279055664,True,2017-05-28,2026-03-13
+Optima Trade sp. z o.o.,1239160910,Czynny,239319297,74010582218,0000005338,"Staszica 36, 22-400 Zamość","Staszica 36, 22-400 Zamość",91946234142231735286298255,False,2025-06-22,
+Polaris Capital sp z oo,1239240106,Czynny,239398486,75020683566,0000005435,"53/9, 16-300 Augustów","53/9, 16-300 Augustów",77 4279 7270 8447 4455 5660 9553,False,2025-01-30,
+Quantum Services sp. z o. o.,1239319291,Wkyreślnoy,239477671,76030784951,0000005532,"ul Kościuszki 70, 16-400 Suwałki","ul Kościuszki 70, 16-400 Suwałki",74 9603 8320 3304 4933 5205 3129,True,2023-03-15,
+Silesia Invest Sp. z o.o.,1239398480,Czynny,239556867,77040886309,0000005629,"os. Piastowska 87, 48-300 Nysa","os. Piastowska 87, 48-300 Nysa",17 4565 4833 6115 5248 2621 3897,True,2024-03-29,
+Vistula Fintech SP Z O O,1239477676,Czynny,239636052,88050987695,0000005726,"Długa 104, 49-300 Brzeg","Długa 104, 49-300 Brzeg",63559782244445277607572597,True,2022-06-22,2021-07-01
+Astra Finance spółka z ograniczoną odpowiedzialnością,1239556861,Zwolniony,239715248,79061089042,0000005823,"ul. Rynek 121/61, 68-200 Żary","ul. Rynek 121/61, 68-200 Żary",36 2442 8110 1806 1824 6489 3219,True,2024-12-24,
+Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,1239636057,Czynny,239794437,80071190439,0000005920,"ul Sikorskiego 138, 66-200 Świebodzin","ul Sikorskiego 138, 66-200 Świebodzin",68170234918999794215552758,False,2022-12-11,2025-01-13
+Helios Markets S.A.,1239715242,Czynny,239873622,81081291787,0000006017,"ulica Armii Krajowej 155, 78-100 Kołobrzeg","ulica Armii Krajowej 155, 78-100 Kołobrzeg",50 9488 9790 1944 9290 5300 3201,False,2016-11-28,
+Lumen Advisory SA,1239794431,Czynny,239952818,82091393173,0000006114,"Piłsudskiego 172, 73-110 Stargard","Piłsudskiego 172, 73-110 Stargard",34638020113682312261481152,True,2022-06-04,2026-08-13
+Nova Data S. A.,1239873627,Wykreślony,240032008,83101494523,0000006211,"ul. Mickiewicza 9/23, 27-600 Sandomierz","ul. Mickiewicza 9/23, 27-600 Sandomierz",63 3719 7156 1422 5574 9175 8254,False,2019-02-20,
+Optima Trade Spółka Akcyjna,1239952812,Czynny,240111191,84111595918,0000006308,"ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski","ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski",89861186576030950528392644,True,2022-08-22,2024-10-17
+Polaris Capital sp. z o.o.,1240032000,Wykreślony,240190380,85121697267,0000006405,"ulica Marszałkowska 43, 00-590 Warszawa","ulica Marszałkowska 43, 00-590 Warszawa",77057403208971067722722685,True,2023-08-10,
+Quantum Services sp z oo,1240111194,Zwolniony,240269578,86011798657,0000006502,"Krakowskie Przedmieście 60, 00-071 Warszawa","Krakowskie Przedmieście 60, 00-071 Warszawa",46 6764 3592 3744 7679 7233 3894,False,2023-08-25,
+Silesia Invest sp. z o. o.,1240190383,Czynny,240348763,87021800008,0000006599,"ul. Floriańska 77/75, 31-019 Kraków","ul. Floriańska 77/75, 31-019 Kraków",02924480679215350596702581,True,2020-10-10,2026-07-28
+Vistula Fintech Sp. z o.o.,1240269570,Czynny,240427959,88031901394,0000006696,"ul Długa 94, 31-147 Kraków","ul Długa 94, 31-147 Kraków",99089058445101873169551369,False,2021-02-23,
+Astra Finance SP Z O O,1240348766,Wykreślony,240507144,89042002740,0000006793,"ulica Piotrkowska 111, 90-102 Łódź","ulica Piotrkowska 111, 90-102 Łódź",61755593946058186960480713,True,2021-01-22,2023-11-26
+Baltic Med Supply spółka z ograniczoną odpowiedzialnością,2240427951,Czynny,240586333,90052104135,0000006890,"Zachodnia 128, 90-402 Łódź","Zachodnia 128, 90-402 Łódź",04100821615474771190136680,False,2022-09-23,2024-03-08
+Helios Markets Spółka z ograniczoną odpowiedzialnością,1240507147,Czynny,240665529,91062205483,0000006987,"ul. Świdnicka 145/37, 50-066 Wrocław","ul. Świdnicka 145/37, 50-066 Wrocław",20674295558925347197511309,False,2016-04-26,
+Lumen Advisory S.A.,1240586336,Wykreślony,240744714,92072306878,0000007084,"ul Legnicka 162, 54-203 Wrocław","ul Legnicka 162, 54-203 Wrocław",96 5145 1341 5435 3263 3316 5466,True,2025-01-14,
+Nova Data SA,1240665521,Czynny,240903093,93082408226,0000007181,"ulica Święty Marcin 179, 61-806 Poznań","ulica Święty Marcin 179, 61-806 Poznań",91 8896 7598 1976 1090 2487 8812,False,2025-07-04,
+Optima Trade S. A.,1240744717,Czynny,240903093,94092509611,0000007278,"Głogowska 16, 60-734 Poznań","Głogowska 16, 60-734 Poznań",29317443034950499440857187,False,2025-04-30,
+Polaris Capital Spółka Akcyjna,1240823902,Zwolniony,240982282,95102610965,0000007375,"ul. Długa 33/89, 80-831 Gdańsk","ul. Długa 33/89, 80-831 Gdańsk",93 2882 3508 3276 7219 9217 8958,True,2019-10-28,
+Quantum Services sp. z o.o.,1240903096,Czynny,241061472,96112712351,0000007472,"ul Grunwaldzka 50, 80-236 Gdańsk","ul Grunwaldzka 50, 80-236 Gdańsk",99 8082 6553 7405 7733 6346 6368,False,2023-11-28,
+Silesia Invest sp z oo,1240982285,Wykreślony,241140668,97122813708,0000007569,"ulica Jagiellońska 67, 70-435 Szczecin","ulica Jagiellońska 67, 70-435 Szczecin",48281021908976505416990014,False,2024-01-18,
+Vistula Fintech sp. z o. o.,1241061475,Zwolniony,241219855,98010115096,0000007666,"Wyszyńskiego 84, 70-200 Szczecin","Wyszyńskiego 84, 70-200 Szczecin",73 1437 7251 3844 6935 8251 8924,False,2018-06-21,
+Astra Finance Sp. z o.o.,1241140660,Wykreślony,241299044,99020216443,0000007763,"ul. Mariacka 101/51, 40-014 Katowice","ul. Mariacka 101/51, 40-014 Katowice",65 2301 1010 8091 1220 4239 7000,True,2022-09-03,
+Baltic Med Supply SP Z O O,1241219858,Wykreślony,241457425,00230317833,0000007860,"ul Warszawska 118, 40-009 Katowice","ul Warszawska 118, 40-009 Katowice",20229416686617030795651206,True,2025-06-25,2023-04-20
+Helios Markets spółka z ograniczoną odpowiedzialnością,1241299047,Wykreślony,241457425,01240419182,0000007957,"ulica Krakowskie Przedmieście 135, 20-002 Lublin","ulica Krakowskie Przedmieście 135, 20-002 Lublin",26 2399 6551 2838 7620 3194 9893,False,2018-10-19,
+Lumen Advisory Spółka z ograniczoną odpowiedzialnością,1241378232,Zwolniony,241536610,02250520570,0000008054,"Narutowicza 152, 20-004","Narutowicza 152, 20-004",82 2595 4681 5365 8187 2300 2254,True,2015-12-30,
+Nova Data S.A.,1241457428,Zwolniony,241615806,03260621927,0000008151,"ul. Lipowa 169/13, 15-424 Białystok","ul. Lipowa 169/13, 15-424 Białystok",28 8880 3064 2404 5535 1429 8219,True,2023-04-23,
+Optima Trade SA,1241536613,Czynny,241694993,04270723313,0000008248,"ul Sienkiewicza 6, 15-092 Białystok","ul Sienkiewicza 6, 15-092 Białystok",35219464533238690069684477,True,2020-04-15,
+Polaris Capital S. A.,1241615809,Wykreślony,241774189,05280824661,0000008345,"ulica Gdańska 23, 85-005 Bydgoszcz","ulica Gdańska 23, 85-005 Bydgoszcz",38 8025 8810 5468 1469 3929 2288,True,2023-07-10,
+Quantum Services Spółka Akcyjna,1241694996,Czynny,241853374,60090926053,0000008442,"os. Dworcowa 40, 85-009 Bydgoszcz","os. Dworcowa 40, 85-009 Bydgoszcz",72284082543517544876775522,False,2021-05-17,
+Silesia Invest sp. z o.o.,,Czynny,242090949,61101027402,0000008539,"ul. Szeroka 57/65, 87-100 Toruń","ul. Szeroka 57/65, 87-100 Toruń",20684139347379931739297210,True,2024-06-28,2025-12-11
+Vistula Fintech sp z oo,1241853377,Wykreślony,342090949,62111128798,0000008636,"ul Chełmińska 74, 87-100 Toruń","ul Chełmińska 74, 87-100 Toruń",57174787384995597817395527,False,2024-09-30,2024-08-21
+Astra Finance sp. z o. o.,1241932562,Czynny,242090949,63121230149,0000008733,"ulica 3 Maja 91, 35-030 Rzeszów","ulica 3 Maja 91, 35-030 Rzeszów",06128949487563584723139023,False,2019-09-03,
+Baltic Med Supply Sp. z o.o.,1242011752,Czynny,242170134,64011331539,0000008830,"Piłsudskiego 108, 35-074 Rzeszów","Piłsudskiego 108, 35-074 Rzeszów",44732616685724800335230298,True,2019-04-24,2025-10-26
+Helios Markets SP Z O O,1242090941,Czynny,242249321,65021432887,0000008927,"ul. Sienkiewicza 125/27, 25-007 Kielce","ul. Sienkiewicza 125/27, 25-007 Kielce",22 7061 5233 7676 1693 6643 3949,False,2018-12-20,
+Lumen Advisory spółka z ograniczoną odpowiedzialnością,1242170137,Wykreślony,242328517,66031534273,0000009024,"ul Warszawska 142, 25-512 Kielce","ul Warszawska 142, 25-512 Kielce",39792053444535653384244136,True,2024-02-11,2026-06-21
+Nova Data Spółka z ograniczoną odpowiedzialnością,1242249324,Czynny,242407702,67041635620,0000009121,"ulica Kościuszki 159, 10-504 Olsztyn","ulica Kościuszki 159, 10-504 Olsztyn",32900424536983715809962464,False,2019-06-01,
+Optima Trade S.A.,1242407705,Czynny,242566085,68051737016,0000009218,"Dąbrowszczaków 176, 10-540 Olsztyn","Dąbrowszczaków 176, 10-540 Olsztyn",02514786631393229259072490,False,2015-02-16,
+Polaris Capital SA,1242407705,Wykreślony,242566085,69061838364,0000009315,"ul. Krakowska 13/79, 45-018 Opole","ul. Krakowska 13/79, 45-018 Opole",81709638469042688673857908,False,2019-10-18,
+Quantum Services S. A.,1242486892,Wykreślony,242645270,70071939758,0000009412,"ul Ozimska 30, 45-057 Opole","ul Ozimska 30, 45-057 Opole",06922131195708448192496904,True,2021-02-11,
+Silesia Invest Spółka Akcyjna,1242566088,Wykreślony,242724466,71082041108,0000009509,"ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra","ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra",76266814439892730249544777,False,2017-04-04,
+Vistula Fintech sp. z o.o.,1242645273,Wykreślony,242803651,72092142494,0000009606,"Kupiecka 64, 65-058 Zielona Góra","Kupiecka 64, 65-058 Zielona Góra",79 7205 7091 3870 3075 5815 6028,True,2016-02-09,
+Astra Finance sp z oo,1242724469,Wykreślony,242882840,73102243844,0000009703,"ul. Świętojańska 81/41, 81-372 Gdynia","ul. Świętojańska 81/41, 81-372 Gdynia",42 4776 7407 4938 6962 2234 6635,True,2018-02-01,
+Baltic Med Supply sp. z o. o.,1242803654,Czynny,242962036,74112345230,0000009800,ul 10 Lutego 98,ul 10 Lutego 98,85933161882241401152780367,True,2016-01-22,
+Helios Markets Sp. z o.o.,1242882843,Czynny,243041226,75122446588,0000009897,"ulica Bolesława Prusa 115, 05-800 Pruszków","ulica Bolesława Prusa 115, 05-800 Pruszków",86752659990606625830354175,False,2021-09-24,2026-05-12
+Lumen Advisory SP Z O O,1242962039,Czynny,243120411,76012547978,0000009994,"Kościuszki 132, 05-500 Piaseczno","Kościuszki 132, 05-500 Piaseczno",96023753468842729044822717,False,2017-05-29,
+Nova Data spółka z ograniczoną odpowiedzialnością,1243041229,Zwolniony,243199602,77022649326,0000010091,"ul. Sienkiewicza 149/3, 32-020 Wieliczka","ul. Sienkiewicza 149/3, 32-020 Wieliczka",37 8227 9151 5976 5618 1563 1723,True,2020-07-13,
+Optima Trade Spółka z ograniczoną odpowiedzialnością,1243120414,Czynny,243278796,78032750714,0000010188,"ul Dąbrowskiego 166, 32-600 Oświęcim","ul Dąbrowskiego 166, 32-600 Oświęcim",86779968859685503289438305,False,2024-07-28,
+Polaris Capital S.A.,1243199605,Wykreślony,,79042852063,0000010285,"ulica Rynek 3, 38-400 Krosno","ulica Rynek 3, 38-400 Krosno",44 8796 1559 8862 4744 9641 8181,True,2015-04-19,
+Quantum eSrvices SA,1243278799,Cyznn,243437177,80050153453,0000010382,"Mickiewicza 20, 39-300 Mielec","Mickiewicza 20, 39-300 Mielec",83380983435618519750472986,True,2021-10-10,
+Silesia Invest S. A.,1243357984,Czynny,243516362,81060254800,0000010479,"ul. Długa 37/55, 58-100 Świdnica","ul. Długa 37/55, 58-100 Świdnica",46565713819779761895464071,True,2020-10-11,2024-01-26
+Vistula Fintech Spółka Akcyjna,1243516365,Zwolniony,243595551,82070356197,0000010576,"ul Wojska Polskiego 54, 57-300 Kłodzko","ul Wojska Polskiego 54, 57-300 Kłodzko",65 8330 8185 6802 9664 5176 9997,False,2018-04-09,
+Astra Finance sp. z o.o.,1243516365,Wykreślony,243674747,83080457544,0000010673,"ulica Chrobrego 71, 62-200 Gniezno","ulica Chrobrego 71, 62-200 Gniezno",35 8961 9161 6172 2780 2792 4364,True,2023-11-26,
+Baltic Med Supply sp z oo,1243595554,Zwolniony,243753932,84090558939,0000010770,"Słowiańska 88, 64-100 Leszno","Słowiańska 88, 64-100 Leszno",43 2645 4639 7633 3561 9380 7751,False,2015-10-03,
+Helios Markets sp. z o. o.,1243753935,Wykreślony,243833128,85100660284,0000010867,"105/17, 83-110 Tczew","105/17, 83-110 Tczew",42 9795 8042 6512 5171 9190 1427,False,2017-04-25,
+Lumen Advisory Sp. z o.o.,1243753935,Czynny,243912313,86110761679,0000010964,"ul Sobieskiego 122, 84-200 Wejherowo","ul Sobieskiego 122, 84-200 Wejherowo",19 1006 8480 4093 4368 4341 5572,True,2017-03-19,
+Nova Data SP Z O O,1243833120,Wykreślony,243991502,87120863027,0000011061,"ulica Głęboka 139, 43-400 Cieszyn","ulica Głęboka 139, 43-400 Cieszyn",01922992128248587963657963,False,2017-03-03,
+Optima Trade spółka z ograniczoną odpowiedzialnością,1243912316,Czynny,244070690,88010964417,0000011158,"Małachowskiego 156, 42-500 Będzin","Małachowskiego 156, 42-500 Będzin",04327899191892167249319636,True,2023-05-26,2022-08-20
+Polaris Capital Spółka z ograniczoną odpowiedzialnością,1243991505,Zwolniony,244149888,89021065764,0000011255,"os. Królowej Jadwigi 173/69, 88-100 Inowrocław","os. Królowej Jadwigi 173/69, 88-100 Inowrocław",33 8711 7437 5062 4622 3078 2183,False,2019-07-17,
+Quantum Services S.A.,1244070693,Zwolniony,244229073,90031167159,0000011352,"ul Wybickiego 10, 86-300 Grudziądz","ul Wybickiego 10, 86-300 Grudziądz",26 6981 2908 8961 1068 6748 9860,True,2015-06-14,
+Silesia Invest SA,1244149880,Czynny,244308269,91041268506,0000011449,"ulica Czarnieckiego 27, 14-100 Ostróda","ulica Czarnieckiego 27, 14-100 Ostróda",84 9427 9684 9006 4061 1382 5593,False,2021-10-27,
+Vistula Fintech S. A.,1244229076,Czynny,244387458,92051369892,0000011546,"44, Giżycko","44, Giżycko",32531215644135530625764487,False,2023-03-21,
+Astra Finance Spółka Akcyjna,1244308261,Zwolniony,244466643,93061471243,0000011643,"ul. Lubelska 61/31, 24-100 Puławy","ul. Lubelska 61/31, 24-100 Puławy",41 6733 7021 8761 7357 3471 7294,False,2021-01-06,
+Baltic Med Supply sp. z o.o.,1244387450,Wykreślony,244545839,94071572638,0000011740,"ul Staszica 78, 22-400 Zamość","ul Staszica 78, 22-400 Zamość",80071522130426450448238687,True,2021-07-12,2023-12-25
+Helios Markets sp z oo,1244466646,Wykreślony,244625024,95081673986,0000011837,"ulica 3 Maja 95, 16-300 Augustów","ulica 3 Maja 95, 16-300 Augustów",54801573904874559167621771,False,2018-12-06,2026-01-23
+Lumen Advisory sp. z o. o.,1244545831,Czynny,244783409,96091775372,0000011934,"Kościuszki 112, 16-400 Suwałki","Kościuszki 112, 16-400 Suwałki",51 8878 3262 2565 4199 9770 3038,False,2019-10-09,
+Nova Data Sp. z o.o.,1244625027,Wykreślony,244783409,97101876722,0000012031,"ul. Piastowska 129/83, 48-300 Nysa","ul. Piastowska 129/83, 48-300 Nysa",20268512581285263255075493,False,2015-05-28,2025-03-23
+Optima Trade SP Z O O,1244704212,Wykreślony,244862592,98111978118,0000012128,"ul Długa 146, 49-300 Brzeg","ul Długa 146, 49-300 Brzeg",55564099257571324034280987,False,2022-08-21,2021-11-25
+Polaris Capital spółka z ograniczoną odpowiedzialnością,1244783401,Zwolniony,244941788,99122079465,0000012225,"163, 68-200 Żary","163, 68-200 Żary",42 2979 6720 4492 5204 8056 7267,True,2019-10-28,
+Quantum Services Spółka z ograniczoną odpowiedzialnością,1244862595,Wykreślony,245020978,00212180853,0000012322,"Sikorskiego 180, 66-200 Świebodzin","Sikorskiego 180, 66-200 Świebodzin",70 8317 7767 8425 1573 1698 1874,True,2020-05-31,
+Silesia Invest S.A.,1244941780,Wykreślony,245100163,01222282201,0000012419,"ul. Armii Krajowej 17/45, 78-100 Kołobrzeg","ul. Armii Krajowej 17/45, 78-100 Kołobrzeg",21746261007819245618174103,True,2020-08-25,2022-09-06
+Vistula Fintech SA,1245020970,Wykreślony,245179354,02232383597,0000012516,"ul Piłsudskiego 34, 73-110 Stargard","ul Piłsudskiego 34, 73-110 Stargard",14 6606 1895 9317 5570 4410 4578,True,2021-02-25,
+Astra Finance S. A.,1245100166,Czynny,245337735,03242484944,0000012613,"ulica Mickiewicza 51, 27-600 Sandomierz","ulica Mickiewicza 51, 27-600 Sandomierz",30372773525715980798468997,false,2022-03-06,2026-08-14
+Baltic Med Supply Spółka Akcyjna,1245179357,Wykreślony,245337735,04252586330,0000012710,"Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski","Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski",15456931146578539020435018,true,2018-04-25,
+Helios Markets sp. z o.o.,1245258542,Czynny,245416920,05262687688,0000012807,"ul. Marszałkowska 85/7, 00-590 Warszawa","ul. Marszałkowska 85/7, 00-590 Warszawa",91437447476601247086007833,true,2021-05-01,2020-11-30
+Lumen Advisory sp z oo,1245337738,Zwolniony,245575305,60072789070,0000012904,"ul Krakowskie Przedmieście 102, 00-071 Warszawa","ul Krakowskie Przedmieście 102, 00-071 Warszawa",54 9883 7771 3450 1256 2738 7918,false,2020-10-15,
+Nova Data sp. z o. o.,1245416923,Zwolniony,245575305,61082890420,0000013001,"ulica Floriańska 119, 31-019 Kraków","ulica Floriańska 119, 31-019 Kraków",29 8916 4101 7577 7271 2647 4293,false,2024-05-06,
+Optima Trade Sp. z o.o.,1245496112,Zwolniony,245654499,62090191811,0000013098,"Długa 136, 31-147 Kraków","Długa 136, 31-147 Kraków",95 8947 4265 6102 6130 3151 8961,false,2019-06-16,
+Polaris Capital SP Z O O,1245575308,Czynny,245733684,63100293163,0000013195,"ul. Piotrkowska 153/59, 90-102 Łódź","ul. Piotrkowska 153/59, 90-102 Łódź",59923000812225433070151415,false,2016-02-16,
+Quantum Services spółka z ograniczoną odpowiedzialnością,1245654491,Czynny,245892069,64110394558,0000013292,90-402 Łódź,90-402 Łódź,10 2440 4077 5067 9038 8231 2594,true,2019-02-04,
+Silesia Invest Spółka z ograniczoną odpowiedzialnością,1245733687,Zwolniony,245892069,65120495905,0000013389,"ulica Świdnicka 7, 50-066 Wrocław","ulica Świdnicka 7, 50-066 Wrocław",21 8746 8131 5486 1417 4017 4008,false,2015-10-08,
+Vistula Fintech S.A.,1245812872,Wykreślony,245971254,66010597297,0000013486,"Legnicka 24, 54-203 Wrocław","Legnicka 24, 54-203 Wrocław",94 7459 9269 1672 5048 4661 4859,false,2023-08-09,
+Astra Finance SA,1245892061,Wykreślony,246050444,67020698644,0000013583,"ul. Święty Marcin 41/21, 61-806 Poznań","ul. Święty Marcin 41/21, 61-806 Poznań",71444473207668291844378048,false,2022-01-12,
+Baltic Med Supply S. A.,1245971257,Zwolniony,246129631,68030700033,0000013680,"ul Głogowska 58, 60-734 Poznań","ul Głogowska 58, 60-734 Poznań",70 8714 7566 4897 2872 7026 1540,true,2021-10-16,
+Helios Markets Spółka Akcyjna,1246050447,Czynny,246208827,69040801381,0000013777,"ulica Długa 75, 80-831 Gdańsk","ulica Długa 75, 80-831 Gdańsk",34858008885082317317259888,true,2024-11-27,
+Lumen Advisory sp. z o.o.,1246129634,Wykreślony,246288016,70050902775,0000013874,"Grunwaldzka 92, 80-236 Gdańsk","Grunwaldzka 92, 80-236 Gdańsk",46548207338005641810612693,true,2022-06-25,
+Nova Data sp z oo,1246288019,Wykreślony,246367201,71061004122,0000013971,"ul. Jagiellońska 109/73, 70-435 Szczecin","ul. Jagiellońska 109/73, 70-435 Szczecin",78 4606 8060 9789 8394 5691 8365,true,2016-01-19,
+Optima Trade sp. z o. o.,1246288019,Czynny,246446395,72071105517,0000014068,"os. Wyszyńskiego 126, 70-200 Szczecin","os. Wyszyńskiego 126, 70-200 Szczecin",97030725819184977066148249,false,2024-01-28,
+Polaris Capital Sp. z o.o.,1246367204,Czynny,246525580,73081206865,0000014165,"ulica Mariacka 143, 40-014 Katowice","ulica Mariacka 143, 40-014 Katowice",27 4554 9969 7385 3861 3683 2045,true,2021-09-16,
+Quantum Services SP Z O O,1246446398,Czynny,246604776,74091308251,0000014262,"Warszawska 160, 40-009 Katowice","Warszawska 160, 40-009 Katowice",81006821733438256973416968,true,2024-09-23,
+Silesia Invest spółka z ograniczoną odpowiedzialnością,1246525583,Zwolniony,246683965,75101409601,0000014359,"ul. Krakowskie Przedmieście 177/35, 20-002 Lublin","ul. Krakowskie Przedmieście 177/35, 20-002 Lublin",16 3134 6852 4559 1522 9761 5603,true,2023-10-19,
+Vistula Fintech Spółka z ograniczoną odpowiedzialnością,1246604779,Czynny,246763150,76111510990,0000014456,"ul Narutowicza 14, 20-004 Lublin","ul Narutowicza 14, 20-004 Lublin",97 5423 8671 5103 1508 1926 7229,false,2021-06-07,
+Astra Finance S.A.,1246683968,Zwolniony,246842346,77121612348,0000014553,,"ulica Lipowa 31, 15-424 Białystok",27 2936 9454 9103 6617 1430 7111,true,2018-01-18,
+Baltic Med Supply SA,1246763153,Czynny,246921531,78011713738,0000014650,"Sienkiewicza 48, 15-092 Białystok","Sienkiewicza 48, 15-092 Białystok",76904122239339540491286529,true,2015-11-25,
+Helios Markets S. A.,1246842349,Czynny,247000721,79021815087,0000014747,"ul. Gdańska 65/87, 85-005 Bydgoszcz","ul. Gdańska 65/87, 85-005 Bydgoszcz",77269446914846797007477978,false,2022-12-29,2022-10-04
+Lumen Advisory Spółka Akcyjna,1246921534,Wykreślony,247079912,80031916471,0000014844,"ul Dworcowa 82, 85-009 Bydgoszcz","ul Dworcowa 82, 85-009 Bydgoszcz",63635458054631552497336966,false,2022-04-09,2023-05-16
+Nova Data sp. z o.o.,1247000724,Zwolniony,247159108,81042017827,0000014941,"ulica Szeroka 99, 87-100 Toruń","ulica Szeroka 99, 87-100 Toruń",46 1224 1724 1117 6438 5849 3886,true,2017-01-09,
+Optima Trade sp z oo,1247079915,Czynny,247238291,82052119213,0000015038,"Chełmińska 116, 87-100 Toruń","Chełmińska 116, 87-100 Toruń",85644876491630629610254158,true,2017-08-02,2021-02-02
+Polaris Capital sp. z o. o.,1247159100,Wykreślony,247317487,83062220564,0000015135,"ul. 3 Maja 133/49, 35-030 Rzeszów","ul. 3 Maja 133/49, 35-030 Rzeszów",37731377103089227957370236,false,2025-01-30,2024-04-25
+Quantum Services Sp. z o.o.,1247238294,nCzny,247396676,84072321959,0000015232,"ul Piłsudskiego 150, 35-074 Rzeszów","ul Piłsudskiego 150, 35-074 Rzeszów",63023538723756451451936903,true,2018-09-03,2024-07-23
+Silesia Invest SP Z O O,1247396679,Czynny,247475861,85082423307,0000015329,"ulica Sienkiewicza 167, 25-007 Kielce","ulica Sienkiewicza 167, 25-007 Kielce",99 3140 1147 8611 4622 9856 1126,true,2025-02-02,
+Vistula Fintech spółka z ograniczoną odpowiedzialnością,1247396679,Czynny,247555057,96092524693,0000015426,"Warszawska 4, 25-512 Kielce","Warszawska 4, 25-512 Kielce",28165807526714661873696464,false,2019-12-09,2020-09-25
+Astra Finance Spółka z ograniczoną odpowiedzialnością,1247475864,Czynny,247634242,87102626044,0000015523,"ul. Kościuszki 21/11, 10-504 Olsztyn","ul. Kościuszki 21/11, 10-504 Olsztyn",84 9348 8982 9929 9829 4052 8525,true,2024-08-14,
+Baltic Med Supply S.A.,1247634245,Wykreślony,247713438,88112727439,0000015620,"ul Dąbrowszczaków 38, 10-540 Olsztyn","ul Dąbrowszczaków 38, 10-540 Olsztyn",88 3030 7630 1293 9321 3998 7119,false,2015-02-10,
+Helios Markets SA,1247634245,Czynny,247792627,89122828787,0000015717,"ulica Krakowska 55, 45-018 Opole","ulica Krakowska 55, 45-018 Opole",70 4660 4949 2534 2742 7001 5211,false,2024-12-10,
+Lumen Advisory S. A.,1247713430,Zwolniony,247871812,90010130176,0000015814,"Ozimska 72, 45-057 Opole","Ozimska 72, 45-057 Opole",91 3317 5977 2990 1247 9358 3521,false,2020-02-28,
+Nova Data Spółka Akcyjna,1247871815,Wykreślony,247951008,91020231523,0000015911,"ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra","ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra",89 6935 3198 8557 1060 8802 8181,false,2025-11-17,
+Optima Trade sp. z o.o.,1247871815,Wykreślony,248030196,92030332918,0000016008,"ul Kupiecka 106, 65-058 Zielona Góra","ul Kupiecka 106, 65-058 Zielona Góra",40949677253384186815603886,true,2017-11-23,
+Polaris Capital sp z oo,1247951000,Zwolniony,248109383,93040434267,0000016105,"ulica Świętojańska 123, 81-372 Gdynia","ulica Świętojańska 123, 81-372 Gdynia",17 7492 7631 8096 4536 9267 3320,true,2021-03-22,
+Quantum Services sp. z o. o.,1248030199,Wykreślony,248188572,94050535652,0000016202,"10 Lutego 140, 81-364 Gdynia","10 Lutego 140, 81-364 Gdynia",23 4544 5119 3756 9945 5150 2604,true,2023-11-09,
+Silesia Invest Sp. z o.o.,1248109386,Czynny,248267768,95060637000,0000016299,"ul. Bolesława Prusa 157/25, 05-800 Pruszków","ul. Bolesława Prusa 157/25, 05-800 Pruszków",95524946706890796384992097,false,2016-07-09,2025-01-21
+Vistula Fintech SP Z O O,1248188575,Czynny,248346953,96070738396,0000016396,"ul Kościuszki 174, 05-500 Piaseczno","ul Kościuszki 174, 05-500 Piaseczno",32 5350 6628 8782 5290 5454 1986,true,2023-11-26,
+Astra Finance spółka z ograniczoną odpowiedzialnością,1248267760,Czynny,248426149,97080839743,0000016493,"ulica Sienkiewicza 11, 32-020 Wieliczka","ulica Sienkiewicza 11, 32-020 Wieliczka",77 6650 5390 3475 1032 8684 7919,true,2025-06-03,
+Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,2248346956,Czynny,248505334,98090941132,0000016590,"Dąbrowskiego 28, 32-600 Oświęcim","Dąbrowskiego 28, 32-600 Oświęcim",33733514775306668188099454,false,2023-06-03,2026-08-09
+Helios Markets S.A.,1248426141,Wykreślony,248584523,99101042482,0000016687,"ul. Rynek 45/77, 38-400 Krosno","ul. Rynek 45/77, 38-400 Krosno",34 3394 3451 2120 2292 7189 9293,false,2020-01-22,
+Lumen Advisory SA,1248505337,Wykreślony,248663719,00311143872,0000016784,"ul Mickiewicza 62, 39-300 Mielec","ul Mickiewicza 62, 39-300 Mielec",81839212909746117654642674,false,2019-05-29,2021-08-08
+Nova Data S. A.,1248584526,Wykreślony,248742904,01321245220,0000016881,"os. Długa 79, 58-100 Świdnica","os. Długa 79, 58-100 Świdnica",27794641493748313892095714,true,2016-09-21,
+Optima Trade Spółka Akcyjna,1248663711,Zwolniony,248822098,02211346610,0000016978,"96, 57-300 Kłodzko","96, 57-300 Kłodzko",23 2755 8375 6263 2275 8105 9241,true,2018-11-27,
+Polaris Capital sp. z o.o.,1248742907,Wykreślony,248901283,03221447968,0000017075,"ul. Chrobrego 113/39, 62-200 Gniezno","ul. Chrobrego 113/39, 62-200 Gniezno",92 5855 9519 2519 5275 8841 4653,true,2023-07-26,
+Quantum Services sp z oo,1248822090,Czynny,248980472,04231549354,0000017172,"ul Słowiańska 130, 64-100 Leszno","ul Słowiańska 130, 64-100 Leszno",50832067304508470543166766,true,2018-10-26,2022-10-06
+Silesia Invest sp. z o. o.,1248901286,Czynny,249059664,05241650704,0000017269,"ulica Gdańska 147, 83-110 Tczew","ulica Gdańska 147, 83-110 Tczew",25690959364937422179528006,false,2020-10-23,
+Vistula Fintech Sp. z o.o.,1248980475,Czynny,249218045,60051752097,0000017366,"Sobieskiego 164, 84-200 Wejherowo","Sobieskiego 164, 84-200 Wejherowo",70 2707 9057 1283 9619 9319 1602,true,2016-12-25,
+Astra Finance SP Z O O,1249059667,Czynny,249218045,61061853444,0000017463,"ul. Głęboka 1/1, 43-400 Cieszyn","ul. Głęboka 1/1, 43-400 Cieszyn",38340352807333614111711356,true,2022-07-29,2025-10-02
+Baltic Med Supply spółka z ograniczoną odpowiedzialnością,1249138852,Zwolniony,249297234,62071954839,0000017560,"ul Małachowskiego 18, 42-500 Będzin","ul Małachowskiego 18, 42-500 Będzin",42 2189 8923 7363 7623 1822 7982,false,2019-05-08,
+Helios Markets Spółka z ograniczoną odpowiedzialnością,1249218048,Wykreślony,249455615,63082056187,0000017657,"ulica Królowej Jadwigi 35, 88-100 Inowrocław","ulica Królowej Jadwigi 35, 88-100 Inowrocław",98 7975 5149 5545 3612 2183 7232,false,2017-04-29,
+Lumen Advisory S.A.,1249297237,Zwolniony,249455615,64092157572,0000017754,"Wybickiego 52, 86-300","Wybickiego 52, 86-300",37 9781 3645 1298 9500 8592 1449,true,2016-10-11,
+Nova Data SA,1249376422,Wykreślony,249534800,65102258922,0000017851,"ul. Czarnieckiego 69/53, 14-100 Ostróda","ul. Czarnieckiego 69/53, 14-100 Ostróda",20319205223165700913814020,true,2025-08-28,2025-07-07
+Optima Trade S. A.,1249455618,Zwolniony,249613994,66112360311,0000017948,"ul Warszawska 86, 11-500 Giżycko","ul Warszawska 86, 11-500 Giżycko",88 8792 7984 6648 1982 2137 3187,false,2025-09-12,
+Polaris Capital Spółka Akcyjna,1249534803,Czynny,249693183,67122461669,0000018045,"ulica Nieistniejąca 103, 99-999 Nibylandia","ulica Nieistniejąca 103, 99-999 Nibylandia",74505395028316768829288521,true,2019-08-26,2021-01-31
+Quantum Services sp. z o.o.,1249613997,Czynny,249772379,68012563050,0000018142,"Staszica 120, 22-400 Zamość","Staszica 120, 22-400 Zamość",51 8302 7499 3548 9290 6111 9859,false,2022-08-03,
+Silesia Invest sp z oo,1249693186,Czynny,249851564,69022664407,0000018239,"ul. 3 Maja 137/15, 16-300 Augustów","ul. 3 Maja 137/15, 16-300 Augustów",28256876783997790144654289,false,2017-05-24,
+Vistula Fintech sp. z o. o.,1249772371,Wykreślony,350009941,70032765792,0000018336,"ul Kościuszki 154, 16-400 Suwałki","ul Kościuszki 154, 16-400 Suwałki",35 4169 5949 5009 9379 8565 2720,true,2016-10-02,
+Astra Finance Sp. z o.o.,1249851567,Wykreślony,250009941,71042867140,0000018433,"ulica Piastowska 171, 48-300 Nysa","ulica Piastowska 171, 48-300 Nysa",61 8132 5431 7085 1509 3842 5237,true,2017-08-08,
+Baltic Med Supply SP Z O O,1249930752,Zwolniony,250089130,72050168531,0000018530,"Długa 8, 49-300 Brzeg","Długa 8, 49-300 Brzeg",92 9302 7292 5097 3611 7958 2679,false,2017-02-25,
+Helios Markets spółka z ograniczoną odpowiedzialnością,1250009942,Czynny,250168326,73060269889,0000018627,"ul. Rynek 25/67, 68-200 Żary","ul. Rynek 25/67, 68-200 Żary",83735290138916512856444647,true,2020-10-10,
+Lumen Advisory Spółka z ograniczoną odpowiedzialnością,1250089131,Zwolniony,250247511,74070371278,0000018724,"ul Sikorskiego 42, 66-200 Świebodzin","ul Sikorskiego 42, 66-200 Świebodzin",30 6745 9696 2245 5637 7554 9775,true,2020-03-18,
+Nova Data S.A.,1250168327,Czynny,250326707,75080472625,0000018821,"ulica Armii Krajowej 59, 78-100 Kołobrzeg","ulica Armii Krajowej 59, 78-100 Kołobrzeg",98 8610 8425 2242 3722 7364 8829,false,2017-03-09,
+Optima Trade SA,1250247512,Wykreślony,250405890,76090574011,0000018918,"Piłsudskiego 76, 73-110 Stargard","Piłsudskiego 76, 73-110 Stargard",69 8589 1077 9060 8315 9937 7818,false,2025-11-17,
+Polaris Capital S. A.,1250326708,Zwolniony,250564275,77100675362,0000019015,"93/29, 27-600 Sandomierz","93/29, 27-600 Sandomierz",59 7432 3740 7678 5764 1651 6398,true,2025-07-30,
+Quantum Services Spółka Akcyjna,1250405891,Zwolniony,250564275,78110776757,0000019112,"ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski","ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski",80 6870 4547 4782 8684 6272 2833,false,2021-07-20,
+Silesia Invest sp. z o.o.,1250485080,Czynny,250643460,79120878105,0000019209,"ulica Marszałkowska 127, 00-590 Warszawa","ulica Marszałkowska 127, 00-590 Warszawa",26390738853874611842602361,false,2023-10-04,
+Vistula Fintech sp z oo,1250564276,Wykreślony,250722656,80010979495,0000019306,"Krakowskie Przedmieście 144, 00-071 Warszawa","Krakowskie Przedmieście 144, 00-071 Warszawa",18023522000679527742976253,true,2020-11-19,

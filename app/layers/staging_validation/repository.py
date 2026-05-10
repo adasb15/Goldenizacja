@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Any
 
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.layers.ingestion.models import ImportBatch, ProcessLog, RawFile
@@ -62,6 +62,14 @@ class StagingValidationRepository:
 
     def get_import_batch(self, import_batch_id: int) -> ImportBatch | None:
         return self.db.get(ImportBatch, import_batch_id)
+
+    def count_staging_records_for_raw_file(self, raw_file_id: int, entity_type: str) -> int:
+        entity_type = normalize_entity_type(entity_type)
+        model = PersonStaging if entity_type == "PERSON" else PartyStaging
+        # Liczymy rekordy staging po raw_file_id, żeby zablokować duplikat tego samego ładowania
+        return self.db.scalar(
+            select(func.count()).select_from(model).where(model.RawFile_ID == raw_file_id)
+        ) or 0
 
     def update_import_batch_status(
         self,

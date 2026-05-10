@@ -1,131 +1,201 @@
-﻿Numer pracownika,Numer agenta,Nazwa zakładu ubezpieczeń,Nazwa agenta,Imię agenta,Nazwisko agenta,Numer NIP agenta,Numer KRS agenta
-11400000/P,11100000/A,PZU SA,K. Jasieński Instalacje,Karolina,Jasieński,5000000008,0001002000
-11400001/P,11100001/A,WARTA S.A.,Marek Cieślar Usługi Finansowe,Marek,Cieślar,5000000014,
-11400002/P,11100002/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Marta Wrona Pośrednictwo Ubezpieczeniowe,Marta,Wrona,5000000020,
-11400003/P,11100003/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Dawid Wiśniewski Konsulting,Dawid,Wiśniewski,5000000037,
-11400004/P,11100004/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Alicja Cieślar Biuro Usług,Alicja,Cieślar,5000000043,0001002004
-11400005/P,11100005/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,S. Wiśniewski Doradztwo,Szymon,Wiśniewski,5000000055,
-11400006/P,11100006/A,PZU SA,Barbara Pawlik Konsulting,Barbara,Pawlik,5000000066,
-11400007/P,11100007/A,WARTA S.A.,Marek Cieślar Usługi Finansowe,Marek,Cieślar,5000000072,
-11400008/P,11100008/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Paulina Kaczmarek Studio Danych,Paulina,Kaczmarek,5000000089,0001002008
-11400009/P,11100009/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Marek Nowacki Pośrednictwo Ubezpieczeniowe,Marek,Nowacki,5000000095,
-11400010/P,11100010/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,R. Pawlik Serwis,Renata,Pawlik,5000000103,
-11400011/P,11100011/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Tomasz Zieliński Pośrednictwo Ubezpieczeniowe,Tomasz,Zieliński,5000000111,
-11400012/P,11100012/A,PZU SA,Joanna Wiśniewski Biuro Usług,Joanna,Wiśniewski,5000000126,0001002012
-11400013/P,11100013/A,WARTA S.A.,Andrzej Nowacki Pośrednictwo Ubezpieczeniowe,Andrzej,Nowacki,5000000132,
-11400014/P,11100014/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Joanna Pawlik Konsulting,Joanna,Pawlik,5000000149,
-11400015/P,11100015/A,UNIQA Towarzystwo Ubezpieczeń S.A.,J. Jasieński Instalacje,Jan,Jasieński,5000000155,
-11400016/P,11100016/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Katarzyna Nowacki Studio Danych,Katarzyna,Nowacki,5000000161,0001002016
-11400017/P,11100017/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Jan Duda Pośrednictwo Ubezpieczeniowe,Jan,Duda,5000000178,
-11400018/P,11100018/A,PZU SA,Anna Wójcik Pośrednictwo Ubezpieczeniowe,Anna,Wójcik,5000000184,
-11400019/P,11100019/A,WARTA S.A.,Jan Duda Studio Danych,Jan,Duda,5000000190,
-11400020/P,11100020/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,M. Cieślar Instalacje,Monika,Cieślar,5000000209,0001002020
-11400021/P,11100021/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Szymon Szymańska Studio Danych,Szymon,Szymańska,5000000215,
-11400022/P,11100022/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Renata Woźniak Usługi Finansowe,Renata,Woźniak,5000000221,
-11400023/P,11100023/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Andrzej Mazur Biuro Usług,Andrzej,Mazur,5000000238,
-11400024/P,11100024/A,PZU SA,Agnieszka Pawlik Pośrednictwo Ubezpieczeniowe,Agnieszka,Pawlik,5000000244,0001002024
-11400025/P,11100025/A,WARTA S.A.,M. Kaczmarek Serwis,Marek,Kaczmarek,5000000250,
-11400026/P,11100026/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Alicja Woźniak Usługi Finansowe,Alicja,Woźniak,5000000267,
-11400027/P,11100027/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Paweł Tracz Konsulting,Paweł,Tracz,5000000273,
-11400028/P,11100028/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Natalia Pawlik Biuro Usług,Natalia,Pawlik,5000000288,0001002028
-11400029/P,11100029/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Marek Milewska Pośrednictwo Ubezpieczeniowe,Marek,Milewska,5000000296,
-11400030/P,11100030/A,PZU SA,O. Wiśniewski Instalacje,Oliwia,Wiśniewski,5000000304,
-11400031/P,11100031/A,WARTA S.A.,Patryk Kamińska Studio Danych,Patryk,Kamińska,5000000310,
-11400032/P,11100032/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Agnieszka Cieślar Biuro Usług,Agnieszka,Cieślar,5000000327,0001002032
-11400033/P,11100033/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Dawid Milewska Usługi Finansowe,Dawid,Milewska,5000000333,
-11400034/P,11100034/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Magdalena Nowacki Studio Danych,Magdalena,Nowacki,5000000344,
-11400035/P,11100035/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,A. Pawlik Serwis,Andrzej,Pawlik,5000000356,
-11400036/P,11100036/A,PZU SA,Ewa Jasieński Studio Danych,Ewa,Jasieński,5000000362,0001002036
-11400037/P,11100037/A,WARTA S.A.,Rafał Wójcik Konsulting,Rafał,Wójcik,5000000379,
-11400038/P,11100038/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Karolina Kowalski Konsulting,Karolina,Kowalski,5000000385,
-11400039/P,11100039/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Michał Milewska Usługi Finansowe,Michał,Milewska,5000000391,
-11400040/P,11100040/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,M. Kamińska Serwis,Monika,Kamińska,5000000400,0001002040
-11400041/P,11100041/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Marcin Kamińska Pośrednictwo Ubezpieczeniowe,Marcin,Kamińska,5000000416,
-11400042/P,11100042/A,PZU SA,Karolina Woźniak Pośrednictwo Ubezpieczeniowe,Karolina,Woźniak,5000000422,
-11400043/P,11100043/A,WARTA S.A.,Paweł Duda Pośrednictwo Ubezpieczeniowe,Paweł,Duda,5000000439,
-11400044/P,11100044/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Ewa Kowalski Biuro Usług,Ewa,Kowalski,5000000445,0001002044
-11400045/P,11100045/A,UNIQA Towarzystwo Ubezpieczeń S.A.,M. Kaczmarek Serwis,Michał,Kaczmarek,5000000451,
-11400046/P,11100046/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Magdalena Wójcik Pośrednictwo Ubezpieczeniowe,Magdalena,Wójcik,5000000468,
-11400047/P,11100047/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Jan Krawiec Usługi Finansowe,Jan,Krawiec,5000000474,
-11400048/P,11100048/A,PZU SA,Alicja Mazur Pośrednictwo Ubezpieczeniowe,Alicja,Mazur,5000000480,0001002048
-11400049/P,11100049/A,WARTA S.A.,Jan Kowalski Pośrednictwo Ubezpieczeniowe,Jan,Kowalski,5000000497,
-11400050/P,11100050/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,E. Duda Doradztwo,Ewa,Duda,5000000505,
-11400051/P,11100051/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Tomasz Szymańska Usługi Finansowe,Tomasz,Szymańska,5000000511,
-11400052/P,11100052/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Katarzyna Mazur Studio Danych,Katarzyna,Mazur,5000000528,0001002052
-11400053/P,11100053/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Maciej Tracz Usługi Finansowe,Maciej,Tracz,5000000534,
-11400054/P,11100054/A,PZU SA,Karolina Kowalski Pośrednictwo Ubezpieczeniowe,Karolina,Kowalski,5000000540,
-11400055/P,11100055/A,WARTA S.A.,Ł. Kaczmarek Instalacje,Łukasz,Kaczmarek,5000000557,
-11400056/P,11100056/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Alicja Król Pośrednictwo Ubezpieczeniowe,Alicja,Król,5000000563,0001002056
-11400057/P,11100057/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Paweł Król Biuro Usług,Paweł,Król,5000000577,
-11400058/P,11100058/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Monika Krawiec Biuro Usług,Monika,Krawiec,5000000586,
-11400059/P,11100059/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Michał Kamińska Pośrednictwo Ubezpieczeniowe,Michał,Kamińska,5000000592,
-11400060/P,11100060/A,PZU SA,P. Kaczmarek Doradztwo,Paulina,Kaczmarek,5000000600,0001002060
-11400061/P,11100061/A,WARTA S.A.,Dawid Cieślar Pośrednictwo Ubezpieczeniowe,Dawid,Cieślar,5000000617,
-11400062/P,11100062/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Paulina Dorska Konsulting,Paulina,Dorska,5000000623,
-11400063/P,11100063/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Tomasz Nowacki Usługi Finansowe,Tomasz,Nowacki,5000000633,
-11400064/P,11100064/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Katarzyna Duda Biuro Usług,Katarzyna,Duda,5000000646,0001002064
-11400065/P,11100065/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,P. Mazur Serwis,Paweł,Mazur,5000000652,
-11400066/P,11100066/A,PZU SA,Joanna Kaczmarek Usługi Finansowe,Joanna,Kaczmarek,5000000669,
-11400067/P,11100067/A,WARTA S.A.,Maciej Zieliński Konsulting,Maciej,Zieliński,5000000675,
-11400068/P,11100068/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Oliwia Pawlik Biuro Usług,Oliwia,Pawlik,5000000681,0001002068
-11400069/P,11100069/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Maciej Tracz Konsulting,Maciej,Tracz,5000000698,
-11400070/P,11100070/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,A. Milewska Instalacje,Anna,Milewska,5000000706,
-11400071/P,11100071/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Patryk Pawlik Pośrednictwo Ubezpieczeniowe,Patryk,Pawlik,5000000712,
-11400072/P,11100072/A,PZU SA,Ewa Kamińska Studio Danych,Ewa,Kamińska,5000000729,0001002072
-11400073/P,11100073/A,WARTA S.A.,Marek Wójcik Pośrednictwo Ubezpieczeniowe,Marek,Wójcik,5000000735,
-11400074/P,11100074/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Karolina Zieliński Usługi Finansowe,Karolina,Zieliński,5000000741,
-11400075/P,11100075/A,UNIQA Towarzystwo Ubezpieczeń S.A.,M. Duda Doradztwo,Marcin,Duda,5000000758,
-11400076/P,11100076/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Oliwia Tracz Biuro Usług,Oliwia,Tracz,5000000764,0001002076
-11400077/P,11100077/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Patryk Król Biuro Usług,Patryk,Król,5000000770,
-11400078/P,11100078/A,PZU SA,Natalia Mazur Studio Danych,Natalia,Mazur,5000000787,
-11400079/P,11100079/A,WARTA S.A.,Patryk Kowalski Pośrednictwo Ubezpieczeniowe,Patryk,Kowalski,5000000793,
-11400080/P,11100080/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,M. Nowacki Serwis,Monika,Nowacki,5000000801,0001002080
-11400081/P,11100081/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Dawid Dorska Biuro Usług,Dawid,Dorska,5000000818,
-11400082/P,11100082/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Natalia Kaczmarek Biuro Usług,Natalia,Kaczmarek,5000000824,
-11400083/P,11100083/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Tomasz Tracz Konsulting,Tomasz,Tracz,5000000830,
-11400084/P,11100084/A,PZU SA,Alicja Wrona Studio Danych,Alicja,Wrona,5000000847,0001002084
-11400085/P,11100085/A,WARTA S.A.,J. Pawlik Doradztwo,Jan,Pawlik,5000000853,
-11400086/P,11100086/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Karolina Kamińska Pośrednictwo Ubezpieczeniowe,Karolina,Kamińska,5000000866,
-11400087/P,11100087/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Łukasz Tracz Konsulting,Łukasz,Tracz,5000000876,
-11400088/P,11100088/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Alicja Wiśniewski Konsulting,Alicja,Wiśniewski,5000000882,0001002088
-11400089/P,11100089/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Michał Dorska Konsulting,Michał,Dorska,5000000899,
-11400090/P,11100090/A,PZU SA,O. Pawlik Instalacje,Oliwia,Pawlik,5000000907,
-11400091/P,11100091/A,WARTA S.A.,Dawid Kaczmarek Konsulting,Dawid,Kaczmarek,5000000913,
-11400092/P,11100092/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Natalia Wiśniewski Konsulting,Natalia,Wiśniewski,5000000922,0001002092
-11400093/P,11100093/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Patryk Tracz Pośrednictwo Ubezpieczeniowe,Patryk,Tracz,5000000936,
-11400094/P,11100094/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Monika Wiśniewski Usługi Finansowe,Monika,Wiśniewski,5000000942,
-11400095/P,11100095/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,P. Nowacki Instalacje,Paweł,Nowacki,5000000959,
-11400096/P,11100096/A,PZU SA,Agnieszka Jasieński Biuro Usług,Agnieszka,Jasieński,5000000965,0001002096
-11400097/P,11100097/A,WARTA S.A.,Andrzej Milewska Konsulting,Andrzej,Milewska,5000000971,
-11400098/P,11100098/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Magdalena Wrona Studio Danych,Magdalena,Wrona,5000000988,
-11400099/P,11100099/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Piotr Dorska Biuro Usług,Piotr,Dorska,5000000994,
-11400100/P,11100100/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,A. Król Doradztwo,Agnieszka,Król,5000001002,0001002100
-11400101/P,11100101/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Szymon Jasieński Usługi Finansowe,Szymon,Jasieński,5000001019,
-11400102/P,11100102/A,PZU SA,Karolina Mazur Konsulting,Karolina,Mazur,5000001025,
-11400103/P,11100103/A,WARTA S.A.,Dawid Kaczmarek Konsulting,Dawid,Kaczmarek,5000001031,
-11400104/P,11100104/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Karolina Pawlik Studio Danych,Karolina,Pawlik,5000001048,0001002104
-11400105/P,11100105/A,UNIQA Towarzystwo Ubezpieczeń S.A.,K. Nowacki Instalacje,Krzysztof,Nowacki,5000001054,
-11400106/P,11100106/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Katarzyna Mazur Usługi Finansowe,Katarzyna,Mazur,5000001060,
-11400107/P,11100107/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Łukasz Duda Konsulting,Łukasz,Duda,5000001077,
-11400108/P,11100108/A,PZU SA,Paulina Tracz Konsulting,Paulina,Tracz,5000001083,0001002108
-11400109/P,11100109/A,WARTA S.A.,Andrzej Wójcik Pośrednictwo Ubezpieczeniowe,Andrzej,Wójcik,5000001099,
-11400110/P,11100110/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,M. Król Serwis,Marta,Król,5000001108,
-11400111/P,11100111/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Marcin Woźniak Konsulting,Marcin,Woźniak,5000001114,
-11400112/P,11100112/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Alicja Nowacki Usługi Finansowe,Alicja,Nowacki,5000001120,0001002112
-11400113/P,11100113/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Maciej Kamińska Usługi Finansowe,Maciej,Kamińska,5000001137,
-11400114/P,11100114/A,PZU SA,Anna Zieliński Pośrednictwo Ubezpieczeniowe,Anna,Zieliński,5000001143,
-11400115/P,11100115/A,WARTA S.A.,M. Wrona Instalacje,Michał,Wrona,5000001155,
-11400116/P,11100116/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Katarzyna Wójcik Usługi Finansowe,Katarzyna,Wójcik,5000001166,0001002116
-11400117/P,11100117/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Andrzej Wiśniewski Biuro Usług,Andrzej,Wiśniewski,5000001172,
-11400118/P,11100118/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Marta Mazur Studio Danych,Marta,Mazur,5000001189,
-11400119/P,11100119/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,Jan Tracz Studio Danych,Jan,Tracz,5000001195,
-11400120/P,11100120/A,PZU SA,K. Milewska Instalacje,Katarzyna,Milewska,5000001203,0001002120
-11400121/P,11100121/A,WARTA S.A.,Jan Woźniak Pośrednictwo Ubezpieczeniowe,Jan,Woźniak,5000001211,
-11400122/P,11100122/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Renata Woźniak Konsulting,Renata,Woźniak,5000001226,
-11400123/P,11100123/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Michał Jasieński Biuro Usług,Michał,Jasieński,5000001232,
-11400124/P,11100124/A,INTERRISK Towarzystwo Ubezpieczeń S.A. Vienna Insurance Group,Karolina Wójcik Pośrednictwo Ubezpieczeniowe,Karolina,Wójcik,5000001249,0001002124
-11400125/P,11100125/A,Nationale-Nederlanden Towarzystwo Ubezpieczeń S.A.,K. Wiśniewski Doradztwo,Krzysztof,Wiśniewski,5000001255,
-11400126/P,11100126/A,PZU SA,Natalia Jasieński Usługi Finansowe,Natalia,Jasieński,5000001261,
-11400127/P,11100127/A,WARTA S.A.,Tomasz Król Pośrednictwo Ubezpieczeniowe,Tomasz,Król,5000001278,
-11400128/P,11100128/A,Towarzystwo Ubezpieczeń Allianz Życie Polska S.A.,Agnieszka Tracz Konsulting,Agnieszka,Tracz,5000001284,0001002128
-11400129/P,11100129/A,UNIQA Towarzystwo Ubezpieczeń S.A.,Rafał Wrona Pośrednictwo Ubezpieczeniowe,Rafał,Wrona,5000001290,
+﻿Numer pracownika,Numer agenta,Nazwa zakładu ubezpieczeń,Nazwa agenta,Imię agenta,Nazwisko agenta,Numer NIP agenta,Numer KRS agenta,Imię,Nazwisko,PESEL,Data wpisu,Data zakończenia
+18461774/P/152762,10000000/A/300000,PZU SA,Iwona Nowacka Studio Danych,Iwona,Nowacka,1235834932,0000000016,Anna,Kowalska,65060606843,2022-11-27,
+80044022/P/419589,10000001/A/300001,PZU SA,Michał Kamiński Konsulting,Michał,Kamiński,1235914128,0000000113,Tomasz,Nowacki,66070708239,2021-04-28,
+16072223/P/210832,10000002/A/300002,PZU SA,Justyna Kaczmarek Konsulting,Justyna,Kaczmarek,1235993317,0000000210,Katarzyna,Wiśniewska,67080809587,2022-04-18,2024-09-30
+92280086/P/368096,10000003/A/300003,ERGO HESTIA S.A.,Wojciech Pawłowski Konsulting,Wojciech,Pawłowski,1236072507,0000000307,Krzysztof,Wójcik,68090910975,2018-12-26,
+12188684/P/493772,10000004/A/300004,UNIQA TU S.A.,Barbara Mazur Studio Danych,Barbara,Mazur,1236151690,0000000404,Ewa,Kowalczyk,69101012325,2018-08-13,
+30865052/P/867972,10000005/A/300005,ERGO HESTIA S.A.,Patrycja Cieślicka Usługi Finansowe,Patrycja,Cieślicka,1236230886,0000000501,Adam,Kamiński,70111113719,2021-05-24,
+16590338/P/142399,10000006/A/300006,ERGO HESTIA S.A.,Paulina Kamińska Pośrednictwo,Paulina,Kamińska,1236310071,0000000598,Monika,Lewandowska,71121215068,2021-08-01,2025-06-01
+57189342/P/698938,10000007/A/300007,PZU SA,Marcin Kowalski Biuro Ubezpicezeń,Marcin,Kowalski,1236389262,0000000695,Mraek,Zieliński,72011316458,2022-09-19,
+74986223/P/837224,10000008/A/300008,ERGO HESTIA S.A.,Monika Kwiatkowska Usługi Finansowe,Monika,Kwiatkowska,1236468458,0000000792,Barbara,Szymańska,73021417805,2018-12-01,
+41201309/P/282964,10000009/A/300009,WARTA S.A.,Ewa Duda Studio Danych,Ewa,Duda,1236547643,0000000889,Rafał,Dąbrowski,74031519192,2018-08-28,
+47106335/P/323918,10000010/A/300010,WARTA S.A.,Piotr Dąbrowski Usługi Finansowe,Piotr,Dąbrowski,1236626839,0000000986,Anna,Mazur,75041620542,2018-04-26,2026-02-06
+72442705/P/865647,10000011/A/300011,PZU SA,Robert Woźniak Biuro Ubezpieczeń,Robert,Woźniak,1236706024,0000001083,Tomasz,Krawczyk,76051721937,2023-11-25,2026-04-27
+69313072/P/355267,10000012/A/300012,UNIQA TU S.A.,Adam Duda Studio Danych,Adam,Duda,1236785213,0000001180,Katarzyna,Woźniak,77061823286,2018-01-29,
+99054744/P/425835,10000013/A/300013,PZU SA,Malgorzata Cieslicka Posrednictwo,Malgorzata,Cieslicka,1236864409,0000001277,Krzysztof,Jankowski,78071924671,2021-02-26,
+68655490/P/192113,10000014/A/300014,UNIQA TU S.A.,Adam Wójcik Studio Danych,Adam,Wójcik,1236943592,0000001374,Ewa,Grabowska,79082026028,2018-10-16,
+85790397/P/844718,10000015/A/300015,UNIQA TU S.A.,Wojciech Pawłowski Konsulting,Wojciech,Pawłowski,1237022782,0000001471,Adam,Pawlak,80092127412,2019-02-19,2026-02-24
+48277653/P/492632,10000016/A/300016,WARTA S.A.,Adam Kamiński Usługi Finansowe,Adam,Kamiński,1237101978,0000001568,Monika,Michalska,81102228763,2019-01-15,
+34620903/P/163076,10000017/A/300017,,,,,,0000001665,Marek,Król,82112330152,2020-03-19,
+20053714/P/831480,10000018/A/300018,ERGO HESTIA S.A.,Magdalena Wiśniewska Biuro Ubezpieczeń,Magdalena,Wiśniewska,1237260352,0000001762,Barbara,Wieczorek,83122431509,2019-11-20,2024-11-02
+93728339/P/506759,10000019/A/300019,UNIQA TU S.A.,Piotr Cieślicki Pośrednictwo,Piotr,Cieślicki,1237418735,0000001859,Rafał,Jabłoński,84012532890,2025-11-12,2025-05-22
+61423654/P/614405,10000020/A/300020,PZU SA,Karolina Kozłowska Biuro Ubezpieczeń,Karolina,Kozłowska,1237418735,0000001956,Anna,Witkowska,85022634248,2025-03-30,2025-04-26
+78152446/P/349671,10000021/A/300021,ERGO HESTIA S.A.,Justyna Zielińska Biuro Ubezpieczeń,Justyna,Zielińska,1237497924,0000002053,Tomasz,Walczak,86032735633,2024-10-18,2026-05-10
+69134632/P/935393,10000022/A/300022,PZU SA,Katarzyna Duda Pośrednictwo,Katarzyna,Duda,1237656305,0000002150,Katarzyna,Stępień,87042836981,2020-02-26,
+20812280/P/412662,10000023/A/300023,PZU SA,Marcin Pawłowski Biuro Ubezpieczeń,Marcin,Pawłowski,1237656305,0000002247,Krzysztof,Baran,88050138373,2025-10-09,2025-11-06
+79070019/P/610517,10000024/A/300024,UNIQA TU S.A.,Ewa Zielińska Studio Danych,Ewa,Zielińska,1237735499,0000002344,Ewa,Rutkowska,89060239720,2023-12-21,2025-05-05
+97192469/P/916861,10000025/A/300025,UNIQA TU S.A.,Marek Pawlik Konsulting,Marek,Pawlik,1237814684,0000002441,Adam,Górski,90070341118,2023-05-25,
+17468799/P/797356,10000026/A/300026,UNIQA TU S.A.,Magdalena Piotrowska Studio Danych,Magdalena,Piotrowska,1237893873,0000002538,Monika,Sikora,91080442466,2019-02-25,
+81154922/P/620039,10000027/A/300027,PZU SA,Marcin Lewandowski Studio Danych,Marcin,Lewandowski,1237973069,0000002635,Marek,Ostrowski,92090543851,2019-09-16,
+67845488/P/975375,10000028/A/300028,ERGO HESTIA S.A.,Iwona Duda Pośrednictwo,Iwona,Duda,1238052259,0000002732,Barbara,Tomaszewska,93100645202,2024-06-11,2026-06-11
+81816216/P/140959,10000029/A/300029,ERGO HESTIA S.A.,Krzysztof Szymański Pośrednictwo,Krzysztof,Szymański,1238131444,0000002829,Rafał,Zając,94110746598,2021-03-16,2026-08-05
+95601126/P/744372,10000030/A/300030,PZU SA,Maria Dąbrowska Studio Danych,Maria,Dąbrowska,1238289820,0000002926,Anna,Pietrzak,95120847945,2020-01-14,
+40543157/P/320547,10000031/A/300031,ERGO HESTIA S.A.,Paulina Wojciechowska Konsulting,Paulina,Wojciechowska,1238289820,0000003023,Tomasz,Wójcicki,96010949336,2022-09-26,2024-08-26
+40359248/P/808970,10000032/A/300032,WARTA S.A.,Bartosz Kaczmarek Usługi Finansowe,Bartosz,Kaczmarek,1238369016,0000003120,Katarzyna,Czarnecka,97021050686,2018-02-19,
+46165725/P/540900,10000033/A/300033,WARTA S.A.,Agnieszka Kaimńska Biuro Ubezpieczeń,Agnieszka,Kaimńska,1238448201,0000003217,Krzysztof,Lis,98031152072,2024-08-29,
+89202608/P/312587,10000034/A/300034,ERGO HESTIA S.A.,Sebastian Pawłowski Konsulting,Sebastian,Pawłowski,1238527395,0000003314,Ewa,Kołodziej,99041253429,2022-08-24,
+57750637/P/935291,10000035/A/300035,UNIQA TU S.A.,Andrzej Jasieński Biuro Ubezpieczeń,Andrzej,Jasieński,1238606580,0000003411,Adam,Kaczmarek,00251354819,2021-06-03,
+96747625/P/836778,10000036/A/300036,ERGO HESTIA S.A.,Iwona Nowacka Biuro Ubezpieczeń,Iwona,Nowacka,1238764965,0000003508,Monika,Piątek,01261456168,2023-05-01,2024-11-01
+51626457/P/932787,10000037/A/300037,UNIQA TU S.A.,Jakub Jasieński Studio Danych,Jakub,Jasieński,1238764965,0000003605,Marek,Sadowski,02271557553,2020-09-18,2024-08-19
+81505013/P/885579,10000038/A/300038,ERGO HESTIA S.A.,Rafał Cieślicki Usługi Finansowe,Rafał,Cieślicki,1238844150,0000003702,Barbara,Włodarczyk,03281658900,2018-08-07,2025-08-22
+10789475/P/872374,10000039/A/300039,UNIQA TU S.A.,Wojciech Cieślar Konsulting,Wojciech,Cieślar,1238923346,0000003799,Rafał,Borkowski,04291760290,2025-10-16,
+66375879/P/489503,10000040/A/300040,ERGO HESTIA S.A.,Jan Kowalski Studio Danych,Jan,Kowalski,1239002536,0000003896,Anna,Kowalska,05301861640,2021-06-19,2025-02-27
+43566827/P/166409,10000041/A/300041,ERGO HESTIA S.A.,Iwona Nowak Pośrednictwo,Iwona,Nowak,1239081725,0000003993,Tomasz,Nowacki,60111963032,2021-12-30,
+63503584/P/352786,10000042/A/300042,ERGO HESTIA S.A.,Paulina Kwiatkowska Biuro Ubezpieczeń,Paulina,Kwiatkowska,1239160910,0000004090,Katarzyna,Wiśniewska,61122064389,2025-06-22,
+89159524/P/850467,10000043/A/300043,WARTA S.A.,Katarzyna Kaczmarek Biuro Ubezpieczeń,Katarzyna,Kaczmarek,1239240106,0000004187,Krzysztof,Wójcik,62012165779,2024-05-20,2024-06-06
+63536021/P/347221,10000044/A/300044,ERGO HESTIA S.A.,Dorota Woźniak Konsulting,Dorota,Woźniak,1239319291,0000004284,Ewa,Kowalczyk,63022267127,2018-11-23,2025-01-05
+79247399/P/878354,10000045/A/300045,ERGO HESTIA S.A.,Paweł Wójcik Konsulting,Paweł,Wójcik,1239398480,0000004381,Adam,Kamiński,64032368512,2020-03-31,2024-08-08
+63762727/P/580185,10000046/A/300046,WARTA S.A.,Monika Kozłowska Pośrednictwo,Monika,Kozłowska,1239477676,0000004478,Monika,Lewandowska,65042469860,2022-06-11,2025-05-06
+55753033/P/397223,10000047/A/300047,WARTA S.A.,Natalia Kowalska Pośrednictwo,Natalia,Kowalska,1239556861,0000004575,Marek,Zieliński,66052571259,2019-10-17,2025-05-08
+78703887/P/421691,10000048/A/300048,ERGO HESTIA S.A.,Dariusz Nowak Studio Danych,Dariusz,Nowak,1239636057,0000004672,Barbara,Szymańska,67062672606,2024-09-21,
+34251387/P/610695,10000049/A/300049,WARTA S.A.,Karolina Kwiatkowska Pośrednictwo,Karolina,Kwiatkowska,1239715242,0000004769,Rafał,Dąbrowski,68072773992,2019-03-24,
+71132536/P/464984,10000050/A/300050,PZU SA,Robert Kwiatkowski Pośrednictwo,Robert,Kwiatkowski,1239794431,0000004866,Anna,Mazur,69082875340,2023-07-06,
+58912444/P/905926,10000051/A/300051,PZU SA,Justyna Kozłowska Studio Danych,Justyna,Kozłowska,1239873627,0000004963,Tomasz,Krawczyk,70090176730,2023-02-18,
+45936348/P/988094,10000052/A/300052,WARTA S.A.,Aleksandra Kaczmarek Usługi Finansowe,Aleksandra,Kaczmarek,1239952812,0000005060,Katarzyna,Woźniak,71100278082,2018-07-26,
+33701268/P/203925,10000053/A/300053,UNIQA TU S.A.,Wojciech Kowalski Studio Danych,Wojciech,Kowalski,1240032000,0000005157,Krzysztof,Jankowski,72110379477,2018-08-12,
+66269033/P/453634,10000054/A/300054,WARTA S.A.,Jakub Pawlik Pośrednictwo,Jakub,Pawlik,1240111194,0000005254,Ewa,Grabowska,73120480827,2020-07-31,2024-12-20
+27478059/P/385819,10000055/A/300055,ERGO HESTIA S.A.,Rafał Wojciechowski Biuro Ubezpieczeń,Rafał,Wojciechowski,1240190383,0000005351,Adam,Pawlak,74010582218,2019-08-31,2026-10-28
+88928741/P/757021,10000056/A/300056,PZU SA,Katarzyna Krawczyk Studio Danych,Katarzyna,Krawczyk,1240269570,0000005448,Monika,Michalska,75020683566,2022-01-15,
+41590497/P/304364,10000057/A/300057,UNIQ  .A.,Marek Woźniak Pośrednictwo,Marek,Woźniak,1240348766,0000005545,Marek,Król,76030784951,2025-05-04,
+78371920/P/186126,10000058/A/300058,UNIQA TU S.A.,Justyna Nowak Konsulting,Justyna,Nowak,1240427951,0000005642,Barbara,Wieczorek,77040886309,2019-11-12,
+45148398/P/507298,10000059/A/300059,UNIQA TU S.A.,Tomasz Wojciechowski Usługi Finansowe,Tomasz,Wojciechowski,1240507147,0000005739,Rafał,Jabłoński,88050987695,2025-09-17,2026-08-11
+98538850/P/799314,10000060/A/300060,ERGO HESTIA S.A.,Justyna Woźniak Biuro Ubezpieczeń,Justyna,Woźniak,1240586336,0000005836,Anna,Witkowska,79061089042,2018-07-17,2025-10-06
+53681450/P/832408,10000061/A/300061,UNIQA TU S.A.,Dariusz Nowacki Usługi Finansowe,Dariusz,Nowacki,1240665521,0000005933,Tomasz,Walczak,80071190439,2019-07-30,
+71488473/P/378572,10000062/A/300062,WARTA S.A.,Tomasz Jasieński Usługi Finansowe,Tomasz,Jasieński,1240744717,0000006030,Katarzyna,Stępień,81081291787,2024-08-27,
+77637818/P/596625,10000063/A/300063,WARTA S.A.,Monika Grabowska Konsulting,Monika,Grabowska,1240823902,0000006127,Krzysztof,Baran,82091393173,2020-11-04,
+45554656/P/527105,10000064/A/300064,UNIQA TU S.A.,Tomasz Jankowski Biuro Ubezpieczeń,Tomasz,Jankowski,1240903096,0000006224,Ewa,Rutkowska,83101494523,2019-10-06,2024-02-23
+42178906/P/525880,10000065/A/300065,WARTA S.A.,Magdalena Kwiatkowska Usługi Finansowe,Magdalena,Kwiatkowska,1240982285,0000006321,Adam,Górski,84111595918,2018-04-26,2025-04-01
+86516609/P/328587,10000066/A/300066,WARTA S.A.,Magdalona Nowacka Studio Danych,Magdalona,Nowacka,1241061475,0000006418,Monika,Sikora,85121697267,2021-04-14,
+35726741/P/667929,10000067/A/300067,ERGO HESTIA S.A.,Natalia Piotrowska Studio Danych,Natalia,Piotrowska,1241140660,0000006515,Marek,Ostrowski,86011798657,2025-01-09,2024-12-05
+60943824/P/427244,10000068/A/300068,UNIQA TU S.A.,Elżbieta Nowacka Konsulting,Elżbieta,Nowacka,1241219858,0000006612,Barbara,Tomaszewska,87021800008,2024-02-28,
+82479261/P/698919,10000069/A/300069,PZU SA,Bartosz Kaczmarek Usługi Finansowe,Bartosz,Kaczmarek,1241299047,0000006709,Rafał,Zając,88031901394,2021-05-16,
+49278562/P/495572,10000070/A/300070,PZU SA,Katarzyna Jaseńska Pośrednictw,Katarzyna,Jaseńska,1241378232,0000006806,Anna,Pietrzak,89042002740,2020-10-13,2025-10-02
+32058933/P/686641,10000071/A/300071,ERGO HESTIA S.A.,Ewa Nowak Konsulting,Ewa,Nowak,1241457428,0000006903,Tomasz,Wójcicki,90052104135,2024-06-22,
+60740815/P/880825,10000072/A/300072,PZU SA,Małgorzata Wójcik Konsulting,Małgorzata,Wójcik,2241536613,0000007000,Katarzyna,Czarnecka,91062205483,2023-03-19,
+57636027/P/988289,10000073/A/300073,WARTA S.A.,Rafał Duda Pośrednictwo,Rafał,Duda,1241615809,0000007097,Krzysztof,Lis,92072306878,2019-08-08,2026-06-08
+10634263/P/860392,10000074/A/300074,PZU SA,Bartosz Nowak Pośrednictwo,Bartosz,Nowak,1241694996,0000007194,Ewa,Kołodziej,93082408226,2020-01-31,2025-05-19
+68651420/P/784500,10000075/A/300075,UNIQA TU S.A.,Krzysztof Zieliński Studio Danych,Krzysztof,Zieliński,1241774181,0000007291,Adam,Kaczmarek,94092509611,2025-02-13,
+46186797/P/397674,10000076/A/300076,UNIQA TU S.A.,Sebastian Jankowski Usługi Finansowe,Sebastian,Jankowski,1241853377,0000007388,Monika,Piątek,95102610965,2023-11-03,
+21065235/P/965398,10000077/A/300077,UNIQA TU S.A.,Patrycja Kowalska Biuro Ubezpieczeń,Patrycja,Kowalska,1241932562,0000007485,Marek,Sadowski,96112712351,2019-04-27,2025-10-06
+98163305/P/848163,10000078/A/300078,ERGO HESTIA S.A.,Wojciech Grabowski Studio Danych,Wojciech,Grabowski,1242011752,0000007582,Barbara,Włodarczyk,97122813708,2020-03-24,2024-04-02
+13772760/P/632203,10000079/A/300079,PZU SA,Krzysztof Grabowski Usługi Finansowe,Krzysztof,Grabowski,1242090941,0000007679,Rafał,Borkowski,98010115096,2021-05-04,2025-05-21
+95397152/P/846888,10000080/A/300080,WARTA S.A.,Michał Woźniak Pośrednictwo,Michał,Woźniak,1242170137,0000007776,Anna,Kowalska,99020216443,2022-05-16,2025-09-30
+42277526/P/444857,10000081/A/300081,UNIQA TU S.A.,Krzysztof Piotrowski Usługi Finansowe,Krzysztof,Piotrowski,1242249324,0000007873,Tomasz,Nowacki,00230317833,2022-03-05,
+94650631/P/101329,10000082/A/300082,PZU SA,Aleksandra Pawłowska Konsulting,Aleksandra,Pawłowska,1242407705,0000007970,Katarzyna,Wiśniewska,01240419182,2025-02-22,
+35174417/P/824459,10000083/A/300083,WARTA S.A.,Krzysztof Jasieński Usługi Finansowe,Krzysztof,Jasieński,1242407705,0000008067,Krzysztof,Wójcik,02250520570,2023-10-31,2024-07-15
+41379323/P/499619,10000084/A/300084,UNIQA TU S.A.,Bartosz Krawczyk Pośrednictwo,Bartosz,Krawczyk,1242486892,0000008164,Ewa,Kowalczyk,03260621927,2020-03-14,
+84203713/P/658443,10000085/A/300085,ERGO HESTIA S.A.,Maria Kozłowska Biuro Ubezpieczeń,Maria,Kozłowska,1242566088,0000008261,Adam,Kamiński,04270723313,2019-08-18,2024-08-14
+41274098/P/331407,10000086/A/300086,ERGO HESTIA S.A.,Małgorzata Cieślicka Konsulting,Małgorzata,Cieślicka,1242645273,0000008358,Monika,Lewandowska,05280824661,2025-07-02,2025-04-16
+88968223/P/550575,10000087/A/300087,WARTA S.A.,Krzysztof Krawczyk Biuro Ubezpieczeń,Krzysztof,Krawczyk,1242724469,0000008455,Marek,Zieliński,60090926053,2025-09-14,2026-08-09
+16806511/P/642420,10000088/A/300088,PZU SA,Monika Wiśniewska Studio Danych,Monika,Wiśniewska,1242803654,0000008552,Barbara,Szymańska,61101027402,2021-02-25,2025-10-08
+31814291/P/799769,10000089/A/300089,PZU SA,Elżbieta Krawczyk Usługi Finansowe,Elżbieta,Krawczyk,,0000008649,Rafał,Dąbrowski,62111128798,2018-06-08,2024-03-09
+25433758/P/505821,10000090/A/300090,WARTA S.A.,Dariusz Piotrowski Studio Danych,Dariusz,Piotrowski,1242962039,0000008746,Anna,Mazur,63121230149,2025-09-24,2026-05-12
+71996630/P/930632,10000091/A/300091,UNIQA TU S.A.,Dariusz Pawlik Usługi Finansowe,Dariusz,Pawlik,1243041229,0000008843,Tomasz,Krawczyk,64011331539,2019-02-19,2025-08-07
+29030047/P/132018,10000092/A/300092,WARTA S.A.,Katarzyna Piotrowska Biuro Ubezpieczeń,Katarzyna,Piotrowska,1243120414,0000008940,Katarzyna,Woźniak,65021432887,2018-05-25,
+76864108/P/965858,10000093/A/300093,WARTA S.A.,Katarzyna Kowalska Studio Danych,Katarzyna,Kowalska,1243199605,0000009037,Krzysztof,Jankowski,66031534273,2018-07-02,
+75094007/P/155024,10000094/A/300094,PZU SA,Marek Zieliński Usługi Finansowe,Marek,Zieliński,1243278799,0000009134,Ewa,Grabowska,67041635620,2020-03-08,2025-07-25
+63978771/P/181538,10000095/A/300095,WARTA S.A.,Barbara Zielińska Biuro Ubezpieczeń,Barbara,Zielińska,1243357984,0000009231,Adam,Pawlak,68051737016,2019-10-26,
+15199031/P/826436,10000096/A/300096,UNIQA TU S.A.,Robert Dąbrowski Biuro Ubezpieczeń,Robert,Dąbrowski,1243516365,0000009328,Monika,Michalska,69061838364,2024-11-15,2026-06-10
+78050830/P/558579,10000097/A/300097,WARTA S.A.,Robert Kamiński Studio Danych,Robert,Kamiński,1243516365,0000009425,Marek,Król,70071939758,2019-11-20,
+52299863/P/925792,10000098/A/300098,UNIQA TU S.A.,Jan Wiśniewski Studio Danych,Jan,Wiśniewski,1243595554,0000009522,Barbara,Wieczorek,71082041108,2020-06-28,
+72921036/P/236260,10000099/A/300099,UNIQA TU S.A.,Marcin Lewandowski Pośrednictwo,Marcin,Lewandowski,1243753935,0000009619,Rafał,Jabłoński,72092142494,2024-08-03,
+16234132/P/403011,10000100/A/300100,ERGO HESTIA S.A.,Bartosz Dąbrowski Studio Danych,Bartosz,Dąbrowski,1243753935,0000009716,Anna,Witkowska,73102243844,2018-07-01,2026-07-13
+44273710/P/976592,10000101/A/300101,WARTA S.A.,Rafał Pawłowski Biuro Ubezpieczeń,Rafał,Pawłowski,1243833120,0000009813,Tomasz,Walczak,74112345230,2025-02-11,
+50951259/P/140585,10000102/A/300102,WARTA S.A.,Dorota Pawłowska Usługi Finansowe,Dorota,Pawłowska,1243912316,0000009910,Katarzyna,Stępień,75122446588,2024-11-19,2025-06-08
+45667279/P/834696,10000103/A/300103,UNIQA TU S.A.,Robert Mazur Konsulting,Robert,Mazur,1243991505,0000010007,Krzysztof,Baran,76012547978,2019-05-03,2024-07-23
+94215726/P/775526,10000104/A/300104,PZU SA,Marcin Wojciechowski Pośrednictwo,Marcin,Wojciechowski,1244070693,0000010104,Ewa,Rutkowska,77022649326,2019-07-17,
+58352391/P/141482,10000105/A/300105,UNIQA TU S.A.,Mateusz Jankowski Konsulting,Mateusz,Jankowski,1244149880,0000010201,Adam,Górski,78032750714,2025-06-13,
+24393232/P/158552,10000106/A/300106,WARTA S.A.,Piotr Pawlik Pośrednictwo,Piotr,Pawlik,1244229076,0000010298,Monika,Sikora,79042852063,2023-06-13,2026-02-24
+89344179/P/862488,10000107/A/300107,ERGO EHSITA S.A.,Andrzej Pawłowski Biuro Ubezpicezeń,Andrzej,Pawłowski,1244308261,0000010395,Marek,Otsrowski,80050153453,2019-02-07,
+93473061/P/131458,10000108/A/300108,PZU SA,Małgorzata Piotrowska Biuro Ubezpieczeń,Małgorzata,Piotrowska,1244387450,0000010492,Barbara,Tomaszewska,81060254800,2025-09-29,2024-03-26
+93429704/P/612026,10000109/A/300109,UNIQA TU S.A.,Barbara Mazur Konsulting,Barbara,Mazur,1244466646,0000010589,Rafał,Zając,82070356197,2023-01-22,
+10660150/P/779544,10000110/A/300110,WARTA S.A.,Joanna Cieślar Usługi Finansowe,Joanna,Cieślar,1244545831,0000010686,Anna,Pietrzak,83080457544,2025-04-08,2025-06-30
+78368633/P/285012,10000111/A/300111,WARTA S.A.,Iwona Grabowska Konsulting,Iwona,Grabowska,1244625027,0000010783,Tomasz,Wójcicki,84090558939,2019-08-19,2026-07-06
+43607043/P/746741,10000112/A/300112,ERGO HESTIA S.A.,Piotr Wiśniewski Usługi Finansowe,Piotr,Wiśniewski,1244704212,0000010880,Katarzyna,Czarnecka,85100660284,2019-10-14,2026-10-15
+69538667/P/782843,10000113/A/300113,ERGO HESTIA S.A.,Barbara Grabowska Studio Danych,Barbara,Grabowska,1244783401,0000010977,Krzysztof,Lis,86110761679,2025-12-09,
+50509867/P/627482,10000114/A/300114,UNIQA TU S.A.,Monika Nowacka Studio Danych,Monika,Nowacka,1244862595,0000011074,Ewa,Kołodziej,87120863027,2018-01-17,2024-02-22
+10952189/P/535396,10000115/A/300115,UNIQA TU S.A.,Dorota Kozłowska Studio Danych,Dorota,Kozłowska,1244941780,0000011171,Adam,Kaczmarek,88010964417,2020-07-26,
+57332059/P/322209,10000116/A/300116,ERGO HESTIA S.A.,Anna Woźniak Studio Danych,Anna,Woźniak,1245020970,0000011268,Monika,Piątek,89021065764,2019-08-25,
+30268654/P/583078,10000117/A/300117,WARTA S.A.,Aleksandra Dąbrowska Pośrednictwo,Aleksandra,Dąbrowska,1245100166,0000011365,Marek,Sadowski,90031167159,2021-12-29,2026-03-31
+38667285/P/944210,10000118/A/300118,ERGO HESTIA S.A.,Maria Krawczyk Biuro Ubezpieczeń,Maria,Krawczyk,1245179357,0000011462,Barbara,Włodarczyk,91041268506,2023-07-27,2025-03-31
+25746132/P/486441,10000119/A/300119,ERGO HESTIA S.A.,Mateusz Cieślar Usługi Finansowe,Mateusz,Cieślar,1245258542,0000011559,Rafał,Borkowski,92051369892,2024-01-30,2024-06-03
+57437868/P/870507,10000120/A/300120,ERGO HESTIA S.A.,Jakub Grabowski Konsulting,Jakub,Grabowski,1245337738,0000011656,Anna,Kowalska,93061471243,2021-09-21,
+59613524/P/922005,10000121/A/300121,WARTA S.A.,Elżbieta Wojciechowska Studio Danych,Elżbieta,Wojciechowska,1245416923,0000011753,Tomasz,Nowacki,94071572638,2018-01-03,
+35431802/P/241244,10000122/A/300122,ERGO HESTIA S.A.,Barbara Cieślicka Konsulting,Barbara,Cieślicka,1245496112,0000011850,Katarzyna,Wiśniewska,95081673986,2022-02-02,
+18816110/P/455732,10000123/A/300123,ERGO HESTIA S.A.,Natalia Jasieńska Usługi Finansowe,Natalia,Jasieńska,1245575308,0000011947,Krzysztof,Wójcik,96091775372,2018-09-01,2025-05-01
+22204758/P/660759,10000124/A/300124,UNIQA TU S.A.,Małgorzata Szymańska Pośrednictwo,Małgorzata,Szymańska,1245654491,0000012044,Ewa,Kowalczyk,97101876722,2018-10-13,2025-10-26
+88077656/P/839246,10000125/A/300125,UNIQA TU S.A.,Justyna Jankowska Studio Danych,Justyna,Jankowska,1245733687,0000012141,Adam,Kamiński,98111978118,2021-01-23,2024-01-15
+81273780/P/895556,10000126/A/300126,UNIQA TU S.A.,Jakub Duda Biuro Ubezpieczeń,Jakub,Duda,1245812872,0000012238,Monika,Lewandowska,99122079465,2023-01-01,
+67039267/P/707243,10000127/A/300127,ERGO HESTIA S.A.,Tomasz Kozłowski Studio Danych,Tomasz,Kozłowski,1245892061,0000012335,Marek,Zieliński,00212180853,2022-02-20,
+35437758/P/716791,10000128/A/300128,PZU SA,Łukasz Duda Konsulting,Łukasz,Duda,1245971257,0000012432,Barbara,Szymańska,01222282201,2023-11-26,2025-03-13
+23583204/P/257392,10000129/A/300129,UNIQA TU S.A.,Monika Jankowska Konsulting,Monika,Jankowska,1246050447,0000012529,Rafał,Dąbrowski,02232383597,2025-05-02,
+54216024/P/967425,10000130/A/300130,PZU SA,Ewa Kowalska Usrugi Finansowe,Ewa,Kowalska,1246129634,0000012626,Anna,Mazur,03242484944,2018-09-06,
+48753728/P/618600,10000131/A/300131,ERGO HESTIA S.A.,Aleksandra Grabowska Konsulting,Aleksandra,Grabowska,1246288019,0000012723,Tomasz,Krawczyk,04252586330,2023-10-14,2025-02-15
+24554157/P/316355,10000132/A/300132,PZU SA,Aleksandra Kamińska Studio Danych,Aleksandra,Kamińska,1246288019,0000012820,Katarzyna,Woźniak,05262687688,2022-04-07,
+73719325/P/918091,10000133/A/300133,PZU SA,Katarzyna Jankowska Usługi Finansowe,Katarzyna,Jankowska,1246367204,0000012917,Krzysztof,Jankowski,60072789070,2019-06-28,2024-10-16
+34961386/P/461548,10000134/A/300134,UNIQA TU S.A.,Piotr Duda Studio Danych,Piotr,Duda,1246446398,0000013014,Ewa,Grabowska,61082890420,2020-09-17,2026-03-28
+81284175/P/676848,10000135/A/300135,WARTA S.A.,Karolina Zielińska Pośrednictwo,Karolina,Zielińska,1246525583,0000013111,Adam,Pawlak,62090191811,2020-07-14,2026-11-07
+15408167/P/463707,10000136/A/300136,ERGO HESTIA S.A.,Monika Jankowska Studio Danych,Monika,Jankowska,1246604779,0000013208,Monika,Michalska,63100293163,2022-04-18,
+58548913/P/695522,10000137/A/300137,UNIQA TU S.A.,Kaolina Jankowska Biuro Ubezpieczeń,Kaolina,Jankowska,1246683968,0000013305,Marek,Król,64110394558,2018-11-25,2025-03-15
+11872077/P/633662,10000138/A/300138,WARTA S.A.,Marek Szymański Konsulting,Marek,Szymański,1246763153,0000013402,Barbara,Wieczorek,65120495905,2022-12-11,
+61835432/P/635747,10000139/A/300139,ERGO HESTIA S.A.,Michał Pawlik Pośrednictwo,Michał,Pawlik,1246842349,0000013499,Rafał,Jabłoński,66010597297,2019-07-26,2026-10-02
+31541610/P/407240,10000140/A/300140,WARTA S.A.,Grzegorz Wiśniewski Pośrednictwo,Grzegorz,Wiśniewski,1246921534,0000013596,Anna,Witkowska,67020698644,2019-09-19,
+12762678/P/893784,10000141/A/300141,UNIQA TU S.A.,Maria Krawczyk Pośrednictwo,Maria,Krawczyk,1247000724,0000013693,Tomasz,Walczak,68030700033,2018-02-18,2026-09-13
+75935104/P/247715,10000142/A/300142,PZU SA,Sebastian Grabowski Konsulting,Sebastian,Grabowski,1247079915,0000013790,Katarzyna,Stępień,69040801381,2019-12-13,
+39107801/P/816613,10000143/A/300143,ERGO HESTIA S.A.,arta Mazur Konsulting,arta,Mazur,1247159100,0000013887,Krzysztof,Baran,70050902775,2019-03-08,
+74252632/P/497690,10000144/A/300144,PZU SA,Ewa Zielińska Studio Danych,Ewa,Zielińska,1247238294,0000013984,Ewa,Rutkowska,71061004122,2021-12-16,2025-06-02
+92664267/P/670178,10000145/A/300145,ERGO HESTIA S.A.,Tomasz Grabowski Biuro Ubezpieczeń,Tomasz,Grabowski,1247396679,0000014081,Adam,Górski,72071105517,2019-05-10,2025-12-10
+20317015/P/444463,10000146/A/300146,PZU SA,Małgorzata Wiśniewska Usługi Finansowe,Małgorzata,Wiśniewska,1247396679,0000014178,Monika,Sikora,73081206865,2020-10-22,
+11395369/P/507036,10000147/A/300147,PZU SA,Jakub Krawczyk Pośrednictwo,Jakub,Krawczyk,1247475864,0000014275,Marek,Ostrowski,74091308251,2022-12-14,
+36696879/P/141213,10000148/A/300148,UNIQA TU S.A.,Magdalena Szymańska Pośrednictwo,Magdalena,Szymańska,1247634245,0000014372,Barbara,Tomaszewska,75101409601,2024-08-09,2026-02-20
+47856161/P/126915,10000149/A/300149,ERGO HESTIA S.A.,Monika Wojciechowska Biuro Ubezpieczeń,Monika,Wojciechowska,1247634245,0000014469,Rafał,Zając,76111510990,2018-01-30,
+48021055/P/595006,10000150/A/300150,UNIQA TU S.A.,Justyna Wojciechowska Konsulting,Justyna,,1247713430,0000014566,Anna,,77121612348,2023-07-03,
+99221937/P/913236,10000151/A/300151,ERGO HESTIA S.A.,Anna Dąbrowska Biuro Ubezpieczeń,Anna,Dąbrowska,1247871815,0000014663,Tomasz,Wójcicki,78011713738,2020-01-22,
+91561211/P/697628,10000152/A/300152,ERGO HESTIA S.A.,Krzysztof Mazur Usługi Finansowe,Krzysztof,Mazur,1247871815,0000014760,Katarzyna,Czarnecka,79021815087,2018-08-22,2025-01-21
+74820684/P/880224,10000153/A/300153,WARTA S.A.,Barbara Kamińska Biuro Ubezpieczeń,Barbara,Kamińska,1247951000,0000014857,Krzysztof,Lis,80031916471,2021-08-30,
+46922398/P/690171,10000154/A/300154,WARTA S.A.,Monika Lewandowska Pośrednictwo,Monika,Lewandowska,1248030199,0000014954,Ewa,Kołodziej,81042017827,2019-05-18,2026-02-24
+59190267/P/143120,10000155/A/300155,WARTA S.A.,Katarzyna Krawczyk Pośrednictwo,Katarzyna,Krawczyk,1248109386,0000015051,Adam,Kaczmarek,82052119213,2019-09-16,2026-11-10
+65375908/P/446285,10000156/A/300156,ERGO HESTIA S.A.,Krzysztof Jankowski Studio Danych,Krzysztof,Jankowski,1248188575,0000015148,Monika,Piątek,83062220564,2020-03-15,2025-09-05
+19003887/P/557174,10000157/A/300157,PZU AS,Łukasz Mazur Biuro Ubezpieczeń,Łukasz,Mauzr,1248267760,0000015245,Marek,Sadowksi,84072321959,2019-01-04,
+57939686/P/597459,10000158/A/300158,PZU SA,Mateusz Pawlik Usługi Finansowe,Mateusz,Pawlik,1248346956,0000015342,Barbara,Włodarczyk,85082423307,2019-05-11,2025-02-04
+37615723/P/647355,10000159/A/300159,PZU SA,Natalia Kwiatkowska Biuro Ubezpieczeń,Natalia,Kwiatkowska,1248426141,0000015439,Rafał,Borkowski,96092524693,2018-03-10,
+48384413/P/521466,10000160/A/300160,WARTA S.A.,Paulina Zielińska Studio Danych,Paulina,Zielińska,1248505337,0000015536,Anna,Kowalska,87102626044,2022-03-02,
+54506956/P/738146,10000161/A/300161,ERGO HESTIA S.A.,Paulina Cieślar Usługi Finansowe,Paulina,Cieślar,1248584526,0000015633,Tomasz,Nowacki,88112727439,2021-07-04,
+84830507/P/455498,10000162/A/300162,PZU SA,Katarzyna Kozłwska Biuro Ubezpieczeń,Katarzyna,Kozłowska,1248663711,0000015730,Katarzyna,Wiśniewska,89122828787,2018-11-01,2025-02-27
+73660782/P/699962,10000163/A/300163,ERGO HESTIA S.A.,Maria Kamińska Usługi Finansowe,Maria,Kamińska,1248742907,0000015827,Krzysztof,Wójcik,90010130176,2020-02-25,
+81232563/P/803179,10000164/A/300164,ERGO HESTIA S.A.,Rafał Krawczyk Pośrednictwo,Rafał,Krawczyk,1248822090,0000015924,Ewa,Kowalczyk,91020231523,2022-08-31,
+60289683/P/677010,10000165/A/300165,PZU SA,Małgorzata Nowacka Pośrednictwo,Małgorzata,Nowacka,1248901286,0000016021,Adam,Kamiński,92030332918,2021-08-18,
+14699179/P/470765,10000166/A/300166,UNIQA TU S.A.,Iwona Nowacka Studio Danych,Iwona,Nowacka,1248980475,0000016118,Monika,Lewandowska,93040434267,2024-07-13,
+53367582/P/877486,10000167/A/300167,ERGO HESTIA S.A.,Mateusz Wójcik Studio Danych,Mateusz,Wójcik,1249059667,0000016215,Marek,Zieliński,94050535652,2021-08-09,
+69869311/P/424857,10000168/A/300168,WARTA S.A.,Wojciech Woźniak Studio Danych,Wojciech,Woźniak,1249138852,0000016312,Barbara,Szymańska,95060637000,2022-04-07,2025-11-20
+16044375/P/453204,10000169/A/300169,PZU SA,Mateusz Kamiński Biuro Ubezpieczeń,Mateusz,Kamiński,1249218048,0000016409,Rafał,Dąbrowski,96070738396,2020-05-25,2026-08-11
+58787647/P/659938,10000170/A/300170,ERGO HESTIA S.A.,Maria Wiśniewska Usługi Finansowe,Maria,Wiśniewska,1249297237,0000016506,Anna,Mazur,97080839743,2020-10-24,
+64073951/P/368432,10000171/A/300171,ERGO HESTIA S.A.,Karolina Zielińska Konsulting,Karolina,Zielińska,2249376422,0000016603,Tomasz,Krawczyk,98090941132,2019-09-09,2024-10-17
+44803781/P/761597,10000172/A/300172,WARTA S.A.,Marek Kozłowski Konsulting,Marek,Kozłowski,1249455618,0000016700,Katarzyna,Woźniak,99101042482,2022-02-24,2026-09-06
+58935153/P/502980,10000173/A/300173,ERGO HESTIA S.A.,Karolina Dąbrowska Pośrednictwo,Karolina,Dąbrowska,1249534803,0000016797,Krzysztof,Jankowski,00311143872,2022-06-15,2024-08-08
+48474548/P/986007,10000174/A/300174,ERGO HESTIA S.A.,Elżbieta Wiśniewska Studio Danych,Elżbieta,Wiśniewska,1249613997,0000016894,Ewa,Grabowska,01321245220,2020-03-15,2026-05-24
+31958525/P/932789,10000175/A/300175,WARTA S.A.,Joanna Zielińska Studio Danych,Joanna,Zielińska,1249693186,0000016991,Adam,Pawlak,02211346610,2024-12-04,
+45221967/P/453567,10000176/A/300176,UNIQA TU S.A.,Łukasz Wójcik Usługi Finansowe,Łukasz,Wójcik,1249772371,0000017088,Monika,Michalska,03221447968,2022-03-24,2025-09-03
+95592711/P/948831,10000177/A/300177,ERGO HESTIA S.A.,Wojciech Zieliński Studio Danych,Wojciech,Zieliński,1249851567,0000017185,Marek,Król,04231549354,2021-09-22,2026-04-24
+70262268/P/191399,10000178/A/300178,ERGO HESTIA S.A.,Ewa Szymańska Usługi Finansowe,Ewa,Szymańska,1249930752,0000017282,Barbara,Wieczorek,05241650704,2019-05-29,2025-09-01
+38173865/P/374346,10000179/A/300179,WARTA S.A.,Jan Nowak Konsulting,Jan,Nowak,1250009942,0000017379,Rafał,Jabłoński,60051752097,2019-05-08,
+29449015/P/708746,10000180/A/300180,ERGO HESTIA S.A.,Jakub Nowacki Konsulting,Jakub,Nowacki,1250089131,0000017476,Anna,Witkowska,61061853444,2021-08-14,2025-01-13
+17774753/P/674680,10000181/A/300181,UNIQA TU S.A.,Marta Pawłowska Konsulting,Marta,Pawłowska,1250168327,0000017573,Tomasz,Walczak,62071954839,2021-10-29,2026-03-18
+81754604/P/232432,10000182/A/300182,ERGO HESTIA S.A.,Marek Kaczmarek Usługi Finansowe,Marek,Kaczmarek,1250247512,0000017670,Katarzyna,Stępień,63082056187,2022-09-17,2024-05-04
+67681920/P/438976,10000183/A/300183,WARTA S.A.,Marcin Krawczyk Biuro Ubezpieczeń,Marcin,Krawczyk,1250326708,0000017767,Krzysztof,Baran,64092157572,2021-12-25,2025-10-17
+23625083/P/205873,10000184/A/300184,PZU SA,Aleksandra Szymańska Konsulting,Aleksandra,Szymańska,1250405891,0000017864,Ewa,Rutkowska,65102258922,2021-06-06,
+55496872/P/941857,10000185/A/300185,ERGO HESTIA S.A.,Jakub Cieślicki Studio Danych,Jakub,Cieślicki,1250485080,0000017961,Adam,Górski,66112360311,2019-01-06,2026-11-21
+58749120/P/578260,10000186/A/300186,PZU SA,Karolina Szymańska Studio Danych,Karolina,Szymańska,1250564276,0000018058,Monika,Sikora,67122461669,2022-09-28,2026-03-29
+71146133/P/310337,10000187/A/300187,UNIQA TU S.A.,Bartosz Jasieński Usługi Finansowe,Bartosz,Jasieński,1250643461,0000018155,Marek,Ostrowski,68012563050,2022-01-26,2025-02-18
+96676905/P/676766,10000188/A/300188,UNIQA TU S.A.,Ewa Lewandowska Studio Danych,Ewa,Lewandowska,1250722657,0000018252,Barbara,Tomaszewska,69022664407,2022-04-01,
+13063907/P/242603,10000189/A/300189,PZU SA,Marek Pawlik Konsulting,Marek,Pawlik,1250801842,0000018349,Rafał,Zając,70032765792,2018-03-10,
+72491687/P/584590,10000190/A/300190,PZU SA,Ewa Nowak Konsulting,Ewa,Nowak,1250881031,0000018446,Anna,Pietrzak,71042867140,2020-12-04,
+13882673/P/425982,10000191/A/300191,ERGO HESTIA S.A.,Marek Kamiński Konsulting,Marek,Kamiński,1250960227,0000018543,Tomasz,Wójcicki,72050168531,2023-04-21,
+30630736/P/271813,10000192/A/300192,WARTA S.A.,Agnieszka Jankowska Usługi Finansowe,Agnieszka,Jankowska,1251039419,0000018640,Katarzyna,Czarnecka,73060269889,2020-10-26,
+98782331/P/219622,10000193/A/300193,ERGO HESTIA S.A.,Karolina Mazur Usługi Finansowe,Karolina,Mazur,1251118604,0000018737,Krzysztof,Lis,74070371278,2021-07-28,2025-12-03
+11478688/P/523265,10000194/A/300194,WARTA S.A.,Dariusz Piotrowski Usługi Finansowe,Dariusz,Piotrowski,1251197791,0000018834,Ewa,Kołodziej,75080472625,2018-01-23,
+69998233/P/942544,10000195/A/300195,WARTA S.A.,Krzysztof Krawczyk Pośrednictwo,Krzysztof,Krawczyk,1251276987,0000018931,Adam,Kaczmarek,76090574011,2023-09-26,
+59497725/P/837669,10000196/A/300196,ERGO HESTIA S.A.,Mateusz Kozłowski Biuro Ubezpieczeń,Mateusz,Kozłowski,1251356172,0000019028,Monika,Piątek,77100675362,2022-08-30,
+40082202/P/479689,10000197/A/300197,PZU SA,Jakub Jankowski Biuro Ubezpieczeń,Jakub,Jankowski,1251435368,0000019125,Marek,Sadowski,78110776757,2021-07-16,2025-10-15
+22336385/P/921049,10000198/A/300198,UNIQA TU S.A.,Joanna Kamińska Konsulting,Joanna,Kamińska,1251514553,0000019222,Barbara,Włodarczyk,79120878105,2020-03-08,
+94546957/P/686998,10000199/A/300199,ERGO HESTIA S.A.,Bartosz Jankowski Usługi Finansowe,Bartosz,Jankowski,1251593742,0000019319,Rafał,Borkowski,80010979495,2024-04-11,
