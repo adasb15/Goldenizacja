@@ -1,9 +1,16 @@
 import re
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Any
 
 from app.layers.staging_validation.mapper import normalize_entity_type
 
+
+try:
+    import dns.exception
+    import dns.resolver
+except ImportError:
+    dns = None
 
 try:
     from email_validator import EmailNotValidError, validate_email
@@ -25,6 +32,7 @@ except ImportError:
 
 
 EMAIL_FALLBACK_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+EMAIL_DNS_TIMEOUT_SECONDS = 2.0
 PERSON_NAME_RE = re.compile(r"^[A-Z][A-Z '\-]*$")
 KRS_RE = re.compile(r"^\d{10}$")
 POLISH_ID_CARD_RE = re.compile(r"^[A-Z]{3}\d{6}$")
@@ -340,12 +348,51 @@ def validate_polish_identifier(identifier_type: str, value: str | None) -> bool:
 def validate_email_value(value: str | None, check_dns: bool = False) -> bool:
     if value in (None, ""):
         return True
+
+    normalized_value = str(value).strip()
     if validate_email is None:
-        return EMAIL_FALLBACK_RE.match(str(value)) is not None
-    try:
-        validate_email(str(value), check_deliverability=check_dns)
+        if EMAIL_FALLBACK_RE.match(normalized_value) is None:
+            return False
+        domain = normalized_value.rsplit("@", 1)[1].lower()
+    else:
+        try:
+            email_info = validate_email(normalized_value, check_deliverability=False)
+        except EmailNotValidError:
+            return False
+        domain = email_info.domain.lower()
+
+    if not check_dns:
         return True
-    except EmailNotValidError:
+    return email_domain_exists(domain)
+
+
+@lru_cache(maxsize=1024)
+def email_domain_exists(domain: str) -> bool:
+    if dns is None:
+        return False
+
+    normalized_domain = domain.strip().rstrip(".").lower()
+    if "." not in normalized_domain:
+        return False
+
+    resolver = dns.resolver.Resolver()
+    resolver.timeout = EMAIL_DNS_TIMEOUT_SECONDS
+    resolver.lifetime = EMAIL_DNS_TIMEOUT_SECONDS
+
+    if dns_record_exists(resolver, normalized_domain, "MX"):
+        return True
+    return dns_record_exists(resolver, normalized_domain, "A") or dns_record_exists(
+        resolver, normalized_domain, "AAAA"
+    )
+
+
+def dns_record_exists(resolver: Any, domain: str, record_type: str) -> bool:
+    try:
+        resolver.resolve(domain, record_type)
+        return True
+    except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer, dns.resolver.NoNameservers, dns.exception.Timeout):
+        return False
+    except dns.exception.DNSException:
         return False
 
 
