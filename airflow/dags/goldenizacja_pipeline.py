@@ -55,7 +55,11 @@ def _post_form(endpoint: str, data: dict[str, Any], files: dict[str, Any] | None
         files=files,
         timeout=300,
     )
-    response.raise_for_status()
+    if not response.ok:
+        raise RuntimeError(
+            f"API request failed: POST {endpoint} returned HTTP {response.status_code}. "
+            f"Response: {response.text}"
+        )
     return response.json()
 
 
