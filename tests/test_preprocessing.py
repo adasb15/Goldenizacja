@@ -12,7 +12,7 @@ from app.layers.preprocessing.service import (
 
 class PreprocessingTests(unittest.TestCase):
     def test_normalizes_text_for_matching(self) -> None:
-        self.assertEqual(normalize_text_key("  Łódź sp. z o.o.\n"), "LODZ SP. Z O.O.")
+        self.assertEqual(normalize_text_key("  Łódź sp. z o.o.\n"), "LÓDŹ SP. Z O.O.")
 
     def test_normalizes_phone_and_email(self) -> None:
         self.assertEqual(normalize_phone("502 693 570"), "+48502693570")
@@ -49,9 +49,9 @@ class PreprocessingTests(unittest.TestCase):
 
         preprocessed = build_preprocessed_record(staging_record, "PARTY")
 
-        self.assertEqual(preprocessed["Name_Normalized"], "GLOGOWSKA SPOLKA AKCYJNA")
+        self.assertEqual(preprocessed["Name_Normalized"], "GŁOGOWSKA SPÓŁKA AKCYJNA")
         self.assertEqual(preprocessed["NIP_Normalized"], "1234567890")
-        self.assertEqual(preprocessed["Street_Normalized"], "BALTYCKA")
+        self.assertEqual(preprocessed["Street_Normalized"], "BAŁTYCKA")
         self.assertEqual(preprocessed["Building_Number_Normalized"], "136")
         self.assertEqual(preprocessed["Apartment_Number_Normalized"], "11")
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "66-157")
@@ -82,12 +82,12 @@ class PreprocessingTests(unittest.TestCase):
 
         preprocessed = build_preprocessed_record(staging_record, "PERSON")
 
-        self.assertEqual(preprocessed["Full_Name_Normalized"], "LUKASZ ZOLC")
-        self.assertEqual(preprocessed["Street_Normalized"], "LAKOWA")
+        self.assertEqual(preprocessed["Full_Name_Normalized"], "ŁUKASZ ZÓŁC")
+        self.assertEqual(preprocessed["Street_Normalized"], "ŁĄKOWA")
         self.assertEqual(preprocessed["Building_Number_Normalized"], "38")
         self.assertEqual(preprocessed["Apartment_Number_Normalized"], "43")
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "44-508")
-        self.assertEqual(preprocessed["City_Normalized"], "RZESZOW")
+        self.assertEqual(preprocessed["City_Normalized"], "RZESZÓW")
 
 
 if __name__ == "__main__":

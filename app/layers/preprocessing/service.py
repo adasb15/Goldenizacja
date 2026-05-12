@@ -1,6 +1,5 @@
 import json
 import re
-import unicodedata
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
@@ -12,11 +11,6 @@ try:
     import phonenumbers
 except ImportError:
     phonenumbers = None
-
-try:
-    from text_unidecode import unidecode
-except ImportError:
-    unidecode = None
 
 
 ADDRESS_PREFIX_RE = re.compile(r"^(?:ul\.?|ulica|al\.?|aleja)\s+", re.IGNORECASE)
@@ -35,12 +29,6 @@ STREET_BUILDING_LINE_RE = re.compile(
 NON_DIGIT_RE = re.compile(r"\D+")
 NON_ALNUM_RE = re.compile(r"[^0-9A-Z]+")
 MULTISPACE_RE = re.compile(r"\s+")
-POLISH_SPECIAL_TRANSLATION = str.maketrans(
-    {
-        "ł": "l",
-        "Ł": "L",
-    }
-)
 
 
 class StagingRecordsNotFoundError(ValueError):
@@ -311,15 +299,7 @@ def normalize_text_key(value: Any) -> str | None:
     value = empty_to_none(value)
     if value is None:
         return None
-    translated = str(value).translate(POLISH_SPECIAL_TRANSLATION)
-    if unidecode is not None:
-        ascii_value = unidecode(translated)
-    else:
-        without_accents = unicodedata.normalize("NFKD", translated)
-        ascii_value = "".join(
-            character for character in without_accents if not unicodedata.combining(character)
-        )
-    return compact_text(ascii_value.upper())
+    return compact_text(str(value).upper())
 
 
 def normalize_identifier(value: Any) -> str | None:
