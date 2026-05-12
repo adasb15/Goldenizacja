@@ -67,6 +67,9 @@ services:
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
       - ./airflow/config:/opt/airflow/config
+      - ./data:/opt/airflow/data:ro
+    depends_on:
+      - api
 
   mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
