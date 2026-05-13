@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <dataset name="pesel">
   <record>
     <field name="PESEL">73072354849</field>
@@ -14,17 +14,17 @@
     <field name="ImieMatki">Agnieszka</field>
     <field name="AdresZameldowania">ul. Piotrkowska 141/71, 90-102 Łódź</field>
     <field name="AdresKorespondencyjny">ul. Piotrkowska 141/71, 90-102 Łódź</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-662-247-653</field>
-    <field name="Email">anna_kowalska@onet.pl</field>
+    <field name="Email">anna_kowalska@uuu.ii</field>
   </record>
   <record>
     <field name="PESEL">85051056231</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Nowacki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1985-05-10</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -34,16 +34,16 @@
     <field name="AdresZameldowania">ul Zachodnia 158, 90-402 Łódź</field>
     <field name="AdresKorespondencyjny">ul Zachodnia 158, 90-402 Łódź</field>
     <field name="NumerDowoduOsobistego">SLB001146</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">789 108 568</field>
-    <field name="Email">tomasz.nowacki94@interia.pl</field>
+    <field name="Email">tomasz.nowacki94@qqq.zz</field>
   </record>
   <record>
     <field name="PESEL">76122057581</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wiśniewska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1976-12-20</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Olsztyn</field>
@@ -55,14 +55,14 @@
     <field name="NumerDowoduOsobistego">VQM677689</field>
     <field name="NumerPaszportu">P1491097</field>
     <field name="Telefon">780 297 949</field>
-    <field name="Email">katarzyna.wisniewska@brak-domeny</field>
+    <field name="Email">katarzyna.wisniewska@abc.yy</field>
   </record>
   <record>
     <field name="PESEL">85021858977</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Wójcik</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1985-02-18</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -72,9 +72,9 @@
     <field name="AdresZameldowania">Legnicka 12, 54-203 Wrocław</field>
     <field name="AdresKorespondencyjny">Legnicka 12, 54-203 Wrocław</field>
     <field name="NumerDowoduOsobistego">YVX054232</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 569 897 630</field>
-    <field name="Email">k.wojcik@proton.me</field>
+    <field name="Email">k.wojcik@xxx.uu</field>
   </record>
   <record>
     <field name="PESEL">94110960325</field>
@@ -91,16 +91,16 @@
     <field name="AdresZameldowania">ul. Święty Marcin 29/33, 61-806 Poznań</field>
     <field name="AdresKorespondencyjny">ul. Święty Marcin 29/33, 61-806 Poznań</field>
     <field name="NumerDowoduOsobistego">BAI730775</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">748 565 064</field>
-    <field name="Email">kowalczyk.ewa@outlook.com</field>
+    <field name="Email">kowalczyk.ewa@bbb.ii</field>
   </record>
   <record>
     <field name="PESEL">86092961713</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kamiński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1986-09-29</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -110,9 +110,9 @@
     <field name="AdresZameldowania">ul Głogowska 46, 60-734 Poznań</field>
     <field name="AdresKorespondencyjny">ul Głogowska 46, 60-734 Poznań</field>
     <field name="NumerDowoduOsobistego">EFT707318</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 561 589 249</field>
-    <field name="Email">adamkaminski@yahoo.com</field>
+    <field name="Email">adamkaminski@mmm.zz</field>
   </record>
   <record>
     <field name="PESEL">98061563060</field>
@@ -131,14 +131,14 @@
     <field name="NumerDowoduOsobistego">HKE183861</field>
     <field name="NumerPaszportu">PA9556848</field>
     <field name="Telefon">+48 636 846 057</field>
-    <field name="Email">monika_lewandowska@icloud.com</field>
+    <field name="Email">monika_lewandowska@nnn.yy</field>
   </record>
   <record>
     <field name="PESEL">70110364451</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Mihcał</field>
     <field name="Nazwisko">Zieliński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1970-11-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdas</field>
@@ -150,14 +150,14 @@
     <field name="NumerDowoduOsobistego">KPP860404</field>
     <field name="NumerPaszportu">PA3592018</field>
     <field name="Telefon">48-511-660-885</field>
-    <field name="Email">marek.zielinski71@localhost</field>
+    <field name="Email">marek.zielinski71@kkk.uu</field>
   </record>
   <record>
     <field name="PESEL">95012565805</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Szymańska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1995-01-25</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -166,17 +166,17 @@
     <field name="ImieMatki">Magdalena</field>
     <field name="AdresZameldowania">ul. Jagiellońska 97/85, 70-435 Szczecin</field>
     <field name="AdresKorespondencyjny">ul. Jagiellońska 97/85, 70-435 Szczecin</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-712-533-813</field>
-    <field name="Email">barbara.szymanska@wp.pl</field>
+    <field name="Email">barbara.szymanska@proton.me</field>
   </record>
   <record>
     <field name="PESEL">81040167197</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1981-04-01</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Zielona Góra</field>
@@ -186,9 +186,9 @@
     <field name="AdresZameldowania">ul Wyszyńskiego 114, 70-200 Szczecin</field>
     <field name="AdresKorespondencyjny">ul Wyszyńskiego 114, 70-200 Szczecin</field>
     <field name="NumerDowoduOsobistego">QZL113490</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 701828060</field>
-    <field name="Email">r.dabrowski@onet.pl</field>
+    <field name="Email">r.dabrowski@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">68012868544</field>
@@ -205,16 +205,16 @@
     <field name="AdresZameldowania">ulica Mariacka 131, 40-014 Katowice</field>
     <field name="AdresKorespondencyjny">ulica Mariacka 131, 40-014 Katowice</field>
     <field name="NumerDowoduOsobistego">TEW090033</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">608 762 062</field>
-    <field name="Email">mazur.anna@interia.pl</field>
+    <field name="Email">mazur.anna@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">79060469939</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Krawczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1979-06-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -226,7 +226,7 @@
     <field name="NumerDowoduOsobistego">WJH066576</field>
     <field name="NumerPaszportu">PA4853513</field>
     <field name="Telefon">637252877</field>
-    <field name="Email">tomaszkrawczyk@o2.pl</field>
+    <field name="Email">tomaszkrawczyk@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">83062071283</field>
@@ -243,16 +243,16 @@
     <field name="AdresZameldowania">ul. Krakowskie Przedmieście 165/47, 20-002 Lublin</field>
     <field name="AdresKorespondencyjny">ul. Krakowskie Przedmieście 165/47, 20-002 Lublin</field>
     <field name="NumerDowoduOsobistego">ZOS743119</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 665 510 566</field>
-    <field name="Email">katarzyna_wozniak@brak-domeny</field>
+    <field name="Email">katarzyna_wozniak@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">83080872673</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Jankowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1983-08-08</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -262,16 +262,16 @@
     <field name="AdresZameldowania">ul Narutowicza 2, 20-004 Lublin</field>
     <field name="AdresKorespondencyjny">ul Narutowicza 2, 20-004 Lublin</field>
     <field name="NumerDowoduOsobistego">CTD219662</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 604 651 911</field>
-    <field name="Email">krzysztof.jankowski77@outlook.com</field>
+    <field name="Email">krzysztof.jankowski77@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">87021974024</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Grabowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1987-02-19</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -281,16 +281,16 @@
     <field name="AdresZameldowania">ulica Lipowa 19, 15-424 Białystok</field>
     <field name="AdresKorespondencyjny">ulica Lipowa 19, 15-424 Białystok</field>
     <field name="NumerDowoduOsobistego">FYO996205</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">547 215 542</field>
-    <field name="Email">ewa.grabowska@yahoo.com</field>
+    <field name="Email">ewa.grabowska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">67100475413</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Pawlak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1967-10-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -300,9 +300,9 @@
     <field name="AdresZameldowania">Sienkiewicza 36, 15-092 Białystok</field>
     <field name="AdresKorespondencyjny">Sienkiewicza 36, 15-092 Białystok</field>
     <field name="NumerDowoduOsobistego">IDZ472748</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">659 454 793</field>
-    <field name="Email">a.pawlak@icloud.com</field>
+    <field name="Email">a.pawlak@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">67020276761</field>
@@ -310,37 +310,37 @@
     <field name="DrugieImie">Maria</field>
     <field name="Nazwisko">Michalska</field>
     <field name="NazwiskoRodowe">Górska</field>
-    <field name="DataUrodzenia"></field>
-    <field name="Plec"></field>
+    <field name="DataUrodzenia" />
+    <field name="Plec" />
     <field name="MiejsceUrodzenia">Poznań</field>
     <field name="Obywatelstwo">PL</field>
     <field name="ImieOjca">Rafał</field>
     <field name="ImieMatki">Joanna</field>
     <field name="AdresZameldowania">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
     <field name="AdresKorespondencyjny">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 553682704</field>
-    <field name="Email">michalska.monika@gmail.com</field>
+    <field name="Email">michalska.monika@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">82081078156</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Król</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1982-08-10</field>
     <field name="Plec">M</field>
-    <field name="MiejsceUrodzenia"></field>
+    <field name="MiejsceUrodzenia" />
     <field name="Obywatelstwo">PL</field>
     <field name="ImieOjca">Piotr</field>
     <field name="ImieMatki">Ewa</field>
     <field name="AdresZameldowania">ul Dworcowa 70, 85-009 Bydgoszcz</field>
     <field name="AdresKorespondencyjny">ul Dworcowa 70, 85-009 Bydgoszcz</field>
     <field name="NumerDowoduOsobistego">ONV825834</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 726 445 217</field>
-    <field name="Email">marekkrol@localhost</field>
+    <field name="Email">marekkrol@proton.me</field>
   </record>
   <record>
     <field name="PESEL">03261879503</field>
@@ -357,16 +357,16 @@
     <field name="AdresZameldowania">ulica Szeroka 87, 87-100 Toruń</field>
     <field name="AdresKorespondencyjny">ulica Szeroka 87, 87-100 Toruń</field>
     <field name="NumerDowoduOsobistego">RSG802377</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 753 434 973</field>
-    <field name="Email">barbara_wieczorek@onet.pl</field>
+    <field name="Email">barbara_wieczorek@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">97120380895</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Jabłoński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1997-12-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -376,16 +376,16 @@
     <field name="AdresZameldowania">Chełmińska 104, Toruń</field>
     <field name="AdresKorespondencyjny">Chełmińska 104, Toruń</field>
     <field name="NumerDowoduOsobistego">UXR278920</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">667 481 564</field>
-    <field name="Email">rafal.jablonski83@interia.pl</field>
+    <field name="Email">rafal.jablonski83@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">74091982244</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Witkowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-09-19</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Zielona Góra</field>
@@ -395,16 +395,16 @@
     <field name="AdresZameldowania">ul. 3 Maja 121/61, 35-030 Rzeszów</field>
     <field name="AdresKorespondencyjny">ul. 3 Maja 121/61, 35-030 Rzeszów</field>
     <field name="NumerDowoduOsobistego">XCC455463</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">729486079</field>
-    <field name="Email">anna.witkowska@o2.pl</field>
+    <field name="Email">anna.witkowska@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">84021283637</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Walczak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1984-02-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -416,7 +416,7 @@
     <field name="NumerDowoduOsobistego">AHN932006</field>
     <field name="NumerPaszportu">PA8175810</field>
     <field name="Telefon">(48) 525384817</field>
-    <field name="Email">t.walczak@proton.me</field>
+    <field name="Email">t.walczak@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">94060384981</field>
@@ -433,16 +433,16 @@
     <field name="AdresZameldowania">ulica Sienkiewicza 155, 25-007 Kielce</field>
     <field name="AdresKorespondencyjny">ulica Sienkiewicza 155, 25-007 Kielce</field>
     <field name="NumerDowoduOsobistego">DMY508549</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-698-700-040</field>
-    <field name="Email">stepien.katarzyna@brak-domeny</field>
+    <field name="Email">stepien.katarzyna@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">98051786376</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Baran</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1998-05-17</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Zielona Góra</field>
@@ -454,7 +454,7 @@
     <field name="NumerDowoduOsobistego">GRJ285092</field>
     <field name="NumerPaszportu">PL4534077</field>
     <field name="Telefon">48-596-628-738</field>
-    <field name="Email">krzysztofbaran@yahoo.com</field>
+    <field name="Email">krzysztofbaran@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">75022887722</field>
@@ -470,17 +470,17 @@
     <field name="ImieMatki">Maria</field>
     <field name="AdresZameldowania">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
     <field name="AdresKorespondencyjny">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 609 401 694</field>
-    <field name="Email">ewa_rutkowska@icloud.com</field>
+    <field name="Email">ewa_rutkowska@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">74040589119</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Górski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-04-05</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -490,16 +490,16 @@
     <field name="AdresZameldowania">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="AdresKorespondencyjny">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="NumerDowoduOsobistego">MBF138178</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">796 553 410</field>
-    <field name="Email">adam.gorski89@gmail.com</field>
+    <field name="Email">adam.gorski89@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">85050190464</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Sikora</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1985-05-01</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -511,14 +511,14 @@
     <field name="NumerDowoduOsobistego">PGQ214721</field>
     <field name="NumerPaszportu">P5900479</field>
     <field name="Telefon">597 104 875</field>
-    <field name="Email">monika.sikora@wp.pl</field>
+    <field name="Email">monika.sikora@proton.me</field>
   </record>
   <record>
     <field name="PESEL">02292291856</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Ostrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2002-09-22</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -530,7 +530,7 @@
     <field name="NumerDowoduOsobistego">SLB291264</field>
     <field name="NumerPaszportu">P4928483</field>
     <field name="Telefon">(48) 635945031</field>
-    <field name="Email">m.ostrowski@localhost</field>
+    <field name="Email">m.ostrowski@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">66120493207</field>
@@ -547,16 +547,16 @@
     <field name="AdresZameldowania">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="AdresKorespondencyjny">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="NumerDowoduOsobistego">VQM967807</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-678-752-619</field>
-    <field name="Email">tomaszewska.barbara@interia.pl</field>
+    <field name="Email">tomaszewska.barbara@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">00232594591</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Zając</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-03-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -566,9 +566,9 @@
     <field name="AdresZameldowania">ul Kupiecka 94, 65-058 Zielona Góra</field>
     <field name="AdresKorespondencyjny">ul Kupiecka 94, 65-058 Zielona Góra</field>
     <field name="NumerDowoduOsobistego">YVX244350</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-782-655-352</field>
-    <field name="Email">rafalzajac@onetpl</field>
+    <field name="Email">rafalzajac@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">96031095946</field>
@@ -585,16 +585,16 @@
     <field name="AdresZameldowania">ulica Świętojańska 111, 81-372 Gdynia</field>
     <field name="AdresKorespondencyjny">ulica Świętojańska 111, 81-372 Gdynia</field>
     <field name="NumerDowoduOsobistego">BAI920893</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 737 784 018</field>
-    <field name="Email">anna_pietrzak@o2.pl</field>
+    <field name="Email">anna_pietrzak@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">80122597332</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Wójcicki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1980-12-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -606,14 +606,14 @@
     <field name="NumerDowoduOsobistego">EFT997436</field>
     <field name="NumerPaszportu">P9695950</field>
     <field name="Telefon">735497770</field>
-    <field name="Email">tomasz.wojcicki95@proton.me</field>
+    <field name="Email">tomasz.wojcicki95@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">00210398683</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Czarnecka</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-01-03</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -622,17 +622,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ul. Bolesława Prusa 145/37, 05-800 Pruszków</field>
     <field name="AdresKorespondencyjny">ul. Bolesława Prusa 145/37, 05-800 Pruszków</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PL8874187</field>
     <field name="Telefon">+48 542 555 664</field>
-    <field name="Email">katarzyna.czarnecka@outlook.com</field>
+    <field name="Email">katarzyna.czarnecka@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">77062100072</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Lis</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1977-06-21</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocłah</field>
@@ -642,9 +642,9 @@
     <field name="AdresZameldowania">ul Kościuszki 162, 05-500 Piaseczno</field>
     <field name="AdresKorespondencyjny">ul Kościuszki 162, 05-500 Piaseczno</field>
     <field name="NumerDowoduOsobistego">KPP050522</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-565-266-403</field>
-    <field name="Email">k.lis@brak-domeny</field>
+    <field name="Email">k.lis@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">86010701425</field>
@@ -661,16 +661,16 @@
     <field name="AdresZameldowania">179, 32-020 Wieliczka</field>
     <field name="AdresKorespondencyjny">179, 32-020 Wieliczka</field>
     <field name="NumerDowoduOsobistego">NUA327065</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">681332549</field>
-    <field name="Email">kolodziej.ewa@icloud.com</field>
+    <field name="Email">kolodziej.ewa@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">80122502811</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kaczmarek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1980-12-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -680,9 +680,9 @@
     <field name="AdresZameldowania">os. Dąbrowskiego 16, 32-600 Oświęcim</field>
     <field name="AdresKorespondencyjny">os. Dąbrowskiego 16, 32-600 Oświęcim</field>
     <field name="NumerDowoduOsobistego">QZL703608</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 608106252</field>
-    <field name="Email">adamkaczmarek@gmail.com</field>
+    <field name="Email">adamkaczmarek@proton.me</field>
   </record>
   <record>
     <field name="PESEL">70032004169</field>
@@ -699,16 +699,16 @@
     <field name="AdresZameldowania">ul. Rynek 33/89, 38-400 Krosno</field>
     <field name="AdresKorespondencyjny">ul. Rynek 33/89, 38-400 Krosno</field>
     <field name="NumerDowoduOsobistego">TEW280151</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">589 498 674</field>
-    <field name="Email">monika_piatek@wp.pl</field>
+    <field name="Email">monika_piatek@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">96120305554</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Sadowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1996-12-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -720,14 +720,14 @@
     <field name="NumerDowoduOsobistego">WJH256694</field>
     <field name="NumerPaszportu">PL6799346</field>
     <field name="Telefon">500 231 747</field>
-    <field name="Email">marek.sadowski72@onet.pl</field>
+    <field name="Email">marek.sadowski72@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">75052206902</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Włodarczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1975-05-22</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -739,14 +739,14 @@
     <field name="NumerDowoduOsobistego">ZOS933237</field>
     <field name="NumerPaszportu">P3943843</field>
     <field name="Telefon">678907515</field>
-    <field name="Email">barbara.wlodarczyk@localhost</field>
+    <field name="Email">barbara.wlodarczyk@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">71082708294</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Borkowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1971-08-27</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -758,7 +758,7 @@
     <field name="NumerDowoduOsobistego">CTD409780</field>
     <field name="NumerPaszportu">P3191160</field>
     <field name="Telefon">48-770-203-887</field>
-    <field name="Email">r.borkowski@o2.pl</field>
+    <field name="Email">r.borkowski@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">74061509642</field>
@@ -774,17 +774,17 @@
     <field name="ImieMatki">Agnieszka</field>
     <field name="AdresZameldowania">ul. Chrobrego 101/51, 62-200 Gniezno</field>
     <field name="AdresKorespondencyjny">ul. Chrobrego 101/51, 62-200 Gniezno</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">700 882 873</field>
-    <field name="Email">kowalska.anna@proton.me</field>
+    <field name="Email">kowalska.anna@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">66123111030</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Nowacki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1966-12-31</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszcz</field>
@@ -796,7 +796,7 @@
     <field name="NumerDowoduOsobistego">IDZ662866</field>
     <field name="NumerPaszportu">PL9406100</field>
     <field name="Telefon">48-594-863-198</field>
-    <field name="Email">tomasznowacki@outlook.com</field>
+    <field name="Email">tomasznowacki@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">88011312387</field>
@@ -815,14 +815,14 @@
     <field name="NumerDowoduOsobistego">LIK039409</field>
     <field name="NumerPaszportu">PA9652310</field>
     <field name="Telefon">(48) 677656912</field>
-    <field name="Email">katarzyna_wisniewska@yahoo.com</field>
+    <field name="Email">katarzyna_wisniewska@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">88032913770</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Wójcik</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1988-03-29</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -834,14 +834,14 @@
     <field name="NumerDowoduOsobistego">ONV015952</field>
     <field name="NumerPaszportu">P9758448</field>
     <field name="Telefon">+48 661 570 615</field>
-    <field name="Email">krzysztof.wojcik78@brak-domeny</field>
+    <field name="Email">krzysztof.wojcik78@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">89071815128</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kowalczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1989-07-18</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -853,14 +853,14 @@
     <field name="NumerDowoduOsobistego">RSG092495</field>
     <field name="NumerPaszportu">PA2845185</field>
     <field name="Telefon">(48) 768664943</field>
-    <field name="Email">ewa.kowalczyk@gmail.com</field>
+    <field name="Email">ewa.kowalczyk@proton.me</field>
   </record>
   <record>
     <field name="PESEL">65070416515</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kamiński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1965-07-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -870,9 +870,9 @@
     <field name="AdresZameldowania">ul Małachowskiego 6, 42-500 Będzin</field>
     <field name="AdresKorespondencyjny">ul Małachowskiego 6, 42-500 Będzin</field>
     <field name="NumerDowoduOsobistego">UXR069038</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 638 488 651</field>
-    <field name="Email">a.kaminski@wp.pl</field>
+    <field name="Email">a.kaminski@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">95100617865</field>
@@ -889,16 +889,16 @@
     <field name="AdresZameldowania">ulica Królowej Jadwigi 23, 88-100 Inowrocław</field>
     <field name="AdresKorespondencyjny">ulica Królowej Jadwigi 23, 88-100 Inowrocław</field>
     <field name="NumerDowoduOsobistego">XCC645581</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-782-500-566</field>
-    <field name="Email">lewandowska.monika@onet.pl</field>
+    <field name="Email">lewandowska.monika@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">93041519255</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Zieliński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1993-04-15</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -908,9 +908,9 @@
     <field name="AdresZameldowania">Wybickiego 40, 86-300 Grudziądz</field>
     <field name="AdresKorespondencyjny">Wybickiego 40, 86-300 Grudziądz</field>
     <field name="NumerDowoduOsobistego">AHN122124</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 716 523 426</field>
-    <field name="Email">marekzielinski@interia.pl</field>
+    <field name="Email">marekzielinski@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">88082420602</field>
@@ -926,17 +926,17 @@
     <field name="ImieMatki">Magdalena</field>
     <field name="AdresZameldowania">57/65, 14-100 Ostróda</field>
     <field name="AdresKorespondencyjny">57/65, 14-100 Ostróda</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">P6662066</field>
     <field name="Telefon">48-549-155-087</field>
-    <field name="Email">barbara_szymanska@localhost</field>
+    <field name="Email">barbara_szymanska@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">98120321994</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1998-12-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Łódź</field>
@@ -946,16 +946,16 @@
     <field name="AdresZameldowania">ul Warszawska 74, 11-500 Giżycko</field>
     <field name="AdresKorespondencyjny">ul Warszawska 74, 11-500 Giżycko</field>
     <field name="NumerDowoduOsobistego">GRJ575210</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">647131229</field>
-    <field name="Email">rafal.dabrowski84@proton.me</field>
+    <field name="Email">rafal.dabrowski84@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">75012023341</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Mazur</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1975-01-20</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -967,14 +967,14 @@
     <field name="NumerDowoduOsobistego">JWU851753</field>
     <field name="NumerPaszportu">PA7806091</field>
     <field name="Telefon">(48) 613279362</field>
-    <field name="Email">anna.mazur@outlook.com</field>
+    <field name="Email">anna.mazur@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">91061024737</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Krawczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1991-06-10</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraków</field>
@@ -984,9 +984,9 @@
     <field name="AdresZameldowania">Staszica 108, 22-400 Zamość</field>
     <field name="AdresKorespondencyjny">Staszica 108, 22-400 Zamość</field>
     <field name="NumerDowoduOsobistego">MBF328296</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-556-901-193</field>
-    <field name="Email">t.krawczyk@yahoo.com</field>
+    <field name="Email">t.krawczyk@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">65020126086</field>
@@ -1003,16 +1003,16 @@
     <field name="AdresZameldowania">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="AdresKorespondencyjny">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="NumerDowoduOsobistego">PGQ704839</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">754267496</field>
-    <field name="Email">wozniak.katarzyna@@wp.pl</field>
+    <field name="Email">wozniak.katarzyna@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">95082127477</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Jankowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1995-08-21</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -1024,7 +1024,7 @@
     <field name="NumerDowoduOsobistego">SLB481382</field>
     <field name="NumerPaszportu">PL7651435</field>
     <field name="Telefon">612 599 428</field>
-    <field name="Email">krzysztofjankowski@gmail.com</field>
+    <field name="Email">krzysztofjankowski@proton.me</field>
   </record>
   <record>
     <field name="PESEL">70100528821</field>
@@ -1041,16 +1041,16 @@
     <field name="AdresZameldowania">ulica Piastowska 159, 48-300 Nysa</field>
     <field name="AdresKorespondencyjny">ulica Piastowska 159, 48-300 Nysa</field>
     <field name="NumerDowoduOsobistego">VQM157925</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">502357316</field>
-    <field name="Email">ewa_grabowska@wp.pl</field>
+    <field name="Email">ewa_grabowska@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">98052830210</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Pawlak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1998-05-28</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -1060,16 +1060,16 @@
     <field name="AdresZameldowania">Długa 176, 49-300 Brzeg</field>
     <field name="AdresKorespondencyjny">Długa 176, 49-300 Brzeg</field>
     <field name="NumerDowoduOsobistego">YVX734468</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">692296688</field>
-    <field name="Email">adam.pawlak90@onet.pl</field>
+    <field name="Email">adam.pawlak90@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">73073031565</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Michalska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1973-07-30</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -1078,17 +1078,17 @@
     <field name="ImieMatki">Joanna</field>
     <field name="AdresZameldowania">ul. Rynek 13/79, 68-200 Żary</field>
     <field name="AdresKorespondencyjny">ul. Rynek 13/79, 68-200 Żary</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-799-952-364</field>
-    <field name="Email">monika.michalska@interia.pl</field>
+    <field name="Email">monika.michalska@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">97030432958</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Król</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1997-03-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wcrołw</field>
@@ -1098,9 +1098,9 @@
     <field name="AdresZameldowania">ul Sikorskiego 30, 66-200 Świebodzin</field>
     <field name="AdresKorespondencyjny">ul Sikorskiego 30, 66-200 Świebodzin</field>
     <field name="NumerDowoduOsobistego">EFT187554</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">546 412 140</field>
-    <field name="Email">m.krol@mail_invalid.pl</field>
+    <field name="Email">m.krol@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">80032934306</field>
@@ -1117,16 +1117,16 @@
     <field name="AdresZameldowania">ulica Armii Krajowej 47, 78-100 Kołobrzeg</field>
     <field name="AdresKorespondencyjny">ulica Armii Krajowej 47, 78-100 Kołobrzeg</field>
     <field name="NumerDowoduOsobistego">HKE164097</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">635 627 527</field>
-    <field name="Email">wieczorek.barbara@proton.me</field>
+    <field name="Email">wieczorek.barbara@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">84051935699</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Jabłoński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-05-19</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -1136,9 +1136,9 @@
     <field name="AdresZameldowania">Piłsudskiego 64, 73-110 Stargard</field>
     <field name="AdresKorespondencyjny">Piłsudskiego 64, 73-110 Stargard</field>
     <field name="NumerDowoduOsobistego">KPP240640</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">704 912 670</field>
-    <field name="Email">rafaljablonski@outlook.com</field>
+    <field name="Email">rafaljablonski@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">68073137045</field>
@@ -1157,15 +1157,15 @@
     <field name="NumerDowoduOsobistego">NUA517183</field>
     <field name="NumerPaszportu">PA5391057</field>
     <field name="Telefon">(48) 545982214</field>
-    <field name="Email">anna_witkowska@yahoo.com</field>
+    <field name="Email">anna_witkowska@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">66111938436</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Walczak</field>
-    <field name="NazwiskoRodowe"></field>
-    <field name="DataUrodzenia"></field>
+    <field name="NazwiskoRodowe" />
+    <field name="DataUrodzenia" />
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
     <field name="Obywatelstwo">PL</field>
@@ -1174,16 +1174,16 @@
     <field name="AdresZameldowania">ul Sienkiewicza 98, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="AdresKorespondencyjny">ul Sienkiewicza 98, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="NumerDowoduOsobistego">QZL993726</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">619531753</field>
-    <field name="Email">tomasz.walczak96@icloud.com</field>
+    <field name="Email">tomasz.walczak96@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">02303039787</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Stępień</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2002-10-30</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -1195,14 +1195,14 @@
     <field name="NumerDowoduOsobistego">TEW770269</field>
     <field name="NumerPaszportu">PA6720688</field>
     <field name="Telefon">+48 510 692 520</field>
-    <field name="Email">katarzyna.stepien@@wp.pl</field>
+    <field name="Email">katarzyna.stepien@proton.me</field>
   </record>
   <record>
     <field name="PESEL">78112541177</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Baran</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1978-11-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -1212,9 +1212,9 @@
     <field name="AdresZameldowania">Krakowskie Przedmieście 132, 00-071 Warszawa</field>
     <field name="AdresKorespondencyjny">Krakowskie Przedmieście 132, 00-071 Warszawa</field>
     <field name="NumerDowoduOsobistego">WJH546812</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 696 535 170</field>
-    <field name="Email">k.baran@wp.pl</field>
+    <field name="Email">k.baran@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">70070542528</field>
@@ -1230,17 +1230,17 @@
     <field name="ImieMatki">Maria</field>
     <field name="AdresZameldowania">os. Floriańska 149/3, 31-019 Kraków</field>
     <field name="AdresKorespondencyjny">os. Floriańska 149/3, 31-019 Kraków</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 600825195</field>
-    <field name="Email">rutkowska.ewa@onet.pl</field>
+    <field name="Email">rutkowska.ewa@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">74073143915</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Górski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-07-31</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -1250,9 +1250,9 @@
     <field name="AdresZameldowania">ul Długa 166, 31-147 Kraków</field>
     <field name="AdresKorespondencyjny">ul Długa 166, 31-147 Kraków</field>
     <field name="NumerDowoduOsobistego">CTD999898</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">535576924</field>
-    <field name="Email">adamgorski@interia.pl</field>
+    <field name="Email">adamgorski@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">89062245260</field>
@@ -1269,16 +1269,16 @@
     <field name="AdresZameldowania">ulica Piotrkowska 3, 90-102 Łódź</field>
     <field name="AdresKorespondencyjny">ulica Piotrkowska 3, 90-102 Łódź</field>
     <field name="NumerDowoduOsobistego">FYO476441</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">770152290</field>
-    <field name="Email">monika_sikora@o2.pl</field>
+    <field name="Email">monika_sikora@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">78032346658</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Ostrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1978-03-23</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -1290,14 +1290,14 @@
     <field name="NumerDowoduOsobistego">IDZ852984</field>
     <field name="NumerPaszportu">PL8443206</field>
     <field name="Telefon">48-675-356-836</field>
-    <field name="Email">marek.ostrowski73@mail_invalid.pl</field>
+    <field name="Email">marek.ostrowski73@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">95102048007</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Tomaszewska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1995-10-20</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Olsztyn</field>
@@ -1307,16 +1307,16 @@
     <field name="AdresZameldowania">ul. Świdnicka 37/55, 50-066 Wrocław</field>
     <field name="AdresKorespondencyjny">ul. Świdnicka 37/55, 50-066 Wrocław</field>
     <field name="NumerDowoduOsobistego">LIK229527</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">611 135 479</field>
-    <field name="Email">barbara.tomaszewska@outlook.com</field>
+    <field name="Email">barbara.tomaszewska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">91072549399</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Zając</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1991-07-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -1326,9 +1326,9 @@
     <field name="AdresZameldowania">ul Legnicka 54, 54-203 Wrocław</field>
     <field name="AdresKorespondencyjny">ul Legnicka 54, 54-203 Wrocław</field>
     <field name="NumerDowoduOsobistego">ONV506070</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">543 699 469</field>
-    <field name="Email">r.zajac@yahoo.com</field>
+    <field name="Email">r.zajac@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">71060950745</field>
@@ -1345,16 +1345,16 @@
     <field name="AdresZameldowania">ulica Święty Marcin 71, 61-806 Poznań</field>
     <field name="AdresKorespondencyjny">ulica Święty Marcin 71, 61-806 Poznań</field>
     <field name="NumerDowoduOsobistego">RSG382613</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-514-295-408</field>
-    <field name="Email">pietrzak.anna@icloud.com</field>
+    <field name="Email">pietrzak.anna@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">83043052131</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wójcicki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1983-04-30</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -1364,9 +1364,9 @@
     <field name="AdresZameldowania">Głogowska 88, 60-734 Poznań</field>
     <field name="AdresKorespondencyjny">Głogowska 88, 60-734 Poznań</field>
     <field name="NumerDowoduOsobistego">UXR259156</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">758 710 384</field>
-    <field name="Email">tomaszwojcicki@gmail.com</field>
+    <field name="Email">tomaszwojcicki@proton.me</field>
   </record>
   <record>
     <field name="PESEL">94061853480</field>
@@ -1382,17 +1382,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ul. Długa 105/17, 80-831 Gdańsk</field>
     <field name="AdresKorespondencyjny">ul. Długa 105/17, 80-831 Gdańsk</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">P5337594</field>
     <field name="Telefon">604395544</field>
-    <field name="Email">katarzyna_czarnecka@@wp.pl</field>
+    <field name="Email">katarzyna_czarnecka@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">83021854870</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Lis</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1983-02-18</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -1402,16 +1402,16 @@
     <field name="AdresZameldowania">ul Grunwaldzka 122, 80-236 Gdańsk</field>
     <field name="AdresKorespondencyjny">ul Grunwaldzka 122, 80-236 Gdańsk</field>
     <field name="NumerDowoduOsobistego">AHN312242</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">504992428</field>
-    <field name="Email">krzysztof.lis79@onet.pl</field>
+    <field name="Email">krzysztof.lis79@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">02251756226</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kołodziej</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2002-05-17</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -1421,16 +1421,16 @@
     <field name="AdresZameldowania">ulica Jagiellońska 139, 70-435 Szczecin</field>
     <field name="AdresKorespondencyjny">ulica Jagiellońska 139, 70-435 Szczecin</field>
     <field name="NumerDowoduOsobistego">DMY988785</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">695221141</field>
-    <field name="Email">ewa.kolodziej@interia.pl</field>
+    <field name="Email">ewa.kolodziej@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">00230257616</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kaczmarek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-03-02</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Olsztyn</field>
@@ -1440,9 +1440,9 @@
     <field name="AdresZameldowania">Wyszyńskiego 156, 70-200 Szczecin</field>
     <field name="AdresKorespondencyjny">Wyszyńskiego 156, 70-200 Szczecin</field>
     <field name="NumerDowoduOsobistego">GRJ065328</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-793-125-365</field>
-    <field name="Email">a.kaczmarek@o2.pl</field>
+    <field name="Email">a.kaczmarek@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">77102658961</field>
@@ -1461,14 +1461,14 @@
     <field name="NumerDowoduOsobistego">JWU041871</field>
     <field name="NumerPaszportu">PA8660726</field>
     <field name="Telefon">48-523-736-101</field>
-    <field name="Email">piatek.monika@proton.me</field>
+    <field name="Email">piatek.monika@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">79010960350</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Sadowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1979-01-09</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Opole</field>
@@ -1478,9 +1478,9 @@
     <field name="AdresZameldowania">ul Warszawska 10, 40-009 Katowice</field>
     <field name="AdresKorespondencyjny">ul Warszawska 10, 40-009 Katowice</field>
     <field name="NumerDowoduOsobistego">MBF618414</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">502807273</field>
-    <field name="Email">mareksadowski@mail_invalid.pl</field>
+    <field name="Email">mareksadowski@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">70072661702</field>
@@ -1497,16 +1497,16 @@
     <field name="AdresZameldowania">ulica Krakowskie Przedmieście 27, 20-002 Lublin</field>
     <field name="AdresKorespondencyjny">ulica Krakowskie Przedmieście 27, 20-002 Lublin</field>
     <field name="NumerDowoduOsobistego">PGQ994957</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 724444407</field>
-    <field name="Email">barbara_wlodarczyk@yahoo.com</field>
+    <field name="Email">barbara_wlodarczyk@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">81011263097</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Borkowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1981-01-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -1516,16 +1516,16 @@
     <field name="AdresZameldowania">Narutowicza 44, 20-004 Lublin</field>
     <field name="AdresKorespondencyjny">Narutowicza 44, 20-004 Lublin</field>
     <field name="NumerDowoduOsobistego">SLB771500</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">766 601 078</field>
-    <field name="Email">rafal.borkowski85@icloud.com</field>
+    <field name="Email">rafal.borkowski85@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">79072564442</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kowalska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1979-07-25</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -1534,17 +1534,17 @@
     <field name="ImieMatki">Agnieszka</field>
     <field name="AdresZameldowania">ul. Lipowa 61/31, 15-424 Białystok</field>
     <field name="AdresKorespondencyjny">ul. Lipowa 61/31, 15-424 Białystok</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">P7021186</field>
     <field name="Telefon">+48 672 226 141</field>
-    <field name="Email">anna.kowalska@gmail.com</field>
+    <field name="Email">anna.kowalska@proton.me</field>
   </record>
   <record>
     <field name="PESEL">78021265830</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Nowacki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1978-02-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Łódź</field>
@@ -1556,7 +1556,7 @@
     <field name="NumerDowoduOsobistego">YVX924586</field>
     <field name="NumerPaszportu">PA9578808</field>
     <field name="Telefon">+48 513 180 013</field>
-    <field name="Email">t.nowacki@wp.pl</field>
+    <field name="Email">t.nowacki@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">71070967180</field>
@@ -1573,16 +1573,16 @@
     <field name="AdresZameldowania">ulica Gdańska 95, 85-005 Bydgoszcz</field>
     <field name="AdresKorespondencyjny">ulica Gdańska 95, 85-005 Bydgoszcz</field>
     <field name="NumerDowoduOsobistego">BAI001129</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 512 784 353</field>
-    <field name="Email">wisniewska.katarzyna@@wp.pl</field>
+    <field name="Email">wisniewska.katarzyna@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">00300568574</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wójcik</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-10-05</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -1592,9 +1592,9 @@
     <field name="AdresZameldowania">Dworcowa 112, 85-009</field>
     <field name="AdresKorespondencyjny">Dworcowa 112, 85-009</field>
     <field name="NumerDowoduOsobistego">EFT377672</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 707835614</field>
-    <field name="Email">krzysztofwojcik@interia.pl</field>
+    <field name="Email">krzysztofwojcik@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">85081869922</field>
@@ -1611,16 +1611,16 @@
     <field name="AdresZameldowania">ul. Szeroka 129/83, 87-100 Toruń</field>
     <field name="AdresKorespondencyjny">ul. Szeroka 129/83, 87-100 Toruń</field>
     <field name="NumerDowoduOsobistego">HKE454215</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">547454516</field>
-    <field name="Email">ewa_kowalczyk@o2.pl</field>
+    <field name="Email">ewa_kowalczyk@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">80082471312</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kamiński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1980-08-24</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -1632,14 +1632,14 @@
     <field name="NumerDowoduOsobistego">KPP730758</field>
     <field name="NumerPaszportu">PL8809488</field>
     <field name="Telefon">730295265</field>
-    <field name="Email">adam.kaminski91@proton.me</field>
+    <field name="Email">adam.kaminski91@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">66102172663</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Lewandowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1966-10-21</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -1649,16 +1649,16 @@
     <field name="AdresZameldowania">ulica 3 Maja 163, 35-030 Rzeszów</field>
     <field name="AdresKorespondencyjny">ulica 3 Maja 163, 35-030 Rzeszów</field>
     <field name="NumerDowoduOsobistego">NUA807301</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">507870622</field>
-    <field name="Email">monika.lewandowska@outlook.com</field>
+    <field name="Email">monika.lewandowska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">70111374057</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Zieliński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1970-11-13</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -1668,9 +1668,9 @@
     <field name="AdresZameldowania">Piłsudskiego 180, 35-074 Rzeszów</field>
     <field name="AdresKorespondencyjny">Piłsudskiego 180, 35-074 Rzeszów</field>
     <field name="NumerDowoduOsobistego">QZL183844</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-748-236-429</field>
-    <field name="Email">m.zielinski@mail_invalid.pl</field>
+    <field name="Email">m.zielinski@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">86041675401</field>
@@ -1686,17 +1686,17 @@
     <field name="ImieMatki">Magdalena</field>
     <field name="AdresZameldowania">ul. Sienkiewicza 17/45, 25-007 Kielce</field>
     <field name="AdresKorespondencyjny">ul. Sienkiewicza 17/45, 25-007 Kielce</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">589140428</field>
-    <field name="Email">szymanska.barbara@icloud.com</field>
+    <field name="Email">szymanska.barbara@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">78061376798</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1978-06-13</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -1708,7 +1708,7 @@
     <field name="NumerDowoduOsobistego">WJH736930</field>
     <field name="NumerPaszportu">PA2983884</field>
     <field name="Telefon">(48) 735609716</field>
-    <field name="Email">rafaldabrowski@gmail.com</field>
+    <field name="Email">rafaldabrowski@proton.me</field>
   </record>
   <record>
     <field name="PESEL">02280478142</field>
@@ -1725,16 +1725,16 @@
     <field name="AdresZameldowania">ulica Kościuszki 51, 10-504 Olsztyn</field>
     <field name="AdresKorespondencyjny">ulica Kościuszki 51, 10-504 Olsztyn</field>
     <field name="NumerDowoduOsobistego">ZOS313473</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-681-636-635</field>
-    <field name="Email">anna_mazur@wp.pl</field>
+    <field name="Email">anna_mazur@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">87091279539</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Krawczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1987-09-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszcz</field>
@@ -1744,16 +1744,16 @@
     <field name="AdresZameldowania">Dąbrowszczaków 68, 10-540 Olsztyn</field>
     <field name="AdresKorespondencyjny">Dąbrowszczaków 68, 10-540 Olsztyn</field>
     <field name="NumerDowoduOsobistego">CTD290016</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-693-920-519</field>
-    <field name="Email">tomasz.krawczyk97@onet.pl</field>
+    <field name="Email">tomasz.krawczyk97@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">65100580889</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Woźniak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1965-10-05</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -1763,16 +1763,16 @@
     <field name="AdresZameldowania">ul. Krakowska 85/7, 45-018 Opole</field>
     <field name="AdresKorespondencyjny">ul. Krakowska 85/7, 45-018 Opole</field>
     <field name="NumerDowoduOsobistego">FYO866559</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-684-549-011</field>
-    <field name="Email">katarzyna.wozniak@@wp.pl</field>
+    <field name="Email">katarzyna.wozniak@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">83012782274</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Jankowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1983-01-27</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -1784,7 +1784,7 @@
     <field name="NumerDowoduOsobistego">IDZ443102</field>
     <field name="NumerPaszportu">PL9092973</field>
     <field name="Telefon">+48 633 477 668</field>
-    <field name="Email">k.jankowski@o2.pl</field>
+    <field name="Email">k.jankowski@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">97122483626</field>
@@ -1801,16 +1801,16 @@
     <field name="AdresZameldowania">ulica Bohaterów Westerplatte 119, 65-034 Zielona Góra</field>
     <field name="AdresKorespondencyjny">ulica Bohaterów Westerplatte 119, 65-034 Zielona Góra</field>
     <field name="NumerDowoduOsobistego">LIK419645</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 648866880</field>
-    <field name="Email">grabowska.ewa@proton.me</field>
+    <field name="Email">grabowska.ewa@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">04291885014</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Pawlak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2004-09-18</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -1822,7 +1822,7 @@
     <field name="NumerDowoduOsobistego">ONV096188</field>
     <field name="NumerPaszportu">P3601348</field>
     <field name="Telefon">48-777-962-829</field>
-    <field name="Email">adampawlak@outlook.com</field>
+    <field name="Email">adampawlak@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">67012386362</field>
@@ -1838,17 +1838,17 @@
     <field name="ImieMatki">Joanna</field>
     <field name="AdresZameldowania">ul. Świętojańska 153/59, 81-372 Gdynia</field>
     <field name="AdresKorespondencyjny">ul. Świętojańska 153/59, 81-372 Gdynia</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 535992589</field>
-    <field name="Email">monika_michalska@yahoo.com</field>
+    <field name="Email">monika_michalska@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">85072987754</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Król</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1985-07-29</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszz</field>
@@ -1860,14 +1860,14 @@
     <field name="NumerDowoduOsobistego">UXR449274</field>
     <field name="NumerPaszportu">PL1247498</field>
     <field name="Telefon">+48 714 402 236</field>
-    <field name="Email">marek.krol74@mail_invalid.pl</field>
+    <field name="Email">marek.krol74@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">67031989100</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wieczorek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1967-03-19</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -1877,16 +1877,16 @@
     <field name="AdresZameldowania">ulica Bolesława Prusa 7, 05-800 Pruszków</field>
     <field name="AdresKorespondencyjny">ulica Bolesława Prusa 7, 05-800 Pruszków</field>
     <field name="NumerDowoduOsobistego">XCC425817</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-649-418-065</field>
-    <field name="Email">barbara.wieczorek@gmail.com</field>
+    <field name="Email">barbara.wieczorek@proton.me</field>
   </record>
   <record>
     <field name="PESEL">68071990495</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Jabłoński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-07-19</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -1898,7 +1898,7 @@
     <field name="NumerDowoduOsobistego">AHN502360</field>
     <field name="NumerPaszportu">P1095916</field>
     <field name="Telefon">48-721-805-790</field>
-    <field name="Email">r.jablonski@wp.pl</field>
+    <field name="Email">r.jablonski@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">83112191840</field>
@@ -1915,16 +1915,16 @@
     <field name="AdresZameldowania">ul. Sienkiewicza 41/21, 32-020 Wieliczka</field>
     <field name="AdresKorespondencyjny">ul. Sienkiewicza 41/21, 32-020 Wieliczka</field>
     <field name="NumerDowoduOsobistego">DMY278903</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-799-866-070</field>
-    <field name="Email">witkowska.anna@onet.pl</field>
+    <field name="Email">witkowska.anna@mmm.zz</field>
   </record>
   <record>
     <field name="PESEL">79050393231</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Walczak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1979-05-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Łódź</field>
@@ -1936,7 +1936,7 @@
     <field name="NumerDowoduOsobistego">GRJ255446</field>
     <field name="NumerPaszportu">PA1770285</field>
     <field name="Telefon">48-631-662-030</field>
-    <field name="Email">tomaszwalczak@interia.pl</field>
+    <field name="Email">tomaszwalczak@nnn.yy</field>
   </record>
   <record>
     <field name="PESEL">74111694588</field>
@@ -1955,14 +1955,14 @@
     <field name="NumerDowoduOsobistego">JWU531989</field>
     <field name="NumerPaszportu">PL2921112</field>
     <field name="Telefon">787 118 919</field>
-    <field name="Email">katarzyna_stepien@@wp.pl</field>
+    <field name="Email">katarzyna_stepien@kkk.uu</field>
   </record>
   <record>
     <field name="PESEL">74032095974</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Baran</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-03-20</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -1972,16 +1972,16 @@
     <field name="AdresZameldowania">Mickiewicza 92, 39-300 Mielec</field>
     <field name="AdresKorespondencyjny">Mickiewicza 92, 39-300 Mielec</field>
     <field name="NumerDowoduOsobistego">MBF808532</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 647 691 646</field>
-    <field name="Email">krzysztof.baran80@proton.me</field>
+    <field name="Email">krzysztof.baran80@tmp.ii</field>
   </record>
   <record>
     <field name="PESEL">79041797323</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Rutkowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1979-04-17</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -1990,17 +1990,17 @@
     <field name="ImieMatki">Maria</field>
     <field name="AdresZameldowania">109/73, 58-100 Świdnica</field>
     <field name="AdresKorespondencyjny">109/73, 58-100 Świdnica</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">640267570</field>
-    <field name="Email">ewa.rutkowska@outlook.com</field>
+    <field name="Email">ewa.rutkowska@foo.zz</field>
   </record>
   <record>
     <field name="PESEL">68031298711</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Górski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-03-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszcz</field>
@@ -2010,9 +2010,9 @@
     <field name="AdresZameldowania">ul Wojska Polskiego 126, 57-300 Kłodzko</field>
     <field name="AdresKorespondencyjny">ul Wojska Polskiego 126, 57-300 Kłodzko</field>
     <field name="NumerDowoduOsobistego">SLB261618</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 545 324 497</field>
-    <field name="Email">a.gorski@yahoo.com</field>
+    <field name="Email">a.gorski@bar.yy</field>
   </record>
   <record>
     <field name="PESEL">66040700061</field>
@@ -2031,14 +2031,14 @@
     <field name="NumerDowoduOsobistego">VQM838161</field>
     <field name="NumerPaszportu">P9562455</field>
     <field name="Telefon">742 444 868</field>
-    <field name="Email">sikora.monika@icloud.com</field>
+    <field name="Email">sikora.monika@zzz.uu</field>
   </record>
   <record>
     <field name="PESEL">71091701459</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Osrtowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1971-09-17</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraó</field>
@@ -2048,9 +2048,9 @@
     <field name="AdresZameldowania">Słowiańska 160, 64-100 Leszno</field>
     <field name="AdresKorespondencyjny">Słowiańska 160, 64-100 Leszno</field>
     <field name="NumerDowoduOsobistego">YVX214704</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-775-743-448</field>
-    <field name="Email">marekostrowski@mail_invalid.pl</field>
+    <field name="Email">marekostrowski@uuu.ii</field>
   </record>
   <record>
     <field name="PESEL">97031102803</field>
@@ -2069,14 +2069,14 @@
     <field name="NumerDowoduOsobistego">BAI291247</field>
     <field name="NumerPaszportu">PL1353650</field>
     <field name="Telefon">743499610</field>
-    <field name="Email">barbara_tomaszewska@wp.pl</field>
+    <field name="Email">barbara_tomaszewska@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">99121204198</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Zając</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1999-12-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -2088,14 +2088,14 @@
     <field name="NumerDowoduOsobistego">EFT567790</field>
     <field name="NumerPaszportu">PL6688025</field>
     <field name="Telefon">48-535-123-037</field>
-    <field name="Email">rafal.zajac86@onet.pl</field>
+    <field name="Email">rafal.zajac86@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">77122405541</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Pietrzak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1977-12-24</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Opole</field>
@@ -2107,14 +2107,14 @@
     <field name="NumerDowoduOsobistego">HKE644333</field>
     <field name="NumerPaszportu">PA9060697</field>
     <field name="Telefon">528693432</field>
-    <field name="Email">anna.pietrzak@interia.pl</field>
+    <field name="Email">anna.pietrzak@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">68072606935</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Wójcicki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-07-26</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Olsztyn</field>
@@ -2124,9 +2124,9 @@
     <field name="AdresZameldowania">48, 42-500 Będzin</field>
     <field name="AdresKorespondencyjny">48, 42-500 Będzin</field>
     <field name="NumerDowoduOsobistego">KPP920876</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 598621261</field>
-    <field name="Email">t.wojcicki@o2.pl</field>
+    <field name="Email">t.wojcicki@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">02293008288</field>
@@ -2142,17 +2142,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ul. Królowej Jadwigi 65/87, 88-100 Inowrocław</field>
     <field name="AdresKorespondencyjny">ul. Królowej Jadwigi 65/87, 88-100 Inowrocław</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 649 744 546</field>
-    <field name="Email">czarnecka.katarzyna@@wp.pl</field>
+    <field name="Email">czarnecka.katarzyna@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">71111409673</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Lis</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1971-11-14</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Rzeszow</field>
@@ -2162,9 +2162,9 @@
     <field name="AdresZameldowania">ul Wybickiego 82, 86-300 Grudziądz</field>
     <field name="AdresKorespondencyjny">ul Wybickiego 82, 86-300 Grudziądz</field>
     <field name="NumerDowoduOsobistego">QZL373962</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-605-626-115</field>
-    <field name="Email">krzysztoflis@outlook.com</field>
+    <field name="Email">krzysztoflis@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">00243011025</field>
@@ -2181,16 +2181,16 @@
     <field name="AdresZameldowania">ulica Czarnieckiego 99, 14-100 Ostróda</field>
     <field name="AdresKorespondencyjny">ulica Czarnieckiego 99, 14-100 Ostróda</field>
     <field name="NumerDowoduOsobistego">TEW250505</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">695891887</field>
-    <field name="Email">ewa_kolodziej@yahoo.com</field>
+    <field name="Email">ewa_kolodziej@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">74030412410</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kaczmarek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1974-03-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszcz</field>
@@ -2200,16 +2200,16 @@
     <field name="AdresZameldowania">Warszawska 116, 11-500 Giżycko</field>
     <field name="AdresKorespondencyjny">Warszawska 116, 11-500 Giżycko</field>
     <field name="NumerDowoduOsobistego">WJH527048</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">706 311 814</field>
-    <field name="Email">adam.kaczmarek92@icloud.com</field>
+    <field name="Email">adam.kaczmarek92@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">81072513760</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Piątek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1981-07-25</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Łódź</field>
@@ -2221,14 +2221,14 @@
     <field name="NumerDowoduOsobistego">ZOS503591</field>
     <field name="NumerPaszportu">PL3931143</field>
     <field name="Telefon">+48 571 826 945</field>
-    <field name="Email">monika.piatek@gmail.com</field>
+    <field name="Email">monika.piatek@proton.me</field>
   </record>
   <record>
     <field name="PESEL">94042015153</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Sadowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1994-04-20</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -2238,9 +2238,9 @@
     <field name="AdresZameldowania">ul Staszica 150, 22-400 Zamość</field>
     <field name="AdresKorespondencyjny">ul Staszica 150, 22-400 Zamość</field>
     <field name="NumerDowoduOsobistego">CTD480134</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-772-475-286</field>
-    <field name="Email">m.sadowski@mail_invalid.pl</field>
+    <field name="Email">m.sadowski@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">98040816501</field>
@@ -2257,16 +2257,16 @@
     <field name="AdresZameldowania">167, 16-300 Augustów</field>
     <field name="AdresKorespondencyjny">167, 16-300 Augustów</field>
     <field name="NumerDowoduOsobistego">FYO056677</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">640 197 320</field>
-    <field name="Email">wlodarczyk.barbara@onet.pl</field>
+    <field name="Email">wlodarczyk.barbara@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">91072417896</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Borkowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1991-07-24</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -2276,9 +2276,9 @@
     <field name="AdresZameldowania">Kościuszki 4, Suwałki</field>
     <field name="AdresKorespondencyjny">Kościuszki 4, Suwałki</field>
     <field name="NumerDowoduOsobistego">IDZ633220</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">698 366 708</field>
-    <field name="Email">rafalborkowski@interia.pl</field>
+    <field name="Email">rafalborkowski@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">79123019246</field>
@@ -2294,17 +2294,17 @@
     <field name="ImieMatki">Agnieszka</field>
     <field name="AdresZameldowania">ul. Piastowska 21/11, 48-300 Nysa</field>
     <field name="AdresKorespondencyjny">ul. Piastowska 21/11, 48-300 Nysa</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PA2151995</field>
     <field name="Telefon">656161003</field>
-    <field name="Email">anna_kowalska@o2.pl</field>
+    <field name="Email">anna_kowalska@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">93072520633</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Nowacki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1993-07-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -2316,14 +2316,14 @@
     <field name="NumerDowoduOsobistego">ONV386306</field>
     <field name="NumerPaszportu">PA6946529</field>
     <field name="Telefon">503 925 281</field>
-    <field name="Email">tomasz.nowacki98@proton.me</field>
+    <field name="Email">tomasz.nowacki98@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">73042121987</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wiśniewska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1973-04-21</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -2333,16 +2333,16 @@
     <field name="AdresZameldowania">os. Rynek 55, 68-200 Żary</field>
     <field name="AdresKorespondencyjny">os. Rynek 55, 68-200 Żary</field>
     <field name="NumerDowoduOsobistego">RSG062849</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 747 116 806</field>
-    <field name="Email">katarzyna.wisniewska@@wp.pl</field>
+    <field name="Email">katarzyna.wisniewska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">97022523370</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Wójcik</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1997-02-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -2354,7 +2354,7 @@
     <field name="NumerDowoduOsobistego">UXR639392</field>
     <field name="NumerPaszportu">PA5532920</field>
     <field name="Telefon">+48 502 275 283</field>
-    <field name="Email">k.wojcik@yahoo.com</field>
+    <field name="Email">k.wojcik@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">77010824726</field>
@@ -2371,16 +2371,16 @@
     <field name="AdresZameldowania">ul. Armii Krajowej 89/63, 78-100 Kołobrzeg</field>
     <field name="AdresKorespondencyjny">ul. Armii Krajowej 89/63, 78-100 Kołobrzeg</field>
     <field name="NumerDowoduOsobistego">XCC615935</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">788693410</field>
-    <field name="Email">kowalczyk.ewa@icloud.com</field>
+    <field name="Email">kowalczyk.ewa@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">97013026116</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kamiński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1997-01-30</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -2390,9 +2390,9 @@
     <field name="AdresZameldowania">ul Piłsudskiego 106, 73-110 Stargard</field>
     <field name="AdresKorespondencyjny">ul Piłsudskiego 106, 73-110 Stargard</field>
     <field name="NumerDowoduOsobistego">AHN092478</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 525 273 611</field>
-    <field name="Email">adamkaminski@gmail.com</field>
+    <field name="Email">adamkaminski@proton.me</field>
   </record>
   <record>
     <field name="PESEL">68110427463</field>
@@ -2411,14 +2411,14 @@
     <field name="NumerDowoduOsobistego">DMY769021</field>
     <field name="NumerPaszportu">PL1009677</field>
     <field name="Telefon">+48 555 187 775</field>
-    <field name="Email">monika_lewandowska@wp.pl</field>
+    <field name="Email">monika_lewandowska@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">68060928850</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Zieliński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-06-09</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -2430,14 +2430,14 @@
     <field name="NumerDowoduOsobistego">GRJ445564</field>
     <field name="NumerPaszportu">PL3212271</field>
     <field name="Telefon">556 486 342</field>
-    <field name="Email">marek.zielinski75@mail_invalid.pl</field>
+    <field name="Email">marek.zielinski75@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">00251330208</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Szymańska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-05-13</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Łódź</field>
@@ -2446,17 +2446,17 @@
     <field name="ImieMatki">Magdalena</field>
     <field name="AdresZameldowania">ul. Marszałkowska 157/25, 00-590 Warszawa</field>
     <field name="AdresKorespondencyjny">ul. Marszałkowska 157/25, 00-590 Warszawa</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PA1105125</field>
     <field name="Telefon">(48) 678881775</field>
-    <field name="Email">barbara.szymanskasilesia-invest.pl</field>
+    <field name="Email">barbara.szymanskasilesia-invest.pl@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">88011531591</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1988-01-15</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -2466,9 +2466,9 @@
     <field name="AdresZameldowania">ul Krakowskie Przedmieście 174, 00-071 Warszawa</field>
     <field name="AdresKorespondencyjny">ul Krakowskie Przedmieście 174, 00-071 Warszawa</field>
     <field name="NumerDowoduOsobistego">MBF098650</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 766343541</field>
-    <field name="Email">r.dabrowski@interia.pl</field>
+    <field name="Email">r.dabrowski@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">67091132948</field>
@@ -2485,16 +2485,16 @@
     <field name="AdresZameldowania">ulica Floriańska 11, 31-019 Kraków</field>
     <field name="AdresKorespondencyjny">ulica Floriańska 11, 31-019 Kraków</field>
     <field name="NumerDowoduOsobistego">PGQ675193</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 717 324 164</field>
-    <field name="Email">mazur.anna@o2.pl</field>
+    <field name="Email">mazur.anna@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">90011434330</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Krawczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1990-01-14</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Opole</field>
@@ -2504,9 +2504,9 @@
     <field name="AdresZameldowania">Długa 28, 31-147 Kraków</field>
     <field name="AdresKorespondencyjny">Długa 28, 31-147 Kraków</field>
     <field name="NumerDowoduOsobistego">SLB451736</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">685 596 818</field>
-    <field name="Email">tomaszkrawczyk@proton.me</field>
+    <field name="Email">tomaszkrawczyk@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">95101735681</field>
@@ -2523,16 +2523,16 @@
     <field name="AdresZameldowania">ul. Piotrkowska 45/77, 90-102 Łódź</field>
     <field name="AdresKorespondencyjny">ul. Piotrkowska 45/77, 90-102 Łódź</field>
     <field name="NumerDowoduOsobistego">VQM328279</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 654607799</field>
-    <field name="Email">katarzyna_wozniak@outlook.com</field>
+    <field name="Email">katarzyna_wozniak@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">90080837070</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Jankowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1990-08-08</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -2542,16 +2542,16 @@
     <field name="AdresZameldowania">ul Zachodnia 62, 90-402 Łódź</field>
     <field name="AdresKorespondencyjny">ul Zachodnia 62, 90-402 Łódź</field>
     <field name="NumerDowoduOsobistego">YVX404822</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">575901110</field>
-    <field name="Email">krzysztof.jankowski81@@wp.pl</field>
+    <field name="Email">krzysztof.jankowski81@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">69030138424</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Grabowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1969-03-01</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -2561,16 +2561,16 @@
     <field name="AdresZameldowania">ulica Świdnicka 79, 50-066 Wrocław</field>
     <field name="AdresKorespondencyjny">ulica Świdnicka 79, 50-066 Wrocław</field>
     <field name="NumerDowoduOsobistego">BAI481365</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 609 797 136</field>
-    <field name="Email">ewa.grabowska@icloud.com</field>
+    <field name="Email">ewa.grabowska@proton.me</field>
   </record>
   <record>
     <field name="PESEL">03280639814</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Pawlak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2003-08-06</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -2582,7 +2582,7 @@
     <field name="NumerDowoduOsobistego">EFT157908</field>
     <field name="NumerPaszportu">P4689255</field>
     <field name="Telefon">+48 511 846 552</field>
-    <field name="Email">a.pawlak@gmail.com</field>
+    <field name="Email">a.pawlak@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">96112741168</field>
@@ -2598,17 +2598,17 @@
     <field name="ImieMatki">Joanna</field>
     <field name="AdresZameldowania">ul. Święty Marcin 113/39, 61-806 Poznań</field>
     <field name="AdresKorespondencyjny">ul. Święty Marcin 113/39, 61-806 Poznań</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">567 132 839</field>
-    <field name="Email">michalska.monika@wp.pl</field>
+    <field name="Email">michalska.monika@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">69041642556</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Król</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1969-04-16</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -2618,9 +2618,9 @@
     <field name="AdresZameldowania">60-734 Poznań</field>
     <field name="AdresKorespondencyjny">60-734 Poznań</field>
     <field name="NumerDowoduOsobistego">KPP110994</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">548 316 005</field>
-    <field name="Email">marekkrol@onet.pl</field>
+    <field name="Email">marekkrol@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">88041043907</field>
@@ -2639,14 +2639,14 @@
     <field name="NumerDowoduOsobistego">NUA587537</field>
     <field name="NumerPaszportu">PL1998522</field>
     <field name="Telefon">(48) 585250137</field>
-    <field name="Email">barbara_wieczorek@mail_invalid.pl</field>
+    <field name="Email">barbara_wieczorek@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">02281645297</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Jabłoński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2002-08-16</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Lublin</field>
@@ -2656,16 +2656,16 @@
     <field name="AdresZameldowania">Grunwaldzka 164, 80-236 Gdańsk</field>
     <field name="AdresKorespondencyjny">Grunwaldzka 164, 80-236 Gdańsk</field>
     <field name="NumerDowoduOsobistego">QZL864080</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 622 776 443</field>
-    <field name="Email">rafal.jablonski87@o2.pl</field>
+    <field name="Email">rafal.jablonski87@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">02320346646</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Witkowska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2002-12-03</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -2677,14 +2677,14 @@
     <field name="NumerDowoduOsobistego">TEW440623</field>
     <field name="NumerPaszportu">P6249254</field>
     <field name="Telefon">(48) 709659943</field>
-    <field name="Email">anna.witkowska@proton.me</field>
+    <field name="Email">anna.witkowska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">72051848038</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Walczak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1972-05-18</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -2694,9 +2694,9 @@
     <field name="AdresZameldowania">ul Wyszyńskiego 18, 70-200 Szczecin</field>
     <field name="AdresKorespondencyjny">ul Wyszyńskiego 18, 70-200 Szczecin</field>
     <field name="NumerDowoduOsobistego">WJH717166</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">662247969</field>
-    <field name="Email">t.walczak@outlook.com</field>
+    <field name="Email">t.walczak@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">80081149380</field>
@@ -2712,17 +2712,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ulica Mariacka 35, 40-014 Katowice</field>
     <field name="AdresKorespondencyjny">ulica Mariacka 35, 40-014 Katowice</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PA2358519</field>
     <field name="Telefon">694 215 605</field>
-    <field name="Email">stepien.katarzyna@yahoo.com</field>
+    <field name="Email">stepien.katarzyna@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">99071650779</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Baran</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1999-07-16</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -2732,9 +2732,9 @@
     <field name="AdresZameldowania">Warszawska 52, 40-009 Katowice</field>
     <field name="AdresKorespondencyjny">Warszawska 52, 40-009 Katowice</field>
     <field name="NumerDowoduOsobistego">CTD670252</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-654-824-720</field>
-    <field name="Email">krzysztofbaran@@wp.pl</field>
+    <field name="Email">krzysztofbaran@proton.me</field>
   </record>
   <record>
     <field name="PESEL">79111352120</field>
@@ -2750,17 +2750,17 @@
     <field name="ImieMatki">Maria</field>
     <field name="AdresZameldowania">ul. Krakowskie Przedmieście 69/53, 20-002 Lublin</field>
     <field name="AdresKorespondencyjny">ul. Krakowskie Przedmieście 69/53, 20-002 Lublin</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">P3502610</field>
     <field name="Telefon">48-723-780-633</field>
-    <field name="Email">ewa_rutkowska@gmail.com</field>
+    <field name="Email">ewa_rutkowska@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">88062053512</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Górski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1988-06-20</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraków</field>
@@ -2770,16 +2770,16 @@
     <field name="AdresZameldowania">ul Narutowicza 86, 20-004 Lublin</field>
     <field name="AdresKorespondencyjny">ul Narutowicza 86, 20-004 Lublin</field>
     <field name="NumerDowoduOsobistego">IDZ123338</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">570 500 727</field>
-    <field name="Email">adam.gorski93@wp.pl</field>
+    <field name="Email">adam.gorski93@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">67070154860</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Sikora</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1967-07-01</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Kraków</field>
@@ -2789,16 +2789,16 @@
     <field name="AdresZameldowania">ulica Lipowa 103, 15-424 Białystok</field>
     <field name="AdresKorespondencyjny">ulica Lipowa 103, 15-424 Białystok</field>
     <field name="NumerDowoduOsobistego">LIK899881</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 593263908</field>
-    <field name="Email">monika.sikora@onet.pl</field>
+    <field name="Email">monika.sikora@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">95061456253</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Ostrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1995-06-14</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -2810,7 +2810,7 @@
     <field name="NumerDowoduOsobistego">ONV576424</field>
     <field name="NumerPaszportu">P9764778</field>
     <field name="Telefon">719723089</field>
-    <field name="Email">m.ostrowski@interia.pl</field>
+    <field name="Email">m.ostrowski@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">82071757607</field>
@@ -2827,28 +2827,28 @@
     <field name="AdresZameldowania">ul. Gdańska 137/15, 85-005 Bydgoszcz</field>
     <field name="AdresKorespondencyjny">ul. Gdańska 137/15, 85-005 Bydgoszcz</field>
     <field name="NumerDowoduOsobistego">RSG252967</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">653243630</field>
-    <field name="Email">tomaszewska.barbara@mail_invalid.pl</field>
+    <field name="Email">tomaszewska.barbara@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">82062258991</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Zając</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1982-06-22</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
-    <field name="Obywatelstwo"></field>
-    <field name="ImieOjca"></field>
+    <field name="Obywatelstwo" />
+    <field name="ImieOjca" />
     <field name="ImieMatki">Monika</field>
     <field name="AdresZameldowania">ul Dworcowa 154, 85-009 Bydgoszcz</field>
     <field name="AdresKorespondencyjny">ul Dworcowa 154, 85-009 Bydgoszcz</field>
     <field name="NumerDowoduOsobistego">UXR929510</field>
     <field name="NumerPaszportu">PL3800572</field>
     <field name="Telefon">(48) 587229662</field>
-    <field name="Email">rafalzajac@proton.me</field>
+    <field name="Email">rafalzajac@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">91060660349</field>
@@ -2867,14 +2867,14 @@
     <field name="NumerDowoduOsobistego">XCC106053</field>
     <field name="NumerPaszportu">PL2492440</field>
     <field name="Telefon">728216354</field>
-    <field name="Email">anna_pietrzak@outlook.com</field>
+    <field name="Email">anna_pietrzak@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">96121161737</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Wójcicki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1996-12-11</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -2886,14 +2886,14 @@
     <field name="NumerDowoduOsobistego">AHN282596</field>
     <field name="NumerPaszportu">PA6319951</field>
     <field name="Telefon">656 582 113</field>
-    <field name="Email">tomasz.wojcicki70@yahoo.com</field>
+    <field name="Email">tomasz.wojcicki70@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">68102463086</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Czarnecka</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-10-24</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -2902,17 +2902,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ul. 3 Maja 25/67, 35-030 Rzeszów</field>
     <field name="AdresKorespondencyjny">ul. 3 Maja 25/67, 35-030 Rzeszów</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">730166519</field>
-    <field name="Email">katarzyna.czarnecka.gmail.com</field>
+    <field name="Email">katarzyna.czarnecka.gmail.com@proton.me</field>
   </record>
   <record>
     <field name="PESEL">92081564474</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Lis</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1992-08-15</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -2922,9 +2922,9 @@
     <field name="AdresZameldowania">ul Piłsudskiego 42, 35-074 Rzeszów</field>
     <field name="AdresKorespondencyjny">ul Piłsudskiego 42, 35-074 Rzeszów</field>
     <field name="NumerDowoduOsobistego">GRJ635682</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 502462281</field>
-    <field name="Email">k.lis@gmail.com</field>
+    <field name="Email">k.lis@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">02310265827</field>
@@ -2941,16 +2941,16 @@
     <field name="AdresZameldowania">ulica Sienkiewicza 59, 25-007 Kielce</field>
     <field name="AdresKorespondencyjny">ulica Sienkiewicza 59, 25-007 Kielce</field>
     <field name="NumerDowoduOsobistego">JWU312225</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">746 391 410</field>
-    <field name="Email">kolodziej.ewa@wp.pl</field>
+    <field name="Email">kolodziej.ewa@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">91081267219</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kaczmarek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1991-08-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -2960,9 +2960,9 @@
     <field name="AdresZameldowania">Warszawska 76, 25-512 Kielce</field>
     <field name="AdresKorespondencyjny">Warszawska 76, 25-512 Kielce</field>
     <field name="NumerDowoduOsobistego">MBF588768</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">707857404</field>
-    <field name="Email">adamkaczmarek@onet.pl</field>
+    <field name="Email">adamkaczmarek@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">91060768566</field>
@@ -2979,16 +2979,16 @@
     <field name="AdresZameldowania">ul. Kościuszki 93/29, 10-504 Olsztyn</field>
     <field name="AdresKorespondencyjny">ul. Kościuszki 93/29, 10-504 Olsztyn</field>
     <field name="NumerDowoduOsobistego">PGQ965311</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 778728075</field>
-    <field name="Email">monika_piatek@interia.pl</field>
+    <field name="Email">monika_piatek@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">04221969951</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Saodwski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2004-02-19</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraó</field>
@@ -3000,14 +3000,14 @@
     <field name="NumerDowoduOsobistego">SLB641854</field>
     <field name="NumerPaszportu">PA2277949</field>
     <field name="Telefon">618 880 851</field>
-    <field name="Email">marek.sadowski76@nieistniejaca-domena</field>
+    <field name="Email">marek.sadowski76@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">82080271307</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Włodarczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1982-08-02</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Rzeszów</field>
@@ -3017,16 +3017,16 @@
     <field name="AdresZameldowania">ulica Krakowska 127, 45-018 Opole</field>
     <field name="AdresKorespondencyjny">ulica Krakowska 127, 45-018 Opole</field>
     <field name="NumerDowoduOsobistego">VQM518397</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 772 798 758</field>
-    <field name="Email">barbara.wlodarczyk@proton.me</field>
+    <field name="Email">barbara.wlodarczyk@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">81041172690</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Borkowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1971-04-11</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -3038,7 +3038,7 @@
     <field name="NumerDowoduOsobistego">YVX694940</field>
     <field name="NumerPaszportu">PL5957709</field>
     <field name="Telefon">(48) 704370174</field>
-    <field name="Email">r.borkowski@outlook.com</field>
+    <field name="Email">r.borkowski@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">76112074040</field>
@@ -3054,17 +3054,17 @@
     <field name="ImieMatki">Agnieszka</field>
     <field name="AdresZameldowania">ul. Bohaterów Westerplatte 161/81, 65-034 Zielona Góra</field>
     <field name="AdresKorespondencyjny">ul. Bohaterów Westerplatte 161/81, 65-034 Zielona Góra</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PA6817685</field>
     <field name="Telefon">+48 562 893 965</field>
-    <field name="Email">kowalska.anna@yahoo.com</field>
+    <field name="Email">kowalska.anna@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">83021075437</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Nowacki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1983-02-10</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Gdynia</field>
@@ -3074,9 +3074,9 @@
     <field name="AdresZameldowania">ul Kupiecka 178, 65-058 Zielona Góra</field>
     <field name="AdresKorespondencyjny">ul Kupiecka 178, 65-058 Zielona Góra</field>
     <field name="NumerDowoduOsobistego">EFT648026</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">532 165 021</field>
-    <field name="Email">tomasznowacki@icloud.com</field>
+    <field name="Email">tomasznowacki@proton.me</field>
   </record>
   <record>
     <field name="PESEL">79061276781</field>
@@ -3095,14 +3095,14 @@
     <field name="NumerDowoduOsobistego">HKE324569</field>
     <field name="NumerPaszportu">PA2799307</field>
     <field name="Telefon">+48 746 837 914</field>
-    <field name="Email">katarzyna_wisniewska.gmail.com</field>
+    <field name="Email">katarzyna_wisniewska.gmail.com@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">82021278178</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Wójcik</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1982-02-12</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -3112,16 +3112,16 @@
     <field name="AdresZameldowania">10 Lutego 32, 81-364 Gdynia</field>
     <field name="AdresKorespondencyjny">10 Lutego 32, 81-364 Gdynia</field>
     <field name="NumerDowoduOsobistego">KPP701112</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 769 756 308</field>
-    <field name="Email">krzysztof.wojcik82@wp.pl</field>
+    <field name="Email">krzysztof.wojcik82@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">92030279521</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kowalczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1992-03-02</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Gdańsk</field>
@@ -3131,16 +3131,16 @@
     <field name="AdresZameldowania">ul. Bolesława Prusa 49/43, 05-800 Pruszków</field>
     <field name="AdresKorespondencyjny">ul. Bolesława Prusa 49/43, 05-800 Pruszków</field>
     <field name="NumerDowoduOsobistego">NUA777655</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 625 682 313</field>
-    <field name="Email">ewa.kowalczyk@onet.pl</field>
+    <field name="Email">ewa.kowalczyk@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">94070980911</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kamiński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1994-07-09</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraków</field>
@@ -3152,7 +3152,7 @@
     <field name="NumerDowoduOsobistego">QZL354198</field>
     <field name="NumerPaszportu">PL6396582</field>
     <field name="Telefon">571 926 000</field>
-    <field name="Email">a.kaminski@interia.pl</field>
+    <field name="Email">a.kaminski@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">75092382262</field>
@@ -3169,16 +3169,16 @@
     <field name="AdresZameldowania">ulica Sienkiewicza 83, 32-020 Wieliczka</field>
     <field name="AdresKorespondencyjny">ulica Sienkiewicza 83, 32-020 Wieliczka</field>
     <field name="NumerDowoduOsobistego">TEW630741</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">751 190 376</field>
-    <field name="Email">lewandowska.monika@o2.pl</field>
+    <field name="Email">lewandowska.monika@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">00262583651</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Zieliński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-06-25</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -3190,7 +3190,7 @@
     <field name="NumerDowoduOsobistego">WJH907284</field>
     <field name="NumerPaszportu">PA5401604</field>
     <field name="Telefon">48-700-875-199</field>
-    <field name="Email">marekzielinski@nieistniejaca-domena</field>
+    <field name="Email">marekzielinski@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">91041285004</field>
@@ -3206,17 +3206,17 @@
     <field name="ImieMatki">Magdalena</field>
     <field name="AdresZameldowania">ul. Rynek 117/5, 38-400 Krosno</field>
     <field name="AdresKorespondencyjny">ul. Rynek 117/5, 38-400 Krosno</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">592 820 349</field>
-    <field name="Email">barbara_szymanska@outlook.com</field>
+    <field name="Email">barbara_szymanska@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">95112786397</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1995-11-27</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Bydgoszcz</field>
@@ -3226,16 +3226,16 @@
     <field name="AdresZameldowania">ul Mickiewicza 134, 39-300 Mielec</field>
     <field name="AdresKorespondencyjny">ul Mickiewicza 134, 39-300 Mielec</field>
     <field name="NumerDowoduOsobistego">CTD860370</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-595-228-644</field>
-    <field name="Email">rafal.dabrowski88@yahoo.com</field>
+    <field name="Email">rafal.dabrowski88@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">84091687742</field>
     <field name="Imie">Anna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Mazur</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1984-09-16</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3245,16 +3245,16 @@
     <field name="AdresZameldowania">ulica Długa 151, 58-100 Świdnica</field>
     <field name="AdresKorespondencyjny">ulica Długa 151, 58-100 Świdnica</field>
     <field name="NumerDowoduOsobistego">FYO536913</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">591 258 662</field>
-    <field name="Email">anna.mazur@icloud.com</field>
+    <field name="Email">anna.mazur@proton.me</field>
   </record>
   <record>
     <field name="PESEL">91050889132</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Krawczyk</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1991-05-08</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Opole</field>
@@ -3266,7 +3266,7 @@
     <field name="NumerDowoduOsobistego">IDZ313456</field>
     <field name="NumerPaszportu">PA3523980</field>
     <field name="Telefon">48-655-961-184</field>
-    <field name="Email">t.krawczyk@gmail.com</field>
+    <field name="Email">t.krawczyk@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">70092690481</field>
@@ -3283,16 +3283,16 @@
     <field name="AdresZameldowania">ul. Chrobrego 5/57, 62-200 Gniezno</field>
     <field name="AdresKorespondencyjny">ul. Chrobrego 5/57, 62-200 Gniezno</field>
     <field name="NumerDowoduOsobistego">LIK389999</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 675375387</field>
-    <field name="Email">wozniak.katarzyna.gmail.com</field>
+    <field name="Email">wozniak.katarzyna.gmail.com@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">81012991870</field>
     <field name="Imie">Krzysztof</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Jankowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1981-01-29</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Poznań</field>
@@ -3304,7 +3304,7 @@
     <field name="NumerDowoduOsobistego">ONV766542</field>
     <field name="NumerPaszportu">PA9658376</field>
     <field name="Telefon">+48 690 409 695</field>
-    <field name="Email">krzysztofjankowski@onet.pl</field>
+    <field name="Email">krzysztofjankowski@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">85042593226</field>
@@ -3323,14 +3323,14 @@
     <field name="NumerDowoduOsobistego">RSG743085</field>
     <field name="NumerPaszportu">PA3447977</field>
     <field name="Telefon">774 434 477</field>
-    <field name="Email">ewa_grabowska@interia.pl</field>
+    <field name="Email">ewa_grabowska@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">84073094616</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Pawlak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1984-07-30</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -3340,16 +3340,16 @@
     <field name="AdresZameldowania">Sobieskiego 56, 84-200 Wejherowo</field>
     <field name="AdresKorespondencyjny">Sobieskiego 56, 84-200 Wejherowo</field>
     <field name="NumerDowoduOsobistego">UXR419628</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 656868868</field>
-    <field name="Email">adam.pawlak94@o2.pl</field>
+    <field name="Email">adam.pawlak94@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">84112695969</field>
     <field name="Imie">Monika</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Michalska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1984-11-26</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Kielce</field>
@@ -3358,17 +3358,17 @@
     <field name="ImieMatki">Joanna</field>
     <field name="AdresZameldowania">ul. Głęboka 73/19, 43-400 Cieszyn</field>
     <field name="AdresKorespondencyjny">ul. Głęboka 73/19, 43-400 Cieszyn</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 708349558</field>
-    <field name="Email">monika.michalska@proton.me</field>
+    <field name="Email">monika.michalska@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">90042197356</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Król</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1990-04-21</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">pOole</field>
@@ -3380,7 +3380,7 @@
     <field name="NumerDowoduOsobistego">AHN572714</field>
     <field name="NumerPaszportu">PA7053075</field>
     <field name="Telefon">(48) 758455703</field>
-    <field name="Email">m.krol@nieistniejaca-domena</field>
+    <field name="Email">m.krol@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">87110198700</field>
@@ -3397,16 +3397,16 @@
     <field name="AdresZameldowania">ulica Królowej Jadwigi 107, 88-100 Inowrocław</field>
     <field name="AdresKorespondencyjny">ulica Królowej Jadwigi 107, 88-100 Inowrocław</field>
     <field name="NumerDowoduOsobistego">DMY449257</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-545-880-496</field>
-    <field name="Email">wieczorek.barbara@yahoo.com</field>
+    <field name="Email">wieczorek.barbara@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">75100900097</field>
     <field name="Imie">Rafał</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Jabłoński</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1975-10-09</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -3418,7 +3418,7 @@
     <field name="NumerDowoduOsobistego">GRJ925800</field>
     <field name="NumerPaszportu">PL2890785</field>
     <field name="Telefon">539 887 629</field>
-    <field name="Email">rafaljablonski@icloud.com</field>
+    <field name="Email">rafaljablonski@proton.me</field>
   </record>
   <record>
     <field name="PESEL">90070601445</field>
@@ -3435,16 +3435,16 @@
     <field name="AdresZameldowania">os. Czarnieckiego 141/71, 14-100 Ostróda</field>
     <field name="AdresKorespondencyjny">os. Czarnieckiego 141/71, 14-100 Ostróda</field>
     <field name="NumerDowoduOsobistego">JWU602343</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">573 191 370</field>
-    <field name="Email">anna_witkowska@gmail.com</field>
+    <field name="Email">anna_witkowska@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">68062102836</field>
     <field name="Imie">Tomasz</field>
     <field name="DrugieImie">Robert</field>
     <field name="Nazwisko">Walczak</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-06-21</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3454,16 +3454,16 @@
     <field name="AdresZameldowania">158, 11-500 Giżycko</field>
     <field name="AdresKorespondencyjny">158, 11-500 Giżycko</field>
     <field name="NumerDowoduOsobistego">MBF778886</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">735 253 940</field>
-    <field name="Email">tomasz.walczak71@wp.pl</field>
+    <field name="Email">tomasz.walczak71@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">00210704185</field>
     <field name="Imie">Katarzyna</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Stępień</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2000-01-07</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Zielona Góra</field>
@@ -3473,16 +3473,16 @@
     <field name="AdresZameldowania">ulica Lubelska 175, 24-100 Puławy</field>
     <field name="AdresKorespondencyjny">ulica Lubelska 175, 24-100 Puławy</field>
     <field name="NumerDowoduOsobistego">PGQ455429</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-740-670-542</field>
-    <field name="Email">katarzyna.stepien.gmail.com</field>
+    <field name="Email">katarzyna.stepien.gmail.com@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">92060405578</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Baran</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1992-06-04</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Toruń</field>
@@ -3494,7 +3494,7 @@
     <field name="NumerDowoduOsobistego">SLB831972</field>
     <field name="NumerPaszportu">PA4743217</field>
     <field name="Telefon">(48) 774983958</field>
-    <field name="Email">k.baran@interia.pl</field>
+    <field name="Email">k.baran@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">85102306920</field>
@@ -3510,17 +3510,17 @@
     <field name="ImieMatki">Maria</field>
     <field name="AdresZameldowania">ul. 3 Maja 29/33, 16-300 Augustów</field>
     <field name="AdresKorespondencyjny">ul. 3 Maja 29/33, 16-300 Augustów</field>
-    <field name="NumerDowoduOsobistego"></field>
+    <field name="NumerDowoduOsobistego" />
     <field name="NumerPaszportu">PL8416685</field>
     <field name="Telefon">723429394</field>
-    <field name="Email">rutkowska.ewa@o2.pl</field>
+    <field name="Email">rutkowska.ewa@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">73052408317</field>
     <field name="Imie">Adam</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Górski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1973-05-24</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3530,9 +3530,9 @@
     <field name="AdresZameldowania">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="AdresKorespondencyjny">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="NumerDowoduOsobistego">YVX485058</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 570353739</field>
-    <field name="Email">adamgorski@proton.me</field>
+    <field name="Email">adamgorski@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">93011509662</field>
@@ -3549,16 +3549,16 @@
     <field name="AdresZameldowania">ulica Piastowska 63, 48-300 Nysa</field>
     <field name="AdresKorespondencyjny">ulica Piastowska 63, 48-300 Nysa</field>
     <field name="NumerDowoduOsobistego">BAI961601</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-797-909-954</field>
-    <field name="Email">monika_sikora@outlook.com</field>
+    <field name="Email">monika_sikora@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">77121411053</field>
     <field name="Imie">Marek</field>
     <field name="DrugieImie">Michał</field>
     <field name="Nazwisko">Ostrowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1977-12-14</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Katowice</field>
@@ -3568,16 +3568,16 @@
     <field name="AdresZameldowania">Długa 80, 49-300 Brzeg</field>
     <field name="AdresKorespondencyjny">Długa 80, 49-300 Brzeg</field>
     <field name="NumerDowoduOsobistego">EFT838144</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 720 613 953</field>
-    <field name="Email">marek.ostrowski77@nieistniejaca-domena</field>
+    <field name="Email">marek.ostrowski77@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">84030112401</field>
     <field name="Imie">Barbara</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Tomaszewska</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1984-03-01</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Szczecin</field>
@@ -3587,16 +3587,16 @@
     <field name="AdresZameldowania">97/85, 68-200 Żary</field>
     <field name="AdresKorespondencyjny">97/85, 68-200 Żary</field>
     <field name="NumerDowoduOsobistego">HKE514687</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-706-790-166</field>
-    <field name="Email">barbara.tomaszewska@icloud.com</field>
+    <field name="Email">barbara.tomaszewska@proton.me</field>
   </record>
   <record>
     <field name="PESEL">03272013794</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Zając</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">2003-07-20</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3606,9 +3606,9 @@
     <field name="AdresZameldowania">ul Sikorskiego 114, 66-200 Świebodzin</field>
     <field name="AdresKorespondencyjny">ul Sikorskiego 114, 66-200 Świebodzin</field>
     <field name="NumerDowoduOsobistego">KPP991230</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">659100728</field>
-    <field name="Email">r.zajac@gmail.com</field>
+    <field name="Email">r.zajac@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">93082115140</field>
@@ -3627,14 +3627,14 @@
     <field name="NumerDowoduOsobistego">NUA967773</field>
     <field name="NumerPaszportu">P8558341</field>
     <field name="Telefon">(48) 610867120</field>
-    <field name="Email">pietrzak.anna@wp.pl</field>
+    <field name="Email">pietrzak.anna@yahoo.com</field>
   </record>
   <record>
     <field name="PESEL">65092816537</field>
     <field name="Imie">Tomasz</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Wójcicki</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1965-09-28</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3644,9 +3644,9 @@
     <field name="AdresZameldowania">Piłsudskiego 148, 73-110 Stargard</field>
     <field name="AdresKorespondencyjny">Piłsudskiego 148, 73-110 Stargard</field>
     <field name="NumerDowoduOsobistego">QZL644316</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-763-290-458</field>
-    <field name="Email">tomaszwojcicki@onet.pl</field>
+    <field name="Email">tomaszwojcicki@icloud.com</field>
   </record>
   <record>
     <field name="PESEL">69013017883</field>
@@ -3662,17 +3662,17 @@
     <field name="ImieMatki">Justyna</field>
     <field name="AdresZameldowania">ul. Mickiewicza 165/47, 27-600 Sandomierz</field>
     <field name="AdresKorespondencyjny">ul. Mickiewicza 165/47, 27-600 Sandomierz</field>
-    <field name="NumerDowoduOsobistego"></field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerDowoduOsobistego" />
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 541 213 775</field>
-    <field name="Email">katarzyna_czarnecka.gmail.com</field>
+    <field name="Email">katarzyna_czarnecka.gmail.com@gmail.com</field>
   </record>
   <record>
     <field name="PESEL">66011719274</field>
     <field name="Imie">Krzysztof</field>
     <field name="DrugieImie">Wojciech</field>
     <field name="Nazwisko">Lis</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1966-01-17</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -3682,16 +3682,16 @@
     <field name="AdresZameldowania">ul Sienkiewicza 2, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="AdresKorespondencyjny">ul Sienkiewicza 2, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="NumerDowoduOsobistego">WJH297402</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">759 232 429</field>
-    <field name="Email">krzysztof.lis83@o2.pl</field>
+    <field name="Email">krzysztof.lis83@wp.pl</field>
   </record>
   <record>
     <field name="PESEL">67091220629</field>
     <field name="Imie">Ewa</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Kołodziej</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1967-09-12</field>
     <field name="Plec">K</field>
     <field name="MiejsceUrodzenia">Białystok</field>
@@ -3701,16 +3701,16 @@
     <field name="AdresZameldowania">ulica Marszałkowska 19, 00-590 Warszawa</field>
     <field name="AdresKorespondencyjny">ulica Marszałkowska 19, 00-590 Warszawa</field>
     <field name="NumerDowoduOsobistego">ZOS573945</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">754 463 158</field>
-    <field name="Email">ewa.kolodziej@proton.me</field>
+    <field name="Email">ewa.kolodziej@onet.pl</field>
   </record>
   <record>
     <field name="PESEL">97070222016</field>
     <field name="Imie">Adam</field>
     <field name="DrugieImie">Piotr</field>
     <field name="Nazwisko">Kaczmarek</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1997-07-02</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Wrocław</field>
@@ -3722,7 +3722,7 @@
     <field name="NumerDowoduOsobistego">CTD350488</field>
     <field name="NumerPaszportu">P4356174</field>
     <field name="Telefon">559730379</field>
-    <field name="Email">a.kaczmarek@outlook.com</field>
+    <field name="Email">a.kaczmarek@interia.pl</field>
   </record>
   <record>
     <field name="PESEL">99101123361</field>
@@ -3739,16 +3739,16 @@
     <field name="AdresZameldowania">ul. Floriańska 53/9, 31-019 Kraków</field>
     <field name="AdresKorespondencyjny">ul. Floriańska 53/9, 31-019 Kraków</field>
     <field name="NumerDowoduOsobistego">FYO027031</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">(48) 554873524</field>
-    <field name="Email">piatek.monika@yahoo.com</field>
+    <field name="Email">piatek.monika@o2.pl</field>
   </record>
   <record>
     <field name="PESEL">68091824752</field>
     <field name="Imie">Marek</field>
-    <field name="DrugieImie"></field>
+    <field name="DrugieImie" />
     <field name="Nazwisko">Sadowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1968-09-18</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Kraków</field>
@@ -3760,7 +3760,7 @@
     <field name="NumerDowoduOsobistego">IDZ503574</field>
     <field name="NumerPaszportu">PL1308147</field>
     <field name="Telefon">(48) 584304112</field>
-    <field name="Email">mareksadowski@nieistniejaca-domena</field>
+    <field name="Email">mareksadowski@proton.me</field>
   </record>
   <record>
     <field name="PESEL">69111326102</field>
@@ -3777,16 +3777,16 @@
     <field name="AdresZameldowania">ulica Piotrkowska 87, 90-102 Łódź</field>
     <field name="AdresKorespondencyjny">ulica Piotrkowska 87, 90-102 Łódź</field>
     <field name="NumerDowoduOsobistego">LIK680117</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">48-565-730-904</field>
-    <field name="Email">barbara_wlodarczyk@gmail.com</field>
+    <field name="Email">barbara_wlodarczyk@outlook.com</field>
   </record>
   <record>
     <field name="PESEL">96020327498</field>
     <field name="Imie">Rafał</field>
     <field name="DrugieImie">Paweł</field>
     <field name="Nazwisko">Borkowski</field>
-    <field name="NazwiskoRodowe"></field>
+    <field name="NazwiskoRodowe" />
     <field name="DataUrodzenia">1996-02-03</field>
     <field name="Plec">M</field>
     <field name="MiejsceUrodzenia">Warszawa</field>
@@ -3796,8 +3796,8 @@
     <field name="AdresZameldowania">Zachodnia 104, 90-402 Łódź</field>
     <field name="AdresKorespondencyjny">Zachodnia 104, 90-402 Łódź</field>
     <field name="NumerDowoduOsobistego">ONV956660</field>
-    <field name="NumerPaszportu"></field>
+    <field name="NumerPaszportu" />
     <field name="Telefon">+48 536 554 152</field>
-    <field name="Email">rafal.borkowski89@wp.pl</field>
+    <field name="Email">rafal.borkowski89@yahoo.com</field>
   </record>
 </dataset>

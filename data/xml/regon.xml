@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <dataset name="regon">
   <record>
     <field name="regon">266639842</field>
@@ -14,7 +14,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-102</field>
     <field name="telefon">+48 605 983 868</field>
-    <field name="email">biuro.astra-finance@interia.pl</field>
+    <field name="email">biuro.astra-finance@bbb.ii</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2016-09-09</field>
@@ -33,7 +33,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-402</field>
     <field name="telefon">667925747</field>
-    <field name="email">sekretariat.baltic-med-supply@o2.pl</field>
+    <field name="email">sekretariat.baltic-med-supply@mmm.zz</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2023-08-26</field>
@@ -52,8 +52,8 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">50-066</field>
     <field name="telefon">+48 636 124 550</field>
-    <field name="email">firma.helios-markets@brak-domeny</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.helios-markets@nnn.yy</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023-09-02</field>
   </record>
@@ -71,7 +71,7 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">54-203</field>
     <field name="telefon">+48 573 267 786</field>
-    <field name="email">kontakt@outlook.com</field>
+    <field name="email">kontakt@kkk.uu</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020-01-31</field>
@@ -90,7 +90,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">61-806</field>
     <field name="telefon">48-771-781-534</field>
-    <field name="email">biuro@yahoo.com</field>
+    <field name="email">biuro@tmp.ii</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-01-22</field>
@@ -109,7 +109,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">60-734</field>
     <field name="telefon">612750356</field>
-    <field name="email">office.optima-trade@icloud.com</field>
+    <field name="email">office.optima-trade@foo.zz</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016-01-12</field>
@@ -128,7 +128,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-831</field>
     <field name="telefon">785 807 783</field>
-    <field name="email">kontakt.polaris-capital@gmail.com</field>
+    <field name="email">kontakt.polaris-capital@bar.yy</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2016-01-28</field>
@@ -147,7 +147,7 @@
     <field name="miejscowosc">GDAŃS</field>
     <field name="kodPocztowy">80-236</field>
     <field name="telefon">+48 799 636 672</field>
-    <field name="email">biuro.quantum-services@localhost</field>
+    <field name="email">biuro.quantum-services@zzz.uu</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2010-07-05</field>
@@ -166,8 +166,8 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-435</field>
     <field name="telefon">48-586-976-570</field>
-    <field name="email">sekretariat.silesia-invest@onet.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.silesia-invest@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2024-08-25</field>
   </record>
@@ -185,7 +185,7 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-200</field>
     <field name="telefon">560 105 794</field>
-    <field name="email">firma.vistula-fintech@interia.pl</field>
+    <field name="email">firma.vistula-fintech@icloud.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-09-12</field>
@@ -204,7 +204,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-014</field>
     <field name="telefon">503 231 778</field>
-    <field name="email">kontakt@o2.pl</field>
+    <field name="email">kontakt@gmail.com</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2020-10-29</field>
@@ -223,7 +223,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-009</field>
     <field name="telefon">708 388 879</field>
-    <field name="email">biuro@proton.me</field>
+    <field name="email">biuro@wp.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2017-09-26</field>
@@ -242,7 +242,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-002</field>
     <field name="telefon">+48 562 558 717</field>
-    <field name="email">office.helios-markets@brak-domeny</field>
+    <field name="email">office.helios-markets@onet.pl</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2016-12-07</field>
@@ -261,7 +261,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-004</field>
     <field name="telefon">+48 620 112 223</field>
-    <field name="email">kontakt.lumen-advisory@yahoo.com</field>
+    <field name="email">kontakt.lumen-advisory@interia.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2012-04-13</field>
@@ -280,8 +280,8 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-424</field>
     <field name="telefon">558998379</field>
-    <field name="email">biuro.nova-data@icloud.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro.nova-data@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2020-04-21</field>
   </record>
@@ -299,7 +299,7 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-092</field>
     <field name="telefon">+48 567 340 374</field>
-    <field name="email">sekretariat.optima-trade@gmail.com</field>
+    <field name="email">sekretariat.optima-trade@proton.me</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2021-07-30</field>
@@ -318,8 +318,8 @@
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-005</field>
     <field name="telefon">48-741-212-464</field>
-    <field name="email">firma.polaris-capital@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.polaris-capital@outlook.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2015-01-13</field>
   </record>
@@ -336,8 +336,8 @@
     <field name="gmina">BYDGOSZCZ</field>
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-009</field>
-    <field name="telefon"></field>
-    <field name="email">kontakt@localhost</field>
+    <field name="telefon" />
+    <field name="email">kontakt@yahoo.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2020-12-29</field>
@@ -356,7 +356,7 @@
     <field name="miejscowosc">TORUŃ</field>
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">(48) 781847608</field>
-    <field name="email">biuro@interia.pl</field>
+    <field name="email">biuro@icloud.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2020-11-24</field>
@@ -373,9 +373,9 @@
     <field name="powiat">TORUŃ</field>
     <field name="gmina">TORUŃ</field>
     <field name="miejscowosc">TORUŃ</field>
-    <field name="kodPocztowy"></field>
+    <field name="kodPocztowy" />
     <field name="telefon">729370627</field>
-    <field name="email">office.vistula-fintech@o2.pl</field>
+    <field name="email">office.vistula-fintech@gmail.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-08-05</field>
@@ -394,8 +394,8 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-030</field>
     <field name="telefon">758769861</field>
-    <field name="email">kontakt.astra-finance@proton.me</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt.astra-finance@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-09-25</field>
   </record>
@@ -413,7 +413,7 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-074</field>
     <field name="telefon">48-799-518-315</field>
-    <field name="email">biuro.baltic-med-supply@outlook.com</field>
+    <field name="email">biuro.baltic-med-supply@onet.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2017-09-03</field>
@@ -432,7 +432,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-007</field>
     <field name="telefon">602528466</field>
-    <field name="email">sekretariat.helios-markets@brak-domeny</field>
+    <field name="email">sekretariat.helios-markets@interia.pl</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2014-05-20</field>
@@ -451,7 +451,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-512</field>
     <field name="telefon">730 281 709</field>
-    <field name="email">firma.lumen-advisory@icloud.com</field>
+    <field name="email">firma.lumen-advisory@o2.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2019-06-15</field>
@@ -470,7 +470,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-504</field>
     <field name="telefon">48-526-667-699</field>
-    <field name="email">kontakt@gmail.com</field>
+    <field name="email">kontakt@proton.me</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2012-07-15</field>
@@ -489,7 +489,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-540</field>
     <field name="telefon">589 228 993</field>
-    <field name="email">biuro@wp.pl</field>
+    <field name="email">biuro@outlook.com</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2021-03-09</field>
@@ -508,8 +508,8 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-018</field>
     <field name="telefon">(48) 750673444</field>
-    <field name="email">office.polaris-capital@onet.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">office.polaris-capital@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-05-30</field>
   </record>
@@ -527,7 +527,7 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-057</field>
     <field name="telefon">(48) 678921086</field>
-    <field name="email">kontakt.quantum-services@localhost</field>
+    <field name="email">kontakt.quantum-services@icloud.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2015-06-25</field>
@@ -546,7 +546,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-034</field>
     <field name="telefon">(48) 744218199</field>
-    <field name="email">biuro.silesia-invest@o2.pl</field>
+    <field name="email">biuro.silesia-invest@gmail.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2010-06-10</field>
@@ -565,7 +565,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-058</field>
     <field name="telefon">+48 514 958 224</field>
-    <field name="email">sekretariat.vistula-fintech@proton.me</field>
+    <field name="email">sekretariat.vistula-fintech@wp.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2016-06-17</field>
@@ -584,7 +584,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-372</field>
     <field name="telefon">686733698</field>
-    <field name="email">firma.astra-finance@outlook.com</field>
+    <field name="email">firma.astra-finance@onet.pl</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2012-07-07</field>
@@ -603,7 +603,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-364</field>
     <field name="telefon">+48 752 697 772</field>
-    <field name="email">kontakt@firmalocal</field>
+    <field name="email">kontakt@interia.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-03-15</field>
@@ -622,8 +622,8 @@
     <field name="miejscowosc">PRUSZKÓW</field>
     <field name="kodPocztowy">05-800</field>
     <field name="telefon">(48) 701522759</field>
-    <field name="email">biuro@yahoo.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2019-07-30</field>
   </record>
@@ -641,7 +641,7 @@
     <field name="miejscowosc">PIASECZNO</field>
     <field name="kodPocztowy">05-500</field>
     <field name="telefon">48-552-435-650</field>
-    <field name="email">office.lumen-advisory@brak-domeny</field>
+    <field name="email">office.lumen-advisory@proton.me</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-01-06</field>
@@ -660,7 +660,7 @@
     <field name="miejscowosc">WIELICZKA</field>
     <field name="kodPocztowy">32-020</field>
     <field name="telefon">642 578 721</field>
-    <field name="email">kontakt.nova-data@gmail.com</field>
+    <field name="email">kontakt.nova-data@outlook.com</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016-01-09</field>
@@ -679,7 +679,7 @@
     <field name="miejscowosc">OŚWIĘCIM</field>
     <field name="kodPocztowy">32-600</field>
     <field name="telefon">780265289</field>
-    <field name="email">biuro.optima-trade@wp.pl</field>
+    <field name="email">biuro.optima-trade@yahoo.com</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-12-28</field>
@@ -698,7 +698,7 @@
     <field name="miejscowosc">KROSNO</field>
     <field name="kodPocztowy">38-400</field>
     <field name="telefon">+48 730 307 167</field>
-    <field name="email">sekretariat.polaris-capital@onet.pl</field>
+    <field name="email">sekretariat.polaris-capital@icloud.com</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2016-07-06</field>
@@ -717,7 +717,7 @@
     <field name="miejscowosc">MIELEC</field>
     <field name="kodPocztowy">39-300</field>
     <field name="telefon">48-712-339-374</field>
-    <field name="email">firma.quantum-services@interia.pl</field>
+    <field name="email">firma.quantum-services@gmail.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2010-09-22</field>
@@ -736,8 +736,8 @@
     <field name="miejscowosc">ŚWIDNICA</field>
     <field name="kodPocztowy">58-100</field>
     <field name="telefon">+48 742 586 913</field>
-    <field name="email">kontakt@localhost</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2014-11-29</field>
   </record>
@@ -755,7 +755,7 @@
     <field name="miejscowosc">KŁODZKO</field>
     <field name="kodPocztowy">57-300</field>
     <field name="telefon">(48) 626204789</field>
-    <field name="email">biuro@proton.me</field>
+    <field name="email">biuro@onet.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2019-06-14</field>
@@ -774,7 +774,7 @@
     <field name="miejscowosc">GNIEZNO</field>
     <field name="kodPocztowy">62-200</field>
     <field name="telefon">48-789-466-987</field>
-    <field name="email">office.astra-finance@outlook.com</field>
+    <field name="email">office.astra-finance@interia.pl</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-01-20</field>
@@ -793,7 +793,7 @@
     <field name="miejscowosc">LESZNO</field>
     <field name="kodPocztowy">64-100</field>
     <field name="telefon">(48) 714999333</field>
-    <field name="email">kontakt.baltic-med-supply@yahoo.com</field>
+    <field name="email">kontakt.baltic-med-supply@o2.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2011-04-15</field>
@@ -812,7 +812,7 @@
     <field name="miejscowosc">TCZEW</field>
     <field name="kodPocztowy">83-110</field>
     <field name="telefon">788939704</field>
-    <field name="email">biuro.helios-markets@icloud.com</field>
+    <field name="email">biuro.helios-markets@proton.me</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2014-04-03</field>
@@ -831,7 +831,7 @@
     <field name="miejscowosc">WEJHEROWO</field>
     <field name="kodPocztowy">84-200</field>
     <field name="telefon">(48) 568532982</field>
-    <field name="email">sekretariat.lumen-advisory@brak-domeny</field>
+    <field name="email">sekretariat.lumen-advisory@outlook.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2025-10-04</field>
@@ -850,8 +850,8 @@
     <field name="miejscowosc">CIESZYN</field>
     <field name="kodPocztowy">43-400</field>
     <field name="telefon">717 739 814</field>
-    <field name="email">firma.nova-data@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.nova-data@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2013-06-22</field>
   </record>
@@ -869,7 +869,7 @@
     <field name="miejscowosc">BĘDZIN</field>
     <field name="kodPocztowy">42-500</field>
     <field name="telefon">+48 754 974 964</field>
-    <field name="email">kontakt@onet.pl</field>
+    <field name="email">kontakt@icloud.com</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2010-02-26</field>
@@ -888,7 +888,7 @@
     <field name="miejscowosc">INOWROCŁAW</field>
     <field name="kodPocztowy">88-100</field>
     <field name="telefon">527806453</field>
-    <field name="email">biuro@interia.pl</field>
+    <field name="email">biuro@gmail.com</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2021-09-29</field>
@@ -907,7 +907,7 @@
     <field name="miejscowosc">GRUDZIĄDZ</field>
     <field name="kodPocztowy">86-300</field>
     <field name="telefon">48-736-381-765</field>
-    <field name="email">office.quantum-services@o2.pl</field>
+    <field name="email">office.quantum-services@wp.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2015-10-29</field>
@@ -926,7 +926,7 @@
     <field name="miejscowosc">OSTRÓDA</field>
     <field name="kodPocztowy">14-100</field>
     <field name="telefon">48-575-296-440</field>
-    <field name="email">kontakt.silesia-invest@localhost</field>
+    <field name="email">kontakt.silesia-invest@onet.pl</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2019-11-29</field>
@@ -945,7 +945,7 @@
     <field name="miejscowosc">GIŻYCKO</field>
     <field name="kodPocztowy">11-500</field>
     <field name="telefon">(48) 783861796</field>
-    <field name="email">biuro.vistula-fintech@outlook.com</field>
+    <field name="email">biuro.vistula-fintech@interia.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2011-09-02</field>
@@ -964,8 +964,8 @@
     <field name="miejscowosc">PUŁAWY</field>
     <field name="kodPocztowy">24-100</field>
     <field name="telefon">+48 545 278 386</field>
-    <field name="email">sekretariat.astra-finance@yahoo.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.astra-finance@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2023-05-12</field>
   </record>
@@ -983,7 +983,7 @@
     <field name="miejscowosc">ZAMOŚĆ</field>
     <field name="kodPocztowy">22-400</field>
     <field name="telefon">628914063</field>
-    <field name="email">firma.baltic-med-supply@icloud.com</field>
+    <field name="email">firma.baltic-med-supply@proton.me</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020-06-09</field>
@@ -1002,7 +1002,7 @@
     <field name="miejscowosc">NIBYLANDIA</field>
     <field name="kodPocztowy">99-999</field>
     <field name="telefon">+48 634 195 117</field>
-    <field name="email">kontakt@@wp.pl</field>
+    <field name="email">kontakt@outlook.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-02-15</field>
@@ -1021,7 +1021,7 @@
     <field name="miejscowosc">SUWAŁKI</field>
     <field name="kodPocztowy">16-400</field>
     <field name="telefon">696255149</field>
-    <field name="email">biuro@wp.pl</field>
+    <field name="email">biuro@yahoo.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2023-05-13</field>
@@ -1040,7 +1040,7 @@
     <field name="miejscowosc">NYSA</field>
     <field name="kodPocztowy">48-300</field>
     <field name="telefon">(48) 737168658</field>
-    <field name="email">office.nova-data@onet.pl</field>
+    <field name="email">office.nova-data@icloud.com</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2010-01-13</field>
@@ -1059,7 +1059,7 @@
     <field name="miejscowosc">BRZEG</field>
     <field name="kodPocztowy">49-300</field>
     <field name="telefon">48-580-342-692</field>
-    <field name="email">kontakt.optima-trade@interia.pl</field>
+    <field name="email">kontakt.optima-trade@gmail.com</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2022-05-26</field>
@@ -1078,8 +1078,8 @@
     <field name="miejscowosc">ŻARY</field>
     <field name="kodPocztowy">68-200</field>
     <field name="telefon">+48 576 175 290</field>
-    <field name="email">biuro.polaris-capital@o2.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro.polaris-capital@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2016-06-08</field>
   </record>
@@ -1097,7 +1097,7 @@
     <field name="miejscowosc">ŚWIEBODZIN</field>
     <field name="kodPocztowy">66-200</field>
     <field name="telefon">+48 658 529 660</field>
-    <field name="email">sekretariat.quantum-services@mail_invalid.pl</field>
+    <field name="email">sekretariat.quantum-services@onet.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2023-07-02</field>
@@ -1116,7 +1116,7 @@
     <field name="miejscowosc">KOŁOBRZEG</field>
     <field name="kodPocztowy">78-100</field>
     <field name="telefon">+48 582 717 557</field>
-    <field name="email">firma.silesia-invest@outlook.com</field>
+    <field name="email">firma.silesia-invest@interia.pl</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2012-10-24</field>
@@ -1135,7 +1135,7 @@
     <field name="miejscowosc">STARGARD</field>
     <field name="kodPocztowy">73-110</field>
     <field name="telefon">+48 637 999 556</field>
-    <field name="email">kontakt@yahoo.com</field>
+    <field name="email">kontakt@o2.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2010-06-13</field>
@@ -1154,7 +1154,7 @@
     <field name="miejscowosc">SANDOMIERZ</field>
     <field name="kodPocztowy">27-600</field>
     <field name="telefon">+48 504 419 636</field>
-    <field name="email">biuro@icloud.com</field>
+    <field name="email">biuro@proton.me</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2024-09-09</field>
@@ -1173,7 +1173,7 @@
     <field name="miejscowosc">OSTROWIEC ŚWIĘTOKRZYSKI</field>
     <field name="kodPocztowy">27-400</field>
     <field name="telefon">(48) 675727260</field>
-    <field name="email">office.baltic-med-supply@gmail.com</field>
+    <field name="email">office.baltic-med-supply@outlook.com</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2019-11-16</field>
@@ -1192,8 +1192,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-590</field>
     <field name="telefon">48-774-762-201</field>
-    <field name="email">kontakt.helios-markets@@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt.helios-markets@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2021-10-03</field>
   </record>
@@ -1211,7 +1211,7 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-071</field>
     <field name="telefon">48-741-651-952</field>
-    <field name="email">biuro.lumen-advisory@onet.pl</field>
+    <field name="email">biuro.lumen-advisory@icloud.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2017-12-26</field>
@@ -1230,7 +1230,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-019</field>
     <field name="telefon">+48 795 241 484</field>
-    <field name="email">sekretariat.nova-data@interia.pl</field>
+    <field name="email">sekretariat.nova-data@gmail.com</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2019-07-14</field>
@@ -1249,7 +1249,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-147</field>
     <field name="telefon">+48 788 544 840</field>
-    <field name="email">firma.optima-trade@o2.pl</field>
+    <field name="email">firma.optima-trade@wp.pl</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2015-02-26</field>
@@ -1268,7 +1268,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-102</field>
     <field name="telefon">608382514</field>
-    <field name="email">kontakt@proton.me</field>
+    <field name="email">kontakt@onet.pl</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2024-10-09</field>
@@ -1287,7 +1287,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-402</field>
     <field name="telefon">(48) 546782858</field>
-    <field name="email">biuro@mail_invalid.pl</field>
+    <field name="email">biuro@interia.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2011-05-20</field>
@@ -1306,8 +1306,8 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">50-066</field>
     <field name="telefon">48-714-515-484</field>
-    <field name="email">office.silesia-invest@yahoo.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">office.silesia-invest@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-05-24</field>
   </record>
@@ -1325,7 +1325,7 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">54-203</field>
     <field name="telefon">503535575</field>
-    <field name="email">kontakt.vistula-fintech@icloud.com</field>
+    <field name="email">kontakt.vistula-fintech@proton.me</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2020-04-01</field>
@@ -1344,7 +1344,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">61-806</field>
     <field name="telefon">+48 572 415 345</field>
-    <field name="email">biuro.astra-finance@gmail.com</field>
+    <field name="email">biuro.astra-finance@outlook.com</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2020-03-27</field>
@@ -1363,7 +1363,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">60-734</field>
     <field name="telefon">(48) 707113357</field>
-    <field name="email">sekretariat.baltic-med-supply@wp.pl</field>
+    <field name="email">sekretariat.baltic-med-supply@yahoo.com</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2023-04-25</field>
@@ -1382,7 +1382,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-831</field>
     <field name="telefon">48-640-111-570</field>
-    <field name="email">firma.helios-markets@@wp.pl</field>
+    <field name="email">firma.helios-markets@icloud.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-02-12</field>
@@ -1401,7 +1401,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-236</field>
     <field name="telefon">48-678-244-296</field>
-    <field name="email">kontakt@interia.pl</field>
+    <field name="email">kontakt@gmail.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2022-11-05</field>
@@ -1420,8 +1420,8 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-435</field>
     <field name="telefon">778202081</field>
-    <field name="email">biuro@o2.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2011-04-24</field>
   </record>
@@ -1439,7 +1439,7 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-200</field>
     <field name="telefon">704992244</field>
-    <field name="email">office.optima-trade@proton.me</field>
+    <field name="email">office.optima-trade@onet.pl</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2015-09-11</field>
@@ -1458,7 +1458,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-014</field>
     <field name="telefon">526874664</field>
-    <field name="email">kontakt.polaris-capital@outlook.com</field>
+    <field name="email">kontakt.polaris-capital@interia.pl</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-04-15</field>
@@ -1477,7 +1477,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-009</field>
     <field name="telefon">(48) 664380277</field>
-    <field name="email">biuro.quantum-services@mail_invalid.pl</field>
+    <field name="email">biuro.quantum-services@o2.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2010-07-24</field>
@@ -1496,7 +1496,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-002</field>
     <field name="telefon">48-544-341-291</field>
-    <field name="email">sekretariat.silesia-invest@icloud.com</field>
+    <field name="email">sekretariat.silesia-invest@proton.me</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020-01-10</field>
@@ -1515,7 +1515,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-004</field>
     <field name="telefon">48-599-276-028</field>
-    <field name="email">firma.vistula-fintech@gmail.com</field>
+    <field name="email">firma.vistula-fintech@outlook.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2013-01-13</field>
@@ -1534,8 +1534,8 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-424</field>
     <field name="telefon">48-743-197-749</field>
-    <field name="email">kontakt@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2010-01-07</field>
   </record>
@@ -1553,7 +1553,7 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-092</field>
     <field name="telefon">542 191 061</field>
-    <field name="email">biuro@onet.pl</field>
+    <field name="email">biuro@icloud.com</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2016-06-01</field>
@@ -1572,7 +1572,7 @@
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-005</field>
     <field name="telefon">+48 610 228 165</field>
-    <field name="email">office.helios-markets@@wp.pl</field>
+    <field name="email">office.helios-markets@gmail.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-02-21</field>
@@ -1588,10 +1588,10 @@
     <field name="wojewodztwo">KUJAWSKO-POMORSKIE</field>
     <field name="powiat">BYDGOSZCZ</field>
     <field name="gmina">BYDGOSZCZ</field>
-    <field name="miejscowosc"></field>
+    <field name="miejscowosc" />
     <field name="kodPocztowy">85-009</field>
     <field name="telefon">(48) 508399972</field>
-    <field name="email">kontakt.lumen-advisory@o2.pl</field>
+    <field name="email">kontakt.lumen-advisory@wp.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2024-05-30</field>
@@ -1610,7 +1610,7 @@
     <field name="miejscowosc">TORUŃ</field>
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">(48) 511641332</field>
-    <field name="email">biuro.nova-data@proton.me</field>
+    <field name="email">biuro.nova-data@onet.pl</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2016-04-25</field>
@@ -1629,7 +1629,7 @@
     <field name="miejscowosc">TORUŃ</field>
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">502 907 388</field>
-    <field name="email">sekretariat.optima-trade@outlook.com</field>
+    <field name="email">sekretariat.optima-trade@interia.pl</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2013-05-19</field>
@@ -1648,14 +1648,14 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-030</field>
     <field name="telefon">+48 586 832 558</field>
-    <field name="email">firma.polaris-capital@yahoo.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.polaris-capital@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021-10-16</field>
   </record>
   <record>
     <field name="regon">273529370</field>
-    <field name="nip"></field>
+    <field name="nip" />
     <field name="krs">0000047242</field>
     <field name="nazwa">Quantum Services Sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
@@ -1667,7 +1667,7 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-074</field>
     <field name="telefon">(48) 500440856</field>
-    <field name="email">kontakt@mail_invalid.pl</field>
+    <field name="email">kontakt@proton.me</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2025-01-19</field>
@@ -1686,7 +1686,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-007</field>
     <field name="telefon">(48) 729387302</field>
-    <field name="email">biuro@gmail.com</field>
+    <field name="email">biuro@outlook.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2018-10-30</field>
@@ -1705,7 +1705,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-512</field>
     <field name="telefon">+48 606 801 795</field>
-    <field name="email">office.vistula-fintech@wp.pl</field>
+    <field name="email">office.vistula-fintech@yahoo.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2023-11-21</field>
@@ -1724,7 +1724,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-504</field>
     <field name="telefon">48-728-708-387</field>
-    <field name="email">kontakt.astra-finance@onet.pl</field>
+    <field name="email">kontakt.astra-finance@icloud.com</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2021-03-20</field>
@@ -1743,7 +1743,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-540</field>
     <field name="telefon">595717619</field>
-    <field name="email">biuro.baltic-med-supply@interia.pl</field>
+    <field name="email">biuro.baltic-med-supply@gmail.com</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2022-04-19</field>
@@ -1762,8 +1762,8 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-018</field>
     <field name="telefon">(48) 786655781</field>
-    <field name="email">sekretariat.helios-markets@@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.helios-markets@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2025-08-06</field>
   </record>
@@ -1781,7 +1781,7 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-057</field>
     <field name="telefon">(48) 639468812</field>
-    <field name="email">firma.lumen-advisory@proton.me</field>
+    <field name="email">firma.lumen-advisory@onet.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2022-04-15</field>
@@ -1800,7 +1800,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-034</field>
     <field name="telefon">560345865</field>
-    <field name="email">kontakt@outlook.com</field>
+    <field name="email">kontakt@interia.pl</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-11-30</field>
@@ -1819,7 +1819,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-058</field>
     <field name="telefon">580 439 227</field>
-    <field name="email">biuro@yahoo.com</field>
+    <field name="email">biuro@o2.pl</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-09-22</field>
@@ -1838,7 +1838,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-372</field>
     <field name="telefon">(48) 603846244</field>
-    <field name="email">office.polaris-capital@icloud.com</field>
+    <field name="email">office.polaris-capital@proton.me</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-11-03</field>
@@ -1857,7 +1857,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-364</field>
     <field name="telefon">(48) 763499544</field>
-    <field name="email">kontakt.quantum-services@mail_invalid.pl</field>
+    <field name="email">kontakt.quantum-services@outlook.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2019-05-04</field>
@@ -1876,8 +1876,8 @@
     <field name="miejscowosc">PRUSZKÓW</field>
     <field name="kodPocztowy">05-800</field>
     <field name="telefon">+48 719 219 555</field>
-    <field name="email">biuro.silesia-invest@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro.silesia-invest@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2022-10-24</field>
   </record>
@@ -1895,7 +1895,7 @@
     <field name="miejscowosc">PIASECZNO</field>
     <field name="kodPocztowy">05-500</field>
     <field name="telefon">505343408</field>
-    <field name="email">sekretariat.vistula-fintech@onet.pl</field>
+    <field name="email">sekretariat.vistula-fintech@icloud.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-06-28</field>
@@ -1914,7 +1914,7 @@
     <field name="miejscowosc">WIELICZKA</field>
     <field name="kodPocztowy">32-020</field>
     <field name="telefon">48-546-135-883</field>
-    <field name="email">firma.astra-finance@interia.pl</field>
+    <field name="email">firma.astra-finance@foo.zz</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2021-05-15</field>
@@ -1930,10 +1930,10 @@
     <field name="wojewodztwo">MAŁOPOLSKIE</field>
     <field name="powiat">OŚWIĘCIMSKI</field>
     <field name="gmina">OŚWIĘCIM</field>
-    <field name="miejscowosc"></field>
-    <field name="kodPocztowy"></field>
+    <field name="miejscowosc" />
+    <field name="kodPocztowy" />
     <field name="telefon">510980828</field>
-    <field name="email">kontakt@o2.pl</field>
+    <field name="email">kontakt@bar.yy</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2015-01-09</field>
@@ -1952,7 +1952,7 @@
     <field name="miejscowosc">KROSNO</field>
     <field name="kodPocztowy">38-400</field>
     <field name="telefon">48-614-891-955</field>
-    <field name="email">biuro@@wp.pl</field>
+    <field name="email">biuro@zzz.uu</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2016-05-06</field>
@@ -1971,7 +1971,7 @@
     <field name="miejscowosc">MIELEC</field>
     <field name="kodPocztowy">39-300</field>
     <field name="telefon">48-606-466-560</field>
-    <field name="email">office.lumen-advisory@outlook.com</field>
+    <field name="email">office.lumen-advisory@uuu.ii</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2014-01-14</field>
@@ -1990,8 +1990,8 @@
     <field name="miejscowosc">ŚWIDNICA</field>
     <field name="kodPocztowy">58-100</field>
     <field name="telefon">(48) 627318915</field>
-    <field name="email">kontakt.nova-data@yahoo.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt.nova-data@qqq.zz</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2023-04-06</field>
   </record>
@@ -2009,13 +2009,13 @@
     <field name="miejscowosc">KŁODZKO</field>
     <field name="kodPocztowy">57-300</field>
     <field name="telefon">(48) 738480279</field>
-    <field name="email">biuro.optima-trade@icloud.com</field>
+    <field name="email">biuro.optima-trade@abc.yy</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2024-06-21</field>
   </record>
   <record>
-    <field name="regon"></field>
+    <field name="regon" />
     <field name="nip">1274954793</field>
     <field name="krs">0000049085</field>
     <field name="nazwa">Polaris Capital sp. z o.o.</field>
@@ -2028,7 +2028,7 @@
     <field name="miejscowosc">GNIEZNO</field>
     <field name="kodPocztowy">62-200</field>
     <field name="telefon">523256957</field>
-    <field name="email">sekretariat.polaris-capital@gmail.com</field>
+    <field name="email">sekretariat.polaris-capital@xxx.uu</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020-10-22</field>
@@ -2047,7 +2047,7 @@
     <field name="miejscowosc">LESZNO</field>
     <field name="kodPocztowy">64-100</field>
     <field name="telefon">+48 629 142 461</field>
-    <field name="email">firma.quantum-services@mail_invalid.pl</field>
+    <field name="email">firma.quantum-services@bbb.ii</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2023-02-01</field>
@@ -2066,7 +2066,7 @@
     <field name="miejscowosc">TCZEW</field>
     <field name="kodPocztowy">83-110</field>
     <field name="telefon">703 132 554</field>
-    <field name="email">kontakt@onet.pl</field>
+    <field name="email">kontakt@icloud.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2020-07-09</field>
@@ -2085,7 +2085,7 @@
     <field name="miejscowosc">WEJHEROWO</field>
     <field name="kodPocztowy">84-200</field>
     <field name="telefon">604615557</field>
-    <field name="email">biuro@interia.pl</field>
+    <field name="email">biuro@gmail.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2011-06-06</field>
@@ -2104,8 +2104,8 @@
     <field name="miejscowosc">CIESZYN</field>
     <field name="kodPocztowy">43-400</field>
     <field name="telefon">+48 771 718 689</field>
-    <field name="email">office.astra-finance@o2.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">office.astra-finance@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2023-05-23</field>
   </record>
@@ -2123,7 +2123,7 @@
     <field name="miejscowosc">BĘDZIN</field>
     <field name="kodPocztowy">42-500</field>
     <field name="telefon">(48) 730748086</field>
-    <field name="email">kontakt.baltic-med-supply@proton.me</field>
+    <field name="email">kontakt.baltic-med-supply@onet.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2024-03-19</field>
@@ -2142,7 +2142,7 @@
     <field name="miejscowosc">INOWROCŁAW</field>
     <field name="kodPocztowy">88-100</field>
     <field name="telefon">(48) 777677305</field>
-    <field name="email">biuro.helios-markets@@wp.pl</field>
+    <field name="email">biuro.helios-markets@interia.pl</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2018-11-08</field>
@@ -2161,7 +2161,7 @@
     <field name="miejscowosc">GRUDZIĄDZ</field>
     <field name="kodPocztowy">86-300</field>
     <field name="telefon">622975722</field>
-    <field name="email">sekretariat.lumen-advisory@yahoo.com</field>
+    <field name="email">sekretariat.lumen-advisory@o2.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-04-29</field>
@@ -2180,7 +2180,7 @@
     <field name="miejscowosc">OSTRÓDA</field>
     <field name="kodPocztowy">14-100</field>
     <field name="telefon">553984755</field>
-    <field name="email">firma.nova-data@icloud.com</field>
+    <field name="email">firma.nova-data@proton.me</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2014-12-24</field>
@@ -2199,7 +2199,7 @@
     <field name="miejscowosc">GIŻYCKO</field>
     <field name="kodPocztowy">11-500</field>
     <field name="telefon">(48) 797333321</field>
-    <field name="email">kontakt@gmail.com</field>
+    <field name="email">kontakt@outlook.com</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2015-10-12</field>
@@ -2218,8 +2218,8 @@
     <field name="miejscowosc">PUŁAWY</field>
     <field name="kodPocztowy">24-100</field>
     <field name="telefon">48-569-428-660</field>
-    <field name="email">biuro@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-12-19</field>
   </record>
@@ -2237,7 +2237,7 @@
     <field name="miejscowosc">ZAMOŚĆ</field>
     <field name="kodPocztowy">22-400</field>
     <field name="telefon">+48 507 575 037</field>
-    <field name="email">office.quantum-services@mail_invalid.pl</field>
+    <field name="email">office.quantum-services@icloud.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-06-06</field>
@@ -2256,7 +2256,7 @@
     <field name="miejscowosc">AUGUSTÓW</field>
     <field name="kodPocztowy">16-300</field>
     <field name="telefon">719497264</field>
-    <field name="email">kontakt.silesia-invest@interia.pl</field>
+    <field name="email">kontakt.silesia-invest@gmail.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2011-03-14</field>
@@ -2273,9 +2273,9 @@
     <field name="powiat">SUWAŁKI</field>
     <field name="gmina">SUWAŁKI</field>
     <field name="miejscowosc">SUWAŁKI</field>
-    <field name="kodPocztowy"></field>
+    <field name="kodPocztowy" />
     <field name="telefon">+48 536 184 713</field>
-    <field name="email">biuro.vistula-fintech@o2.pl</field>
+    <field name="email">biuro.vistula-fintech@wp.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2025-04-04</field>
@@ -2294,7 +2294,7 @@
     <field name="miejscowosc">NYSA</field>
     <field name="kodPocztowy">48-300</field>
     <field name="telefon">587506833</field>
-    <field name="email">sekretariat.astra-finance@proton.me</field>
+    <field name="email">sekretariat.astra-finance@onet.pl</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-01-10</field>
@@ -2313,7 +2313,7 @@
     <field name="miejscowosc">BRZEG</field>
     <field name="kodPocztowy">49-300</field>
     <field name="telefon">48-639-374-975</field>
-    <field name="email">firma.baltic-med-supply@outlook.com</field>
+    <field name="email">firma.baltic-med-supply@interia.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2020-10-31</field>
@@ -2332,8 +2332,8 @@
     <field name="miejscowosc">ŻARY</field>
     <field name="kodPocztowy">68-200</field>
     <field name="telefon">48-553-927-670</field>
-    <field name="email">kontakt@@wp.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023-01-21</field>
   </record>
@@ -2351,7 +2351,7 @@
     <field name="miejscowosc">ŚWIEBODZIN</field>
     <field name="kodPocztowy">66-200</field>
     <field name="telefon">+48 527 499 848</field>
-    <field name="email">biuro@icloud.com</field>
+    <field name="email">biuro@proton.me</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2012-08-11</field>
@@ -2370,7 +2370,7 @@
     <field name="miejscowosc">KOŁOBRZEG</field>
     <field name="kodPocztowy">78-100</field>
     <field name="telefon">579 444 352</field>
-    <field name="email">office.nova-data@gmail.com</field>
+    <field name="email">office.nova-data@outlook.com</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016-02-27</field>
@@ -2389,7 +2389,7 @@
     <field name="miejscowosc">STARGARD</field>
     <field name="kodPocztowy">73-110</field>
     <field name="telefon">48-688-609-166</field>
-    <field name="email">kontakt.optima-trade@wp.pl</field>
+    <field name="email">kontakt.optima-trade@yahoo.com</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-07-31</field>
@@ -2408,7 +2408,7 @@
     <field name="miejscowosc">SANDOMIERZ</field>
     <field name="kodPocztowy">27-600</field>
     <field name="telefon">+48 567 756 191</field>
-    <field name="email">biuro.polaris-capital@onet.pl</field>
+    <field name="email">biuro.polaris-capital@icloud.com</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2012-05-18</field>
@@ -2427,7 +2427,7 @@
     <field name="miejscowosc">OSTROWIEC ŚWIĘTOKRZYSKI</field>
     <field name="kodPocztowy">27-400</field>
     <field name="telefon">+48 740 749 707</field>
-    <field name="email">sekretariat.quantum-services@mail_invalid.pl</field>
+    <field name="email">sekretariat.quantum-services@gmail.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2011-11-23</field>
@@ -2446,8 +2446,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-590</field>
     <field name="telefon">797820295</field>
-    <field name="email">firma.silesia-invest@o2.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.silesia-invest@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016-03-06</field>
   </record>
@@ -2465,7 +2465,7 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-071</field>
     <field name="telefon">774772460</field>
-    <field name="email">kontakt@proton.me</field>
+    <field name="email">kontakt@onet.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2012-04-07</field>
@@ -2484,7 +2484,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-019</field>
     <field name="telefon">(48) 746699147</field>
-    <field name="email">biuro@outlook.com</field>
+    <field name="email">biuro@interia.pl</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016-06-04</field>
@@ -2503,7 +2503,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-147</field>
     <field name="telefon">48-577-198-830</field>
-    <field name="email">office.baltic-med-supplyubezpieczenia.pl</field>
+    <field name="email">office.baltic-med-supplyubezpieczenia.pl@o2.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023-05-22</field>
@@ -2522,7 +2522,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-102</field>
     <field name="telefon">48-617-940-055</field>
-    <field name="email">kontakt.helios-markets@yahoo.com</field>
+    <field name="email">kontakt.helios-markets@proton.me</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-06-04</field>
@@ -2541,7 +2541,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-402</field>
     <field name="telefon">+48 649 641 771</field>
-    <field name="email">biuro.lumen-advisory@@wp.pl</field>
+    <field name="email">biuro.lumen-advisory@outlook.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2024-03-24</field>
@@ -2560,8 +2560,8 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">50-066</field>
     <field name="telefon">629377120</field>
-    <field name="email">sekretariat.nova-data@gmail.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.nova-data@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-02-10</field>
   </record>
@@ -2579,7 +2579,7 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">54-203</field>
     <field name="telefon">604 477 212</field>
-    <field name="email">firma.optima-trade@wp.pl</field>
+    <field name="email">firma.optima-trade@icloud.com</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2021-03-20</field>
@@ -2598,7 +2598,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">61-806</field>
     <field name="telefon">608 185 565</field>
-    <field name="email">kontakt@onet.pl</field>
+    <field name="email">kontakt@gmail.com</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2014-10-20</field>
@@ -2617,7 +2617,7 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">60-734</field>
     <field name="telefon">584 821 952</field>
-    <field name="email">biuro@interia.pl</field>
+    <field name="email">biuro@wp.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-09-16</field>
@@ -2636,7 +2636,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-831</field>
     <field name="telefon">+48 777 972 275</field>
-    <field name="email">office.silesia-invest@mail_invalid.pl</field>
+    <field name="email">office.silesia-invest@onet.pl</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-04-08</field>
@@ -2655,7 +2655,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-236</field>
     <field name="telefon">(48) 549422741</field>
-    <field name="email">kontakt.vistula-fintech@proton.me</field>
+    <field name="email">kontakt.vistula-fintech@interia.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2010-05-31</field>
@@ -2674,8 +2674,8 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-435</field>
     <field name="telefon">(48) 736762068</field>
-    <field name="email">biuro.astra-finance@outlook.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro.astra-finance@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021-05-06</field>
   </record>
@@ -2693,7 +2693,7 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-200</field>
     <field name="telefon">(48) 607771014</field>
-    <field name="email">sekretariat.baltic-med-supply@yahoo.com</field>
+    <field name="email">sekretariat.baltic-med-supply@proton.me</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2018-10-22</field>
@@ -2712,7 +2712,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-014</field>
     <field name="telefon">48-618-767-067</field>
-    <field name="email">firma.helios-markets@icloud.com</field>
+    <field name="email">firma.helios-markets@outlook.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2019-12-15</field>
@@ -2731,7 +2731,7 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-009</field>
     <field name="telefon">(48) 568107306</field>
-    <field name="email">kontakt@@wp.pl</field>
+    <field name="email">kontakt@yahoo.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2025-11-15</field>
@@ -2750,7 +2750,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-002</field>
     <field name="telefon">653435097</field>
-    <field name="email">biuro@wp.pl</field>
+    <field name="email">biuro@icloud.com</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2022-04-26</field>
@@ -2769,7 +2769,7 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-004</field>
     <field name="telefon">(48) 743819757</field>
-    <field name="email">office.optima-trade@onet.pl</field>
+    <field name="email">office.optima-trade@gmail.com</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2017-09-21</field>
@@ -2788,8 +2788,8 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-424</field>
     <field name="telefon">607691642</field>
-    <field name="email">kontakt.polaris-capital@interia.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt.polaris-capital@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-12-21</field>
   </record>
@@ -2807,7 +2807,7 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-092</field>
     <field name="telefon">774648575</field>
-    <field name="email">biuro.quantum-services@o2.pl</field>
+    <field name="email">biuro.quantum-services@onet.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2019-08-15</field>
@@ -2826,7 +2826,7 @@
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-005</field>
     <field name="telefon">+48 554 749 049</field>
-    <field name="email">sekretariat.silesia-invest@mail_invalid.pl</field>
+    <field name="email">sekretariat.silesia-invest@interia.pl</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2011-09-21</field>
@@ -2834,7 +2834,7 @@
   <record>
     <field name="regon">278439157</field>
     <field name="nip">1278280771</field>
-    <field name="krs"></field>
+    <field name="krs" />
     <field name="nazwa">Vistula Fintech Spółka Akcyjna</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -2845,7 +2845,7 @@
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-009</field>
     <field name="telefon">(48) 694527563</field>
-    <field name="email">firma.vistula-fintech@outlook.com</field>
+    <field name="email">firma.vistula-fintech@o2.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-10-08</field>
@@ -2864,7 +2864,7 @@
     <field name="miejscowosc">TORUŃ</field>
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">+48 563 865 907</field>
-    <field name="email">kontakt@yahoo.com</field>
+    <field name="email">kontakt@proton.me</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021-08-02</field>
@@ -2883,7 +2883,7 @@
     <field name="miejscowosc">TORUŃ</field>
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">706915857</field>
-    <field name="email">biuro@icloud.com</field>
+    <field name="email">biuro@outlook.com</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2013-07-24</field>
@@ -2902,8 +2902,8 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-030</field>
     <field name="telefon">+48 532 895 726</field>
-    <field name="email">office.helios-markets.gmail.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">office.helios-markets.gmail.com@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-07-16</field>
   </record>
@@ -2921,7 +2921,7 @@
     <field name="miejscowosc">RZESZÓW</field>
     <field name="kodPocztowy">35-074</field>
     <field name="telefon">+48 607 264 282</field>
-    <field name="email">kontakt.lumen-advisory@wp.pl</field>
+    <field name="email">kontakt.lumen-advisory@icloud.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2022-05-05</field>
@@ -2940,7 +2940,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-007</field>
     <field name="telefon">+48 602 806 610</field>
-    <field name="email">biuro.nova-data@onet.pl</field>
+    <field name="email">biuro.nova-data@gmail.com</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2017-10-22</field>
@@ -2959,7 +2959,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-512</field>
     <field name="telefon">523 210 247</field>
-    <field name="email">sekretariat.optima-trade@interia.pl</field>
+    <field name="email">sekretariat.optima-trade@wp.pl</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-09-06</field>
@@ -2978,7 +2978,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-504</field>
     <field name="telefon">(48) 617453300</field>
-    <field name="email">firma.polaris-capital@o2.pl</field>
+    <field name="email">firma.polaris-capital@onet.pl</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2020-08-09</field>
@@ -2997,7 +2997,7 @@
     <field name="miejscowosc">OLSZTNY</field>
     <field name="kodPocztowy">10-540</field>
     <field name="telefon">687 451 465</field>
-    <field name="email">kontakt@nieistniejaca-domena</field>
+    <field name="email">kontakt@interia.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2024-09-14</field>
@@ -3016,8 +3016,8 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-018</field>
     <field name="telefon">+48 541 463 719</field>
-    <field name="email">biuro@outlook.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2019-02-16</field>
   </record>
@@ -3035,7 +3035,7 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-057</field>
     <field name="telefon">679248136</field>
-    <field name="email">office.vistula-fintech@yahoo.com</field>
+    <field name="email">office.vistula-fintech@proton.me</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2013-02-01</field>
@@ -3054,7 +3054,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-034</field>
     <field name="telefon">567 456 544</field>
-    <field name="email">kontakt.astra-finance@icloud.com</field>
+    <field name="email">kontakt.astra-finance@outlook.com</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2018-11-04</field>
@@ -3073,7 +3073,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-058</field>
     <field name="telefon">792 335 714</field>
-    <field name="email">biuro.baltic-med-supply@gmail.com</field>
+    <field name="email">biuro.baltic-med-supply@yahoo.com</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2014-04-01</field>
@@ -3092,7 +3092,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-372</field>
     <field name="telefon">723 850 420</field>
-    <field name="email">sekretariat.helios-markets.gmail.com</field>
+    <field name="email">sekretariat.helios-markets.gmail.com@icloud.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2022-01-06</field>
@@ -3111,7 +3111,7 @@
     <field name="miejscowosc">GDYNIA</field>
     <field name="kodPocztowy">81-364</field>
     <field name="telefon">+48 552 541 838</field>
-    <field name="email">firma.lumen-advisory@onet.pl</field>
+    <field name="email">firma.lumen-advisory@gmail.com</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2015-01-04</field>
@@ -3130,8 +3130,8 @@
     <field name="miejscowosc">PRUSZKÓW</field>
     <field name="kodPocztowy">05-800</field>
     <field name="telefon">+48 545 439 724</field>
-    <field name="email">kontakt@interia.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2021-07-20</field>
   </record>
@@ -3149,7 +3149,7 @@
     <field name="miejscowosc">PIASECZNO</field>
     <field name="kodPocztowy">05-500</field>
     <field name="telefon">(48) 615298837</field>
-    <field name="email">biuro@o2.pl</field>
+    <field name="email">biuro@onet.pl</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2024-06-08</field>
@@ -3168,7 +3168,7 @@
     <field name="miejscowosc">WIELICZKA</field>
     <field name="kodPocztowy">32-020</field>
     <field name="telefon">48-742-853-229</field>
-    <field name="email">office.polaris-capital@proton.me</field>
+    <field name="email">office.polaris-capital@interia.pl</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2011-01-05</field>
@@ -3187,7 +3187,7 @@
     <field name="miejscowosc">OŚWIĘCIM</field>
     <field name="kodPocztowy">32-600</field>
     <field name="telefon">693952400</field>
-    <field name="email">kontakt.quantum-services@nieistniejaca-domena</field>
+    <field name="email">kontakt.quantum-services@o2.pl</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2012-01-07</field>
@@ -3206,7 +3206,7 @@
     <field name="miejscowosc">KROSNO</field>
     <field name="kodPocztowy">38-400</field>
     <field name="telefon">48-590-831-683</field>
-    <field name="email">biuro.silesia-invest@yahoo.com</field>
+    <field name="email">biuro.silesia-invest@proton.me</field>
     <field name="stronaWWW">https://www.silesia-invest-group.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2020-03-12</field>
@@ -3225,7 +3225,7 @@
     <field name="miejscowosc">MIELEC</field>
     <field name="kodPocztowy">39-300</field>
     <field name="telefon">616786083</field>
-    <field name="email">sekretariat.vistula-fintech@icloud.com</field>
+    <field name="email">sekretariat.vistula-fintech@outlook.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2010-11-01</field>
@@ -3244,8 +3244,8 @@
     <field name="miejscowosc">ŚWIDNICA</field>
     <field name="kodPocztowy">58-100</field>
     <field name="telefon">741259020</field>
-    <field name="email">firma.astra-finance@gmail.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">firma.astra-finance@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020-04-11</field>
   </record>
@@ -3263,7 +3263,7 @@
     <field name="miejscowosc">KŁODZKO</field>
     <field name="kodPocztowy">57-300</field>
     <field name="telefon">(48) 510643973</field>
-    <field name="email">kontakt@wp.pl</field>
+    <field name="email">kontakt@icloud.com</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023-12-22</field>
@@ -3282,7 +3282,7 @@
     <field name="miejscowosc">GNIEZNO</field>
     <field name="kodPocztowy">62-200</field>
     <field name="telefon">(48) 774482794</field>
-    <field name="email">biuro.gmail.com</field>
+    <field name="email">biuro.gmail.com@gmail.com</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2014-03-26</field>
@@ -3301,7 +3301,7 @@
     <field name="miejscowosc">LESZNO</field>
     <field name="kodPocztowy">64-100</field>
     <field name="telefon">645574497</field>
-    <field name="email">office.lumen-advisory@interia.pl</field>
+    <field name="email">office.lumen-advisory@wp.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-04-10</field>
@@ -3320,7 +3320,7 @@
     <field name="miejscowosc">TCZEW</field>
     <field name="kodPocztowy">83-110</field>
     <field name="telefon">673917386</field>
-    <field name="email">kontakt.nova-data@o2.pl</field>
+    <field name="email">kontakt.nova-data@onet.pl</field>
     <field name="stronaWWW">https://www.nova-data-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023-08-17</field>
@@ -3339,7 +3339,7 @@
     <field name="miejscowosc">WEJHEROWO</field>
     <field name="kodPocztowy">84-200</field>
     <field name="telefon">(48) 726301352</field>
-    <field name="email">biuro.optima-trade@proton.me</field>
+    <field name="email">biuro.optima-trade@interia.pl</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021-08-01</field>
@@ -3358,8 +3358,8 @@
     <field name="miejscowosc">CIESZYN</field>
     <field name="kodPocztowy">43-400</field>
     <field name="telefon">48-671-598-952</field>
-    <field name="email">sekretariat.polaris-capital@outlook.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.polaris-capital@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021-09-11</field>
   </record>
@@ -3377,7 +3377,7 @@
     <field name="miejscowosc">BĘDZIN</field>
     <field name="kodPocztowy">42-500</field>
     <field name="telefon">+48 737 821 109</field>
-    <field name="email">firma.quantum-services@nieistniejaca-domena</field>
+    <field name="email">firma.quantum-services@proton.me</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2015-01-11</field>
@@ -3396,7 +3396,7 @@
     <field name="miejscowosc">INOWROCŁAW</field>
     <field name="kodPocztowy">88-100</field>
     <field name="telefon">(48) 647356822</field>
-    <field name="email">kontakt@icloud.com</field>
+    <field name="email">kontakt@outlook.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2010-07-22</field>
@@ -3415,7 +3415,7 @@
     <field name="miejscowosc">GRUDZIĄDZ</field>
     <field name="kodPocztowy">86-300</field>
     <field name="telefon">(48) 628946870</field>
-    <field name="email">biuro@gmail.com</field>
+    <field name="email">biuro@yahoo.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-11-10</field>
@@ -3434,7 +3434,7 @@
     <field name="miejscowosc">OSTRÓDA</field>
     <field name="kodPocztowy">14-100</field>
     <field name="telefon">649 516 738</field>
-    <field name="email">office.astra-finance@wp.pl</field>
+    <field name="email">office.astra-finance@icloud.com</field>
     <field name="stronaWWW">https://www.astra-finance.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2019-09-15</field>
@@ -3453,7 +3453,7 @@
     <field name="miejscowosc">GIŻYCKO</field>
     <field name="kodPocztowy">11-500</field>
     <field name="telefon">736 675 397</field>
-    <field name="email">kontakt.baltic-med-supply@onet.pl</field>
+    <field name="email">kontakt.baltic-med-supply@gmail.com</field>
     <field name="stronaWWW">https://baltic-med-supply.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2018-08-17</field>
@@ -3472,8 +3472,8 @@
     <field name="miejscowosc">PUŁAWY</field>
     <field name="kodPocztowy">24-100</field>
     <field name="telefon">602917999</field>
-    <field name="email">biuro.helios-markets.gmail.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">biuro.helios-markets.gmail.com@wp.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2019-09-09</field>
   </record>
@@ -3488,10 +3488,10 @@
     <field name="wojewodztwo">LUBELSKIE</field>
     <field name="powiat">ZAMOŚĆ</field>
     <field name="gmina">ZAMOŚĆ</field>
-    <field name="miejscowosc"></field>
+    <field name="miejscowosc" />
     <field name="kodPocztowy">22-400</field>
     <field name="telefon">+48 547 673 736</field>
-    <field name="email">sekretariat.lumen-advisory@o2.pl</field>
+    <field name="email">sekretariat.lumen-advisory@onet.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2017-08-24</field>
@@ -3510,7 +3510,7 @@
     <field name="miejscowosc">AUGUSTÓW</field>
     <field name="kodPocztowy">16-300</field>
     <field name="telefon">48-537-570-847</field>
-    <field name="email">firma.nova-data@proton.me</field>
+    <field name="email">firma.nova-data@interia.pl</field>
     <field name="stronaWWW">https://www.nova-data-group.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-08-09</field>
@@ -3529,7 +3529,7 @@
     <field name="miejscowosc">NIBYLANDIA</field>
     <field name="kodPocztowy">99-999</field>
     <field name="telefon">697137304</field>
-    <field name="email">kontakt@outlook.com</field>
+    <field name="email">kontakt@o2.pl</field>
     <field name="stronaWWW">https://www.optima-trade.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2017-04-12</field>
@@ -3548,7 +3548,7 @@
     <field name="miejscowosc">NYSA</field>
     <field name="kodPocztowy">48-300</field>
     <field name="telefon">+48 753 310 088</field>
-    <field name="email">biuro@yahoo.com</field>
+    <field name="email">biuro@proton.me</field>
     <field name="stronaWWW">https://polaris-capital.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2024-01-25</field>
@@ -3567,7 +3567,7 @@
     <field name="miejscowosc">BRZEG</field>
     <field name="kodPocztowy">49-300</field>
     <field name="telefon">504652747</field>
-    <field name="email">office.quantum-services@nieistniejaca-domena</field>
+    <field name="email">office.quantum-services@outlook.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2015-04-17</field>
@@ -3586,8 +3586,8 @@
     <field name="miejscowosc">ŻARY</field>
     <field name="kodPocztowy">68-200</field>
     <field name="telefon">48-647-786-700</field>
-    <field name="email">kontakt.silesia-invest@gmail.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">kontakt.silesia-invest@yahoo.com</field>
+    <field name="stronaWWW" />
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-12-08</field>
   </record>
@@ -3605,7 +3605,7 @@
     <field name="miejscowosc">ŚWIEBODZIN</field>
     <field name="kodPocztowy">66-200</field>
     <field name="telefon">48-769-978-466</field>
-    <field name="email">biuro.vistula-fintech@wp.pl</field>
+    <field name="email">biuro.vistula-fintech@icloud.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-10-05</field>
@@ -3624,7 +3624,7 @@
     <field name="miejscowosc">KOŁOBRZEG</field>
     <field name="kodPocztowy">78-100</field>
     <field name="telefon">683197459</field>
-    <field name="email">sekretariat.astra-finance@onet.pl</field>
+    <field name="email">sekretariat.astra-finance@gmail.com</field>
     <field name="stronaWWW">https://www.astra-finance.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2022-08-27</field>
@@ -3643,7 +3643,7 @@
     <field name="miejscowosc">STARGARD</field>
     <field name="kodPocztowy">73-110</field>
     <field name="telefon">544 673 489</field>
-    <field name="email">firma.baltic-med-supply@interia.pl</field>
+    <field name="email">firma.baltic-med-supply@wp.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-04-07</field>
@@ -3662,7 +3662,7 @@
     <field name="miejscowosc">SANDOMIERZ</field>
     <field name="kodPocztowy">27-600</field>
     <field name="telefon">743569696</field>
-    <field name="email">kontakt.gmail.com</field>
+    <field name="email">kontakt.gmail.com@onet.pl</field>
     <field name="stronaWWW">https://www.helios-markets-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-06-18</field>
@@ -3681,7 +3681,7 @@
     <field name="miejscowosc">OSTROWIEC ŚWIĘTOKRZYSKI</field>
     <field name="kodPocztowy">27-400</field>
     <field name="telefon">(48) 720923667</field>
-    <field name="email">biuro@proton.me</field>
+    <field name="email">biuro@interia.pl</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2010-09-17</field>
@@ -3700,8 +3700,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-590</field>
     <field name="telefon">672441774</field>
-    <field name="email">office.nova-data@outlook.com</field>
-    <field name="stronaWWW"></field>
+    <field name="email">office.nova-data@o2.pl</field>
+    <field name="stronaWWW" />
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018-05-12</field>
   </record>
@@ -3719,7 +3719,7 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-071</field>
     <field name="telefon">658 436 073</field>
-    <field name="email">kontakt.optima-trade@yahoo.com</field>
+    <field name="email">kontakt.optima-trade@proton.me</field>
     <field name="stronaWWW">https://www.optima-trade.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-12-28</field>
@@ -3738,7 +3738,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-019</field>
     <field name="telefon">48-599-853-574</field>
-    <field name="email">biuro.polaris-capital@icloud.com</field>
+    <field name="email">biuro.polaris-capital@outlook.com</field>
     <field name="stronaWWW">https://polaris-capital.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2017-12-21</field>
@@ -3757,7 +3757,7 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-147</field>
     <field name="telefon">48-796-782-647</field>
-    <field name="email">sekretariat.quantum-services@nieistniejaca-domena</field>
+    <field name="email">sekretariat.quantum-services@yahoo.com</field>
     <field name="stronaWWW">https://www.quantum-services-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2017-11-20</field>
@@ -3776,7 +3776,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-102</field>
     <field name="telefon">48-506-413-073</field>
-    <field name="email">firma.silesia-invest@wp.pl</field>
+    <field name="email">firma.silesia-invest@icloud.com</field>
     <field name="stronaWWW">https://www.silesia-invest-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2023-12-15</field>
@@ -3795,7 +3795,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-402</field>
     <field name="telefon">+48 733 906 908</field>
-    <field name="email">kontakt@onet.pl</field>
+    <field name="email">kontakt@gmail.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2015-03-16</field>
