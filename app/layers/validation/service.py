@@ -1,4 +1,5 @@
 import re
+import socket
 from dataclasses import dataclass
 from functools import lru_cache
 from typing import Any
@@ -32,7 +33,7 @@ except ImportError:
 
 
 EMAIL_FALLBACK_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
-EMAIL_DNS_TIMEOUT_SECONDS = 2.0
+EMAIL_DNS_TIMEOUT_SECONDS = 0.5
 PERSON_NAME_RE = re.compile(r"^[A-Z][A-Z '\-]*$")
 KRS_RE = re.compile(r"^\d{10}$")
 POLISH_ID_CARD_RE = re.compile(r"^[A-Z]{3}\d{6}$")
@@ -65,7 +66,7 @@ def load_validation_results(
     db: Any,
     raw_file_id: int,
     entity_type: str,
-    check_email_dns: bool = False,
+    check_email_dns: bool = True,
     repo: Any | None = None,
 ) -> ValidationLoadResult:
     entity_type = normalize_entity_type(entity_type)
@@ -129,7 +130,7 @@ def build_validation_results(
     staging_record: Any,
     preprocessed_record: Any,
     entity_type: str,
-    check_email_dns: bool = False,
+    check_email_dns: bool = True,
 ) -> list[dict[str, Any]]:
     entity_type = normalize_entity_type(entity_type)
     base = {
@@ -345,7 +346,7 @@ def validate_polish_identifier(identifier_type: str, value: str | None) -> bool:
     return False
 
 
-def validate_email_value(value: str | None, check_dns: bool = False) -> bool:
+def validate_email_value(value: str | None, check_dns: bool = True) -> bool:
     if value in (None, ""):
         return True
 
@@ -368,22 +369,36 @@ def validate_email_value(value: str | None, check_dns: bool = False) -> bool:
 
 @lru_cache(maxsize=1024)
 def email_domain_exists(domain: str) -> bool:
-    if dns is None:
-        return False
-
     normalized_domain = domain.strip().rstrip(".").lower()
     if "." not in normalized_domain:
         return False
 
-    resolver = dns.resolver.Resolver()
-    resolver.timeout = EMAIL_DNS_TIMEOUT_SECONDS
-    resolver.lifetime = EMAIL_DNS_TIMEOUT_SECONDS
-
-    if dns_record_exists(resolver, normalized_domain, "MX"):
+    if domain_address_exists(normalized_domain):
         return True
-    return dns_record_exists(resolver, normalized_domain, "A") or dns_record_exists(
-        resolver, normalized_domain, "AAAA"
-    )
+
+    if dns is None:
+        return False
+
+    for resolver in email_dns_resolvers():
+        if dns_record_exists(resolver, normalized_domain, "MX"):
+            return True
+    return False
+
+
+def domain_address_exists(domain: str) -> bool:
+    try:
+        socket.getaddrinfo(domain, None, type=socket.SOCK_STREAM)
+        return True
+    except OSError:
+        return False
+
+
+def email_dns_resolvers() -> list[Any]:
+    resolvers = [dns.resolver.Resolver()]
+    for resolver in resolvers:
+        resolver.timeout = EMAIL_DNS_TIMEOUT_SECONDS
+        resolver.lifetime = EMAIL_DNS_TIMEOUT_SECONDS
+    return resolvers
 
 
 def dns_record_exists(resolver: Any, domain: str, record_type: str) -> bool:

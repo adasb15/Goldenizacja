@@ -20,7 +20,7 @@ def status() -> LayerStatus:
 def validation_load(
     raw_file_id: int = Form(...),
     entity_type: str = Form(...),
-    check_email_dns: bool = Form(False),
+    check_email_dns: bool = Form(True),
     db: Session = Depends(get_db),
 ) -> ValidationLoadResponse:
     try:
