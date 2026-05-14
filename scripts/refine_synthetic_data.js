@@ -489,33 +489,6 @@ function typo(value) {
   return chars.join("");
 }
 
-function removePolishDiacritic(value) {
-  const replacements = {
-    "ą": "a",
-    "ć": "c",
-    "ę": "e",
-    "ł": "l",
-    "ń": "n",
-    "ó": "o",
-    "ś": "s",
-    "ź": "z",
-    "ż": "z",
-    "Ą": "A",
-    "Ć": "C",
-    "Ę": "E",
-    "Ł": "L",
-    "Ń": "N",
-    "Ó": "O",
-    "Ś": "S",
-    "Ź": "Z",
-    "Ż": "Z",
-  };
-  const chars = [...String(value ?? "")];
-  const index = chars.findIndex((ch) => replacements[ch]);
-  if (index < 0) return value;
-  chars[index] = replacements[chars[index]];
-  return chars.join("");
-}
 
 function addressParts(index, invalid = false) {
   const [province, district, municipality, localityUpper, city, street, postalCode] = pick(ADDRESSES, index);
@@ -653,7 +626,6 @@ function selectIndexes(count, howMany, offset) {
 function applyAnomalies(records, headers) {
   const total = records.length;
   const typoIndexes = selectIndexes(total, Math.round(total * 0.02), 7);
-  const missingDiacriticIndexes = selectIndexes(total, Math.round(total * 0.01), 13);
   const incompleteRecordIndexes = selectIndexes(total, Math.round(total * 0.0075), 17);
   const missingPostal = selectIndexes(total, Math.round(total * 0.01), 19);
   const missingStreet = selectIndexes(total, Math.round(total * 0.01), 37);
@@ -701,13 +673,6 @@ function applyAnomalies(records, headers) {
     if (candidates.length) {
       const key = candidates[Math.floor(rand() * candidates.length)];
       records[i][key] = typo(records[i][key]);
-    }
-  }
-  for (const i of missingDiacriticIndexes) {
-    const candidates = typoFields.filter((h) => /[ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]/.test(String(records[i][h] ?? "")));
-    if (candidates.length) {
-      const key = candidates[Math.floor(rand() * candidates.length)];
-      records[i][key] = removePolishDiacritic(records[i][key]);
     }
   }
 

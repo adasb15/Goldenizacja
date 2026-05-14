@@ -1,6 +1,5 @@
 import json
 import re
-import unicodedata
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
@@ -13,11 +12,6 @@ try:
 except ImportError:
     phonenumbers = None
 
-try:
-    from text_unidecode import unidecode
-except ImportError:
-    unidecode = None
-
 
 ADDRESS_PREFIX_RE = re.compile(r"^(?:ul\.?|ulica|al\.?|aleja)\s+", re.IGNORECASE)
 APARTMENT_PREFIX_RE = re.compile(r"\s+(?:m\.?|lok\.?|lokal)\s+", re.IGNORECASE)
@@ -28,19 +22,40 @@ FULL_ADDRESS_POSTAL_FIRST_RE = re.compile(
     r"^\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>[^,]+?),\s*(?P<street_part>.+?)\s*$"
 )
 CITY_STREET_LINE_RE = re.compile(r"^\s*(?P<city>[^,]+?),\s*(?P<street_part>.+?)\s*$")
+STREET_CITY_LINE_RE = re.compile(r"^\s*(?P<street_part>.+?),\s*(?P<city>[^,]+?)\s*$")
 POSTAL_CITY_LINE_RE = re.compile(r"^\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>.+?)\s*$")
 STREET_BUILDING_LINE_RE = re.compile(
     r"^\s*(?P<street>.+?)\s+(?P<building>\d+[A-Za-z]?(?:[-/]\d+[A-Za-z]?)?)\s*$"
 )
+BUILDING_ONLY_RE = re.compile(r"^\s*(?P<building>\d+[A-Za-z]?(?:[-/]\d+[A-Za-z]?)?)\s*$")
+POSTAL_CODE_IN_TEXT_RE = re.compile(r"\b\d{2}-\d{3}\b")
 NON_DIGIT_RE = re.compile(r"\D+")
 NON_ALNUM_RE = re.compile(r"[^0-9A-Z]+")
 MULTISPACE_RE = re.compile(r"\s+")
-POLISH_SPECIAL_TRANSLATION = str.maketrans(
-    {
-        "ł": "l",
-        "Ł": "L",
-    }
-)
+
+LEGAL_FORM_PATTERNS: list[tuple[re.Pattern[str], str]] = [
+    (re.compile(r"\bS\.?\s*A\.?\b", re.IGNORECASE), "S.A."),
+    (re.compile(r"\bSPÓŁKA\s+AKCYJNA\b", re.IGNORECASE), "S.A."),
+    (re.compile(r"\bSPOLKA\s+AKCYJNA\b", re.IGNORECASE), "S.A."),
+    (
+        re.compile(r"\bSP(?:ÓŁKA)?\.?\s*Z\.?\s*O\.?\s*O\.?\b", re.IGNORECASE),
+        "SP. Z O.O.",
+    ),
+    (
+        re.compile(r"\bSPÓŁKA\s+Z\s+OGRANICZONĄ\s+ODPOWIEDZIALNOŚCIĄ\b", re.IGNORECASE),
+        "SP. Z O.O.",
+    ),
+    (
+        re.compile(r"\bSPOLKA\s+Z\s+OGRANICZONA\s+ODPOWIEDZIALNOSCIA\b", re.IGNORECASE),
+        "SP. Z O.O.",
+    ),
+    (re.compile(r"\bSP\.?\s*J\.?\b", re.IGNORECASE), "SP. J."),
+    (re.compile(r"\bSP\.?\s*K\.?\b", re.IGNORECASE), "SP. K."),
+    (re.compile(r"\bS\.?\s*K\.?\s*A\.?\b", re.IGNORECASE), "S.K.A."),
+    (re.compile(r"\bS\.?\s*C\.?\b", re.IGNORECASE), "S.C."),
+    (re.compile(r"\bFUNDACJ[AE]\b", re.IGNORECASE), "FUNDACJA"),
+    (re.compile(r"\bSTOWARZYSZENI[EA]\b", re.IGNORECASE), "STOWARZYSZENIE"),
+]
 
 
 class StagingRecordsNotFoundError(ValueError):
@@ -160,18 +175,32 @@ def load_staging_to_preprocessing(
 def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str, Any]:
     entity_type = normalize_entity_type(entity_type)
     address_parts = split_address_from_staging(staging_record)
+    street_normalized = normalize_text_key(address_parts.street)
+    building_number_normalized = normalize_identifier(address_parts.building_number)
+    apartment_number_normalized = normalize_identifier(address_parts.apartment_number)
+    postal_code_normalized = normalize_postal_code(address_parts.postal_code)
+    city_normalized = normalize_city_text(address_parts.city)
+    country_normalized = normalize_text_key(address_parts.country)
+    full_address_normalized = build_full_address_normalized(
+        street_normalized,
+        building_number_normalized,
+        apartment_number_normalized,
+        postal_code_normalized,
+        city_normalized,
+        country_normalized,
+    )
     base = {
         "Staging_ID": staging_record.Staging_ID,
         "ImportBatch_ID": staging_record.ImportBatch_ID,
         "RawFile_ID": staging_record.RawFile_ID,
         "Source_Record_ID": empty_to_none(staging_record.Source_Record_ID),
-        "Street_Normalized": normalize_text_key(address_parts.street),
-        "Building_Number_Normalized": normalize_identifier(address_parts.building_number),
-        "Apartment_Number_Normalized": normalize_identifier(address_parts.apartment_number),
-        "City_Normalized": normalize_text_key(address_parts.city),
-        "Postal_Code_Normalized": normalize_postal_code(address_parts.postal_code),
-        "Country_Normalized": normalize_text_key(address_parts.country),
-        "Full_Address_Normalized": normalize_text_key(address_parts.full_address),
+        "Street_Normalized": street_normalized,
+        "Building_Number_Normalized": building_number_normalized,
+        "Apartment_Number_Normalized": apartment_number_normalized,
+        "City_Normalized": city_normalized,
+        "Postal_Code_Normalized": postal_code_normalized,
+        "Country_Normalized": country_normalized,
+        "Full_Address_Normalized": full_address_normalized,
         "Preprocessing_Rules_JSON": build_rules_json(),
     }
 
@@ -197,11 +226,20 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
         return base
 
     identifiers = parse_identifiers_json(staging_record.Identifiers_JSON)
+    name_value = empty_to_none(staging_record.Name)
+    short_name_value = empty_to_none(staging_record.Short_Name)
+    legal_entity_type_value = empty_to_none(staging_record.Legal_Entity_Type)
+
+    inferred_short_name, inferred_legal_type = split_party_name_and_legal_form(name_value)
+    if short_name_value is None:
+        short_name_value = inferred_short_name
+    if legal_entity_type_value is None:
+        legal_entity_type_value = inferred_legal_type
     base.update(
         {
-            "Name_Normalized": normalize_text_key(staging_record.Name),
-            "Short_Name_Normalized": normalize_text_key(staging_record.Short_Name),
-            "Legal_Entity_Type_Normalized": normalize_text_key(staging_record.Legal_Entity_Type),
+            "Name_Normalized": normalize_text_key(name_value),
+            "Short_Name_Normalized": normalize_text_key(short_name_value),
+            "Legal_Entity_Type_Normalized": normalize_text_key(legal_entity_type_value),
             "NIP_Normalized": normalize_identifier(identifiers.get("NIP")),
             "REGON_Normalized": normalize_identifier(identifiers.get("REGON")),
             "KRS_Normalized": normalize_identifier(identifiers.get("KRS")),
@@ -243,14 +281,38 @@ def split_full_address_line(parts: AddressParts, address_line: str) -> bool:
         full_match = pattern.match(address_line)
         if full_match:
             # Pełny adres rozbijamy dopiero tutaj, bo to wartość pochodna do matchingu
+            street_part = full_match.group("street_part")
             parts.postal_code = parts.postal_code or full_match.group("postal_code")
-            parts.city = parts.city or full_match.group("city")
-            split_street_line(parts, full_match.group("street_part"))
+            parts.city = parts.city or normalize_city_text(full_match.group("city"))
+            split_street_line(parts, street_part)
+            if (
+                BUILDING_ONLY_RE.match(normalize_street_line(street_part)) is not None
+                and not looks_like_street_line(street_part)
+                and parts.street == address_line
+            ):
+                parts.street = None
             return True
+
+    street_city_match = STREET_CITY_LINE_RE.match(address_line)
+    if street_city_match and (
+        looks_like_street_line(street_city_match.group("street_part"))
+        or BUILDING_ONLY_RE.match(normalize_street_line(street_city_match.group("street_part"))) is not None
+    ):
+        street_part = street_city_match.group("street_part")
+        parsed_city = normalize_city_text(street_city_match.group("city"))
+        parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
+        split_street_line(parts, street_part)
+        if (
+            BUILDING_ONLY_RE.match(normalize_street_line(street_part)) is not None
+            and not looks_like_street_line(street_part)
+            and parts.street == address_line
+        ):
+            parts.street = None
+        return True
 
     city_street_match = CITY_STREET_LINE_RE.match(address_line)
     if city_street_match and looks_like_street_line(city_street_match.group("street_part")):
-        parsed_city = city_street_match.group("city")
+        parsed_city = normalize_city_text(city_street_match.group("city"))
         parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
         split_street_line(parts, city_street_match.group("street_part"))
         return True
@@ -258,7 +320,7 @@ def split_full_address_line(parts: AddressParts, address_line: str) -> bool:
     postal_city_match = POSTAL_CITY_LINE_RE.match(address_line)
     if postal_city_match:
         parts.postal_code = parts.postal_code or postal_city_match.group("postal_code")
-        parsed_city = postal_city_match.group("city")
+        parsed_city = normalize_city_text(postal_city_match.group("city"))
         parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
         if parts.street == address_line:
             parts.street = None
@@ -276,6 +338,17 @@ def split_city_line(parts: AddressParts, city_line: str) -> None:
 def split_street_line(parts: AddressParts, street_line: str) -> None:
     normalized_line = normalize_street_line(street_line)
     if not normalized_line:
+        return
+
+    building_only_match = BUILDING_ONLY_RE.match(normalized_line)
+    if building_only_match and not looks_like_street_line(normalized_line):
+        building_number, apartment_number = split_building_and_apartment(
+            building_only_match.group("building")
+        )
+        parts.building_number = parts.building_number or building_number
+        parts.apartment_number = parts.apartment_number or apartment_number
+        if parts.street == street_line:
+            parts.street = None
         return
 
     street_match = STREET_BUILDING_LINE_RE.match(normalized_line)
@@ -311,15 +384,78 @@ def normalize_text_key(value: Any) -> str | None:
     value = empty_to_none(value)
     if value is None:
         return None
-    translated = str(value).translate(POLISH_SPECIAL_TRANSLATION)
-    if unidecode is not None:
-        ascii_value = unidecode(translated)
-    else:
-        without_accents = unicodedata.normalize("NFKD", translated)
-        ascii_value = "".join(
-            character for character in without_accents if not unicodedata.combining(character)
-        )
-    return compact_text(ascii_value.upper())
+    return compact_text(str(value).upper())
+
+
+def normalize_city_text(value: Any) -> str | None:
+    value = empty_to_none(value)
+    if value is None:
+        return None
+    text = compact_text(str(value).upper())
+    if text is None:
+        return None
+    # Zdarza się, że do pola miasta trafia powtórzony fragment z kodem (np. "TCZEW 83-110 TCZEW").
+    without_postal = compact_text(POSTAL_CODE_IN_TEXT_RE.sub(" ", text))
+    if without_postal is None:
+        return None
+    return dedupe_repeated_tokens(without_postal)
+
+
+def infer_legal_entity_type_from_name(value: Any) -> str | None:
+    value = empty_to_none(value)
+    if value is None:
+        return None
+    text = str(value)
+    for pattern, label in LEGAL_FORM_PATTERNS:
+        if pattern.search(text):
+            return label
+    return None
+
+
+def split_party_name_and_legal_form(value: Any) -> tuple[str | None, str | None]:
+    value = empty_to_none(value)
+    if value is None:
+        return None, None
+
+    text = str(value)
+    for pattern, label in LEGAL_FORM_PATTERNS:
+        if pattern.search(text):
+            short_name = compact_text(pattern.sub(" ", text))
+            return short_name, label
+
+    return compact_text(text), None
+
+
+def build_full_address_normalized(
+    street: str | None,
+    building_number: str | None,
+    apartment_number: str | None,
+    postal_code: str | None,
+    city: str | None,
+    country: str | None,
+) -> str | None:
+    parts: list[str] = []
+    if street:
+        parts.append(street)
+
+    building_part: str | None = None
+    if building_number and apartment_number:
+        building_part = f"{building_number}/{apartment_number}"
+    elif building_number:
+        building_part = building_number
+    elif apartment_number:
+        building_part = apartment_number
+
+    if building_part:
+        parts.append(building_part)
+
+    if postal_code:
+        parts.append(postal_code)
+    if city:
+        parts.append(city)
+    if country:
+        parts.append(country)
+    return compact_text(" ".join(parts))
 
 
 def normalize_identifier(value: Any) -> str | None:
@@ -408,3 +544,12 @@ def empty_to_none(value: Any) -> str | None:
 def compact_text(value: str) -> str | None:
     compacted = MULTISPACE_RE.sub(" ", value).strip()
     return compacted or None
+
+
+def dedupe_repeated_tokens(value: str) -> str:
+    tokens = value.split()
+    if len(tokens) >= 2 and len(tokens) % 2 == 0:
+        half = len(tokens) // 2
+        if tokens[:half] == tokens[half:]:
+            return " ".join(tokens[:half])
+    return value

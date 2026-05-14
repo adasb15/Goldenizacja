@@ -198,6 +198,7 @@
     <field name="firma.adresKorespondencyjny">ul Wyszyńskiego 114, 70-200 Szczecin</field>
     <field name="firma.telefon">(48) 781608833</field>
     <field name="firma.email">p.rutkowski@o2.pl</field>
+    <field name="firma.email">p.rutkowski@o2.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -218,6 +219,7 @@
     <field name="firma.adresKorespondencyjny">ulica Mariacka 131, 40-014 Katowice</field>
     <field name="firma.telefon">677332961</field>
     <field name="firma.email">gorska.magdalena@proton.me</field>
+    <field name="firma.email">gorska.magdalena@proton.me</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -237,6 +239,7 @@
     <field name="firma.adresDzialalnosci">Warszawska 148, 40-009 Katowice</field>
     <field name="firma.adresKorespondencyjny">Warszawska 148, 40-009 Katowice</field>
     <field name="firma.telefon">760103482</field>
+    <field name="firma.email">robertsikora@outlook.com</field>
     <field name="firma.email">robertsikora@outlook.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
@@ -278,6 +281,7 @@
     <field name="firma.adresKorespondencyjny">ul Narutowicza 2, 20-004 Lublin</field>
     <field name="firma.telefon">48-617-792-243</field>
     <field name="firma.email">wojciech.tomaszewski77@icloud.com</field>
+    <field name="firma.email">wojciech.tomaszewski77@icloud.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -318,6 +322,7 @@
     <field name="firma.adresKorespondencyjny">Sienkiewicza 36, 15-092 Białystok</field>
     <field name="firma.telefon">(48) 626824679</field>
     <field name="firma.email">p.pietrzak@wp.pl</field>
+    <field name="firma.email">p.pietrzak@wp.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -337,6 +342,7 @@
     <field name="firma.adresDzialalnosci">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
     <field name="firma.telefon">514435681</field>
+    <field name="firma.email">wojcicka.maria@onet.pl</field>
     <field name="firma.email">wojcicka.maria@onet.pl</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
@@ -378,6 +384,7 @@
     <field name="firma.adresKorespondencyjny">ulica Szeroka 87, 87-100 Toruń</field>
     <field name="firma.telefon">48-708-620-800</field>
     <field name="firma.email">joanna_lis@o2.pl</field>
+    <field name="firma.email">joanna_lis@o2.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -397,6 +404,7 @@
     <field name="firma.adresDzialalnosci">Chełmińska 104, Toruń</field>
     <field name="firma.adresKorespondencyjny">Chełmińska 104, Toruń</field>
     <field name="firma.telefon">48-743-691-441</field>
+    <field name="firma.email">pawel.kolodziej83@proton.me</field>
     <field name="firma.email">pawel.kolodziej83@proton.me</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
@@ -438,6 +446,7 @@
     <field name="firma.adresKorespondencyjny">ul Piłsudskiego 138, 35-074 Rzeszów</field>
     <field name="firma.telefon">(48) 746803310</field>
     <field name="firma.email">r.piatek@yahoo.com</field>
+    <field name="firma.email">r.piatek@yahoo.com</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -478,6 +487,7 @@
     <field name="firma.adresKorespondencyjny">Warszawska 172, 25-512 Kielce</field>
     <field name="firma.telefon">48-558-899-603</field>
     <field name="firma.email">wojciechwlodarczyk@gmail.com</field>
+    <field name="firma.email">wojciechwlodarczyk@gmail.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -498,6 +508,7 @@
     <field name="firma.adresKorespondencyjny">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
     <field name="firma.telefon">(48) 718340133</field>
     <field name="firma.email">justyna_borkowska@wp.pl</field>
+    <field name="firma.email">justyna_borkowska@wp.pl</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -517,6 +528,7 @@
     <field name="firma.adresDzialalnosci">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="firma.telefon">695 991 543</field>
+    <field name="firma.email">piotr.kowalski89@onet.pl</field>
     <field name="firma.email">piotr.kowalski89@onet.pl</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
@@ -577,6 +589,7 @@
     <field name="firma.adresDzialalnosci">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="firma.telefon">511329428</field>
+    <field name="firma.email">wojcik.joanna@proton.me</field>
     <field name="firma.email">wojcik.joanna@proton.me</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
@@ -877,7 +890,7 @@
     <field name="firma.adresDzialalnosci">Sobieskiego 152, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">Sobieskiego 152, 84-200 Wejherowo</field>
     <field name="firma.telefon">+48 528 213 044</field>
-    <field name="firma.email">wojciech.wieczorek78@onet.pl</field>
+    <field name="firma.email">wojciech.wieczorek78@brak-domeny</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -937,7 +950,7 @@
     <field name="firma.adresDzialalnosci">ulica Królowej Jadwigi 23, 88-100 Inowrocław</field>
     <field name="firma.adresKorespondencyjny">ulica Królowej Jadwigi 23, 88-100 Inowrocław</field>
     <field name="firma.telefon">48-598-818-475</field>
-    <field name="firma.email">walczak.maria@proton.me</field>
+    <field name="firma.email">walczak.maria@o2.pl</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -1037,7 +1050,7 @@
     <field name="firma.adresDzialalnosci">Staszica 108, 22-400 Zamość</field>
     <field name="firma.adresKorespondencyjny">Staszica 108, 22-400 Zamość</field>
     <field name="firma.telefon">581356428</field>
-    <field name="firma.email">r.sikora@wp.pl</field>
+    <field name="firma.email">r.sikora@gmail.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -1197,7 +1210,7 @@
     <field name="firma.adresDzialalnosci">Piłsudskiego 64, 73-110 Stargard</field>
     <field name="firma.adresKorespondencyjny">Piłsudskiego 64, 73-110 Stargard</field>
     <field name="firma.telefon">682 506 159</field>
-    <field name="firma.email">pawelkolodziej@gmail.com</field>
+    <field name="firma.email">pawelkolodziej@icloud.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -2197,7 +2210,7 @@
     <field name="firma.adresDzialalnosci">ul Sobieskiego 14, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">ul Sobieskiego 14, 84-200 Wejherowo</field>
     <field name="firma.telefon">(48) 682130059</field>
-    <field name="firma.email">pawel.kowalczyk86@proton.me</field>
+    <field name="firma.email">pawel.kowalczyk86@o2.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -2297,7 +2310,7 @@
     <field name="firma.adresDzialalnosci">ulica Czarnieckiego 99, 14-100 Ostróda</field>
     <field name="firma.adresKorespondencyjny">ulica Czarnieckiego 99, 14-100 Ostróda</field>
     <field name="firma.telefon">+48 784 488 352</field>
-    <field name="firma.email">justyna_dabrowska@wp.pl</field>
+    <field name="firma.email">justyna_dabrowska@gmail.com</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -3397,7 +3410,7 @@
     <field name="firma.adresDzialalnosci">ul Mickiewicza 134, 39-300 Mielec</field>
     <field name="firma.adresKorespondencyjny">ul Mickiewicza 134, 39-300 Mielec</field>
     <field name="firma.telefon">+48 690 748 182</field>
-    <field name="firma.email">pawel.rutkowski88@onet.pl</field>
+    <field name="firma.email">pawel.rutkowski88@gmail.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -3557,7 +3570,7 @@
     <field name="firma.adresDzialalnosci">ul Małachowskiego 90, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">ul Małachowskiego 90, 42-500 Będzin</field>
     <field name="firma.telefon">+48 794 894 882</field>
-    <field name="firma.email">m.czarnecki@wp.pl</field>
+    <field name="firma.email">m.czarnecki@nieistniejaca-domena</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -3717,7 +3730,7 @@
     <field name="firma.adresDzialalnosci">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="firma.adresKorespondencyjny">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="firma.telefon">+48 657 526 204</field>
-    <field name="firma.email">piotrkowalski@gmail.com</field>
+    <field name="firma.email">piotrkowalski@yahoo.com</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
