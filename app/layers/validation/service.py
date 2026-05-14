@@ -36,7 +36,7 @@ except ImportError:
 
 EMAIL_FALLBACK_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 EMAIL_DNS_TIMEOUT_SECONDS = 0.5
-PERSON_NAME_RE = re.compile(r"^[A-Z][A-Z '\-]*$")
+PERSON_NAME_RE = re.compile(r"^[A-ZĄĆĘŁŃÓŚŹŻ][A-ZĄĆĘŁŃÓŚŹŻ '\-]*$")
 KRS_RE = re.compile(r"^\d{10}$")
 POLISH_ID_CARD_RE = re.compile(r"^[A-Z]{3}\d{6}$")
 POLISH_ID_CARD_LETTER_VALUES = {chr(code): code - 55 for code in range(ord("A"), ord("Z") + 1)}

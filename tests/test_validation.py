@@ -15,6 +15,7 @@ from app.layers.validation.service import (
     validate_pesel_checksum,
     validate_pesel_sex_match,
     validate_polish_id_card_checksum,
+    validate_person_name,
     validate_regon_checksum,
 )
 
@@ -59,6 +60,12 @@ class ValidationTests(unittest.TestCase):
     def test_validates_email_syntax_without_dns(self) -> None:
         self.assertTrue(validate_email_value("jan.kowalski@example.com", check_dns=False))
         self.assertFalse(validate_email_value("jan.kowalski.example.com", check_dns=False))
+
+    def test_validates_polish_letters_in_person_names(self) -> None:
+        self.assertTrue(validate_person_name("MICHAŁ"))
+        self.assertTrue(validate_person_name("ZIELIŃSKI"))
+        self.assertTrue(validate_person_name("ŻÓŁĆ"))
+        self.assertFalse(validate_person_name("MICHAŁ1"))
 
     def test_validates_email_domain_when_dns_check_enabled(self) -> None:
         with patch("app.layers.validation.service.email_domain_exists", return_value=True) as exists:
