@@ -1,3 +1,5 @@
+from datetime import date, datetime
+import json
 import re
 from dataclasses import dataclass
 from functools import lru_cache
@@ -37,6 +39,16 @@ PERSON_NAME_RE = re.compile(r"^[A-Z][A-Z '\-]*$")
 KRS_RE = re.compile(r"^\d{10}$")
 POLISH_ID_CARD_RE = re.compile(r"^[A-Z]{3}\d{6}$")
 POLISH_ID_CARD_LETTER_VALUES = {chr(code): code - 55 for code in range(ord("A"), ord("Z") + 1)}
+FEMALE_SEX_VALUES = {"1", "k", "kobieta", "female", "f"}
+MALE_SEX_VALUES = {"0", "m", "mezczyzna", "mężczyzna", "male"}
+SEX_SOURCE_FIELD_NAMES = {"sex", "plec", "płeć", "gender"}
+PESEL_MONTH_CENTURY_OFFSETS = (
+    (80, 1800),
+    (0, 1900),
+    (20, 2000),
+    (40, 2100),
+    (60, 2200),
+)
 
 
 class RecordsForValidationNotFoundError(ValueError):
@@ -162,6 +174,7 @@ def build_person_validation_results(
     preprocessed_record: Any,
     check_email_dns: bool,
 ) -> list[dict[str, Any]]:
+    staging_sex = get_staging_sex_value(staging_record)
     results = [
         make_result(
             base,
@@ -171,6 +184,30 @@ def build_person_validation_results(
             value=preprocessed_record.PESEL_Normalized,
             is_valid=validate_polish_identifier("PESEL", preprocessed_record.PESEL_Normalized),
             error_message="ERR_CHECKSUM_PESEL",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PERSON_PESEL_BIRTH_DATE_MATCH",
+            field_name="Birth_Date",
+            value=getattr(staging_record, "Birth_Date", None),
+            is_valid=validate_pesel_birth_date_match(
+                preprocessed_record.PESEL_Normalized,
+                getattr(staging_record, "Birth_Date", None),
+            ),
+            error_message="ERR_PESEL_BIRTH_DATE_MISMATCH",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PERSON_PESEL_SEX_MATCH",
+            field_name="Sex",
+            value=staging_sex,
+            is_valid=validate_pesel_sex_match(
+                preprocessed_record.PESEL_Normalized,
+                staging_sex,
+            ),
+            error_message="ERR_PESEL_SEX_MISMATCH",
         ),
         make_result(
             base,
@@ -413,6 +450,128 @@ def validate_pesel_checksum(value: str) -> bool:
     checksum = sum(int(value[index]) * weight for index, weight in enumerate(weights))
     control_digit = (10 - checksum % 10) % 10
     return control_digit == int(value[-1])
+
+
+def validate_pesel_birth_date_match(pesel_value: str | None, birth_date_value: Any) -> bool:
+    pesel_birth_date = extract_pesel_birth_date(pesel_value)
+    if pesel_birth_date is None:
+        return False
+    if birth_date_value in (None, ""):
+        return True
+
+    birth_date = normalize_date_value(birth_date_value)
+    if birth_date is None:
+        return False
+
+    return pesel_birth_date == birth_date
+
+
+def validate_pesel_sex_match(pesel_value: str | None, sex_value: Any) -> bool:
+    sex = normalize_sex_value(sex_value)
+    if sex is None:
+        return True
+
+    pesel_sex = extract_pesel_sex(pesel_value)
+    if pesel_sex is None:
+        return False
+    return pesel_sex == sex
+
+
+def extract_pesel_birth_date(value: str | None) -> date | None:
+    if value in (None, ""):
+        return None
+
+    normalized_value = str(value)
+    if not normalized_value.isdigit() or len(normalized_value) != 11:
+        return None
+
+    year = int(normalized_value[0:2])
+    encoded_month = int(normalized_value[2:4])
+    day = int(normalized_value[4:6])
+
+    for month_offset, century in PESEL_MONTH_CENTURY_OFFSETS:
+        month = encoded_month - month_offset
+        if 1 <= month <= 12:
+            try:
+                return date(century + year, month, day)
+            except ValueError:
+                return None
+    return None
+
+
+def extract_pesel_sex(value: str | None) -> bool | None:
+    if value in (None, ""):
+        return None
+
+    normalized_value = str(value)
+    if not normalized_value.isdigit() or len(normalized_value) != 11:
+        return None
+
+    return int(normalized_value[9]) % 2 == 0
+
+
+def normalize_date_value(value: Any) -> date | None:
+    if value in (None, ""):
+        return None
+    if isinstance(value, datetime):
+        return value.date()
+    if isinstance(value, date):
+        return value
+    if isinstance(value, str):
+        normalized_value = value.strip()
+        if not normalized_value:
+            return None
+        try:
+            return date.fromisoformat(normalized_value[:10])
+        except ValueError:
+            return None
+    return None
+
+
+def get_staging_sex_value(staging_record: Any) -> bool | None:
+    raw_record_sex = extract_raw_record_sex_value(getattr(staging_record, "Raw_Record_JSON", None))
+    if raw_record_sex is not None:
+        return raw_record_sex
+    return normalize_sex_value(getattr(staging_record, "Sex", None))
+
+
+def extract_raw_record_sex_value(raw_record_json: str | None) -> bool | None:
+    if raw_record_json in (None, ""):
+        return None
+
+    try:
+        raw_record = json.loads(str(raw_record_json))
+    except json.JSONDecodeError:
+        return None
+
+    if not isinstance(raw_record, dict):
+        return None
+
+    for field_name, value in raw_record.items():
+        if str(field_name).strip().casefold() in SEX_SOURCE_FIELD_NAMES:
+            sex = normalize_sex_value(value)
+            if sex is not None:
+                return sex
+    return None
+
+
+def normalize_sex_value(value: Any) -> bool | None:
+    if value in (None, ""):
+        return None
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        if value == 1:
+            return True
+        if value == 0:
+            return False
+
+    normalized_value = str(value).strip().casefold()
+    if normalized_value in FEMALE_SEX_VALUES:
+        return True
+    if normalized_value in MALE_SEX_VALUES:
+        return False
+    return None
 
 
 def validate_nip_checksum(value: str) -> bool:
