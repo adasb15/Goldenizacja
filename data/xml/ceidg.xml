@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <dataset name="ceidg">
   <record>
     <field name="firma.id">FIRMAID-00401</field>
@@ -11,13 +11,13 @@
     <field name="firma.nip">1266956607</field>
     <field name="firma.regon">267114981</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-02-18</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Piotrkowska 141/71, 90-102 Łódź</field>
     <field name="firma.adresKorespondencyjny">ul. Piotrkowska 141/71, 90-102 Łódź</field>
     <field name="firma.telefon">(48) 534569318</field>
-    <field name="firma.email">magdalena_pawlak@o2.pl</field>
+    <field name="firma.email">magdalena_pawlak@tmp.ii</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -37,7 +37,7 @@
     <field name="firma.adresDzialalnosci">ul Zachodnia 158, 90-402 Łódź</field>
     <field name="firma.adresKorespondencyjny">ul Zachodnia 158, 90-402 Łódź</field>
     <field name="firma.telefon">674 138 360</field>
-    <field name="firma.email">robert.michalski94@proton.me</field>
+    <field name="firma.email">robert.michalski94@foo.zz</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -45,7 +45,7 @@
     <field name="firma.nazwa">Helios Markets Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Król</field>
     <field name="firma.wlasciciel.pesel">70050580885</field>
     <field name="firma.nip">1267114980</field>
@@ -57,8 +57,8 @@
     <field name="firma.adresDzialalnosci">ulica Świdnicka 175, 50-066 Wrocław</field>
     <field name="firma.adresKorespondencyjny">ulica Świdnicka 175, 50-066 Wrocław</field>
     <field name="firma.telefon">505589705</field>
-    <field name="firma.email">agnieszka.krol@brak-domeny</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.krol@bar.yy</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00404</field>
@@ -72,12 +72,12 @@
     <field name="firma.regon">267352551</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-10-07</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-10-28</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Legnicka 12, 54-203 Wrocław</field>
     <field name="firma.adresKorespondencyjny">Legnicka 12, 54-203 Wrocław</field>
     <field name="firma.telefon">775668736</field>
-    <field name="firma.email">w.wieczorek@yahoo.com</field>
+    <field name="firma.email">w.wieczorek@zzz.uu</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -91,13 +91,13 @@
     <field name="firma.nip">1267273365</field>
     <field name="firma.regon">267431747</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-02-28</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-08-14</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Święty Marcin 29/33, 61-806 Poznań</field>
     <field name="firma.adresKorespondencyjny">ul. Święty Marcin 29/33, 61-806 Poznań</field>
     <field name="firma.telefon">48-663-413-803</field>
-    <field name="firma.email">jablonska.justyna@icloud.com</field>
+    <field name="firma.email">jablonska.justyna@uuu.ii</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -105,19 +105,19 @@
     <field name="firma.nazwa">Optima Trade S. A.</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Witkowski</field>
     <field name="firma.wlasciciel.pesel">73080884990</field>
     <field name="firma.nip">1267352550</field>
     <field name="firma.regon">267510932</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-11-07</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-05-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Głogowska 46, 60-734 Poznań</field>
     <field name="firma.adresKorespondencyjny">ul Głogowska 46, 60-734 Poznań</field>
     <field name="firma.telefon">+48 760 870 632</field>
-    <field name="firma.email">piotrwitkowski@gmail.com</field>
+    <field name="firma.email">piotrwitkowski@qqq.zz</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -131,13 +131,13 @@
     <field name="firma.nip">1267431746</field>
     <field name="firma.regon">267590121</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-02-21</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Długa 63, 80-831 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">os. Długa 63, 80-831 Gdańsk</field>
     <field name="firma.telefon">(48) 760539030</field>
-    <field name="firma.email">maria_walczak@wp.pl</field>
+    <field name="firma.email">maria_walczak@abc.yy</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -157,7 +157,7 @@
     <field name="firma.adresDzialalnosci">Grunwaldzka 80, 80-236 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">Grunwaldzka 80, 80-236 Gdańsk</field>
     <field name="firma.telefon">48-668-508-929</field>
-    <field name="firma.email">michal.stepien71@localhost</field>
+    <field name="firma.email">michal.stepien71@xxx.uu</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -165,7 +165,7 @@
     <field name="firma.nazwa">Silesia Invest sp z oo</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Baran</field>
     <field name="firma.wlasciciel.pesel">76111189107</field>
     <field name="firma.nip">1267590120</field>
@@ -178,7 +178,7 @@
     <field name="firma.adresKorespondencyjny">ul. Jagiellońska 97/85, 70-435 Szczecin</field>
     <field name="firma.telefon">547 684 112</field>
     <field name="firma.email">joanna.baran@interia.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00410</field>
@@ -191,12 +191,13 @@
     <field name="firma.nip">1267669318</field>
     <field name="firma.regon">267827698</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-07-29</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Wyszyńskiego 114, 70-200 Szczecin</field>
     <field name="firma.adresKorespondencyjny">ul Wyszyńskiego 114, 70-200 Szczecin</field>
     <field name="firma.telefon">(48) 781608833</field>
+    <field name="firma.email">p.rutkowski@o2.pl</field>
     <field name="firma.email">p.rutkowski@o2.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
@@ -211,12 +212,13 @@
     <field name="firma.nip">1267748503</field>
     <field name="firma.regon">267906883</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-12-21</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-03-07</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Mariacka 131, 40-014 Katowice</field>
     <field name="firma.adresKorespondencyjny">ulica Mariacka 131, 40-014 Katowice</field>
     <field name="firma.telefon">677332961</field>
+    <field name="firma.email">gorska.magdalena@proton.me</field>
     <field name="firma.email">gorska.magdalena@proton.me</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
@@ -225,18 +227,19 @@
     <field name="firma.nazwa">Baltic Med Supply SP Z O O</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Sikora</field>
     <field name="firma.wlasciciel.pesel">79021493210</field>
     <field name="firma.nip">1267827697</field>
     <field name="firma.regon">267986072</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-11-27</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Warszawska 148, 40-009 Katowice</field>
     <field name="firma.adresKorespondencyjny">Warszawska 148, 40-009 Katowice</field>
     <field name="firma.telefon">760103482</field>
+    <field name="firma.email">robertsikora@outlook.com</field>
     <field name="firma.email">robertsikora@outlook.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
@@ -252,12 +255,12 @@
     <field name="firma.regon">268065262</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-09-19</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2020-08-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Krakowskie Przedmieście 165/47, 20-002 Lublin</field>
     <field name="firma.adresKorespondencyjny">ul. Krakowskie Przedmieście 165/47, 20-002 Lublin</field>
     <field name="firma.telefon">694 973 146</field>
-    <field name="firma.email">agnieszka_ostrowska@brak-domeny</field>
+    <field name="firma.email">agnieszka_ostrowska@yahoo.com</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -271,12 +274,13 @@
     <field name="firma.nip">1267986071</field>
     <field name="firma.regon">268144458</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-03-31</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-01-09</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Narutowicza 2, 20-004 Lublin</field>
     <field name="firma.adresKorespondencyjny">ul Narutowicza 2, 20-004 Lublin</field>
     <field name="firma.telefon">48-617-792-243</field>
+    <field name="firma.email">wojciech.tomaszewski77@icloud.com</field>
     <field name="firma.email">wojciech.tomaszewski77@icloud.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
@@ -285,20 +289,20 @@
     <field name="firma.nazwa">Nova Data S.A.</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Zając</field>
     <field name="firma.wlasciciel.pesel">82051797324</field>
     <field name="firma.nip">1268065261</field>
     <field name="firma.regon">268223643</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-02-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-10-08</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Lipowa 19, 15-424 Białystok</field>
     <field name="firma.adresKorespondencyjny">ulica Lipowa 19, 15-424 Białystok</field>
     <field name="firma.telefon">557 602 755</field>
     <field name="firma.email">justyna.zajac@gmail.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00416</field>
@@ -311,12 +315,13 @@
     <field name="firma.nip">1268144457</field>
     <field name="firma.regon">268302839</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-09-29</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-12-14</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Sienkiewicza 36, 15-092 Białystok</field>
     <field name="firma.adresKorespondencyjny">Sienkiewicza 36, 15-092 Białystok</field>
     <field name="firma.telefon">(48) 626824679</field>
+    <field name="firma.email">p.pietrzak@wp.pl</field>
     <field name="firma.email">p.pietrzak@wp.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
@@ -328,15 +333,16 @@
     <field name="firma.wlasciciel.drugieImie">Monika</field>
     <field name="firma.wlasciciel.nazwisko">Wójcicka</field>
     <field name="firma.wlasciciel.pesel">84071900061</field>
-    <field name="firma.nip"></field>
+    <field name="firma.nip" />
     <field name="firma.regon">268382028</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-12-07</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-05-23</field>
-    <field name="firma.przewazajacePKD"></field>
+    <field name="firma.przewazajacePKD" />
     <field name="firma.adresDzialalnosci">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ul. Gdańska 53/9, 85-005 Bydgoszcz</field>
     <field name="firma.telefon">514435681</field>
+    <field name="firma.email">wojcicka.maria@onet.pl</field>
     <field name="firma.email">wojcicka.maria@onet.pl</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
@@ -345,19 +351,19 @@
     <field name="firma.nazwa">Quantum Services Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Czarnecki</field>
     <field name="firma.wlasciciel.pesel">85082001431</field>
     <field name="firma.nip">1268302838</field>
     <field name="firma.regon">268461213</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-03-01</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-03-27</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Dworcowa 70, 85-009 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ul Dworcowa 70, 85-009 Bydgoszcz</field>
     <field name="firma.telefon">48-517-354-991</field>
-    <field name="firma.email">michalczarnecki@localhost</field>
+    <field name="firma.email">michalczarnecki@interia.pl</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -378,6 +384,7 @@
     <field name="firma.adresKorespondencyjny">ulica Szeroka 87, 87-100 Toruń</field>
     <field name="firma.telefon">48-708-620-800</field>
     <field name="firma.email">joanna_lis@o2.pl</field>
+    <field name="firma.email">joanna_lis@o2.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -392,11 +399,12 @@
     <field name="firma.regon">268619594</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-01-09</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-08-02</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">Chełmińska 104, Toruń</field>
     <field name="firma.adresKorespondencyjny">Chełmińska 104, Toruń</field>
     <field name="firma.telefon">48-743-691-441</field>
+    <field name="firma.email">pawel.kolodziej83@proton.me</field>
     <field name="firma.email">pawel.kolodziej83@proton.me</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
@@ -405,20 +413,20 @@
     <field name="firma.nazwa">Astra Finance sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kaczmarek</field>
     <field name="firma.wlasciciel.pesel">88112305549</field>
     <field name="firma.nip">1268540408</field>
     <field name="firma.regon">268698783</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-31</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. 3 Maja 121/61, 35-030 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ul. 3 Maja 121/61, 35-030 Rzeszów</field>
     <field name="firma.telefon">48-569-153-524</field>
     <field name="firma.email">magdalena.kaczmarek@outlook.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00422</field>
@@ -437,6 +445,7 @@
     <field name="firma.adresDzialalnosci">ul Piłsudskiego 138, 35-074 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ul Piłsudskiego 138, 35-074 Rzeszów</field>
     <field name="firma.telefon">(48) 746803310</field>
+    <field name="firma.email">r.piatek@yahoo.com</field>
     <field name="firma.email">r.piatek@yahoo.com</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
@@ -457,7 +466,7 @@
     <field name="firma.adresDzialalnosci">ulica Sienkiewicza 155, 25-007 Kielce</field>
     <field name="firma.adresKorespondencyjny">ulica Sienkiewicza 155, 25-007 Kielce</field>
     <field name="firma.telefon">(48) 730490140</field>
-    <field name="firma.email">sadowska.agnieszka@brak-domeny</field>
+    <field name="firma.email">sadowska.agnieszka@icloud.com</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -465,18 +474,19 @@
     <field name="firma.nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Włodarczyk</field>
     <field name="firma.wlasciciel.pesel">91022609658</field>
     <field name="firma.nip">1268777978</field>
     <field name="firma.regon">269094739</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-11-30</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Warszawska 172, 25-512 Kielce</field>
     <field name="firma.adresKorespondencyjny">Warszawska 172, 25-512 Kielce</field>
     <field name="firma.telefon">48-558-899-603</field>
+    <field name="firma.email">wojciechwlodarczyk@gmail.com</field>
     <field name="firma.email">wojciechwlodarczyk@gmail.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
@@ -491,12 +501,13 @@
     <field name="firma.nip">1268857163</field>
     <field name="firma.regon">269094739</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-04-01</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul. Kościuszki 9/23, 10-504 Olsztyn</field>
     <field name="firma.telefon">(48) 718340133</field>
+    <field name="firma.email">justyna_borkowska@wp.pl</field>
     <field name="firma.email">justyna_borkowska@wp.pl</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
@@ -511,12 +522,13 @@
     <field name="firma.nip">1268936359</field>
     <field name="firma.regon">269094739</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-08-15</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul Dąbrowszczaków 26, 10-540 Olsztyn</field>
     <field name="firma.telefon">695 991 543</field>
+    <field name="firma.email">piotr.kowalski89@onet.pl</field>
     <field name="firma.email">piotr.kowalski89@onet.pl</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
@@ -525,20 +537,20 @@
     <field name="firma.nazwa">Polaris Capital SA</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Nowacka</field>
     <field name="firma.wlasciciel.pesel">94050113762</field>
     <field name="firma.nip">1269015549</field>
     <field name="firma.regon">269173924</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-04-15</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Krakowska 43, 45-018 Opole</field>
     <field name="firma.adresKorespondencyjny">ulica Krakowska 43, 45-018 Opole</field>
     <field name="firma.telefon">48-656-311-774</field>
     <field name="firma.email">maria.nowacka@interia.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00428</field>
@@ -551,13 +563,13 @@
     <field name="firma.nip">1269094738</field>
     <field name="firma.regon">269332305</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-01-03</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Ozimska 60, 45-057 Opole</field>
     <field name="firma.adresKorespondencyjny">Ozimska 60, 45-057 Opole</field>
     <field name="firma.telefon">754 471 062</field>
-    <field name="firma.email">m.wisniewski@localhost</field>
+    <field name="firma.email">m.wisniewski@o2.pl</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -571,12 +583,13 @@
     <field name="firma.nip">1269173923</field>
     <field name="firma.regon">269332305</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-12-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-11-28</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul. Bohaterów Westerplatte 77/75, 65-034 Zielona Góra</field>
     <field name="firma.telefon">511329428</field>
+    <field name="firma.email">wojcik.joanna@proton.me</field>
     <field name="firma.email">wojcik.joanna@proton.me</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
@@ -585,19 +598,19 @@
     <field name="firma.nazwa">Vistula Fintech sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kowalczyk</field>
     <field name="firma.wlasciciel.pesel">97080417877</field>
     <field name="firma.nip">1269253119</field>
     <field name="firma.regon">269411499</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-01-14</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-12-04</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Kupiecka 94, 65-058 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul Kupiecka 94, 65-058 Zielona Góra</field>
     <field name="firma.telefon">48-700-346-992</field>
-    <field name="firma.email">pawelkowalczyk@onetpl</field>
+    <field name="firma.email">pawelkowalczyk@outlook.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -611,13 +624,13 @@
     <field name="firma.nip">1269332304</field>
     <field name="firma.regon">269490688</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-02-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-04-14</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Świętojańska 111, 81-372 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ulica Świętojańska 111, 81-372 Gdynia</field>
     <field name="firma.telefon">48-509-229-924</field>
-    <field name="firma.email">magdalena_kaminska@outlook.com</field>
+    <field name="firma.email">magdalena_kaminska@yahoo.com</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -631,13 +644,13 @@
     <field name="firma.nip">1269411498</field>
     <field name="firma.regon">269569875</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-03-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-10-26</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">10 Lutego 128, 81-364 Gdynia</field>
     <field name="firma.adresKorespondencyjny">10 Lutego 128, 81-364 Gdynia</field>
     <field name="firma.telefon">557356137</field>
-    <field name="firma.email">robert.lewandowski95@yahoo.com</field>
+    <field name="firma.email">robert.lewandowski95@icloud.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -645,20 +658,20 @@
     <field name="firma.nazwa">Helios Markets Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Zielińska</field>
     <field name="firma.wlasciciel.pesel">00310721983</field>
     <field name="firma.nip">1269490687</field>
     <field name="firma.regon">269649060</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-08-09</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Bolesława Prusa 145/37, 05-800 Pruszków</field>
     <field name="firma.adresKorespondencyjny">ul. Bolesława Prusa 145/37, 05-800 Pruszków</field>
     <field name="firma.telefon">533515663</field>
-    <field name="firma.email">agnieszka.zielinska@icloud.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.zielinska@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00434</field>
@@ -671,13 +684,13 @@
     <field name="firma.nip">1269569874</field>
     <field name="firma.regon">269728256</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-11-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-04-09</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Kościuszki 162, 05-500 Piaseczno</field>
     <field name="firma.adresKorespondencyjny">ul Kościuszki 162, 05-500 Piaseczno</field>
     <field name="firma.telefon">48-680-750-396</field>
-    <field name="firma.email">w.szymanski@brak-domeny</field>
+    <field name="firma.email">w.szymanski@wp.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -691,13 +704,13 @@
     <field name="firma.nip">1269728255</field>
     <field name="firma.regon">269807441</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-02-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-08-31</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">179, 32-020 Wieliczka</field>
     <field name="firma.adresKorespondencyjny">179, 32-020 Wieliczka</field>
     <field name="firma.telefon">(48) 610826711</field>
-    <field name="firma.email">dabrowska.justyna@wp.pl</field>
+    <field name="firma.email">dabrowska.justyna@onet.pl</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -705,19 +718,19 @@
     <field name="firma.nazwa">Optima Trade Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Mazur</field>
     <field name="firma.wlasciciel.pesel">03221026093</field>
     <field name="firma.nip">1269728255</field>
     <field name="firma.regon">269886630</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-01-04</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-09-05</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">os. Dąbrowskiego 16, 32-600 Oświęcim</field>
     <field name="firma.adresKorespondencyjny">os. Dąbrowskiego 16, 32-600 Oświęcim</field>
     <field name="firma.telefon">696 914 780</field>
-    <field name="firma.email">piotrmazur@onet.pl</field>
+    <field name="firma.email">piotrmazur@interia.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -731,13 +744,13 @@
     <field name="firma.nip">1269807440</field>
     <field name="firma.regon">269965826</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-05-24</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Rynek 33/89, 38-400 Krosno</field>
     <field name="firma.adresKorespondencyjny">ul. Rynek 33/89, 38-400 Krosno</field>
     <field name="firma.telefon">647164714</field>
-    <field name="firma.email">maria_krawczyk@interia.pl</field>
+    <field name="firma.email">maria_krawczyk@o2.pl</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -751,13 +764,13 @@
     <field name="firma.nip">1269965825</field>
     <field name="firma.regon">270045016</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-05-24</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-09-09</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">39-300 Mielec</field>
     <field name="firma.adresKorespondencyjny">39-300 Mielec</field>
     <field name="firma.telefon">799343720</field>
-    <field name="firma.email">michal.wozniak72@o2.pl</field>
+    <field name="firma.email">michal.wozniak72@proton.me</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -765,20 +778,20 @@
     <field name="firma.nazwa">Silesia Invest S. A.</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Jankowska</field>
     <field name="firma.wlasciciel.pesel">60051330206</field>
     <field name="firma.nip">1269965825</field>
     <field name="firma.regon">270124201</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-06-22</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-04-30</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Długa 67, 58-100 Świdnica</field>
     <field name="firma.adresKorespondencyjny">ulica Długa 67, 58-100 Świdnica</field>
     <field name="firma.telefon">+48 548 157 896</field>
-    <field name="firma.email">joanna.jankowska@localhost</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.jankowska@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00440</field>
@@ -792,12 +805,12 @@
     <field name="firma.regon">270203395</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-09-08</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-01-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Wojska Polskiego 84, 57-300 Kłodzko</field>
     <field name="firma.adresKorespondencyjny">Wojska Polskiego 84, 57-300 Kłodzko</field>
     <field name="firma.telefon">48-619-329-111</field>
-    <field name="firma.email">p.grabowski@outlook.com</field>
+    <field name="firma.email">p.grabowski@yahoo.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -811,13 +824,13 @@
     <field name="firma.nip">1270124209</field>
     <field name="firma.regon">270282584</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-12-20</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Chrobrego 101/51, 62-200 Gniezno</field>
     <field name="firma.adresKorespondencyjny">ul. Chrobrego 101/51, 62-200 Gniezno</field>
     <field name="firma.telefon">734610122</field>
-    <field name="firma.email">pawlak.magdalena@yahoo.com</field>
+    <field name="firma.email">pawlak.magdalena@icloud.com</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -825,19 +838,19 @@
     <field name="firma.nazwa">Baltic Med Supply sp z oo</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Michalski</field>
     <field name="firma.wlasciciel.pesel">63081634311</field>
     <field name="firma.nip">1270203392</field>
     <field name="firma.regon">270440965</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-03-16</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-01-20</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Słowiańska 118, 64-100 Leszno</field>
     <field name="firma.adresKorespondencyjny">ul Słowiańska 118, 64-100 Leszno</field>
     <field name="firma.telefon">(48) 790368164</field>
-    <field name="firma.email">robertmichalski@icloud.com</field>
+    <field name="firma.email">robertmichalski@gmail.com</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -857,7 +870,7 @@
     <field name="firma.adresDzialalnosci">ulica Gdańska 135, 83-110 Tczew</field>
     <field name="firma.adresKorespondencyjny">ulica Gdańska 135, 83-110 Tczew</field>
     <field name="firma.telefon">48-583-356-585</field>
-    <field name="firma.email">agnieszka_krol@gmail.com</field>
+    <field name="firma.email">agnieszka_krol@wp.pl</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -871,8 +884,8 @@
     <field name="firma.nip">1270361777</field>
     <field name="firma.regon">270520150</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-09-28</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Sobieskiego 152, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">Sobieskiego 152, 84-200 Wejherowo</field>
@@ -885,20 +898,20 @@
     <field name="firma.nazwa">Nova Data SP Z O O</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Jabłońska</field>
     <field name="firma.wlasciciel.pesel">66111938429</field>
     <field name="firma.nip">1270440962</field>
     <field name="firma.regon">270599341</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-09-28</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Głęboka 169/13, 43-400 Cieszyn</field>
     <field name="firma.adresKorespondencyjny">ul. Głęboka 169/13, 43-400 Cieszyn</field>
     <field name="firma.telefon">597 294 152</field>
-    <field name="firma.email">justyna.jablonska@onet.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.jablonska@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00446</field>
@@ -912,12 +925,12 @@
     <field name="firma.regon">270678537</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-11-01</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2021-03-20</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Małachowskiego 6, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">ul Małachowskiego 6, 42-500 Będzin</field>
     <field name="firma.telefon">693649547</field>
-    <field name="firma.email">p.witkowski@interia.pl</field>
+    <field name="firma.email">p.witkowski@o2.pl</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -945,19 +958,19 @@
     <field name="firma.nazwa">Quantum Services S.A.</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Stępień</field>
     <field name="firma.wlasciciel.pesel">69022242531</field>
     <field name="firma.nip">1270678534</field>
     <field name="firma.regon">270836918</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-03-08</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-07-05</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Wybickiego 40, 86-300 Grudziądz</field>
     <field name="firma.adresKorespondencyjny">Wybickiego 40, 86-300 Grudziądz</field>
     <field name="firma.telefon">+48 749 449 583</field>
-    <field name="firma.email">michalstepien@proton.me</field>
+    <field name="firma.email">michalstepien@outlook.com</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -977,7 +990,7 @@
     <field name="firma.adresDzialalnosci">57/65, 14-100 Ostróda</field>
     <field name="firma.adresKorespondencyjny">57/65, 14-100 Ostróda</field>
     <field name="firma.telefon">527 893 134</field>
-    <field name="firma.email">joanna_baran@localhost</field>
+    <field name="firma.email">joanna_baran@yahoo.com</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
   <record>
@@ -991,13 +1004,13 @@
     <field name="firma.nip">1270836915</field>
     <field name="firma.regon">270995290</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-11-30</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Warszawska 74, 11-500 Giżycko</field>
     <field name="firma.adresKorespondencyjny">ul Warszawska 74, 11-500 Giżycko</field>
     <field name="firma.telefon">+48 747 718 270</field>
-    <field name="firma.email">pawel.rutkowski84@yahoo.com</field>
+    <field name="firma.email">pawel.rutkowski84@icloud.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -1005,20 +1018,20 @@
     <field name="firma.nazwa">Astra Finance Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Górska</field>
     <field name="firma.wlasciciel.pesel">72052546645</field>
     <field name="firma.nip">1270916100</field>
     <field name="firma.regon">271074480</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-02-22</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-10-17</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Lubelska 91, 24-100 Puławy</field>
     <field name="firma.adresKorespondencyjny">ulica Lubelska 91, 24-100 Puławy</field>
     <field name="firma.telefon">574 879 543</field>
-    <field name="firma.email">magdalena.gorska@icloud.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">magdalena.gorska@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00452</field>
@@ -1031,7 +1044,7 @@
     <field name="firma.nip">1270995298</field>
     <field name="firma.regon">271153676</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-12-09</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-09-24</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Staszica 108, 22-400 Zamość</field>
@@ -1051,13 +1064,13 @@
     <field name="firma.nip">1271074488</field>
     <field name="firma.regon">271232861</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-03-18</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-10-19</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="firma.adresKorespondencyjny">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="firma.telefon">793 688 387</field>
-    <field name="firma.email">ostrowska.agnieszka@@wp.pl</field>
+    <field name="firma.email">ostrowska.agnieszka@onet.pl</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -1065,19 +1078,19 @@
     <field name="firma.nazwa">Lumen Advisory sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Tomaszewski</field>
     <field name="firma.wlasciciel.pesel">75082850753</field>
     <field name="firma.nip">1271153673</field>
     <field name="firma.regon">271312057</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-11-04</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-09-23</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Kościuszki 142, 16-400 Suwałki</field>
     <field name="firma.adresKorespondencyjny">ul Kościuszki 142, 16-400 Suwałki</field>
     <field name="firma.telefon">(48) 746657455</field>
-    <field name="firma.email">wojciechtomaszewski@onet.pl</field>
+    <field name="firma.email">wojciechtomaszewski@interia.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -1091,13 +1104,13 @@
     <field name="firma.nip">1271232869</field>
     <field name="firma.regon">271391246</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-09-03</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-08-08</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Piastowska 159, 48-300 Nysa</field>
     <field name="firma.adresKorespondencyjny">ulica Piastowska 159, 48-300 Nysa</field>
     <field name="firma.telefon">782 122 817</field>
-    <field name="firma.email">justyna_zajac@interia.pl</field>
+    <field name="firma.email">justyna_zajac@o2.pl</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -1112,12 +1125,12 @@
     <field name="firma.regon">271470431</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-07-08</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-11-14</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Długa 176, 49-300 Brzeg</field>
     <field name="firma.adresKorespondencyjny">Długa 176, 49-300 Brzeg</field>
     <field name="firma.telefon">48-604-204-328</field>
-    <field name="firma.email">piotr.pietrzak90@o2.pl</field>
+    <field name="firma.email">piotr.pietrzak90@proton.me</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -1125,20 +1138,20 @@
     <field name="firma.nazwa">Polaris Capital spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Wójcicka</field>
     <field name="firma.wlasciciel.pesel">78110354867</field>
     <field name="firma.nip">1271391243</field>
     <field name="firma.regon">271549629</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-10-02</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-06-29</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Rynek 13/79, 68-200 Żary</field>
     <field name="firma.adresKorespondencyjny">ul. Rynek 13/79, 68-200 Żary</field>
     <field name="firma.telefon">(48) 628327986</field>
-    <field name="firma.email">maria.wojcicka@proton.me</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">maria.wojcicka@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00458</field>
@@ -1157,7 +1170,7 @@
     <field name="firma.adresDzialalnosci">ul Sikorskiego 30, 66-200 Świebodzin</field>
     <field name="firma.adresKorespondencyjny">ul Sikorskiego 30, 66-200 Świebodzin</field>
     <field name="firma.telefon">552703345</field>
-    <field name="firma.email">m.czarnecki@mail_invalid.pl</field>
+    <field name="firma.email">m.czarnecki@yahoo.com</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -1177,7 +1190,7 @@
     <field name="firma.adresDzialalnosci">ulica Armii Krajowej 47, 78-100 Kołobrzeg</field>
     <field name="firma.adresKorespondencyjny">ulica Armii Krajowej 47, 78-100 Kołobrzeg</field>
     <field name="firma.telefon">+48 616 863 799</field>
-    <field name="firma.email">lis.joanna@yahoo.com</field>
+    <field name="firma.email">lis.joanna@icloud.com</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -1185,14 +1198,14 @@
     <field name="firma.nazwa">Vistula Fintech SA</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kołodziej</field>
     <field name="firma.wlasciciel.pesel">91020658976</field>
     <field name="firma.nip">1271628811</field>
     <field name="firma.regon">271787197</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-08-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Piłsudskiego 64, 73-110 Stargard</field>
     <field name="firma.adresKorespondencyjny">Piłsudskiego 64, 73-110 Stargard</field>
@@ -1217,7 +1230,7 @@
     <field name="firma.adresDzialalnosci">ul. Mickiewicza 81/41, 27-600 Sandomierz</field>
     <field name="firma.adresKorespondencyjny">ul. Mickiewicza 81/41, 27-600 Sandomierz</field>
     <field name="firma.telefon">+48 620 744 475</field>
-    <field name="firma.email">magdalena_kaczmarek@gmail.com</field>
+    <field name="firma.email">magdalena_kaczmarek@wp.pl</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -1231,13 +1244,13 @@
     <field name="firma.nip">1271787194</field>
     <field name="firma.regon">271945578</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-07-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-08-16</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Sienkiewicza 98, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.adresKorespondencyjny">ul Sienkiewicza 98, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.telefon">+48 613 660 826</field>
-    <field name="firma.email">robert.piatek96@wp.pl</field>
+    <field name="firma.email">robert.piatek96@onet.pl</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -1245,7 +1258,7 @@
     <field name="firma.nazwa">Helios Markets sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Sadowska</field>
     <field name="firma.wlasciciel.pesel">84050963085</field>
     <field name="firma.nip">1271945575</field>
@@ -1257,8 +1270,8 @@
     <field name="firma.adresDzialalnosci">ulica Marszałkowska 115, 00-590 Warszawa</field>
     <field name="firma.adresKorespondencyjny">ulica Marszałkowska 115, 00-590 Warszawa</field>
     <field name="firma.telefon">787918944</field>
-    <field name="firma.email">agnieszka.sadowska@@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.sadowska@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00464</field>
@@ -1277,7 +1290,7 @@
     <field name="firma.adresDzialalnosci">Krakowskie Przedmieście 132, 00-071 Warszawa</field>
     <field name="firma.adresKorespondencyjny">Krakowskie Przedmieście 132, 00-071 Warszawa</field>
     <field name="firma.telefon">676 236 446</field>
-    <field name="firma.email">w.wlodarczyk@interia.pl</field>
+    <field name="firma.email">w.wlodarczyk@o2.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -1297,7 +1310,7 @@
     <field name="firma.adresDzialalnosci">os. Floriańska 149/3, 31-019 Kraków</field>
     <field name="firma.adresKorespondencyjny">os. Floriańska 149/3, 31-019 Kraków</field>
     <field name="firma.telefon">48-561-380-721</field>
-    <field name="firma.email">borkowska.justyna@o2.pl</field>
+    <field name="firma.email">borkowska.justyna@proton.me</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -1305,19 +1318,19 @@
     <field name="firma.nazwa">Optima Trade Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kowalski</field>
     <field name="firma.wlasciciel.pesel">87081267199</field>
     <field name="firma.nip">1272103950</field>
     <field name="firma.regon">272262338</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-09-20</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Długa 166, 31-147 Kraków</field>
     <field name="firma.adresKorespondencyjny">ul Długa 166, 31-147 Kraków</field>
     <field name="firma.telefon">(48) 794655769</field>
-    <field name="firma.email">piotrkowalski@proton.me</field>
+    <field name="firma.email">piotrkowalski@outlook.com</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -1331,13 +1344,13 @@
     <field name="firma.nip">1272262335</field>
     <field name="firma.regon">272341523</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-09-05</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-04-03</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Piotrkowska 3, 90-102 Łódź</field>
     <field name="firma.adresKorespondencyjny">ulica Piotrkowska 3, 90-102 Łódź</field>
     <field name="firma.telefon">(48) 509423758</field>
-    <field name="firma.email">maria_nowacka@outlook.com</field>
+    <field name="firma.email">maria_nowacka@yahoo.com</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -1351,13 +1364,13 @@
     <field name="firma.nip">1272262335</field>
     <field name="firma.regon">272420719</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-03-20</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Zachodnia 20, 90-402 Łódź</field>
     <field name="firma.adresKorespondencyjny">Zachodnia 20, 90-402 Łódź</field>
     <field name="firma.telefon">(48) 596260155</field>
-    <field name="firma.email">michal.wisniewski73@mail_invalid.pl</field>
+    <field name="firma.email">michal.wisniewski73@icloud.com</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -1365,20 +1378,20 @@
     <field name="firma.nazwa">Silesia Invest Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Wójcik</field>
     <field name="firma.wlasciciel.pesel">90111571308</field>
     <field name="firma.nip">2272341520</field>
     <field name="firma.regon">272579093</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-06-14</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-02-13</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Świdnicka 37/55, 50-066 Wrocław</field>
     <field name="firma.adresKorespondencyjny">ul. Świdnicka 37/55, 50-066 Wrocław</field>
     <field name="firma.telefon">698227880</field>
-    <field name="firma.email">joanna.wojcik@icloud.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.wojcik@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00470</field>
@@ -1391,13 +1404,13 @@
     <field name="firma.nip">1272420716</field>
     <field name="firma.regon">272579093</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-05-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-05-13</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Legnicka 54, 54-203 Wrocław</field>
     <field name="firma.adresKorespondencyjny">ul Legnicka 54, 54-203 Wrocław</field>
     <field name="firma.telefon">+48 556 444 268</field>
-    <field name="firma.email">p.kowalczyk@gmail.com</field>
+    <field name="firma.email">p.kowalczyk@wp.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -1411,13 +1424,13 @@
     <field name="firma.nip">1272499907</field>
     <field name="firma.regon">272658289</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-02-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-12-26</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Święty Marcin 71, 61-806 Poznań</field>
     <field name="firma.adresKorespondencyjny">ulica Święty Marcin 71, 61-806 Poznań</field>
     <field name="firma.telefon">+48 727 934 295</field>
-    <field name="firma.email">kaminska.magdalena@wp.pl</field>
+    <field name="firma.email">kaminska.magdalena@onet.pl</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -1425,19 +1438,19 @@
     <field name="firma.nazwa">Baltic Med Supply S. A.</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Lewandowski</field>
     <field name="firma.wlasciciel.pesel">93021875418</field>
     <field name="firma.nip">1272579090</field>
     <field name="firma.regon">272737474</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-04-12</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Głogowska 88, 60-734 Poznań</field>
     <field name="firma.adresKorespondencyjny">Głogowska 88, 60-734 Poznań</field>
     <field name="firma.telefon">699 674 865</field>
-    <field name="firma.email">robertlewandowski@onet.pl</field>
+    <field name="firma.email">robertlewandowski@interia.pl</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -1452,12 +1465,12 @@
     <field name="firma.regon">272895859</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-04-06</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-02-02</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Długa 105/17, 80-831 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">ul. Długa 105/17, 80-831 Gdańsk</field>
     <field name="firma.telefon">667 173 073</field>
-    <field name="firma.email">agnieszka_zielinska@@wp.pl</field>
+    <field name="firma.email">agnieszka_zielinska@o2.pl</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -1471,13 +1484,13 @@
     <field name="firma.nip">1272737471</field>
     <field name="firma.regon">272895859</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-01-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Grunwaldzka 122, 80-236 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">ul Grunwaldzka 122, 80-236 Gdańsk</field>
     <field name="firma.telefon">48-517-946-798</field>
-    <field name="firma.email">wojciech.szymanski79@o2.pl</field>
+    <field name="firma.email">wojciech.szymanski79@proton.me</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -1485,20 +1498,20 @@
     <field name="firma.nazwa">Nova Data sp z oo</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Dąbrowska</field>
     <field name="firma.wlasciciel.pesel">96052179522</field>
     <field name="firma.nip">1272816667</field>
     <field name="firma.regon">272975044</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-03-23</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-05-17</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Jagiellońska 139, 70-435 Szczecin</field>
     <field name="firma.adresKorespondencyjny">ulica Jagiellońska 139, 70-435 Szczecin</field>
     <field name="firma.telefon">+48 787 763 335</field>
-    <field name="firma.email">justyna.dabrowska@proton.me</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.dabrowska@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00476</field>
@@ -1512,12 +1525,12 @@
     <field name="firma.regon">273054234</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-12-31</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2020-05-22</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Wyszyńskiego 156, 70-200 Szczecin</field>
     <field name="firma.adresKorespondencyjny">Wyszyńskiego 156, 70-200 Szczecin</field>
     <field name="firma.telefon">516 317 653</field>
-    <field name="firma.email">p.mazur@outlook.com</field>
+    <field name="firma.email">p.mazur@yahoo.com</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -1531,13 +1544,13 @@
     <field name="firma.nip">1272975041</field>
     <field name="firma.regon">273212615</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-03-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-09-16</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul. Mariacka 173/69, 40-014 Katowice</field>
     <field name="firma.adresKorespondencyjny">ul. Mariacka 173/69, 40-014 Katowice</field>
     <field name="firma.telefon">511528242</field>
-    <field name="firma.email">krawczyk.maria@yahoo.com</field>
+    <field name="firma.email">krawczyk.maria@icloud.com</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -1545,7 +1558,7 @@
     <field name="firma.nazwa">Quantum Services SP Z O O</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Woźniak</field>
     <field name="firma.wlasciciel.pesel">99082483630</field>
     <field name="firma.nip">1273054231</field>
@@ -1557,7 +1570,7 @@
     <field name="firma.adresDzialalnosci">ul Warszawska 10, 40-009 Katowice</field>
     <field name="firma.adresKorespondencyjny">ul Warszawska 10, 40-009 Katowice</field>
     <field name="firma.telefon">737 928 423</field>
-    <field name="firma.email">michalwozniak@mail_invalid.pl</field>
+    <field name="firma.email">michalwozniak@gmail.com</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -1571,13 +1584,13 @@
     <field name="firma.nip">1273133427</field>
     <field name="firma.regon">273291804</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-04-22</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Krakowskie Przedmieście 27, 20-002 Lublin</field>
     <field name="firma.adresKorespondencyjny">ulica Krakowskie Przedmieście 27, 20-002 Lublin</field>
     <field name="firma.telefon">597 264 419</field>
-    <field name="firma.email">joanna_jankowska@gmail.com</field>
+    <field name="firma.email">joanna_jankowska@wp.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -1591,13 +1604,13 @@
     <field name="firma.nip">1273212612</field>
     <field name="firma.regon">273370998</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-06-18</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">Narutowicza 44, 20-004 Lublin</field>
     <field name="firma.adresKorespondencyjny">Narutowicza 44, 20-004 Lublin</field>
     <field name="firma.telefon">+48 786 665 136</field>
-    <field name="firma.email">pawel.grabowski85@wp.pl</field>
+    <field name="firma.email">pawel.grabowski85@onet.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -1605,20 +1618,20 @@
     <field name="firma.nazwa">Astra Finance S.A.</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Pawlak</field>
     <field name="firma.wlasciciel.pesel">02312787743</field>
     <field name="firma.nip">1273291801</field>
     <field name="firma.regon">273450183</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-07-01</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Lipowa 61/31, 15-424 Białystok</field>
     <field name="firma.adresKorespondencyjny">ul. Lipowa 61/31, 15-424 Białystok</field>
     <field name="firma.telefon">+48 777 535 026</field>
-    <field name="firma.email">magdalena.pawlak@onet.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">magdalena.pawlak@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00482</field>
@@ -1632,12 +1645,12 @@
     <field name="firma.regon">273529370</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-06-03</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-01-16</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Sienkiewicza 78, 15-092 Białystok</field>
     <field name="firma.adresKorespondencyjny">ul Sienkiewicza 78, 15-092 Białystok</field>
     <field name="firma.telefon">795 672 152</field>
-    <field name="firma.email">r.michalski@interia.pl</field>
+    <field name="firma.email">r.michalski@o2.pl</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -1651,13 +1664,13 @@
     <field name="firma.nip">1273450180</field>
     <field name="firma.regon">273608566</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-09-04</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Gdańska 95, 85-005 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ulica Gdańska 95, 85-005 Bydgoszcz</field>
     <field name="firma.telefon">+48 624 420 080</field>
-    <field name="firma.email">krol.agnieszka@@wp.pl</field>
+    <field name="firma.email">krol.agnieszka@proton.me</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -1665,19 +1678,19 @@
     <field name="firma.nazwa">Lumen Advisory Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Wieczorek</field>
     <field name="firma.wlasciciel.pesel">05220291852</field>
     <field name="firma.nip">1273529378</field>
     <field name="firma.regon">273687755</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-07-17</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-06-27</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Dworcowa 112, 85-009</field>
     <field name="firma.adresKorespondencyjny">Dworcowa 112, 85-009</field>
     <field name="firma.telefon">48-627-192-066</field>
-    <field name="firma.email">wojciechwieczorek@proton.me</field>
+    <field name="firma.email">wojciechwieczorek@outlook.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -1691,13 +1704,13 @@
     <field name="firma.nip">1273608563</field>
     <field name="firma.regon">273766940</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-04-19</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Szeroka 129/83, 87-100 Toruń</field>
     <field name="firma.adresKorespondencyjny">ul. Szeroka 129/83, 87-100 Toruń</field>
     <field name="firma.telefon">763401548</field>
-    <field name="firma.email">justyna_jablonska@outlook.com</field>
+    <field name="firma.email">justyna_jablonska@yahoo.com</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -1711,13 +1724,13 @@
     <field name="firma.nip">1273687752</field>
     <field name="firma.regon">273846136</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-03-31</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Chełmińska 146, 87-100 Toruń</field>
     <field name="firma.adresKorespondencyjny">ul Chełmińska 146, 87-100 Toruń</field>
     <field name="firma.telefon">564 342 000</field>
-    <field name="firma.email">piotr.witkowski91@yahoo.com</field>
+    <field name="firma.email">piotr.witkowski91@icloud.com</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -1725,20 +1738,20 @@
     <field name="firma.nazwa">Polaris Capital sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Walczak</field>
     <field name="firma.wlasciciel.pesel">62050595963</field>
     <field name="firma.nip">1273766948</field>
     <field name="firma.regon">373925321</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-05-19</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-07-08</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica 3 Maja 163, 35-030 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ulica 3 Maja 163, 35-030 Rzeszów</field>
     <field name="firma.telefon">626571879</field>
-    <field name="firma.email">maria.walczak@icloud.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">maria.walczak@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00488</field>
@@ -1748,7 +1761,7 @@
     <field name="firma.wlasciciel.drugieImie">Marek</field>
     <field name="firma.wlasciciel.nazwisko">Stępień</field>
     <field name="firma.wlasciciel.pesel">63060697335</field>
-    <field name="firma.nip"></field>
+    <field name="firma.nip" />
     <field name="firma.regon">274004511</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-02-17</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-02-13</field>
@@ -1757,7 +1770,7 @@
     <field name="firma.adresDzialalnosci">Piłsudskiego 180, 35-074 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">Piłsudskiego 180, 35-074 Rzeszów</field>
     <field name="firma.telefon">598 810 563</field>
-    <field name="firma.email">m.stepien@mail_invalid.pl</field>
+    <field name="firma.email">m.stepien@wp.pl</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -1771,13 +1784,13 @@
     <field name="firma.nip">1273925329</field>
     <field name="firma.regon">274083700</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-10-29</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Sienkiewicza 17/45, 25-007 Kielce</field>
     <field name="firma.adresKorespondencyjny">ul. Sienkiewicza 17/45, 25-007 Kielce</field>
     <field name="firma.telefon">536201309</field>
-    <field name="firma.email">baran.joanna@wp.pl</field>
+    <field name="firma.email">baran.joanna@onet.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
   <record>
@@ -1785,7 +1798,7 @@
     <field name="firma.nazwa">Vistula Fintech spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Rutkowski</field>
     <field name="firma.wlasciciel.pesel">65080800072</field>
     <field name="firma.nip">1274004519</field>
@@ -1797,7 +1810,7 @@
     <field name="firma.adresDzialalnosci">ul Warszawska 34, 25-512 Kielce</field>
     <field name="firma.adresKorespondencyjny">ul Warszawska 34, 25-512 Kielce</field>
     <field name="firma.telefon">+48 546 412 435</field>
-    <field name="firma.email">pawelrutkowski@onet.pl</field>
+    <field name="firma.email">pawelrutkowski@interia.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -1812,12 +1825,12 @@
     <field name="firma.regon">274321275</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-22</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-05-08</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Kościuszki 51, 10-504 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ulica Kościuszki 51, 10-504 Olsztyn</field>
     <field name="firma.telefon">48-766-296-903</field>
-    <field name="firma.email">magdalena_gorska@interia.pl</field>
+    <field name="firma.email">magdalena_gorska@o2.pl</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -1831,13 +1844,13 @@
     <field name="firma.nip">1274162891</field>
     <field name="firma.regon">274321275</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-06-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Dąbrowszczaków 68, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">Dąbrowszczaków 68, 10-540 Olsztyn</field>
     <field name="firma.telefon">(48) 556760835</field>
-    <field name="firma.email">robert.sikora97@o2.pl</field>
+    <field name="firma.email">robert.sikora97@proton.me</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -1845,7 +1858,7 @@
     <field name="firma.nazwa">Helios Markets SA</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Ostrowska</field>
     <field name="firma.wlasciciel.pesel">68111104189</field>
     <field name="firma.nip">1274242087</field>
@@ -1857,8 +1870,8 @@
     <field name="firma.adresDzialalnosci">ul. Krakowska 85/7, 45-018 Opole</field>
     <field name="firma.adresKorespondencyjny">ul. Krakowska 85/7, 45-018 Opole</field>
     <field name="firma.telefon">48-583-409-310</field>
-    <field name="firma.email">agnieszka.ostrowska@@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.ostrowska@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00494</field>
@@ -1871,13 +1884,13 @@
     <field name="firma.nip">1274321272</field>
     <field name="firma.regon">274479651</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-03-24</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-08-13</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Ozimska 102, 45-057 Opole</field>
     <field name="firma.adresKorespondencyjny">os. Ozimska 102, 45-057 Opole</field>
     <field name="firma.telefon">(48) 574365711</field>
-    <field name="firma.email">w.tomaszewski@outlook.com</field>
+    <field name="firma.email">w.tomaszewski@yahoo.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -1897,7 +1910,7 @@
     <field name="firma.adresDzialalnosci">ulica Bohaterów Westerplatte 119, 65-034 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ulica Bohaterów Westerplatte 119, 65-034 Zielona Góra</field>
     <field name="firma.telefon">(48) 505840739</field>
-    <field name="firma.email">zajac.justyna@yahoo.com</field>
+    <field name="firma.email">zajac.justyna@icloud.com</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -1905,7 +1918,7 @@
     <field name="firma.nazwa">Optima Trade sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Pietrzak</field>
     <field name="firma.wlasciciel.pesel">71021408298</field>
     <field name="firma.nip">1274479659</field>
@@ -1917,7 +1930,7 @@
     <field name="firma.adresDzialalnosci">Kupiecka 136, 65-058 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">Kupiecka 136, 65-058 Zielona Góra</field>
     <field name="firma.telefon">48-510-267-498</field>
-    <field name="firma.email">piotrpietrzak@icloud.com</field>
+    <field name="firma.email">piotrpietrzak@gmail.com</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -1932,12 +1945,12 @@
     <field name="firma.regon">274717228</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-09-15</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2020-01-19</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Świętojańska 153/59, 81-372 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ul. Świętojańska 153/59, 81-372 Gdynia</field>
     <field name="firma.telefon">(48) 699883037</field>
-    <field name="firma.email">maria_wojcicka@gmail.com</field>
+    <field name="firma.email">maria_wojcicka@wp.pl</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -1952,12 +1965,12 @@
     <field name="firma.regon">274796417</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-10-14</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2021-03-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul 10 Lutego 170, 81-364 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ul 10 Lutego 170, 81-364 Gdynia</field>
     <field name="firma.telefon">+48 665 497 640</field>
-    <field name="firma.email">michal.czarnecki74@mail_invalid.pl</field>
+    <field name="firma.email">michal.czarnecki74@onet.pl</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -1965,20 +1978,20 @@
     <field name="firma.nazwa">Silesia Invest Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Lis</field>
     <field name="firma.wlasciciel.pesel">74051712405</field>
     <field name="firma.nip">1274717225</field>
     <field name="firma.regon">274875602</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-07</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-01-09</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Bolesława Prusa 7, 05-800 Pruszków</field>
     <field name="firma.adresKorespondencyjny">ulica Bolesława Prusa 7, 05-800 Pruszków</field>
     <field name="firma.telefon">(48) 677993343</field>
-    <field name="firma.email">joanna.lis@onet.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.lis@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00500</field>
@@ -1991,13 +2004,13 @@
     <field name="firma.nip">1274796414</field>
     <field name="firma.regon">274954796</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-04-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Kościuszki 24, 05-500 Piaseczno</field>
     <field name="firma.adresKorespondencyjny">Kościuszki 24, 05-500 Piaseczno</field>
     <field name="firma.telefon">675662303</field>
-    <field name="firma.email">p.kolodziej@interia.pl</field>
+    <field name="firma.email">p.kolodziej@o2.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -2017,7 +2030,7 @@
     <field name="firma.adresDzialalnosci">ul. Sienkiewicza 41/21, 32-020 Wieliczka</field>
     <field name="firma.adresKorespondencyjny">ul. Sienkiewicza 41/21, 32-020 Wieliczka</field>
     <field name="firma.telefon">48-730-542-284</field>
-    <field name="firma.email">kaczmarek.magdalena@o2.pl</field>
+    <field name="firma.email">kaczmarek.magdalena@qqq.zz</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -2025,19 +2038,19 @@
     <field name="firma.nazwa">Baltic Med Supply Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Piątek</field>
     <field name="firma.wlasciciel.pesel">77082016519</field>
     <field name="firma.nip">1274954793</field>
     <field name="firma.regon">275113171</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-08-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-05-31</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Dąbrowskiego 58</field>
     <field name="firma.adresKorespondencyjny">ul Dąbrowskiego 58</field>
     <field name="firma.telefon">+48 604 486 823</field>
-    <field name="firma.email">robertpiatek@proton.me</field>
+    <field name="firma.email">robertpiatek@abc.yy</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -2057,7 +2070,7 @@
     <field name="firma.adresDzialalnosci">ulica Rynek 75, 38-400 Krosno</field>
     <field name="firma.adresKorespondencyjny">ulica Rynek 75, 38-400 Krosno</field>
     <field name="firma.telefon">48-619-976-718</field>
-    <field name="firma.email">agnieszka_sadowska@@wp.pl</field>
+    <field name="firma.email">agnieszka_sadowska@xxx.uu</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -2071,13 +2084,13 @@
     <field name="firma.nip">1275113179</field>
     <field name="firma.regon">275271556</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-09-30</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-03-22</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Mickiewicza 92, 39-300 Mielec</field>
     <field name="firma.adresKorespondencyjny">Mickiewicza 92, 39-300 Mielec</field>
     <field name="firma.telefon">572 597 286</field>
-    <field name="firma.email">wojciech.wlodarczyk80@yahoo.com</field>
+    <field name="firma.email">wojciech.wlodarczyk80@bbb.ii</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -2085,20 +2098,20 @@
     <field name="firma.nazwa">Nova Data S. A.</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Borkowska</field>
     <field name="firma.wlasciciel.pesel">80112320629</field>
     <field name="firma.nip">1275192368</field>
     <field name="firma.regon">275350741</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-02-20</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-12-31</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">109/73, 58-100 Świdnica</field>
     <field name="firma.adresKorespondencyjny">109/73, 58-100 Świdnica</field>
     <field name="firma.telefon">615940598</field>
-    <field name="firma.email">justyna.borkowska@icloud.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.borkowska@mmm.zz</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00506</field>
@@ -2109,15 +2122,15 @@
     <field name="firma.wlasciciel.nazwisko">Kowalski</field>
     <field name="firma.wlasciciel.pesel">81122421991</field>
     <field name="firma.nip">1275271553</field>
-    <field name="firma.regon"></field>
+    <field name="firma.regon" />
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-07-29</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-08-11</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Wojska Polskiego 126, 57-300 Kłodzko</field>
     <field name="firma.adresKorespondencyjny">ul Wojska Polskiego 126, 57-300 Kłodzko</field>
     <field name="firma.telefon">545596668</field>
-    <field name="firma.email">p.kowalski@gmail.com</field>
+    <field name="firma.email">p.kowalski@nnn.yy</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -2131,13 +2144,13 @@
     <field name="firma.nip">1275350749</field>
     <field name="firma.regon">275509124</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-05-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-01-23</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Chrobrego 143, 62-200 Gniezno</field>
     <field name="firma.adresKorespondencyjny">ulica Chrobrego 143, 62-200 Gniezno</field>
     <field name="firma.telefon">612 435 642</field>
-    <field name="firma.email">nowacka.maria@wp.pl</field>
+    <field name="firma.email">nowacka.maria@kkk.uu</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -2145,19 +2158,19 @@
     <field name="firma.nazwa">Quantum Services sp z oo</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Winśiewski</field>
     <field name="firma.wlasciciel.pesel">83022624739</field>
     <field name="firma.nip">1275429936</field>
     <field name="firma.regon">275588313</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-03-11</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">Słowiańska 160, 64-100 Leszno</field>
     <field name="firma.adresKorespondencyjny">Słowiańska 160, 64-100 Leszno</field>
     <field name="firma.telefon">48-764-104-893</field>
-    <field name="firma.email">michalwisniewski@mail_invalid.pl</field>
+    <field name="firma.email">michalwisniewski@tmp.ii</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -2171,13 +2184,13 @@
     <field name="firma.nip">1275509121</field>
     <field name="firma.regon">275667509</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-11-20</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-04-28</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Gdańska 177/35, 83-110 Tczew</field>
     <field name="firma.adresKorespondencyjny">ul. Gdańska 177/35, 83-110 Tczew</field>
     <field name="firma.telefon">48-545-556-356</field>
-    <field name="firma.email">joanna_wojcik@interia.pl</field>
+    <field name="firma.email">joanna_wojcik@o2.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
   <record>
@@ -2191,8 +2204,8 @@
     <field name="firma.nip">1275588310</field>
     <field name="firma.regon">275746692</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-09-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Sobieskiego 14, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">ul Sobieskiego 14, 84-200 Wejherowo</field>
@@ -2205,20 +2218,20 @@
     <field name="firma.nazwa">Astra Finance SP Z O O</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kamińska</field>
     <field name="firma.wlasciciel.pesel">86050128840</field>
     <field name="firma.nip">1275667506</field>
     <field name="firma.regon">275825888</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-01-06</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-10-15</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Głęboka 31, 43-400 Cieszyn</field>
     <field name="firma.adresKorespondencyjny">ulica Głęboka 31, 43-400 Cieszyn</field>
     <field name="firma.telefon">48-627-969-895</field>
-    <field name="firma.email">magdalena.kaminska@proton.me</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">magdalena.kaminska@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00512</field>
@@ -2237,7 +2250,7 @@
     <field name="firma.adresDzialalnosci">48, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">48, 42-500 Będzin</field>
     <field name="firma.telefon">780 302 450</field>
-    <field name="firma.email">r.lewandowski@outlook.com</field>
+    <field name="firma.email">r.lewandowski@yahoo.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -2257,7 +2270,7 @@
     <field name="firma.adresDzialalnosci">ul. Królowej Jadwigi 65/87, 88-100 Inowrocław</field>
     <field name="firma.adresKorespondencyjny">ul. Królowej Jadwigi 65/87, 88-100 Inowrocław</field>
     <field name="firma.telefon">653 611 016</field>
-    <field name="firma.email">zielinska.agnieszka@@wp.pl</field>
+    <field name="firma.email">zielinska.agnieszka@icloud.com</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -2265,19 +2278,19 @@
     <field name="firma.nazwa">Lumen Advisory S.A.</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Szymanski</field>
     <field name="firma.wlasciciel.pesel">89080432958</field>
     <field name="firma.nip">1275905070</field>
     <field name="firma.regon">276063452</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-06-07</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-12-11</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Wybickiego 82, 86-300 Grudziądz</field>
     <field name="firma.adresKorespondencyjny">ul Wybickiego 82, 86-300 Grudziądz</field>
     <field name="firma.telefon">+48 578 762 425</field>
-    <field name="firma.email">wojciechszymanski@icloud.com</field>
+    <field name="firma.email">wojciechszymanski@gmail.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -2312,12 +2325,12 @@
     <field name="firma.regon">276221833</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-07-05</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2020-12-23</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Warszawska 116, 11-500 Giżycko</field>
     <field name="firma.adresKorespondencyjny">Warszawska 116, 11-500 Giżycko</field>
     <field name="firma.telefon">607152367</field>
-    <field name="firma.email">piotr.mazur92@wp.pl</field>
+    <field name="firma.email">piotr.mazur92@onet.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -2325,20 +2338,20 @@
     <field name="firma.nazwa">Polaris Capital Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Krawczyk</field>
     <field name="firma.wlasciciel.pesel">92110737066</field>
     <field name="firma.nip">1276142645</field>
     <field name="firma.regon">276301029</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-07-31</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-09-03</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul. Lubelska 133/49, 24-100 Puławy</field>
     <field name="firma.adresKorespondencyjny">ul. Lubelska 133/49, 24-100 Puławy</field>
     <field name="firma.telefon">719 237 219</field>
-    <field name="firma.email">maria.krawczyk@onet.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">maria.krawczyk@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00518</field>
@@ -2352,12 +2365,12 @@
     <field name="firma.regon">276380218</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-11-06</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-06-19</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Staszica 150, 22-400 Zamość</field>
     <field name="firma.adresKorespondencyjny">ul Staszica 150, 22-400 Zamość</field>
     <field name="firma.telefon">+48 695 779 333</field>
-    <field name="firma.email">m.wozniak@mail_invalid.pl</field>
+    <field name="firma.email">m.wozniak@o2.pl</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -2372,12 +2385,12 @@
     <field name="firma.regon">276459405</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-03-29</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2021-05-16</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">167, 16-300 Augustów</field>
     <field name="firma.adresKorespondencyjny">167, 16-300 Augustów</field>
     <field name="firma.telefon">(48) 527279097</field>
-    <field name="firma.email">jankowska.joanna@o2.pl</field>
+    <field name="firma.email">jankowska.joanna@proton.me</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -2385,19 +2398,19 @@
     <field name="firma.nazwa">Vistula Fintech sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Grabowski</field>
     <field name="firma.wlasciciel.pesel">95021041178</field>
     <field name="firma.nip">1276380215</field>
     <field name="firma.regon">276538599</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-04-11</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-11-29</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Kościuszki 4, Suwałki</field>
     <field name="firma.adresKorespondencyjny">Kościuszki 4, Suwałki</field>
     <field name="firma.telefon">+48 731 884 701</field>
-    <field name="firma.email">pawelgrabowski@proton.me</field>
+    <field name="firma.email">pawelgrabowski@outlook.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -2412,12 +2425,12 @@
     <field name="firma.regon">276617784</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-10-11</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-11-03</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Piastowska 21/11, 48-300 Nysa</field>
     <field name="firma.adresKorespondencyjny">ul. Piastowska 21/11, 48-300 Nysa</field>
     <field name="firma.telefon">48-543-999-037</field>
-    <field name="firma.email">magdalena_pawlak@outlook.com</field>
+    <field name="firma.email">magdalena_pawlak@yahoo.com</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -2437,7 +2450,7 @@
     <field name="firma.adresDzialalnosci">ul Długa 38, 49-300 Brzeg</field>
     <field name="firma.adresKorespondencyjny">ul Długa 38, 49-300 Brzeg</field>
     <field name="firma.telefon">541710371</field>
-    <field name="firma.email">robert.michalski98@yahoo.com</field>
+    <field name="firma.email">robert.michalski98@icloud.com</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -2445,7 +2458,7 @@
     <field name="firma.nazwa">Helios Markets spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Król</field>
     <field name="firma.wlasciciel.pesel">98051345283</field>
     <field name="firma.nip">1276617781</field>
@@ -2457,8 +2470,8 @@
     <field name="firma.adresDzialalnosci">os. Rynek 55, 68-200 Żary</field>
     <field name="firma.adresKorespondencyjny">os. Rynek 55, 68-200 Żary</field>
     <field name="firma.telefon">48-595-462-248</field>
-    <field name="firma.email">agnieszka.krol@@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.krol@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00524</field>
@@ -2477,7 +2490,7 @@
     <field name="firma.adresDzialalnosci">Sikorskiego 72, 66-200 Świebodzin</field>
     <field name="firma.adresKorespondencyjny">Sikorskiego 72, 66-200 Świebodzin</field>
     <field name="firma.telefon">48-674-861-062</field>
-    <field name="firma.email">w.wieczorek@gmail.com</field>
+    <field name="firma.email">w.wieczorek@wp.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -2497,7 +2510,7 @@
     <field name="firma.adresDzialalnosci">ul. Armii Krajowej 89/63, 78-100 Kołobrzeg</field>
     <field name="firma.adresKorespondencyjny">ul. Armii Krajowej 89/63, 78-100 Kołobrzeg</field>
     <field name="firma.telefon">48-511-990-435</field>
-    <field name="firma.email">jablonska.justyna@wp.pl</field>
+    <field name="firma.email">jablonska.justyna@onet.pl</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -2505,19 +2518,19 @@
     <field name="firma.nazwa">Optima Trade SA</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Witkowski</field>
     <field name="firma.wlasciciel.pesel">01281649393</field>
     <field name="firma.nip">1276855351</field>
     <field name="firma.regon">277092929</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-08-13</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-06-09</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Piłsudskiego 106, 73-110 Stargard</field>
     <field name="firma.adresKorespondencyjny">ul Piłsudskiego 106, 73-110 Stargard</field>
     <field name="firma.telefon">760278445</field>
-    <field name="firma.email">piotrwitkowski@onet.pl</field>
+    <field name="firma.email">piotrwitkowski@interia.pl</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -2531,13 +2544,13 @@
     <field name="firma.nip">1276934547</field>
     <field name="firma.regon">277092929</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-01-06</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Mickiewicza 123, 27-600 Sandomierz</field>
     <field name="firma.adresKorespondencyjny">ulica Mickiewicza 123, 27-600 Sandomierz</field>
     <field name="firma.telefon">556 651 798</field>
-    <field name="firma.email">maria_walczak@interia.pl</field>
+    <field name="firma.email">maria_walczak@o2.pl</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -2552,12 +2565,12 @@
     <field name="firma.regon">277172114</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-01-27</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-01-31</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">Sienkiewicza 140, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.adresKorespondencyjny">Sienkiewicza 140, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.telefon">48-501-150-944</field>
-    <field name="firma.email">michal.stepien75@mail_invalid.pl</field>
+    <field name="firma.email">michal.stepien75@proton.me</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -2565,7 +2578,7 @@
     <field name="firma.nazwa">Silesia Invest sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Baran</field>
     <field name="firma.wlasciciel.pesel">04311953503</field>
     <field name="firma.nip">1277092926</field>
@@ -2577,8 +2590,8 @@
     <field name="firma.adresDzialalnosci">ul. Marszałkowska 157/25, 00-590 Warszawa</field>
     <field name="firma.adresKorespondencyjny">ul. Marszałkowska 157/25, 00-590 Warszawa</field>
     <field name="firma.telefon">665 862 355</field>
-    <field name="firma.email">joanna.baransilesia-invest.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.baransilesia-invest.pl@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00530</field>
@@ -2592,12 +2605,12 @@
     <field name="firma.regon">277330493</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-12-15</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-09-28</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Krakowskie Przedmieście 174, 00-071 Warszawa</field>
     <field name="firma.adresKorespondencyjny">ul Krakowskie Przedmieście 174, 00-071 Warszawa</field>
     <field name="firma.telefon">583430742</field>
-    <field name="firma.email">p.rutkowski@proton.me</field>
+    <field name="firma.email">p.rutkowski@yahoo.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -2617,7 +2630,7 @@
     <field name="firma.adresDzialalnosci">ulica Floriańska 11, 31-019 Kraków</field>
     <field name="firma.adresKorespondencyjny">ulica Floriańska 11, 31-019 Kraków</field>
     <field name="firma.telefon">48-603-151-651</field>
-    <field name="firma.email">gorska.magdalena@outlook.com</field>
+    <field name="firma.email">gorska.magdalena@icloud.com</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -2625,19 +2638,19 @@
     <field name="firma.nazwa">Baltic Med Supply Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Sikora</field>
     <field name="firma.wlasciciel.pesel">61022257618</field>
     <field name="firma.nip">1277330490</field>
     <field name="firma.regon">277568065</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-08-24</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-08-09</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Długa 28, 31-147 Kraków</field>
     <field name="firma.adresKorespondencyjny">Długa 28, 31-147 Kraków</field>
     <field name="firma.telefon">+48 608 400 162</field>
-    <field name="firma.email">robertsikora@yahoo.com</field>
+    <field name="firma.email">robertsikora@gmail.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -2651,13 +2664,13 @@
     <field name="firma.nip">1277409688</field>
     <field name="firma.regon">277568065</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-03-11</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Piotrkowska 45/77, 90-102 Łódź</field>
     <field name="firma.adresKorespondencyjny">ul. Piotrkowska 45/77, 90-102 Łódź</field>
     <field name="firma.telefon">48-739-250-873</field>
-    <field name="firma.email">agnieszka_ostrowska@icloud.com</field>
+    <field name="firma.email">agnieszka_ostrowska@wp.pl</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -2671,13 +2684,13 @@
     <field name="firma.nip">1277488877</field>
     <field name="firma.regon">277647250</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-12-30</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Zachodnia 62, 90-402 Łódź</field>
     <field name="firma.adresKorespondencyjny">ul Zachodnia 62, 90-402 Łódź</field>
     <field name="firma.telefon">776 558 193</field>
-    <field name="firma.email">wojciech.tomaszewski81@@wp.pl</field>
+    <field name="firma.email">wojciech.tomaszewski81@onet.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -2685,20 +2698,20 @@
     <field name="firma.nazwa">Nova Data Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Zając</field>
     <field name="firma.wlasciciel.pesel">64052561726</field>
     <field name="firma.nip">1277568062</field>
     <field name="firma.regon">277726446</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-03-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-07-21</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Świdnicka 79, 50-066 Wrocław</field>
     <field name="firma.adresKorespondencyjny">ulica Świdnicka 79, 50-066 Wrocław</field>
     <field name="firma.telefon">(48) 560486239</field>
-    <field name="firma.email">justyna.zajac@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.zajac@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00536</field>
@@ -2712,12 +2725,12 @@
     <field name="firma.regon">277805631</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-12-26</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-07-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Legnicka 96, 54-203 Wrocław</field>
     <field name="firma.adresKorespondencyjny">Legnicka 96, 54-203 Wrocław</field>
     <field name="firma.telefon">677 413 901</field>
-    <field name="firma.email">p.pietrzak@onet.pl</field>
+    <field name="firma.email">p.pietrzak@o2.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -2731,13 +2744,13 @@
     <field name="firma.nip">1277726443</field>
     <field name="firma.regon">277884820</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-12-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-07-05</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Święty Marcin 113/39, 61-806 Poznań</field>
     <field name="firma.adresKorespondencyjny">ul. Święty Marcin 113/39, 61-806 Poznań</field>
     <field name="firma.telefon">48-716-121-132</field>
-    <field name="firma.email">wojcicka.maria@interia.pl</field>
+    <field name="firma.email">wojcicka.maria@proton.me</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -2745,7 +2758,7 @@
     <field name="firma.nazwa">Quantum Services S. A.</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Czarnecki</field>
     <field name="firma.wlasciciel.pesel">67082865831</field>
     <field name="firma.nip">1277805639</field>
@@ -2757,7 +2770,7 @@
     <field name="firma.adresDzialalnosci">60-734 Poznań</field>
     <field name="firma.adresKorespondencyjny">60-734 Poznań</field>
     <field name="firma.telefon">(48) 672249542</field>
-    <field name="firma.email">michalczarnecki@o2.pl</field>
+    <field name="firma.email">michalczarnecki@outlook.com</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -2771,13 +2784,13 @@
     <field name="firma.nip">1277884828</field>
     <field name="firma.regon">278043206</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-10-08</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Długa 147, 80-831 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">ulica Długa 147, 80-831 Gdańsk</field>
     <field name="firma.telefon">607777907</field>
-    <field name="firma.email">joanna_lis@mail_invalid.pl</field>
+    <field name="firma.email">joanna_lis@yahoo.com</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -2791,13 +2804,13 @@
     <field name="firma.nip">1277964013</field>
     <field name="firma.regon">278201585</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-11-30</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Grunwaldzka 164, 80-236 Gdańsk</field>
     <field name="firma.adresKorespondencyjny">Grunwaldzka 164, 80-236 Gdańsk</field>
     <field name="firma.telefon">48-552-297-795</field>
-    <field name="firma.email">pawel.kolodziej87@outlook.com</field>
+    <field name="firma.email">pawel.kolodziej87@icloud.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -2805,20 +2818,20 @@
     <field name="firma.nazwa">Astra Finance sp z oo</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kaczmarek</field>
     <field name="firma.wlasciciel.pesel">70110369944</field>
     <field name="firma.nip">1278043203</field>
     <field name="firma.regon">278201585</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-04-05</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-04-13</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Jagiellońska 1/1, 70-435 Szczecin</field>
     <field name="firma.adresKorespondencyjny">ul. Jagiellońska 1/1, 70-435 Szczecin</field>
     <field name="firma.telefon">632 607 894</field>
-    <field name="firma.email">magdalena.kaczmarek@yahoo.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">magdalena.kaczmarek@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00542</field>
@@ -2831,13 +2844,13 @@
     <field name="firma.nip">1278122397</field>
     <field name="firma.regon">278280774</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-12-12</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Wyszyńskiego 18, 70-200 Szczecin</field>
     <field name="firma.adresKorespondencyjny">ul Wyszyńskiego 18, 70-200 Szczecin</field>
     <field name="firma.telefon">48-551-768-025</field>
-    <field name="firma.email">r.piatek@icloud.com</field>
+    <field name="firma.email">r.piatek@wp.pl</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -2852,12 +2865,12 @@
     <field name="firma.regon">278359961</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-02-21</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-02-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Mariacka 35, 40-014 Katowice</field>
     <field name="firma.adresKorespondencyjny">ulica Mariacka 35, 40-014 Katowice</field>
     <field name="firma.telefon">746 311 724</field>
-    <field name="firma.email">sadowska.agnieszka@gmail.com</field>
+    <field name="firma.email">sadowska.agnieszka@onet.pl</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -2865,7 +2878,7 @@
     <field name="firma.nazwa">Lumen Advisory SP Z O O</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Włodarczyk</field>
     <field name="firma.wlasciciel.pesel">73020674058</field>
     <field name="firma.nip">1278280771</field>
@@ -2877,7 +2890,7 @@
     <field name="firma.adresDzialalnosci">Warszawska 52, 40-009 Katowice</field>
     <field name="firma.adresKorespondencyjny">Warszawska 52, 40-009 Katowice</field>
     <field name="firma.telefon">(48) 661137208</field>
-    <field name="firma.email">wojciechwlodarczyk@@wp.pl</field>
+    <field name="firma.email">wojciechwlodarczyk@interia.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -2892,12 +2905,12 @@
     <field name="firma.regon">278518342</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-03-23</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-10-15</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Krakowskie Przedmieście 69/53, 20-002 Lublin</field>
     <field name="firma.adresKorespondencyjny">ul. Krakowskie Przedmieście 69/53, 20-002 Lublin</field>
     <field name="firma.telefon">48-603-245-337</field>
-    <field name="firma.email">justyna_borkowska@onet.pl</field>
+    <field name="firma.email">justyna_borkowska@o2.pl</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -2912,12 +2925,12 @@
     <field name="firma.regon">278597531</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-12-05</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-04-01</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Narutowicza 86, 20-004 Lublin</field>
     <field name="firma.adresKorespondencyjny">ul Narutowicza 86, 20-004 Lublin</field>
     <field name="firma.telefon">48-532-279-432</field>
-    <field name="firma.email">piotr.kowalski93@interia.pl</field>
+    <field name="firma.email">piotr.kowalski93@proton.me</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -2925,20 +2938,20 @@
     <field name="firma.nazwa">Polaris Capital S.A.</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Nowacka</field>
     <field name="firma.wlasciciel.pesel">76050978163</field>
     <field name="firma.nip">1278597539</field>
     <field name="firma.regon">278676727</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-10-15</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Lipowa 103, 15-424 Białystok</field>
     <field name="firma.adresKorespondencyjny">ulica Lipowa 103, 15-424 Białystok</field>
     <field name="firma.telefon">(48) 787352871</field>
-    <field name="firma.email">maria.nowacka@o2.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">maria.nowacka@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00548</field>
@@ -2952,12 +2965,12 @@
     <field name="firma.regon">278755912</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-12-14</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-10-14</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Sienkiewicza 120, 15-092 Białystok</field>
     <field name="firma.adresKorespondencyjny">Sienkiewicza 120, 15-092 Białystok</field>
     <field name="firma.telefon">728376413</field>
-    <field name="firma.email">m.wisniewski@proton.me</field>
+    <field name="firma.email">m.wisniewski@yahoo.com</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -2971,13 +2984,13 @@
     <field name="firma.nip">1278676724</field>
     <field name="firma.regon">278835108</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-03-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-08-18</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Gdańska 137/15, 85-005 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ul. Gdańska 137/15, 85-005 Bydgoszcz</field>
     <field name="firma.telefon">579 630 235</field>
-    <field name="firma.email">wojcik.joanna@mail_invalid.pl</field>
+    <field name="firma.email">wojcik.joanna@icloud.com</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
   <record>
@@ -2985,19 +2998,19 @@
     <field name="firma.nazwa">Vistula Fintech Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kowalczyk</field>
     <field name="firma.wlasciciel.pesel">79081282270</field>
     <field name="firma.nip">1278835105</field>
     <field name="firma.regon">278914291</field>
-    <field name="firma.dataRozpoczeciaDzialalnosci"></field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
-    <field name="firma.przewazajacePKD"></field>
-    <field name="firma.adresDzialalnosci"></field>
+    <field name="firma.dataRozpoczeciaDzialalnosci" />
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
+    <field name="firma.przewazajacePKD" />
+    <field name="firma.adresDzialalnosci" />
     <field name="firma.adresKorespondencyjny">ul Dworcowa 154, 85-009 Bydgoszcz</field>
     <field name="firma.telefon">+48 792 401 492</field>
-    <field name="firma.email">pawelkowalczyk@yahoo.com</field>
+    <field name="firma.email">pawelkowalczyk@gmail.com</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -3017,7 +3030,7 @@
     <field name="firma.adresDzialalnosci">ulica Szeroka 171, 87-100 Toruń</field>
     <field name="firma.adresKorespondencyjny">ulica Szeroka 171, 87-100 Toruń</field>
     <field name="firma.telefon">+48 572 859 056</field>
-    <field name="firma.email">magdalena_kaminska@icloud.com</field>
+    <field name="firma.email">magdalena_kaminska@wp.pl</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -3032,12 +3045,12 @@
     <field name="firma.regon">279072670</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-07-20</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-01-13</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Chełmińska 8, 87-100 Toruń</field>
     <field name="firma.adresKorespondencyjny">os. Chełmińska 8, 87-100 Toruń</field>
     <field name="firma.telefon">732723788</field>
-    <field name="firma.email">robert.lewandowski70@gmail.com</field>
+    <field name="firma.email">robert.lewandowski70@onet.pl</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -3045,20 +3058,20 @@
     <field name="firma.nazwa">Helios Markets sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Zielińska</field>
     <field name="firma.wlasciciel.pesel">82111586387</field>
     <field name="firma.nip">1278993488</field>
     <field name="firma.regon">279151866</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-01-31</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. 3 Maja 25/67, 35-030 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ul. 3 Maja 25/67, 35-030 Rzeszów</field>
     <field name="firma.telefon">48-668-951-840</field>
-    <field name="firma.email">agnieszka.zielinska.gmail.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.zielinska.gmail.com@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00554</field>
@@ -3071,13 +3084,13 @@
     <field name="firma.nip">1279072678</field>
     <field name="firma.regon">279231051</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-05-29</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Piłsudskiego 42, 35-074 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ul Piłsudskiego 42, 35-074 Rzeszów</field>
     <field name="firma.telefon">(48) 789804456</field>
-    <field name="firma.email">w.szymanski@onet.pl</field>
+    <field name="firma.email">w.szymanski@o2.pl</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -3091,13 +3104,13 @@
     <field name="firma.nip">1279151863</field>
     <field name="firma.regon">279310247</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-09-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-01-01</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Sienkiewicza 59, 25-007 Kielce</field>
     <field name="firma.adresKorespondencyjny">ulica Sienkiewicza 59, 25-007 Kielce</field>
     <field name="firma.telefon">+48 512 223 491</field>
-    <field name="firma.email">dabrowska.justyna@interia.pl</field>
+    <field name="firma.email">dabrowska.justyna@proton.me</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -3105,19 +3118,19 @@
     <field name="firma.nazwa">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Mazur</field>
     <field name="firma.wlasciciel.pesel">85021890490</field>
     <field name="firma.nip">1279231059</field>
     <field name="firma.regon">279389438</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-05-22</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2021-04-18</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">Warszawska 76, 25-512 Kielce</field>
     <field name="firma.adresKorespondencyjny">Warszawska 76, 25-512 Kielce</field>
     <field name="firma.telefon">576 933 678</field>
-    <field name="firma.email">piotrmazur@o2.pl</field>
+    <field name="firma.email">piotrmazur@outlook.com</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -3131,13 +3144,13 @@
     <field name="firma.nip">1279310244</field>
     <field name="firma.regon">279468623</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-05-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2026-12-06</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Kościuszki 93/29, 10-504 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul. Kościuszki 93/29, 10-504 Olsztyn</field>
     <field name="firma.telefon">+48 751 103 892</field>
-    <field name="firma.email">maria_krawczyk@proton.me</field>
+    <field name="firma.email">maria_krawczyk@yahoo.com</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -3157,7 +3170,7 @@
     <field name="firma.adresDzialalnosci">ul Dąbrowszczaków 110, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul Dąbrowszczaków 110, 10-540 Olsztyn</field>
     <field name="firma.telefon">+48 516 676 179</field>
-    <field name="firma.email">michal.wozniak76@nieistniejaca-domena</field>
+    <field name="firma.email">michal.wozniak76@icloud.com</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -3165,20 +3178,20 @@
     <field name="firma.nazwa">Silesia Invest SA</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Jankowska</field>
     <field name="firma.wlasciciel.pesel">88052194603</field>
     <field name="firma.nip">1279468620</field>
     <field name="firma.regon">279627004</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-09-23</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-05-10</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Krakowska 127, 45-018 Opole</field>
     <field name="firma.adresKorespondencyjny">ulica Krakowska 127, 45-018 Opole</field>
     <field name="firma.telefon">(48) 595433713</field>
-    <field name="firma.email">joanna.jankowska@yahoo.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.jankowska@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00560</field>
@@ -3197,7 +3210,7 @@
     <field name="firma.adresDzialalnosci">Ozimska 144, 45-057 Opole</field>
     <field name="firma.adresKorespondencyjny">Ozimska 144, 45-057 Opole</field>
     <field name="firma.telefon">(48) 535954282</field>
-    <field name="firma.email">p.grabowski@icloud.com</field>
+    <field name="firma.email">p.grabowski@wp.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -3212,12 +3225,12 @@
     <field name="firma.regon">279785387</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-10-30</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-07-08</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Bohaterów Westerplatte 161/81, 65-034 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul. Bohaterów Westerplatte 161/81, 65-034 Zielona Góra</field>
     <field name="firma.telefon">(48) 740964229</field>
-    <field name="firma.email">pawlak.magdalena@gmail.com</field>
+    <field name="firma.email">pawlak.magdalena@onet.pl</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -3225,19 +3238,19 @@
     <field name="firma.nazwa">Baltic Med Supply sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Michalski</field>
     <field name="firma.wlasciciel.pesel">91082498717</field>
     <field name="firma.nip">1279706195</field>
     <field name="firma.regon">279864572</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-02-04</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Kupiecka 178, 65-058 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul Kupiecka 178, 65-058 Zielona Góra</field>
     <field name="firma.telefon">48-567-814-416</field>
-    <field name="firma.email">robertmichalski@wp.pl</field>
+    <field name="firma.email">robertmichalski@interia.pl</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -3257,7 +3270,7 @@
     <field name="firma.adresDzialalnosci">ulica Świętojańska 15, 81-372 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ulica Świętojańska 15, 81-372 Gdynia</field>
     <field name="firma.telefon">676370298</field>
-    <field name="firma.email">agnieszka_krol.gmail.com</field>
+    <field name="firma.email">agnieszka_krol.gmail.com@o2.pl</field>
     <field name="firma.www">https://www.helios-markets-group.local</field>
   </record>
   <record>
@@ -3272,12 +3285,12 @@
     <field name="firma.regon">280022958</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-09-29</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-11-08</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">10 Lutego 32, 81-364 Gdynia</field>
     <field name="firma.adresKorespondencyjny">10 Lutego 32, 81-364 Gdynia</field>
     <field name="firma.telefon">(48) 720248171</field>
-    <field name="firma.email">wojciech.wieczorek82@interia.pl</field>
+    <field name="firma.email">wojciech.wieczorek82@proton.me</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -3285,20 +3298,20 @@
     <field name="firma.nazwa">Nova Data Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Jabłońska</field>
     <field name="firma.wlasciciel.pesel">94112702828</field>
     <field name="firma.nip">1279943765</field>
     <field name="firma.regon">280102143</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-06-12</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-11-06</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul. Bolesława Prusa 49/43, 05-800 Pruszków</field>
     <field name="firma.adresKorespondencyjny">ul. Bolesława Prusa 49/43, 05-800 Pruszków</field>
     <field name="firma.telefon">+48 724 962 688</field>
-    <field name="firma.email">justyna.jablonska@o2.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.jablonska@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00566</field>
@@ -3312,12 +3325,12 @@
     <field name="firma.regon">280181332</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-11-08</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-03-05</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Kościuszki 66, 05-500 Piaseczno</field>
     <field name="firma.adresKorespondencyjny">ul Kościuszki 66, 05-500 Piaseczno</field>
     <field name="firma.telefon">501 836 127</field>
-    <field name="firma.email">p.witkowski@proton.me</field>
+    <field name="firma.email">p.witkowski@yahoo.com</field>
     <field name="firma.www">https://www.optima-trade.eu</field>
   </record>
   <record>
@@ -3332,12 +3345,12 @@
     <field name="firma.regon">280260528</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-10-29</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-07-21</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Sienkiewicza 83, 32-020 Wieliczka</field>
     <field name="firma.adresKorespondencyjny">ulica Sienkiewicza 83, 32-020 Wieliczka</field>
     <field name="firma.telefon">640 153 142</field>
-    <field name="firma.email">walczak.maria@outlook.com</field>
+    <field name="firma.email">walczak.maria@icloud.com</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -3345,19 +3358,19 @@
     <field name="firma.nazwa">Quantum Services Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Stępień</field>
     <field name="firma.wlasciciel.pesel">97020206934</field>
     <field name="firma.nip">2280181338</field>
     <field name="firma.regon">280339715</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-03-11</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">Dąbrowskiego 100, 32-600 Oświęcim</field>
     <field name="firma.adresKorespondencyjny">Dąbrowskiego 100, 32-600 Oświęcim</field>
     <field name="firma.telefon">+48 622 127 477</field>
-    <field name="firma.email">michalstepien@nieistniejaca-domena</field>
+    <field name="firma.email">michalstepien@gmail.com</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -3371,13 +3384,13 @@
     <field name="firma.nip">1280260523</field>
     <field name="firma.regon">280418900</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-06-24</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Rynek 117/5, 38-400 Krosno</field>
     <field name="firma.adresKorespondencyjny">ul. Rynek 117/5, 38-400 Krosno</field>
     <field name="firma.telefon">+48 799 202 103</field>
-    <field name="firma.email">joanna_baran@icloud.com</field>
+    <field name="firma.email">joanna_baran@wp.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.com.pl</field>
   </record>
   <record>
@@ -3391,8 +3404,8 @@
     <field name="firma.nip">1280339710</field>
     <field name="firma.regon">280498098</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-01-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul Mickiewicza 134, 39-300 Mielec</field>
     <field name="firma.adresKorespondencyjny">ul Mickiewicza 134, 39-300 Mielec</field>
@@ -3405,20 +3418,20 @@
     <field name="firma.nazwa">Astra Finance S. A.</field>
     <field name="firma.skroconaNazwa">Astra Finance</field>
     <field name="firma.wlasciciel.imie">Magdalena</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Górska</field>
     <field name="firma.wlasciciel.pesel">00250511048</field>
     <field name="firma.nip">1280418906</field>
     <field name="firma.regon">280577283</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-02-23</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-10-29</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Długa 151, 58-100 Świdnica</field>
     <field name="firma.adresKorespondencyjny">ulica Długa 151, 58-100 Świdnica</field>
     <field name="firma.telefon">584 121 174</field>
-    <field name="firma.email">magdalena.gorska@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">magdalena.gorska@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00572</field>
@@ -3431,13 +3444,13 @@
     <field name="firma.nip">1280498093</field>
     <field name="firma.regon">280656479</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-04-13</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">Wojska Polskiego 168, 57-300 Kłodzko</field>
     <field name="firma.adresKorespondencyjny">Wojska Polskiego 168, 57-300 Kłodzko</field>
     <field name="firma.telefon">48-745-482-019</field>
-    <field name="firma.email">r.sikora@onet.pl</field>
+    <field name="firma.email">r.sikora@o2.pl</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -3451,13 +3464,13 @@
     <field name="firma.nip">1280577289</field>
     <field name="firma.regon">280735664</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-03-26</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2024-11-03</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Chrobrego 5/57, 62-200 Gniezno</field>
     <field name="firma.adresKorespondencyjny">ul. Chrobrego 5/57, 62-200 Gniezno</field>
     <field name="firma.telefon">+48 636 543 245</field>
-    <field name="firma.email">ostrowska.agnieszka.gmail.com</field>
+    <field name="firma.email">ostrowska.agnieszka.gmail.com@proton.me</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -3465,19 +3478,19 @@
     <field name="firma.nazwa">Lumen Advisory sp z oo</field>
     <field name="firma.skroconaNazwa">Lumen Advisory</field>
     <field name="firma.wlasciciel.imie">Wojciech</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Tomaszewski</field>
     <field name="firma.wlasciciel.pesel">03280815153</field>
     <field name="firma.nip">1280656474</field>
     <field name="firma.regon">280894049</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-10-05</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-04-09</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul Słowiańska 22, 64-100 Leszno</field>
     <field name="firma.adresKorespondencyjny">ul Słowiańska 22, 64-100 Leszno</field>
     <field name="firma.telefon">(48) 674108654</field>
-    <field name="firma.email">wojciechtomaszewski@o2.pl</field>
+    <field name="firma.email">wojciechtomaszewski@outlook.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -3491,13 +3504,13 @@
     <field name="firma.nip">1280814855</field>
     <field name="firma.regon">280894049</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-05-28</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2025-03-05</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">39, 83-110 Tczew</field>
     <field name="firma.adresKorespondencyjny">39, 83-110 Tczew</field>
     <field name="firma.telefon">717 683 785</field>
-    <field name="firma.email">justyna_zajac@proton.me</field>
+    <field name="firma.email">justyna_zajac@yahoo.com</field>
     <field name="firma.www">https://www.nova-data-group.local</field>
   </record>
   <record>
@@ -3517,7 +3530,7 @@
     <field name="firma.adresDzialalnosci">Sobieskiego 56, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">Sobieskiego 56, 84-200 Wejherowo</field>
     <field name="firma.telefon">+48 758 542 656</field>
-    <field name="firma.email">piotr.pietrzak94@outlook.com</field>
+    <field name="firma.email">piotr.pietrzak94@icloud.com</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -3525,20 +3538,20 @@
     <field name="firma.nazwa">Polaris Capital SP Z O O</field>
     <field name="firma.skroconaNazwa">Polaris Capital</field>
     <field name="firma.wlasciciel.imie">Maria</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Wójcicka</field>
     <field name="firma.wlasciciel.pesel">60111119266</field>
     <field name="firma.nip">1280894044</field>
     <field name="firma.regon">281052424</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-09-13</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ul. Głęboka 73/19, 43-400 Cieszyn</field>
     <field name="firma.adresKorespondencyjny">ul. Głęboka 73/19, 43-400 Cieszyn</field>
     <field name="firma.telefon">+48 556 245 058</field>
-    <field name="firma.email">maria.wojcicka@yahoo.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">maria.wojcicka@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00578</field>
@@ -3551,7 +3564,7 @@
     <field name="firma.nip">1281131615</field>
     <field name="firma.regon">281210805</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-11-19</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-09-17</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Małachowskiego 90, 42-500 Będzin</field>
@@ -3571,13 +3584,13 @@
     <field name="firma.nip">1281131615</field>
     <field name="firma.regon">281210805</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-03-09</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Królowej Jadwigi 107, 88-100 Inowrocław</field>
     <field name="firma.adresKorespondencyjny">ulica Królowej Jadwigi 107, 88-100 Inowrocław</field>
     <field name="firma.telefon">781813828</field>
-    <field name="firma.email">lis.joanna@gmail.com</field>
+    <field name="firma.email">lis.joanna@onet.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -3585,19 +3598,19 @@
     <field name="firma.nazwa">Vistula Fintech S.A.</field>
     <field name="firma.skroconaNazwa">Vistula Fintech</field>
     <field name="firma.wlasciciel.imie">Paweł</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kołodziej</field>
     <field name="firma.wlasciciel.pesel">63021423379</field>
     <field name="firma.nip">1281131615</field>
     <field name="firma.regon">281289994</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-09-09</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">Wybickiego 124, 86-300 Grudziądz</field>
     <field name="firma.adresKorespondencyjny">Wybickiego 124, 86-300 Grudziądz</field>
     <field name="firma.telefon">574 892 192</field>
-    <field name="firma.email">pawelkolodziej@wp.pl</field>
+    <field name="firma.email">pawelkolodziej@interia.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
   <record>
@@ -3611,13 +3624,13 @@
     <field name="firma.nip">1281210800</field>
     <field name="firma.regon">281448375</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-03-03</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-12-19</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">os. Czarnieckiego 141/71, 14-100 Ostróda</field>
     <field name="firma.adresKorespondencyjny">os. Czarnieckiego 141/71, 14-100 Ostróda</field>
     <field name="firma.telefon">777973582</field>
-    <field name="firma.email">magdalena_kaczmarek@onet.pl</field>
+    <field name="firma.email">magdalena_kaczmarek@o2.pl</field>
     <field name="firma.www">https://www.astra-finance.com.pl</field>
   </record>
   <record>
@@ -3631,13 +3644,13 @@
     <field name="firma.nip">1281369185</field>
     <field name="firma.regon">281448375</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-08-14</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-11-29</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">158, 11-500 Giżycko</field>
     <field name="firma.adresKorespondencyjny">158, 11-500 Giżycko</field>
     <field name="firma.telefon">746924870</field>
-    <field name="firma.email">robert.piatek71@interia.pl</field>
+    <field name="firma.email">robert.piatek71@proton.me</field>
     <field name="firma.www">https://baltic-med-supply.eu</field>
   </record>
   <record>
@@ -3645,7 +3658,7 @@
     <field name="firma.nazwa">Helios Markets Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Helios Markets</field>
     <field name="firma.wlasciciel.imie">Agnieszka</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Sadowska</field>
     <field name="firma.wlasciciel.pesel">66051727484</field>
     <field name="firma.nip">1281369185</field>
@@ -3657,8 +3670,8 @@
     <field name="firma.adresDzialalnosci">ulica Lubelska 175, 24-100 Puławy</field>
     <field name="firma.adresKorespondencyjny">ulica Lubelska 175, 24-100 Puławy</field>
     <field name="firma.telefon">(48) 690100314</field>
-    <field name="firma.email">agnieszka.sadowska.gmail.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">agnieszka.sadowska.gmail.com@outlook.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00584</field>
@@ -3672,12 +3685,12 @@
     <field name="firma.regon">281606756</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-03-28</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-01-11</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Staszica 12, 22-400</field>
     <field name="firma.adresKorespondencyjny">Staszica 12, 22-400</field>
     <field name="firma.telefon">+48 600 982 945</field>
-    <field name="firma.email">w.wlodarczyk@proton.me</field>
+    <field name="firma.email">w.wlodarczyk@yahoo.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.pl</field>
   </record>
   <record>
@@ -3691,13 +3704,13 @@
     <field name="firma.nip">1281527566</field>
     <field name="firma.regon">281685945</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-02-09</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2022-01-12</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. 3 Maja 29/33, 16-300 Augustów</field>
     <field name="firma.adresKorespondencyjny">ul. 3 Maja 29/33, 16-300 Augustów</field>
     <field name="firma.telefon">48-583-884-228</field>
-    <field name="firma.email">borkowska.justyna@outlook.com</field>
+    <field name="firma.email">borkowska.justyna@icloud.com</field>
     <field name="firma.www">https://www.nova-data-group.com.pl</field>
   </record>
   <record>
@@ -3705,7 +3718,7 @@
     <field name="firma.nazwa">Optima Trade sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Optima Trade</field>
     <field name="firma.wlasciciel.imie">Piotr</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Kowalski</field>
     <field name="firma.wlasciciel.pesel">69082031591</field>
     <field name="firma.nip">1281606751</field>
@@ -3737,7 +3750,7 @@
     <field name="firma.adresDzialalnosci">ulica Piastowska 63, 48-300 Nysa</field>
     <field name="firma.adresKorespondencyjny">ulica Piastowska 63, 48-300 Nysa</field>
     <field name="firma.telefon">(48) 657671277</field>
-    <field name="firma.email">maria_nowacka@icloud.com</field>
+    <field name="firma.email">maria_nowacka@wp.pl</field>
     <field name="firma.www">https://polaris-capital.local</field>
   </record>
   <record>
@@ -3751,13 +3764,13 @@
     <field name="firma.nip">1281765136</field>
     <field name="firma.regon">281923511</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2016-11-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">Długa 80, 49-300 Brzeg</field>
     <field name="firma.adresKorespondencyjny">Długa 80, 49-300 Brzeg</field>
     <field name="firma.telefon">641 306 312</field>
-    <field name="firma.email">michal.wisniewski77@nieistniejaca-domena</field>
+    <field name="firma.email">michal.wisniewski77@onet.pl</field>
     <field name="firma.www">https://www.quantum-services-group.pl</field>
   </record>
   <record>
@@ -3765,20 +3778,20 @@
     <field name="firma.nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Silesia Invest</field>
     <field name="firma.wlasciciel.imie">Joanna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Wójcik</field>
     <field name="firma.wlasciciel.pesel">72112335707</field>
     <field name="firma.nip">1281844321</field>
     <field name="firma.regon">282002701</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-03-04</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">97/85, 68-200 Żary</field>
     <field name="firma.adresKorespondencyjny">97/85, 68-200 Żary</field>
     <field name="firma.telefon">+48 551 125 005</field>
-    <field name="firma.email">joanna.wojcik@wp.pl</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">joanna.wojcik@interia.pl</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00590</field>
@@ -3792,12 +3805,12 @@
     <field name="firma.regon">282081899</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-04-10</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-10-25</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Sikorskiego 114, 66-200 Świebodzin</field>
     <field name="firma.adresKorespondencyjny">ul Sikorskiego 114, 66-200 Świebodzin</field>
     <field name="firma.telefon">608413140</field>
-    <field name="firma.email">p.kowalczyk@onet.pl</field>
+    <field name="firma.email">p.kowalczyk@o2.pl</field>
     <field name="firma.www">https://www.vistula-fintech-group.eu</field>
   </record>
   <record>
@@ -3811,13 +3824,13 @@
     <field name="firma.nip">1282002707</field>
     <field name="firma.regon">282161084</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-07-25</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Armii Krajowej 131, 78-100 Kołobrzeg</field>
     <field name="firma.adresKorespondencyjny">ulica Armii Krajowej 131, 78-100 Kołobrzeg</field>
     <field name="firma.telefon">48-600-257-333</field>
-    <field name="firma.email">kaminska.magdalena@interia.pl</field>
+    <field name="firma.email">kaminska.magdalena@proton.me</field>
     <field name="firma.www">https://www.astra-finance.local</field>
   </record>
   <record>
@@ -3825,19 +3838,19 @@
     <field name="firma.nazwa">Baltic Med Supply SA</field>
     <field name="firma.skroconaNazwa">Baltic Med Supply</field>
     <field name="firma.wlasciciel.imie">Robert</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Lewandowski</field>
     <field name="firma.wlasciciel.pesel">75022639817</field>
     <field name="firma.nip">1282081894</field>
     <field name="firma.regon">282319467</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-09-27</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-03-07</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Piłsudskiego 148, 73-110 Stargard</field>
     <field name="firma.adresKorespondencyjny">Piłsudskiego 148, 73-110 Stargard</field>
     <field name="firma.telefon">48-650-483-711</field>
-    <field name="firma.email">robertlewandowski@o2.pl</field>
+    <field name="firma.email">robertlewandowski@outlook.com</field>
     <field name="firma.www">https://baltic-med-supply.pl</field>
   </record>
   <record>
@@ -3857,7 +3870,7 @@
     <field name="firma.adresDzialalnosci">ul. Mickiewicza 165/47, 27-600 Sandomierz</field>
     <field name="firma.adresKorespondencyjny">ul. Mickiewicza 165/47, 27-600 Sandomierz</field>
     <field name="firma.telefon">(48) 576588763</field>
-    <field name="firma.email">agnieszka_zielinska.gmail.com</field>
+    <field name="firma.email">agnieszka_zielinska.gmail.com@yahoo.com</field>
     <field name="firma.www">https://www.helios-markets-group.com.pl</field>
   </record>
   <record>
@@ -3871,13 +3884,13 @@
     <field name="firma.nip">1282240275</field>
     <field name="firma.regon">282398656</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-08-05</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2021-07-24</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Sienkiewicza 2, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.adresKorespondencyjny">ul Sienkiewicza 2, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.telefon">719792946</field>
-    <field name="firma.email">wojciech.szymanski83@outlook.com</field>
+    <field name="firma.email">wojciech.szymanski83@icloud.com</field>
     <field name="firma.www">https://www.lumen-advisory-group.eu</field>
   </record>
   <record>
@@ -3885,20 +3898,20 @@
     <field name="firma.nazwa">Nova Data sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Nova Data</field>
     <field name="firma.wlasciciel.imie">Justyna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Dąbrowska</field>
     <field name="firma.wlasciciel.pesel">78050143921</field>
     <field name="firma.nip">1282319462</field>
     <field name="firma.regon">282477841</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-12-06</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-04-03</field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Marszałkowska 19, 00-590 Warszawa</field>
     <field name="firma.adresKorespondencyjny">ulica Marszałkowska 19, 00-590 Warszawa</field>
     <field name="firma.telefon">666 505 852</field>
-    <field name="firma.email">justyna.dabrowska@yahoo.com</field>
-    <field name="firma.www"></field>
+    <field name="firma.email">justyna.dabrowska@gmail.com</field>
+    <field name="firma.www" />
   </record>
   <record>
     <field name="firma.id">FIRMAID-00596</field>
@@ -3917,7 +3930,7 @@
     <field name="firma.adresDzialalnosci">Krakowskie Przedmieście 36, 00-071 Warszawa</field>
     <field name="firma.adresKorespondencyjny">Krakowskie Przedmieście 36, 00-071 Warszawa</field>
     <field name="firma.telefon">+48 746 822 605</field>
-    <field name="firma.email">p.mazur@icloud.com</field>
+    <field name="firma.email">p.mazur@wp.pl</field>
     <field name="firma.www">https://www.optima-trade.pl</field>
   </record>
   <record>
@@ -3931,13 +3944,13 @@
     <field name="firma.nip">1282477847</field>
     <field name="firma.regon">282636222</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-10-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
+    <field name="firma.dataWznowieniaDzialalnosci" />
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Floriańska 53/9, 31-019 Kraków</field>
     <field name="firma.adresKorespondencyjny">ul. Floriańska 53/9, 31-019 Kraków</field>
     <field name="firma.telefon">+48 504 182 998</field>
-    <field name="firma.email">krawczyk.maria@gmail.com</field>
+    <field name="firma.email">krawczyk.maria@onet.pl</field>
     <field name="firma.www">https://polaris-capital.com.pl</field>
   </record>
   <record>
@@ -3945,19 +3958,19 @@
     <field name="firma.nazwa">Quantum Services Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Quantum Services</field>
     <field name="firma.wlasciciel.imie">Michał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.drugieImie" />
     <field name="firma.wlasciciel.nazwisko">Woźniak</field>
     <field name="firma.wlasciciel.pesel">81080448036</field>
     <field name="firma.nip">1282557032</field>
     <field name="firma.regon">282715418</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-03-16</field>
-    <field name="firma.dataZawieszeniaDzialalnosci"></field>
+    <field name="firma.dataZawieszeniaDzialalnosci" />
     <field name="firma.dataWznowieniaDzialalnosci">2023-04-11</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Długa 70, 31-147 Kraków</field>
     <field name="firma.adresKorespondencyjny">ul Długa 70, 31-147 Kraków</field>
     <field name="firma.telefon">780 323 493</field>
-    <field name="firma.email">michalwozniak@nieistniejaca-domena</field>
+    <field name="firma.email">michalwozniak@interia.pl</field>
     <field name="firma.www">https://www.quantum-services-group.eu</field>
   </record>
   <record>
@@ -3977,7 +3990,7 @@
     <field name="firma.adresDzialalnosci">ulica Piotrkowska 87, 90-102 Łódź</field>
     <field name="firma.adresKorespondencyjny">ulica Piotrkowska 87, 90-102 Łódź</field>
     <field name="firma.telefon">48-628-339-824</field>
-    <field name="firma.email">joanna_jankowska@onet.pl</field>
+    <field name="firma.email">joanna_jankowska@o2.pl</field>
     <field name="firma.www">https://www.silesia-invest-group.local</field>
   </record>
   <record>
@@ -3997,7 +4010,7 @@
     <field name="firma.adresDzialalnosci">Zachodnia 104, 90-402 Łódź</field>
     <field name="firma.adresKorespondencyjny">Zachodnia 104, 90-402 Łódź</field>
     <field name="firma.telefon">+48 735 315 973</field>
-    <field name="firma.email">pawel.grabowski89@interia.pl</field>
+    <field name="firma.email">pawel.grabowski89@proton.me</field>
     <field name="firma.www">https://www.vistula-fintech-group.pl</field>
   </record>
 </dataset>

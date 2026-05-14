@@ -148,7 +148,7 @@ def validation_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
     entity_type = _entity_type(conf)
-    check_email_dns = str(conf.get("check_email_dns", False)).lower()
+    check_email_dns = str(conf.get("check_email_dns", True)).lower()
 
     return _post_form(
         f"{LAYERS_API_PREFIX}/validation/validation-load",
@@ -187,7 +187,7 @@ with DAG(
             description="Wartosc zapisywana w metadanych importu.",
         ),
         "check_email_dns": Param(
-            False,
+            True,
             type="boolean",
             description="Czy walidacja email ma sprawdzac DNS.",
         ),
