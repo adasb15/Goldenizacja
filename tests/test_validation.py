@@ -1,6 +1,7 @@
 from datetime import date
 import unittest
 from types import SimpleNamespace
+from unittest.mock import patch
 
 from app.layers.validation.service import (
     build_validation_results,
@@ -58,6 +59,20 @@ class ValidationTests(unittest.TestCase):
     def test_validates_email_syntax_without_dns(self) -> None:
         self.assertTrue(validate_email_value("jan.kowalski@example.com", check_dns=False))
         self.assertFalse(validate_email_value("jan.kowalski.example.com", check_dns=False))
+
+    def test_validates_email_domain_when_dns_check_enabled(self) -> None:
+        with patch("app.layers.validation.service.email_domain_exists", return_value=True) as exists:
+            self.assertTrue(validate_email_value("jan.kowalski@gmail.com", check_dns=True))
+            exists.assert_called_once_with("gmail.com")
+
+        with patch("app.layers.validation.service.email_domain_exists", return_value=False) as exists:
+            self.assertFalse(validate_email_value("jan.kowalski@example.com", check_dns=True))
+            exists.assert_called_once_with("example.com")
+
+    def test_does_not_check_email_domain_when_syntax_is_invalid(self) -> None:
+        with patch("app.layers.validation.service.email_domain_exists") as exists:
+            self.assertFalse(validate_email_value("jan.kowalski.example.com", check_dns=True))
+            exists.assert_not_called()
 
     def test_marks_invalid_person_record_without_interrupting(self) -> None:
         staging_record = SimpleNamespace(
