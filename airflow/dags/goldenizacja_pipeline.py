@@ -28,17 +28,20 @@ SOURCE_SYSTEM_BY_FILE_STEM = {
     "vat": "VAT",
 }
 DEFAULT_ENTITY_TYPE_BY_SOURCE_SYSTEM = {
-    "CEIDG": "PARTY",
     "GLEIF": "PARTY",
     "KNF_PIENIADZ_ELEKTRONICZNY": "PARTY",
-    "KNF_FIRMY_INWESTYCYJNE": "PARTY",
-    "KNF_AGENT": "PARTY",
-    "KNF_PRACOWNIK_AGENTA": "PERSON",
-    "KRS": "PARTY",
     "PESEL": "PERSON",
     "REGON": "PARTY",
     "VAT": "PARTY",
 }
+AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS = {
+    "CEIDG",
+    "KRS",
+    "KNF_AGENT",
+    "KNF_PRACOWNIK_AGENTA",
+    "KNF_FIRMY_INWESTYCYJNE",
+}
+AUTO_BOTH_ENTITY_TYPES = ("PARTY", "PERSON")
 
 
 def _conf(context: dict[str, Any]) -> dict[str, Any]:
@@ -78,13 +81,16 @@ def _source_system_code(conf: dict[str, Any], file_path: Path) -> str:
     return source_system_code
 
 
-def _entity_type(conf: dict[str, Any]) -> str:
+def _entity_types(conf: dict[str, Any]) -> tuple[str, ...]:
     configured = conf.get("entity_type")
     if configured and str(configured).upper() != DEFAULT_ENTITY_TYPE_PARAM:
-        return str(configured).upper()
+        return (str(configured).upper(),)
 
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
+    if source_system_code in AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS:
+        return AUTO_BOTH_ENTITY_TYPES
+
     entity_type = DEFAULT_ENTITY_TYPE_BY_SOURCE_SYSTEM.get(source_system_code)
     if entity_type is None:
         raise ValueError(
@@ -92,7 +98,7 @@ def _entity_type(conf: dict[str, Any]) -> str:
             "Podaj entity_type recznie: PERSON albo PARTY."
         )
 
-    return entity_type
+    return (entity_type,)
 
 
 def raw_load(**context: Any) -> int:
@@ -119,45 +125,57 @@ def raw_load(**context: Any) -> int:
 def staging_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
-    entity_type = _entity_type(conf)
+    entity_types = _entity_types(conf)
 
-    return _post_form(
-        f"{LAYERS_API_PREFIX}/staging_validation/staging-load",
-        data={
-            "raw_file_id": raw_file_id,
-            "entity_type": entity_type,
-        },
-    )
+    results = {}
+    for entity_type in entity_types:
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/staging_validation/staging-load",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+            },
+        )
+
+    return results
 
 
 def preprocessing_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
-    entity_type = _entity_type(conf)
+    entity_types = _entity_types(conf)
 
-    return _post_form(
-        f"{LAYERS_API_PREFIX}/preprocessing/preprocessing-load",
-        data={
-            "raw_file_id": raw_file_id,
-            "entity_type": entity_type,
-        },
-    )
+    results = {}
+    for entity_type in entity_types:
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/preprocessing/preprocessing-load",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+            },
+        )
+
+    return results
 
 
 def validation_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
-    entity_type = _entity_type(conf)
+    entity_types = _entity_types(conf)
     check_email_dns = str(conf.get("check_email_dns", True)).lower()
 
-    return _post_form(
-        f"{LAYERS_API_PREFIX}/validation/validation-load",
-        data={
-            "raw_file_id": raw_file_id,
-            "entity_type": entity_type,
-            "check_email_dns": check_email_dns,
-        },
-    )
+    results = {}
+    for entity_type in entity_types:
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/validation/validation-load",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+                "check_email_dns": check_email_dns,
+            },
+        )
+
+    return results
 
 
 with DAG(
