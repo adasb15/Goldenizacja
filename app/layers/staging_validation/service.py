@@ -473,18 +473,28 @@ def parse_date_value(value: Any) -> date | None:
     if not raw_value:
         return None
 
-    date_candidates = [
-        raw_value[:10],
-        raw_value.replace("/", "-")[:10],
-    ]
-    for candidate in date_candidates:
+    if re.fullmatch(r"\d{8}(\d{4}|\d{6})?", raw_value):
+        try:
+            return datetime.strptime(raw_value[:8], "%Y%m%d").date()
+        except ValueError:
+            pass
+
+    year_first_candidates = (raw_value[:10], raw_value.replace("/", "-")[:10])
+    for candidate in year_first_candidates:
+        if "T" not in raw_value and re.fullmatch(r"\d{4}-\d{2}-\d{2}", candidate):
+            year, day, month = candidate.split("-")
+            try:
+                return date(int(year), int(month), int(day))
+            except ValueError:
+                pass
+
         try:
             # Bierzemy część datową, żeby ISO datetime zapisać jako czysty DATE
             return date.fromisoformat(candidate)
         except ValueError:
             pass
 
-    for date_format in ("%d.%m.%Y", "%d-%m-%Y", "%d/%m/%Y"):
+    for date_format in ("%d.%m.%Y", "%d-%m-%Y", "%d/%m/%Y", "%Y/%d/%m"):
         try:
             return datetime.strptime(raw_value[:10], date_format).date()
         except ValueError:

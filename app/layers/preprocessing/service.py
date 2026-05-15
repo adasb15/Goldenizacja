@@ -32,6 +32,7 @@ POSTAL_CODE_IN_TEXT_RE = re.compile(r"\b\d{2}-\d{3}\b")
 NON_DIGIT_RE = re.compile(r"\D+")
 NON_ALNUM_RE = re.compile(r"[^0-9A-Z]+")
 MULTISPACE_RE = re.compile(r"\s+")
+SHORT_NAME_EDGE_SEPARATOR_RE = re.compile(r"^[\s,.;:-]+|[\s,.;:-]+$")
 
 LEGAL_FORM_PATTERNS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bS\.?\s*A\.?\b", re.IGNORECASE), "S.A."),
@@ -229,6 +230,18 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
     name_value = empty_to_none(staging_record.Name)
     short_name_value = empty_to_none(staging_record.Short_Name)
     legal_entity_type_value = empty_to_none(staging_record.Legal_Entity_Type)
+    registration_identifier_type = infer_registration_identifier_type(
+        getattr(staging_record, "Validation_Authority_ID", None)
+    )
+    registration_identifier_value = normalize_identifier(
+        getattr(staging_record, "Validation_Authority_Entity_ID", None)
+    )
+    regon_value = normalize_identifier(identifiers.get("REGON"))
+    krs_value = normalize_identifier(identifiers.get("KRS"))
+    if registration_identifier_type == "REGON" and regon_value is None:
+        regon_value = registration_identifier_value
+    elif registration_identifier_type == "KRS" and krs_value is None:
+        krs_value = registration_identifier_value
 
     inferred_short_name, inferred_legal_type = split_party_name_and_legal_form(name_value)
     if short_name_value is None:
@@ -241,8 +254,8 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
             "Short_Name_Normalized": normalize_text_key(short_name_value),
             "Legal_Entity_Type_Normalized": normalize_text_key(legal_entity_type_value),
             "NIP_Normalized": normalize_identifier(identifiers.get("NIP")),
-            "REGON_Normalized": normalize_identifier(identifiers.get("REGON")),
-            "KRS_Normalized": normalize_identifier(identifiers.get("KRS")),
+            "REGON_Normalized": regon_value,
+            "KRS_Normalized": krs_value,
             "LEI_Normalized": normalize_identifier(identifiers.get("LEI")),
             "Phone_Normalized": normalize_phone(staging_record.Phone_Number),
             "Email_Normalized": normalize_email(staging_record.Email_Address),
@@ -412,6 +425,17 @@ def infer_legal_entity_type_from_name(value: Any) -> str | None:
     return None
 
 
+def infer_registration_identifier_type(value: Any) -> str | None:
+    normalized = normalize_text_key(value)
+    if normalized is None:
+        return None
+    if "RA000466" in normalized or "KRS" in normalized or "COURT REGISTER" in normalized:
+        return "KRS"
+    if "RA000484" in normalized or "REGON" in normalized or "BUSINESS REGISTER" in normalized:
+        return "REGON"
+    return None
+
+
 def split_party_name_and_legal_form(value: Any) -> tuple[str | None, str | None]:
     value = empty_to_none(value)
     if value is None:
@@ -420,10 +444,19 @@ def split_party_name_and_legal_form(value: Any) -> tuple[str | None, str | None]
     text = str(value)
     for pattern, label in LEGAL_FORM_PATTERNS:
         if pattern.search(text):
-            short_name = compact_text(pattern.sub(" ", text))
+            short_name = clean_party_short_name(pattern.sub(" ", text))
             return short_name, label
 
     return compact_text(text), None
+
+
+def clean_party_short_name(value: Any) -> str | None:
+    value = empty_to_none(value)
+    if value is None:
+        return None
+
+    text = SHORT_NAME_EDGE_SEPARATOR_RE.sub("", value)
+    return compact_text(text)
 
 
 def build_full_address_normalized(
