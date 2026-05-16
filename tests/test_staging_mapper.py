@@ -11,6 +11,7 @@ from app.layers.staging_validation.service import (
     RawFileAlreadyLoadedToStagingError,
     build_staging_record,
     load_raw_file_to_staging,
+    parse_date_value,
     parse_raw_file_records,
 )
 
@@ -157,6 +158,12 @@ class StagingMapperTests(unittest.TestCase):
             "City": "Warszawa",
             "PostalCode": "00-001",
             "Country": "PL",
+            "Registered At": (
+                "National Court Register (Ministry of Justice) | "
+                "Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | "
+                "Poland | RA000466"
+            ),
+            "Registered As": "0000750893",
             "DirectParentLEI": "DIRECTPARENT123456789",
             "DirectParentName": "Parent Company",
             "DirectParentRelationshipStatus": "ACTIVE",
@@ -172,6 +179,8 @@ class StagingMapperTests(unittest.TestCase):
             "City": "City",
             "PostalCode": "Postal_Code",
             "Country": "Country",
+            "Registered At": "Validation_Authority_ID",
+            "Registered As": "Validation_Authority_Entity_ID",
             "LEI": "Identifiers_JSON",
             "DirectParentLEI": "Direct_Parent_LEI",
             "DirectParentName": "Direct_Parent_Name",
@@ -186,6 +195,8 @@ class StagingMapperTests(unittest.TestCase):
         self.assertEqual(result["Registration_Country"], "PL")
         self.assertEqual(result["Legal_Entity_Type"], "PL-SPZOO")
         self.assertEqual(result["City"], "Warszawa")
+        self.assertEqual(result["Validation_Authority_ID"], source_record["Registered At"])
+        self.assertEqual(result["Validation_Authority_Entity_ID"], "0000750893")
         self.assertEqual(
             json.loads(result["Identifiers_JSON"]),
             {"LEI": "529900T8BM49AURSDO55"},
@@ -233,7 +244,7 @@ class StagingMapperTests(unittest.TestCase):
             canonical_record={
                 "Name": "Typed Company",
                 "Registration_Date": "31.12.2024",
-                "Decision_Date": "2024/01/10",
+                "Decision_Date": "2024/31/12",
                 "Has_Virtual_Accounts": "Prawda",
             },
             source_record={"nip": "1234567890"},
@@ -244,8 +255,20 @@ class StagingMapperTests(unittest.TestCase):
         )
 
         self.assertEqual(result["Registration_Date"], date(2024, 12, 31))
-        self.assertEqual(result["Decision_Date"], date(2024, 1, 10))
+        self.assertEqual(result["Decision_Date"], date(2024, 12, 31))
         self.assertEqual(result["Has_Virtual_Accounts"], True)
+
+    def test_parses_generated_date_formats(self) -> None:
+        self.assertEqual(parse_date_value("31/12/2024"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("2024/31/12"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("31-12-2024"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("2024-31-12"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("20241231"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("2024-12-31T00:00:00Z"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("2024-12-31 14:05"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("31/12/2024 14:05"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("31-12-2024 14:05:30"), date(2024, 12, 31))
+        self.assertEqual(parse_date_value("202412311405"), date(2024, 12, 31))
 
     def test_maps_false_boolean_values_to_bit_false(self) -> None:
         result = build_staging_record(

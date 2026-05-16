@@ -247,7 +247,7 @@ BEGIN
         [Next_Renewal_Date] DATE NULL,
         [Managing_LOU] NVARCHAR(50) NULL,
         [Validation_Sources] NVARCHAR(100) NULL,
-        [Validation_Authority_ID] NVARCHAR(50) NULL,
+        [Validation_Authority_ID] NVARCHAR(500) NULL,
         [Validation_Authority_Entity_ID] NVARCHAR(100) NULL,
         [Direct_Parent_LEI] NVARCHAR(20) NULL,
         [Direct_Parent_Name] NVARCHAR(255) NULL,
@@ -327,7 +327,10 @@ IF COL_LENGTH(N'stg.Party_Staging', N'Managing_LOU') IS NULL
 IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Sources') IS NULL
     ALTER TABLE [stg].[Party_Staging] ADD [Validation_Sources] NVARCHAR(100) NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_ID') IS NULL
-    ALTER TABLE [stg].[Party_Staging] ADD [Validation_Authority_ID] NVARCHAR(50) NULL;
+    ALTER TABLE [stg].[Party_Staging] ADD [Validation_Authority_ID] NVARCHAR(500) NULL;
+IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_ID') IS NOT NULL
+AND COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_ID') < 1000
+    ALTER TABLE [stg].[Party_Staging] ALTER COLUMN [Validation_Authority_ID] NVARCHAR(500) NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Validation_Authority_Entity_ID') IS NULL
     ALTER TABLE [stg].[Party_Staging] ADD [Validation_Authority_Entity_ID] NVARCHAR(100) NULL;
 IF COL_LENGTH(N'stg.Party_Staging', N'Direct_Parent_LEI') IS NULL
@@ -601,7 +604,12 @@ DECLARE @GLEIF_SourceSystem_ID INT = (
 DELETE FROM [meta].[ColumnMapping]
 WHERE [SourceSystem_ID] = @GLEIF_SourceSystem_ID
 AND [Entity_Type] = N'PARTY'
-AND [Source_Column_Name] IN (N'DirectParentLEI', N'UltimateParentLEI');
+AND [Source_Column_Name] IN (
+    N'DirectParentLEI',
+    N'UltimateParentLEI',
+    N'ValidationAuthorityID',
+    N'ValidationAuthorityEntityID'
+);
 
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
@@ -619,8 +627,10 @@ USING (VALUES
     (@GLEIF_SourceSystem_ID, N'PARTY', N'NextRenewalDate', N'Next_Renewal_Date'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'ManagingLOU', N'Managing_LOU'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationSources', N'Validation_Sources'),
-    (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationAuthorityID', N'Validation_Authority_ID'),
-    (@GLEIF_SourceSystem_ID, N'PARTY', N'ValidationAuthorityEntityID', N'Validation_Authority_Entity_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'RegisteredAt', N'Validation_Authority_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'Registered At', N'Validation_Authority_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'RegisteredAs', N'Validation_Authority_Entity_ID'),
+    (@GLEIF_SourceSystem_ID, N'PARTY', N'Registered As', N'Validation_Authority_Entity_ID'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'LEI', N'Identifiers_JSON'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentLEI', N'Direct_Parent_LEI'),
     (@GLEIF_SourceSystem_ID, N'PARTY', N'DirectParentName', N'Direct_Parent_Name'),

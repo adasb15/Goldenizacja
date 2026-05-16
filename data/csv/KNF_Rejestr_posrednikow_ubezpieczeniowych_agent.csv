@@ -1,201 +1,201 @@
 ﻿Numer agenta,Firma/Nazwa,Zakład ubezpieczeń,Rodzaj agenta,Numer KRS,Miejscowość,Ulica i numer,Kod pocztowy,Numer NIP,Imię,Nazwisko,PESEL,Data wpisu,Data zakończenia
-10000000/A/300000,Astra Finance sp. z o.o.,PZU SA,osoba fizyczna,0000000009,Warszawa,os. Marszałkowska 1/1,00-590,1235280600,Anna,Kowalska,65060606843,2020-09-19,
-10000001/A/300001,Baltic Med Supply sp z oo,PZU SA,osoba fizyczna,0000000106,Warszawa,ul Krakowskie Przedmieście 18,00-071,1235359796,Tomasz,Nowacki,66070708239,2024-10-25,2026-06-15
-10000002/A/300002,Helios Markets sp. z o. o.,PZU SA,osoba fizyczna,0000000203,Kraków,ulica Floriańska 35,31-019,1235438981,Katarzyna,Wiśniewska,67080809587,2019-03-09,2023-11-08
-10000003/A/300003,Lumen Advisory Sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000000300,Kraków,Długa 52,31-147,1235518177,Krzysztof,Wójcik,68090910975,2022-11-22,2024-04-02
-10000004/A/300004,Nova Data SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000000397,Łódź,ul. Piotrkowska 69/53,90-102,1235597366,Ewa,Kowalczyk,69101012325,2021-11-26,2026-09-14
-10000005/A/300005,Optima Trade spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000000494,Łódź,ul Zachodnia 86,90-402,1235676551,Adam,Kamiński,70111113719,2017-11-28,2023-04-01
-10000006/A/300006,Polaris Capital Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000000591,Wrocław,ulica Świdnicka 103,50-066,1235755747,Monika,Lewandowska,71121215068,2022-05-16,2025-06-21
-10000007/A/300007,Quantum Services S.A.,ZPU SA,prezsdiębiorca,0000000688,Wrocław,Legnicka 120,54-203,1235834932,Marek,Zieliński,72011316458,2016-09-10,2026-01-29
-10000008/A/300008,Silesia Invest SA,ERGO HESTIA S.A.,przedsiębiorca,0000000785,Poznań,ul. Święty Marcin 137/15,61-806,1235914128,Barbara,Szymańska,73021417805,2021-02-04,2026-07-07
-10000009/A/300009,Vistula Fintech S. A.,WARTA S.A.,osoba fizyczna,0000000882,Poznań,ul Głogowska 154,60-734,1235993317,Rafał,Dąbrowski,74031519192,2021-01-05,2023-10-03
-10000010/A/300010,Astra Finance Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000000979,Gdańsk,ulica Długa 171,80-831,1236072507,Anna,Mazur,75041620542,2025-02-22,
-10000011/A/300011,Baltic Med Supply sp. z o.o.,PZU SA,przedsiębiorca,0000001076,Gdańsk,Grunwaldzka 8,80-236,1236151690,Tomasz,Krawczyk,76051721937,2021-10-16,
-10000012/A/300012,Helios Markets sp z oo,UNIQA TU S.A.,przedsiębiorca,0000001173,Szczecin,ul. Jagiellońska 25/67,70-435,1236230886,Katarzyna,Woźniak,77061823286,2019-01-30,2025-06-21
-10000013/A/300013,Lumen Advisory sp. z o. o.,PZU SA,przedsiebiorca,0000001270,Szczecin,ul Wyszynskiego 42,70-200,1236310071,Krzysztof,Jankowski,78071924671,2024-06-30,
-10000014/A/300014,Nova Data Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000001367,Katowice,ulica Mariacka 59,40-014,1236389262,Ewa,Grabowska,79082026028,2025-02-12,2023-10-12
-10000015/A/300015,Optima Trade SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000001464,Katowice,Warszawska 76,40-009,1236468458,Adam,Pawlak,80092127412,2021-08-19,2026-04-23
-10000016/A/300016,Polaris Capital spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000001561,Lublin,ul. Krakowskie Przedmieście 93/29,20-002,1236547643,Monika,Michalska,81102228763,2021-06-16,2023-01-12
-10000017/A/300017,Quantum Services Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000001658,Lublin,,20-004,1236626839,Marek,Król,82112330152,2016-09-07,
-10000018/A/300018,Silesia Invest S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000001755,Białystok,ulica Lipowa 127,15-424,1236706024,Barbara,Wieczorek,83122431509,2025-10-13,
-10000019/A/300019,Vistula Fintech SA,UNIQA TU S.A.,osoba fizyczna,0000001852,Białystok,Sienkiewicza 144,,1236785213,Rafał,Jabłoński,84012532890,2015-05-09,
-10000020/A/300020,Astra Finance S. A.,PZU SA,osoba fizyczna,0000001949,Bydgoszcz,ul. Gdańska 161/81,85-005,1236864409,Anna,Witkowska,85022634248,2025-08-28,2024-11-28
-10000021/A/300021,Baltic Med Supply Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000002046,Bydgoszcz,ul Dworcowa 178,85-009,1236943592,Tomasz,Walczak,86032735633,2016-11-06,
-10000022/A/300022,Helios Markets sp. z o.o.,PZU SA,przedsiębiorca,0000002143,Toruń,ulica Szeroka 15,87-100,1237022782,Katarzyna,Stępień,87042836981,2019-09-01,
-10000023/A/300023,Lumen Advisory sp z oo,PZU SA,przedsiębiorca,0000002240,Toruń,Chełmińska 32,87-100,1237101978,Krzysztof,Baran,88050138373,2016-04-27,2025-07-21
-10000024/A/300024,Nova Data sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000002337,Rzeszów,ul. 3 Maja 49/43,35-030,1237181167,Ewa,Rutkowska,89060239720,2020-01-16,2025-12-26
-10000025/A/300025,Optima Trade Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000002434,Rzeszów,ul Piłsudskiego 66,35-074,1237260352,Adam,Górski,90070341118,2024-01-07,
-10000026/A/300026,Polaris Capital SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000002531,Kielce,ulica Sienkiewicza 83,25-007,1237418735,Monika,Sikora,91080442466,2016-01-03,2025-06-28
-10000027/A/300027,Quantum Services spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000002628,Kielce,Warszawska 100,25-512,1237418735,Marek,Ostrowski,92090543851,2016-07-19,2024-11-19
-10000028/A/300028,Silesia Invest Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000002725,Olsztyn,ul. Kościuszki 117/5,10-504,1237497924,Barbara,Tomaszewska,93100645202,2023-08-23,
-10000029/A/300029,Vistula Fintech S.A.,ERGO HESTIA S.A.,przedsiębiorca,0000002822,Olsztyn,os. Dąbrowszczaków 134,10-540,1237656305,Rafał,Zając,94110746598,2023-12-03,
-10000030/A/300030,Astra Finance SA,PZU SA,przedsiębiorca,0000002919,Opole,ulica Krakowska 151,45-018,1237656305,Anna,Pietrzak,95120847945,2020-09-11,
-10000031/A/300031,Baltic Med Supply S. A.,ERGO HESTIA S.A.,przedsiębiorca,0000003016,Opole,Ozimska 168,45-057,1237735499,Tomasz,Wójcicki,96010949336,2023-02-15,2024-06-05
-10000032/A/300032,Helios Markets Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000003113,Zielona Góra,ul. Bohaterów Westerplatte 5/57,65-034,1237814684,Katarzyna,Czarnecka,97021050686,2020-08-30,2025-09-14
-10000033/A/300033,Lumen Advisory sp. z o.o.,WARTA S.A.,osoba fizyczna,0000003210,Zielona Góra,ul Kupiecka 22,65-058,1237893873,Krzysztof,Lis,98031152072,2024-05-20,
-10000034/A/300034,Nova Data sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000003307,Gdynia,ulica Świętojańska 39,81-372,1237973069,Ewa,Kołodziej,99041253429,2016-11-30,2024-12-07
-10000035/A/300035,Optima Trade sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000003404,Gdynia,10 Lutego 56,81-364,1238052259,Adam,Kaczmarek,00251354819,2021-10-31,
-10000036/A/300036,Polaris Capital Sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000003501,Pruszków,ul. Bolesława Prusa 73/19,05-800,1238131444,Monika,Piątek,01261456168,2020-02-27,2024-09-18
-10000037/A/300037,Quantum Services SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000003598,Piaseczno,,05-500,1238289820,Marek,Sadowski,02271557553,2019-01-22,2023-11-18
-10000038/A/300038,Silesia Invest spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000003695,Wieliczka,ulica Sienkiewicza 107,32-020,1238289820,Barbara,Włodarczyk,03281658900,2022-03-07,2023-08-17
-10000039/A/300039,Vistula Fintech Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000003792,Oświęcim,Dąbrowskiego 124,32-600,1238369016,Rafał,Borkowski,04291760290,2020-03-22,
-10000040/A/300040,Astra Finance S.A.,ERGO HESTIA S.A.,przedsiębiorca,0000003889,Krosno,ul. Rynek 141/71,38-400,1238448201,Anna,Kowalska,05301861640,2022-03-05,
-10000041/A/300041,Baltic Med Supply SA,ERGO HESTIA S.A.,osoba fizyczna,0000003986,Mielec,ul Mickiewicza 158,39-300,1238527395,Tomasz,Nowacki,60111963032,2021-09-23,
-10000042/A/300042,Helios Markets S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000004083,Świdnica,175,58-100,1238606580,Katarzyna,Wiśniewska,61122064389,2017-02-08,
-10000043/A/300043,Lumen Advisory Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000004180,Kłodzko,Wojska Polskiego 12,57-300,1238764965,Krzysztof,Wójcik,62012165779,2020-12-17,2026-05-21
-10000044/A/300044,Nova Data sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000004277,Gniezno,ul. Chrobrego 29/33,62-200,1238764965,Ewa,Kowalczyk,63022267127,2016-08-15,2024-09-14
-10000045/A/300045,Optima Trade sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000004374,Leszno,ul Słowiańska 46,64-100,1238844150,Adam,Kamiński,64032368512,2021-04-21,2023-09-25
-10000046/A/300046,Polaris Capital sp. z o. o.,WARTA S.A.,osoba fizyczna,0000004471,Tczew,ulica Gdańska 63,83-110,1238923346,Monika,Lewandowska,65042469860,2023-04-19,
-10000047/A/300047,Quantum Services Sp. z o.o.,WARTA S.A.,przedsiębiorca,0000004568,Wejherowo,Sobieskiego 80,84-200,1239002536,Marek,Zieliński,66052571259,2015-02-01,2023-09-12
-10000048/A/300048,Silesia Invest SP Z O O,ERGO HESTIA S.A.,osoba fizyczna,0000004665,Cieszyn,ul. Głęboka 97/85,43-400,1239081725,Barbara,Szymańska,67062672606,2016-10-05,
-10000049/A/300049,Vistula Fintech spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000004762,Będzin,114,42-500,1239160910,Rafał,Dąbrowski,68072773992,2017-01-20,
-10000050/A/300050,Astra Finance Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000004859,Inowrocław,ulica Królowej Jadwigi 131,88-100,1239240106,Anna,Mazur,69082875340,2025-02-22,2023-02-09
-10000051/A/300051,Baltic Med Supply S.A.,PZU SA,przedsiębiorca,0000004956,Grudziądz,Wybickiego 148,86-300,1239319291,Tomasz,Krawczyk,70090176730,2018-11-23,2023-02-10
-10000052/A/300052,Helios Markets SA,WARTA S.A.,przedsiębiorca,0000005053,Ostróda,ul. Czarnieckiego 165/47,14-100,1239398480,Katarzyna,Woźniak,71100278082,2020-06-23,
-10000053/A/300053,Lumen Advisory S. A.,UNIQA TU S.A.,osoba fizyczna,0000005150,Nibylandia,ul Nieistniejąca 2,99-999,1239477676,Krzysztof,Jankowski,72110379477,2019-02-20,
-10000054/A/300054,Nova Data Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000005247,Puławy,ulica Lubelska 19,24-100,1239556861,Ewa,Grabowska,73120480827,2019-07-20,2023-01-10
-10000055/A/300055,Optima Trade sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000005344,Zamość,Staszica 36,22-400,1239636057,Adam,Pawlak,74010582218,2024-06-20,2023-07-11
-10000056/A/300056,Polaris Capital sp z oo,PZU SA,osoba fizyczna,0000005441,Augustów,53/9,16-300,1239715242,Monika,Michalska,75020683566,2017-09-14,2025-04-18
-10000057/A/300057,Quantum Services sp. z o. o.,UINQ TU .A.,przedsiębiorca,0000005538,Suwałki,ul Kościuszki 70,16-400,1239794431,Mare,Król,76030784951,2023-03-07,
-10000058/A/300058,Silesia Invest Sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000005635,Nysa,os. Piastowska 87,48-300,1239873627,Barbara,Wieczorek,77040886309,2016-03-11,
-10000059/A/300059,Vistula Fintech SP Z O O,UNIQA TU S.A.,osoba fizyczna,0000005732,Brzeg,Długa 104,49-300,1239952812,Rafał,Jabłoński,88050987695,2017-09-24,2026-01-17
-10000060/A/300060,Astra Finance spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000005829,Żary,ul. Rynek 121/61,68-200,1240032000,Anna,Witkowska,79061089042,2019-12-02,
-10000061/A/300061,Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000005926,Świebodzin,ul Sikorskiego 138,66-200,1240111194,Tomasz,Walczak,80071190439,2023-05-07,2026-12-17
-10000062/A/300062,Helios Markets S.A.,WARTA S.A.,osoba fizyczna,0000006023,Kołobrzeg,ulica Armii Krajowej 155,78-100,1240190383,Katarzyna,Stępień,81081291787,2024-10-28,
-10000063/A/300063,Lumen Advisory SA,WARTA S.A.,przedsiębiorca,0000006120,Stargard,Piłsudskiego 172,73-110,1240269570,Krzysztof,Baran,82091393173,2017-03-10,2026-08-29
-10000064/A/300064,Nova Data S. A.,UNIQA TU S.A.,przedsiębiorca,0000006217,Sandomierz,ul. Mickiewicza 9/23,27-600,1240348766,Ewa,Rutkowska,83101494523,2021-08-07,
-10000065/A/300065,Optima Trade Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000006314,Ostrowiec Świętokrzyski,ul Sienkiewicza 26,27-400,1240427951,Adam,Górski,84111595918,2022-01-17,
-10000066/A/300066,Polaris Capital sp. z o.o.,WARTA S.A.,przedsiębiorca,0000006411,Warszawa,ulica Marszałkowska 43,00-590,1240507147,Monika,Sikora,85121697267,2017-07-15,
-10000067/A/300067,Quantum Services sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000006508,Warszawa,Krakowskie Przedmieście 60,00-071,1240586336,Marek,Ostrowski,86011798657,2022-01-15,2025-07-28
-10000068/A/300068,Silesia Invest sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000006605,Kraków,ul. Floriańska 77/75,31-019,1240665521,Barbara,Tomaszewska,87021800008,2023-10-23,
-10000069/A/300069,Vistula Fintech Sp. z o.o.,PZU SA,przedsiębiorca,0000006702,Kraków,ul Długa 94,31-147,1240744717,Rafał,Zając,88031901394,2021-01-30,
-10000070/A/300070,Astra Finance SP Z O O,PZU SA,osoba fizyczna,0000006799,Łódź,ulica Piotrkowska 111,90-102,1240823902,Anna,Pietrzak,89042002740,2024-03-10,
-10000071/A/300071,Baltic Med Supply spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000006896,Łódź,Zachodnia 128,90-402,2240903096,Tomasz,Wójcicki,90052104135,2025-01-29,
-10000072/A/300072,Helios Markets Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000006993,Wrocław,ul. Świdnicka 145/37,50-066,1240982285,Katarzyna,Czarnecka,91062205483,2018-03-08,2025-07-07
-10000073/A/300073,Lumen Advisory S.A.,WARTA S.A.,osoba fizyczna,0000007090,Wrocław,ul Legnicka 162,54-203,1241061475,Krzysztof,Lis,92072306878,2020-08-09,
-10000074/A/300074,Nova Data SA,PZU SA,osoba fizyczna,0000007187,Poznań,ulica Święty Marcin 179,61-806,1241140660,Ewa,Kołodziej,93082408226,2021-10-11,
-10000075/A/300075,Optima Trade S. A.,UNIQA TU S.A.,przedsiębiorca,0000007284,Poznań,Głogowska 16,60-734,1241219858,Adam,Kaczmarek,94092509611,2023-01-12,
-10000076/A/300076,Polaris Capital Spółka Akcyjna,UNIQA TU S.A.,przedsiębiorca,0000007381,Gdańsk,ul. Długa 33/89,80-831,1241299047,Monika,Piątek,95102610965,2023-11-19,2026-07-08
-10000077/A/300077,Quantum Services sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000007478,Gdańsk,ul Grunwaldzka 50,80-236,1241378232,Marek,Sadowski,96112712351,2015-06-22,
-10000078/A/300078,Silesia Invest sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000007575,Szczecin,ulica Jagiellońska 67,70-435,1241457428,Barbara,Włodarczyk,97122813708,2021-05-15,2023-09-14
-10000079/A/300079,Vistula Fintech sp. z o. o.,PZU SA,osoba fizyczna,0000007672,Szczecin,Wyszyńskiego 84,70-200,1241536613,Rafał,Borkowski,98010115096,2024-07-19,
-10000080/A/300080,Astra Finance Sp. z o.o.,WARTA S.A.,osoba fizyczna,0000007769,Katowice,ul. Mariacka 101/51,40-014,1241615809,Anna,Kowalska,99020216443,2022-04-19,
-10000081/A/300081,Baltic Med Supply SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000007866,Katowice,ul Warszawska 118,40-009,1241694996,Tomasz,Nowacki,00230317833,2024-10-17,
-10000082/A/300082,Helios Markets spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000007963,Lublin,ulica Krakowskie Przedmieście 135,20-002,1241774181,Katarzyna,Wiśniewska,01240419182,2020-12-04,2023-06-29
-10000083/A/300083,Lumen Advisory Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000008060,,Narutowicza 152,20-004,1241853377,Krzysztof,Wójcik,02250520570,2024-05-22,2024-03-27
-10000084/A/300084,Nova Data S.A.,UNIQA TU S.A.,osoba fizyczna,0000008157,Białystok,ul. Lipowa 169/13,15-424,1241932562,Ewa,Kowalczyk,03260621927,2023-05-25,
-10000085/A/300085,Optima Trade SA,ERGO HESTIA S.A.,osoba fizyczna,0000008254,Białystok,ul Sienkiewicza 6,15-092,1242011752,Adam,Kamiński,04270723313,2016-12-17,
-10000086/A/300086,Polaris Capital S. A.,ERGO HESTIA S.A.,przedsiębiorca,0000008351,Bydgoszcz,ulica Gdańska 23,85-005,1242090941,Monika,Lewandowska,05280824661,2020-01-05,2026-11-24
-10000087/A/300087,Quantum Services Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000008448,Bydgoszcz,os. Dworcowa 40,85-009,1242170137,Marek,Zieliński,60090926053,2017-01-01,
-10000088/A/300088,Silesia Invest sp. z o.o.,PZU SA,przedsiębiorca,0000008545,Toruń,ul. Szeroka 57/65,87-100,,Barbara,Szymańska,61101027402,2017-09-21,
-10000089/A/300089,Vistula Fintech sp z oo,PZU SA,przedsiębiorca,0000008642,Toruń,ul Chełmińska 74,87-100,1242407705,Rafał,Dąbrowski,62111128798,2024-08-15,2023-05-10
-10000090/A/300090,Astra Finance sp. z o. o.,WARTA S.A.,osoba fizyczna,0000008739,Rzeszów,ulica 3 Maja 91,35-030,1242407705,Anna,Mazur,63121230149,2025-09-14,
-10000091/A/300091,Baltic Med Supply Sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000008836,Rzeszów,Piłsudskiego 108,35-074,1242486892,Tomasz,Krawczyk,64011331539,2020-10-25,2023-11-08
-10000092/A/300092,Helios Markets SP Z O O,WARTA S.A.,przedsiębiorca,0000008933,Kielce,ul. Sienkiewicza 125/27,25-007,1242566088,Katarzyna,Woźniak,65021432887,2016-03-04,
-10000093/A/300093,Lumen Advisory spółka z ograniczoną odpowiedzialnością,WARTA S.A.,osoba fizyczna,0000009030,Kielce,ul Warszawska 142,25-512,1242645273,Krzysztof,Jankowski,66031534273,2022-05-24,
-10000094/A/300094,Nova Data Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000009127,Olsztyn,ulica Kościuszki 159,10-504,1242724469,Ewa,Grabowska,67041635620,2019-03-29,2024-10-06
-10000095/A/300095,Optima Trade S.A.,WARTA S.A.,osoba fizyczna,0000009224,Olsztyn,Dąbrowszczaków 176,10-540,1242803654,Adam,Pawlak,68051737016,2022-09-10,2023-03-11
-10000096/A/300096,Polaris Capital SA,UNIQA TU S.A.,przedsiębiorca,0000009321,Opole,ul. Krakowska 13/79,45-018,1242882843,Monika,Michalska,69061838364,2024-12-02,2024-11-06
-10000097/A/300097,Quantum Services S. A.,WARTA S.A.,osoba fizyczna,0000009418,Opole,ul Ozimska 30,45-057,1242962039,Marek,Król,70071939758,2017-07-04,2023-03-14
-10000098/A/300098,Silesia Invest Spółka Akcyjna,UNIQA TU S.A.,przedsiębiorca,0000009515,Zielona Góra,ulica Bohaterów Westerplatte 47,65-034,1243041229,Barbara,Wieczorek,71082041108,2025-12-09,2026-03-31
-10000099/A/300099,Vistula Fintech sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000009612,Zielona Góra,Kupiecka 64,65-058,1243120414,Rafał,Jabłoński,72092142494,2016-10-19,2026-09-28
-10000100/A/300100,Astra Finance sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000009709,Gdynia,ul. Świętojańska 81/41,81-372,1243199605,Anna,Witkowska,73102243844,2018-08-28,2025-01-06
-10000101/A/300101,Baltic Med Supply sp. z o. o.,WARTA S.A.,przedsiębiorca,0000009806,,ul 10 Lutego 98,,1243278799,Tomasz,Walczak,74112345230,2020-09-15,
-10000102/A/300102,Helios Markets Sp. z o.o.,WARTA S.A.,osoba fizyczna,0000009903,Pruszków,ulica Bolesława Prusa 115,05-800,1243357984,Katarzyna,Stępień,75122446588,2015-09-10,2025-02-24
-10000103/A/300103,Lumen Advisory SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000010000,Piaseczno,Kościuszki 132,05-500,1243516365,Krzysztof,Baran,76012547978,2025-12-26,2025-12-23
-10000104/A/300104,Nova Data spółka z ograniczoną odpowiedzialnością,PZU SA,osoba fizyczna,0000010097,Wieliczka,ul. Sienkiewicza 149/3,32-020,1243516365,Ewa,Rutkowska,77022649326,2025-03-20,2023-10-18
-10000105/A/300105,Optima Trade Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000010194,Oświęcim,ul Dąbrowskiego 166,32-600,1243595554,Adam,Górski,78032750714,2018-02-15,2025-07-26
-10000106/A/300106,Polaris Capital S.A.,WARTA S.A.,osoba fizyczna,0000010291,Krosno,ulica Rynek 3,38-400,1243753935,Monika,Sikora,79042852063,2017-02-18,
-10000107/A/300107,Quantum Services SA,ERGO HESTIA S.A.,osoba fizyczna,0000010388,Mielec,Mickeiwicza 20,39-300,1243753935,Marek,Ostrowski,80050153453,2016-05-28,
-10000108/A/300108,Silesia Invest S. A.,PZU SA,przedsiębiorca,0000010485,Świdnica,ul. Długa 37/55,58-100,1243833120,Barbara,Tomaszewska,81060254800,2022-01-30,
-10000109/A/300109,Vistula Fintech Spółka Akcyjna,UNIQA TU S.A.,osoba fizyczna,0000010582,Kłodzko,ul Wojska Polskiego 54,57-300,1243912316,Rafał,Zając,82070356197,2024-09-23,2023-08-30
-10000110/A/300110,Astra Finance sp. z o.o.,WARTA S.A.,osoba fizyczna,0000010679,Gniezno,ulica Chrobrego 71,62-200,1243991505,Anna,Pietrzak,83080457544,2024-04-03,2023-11-07
-10000111/A/300111,Baltic Med Supply sp z oo,WARTA S.A.,przedsiębiorca,0000010776,Leszno,Słowiańska 88,64-100,1244070693,Tomasz,Wójcicki,84090558939,2020-08-16,
-10000112/A/300112,Helios Markets sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000010873,Tczew,105/17,83-110,1244149880,Katarzyna,Czarnecka,85100660284,2023-01-11,2025-07-06
-10000113/A/300113,Lumen Advisory Sp. z o.o.,ERGO HESTIA S.A.,przedsiebiorca,0000010970,Wejherowo,ul Sobieskiego 122,84-200,1244229076,Krzysztof,Lis,86110761679,2017-09-30,
-10000114/A/300114,Nova Data SP Z O O,UNIQA TU S.A.,osoba fizyczna,0000011067,Cieszyn,ulica Głęboka 139,43-400,1244308261,Ewa,Kołodziej,87120863027,2017-11-05,2024-08-02
-10000115/A/300115,Optima Trade spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,przedsiębiorca,0000011164,Będzin,Małachowskiego 156,42-500,1244387450,Adam,Kaczmarek,88010964417,2015-07-11,2024-03-06
-10000116/A/300116,Polaris Capital Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000011261,Inowrocław,os. Królowej Jadwigi 173/69,88-100,1244466646,Monika,Piątek,89021065764,2016-11-28,
-10000117/A/300117,Quantum Services S.A.,WARTA S.A.,przedsiębiorca,0000011358,Grudziądz,ul Wybickiego 10,86-300,1244545831,Marek,Sadowski,90031167159,2016-08-24,2026-07-07
-10000118/A/300118,Silesia Invest SA,ERGO HESTIA S.A.,osoba fizyczna,0000011455,Ostróda,ulica Czarnieckiego 27,14-100,1244625027,Barbara,Włodarczyk,91041268506,2020-07-03,
-10000119/A/300119,Vistula Fintech S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000011552,Giżycko,44,,1244704212,Rafał,Borkowski,92051369892,2025-03-14,2023-02-07
-10000120/A/300120,Astra Finance Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000011649,Puławy,ul. Lubelska 61/31,24-100,1244783401,Anna,Kowalska,93061471243,2016-06-05,
-10000121/A/300121,Baltic Med Supply sp. z o.o.,WARTA S.A.,osoba fizyczna,0000011746,Zamość,ul Staszica 78,22-400,1244862595,Tomasz,Nowacki,94071572638,2016-09-28,2025-04-12
-10000122/A/300122,Helios Markets sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000011843,Augustów,ulica 3 Maja 95,16-300,1244941780,Katarzyna,Wiśniewska,95081673986,2022-03-08,2024-07-05
-10000123/A/300123,Lumen Advisory sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000011940,Suwałki,Kościuszki 112,16-400,1245020970,Krzysztof,Wójcik,96091775372,2022-01-08,2023-06-28
-10000124/A/300124,Nova Data Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000012037,Nysa,ul. Piastowska 129/83,48-300,1245100166,Ewa,Kowalczyk,97101876722,2020-11-23,2023-05-02
-10000125/A/300125,Optima Trade SP Z O O,UNIQA TU S.A.,osoba fizyczna,0000012134,Brzeg,ul Długa 146,49-300,1245179357,Adam,Kamiński,98111978118,2015-01-22,2025-08-23
-10000126/A/300126,Polaris Capital spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000012231,Żary,163,68-200,1245258542,Monika,Lewandowska,99122079465,2018-02-04,2025-07-21
-10000127/A/300127,Quantum Services Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000012328,Świebodzin,Sikorskiego 180,66-200,1245337738,Marek,Zieliński,00212180853,2022-06-21,2023-04-22
-10000128/A/300128,Silesia Invest S.A.,PZU SA,przedsiębiorca,0000012425,Kołobrzeg,ul. Armii Krajowej 17/45,78-100,1245416923,Barbara,Szymańska,01222282201,2018-12-02,2023-10-23
-10000129/A/300129,Vistula Fintech SA,UNIQA TU S.A.,przedsiębiorca,0000012522,Stargard,ul Piłsudskiego 34,73-110,1245496112,Rafał,Dąbrowski,02232383597,2021-10-25,2023-08-31
-10000130/A/300130,Astra Finance S. A.,PZU SA,osoba fizyczna,0000012619,Sandomierz,ulica Mickiewicza 51,27-600,1245575308,Anna,Mazur,03242484944,2025-08-04,
-10000131/A/300131,Baltic Med Supply Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000012716,Ostrowiec Świętokrzyski,Sienkiewicza 68,27-400,1245654491,Tomasz,Krawczyk,04252586330,2015-06-12,2025-06-09
-10000132/A/300132,Helios Markets sp. z o.o.,PZU SA,osoba fizyczna,0000012813,Warszawa,ul. Marszałkowska 85/7,00-590,1245733687,Katarzyna,Woźniak,05262687688,2015-01-22,2023-09-13
-10000133/A/300133,Lumen Advisory sp z oo,PZU SA,osoba fizyczna,0000012910,Warszawa,ul Krakowskie Przedmieście 102,00-071,1245812872,Krzysztof,Jankowski,60072789070,2015-06-28,2026-01-04
-10000134/A/300134,Nova Data sp. z o. o.,UNIQA TU S.A.,osoba fizyczna,0000013007,Kraków,ulica Floriańska 119,31-019,1245892061,Ewa,Grabowska,61082890420,2017-07-23,2025-12-28
-10000135/A/300135,Optima Trade Sp. z o.o.,WARTA S.A.,przedsiębiorca,0000013104,Kraków,Długa 136,31-147,1245971257,Adam,Pawlak,62090191811,2020-11-14,
-10000136/A/300136,Polaris Capital SP Z O O,ERGO HESTIA S.A.,przedsiębiorca,0000013201,Łódź,ul. Piotrkowska 153/59,90-102,1246050447,Monika,Michalska,63100293163,2024-05-20,2024-09-14
-10000137/A/300137,Quantum Services spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000013298,Łódź,,90-402,1246129634,Marek,Król,64110394558,2025-04-30,2023-08-07
-10000138/A/300138,Silesia Invest Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000013395,Wrocław,ulica Świdnicka 7,50-066,1246288019,Barbara,Wieczorek,65120495905,2018-10-11,
-10000139/A/300139,Vistula Fintech S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000013492,Wrocław,Legnicka 24,54-203,1246288019,Rafał,Jabłoński,66010597297,2024-12-22,
-10000140/A/300140,Astra Finance SA,WARTA S.A.,przedsiębiorca,0000013589,Poznań,ul. Święty Marcin 41/21,61-806,1246367204,Anna,Witkowska,67020698644,2021-05-07,2023-05-24
-10000141/A/300141,Baltic Med Supply S. A.,UNIQA TU S.A.,osoba fizyczna,0000013686,Poznań,ul Głogowska 58,60-734,1246446398,Tomasz,Walczak,68030700033,2020-02-18,
-10000142/A/300142,Helios Markets Spółka Akcyjna,PZU SA,przedsiębiorca,0000013783,Gdańsk,ulica Długa 75,80-831,1246525583,Katarzyna,Stępień,69040801381,2025-09-21,2023-04-29
-10000143/A/300143,Lumen Advisory sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000013880,Gdańsk,Grunwaldzka 92,80-236,1246604779,Krzysztof,Baran,70050902775,2017-02-23,2025-12-28
-10000144/A/300144,Nova Data sp z oo,PZU SA,osoba fizyczna,0000013977,Szczecin,ul. Jagiellońska 109/73,70-435,1246683968,Ewa,Rutkowska,71061004122,2018-11-09,
-10000145/A/300145,Optima Trade sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000014074,Szczecin,os. Wyszyńskiego 126,70-200,1246763153,Adam,Górski,72071105517,2018-09-15,2026-04-19
-10000146/A/300146,Polaris Capital Sp. z o.o.,PZU SA,przedsiębiorca,0000014171,Katowice,ulica Mariacka 143,40-014,1246842349,Monika,Sikora,73081206865,2021-03-04,
-10000147/A/300147,Quantum Services SP Z O O,PZU SA,osoba fizyczna,0000014268,Katowice,Warszawska 160,40-009,1246921534,Marek,Ostrowski,74091308251,2024-03-02,2025-09-02
-10000148/A/300148,Silesia Invest spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000014365,Lublin,ul. Krakowskie Przedmieście 177/35,20-002,1247000724,Barbara,Tomaszewska,75101409601,2015-12-04,
-10000149/A/300149,Vistula Fintech Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000014462,Lublin,ul Narutowicza 14,20-004,1247079915,Rafał,Zając,76111510990,2016-02-17,2024-11-25
-10000150/A/300150,Astra Finance S.A.,UNIQA TU S.A.,przedsiębiorca,0000014559,Białystok,,15-424,1247159100,Anna,Pietrzak,77121612348,2015-09-03,
-10000151/A/300151,Baltic Med Supply SA,ERGO HESTIA S.A.,przedsiębiorca,0000014656,Białystok,Sienkiewicza 48,15-092,1247238294,Tomasz,Wójcicki,78011713738,2019-06-19,2026-12-23
-10000152/A/300152,Helios Markets S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000014753,Bydgoszcz,ul. Gdańska 65/87,85-005,1247396679,Katarzyna,Czarnecka,79021815087,2015-04-26,
-10000153/A/300153,Lumen Advisory Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000014850,Bydgoszcz,ul Dworcowa 82,85-009,1247396679,Krzysztof,Lis,80031916471,2023-01-09,2024-10-10
-10000154/A/300154,Nova Data sp. z o.o.,WARTA S.A.,przedsiębiorca,0000014947,Toruń,ulica Szeroka 99,87-100,1247475864,Ewa,Kołodziej,81042017827,2020-03-10,
-10000155/A/300155,Optima Trade sp z oo,WARTA S.A.,przedsiębiorca,0000015044,Toruń,Chełmińska 116,87-100,1247634245,Adam,Kaczmarek,82052119213,2017-01-25,
-10000156/A/300156,Polaris Capital sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000015141,Rzeszów,ul. 3 Maja 133/49,35-030,1247634245,Monika,Piątek,83062220564,2025-03-29,
-10000157/A/300157,Quantum Services Sp. z o.o.,PZU ,osoba fziyczna,0000015238,Rzeszów,ul Piłsudskiego 150,35-074,1247713430,Marek,Sadowski,84072321959,2018-12-19,
-10000158/A/300158,Silesia Invest SP Z O O,PZU SA,przedsiębiorca,0000015335,Kielce,ulica Sienkiewicza 167,25-007,1247871815,Barbara,Włodarczyk,85082423307,2015-09-28,
-10000159/A/300159,Vistula Fintech spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000015432,Kielce,Warszawska 4,25-512,1247871815,Rafał,Borkowski,96092524693,2023-05-02,2024-05-28
-10000160/A/300160,Astra Finance Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,osoba fizyczna,0000015529,Olsztyn,ul. Kościuszki 21/11,10-504,1247951000,Anna,Kowalska,87102626044,2025-06-01,
-10000161/A/300161,Baltic Med Supply S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000015626,Olsztyn,ul Dąbrowszczaków 38,10-540,1248030199,Tomasz,Nowacki,88112727439,2022-11-03,
-10000162/A/300162,Helios Markets SA,PZU SA,przedsiębiorca,0000015723,Opole,ulica Krakowska 55,45-018,1248109386,Katarzyna,Wiśniewska,89122828787,2020-04-13,
-10000163/A/300163,Lumen Advisory S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000015820,Opole,Ozimska 72,45-057,1248188575,Krzysztof,Wójcik,90010130176,2016-12-30,
-10000164/A/300164,Nova Data Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000015917,Zielona Góra,ul. Bohaterów Westerplatte 89/63,65-034,1248267760,Ewa,Kowalczyk,91020231523,2022-11-03,2026-05-02
-10000165/A/300165,Optima Trade sp. z o.o.,PZU SA,osoba fizyczna,0000016014,Zielona Góra,ul Kupiecka 106,65-058,1248346956,Adam,Kamiński,92030332918,2022-10-05,2026-07-18
-10000166/A/300166,Polaris Capital sp z oo,UNIQA TU S.A.,osoba fizyczna,0000016111,Gdynia,ulica Świętojańska 123,81-372,1248426141,Monika,Lewandowska,93040434267,2024-02-21,2023-05-17
-10000167/A/300167,Quantum Services sp. z o. o.,ERGO HESTIA S.A.,przedsiębiorca,0000016208,Gdynia,10 Lutego 140,81-364,1248505337,Marek,Zieliński,94050535652,2020-11-12,
-10000168/A/300168,Silesia Invest Sp. z o.o.,WARTA S.A.,przedsiębiorca,0000016305,Pruszków,ul. Bolesława Prusa 157/25,05-800,1248584526,Barbara,Szymańska,95060637000,2019-11-02,2025-02-06
-10000169/A/300169,Vistula Fintech SP Z O O,PZU SA,osoba fizyczna,0000016402,Piaseczno,ul Kościuszki 174,05-500,1248663711,Rafał,Dąbrowski,96070738396,2016-01-07,2025-11-12
-10000170/A/300170,Astra Finance spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000016499,Wieliczka,ulica Sienkiewicza 11,32-020,2248742907,Anna,Mazur,97080839743,2020-10-14,2026-06-28
-10000171/A/300171,Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000016596,Oświęcim,Dąbrowskiego 28,32-600,1248822090,Tomasz,Krawczyk,98090941132,2021-01-20,2023-03-26
-10000172/A/300172,Helios Markets S.A.,WARTA S.A.,osoba fizyczna,0000016693,Krosno,ul. Rynek 45/77,38-400,1248901286,Katarzyna,Woźniak,99101042482,2019-08-25,
-10000173/A/300173,Lumen Advisory SA,ERGO HESTIA S.A.,przedsiębiorca,0000016790,Mielec,ul Mickiewicza 62,39-300,1248980475,Krzysztof,Jankowski,00311143872,2016-10-21,
-10000174/A/300174,Nova Data S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000016887,Świdnica,os. Długa 79,58-100,1249059667,Ewa,Grabowska,01321245220,2024-04-02,2023-02-03
-10000175/A/300175,Optima Trade Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000016984,Kłodzko,96,57-300,1249138852,Adam,Pawlak,02211346610,2023-08-02,
-10000176/A/300176,Polaris Capital sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000017081,Gniezno,ul. Chrobrego 113/39,62-200,1249218048,Monika,Michalska,03221447968,2015-05-21,
-10000177/A/300177,Quantum Services sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000017178,Leszno,ul Słowiańska 130,64-100,1249297237,Marek,Król,04231549354,2015-12-14,
-10000178/A/300178,Silesia Invest sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000017275,Tczew,ulica Gdańska 147,83-110,1249376422,Barbara,Wieczorek,05241650704,2019-06-19,2023-04-27
-10000179/A/300179,Vistula Fintech Sp. z o.o.,WARTA S.A.,osoba fizyczna,0000017372,Wejherowo,Sobieskiego 164,84-200,1249455618,Rafał,Jabłoński,60051752097,2024-03-06,2026-08-30
-10000180/A/300180,Astra Finance SP Z O O,ERGO HESTIA S.A.,przedsiębiorca,0000017469,Cieszyn,ul. Głęboka 1/1,43-400,1249534803,Anna,Witkowska,61061853444,2022-03-25,2025-05-19
-10000181/A/300181,Baltic Med Supply spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,przedsiębiorca,0000017566,Będzin,ul Małachowskiego 18,42-500,1249613997,Tomasz,Walczak,62071954839,2017-07-08,
-10000182/A/300182,Helios Markets Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000017663,Inowrocław,ulica Królowej Jadwigi 35,88-100,1249693186,Katarzyna,Stępień,63082056187,2021-10-07,2026-09-07
-10000183/A/300183,Lumen Advisory S.A.,WARTA S.A.,przedsiębiorca,0000017760,,Wybickiego 52,86-300,1249772371,Krzysztof,Baran,64092157572,2015-10-30,2024-08-14
-10000184/A/300184,Nova Data SA,PZU SA,osoba fizyczna,0000017857,Ostróda,ul. Czarnieckiego 69/53,14-100,1249851567,Ewa,Rutkowska,65102258922,2022-07-13,2023-01-31
-10000185/A/300185,Optima Trade S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000017954,Giżycko,ul Warszawska 86,11-500,1249930752,Adam,Górski,66112360311,2024-06-13,2026-09-16
-10000186/A/300186,Polaris Capital Spółka Akcyjna,PZU SA,osoba fizyczna,0000018051,Nibylandia,ulica Nieistniejąca 103,99-999,1250009942,Monika,Sikora,67122461669,2023-11-21,2024-10-14
-10000187/A/300187,Quantum Services sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000018148,Zamość,Staszica 120,22-400,1250089131,Marek,Ostrowski,68012563050,2025-04-30,2025-08-03
-10000188/A/300188,Silesia Invest sp z oo,UNIQA TU S.A.,przedsiębiorca,0000018245,Augustów,ul. 3 Maja 137/15,16-300,1250168327,Barbara,Tomaszewska,69022664407,2019-10-15,
-10000189/A/300189,Vistula Fintech sp. z o. o.,PZU SA,osoba fizyczna,0000018342,Suwałki,ul Kościuszki 154,16-400,1250247512,Rafał,Zając,70032765792,2022-10-04,
-10000190/A/300190,Astra Finance Sp. z o.o.,PZU SA,przedsiębiorca,0000018439,Nysa,ulica Piastowska 171,48-300,1250326708,Anna,Pietrzak,71042867140,2021-07-12,2023-02-10
-10000191/A/300191,Baltic Med Supply SP Z O O,ERGO HESTIA S.A.,przedsiębiorca,0000018536,Brzeg,Długa 8,49-300,1250405891,Tomasz,Wójcicki,72050168531,2017-06-25,
-10000192/A/300192,Helios Markets spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000018633,Żary,ul. Rynek 25/67,68-200,1250485080,Katarzyna,Czarnecka,73060269889,2020-11-03,
-10000193/A/300193,Lumen Advisory Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000018730,Świebodzin,ul Sikorskiego 42,66-200,1250564276,Krzysztof,Lis,74070371278,2020-02-21,
-10000194/A/300194,Nova Data S.A.,WARTA S.A.,osoba fizyczna,0000018827,Kołobrzeg,ulica Armii Krajowej 59,78-100,1250643461,Ewa,Kołodziej,75080472625,2016-09-25,
-10000195/A/300195,Optima Trade SA,WARTA S.A.,przedsiębiorca,0000018924,Stargard,Piłsudskiego 76,73-110,1250722657,Adam,Kaczmarek,76090574011,2015-06-08,2026-02-05
-10000196/A/300196,Polaris Capital S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000019021,Sandomierz,93/29,27-600,1250801842,Monika,Piątek,77100675362,2023-09-10,2025-11-18
-10000197/A/300197,Quantum Services Spółka Akcyjna,PZU SA,osoba fizyczna,0000019118,Ostrowiec Świętokrzyski,ul Sienkiewicza 110,27-400,1250881031,Marek,Sadowski,78110776757,2021-03-01,2024-01-02
-10000198/A/300198,Silesia Invest sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000019215,Warszawa,ulica Marszałkowska 127,00-590,1250960227,Barbara,Włodarczyk,79120878105,2017-10-31,
-10000199/A/300199,Vistula Fintech sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000019312,Warszawa,Krakowskie Przedmieście 144,00-071,1251039419,Rafał,Borkowski,80010979495,2024-10-18,2023-06-11
+10000000/A/300000,Facebook - Meta,PZU SA,osoba fizyczna,0000000008,Warszawa,os. Marszałkowska 1/1,00-590,1234805466,Anna,Kowalska-Krawczyk,60021406849,19/09/2020,2015/17/05
+10000001/A/300001,Baltic Med Supply sp z oo,PZU SA,osoba fizyczna,0000000105,Warszawa,ul Krakowskie Przedmieście 18,00-071,1234884655,Tomasz,Nowacki,61032108236,2024/25/10,15-06-2026
+10000002/A/300002,Helios Markets sp. z o. o.,PZU SA,osoba fizyczna,0000000202,Kraków,ulica Floriańska 35,31-019,1234963840,Katarzyna,Wiśniewska,62042809586,09-03-2019,2023-08-11
+10000003/A/300003,Lumen Advisory Sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000000299,Kraków,Długa 52,31-147,1235043030,Krzysztof,Wójcik,63050710972,2022-22-11,20240402
+10000004/A/300004,Nova Data SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000000396,Łódź,ul. Piotrkowska 69/53,90-102,1235122226,Ewa,Kowalczyk,64061412321,20211126,14/09/2026
+10000005/A/300005,Optima Trade spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000000493,Łódź,ul Zachodnia 86,90-402,1235201411,Adam,Kamiński,65072113717,28/11/2017,2023/01/04
+10000006/A/300006,Polaris Capital Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000000590,Wrocław,ulica Świdnicka 103,50-066,1235280600,Monika,Lewandowska,66082815068,2022/16/05,21-06-2025
+10000007/A/300007,Quantum Services S.A.,ZPU AS,prezsdiębiorca,0000000687,Wrocław,Legnicka 120,54-203,2235359796,Marek,Zieliński,67090716451,10-09-2016,2026-29-01
+10000008/A/300008,Silesia Invest SA,ERGO HESTIA S.A.,przedsiębiorca,0000000784,Poznań,ul. Święty Marcin 137/15,61-806,1235438981,Barbara,Szymańska,68101417802,2021-04-02,20260707
+10000009/A/300009,Vistula Fintech S. A.,WARTA S.A.,osoba fizyczna,0000000881,Poznań,ul Głogowska 154,60-734,1235518177,Rafał,Dąbrowski,69112119190,20210105,03/10/2023
+10000010/A/300010,Astra Finance Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000000978,Gdańsk,ulica Długa 171,80-831,1235597366,Anna,Mazur,70122820541,22/02/2025,2025/03/03
+10000011/A/300011,Baltic Med Supply sp. z o.o.,PZU SA,przedsiębiorca,0000001075,Gdańsk,Grunwaldzka 8,80-236,1235676551,Tomasz,Krawczyk,71010721939,2021/16/10,10-04-2026
+10000012/A/300012,Helios Markets sp z oo,UNIQA TU S.A.,przedsiębiorca,0000001172,Szczecin,ul. Jagiellońska 25/67,70-435,1235755747,Katarzyna,Woźniak,72021423289,30-01-2019,2025-21-06
+10000013/A/300013,Lumen Advisory sp. z o. o.,PZU SA,przedsiebiorca,0000001269,Szczecin,ul Wyszyńskiego 42,70-200,1235834932,Krzysztof,Jankowski,73032124675,2024-30-06,20160624
+10000014/A/300014,Nova Data Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000001366,Katowice,ulica Mariacka 59,40-014,1235914128,Ewa,Grabowska,74042826025,20250212,12/10/2023
+10000015/A/300015,Optima Trade SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000001463,Katowice,Warszawska 76,40-009,1235993317,Adam,Pawlak,75050727418,19/08/2021,2026/23/04
+10000016/A/300016,Polaris Capital spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000001560,Lublin,ul. Krakowskie Przedmieście 93/29,20-002,1236072507,Monika,Michalska,76061428767,2021/16/06,12-01-2023
+10000017/A/300017,Quantum Services Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000001657,Lublin,ul Narutowicza 110,20-004,1236151690,Marek,Król,77072130157,,
+10000018/A/300018,Silesia Invest S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000001754,Białystok,ulica Lipowa 127,15-424,1236230886,Barbara,Wieczorek,78082831506,2025-13-10,20211103
+10000019/A/300019,Vistula Fintech SA,UNIQA TU S.A.,osoba fizyczna,0000001851,Białystok,Sienkiewicza 144,,1236310071,Rafał,Jabłoński,79090732890,20150509,10/12/2022
+10000020/A/300020,PPHU Astra Finance,PZU SA,osoba fizyczna,0000001948,Bydgoszcz,ul. Gdańska 161/81,85-005,1236389262,Anna,Witkowska,80101434241,28/08/2025,2024/28/11
+10000021/A/300021,Baltic Med Supply Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000002045,Bydgoszcz,ul Dworcowa 178,85-009,1236468458,Tomasz,Walczak,81112135637,2016/06/11,24-02-2024
+10000022/A/300022,Helios Markets sp. z o.o.,PZU SA,przedsiębiorca,0000002142,Toruń,ulica Szeroka 15,87-100,1236547643,Katarzyna,Stępień,82122836987,01-09-2019,2025-03-03
+10000023/A/300023,Lumen Advisory sp z oo,PZU SA,przedsiębiorca,0000002239,Toruń,Chełmińska 32,87-100,1236626839,Krzysztof,Baran,83010738376,2016-27-04,20250721
+10000024/A/300024,Nova Data sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000002336,Rzeszów,ul. 3 Maja 49/43,35-030,1236706024,Ewa,Rutkowska,84021439724,20200116,26/12/2025
+10000025/A/300025,Optima Trade Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000002433,Rzeszów,ul Piłsudskiego 66,35-074,1236785213,Adam,Górski,85032141114,07/01/2024,2016/24/06
+10000026/A/300026,Polaris Capital SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000002530,Kielce,ulica Sienkiewicza 83,25-007,1236864409,Monika,Sikora,86042842464,2016/03/01,28-06-2025
+10000027/A/300027,Quantum Services spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000002627,Kielce,Warszawska 100,25-512,1236943592,Marek,Ostrowski,87050743857,19-07-2016,2024-19-11
+10000028/A/300028,Silesia Invest Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000002724,Olsztyn,ul. Kościuszki 117/5,10-504,1237022782,Barbara,Tomaszewska,88061445206,2023-23-08,20190917
+10000029/A/300029,Vistula Fintech S.A.,ERGO HESTIA S.A.,przedsiębiorca,0000002821,Olsztyn,os. Dąbrowszczaków 134,10-540,1237101978,Rafał,Zając,89072146593,20231203,24/10/2020
+10000030/A/300030,Astra Finance SA,PZU SA,przedsiębiorca,0000002918,Opole,ulica Krakowska 151,45-018,1237181167,Anna,Pietrzak,90082847941,11/09/2020,2021/03/11
+10000031/A/300031,Baltic Med Supply S. A.,ERGO HESTIA S.A.,przedsiębiorca,0000003015,Opole,Ozimska 168,45-057,1237260352,Tomasz,Wójcicki,91090749335,2023/15/02,05-06-2024
+10000032/A/300032,Helios Markets Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000003112,Zielona Góra,ul. Bohaterów Westerplatte 5/57,65-034,1237418735,Katarzyna,Czarnecka,92101450680,30-08-2020,2025-14-09
+10000033/A/300033,Lumen Advisory sp. z o.o.,WARTA S.A.,osoba fizyczna,0000003209,Zielona Góra,ul Kupiecka 22,65-058,1237418735,Krzysztof,Lis,93112152077,2024-20-05,20240224
+10000034/A/300034,Nova Data sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000003306,Gdynia,ulica Świętojańska 39,81-372,1237497924,Ewa,Kołodziej,94122853426,20161130,07/12/2024
+10000035/A/300035,Optima Trade sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000003403,Gdynia,10 Lutego 56,81-364,1237656305,Adam,Kaczmarek,95010754814,31/10/2021,2026/10/04
+10000036/A/300036,Polaris Capital Sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000003500,Pruszków,ul. Bolesława Prusa 73/19,05-800,1237656305,Monika,Piątek,96021456164,2020/27/02,18-09-2024
+10000037/A/300037,Quantum Services SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000003597,Piaseczno,,05-500,1237735499,Marek,Sadowski,97032157550,22-01-2019,2023-18-11
+10000038/A/300038,Silesia Invest spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000003694,Wieliczka,ulica Sienkiewicza 107,32-020,1237814684,Barbara,Włodarczyk,98042858909,2022-07-03,20230817
+10000039/A/300039,Vistula Fintech Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000003791,Oświęcim,Dąbrowskiego 124,32-600,1237893873,Rafał,Borkowski,99050760297,20200322,10/08/2018
+10000040/A/300040,Instagram - Meta,ERGO HESTIA S.A.,przedsiębiorca,0000003888,Krosno,ul. Rynek 141/71,38-400,1237973069,Anna,Kowalska-Krawczyk,00261461640,05/03/2022,2019/17/09
+10000041/A/300041,Baltic Med Supply SA,ERGO HESTIA S.A.,osoba fizyczna,0000003985,Mielec,ul Mickiewicza 158,39-300,1238052259,Tomasz,Nowacki,01272163037,2021/23/09,24-10-2020
+10000042/A/300042,Helios Markets S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000004082,Świdnica,175,58-100,1238131444,Katarzyna,Wiśniewska,02282864387,08-02-2017,2021-03-11
+10000043/A/300043,Lumen Advisory Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000004179,Kłodzko,Wojska Polskiego 12,57-300,1238289820,Krzysztof,Wójcik,03290765770,2020-17-12,20260521
+10000044/A/300044,Nova Data sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000004276,Gniezno,ul. Chrobrego 29/33,62-200,1238289820,Ewa,Kowalczyk,04301467122,20160815,14/09/2024
+10000045/A/300045,Optima Trade sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000004373,Leszno,ul Słowiańska 46,64-100,1238369016,Adam,Kamiński,05312168518,21/04/2021,2023/25/09
+10000046/A/300046,Polaris Capital sp. z o. o.,WARTA S.A.,osoba fizyczna,0000004470,Tczew,ulica Gdańska 63,83-110,1238448201,Monika,Lewandowska,60122869864,2023/19/04,03-03-2025
+10000047/A/300047,Quantum Services Sp. z o.o.,WARTA S.A.,przedsiębiorca,000000456,Wejherowo,Sobieskiego 80,84-200,1238527395,Marek,Zieliński,61010771256,01-02-2015,2023-12-09
+10000048/A/300048,Silesia Invest SP Z O O,ERGO HESTIA S.A.,osoba fizyczna,0000004664,Cieszyn,ul. Głęboka 97/85,43-400,1238606580,Barbara,Szymańska,62021472604,2016-05-10,20150517
+10000049/A/300049,Vistula Fintech spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000004761,Będzin,114,42-500,1238764965,Rafał,Dąbrowski,63032173991,20170120,24/06/2016
+10000050/A/300050,Astra Finance Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000004858,Inowrocław,ulica Królowej Jadwigi 131,88-100,1238764965,Anna,Mazur,64042875341,22/02/2025,2023/09/02
+10000051/A/300051,Baltic Med Supply S.A.,PZU SA,przedsiębiorca,0000004955,Grudziądz,Wybickiego 148,86-300,1238844150,Tomasz,Krawczyk,65050776734,2018/23/11,10-02-2023
+10000052/A/300052,Helios Markets SA,WARTA S.A.,przedsiębiorca,0000005052,Ostróda,ul. Czarnieckiego 165/47,14-100,1238923346,Katarzyna,Woźniak,66061478084,23-06-2020,2019-17-09
+10000053/A/300053,Lumen Advisory S. A.,UNIQA TU S.A.,osoba fizyczna,0000005149,Nibylandia,ul Nieistniejąca 2,99-999,1239002536,Krzysztof,Jankowski,67072179470,2019-20-02,20201024
+10000054/A/300054,Nova Data Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000005246,Puławy,ulica Lubelska 19,24-100,1239081725,Ewa,Grabowska,68082880822,20190720,10/01/2023
+10000055/A/300055,Optima Trade sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000005343,Zamość,Staszica 36,22-400,1239160910,Adam,Pawlak,69090782216,20/06/2024,2023/11/07
+10000056/A/300056,Polaris Capital sp z oo,PZU SA,osoba fizyczna,0000005440,Augustów,53/9,16-300,1239240106,Monika,Michalska,70101483567,2017/14/09,18-04-2025
+10000057/A/300057,Quantum Services sp. z o. o.,UINQ TU .A.,przedsięiborca,0000005537,Suwałki,ul Kościuszki 70,16-400,1239319291,Marek,Król,71112184953,07-03-2023,2024-24-02
+10000058/A/300058,Silesia Invest Sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000005634,Nysa,os. Piastowska 87,48-300,1239398480,Barbara,Wieczorek,72122886303,2016-11-03,20250303
+10000059/A/300059,Vistula Fintech SP Z O O,UNIQA TU S.A.,osoba fizyczna,0000005731,Brzeg,Długa 104,49-300,1239477676,Rafał,Jabłoński,83010787692,20170924,17/01/2026
+10000060/A/300060,P.P.H.U. Astra Finance,ERGO HESTIA S.A.,przedsiębiorca,0000005828,Żary,ul. Rynek 121/61,68-200,1239556861,Anna,Witkowska,74021489041,02/12/2019,2015/17/05
+10000061/A/300061,Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000005925,Świebodzin,ul Sikorskiego 138,66-200,1239636057,Tomasz,Walczak,75032190430,2023/07/05,17-12-2026
+10000062/A/300062,Helios Markets S.A.,WARTA S.A.,osoba fizyczna,0000006022,Kołobrzeg,ulica Armii Krajowej 155,78-100,1239715242,Katarzyna,Stępień,76042891780,28-10-2024,2017-03-07
+10000063/A/300063,Lumen Advisory SA,WARTA S.A.,przedsiębiorca,0000006119,Stargard,Piłsudskiego 172,73-110,1239794431,Krzysztof,Baran,77050793174,2017-10-03,20260829
+10000064/A/300064,Nova Data S. A.,UNIQA TU S.A.,przedsiębiorca,0000006216,Sandomierz,ul. Mickiewicza 9/23,27-600,1239873627,Ewa,Rutkowska,78061494522,20210807,17/09/2019
+10000065/A/300065,Optima Trade Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000006313,Ostrowiec Świętokrzyski,ul Sienkiewicza 26,27-400,1239952812,Adam,Górski,79072195918,17/01/2022,2020/24/10
+10000066/A/300066,Polaris Capital sp. z o.o.,WARTA S.A.,przedsiębiorca,0000006410,Warszawa,ulica Marszałkowska 43,00-590,1240032000,Monika,Sikora,80082897268,2017/15/07,03-11-2021
+10000067/A/300067,Quantum Services sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000006507,Warszawa,Krakowskie Przedmieście 60,00-071,1240111194,Marek,Ostrowski,81090798651,15-01-2022,2025-28-07
+10000068/A/300068,Silesia Invest sp. z o. o.,UNIQA TU S.A.,przedsiębiorca,0000006604,Kraków,ul. Floriańska 77/75,31-019,1240190383,Barbara,Tomaszewska,82101400006,2023-23-10,20230117
+10000069/A/300069,Vistula Fintech Sp. z o.o.,PZU SA,przedsiębiorca,0000006701,Kraków,ul Długa 94,31-147,1240269570,Rafał,Zając,83112101393,20210130,24/02/2024
+10000070/A/300070,Astra Finance SP Z O O,PZU SA,osoba fizyczna,0000006798,Łódź,ulica Piotrkowska 111,90-102,1240348766,Anna,Pietrzak,84122802742,10/03/2024,2025/03/03
+10000071/A/300071,Baltic Med Supply spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000006895,Łódź,Zachodnia 128,90-402,2240427951,Tomasz,Wójcicki,85010704131,2025/29/01,10-04-2026
+10000072/A/300072,Helios Markets Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000006992,Wrocław,ul. Świdnicka 145/37,50-066,1240507147,Katarzyna,Czarnecka,86021405480,08-03-2018,2025-07-07
+10000073/A/300073,Lumen Advisory S.A.,WARTA S.A.,osoba fizyczna,0000007089,Wrocław,ul Legnicka 162,54-203,1240586336,Krzysztof,Lis,87032106876,2020-09-08,20160624
+10000074/A/300074,Nova Data SA,PZU SA,osoba fizyczna,0000007186,Poznań,ulica Święty Marcin 179,61-806,1240665521,Ewa,Kołodziej,88042808226,20211011,03/07/2017
+10000075/A/300075,Optima Trade S. A.,UNIQA TU S.A.,przedsiębiorca,0000007283,Poznań,Głogowska 16,60-734,1240744717,Adam,Kaczmarek,89050709619,12/01/2023,2018/10/08
+10000076/A/300076,Polaris Capital Spółka Akcyjna,UNIQA TU S.A.,przedsiębiorca,0000007380,Gdańsk,ul. Długa 33/89,80-831,1240823902,Monika,Piątek,90061410960,2023/19/11,08-07-2026
+10000077/A/300077,Quantum Services sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000007477,Gdańsk,ul Grunwaldzka 50,80-236,1240903096,Marek,Sadowski,91072112357,22-06-2015,2020-24-10
+10000078/A/300078,Silesia Invest sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000007574,Szczecin,ulica Jagiellońska 67,70-435,1240982285,Barbara,Włodarczyk,92082813706,2021-15-05,20230914
+10000079/A/300079,Vistula Fintech sp. z o. o.,PZU SA,osoba fizyczna,0000007671,Szczecin,Wyszyńskiego 84,70-200,1241061475,Rafał,Borkowski,93090715091,20240719,10/12/2022
+10000080/A/300080,mBank,WARTA S.A.,osoba fizyczna,0000007768,Katowice,ul. Mariacka 101/51,40-014,1241140660,Anna,Kowalska-Krawczyk,94101416442,19/04/2022,2023/17/01
+10000081/A/300081,Baltic Med Supply SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000007865,Katowice,ul Warszawska 118,40-009,1241219858,Tomasz,Nowacki,95112117838,2024/17/10,202402240143
+10000082/A/300082,Helios Markets spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000007962,Lublin,ulica Krakowskie Przedmieście 135,20-002,1241299047,Katarzyna,Wiśniewska,96122819189,04-12-2020,2023-29-06
+10000083/A/300083,Lumen Advisory Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000008059,,Narutowicza 152,20-004,1241378232,Krzysztof,Wójcik,97010720570,2024-22-05,20240327
+10000084/A/300084,Nova Data S.A.,UNIQA TU S.A.,osoba fizyczna,0000008156,Białystok,ul. Lipowa 169/13,15-424,1241457428,Ewa,Kowalczyk,98021421928,20230525,17/05/2015
+10000085/A/300085,Optima Trade SA,ERGO HESTIA S.A.,osoba fizyczna,0000008253,Białystok,ul Sienkiewicza 6,15-092,1241536613,Adam,Kamiński,99032123315,17/12/2016,2016/24/06
+10000086/A/300086,Polaris Capital S. A.,ERGO HESTIA S.A.,przedsiębiorca,0000008350,Bydgoszcz,ulica Gdańska 23,85-005,1241615809,Monika,Lewandowska,00242824660,2020/05/01,24-11-2026
+10000087/A/300087,Quantum Services Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000008447,Bydgoszcz,os. Dworcowa 40,85-009,1241694996,Marek,Zieliński,01250726054,01/01/2017 01:19,2018-10-08
+10000088/A/300088,Silesia Invest sp. z o.o.,PZU SA,przedsiębiorca,0000008544,Toruń,ul. Szeroka 57/65,87-100,,Barbara,Szymańska,02261427402,2017-21-09,20190917
+10000089/A/300089,Vistula Fintech sp z oo,PZU SA,przedsiębiorca,0000008641,Toruń,ul Chełmińska 74,87-100,1241853377,Rafał,Dąbrowski,03272128799,20240815,10/05/2023
+10000090/A/300090,Astra Finance sp. z o. o.,WARTA S.A.,osoba fizyczna,0000008738,Rzeszów,ulica 3 Maja 91,35-030,1241932562,Anna,Mazur,04282830142,14/09/2025,2021/03/11
+10000091/A/300091,Baltic Med Supply Sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000008835,Rzeszów,Piłsudskiego 108,35-074,1242011752,Tomasz,Krawczyk,05290731535,2020/25/10,08-11-2023
+10000092/A/300092,Helios Markets SP Z O O,WARTA S.A.,przedsiębiorca,0000008932,Kielce,ul. Sienkiewicza 125/27,25-007,1242090941,Katarzyna,Woźniak,60101432883,04-03-2016,2023-17-01
+10000093/A/300093,Lumen Advisory spółka z ograniczoną odpowiedzialnością,WARTA S.A.,osoba fizyczna,0000009029,Kielce,ul Warszawska 142,25-512,1242170137,Krzysztof,Jankowski,61112134270,2022-24-05,20240224
+10000094/A/300094,Nova Data Spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000009126,Olsztyn,ulica Kościuszki 159,10-504,1242249324,Ewa,Grabowska,62122835629,20190329,06/10/2024
+10000095/A/300095,Optima Trade S.A.,WARTA S.A.,osoba fizyczna,0000009223,Olsztyn,Dąbrowszczaków 176,10-540,1242407705,Adam,Pawlak,63010737018,10/09/2022,2023/11/03
+10000096/A/300096,Polaris Capital SA,UNIQA TU S.A.,przedsiębiorca,0000009320,Opole,ul. Krakowska 13/79,45-018,1242407705,Monika,Michalska,64021438367,2024/02/12,06-11-2024
+10000097/A/300097,Quantum Services S. A.,WARTA S.A.,osoba fizyczna,000000941,Opole,ul Ozimska 30,45-057,1242486892,Marek,Król,65032139753,04-07-2017,2023-14-03
+10000098/A/300098,Silesia Invest Spółka Akcyjna,UNIQA TU S.A.,przedsiębiorca,0000009514,Zielona Góra,ulica Bohaterów Westerplatte 47,65-034,1242566088,Barbara,Wieczorek,66042841106,2025-09-12,20260331
+10000099/A/300099,Vistula Fintech sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000009611,Zielona Góra,Kupiecka 64,65-058,1242645273,Rafał,Jabłoński,67050742490,20161019,28/09/2026
+10000100/A/300100,PPHU Astra Finance,ERGO HESTIA S.A.,przedsiębiorca,0000009708,Gdynia,ul. Świętojańska 81/41,81-372,1242724469,Anna,Witkowska,68061443848,28/08/2018,2025/06/01
+10000101/A/300101,Baltic Med Supply sp. z o. o.,WARTA S.A.,przedsiębiorca,0000009805,,ul 10 Lutego 98,,1242803654,Tomasz,Walczak,69072145235,2020/15/09,24-10-2020
+10000102/A/300102,Helios Markets Sp. z o.o.,WARTA S.A.,osoba fizyczna,0000009902,Pruszków,ulica Bolesława Prusa 115,05-800,1242882843,Katarzyna,Stępień,70082846584,10-09-2015,2025-24-02
+10000103/A/300103,Lumen Advisory SP Z O O,UNIQA TU S.A.,przedsiębiorca,0000009999,Piaseczno,Kościuszki 132,05-500,1242962039,Krzysztof,Baran,71090747977,2025-26-12,20251223
+10000104/A/300104,Nova Data spółka z ograniczoną odpowiedzialnością,PZU SA,osoba fizyczna,0000010096,Wieliczka,ul. Sienkiewicza 149/3,32-020,1243041229,Ewa,Rutkowska,72101449329,20250320,18/10/2023
+10000105/A/300105,Optima Trade Spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000010193,Oświęcim,ul Dąbrowskiego 166,32-600,1243120414,Adam,Górski,73112150718,15/02/2018,2025/26/07
+10000106/A/300106,Polaris Capital S.A.,WARTA S.A.,osoba fizyczna,0000010290,Krosno,ulica Rynek 3,38-400,1243199605,Monika,Sikora,74122852069,2017/18/02,03-03-2025
+10000107/A/300107,Quantum Services SA,ERGO HESTIA S.A.,osoba fizyczna,0000010387,Mielec,Mickiewicza 20,39-300,1243278799,Marek,Ostrowski,75010753457,28-05-2016,2026-10-04
+10000108/A/300108,Silesia Invest S. A.,PZU SA,przedsiębiorca,0000010484,Świdnica,ul. Długa 37/55,58-100,1243357984,Barbara,Tomaszewska,86021454805,2022-30-01,20150517
+10000109/A/300109,Vistula Fintech Spółka Akcyjna,UNIQA TU S.A.,osoba fizyczna,0000010581,Kłodzko,ul Wojska Polskiego 54,57-300,1243516365,Rafał,Zając,77032156193,20240923,30/08/2023
+10000110/A/300110,Astra Finance sp. z o.o.,WARTA S.A.,osoba fizyczna,0000010678,Gniezno,ulica Chrobrego 71,62-200,1243516365,Anna,Pietrzak,78042857542,03/04/2024,2023/07/11
+10000111/A/300111,Baltic Med Supply sp z oo,WARTA S.A.,przedsiębiorca,0000010775,Leszno,Słowiańska 88,64-100,1243595554,Tomasz,Wójcicki,79050758935,2020/16/08,10-08-2018
+10000112/A/300112,Helios Markets sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000010872,Tczew,105/17,83-110,1243753935,Katarzyna,Czarnecka,80061460287,11-01-2023,2025-06-07
+10000113/A/300113,Lumen Advisory Sp. z o.o.,ERGO HESTIA S.A.,przedsiebiorca,0000010969,Wejherowo,ul Sobieskiego 122,84-200,1243753935,Krzysztof,Lis,81072161673,2017-30-09,20201024
+10000114/A/300114,Nova Data SP Z O O,UNIQA TU S.A.,osoba fizyczna,,Cieszyn,ulica Głęboka 139,43-400,1243833120,Ewa,Kołodziej,82082863023,20171105,02/08/2024
+10000115/A/300115,Optima Trade spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,przedsiębiorca,0000011163,Będzin,Małachowskiego 156,42-500,1243912316,Adam,Kaczmarek,83090764416,11/07/2015,2024/06/03
+10000116/A/300116,Polaris Capital Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000011260,Inowrocław,os. Królowej Jadwigi 173/69,88-100,1243991505,Monika,Piątek,84101465768,2016/28/11,17-01-2023
+10000117/A/300117,Quantum Services S.A.,WARTA S.A.,przedsiębiorca,0000011357,Grudziądz,ul Wybickiego 10,86-300,1244070693,Marek,Sadowski,85112167155,24-08-2016,2026-07-07
+10000118/A/300118,Silesia Invest SA,ERGO HESTIA S.A.,osoba fizyczna,0000011454,Ostróda,ulica Czarnieckiego 27,14-100,1244149880,Barbara,Włodarczyk,86122868504,2020-03-07,20250303
+10000119/A/300119,Vistula Fintech S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000011551,Giżycko,44,,1244229076,Rafał,Borkowski,87010769893,20250314,07/02/2023
+10000120/A/300120,X - Twitter,ERGO HESTIA S.A.,osoba fizyczna,0000011648,Puławy,ul. Lubelska 61/31,24-100,2244308261,Anna,Kowalska-Krawczyk,88021471245,05/06/2016,2015/17/05
+10000121/A/300121,Baltic Med Supply sp. z o.o.,WARTA S.A.,osoba fizyczna,0000011745,Zamość,ul Staszica 78,22-400,1244387450,Tomasz,Nowacki,89032172631,2016/28/09,12-04-2025
+10000122/A/300122,Helios Markets sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000011842,Augustów,ulica 3 Maja 95,16-300,1244466646,Katarzyna,Wiśniewska,90042873980,08-03-2022,2024-05-07
+10000123/A/300123,Lumen Advisory sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000011939,Suwałki,Kościuszki 112,16-400,1244545831,Krzysztof,Wójcik,91050775374,2022-08-01,20230628
+10000124/A/300124,Nova Data Sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000012036,Nysa,ul. Piastowska 129/83,48-300,1244625027,Ewa,Kowalczyk,92061476722,20201123,02/05/2023
+10000125/A/300125,Optima Trade SP Z O O,UNIQA TU S.A.,osoba fizyczna,0000012133,Brzeg,ul Długa 146,49-300,1244704212,Adam,Kamiński,93072178119,22/01/2015,2025/23/08
+10000126/A/300126,Polaris Capital spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000012230,Żary,163,68-200,1244783401,Monika,Lewandowska,94082879469,2018/04/02,21-07-2025
+10000127/A/300127,Quantum Services Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000012327,Świebodzin,Sikorskiego 180,66-200,1244862595,Marek,Zieliński,95090780855,21-06-2022,2023-22-04
+10000128/A/300128,Silesia Invest S.A.,PZU SA,przedsiębiorca,0000012424,Kołobrzeg,ul. Armii Krajowej 17/45,78-100,1244941780,Barbara,Szymańska,96101482207,2018-02-12,20231023
+10000129/A/300129,Vistula Fintech SA,UNIQA TU S.A.,przedsiębiorca,0000012521,Stargard,ul Piłsudskiego 34,73-110,1245020970,Rafał,Dąbrowski,97112183594,20211025,31/08/2023
+10000130/A/300130,Astra Finance S. A.,PZU SA,osoba fizyczna,0000012618,Sandomierz,ulica Mickiewicza 51,27-600,1245100166,Anna,Mazur,98122884943,04/08/2025,2025/03/03
+10000131/A/300131,Baltic Med Supply Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000012715,Ostrowiec Świętokrzyski,Sienkiewicza 68,27-400,1245179357,Tomasz,Krawczyk,99010786332,2015/12/06,09-06-2025
+10000132/A/300132,Helios Markets sp. z o.o.,PZU SA,osoba fizyczna,0000012812,Warszawa,ul. Marszałkowska 85/7,00-590,1245258542,Katarzyna,Woźniak,00221487686,22-01-2015,2023-13-09
+10000133/A/300133,Lumen Advisory sp z oo,PZU SA,osoba fizyczna,0000012909,Warszawa,ul Krakowskie Przedmieście 102,00-071,1245337738,Krzysztof,Jankowski,01232189073,2015-28-06,20260104
+10000134/A/300134,Nova Data sp. z o. o.,UNIQA TU S.A.,osoba fizyczna,0000013006,Kraków,ulica Floriańska 119,31-019,1245416923,Ewa,Grabowska,02242890425,20170723,28/12/2025
+10000135/A/300135,Optima Trade Sp. z o.o.,WARTA S.A.,przedsiębiorca,0000013103,Kraków,Długa 136,31-147,1245496112,Adam,Pawlak,03250791818,14/11/2020,2018/10/08
+10000136/A/300136,Polaris Capital SP Z O O,ERGO HESTIA S.A.,przedsiębiorca,0000013200,Łódź,ul. Piotrkowska 153/59,90-102,1245575308,Monika,Michalska,04261493168,2024/20/05,14-09-2024
+10000137/A/300137,Quantum Services spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000013297,Łódź,,90-402,1245654491,Marek,Król,05272194554,30-04-2025,2023-07-08
+10000138/A/300138,Silesia Invest Spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000013394,Wrocław,ulica Świdnicka 7,50-066,1245733687,Barbara,Wieczorek,60082895909,2018-11-10,20211103
+10000139/A/300139,Vistula Fintech S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000013491,Wrocław,Legnicka 24,54-203,1245812872,Rafał,Jabłoński,61090797294,20241222,10/12/2022
+10000140/A/300140,P.P.H.U. Astra Finance,WARTA S.A.,przedsiębiorca,0000013588,Poznań,ul. Święty Marcin 41/21,61-806,1245892061,Anna,Witkowska,62101498645,07/05/2021,2023/24/05
+10000141/A/300141,Baltic Med Supply S. A.,UNIQA TU S.A.,osoba fizyczna,0000013685,Poznań,ul Głogowska 58,60-734,1245971257,Tomasz,Walczak,63112100035,2020/18/02,24-02-2024
+10000142/A/300142,Helios Markets Spółka Akcyjna,PZU SA,przedsiębiorca,0000013782,Gdańsk,ulica Długa 75,80-831,1246050447,Katarzyna,Stępień,64122801385,21-09-2025,2023-29-04
+10000143/A/300143,Lumen Advisory sp. z o.o.,ERGO HESTIA S.A.,przedsiębiorca,0000013879,Gdańsk,Grunwaldzka 92,80-236,1246129634,Krzysztof,Baran,65010702773,2017-23-02,20251228
+10000144/A/300144,Nova Data sp z oo,PZU SA,osoba fizyczna,0000013976,Szczecin,ul. Jagiellońska 109/73,70-435,1246288019,Ewa,Rutkowska,66021404122,20181109,17/05/2015
+10000145/A/300145,Optima Trade sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000014073,Szczecin,os. Wyszyńskiego 126,70-200,1246288019,Adam,Górski,67032105518,15/09/2018,2026/19/04
+10000146/A/300146,Polaris Capital Sp. z o.o.,PZU SA,przedsiębiorca,0000014170,Katowice,ulica Mariacka 143,40-014,1246367204,Monika,Sikora,68042806868,2021/04/03,03-07-2017
+10000147/A/300147,Quantum Services SP Z O O,PZU SA,osoba fizyczna,000001426,Katowice,Warszawska 160,40-009,1246446398,Marek,Ostrowski,69050708252,02-03-2024,2025-02-09
+10000148/A/300148,Silesia Invest spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,osoba fizyczna,0000014364,Lublin,ul. Krakowskie Przedmieście 177/35,20-002,1246525583,Barbara,Tomaszewska,70061409609,2015-04-12,20190917
+10000149/A/300149,Vistula Fintech Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000014461,Lublin,ul Narutowicza 14,20-004,1246604779,Rafał,Zając,71072110999,20160217,25/11/2024
+10000150/A/300150,Astra Finance S.A.,UNIQA TU S.A.,przedsiębiorca,0000014558,Białystok,ulica Lipowa 31,15-424,1246683968,Anna,,72082812349,,2021/03/11
+10000151/A/300151,Baltic Med Supply SA,ERGO HESTIA S.A.,przedsiębiorca,0000014655,Białystok,Sienkiewicza 48,15-092,1246763153,Tomasz,Wójcicki,73090713732,2019/19/06,23-12-2026
+10000152/A/300152,Helios Markets S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000014752,Bydgoszcz,ul. Gdańska 65/87,85-005,1246842349,Katarzyna,Czarnecka,74101415085,26-04-2015,2023-17-01
+10000153/A/300153,Lumen Advisory Spółka Akcyjna,WARTA S.A.,osoba fizyczna,0000014849,Bydgoszcz,ul Dworcowa 82,85-009,1246921534,Krzysztof,Lis,75112116471,2023-09-01,20241010
+10000154/A/300154,Nova Data sp. z o.o.,WARTA S.A.,przedsiębiorca,0000014946,Toruń,ulica Szeroka 99,87-100,1247000724,Ewa,Kołodziej,76122817820,20200310,03/03/2025
+10000155/A/300155,Optima Trade sp z oo,WARTA S.A.,przedsiębiorca,0000015043,Toruń,Chełmińska 116,87-100,1247079915,Adam,Kaczmarek,77010719219,25/01/2017,2026/10/04
+10000156/A/300156,Polaris Capital sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000015140,Rzeszów,ul. 3 Maja 133/49,35-030,1247159100,Monika,Piątek,78021420561,2025/29/03,17-05-2015
+10000157/A/300157,Quantum Services Sp. z o.o.,PZU ,osoba fziyczna,0000015237,Rzesózw,ul Piłsudskiego 150,35-074,1247238294,Marek,Sadowski,89032121957,19-12-2018,2016-24-06
+10000158/A/300158,Silesia Invest SP Z O O,PZU SA,przedsiębiorca,0000015334,Kielce,ulica Sienkiewicza 167,25-007,1247396679,Barbara,Włodarczyk,80042823306,2015-28-09,20170703
+10000159/A/300159,Vistula Fintech spółka z ograniczoną odpowiedzialnością,PZU SA,przedsiębiorca,0000015431,Kielce,Warszawska 4,25-512,1247396679,Rafał,Borkowski,81050724690,20230502,28/05/2024
+10000160/A/300160,Facebook - Meta,WARTA S.A.,osoba fizyczna,0000015528,Olsztyn,ul. Kościuszki 21/11,10-504,1247475864,Anna,Kowalska-Krawczyk,82061426049,01/06/2025,2019/17/09
+10000161/A/300161,Baltic Med Supply S.A.,ERGO HESTIA S.A.,osoba fizyczna,0000015625,Olsztyn,ul Dąbrowszczaków 38,10-540,1247634245,Tomasz,Nowacki,83072127435,2022/03/11,24-10-2020
+10000162/A/300162,Helios Markets SA,PZU SA,przedsiębiorca,0000015722,Opole,ulica Krakowska 55,45-018,1247634245,Katarzyna,Wiśniewska,84082828785,13-04-2020,2021-03-11
+10000163/A/300163,Lumen Advisory S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000015819,Opole,Ozimska 72,45-057,1247713430,Krzysztof,Wójcik,85090730172,2016-30-12,20221210
+10000164/A/300164,Nova Data Spółka Akcyjna,ERGO HESTIA S.A.,osoba fizyczna,0000015916,Zielona Góra,ul. Bohaterów Westerplatte 89/63,65-034,1247871815,Ewa,Kowalczyk,86101431523,20221103,02/05/2026
+10000165/A/300165,Optima Trade sp. z o.o.,PZU SA,osoba fizyczna,0000016013,Zielona Góra,ul Kupiecka 106,65-058,1247871815,Adam,Kamiński,87112132919,05/10/2022,2026/18/07
+10000166/A/300166,Polaris Capital sp z oo,UNIQA TU S.A.,osoba fizyczna,0000016110,Gdynia,ulica Świętojańska 123,81-372,1247951000,Monika,Lewandowska,88122834260,2024/21/02,17-05-2023
+10000167/A/300167,Quantum Services sp. z o. o.,ERGO HESTIA S.A.,przedsiębiorca,0000016207,Gdynia,10 Lutego 140,81-364,1248030199,Marek,Zieliński,89010735658,12-11-2020,2026-10-04
+10000168/A/300168,Silesia Invest Sp. z o.o.,WARTA S.A.,przedsiębiorca,0000016304,Pruszków,ul. Bolesława Prusa 157/25,05-800,1248109386,Barbara,Szymańska,90021437006,2019-02-11,20250206
+10000169/A/300169,Vistula Fintech SP Z O O,PZU SA,osoba fizyczna,0000016401,Piaseczno,ul Kościuszki 174,05-500,2248188575,Rafał,Dąbrowski,91032138393,20160107,12/11/2025
+10000170/A/300170,Astra Finance spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000016498,Wieliczka,ulica Sienkiewicza 11,32-020,1248267760,Anna,Mazur,92042839742,14/10/2020,2026/28/06
+10000171/A/300171,Baltic Med Supply Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000016595,Oświęcim,Dąbrowskiego 28,32-600,1248346956,Tomasz,Krawczyk,93050741139,2021/20/01,26-03-2023
+10000172/A/300172,Helios Markets S.A.,WARTA S.A.,osoba fizyczna,0000016692,Krosno,ul. Rynek 45/77,38-400,1248426141,Katarzyna,Woźniak,94061442488,25-08-2019,2019-17-09
+10000173/A/300173,Lumen Advisory SA,ERGO HESTIA S.A.,przedsiębiorca,0000016789,Mielec,ul Mickiewicza 62,39-300,1248505337,Krzysztof,Jankowski,95072143874,2016-21-10,20201024
+10000174/A/300174,Nova Data S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000016886,Świdnica,os. Długa 79,58-100,1248584526,Ewa,Grabowska,96082845224,20240402,03/02/2023
+10000175/A/300175,Optima Trade Spółka Akcyjna,WARTA S.A.,przedsiębiorca,0000016983,Kłodzko,96,57-300,1248663711,Adam,Pawlak,97090746617,02/08/2023,2022/10/12
+10000176/A/300176,Polaris Capital sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000017080,Gniezno,ul. Chrobrego 113/39,62-200,1248742907,Monika,Michalska,98101447969,2015/21/05,17-01-2023
+10000177/A/300177,Quantum Services sp z oo,ERGO HESTIA S.A.,przedsiębiorca,0000017177,Leszno,ul Słowiańska 130,64-100,1248822090,Marek,Król,99112149356,14-12-2015,2024-24-02
+10000178/A/300178,Silesia Invest sp. z o. o.,ERGO HESTIA S.A.,osoba fizyczna,0000017274,Tczew,ulica Gdańska 147,83-110,1248901286,Barbara,Wieczorek,00322850703,2019-19-06,2023-27-04 02:02
+10000179/A/300179,Vistula Fintech Sp. z o.o.,WARTA S.A.,osoba fizyczna,0000017371,Wejherowo,Sobieskiego 164,84-200,1248980475,Rafał,Jabłoński,01210752093,20240306,30/08/2026
+10000180/A/300180,PPHU Astra Finance,ERGO HESTIA S.A.,przedsiębiorca,0000017468,Cieszyn,ul. Głęboka 1/1,43-400,1249059667,Anna,Witkowska,02221453441,25/03/2022,2025/19/05
+10000181/A/300181,Baltic Med Supply spółka z ograniczoną odpowiedzialnością,UNIQA TU S.A.,przedsiębiorca,0000017565,Będzin,ul Małachowskiego 18,42-500,1249138852,Tomasz,Walczak,03232154837,2017/08/07,24-06-2016
+10000182/A/300182,Helios Markets Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,przedsiębiorca,0000017662,Inowrocław,ulica Królowej Jadwigi 35,88-100,1249218048,Katarzyna,Stępień,04242856188,07-10-2021,2026-07-09
+10000183/A/300183,Lumen Advisory S.A.,WARTA S.A.,przedsiębiorca,0000017759,,Wybickiego 52,86-300,1249297237,Krzysztof,Baran,05250757571,2015-30-10,20240814
+10000184/A/300184,Nova Data SA,PZU SA,osoba fizyczna,0000017856,Ostróda,ul. Czarnieckiego 69/53,14-100,1249376422,Ewa,Rutkowska,60061458925,202207130238,31/01/2023
+10000185/A/300185,Optima Trade S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000017953,Giżycko,ul Warszawska 86,11-500,1249455618,Adam,Górski,61072160315,13/06/2024,2026/16/09
+10000186/A/300186,Polaris Capital Spółka Akcyjna,PZU SA,osoba fizyczna,0000018050,Nibylandia,ulica Nieistniejąca 103,99-999,1249534803,Monika,Sikora,62082861665,2023/21/11,14-10-2024
+10000187/A/300187,Quantum Services sp. z o.o.,UNIQA TU S.A.,przedsiębiorca,0000018147,Zamość,Staszica 120,22-400,1249613997,Marek,Ostrowski,63090763059,30-04-2025,2025-03-08
+10000188/A/300188,Silesia Invest sp z oo,UNIQA TU S.A.,przedsiębiorca,0000018244,Augustów,ul. 3 Maja 137/15,16-300,1249693186,Barbara,Tomaszewska,64101464400,2019-15-10,20230117
+10000189/A/300189,Vistula Fintech sp. z o. o.,PZU SA,osoba fizyczna,0000018341,Suwałki,ul Kościuszki 154,16-400,1249772371,Rafał,Zając,65112165797,20221004,24/02/2024
+10000190/A/300190,Astra Finance Sp. z o.o.,PZU SA,przedsiębiorca,0000018438,Nysa,ulica Piastowska 171,48-300,1249851567,Anna,Pietrzak,66122867147,12/07/2021,2023/10/02
+10000191/A/300191,Baltic Med Supply SP Z O O,ERGO HESTIA S.A.,przedsiębiorca,0000018535,Brzeg,Długa 8,49-300,1249930752,Tomasz,Wójcicki,67010768535,2017/25/06,10-04-2026
+10000192/A/300192,Helios Markets spółka z ograniczoną odpowiedzialnością,WARTA S.A.,przedsiębiorca,0000018632,Żary,ul. Rynek 25/67,68-200,1250009942,Katarzyna,Czarnecka,68021469884,03-11-2020,2015-17-05
+10000193/A/300193,Lumen Advisory Spółka z ograniczoną odpowiedzialnością,ERGO HESTIA S.A.,osoba fizyczna,0000018729,Świebodzin,ul Sikorskiego 42,66-200,1250089131,Krzysztof,Lis,69032171274,2020-21-02,20160624
+10000194/A/300194,Nova Data S.A.,WARTA S.A.,osoba fizyczna,0000018826,Kołobrzeg,ulica Armii Krajowej 59,78-100,1250168327,Ewa,Kołodziej,70042872622,20160925,03/07/2017
+10000195/A/300195,Optima Trade SA,WARTA S.A.,przedsiębiorca,0000018923,Stargard,Piłsudskiego 76,73-110,1250247512,Adam,Kaczmarek,71050774016,08/06/2015,2026/05/02
+10000196/A/300196,Polaris Capital S. A.,ERGO HESTIA S.A.,osoba fizyczna,0000019020,Sandomierz,93/29,27-600,1250326708,Monika,Piątek,72061475365,2023/10/09,18-11-2025
+10000197/A/300197,Quantum Services Spółka Akcyjna,PZU SA,osoba fizyczna,000001911,Ostrowiec Świętokrzyski,ul Sienkiewicza 110,27-400,1250405891,Marek,Sadowski,73072176751,01-03-2021,2024-02-01
+10000198/A/300198,Silesia Invest sp. z o.o.,UNIQA TU S.A.,osoba fizyczna,0000019214,Warszawa,ulica Marszałkowska 127,00-590,1250485080,Barbara,Włodarczyk,74082878101,2017-31-10,20211103
+10000199/A/300199,Vistula Fintech sp z oo,ERGO HESTIA S.A.,osoba fizyczna,0000019311,Warszawa,Krakowskie Przedmieście 144,00-071,1250564276,Rafał,Borkowski,75090779495,20241018,11/06/2023

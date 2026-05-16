@@ -169,6 +169,8 @@ class ValidationTests(unittest.TestCase):
             RawFile_ID=2,
             Staging_ID=3,
             Name="Example Sp. z o.o.",
+            Validation_Authority_ID=None,
+            Validation_Authority_Entity_ID=None,
         )
         preprocessed_record = SimpleNamespace(
             Preprocessed_ID=4,
@@ -179,7 +181,7 @@ class ValidationTests(unittest.TestCase):
             Email_Normalized="kontakt@example.com",
         )
 
-        results = build_validation_results(staging_record, preprocessed_record, "PARTY")
+        results = build_validation_results(staging_record, preprocessed_record, "PARTY", check_email_dns=False)
         failed = {result["Rule_Code"]: result for result in results if result["Status"] == "ERROR"}
         passed = {result["Rule_Code"]: result for result in results if result["Status"] == "PASS"}
 

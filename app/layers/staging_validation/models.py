@@ -121,7 +121,7 @@ class PartyStaging(Base):
     Next_Renewal_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
     Managing_LOU: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
     Validation_Sources: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
-    Validation_Authority_ID: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Validation_Authority_ID: Mapped[str | None] = mapped_column(Unicode(500), nullable=True)
     Validation_Authority_Entity_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
     Direct_Parent_LEI: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
     Direct_Parent_Name: Mapped[str | None] = mapped_column(Unicode(255), nullable=True)
