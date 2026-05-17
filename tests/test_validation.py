@@ -192,6 +192,86 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual(failed["PARTY_LEI_CHECKSUM"]["Message"], "ERR_CHECKSUM_LEI")
         self.assertEqual(passed["PARTY_EMAIL_SYNTAX"]["Severity"], "INFO")
 
+    def test_marks_invalid_party_date_ranges(self) -> None:
+        staging_record = SimpleNamespace(
+            ImportBatch_ID=1,
+            RawFile_ID=2,
+            Staging_ID=3,
+            Name="Example Sp. z o.o.",
+            Establishment_Date=date(2018, 6, 3),
+            Registration_Date=date(2018, 6, 3),
+            Deregistration_Date=date(2015, 12, 12),
+            Last_Update_Date=date(2021, 9, 1),
+            Next_Renewal_Date=date(2021, 2, 10),
+            Direct_Parent_Relationship_Start_Date=date(2015, 6, 10),
+            Direct_Parent_Relationship_End_Date=date(2015, 4, 8),
+            Ultimate_Parent_Relationship_Start_Date=date(2015, 12, 8),
+            Ultimate_Parent_Relationship_End_Date=date(2015, 6, 10),
+        )
+        preprocessed_record = SimpleNamespace(
+            Preprocessed_ID=4,
+            NIP_Normalized=None,
+            REGON_Normalized=None,
+            KRS_Normalized=None,
+            LEI_Normalized=None,
+            Email_Normalized=None,
+        )
+
+        results = build_validation_results(staging_record, preprocessed_record, "PARTY", check_email_dns=False)
+        failed = {result["Rule_Code"]: result for result in results if result["Status"] == "ERROR"}
+
+        self.assertEqual(
+            failed["PARTY_ESTABLISHMENT_DEREGISTRATION_DATE_RANGE"]["Message"],
+            "ERR_ESTABLISHMENT_AFTER_DEREGISTRATION",
+        )
+        self.assertEqual(
+            failed["PARTY_REGISTRATION_DEREGISTRATION_DATE_RANGE"]["Message"],
+            "ERR_REGISTRATION_AFTER_DEREGISTRATION",
+        )
+        self.assertEqual(
+            failed["PARTY_NEXT_RENEWAL_AFTER_LAST_UPDATE"]["Message"],
+            "ERR_NEXT_RENEWAL_BEFORE_LAST_UPDATE",
+        )
+        self.assertEqual(
+            failed["PARTY_DIRECT_PARENT_RELATIONSHIP_DATE_RANGE"]["Message"],
+            "ERR_DIRECT_PARENT_RELATIONSHIP_START_AFTER_END",
+        )
+        self.assertEqual(
+            failed["PARTY_ULTIMATE_PARENT_RELATIONSHIP_DATE_RANGE"]["Message"],
+            "ERR_ULTIMATE_PARENT_RELATIONSHIP_START_AFTER_END",
+        )
+
+    def test_marks_future_person_birth_dates(self) -> None:
+        staging_record = SimpleNamespace(
+            ImportBatch_ID=1,
+            RawFile_ID=2,
+            Staging_ID=3,
+            Serial_Number_ID_Card=None,
+            Birth_Date=date(2100, 1, 1),
+            Sex=None,
+        )
+        preprocessed_record = SimpleNamespace(
+            Preprocessed_ID=4,
+            PESEL_Normalized="00410100000",
+            Email_Normalized=None,
+            First_Name_Normalized="JAN",
+            Second_Name_Normalized=None,
+            Last_Name_Normalized="KOWALSKI",
+            Family_Name_Normalized=None,
+        )
+
+        results = build_validation_results(staging_record, preprocessed_record, "PERSON", check_email_dns=False)
+        failed = {result["Rule_Code"]: result for result in results if result["Status"] == "ERROR"}
+
+        self.assertEqual(
+            failed["PERSON_PESEL_BIRTH_DATE_NOT_FUTURE"]["Message"],
+            "ERR_PESEL_BIRTH_DATE_IN_FUTURE",
+        )
+        self.assertEqual(
+            failed["PERSON_BIRTH_DATE_NOT_FUTURE"]["Message"],
+            "ERR_BIRTH_DATE_IN_FUTURE",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

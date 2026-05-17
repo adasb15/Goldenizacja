@@ -176,6 +176,7 @@ def build_person_validation_results(
     check_email_dns: bool,
 ) -> list[dict[str, Any]]:
     staging_sex = get_staging_sex_value(staging_record)
+    birth_date = getattr(staging_record, "Birth_Date", None)
     results = [
         make_result(
             base,
@@ -209,6 +210,24 @@ def build_person_validation_results(
                 staging_sex,
             ),
             error_message="ERR_PESEL_SEX_MISMATCH",
+        ),
+        make_result(
+            base,
+            level="PREPROCESSING",
+            rule_code="PERSON_PESEL_BIRTH_DATE_NOT_FUTURE",
+            field_name="PESEL_Normalized",
+            value=preprocessed_record.PESEL_Normalized,
+            is_valid=validate_pesel_birth_date_not_future(preprocessed_record.PESEL_Normalized),
+            error_message="ERR_PESEL_BIRTH_DATE_IN_FUTURE",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PERSON_BIRTH_DATE_NOT_FUTURE",
+            field_name="Birth_Date",
+            value=birth_date,
+            is_valid=validate_date_not_in_future(birth_date),
+            error_message="ERR_BIRTH_DATE_IN_FUTURE",
         ),
         make_result(
             base,
@@ -259,6 +278,16 @@ def build_party_validation_results(
     preprocessed_record: Any,
     check_email_dns: bool,
 ) -> list[dict[str, Any]]:
+    establishment_date = getattr(staging_record, "Establishment_Date", None)
+    registration_date = getattr(staging_record, "Registration_Date", None)
+    deregistration_date = getattr(staging_record, "Deregistration_Date", None)
+    last_update_date = getattr(staging_record, "Last_Update_Date", None)
+    next_renewal_date = getattr(staging_record, "Next_Renewal_Date", None)
+    direct_parent_start_date = getattr(staging_record, "Direct_Parent_Relationship_Start_Date", None)
+    direct_parent_end_date = getattr(staging_record, "Direct_Parent_Relationship_End_Date", None)
+    ultimate_parent_start_date = getattr(staging_record, "Ultimate_Parent_Relationship_Start_Date", None)
+    ultimate_parent_end_date = getattr(staging_record, "Ultimate_Parent_Relationship_End_Date", None)
+
     return [
         make_result(
             base,
@@ -313,6 +342,66 @@ def build_party_validation_results(
             value=staging_record.Name,
             is_valid=is_non_empty_string(staging_record.Name),
             error_message="ERR_PARTY_NAME_TYPE",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PARTY_ESTABLISHMENT_DEREGISTRATION_DATE_RANGE",
+            field_name="Establishment_Date,Deregistration_Date",
+            value=format_date_range_checked_value(
+                establishment_date,
+                deregistration_date,
+            ),
+            is_valid=validate_date_order(establishment_date, deregistration_date),
+            error_message="ERR_ESTABLISHMENT_AFTER_DEREGISTRATION",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PARTY_REGISTRATION_DEREGISTRATION_DATE_RANGE",
+            field_name="Registration_Date,Deregistration_Date",
+            value=format_date_range_checked_value(
+                registration_date,
+                deregistration_date,
+            ),
+            is_valid=validate_date_order(registration_date, deregistration_date),
+            error_message="ERR_REGISTRATION_AFTER_DEREGISTRATION",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PARTY_NEXT_RENEWAL_AFTER_LAST_UPDATE",
+            field_name="Last_Update_Date,Next_Renewal_Date",
+            value=format_date_range_checked_value(
+                last_update_date,
+                next_renewal_date,
+            ),
+            is_valid=validate_date_order(last_update_date, next_renewal_date),
+            error_message="ERR_NEXT_RENEWAL_BEFORE_LAST_UPDATE",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PARTY_DIRECT_PARENT_RELATIONSHIP_DATE_RANGE",
+            field_name="Direct_Parent_Relationship_Start_Date,Direct_Parent_Relationship_End_Date",
+            value=format_date_range_checked_value(
+                direct_parent_start_date,
+                direct_parent_end_date,
+            ),
+            is_valid=validate_date_order(direct_parent_start_date, direct_parent_end_date),
+            error_message="ERR_DIRECT_PARENT_RELATIONSHIP_START_AFTER_END",
+        ),
+        make_result(
+            base,
+            level="STAGING",
+            rule_code="PARTY_ULTIMATE_PARENT_RELATIONSHIP_DATE_RANGE",
+            field_name="Ultimate_Parent_Relationship_Start_Date,Ultimate_Parent_Relationship_End_Date",
+            value=format_date_range_checked_value(
+                ultimate_parent_start_date,
+                ultimate_parent_end_date,
+            ),
+            is_valid=validate_date_order(ultimate_parent_start_date, ultimate_parent_end_date),
+            error_message="ERR_ULTIMATE_PARENT_RELATIONSHIP_START_AFTER_END",
         ),
     ]
 
@@ -490,6 +579,38 @@ def validate_pesel_sex_match(pesel_value: str | None, sex_value: Any) -> bool:
     if pesel_sex is None:
         return False
     return pesel_sex == sex
+
+
+def validate_pesel_birth_date_not_future(pesel_value: str | None) -> bool:
+    pesel_birth_date = extract_pesel_birth_date(pesel_value)
+    if pesel_birth_date is None:
+        return True
+    return pesel_birth_date <= date.today()
+
+
+def validate_date_not_in_future(value: Any) -> bool:
+    normalized_date = normalize_date_value(value)
+    if normalized_date is None:
+        return True
+    return normalized_date <= date.today()
+
+
+def validate_date_order(start_value: Any, end_value: Any) -> bool:
+    start_date = normalize_date_value(start_value)
+    end_date = normalize_date_value(end_value)
+    if start_value not in (None, "") and start_date is None:
+        return False
+    if end_value not in (None, "") and end_date is None:
+        return False
+    if start_date is None or end_date is None:
+        return True
+    return start_date <= end_date
+
+
+def format_date_range_checked_value(start_value: Any, end_value: Any) -> str | None:
+    if start_value in (None, "") and end_value in (None, ""):
+        return None
+    return f"start={start_value}; end={end_value}"
 
 
 def extract_pesel_birth_date(value: str | None) -> date | None:
