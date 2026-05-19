@@ -401,6 +401,14 @@ def normalize_street_line(value: str) -> str:
         value = value[prefix_match.end() :].strip()
 
     normalized = APARTMENT_PREFIX_RE.sub("/", value).strip()
+
+    # Jeżeli prefiksu nie ma w ogóle, a wygląda to na nazwę ulicy (a nie sam numer budynku),
+    # dopisujemy domyślnie "UL" dla lepszego matchingu z TERYT.
+    if not prefix_canonical and normalized:
+        starts_with_canonical = re.match(r"^(UL|AL|OS|PL)\b", normalized, re.IGNORECASE) is not None
+        if not starts_with_canonical and BUILDING_ONLY_RE.match(normalized) is None:
+            prefix_canonical = "UL"
+
     if prefix_canonical:
         return f"{prefix_canonical} {normalized}".strip()
     return normalized

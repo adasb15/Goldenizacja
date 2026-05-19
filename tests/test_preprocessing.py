@@ -65,7 +65,7 @@ class PreprocessingTests(unittest.TestCase):
 
         self.assertEqual(preprocessed["Name_Normalized"], "GŁOGOWSKA SPÓŁKA AKCYJNA")
         self.assertEqual(preprocessed["NIP_Normalized"], "1234567890")
-        self.assertEqual(preprocessed["Street_Normalized"], "BAŁTYCKA")
+        self.assertEqual(preprocessed["Street_Normalized"], "UL BAŁTYCKA")
         self.assertEqual(preprocessed["Building_Number_Normalized"], "136")
         self.assertEqual(preprocessed["Apartment_Number_Normalized"], "11")
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "66-157")
