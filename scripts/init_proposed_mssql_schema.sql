@@ -542,12 +542,50 @@ USING (VALUES
     (N'KNF_PRACOWNIK_AGENTA', N'KNF Rejestr posrednikow ubezpieczeniowych - pracownik agenta', 80),
     (N'KNF_FIRMY_INWESTYCYJNE', N'KNF Rejestr firm inwestycyjnych', 80),
     (N'KNF_PIENIADZ_ELEKTRONICZNY', N'KNF Rejestr dostawcow i wydawcow pieniadza elektronicznego', 80),
-    (N'GLEIF', N'GLEIF', 75)
+    (N'GLEIF', N'GLEIF', 75),
+    (N'INSURANCE_CORE', N'Oracle Insurance Core - relacyjne zrodlo przez ODBC', 70)
 ) AS source ([SourceSystem_Code], [SourceSystem_Name], [Trust_Level])
 ON target.[SourceSystem_Code] = source.[SourceSystem_Code]
 WHEN NOT MATCHED THEN
     INSERT ([SourceSystem_Code], [SourceSystem_Name], [Trust_Level])
     VALUES (source.[SourceSystem_Code], source.[SourceSystem_Name], source.[Trust_Level]);
+GO
+
+DECLARE @INSURANCE_CORE_SourceSystem_ID INT = (
+    SELECT [SourceSystem_ID]
+    FROM [meta].[SourceSystem]
+    WHERE [SourceSystem_Code] = N'INSURANCE_CORE'
+);
+
+MERGE [meta].[ColumnMapping] AS target
+USING (VALUES
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'CLIENT_NUMBER', N'Source_Record_ID'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'DISPLAY_NAME', N'Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'SHORT_NAME', N'Short_Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'LEGAL_FORM', N'Legal_Entity_Type'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'OPENED_AT', N'Establishment_Date'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'CLOSED_AT', N'Deregistration_Date'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'STATUS_CODE', N'Register_Status'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'TAX_NUMBER', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'NATIONAL_REGISTRY_NO', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'LEGAL_REGISTER_NO', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_ADDRESS_LINE', N'Street'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_CITY', N'City'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_POSTAL_CODE', N'Postal_Code'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_COUNTRY', N'Country'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_PHONE', N'Phone_Number'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_EMAIL', N'Email_Address'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'PRIMARY_IBAN', N'Bank_Accounts_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'BRANCH_REGION', N'Province'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'RELATED_PERSONS_JSON', N'Related_Persons_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'RELATED_PARTIES_JSON', N'Related_Parties_JSON')
+) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
+AND target.[Entity_Type] = source.[Entity_Type]
+AND target.[Source_Column_Name] = source.[Source_Column_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
+    VALUES (source.[SourceSystem_ID], source.[Entity_Type], source.[Source_Column_Name], source.[Canonical_Column_Name]);
 GO
 
 DECLARE @CEIDG_SourceSystem_ID INT = (

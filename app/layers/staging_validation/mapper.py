@@ -100,10 +100,13 @@ CANONICAL_COLUMNS_BY_ENTITY_TYPE = {
 # Ujednolicamy nazwy identyfikatorów, żeby NIP/KRS/REGON trafiały do jednego JSON
 IDENTIFIER_KEY_ALIASES = {
     "nip": "NIP",
+    "taxnumber": "NIP",
     "numernip": "NIP",
     "numernipagenta": "NIP",
     "regon": "REGON",
+    "nationalregistryno": "REGON",
     "krs": "KRS",
+    "legalregisterno": "KRS",
     "numerkrs": "KRS",
     "numerkrsagenta": "KRS",
     "numeruknf": "UKNF",

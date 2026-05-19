@@ -13,8 +13,11 @@ from airflow.operators.python import PythonOperator
 API_BASE_URL = "http://api:8000"
 LAYERS_API_PREFIX = "/layers"
 DEFAULT_FILE_PATH = "/opt/airflow/data/csv/pesel.csv"
+DEFAULT_INPUT_TYPE = "FILE"
 DEFAULT_SOURCE_SYSTEM_CODE_PARAM = "AUTO"
 DEFAULT_ENTITY_TYPE_PARAM = "AUTO"
+DEFAULT_RELATIONAL_SOURCE_SYSTEM_CODE = "INSURANCE_CORE"
+DEFAULT_RELATIONAL_QUERY_NAME = "insurance_core_party_export"
 SOURCE_SYSTEM_BY_FILE_STEM = {
     "ceidg": "CEIDG",
     "gleif": "GLEIF",
@@ -33,6 +36,7 @@ DEFAULT_ENTITY_TYPE_BY_SOURCE_SYSTEM = {
     "PESEL": "PERSON",
     "REGON": "PARTY",
     "VAT": "PARTY",
+    "INSURANCE_CORE": "PARTY",
 }
 AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS = {
     "CEIDG",
@@ -66,10 +70,20 @@ def _post_form(endpoint: str, data: dict[str, Any], files: dict[str, Any] | None
     return response.json()
 
 
+def _input_type(conf: dict[str, Any]) -> str:
+    input_type = str(conf.get("input_type", DEFAULT_INPUT_TYPE)).upper()
+    if input_type not in {"FILE", "RELATIONAL"}:
+        raise ValueError("input_type musi mieć wartość FILE albo RELATIONAL.")
+    return input_type
+
+
 def _source_system_code(conf: dict[str, Any], file_path: Path) -> str:
     configured = conf.get("source_system_code")
     if configured and str(configured).upper() != DEFAULT_SOURCE_SYSTEM_CODE_PARAM:
         return str(configured).upper()
+
+    if _input_type(conf) == "RELATIONAL":
+        return DEFAULT_RELATIONAL_SOURCE_SYSTEM_CODE
 
     source_system_code = SOURCE_SYSTEM_BY_FILE_STEM.get(file_path.stem.lower())
     if source_system_code is None:
@@ -106,6 +120,17 @@ def raw_load(**context: Any) -> int:
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
     created_by = conf.get("created_by", "airflow")
+
+    if _input_type(conf) == "RELATIONAL":
+        result = _post_form(
+            f"{LAYERS_API_PREFIX}/ingestion/relational-load",
+            data={
+                "source_system_code": source_system_code,
+                "query_name": conf.get("query_name", DEFAULT_RELATIONAL_QUERY_NAME),
+                "created_by": created_by,
+            },
+        )
+        return int(result["raw_file_id"])
 
     with file_path.open("rb") as file_handle:
         result = _post_form(
@@ -187,12 +212,22 @@ with DAG(
         "file_path": Param(
             DEFAULT_FILE_PATH,
             type="string",
-            description="Sciezka do pliku widoczna z kontenera Airflow.",
+            description="Sciezka do pliku widoczna z kontenera Airflow dla input_type=FILE.",
+        ),
+        "input_type": Param(
+            DEFAULT_INPUT_TYPE,
+            enum=["FILE", "RELATIONAL"],
+            description="FILE = upload pliku, RELATIONAL = pobranie z Oracle przez ODBC.",
         ),
         "source_system_code": Param(
             DEFAULT_SOURCE_SYSTEM_CODE_PARAM,
             type="string",
-            description="AUTO = wykryj z nazwy pliku albo podaj PESEL, VAT, REGON, KRS itd.",
+            description="AUTO = wykryj z pliku albo użyj domyślnego źródła relacyjnego.",
+        ),
+        "query_name": Param(
+            DEFAULT_RELATIONAL_QUERY_NAME,
+            type="string",
+            description="Nazwa kontrolowanego eksportu relacyjnego dla input_type=RELATIONAL.",
         ),
         "entity_type": Param(
             DEFAULT_ENTITY_TYPE_PARAM,

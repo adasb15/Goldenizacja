@@ -210,6 +210,32 @@ class StagingMapperTests(unittest.TestCase):
         )
         self.assertEqual(result["Ultimate_Parent_LEI"], None)
 
+    def test_maps_insurance_core_identifiers_from_relational_snapshot(self) -> None:
+        source_record = {
+            "DISPLAY_NAME": "Astra Finance sp. z o.o.",
+            "TAX_NUMBER": "8567346215",
+            "NATIONAL_REGISTRY_NO": "590096454",
+            "LEGAL_REGISTER_NO": "0000123456",
+        }
+        mapping = {
+            "DISPLAY_NAME": "Name",
+            "TAX_NUMBER": "Identifiers_JSON",
+            "NATIONAL_REGISTRY_NO": "Identifiers_JSON",
+            "LEGAL_REGISTER_NO": "Identifiers_JSON",
+        }
+
+        result = map_record_to_canonical(source_record, mapping, "PARTY")
+
+        self.assertEqual(result["Name"], "Astra Finance sp. z o.o.")
+        self.assertEqual(
+            json.loads(result["Identifiers_JSON"]),
+            {
+                "NIP": "8567346215",
+                "REGON": "590096454",
+                "KRS": "0000123456",
+            },
+        )
+
     def test_builds_gleif_staging_record_with_relationship_dates(self) -> None:
         canonical_record = {
             "Name": "GLEIF Company",

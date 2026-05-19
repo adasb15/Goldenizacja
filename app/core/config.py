@@ -25,6 +25,12 @@ class Settings(BaseSettings):
 
     filestream_path: str = "/data/filestream"
     cors_origins: str = "http://localhost:5173"
+    oracle_odbc_connection_string: str | None = None
+    oracle_app_user: str = "insurance_core"
+    oracle_app_password: str = "insurance_core"
+    oracle_host: str = "oracle"
+    oracle_port: int = 1521
+    oracle_service_name: str = "FREEPDB1"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", case_sensitive=False)
 
