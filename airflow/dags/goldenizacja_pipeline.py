@@ -17,7 +17,7 @@ DEFAULT_INPUT_TYPE = "FILE"
 DEFAULT_SOURCE_SYSTEM_CODE_PARAM = "AUTO"
 DEFAULT_ENTITY_TYPE_PARAM = "AUTO"
 DEFAULT_RELATIONAL_SOURCE_SYSTEM_CODE = "INSURANCE_CORE"
-DEFAULT_RELATIONAL_QUERY_NAME = "insurance_core_party_export"
+DEFAULT_RELATIONAL_QUERY_NAME = "insurance_core_export"
 SOURCE_SYSTEM_BY_FILE_STEM = {
     "ceidg": "CEIDG",
     "gleif": "GLEIF",
@@ -100,6 +100,9 @@ def _entity_types(conf: dict[str, Any]) -> tuple[str, ...]:
     if configured and str(configured).upper() != DEFAULT_ENTITY_TYPE_PARAM:
         return (str(configured).upper(),)
 
+    if _input_type(conf) == "RELATIONAL":
+        return AUTO_BOTH_ENTITY_TYPES
+
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
     if source_system_code in AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS:
@@ -115,22 +118,28 @@ def _entity_types(conf: dict[str, Any]) -> tuple[str, ...]:
     return (entity_type,)
 
 
-def raw_load(**context: Any) -> int:
+def raw_load(**context: Any) -> int | dict[str, int]:
     conf = _conf(context)
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
     created_by = conf.get("created_by", "airflow")
 
     if _input_type(conf) == "RELATIONAL":
-        result = _post_form(
-            f"{LAYERS_API_PREFIX}/ingestion/relational-load",
-            data={
-                "source_system_code": source_system_code,
-                "query_name": conf.get("query_name", DEFAULT_RELATIONAL_QUERY_NAME),
-                "created_by": created_by,
-            },
-        )
-        return int(result["raw_file_id"])
+        raw_file_ids = {}
+        for entity_type in _entity_types(conf):
+            result = _post_form(
+                f"{LAYERS_API_PREFIX}/ingestion/relational-load",
+                data={
+                    "source_system_code": source_system_code,
+                    "query_name": conf.get("query_name", DEFAULT_RELATIONAL_QUERY_NAME),
+                    "entity_type": entity_type,
+                    "created_by": created_by,
+                },
+            )
+            raw_file_ids[entity_type] = int(result["raw_file_id"])
+        if len(raw_file_ids) == 1:
+            return next(iter(raw_file_ids.values()))
+        return raw_file_ids
 
     with file_path.open("rb") as file_handle:
         result = _post_form(
@@ -149,11 +158,12 @@ def raw_load(**context: Any) -> int:
 
 def staging_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/staging_validation/staging-load",
             data={
@@ -167,11 +177,12 @@ def staging_load(**context: Any) -> dict[str, Any]:
 
 def preprocessing_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/preprocessing/preprocessing-load",
             data={
@@ -185,12 +196,13 @@ def preprocessing_load(**context: Any) -> dict[str, Any]:
 
 def validation_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
     check_email_dns = str(conf.get("check_email_dns", True)).lower()
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/validation/validation-load",
             data={
@@ -227,7 +239,7 @@ with DAG(
         "query_name": Param(
             DEFAULT_RELATIONAL_QUERY_NAME,
             type="string",
-            description="Nazwa kontrolowanego eksportu relacyjnego dla input_type=RELATIONAL.",
+            description="Dla Oracle domyslnie insurance_core_export; entity_type wybiera zakres danych.",
         ),
         "entity_type": Param(
             DEFAULT_ENTITY_TYPE_PARAM,

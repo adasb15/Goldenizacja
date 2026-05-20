@@ -28,4 +28,5 @@ class RawLoadResponse(BaseModel):
 class RelationalQueryInfo(BaseModel):
     query_name: str
     source_system_code: str
+    entity_type: str
     description: str

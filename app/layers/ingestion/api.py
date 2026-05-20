@@ -60,6 +60,7 @@ async def raw_load(
 def relational_load(
     source_system_code: str = Form(...),
     query_name: str = Form(...),
+    entity_type: str | None = Form(default=None),
     created_by: str | None = Form(default=None),
     db: Session = Depends(get_db),
 ) -> RawLoadResponse:
@@ -68,6 +69,7 @@ def relational_load(
             db=db,
             source_system_code=source_system_code,
             query_name=query_name,
+            entity_type=entity_type,
             created_by=created_by,
         )
     except UnsupportedSourceSystemError as exc:

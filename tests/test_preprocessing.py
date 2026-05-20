@@ -5,6 +5,7 @@ from types import SimpleNamespace
 from app.layers.preprocessing.service import (
     build_preprocessed_record,
     normalize_email,
+    normalize_legal_entity_type,
     normalize_phone,
     normalize_text_key,
     split_party_name_and_legal_form,
@@ -25,6 +26,10 @@ class PreprocessingTests(unittest.TestCase):
 
     def test_keeps_trade_name_without_legal_form(self) -> None:
         self.assertEqual(split_party_name_and_legal_form("Facebook - Meta"), ("Facebook - Meta", None))
+
+    def test_normalizes_oracle_legal_form_codes(self) -> None:
+        self.assertEqual(normalize_legal_entity_type("LLC_PL"), "SP. Z O.O.")
+        self.assertEqual(normalize_legal_entity_type("JSC_PL"), "S.A.")
 
     def test_builds_party_preprocessed_record_with_address_split(self) -> None:
         staging_record = SimpleNamespace(
@@ -65,6 +70,32 @@ class PreprocessingTests(unittest.TestCase):
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "66-157")
         self.assertEqual(preprocessed["City_Normalized"], "BYDGOSZCZ")
         self.assertEqual(preprocessed["Country_Normalized"], "PL")
+
+    def test_builds_party_preprocessed_record_with_oracle_legal_form_code(self) -> None:
+        staging_record = SimpleNamespace(
+            Staging_ID=15,
+            ImportBatch_ID=25,
+            RawFile_ID=35,
+            Source_Record_ID="IC-10001",
+            Name="Facebook Meta Sp. z o.o.",
+            Short_Name="Facebook Meta",
+            Legal_Entity_Type="LLC_PL",
+            Identifiers_JSON=json.dumps({"NIP": "525-234-56-78"}),
+            Phone_Number=None,
+            Email_Address=None,
+            Website=None,
+            Street=None,
+            Building_Number=None,
+            Apartment_Number=None,
+            City=None,
+            Postal_City=None,
+            Postal_Code=None,
+            Country="PL",
+        )
+
+        preprocessed = build_preprocessed_record(staging_record, "PARTY")
+
+        self.assertEqual(preprocessed["Legal_Entity_Type_Normalized"], "SP. Z O.O.")
 
     def test_builds_party_identifiers_from_gleif_registered_at_krs(self) -> None:
         staging_record = SimpleNamespace(

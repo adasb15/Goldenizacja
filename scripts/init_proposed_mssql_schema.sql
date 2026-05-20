@@ -557,28 +557,46 @@ DECLARE @INSURANCE_CORE_SourceSystem_ID INT = (
     WHERE [SourceSystem_Code] = N'INSURANCE_CORE'
 );
 
+DELETE FROM [meta].[ColumnMapping]
+WHERE [SourceSystem_ID] = @INSURANCE_CORE_SourceSystem_ID;
+
 MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'CLIENT_NUMBER', N'Source_Record_ID'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'DISPLAY_NAME', N'Name'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'SHORT_NAME', N'Short_Name'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'LEGAL_FORM', N'Legal_Entity_Type'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'OPENED_AT', N'Establishment_Date'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'CLOSED_AT', N'Deregistration_Date'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'STATUS_CODE', N'Register_Status'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'TAX_NUMBER', N'Identifiers_JSON'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'NATIONAL_REGISTRY_NO', N'Identifiers_JSON'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'LEGAL_REGISTER_NO', N'Identifiers_JSON'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_ADDRESS_LINE', N'Street'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_CITY', N'City'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_POSTAL_CODE', N'Postal_Code'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_COUNTRY', N'Country'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_PHONE', N'Phone_Number'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAIN_EMAIL', N'Email_Address'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'PRIMARY_IBAN', N'Bank_Accounts_JSON'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'BRANCH_REGION', N'Province'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'EXT_REF_NO', N'Source_Record_ID'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'PARTY_LABEL', N'Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'BRAND_LABEL', N'Short_Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'FORM_CD', N'Legal_Entity_Type'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'ACTIVATION_DT', N'Establishment_Date'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'TERMINATION_DT', N'Deregistration_Date'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'LIFE_CYCLE_CD', N'Register_Status'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'TAX_REF', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'STAT_REG_REF', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'COURT_REF', N'Identifiers_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'ADDR_TXT', N'Street'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MUNICIPAL_UNIT', N'City'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'POST_AREA', N'Postal_Code'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'ISO_MARKET', N'Country'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'TEL_NOTE', N'Phone_Number'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'MAILBOX', N'Email_Address'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'SETTLEMENT_ACC', N'Bank_Accounts_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'AREA_BUCKET', N'Province'),
     (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'RELATED_PERSONS_JSON', N'Related_Persons_JSON'),
-    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'RELATED_PARTIES_JSON', N'Related_Parties_JSON')
+    (@INSURANCE_CORE_SourceSystem_ID, N'PARTY', N'RELATED_PARTIES_JSON', N'Related_Parties_JSON'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'PERSON_REF', N'Source_Record_ID'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'NATIONAL_REF', N'PESEL'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'GIVEN_TXT', N'First_Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'SECOND_GIVEN_TXT', N'Second_Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'FAMILY_TXT', N'Last_Name'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'BIRTH_DT_HINT', N'Birth_Date'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'BIRTH_PLACE_HINT', N'Place_Of_Birth'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'GENDER_HINT', N'Sex'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'CITIZENSHIP_HINT', N'Citizenship'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'MAILBOX', N'Email_Address'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'TEL_NOTE', N'Phone_Number'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'ADDR_TXT', N'Street'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'MUNICIPAL_UNIT', N'City'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'POST_AREA', N'Postal_Code'),
+    (@INSURANCE_CORE_SourceSystem_ID, N'PERSON', N'ISO_MARKET', N'Country')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])
 ON target.[SourceSystem_ID] = source.[SourceSystem_ID]
 AND target.[Entity_Type] = source.[Entity_Type]

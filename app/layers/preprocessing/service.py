@@ -58,6 +58,11 @@ LEGAL_FORM_PATTERNS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bSTOWARZYSZENI[EA]\b", re.IGNORECASE), "STOWARZYSZENIE"),
 ]
 
+LEGAL_ENTITY_TYPE_ALIASES = {
+    "LLCPL": "SP. Z O.O.",
+    "JSCPL": "S.A.",
+}
+
 
 class StagingRecordsNotFoundError(ValueError):
     pass
@@ -252,7 +257,9 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
         {
             "Name_Normalized": normalize_text_key(name_value),
             "Short_Name_Normalized": normalize_text_key(short_name_value),
-            "Legal_Entity_Type_Normalized": normalize_text_key(legal_entity_type_value),
+            "Legal_Entity_Type_Normalized": normalize_legal_entity_type(
+                legal_entity_type_value
+            ),
             "NIP_Normalized": normalize_identifier(identifiers.get("NIP")),
             "REGON_Normalized": regon_value,
             "KRS_Normalized": krs_value,
@@ -423,6 +430,22 @@ def infer_legal_entity_type_from_name(value: Any) -> str | None:
         if pattern.search(text):
             return label
     return None
+
+
+def normalize_legal_entity_type(value: Any) -> str | None:
+    normalized = normalize_text_key(value)
+    if normalized is None:
+        return None
+
+    # Kody z systemow zrodlowych tlumaczymy na wspolny slownik form prawnych
+    alias_key = NON_ALNUM_RE.sub("", normalized)
+    if alias_key in LEGAL_ENTITY_TYPE_ALIASES:
+        return normalize_text_key(LEGAL_ENTITY_TYPE_ALIASES[alias_key])
+
+    inferred = infer_legal_entity_type_from_name(normalized)
+    if inferred is not None:
+        return normalize_text_key(inferred)
+    return normalized
 
 
 def infer_registration_identifier_type(value: Any) -> str | None:
