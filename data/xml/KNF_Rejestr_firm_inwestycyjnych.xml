@@ -9,9 +9,9 @@
     <field name="REGON">234963846</field>
     <field name="Data zezwolenia">22/04/2025</field>
     <field name="Numer decyzji">DFI/243/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">60021406849</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak-Sikroa</field>
+    <field name="CzlonekZarzadu1_PESEL">60101434205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańsak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
@@ -22,9 +22,9 @@
     <field name="REGON">235043036</field>
     <field name="Data zezwolenia">2020/14/03</field>
     <field name="Numer decyzji">DFI/719/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">61032108236</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mihcalski</field>
+    <field name="CzlonekZarzadu1_PESEL">61112135592</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąrbowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data sp z oo</field>
@@ -35,9 +35,9 @@
     <field name="REGON">235122221</field>
     <field name="Data zezwolenia">25-09-2019</field>
     <field name="Numer decyzji">DFI/125/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">62042809586</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kró</field>
+    <field name="CzlonekZarzadu1_PESEL">62122836941</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazru</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
@@ -48,9 +48,9 @@
     <field name="REGON">235201417</field>
     <field name="Data zezwolenia">2023-15-07</field>
     <field name="Numer decyzji">DFI/725/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">73050710972</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczore</field>
+    <field name="CzlonekZarzadu1_PESEL">63010738330</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczy</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
@@ -61,9 +61,9 @@
     <field name="REGON">235280606</field>
     <field name="Data zezwolenia">20210513</field>
     <field name="Numer decyzji">DFI/134/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">64061412321</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońsak</field>
+    <field name="CzlonekZarzadu1_PESEL">64021439689</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźnika</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Services S.A.</field>
@@ -74,22 +74,22 @@
     <field name="REGON">235359791</field>
     <field name="Data zezwolenia">10/06/2024</field>
     <field name="Numer decyzji">DFI/170/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">65072113717</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiktowski</field>
+    <field name="CzlonekZarzadu1_PESEL">65032141079</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jaknowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets Polska sp. z o.o.</field>
     <field name="Adres siedziby">ulica Świdnicka 103, 50-066 Wrocław</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000000590</field>
-    <field name="NIP">1235280600</field>
+    <field name="NIP">2235280600</field>
     <field name="REGON">235438987</field>
     <field name="Data zezwolenia">2019/09/05</field>
     <field name="Numer decyzji">DFI/107/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">66082815068</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walcazk</field>
+    <field name="CzlonekZarzadu1_PESEL">66042842428</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowksa</field>
   </record>
   <record>
     <field name="Firma lub nazwa">ilSesia Invets sp. z o.o.</field>
@@ -100,9 +100,9 @@
     <field name="REGON">235518172</field>
     <field name="Data zezwolenia">07-07-2018</field>
     <field name="Numer decyzji">DF/334/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">67090716451</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stęipeń</field>
+    <field name="CzlonekZarzadu1_PESEL">67050743811</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Palwak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
@@ -113,9 +113,9 @@
     <field name="REGON">235597361</field>
     <field name="Data zezwolenia">2017-21-06</field>
     <field name="Numer decyzji">DFI/470/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">68101417802</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baarn</field>
+    <field name="CzlonekZarzadu1_PESEL">68061445161</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michaslka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Holding Spółka Akcyjna</field>
@@ -126,9 +126,9 @@
     <field name="REGON">235676557</field>
     <field name="Data zezwolenia">20221220</field>
     <field name="Numer decyzji">DFI/572/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">69112119190</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowsik</field>
+    <field name="CzlonekZarzadu1_PESEL">69072146557</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kró</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
@@ -139,9 +139,9 @@
     <field name="REGON">235755742</field>
     <field name="Data zezwolenia">19/02/2017</field>
     <field name="Numer decyzji">DFI/633/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">70122820541</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Gróska</field>
+    <field name="CzlonekZarzadu1_PESEL">70082847905</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Weiczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
@@ -152,9 +152,9 @@
     <field name="REGON">235834938</field>
     <field name="Data zezwolenia">2023/08/02</field>
     <field name="Numer decyzji">DFI/571/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">71010721939</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">iSkora</field>
+    <field name="CzlonekZarzadu1_PESEL">71090749290</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jbałoński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade SP Z O O</field>
@@ -165,9 +165,9 @@
     <field name="REGON">235914123</field>
     <field name="Data zezwolenia">28-01-2018</field>
     <field name="Numer decyzji">DFI/126/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">72021423289</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostorwska</field>
+    <field name="CzlonekZarzadu1_PESEL">72101450644</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witokwska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Polska S.A.</field>
@@ -178,9 +178,9 @@
     <field name="REGON">235993312</field>
     <field name="Data zezwolenia">2022-21-06</field>
     <field name="Numer decyzji">DFI/111/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">73032124675</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewksi</field>
+    <field name="CzlonekZarzadu1_PESEL">73112152031</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Technologie spółka z ograniczoną odpowiedzialnością</field>
@@ -191,22 +191,22 @@
     <field name="REGON">236072502</field>
     <field name="Data zezwolenia">20211212</field>
     <field name="Numer decyzji">DFI/458/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">74042826025</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zają</field>
+    <field name="CzlonekZarzadu1_PESEL">74122853381</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępie</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Polska spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">Warszawska 76, 40-009 Katowice</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000001463</field>
-    <field name="NIP">2235993317</field>
+    <field name="NIP">1235993317</field>
     <field name="REGON">236151696</field>
     <field name="Data zezwolenia">08/03/2020</field>
     <field name="Numer decyzji">DFI/683/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">75050727418</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrazk</field>
+    <field name="CzlonekZarzadu1_PESEL">75010754779</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Barna</field>
   </record>
   <record>
     <field name="Firma lub nazwa"></field>
@@ -217,9 +217,9 @@
     <field name="REGON">236230881</field>
     <field name="Data zezwolenia">2023/04/09</field>
     <field name="Numer decyzji">DFI/356/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">76061428767</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wócjicka</field>
+    <field name="CzlonekZarzadu1_PESEL">76021456128</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ruktowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
@@ -230,9 +230,9 @@
     <field name="REGON">236310077</field>
     <field name="Data zezwolenia">07-09-2024</field>
     <field name="Numer decyzji">DFI/559/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">77072130157</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarneck</field>
+    <field name="CzlonekZarzadu1_PESEL">77032157514</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górsk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
@@ -243,9 +243,9 @@
     <field name="REGON">236389268</field>
     <field name="Data zezwolenia">2018-26-04</field>
     <field name="Numer decyzji">DFI/490/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">78082831506</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lsi</field>
+    <field name="CzlonekZarzadu1_PESEL">78042858864</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Siokra</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Finanse S.A.</field>
@@ -256,9 +256,9 @@
     <field name="REGON">236468453</field>
     <field name="Data zezwolenia">20170411</field>
     <field name="Numer decyzji">DFI/873/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">79090732890</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodzie</field>
+    <field name="CzlonekZarzadu1_PESEL">79050760251</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowsk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
@@ -269,9 +269,9 @@
     <field name="REGON">236547649</field>
     <field name="Data zezwolenia">13/06/2024</field>
     <field name="Numer decyzji">DFI/951/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">80101434241</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmraek</field>
+    <field name="CzlonekZarzadu1_PESEL">80061461608</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszeswka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance S.A.</field>
@@ -282,9 +282,9 @@
     <field name="REGON">236626834</field>
     <field name="Data zezwolenia">2021/06/08</field>
     <field name="Numer decyzji">DFI/899/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">81112135637</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">iPątek</field>
+    <field name="CzlonekZarzadu1_PESEL">81072162995</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">aZjąc</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Technologie sp. z o.o.</field>
@@ -295,9 +295,9 @@
     <field name="REGON">236785219</field>
     <field name="Data zezwolenia">08-04-2025</field>
     <field name="Numer decyzji">DFI/475/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">82122836987</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadwoska</field>
+    <field name="CzlonekZarzadu1_PESEL">82082864345</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piertzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply Services Spółka Akcyjna</field>
@@ -308,9 +308,9 @@
     <field name="REGON">236785219</field>
     <field name="Data zezwolenia">2019-28-12</field>
     <field name="Numer decyzji">DFI/412/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">83010738376</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczky</field>
+    <field name="CzlonekZarzadu1_PESEL">83090765738</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
@@ -318,12 +318,12 @@
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000002336</field>
     <field name="NIP">1236706024</field>
-    <field name="REGON">236864404</field>
+    <field name="REGON">336864404</field>
     <field name="Data zezwolenia">20241014</field>
     <field name="Numer decyzji">DFI/949/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">84021439724</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowksa</field>
+    <field name="CzlonekZarzadu1_PESEL">84101467081</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnekca</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Services spółka z ograniczoną odpowiedzialnością</field>
@@ -334,9 +334,9 @@
     <field name="REGON">236943598</field>
     <field name="Data zezwolenia">26/01/2025</field>
     <field name="Numer decyzji">DFI/232/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">85032141114</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalksi</field>
+    <field name="CzlonekZarzadu1_PESEL">85112168477</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Li</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
@@ -347,9 +347,9 @@
     <field name="REGON">237022788</field>
     <field name="Data zezwolenia">2023/03/10</field>
     <field name="Numer decyzji">DFI/842/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">86042842464</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Noawcka</field>
+    <field name="CzlonekZarzadu1_PESEL">86122869826</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołdoziej</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions spółka z ograniczoną odpowiedzialnością</field>
@@ -360,9 +360,9 @@
     <field name="REGON">237101973</field>
     <field name="Data zezwolenia">15-09-2020</field>
     <field name="Numer decyzji">DFI/716/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">87050743857</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Winśiewski</field>
+    <field name="CzlonekZarzadu1_PESEL">87010771218</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kazcmarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
@@ -373,9 +373,9 @@
     <field name="REGON">237181162</field>
     <field name="Data zezwolenia">2017-06-12</field>
     <field name="Numer decyzji">DFI/437/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">88061445206</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wócjik</field>
+    <field name="CzlonekZarzadu1_PESEL">88021472567</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pitąek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
@@ -386,9 +386,9 @@
     <field name="REGON">237260358</field>
     <field name="Data zezwolenia">20200329</field>
     <field name="Numer decyzji">DFI/479/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">89072146593</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Koawlczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">89032173953</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sdaowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets sp. z o.o.</field>
@@ -399,9 +399,9 @@
     <field name="REGON">237339545</field>
     <field name="Data zezwolenia">04/03/2024</field>
     <field name="Numer decyzji">DFI/267/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">90082847941</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">90042875302</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade S.A.</field>
@@ -412,9 +412,9 @@
     <field name="REGON">237418730</field>
     <field name="Data zezwolenia">2023/05/03</field>
     <field name="Numer decyzji">DFI/562/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">91090749335</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">91050776696</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker Services S.A.</field>
@@ -425,22 +425,22 @@
     <field name="REGON">237577115</field>
     <field name="Data zezwolenia">10-01-2019</field>
     <field name="Numer decyzji">DFI/725/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">92101450680</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">92061478045</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets Services spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Kupiecka 22, 65-058 Zielona Góra</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
-    <field name="KRS">0000003209</field>
+    <field name="KRS">000000320</field>
     <field name="NIP">1237418735</field>
     <field name="REGON">237577115</field>
     <field name="Data zezwolenia">2020-10-10</field>
     <field name="Numer decyzji">DFI/884/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">93112152077</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">93072179431</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
@@ -451,9 +451,9 @@
     <field name="REGON">237656300</field>
     <field name="Data zezwolenia">20201212</field>
     <field name="Numer decyzji">DFI/947/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">94122853426</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">94082880784</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets Finanse S.A.</field>
@@ -464,9 +464,9 @@
     <field name="REGON">237735494</field>
     <field name="Data zezwolenia">14/09/2017</field>
     <field name="Numer decyzji">DFI/954/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">95010754814</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">95090782178</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
@@ -477,9 +477,9 @@
     <field name="REGON">237893879</field>
     <field name="Data zezwolenia">2025/02/08</field>
     <field name="Numer decyzji">DFI/484/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">96021456164</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">96101483529</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital Markets sp. z o.o.</field>
@@ -490,9 +490,9 @@
     <field name="REGON">237893879</field>
     <field name="Data zezwolenia">10-03-2018</field>
     <field name="Numer decyzji">DFI/221/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">97032157550</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">97112184915</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -503,9 +503,9 @@
     <field name="REGON">237973064</field>
     <field name="Data zezwolenia">2018-23-07</field>
     <field name="Numer decyzji">DFI/368/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">98042858909</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">98122886266</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets S.A.</field>
@@ -513,12 +513,12 @@
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000003791</field>
     <field name="NIP">1237893873</field>
-    <field name="REGON">338052254</field>
+    <field name="REGON">238052254</field>
     <field name="Data zezwolenia">20220325</field>
     <field name="Numer decyzji">DFI/282/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">99050760297</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">99010787654</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
@@ -529,9 +529,9 @@
     <field name="REGON">238210635</field>
     <field name="Data zezwolenia">19/05/2019</field>
     <field name="Numer decyzji">DFI/433/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">00261461640</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak-Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">00221489008</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
@@ -542,22 +542,22 @@
     <field name="REGON">238210635</field>
     <field name="Data zezwolenia">2017/21/07</field>
     <field name="Numer decyzji">DFI/962/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">01272163037</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+    <field name="CzlonekZarzadu1_PESEL">01232190398</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">175, 58-100 Świdnica</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
-    <field name="KRS">000000408</field>
+    <field name="KRS">0000004082</field>
     <field name="NIP">1238131444</field>
     <field name="REGON">238289826</field>
     <field name="Data zezwolenia">20-12-2022</field>
     <field name="Numer decyzji">DFI/111/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">02282864387</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">02242891747</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
@@ -568,9 +568,9 @@
     <field name="REGON">238369011</field>
     <field name="Data zezwolenia">2023-28-03</field>
     <field name="Numer decyzji">DFI/539/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">03290765770</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">03250793131</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
@@ -581,9 +581,9 @@
     <field name="REGON">238448207</field>
     <field name="Data zezwolenia">20230831</field>
     <field name="Numer decyzji">DFI/758/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">04301467122</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+    <field name="CzlonekZarzadu1_PESEL">04261494480</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments sp z oo</field>
@@ -594,9 +594,9 @@
     <field name="REGON">238527390</field>
     <field name="Data zezwolenia">02/06/2017</field>
     <field name="Numer decyzji">DFI/341/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">05312168518</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">05272195876</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
@@ -607,9 +607,9 @@
     <field name="REGON">238606586</field>
     <field name="Data zezwolenia">2020/25/10</field>
     <field name="Numer decyzji">DFI/495/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">60122869864</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">60082897222</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp z oo</field>
@@ -620,9 +620,9 @@
     <field name="REGON">238685775</field>
     <field name="Data zezwolenia">11-11-2017</field>
     <field name="Numer decyzji">DFI/662/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">61010771256</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">61090798615</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
@@ -633,9 +633,9 @@
     <field name="REGON">238764960</field>
     <field name="Data zezwolenia">2018-31-08</field>
     <field name="Numer decyzji">DFI/578/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">62021472604</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">62101499967</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments Services sp. z o.o.</field>
@@ -646,9 +646,9 @@
     <field name="REGON">238844156</field>
     <field name="Data zezwolenia">20240428</field>
     <field name="Numer decyzji">DFI/725/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">63032173991</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">63112101357</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
@@ -659,9 +659,9 @@
     <field name="REGON">238923341</field>
     <field name="Data zezwolenia">15/05/2024</field>
     <field name="Numer decyzji">DFI/229/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">64042875341</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+    <field name="CzlonekZarzadu1_PESEL">64122802706</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Services SP Z O O</field>
@@ -672,9 +672,9 @@
     <field name="REGON">239002531</field>
     <field name="Data zezwolenia">2025/14/08</field>
     <field name="Numer decyzji">DFI/966/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">65050776734</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">65010704096</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Markets sp z oo</field>
@@ -685,9 +685,9 @@
     <field name="REGON">239081720</field>
     <field name="Data zezwolenia">24-06-2020</field>
     <field name="Numer decyzji">DFI/328/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">76061478084</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">66021405444</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
@@ -698,9 +698,9 @@
     <field name="REGON">239160916</field>
     <field name="Data zezwolenia">2023-05-11</field>
     <field name="Numer decyzji">DFI/290/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">67072179470</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">67032106830</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade sp. z o.o.</field>
@@ -711,22 +711,22 @@
     <field name="REGON">239240101</field>
     <field name="Data zezwolenia">20210205</field>
     <field name="Numer decyzji">DFI/278/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">68082880822</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">68042808181</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Markets sp z oo</field>
     <field name="Adres siedziby">Staszica 36, 22-400 Zamość</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000005343</field>
-    <field name="NIP">1239160910</field>
+    <field name="NIP">2239160910</field>
     <field name="REGON">239319297</field>
     <field name="Data zezwolenia">27/03/2022</field>
     <field name="Numer decyzji">DFI/936/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">69090782216</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_PESEL">69050709574</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Markets spółka z ograniczoną odpowiedzialnością</field>
@@ -737,9 +737,9 @@
     <field name="REGON">239398486</field>
     <field name="Data zezwolenia">2019/15/06</field>
     <field name="Numer decyzji">DFI/181/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">70101483567</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+    <field name="CzlonekZarzadu1_PESEL">70061410924</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">aMzovia Broker Techonlogie Spółka Akcyjna</field>
@@ -750,9 +750,9 @@
     <field name="REGON">239477671</field>
     <field name="Data zezwolenia">17-06-2022</field>
     <field name="Numer decyzji">DF/574/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">71112184953</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czanrecki</field>
+    <field name="CzlonekZarzadu1_PESEL">71072112311</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Technologie Spółka Akcyjna</field>
@@ -763,9 +763,9 @@
     <field name="REGON">239556867</field>
     <field name="Data zezwolenia">2023-09-07</field>
     <field name="Numer decyzji">DFI/474/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">72122886303</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_PESEL">72082813661</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
@@ -776,9 +776,9 @@
     <field name="REGON">239636052</field>
     <field name="Data zezwolenia">20220603</field>
     <field name="Numer decyzji">DFI/451/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">73010787692</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_PESEL">73090715055</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
@@ -789,9 +789,9 @@
     <field name="REGON">239715248</field>
     <field name="Data zezwolenia">31/12/2019</field>
     <field name="Numer decyzji">DFI/317/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">74021489041</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">74101416406</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -802,9 +802,9 @@
     <field name="REGON">239794437</field>
     <field name="Data zezwolenia">2017/12/07</field>
     <field name="Numer decyzji">DFI/831/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">75032190430</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">75112117793</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital Services spółka z ograniczoną odpowiedzialnością</field>
@@ -815,9 +815,9 @@
     <field name="REGON">239873622</field>
     <field name="Data zezwolenia">13-05-2017</field>
     <field name="Numer decyzji">DFI/156/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">76042891780</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">76122819143</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory sp z oo</field>
@@ -828,22 +828,22 @@
     <field name="REGON">239952818</field>
     <field name="Data zezwolenia">2017-11-08</field>
     <field name="Numer decyzji">DFI/715/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">77050793174</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">77010720534</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Spółka Akcyjna</field>
     <field name="Adres siedziby">ul. Mickiewicza 9/23, 27-600 Sandomierz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000006216</field>
-    <field name="NIP">2239873627</field>
+    <field name="NIP">1239873627</field>
     <field name="REGON">240032008</field>
     <field name="Data zezwolenia">20171221</field>
     <field name="Numer decyzji">DFI/954/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">78061494522</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">78021421883</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -854,9 +854,9 @@
     <field name="REGON">240111191</field>
     <field name="Data zezwolenia">21/12/2020</field>
     <field name="Numer decyzji">DFI/775/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">79072195918</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+    <field name="CzlonekZarzadu1_PESEL">79032123270</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
@@ -867,9 +867,9 @@
     <field name="REGON">240190380</field>
     <field name="Data zezwolenia">2020/18/10</field>
     <field name="Numer decyzji">DFI/940/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">80082897268</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+    <field name="CzlonekZarzadu1_PESEL">80042824628</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital Spółka Akcyjna</field>
@@ -880,9 +880,9 @@
     <field name="REGON">240269578</field>
     <field name="Data zezwolenia">26-08-2021</field>
     <field name="Numer decyzji">DFI/160/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">81090798651</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+    <field name="CzlonekZarzadu1_PESEL">81050726012</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
@@ -893,9 +893,9 @@
     <field name="REGON">240348763</field>
     <field name="Data zezwolenia">2018-20-09</field>
     <field name="Numer decyzji">DFI/624/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">82101400006</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">82061427361</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply Polska Spółka Akcyjna</field>
@@ -906,9 +906,9 @@
     <field name="REGON">240427959</field>
     <field name="Data zezwolenia">20251017</field>
     <field name="Numer decyzji">DFI/589/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">83112101393</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">83072128757</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Markets spółka z ograniczoną odpowiedzialnością</field>
@@ -919,9 +919,9 @@
     <field name="REGON">240507144</field>
     <field name="Data zezwolenia">2021-11-18T05:05:25Z</field>
     <field name="Numer decyzji">DFI/989/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">84122802742</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">84082830100</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Markets sp. z o.o.</field>
@@ -932,9 +932,9 @@
     <field name="REGON">240586333</field>
     <field name="Data zezwolenia">2019/11/01</field>
     <field name="Numer decyzji">DFI/513/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">85010704131</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">85090731494</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
@@ -945,9 +945,9 @@
     <field name="REGON">240665529</field>
     <field name="Data zezwolenia">29-08-2024</field>
     <field name="Numer decyzji">DFI/565/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">86021405480</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">60021406849</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
@@ -958,9 +958,9 @@
     <field name="REGON">240744714</field>
     <field name="Data zezwolenia">2024-23-04</field>
     <field name="Numer decyzji">DFI/830/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">87032106876</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">61032108236</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Finanse sp z oo</field>
@@ -968,12 +968,12 @@
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007186</field>
     <field name="NIP">1240665521</field>
-    <field name="REGON">240903093</field>
+    <field name="REGON">340903093</field>
     <field name="Data zezwolenia">20230115</field>
     <field name="Numer decyzji">DFI/832/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">88042808226</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">62042809586</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -984,9 +984,9 @@
     <field name="REGON">240903093</field>
     <field name="Data zezwolenia">16/01/2017</field>
     <field name="Numer decyzji">DFI/322/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">89050709619</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">63050710972</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest SP Z O O</field>
@@ -997,9 +997,9 @@
     <field name="REGON">240982282</field>
     <field name="Data zezwolenia">2020/15/11</field>
     <field name="Numer decyzji">DFI/268/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">90061410960</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">64061412321</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
@@ -1010,9 +1010,9 @@
     <field name="REGON">241061472</field>
     <field name="Data zezwolenia">04-01-2022</field>
     <field name="Numer decyzji">DFI/791/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">91072112357</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">65072113717</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech sp. z o.o.</field>
@@ -1023,9 +1023,9 @@
     <field name="REGON">241140668</field>
     <field name="Data zezwolenia">2019-16-03</field>
     <field name="Numer decyzji">DFI/295/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">92082813706</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">66082815068</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade S.A.</field>
@@ -1036,9 +1036,9 @@
     <field name="REGON">241219855</field>
     <field name="Data zezwolenia">20240416</field>
     <field name="Numer decyzji">DFI/333/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">93090715091</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">67090716451</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
@@ -1049,9 +1049,9 @@
     <field name="REGON">241299044</field>
     <field name="Data zezwolenia">28/05/2018</field>
     <field name="Numer decyzji">DFI/462/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">94101416442</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak-Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">68101417802</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics Polska Spółka Akcyjna</field>
@@ -1062,22 +1062,22 @@
     <field name="REGON">241457425</field>
     <field name="Data zezwolenia">2022/16/04</field>
     <field name="Numer decyzji">DFI/906/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">95112117838</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+    <field name="CzlonekZarzadu1_PESEL">69112119190</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade sp z oo</field>
     <field name="Adres siedziby">ulica Krakowskie Przedmieście 135, 20-002 Lublin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
-    <field name="KRS">0000007962</field>
+    <field name="KRS">000000796</field>
     <field name="NIP">1241299047</field>
     <field name="REGON">241457425</field>
     <field name="Data zezwolenia">01-12-2022</field>
     <field name="Numer decyzji">DFI/144/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">96122819189</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">70122820541</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -1088,9 +1088,9 @@
     <field name="REGON">241536610</field>
     <field name="Data zezwolenia">2025-10-07</field>
     <field name="Numer decyzji">DFI/112/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">97010720570</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">71010721939</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions SP Z O O</field>
@@ -1101,9 +1101,9 @@
     <field name="REGON">241615806</field>
     <field name="Data zezwolenia">20240325</field>
     <field name="Numer decyzji">DFI/231/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">98021421928</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+    <field name="CzlonekZarzadu1_PESEL">72021423289</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Finanse spółka z ograniczoną odpowiedzialnością</field>
@@ -1114,9 +1114,9 @@
     <field name="REGON">241694993</field>
     <field name="Data zezwolenia">22/08/2024</field>
     <field name="Numer decyzji">DFI/775/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">99032123315</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">73032124675</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Technologie SP Z O O</field>
@@ -1127,9 +1127,9 @@
     <field name="REGON">241774189</field>
     <field name="Data zezwolenia">2021/19/08</field>
     <field name="Numer decyzji">DFI/103/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">00242824660</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">74042826025</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply Holding S.A.</field>
@@ -1140,9 +1140,9 @@
     <field name="REGON">241853374</field>
     <field name="Data zezwolenia">17-08-2025</field>
     <field name="Numer decyzji">DFI/506/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">01250726054</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">75050727418</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital SP Z O O</field>
@@ -1153,9 +1153,9 @@
     <field name="REGON">242090949</field>
     <field name="Data zezwolenia">2020-26-11</field>
     <field name="Numer decyzji">DFI/149/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">02261427402</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">76061428767</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Finanse S.A.</field>
@@ -1163,12 +1163,12 @@
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008641</field>
     <field name="NIP">1241853377</field>
-    <field name="REGON">342090949</field>
+    <field name="REGON">242090949</field>
     <field name="Data zezwolenia">20190513</field>
     <field name="Numer decyzji">DFI/199/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">03272128799</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">77072130157</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
@@ -1179,22 +1179,22 @@
     <field name="REGON">242090949</field>
     <field name="Data zezwolenia">27/11/2024</field>
     <field name="Numer decyzji">DFI/870/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">04282830142</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+    <field name="CzlonekZarzadu1_PESEL">78082831506</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
     <field name="Adres siedziby">Piłsudskiego 108, 35-074 Rzeszów</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
-    <field name="KRS">000000883</field>
+    <field name="KRS">0000008835</field>
     <field name="NIP">1242011752</field>
     <field name="REGON">242170134</field>
     <field name="Data zezwolenia">2023/13/10</field>
     <field name="Numer decyzji">DFI/121/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">05290731535</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">79090732890</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Services S.A.</field>
@@ -1205,9 +1205,9 @@
     <field name="REGON">242249321</field>
     <field name="Data zezwolenia">03-08-2021</field>
     <field name="Numer decyzji">DFI/382/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">60101432883</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">80101434241</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets sp z oo</field>
@@ -1218,9 +1218,9 @@
     <field name="REGON">242328517</field>
     <field name="Data zezwolenia">2024-06-01</field>
     <field name="Numer decyzji">DFI/542/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">61112134270</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">81112135637</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics Polska S.A.</field>
@@ -1231,9 +1231,9 @@
     <field name="REGON">242407702</field>
     <field name="Data zezwolenia">20210207</field>
     <field name="Numer decyzji">DFI/765/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">62122835629</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">82122836987</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data spółka z ograniczoną odpowiedzialnością</field>
@@ -1244,9 +1244,9 @@
     <field name="REGON">242566085</field>
     <field name="Data zezwolenia">30/11/2023</field>
     <field name="Numer decyzji">DFI/559/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">63010737018</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_PESEL">83010738376</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp z oo</field>
@@ -1257,9 +1257,9 @@
     <field name="REGON">242566085</field>
     <field name="Data zezwolenia">2025/17/08</field>
     <field name="Numer decyzji">DFI/762/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">64021438367</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+    <field name="CzlonekZarzadu1_PESEL">84021439724</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
@@ -1270,9 +1270,9 @@
     <field name="REGON">242645270</field>
     <field name="Data zezwolenia">04-01-2023</field>
     <field name="Numer decyzji">DFI/153/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">65032139753</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+    <field name="CzlonekZarzadu1_PESEL">85032141114</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
@@ -1283,9 +1283,9 @@
     <field name="REGON">242724466</field>
     <field name="Data zezwolenia">2023-04-07</field>
     <field name="Numer decyzji">DFI/360/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">66042841106</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_PESEL">86042842464</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
@@ -1296,9 +1296,9 @@
     <field name="REGON">242803651</field>
     <field name="Data zezwolenia">20210107</field>
     <field name="Numer decyzji">DFI/548/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">67050742490</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_PESEL">87050743857</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
@@ -1309,9 +1309,9 @@
     <field name="REGON">242882840</field>
     <field name="Data zezwolenia">21/04/2021</field>
     <field name="Numer decyzji">DFI/466/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">68061443848</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">88061445206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
@@ -1322,9 +1322,9 @@
     <field name="REGON">242962036</field>
     <field name="Data zezwolenia">2023/09/06</field>
     <field name="Numer decyzji">DFI/791/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">79072145235</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">89072146593</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
@@ -1335,9 +1335,9 @@
     <field name="REGON">243041226</field>
     <field name="Data zezwolenia">05-02-2022</field>
     <field name="Numer decyzji">DFI/971/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">70082846584</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">70042873944</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest Services sp z oo</field>
@@ -1348,22 +1348,22 @@
     <field name="REGON">243120411</field>
     <field name="Data zezwolenia">2018-10-06</field>
     <field name="Numer decyzji">DFI/933/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">71090747977</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">71050775338</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services Technologie sp. z o.o.</field>
     <field name="Adres siedziby">ul. Sienkiewicza 149/3, 32-020 Wieliczka</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000010096</field>
-    <field name="NIP">1243041229</field>
+    <field name="NIP">2243041229</field>
     <field name="REGON">243199602</field>
     <field name="Data zezwolenia">20180123</field>
     <field name="Numer decyzji">DFI/547/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">72101449329</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">72061476687</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments S.A.</field>
@@ -1374,9 +1374,9 @@
     <field name="REGON">243278796</field>
     <field name="Data zezwolenia">18/08/2024</field>
     <field name="Numer decyzji">DFI/576/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">73112150718</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+    <field name="CzlonekZarzadu1_PESEL">73072178074</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Holding spółka z ograniczoną odpowiedzialnością</field>
@@ -1387,9 +1387,9 @@
     <field name="REGON"></field>
     <field name="Data zezwolenia">2020/18/01</field>
     <field name="Numer decyzji">DFI/532/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">74122852069</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+    <field name="CzlonekZarzadu1_PESEL">74082879423</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
@@ -1400,9 +1400,9 @@
     <field name="REGON">243437177</field>
     <field name="Data zezwolenia">12-11-2024</field>
     <field name="Numer decyzji">FD/168/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">75010753457</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniweski</field>
+    <field name="CzlonekZarzadu1_PESEL">75090780819</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
@@ -1413,9 +1413,9 @@
     <field name="REGON">243516362</field>
     <field name="Data zezwolenia">2018-04-03</field>
     <field name="Numer decyzji">DFI/701/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">76021454805</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">76101482162</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker Markets Spółka Akcyjna</field>
@@ -1426,9 +1426,9 @@
     <field name="REGON">243595551</field>
     <field name="Data zezwolenia">20200814</field>
     <field name="Numer decyzji">DFI/800/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">77032156193</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">77112183558</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services spółka z ograniczoną odpowiedzialnością</field>
@@ -1439,9 +1439,9 @@
     <field name="REGON">243674747</field>
     <field name="Data zezwolenia">06/11/2019</field>
     <field name="Numer decyzji">DFI/616/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">78042857542</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">78122884907</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
@@ -1452,9 +1452,9 @@
     <field name="REGON">243753932</field>
     <field name="Data zezwolenia">2025/20/05</field>
     <field name="Numer decyzji">DFI/694/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">79050758935</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">79010786297</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Technologie SP Z O O</field>
@@ -1465,22 +1465,22 @@
     <field name="REGON">243833128</field>
     <field name="Data zezwolenia">02-05-2022</field>
     <field name="Numer decyzji">DFI/491/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">80061460287</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">80021487644</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Spolka Akcyjna</field>
     <field name="Adres siedziby">ul Sobieskiego 122, 84-200 Wejherowo</field>
     <field name="Zakres czynności">wykonywanie zlecen na rachunek klientow</field>
     <field name="KRS">0000010969</field>
-    <field name="NIP">2243753935</field>
+    <field name="NIP">1243753935</field>
     <field name="REGON">243912313</field>
     <field name="Data zezwolenia">2017-03-01</field>
     <field name="Numer decyzji">DFI/675/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">81072161673</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">81032189031</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments Holding sp z oo</field>
@@ -1491,9 +1491,9 @@
     <field name="REGON">243991502</field>
     <field name="Data zezwolenia">20180819</field>
     <field name="Numer decyzji">DFI/362/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">82082863023</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">82042890384</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Markets SP Z O O</field>
@@ -1504,9 +1504,9 @@
     <field name="REGON">244070690</field>
     <field name="Data zezwolenia">26/07/2020</field>
     <field name="Numer decyzji">DFI/632/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">83090764416</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">83050791777</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets Spółka Akcyjna</field>
@@ -1517,9 +1517,9 @@
     <field name="REGON">244149888</field>
     <field name="Data zezwolenia">2019/20/01</field>
     <field name="Numer decyzji">DFI/122/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">84101465768</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">84061493126</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
@@ -1530,9 +1530,9 @@
     <field name="REGON">244229073</field>
     <field name="Data zezwolenia">26-07-2023</field>
     <field name="Numer decyzji">DFI/428/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">85112167155</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">85072194512</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets S.A.</field>
@@ -1543,9 +1543,9 @@
     <field name="REGON">244308269</field>
     <field name="Data zezwolenia">2025-27-01</field>
     <field name="Numer decyzji">DFI/548/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">86122868504</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">86082895862</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Dta Spółka Akcyjna</field>
@@ -1556,9 +1556,9 @@
     <field name="REGON">244387458</field>
     <field name="Data zezwolenia">20190316</field>
     <field name="Numer decyzji">DFI/806/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">87010769893</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">87090797256</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital S.A.</field>
@@ -1569,9 +1569,9 @@
     <field name="REGON">244466643</field>
     <field name="Data zezwolenia">13/05/2017</field>
     <field name="Numer decyzji">DFI/895/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">88021471245</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak-Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">88101498607</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics Holding S.A.</field>
@@ -1582,9 +1582,9 @@
     <field name="REGON">244545839</field>
     <field name="Data zezwolenia">2019/25/10</field>
     <field name="Numer decyzji">DFI/540/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">89032172631</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+    <field name="CzlonekZarzadu1_PESEL">89112199994</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
@@ -1595,9 +1595,9 @@
     <field name="REGON">244625024</field>
     <field name="Data zezwolenia">30-06-2017</field>
     <field name="Numer decyzji">DFI/925/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">90042873980</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">90122801346</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics Spółka Akcyjna</field>
@@ -1608,9 +1608,9 @@
     <field name="REGON">244783409</field>
     <field name="Data zezwolenia">2024-28-12</field>
     <field name="Numer decyzji">DFI/439/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">91050775374</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">91010702734</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance Markets Spółka Akcyjna</field>
@@ -1618,12 +1618,12 @@
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000012036</field>
     <field name="NIP">1244625027</field>
-    <field name="REGON">244783409</field>
+    <field name="REGON">344783409</field>
     <field name="Data zezwolenia">20200817</field>
     <field name="Numer decyzji">DFI/490/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">92061476722</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+    <field name="CzlonekZarzadu1_PESEL">92021404084</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest S.A.</field>
@@ -1634,9 +1634,9 @@
     <field name="REGON">244862592</field>
     <field name="Data zezwolenia">09/09/2021</field>
     <field name="Numer decyzji">DFI/132/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">93072178119</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">93032105470</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest Polska spółka z ograniczoną odpowiedzialnością</field>
@@ -1647,9 +1647,9 @@
     <field name="REGON">244941788</field>
     <field name="Data zezwolenia">2025/02/02</field>
     <field name="Numer decyzji">DFI/833/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">94082879469</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">94042806829</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
@@ -1660,9 +1660,9 @@
     <field name="REGON">245020978</field>
     <field name="Data zezwolenia">11-09-2018</field>
     <field name="Numer decyzji">DFI/985/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">95090780855</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">95050708213</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
@@ -1673,9 +1673,9 @@
     <field name="REGON">245100163</field>
     <field name="Data zezwolenia">2021-29-01</field>
     <field name="Numer decyzji">DFI/126/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">96101482207</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">96061409562</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -1686,9 +1686,9 @@
     <field name="REGON">245179354</field>
     <field name="Data zezwolenia">20220731</field>
     <field name="Numer decyzji">DFI/191/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">97112183594</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">97072110951</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -1699,22 +1699,22 @@
     <field name="REGON">245337735</field>
     <field name="Data zezwolenia">15/04/2023</field>
     <field name="Numer decyzji">DFI/719/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">98122884943</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+    <field name="CzlonekZarzadu1_PESEL">98082812301</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
     <field name="Adres siedziby">Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
-    <field name="KRS">0000012715</field>
+    <field name="KRS">000001271</field>
     <field name="NIP">1245179357</field>
     <field name="REGON">245337735</field>
     <field name="Data zezwolenia">2025/28/08</field>
     <field name="Numer decyzji">DFI/152/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">99010786332</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">99090713695</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest sp z oo</field>
@@ -1725,9 +1725,9 @@
     <field name="REGON">245416920</field>
     <field name="Data zezwolenia">30-10-2022</field>
     <field name="Numer decyzji">DFI/828/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">00221487686</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">00301415042</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
@@ -1738,9 +1738,9 @@
     <field name="REGON">245575305</field>
     <field name="Data zezwolenia">2017-31-01</field>
     <field name="Numer decyzji">DFI/381/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">01232189073</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">01312116438</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade sp z oo</field>
@@ -1751,9 +1751,9 @@
     <field name="REGON">245575305</field>
     <field name="Data zezwolenia">20201220</field>
     <field name="Numer decyzji">DFI/427/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">02242890425</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">02322817788</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
@@ -1764,9 +1764,9 @@
     <field name="REGON">245654499</field>
     <field name="Data zezwolenia">28/09/2019</field>
     <field name="Numer decyzji">DFI/521/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">03250791818</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_PESEL">03210719177</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
@@ -1777,9 +1777,9 @@
     <field name="REGON">245733684</field>
     <field name="Data zezwolenia">2023/13/11</field>
     <field name="Numer decyzji">DFI/722/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">04261493168</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+    <field name="CzlonekZarzadu1_PESEL">04221420528</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
@@ -1790,9 +1790,9 @@
     <field name="REGON">245892069</field>
     <field name="Data zezwolenia">16-07-2020</field>
     <field name="Numer decyzji">DFI/319/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">05272194554</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+    <field name="CzlonekZarzadu1_PESEL">05232121914</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
@@ -1803,9 +1803,9 @@
     <field name="REGON">245892069</field>
     <field name="Data zezwolenia">2019-27-01</field>
     <field name="Numer decyzji">DFI/909/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">60082895909</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_PESEL">60042823261</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
@@ -1813,25 +1813,25 @@
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000013491</field>
     <field name="NIP">1245812872</field>
-    <field name="REGON">345971254</field>
+    <field name="REGON">245971254</field>
     <field name="Data zezwolenia">20190101</field>
     <field name="Numer decyzji">DFI/304/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">61090797294</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_PESEL">61050724654</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics sp. z o.o.</field>
     <field name="Adres siedziby">ul. Święty Marcin 41/21, 61-806 Poznań</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
-    <field name="KRS">000001358</field>
+    <field name="KRS">0000013588</field>
     <field name="NIP">1245892061</field>
     <field name="REGON">246050444</field>
     <field name="Data zezwolenia">03/04/2023</field>
     <field name="Numer decyzji">DFI/662/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">62101498645</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">62061426003</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -1842,9 +1842,9 @@
     <field name="REGON">246129631</field>
     <field name="Data zezwolenia">2017/29/11</field>
     <field name="Numer decyzji">DFI/522/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">63112100035</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">63072127390</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
@@ -1855,9 +1855,9 @@
     <field name="REGON">246208827</field>
     <field name="Data zezwolenia">30-10-2025</field>
     <field name="Numer decyzji">DFI/372/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">64122801385</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">64082828749</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics spółka z ograniczoną odpowiedzialnością</field>
@@ -1868,9 +1868,9 @@
     <field name="REGON">246288016</field>
     <field name="Data zezwolenia">2022-08-05</field>
     <field name="Numer decyzji">DFI/731/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">65010702773</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">65090730136</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
@@ -1881,9 +1881,9 @@
     <field name="REGON">246367201</field>
     <field name="Data zezwolenia">20251006</field>
     <field name="Numer decyzji">DFI/588/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">66021404122</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">76101431488</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Technologie SP Z O O</field>
@@ -1894,9 +1894,9 @@
     <field name="REGON">246446395</field>
     <field name="Data zezwolenia">28/09/2021</field>
     <field name="Numer decyzji">DFI/740/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">67032105518</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+    <field name="CzlonekZarzadu1_PESEL">67112132874</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital Technologie S.A.</field>
@@ -1907,9 +1907,9 @@
     <field name="REGON">246525580</field>
     <field name="Data zezwolenia">2021/03/03</field>
     <field name="Numer decyzji">DFI/121/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">68042806868</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+    <field name="CzlonekZarzadu1_PESEL">68122834224</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services SP Z O O</field>
@@ -1920,9 +1920,9 @@
     <field name="REGON">246604776</field>
     <field name="Data zezwolenia">23-12-2021</field>
     <field name="Numer decyzji">DFI/364/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">69050708252</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+    <field name="CzlonekZarzadu1_PESEL">69010735612</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments Services Spółka Akcyjna</field>
@@ -1933,9 +1933,9 @@
     <field name="REGON">246683965</field>
     <field name="Data zezwolenia">2021-21-03</field>
     <field name="Numer decyzji">DFI/277/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">70061409609</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">70021436960</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
@@ -1946,9 +1946,9 @@
     <field name="REGON">246763150</field>
     <field name="Data zezwolenia">20200217</field>
     <field name="Numer decyzji"></field>
-    <field name="CzlonekZarzadu1_PESEL">71072110999</field>
+    <field name="CzlonekZarzadu1_PESEL">71032138357</field>
     <field name="CzlonekZarzadu1_Imie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments sp z oo</field>
@@ -1959,9 +1959,9 @@
     <field name="REGON">246842346</field>
     <field name="Data zezwolenia">21/06/2023</field>
     <field name="Numer decyzji">DFI/877/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">82082812349</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">72042839706</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
@@ -1972,9 +1972,9 @@
     <field name="REGON">246921531</field>
     <field name="Data zezwolenia">2019/09/11</field>
     <field name="Numer decyzji">DFI/579/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">73090713732</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">73050741094</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -1985,22 +1985,22 @@
     <field name="REGON">247000721</field>
     <field name="Data zezwolenia">07-03-2018</field>
     <field name="Numer decyzji">DFI/474/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">74101415085</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">74061442442</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
     <field name="Adres siedziby">ul Dworcowa 82, 85-009 Bydgoszcz</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000014849</field>
-    <field name="NIP">1246921534</field>
+    <field name="NIP">2246921534</field>
     <field name="REGON">247079912</field>
     <field name="Data zezwolenia">2025-20-03</field>
     <field name="Numer decyzji">DFI/570/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">75112116471</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">75072143838</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets sp z oo</field>
@@ -2011,9 +2011,9 @@
     <field name="REGON">247159108</field>
     <field name="Data zezwolenia">20231126</field>
     <field name="Numer decyzji">DFI/699/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">76122817820</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">76082845189</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
@@ -2024,9 +2024,9 @@
     <field name="REGON">247238291</field>
     <field name="Data zezwolenia">17/11/2025</field>
     <field name="Numer decyzji">DFI/289/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">77010719219</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">77090746572</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data sp z oo</field>
@@ -2037,9 +2037,9 @@
     <field name="REGON">247317487</field>
     <field name="Data zezwolenia">2018/01/09</field>
     <field name="Numer decyzji">DFI/284/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">78021420561</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">78101447923</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Helios Markets spół  ograniczoną odpowiedzialnością</field>
@@ -2050,9 +2050,9 @@
     <field name="REGON">247396676</field>
     <field name="Data zezwolenia">11-07-2021</field>
     <field name="Numer decyzji">DF/392/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">79032121957</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">79112149310</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker sp z oo</field>
@@ -2063,9 +2063,9 @@
     <field name="REGON">247475861</field>
     <field name="Data zezwolenia">2024-10-09</field>
     <field name="Numer decyzji">DFI/355/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">80042823306</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">80122850662</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
@@ -2076,9 +2076,9 @@
     <field name="REGON">247555057</field>
     <field name="Data zezwolenia">20181105</field>
     <field name="Numer decyzji">DFI/298/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">81050724690</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">81010752051</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
@@ -2089,9 +2089,9 @@
     <field name="REGON">247634242</field>
     <field name="Data zezwolenia">19/07/2017</field>
     <field name="Numer decyzji">DFI/721/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">82061426049</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak-Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">82021453409</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Quantum Services sp z oo</field>
@@ -2102,22 +2102,22 @@
     <field name="REGON">247713438</field>
     <field name="Data zezwolenia">2018/10/12</field>
     <field name="Numer decyzji">DFI/641/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">83072127435</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+    <field name="CzlonekZarzadu1_PESEL">83032154796</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
     <field name="Adres siedziby">ulica Krakowska 55, 45-018 Opole</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000015722</field>
-    <field name="NIP">2247634245</field>
+    <field name="NIP">1247634245</field>
     <field name="REGON">247792627</field>
     <field name="Data zezwolenia">28-02-2021</field>
     <field name="Numer decyzji">DFI/149/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">84082828785</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">84042856146</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Services spółka z ograniczoną odpowiedzialnością</field>
@@ -2128,9 +2128,9 @@
     <field name="REGON">247871812</field>
     <field name="Data zezwolenia">2022-27-08</field>
     <field name="Numer decyzji">DFI/897/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">85090730172</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">85050757539</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker sp. z o.o.</field>
@@ -2141,9 +2141,9 @@
     <field name="REGON">247951008</field>
     <field name="Data zezwolenia">20251104</field>
     <field name="Numer decyzji">DFI/936/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">86101431523</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+    <field name="CzlonekZarzadu1_PESEL">86061458888</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
@@ -2154,9 +2154,9 @@
     <field name="REGON">248030196</field>
     <field name="Data zezwolenia">04/07/2023</field>
     <field name="Numer decyzji">DFI/858/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">87112132919</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">87072160278</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
@@ -2167,9 +2167,9 @@
     <field name="REGON">248109383</field>
     <field name="Data zezwolenia">2017/29/08</field>
     <field name="Numer decyzji">DFI/573/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">88122834260</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">88082861627</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
@@ -2180,9 +2180,9 @@
     <field name="REGON">248188572</field>
     <field name="Data zezwolenia">12/05/2018 06:24</field>
     <field name="Numer decyzji">DFI/932/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">89010735658</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">89090763011</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Technologie Spółka Akcyjna</field>
@@ -2193,9 +2193,9 @@
     <field name="REGON">248267768</field>
     <field name="Data zezwolenia">2022-09-08</field>
     <field name="Numer decyzji">DFI/282/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">90021437006</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">90101464362</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nova Data Finanse SP Z O O</field>
@@ -2206,9 +2206,9 @@
     <field name="REGON">248346953</field>
     <field name="Data zezwolenia">20200424</field>
     <field name="Numer decyzji">DFI/438/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">91032138393</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">91112165758</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
@@ -2219,9 +2219,9 @@
     <field name="REGON">248426149</field>
     <field name="Data zezwolenia">18/05/2024</field>
     <field name="Numer decyzji">DFI/448/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">92042839742</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+    <field name="CzlonekZarzadu1_PESEL">92122867108</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
@@ -2232,9 +2232,9 @@
     <field name="REGON">248505334</field>
     <field name="Data zezwolenia">2017/07/02</field>
     <field name="Numer decyzji">DFI/797/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">93050741139</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">93010768497</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
@@ -2245,9 +2245,9 @@
     <field name="REGON">248584523</field>
     <field name="Data zezwolenia">24-01-2022</field>
     <field name="Numer decyzji">DFI/639/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">94061442488</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">94021469845</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply Finanse sp. z o.o.</field>
@@ -2258,9 +2258,9 @@
     <field name="REGON">248663719</field>
     <field name="Data zezwolenia">2022-19-10</field>
     <field name="Numer decyzji">DFI/692/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">95072143874</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">95032171235</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Optima Trade Holding sp. z o.o.</field>
@@ -2268,12 +2268,12 @@
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016886</field>
     <field name="NIP">1248584526</field>
-    <field name="REGON">248742904</field>
+    <field name="REGON">348742904</field>
     <field name="Data zezwolenia">20190215</field>
     <field name="Numer decyzji">DFI/575/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">96082845224</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">96042872585</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
@@ -2284,9 +2284,9 @@
     <field name="REGON">248822098</field>
     <field name="Data zezwolenia">29/06/2023</field>
     <field name="Numer decyzji">DFI/293/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">97090746617</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_PESEL">97050773978</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
@@ -2297,9 +2297,9 @@
     <field name="REGON">248901283</field>
     <field name="Data zezwolenia">2023/25/06</field>
     <field name="Numer decyzji">DFI/236/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">98101447969</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+    <field name="CzlonekZarzadu1_PESEL">98061475327</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
@@ -2310,9 +2310,9 @@
     <field name="REGON">248980472</field>
     <field name="Data zezwolenia">02-11-2022</field>
     <field name="Numer decyzji">DFI/556/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">99112149356</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+    <field name="CzlonekZarzadu1_PESEL">99072176713</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
@@ -2323,9 +2323,9 @@
     <field name="REGON">249059664</field>
     <field name="Data zezwolenia">2020-29-10</field>
     <field name="Numer decyzji">DFI/905/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">00322850703</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_PESEL">00282878069</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nebula Analytics SP Z O O</field>
@@ -2336,22 +2336,22 @@
     <field name="REGON">249218045</field>
     <field name="Data zezwolenia">20201005</field>
     <field name="Numer decyzji">DFI/797/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">01210752093</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_PESEL">01290779452</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Lumen Advisory Holding spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. Głęboka 1/1, 43-400 Cieszyn</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
-    <field name="KRS">0000017468</field>
+    <field name="KRS">000001746</field>
     <field name="NIP">1249059667</field>
     <field name="REGON">249218045</field>
     <field name="Data zezwolenia">24/04/2020</field>
     <field name="Numer decyzji">DFI/831/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">02221453441</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">02301480806</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Polska SP Z O O</field>
@@ -2362,9 +2362,9 @@
     <field name="REGON">249297234</field>
     <field name="Data zezwolenia">2019/15/04</field>
     <field name="Numer decyzji">DFI/735/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">03232154837</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">03312182194</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest S.A.</field>
@@ -2375,9 +2375,9 @@
     <field name="REGON">249455615</field>
     <field name="Data zezwolenia">15-06-2025</field>
     <field name="Numer decyzji">DFI/687/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">04242856188</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">04322883543</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest Polska S.A.</field>
@@ -2388,9 +2388,9 @@
     <field name="REGON">249455615</field>
     <field name="Data zezwolenia">2024-30-07</field>
     <field name="Numer decyzji">DFI/823/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">05250757571</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">05210784931</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance spółka z ograniczoną odpowiedzialnością</field>
@@ -2401,9 +2401,9 @@
     <field name="REGON">249534800</field>
     <field name="Data zezwolenia">20190321</field>
     <field name="Numer decyzji">DFI/400/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">60061458925</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">60021486287</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest S.A.</field>
@@ -2414,9 +2414,9 @@
     <field name="REGON">249613994</field>
     <field name="Data zezwolenia">01/01/2018</field>
     <field name="Numer decyzji">DFI/448/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">61072160315</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+    <field name="CzlonekZarzadu1_PESEL">61032187673</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
@@ -2427,9 +2427,9 @@
     <field name="REGON">249693183</field>
     <field name="Data zezwolenia">2018/29/03</field>
     <field name="Numer decyzji">DFI/729/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">62082861665</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+    <field name="CzlonekZarzadu1_PESEL">62042889023</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
@@ -2440,9 +2440,9 @@
     <field name="REGON">249772379</field>
     <field name="Data zezwolenia">10-10-2017</field>
     <field name="Numer decyzji">DFI/533/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">63090763059</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+    <field name="CzlonekZarzadu1_PESEL">63050790419</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Amber Payments spółka z ograniczoną odpowiedzialnością</field>
@@ -2453,22 +2453,22 @@
     <field name="REGON">249851564</field>
     <field name="Data zezwolenia">2021-04-05</field>
     <field name="Numer decyzji">DFI/978/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">64101464400</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">64061491768</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
     <field name="Adres siedziby">ul Kościuszki 154, 16-400 Suwałki</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
-    <field name="KRS">000001834</field>
+    <field name="KRS">0000018341</field>
     <field name="NIP">1249772371</field>
-    <field name="REGON">350009941</field>
+    <field name="REGON">250009941</field>
     <field name="Data zezwolenia">20241113</field>
     <field name="Numer decyzji">DFI/407/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">65112165797</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">65072193155</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
@@ -2479,9 +2479,9 @@
     <field name="REGON">250009941</field>
     <field name="Data zezwolenia">08/10/2025</field>
     <field name="Numer decyzji">DFI/183/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">66122867147</field>
-    <field name="CzlonekZarzadu1_Imie">Magdalena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">66082894504</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
@@ -2492,9 +2492,9 @@
     <field name="REGON">250089130</field>
     <field name="Data zezwolenia">2025/09/03</field>
     <field name="Numer decyzji">DFI/154/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">67010768535</field>
-    <field name="CzlonekZarzadu1_Imie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">67090795898</field>
+    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -2505,9 +2505,9 @@
     <field name="REGON">250168326</field>
     <field name="Data zezwolenia">13-08-2021</field>
     <field name="Numer decyzji">DFI/493/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">68021469884</field>
-    <field name="CzlonekZarzadu1_Imie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">68101497240</field>
+    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Vistula Fintech Markets S.A.</field>
@@ -2518,9 +2518,9 @@
     <field name="REGON">250247511</field>
     <field name="Data zezwolenia">2022-21-07</field>
     <field name="Numer decyzji">DFI/504/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">69032171274</field>
-    <field name="CzlonekZarzadu1_Imie">Wojciech</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">69112198636</field>
+    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polaris Capital Finanse Spółka Akcyjna</field>
@@ -2531,9 +2531,9 @@
     <field name="REGON">250326707</field>
     <field name="Data zezwolenia">20250711</field>
     <field name="Numer decyzji">DFI/959/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">70042872622</field>
-    <field name="CzlonekZarzadu1_Imie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">70122899985</field>
+    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance sp zroo</field>
@@ -2544,9 +2544,9 @@
     <field name="REGON">250405890</field>
     <field name="Data zezwolenia">16/11/2022</field>
     <field name="Numer decyzji">DFI/231/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">71050774016</field>
-    <field name="CzlonekZarzadu1_Imie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">71010701377</field>
+    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
@@ -2557,9 +2557,9 @@
     <field name="REGON">250564275</field>
     <field name="Data zezwolenia">2022/12/07</field>
     <field name="Numer decyzji">DFI/781/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">72061475365</field>
-    <field name="CzlonekZarzadu1_Imie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">72021402725</field>
+    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
@@ -2570,9 +2570,9 @@
     <field name="REGON">250564275</field>
     <field name="Data zezwolenia">21-07-2021</field>
     <field name="Numer decyzji">DFI/553/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">73072176751</field>
-    <field name="CzlonekZarzadu1_Imie">Michał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">73032104112</field>
+    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Aurum Invest S.A.</field>
@@ -2583,9 +2583,9 @@
     <field name="REGON">250643460</field>
     <field name="Data zezwolenia">2019-29-09</field>
     <field name="Numer decyzji">DFI/841/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">74082878101</field>
-    <field name="CzlonekZarzadu1_Imie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">74042805462</field>
+    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
@@ -2596,8 +2596,8 @@
     <field name="REGON">250722656</field>
     <field name="Data zezwolenia">20180915</field>
     <field name="Numer decyzji">DFI/914/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">85090779495</field>
-    <field name="CzlonekZarzadu1_Imie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">75050706855</field>
+    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
 </dataset>

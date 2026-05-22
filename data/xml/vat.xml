@@ -47,7 +47,7 @@
     <field name="nip">1235043030</field>
     <field name="statusVat">Wykreślony</field>
     <field name="regon">235201417</field>
-    <field name="pesel">73050710972</field>
+    <field name="pesel">63050710972</field>
     <field name="krs">0000000299</field>
     <field name="residenceAddress">Długa 52, 31-147 Kraków</field>
     <field name="workingAddress">Długa 52, 31-147 Kraków</field>
@@ -116,7 +116,7 @@
     <field name="name">Silesia Invest SA</field>
     <field name="nip">1235438981</field>
     <field name="statusVat">Czynny</field>
-    <field name="regon">235597361</field>
+    <field name="regon">335597361</field>
     <field name="pesel">68101417802</field>
     <field name="krs">0000000784</field>
     <field name="residenceAddress">ul. Święty Marcin 137/15, 61-806 Poznań</field>
@@ -212,7 +212,7 @@
   </record>
   <record>
     <field name="name">Optima Trade SP Z O O</field>
-    <field name="nip">2235993317</field>
+    <field name="nip">1235993317</field>
     <field name="statusVat">Wykreślony</field>
     <field name="regon">236151696</field>
     <field name="pesel">75050727418</field>
@@ -230,9 +230,9 @@
     <field name="statusVat">Czynny</field>
     <field name="regon">236230881</field>
     <field name="pesel">76061428767</field>
-    <field name="krs">0000001560</field>
+    <field name="krs">000000156</field>
     <field name="residenceAddress">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
-    <field name="workingAddress">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
+    <field name="workingAddress"></field>
     <field name="accountNumbers"></field>
     <field name="hasVirtualAccounts"></field>
     <field name="registrationLegalDate"></field>
@@ -506,7 +506,7 @@
   </record>
   <record>
     <field name="name">Polaris Capital Sp. z o.o.</field>
-    <field name="nip">1237656305</field>
+    <field name="nip">2237656305</field>
     <field name="statusVat">Czynny</field>
     <field name="regon">237893879</field>
     <field name="pesel">96021456164</field>
@@ -550,7 +550,7 @@
     <field name="name">Vistula Fintech Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1237893873</field>
     <field name="statusVat">Czynny</field>
-    <field name="regon">338052254</field>
+    <field name="regon">238052254</field>
     <field name="pesel">99050760297</field>
     <field name="krs">0000003791</field>
     <field name="residenceAddress">Dąbrowskiego 124, 32-600 Oświęcim</field>
@@ -664,7 +664,7 @@
     <field name="statusVat">Zwolniony</field>
     <field name="regon">238685775</field>
     <field name="pesel">61010771256</field>
-    <field name="krs">000000456</field>
+    <field name="krs">0000004567</field>
     <field name="residenceAddress">Sobieskiego 80, 84-200 Wejherowo</field>
     <field name="workingAddress">Sobieskiego 80, 84-200 Wejherowo</field>
     <field name="accountNumbers">46 6764 3592 3744 7679 7233 3894</field>
@@ -733,7 +733,7 @@
     <field name="nip">1238923346</field>
     <field name="statusVat">Czynny</field>
     <field name="regon">239081720</field>
-    <field name="pesel">76061478084</field>
+    <field name="pesel">66061478084</field>
     <field name="krs">0000005052</field>
     <field name="residenceAddress">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="workingAddress">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
@@ -816,7 +816,7 @@
     <field name="name">Silesia Invest Sp. z o.o.</field>
     <field name="nip">1239398480</field>
     <field name="statusVat">Wykreślony</field>
-    <field name="regon">239556867</field>
+    <field name="regon">339556867</field>
     <field name="pesel">72122886303</field>
     <field name="krs">0000005634</field>
     <field name="residenceAddress">os. Piastowska 87, 48-300 Nysa</field>
@@ -898,7 +898,7 @@
   </record>
   <record>
     <field name="name">Nova Data S. A.</field>
-    <field name="nip">2239873627</field>
+    <field name="nip">1239873627</field>
     <field name="statusVat">Zwolniony</field>
     <field name="regon">240032008</field>
     <field name="pesel">78061494522</field>
@@ -930,7 +930,7 @@
     <field name="statusVat">Wykreślony</field>
     <field name="regon">240190380</field>
     <field name="pesel">80082897268</field>
-    <field name="krs">0000006410</field>
+    <field name="krs">000000641</field>
     <field name="residenceAddress">ulica Marszałkowska 43, 00-590 Warszawa</field>
     <field name="workingAddress">ulica Marszałkowska 43, 00-590 Warszawa</field>
     <field name="accountNumbers">38 8025 8810 5468 1469 3929 2288</field>
@@ -1192,7 +1192,7 @@
   </record>
   <record>
     <field name="name">Optima Trade SA</field>
-    <field name="nip">1241536613</field>
+    <field name="nip">2241536613</field>
     <field name="statusVat">Czynny</field>
     <field name="regon">241694993</field>
     <field name="pesel">99032123315</field>
@@ -1250,7 +1250,7 @@
     <field name="name">Vistula Fintech sp z oo</field>
     <field name="nip">1241853377</field>
     <field name="statusVat">Zwolniony</field>
-    <field name="regon">342090949</field>
+    <field name="regon">242090949</field>
     <field name="pesel">03272128799</field>
     <field name="krs">0000008641</field>
     <field name="residenceAddress">ul Chełmińska 74, 87-100 Toruń</field>
@@ -1364,7 +1364,7 @@
     <field name="statusVat">Zwolniony</field>
     <field name="regon">242645270</field>
     <field name="pesel">65032139753</field>
-    <field name="krs">000000941</field>
+    <field name="krs">0000009417</field>
     <field name="residenceAddress">ul Ozimska 30, 45-057 Opole</field>
     <field name="workingAddress">ul Ozimska 30, 45-057 Opole</field>
     <field name="accountNumbers">26 6981 2908 8961 1068 6748 9860</field>
@@ -1419,7 +1419,7 @@
     <field name="nip">1242803654</field>
     <field name="statusVat">Wykreślony</field>
     <field name="regon">242962036</field>
-    <field name="pesel">79072145235</field>
+    <field name="pesel">69072145235</field>
     <field name="krs">0000009805</field>
     <field name="residenceAddress">ul Dąbrowskiego 58</field>
     <field name="workingAddress">ul Dąbrowskiego 58</field>
@@ -1516,7 +1516,7 @@
     <field name="name">Silesia Invest S. A.</field>
     <field name="nip">1243357984</field>
     <field name="statusVat">Wykreślony</field>
-    <field name="regon">243516362</field>
+    <field name="regon">343516362</field>
     <field name="pesel">76021454805</field>
     <field name="krs">0000010484</field>
     <field name="residenceAddress">ul. Długa 37/55, 58-100 Świdnica</field>
@@ -1584,7 +1584,7 @@
   </record>
   <record>
     <field name="name">Lumen Advisory Sp. z o.o.</field>
-    <field name="nip">2243753935</field>
+    <field name="nip">1243753935</field>
     <field name="statusVat">Zwolniony</field>
     <field name="regon">243912313</field>
     <field name="pesel">81072161673</field>
@@ -1630,7 +1630,7 @@
     <field name="statusVat">Czynny</field>
     <field name="regon">244149888</field>
     <field name="pesel">84101465768</field>
-    <field name="krs">0000011260</field>
+    <field name="krs">000001126</field>
     <field name="residenceAddress">os. Królowej Jadwigi 173/69, 88-100 Inowrocław</field>
     <field name="workingAddress">os. Królowej Jadwigi 173/69, 88-100 Inowrocław</field>
     <field name="accountNumbers">59923000812225433070151415</field>
@@ -1797,7 +1797,7 @@
     <field name="nip">1244941780</field>
     <field name="statusVat">Zwolniony</field>
     <field name="regon">245100163</field>
-    <field name="pesel">96101482207</field>
+    <field name="pesel">06101482207</field>
     <field name="krs">0000012424</field>
     <field name="residenceAddress">ul. Armii Krajowej 17/45, 78-100 Kołobrzeg</field>
     <field name="workingAddress">ul. Armii Krajowej 17/45, 78-100 Kołobrzeg</field>
@@ -1878,7 +1878,7 @@
   </record>
   <record>
     <field name="name">Nova Data sp. z o. o.</field>
-    <field name="nip">1245416923</field>
+    <field name="nip">2245416923</field>
     <field name="statusVat">Zwolniony</field>
     <field name="regon">245575305</field>
     <field name="pesel">02242890425</field>
@@ -1950,7 +1950,7 @@
     <field name="name">Vistula Fintech S.A.</field>
     <field name="nip">1245812872</field>
     <field name="statusVat">Czynny</field>
-    <field name="regon">345971254</field>
+    <field name="regon">245971254</field>
     <field name="pesel">61090797294</field>
     <field name="krs">0000013491</field>
     <field name="residenceAddress">Legnicka 24, 54-203 Wrocław</field>
@@ -2064,7 +2064,7 @@
     <field name="statusVat">Wykreślony</field>
     <field name="regon">246604776</field>
     <field name="pesel">69050708252</field>
-    <field name="krs">000001426</field>
+    <field name="krs">0000014267</field>
     <field name="residenceAddress">Warszawska 160, 40-009 Katowice</field>
     <field name="workingAddress">Warszawska 160, 40-009 Katowice</field>
     <field name="accountNumbers">23 4544 5119 3756 9945 5150 2604</field>
@@ -2105,7 +2105,7 @@
     <field name="nip">1246683968</field>
     <field name="statusVat">Czynny</field>
     <field name="regon">246842346</field>
-    <field name="pesel">82082812349</field>
+    <field name="pesel">72082812349</field>
     <field name="krs">0000014558</field>
     <field name="residenceAddress">ulica Lipowa 31, 15-424 Białystok</field>
     <field name="workingAddress">ulica Lipowa 31, 15-424 Białystok</field>
@@ -2216,7 +2216,7 @@
     <field name="name">Silesia Invest SP Z O O</field>
     <field name="nip">1247396679</field>
     <field name="statusVat">Czynny</field>
-    <field name="regon">247475861</field>
+    <field name="regon">347475861</field>
     <field name="pesel">80042823306</field>
     <field name="krs">0000015334</field>
     <field name="residenceAddress">ulica Sienkiewicza 167, 25-007 Kielce</field>
@@ -2270,7 +2270,7 @@
   </record>
   <record>
     <field name="name">Helios Markets SA</field>
-    <field name="nip">2247634245</field>
+    <field name="nip">1247634245</field>
     <field name="statusVat">Wykreślony</field>
     <field name="regon">247792627</field>
     <field name="pesel">84082828785</field>
@@ -2330,7 +2330,7 @@
     <field name="statusVat">Czynny</field>
     <field name="regon">248109383</field>
     <field name="pesel">88122834260</field>
-    <field name="krs">0000016110</field>
+    <field name="krs">000001611</field>
     <field name="residenceAddress">ulica Świętojańska 123, 81-372 Gdynia</field>
     <field name="workingAddress">ulica Świętojańska 123, 81-372 Gdynia</field>
     <field name="accountNumbers">74505395028316768829288521</field>
@@ -2564,7 +2564,7 @@
   </record>
   <record>
     <field name="name">Lumen Advisory S.A.</field>
-    <field name="nip">1249297237</field>
+    <field name="nip">2249297237</field>
     <field name="statusVat">Zwolniony</field>
     <field name="regon">249455615</field>
     <field name="pesel">05250757571</field>
@@ -2650,7 +2650,7 @@
     <field name="name">Vistula Fintech sp. z o. o.</field>
     <field name="nip">1249772371</field>
     <field name="statusVat">Czynny</field>
-    <field name="regon">350009941</field>
+    <field name="regon">250009941</field>
     <field name="pesel">65112165797</field>
     <field name="krs">0000018341</field>
     <field name="residenceAddress">ul Kościuszki 154, 16-400 Suwałki</field>
@@ -2764,7 +2764,7 @@
     <field name="statusVat">Czynny</field>
     <field name="regon">250564275</field>
     <field name="pesel">73072176751</field>
-    <field name="krs">000001911</field>
+    <field name="krs">0000019117</field>
     <field name="residenceAddress">ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="workingAddress">ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="accountNumbers">33761062252627970182334483</field>
@@ -2791,7 +2791,7 @@
     <field name="nip">1250564276</field>
     <field name="statusVat">Wykreślony</field>
     <field name="regon">250722656</field>
-    <field name="pesel">85090779495</field>
+    <field name="pesel">75090779495</field>
     <field name="krs">0000019311</field>
     <field name="residenceAddress">Krakowskie Przedmieście 144, 00-071 Warszawa</field>
     <field name="workingAddress">Krakowskie Przedmieście 144, 00-071 Warszawa</field>

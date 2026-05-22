@@ -177,7 +177,7 @@
     <field name="Data wpisu">04-01-2021</field>
     <field name="Data wykreślenia">2019-17-09</field>
     <field name="Data decyzji">20170818</field>
-    <field name="KRS">0000001172</field>
+    <field name="KRS">000000117</field>
     <field name="NIP">1235755747</field>
     <field name="Adres siedziby">ul. Jagiellońska 25/67, 70-435 Szczecin</field>
     <field name="Siedziba">Szczecin</field>
@@ -304,7 +304,7 @@
     <field name="Data wykreślenia">23-12-2022</field>
     <field name="Data decyzji">2024-23-05</field>
     <field name="KRS">0000002045</field>
-    <field name="NIP">2236468458</field>
+    <field name="NIP">1236468458</field>
     <field name="Adres siedziby">ul Dworcowa 178, 85-009 Bydgoszcz</field>
     <field name="Siedziba">Bydgoszcz</field>
   </record>
@@ -597,7 +597,7 @@
     <field name="Data wpisu">12-08-2024</field>
     <field name="Data wykreślenia">2025-03-03</field>
     <field name="Data decyzji">20250226</field>
-    <field name="KRS">000000408</field>
+    <field name="KRS">0000004082</field>
     <field name="NIP">1238131444</field>
     <field name="Adres siedziby">175, 58-100 Świdnica</field>
     <field name="Siedziba">Świdnica</field>
@@ -612,7 +612,7 @@
     <field name="Data wykreślenia">20260410</field>
     <field name="Data decyzji">02/09/2022</field>
     <field name="KRS">0000004179</field>
-    <field name="NIP">1238289820</field>
+    <field name="NIP">2238289820</field>
     <field name="Adres siedziby">Wojska Polskiego 12, 57-300 Kłodzko</field>
     <field name="Siedziba">Kłodzko</field>
   </record>
@@ -877,7 +877,7 @@
     <field name="Data wpisu">25-12-2017</field>
     <field name="Data wykreślenia">2021-03-11</field>
     <field name="Data decyzji">20180425</field>
-    <field name="KRS">0000006022</field>
+    <field name="KRS">000000602</field>
     <field name="NIP">1239715242</field>
     <field name="Adres siedziby">ulica Armii Krajowej 155, 78-100 Kołobrzeg</field>
     <field name="Siedziba">Kołobrzeg</field>
@@ -1004,7 +1004,7 @@
     <field name="Data wykreślenia">10-08-2018</field>
     <field name="Data decyzji">2017-12-08</field>
     <field name="KRS">0000006895</field>
-    <field name="NIP">2240427951</field>
+    <field name="NIP">1240427951</field>
     <field name="Adres siedziby">Zachodnia 128, 90-402 Łódź</field>
     <field name="Siedziba">Łódź</field>
   </record>
@@ -1283,7 +1283,7 @@
     <field name="Data wpisu">2025/25/02</field>
     <field name="Data wykreślenia">10-11-2026</field>
     <field name="Data decyzji">2017-26-08</field>
-    <field name="KRS">000000883</field>
+    <field name="KRS">0000008835</field>
     <field name="NIP">1242011752</field>
     <field name="Adres siedziby">Piłsudskiego 108, 35-074 Rzeszów</field>
     <field name="Siedziba">Rzeszów</field>
@@ -1312,7 +1312,7 @@
     <field name="Data wykreślenia">20230224</field>
     <field name="Data decyzji">10/09/2020</field>
     <field name="KRS">0000009029</field>
-    <field name="NIP">1242170137</field>
+    <field name="NIP">2242170137</field>
     <field name="Adres siedziby">ul Warszawska 142, 25-512 Kielce</field>
     <field name="Siedziba">Kielce</field>
   </record>
@@ -1563,7 +1563,7 @@
     <field name="Data wpisu">2025/25/07</field>
     <field name="Data wykreślenia">18-07-2026</field>
     <field name="Data decyzji">2024-11-09</field>
-    <field name="KRS">0000010775</field>
+    <field name="KRS">000001077</field>
     <field name="NIP">1243595554</field>
     <field name="Adres siedziby">Słowiańska 88, 64-100 Leszno</field>
     <field name="Siedziba">Leszno</field>
@@ -1704,7 +1704,7 @@
     <field name="Data wykreślenia">06-11-2024</field>
     <field name="Data decyzji">2018-14-09</field>
     <field name="KRS">0000011745</field>
-    <field name="NIP">2244387450</field>
+    <field name="NIP">1244387450</field>
     <field name="Adres siedziby">ul Staszica 78, 22-400 Zamość</field>
     <field name="Siedziba">Zamość</field>
   </record>
@@ -1969,7 +1969,7 @@
     <field name="Data wpisu">25/06/2021</field>
     <field name="Data wykreślenia">2015/17/05</field>
     <field name="Data decyzji">23-09-2023</field>
-    <field name="KRS">000001358</field>
+    <field name="KRS">0000013588</field>
     <field name="NIP">1245892061</field>
     <field name="Adres siedziby">ul. Święty Marcin 41/21, 61-806 Poznań</field>
     <field name="Siedziba">Poznań</field>
@@ -2012,7 +2012,7 @@
     <field name="Data wykreślenia">20220916</field>
     <field name="Data decyzji">19/11/2017</field>
     <field name="KRS">0000013879</field>
-    <field name="NIP">1246129634</field>
+    <field name="NIP">2246129634</field>
     <field name="Adres siedziby">Grunwaldzka 92, 80-236 Gdańsk</field>
     <field name="Siedziba">Gdańsk</field>
   </record>
@@ -2249,7 +2249,7 @@
     <field name="Data wpisu">20/10/2017</field>
     <field name="Data wykreślenia">2023/17/01</field>
     <field name="Data decyzji">19-07-2020</field>
-    <field name="KRS">0000015528</field>
+    <field name="KRS">000001552</field>
     <field name="NIP">1247475864</field>
     <field name="Adres siedziby">ul. Kościuszki 21/11, 10-504 Olsztyn</field>
     <field name="Siedziba">Olsztyn</field>
@@ -2404,7 +2404,7 @@
     <field name="Data wykreślenia">10-12-2022</field>
     <field name="Data decyzji">2020-10-11</field>
     <field name="KRS">0000016595</field>
-    <field name="NIP">2248346956</field>
+    <field name="NIP">1248346956</field>
     <field name="Adres siedziby">Dąbrowskiego 28, 32-600 Oświęcim</field>
     <field name="Siedziba">Oświęcim</field>
   </record>
@@ -2655,7 +2655,7 @@
     <field name="Data wpisu">20180116</field>
     <field name="Data wykreślenia">06/03/2023</field>
     <field name="Data decyzji">2017/23/08</field>
-    <field name="KRS">000001834</field>
+    <field name="KRS">0000018341</field>
     <field name="NIP">1249772371</field>
     <field name="Adres siedziby">ul Kościuszki 154, 16-400 Suwałki</field>
     <field name="Siedziba">Suwałki</field>
@@ -2712,7 +2712,7 @@
     <field name="Data wykreślenia">20201024</field>
     <field name="Data decyzji">27/07/2018</field>
     <field name="KRS">0000018729</field>
-    <field name="NIP">1250089131</field>
+    <field name="NIP">2250089131</field>
     <field name="Adres siedziby">ul Sikorskiego 42, 66-200 Świebodzin</field>
     <field name="Siedziba">Świebodzin</field>
   </record>

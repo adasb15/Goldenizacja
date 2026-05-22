@@ -57,7 +57,7 @@
     "dataPowstania": "09/09/2019"
   },
   {
-    "regon": "235201417",
+    "regon": "335201417",
     "nip": "1235043030",
     "krs": "0000000299",
     "nazwa": "Lumen Advisory Sp. z o.o.",
@@ -140,7 +140,7 @@
     "formaPrawna": "S.A.",
     "formaWlasnosci": "własno rpywatan krajowa",
     "adresSiedziby": "Legnicka 120, 54-203 Wrocław",
-    "wojewodztwo": "DOLNOŚLĄSKIE",
+    "wojewodztwo": "DOLNOŚLĄSIKE",
     "powiat": "WROCŁAW",
     "gmina": "WROCŁAW",
     "miejscowosc": "WROCŁAW",
@@ -382,7 +382,7 @@
   {
     "regon": "236547649",
     "nip": "1236389262",
-    "krs": "0000001948",
+    "krs": "000000194",
     "nazwa": "PPHU Astra Finance",
     "formaPrawna": null,
     "formaWlasnosci": "własność krajowa osób fizycznych",
@@ -400,7 +400,7 @@
   },
   {
     "regon": "236626834",
-    "nip": "2236468458",
+    "nip": "1236468458",
     "krs": "0000002045",
     "nazwa": "Baltic Med Supply Spółka Akcyjna",
     "formaPrawna": "spółka akcyjna",
@@ -583,7 +583,7 @@
     "miejscowosc": "OPOLE",
     "kodPocztowy": "45-018",
     "telefon": "525227073",
-    "email": "sekretariat.astra-finance@proton.me",
+    "email": "sekretariat.astra-finance@protonme",
     "stronaWWW": "https://www.astra-finance.local",
     "pkd": "62.01.Z",
     "dataPowstania": "2011-05-09"
@@ -602,7 +602,7 @@
     "miejscowosc": "OPOLE",
     "kodPocztowy": "45-057",
     "telefon": "48-772-605-621",
-    "email": "firma.baltic-med-supply@yahoocom",
+    "email": "firma.baltic-med-supply@yahoo.com",
     "stronaWWW": "https://baltic-med-supply.pl",
     "pkd": "62.02.Z",
     "dataPowstania": "20180707"
@@ -741,7 +741,7 @@
     "dataPowstania": "2021/22/08"
   },
   {
-    "regon": "338052254",
+    "regon": "238052254",
     "nip": "1237893873",
     "krs": "0000003791",
     "nazwa": "Vistula Fintech Spółka z ograniczoną odpowiedzialnością",
@@ -837,8 +837,8 @@
   },
   {
     "regon": "238448207",
-    "nip": "1238289820",
-    "krs": "000000427",
+    "nip": "2238289820",
+    "krs": "0000004276",
     "nazwa": "Nova Data sp. z o.o.",
     "formaPrawna": "spółka z ograniczoną odpowiedzialnością",
     "formaWlasnosci": "własność prywatna krajowa",
@@ -906,7 +906,7 @@
     "miejscowosc": "WEJHEROWO",
     "kodPocztowy": "84-200",
     "telefon": "571687355",
-    "email": "biuro@yahoo.com",
+    "email": "biuro@pocztaa.pl",
     "stronaWWW": "https://www.quantum-services-group.pl",
     "pkd": "62.01.Z",
     "dataPowstania": "07/02/2016"
@@ -944,7 +944,7 @@
     "miejscowosc": "BĘDZIN",
     "kodPocztowy": "42-500",
     "telefon": "672313560",
-    "email": "kontakt.vistula-fintech@pocztaa.pl",
+    "email": "kontakt.vistula-fintech@outlook.com",
     "stronaWWW": "https://www.vistula-fintech-group.eu",
     "pkd": "66.22.Z",
     "dataPowstania": "18-08-2011"
@@ -1090,7 +1090,7 @@
     "formaPrawna": "sp. z o.o.",
     "formaWlasnosci": "wałsnoćś prywatna kr",
     "adresSiedziby": "ul Kościuszki 70, 16-400 Suwałki",
-    "wojewodztwo": "PODLASKEI",
+    "wojewodztwo": "PODLASKIE",
     "powiat": "SUWAŁKI",
     "gmina": "SUWAŁKI",
     "miejscowosc": "SUWAŁKI",
@@ -1254,7 +1254,7 @@
     "dataPowstania": "2010-07-03"
   },
   {
-    "regon": "240190380",
+    "regon": "340190380",
     "nip": "1240032000",
     "krs": "0000006410",
     "nazwa": "Polaris Capital sp. z o.o.",
@@ -1332,7 +1332,7 @@
   {
     "regon": "240507144",
     "nip": "1240348766",
-    "krs": "0000006798",
+    "krs": "000000679",
     "nazwa": "Astra Finance SP Z O O",
     "formaPrawna": "sp z oo",
     "formaWlasnosci": "własność krajowa osób fizycznych",
@@ -1350,7 +1350,7 @@
   },
   {
     "regon": "240586333",
-    "nip": "2240427951",
+    "nip": "1240427951",
     "krs": "0000006895",
     "nazwa": "Baltic Med Supply spółka z ograniczoną odpowiedzialnością",
     "formaPrawna": "SP Z O O",
@@ -1585,12 +1585,12 @@
     "formaWlasnosci": "własność krajowa osób fizycznych",
     "adresSiedziby": "Sienkiewicza 132, 15-092",
     "wojewodztwo": "PODLASKIE",
-    "powiat": null,
+    "powiat": "BIAŁYSTOK",
     "gmina": "BIAŁYSTOK",
     "miejscowosc": null,
     "kodPocztowy": "15-092",
     "telefon": "787 394 343",
-    "email": "office.lumen-advisory@onet.pl",
+    "email": null,
     "stronaWWW": "https://www.lumen-advisory-group.pl",
     "pkd": null,
     "dataPowstania": null
@@ -1691,7 +1691,7 @@
     "dataPowstania": "2015/18/11"
   },
   {
-    "regon": "342090949",
+    "regon": "242090949",
     "nip": "1241853377",
     "krs": "0000008641",
     "nazwa": "Vistula Fintech sp z oo",
@@ -1769,7 +1769,7 @@
   {
     "regon": "242328517",
     "nip": "1242170137",
-    "krs": "000000902",
+    "krs": "0000009029",
     "nazwa": "Lumen Advisory spółka z ograniczoną odpowiedzialnością",
     "formaPrawna": "sp. z o.o.",
     "formaWlasnosci": "własność krajowa osób fizycznych",
@@ -1787,7 +1787,7 @@
   },
   {
     "regon": "242407702",
-    "nip": "1242249324",
+    "nip": "2242249324",
     "krs": "0000009126",
     "nazwa": "Nova Data Spółka z ograniczoną odpowiedzialnością",
     "formaPrawna": "sp z oo",
@@ -1856,7 +1856,7 @@
     "miejscowosc": "OPOLE",
     "kodPocztowy": "45-057",
     "telefon": "(48) 645280823",
-    "email": "office.quantum-services@outlook.com",
+    "email": "office.quantum-services@gmai1.com",
     "stronaWWW": "https://www.quantum-services-group.eu",
     "pkd": "62.01.Z",
     "dataPowstania": "10/10/2013"
@@ -1894,7 +1894,7 @@
     "miejscowosc": "ZIELONA GÓRA",
     "kodPocztowy": "65-058",
     "telefon": "753 213 820",
-    "email": "biuro.vistula-fintech@gmai1.com",
+    "email": "biuro.vistula-fintech@onet.pl",
     "stronaWWW": "https://www.vistula-fintech-group.pl",
     "pkd": "66.22.Z",
     "dataPowstania": "05-05-2024"
@@ -2014,7 +2014,7 @@
     "dataPowstania": "2022-28-01"
   },
   {
-    "regon": null,
+    "regon": "243357981",
     "nip": "1243199605",
     "krs": "0000010290",
     "nazwa": "Polaris Capital S.A.",
@@ -2033,7 +2033,7 @@
     "dataPowstania": "20140327"
   },
   {
-    "regon": "243437177",
+    "regon": null,
     "nip": "1243278799",
     "krs": "0000010387",
     "nazwa": "Quantum Services SA",
@@ -2043,7 +2043,7 @@
     "wojewodztwo": "PODKARPACKIE",
     "powiat": "MIELECKI",
     "gmina": "MIELEC",
-    "miejscowosc": "MIELCE",
+    "miejscowosc": "MIELEC",
     "kodPocztowy": "39-300",
     "telefon": "(48) 690960240",
     "email": "sekretariat.quantum-services@onet.pl",
@@ -2149,7 +2149,7 @@
   {
     "regon": "243912313",
     "nip": "1243753935",
-    "krs": null,
+    "krs": "0000010969",
     "nazwa": "Lumen Advisory Sp. z o.o.",
     "formaPrawna": "sp. z o.o.",
     "formaWlasnosci": "wlasność prywatna krajowa",
@@ -2168,7 +2168,7 @@
   {
     "regon": "243991502",
     "nip": "1243833120",
-    "krs": "0000011066",
+    "krs": null,
     "nazwa": "Nova Data SP Z O O",
     "formaPrawna": "sp z oo",
     "formaWlasnosci": "własność krajowa osób fizycznych",
@@ -2185,7 +2185,7 @@
     "dataPowstania": "04-11-2024"
   },
   {
-    "regon": "244070690",
+    "regon": "344070690",
     "nip": "1243912316",
     "krs": "0000011163",
     "nazwa": "Optima Trade spółka z ograniczoną odpowiedzialnością",
@@ -2282,7 +2282,7 @@
   {
     "regon": "244466643",
     "nip": "1244308261",
-    "krs": "0000011648",
+    "krs": "000001164",
     "nazwa": "X - Twitter",
     "formaPrawna": null,
     "formaWlasnosci": "własność prywatna krajowa",
@@ -2300,7 +2300,7 @@
   },
   {
     "regon": "244545839",
-    "nip": "2244387450",
+    "nip": "1244387450",
     "krs": "0000011745",
     "nazwa": "Baltic Med Supply sp. z o.o.",
     "formaPrawna": "sp. z o.o.",
@@ -2483,7 +2483,7 @@
     "miejscowosc": "SANDOMIERZ",
     "kodPocztowy": "27-600",
     "telefon": "(48) 591308587",
-    "email": "kontakt@wp.pl",
+    "email": "kontaktwp.pl",
     "stronaWWW": null,
     "pkd": "62.01.Z",
     "dataPowstania": "2020-05-12"
@@ -2502,7 +2502,7 @@
     "miejscowosc": "OSTROWIEC ŚWIĘTOKRZYSKI",
     "kodPocztowy": "27-400",
     "telefon": "+48 612 787 195",
-    "email": "biuroonet.pl",
+    "email": "biuro@onet.pl",
     "stronaWWW": "https://baltic-med-supply.pl",
     "pkd": "64.99.Z",
     "dataPowstania": "20240918"
@@ -2641,7 +2641,7 @@
     "dataPowstania": "2010/23/04"
   },
   {
-    "regon": "345971254",
+    "regon": "245971254",
     "nip": "1245812872",
     "krs": "0000013491",
     "nazwa": "Vistula Fintech S.A.",
@@ -2700,7 +2700,7 @@
   {
     "regon": "246208827",
     "nip": "1246050447",
-    "krs": "000001378",
+    "krs": "0000013782",
     "nazwa": "Helios Markets Spółka Akcyjna",
     "formaPrawna": "S.A.",
     "formaWlasnosci": "własność prywatna krajowa",
@@ -2737,7 +2737,7 @@
   },
   {
     "regon": "246367201",
-    "nip": "1246288019",
+    "nip": "2246288019",
     "krs": "0000013976",
     "nazwa": "Nova Data sp z oo",
     "formaPrawna": "spółka z ograniczoną odpowiedzialnością",
@@ -2787,7 +2787,7 @@
     "miejscowosc": "KATOWICE",
     "kodPocztowy": "40-014",
     "telefon": "48-641-174-425",
-    "email": "office.polaris-capital@wp.pl",
+    "email": "office.polaris-capital@onett.pl",
     "stronaWWW": "https://polaris-capital.local",
     "pkd": "62.01.Z",
     "dataPowstania": "20150421"
@@ -2844,7 +2844,7 @@
     "miejscowosc": "LUBLIN",
     "kodPocztowy": "20-004",
     "telefon": "+48 546 265 050",
-    "email": "sekretariat.vistula-fintech@onett.pl",
+    "email": "sekretariat.vistula-fintech@o2.pl",
     "stronaWWW": "https://www.vistula-fintech-group.eu",
     "pkd": "66.22.Z",
     "dataPowstania": "12-02-2012"
@@ -2990,10 +2990,10 @@
     "formaPrawna": "sp. z o.o.",
     "formaWlasnosci": "własność prywatna krajowa",
     "adresSiedziby": "ul Piłsudskiego 150, 35-074 Rzeszów",
-    "wojewodztwo": "PODKARPACKIE",
+    "wojewodztwo": "PODKARPACIKE",
     "powiat": "RZESZÓW",
     "gmina": "RZESZÓW",
-    "miejscowosc": "RZESZWÓ",
+    "miejscowosc": "RZESZÓW",
     "kodPocztowy": "35-074",
     "telefon": "48-598-453-877",
     "email": "firma.quantum-services@o2.pl",
@@ -3116,7 +3116,7 @@
     "dataPowstania": "2016/03/05"
   },
   {
-    "regon": "247951008",
+    "regon": "347951008",
     "nip": "1247871815",
     "krs": "0000015916",
     "nazwa": "Nova Data Spółka Akcyjna",
@@ -3232,7 +3232,7 @@
   {
     "regon": "248426149",
     "nip": "1248267760",
-    "krs": "0000016498",
+    "krs": "000001649",
     "nazwa": "Astra Finance spółka z ograniczoną odpowiedzialnością",
     "formaPrawna": "sp z oo",
     "formaWlasnosci": "własność krajowa osób fizycznych",
@@ -3250,7 +3250,7 @@
   },
   {
     "regon": "248505334",
-    "nip": "2248346956",
+    "nip": "1248346956",
     "krs": "0000016595",
     "nazwa": "Baltic Med Supply Spółka z ograniczoną odpowiedzialnością",
     "formaPrawna": "SP Z O O",
@@ -3591,7 +3591,7 @@
     "dataPowstania": "2011/14/05"
   },
   {
-    "regon": "350009941",
+    "regon": "250009941",
     "nip": "1249772371",
     "krs": "0000018341",
     "nazwa": "Vistula Fintech sp. z o. o.",
@@ -3631,7 +3631,7 @@
   {
     "regon": "250089130",
     "nip": "1249930752",
-    "krs": "000001853",
+    "krs": "0000018535",
     "nazwa": "Baltic Med Supply SP Z O O",
     "formaPrawna": "SP Z O O",
     "formaWlasnosci": "własność prywatna krajowa",
@@ -3687,7 +3687,7 @@
   },
   {
     "regon": "250326707",
-    "nip": "1250168327",
+    "nip": "2250168327",
     "krs": "0000018826",
     "nazwa": "Nova Data S.A.",
     "formaPrawna": "SA",
@@ -3718,7 +3718,7 @@
     "miejscowosc": "STARGARD",
     "kodPocztowy": "73-110",
     "telefon": "644415144",
-    "email": "office.optima-trade@onet.pl",
+    "email": "office.optima-trade@biuuro.pl",
     "stronaWWW": "https://www.optima-trade.pl",
     "pkd": "62.01.Z",
     "dataPowstania": "2015-06-09"
@@ -3794,7 +3794,7 @@
     "miejscowosc": "WARSZAWA",
     "kodPocztowy": "00-071",
     "telefon": "(48) 646841131",
-    "email": "firma.vistula-fintech@biuuro.pl",
+    "email": "firma.vistula-fintech@yahoo.com",
     "stronaWWW": "https://www.vistula-fintech-group.pl",
     "pkd": "62.02.Z",
     "dataPowstania": "15-05-2025"

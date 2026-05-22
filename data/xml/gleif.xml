@@ -263,7 +263,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">2015/06/10</field>
     <field name="DirectParentRelationshipEndDate">20150804</field>
-    <field name="UltimateParentLEI">52991K3M5O7Q9SBUDW28</field>
+    <field name="UltimateParentLEI">62991K3M5O7Q9SBUDW28</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -443,7 +443,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">20-04-2021</field>
     <field name="DirectParentRelationshipEndDate">18/02/2021</field>
-    <field name="UltimateParentLEI">62997WLAZOD2RG5UJ835</field>
+    <field name="UltimateParentLEI">52997WLAZOD2RG5UJ835</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -488,7 +488,7 @@
     <field name="PostalCode">20-002</field>
     <field name="Country">PL</field>
     <field name="LegalJurisdiction">PL</field>
-    <field name="EntityLegalFormCode">spółka z ograniczoną odpowiedzialnością</field>
+    <field name="EntityLegalFormCode"></field>
     <field name="RegistrationStatus"></field>
     <field name="InitialRegistrationDate"></field>
     <field name="LastUpdateDate"></field>
@@ -751,7 +751,7 @@
     <field name="UltimateParentRelationshipEndDate">06-02-2019</field>
   </record>
   <record>
-    <field name="LEI">5299CCCCCCCCCCCCCC47</field>
+    <field name="LEI">6299CCCCCCCCCCCCCC47</field>
     <field name="LegalName">Optima Trade Sp. z o.o.</field>
     <field name="FirstAddressLine">ul Piłsudskiego 66, 35-074 Rzeszów</field>
     <field name="City">Warszawa</field>
@@ -931,7 +931,7 @@
     <field name="UltimateParentRelationshipEndDate">2025-20-08</field>
   </record>
   <record>
-    <field name="LEI">6299IOU06CIOU06CIO52</field>
+    <field name="LEI">5299IOU06CIOU06CIO52</field>
     <field name="LegalName">Baltic Med Supply S. A.</field>
     <field name="FirstAddressLine">Ozimska 168, 45-057 Opole</field>
     <field name="City">Lublin</field>
@@ -1247,7 +1247,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">238210635</field>
-    <field name="DirectParentLEI">5299GWCS8O4K0GWCS867</field>
+    <field name="DirectParentLEI">6299GWCS8O4K0GWCS867</field>
     <field name="DirectParentName">Lumen Advisory SP Z O O</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -1427,7 +1427,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">238685775</field>
-    <field name="DirectParentLEI">6299M8UG2OAWI4QCYK86</field>
+    <field name="DirectParentLEI">5299M8UG2OAWI4QCYK86</field>
     <field name="DirectParentName">Astra Finance Technologie sp z oo</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -1733,7 +1733,7 @@
     <field name="DirectParentRelationshipStatus">CATIVE</field>
     <field name="DirectParentRelationshipStartDate">13/11/2016</field>
     <field name="DirectParentRelationshipEndDate">2016-11-09</field>
-    <field name="UltimateParentLEI">5299KGC840WSOKGC8447</field>
+    <field name="UltimateParentLEI">6299KGC840WSOKGC8447</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_UTLIMATELY_CONSOLIDATED_YB</field>
     <field name="UltimateParentRelationshipStatus">ACTI</field>
@@ -1913,7 +1913,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">2022/27/05</field>
     <field name="DirectParentRelationshipEndDate">20220325</field>
-    <field name="UltimateParentLEI">6299QSUWY02468ACEG83</field>
+    <field name="UltimateParentLEI">5299QSUWY02468ACEG83</field>
     <field name="UltimateParentName">Nebula Analytics sp z oo</field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -2221,7 +2221,7 @@
     <field name="UltimateParentRelationshipEndDate">2020/13/03</field>
   </record>
   <record>
-    <field name="LEI">5299V8LYBO1ER4HU7K25</field>
+    <field name="LEI">6299V8LYBO1ER4HU7K25</field>
     <field name="LegalName">Nova Data SA</field>
     <field name="FirstAddressLine">ulica Święty Marcin 179, 61-806 Poznań</field>
     <field name="City">Kielce</field>
@@ -2401,7 +2401,7 @@
     <field name="UltimateParentRelationshipEndDate">27-09-2026</field>
   </record>
   <record>
-    <field name="LEI">62991K3M5O7Q9SBUDW28</field>
+    <field name="LEI">52991K3M5O7Q9SBUDW28</field>
     <field name="LegalName">mBank</field>
     <field name="FirstAddressLine">ul. Mariacka 101/51, 40-014 Katowice</field>
     <field name="City">Gdańsk</field>
@@ -2717,7 +2717,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Court Register (Ministry of Justice) | Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | Poland | RA000466</field>
     <field name="RegisteredAs">0000008738</field>
-    <field name="DirectParentLEI">5299ZSLE70TMF81UNG45</field>
+    <field name="DirectParentLEI">6299ZSLE70TMF81UNG45</field>
     <field name="DirectParentName">Astra Finance Technologie sp z oo</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -2897,7 +2897,7 @@
     <field name="ValidationSources">PARTIALLY_CORROBORATED</field>
     <field name="RegisteredAt">National Court Register (Ministry of Justice) | Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | Poland | RA000466</field>
     <field name="RegisteredAs">0000009320</field>
-    <field name="DirectParentLEI">6299543210ZYXWVUTS73</field>
+    <field name="DirectParentLEI">5299543210ZYXWVUTS73</field>
     <field name="DirectParentName">Mazovia Broker S.A.</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -3203,7 +3203,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">20171220</field>
     <field name="DirectParentRelationshipEndDate">18-10-2017</field>
-    <field name="UltimateParentLEI">52993CLU3CLU3CLU3C42</field>
+    <field name="UltimateParentLEI">62993CLU3CLU3CLU3C42</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -3383,7 +3383,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">06/06/2023</field>
     <field name="DirectParentRelationshipEndDate">2023-04-04</field>
-    <field name="UltimateParentLEI">62999O3IXCR6L0FU9O92</field>
+    <field name="UltimateParentLEI">52999O3IXCR6L0FU9O92</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -3691,7 +3691,7 @@
     <field name="UltimateParentRelationshipEndDate">20/04/2021</field>
   </record>
   <record>
-    <field name="LEI">5299E4UKA0QG6WMC2S76</field>
+    <field name="LEI">6299E4UKA0QG6WMC2S76</field>
     <field name="LegalName">Lumen Advisory sp. z o. o.</field>
     <field name="FirstAddressLine">Kościuszki 112, 16-400 Suwałki</field>
     <field name="City">Białystok</field>
@@ -3871,7 +3871,7 @@
     <field name="UltimateParentRelationshipEndDate">2015/06/10</field>
   </record>
   <record>
-    <field name="LEI">6299KGC840WSOKGC8447</field>
+    <field name="LEI">5299KGC840WSOKGC8447</field>
     <field name="LegalName">Vistula Fintech SA</field>
     <field name="FirstAddressLine">ul Piłsudskiego 34, 73-110 Stargard</field>
     <field name="City">Kielce</field>
@@ -4187,7 +4187,7 @@
     <field name="ValidationSources">PARTIALLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">245971254</field>
-    <field name="DirectParentLEI">5299IOU06CIOU06CIO52</field>
+    <field name="DirectParentLEI">6299IOU06CIOU06CIO52</field>
     <field name="DirectParentName">Quantum Services Holding S.A.</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -4367,7 +4367,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">246446395</field>
-    <field name="DirectParentLEI">6299O0CO0CO0CO0CO050</field>
+    <field name="DirectParentLEI">5299O0CO0CO0CO0CO050</field>
     <field name="DirectParentName">Silesia Invest Polska spółka z ograniczoną odpowiedzialnością</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -4681,7 +4681,7 @@
     <field name="UltimateParentRelationshipEndDate">2018-27-01</field>
   </record>
   <record>
-    <field name="LEI">5299TG3QD0NAXK7UH492</field>
+    <field name="LEI">6299TG3QD0NAXK7UH492</field>
     <field name="LegalName">Polaris Capital sp. z o. o.</field>
     <field name="FirstAddressLine">ul. 3 Maja 133/49, 35-030 Rzeszów</field>
     <field name="City">Bydgoszcz</field>
@@ -4861,7 +4861,7 @@
     <field name="UltimateParentRelationshipEndDate">20240713</field>
   </record>
   <record>
-    <field name="LEI">6299ZSLE70TMF81UNG45</field>
+    <field name="LEI">5299ZSLE70TMF81UNG45</field>
     <field name="LegalName">Helios Markets SA</field>
     <field name="FirstAddressLine">ulica Krakowska 55, 45-018 Opole</field>
     <field name="City">Katowice</field>
@@ -5177,7 +5177,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Court Register (Ministry of Justice) | Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | Poland | RA000466</field>
     <field name="RegisteredAs">0000016692</field>
-    <field name="DirectParentLEI">5299X0369CFILORUX049</field>
+    <field name="DirectParentLEI">6299X0369CFILORUX049</field>
     <field name="DirectParentName">Mazova Broker S.A.</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -5357,7 +5357,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Court Register (Ministry of Justice) | Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | Poland | RA000466</field>
     <field name="RegisteredAs">0000017274</field>
-    <field name="DirectParentLEI">62993CLU3CLU3CLU3C42</field>
+    <field name="DirectParentLEI">52993CLU3CLU3CLU3C42</field>
     <field name="DirectParentName"></field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -5663,7 +5663,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">2015/06/10</field>
     <field name="DirectParentRelationshipEndDate">20150804</field>
-    <field name="UltimateParentLEI">52991K3M5O7Q9SBUDW28</field>
+    <field name="UltimateParentLEI">62991K3M5O7Q9SBUDW28</field>
     <field name="UltimateParentName">Orbis Retail Solutions Markets sp. z o.o.</field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -5843,7 +5843,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">20-04-2021</field>
     <field name="DirectParentRelationshipEndDate">18/02/2021</field>
-    <field name="UltimateParentLEI">62997WLAZOD2RG5UJ835</field>
+    <field name="UltimateParentLEI">52997WLAZOD2RG5UJ835</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>

@@ -60,7 +60,7 @@
     <field name="Numer NIP">1235043030</field>
     <field name="Imię">Krzysztof</field>
     <field name="Nazwisko">Wócjik</field>
-    <field name="PESEL">73050710972</field>
+    <field name="PESEL">63050710972</field>
     <field name="Data wpisu">2016-27-04</field>
     <field name="Data zakończenia">20250721</field>
   </record>
@@ -73,7 +73,7 @@
     <field name="Miejscowość">Łódź</field>
     <field name="Ulica i numer">ul. Piotrkowska 69/53</field>
     <field name="Kod pocztowy">90-102</field>
-    <field name="Numer NIP">1235122226</field>
+    <field name="Numer NIP">2235122226</field>
     <field name="Imię">Ewa</field>
     <field name="Nazwisko">Kowlaczyk</field>
     <field name="PESEL">64061412321</field>
@@ -233,7 +233,7 @@
     <field name="Miejscowość">Katowice</field>
     <field name="Ulica i numer">ulica Mariacka 59</field>
     <field name="Kod pocztowy">40-014</field>
-    <field name="Numer NIP">2235914128</field>
+    <field name="Numer NIP">1235914128</field>
     <field name="Imię">Ewa</field>
     <field name="Nazwisko">Grabwoska</field>
     <field name="PESEL">74042826025</field>
@@ -268,7 +268,7 @@
     <field name="Numer NIP">1236072507</field>
     <field name="Imię">Monika</field>
     <field name="Nazwisko">Michaslka</field>
-    <field name="PESEL">76061428767</field>
+    <field name="PESEL"></field>
     <field name="Data wpisu"></field>
     <field name="Data zakończenia"></field>
   </record>
@@ -517,7 +517,7 @@
     <field name="Firma/Nazwa">Helios Markets Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
-    <field name="Numer KRS">0000003112</field>
+    <field name="Numer KRS">000000311</field>
     <field name="Miejscowość">Zielona Góra</field>
     <field name="Ulica i numer">ul. Bohaterów Westerplatte 5/57</field>
     <field name="Kod pocztowy">65-034</field>
@@ -757,7 +757,7 @@
     <field name="Firma/Nazwa">Quantum Services Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
-    <field name="Numer KRS">000000456</field>
+    <field name="Numer KRS">0000004567</field>
     <field name="Miejscowość">Wejherowo</field>
     <field name="Ulica i numer">Sobieskiego 80</field>
     <field name="Kod pocztowy">84-200</field>
@@ -796,7 +796,7 @@
     <field name="Numer NIP">1238764965</field>
     <field name="Imię">Rafał</field>
     <field name="Nazwisko">Dąbrowski</field>
-    <field name="PESEL">63032173991</field>
+    <field name="PESEL">73032173991</field>
     <field name="Data wpisu">20210130</field>
     <field name="Data zakończenia">24/10/2020</field>
   </record>
@@ -844,7 +844,7 @@
     <field name="Numer NIP">1238923346</field>
     <field name="Imię">Katarzyna</field>
     <field name="Nazwisko">Woźniak</field>
-    <field name="PESEL">76061478084</field>
+    <field name="PESEL">66061478084</field>
     <field name="Data wpisu">08-03-2018</field>
     <field name="Data zakończenia">2025-07-07</field>
   </record>
@@ -857,7 +857,7 @@
     <field name="Miejscowość">Giżycko</field>
     <field name="Ulica i numer">ul Warszawska 2</field>
     <field name="Kod pocztowy">11-500</field>
-    <field name="Numer NIP">1239002536</field>
+    <field name="Numer NIP">2239002536</field>
     <field name="Imię">Krzysztof</field>
     <field name="Nazwisko">Jankowski</field>
     <field name="PESEL">67072179470</field>
@@ -1017,7 +1017,7 @@
     <field name="Miejscowość">Stargard</field>
     <field name="Ulica i numer">Piłsudskiego 172</field>
     <field name="Kod pocztowy">73-110</field>
-    <field name="Numer NIP">2239794431</field>
+    <field name="Numer NIP">1239794431</field>
     <field name="Imię">Krzysztof</field>
     <field name="Nazwisko">Baran</field>
     <field name="PESEL">77050793174</field>
@@ -1317,7 +1317,7 @@
     <field name="Firma/Nazwa">Helios Markets spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
-    <field name="Numer KRS">0000007962</field>
+    <field name="Numer KRS">000000796</field>
     <field name="Miejscowość">Lublin</field>
     <field name="Ulica i numer">ulica Krakowskie Przedmieście 135</field>
     <field name="Kod pocztowy">20-002</field>
@@ -1557,7 +1557,7 @@
     <field name="Firma/Nazwa">Quantum Services S. A.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
-    <field name="Numer KRS">000000941</field>
+    <field name="Numer KRS">0000009417</field>
     <field name="Miejscowość">Opole</field>
     <field name="Ulica i numer">ul Ozimska 30</field>
     <field name="Kod pocztowy">45-057</field>
@@ -1628,7 +1628,7 @@
     <field name="Numer NIP">1242803654</field>
     <field name="Imię">Tomasz</field>
     <field name="Nazwisko">Walczak</field>
-    <field name="PESEL">79072145235</field>
+    <field name="PESEL">69072145235</field>
     <field name="Data wpisu">2016/28/09</field>
     <field name="Data zakończenia">12-04-2025</field>
   </record>
@@ -1641,7 +1641,7 @@
     <field name="Miejscowość">Pruszków</field>
     <field name="Ulica i numer">ulica Bolesława Prusa 115</field>
     <field name="Kod pocztowy">05-800</field>
-    <field name="Numer NIP">1242882843</field>
+    <field name="Numer NIP">2242882843</field>
     <field name="Imię">Katarzyna</field>
     <field name="Nazwisko">Stępień</field>
     <field name="PESEL">70082846584</field>
@@ -1801,7 +1801,7 @@
     <field name="Miejscowość">Tczew</field>
     <field name="Ulica i numer">105/17</field>
     <field name="Kod pocztowy">83-110</field>
-    <field name="Numer NIP">2243753935</field>
+    <field name="Numer NIP">1243753935</field>
     <field name="Imię">Katarzyna</field>
     <field name="Nazwisko">Czarnecka</field>
     <field name="PESEL">80061460287</field>
@@ -2117,7 +2117,7 @@
     <field name="Firma/Nazwa">Helios Markets sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
-    <field name="Numer KRS">0000012812</field>
+    <field name="Numer KRS">000001281</field>
     <field name="Miejscowość">Warszawa</field>
     <field name="Ulica i numer">ul. Marszałkowska 85/7</field>
     <field name="Kod pocztowy">00-590</field>
@@ -2357,7 +2357,7 @@
     <field name="Firma/Nazwa">Quantum Services SP Z O O</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
-    <field name="Numer KRS">000001426</field>
+    <field name="Numer KRS">0000014267</field>
     <field name="Miejscowość">Katowice</field>
     <field name="Ulica i numer">Warszawska 160</field>
     <field name="Kod pocztowy">40-009</field>
@@ -2412,7 +2412,7 @@
     <field name="Numer NIP">1246683968</field>
     <field name="Imię">Anna</field>
     <field name="Nazwisko">Pietrzak</field>
-    <field name="PESEL">82082812349</field>
+    <field name="PESEL">72082812349</field>
     <field name="Data wpisu">14/10/2020</field>
     <field name="Data zakończenia">2026/28/06</field>
   </record>
@@ -2441,7 +2441,7 @@
     <field name="Miejscowość">Bydgoszcz</field>
     <field name="Ulica i numer">ul. Gdańska 65/87</field>
     <field name="Kod pocztowy">85-005</field>
-    <field name="Numer NIP">1246842349</field>
+    <field name="Numer NIP">2246842349</field>
     <field name="Imię">Katarzyna</field>
     <field name="Nazwisko">Czarnecka</field>
     <field name="PESEL">74101415085</field>
@@ -2515,7 +2515,7 @@
   <record>
     <field name="Numer agenta">10000557/A/300557</field>
     <field name="Firma/Nazwa">Quantum Services Sp. z o.o.</field>
-    <field name="Zakład ubezpieczeń">ER HESTIA ..</field>
+    <field name="Zakład ubezpieczeń">ER HEST ..</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000015237</field>
     <field name="Miejscowość">Rzeszów</field>
@@ -2601,7 +2601,7 @@
     <field name="Miejscowość">Opole</field>
     <field name="Ulica i numer">ulica Krakowska 55</field>
     <field name="Kod pocztowy">45-018</field>
-    <field name="Numer NIP">2247634245</field>
+    <field name="Numer NIP">1247634245</field>
     <field name="Imię">Katarzyna</field>
     <field name="Nazwisko">Wiśniewska</field>
     <field name="PESEL">84082828785</field>
@@ -2917,7 +2917,7 @@
     <field name="Firma/Nazwa">Helios Markets Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
-    <field name="Numer KRS">0000017662</field>
+    <field name="Numer KRS">000001766</field>
     <field name="Miejscowość">Inowrocław</field>
     <field name="Ulica i numer">ulica Królowej Jadwigi 35</field>
     <field name="Kod pocztowy">88-100</field>
@@ -3157,7 +3157,7 @@
     <field name="Firma/Nazwa">Quantum Services Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
-    <field name="Numer KRS">000001911</field>
+    <field name="Numer KRS">0000019117</field>
     <field name="Miejscowość">Ostrowiec Świętokrzyski</field>
     <field name="Ulica i numer">ul Sienkiewicza 110</field>
     <field name="Kod pocztowy">27-400</field>
@@ -3196,7 +3196,7 @@
     <field name="Numer NIP">1250564276</field>
     <field name="Imię">Rafał</field>
     <field name="Nazwisko">Borkowski</field>
-    <field name="PESEL">85090779495</field>
+    <field name="PESEL">75090779495</field>
     <field name="Data wpisu">20201024</field>
     <field name="Data zakończenia">03/07/2026</field>
   </record>

@@ -142,9 +142,9 @@
     <field name="formaWlasnosci">włsaność krajowa osó ifzycznych</field>
     <field name="adresSiedziby">Legnicka 120, 54-203 Wrocław</field>
     <field name="wojewodztwo">DOLNOŚLĄSKIE</field>
-    <field name="powiat">WROCAŁW</field>
+    <field name="powiat">WROCŁAW</field>
     <field name="gmina">WROCŁAW</field>
-    <field name="miejscowosc">WROCŁAW</field>
+    <field name="miejscowosc">WROCŁWA</field>
     <field name="kodPocztowy">54-203</field>
     <field name="telefon">+48 799 636 672</field>
     <field name="email">kontakt.quantum-services@yahoo.com</field>
@@ -248,7 +248,7 @@
     <field name="dataPowstania">07/12/2016</field>
   </record>
   <record>
-    <field name="regon">235993312</field>
+    <field name="regon">335993312</field>
     <field name="nip">1235834932</field>
     <field name="krs">0000001269</field>
     <field name="nazwa">Lumen Advisory sp. z o. o.</field>
@@ -311,11 +311,11 @@
     <field name="nazwa">Polaris Capital spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
-    <field name="adresSiedziby"></field>
+    <field name="adresSiedziby">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
     <field name="wojewodztwo">LUBELSKIE</field>
     <field name="powiat">LUBLIN</field>
     <field name="gmina">LUBLIN</field>
-    <field name="miejscowosc">LUBLIN</field>
+    <field name="miejscowosc"></field>
     <field name="kodPocztowy">20-002</field>
     <field name="telefon"></field>
     <field name="email">sekretariat.polaris-capital@gmail.com</field>
@@ -383,7 +383,7 @@
   <record>
     <field name="regon">236547649</field>
     <field name="nip">1236389262</field>
-    <field name="krs">0000001948</field>
+    <field name="krs">000000194</field>
     <field name="nazwa">PPHU Astra Finance</field>
     <field name="formaPrawna"></field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -401,7 +401,7 @@
   </record>
   <record>
     <field name="regon">236626834</field>
-    <field name="nip">2236468458</field>
+    <field name="nip">1236468458</field>
     <field name="krs">0000002045</field>
     <field name="nazwa">Baltic Med Supply Spółka Akcyjna</field>
     <field name="formaPrawna">spółka akcyjna</field>
@@ -565,7 +565,7 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-540</field>
     <field name="telefon">+48 514 958 224</field>
-    <field name="email">biuro.vistula-fintech@o2.pl</field>
+    <field name="email">biuro.vistula-fintech@o2pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">17-06-2016</field>
@@ -603,7 +603,7 @@
     <field name="miejscowosc">OPOLE</field>
     <field name="kodPocztowy">45-057</field>
     <field name="telefon">+48 752 697 772</field>
-    <field name="email">firma.baltic-med-supply@yahoocom</field>
+    <field name="email">firma.baltic-med-supply@yahoo.com</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">20180315</field>
@@ -742,7 +742,7 @@
     <field name="dataPowstania">2014/29/11</field>
   </record>
   <record>
-    <field name="regon">338052254</field>
+    <field name="regon">238052254</field>
     <field name="nip">1237893873</field>
     <field name="krs">0000003791</field>
     <field name="nazwa">Vistula Fintech Spółka z ograniczoną odpowiedzialnością</field>
@@ -763,7 +763,7 @@
   <record>
     <field name="regon">238210635</field>
     <field name="nip">1237973069</field>
-    <field name="krs">000000388</field>
+    <field name="krs">0000003888</field>
     <field name="nazwa">Instagram - Meta</field>
     <field name="formaPrawna"></field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -838,7 +838,7 @@
   </record>
   <record>
     <field name="regon">238448207</field>
-    <field name="nip">1238289820</field>
+    <field name="nip">2238289820</field>
     <field name="krs">0000004276</field>
     <field name="nazwa">Nova Data sp. z o.o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
@@ -850,7 +850,7 @@
     <field name="miejscowosc">GNIEZNO</field>
     <field name="kodPocztowy">62-200</field>
     <field name="telefon">717 739 814</field>
-    <field name="email">sekretariat.nova-data@interia.pl</field>
+    <field name="email">sekretariat.nova-data@firmaa.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">22-06-2013</field>
@@ -945,7 +945,7 @@
     <field name="miejscowosc">BĘDZIN</field>
     <field name="kodPocztowy">42-500</field>
     <field name="telefon">(48) 783861796</field>
-    <field name="email">kontakt.vistula-fintech@firmaa.pl</field>
+    <field name="email">kontakt.vistula-fintech@outlook.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">02-09-2011</field>
@@ -1094,7 +1094,7 @@
     <field name="wojewodztwo">PODLASKIE</field>
     <field name="powiat">SUWAŁKI</field>
     <field name="gmina">SUWAŁKI</field>
-    <field name="miejscowosc">SUWAŁKI</field>
+    <field name="miejscowosc">SUWAŁIK</field>
     <field name="kodPocztowy">16-400</field>
     <field name="telefon">+48 658 529 660</field>
     <field name="email">biuro.quantum-services@outlook.com</field>
@@ -1179,7 +1179,7 @@
     <field name="dataPowstania">20191116</field>
   </record>
   <record>
-    <field name="regon">239873622</field>
+    <field name="regon">339873622</field>
     <field name="nip">1239715242</field>
     <field name="krs">0000006022</field>
     <field name="nazwa">Helios Markets S.A.</field>
@@ -1333,7 +1333,7 @@
   <record>
     <field name="regon">240507144</field>
     <field name="nip">1240348766</field>
-    <field name="krs">0000006798</field>
+    <field name="krs">000000679</field>
     <field name="nazwa">Astra Finance SP Z O O</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -1351,7 +1351,7 @@
   </record>
   <record>
     <field name="regon">240586333</field>
-    <field name="nip">2240427951</field>
+    <field name="nip">1240427951</field>
     <field name="krs">0000006895</field>
     <field name="nazwa">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
@@ -1692,9 +1692,9 @@
     <field name="dataPowstania">2018/30/10</field>
   </record>
   <record>
-    <field name="regon">342090949</field>
+    <field name="regon">242090949</field>
     <field name="nip">1241853377</field>
-    <field name="krs">000000864</field>
+    <field name="krs">0000008641</field>
     <field name="nazwa">Vistula Fintech sp z oo</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
@@ -1781,14 +1781,14 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-512</field>
     <field name="telefon">(48) 639468812</field>
-    <field name="email">sekretariat.lumen-advisory@o2.pl</field>
+    <field name="email">sekretariat.lumen-advisory@mail.xz</field>
     <field name="stronaWWW">https://www.lumen-advisory-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2022/15/04</field>
   </record>
   <record>
     <field name="regon">242407702</field>
-    <field name="nip">1242249324</field>
+    <field name="nip">2242249324</field>
     <field name="krs">0000009126</field>
     <field name="nazwa">Nova Data Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
@@ -1895,7 +1895,7 @@
     <field name="miejscowosc">ZIELONA GÓRA</field>
     <field name="kodPocztowy">65-058</field>
     <field name="telefon">505343408</field>
-    <field name="email">biuro.vistula-fintech@mail.xz</field>
+    <field name="email">biuro.vistula-fintech@onet.pl</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">28-06-2025</field>
@@ -2037,12 +2037,12 @@
     <field name="regon">243437177</field>
     <field name="nip">1243278799</field>
     <field name="krs">0000010387</field>
-    <field name="nazwa">Quantum Servicse SA</field>
+    <field name="nazwa">Quantum Services SA</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Mickiewicza 20, 39-300 Mielec</field>
     <field name="wojewodztwo">PODKARPACKIE</field>
-    <field name="powiat">MIELECKI</field>
+    <field name="powiat">MIELCEKI</field>
     <field name="gmina">MIELEC</field>
     <field name="miejscowosc">MIELEC</field>
     <field name="kodPocztowy">39-300</field>
@@ -2110,7 +2110,7 @@
     <field name="dataPowstania">2023-23-05</field>
   </record>
   <record>
-    <field name="regon">243753932</field>
+    <field name="regon">343753932</field>
     <field name="nip">1243595554</field>
     <field name="krs">0000010775</field>
     <field name="nazwa">Baltic Med Supply sp z oo</field>
@@ -2131,7 +2131,7 @@
   <record>
     <field name="regon">243833128</field>
     <field name="nip">1243753935</field>
-    <field name="krs"></field>
+    <field name="krs">0000010872</field>
     <field name="nazwa">Helios Markets sp. z o. o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
@@ -2169,7 +2169,7 @@
   <record>
     <field name="regon">243991502</field>
     <field name="nip">1243833120</field>
-    <field name="krs">0000011066</field>
+    <field name="krs"></field>
     <field name="nazwa">Nova Data SP Z O O</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
@@ -2283,7 +2283,7 @@
   <record>
     <field name="regon">244466643</field>
     <field name="nip">1244308261</field>
-    <field name="krs">0000011648</field>
+    <field name="krs">000001164</field>
     <field name="nazwa">X - Twitter</field>
     <field name="formaPrawna"></field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -2301,7 +2301,7 @@
   </record>
   <record>
     <field name="regon">244545839</field>
-    <field name="nip">2244387450</field>
+    <field name="nip">1244387450</field>
     <field name="krs">0000011745</field>
     <field name="nazwa">Baltic Med Supply sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
@@ -2446,7 +2446,7 @@
     <field name="miejscowosc">KOŁOBRZEG</field>
     <field name="kodPocztowy">78-100</field>
     <field name="telefon">797820295</field>
-    <field name="email">sekretariat.silesia-invest@gmail.com</field>
+    <field name="email">sekretariat.silesia-investgmail.com</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016/06/03</field>
@@ -2503,7 +2503,7 @@
     <field name="miejscowosc">OSTROWIEC ŚWIĘTOKRZYSKI</field>
     <field name="kodPocztowy">27-400</field>
     <field name="telefon">48-577-198-830</field>
-    <field name="email">biuroonet.pl</field>
+    <field name="email">biuro@onet.pl</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">20230522</field>
@@ -2625,7 +2625,7 @@
   <record>
     <field name="regon">245892069</field>
     <field name="nip">1245733687</field>
-    <field name="krs">000001339</field>
+    <field name="krs">0000013394</field>
     <field name="nazwa">Silesia Invest Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
@@ -2642,7 +2642,7 @@
     <field name="dataPowstania">2023/08/04</field>
   </record>
   <record>
-    <field name="regon">345971254</field>
+    <field name="regon">245971254</field>
     <field name="nip">1245812872</field>
     <field name="krs">0000013491</field>
     <field name="nazwa">Vistula Fintech S.A.</field>
@@ -2712,7 +2712,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-831</field>
     <field name="telefon">48-618-767-067</field>
-    <field name="email">sekretariat.helios-markets@proton.me</field>
+    <field name="email">sekretariat.helios-markets@kontaktqq.pl</field>
     <field name="stronaWWW">https://www.helios-markets-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">15/12/2019</field>
@@ -2738,7 +2738,7 @@
   </record>
   <record>
     <field name="regon">246367201</field>
-    <field name="nip">1246288019</field>
+    <field name="nip">2246288019</field>
     <field name="krs">0000013976</field>
     <field name="nazwa">Nova Data sp z oo</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
@@ -2842,11 +2842,11 @@
     <field name="wojewodztwo">LUBELSKIE</field>
     <field name="powiat">LUBLIN</field>
     <field name="gmina">LUBLIN</field>
-    <field name="miejscowosc">LUBLIN</field>
+    <field name="miejscowosc"></field>
     <field name="kodPocztowy">20-004</field>
     <field name="telefon">(48) 694527563</field>
-    <field name="email">sekretariat.vistula-fintech@kontaktqq.pl</field>
-    <field name="stronaWWW"></field>
+    <field name="email">sekretariat.vistula-fintech@o2.pl</field>
+    <field name="stronaWWW">https://www.vistula-fintech-group.eu</field>
     <field name="pkd"></field>
     <field name="dataPowstania"></field>
   </record>
@@ -3041,7 +3041,7 @@
     <field name="dataPowstania">01-02-2013</field>
   </record>
   <record>
-    <field name="regon">247634242</field>
+    <field name="regon">347634242</field>
     <field name="nip">1247475864</field>
     <field name="krs">0000015528</field>
     <field name="nazwa">Facebook - Meta</field>
@@ -3233,7 +3233,7 @@
   <record>
     <field name="regon">248426149</field>
     <field name="nip">1248267760</field>
-    <field name="krs">0000016498</field>
+    <field name="krs">000001649</field>
     <field name="nazwa">Astra Finance spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
@@ -3251,7 +3251,7 @@
   </record>
   <record>
     <field name="regon">248505334</field>
-    <field name="nip">2248346956</field>
+    <field name="nip">1248346956</field>
     <field name="krs">0000016595</field>
     <field name="nazwa">Baltic Med Supply Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
@@ -3556,7 +3556,7 @@
   <record>
     <field name="regon">249772379</field>
     <field name="nip">1249613997</field>
-    <field name="krs">000001814</field>
+    <field name="krs">0000018147</field>
     <field name="nazwa">Quantum Services sp. z o.o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
@@ -3592,7 +3592,7 @@
     <field name="dataPowstania">2017/08/12</field>
   </record>
   <record>
-    <field name="regon">350009941</field>
+    <field name="regon">250009941</field>
     <field name="nip">1249772371</field>
     <field name="krs">0000018341</field>
     <field name="nazwa">Vistula Fintech sp. z o. o.</field>
@@ -3643,7 +3643,7 @@
     <field name="miejscowosc">BRZEG</field>
     <field name="kodPocztowy">49-300</field>
     <field name="telefon">544 673 489</field>
-    <field name="email">sekretariat.baltic-med-supply@yahoo.com</field>
+    <field name="email">sekretariat.baltic-med-supply@protonn.me</field>
     <field name="stronaWWW">https://baltic-med-supply.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20170407</field>
@@ -3688,7 +3688,7 @@
   </record>
   <record>
     <field name="regon">250326707</field>
-    <field name="nip">1250168327</field>
+    <field name="nip">2250168327</field>
     <field name="krs">0000018826</field>
     <field name="nazwa">Nova Data S.A.</field>
     <field name="formaPrawna">SA</field>
@@ -3795,7 +3795,7 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-071</field>
     <field name="telefon">+48 733 906 908</field>
-    <field name="email">firma.vistula-fintech@protonn.me</field>
+    <field name="email">firma.vistula-fintech@yahoo.com</field>
     <field name="stronaWWW">https://www.vistula-fintech-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">16-03-2015</field>
