@@ -225,5 +225,126 @@ class PreprocessingTests(unittest.TestCase):
         self.assertEqual(preprocessed["City_Normalized"], "RZESZÓW")
 
 
+class ExtendedPreprocessingMatchingFieldTests(unittest.TestCase):
+    def test_builds_person_preprocessed_record_with_extended_matching_fields(self) -> None:
+        staging_record = SimpleNamespace(
+            Staging_ID=17,
+            ImportBatch_ID=27,
+            RawFile_ID=37,
+            Source_Record_ID="SRC-17",
+            PESEL="90010112345",
+            Serial_Number_ID_Card="ABC 123456",
+            Serial_Number_Passport="PA 987654",
+            First_Name="Anna",
+            Second_Name="Maria",
+            Last_Name="Nowak",
+            Family_Name="Kowalska",
+            Birth_Date=None,
+            Place_Of_Birth="Warszawa",
+            Sex=True,
+            Citizenship="PL",
+            Phone_Number=None,
+            Email_Address=None,
+            Street="Kwiatowa 10",
+            Building_Number=None,
+            Apartment_Number=None,
+            City="Warszawa",
+            Postal_City="Warszawa",
+            Postal_Code="00-001",
+            District="Warszawski",
+            Province="Mazowieckie",
+            Country="PL",
+        )
+
+        preprocessed = build_preprocessed_record(staging_record, "PERSON")
+
+        self.assertEqual(preprocessed["Serial_Number_ID_Card_Normalized"], "ABC123456")
+        self.assertEqual(preprocessed["Serial_Number_Passport_Normalized"], "PA987654")
+        self.assertEqual(preprocessed["Place_Of_Birth_Normalized"], "WARSZAWA")
+        self.assertEqual(preprocessed["Sex"], True)
+        self.assertEqual(preprocessed["Citizenship_Normalized"], "PL")
+        self.assertEqual(preprocessed["Postal_City_Normalized"], "WARSZAWA")
+        self.assertEqual(preprocessed["District_Normalized"], "WARSZAWSKI")
+        self.assertEqual(preprocessed["Province_Normalized"], "MAZOWIECKIE")
+
+    def test_builds_party_preprocessed_record_with_extended_matching_fields(self) -> None:
+        staging_record = SimpleNamespace(
+            Staging_ID=16,
+            ImportBatch_ID=26,
+            RawFile_ID=36,
+            Source_Record_ID="SRC-16",
+            Name="Extended Company sp. z o.o.",
+            Short_Name=None,
+            Legal_Entity_Type=None,
+            Registration_Country="PL",
+            Establishment_Date=None,
+            Identifiers_JSON=json.dumps({"NIP": "123-456-78-90"}),
+            Register_Status="aktywny",
+            Registration_Date=None,
+            Deregistration_Date=None,
+            Decision_Date=None,
+            Decision_Number="DEC 1/2024",
+            Register_Number="REG 99",
+            Bank_Accounts_JSON=json.dumps(["111", "222"]),
+            Has_Virtual_Accounts=True,
+            Business_Scope="Uslugi finansowe",
+            Ownership_Form="prywatna",
+            Municipality="Warszawa",
+            Phone_Number=None,
+            Email_Address=None,
+            Website=None,
+            Agent_Type="multiagent",
+            Insurance_Company="Towarzystwo Ubezpieczen",
+            Related_Persons_JSON=json.dumps([{"pesel": "90010112345"}]),
+            Related_Parties_JSON=json.dumps([{"nip": "1234567890"}]),
+            Registration_Status="ACTIVE",
+            Last_Update_Date=None,
+            Next_Renewal_Date=None,
+            Managing_LOU="LOU-1",
+            Validation_Sources="FULLY_CORROBORATED",
+            Validation_Authority_ID="Krajowy Rejestr Sadowy",
+            Validation_Authority_Entity_ID="0000123456",
+            Direct_Parent_LEI="529900T8BM49AURSDO55",
+            Direct_Parent_Name="Parent sp. z o.o.",
+            Direct_Parent_Relationship_Type="DIRECT_ACCOUNTING_CONSOLIDATION_PARENT",
+            Direct_Parent_Relationship_Status="ACTIVE",
+            Direct_Parent_Relationship_Start_Date=None,
+            Direct_Parent_Relationship_End_Date=None,
+            Ultimate_Parent_LEI="259400T8BM49AURSDO55",
+            Ultimate_Parent_Name="Ultimate Parent S.A.",
+            Ultimate_Parent_Relationship_Type="ULTIMATE_ACCOUNTING_CONSOLIDATION_PARENT",
+            Ultimate_Parent_Relationship_Status="ACTIVE",
+            Ultimate_Parent_Relationship_Start_Date=None,
+            Ultimate_Parent_Relationship_End_Date=None,
+            Street="Kwiatowa 10",
+            Building_Number=None,
+            Apartment_Number=None,
+            City="Warszawa",
+            Postal_City="Warszawa",
+            Postal_Code="00-001",
+            District="Warszawski",
+            Province="Mazowieckie",
+            Country="PL",
+        )
+
+        preprocessed = build_preprocessed_record(staging_record, "PARTY")
+
+        self.assertEqual(preprocessed["Registration_Country_Normalized"], "PL")
+        self.assertEqual(preprocessed["Register_Status_Normalized"], "AKTYWNY")
+        self.assertEqual(preprocessed["Decision_Number_Normalized"], "DEC12024")
+        self.assertEqual(preprocessed["Register_Number_Normalized"], "REG99")
+        self.assertEqual(preprocessed["Has_Virtual_Accounts"], True)
+        self.assertEqual(preprocessed["Business_Scope_Normalized"], "USLUGI FINANSOWE")
+        self.assertEqual(preprocessed["Ownership_Form_Normalized"], "PRYWATNA")
+        self.assertEqual(preprocessed["Municipality_Normalized"], "WARSZAWA")
+        self.assertEqual(preprocessed["Agent_Type_Normalized"], "MULTIAGENT")
+        self.assertEqual(preprocessed["Insurance_Company_Normalized"], "TOWARZYSTWO UBEZPIECZEN")
+        self.assertEqual(preprocessed["Validation_Authority_Entity_ID_Normalized"], "0000123456")
+        self.assertEqual(preprocessed["Direct_Parent_LEI_Normalized"], "529900T8BM49AURSDO55")
+        self.assertEqual(preprocessed["Ultimate_Parent_LEI_Normalized"], "259400T8BM49AURSDO55")
+        self.assertEqual(preprocessed["District_Normalized"], "WARSZAWSKI")
+        self.assertEqual(preprocessed["Province_Normalized"], "MAZOWIECKIE")
+
+
 if __name__ == "__main__":
     unittest.main()

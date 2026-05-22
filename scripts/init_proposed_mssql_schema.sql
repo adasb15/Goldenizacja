@@ -368,18 +368,27 @@ BEGIN
         [RawFile_ID] BIGINT NOT NULL,
         [Source_Record_ID] NVARCHAR(100) NULL,
         [PESEL_Normalized] NVARCHAR(20) NULL,
+        [Serial_Number_ID_Card_Normalized] NVARCHAR(30) NULL,
+        [Serial_Number_Passport_Normalized] NVARCHAR(30) NULL,
         [First_Name_Normalized] NVARCHAR(100) NULL,
         [Second_Name_Normalized] NVARCHAR(100) NULL,
         [Last_Name_Normalized] NVARCHAR(100) NULL,
         [Family_Name_Normalized] NVARCHAR(100) NULL,
         [Full_Name_Normalized] NVARCHAR(255) NULL,
+        [Birth_Date] DATE NULL,
+        [Place_Of_Birth_Normalized] NVARCHAR(150) NULL,
+        [Sex] BIT NULL,
+        [Citizenship_Normalized] NVARCHAR(100) NULL,
         [Phone_Normalized] NVARCHAR(50) NULL,
         [Email_Normalized] NVARCHAR(255) NULL,
         [Street_Normalized] NVARCHAR(150) NULL,
         [Building_Number_Normalized] NVARCHAR(30) NULL,
         [Apartment_Number_Normalized] NVARCHAR(30) NULL,
         [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_City_Normalized] NVARCHAR(100) NULL,
         [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [District_Normalized] NVARCHAR(100) NULL,
+        [Province_Normalized] NVARCHAR(100) NULL,
         [Country_Normalized] NVARCHAR(100) NULL,
         [Full_Address_Normalized] NVARCHAR(500) NULL,
         [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
@@ -397,6 +406,26 @@ BEGIN
 END;
 GO
 
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Serial_Number_ID_Card_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Serial_Number_ID_Card_Normalized] NVARCHAR(30) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Serial_Number_Passport_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Serial_Number_Passport_Normalized] NVARCHAR(30) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Birth_Date') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Birth_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Place_Of_Birth_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Place_Of_Birth_Normalized] NVARCHAR(150) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Sex') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Sex] BIT NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Citizenship_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Citizenship_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Postal_City_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Postal_City_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'District_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [District_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Province_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Province_Normalized] NVARCHAR(100) NULL;
+GO
+
 IF OBJECT_ID(N'[stg].[Party_Preprocessed]', N'U') IS NULL
 BEGIN
     CREATE TABLE [stg].[Party_Preprocessed] (
@@ -408,18 +437,57 @@ BEGIN
         [Name_Normalized] NVARCHAR(255) NULL,
         [Short_Name_Normalized] NVARCHAR(255) NULL,
         [Legal_Entity_Type_Normalized] NVARCHAR(100) NULL,
+        [Registration_Country_Normalized] NVARCHAR(100) NULL,
+        [Establishment_Date] DATE NULL,
         [NIP_Normalized] NVARCHAR(20) NULL,
         [REGON_Normalized] NVARCHAR(20) NULL,
         [KRS_Normalized] NVARCHAR(20) NULL,
         [LEI_Normalized] NVARCHAR(30) NULL,
+        [Register_Status_Normalized] NVARCHAR(100) NULL,
+        [Registration_Date] DATE NULL,
+        [Deregistration_Date] DATE NULL,
+        [Decision_Date] DATE NULL,
+        [Decision_Number_Normalized] NVARCHAR(100) NULL,
+        [Register_Number_Normalized] NVARCHAR(100) NULL,
+        [Bank_Accounts_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Has_Virtual_Accounts] BIT NULL,
+        [Business_Scope_Normalized] NVARCHAR(MAX) NULL,
+        [Ownership_Form_Normalized] NVARCHAR(150) NULL,
+        [Municipality_Normalized] NVARCHAR(100) NULL,
         [Phone_Normalized] NVARCHAR(50) NULL,
         [Email_Normalized] NVARCHAR(255) NULL,
         [Website_Normalized] NVARCHAR(255) NULL,
+        [Agent_Type_Normalized] NVARCHAR(100) NULL,
+        [Insurance_Company_Normalized] NVARCHAR(255) NULL,
+        [Related_Persons_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Related_Parties_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Registration_Status_Normalized] NVARCHAR(50) NULL,
+        [Last_Update_Date] DATE NULL,
+        [Next_Renewal_Date] DATE NULL,
+        [Managing_LOU_Normalized] NVARCHAR(50) NULL,
+        [Validation_Sources_Normalized] NVARCHAR(100) NULL,
+        [Validation_Authority_ID_Normalized] NVARCHAR(500) NULL,
+        [Validation_Authority_Entity_ID_Normalized] NVARCHAR(100) NULL,
+        [Direct_Parent_LEI_Normalized] NVARCHAR(20) NULL,
+        [Direct_Parent_Name_Normalized] NVARCHAR(255) NULL,
+        [Direct_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL,
+        [Direct_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL,
+        [Direct_Parent_Relationship_Start_Date] DATE NULL,
+        [Direct_Parent_Relationship_End_Date] DATE NULL,
+        [Ultimate_Parent_LEI_Normalized] NVARCHAR(20) NULL,
+        [Ultimate_Parent_Name_Normalized] NVARCHAR(255) NULL,
+        [Ultimate_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL,
+        [Ultimate_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL,
+        [Ultimate_Parent_Relationship_Start_Date] DATE NULL,
+        [Ultimate_Parent_Relationship_End_Date] DATE NULL,
         [Street_Normalized] NVARCHAR(150) NULL,
         [Building_Number_Normalized] NVARCHAR(30) NULL,
         [Apartment_Number_Normalized] NVARCHAR(30) NULL,
         [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_City_Normalized] NVARCHAR(100) NULL,
         [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [District_Normalized] NVARCHAR(100) NULL,
+        [Province_Normalized] NVARCHAR(100) NULL,
         [Country_Normalized] NVARCHAR(100) NULL,
         [Full_Address_Normalized] NVARCHAR(500) NULL,
         [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
@@ -435,6 +503,86 @@ BEGIN
         CONSTRAINT [CK_Party_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
     );
 END;
+GO
+
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Country_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Country_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Establishment_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Establishment_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Register_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Register_Status_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Deregistration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Deregistration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Decision_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Decision_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Decision_Number_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Decision_Number_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Register_Number_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Register_Number_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Bank_Accounts_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Bank_Accounts_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Has_Virtual_Accounts') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Has_Virtual_Accounts] BIT NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Business_Scope_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Business_Scope_Normalized] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ownership_Form_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ownership_Form_Normalized] NVARCHAR(150) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Municipality_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Municipality_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Agent_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Agent_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Insurance_Company_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Insurance_Company_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Related_Persons_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Related_Persons_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Related_Parties_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Related_Parties_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Last_Update_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Last_Update_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Next_Renewal_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Next_Renewal_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Managing_LOU_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Managing_LOU_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Sources_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Sources_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Authority_ID_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Authority_ID_Normalized] NVARCHAR(500) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Authority_Entity_ID_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Authority_Entity_ID_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_LEI_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_LEI_Normalized] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Name_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Name_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_End_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_LEI_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_LEI_Normalized] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Name_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Name_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_End_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Postal_City_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Postal_City_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'District_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [District_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Province_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Province_Normalized] NVARCHAR(100) NULL;
 GO
 
 IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
