@@ -215,6 +215,29 @@ def validation_load(**context: Any) -> dict[str, Any]:
     return results
 
 
+def integration_golden_match(**context: Any) -> dict[str, Any]:
+    conf = _conf(context)
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
+    entity_types = _entity_types(conf)
+    min_score = conf.get("matching_min_score", 0.70)
+    max_pairs = conf.get("matching_max_pairs", 2_000_000)
+
+    results = {}
+    for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/integration_golden/match-candidates",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+                "min_score": min_score,
+                "max_pairs": max_pairs,
+            },
+        )
+
+    return results
+
+
 with DAG(
     dag_id="goldenizacja_pipeline",
     start_date=datetime(2026, 1, 1),
@@ -256,6 +279,16 @@ with DAG(
             type="boolean",
             description="Czy walidacja email ma sprawdzac DNS.",
         ),
+        "matching_min_score": Param(
+            0.70,
+            type="number",
+            description="Minimalny score kandydata matchingu zwracanego z integration_golden.",
+        ),
+        "matching_max_pairs": Param(
+            2000000,
+            type="integer",
+            description="Maksymalna liczba par porownywanych w kroku integration_golden. Wartosc 0 wylacza limit bezpieczenstwa.",
+        ),
     },
     tags=["goldenizacja", "pipeline"],
 ) as dag:
@@ -279,4 +312,15 @@ with DAG(
         python_callable=validation_load,
     )
 
-    raw_load_task >> staging_load_task >> preprocessing_load_task >> validation_load_task
+    integration_golden_match_task = PythonOperator(
+        task_id="integration_golden_match",
+        python_callable=integration_golden_match,
+    )
+
+    (
+        raw_load_task
+        >> staging_load_task
+        >> preprocessing_load_task
+        >> validation_load_task
+        >> integration_golden_match_task
+    )

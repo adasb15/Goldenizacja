@@ -663,12 +663,92 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_M
     CREATE INDEX [IX_Person_Preprocessed_Match] ON [stg].[Person_Preprocessed] ([PESEL_Normalized], [Full_Name_Normalized]);
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_IDCard' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_IDCard] ON [stg].[Person_Preprocessed] ([Serial_Number_ID_Card_Normalized]) WHERE [Serial_Number_ID_Card_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Passport' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Passport] ON [stg].[Person_Preprocessed] ([Serial_Number_Passport_Normalized]) WHERE [Serial_Number_Passport_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Email' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Email] ON [stg].[Person_Preprocessed] ([Email_Normalized]) WHERE [Email_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Phone' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Phone] ON [stg].[Person_Preprocessed] ([Phone_Normalized]) WHERE [Phone_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_Last] ON [stg].[Person_Preprocessed] ([Birth_Date], [Last_Name_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_First_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_First_Last] ON [stg].[Person_Preprocessed] ([Birth_Date], [First_Name_Normalized], [Last_Name_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [First_Name_Normalized] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_Place' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_Place] ON [stg].[Person_Preprocessed] ([Birth_Date], [Place_Of_Birth_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [Place_Of_Birth_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Postal_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Postal_Last] ON [stg].[Person_Preprocessed] ([Postal_Code_Normalized], [Last_Name_Normalized]) WHERE [Postal_Code_Normalized] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_RawFile_ID] ON [stg].[Party_Preprocessed] ([RawFile_ID]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_Match] ON [stg].[Party_Preprocessed] ([NIP_Normalized], [REGON_Normalized], [KRS_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_LEI' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_LEI] ON [stg].[Party_Preprocessed] ([LEI_Normalized]) WHERE [LEI_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Decision_Number' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Decision_Number] ON [stg].[Party_Preprocessed] ([Decision_Number_Normalized]) WHERE [Decision_Number_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Register_Number' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Register_Number] ON [stg].[Party_Preprocessed] ([Register_Number_Normalized]) WHERE [Register_Number_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Validation_Entity' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Validation_Entity] ON [stg].[Party_Preprocessed] ([Validation_Authority_Entity_ID_Normalized]) WHERE [Validation_Authority_Entity_ID_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Website' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Website] ON [stg].[Party_Preprocessed] ([Website_Normalized]) WHERE [Website_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Email' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Email] ON [stg].[Party_Preprocessed] ([Email_Normalized]) WHERE [Email_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Phone' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Phone] ON [stg].[Party_Preprocessed] ([Phone_Normalized]) WHERE [Phone_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_City' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_City] ON [stg].[Party_Preprocessed] ([Name_Normalized], [City_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [City_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_Postal' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_Postal] ON [stg].[Party_Preprocessed] ([Name_Normalized], [Postal_Code_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [Postal_Code_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_Country' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_Country] ON [stg].[Party_Preprocessed] ([Name_Normalized], [Country_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [Country_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Short_Country' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Short_Country] ON [stg].[Party_Preprocessed] ([Short_Name_Normalized], [Country_Normalized]) WHERE [Short_Name_Normalized] IS NOT NULL AND [Country_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Legal_Name' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Legal_Name] ON [stg].[Party_Preprocessed] ([Legal_Entity_Type_Normalized], [Name_Normalized]) WHERE [Legal_Entity_Type_Normalized] IS NOT NULL AND [Name_Normalized] IS NOT NULL;
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))

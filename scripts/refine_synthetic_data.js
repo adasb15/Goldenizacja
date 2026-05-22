@@ -7,6 +7,7 @@ const FORMATS = ["csv", "json", "xml", "xlsx"];
 const TARGET_PER_REGISTER = 800;
 const TARGET_PER_FORMAT = TARGET_PER_REGISTER / FORMATS.length;
 const DUPLICATED_PERSONS_PER_FORMAT = Math.round(TARGET_PER_FORMAT * 0.15);
+const HARD_PERSON_CONFLICT_RATE = 0.005;
 const RNG_SEED = 20260507;
 
 const ADDRESSES = [
@@ -317,6 +318,26 @@ function personFieldPrefix(compactKey) {
   if (compactKey.startsWith("imie")) return compactKey.slice("imie".length);
   if (compactKey.startsWith("nazwisko")) return compactKey.slice("nazwisko".length);
   return compactKey.replace(/(drugieimie|imie|nazwisko)$/, "");
+}
+
+function stableHash(value) {
+  let hash = 0;
+  for (const ch of String(value ?? "")) {
+    hash = ((hash * 31) + ch.charCodeAt(0)) >>> 0;
+  }
+  return hash;
+}
+
+function personIdentityPrefix(compactKey) {
+  return String(compactKey)
+    .replace(/(drugieimie|imie|nazwiskorodowe|nazwisko|pesel|plec|dataurodzenia|miejsceurodzenia|obywatelstwo|numerdowoduosobistego|idcard|numerpaszportu|passport)$/, "");
+}
+
+function personIdentitySeed(seed, compactKey = "") {
+  const baseSeed = personSeedFor(seed);
+  const prefix = personIdentityPrefix(compactKey);
+  if (!prefix || prefix === "firmawlasciciel" || prefix === "ofwca") return baseSeed;
+  return baseSeed + 1000 + (stableHash(prefix) % 100000);
 }
 
 function slug(value, separator = ".") {
@@ -690,6 +711,11 @@ function makeIdCard(index) {
   return `${a}${b}${c}${check}${tail}`;
 }
 
+function makePassport(index) {
+  const prefixes = ["PA", "PB", "PC", "PL", "PX"];
+  return `${pick(prefixes, index)}${pad((index * 3571 + 246813) % 10000000, 7)}`;
+}
+
 function breakDigit(value) {
   const text = String(value ?? "");
   const i = [...text].findIndex((ch) => /\d/.test(ch));
@@ -823,9 +849,12 @@ function normalizeDates(record, headers, index, seed = index, register = "") {
 }
 
 function normalizeIdentifiers(record, headers, index, seed = index) {
-  const female = String(record.Plec || "").toUpperCase() === "K" || isFemaleIndex(index);
   for (const key of headers) {
     const compact = keyId(key);
+    const identitySeed = personIdentitySeed(seed, compact);
+    const fieldFemale = String(record.Plec || "").toUpperCase() === "K" && personIdentityPrefix(compact) === ""
+      ? true
+      : isFemaleIndex(identitySeed);
     const relatedPartyMatch = String(key).match(/^WspolnikPodmiot(\d+)_(KRS|NIP)$/i);
     if (relatedPartyMatch) {
       const relatedSeed = companySeedFor(seed + Number(relatedPartyMatch[1]));
@@ -833,9 +862,9 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
       continue;
     }
 
-    if (compact.includes("pesel")) record[key] = record.DataUrodzenia
-      ? makePeselFromDate(record.DataUrodzenia, female, personSeedFor(seed) + "PESEL".length, true)
-      : makeSharedPesel(seed, female);
+    if (compact.includes("pesel")) record[key] = record.DataUrodzenia && personIdentityPrefix(compact) === ""
+      ? makePeselFromDate(record.DataUrodzenia, fieldFemale, identitySeed + "PESEL".length, true)
+      : makeSharedPesel(identitySeed, fieldFemale);
     else if (compact.includes("lei")) record[key] = makeLei(companySeedFor(seed));
     else if (compact === "registrationauthorityid" || compact === "registeredat") {
       record[key] = companySeedFor(seed) % 2 === 0 ? "RA000466" : "RA000484";
@@ -849,7 +878,8 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
     else if (compact.endsWith("nip") || compact.includes("numernip")) record[key] = makeSharedNip(seed);
     else if (compact.endsWith("regon")) record[key] = makeSharedRegon(seed);
     else if (compact.includes("krs")) record[key] = makeSharedKrs(seed);
-    else if (compact.includes("dowoduosobistego") || compact.includes("idcard")) record[key] = index % 8 === 0 ? "" : makeIdCard(seed + key.length);
+    else if (compact.includes("dowoduosobistego") || compact.includes("idcard")) record[key] = index % 8 === 0 ? "" : makeIdCard(identitySeed + key.length);
+    else if (compact.includes("paszport") || compact.includes("passport")) record[key] = index % 5 === 0 ? "" : makePassport(identitySeed + key.length);
   }
 }
 
@@ -857,10 +887,12 @@ function normalizeNames(record, headers, index, seed = index) {
   const personCache = new Map();
   const company = companyInfoFor(seed);
   const getPerson = (key) => {
-    const prefix = personFieldPrefix(keyId(key));
+    const compact = keyId(key);
+    const prefix = personIdentityPrefix(compact) || personFieldPrefix(compact);
     if (!personCache.has(prefix)) {
-      const female = isFemaleIndex(seed);
-      personCache.set(prefix, personFor(seed + prefix.length, female, seed));
+      const identitySeed = personIdentitySeed(seed, compact);
+      const female = isFemaleIndex(identitySeed);
+      personCache.set(prefix, personFor(identitySeed, female, identitySeed));
     }
     return personCache.get(prefix);
   };
@@ -868,7 +900,7 @@ function normalizeNames(record, headers, index, seed = index) {
   for (const key of headers) {
     const compact = keyId(key);
     if (compact === "plec") {
-      record[key] = isFemaleIndex(seed) ? "K" : "M";
+      record[key] = isFemaleIndex(personIdentitySeed(seed, compact)) ? "K" : "M";
     }
   }
 
@@ -879,11 +911,13 @@ function normalizeNames(record, headers, index, seed = index) {
     if (relatedPartyNameMatch) {
       record[key] = companyInfoFor(companySeedFor(seed + Number(relatedPartyNameMatch[1]))).full;
     }
-    else if (compact === "imieojca") record[key] = pick(MALE_FIRST_NAMES, seed + 3);
-    else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, seed + 7);
+    else if (compact === "imieojca") record[key] = pick(MALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 3);
+    else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 7);
+    else if (compact === "miejsceurodzenia") record[key] = addressParts(personIdentitySeed(seed, compact)).city;
+    else if (compact === "obywatelstwo") record[key] = "PL";
     else if (compact === "drugieimie" || compact.endsWith("drugieimie") || compact.startsWith("drugieimie")) record[key] = duplicatedPersonTextVariant(person.second, index, compact);
     else if (compact === "imie" || compact.endsWith("imie") || compact.startsWith("imie")) record[key] = duplicatedPersonTextVariant(person.first, index, compact);
-    else if (compact === "nazwiskorodowe" || compact.endsWith("nazwiskorodowe")) record[key] = duplicatedPersonTextVariant(familyNameFor(seed, isFemaleIndex(seed), getPerson("")), index, compact);
+    else if (compact === "nazwiskorodowe" || compact.endsWith("nazwiskorodowe")) record[key] = duplicatedPersonTextVariant(familyNameFor(personIdentitySeed(seed, compact), isFemaleIndex(personIdentitySeed(seed, compact)), person), index, compact);
     else if (compact === "nazwisko" || compact.endsWith("nazwisko") || compact.startsWith("nazwisko")) record[key] = duplicatedPersonTextVariant(person.last, index, compact);
     else if (compact === "name" || compact === "legalname" || compact === "nazwa" || compact.includes("firmanazwa")) record[key] = company.full;
     else if (compact.includes("nazwaskrocona") || compact.includes("skroconanazwa")) record[key] = company.short;
@@ -932,8 +966,9 @@ function selectIndexes(count, howMany, offset) {
   return result;
 }
 
-function applyAnomalies(records, headers) {
+function applyAnomalies(records, headers, register = "") {
   const total = records.length;
+  const registerOffset = stableHash(register) % 997;
   const typoIndexes = selectIndexes(total, Math.round(total * 0.02), 7);
   const incompleteRecordIndexes = selectIndexes(total, Math.round(total * 0.0075), 17);
   const missingPostal = selectIndexes(total, Math.round(total * 0.01), 19);
@@ -1028,8 +1063,9 @@ function applyAnomalies(records, headers) {
     regon: headers.filter((h) => keyId(h).includes("regon")),
     krs: headers.filter((h) => keyId(h).includes("krs")),
     idCard: headers.filter((h) => /(dowoduosobistego|idcard)/.test(keyId(h))),
+    passport: headers.filter((h) => /(paszport|passport)/.test(keyId(h))),
   };
-  const offsets = { pesel: 59, lei: 67, nip: 71, regon: 89, krs: 97, idCard: 107 };
+  const offsets = { pesel: 59, lei: 67, nip: 71, regon: 89, krs: 97, idCard: 107, passport: 109 };
   for (const [type, fields] of Object.entries(idGroups)) {
     const refs = [];
     for (let rowIndex = 0; rowIndex < records.length; rowIndex += 1) {
@@ -1039,9 +1075,12 @@ function applyAnomalies(records, headers) {
     }
     if (!refs.length) continue;
 
-    const badCount = Math.max(1, Math.round(refs.length * 0.02));
+    const badRate = type === "pesel" || type === "idCard" || type === "passport"
+      ? HARD_PERSON_CONFLICT_RATE
+      : 0.02;
+    const badCount = Math.round(refs.length * badRate);
     const missingCount = type === "pesel" || type === "lei" ? 0 : Math.round(refs.length * 0.005);
-    const badIndexes = new Set(selectIndexes(refs.length, badCount, offsets[type]));
+    const badIndexes = new Set(selectIndexes(refs.length, badCount, offsets[type] + registerOffset));
     const missingIndexes = selectIndexes(refs.length, missingCount, offsets[type] + 17)
       .filter((idx) => !badIndexes.has(idx));
 
@@ -1246,7 +1285,7 @@ function main() {
     for (let i = 0; i < TARGET_PER_REGISTER; i += 1) {
       records.push(cloneRecord(sourceRecords[i % sourceRecords.length], headers, i, register));
     }
-    applyAnomalies(records, headers);
+    applyAnomalies(records, headers, register);
     const counts = writeRegister(register, headers, records);
     for (const format of FORMATS) manifest[format][register] = counts[format];
     console.log(`${register}: ${records.length} records`);
