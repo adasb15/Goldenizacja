@@ -157,6 +157,7 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
             "City_Normalized": "WARSZAWA",
             "Postal_Code_Normalized": "00-001",
             "Country_Normalized": "PL",
+            "Establishment_Date": "2020-01-01",
         }
         right = {
             "Name_Normalized": "ALFA TRADE SERVICES SP ZOO",
@@ -167,6 +168,7 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
             "City_Normalized": "WARSZAWA",
             "Postal_Code_Normalized": "00-001",
             "Country_Normalized": "PL",
+            "Establishment_Date": "2020-01-01",
         }
 
         result = score_match(left, right, "PARTY")
@@ -189,9 +191,8 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
 
         result = score_match(left, right, "PARTY")
 
-        self.assertEqual(result.decision, MatchDecision.CANDIDATE)
-        self.assertGreaterEqual(result.score, 0.50)
-        self.assertLess(result.score, 0.70)
+        self.assertEqual(result.decision, MatchDecision.NO_MATCH)
+        self.assertLess(result.score, 0.50)
 
     def test_keeps_party_with_conflicting_strong_identifier_as_candidate(self) -> None:
         left = {
@@ -248,38 +249,70 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
 
         self.assertEqual(value, "Jan Kowalski")
 
-    def test_weights_follow_attribute_stability(self) -> None:
+    def test_weights_mix_identification_strength_and_stability(self) -> None:
         person_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PERSON"]}
         party_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PARTY"]}
 
         self.assertGreater(person_weights["PESEL"], person_weights["Last_Name"])
-        self.assertGreater(person_weights["Sex"], person_weights["Last_Name"])
-        self.assertGreater(person_weights["Place_Of_Birth"], person_weights["Last_Name"])
+        self.assertGreater(person_weights["Full_Name"], person_weights["Sex"])
+        self.assertGreater(person_weights["Birth_Date"], person_weights["Place_Of_Birth"])
         self.assertGreater(person_weights["Birth_Date"], person_weights["Email_Address"])
         self.assertGreater(person_weights["Last_Name"], person_weights["Phone_Number"])
-        self.assertGreater(person_weights["Country"], person_weights["Street"])
-        self.assertGreater(person_weights["Country"], person_weights["Province"])
-        self.assertGreater(person_weights["Province"], person_weights["City"])
-        self.assertGreater(person_weights["City"], person_weights["Street"])
-        self.assertEqual(person_weights["District"], person_weights["Postal_Code"])
-        self.assertEqual(person_weights["District"], person_weights["City"])
-        self.assertEqual(person_weights["District"], person_weights["Postal_City"])
+        self.assertLess(person_weights["Country"], person_weights["Last_Name"])
+        self.assertLess(person_weights["Sex"], person_weights["First_Name"])
+        self.assertGreater(person_weights["Postal_Code"], person_weights["City"])
+        self.assertGreater(person_weights["City"], person_weights["Province"])
         self.assertEqual(person_weights["Street"], person_weights["Building_Number"])
-        self.assertEqual(person_weights["Street"], person_weights["Apartment_Number"])
-        self.assertGreater(person_weights["Street"], person_weights["Full_Address"])
+        self.assertGreater(person_weights["Street"], person_weights["Apartment_Number"])
         self.assertGreater(party_weights["NIP"], party_weights["Name"])
         self.assertGreater(party_weights["Establishment_Date"], party_weights["Full_Address"])
         self.assertGreater(party_weights["Name"], party_weights["Phone_Number"])
-        self.assertGreater(party_weights["Country"], party_weights["Street"])
-        self.assertGreater(party_weights["Country"], party_weights["Province"])
-        self.assertGreater(party_weights["Province"], party_weights["City"])
-        self.assertGreater(party_weights["City"], party_weights["Street"])
-        self.assertEqual(party_weights["District"], party_weights["Postal_Code"])
-        self.assertEqual(party_weights["District"], party_weights["City"])
-        self.assertEqual(party_weights["District"], party_weights["Postal_City"])
+        self.assertLess(party_weights["Country"], party_weights["Name"])
+        self.assertLess(party_weights["Legal_Entity_Type"], party_weights["Name"])
+        self.assertLess(party_weights["Register_Status"], party_weights["Name"])
+        self.assertGreater(party_weights["Postal_Code"], party_weights["City"])
+        self.assertGreater(party_weights["City"], party_weights["Province"])
         self.assertEqual(party_weights["Street"], party_weights["Building_Number"])
-        self.assertEqual(party_weights["Street"], party_weights["Apartment_Number"])
-        self.assertGreater(party_weights["Street"], party_weights["Full_Address"])
+        self.assertGreater(party_weights["Street"], party_weights["Apartment_Number"])
+
+    def test_common_party_attributes_do_not_push_unrelated_company_above_review(self) -> None:
+        left = {
+            "NIP_Normalized": "1240744717",
+            "KRS_Normalized": "0000007283",
+            "Name_Normalized": "ZIELONY WEKTOR S A",
+            "Short_Name_Normalized": "ZIELONY WEKTOR",
+            "Legal_Entity_Type_Normalized": "S.A.",
+            "Establishment_Date": "2018-10-12",
+            "Register_Status_Normalized": "AKTYWNY",
+            "Business_Scope_Normalized": "66.22.Z",
+            "Ownership_Form_Normalized": "WLASNOSC PRYWATNA KRAJOWA",
+            "City_Normalized": "KRAKOW",
+            "Municipality_Normalized": "KRAKOW",
+            "Province_Normalized": "MALOPOLSKIE",
+            "Country_Normalized": "PL",
+        }
+        right = {
+            "NIP_Normalized": "1240749999",
+            "KRS_Normalized": "0000007999",
+            "Name_Normalized": "ZIELONY HORYZONT S A",
+            "Short_Name_Normalized": "ZIELONY HORYZONT",
+            "Legal_Entity_Type_Normalized": "S.A.",
+            "Establishment_Date": "2019-01-15",
+            "Register_Status_Normalized": "AKTYWNY",
+            "Business_Scope_Normalized": "66.22.Z",
+            "Ownership_Form_Normalized": "WLASNOSC PRYWATNA KRAJOWA",
+            "City_Normalized": "KRAKOW",
+            "Municipality_Normalized": "KRAKOW",
+            "Province_Normalized": "MALOPOLSKIE",
+            "Country_Normalized": "PL",
+        }
+
+        result = score_match(left, right, "PARTY")
+
+        self.assertLess(result.score, 0.70)
+        self.assertNotEqual(result.decision, MatchDecision.REVIEW)
+        self.assertIn("NIP", result.conflict_fields)
+        self.assertIn("KRS", result.conflict_fields)
 
     def test_finds_match_candidates_from_preprocessed_records(self) -> None:
         records = [
