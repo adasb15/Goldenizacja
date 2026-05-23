@@ -7,6 +7,7 @@ from app.db.sql import get_db
 from app.layers.integration_golden.schemas import LayerStatus, MatchingRunResponse
 from app.layers.integration_golden.service import (
     DEFAULT_MATCHING_MAX_PAIRS,
+    LEVENSHTEIN_CANDIDATE_THRESHOLD,
     MatchingPairLimitExceededError,
     PreprocessedRecordsNotFoundError,
     find_match_candidates,
@@ -25,7 +26,7 @@ def status() -> LayerStatus:
 def match_candidates(
     entity_type: str = Form(...),
     raw_file_id: int | None = Form(None),
-    min_score: float = Form(0.70),
+    min_score: float = Form(LEVENSHTEIN_CANDIDATE_THRESHOLD),
     max_pairs: int = Form(DEFAULT_MATCHING_MAX_PAIRS),
     db: Session = Depends(get_db),
 ) -> MatchingRunResponse:

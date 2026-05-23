@@ -119,7 +119,7 @@ IDENTIFIER_KEY_ALIASES = {
 # Rozpoznajemy sloty KRS regexami, żeby później złożyć je do JSON relacji zamiast setek kolumn
 KRS_RELATED_PERSON_COLUMN_RE = re.compile(
     r"^(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|CzlonekRadyNadzorczej)"
-    r"\d+_(Imie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
+    r"\d+_(Imie|DrugieImie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
 )
 KRS_RELATED_PARTY_COLUMN_RE = re.compile(
     r"^WspolnikPodmiot\d+_(Nazwa|KRS|NIP|DataOd|DataDo)$"

@@ -34,7 +34,7 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertIn("PESEL", result.strong_match_fields)
         self.assertGreaterEqual(result.score, 0.95)
 
-    def test_keeps_same_pesel_in_review_when_stable_fields_conflict(self) -> None:
+    def test_keeps_same_pesel_as_candidate_when_stable_fields_conflict(self) -> None:
         left = SimpleNamespace(
             PESEL_Normalized="90010112345",
             Birth_Date="1990-01-01",
@@ -50,10 +50,11 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
 
         result = score_match(left, right, "PERSON")
 
-        self.assertEqual(result.decision, MatchDecision.REVIEW)
+        self.assertEqual(result.decision, MatchDecision.CANDIDATE)
         self.assertIn("PESEL", result.strong_match_fields)
         self.assertIn("Birth_Date", result.conflict_fields)
         self.assertIn("Last_Name", result.conflict_fields)
+        self.assertLess(result.score, 0.70)
 
     def test_catches_person_when_pesel_has_typo_but_stable_fields_match(self) -> None:
         left = SimpleNamespace(
@@ -79,6 +80,41 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertEqual(result.strong_match_fields, ())
         self.assertIn("PESEL", result.conflict_fields)
         self.assertGreaterEqual(result.score, 0.70)
+
+    def test_rejects_person_candidate_when_many_stable_fields_conflict(self) -> None:
+        left = SimpleNamespace(
+            PESEL_Normalized="74042882265",
+            Serial_Number_ID_Card_Normalized="ABC123456",
+            Serial_Number_Passport_Normalized="PA1234567",
+            Birth_Date="1974-04-28",
+            First_Name_Normalized="JAN",
+            Last_Name_Normalized="KOWALSKI",
+            Full_Name_Normalized="JAN KOWALSKI",
+            Place_Of_Birth_Normalized="WARSZAWA",
+            Country_Normalized="PL",
+            Phone_Normalized="500100200",
+            Email_Normalized="jan.kowalski@example.test",
+        )
+        right = SimpleNamespace(
+            PESEL_Normalized="62082861665",
+            Serial_Number_ID_Card_Normalized="XYZ987654",
+            Serial_Number_Passport_Normalized="PB9876543",
+            Birth_Date="1962-08-28",
+            First_Name_Normalized="ADAM",
+            Last_Name_Normalized="NOWAK",
+            Full_Name_Normalized="ADAM NOWAK",
+            Place_Of_Birth_Normalized="KRAKOW",
+            Country_Normalized="PL",
+            Phone_Normalized="500100201",
+            Email_Normalized="adam.nowak@example.test",
+        )
+
+        result = score_match(left, right, "PERSON")
+
+        self.assertEqual(result.decision, MatchDecision.NO_MATCH)
+        self.assertEqual(result.strong_match_fields, ())
+        self.assertIn("PESEL", result.conflict_fields)
+        self.assertIn("Birth_Date", result.conflict_fields)
 
     def test_marks_party_for_review_on_name_and_address_similarity_without_strong_id(self) -> None:
         left = {
@@ -108,7 +144,25 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertGreaterEqual(result.score, 0.70)
         self.assertLess(result.score, 0.90)
 
-    def test_keeps_party_with_conflicting_strong_identifier_in_review(self) -> None:
+    def test_keeps_lower_levenshtein_match_as_candidate_for_later_stages(self) -> None:
+        left = {
+            "Name_Normalized": "ALFA TRADE SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+            "City_Normalized": "WARSZAWA",
+            "Country_Normalized": "PL",
+        }
+        right = {
+            "Name_Normalized": "ALFA MARKET SPOLKA AKCYJNA",
+            "City_Normalized": "WARSZAWA",
+            "Country_Normalized": "PL",
+        }
+
+        result = score_match(left, right, "PARTY")
+
+        self.assertEqual(result.decision, MatchDecision.CANDIDATE)
+        self.assertGreaterEqual(result.score, 0.50)
+        self.assertLess(result.score, 0.70)
+
+    def test_keeps_party_with_conflicting_strong_identifier_as_candidate(self) -> None:
         left = {
             "NIP_Normalized": "1234567890",
             "REGON_Normalized": "111222333",
@@ -122,9 +176,36 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
 
         result = score_match(left, right, "PARTY")
 
-        self.assertEqual(result.decision, MatchDecision.REVIEW)
+        self.assertEqual(result.decision, MatchDecision.CANDIDATE)
         self.assertIn("NIP", result.strong_match_fields)
         self.assertIn("REGON", result.conflict_fields)
+        self.assertLess(result.score, 0.70)
+
+    def test_single_matching_regon_does_not_pass_when_stable_fields_conflict(self) -> None:
+        left = {
+            "NIP_Normalized": "1234567890",
+            "REGON_Normalized": "111222333",
+            "KRS_Normalized": "0000000001",
+            "Name_Normalized": "ALFA TRADE SP ZOO",
+            "Short_Name_Normalized": "ALFA TRADE",
+            "Establishment_Date": "2020-01-01",
+            "Register_Status_Normalized": "AKTYWNY",
+        }
+        right = {
+            "NIP_Normalized": "9876543210",
+            "REGON_Normalized": "111222333",
+            "KRS_Normalized": "0000000999",
+            "Name_Normalized": "OMEGA MARKET SA",
+            "Short_Name_Normalized": "OMEGA",
+            "Establishment_Date": "2015-06-30",
+            "Register_Status_Normalized": "WYKRESLONY",
+        }
+
+        result = score_match(left, right, "PARTY")
+
+        self.assertEqual(result.decision, MatchDecision.NO_MATCH)
+        self.assertIn("REGON", result.strong_match_fields)
+        self.assertLess(result.score, 0.50)
 
     def test_chooses_value_from_more_trusted_source(self) -> None:
         value = choose_trusted_value(
@@ -265,6 +346,56 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertEqual(result.records_compared_against, 3)
         self.assertEqual(result.pairs_evaluated, 1)
         self.assertEqual(result.candidates_out, 1)
+
+    def test_persists_match_candidates_when_repository_supports_it(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                Staging_ID=10,
+                RawFile_ID=100,
+                Source_Record_ID="A",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP ZOO",
+            ),
+            SimpleNamespace(
+                Preprocessed_ID=2,
+                Staging_ID=20,
+                RawFile_ID=200,
+                Source_Record_ID="B",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP. Z O.O.",
+            ),
+        ]
+
+        class Repo:
+            saved = None
+
+            def get_preprocessed_records(self, entity_type: str, raw_file_id: int | None = None):
+                return [record for record in records if record.RawFile_ID == raw_file_id]
+
+            def count_preprocessed_records(self, entity_type: str) -> int:
+                return len(records)
+
+            def get_candidate_records_for_match(self, entity_type: str, record):
+                return records
+
+            def replace_match_candidates(self, entity_type: str, raw_file_id: int | None, candidates):
+                self.saved = (entity_type, raw_file_id, list(candidates))
+                return len(candidates)
+
+        repo = Repo()
+        result = find_match_candidates(
+            db=None,
+            entity_type="PARTY",
+            raw_file_id=100,
+            repo=repo,
+        )
+
+        self.assertEqual(result.candidates_out, 1)
+        self.assertIsNotNone(repo.saved)
+        self.assertEqual(repo.saved[0], "PARTY")
+        self.assertEqual(repo.saved[1], 100)
+        self.assertEqual(len(repo.saved[2]), 1)
 
     def test_max_pairs_zero_disables_safety_limit(self) -> None:
         records = [

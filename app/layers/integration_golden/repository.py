@@ -1,10 +1,12 @@
 """Dostep do danych dla warstwy integration_golden."""
 
+import json
 from typing import Any
 
-from sqlalchemy import and_, func, or_, select
+from sqlalchemy import and_, delete, func, or_, select
 from sqlalchemy.orm import Session
 
+from app.layers.integration_golden.models import MatchCandidateRecord
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -35,6 +37,42 @@ class IntegrationGoldenRepository:
         if entity_type == "PERSON":
             return self._get_person_candidate_records(record)
         return self._get_party_candidate_records(record)
+
+    def replace_match_candidates(
+        self,
+        entity_type: str,
+        raw_file_id: int | None,
+        candidates: list[Any],
+    ) -> int:
+        entity_type = normalize_entity_type(entity_type)
+        self.db.execute(
+            delete(MatchCandidateRecord)
+            .where(MatchCandidateRecord.Entity_Type == entity_type)
+            .where(MatchCandidateRecord.RawFile_ID == raw_file_id)
+        )
+
+        entities = [
+            MatchCandidateRecord(
+                Entity_Type=entity_type,
+                RawFile_ID=raw_file_id,
+                Left_Preprocessed_ID=candidate.left_preprocessed_id,
+                Right_Preprocessed_ID=candidate.right_preprocessed_id,
+                Left_Staging_ID=candidate.left_staging_id,
+                Right_Staging_ID=candidate.right_staging_id,
+                Left_RawFile_ID=candidate.left_raw_file_id,
+                Right_RawFile_ID=candidate.right_raw_file_id,
+                Left_Source_Record_ID=candidate.left_source_record_id,
+                Right_Source_Record_ID=candidate.right_source_record_id,
+                Score=candidate.score,
+                Decision=str(candidate.decision.value),
+                Strong_Match_Fields_JSON=json.dumps(list(candidate.strong_match_fields), ensure_ascii=False),
+                Conflict_Fields_JSON=json.dumps(list(candidate.conflict_fields), ensure_ascii=False),
+            )
+            for candidate in candidates
+        ]
+        self.db.add_all(entities)
+        self.db.commit()
+        return len(entities)
 
     def _get_person_candidate_records(self, record: Any) -> list[PersonPreprocessed]:
         conditions = []

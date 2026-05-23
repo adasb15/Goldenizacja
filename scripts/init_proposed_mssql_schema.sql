@@ -7,6 +7,10 @@ GO
 USE [goldenizacja];
 GO
 
+SET ANSI_NULLS ON;
+SET QUOTED_IDENTIFIER ON;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'meta')
     EXEC(N'CREATE SCHEMA [meta]');
 GO
@@ -585,6 +589,35 @@ IF COL_LENGTH(N'stg.Party_Preprocessed', N'Province_Normalized') IS NULL
     ALTER TABLE [stg].[Party_Preprocessed] ADD [Province_Normalized] NVARCHAR(100) NULL;
 GO
 
+IF OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Match_Candidate_Levenshtein] (
+        [Match_Candidate_Levenshtein_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [RawFile_ID] BIGINT NULL,
+        [Left_Preprocessed_ID] BIGINT NOT NULL,
+        [Right_Preprocessed_ID] BIGINT NOT NULL,
+        [Left_Staging_ID] BIGINT NOT NULL,
+        [Right_Staging_ID] BIGINT NOT NULL,
+        [Left_RawFile_ID] BIGINT NOT NULL,
+        [Right_RawFile_ID] BIGINT NOT NULL,
+        [Left_Source_Record_ID] NVARCHAR(100) NULL,
+        [Right_Source_Record_ID] NVARCHAR(100) NULL,
+        [Score] FLOAT NOT NULL,
+        [Decision] NVARCHAR(30) NOT NULL,
+        [Strong_Match_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Conflict_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Match_Candidate_Levenshtein_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Match_Candidate_Levenshtein] PRIMARY KEY CLUSTERED ([Match_Candidate_Levenshtein_ID]),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Decision] CHECK ([Decision] IN (N'AUTO_MERGE', N'REVIEW', N'CANDIDATE')),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Score] CHECK ([Score] >= 0 AND [Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Strong_JSON] CHECK ([Strong_Match_Fields_JSON] IS NULL OR ISJSON([Strong_Match_Fields_JSON]) = 1),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Conflict_JSON] CHECK ([Conflict_Fields_JSON] IS NULL OR ISJSON([Conflict_Fields_JSON]) = 1)
+    );
+END;
+GO
+
 IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
 BEGIN
     CREATE TABLE [stg].[Validation_Result] (
@@ -749,6 +782,18 @@ GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Legal_Name' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_Legal_Name] ON [stg].[Party_Preprocessed] ([Legal_Entity_Type_Normalized], [Name_Normalized]) WHERE [Legal_Entity_Type_Normalized] IS NOT NULL AND [Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_RawFile_Entity] ON [stg].[Match_Candidate_Levenshtein] ([RawFile_ID], [Entity_Type]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_Decision_Score' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_Decision_Score] ON [stg].[Match_Candidate_Levenshtein] ([Decision], [Score]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_Left_Right' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_Left_Right] ON [stg].[Match_Candidate_Levenshtein] ([Left_Preprocessed_ID], [Right_Preprocessed_ID]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
@@ -956,18 +1001,23 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KRS) - pierwszy znaleziony slot osoby powiązanej w rekordzie
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_PESEL', N'PESEL'),
 
@@ -1099,6 +1149,7 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_AGENT) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_agent.csv
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'DrugieImię', N'Second_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
 
@@ -1138,6 +1189,7 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_PRACOWNIK_AGENTA) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta.csv
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'DrugieImię', N'Second_Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Numer pracownika', N'Source_Record_ID'),
@@ -1177,6 +1229,7 @@ USING (VALUES
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Data zezwolenia', N'Registration_Date'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Numer decyzji', N'Decision_Number'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_DrugieImie', N'Second_Name'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])

@@ -13,8 +13,10 @@ from app.layers.staging_validation.mapper import normalize_entity_type
 
 AUTO_MERGE_THRESHOLD = 0.90
 REVIEW_THRESHOLD = 0.70
+LEVENSHTEIN_CANDIDATE_THRESHOLD = 0.50
 DEFAULT_MATCHING_MAX_PAIRS = 2_000_000
 STABLE_CONFLICT_SIMILARITY_THRESHOLD = 0.70
+BLOCKING_CONFLICT_FIELD_COUNT = 3
 
 FALLBACK_SOURCE_TRUST_LEVELS = {
     "CEIDG": 80,
@@ -35,6 +37,7 @@ FALLBACK_SOURCE_TRUST_LEVELS = {
 class MatchDecision(str, Enum):
     AUTO_MERGE = "AUTO_MERGE"
     REVIEW = "REVIEW"
+    CANDIDATE = "CANDIDATE"
     NO_MATCH = "NO_MATCH"
 
 
@@ -107,134 +110,127 @@ class MatchingRunResult:
 
 
 PERSON_FIELD_RULES = (
-    FieldRule("PESEL", 1.0, FieldRole.STRONG, "exact", ("PESEL_Normalized",), decisive=True),
+    FieldRule("PESEL", 1.0, FieldRole.STRONG, aliases=("PESEL_Normalized",), decisive=True),
     FieldRule(
         "Serial_Number_ID_Card",
         0.95,
         FieldRole.STRONG,
-        "exact",
-        ("Serial_Number_ID_Card_Normalized",),
+        aliases=("Serial_Number_ID_Card_Normalized",),
         decisive=True,
     ),
     FieldRule(
         "Serial_Number_Passport",
         0.95,
         FieldRole.STRONG,
-        "exact",
-        ("Serial_Number_Passport_Normalized",),
+        aliases=("Serial_Number_Passport_Normalized",),
         decisive=True,
     ),
-    FieldRule("Birth_Date", 0.95, FieldRole.FIXED, "exact"),
+    FieldRule("Birth_Date", 0.95, FieldRole.FIXED),
     FieldRule("First_Name", 0.7, FieldRole.SEMI_FIXED, aliases=("First_Name_Normalized",)),
     FieldRule("Second_Name", 0.7, FieldRole.SEMI_FIXED, aliases=("Second_Name_Normalized",)),
     FieldRule("Last_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Last_Name_Normalized",)),
     FieldRule("Family_Name", 0.7, FieldRole.SEMI_FIXED, aliases=("Family_Name_Normalized",)),
     FieldRule("Full_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Full_Name_Normalized",)),
     FieldRule("Place_Of_Birth", 0.9, FieldRole.FIXED, aliases=("Place_Of_Birth_Normalized",)),
-    FieldRule("Sex", 0.8, FieldRole.SEMI_FIXED, "exact"),
+    FieldRule("Sex", 0.8, FieldRole.SEMI_FIXED),
     FieldRule("Citizenship", 0.9, FieldRole.SEMI_FIXED, aliases=("Citizenship_Normalized",)),
-    FieldRule("Phone_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Phone_Normalized",)),
-    FieldRule("Email_Address", 0.15, FieldRole.DYNAMIC, "exact", ("Email_Normalized",)),
+    FieldRule("Phone_Number", 0.15, FieldRole.DYNAMIC, aliases=("Phone_Normalized",)),
+    FieldRule("Email_Address", 0.15, FieldRole.DYNAMIC, aliases=("Email_Normalized",)),
     FieldRule("Street", 0.15, FieldRole.DYNAMIC, aliases=("Street_Normalized",)),
-    FieldRule("Building_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Building_Number_Normalized",)),
-    FieldRule("Apartment_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Apartment_Number_Normalized",)),
+    FieldRule("Building_Number", 0.15, FieldRole.DYNAMIC, aliases=("Building_Number_Normalized",)),
+    FieldRule("Apartment_Number", 0.15, FieldRole.DYNAMIC, aliases=("Apartment_Number_Normalized",)),
     FieldRule("City", 0.2, FieldRole.DYNAMIC, aliases=("City_Normalized",)),
     FieldRule("Postal_City", 0.2, FieldRole.DYNAMIC, aliases=("Postal_City_Normalized",)),
-    FieldRule("Postal_Code", 0.2, FieldRole.DYNAMIC, "exact", ("Postal_Code_Normalized",)),
+    FieldRule("Postal_Code", 0.2, FieldRole.DYNAMIC, aliases=("Postal_Code_Normalized",)),
     FieldRule("District", 0.2, FieldRole.DYNAMIC, aliases=("District_Normalized",)),
     FieldRule("Province", 0.3, FieldRole.DYNAMIC, aliases=("Province_Normalized",)),
-    FieldRule("Country", 0.4, FieldRole.FIXED, "exact", ("Country_Normalized",)),
+    FieldRule("Country", 0.4, FieldRole.FIXED, aliases=("Country_Normalized",)),
     FieldRule("Full_Address", 0.08, FieldRole.DYNAMIC, aliases=("Full_Address_Normalized",)),
 )
 
 PARTY_FIELD_RULES = (
-    FieldRule("NIP", 1.0, FieldRole.STRONG, "exact", ("NIP_Normalized",), decisive=True),
-    FieldRule("REGON", 0.95, FieldRole.STRONG, "exact", ("REGON_Normalized",), decisive=True),
-    FieldRule("KRS", 0.95, FieldRole.STRONG, "exact", ("KRS_Normalized",), decisive=True),
-    FieldRule("LEI", 1.0, FieldRole.STRONG, "exact", ("LEI_Normalized",), decisive=True),
+    FieldRule("NIP", 1.0, FieldRole.STRONG, aliases=("NIP_Normalized",), decisive=True),
+    FieldRule("REGON", 0.95, FieldRole.STRONG, aliases=("REGON_Normalized",), decisive=True),
+    FieldRule("KRS", 0.95, FieldRole.STRONG, aliases=("KRS_Normalized",), decisive=True),
+    FieldRule("LEI", 1.0, FieldRole.STRONG, aliases=("LEI_Normalized",), decisive=True),
     FieldRule("Name", 0.7, FieldRole.SEMI_FIXED, aliases=("Name_Normalized",)),
     FieldRule("Short_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Short_Name_Normalized",)),
-    FieldRule("Legal_Entity_Type", 0.7, FieldRole.SEMI_FIXED, "exact", ("Legal_Entity_Type_Normalized",)),
-    FieldRule("Registration_Country", 0.4, FieldRole.FIXED, "exact", ("Registration_Country_Normalized",)),
-    FieldRule("Establishment_Date", 0.95, FieldRole.FIXED, "exact"),
+    FieldRule("Legal_Entity_Type", 0.7, FieldRole.SEMI_FIXED, aliases=("Legal_Entity_Type_Normalized",)),
+    FieldRule("Registration_Country", 0.4, FieldRole.FIXED, aliases=("Registration_Country_Normalized",)),
+    FieldRule("Establishment_Date", 0.95, FieldRole.FIXED),
     FieldRule("Street", 0.15, FieldRole.DYNAMIC, aliases=("Street_Normalized",)),
-    FieldRule("Building_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Building_Number_Normalized",)),
-    FieldRule("Apartment_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Apartment_Number_Normalized",)),
+    FieldRule("Building_Number", 0.15, FieldRole.DYNAMIC, aliases=("Building_Number_Normalized",)),
+    FieldRule("Apartment_Number", 0.15, FieldRole.DYNAMIC, aliases=("Apartment_Number_Normalized",)),
     FieldRule("City", 0.2, FieldRole.DYNAMIC, aliases=("City_Normalized",)),
     FieldRule("Postal_City", 0.2, FieldRole.DYNAMIC, aliases=("Postal_City_Normalized",)),
-    FieldRule("Postal_Code", 0.2, FieldRole.DYNAMIC, "exact", ("Postal_Code_Normalized",)),
+    FieldRule("Postal_Code", 0.2, FieldRole.DYNAMIC, aliases=("Postal_Code_Normalized",)),
     FieldRule("District", 0.2, FieldRole.DYNAMIC, aliases=("District_Normalized",)),
     FieldRule("Province", 0.3, FieldRole.DYNAMIC, aliases=("Province_Normalized",)),
-    FieldRule("Country", 0.4, FieldRole.FIXED, "exact", ("Country_Normalized",)),
+    FieldRule("Country", 0.4, FieldRole.FIXED, aliases=("Country_Normalized",)),
     FieldRule("Full_Address", 0.08, FieldRole.DYNAMIC, aliases=("Full_Address_Normalized",)),
-    FieldRule("Register_Status", 0.6, FieldRole.SEMI_FIXED, "exact", ("Register_Status_Normalized",)),
-    FieldRule("Registration_Date", 0.9, FieldRole.FIXED, "exact"),
-    FieldRule("Deregistration_Date", 0.7, FieldRole.SEMI_FIXED, "exact"),
-    FieldRule("Decision_Date", 0.9, FieldRole.FIXED, "exact"),
-    FieldRule("Decision_Number", 0.95, FieldRole.STRONG, "exact", ("Decision_Number_Normalized",), decisive=True),
-    FieldRule("Register_Number", 0.95, FieldRole.STRONG, "exact", ("Register_Number_Normalized",), decisive=True),
+    FieldRule("Register_Status", 0.6, FieldRole.SEMI_FIXED, aliases=("Register_Status_Normalized",)),
+    FieldRule("Registration_Date", 0.9, FieldRole.FIXED),
+    FieldRule("Deregistration_Date", 0.7, FieldRole.SEMI_FIXED),
+    FieldRule("Decision_Date", 0.9, FieldRole.FIXED),
+    FieldRule("Decision_Number", 0.95, FieldRole.STRONG, aliases=("Decision_Number_Normalized",), decisive=True),
+    FieldRule("Register_Number", 0.95, FieldRole.STRONG, aliases=("Register_Number_Normalized",), decisive=True),
     FieldRule("Bank_Accounts_JSON", 0.15, FieldRole.DYNAMIC, aliases=("Bank_Accounts_Normalized_JSON",)),
-    FieldRule("Has_Virtual_Accounts", 0.05, FieldRole.CONTEXT, "exact"),
+    FieldRule("Has_Virtual_Accounts", 0.05, FieldRole.CONTEXT),
     FieldRule("Business_Scope", 0.25, FieldRole.CONTEXT, aliases=("Business_Scope_Normalized",)),
     FieldRule("Ownership_Form", 0.7, FieldRole.SEMI_FIXED, aliases=("Ownership_Form_Normalized",)),
     FieldRule("Municipality", 0.2, FieldRole.DYNAMIC, aliases=("Municipality_Normalized",)),
-    FieldRule("Phone_Number", 0.15, FieldRole.DYNAMIC, "exact", ("Phone_Normalized",)),
-    FieldRule("Email_Address", 0.15, FieldRole.DYNAMIC, "exact", ("Email_Normalized",)),
-    FieldRule("Website", 0.15, FieldRole.DYNAMIC, "exact", ("Website_Normalized",)),
-    FieldRule("Agent_Type", 0.7, FieldRole.SEMI_FIXED, "exact", ("Agent_Type_Normalized",)),
+    FieldRule("Phone_Number", 0.15, FieldRole.DYNAMIC, aliases=("Phone_Normalized",)),
+    FieldRule("Email_Address", 0.15, FieldRole.DYNAMIC, aliases=("Email_Normalized",)),
+    FieldRule("Website", 0.15, FieldRole.DYNAMIC, aliases=("Website_Normalized",)),
+    FieldRule("Agent_Type", 0.7, FieldRole.SEMI_FIXED, aliases=("Agent_Type_Normalized",)),
     FieldRule("Insurance_Company", 0.7, FieldRole.SEMI_FIXED, aliases=("Insurance_Company_Normalized",)),
     FieldRule("Related_Persons_JSON", 0.2, FieldRole.CONTEXT, aliases=("Related_Persons_Normalized_JSON",)),
     FieldRule("Related_Parties_JSON", 0.2, FieldRole.CONTEXT, aliases=("Related_Parties_Normalized_JSON",)),
-    FieldRule("Registration_Status", 0.6, FieldRole.SEMI_FIXED, "exact", ("Registration_Status_Normalized",)),
-    FieldRule("Last_Update_Date", 0.05, FieldRole.CONTEXT, "exact"),
-    FieldRule("Next_Renewal_Date", 0.05, FieldRole.CONTEXT, "exact"),
-    FieldRule("Managing_LOU", 0.15, FieldRole.CONTEXT, "exact", ("Managing_LOU_Normalized",)),
+    FieldRule("Registration_Status", 0.6, FieldRole.SEMI_FIXED, aliases=("Registration_Status_Normalized",)),
+    FieldRule("Last_Update_Date", 0.05, FieldRole.CONTEXT),
+    FieldRule("Next_Renewal_Date", 0.05, FieldRole.CONTEXT),
+    FieldRule("Managing_LOU", 0.15, FieldRole.CONTEXT, aliases=("Managing_LOU_Normalized",)),
     FieldRule("Validation_Sources", 0.15, FieldRole.CONTEXT, aliases=("Validation_Sources_Normalized",)),
     FieldRule("Validation_Authority_ID", 0.7, FieldRole.SEMI_FIXED, aliases=("Validation_Authority_ID_Normalized",)),
     FieldRule(
         "Validation_Authority_Entity_ID",
         0.95,
         FieldRole.STRONG,
-        "exact",
-        ("Validation_Authority_Entity_ID_Normalized",),
+        aliases=("Validation_Authority_Entity_ID_Normalized",),
         decisive=True,
     ),
-    FieldRule("Direct_Parent_LEI", 0.95, FieldRole.FIXED, "exact", ("Direct_Parent_LEI_Normalized",)),
+    FieldRule("Direct_Parent_LEI", 0.95, FieldRole.FIXED, aliases=("Direct_Parent_LEI_Normalized",)),
     FieldRule("Direct_Parent_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Direct_Parent_Name_Normalized",)),
     FieldRule(
         "Direct_Parent_Relationship_Type",
         0.2,
         FieldRole.CONTEXT,
-        "exact",
-        ("Direct_Parent_Relationship_Type_Normalized",),
+        aliases=("Direct_Parent_Relationship_Type_Normalized",),
     ),
     FieldRule(
         "Direct_Parent_Relationship_Status",
         0.1,
         FieldRole.CONTEXT,
-        "exact",
-        ("Direct_Parent_Relationship_Status_Normalized",),
+        aliases=("Direct_Parent_Relationship_Status_Normalized",),
     ),
-    FieldRule("Direct_Parent_Relationship_Start_Date", 0.7, FieldRole.SEMI_FIXED, "exact"),
-    FieldRule("Direct_Parent_Relationship_End_Date", 0.1, FieldRole.CONTEXT, "exact"),
-    FieldRule("Ultimate_Parent_LEI", 0.95, FieldRole.FIXED, "exact", ("Ultimate_Parent_LEI_Normalized",)),
+    FieldRule("Direct_Parent_Relationship_Start_Date", 0.7, FieldRole.SEMI_FIXED),
+    FieldRule("Direct_Parent_Relationship_End_Date", 0.1, FieldRole.CONTEXT),
+    FieldRule("Ultimate_Parent_LEI", 0.95, FieldRole.FIXED, aliases=("Ultimate_Parent_LEI_Normalized",)),
     FieldRule("Ultimate_Parent_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Ultimate_Parent_Name_Normalized",)),
     FieldRule(
         "Ultimate_Parent_Relationship_Type",
         0.2,
         FieldRole.CONTEXT,
-        "exact",
-        ("Ultimate_Parent_Relationship_Type_Normalized",),
+        aliases=("Ultimate_Parent_Relationship_Type_Normalized",),
     ),
     FieldRule(
         "Ultimate_Parent_Relationship_Status",
         0.1,
         FieldRole.CONTEXT,
-        "exact",
-        ("Ultimate_Parent_Relationship_Status_Normalized",),
+        aliases=("Ultimate_Parent_Relationship_Status_Normalized",),
     ),
-    FieldRule("Ultimate_Parent_Relationship_Start_Date", 0.7, FieldRole.SEMI_FIXED, "exact"),
-    FieldRule("Ultimate_Parent_Relationship_End_Date", 0.1, FieldRole.CONTEXT, "exact"),
+    FieldRule("Ultimate_Parent_Relationship_Start_Date", 0.7, FieldRole.SEMI_FIXED),
+    FieldRule("Ultimate_Parent_Relationship_End_Date", 0.1, FieldRole.CONTEXT),
 )
 
 
@@ -244,7 +240,6 @@ FIELD_RULES_BY_ENTITY_TYPE = {
 }
 
 COMPARATORS: dict[str, Callable[[Any, Any], float]] = {
-    "exact": lambda left, right: 1.0 if normalize_value(left) == normalize_value(right) else 0.0,
     "levenshtein": lambda left, right: Levenshtein.normalized_similarity(
         normalize_value(left),
         normalize_value(right),
@@ -270,7 +265,7 @@ def find_match_candidates(
     db: Any,
     entity_type: str,
     raw_file_id: int | None = None,
-    min_score: float = REVIEW_THRESHOLD,
+    min_score: float = LEVENSHTEIN_CANDIDATE_THRESHOLD,
     max_pairs: int = DEFAULT_MATCHING_MAX_PAIRS,
     repo: Any | None = None,
 ) -> MatchingRunResult:
@@ -340,13 +335,19 @@ def find_match_candidates(
             )
 
     candidates.sort(key=lambda candidate: candidate.score, reverse=True)
+    persisted_candidates = persist_match_candidates(
+        repo,
+        entity_type,
+        raw_file_id,
+        candidates,
+    )
     return MatchingRunResult(
         entity_type=entity_type,
         raw_file_id=raw_file_id,
         records_in_scope=len(scoped_records),
         records_compared_against=records_compared_against,
         pairs_evaluated=pairs_evaluated,
-        candidates_out=len(candidates),
+        candidates_out=persisted_candidates,
         min_score=min_score,
         candidates=tuple(candidates),
     )
@@ -369,12 +370,24 @@ def get_candidate_records(
     return fallback_candidate_pool
 
 
+def persist_match_candidates(
+    repo: Any,
+    entity_type: str,
+    raw_file_id: int | None,
+    candidates: list[MatchCandidate],
+) -> int:
+    if hasattr(repo, "replace_match_candidates"):
+        return int(repo.replace_match_candidates(entity_type, raw_file_id, candidates))
+    return len(candidates)
+
+
 def score_match(left_record: Any, right_record: Any, entity_type: str) -> MatchResult:
     entity_type = normalize_entity_type(entity_type)
     rules = FIELD_RULES_BY_ENTITY_TYPE[entity_type]
     field_scores: list[FieldScore] = []
     strong_match_fields: list[str] = []
     conflict_fields: list[str] = []
+    blocking_conflict_fields: list[str] = []
     weighted_score = 0.0
     total_weight = 0.0
 
@@ -391,10 +404,13 @@ def score_match(left_record: Any, right_record: Any, entity_type: str) -> MatchR
 
         if rule.decisive and similarity == 1.0:
             strong_match_fields.append(rule.name)
-        elif rule.role == FieldRole.STRONG and similarity == 0.0:
+        elif rule.role == FieldRole.STRONG and similarity < 1.0:
             conflict_fields.append(rule.name)
+            blocking_conflict_fields.append(rule.name)
         elif is_stable_conflict(rule, similarity):
             conflict_fields.append(rule.name)
+            if rule.role in {FieldRole.FIXED, FieldRole.SEMI_FIXED}:
+                blocking_conflict_fields.append(rule.name)
 
         field_scores.append(
             FieldScore(
@@ -409,15 +425,16 @@ def score_match(left_record: Any, right_record: Any, entity_type: str) -> MatchR
             )
         )
 
-    score = weighted_score / total_weight if total_weight else 0.0
-    if strong_match_fields:
-        score = max(score, 0.95)
-
-    rounded_score = round(score, 4)
+    rounded_score = round(weighted_score / total_weight if total_weight else 0.0, 4)
     return MatchResult(
         entity_type=entity_type,
         score=rounded_score,
-        decision=classify_match(rounded_score, strong_match_fields, conflict_fields),
+        decision=classify_match(
+            rounded_score,
+            strong_match_fields,
+            conflict_fields,
+            blocking_conflict_fields,
+        ),
         strong_match_fields=tuple(strong_match_fields),
         conflict_fields=tuple(conflict_fields),
         field_scores=tuple(field_scores),
@@ -428,13 +445,22 @@ def classify_match(
     score: float,
     strong_match_fields: list[str],
     conflict_fields: list[str],
+    blocking_conflict_fields: list[str] | None = None,
 ) -> MatchDecision:
+    blocking_conflict_fields = blocking_conflict_fields or []
+    if (
+        not strong_match_fields
+        and len(set(blocking_conflict_fields)) >= BLOCKING_CONFLICT_FIELD_COUNT
+    ):
+        return MatchDecision.NO_MATCH
     if strong_match_fields and not conflict_fields:
         return MatchDecision.AUTO_MERGE
     if score >= AUTO_MERGE_THRESHOLD and not conflict_fields:
         return MatchDecision.AUTO_MERGE
     if score >= REVIEW_THRESHOLD:
         return MatchDecision.REVIEW
+    if score >= LEVENSHTEIN_CANDIDATE_THRESHOLD:
+        return MatchDecision.CANDIDATE
     return MatchDecision.NO_MATCH
 
 

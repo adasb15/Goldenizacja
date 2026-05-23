@@ -340,6 +340,7 @@ class StagingMapperTests(unittest.TestCase):
         source_record = {
             "nazwa": "KRS Company",
             "CzlonekZarzadu1_Imie": "Anna",
+            "CzlonekZarzadu1_DrugieImie": "Maria",
             "CzlonekZarzadu1_Nazwisko": "Nowak",
             "CzlonekZarzadu1_PESEL": "90010112345",
             "CzlonekZarzadu1_Funkcja": "PREZES",
@@ -372,6 +373,7 @@ class StagingMapperTests(unittest.TestCase):
                     "role_group": "BOARD_MEMBER",
                     "slot": 1,
                     "first_name": "Anna",
+                    "second_name": "Maria",
                     "last_name": "Nowak",
                     "pesel": "90010112345",
                     "role_name": "PREZES",

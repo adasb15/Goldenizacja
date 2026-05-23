@@ -219,7 +219,7 @@ def integration_golden_match(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
-    min_score = conf.get("matching_min_score", 0.70)
+    min_score = conf.get("matching_min_score", 0.50)
     max_pairs = conf.get("matching_max_pairs", 2_000_000)
 
     results = {}
@@ -280,9 +280,9 @@ with DAG(
             description="Czy walidacja email ma sprawdzac DNS.",
         ),
         "matching_min_score": Param(
-            0.70,
+            0.50,
             type="number",
-            description="Minimalny score kandydata matchingu zwracanego z integration_golden.",
+            description="Minimalny score pierwszego etapu Levenshteina. Nizszy prog przepuszcza wiecej kandydatow do kolejnych miar.",
         ),
         "matching_max_pairs": Param(
             2000000,
