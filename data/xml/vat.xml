@@ -3,7 +3,7 @@
   <record>
     <field name="name">Facebook - Meta</field>
     <field name="nip">1234805466</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">234963846</field>
     <field name="pesel">60021406849</field>
     <field name="krs">0000000008</field>
@@ -11,13 +11,13 @@
     <field name="workingAddress">os. Marszałkowska 1/1, 00-590 Warszawa</field>
     <field name="accountNumbers">16 4888 9356 7436 6465 8802 5553</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2015/13/08</field>
+    <field name="registrationLegalDate">2015/19/07</field>
     <field name="removalDate">2019/12/04</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply sp z oo</field>
+    <field name="name">Polskie Przetwory sp z oo</field>
     <field name="nip">1234884655</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235043036</field>
     <field name="pesel">61032108236</field>
     <field name="krs">0000000105</field>
@@ -25,13 +25,13 @@
     <field name="workingAddress">ul Krakowskie Przedmieście 18, 00-071 Warszawa</field>
     <field name="accountNumbers">92340208575457241735020603</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">10-11-2019</field>
+    <field name="registrationLegalDate">26-08-2016</field>
     <field name="removalDate">06-11-2021</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp. z o. o.</field>
+    <field name="name">Hurtownia Nabiału Mleczko sp. z o. o.</field>
     <field name="nip">1234963840</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235122221</field>
     <field name="pesel">62042809586</field>
     <field name="krs">0000000202</field>
@@ -39,13 +39,13 @@
     <field name="workingAddress">ulica Floriańska 35, 31-019 Kraków</field>
     <field name="accountNumbers">77 5848 3328 6468 6320 9514 2166</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2015-22-04</field>
+    <field name="registrationLegalDate">2017-05-09</field>
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory Sp. z o.o.</field>
+    <field name="name">Agencja Reklamowa Kreatywni Sp. z o.o.</field>
     <field name="nip">1235043030</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235201417</field>
     <field name="pesel">63050710972</field>
     <field name="krs">0000000299</field>
@@ -53,13 +53,13 @@
     <field name="workingAddress">Długa 52, 31-147 Kraków</field>
     <field name="accountNumbers">82 7089 9889 6693 6636 9986 6976</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20180517</field>
+    <field name="registrationLegalDate">20181012</field>
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">Nova Data SP Z O O</field>
+    <field name="name">Kancelaria Prawna Sankcja SP Z O O</field>
     <field name="nip">1235122226</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235280606</field>
     <field name="pesel">64061412321</field>
     <field name="krs">0000000396</field>
@@ -67,13 +67,13 @@
     <field name="workingAddress">ul. Piotrkowska 69/53, 90-102 Łódź</field>
     <field name="accountNumbers">32785530116504621220160736</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">21/03/2025</field>
+    <field name="registrationLegalDate">19/11/2019</field>
     <field name="removalDate">22/07/2023</field>
   </record>
   <record>
-    <field name="name">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Śląskie Zakłady Mechaniczne spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1235201411</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235359791</field>
     <field name="pesel">65072113717</field>
     <field name="krs">0000000493</field>
@@ -81,13 +81,13 @@
     <field name="workingAddress">ul Zachodnia 86, 90-402 Łódź</field>
     <field name="accountNumbers">65 9689 9458 1214 3090 7990 5139</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2017/01/12</field>
+    <field name="registrationLegalDate">2020/26/12</field>
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Fabryka Okien i Drzwi Profil Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1235280600</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235438987</field>
     <field name="pesel">66082815068</field>
     <field name="krs">0000000590</field>
@@ -95,13 +95,13 @@
     <field name="workingAddress">ulica Świdnicka 103, 50-066 Wrocław</field>
     <field name="accountNumbers">35 2001 1097 4381 2542 3583 6248</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">26-12-2019</field>
+    <field name="registrationLegalDate">05-01-2021</field>
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Quantum Services S.A.</field>
+    <field name="name">Przedsiębiorstwo Robót Drogowych S.A.</field>
     <field name="nip">1235359796</field>
-    <field name="statusVat">Wyśkeronly</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235518172</field>
     <field name="pesel">67090716451</field>
     <field name="krs">0000000687</field>
@@ -109,27 +109,27 @@
     <field name="workingAddress">Legnicka 120, 54-203 Wrocław</field>
     <field name="accountNumbers">51 7786 2727 3009 2857 7787 1352</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2022-25-03</field>
-    <field name="removalDate">2026-05-11</field>
+    <field name="registrationLegalDate">2022-12-02</field>
+    <field name="removalDate">2026-11-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest SA</field>
+    <field name="name">Krakowskie Biuro Nieruchomości SA</field>
     <field name="nip">1235438981</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">335597361</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">235597361</field>
     <field name="pesel">68101417802</field>
     <field name="krs">0000000784</field>
     <field name="residenceAddress">ul. Święty Marcin 137/15, 61-806 Poznań</field>
     <field name="workingAddress">ul. Święty Marcin 137/15, 61-806 Poznań</field>
     <field name="accountNumbers">96108201602725630582958242</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20150114</field>
+    <field name="registrationLegalDate">20230319</field>
     <field name="removalDate">20240406</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech S. A.</field>
+    <field name="name">Salon Samochodowy Auto-Hit S. A.</field>
     <field name="nip">1235518177</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235676557</field>
     <field name="pesel">69112119190</field>
     <field name="krs">0000000881</field>
@@ -137,13 +137,13 @@
     <field name="workingAddress">ul Głogowska 154, 60-734 Poznań</field>
     <field name="accountNumbers">82112651581052138156023974</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">17/04/2021</field>
+    <field name="registrationLegalDate">26/04/2024</field>
     <field name="removalDate">19/01/2016</field>
   </record>
   <record>
-    <field name="name">Astra Finance Spółka Akcyjna</field>
+    <field name="name">Klinika Stomatologiczna Dent-Med Spółka Akcyjna</field>
     <field name="nip">1235597366</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235755742</field>
     <field name="pesel">70122820541</field>
     <field name="krs">0000000978</field>
@@ -151,13 +151,13 @@
     <field name="workingAddress">ulica Długa 171, 80-831 Gdańsk</field>
     <field name="accountNumbers">06371769247603596413660581</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2022/21/09</field>
+    <field name="registrationLegalDate">2025/05/05</field>
     <field name="removalDate">2017/26/02</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply sp. z o.o.</field>
+    <field name="name">Polski Tytoń sp. z o.o.</field>
     <field name="nip">1235676551</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235834938</field>
     <field name="pesel">71010721939</field>
     <field name="krs">0000001075</field>
@@ -165,13 +165,13 @@
     <field name="workingAddress">Grunwaldzka 8, 80-236 Gdańsk</field>
     <field name="accountNumbers">45 4828 8969 1504 1449 8465 2353</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20-02-2024</field>
+    <field name="registrationLegalDate">12-06-2026</field>
     <field name="removalDate">05-03-2018</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp z oo</field>
+    <field name="name">Gdańska Stocznia Jachtowa sp z oo</field>
     <field name="nip">1235755747</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235914123</field>
     <field name="pesel">72021423289</field>
     <field name="krs">0000001172</field>
@@ -179,13 +179,13 @@
     <field name="workingAddress">ul. Jagiellońska 25/67, 70-435 Szczecin</field>
     <field name="accountNumbers">10 8189 4055 1907 4577 7893 3103</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2022-19-05</field>
-    <field name="removalDate">2019-12-04</field>
+    <field name="registrationLegalDate">2015-19-07</field>
+    <field name="removalDate">2019-04-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp. z o. o.</field>
+    <field name="name">Wytwórnia Makaronu Jajecznego sp. z o. o.</field>
     <field name="nip">1235834932</field>
-    <field name="statusVat">Wykreslony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">235993312</field>
     <field name="pesel">73032124675</field>
     <field name="krs">0000001269</field>
@@ -193,13 +193,13 @@
     <field name="workingAddress">ul Wyszyńskiego 42, 70-200 Szczecin</field>
     <field name="accountNumbers">47 1128 8962 5636 7616 7337 6862</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20181213</field>
+    <field name="registrationLegalDate">20160826</field>
     <field name="removalDate">20200519</field>
   </record>
   <record>
-    <field name="name">Nova Data Sp. z o.o.</field>
+    <field name="name">Zakłady Mięsne Tradycja Sp. z o.o.</field>
     <field name="nip">1235914128</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236072502</field>
     <field name="pesel">74042826025</field>
     <field name="krs">0000001366</field>
@@ -207,13 +207,13 @@
     <field name="workingAddress">ulica Mariacka 59, 40-014 Katowice</field>
     <field name="accountNumbers">69 3147 5577 5652 9756 7662 7530</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">04/12/2017</field>
+    <field name="registrationLegalDate">05/09/2017</field>
     <field name="removalDate">26/06/2021</field>
   </record>
   <record>
-    <field name="name">Optima Trade SP Z O O</field>
+    <field name="name">Spółdzielnia Mleczarska Radomsko SP Z O O</field>
     <field name="nip">1235993317</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236151696</field>
     <field name="pesel">75050727418</field>
     <field name="krs">0000001463</field>
@@ -221,27 +221,27 @@
     <field name="workingAddress">Warszawska 76, 40-009 Katowice</field>
     <field name="accountNumbers">17 1431 1050 1394 6574 5178 2179</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2020/08/11</field>
+    <field name="registrationLegalDate">2018/12/10</field>
     <field name="removalDate">2022/05/07</field>
   </record>
   <record>
-    <field name="name">Polaris Capital spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Kancelaria Finansowo-Księgowa Bilans spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1236072507</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat"></field>
     <field name="regon">236230881</field>
     <field name="pesel">76061428767</field>
-    <field name="krs">000000156</field>
+    <field name="krs">0000001560</field>
     <field name="residenceAddress">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
-    <field name="workingAddress"></field>
+    <field name="workingAddress">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
     <field name="accountNumbers"></field>
     <field name="hasVirtualAccounts"></field>
     <field name="registrationLegalDate"></field>
     <field name="removalDate">12-08-2023</field>
   </record>
   <record>
-    <field name="name">Quantum Services Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zarząd Nieruchomości Komercyjnych Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1236151690</field>
-    <field name="statusVat"></field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236310077</field>
     <field name="pesel">77072130157</field>
     <field name="krs">0000001657</field>
@@ -249,13 +249,13 @@
     <field name="workingAddress">ul Narutowicza 110, 20-004 Lublin</field>
     <field name="accountNumbers">61 9019 1427 9547 7346 1071 1243</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2021-16-09</field>
+    <field name="registrationLegalDate">2020-26-12</field>
     <field name="removalDate">2024-19-09</field>
   </record>
   <record>
-    <field name="name">Silesia Invest S.A.</field>
+    <field name="name">Polskie Linie Oceaniczne S.A.</field>
     <field name="nip">1236230886</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236389268</field>
     <field name="pesel">78082831506</field>
     <field name="krs">0000001754</field>
@@ -263,27 +263,27 @@
     <field name="workingAddress">ulica Lipowa 127, 15-424 Białystok</field>
     <field name="accountNumbers">36190135664156966891487285</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20161117</field>
+    <field name="registrationLegalDate">20210105</field>
     <field name="removalDate">20221002</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech SA</field>
+    <field name="name">Hurtownia Materiałów Budowlanych Cegiełka SA</field>
     <field name="nip">1236310071</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236468453</field>
     <field name="pesel">79090732890</field>
     <field name="krs">0000001851</field>
-    <field name="residenceAddress">Chełmińska 104, Toruń</field>
-    <field name="workingAddress">Chełmińska 104, Toruń</field>
+    <field name="residenceAddress">Chrobrego 104, Gniezno</field>
+    <field name="workingAddress">Chrobrego 104, Gniezno</field>
     <field name="accountNumbers">87 6058 1165 4153 1596 6560 1707</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">21/01/2018</field>
+    <field name="registrationLegalDate">12/02/2022</field>
     <field name="removalDate">05/11/2026</field>
   </record>
   <record>
-    <field name="name">PPHU Astra Finance</field>
+    <field name="name">PPHU Studio Projektowe Architektura</field>
     <field name="nip">1236389262</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236547649</field>
     <field name="pesel">80101434241</field>
     <field name="krs">0000001948</field>
@@ -291,13 +291,13 @@
     <field name="workingAddress">ul. Gdańska 161/81, 85-005 Bydgoszcz</field>
     <field name="accountNumbers">14424446731522305123680769</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2023/06/02</field>
+    <field name="registrationLegalDate">2023/19/03</field>
     <field name="removalDate">2015/12/12</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply Spółka Akcyjna</field>
+    <field name="name">Centrum Medycyny Pracy Spółka Akcyjna</field>
     <field name="nip">1236468458</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236626834</field>
     <field name="pesel">81112135637</field>
     <field name="krs">0000002045</field>
@@ -305,27 +305,27 @@
     <field name="workingAddress">ul Dworcowa 178, 85-009 Bydgoszcz</field>
     <field name="accountNumbers">90025651052963670391687079</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">04-09-2019</field>
+    <field name="registrationLegalDate">26-04-2024</field>
     <field name="removalDate">05-09-2026</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp. z o.o.</field>
+    <field name="name">Przedsiębiorstwo Energetyki Cieplnej sp. z o.o.</field>
     <field name="nip">1236547643</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon">236785219</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">246706057</field>
     <field name="pesel">82122836987</field>
     <field name="krs">0000002142</field>
     <field name="residenceAddress">ulica Szeroka 15, 87-100 Toruń</field>
     <field name="workingAddress">ulica Szeroka 15, 87-100 Toruń</field>
     <field name="accountNumbers">35 5438 5229 4831 5684 5295 5323</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2025-14-10</field>
+    <field name="registrationLegalDate">2025-05-05</field>
     <field name="removalDate">2017-26-02</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp z oo</field>
+    <field name="name">Gospodarstwo Rolno-Ogrodnicze sp z oo</field>
     <field name="nip">1236626839</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236785219</field>
     <field name="pesel">83010738376</field>
     <field name="krs">0000002239</field>
@@ -333,13 +333,13 @@
     <field name="workingAddress">Chełmińska 32, 87-100 Toruń</field>
     <field name="accountNumbers">57 8410 8709 4000 1435 5885 6310</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20250827</field>
+    <field name="registrationLegalDate">20260612</field>
     <field name="removalDate">20180305</field>
   </record>
   <record>
-    <field name="name">Nova Data sp. z o. o.</field>
+    <field name="name">Drukarnia Wielkoformatowa Impress sp. z o. o.</field>
     <field name="nip">1236706024</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236864404</field>
     <field name="pesel">84021439724</field>
     <field name="krs">0000002336</field>
@@ -347,13 +347,13 @@
     <field name="workingAddress">ul. 3 Maja 49/43, 35-030 Rzeszów</field>
     <field name="accountNumbers">73 7148 2187 2862 8745 8963 8151</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">26/10/2022</field>
+    <field name="registrationLegalDate">19/07/2015</field>
     <field name="removalDate">12/04/2019</field>
   </record>
   <record>
-    <field name="name">Optima Trade Sp. z o.o.</field>
+    <field name="name">Klub Fitness Sylwetka Sp. z o.o.</field>
     <field name="nip">1236785213</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">236943598</field>
     <field name="pesel">85032141114</field>
     <field name="krs">0000002433</field>
@@ -361,13 +361,13 @@
     <field name="workingAddress">ul Piłsudskiego 66, 35-074 Rzeszów</field>
     <field name="accountNumbers">97842284175870224084854883</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2016/21/06</field>
+    <field name="registrationLegalDate">2016/26/08</field>
     <field name="removalDate">2024/28/09</field>
   </record>
   <record>
-    <field name="name">Polaris Capital SP Z O O</field>
+    <field name="name">Polska Grupa Energetyczna SP Z O O</field>
     <field name="nip">1236864409</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237022788</field>
     <field name="pesel">86042842464</field>
     <field name="krs">0000002530</field>
@@ -375,13 +375,13 @@
     <field name="workingAddress">ulica Sienkiewicza 83, 25-007 Kielce</field>
     <field name="accountNumbers">40 7660 3984 7536 8384 1341 8155</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">04-06-2023</field>
+    <field name="registrationLegalDate">05-09-2017</field>
     <field name="removalDate">26-06-2021</field>
   </record>
   <record>
-    <field name="name">Quantum Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Mazowieckie Zakłady Drobiarskie spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1236943592</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237101973</field>
     <field name="pesel">87050743857</field>
     <field name="krs">0000002627</field>
@@ -389,13 +389,13 @@
     <field name="workingAddress">Warszawska 100, 25-512 Kielce</field>
     <field name="accountNumbers">25719194865260210791113297</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2020-18-06</field>
-    <field name="removalDate">2022-05-07</field>
+    <field name="registrationLegalDate">2018-12-10</field>
+    <field name="removalDate">2022-07-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Hurtownia Farmaceutyczna Aptekarz Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1237022782</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237181162</field>
     <field name="pesel">88061445206</field>
     <field name="krs">0000002724</field>
@@ -403,13 +403,13 @@
     <field name="workingAddress">ul. Kościuszki 117/5, 10-504 Olsztyn</field>
     <field name="accountNumbers">82 3487 5088 3862 7303 5744 1672</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20200616</field>
+    <field name="registrationLegalDate">20191119</field>
     <field name="removalDate">20230812</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech S.A.</field>
+    <field name="name">Kancelaria Notarialna Lex S.A.</field>
     <field name="nip">1237101978</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237260358</field>
     <field name="pesel">89072146593</field>
     <field name="krs">0000002821</field>
@@ -417,13 +417,13 @@
     <field name="workingAddress">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
     <field name="accountNumbers">99659463854206812171847506</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">28/06/2024</field>
+    <field name="registrationLegalDate">26/12/2020</field>
     <field name="removalDate">26/09/2022</field>
   </record>
   <record>
-    <field name="name">Astra Finance SA</field>
+    <field name="name">Biuro Podróży Wojażer SA</field>
     <field name="nip">1237181167</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237339545</field>
     <field name="pesel">90082847941</field>
     <field name="krs">0000002918</field>
@@ -431,13 +431,13 @@
     <field name="workingAddress">ulica Krakowska 151, 45-018 Opole</field>
     <field name="accountNumbers">37378645078730931665956661</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2018/29/08</field>
+    <field name="registrationLegalDate">2021/05/01</field>
     <field name="removalDate">2025/26/10</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply S. A.</field>
+    <field name="name">Szkoła Języków Obcych Lingua S. A.</field>
     <field name="nip">1237260352</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237418730</field>
     <field name="pesel">91090749335</field>
     <field name="krs">0000003015</field>
@@ -445,27 +445,27 @@
     <field name="workingAddress">Ozimska 168, 45-057 Opole</field>
     <field name="accountNumbers">45332738620200028199130210</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">22-02-2019</field>
+    <field name="registrationLegalDate">12-02-2022</field>
     <field name="removalDate">05-11-2026</field>
   </record>
   <record>
-    <field name="name">Helios Markets Spółka Akcyjna</field>
-    <field name="nip">1237418735</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">237577115</field>
+    <field name="name">Centrum Logistyczne Podlasie Spółka Akcyjna</field>
+    <field name="nip">1247339575</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">247497957</field>
     <field name="pesel">92101450680</field>
     <field name="krs">0000003112</field>
     <field name="residenceAddress">ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra</field>
     <field name="workingAddress">ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra</field>
     <field name="accountNumbers">63563954637537244414353152</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2023-21-03</field>
+    <field name="registrationLegalDate">2023-19-03</field>
     <field name="removalDate">2015-12-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp. z o.o.</field>
+    <field name="name">Fabryka Mebli Drewnianych Dąb sp. z o.o.</field>
     <field name="nip">1237418735</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237577115</field>
     <field name="pesel">93112152077</field>
     <field name="krs">0000003209</field>
@@ -473,13 +473,13 @@
     <field name="workingAddress">ul Kupiecka 22, 65-058 Zielona Góra</field>
     <field name="accountNumbers">46 7768 6973 5256 3505 7757 5320</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20181119</field>
+    <field name="registrationLegalDate">20240426</field>
     <field name="removalDate">20160119</field>
   </record>
   <record>
-    <field name="name">Nova Data sp z oo</field>
+    <field name="name">Polskie Sady sp z oo</field>
     <field name="nip">1237497924</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237656300</field>
     <field name="pesel">94122853426</field>
     <field name="krs">0000003306</field>
@@ -487,13 +487,13 @@
     <field name="workingAddress">ulica Świętojańska 39, 81-372 Gdynia</field>
     <field name="accountNumbers">28331918237210162279055664</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">28/05/2017</field>
+    <field name="registrationLegalDate">05/05/2025</field>
     <field name="removalDate">13/03/2026</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp. z o. o.</field>
-    <field name="nip">1237656305</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">Wielkopolska Hurtownia Stali sp. z o. o.</field>
+    <field name="nip">1247577145</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237735494</field>
     <field name="pesel">95010754814</field>
     <field name="krs">0000003403</field>
@@ -501,41 +501,41 @@
     <field name="workingAddress">10 Lutego 56, 81-364 Gdynia</field>
     <field name="accountNumbers">91946234142231735286298255</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2025/22/06</field>
+    <field name="registrationLegalDate">2026/12/06</field>
     <field name="removalDate">2018/05/03</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Sp. z o.o.</field>
-    <field name="nip">2237656305</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">237893879</field>
+    <field name="name">Zakład Oczyszczania Miasta Sp. z o.o.</field>
+    <field name="nip">1237656305</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">247814719</field>
     <field name="pesel">96021456164</field>
     <field name="krs">0000003500</field>
     <field name="residenceAddress">ul. Bolesława Prusa 73/19, 05-800 Pruszków</field>
     <field name="workingAddress">ul. Bolesława Prusa 73/19, 05-800 Pruszków</field>
     <field name="accountNumbers">77 4279 7270 8447 4455 5660 9553</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">30-01-2025</field>
+    <field name="registrationLegalDate">19-07-2015</field>
     <field name="removalDate">12-04-2019</field>
   </record>
   <record>
-    <field name="name">Quantum Services SP Z O O</field>
+    <field name="name">Przedsiębiorstwo Wodociągów i Kanalizacji SP Z O O</field>
     <field name="nip">1237735499</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237893879</field>
     <field name="pesel">97032157550</field>
     <field name="krs">0000003597</field>
-    <field name="residenceAddress">39-300 Mielec</field>
-    <field name="workingAddress">39-300 Mielec</field>
+    <field name="residenceAddress">78-100 Kołobrzeg</field>
+    <field name="workingAddress">78-100 Kołobrzeg</field>
     <field name="accountNumbers">74 9603 8320 3304 4933 5205 3129</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2023-15-03</field>
+    <field name="registrationLegalDate">2016-26-08</field>
     <field name="removalDate">2020-19-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Instytut Badań Rynkowych spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1237814684</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">237973064</field>
     <field name="pesel">98042858909</field>
     <field name="krs">0000003694</field>
@@ -543,13 +543,13 @@
     <field name="workingAddress">ulica Sienkiewicza 107, 32-020 Wieliczka</field>
     <field name="accountNumbers">17 4565 4833 6115 5248 2621 3897</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20240329</field>
+    <field name="registrationLegalDate">20170905</field>
     <field name="removalDate">20210626</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Agencja Ochrony Solidna Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1237893873</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238052254</field>
     <field name="pesel">99050760297</field>
     <field name="krs">0000003791</field>
@@ -557,27 +557,27 @@
     <field name="workingAddress">Dąbrowskiego 124, 32-600 Oświęcim</field>
     <field name="accountNumbers">63559782244445277607572597</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">22/06/2022</field>
+    <field name="registrationLegalDate">12/10/2018</field>
     <field name="removalDate">01/07/2021</field>
   </record>
   <record>
     <field name="name">Instagram - Meta</field>
     <field name="nip">1237973069</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon">238210635</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">248131477</field>
     <field name="pesel">00261461640</field>
     <field name="krs">0000003888</field>
     <field name="residenceAddress">ul. Rynek 141/71, 38-400 Krosno</field>
     <field name="workingAddress">ul. Rynek 141/71, 38-400 Krosno</field>
     <field name="accountNumbers">36 2442 8110 1806 1824 6489 3219</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2024/24/12</field>
+    <field name="registrationLegalDate">2019/19/11</field>
     <field name="removalDate">2023/12/08</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply SA</field>
+    <field name="name">Krajowa Izba Gospodarcza SA</field>
     <field name="nip">1238052259</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238210635</field>
     <field name="pesel">01272163037</field>
     <field name="krs">0000003985</field>
@@ -585,13 +585,13 @@
     <field name="workingAddress">ul Mickiewicza 158, 39-300 Mielec</field>
     <field name="accountNumbers">68170234918999794215552758</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">11-12-2022</field>
+    <field name="registrationLegalDate">26-12-2020</field>
     <field name="removalDate">13-01-2025</field>
   </record>
   <record>
-    <field name="name">Helios Markets S. A.</field>
+    <field name="name">Polskie Zakłady Lotnicze S. A.</field>
     <field name="nip">1238131444</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238289826</field>
     <field name="pesel">02282864387</field>
     <field name="krs">0000004082</field>
@@ -599,13 +599,13 @@
     <field name="workingAddress">175, 58-100 Świdnica</field>
     <field name="accountNumbers">50 9488 9790 1944 9290 5300 3201</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2016-28-11</field>
+    <field name="registrationLegalDate">2021-05-01</field>
     <field name="removalDate">2025-26-10</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory Spółka Akcyjna</field>
-    <field name="nip">1238289820</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">Hurtownia Elektryczna Wat Spółka Akcyjna</field>
+    <field name="nip">1248210665</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238369011</field>
     <field name="pesel">03290765770</field>
     <field name="krs">0000004179</field>
@@ -613,13 +613,13 @@
     <field name="workingAddress">Wojska Polskiego 12, 57-300 Kłodzko</field>
     <field name="accountNumbers">34638020113682312261481152</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20220604</field>
+    <field name="registrationLegalDate">20220212</field>
     <field name="removalDate">20260813</field>
   </record>
   <record>
-    <field name="name">Nova Data sp. z o.o.</field>
+    <field name="name">Centrum Ogrodnicze Zielona Oaza sp. z o.o.</field>
     <field name="nip">1238289820</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238448207</field>
     <field name="pesel">04301467122</field>
     <field name="krs">0000004276</field>
@@ -627,13 +627,13 @@
     <field name="workingAddress">ul. Chrobrego 29/33, 62-200 Gniezno</field>
     <field name="accountNumbers">63 3719 7156 1422 5574 9175 8254</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20/02/2019</field>
+    <field name="registrationLegalDate">19/03/2023</field>
     <field name="removalDate">12/12/2015</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp z oo</field>
+    <field name="name">Piekarnia i Cukiernia Chrupiący Rogalik sp z oo</field>
     <field name="nip">1238369016</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238527390</field>
     <field name="pesel">05312168518</field>
     <field name="krs">0000004373</field>
@@ -641,13 +641,13 @@
     <field name="workingAddress">ul Słowiańska 46, 64-100 Leszno</field>
     <field name="accountNumbers">89861186576030950528392644</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2022/22/08</field>
+    <field name="registrationLegalDate">2024/26/04</field>
     <field name="removalDate">2024/17/10</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp. z o. o.</field>
+    <field name="name">Zakład Usług Komunalnych sp. z o. o.</field>
     <field name="nip">1238448201</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238606586</field>
     <field name="pesel">60122869864</field>
     <field name="krs">0000004470</field>
@@ -655,13 +655,13 @@
     <field name="workingAddress">ulica Gdańska 63, 83-110 Tczew</field>
     <field name="accountNumbers">77057403208971067722722685</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">10-08-2023</field>
+    <field name="registrationLegalDate">05-05-2025</field>
     <field name="removalDate">26-02-2017</field>
   </record>
   <record>
-    <field name="name">Quantum Services Sp. z o.o.</field>
+    <field name="name">Polski Komfort Sp. z o.o.</field>
     <field name="nip">1238527395</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238685775</field>
     <field name="pesel">61010771256</field>
     <field name="krs">0000004567</field>
@@ -669,13 +669,13 @@
     <field name="workingAddress">Sobieskiego 80, 84-200 Wejherowo</field>
     <field name="accountNumbers">46 6764 3592 3744 7679 7233 3894</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2023-25-08</field>
-    <field name="removalDate">2018-05-03</field>
+    <field name="registrationLegalDate">2026-12-06</field>
+    <field name="removalDate">2018-03-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest SP Z O O</field>
+    <field name="name">Kancelaria Radców Prawnych Partnerzy SP Z O O</field>
     <field name="nip">1238606580</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238764960</field>
     <field name="pesel">62021472604</field>
     <field name="krs">0000004664</field>
@@ -683,13 +683,13 @@
     <field name="workingAddress">ul. Głęboka 97/85, 43-400 Cieszyn</field>
     <field name="accountNumbers">02924480679215350596702581</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20201010</field>
+    <field name="registrationLegalDate">20150719</field>
     <field name="removalDate">20260728</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech spółka z ograniczoną odpowiedzialnością</field>
-    <field name="nip">1238764965</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">Centrum Dystrybucji Alkoholi spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nip">1248685807</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238844156</field>
     <field name="pesel">63032173991</field>
     <field name="krs">0000004761</field>
@@ -697,13 +697,13 @@
     <field name="workingAddress">114, 42-500 Będzin</field>
     <field name="accountNumbers">99089058445101873169551369</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">23/02/2021</field>
+    <field name="registrationLegalDate">26/08/2016</field>
     <field name="removalDate">19/05/2020</field>
   </record>
   <record>
-    <field name="name">Astra Finance Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Przedsiębiorstwo Spedycyjne Ładunek Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1238764965</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">238923341</field>
     <field name="pesel">64042875341</field>
     <field name="krs">0000004858</field>
@@ -711,13 +711,13 @@
     <field name="workingAddress">ulica Królowej Jadwigi 131, 88-100 Inowrocław</field>
     <field name="accountNumbers">61755593946058186960480713</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2021/22/01</field>
+    <field name="registrationLegalDate">2017/05/09</field>
     <field name="removalDate">2023/26/11</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply S.A.</field>
+    <field name="name">Fabryka Tekstyliów Splot S.A.</field>
     <field name="nip">1238844150</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239002531</field>
     <field name="pesel">65050776734</field>
     <field name="krs">0000004955</field>
@@ -725,27 +725,27 @@
     <field name="workingAddress">Wybickiego 148, 86-300 Grudziądz</field>
     <field name="accountNumbers">04100821615474771190136680</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">23-09-2022</field>
+    <field name="registrationLegalDate">12-10-2018</field>
     <field name="removalDate">08-03-2024</field>
   </record>
   <record>
-    <field name="name">Helios Markets SA</field>
+    <field name="name">Górnośląskie Towarzystwo Finansowe SA</field>
     <field name="nip">1238923346</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">239081720</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">339081720</field>
     <field name="pesel">66061478084</field>
     <field name="krs">0000005052</field>
     <field name="residenceAddress">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="workingAddress">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="accountNumbers">20674295558925347197511309</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2016-26-04</field>
-    <field name="removalDate">2023-12-08</field>
+    <field name="registrationLegalDate">2019-19-11</field>
+    <field name="removalDate">2023-08-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory S. A.</field>
+    <field name="name">Krajowa Agencja Informacyjna S. A.</field>
     <field name="nip">1239002536</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239160916</field>
     <field name="pesel">67072179470</field>
     <field name="krs">0000005149</field>
@@ -753,13 +753,13 @@
     <field name="workingAddress">ul Warszawska 2, 11-500 Giżycko</field>
     <field name="accountNumbers">96 5145 1341 5435 3263 3316 5466</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20250114</field>
+    <field name="registrationLegalDate">20201226</field>
     <field name="removalDate">20240919</field>
   </record>
   <record>
-    <field name="name">Nova Data Spółka Akcyjna</field>
+    <field name="name">Polskie Jagody Spółka Akcyjna</field>
     <field name="nip">1239081725</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239240101</field>
     <field name="pesel">68082880822</field>
     <field name="krs">0000005246</field>
@@ -767,13 +767,13 @@
     <field name="workingAddress">ulica Lubelska 19, 24-100 Puławy</field>
     <field name="accountNumbers">91 8896 7598 1976 1090 2487 8812</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">04/07/2025</field>
+    <field name="registrationLegalDate">05/01/2021</field>
     <field name="removalDate">26/10/2025</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp. z o.o.</field>
+    <field name="name">Zielony Amber sp. z o.o.</field>
     <field name="nip">1239160910</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239319297</field>
     <field name="pesel">69090782216</field>
     <field name="krs">0000005343</field>
@@ -781,13 +781,13 @@
     <field name="workingAddress">Staszica 36, 22-400 Zamość</field>
     <field name="accountNumbers">29317443034950499440857187</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2025/30/04</field>
+    <field name="registrationLegalDate">2022/12/02</field>
     <field name="removalDate">2026/05/11</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp z oo</field>
+    <field name="name">Zielony Bizon sp z oo</field>
     <field name="nip">1239240106</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239398486</field>
     <field name="pesel">70101483567</field>
     <field name="krs">0000005440</field>
@@ -795,13 +795,13 @@
     <field name="workingAddress">53/9, 16-300 Augustów</field>
     <field name="accountNumbers">93 2882 3508 3276 7219 9217 8958</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">28-10-2019</field>
+    <field name="registrationLegalDate">19-03-2023</field>
     <field name="removalDate">12-12-2015</field>
   </record>
   <record>
-    <field name="name">Quantum eSrvices sp. z o. o.</field>
+    <field name="name">Zeilony Canyon sp. z o. o.</field>
     <field name="nip">1239319291</field>
-    <field name="statusVat">Cznyn</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239477671</field>
     <field name="pesel">71112184953</field>
     <field name="krs">0000005537</field>
@@ -809,27 +809,27 @@
     <field name="workingAddress">ul Kościuszki 70, 16-400 Suwałki</field>
     <field name="accountNumbers">99 8082 6553 7405 7733 6346 6368</field>
     <field name="hasVirtualAccounts">Flas</field>
-    <field name="registrationLegalDate">2023-28-11</field>
+    <field name="registrationLegalDate">2024-26-04</field>
     <field name="removalDate">2016-19-01</field>
   </record>
   <record>
-    <field name="name">Silesia Invest Sp. z o.o.</field>
+    <field name="name">Zielony Delfin Sp. z o.o.</field>
     <field name="nip">1239398480</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">339556867</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">239556867</field>
     <field name="pesel">72122886303</field>
     <field name="krs">0000005634</field>
     <field name="residenceAddress">os. Piastowska 87, 48-300 Nysa</field>
     <field name="workingAddress">os. Piastowska 87, 48-300 Nysa</field>
     <field name="accountNumbers">48281021908976505416990014</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20240118</field>
+    <field name="registrationLegalDate">20250505</field>
     <field name="removalDate">20170226</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech SP Z O O</field>
+    <field name="name">Zielony Echo SP Z O O</field>
     <field name="nip">1239477676</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239636052</field>
     <field name="pesel">73010787692</field>
     <field name="krs">0000005731</field>
@@ -837,13 +837,13 @@
     <field name="workingAddress">Długa 104, 49-300 Brzeg</field>
     <field name="accountNumbers">73 1437 7251 3844 6935 8251 8924</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">21/06/2018</field>
+    <field name="registrationLegalDate">12/06/2026</field>
     <field name="removalDate">05/03/2018</field>
   </record>
   <record>
-    <field name="name">P.P.H.U. Astra Finance</field>
+    <field name="name">P.P.H.U. Zielony Falcon</field>
     <field name="nip">1239556861</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239715248</field>
     <field name="pesel">74021489041</field>
     <field name="krs">0000005828</field>
@@ -851,13 +851,13 @@
     <field name="workingAddress">ul. Rynek 121/61, 68-200 Żary</field>
     <field name="accountNumbers">65 2301 1010 8091 1220 4239 7000</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2022/03/09</field>
+    <field name="registrationLegalDate">2015/19/07</field>
     <field name="removalDate">2019/12/04</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Gryf Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1239636057</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239794437</field>
     <field name="pesel">75032190430</field>
     <field name="krs">0000005925</field>
@@ -865,13 +865,13 @@
     <field name="workingAddress">ul Sikorskiego 138, 66-200 Świebodzin</field>
     <field name="accountNumbers">20229416686617030795651206</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">25-06-2025</field>
+    <field name="registrationLegalDate">26-08-2016</field>
     <field name="removalDate">20-04-2023</field>
   </record>
   <record>
-    <field name="name">Helios Markets S.A.</field>
+    <field name="name">Zielony Horyzont S.A.</field>
     <field name="nip">1239715242</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239873622</field>
     <field name="pesel">76042891780</field>
     <field name="krs">0000006022</field>
@@ -879,13 +879,13 @@
     <field name="workingAddress">ulica Armii Krajowej 155, 78-100 Kołobrzeg</field>
     <field name="accountNumbers">26 2399 6551 2838 7620 3194 9893</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2018-19-10</field>
+    <field name="registrationLegalDate">2017-05-09</field>
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory SA</field>
+    <field name="name">Zielony Ikar SA</field>
     <field name="nip">1239794431</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">239952818</field>
     <field name="pesel">77050793174</field>
     <field name="krs">0000006119</field>
@@ -893,13 +893,13 @@
     <field name="workingAddress">Piłsudskiego 172, 73-110 Stargard</field>
     <field name="accountNumbers">82 2595 4681 5365 8187 2300 2254</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20151230</field>
+    <field name="registrationLegalDate">20181012</field>
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">Nova Data S. A.</field>
+    <field name="name">Zielony Jantar S. A.</field>
     <field name="nip">1239873627</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240032008</field>
     <field name="pesel">78061494522</field>
     <field name="krs">0000006216</field>
@@ -907,13 +907,13 @@
     <field name="workingAddress">ul. Mickiewicza 9/23, 27-600 Sandomierz</field>
     <field name="accountNumbers">28 8880 3064 2404 5535 1429 8219</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">23/04/2023 05:29</field>
+    <field name="registrationLegalDate">19/11/2019 05:29</field>
     <field name="removalDate">12/08/2023</field>
   </record>
   <record>
-    <field name="name">Optima Trade Spółka Akcyjna</field>
+    <field name="name">Zielony Koral Spółka Akcyjna</field>
     <field name="nip">1239952812</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240111191</field>
     <field name="pesel">79072195918</field>
     <field name="krs">0000006313</field>
@@ -921,1679 +921,1679 @@
     <field name="workingAddress">ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="accountNumbers">35219464533238690069684477</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2020/15/04</field>
+    <field name="registrationLegalDate">2020/26/12</field>
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp. z o.o.</field>
+    <field name="name">Zielony Lotos sp. z o.o.</field>
     <field name="nip">1240032000</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240190380</field>
     <field name="pesel">80082897268</field>
-    <field name="krs">000000641</field>
-    <field name="residenceAddress">ulica Marszałkowska 43, 00-590 Warszawa</field>
-    <field name="workingAddress">ulica Marszałkowska 43, 00-590 Warszawa</field>
+    <field name="krs">0000006410</field>
+    <field name="residenceAddress">ulica Chmielna 43, 00-020 Warszawa</field>
+    <field name="workingAddress">ulica Chmielna 43, 00-020 Warszawa</field>
     <field name="accountNumbers">38 8025 8810 5468 1469 3929 2288</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">10-07-2023</field>
+    <field name="registrationLegalDate">05-01-2021</field>
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Quantum Services sp z oo</field>
+    <field name="name">Zielony Magnolia sp z oo</field>
     <field name="nip">1240111194</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240269578</field>
     <field name="pesel">81090798651</field>
     <field name="krs">0000006507</field>
-    <field name="residenceAddress">Krakowskie Przedmieście 60, 00-071 Warszawa</field>
-    <field name="workingAddress">Krakowskie Przedmieście 60, 00-071 Warszawa</field>
+    <field name="residenceAddress">Nowy Świat 60, 00-029 Warszawa</field>
+    <field name="workingAddress">Nowy Świat 60, 00-029 Warszawa</field>
     <field name="accountNumbers">72284082543517544876775522</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2021-17-05</field>
-    <field name="removalDate">2026-05-11</field>
+    <field name="registrationLegalDate">2022-12-02</field>
+    <field name="removalDate">2026-11-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest sp. z o. o.</field>
+    <field name="name">Zielony Neon sp. z o. o.</field>
     <field name="nip">1240190383</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240348763</field>
     <field name="pesel">82101400006</field>
     <field name="krs">0000006604</field>
-    <field name="residenceAddress">ul. Floriańska 77/75, 31-019 Kraków</field>
-    <field name="workingAddress">ul. Floriańska 77/75, 31-019 Kraków</field>
+    <field name="residenceAddress">ul. os. Przyjaźń 77/75, 01-355 Warszawa</field>
+    <field name="workingAddress">ul. os. Przyjaźń 77/75, 01-355 Warszawa</field>
     <field name="accountNumbers">20684139347379931739297210</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20240628</field>
+    <field name="registrationLegalDate">20230319</field>
     <field name="removalDate">20251211</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech Sp. z o.o.</field>
+    <field name="name">Zielony Oaza Sp. z o.o.</field>
     <field name="nip">1240269570</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240427959</field>
     <field name="pesel">83112101393</field>
     <field name="krs">0000006701</field>
-    <field name="residenceAddress">ul Długa 94, 31-147 Kraków</field>
-    <field name="workingAddress">ul Długa 94, 31-147 Kraków</field>
+    <field name="residenceAddress">ul Jagiellońska 94, 05-120 Legionowo</field>
+    <field name="workingAddress">ul Jagiellońska 94, 05-120 Legionowo</field>
     <field name="accountNumbers">57174787384995597817395527</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">30/09/2024</field>
+    <field name="registrationLegalDate">26/04/2024</field>
     <field name="removalDate">21/08/2024</field>
   </record>
   <record>
-    <field name="name">Astra Finance SP Z O O</field>
+    <field name="name">Zielony Pegaz SP Z O O</field>
     <field name="nip">1240348766</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240507144</field>
     <field name="pesel">84122802742</field>
     <field name="krs">0000006798</field>
-    <field name="residenceAddress">ulica Piotrkowska 111, 90-102 Łódź</field>
-    <field name="workingAddress">ulica Piotrkowska 111, 90-102 Łódź</field>
+    <field name="residenceAddress">ulica Piłsudskiego 111, 05-270 Marki</field>
+    <field name="workingAddress">ulica Piłsudskiego 111, 05-270 Marki</field>
     <field name="accountNumbers">06128949487563584723139023</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2019/03/09</field>
+    <field name="registrationLegalDate">2025/05/05</field>
     <field name="removalDate">2017/26/02</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Rubin spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1240427951</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240586333</field>
     <field name="pesel">85010704131</field>
     <field name="krs">0000006895</field>
-    <field name="residenceAddress">Zachodnia 128, 90-402 Łódź</field>
-    <field name="workingAddress">Zachodnia 128, 90-402 Łódź</field>
+    <field name="residenceAddress">Andriollego 128, 05-400 Otwock</field>
+    <field name="workingAddress">Andriollego 128, 05-400 Otwock</field>
     <field name="accountNumbers">44732616685724800335230298</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">24-04-2019</field>
+    <field name="registrationLegalDate">12-06-2026</field>
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Helios Markets Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Szafir Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1240507147</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240665529</field>
     <field name="pesel">86021405480</field>
     <field name="krs">0000006992</field>
-    <field name="residenceAddress">ul. Świdnicka 145/37, 50-066 Wrocław</field>
-    <field name="workingAddress">ul. Świdnicka 145/37, 50-066 Wrocław</field>
+    <field name="residenceAddress">ul. Żeromskiego 145/37, 26-600 Radom</field>
+    <field name="workingAddress">ul. Żeromskiego 145/37, 26-600 Radom</field>
     <field name="accountNumbers">22 7061 5233 7676 1693 6643 3949</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2018-20-12</field>
-    <field name="removalDate">2019-12-04</field>
+    <field name="registrationLegalDate">2015-19-07</field>
+    <field name="removalDate">2019-04-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory S.A.</field>
+    <field name="name">Zielony Tytan S.A.</field>
     <field name="nip">1240586336</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240744714</field>
     <field name="pesel">87032106876</field>
     <field name="krs">0000007089</field>
-    <field name="residenceAddress">ul Legnicka 162, 54-203 Wrocław</field>
-    <field name="workingAddress">ul Legnicka 162, 54-203 Wrocław</field>
+    <field name="residenceAddress">ul Tumska 162, 09-402 Płock</field>
+    <field name="workingAddress">ul Tumska 162, 09-402 Płock</field>
     <field name="accountNumbers">39792053444535653384244136</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20240211</field>
+    <field name="registrationLegalDate">20160826</field>
     <field name="removalDate">20260621</field>
   </record>
   <record>
-    <field name="name">Nova Data SA</field>
+    <field name="name">Zielony Uran SA</field>
     <field name="nip">1240665521</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">240903093</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250823937</field>
     <field name="pesel">88042808226</field>
     <field name="krs">0000007186</field>
-    <field name="residenceAddress">ulica Święty Marcin 179, 61-806 Poznań</field>
-    <field name="workingAddress">ulica Święty Marcin 179, 61-806 Poznań</field>
+    <field name="residenceAddress">ulica Karmelicka 179, 31-128 Kraków</field>
+    <field name="workingAddress">ulica Karmelicka 179, 31-128 Kraków</field>
     <field name="accountNumbers">32900424536983715809962464</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">01/06/2019</field>
+    <field name="registrationLegalDate">05/09/2017</field>
     <field name="removalDate">26/06/2021 05:29</field>
   </record>
   <record>
-    <field name="name">Optima Trade S. A.</field>
+    <field name="name">Zielony Wektor S. A.</field>
     <field name="nip">1240744717</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240903093</field>
     <field name="pesel">89050709619</field>
     <field name="krs">0000007283</field>
-    <field name="residenceAddress">Głogowska 16, 60-734 Poznań</field>
-    <field name="workingAddress">Głogowska 16, 60-734 Poznań</field>
+    <field name="residenceAddress">os. Na Stoku 16, 31-704 Kraków</field>
+    <field name="workingAddress">os. Na Stoku 16, 31-704 Kraków</field>
     <field name="accountNumbers">02514786631393229259072490</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2015/16/02</field>
+    <field name="registrationLegalDate">2018/12/10</field>
     <field name="removalDate">2022/05/07</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Spółka Akcyjna</field>
+    <field name="name">Zielony Zefir Spółka Akcyjna</field>
     <field name="nip">1240823902</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">240982282</field>
     <field name="pesel">90061410960</field>
     <field name="krs">0000007380</field>
-    <field name="residenceAddress">ul. Długa 33/89, 80-831 Gdańsk</field>
-    <field name="workingAddress">ul. Długa 33/89, 80-831 Gdańsk</field>
+    <field name="residenceAddress">ul. Krupówki 33/89, 34-500 Zakopane</field>
+    <field name="workingAddress">ul. Krupówki 33/89, 34-500 Zakopane</field>
     <field name="accountNumbers">81709638469042688673857908</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">18-10-2019</field>
+    <field name="registrationLegalDate">19-11-2019</field>
     <field name="removalDate">12-08-2023</field>
   </record>
   <record>
-    <field name="name">Quantum Services sp. z o.o.</field>
+    <field name="name">Zielony Żubr sp. z o.o.</field>
     <field name="nip">1240903096</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241061472</field>
     <field name="pesel">91072112357</field>
     <field name="krs">0000007477</field>
-    <field name="residenceAddress">ul Grunwaldzka 50, 80-236 Gdańsk</field>
-    <field name="workingAddress">ul Grunwaldzka 50, 80-236 Gdańsk</field>
+    <field name="residenceAddress">50, 34-600 Mordarka</field>
+    <field name="workingAddress">50, 34-600 Mordarka</field>
     <field name="accountNumbers">06922131195708448192496904</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2021-11-02</field>
+    <field name="registrationLegalDate">2020-26-12</field>
     <field name="removalDate">2024-19-09</field>
   </record>
   <record>
-    <field name="name">Silesia Invest sp z oo</field>
+    <field name="name">Zielony Sokół sp z oo</field>
     <field name="nip">1240982285</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241140668</field>
     <field name="pesel">92082813706</field>
     <field name="krs">0000007574</field>
-    <field name="residenceAddress">ulica Jagiellońska 67, 70-435 Szczecin</field>
-    <field name="workingAddress">ulica Jagiellońska 67, 70-435 Szczecin</field>
+    <field name="residenceAddress">ulica Galicyjska 67, 32-087 Zielonki</field>
+    <field name="workingAddress">ulica Galicyjska 67, 32-087 Zielonki</field>
     <field name="accountNumbers">76266814439892730249544777</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20170404</field>
+    <field name="registrationLegalDate">20210105</field>
     <field name="removalDate">20251026</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech sp. z o. o.</field>
+    <field name="name">Zielony Orzeł sp. z o. o.</field>
     <field name="nip">1241061475</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241219855</field>
     <field name="pesel">93090715091</field>
     <field name="krs">0000007671</field>
-    <field name="residenceAddress">Wyszyńskiego 84, 70-200 Szczecin</field>
-    <field name="workingAddress">Wyszyńskiego 84, 70-200 Szczecin</field>
+    <field name="residenceAddress">84, 32-003 Podłęże</field>
+    <field name="workingAddress">84, 32-003 Podłęże</field>
     <field name="accountNumbers">79 7205 7091 3870 3075 5815 6028</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">09/02/2016</field>
+    <field name="registrationLegalDate">12/02/2022</field>
     <field name="removalDate">05/11/2026</field>
   </record>
   <record>
     <field name="name">mBank</field>
     <field name="nip">1241140660</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241299044</field>
     <field name="pesel">94101416442</field>
     <field name="krs">0000007768</field>
-    <field name="residenceAddress">ul. Mariacka 101/51, 40-014 Katowice</field>
-    <field name="workingAddress">ul. Mariacka 101/51, 40-014 Katowice</field>
+    <field name="residenceAddress">ul. Wałowa 101/51, 33-100 Tarnów</field>
+    <field name="workingAddress">ul. Wałowa 101/51, 33-100 Tarnów</field>
     <field name="accountNumbers">42 4776 7407 4938 6962 2234 6635</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2018/01/02</field>
+    <field name="registrationLegalDate">2023/19/03</field>
     <field name="removalDate">2015/12/12</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply SP Z O O</field>
+    <field name="name">Zielony Barycz SP Z O O</field>
     <field name="nip">1241219858</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">241457425</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">251378267</field>
     <field name="pesel">95112117838</field>
     <field name="krs">0000007865</field>
-    <field name="residenceAddress">ul Warszawska 118, 40-009 Katowice</field>
-    <field name="workingAddress">ul Warszawska 118, 40-009 Katowice</field>
+    <field name="residenceAddress">ul Narutowicza 118, 90-135 Łódź</field>
+    <field name="workingAddress">ul Narutowicza 118, 90-135 Łódź</field>
     <field name="accountNumbers">85933161882241401152780367</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">22-01-2016</field>
+    <field name="registrationLegalDate">26-04-2024</field>
     <field name="removalDate">19-01-2016</field>
   </record>
   <record>
-    <field name="name">Helios Markets spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1241299047</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241457425</field>
     <field name="pesel">96122819189</field>
     <field name="krs">0000007962</field>
-    <field name="residenceAddress">ulica Krakowskie Przedmieście 135, 20-002 Lublin</field>
-    <field name="workingAddress">ulica Krakowskie Przedmieście 135, 20-002 Lublin</field>
+    <field name="residenceAddress">ulica os. Retkinia 135, 94-004 Łódź</field>
+    <field name="workingAddress">ulica os. Retkinia 135, 94-004 Łódź</field>
     <field name="accountNumbers">86752659990606625830354175</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2021-24-09</field>
-    <field name="removalDate">2026-12-05</field>
+    <field name="registrationLegalDate">2025-05-05</field>
+    <field name="removalDate">2026-05-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Pilica Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1241378232</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241536610</field>
     <field name="pesel">97010720570</field>
     <field name="krs">0000008059</field>
-    <field name="residenceAddress">Dworcowa 112, 85-009</field>
-    <field name="workingAddress">Dworcowa 112, 85-009</field>
+    <field name="residenceAddress">112, 16-030</field>
+    <field name="workingAddress">112, 16-030</field>
     <field name="accountNumbers">96023753468842729044822717</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20170529</field>
+    <field name="registrationLegalDate">20260612</field>
     <field name="removalDate">20180305</field>
   </record>
   <record>
-    <field name="name">Nova Data S.A.</field>
+    <field name="name">Zielony Narew S.A.</field>
     <field name="nip">1241457428</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241615806</field>
     <field name="pesel">98021421928</field>
     <field name="krs">0000008156</field>
-    <field name="residenceAddress">ul. Lipowa 169/13, 15-424 Białystok</field>
-    <field name="workingAddress">ul. Lipowa 169/13, 15-424 Białystok</field>
+    <field name="residenceAddress">ul. Długa 169/13, 95-100 Zgierz</field>
+    <field name="workingAddress">ul. Długa 169/13, 95-100 Zgierz</field>
     <field name="accountNumbers">37 8227 9151 5976 5618 1563 1723</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">13/07/2020</field>
+    <field name="registrationLegalDate">19/07/2015</field>
     <field name="removalDate">12/04/2019</field>
   </record>
   <record>
-    <field name="name">Optima Trade SA</field>
-    <field name="nip">2241536613</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">Zielony Jodełka SA</field>
+    <field name="nip">1241536613</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241694993</field>
     <field name="pesel">99032123315</field>
     <field name="krs">0000008253</field>
-    <field name="residenceAddress">ul Sienkiewicza 6, 15-092 Białystok</field>
-    <field name="workingAddress">ul Sienkiewicza 6, 15-092 Białystok</field>
+    <field name="residenceAddress">ul Rynek 6, 50-101 Wrocław</field>
+    <field name="workingAddress">ul Rynek 6, 50-101 Wrocław</field>
     <field name="accountNumbers">86779968859685503289438305</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2024/28/07</field>
+    <field name="registrationLegalDate">2016/26/08</field>
     <field name="removalDate">2020/19/05</field>
   </record>
   <record>
-    <field name="name">Polaris Capital S. A.</field>
+    <field name="name">Zielony Kaktus S. A.</field>
     <field name="nip">1241615809</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241774189</field>
     <field name="pesel">00242824660</field>
     <field name="krs">0000008350</field>
-    <field name="residenceAddress">ulica Gdańska 23, 85-005 Bydgoszcz</field>
-    <field name="workingAddress">ulica Gdańska 23, 85-005 Bydgoszcz</field>
+    <field name="residenceAddress">ulica Jedności Narodowej 23, 50-260 Wrocław</field>
+    <field name="workingAddress">ulica Jedności Narodowej 23, 50-260 Wrocław</field>
     <field name="accountNumbers">44 8796 1559 8862 4744 9641 8181</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">19-04-2015</field>
+    <field name="registrationLegalDate">05-09-2017</field>
     <field name="removalDate">26-06-2021</field>
   </record>
   <record>
-    <field name="name">Quantum Services Spółka Akcyjna</field>
+    <field name="name">Zielony Szmaragd Spółka Akcyjna</field>
     <field name="nip"></field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">241853374</field>
     <field name="pesel">01250726054</field>
     <field name="krs">0000008447</field>
-    <field name="residenceAddress">os. Dworcowa 40, 85-009 Bydgoszcz</field>
-    <field name="workingAddress">os. Dworcowa 40, 85-009 Bydgoszcz</field>
+    <field name="residenceAddress">os. Konstytucji 3 Maja 40, 58-540 Karpacz</field>
+    <field name="workingAddress">os. Konstytucji 3 Maja 40, 58-540 Karpacz</field>
     <field name="accountNumbers">83380983435618519750472986</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2021-10-10</field>
-    <field name="removalDate">2022-05-07</field>
+    <field name="registrationLegalDate">2018-12-10</field>
+    <field name="removalDate">2022-07-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest sp. z o.o.</field>
+    <field name="name">Zielony Topaz sp. z o.o.</field>
     <field name="nip">1241774181</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">242090949</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">251932597</field>
     <field name="pesel">02261427402</field>
     <field name="krs">0000008544</field>
-    <field name="residenceAddress">ul. Szeroka 57/65, 87-100 Toruń</field>
-    <field name="workingAddress">ul. Szeroka 57/65, 87-100 Toruń</field>
+    <field name="residenceAddress">ul. Odrodzenia 57/65, 59-300 Lubin</field>
+    <field name="workingAddress">ul. Odrodzenia 57/65, 59-300 Lubin</field>
     <field name="accountNumbers">46565713819779761895464071</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20201011</field>
+    <field name="registrationLegalDate">20191119</field>
     <field name="removalDate">20240126</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech sp z oo</field>
+    <field name="name">Zielony Granit sp z oo</field>
     <field name="nip">1241853377</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon">242090949</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">252011787</field>
     <field name="pesel">03272128799</field>
     <field name="krs">0000008641</field>
-    <field name="residenceAddress">ul Chełmińska 74, 87-100 Toruń</field>
-    <field name="workingAddress">ul Chełmińska 74, 87-100 Toruń</field>
+    <field name="residenceAddress">ul Słowackiego 74, 58-300 Wałbrzych</field>
+    <field name="workingAddress">ul Słowackiego 74, 58-300 Wałbrzych</field>
     <field name="accountNumbers">65 8330 8185 6802 9664 5176 9997</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">09/04/2018</field>
+    <field name="registrationLegalDate">26/12/2020</field>
     <field name="removalDate">19/09/2024</field>
   </record>
   <record>
-    <field name="name">Astra Finance sp. z o. o.</field>
+    <field name="name">Zielony Marmur sp. z o. o.</field>
     <field name="nip">1241932562</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242090949</field>
     <field name="pesel">04282830142</field>
     <field name="krs">0000008738</field>
-    <field name="residenceAddress">ulica 3 Maja 91, 35-030 Rzeszów</field>
-    <field name="workingAddress">ulica 3 Maja 91, 35-030 Rzeszów</field>
+    <field name="residenceAddress">ulica Półwiejska 91, 61-888 Poznań</field>
+    <field name="workingAddress">ulica Półwiejska 91, 61-888 Poznań</field>
     <field name="accountNumbers">35 8961 9161 6172 2780 2792 4364</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2023/26/11</field>
+    <field name="registrationLegalDate">2021/05/01</field>
     <field name="removalDate">2025/26/10</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply Sp. z o.o.</field>
+    <field name="name">Zielony Syrena Sp. z o.o.</field>
     <field name="nip">1242011752</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242170134</field>
     <field name="pesel">05290731535</field>
     <field name="krs">0000008835</field>
-    <field name="residenceAddress">Piłsudskiego 108, 35-074 Rzeszów</field>
-    <field name="workingAddress">Piłsudskiego 108, 35-074 Rzeszów</field>
+    <field name="residenceAddress">os. Bolesława Chrobrego 108, 60-681 Poznań</field>
+    <field name="workingAddress">os. Bolesława Chrobrego 108, 60-681 Poznań</field>
     <field name="accountNumbers">43 2645 4639 7633 3561 9380 7751</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">03-10-2015</field>
+    <field name="registrationLegalDate">12-02-2022</field>
     <field name="removalDate">05-11-2026</field>
   </record>
   <record>
-    <field name="name">Helios Markets SP Z O O</field>
+    <field name="name">Zielony Zodiak SP Z O O</field>
     <field name="nip">1242090941</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242249321</field>
     <field name="pesel">60101432883</field>
     <field name="krs">0000008932</field>
-    <field name="residenceAddress">ul. Sienkiewicza 125/27, 25-007 Kielce</field>
-    <field name="workingAddress">ul. Sienkiewicza 125/27, 25-007 Kielce</field>
+    <field name="residenceAddress">ul. Główny Rynek 125/27, 62-800 Kalisz</field>
+    <field name="workingAddress">ul. Główny Rynek 125/27, 62-800 Kalisz</field>
     <field name="accountNumbers">42 9795 8042 6512 5171 9190 1427</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2017-25-04</field>
+    <field name="registrationLegalDate">2023-19-03</field>
     <field name="removalDate">2015-12-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Olimp spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1242170137</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242328517</field>
     <field name="pesel">61112134270</field>
     <field name="krs">0000009029</field>
-    <field name="residenceAddress">ul Warszawska 142, 25-512 Kielce</field>
-    <field name="workingAddress">ul Warszawska 142, 25-512 Kielce</field>
+    <field name="residenceAddress">ul Kaliska 142, 63-400 Ostrów Wielkopolski</field>
+    <field name="workingAddress">ul Kaliska 142, 63-400 Ostrów Wielkopolski</field>
     <field name="accountNumbers">19 1006 8480 4093 4368 4341 5572</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20170319</field>
+    <field name="registrationLegalDate">20240426</field>
     <field name="removalDate">20160119</field>
   </record>
   <record>
-    <field name="name">Nova Data Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Zorza Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1242249324</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242407702</field>
     <field name="pesel">62122835629</field>
     <field name="krs">0000009126</field>
-    <field name="residenceAddress">ulica Kościuszki 159, 10-504 Olsztyn</field>
-    <field name="workingAddress">ulica Kościuszki 159, 10-504 Olsztyn</field>
+    <field name="residenceAddress">ulica Ogarna 159, 80-826 Gdańsk</field>
+    <field name="workingAddress">ulica Ogarna 159, 80-826 Gdańsk</field>
     <field name="accountNumbers">01922992128248587963657963</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">03/03/2017</field>
+    <field name="registrationLegalDate">05/05/2025</field>
     <field name="removalDate">26/02/2017</field>
   </record>
   <record>
-    <field name="name">Optima Trade S.A.</field>
-    <field name="nip">1242407705</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">242566085</field>
+    <field name="name">Zielony Krokus S.A.</field>
+    <field name="nip">1252328545</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">252486929</field>
     <field name="pesel">63010737018</field>
     <field name="krs">0000009223</field>
-    <field name="residenceAddress">Dąbrowszczaków 176, 10-540 Olsztyn</field>
-    <field name="workingAddress">Dąbrowszczaków 176, 10-540 Olsztyn</field>
+    <field name="residenceAddress">os. Jasień 176, 80-180 Gdańsk</field>
+    <field name="workingAddress">os. Jasień 176, 80-180 Gdańsk</field>
     <field name="accountNumbers">04327899191892167249319636</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2023/26/05</field>
+    <field name="registrationLegalDate">2026/12/06</field>
     <field name="removalDate">2022/20/08</field>
   </record>
   <record>
-    <field name="name">Polaris Capital SA</field>
+    <field name="name">Zielony Narcyz SA</field>
     <field name="nip">1242407705</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242566085</field>
     <field name="pesel">64021438367</field>
     <field name="krs">0000009320</field>
-    <field name="residenceAddress">ul. Krakowska 13/79, 45-018 Opole</field>
-    <field name="workingAddress">ul. Krakowska 13/79, 45-018 Opole</field>
+    <field name="residenceAddress">ul. Bohaterów Monte Cassino 13/79, 81-759 Sopot</field>
+    <field name="workingAddress">ul. Bohaterów Monte Cassino 13/79, 81-759 Sopot</field>
     <field name="accountNumbers">33 8711 7437 5062 4622 3078 2183</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">17-07-2019</field>
+    <field name="registrationLegalDate">19-07-2015</field>
     <field name="removalDate">12-04-2019</field>
   </record>
   <record>
-    <field name="name">Quantum Services S. A.</field>
+    <field name="name">Zielony Giewont S. A.</field>
     <field name="nip">1242486892</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242645270</field>
     <field name="pesel">65032139753</field>
     <field name="krs">0000009417</field>
-    <field name="residenceAddress">ul Ozimska 30, 45-057 Opole</field>
-    <field name="workingAddress">ul Ozimska 30, 45-057 Opole</field>
+    <field name="residenceAddress">30, 80-209 Chwaszczyno</field>
+    <field name="workingAddress">30, 80-209 Chwaszczyno</field>
     <field name="accountNumbers">26 6981 2908 8961 1068 6748 9860</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2015-14-06</field>
+    <field name="registrationLegalDate">2016-26-08</field>
     <field name="removalDate">2020-19-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest Spółka Akcyjna</field>
+    <field name="name">Zielony Rysy Spółka Akcyjna</field>
     <field name="nip">1242566088</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242724466</field>
     <field name="pesel">66042841106</field>
     <field name="krs">0000009514</field>
-    <field name="residenceAddress">ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra</field>
-    <field name="workingAddress">ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra</field>
+    <field name="residenceAddress">ulica 3 Maja 47, 40-096 Katowice</field>
+    <field name="workingAddress">ulica 3 Maja 47, 40-096 Katowice</field>
     <field name="accountNumbers">84 9427 9684 9006 4061 1382 5593</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20211027</field>
+    <field name="registrationLegalDate">20170905</field>
     <field name="removalDate">20210626</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech sp. z o.o.</field>
+    <field name="name">Zielony Kasprowy sp. z o.o.</field>
     <field name="nip">1242645273</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242803651</field>
     <field name="pesel">67050742490</field>
     <field name="krs">0000009611</field>
-    <field name="residenceAddress">Kupiecka 64, 65-058 Zielona Góra</field>
-    <field name="workingAddress">Kupiecka 64, 65-058 Zielona Góra</field>
+    <field name="residenceAddress">os. Paderewskiego 64, 40-282 Katowice</field>
+    <field name="workingAddress">os. Paderewskiego 64, 40-282 Katowice</field>
     <field name="accountNumbers">32531215644135530625764487</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">21/03/2023</field>
+    <field name="registrationLegalDate">12/10/2018</field>
     <field name="removalDate">05/07/2022</field>
   </record>
   <record>
-    <field name="name">PPHU Astra Finance</field>
+    <field name="name">PPHU Zielony Beskid</field>
     <field name="nip">1242724469</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242882840</field>
     <field name="pesel">68061443848</field>
     <field name="krs">0000009708</field>
-    <field name="residenceAddress">ul. Świętojańska 81/41, 81-372 Gdynia</field>
-    <field name="workingAddress">ul. Świętojańska 81/41, 81-372 Gdynia</field>
+    <field name="residenceAddress">ul. Zwycięstwa 81/41, 44-100 Gliwice</field>
+    <field name="workingAddress">ul. Zwycięstwa 81/41, 44-100 Gliwice</field>
     <field name="accountNumbers">41 6733 7021 8761 7357 3471 7294</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2021/06/01</field>
+    <field name="registrationLegalDate">2019/19/11</field>
     <field name="removalDate">2023/12/08</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply sp. z o. o.</field>
+    <field name="name">Zielony Bieszczady sp. z o. o.</field>
     <field name="nip">1242803654</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">242962036</field>
     <field name="pesel">69072145235</field>
     <field name="krs">0000009805</field>
-    <field name="residenceAddress">ul Dąbrowskiego 58</field>
-    <field name="workingAddress">ul Dąbrowskiego 58</field>
+    <field name="residenceAddress">ul Krakowskie Przedmieście 58</field>
+    <field name="workingAddress">ul Krakowskie Przedmieście 58</field>
     <field name="accountNumbers">80071522130426450448238687</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">12-07-2021</field>
+    <field name="registrationLegalDate">26-12-2020</field>
     <field name="removalDate">25-12-2023</field>
   </record>
   <record>
-    <field name="name">Helios Markets Sp. z o.o.</field>
+    <field name="name">Zielony Karpaty Sp. z o.o.</field>
     <field name="nip">1242882843</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243041226</field>
     <field name="pesel">70082846584</field>
     <field name="krs">0000009902</field>
-    <field name="residenceAddress">ulica Bolesława Prusa 115, 05-800 Pruszków</field>
-    <field name="workingAddress">ulica Bolesława Prusa 115, 05-800 Pruszków</field>
+    <field name="residenceAddress">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
+    <field name="workingAddress">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
     <field name="accountNumbers">54801573904874559167621771</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2018-06-12</field>
+    <field name="registrationLegalDate">2021-05-01</field>
     <field name="removalDate">2026-23-01</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory SP Z O O</field>
+    <field name="name">Zielony Bałtyk SP Z O O</field>
     <field name="nip">1242962039</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243120411</field>
     <field name="pesel">71090747977</field>
     <field name="krs">0000009999</field>
-    <field name="residenceAddress">Kościuszki 132, 05-500 Piaseczno</field>
-    <field name="workingAddress">Kościuszki 132, 05-500 Piaseczno</field>
+    <field name="residenceAddress">11 Listopada 132, 43-300 Bielsko-Biała</field>
+    <field name="workingAddress">11 Listopada 132, 43-300 Bielsko-Biała</field>
     <field name="accountNumbers">51 8878 3262 2565 4199 9770 3038</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">20191009</field>
+    <field name="registrationLegalDate">20220212</field>
     <field name="removalDate">20261105</field>
   </record>
   <record>
-    <field name="name">Nova Data spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Zielony Sudety spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1243041229</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243199602</field>
     <field name="pesel">72101449329</field>
     <field name="krs">0000010096</field>
-    <field name="residenceAddress">ul. Sienkiewicza 149/3, 32-020 Wieliczka</field>
-    <field name="workingAddress">ul. Sienkiewicza 149/3, 32-020 Wieliczka</field>
+    <field name="residenceAddress">149/3, 36-047 Niechobrz</field>
+    <field name="workingAddress">149/3, 36-047 Niechobrz</field>
     <field name="accountNumbers">20268512581285263255075493</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">28/05/2015</field>
+    <field name="registrationLegalDate">19/03/2023</field>
     <field name="removalDate">23/03/2025</field>
   </record>
   <record>
-    <field name="name">Optima Trade Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Amber Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1243120414</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243278796</field>
     <field name="pesel">73112150718</field>
     <field name="krs">0000010193</field>
-    <field name="residenceAddress">ul Dąbrowskiego 166, 32-600 Oświęcim</field>
-    <field name="workingAddress">ul Dąbrowskiego 166, 32-600 Oświęcim</field>
+    <field name="residenceAddress">ul Franciszkańska 166, 37-700 Przemyśl</field>
+    <field name="workingAddress">ul Franciszkańska 166, 37-700 Przemyśl</field>
     <field name="accountNumbers">55564099257571324034280987</field>
     <field name="hasVirtualAccounts">False</field>
-    <field name="registrationLegalDate">2022/21/08</field>
+    <field name="registrationLegalDate">2024/26/04</field>
     <field name="removalDate">2021/25/11</field>
   </record>
   <record>
-    <field name="name">Polaris Capital S.A.</field>
+    <field name="name">Niebieski Bizon S.A.</field>
     <field name="nip">1243199605</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon"></field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">243357981</field>
     <field name="pesel">74122852069</field>
     <field name="krs">0000010290</field>
-    <field name="residenceAddress">ulica Rynek 3, 38-400 Krosno</field>
-    <field name="workingAddress">ulica Rynek 3, 38-400 Krosno</field>
+    <field name="residenceAddress">ulica Kościuszki 3, 38-500 Sanok</field>
+    <field name="workingAddress">ulica Kościuszki 3, 38-500 Sanok</field>
     <field name="accountNumbers">42 2979 6720 4492 5204 8056 7267</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">28-10-2019</field>
+    <field name="registrationLegalDate">05-05-2025</field>
     <field name="removalDate">26-02-2017</field>
   </record>
   <record>
-    <field name="name">Quantum Srevices SA</field>
+    <field name="name">Niebieski Canyno SA</field>
     <field name="nip">1243278799</field>
-    <field name="statusVat">Wkyśrelnoy</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243437177</field>
     <field name="pesel">75010753457</field>
     <field name="krs">0000010387</field>
-    <field name="residenceAddress">Mickiewicza 20, 39-300 Mielec</field>
-    <field name="workingAddress">Mickiewicza 20, 39-300 Mielec</field>
+    <field name="residenceAddress">Suraska 20, 15-422 Białystok</field>
+    <field name="workingAddress">Suraska 20, 15-422 Białystok</field>
     <field name="accountNumbers">70 8317 7767 8425 1573 1698 1874</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">2020-31-05</field>
-    <field name="removalDate">2018-05-03</field>
+    <field name="registrationLegalDate">2026-12-06</field>
+    <field name="removalDate">2018-03-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest S. A.</field>
+    <field name="name">Niebieski Delfin S. A.</field>
     <field name="nip">1243357984</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">343516362</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">243516362</field>
     <field name="pesel">76021454805</field>
     <field name="krs">0000010484</field>
-    <field name="residenceAddress">ul. Długa 37/55, 58-100 Świdnica</field>
-    <field name="workingAddress">ul. Długa 37/55, 58-100 Świdnica</field>
+    <field name="residenceAddress">37/55, 16-030 Ogrodniczki</field>
+    <field name="workingAddress">37/55, 16-030 Ogrodniczki</field>
     <field name="accountNumbers">21746261007819245618174103</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">20200825</field>
+    <field name="registrationLegalDate">20150719</field>
     <field name="removalDate">20220906</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech Spółka Akcyjna</field>
-    <field name="nip">1243516365</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="name">Niebieski Echo Spółka Akcyjna</field>
+    <field name="nip">1253437207</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243595551</field>
     <field name="pesel">77032156193</field>
     <field name="krs">0000010581</field>
-    <field name="residenceAddress">ul Wojska Polskiego 54, 57-300 Kłodzko</field>
-    <field name="workingAddress">ul Wojska Polskiego 54, 57-300 Kłodzko</field>
+    <field name="residenceAddress">ul 3 Maja 54, 17-200 Hajnówka</field>
+    <field name="workingAddress">ul 3 Maja 54, 17-200 Hajnówka</field>
     <field name="accountNumbers">14 6606 1895 9317 5570 4410 4578</field>
     <field name="hasVirtualAccounts">True</field>
-    <field name="registrationLegalDate">25/02/2021</field>
+    <field name="registrationLegalDate">26/08/2016</field>
     <field name="removalDate">19/05/2020</field>
   </record>
   <record>
-    <field name="name">Astra Finance sp. z o.o.</field>
+    <field name="name">Niebieski Falcon sp. z o.o.</field>
     <field name="nip">1243516365</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243674747</field>
     <field name="pesel">78042857542</field>
     <field name="krs">0000010678</field>
-    <field name="residenceAddress">ulica Chrobrego 71, 62-200 Gniezno</field>
-    <field name="workingAddress">ulica Chrobrego 71, 62-200 Gniezno</field>
+    <field name="residenceAddress">ulica os. LSM 71, 20-400 Lublin</field>
+    <field name="workingAddress">ulica os. LSM 71, 20-400 Lublin</field>
     <field name="accountNumbers">30372773525715980798468997</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2022/06/03</field>
+    <field name="registrationLegalDate">2017/05/09</field>
     <field name="removalDate">2026/14/08</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply sp z oo</field>
+    <field name="name">Niebieski Gryf sp z oo</field>
     <field name="nip">1243595554</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243753932</field>
     <field name="pesel">79050758935</field>
     <field name="krs">0000010775</field>
-    <field name="residenceAddress">Słowiańska 88, 64-100 Leszno</field>
-    <field name="workingAddress">Słowiańska 88, 64-100 Leszno</field>
+    <field name="residenceAddress">88, 24-120 Mięćmierz</field>
+    <field name="workingAddress">88, 24-120 Mięćmierz</field>
     <field name="accountNumbers">15456931146578539020435018</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">25-04-2018</field>
+    <field name="registrationLegalDate">12-10-2018</field>
     <field name="removalDate">05-07-2022</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp. z o. o.</field>
-    <field name="nip">1243753935</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">Niebieski Horyzont sp. z o. o.</field>
+    <field name="nip">1253674775</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243833128</field>
     <field name="pesel">80061460287</field>
     <field name="krs">0000010872</field>
-    <field name="residenceAddress">105/17, 83-110 Tczew</field>
-    <field name="workingAddress">105/17, 83-110 Tczew</field>
+    <field name="residenceAddress">ul. Brzeska 105/17, 21-500 Biała Podlaska</field>
+    <field name="workingAddress">ul. Brzeska 105/17, 21-500 Biała Podlaska</field>
     <field name="accountNumbers">91437447476601247086007833</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2021-01-05</field>
+    <field name="registrationLegalDate">2019-19-11</field>
     <field name="removalDate">2020-30-11</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory Sp. z o.o.</field>
+    <field name="name">Niebieski Ikar Sp. z o.o.</field>
     <field name="nip">1243753935</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243912313</field>
     <field name="pesel">81072161673</field>
     <field name="krs">0000010969</field>
-    <field name="residenceAddress">ul Sobieskiego 122, 84-200 Wejherowo</field>
-    <field name="workingAddress">ul Sobieskiego 122, 84-200 Wejherowo</field>
+    <field name="residenceAddress">ul Rynek Staromiejski 122, 87-100 Toruń</field>
+    <field name="workingAddress">ul Rynek Staromiejski 122, 87-100 Toruń</field>
     <field name="accountNumbers">54 9883 7771 3450 1256 2738 7918</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20201015</field>
+    <field name="registrationLegalDate">20201226</field>
     <field name="removalDate">20240919</field>
   </record>
   <record>
-    <field name="name">Nova Data SP Z O O</field>
+    <field name="name">Niebieski Jantar SP Z O O</field>
     <field name="nip">1243833120</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">243991502</field>
     <field name="pesel">82082863023</field>
     <field name="krs"></field>
-    <field name="residenceAddress">ulica Głęboka 139, 43-400 Cieszyn</field>
-    <field name="workingAddress">ulica Głęboka 139, 43-400 Cieszyn</field>
+    <field name="residenceAddress">ulica Mostowa 139, 85-110 Bydgoszcz</field>
+    <field name="workingAddress">ulica Mostowa 139, 85-110 Bydgoszcz</field>
     <field name="accountNumbers">29 8916 4101 7577 7271 2647 4293</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">06/05/2024</field>
+    <field name="registrationLegalDate">05/01/2021</field>
     <field name="removalDate">26/10/2025</field>
   </record>
   <record>
-    <field name="name">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Koral spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1243912316</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244070690</field>
     <field name="pesel">83090764416</field>
     <field name="krs">0000011163</field>
-    <field name="residenceAddress">Małachowskiego 156, 42-500 Będzin</field>
-    <field name="workingAddress">Małachowskiego 156, 42-500 Będzin</field>
+    <field name="residenceAddress">Stare Miasto 156, 10-026 Olsztyn</field>
+    <field name="workingAddress">Stare Miasto 156, 10-026 Olsztyn</field>
     <field name="accountNumbers">95 8947 4265 6102 6130 3151 8961</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2019/16/06</field>
+    <field name="registrationLegalDate">2022/12/02</field>
     <field name="removalDate">2026/05/11</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1243991505</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244149888</field>
     <field name="pesel">84101465768</field>
-    <field name="krs">000001126</field>
-    <field name="residenceAddress">os. Królowej Jadwigi 173/69, 88-100 Inowrocław</field>
-    <field name="workingAddress">os. Królowej Jadwigi 173/69, 88-100 Inowrocław</field>
+    <field name="krs">0000011260</field>
+    <field name="residenceAddress">os. Warszawska 173/69, 11-700 Mrągowo</field>
+    <field name="workingAddress">os. Warszawska 173/69, 11-700 Mrągowo</field>
     <field name="accountNumbers">59923000812225433070151415</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">16-02-2016</field>
+    <field name="registrationLegalDate">19-03-2023</field>
     <field name="removalDate">12-12-2015</field>
   </record>
   <record>
-    <field name="name">Quantum Services S.A.</field>
+    <field name="name">Niebieski Magnolia S.A.</field>
     <field name="nip">1244070693</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244229073</field>
     <field name="pesel">85112167155</field>
     <field name="krs">0000011357</field>
-    <field name="residenceAddress">ul Wybickiego 10, 86-300 Grudziądz</field>
-    <field name="workingAddress">ul Wybickiego 10, 86-300 Grudziądz</field>
+    <field name="residenceAddress">ul Wojska Polskiego 10, 70-470 Szczecin</field>
+    <field name="workingAddress">ul Wojska Polskiego 10, 70-470 Szczecin</field>
     <field name="accountNumbers">10 2440 4077 5067 9038 8231 2594</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2019-04-02</field>
+    <field name="registrationLegalDate">2024-26-04</field>
     <field name="removalDate">2016-19-01</field>
   </record>
   <record>
-    <field name="name">Silesia Invest SA</field>
+    <field name="name">Niebieski Neon SA</field>
     <field name="nip">1244149880</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244308269</field>
     <field name="pesel">86122868504</field>
     <field name="krs">0000011454</field>
-    <field name="residenceAddress">ulica Czarnieckiego 27, 14-100 Ostróda</field>
-    <field name="workingAddress">ulica Czarnieckiego 27, 14-100 Ostróda</field>
+    <field name="residenceAddress">ulica Monte Cassino 27, 72-600 Świnoujście</field>
+    <field name="workingAddress">ulica Monte Cassino 27, 72-600 Świnoujście</field>
     <field name="accountNumbers">21 8746 8131 5486 1417 4017 4008</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20151008</field>
+    <field name="registrationLegalDate">20250505</field>
     <field name="removalDate">20170226</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech S. A.</field>
+    <field name="name">Niebieski Oaza S. A.</field>
     <field name="nip">1244229076</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244387458</field>
     <field name="pesel">87010769893</field>
     <field name="krs">0000011551</field>
-    <field name="residenceAddress">Kościuszki 4, Suwałki</field>
-    <field name="workingAddress">Kościuszki 4, Suwałki</field>
+    <field name="residenceAddress">Sienkiewicza 4, Białystok</field>
+    <field name="workingAddress">Sienkiewicza 4, Białystok</field>
     <field name="accountNumbers">94 7459 9269 1672 5048 4661 4859</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">09/08/2023</field>
+    <field name="registrationLegalDate">12/06/2026</field>
     <field name="removalDate">05/03/2018</field>
   </record>
   <record>
     <field name="name">X - Twitter</field>
     <field name="nip">1244308261</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244466643</field>
     <field name="pesel">88021471245</field>
     <field name="krs">0000011648</field>
-    <field name="residenceAddress">ul. Lubelska 61/31, 24-100 Puławy</field>
-    <field name="workingAddress">ul. Lubelska 61/31, 24-100 Puławy</field>
+    <field name="residenceAddress">ul. Byczyńska 61/31, 46-200 Kluczbork</field>
+    <field name="workingAddress">ul. Byczyńska 61/31, 46-200 Kluczbork</field>
     <field name="accountNumbers">71444473207668291844378048</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2022/12/01</field>
+    <field name="registrationLegalDate">2015/19/07</field>
     <field name="removalDate">2019/12/04</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply sp. z o.o.</field>
+    <field name="name">Niebieski Rubin sp. z o.o.</field>
     <field name="nip">1244387450</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244545839</field>
     <field name="pesel">89032172631</field>
     <field name="krs">0000011745</field>
-    <field name="residenceAddress">ul Staszica 78, 22-400 Zamość</field>
-    <field name="workingAddress">ul Staszica 78, 22-400 Zamość</field>
+    <field name="residenceAddress">ul Chrobrego 78, 66-400 Gorzów Wielkopolski</field>
+    <field name="workingAddress">ul Chrobrego 78, 66-400 Gorzów Wielkopolski</field>
     <field name="accountNumbers">70 8714 7566 4897 2872 7026 1540</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">16-10-2021</field>
+    <field name="registrationLegalDate">26-08-2016</field>
     <field name="removalDate">19-05-2020</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp z oo</field>
+    <field name="name">Niebieski Szafir sp z oo</field>
     <field name="nip">1244466646</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244625024</field>
     <field name="pesel">90042873980</field>
     <field name="krs">0000011842</field>
-    <field name="residenceAddress">ulica 3 Maja 95, 16-300 Augustów</field>
-    <field name="workingAddress">ulica 3 Maja 95, 16-300 Augustów</field>
+    <field name="residenceAddress">ulica 30 Stycznia 95, 66-300 Międzyrzecz</field>
+    <field name="workingAddress">ulica 30 Stycznia 95, 66-300 Międzyrzecz</field>
     <field name="accountNumbers">34858008885082317317259888</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2024-27-11</field>
+    <field name="registrationLegalDate">2017-05-09</field>
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp. z o. o.</field>
+    <field name="name">Niebieski Tytan sp. z o. o.</field>
     <field name="nip">1244545831</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">244783409</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">254704247</field>
     <field name="pesel">91050775374</field>
     <field name="krs">0000011939</field>
-    <field name="residenceAddress">Kościuszki 112, 16-400 Suwałki</field>
-    <field name="workingAddress">Kościuszki 112, 16-400 Suwałki</field>
+    <field name="residenceAddress">Paderewskiego 112, 25-004 Kielce</field>
+    <field name="workingAddress">Paderewskiego 112, 25-004 Kielce</field>
     <field name="accountNumbers">46548207338005641810612693</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20220625</field>
+    <field name="registrationLegalDate">20181012</field>
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">Nova Data Sp. z o.o.</field>
+    <field name="name">Niebieski Uran Sp. z o.o.</field>
     <field name="nip">1244625027</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244783409</field>
     <field name="pesel">92061476722</field>
     <field name="krs">0000012036</field>
-    <field name="residenceAddress">ul. Piastowska 129/83, 48-300 Nysa</field>
-    <field name="workingAddress">ul. Piastowska 129/83, 48-300 Nysa</field>
+    <field name="residenceAddress">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
+    <field name="workingAddress">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
     <field name="accountNumbers">78 4606 8060 9789 8394 5691 8365</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">19/01/2016</field>
+    <field name="registrationLegalDate">19/11/2019</field>
     <field name="removalDate">12/08/2023</field>
   </record>
   <record>
-    <field name="name">Optima Trade SP Z O O</field>
+    <field name="name">Niebieski Wektor SP Z O O</field>
     <field name="nip">1244704212</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244862592</field>
     <field name="pesel">93072178119</field>
     <field name="krs">0000012133</field>
-    <field name="residenceAddress">ul Długa 146, 49-300 Brzeg</field>
-    <field name="workingAddress">ul Długa 146, 49-300 Brzeg</field>
+    <field name="residenceAddress">ul Marszałkowska 146, 00-590 Warszawa</field>
+    <field name="workingAddress">ul Marszałkowska 146, 00-590 Warszawa</field>
     <field name="accountNumbers">97030725819184977066148249</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2024/28/01</field>
+    <field name="registrationLegalDate">2020/26/12</field>
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">Polaris Capital spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Zefir spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1244783401</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">244941788</field>
     <field name="pesel">94082879469</field>
     <field name="krs">0000012230</field>
-    <field name="residenceAddress">163, 68-200 Żary</field>
-    <field name="workingAddress">163, 68-200 Żary</field>
+    <field name="residenceAddress">ulica Krakowskie Przedmieście 163, 00-071 Warszawa</field>
+    <field name="workingAddress">ulica Krakowskie Przedmieście 163, 00-071 Warszawa</field>
     <field name="accountNumbers">27 4554 9969 7385 3861 3683 2045</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">16-09-2021</field>
+    <field name="registrationLegalDate">05-01-2021</field>
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Quantum Services Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Żubr Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1244862595</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245020978</field>
     <field name="pesel">95090780855</field>
     <field name="krs">0000012327</field>
-    <field name="residenceAddress">Sikorskiego 180, 66-200 Świebodzin</field>
-    <field name="workingAddress">Sikorskiego 180, 66-200 Świebodzin</field>
+    <field name="residenceAddress">Floriańska 180, 31-019 Kraków</field>
+    <field name="workingAddress">Floriańska 180, 31-019 Kraków</field>
     <field name="accountNumbers">81006821733438256973416968</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2024-23-09</field>
-    <field name="removalDate">2026-05-11</field>
+    <field name="registrationLegalDate">2022-12-02</field>
+    <field name="removalDate">2026-11-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest S.A.</field>
+    <field name="name">Niebieski Sokół S.A.</field>
     <field name="nip">1244941780</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245100163</field>
     <field name="pesel">06101482207</field>
     <field name="krs">0000012424</field>
-    <field name="residenceAddress">ul. Armii Krajowej 17/45, 78-100 Kołobrzeg</field>
-    <field name="workingAddress">ul. Armii Krajowej 17/45, 78-100 Kołobrzeg</field>
+    <field name="residenceAddress">ul. Długa 17/45, 31-147 Kraków</field>
+    <field name="workingAddress">ul. Długa 17/45, 31-147 Kraków</field>
     <field name="accountNumbers">16 3134 6852 4559 1522 9761 5603</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20231019</field>
+    <field name="registrationLegalDate">20230319</field>
     <field name="removalDate">20151212</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech SA</field>
+    <field name="name">Niebieski Orzeł SA</field>
     <field name="nip">1245020970</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245179354</field>
     <field name="pesel">97112183594</field>
     <field name="krs">0000012521</field>
-    <field name="residenceAddress">ul Piłsudskiego 34, 73-110 Stargard</field>
-    <field name="workingAddress">ul Piłsudskiego 34, 73-110 Stargard</field>
+    <field name="residenceAddress">ul Piotrkowska 34, 90-102 Łódź</field>
+    <field name="workingAddress">ul Piotrkowska 34, 90-102 Łódź</field>
     <field name="accountNumbers">97 5423 8671 5103 1508 1926 7229</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">07/06/2021</field>
+    <field name="registrationLegalDate">26/04/2024</field>
     <field name="removalDate">19/01/2016</field>
   </record>
   <record>
-    <field name="name">Astra Finance S. A.</field>
+    <field name="name">Niebieski Kormoran S. A.</field>
     <field name="nip">1245100166</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon">245337735</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">255258577</field>
     <field name="pesel">98122884943</field>
     <field name="krs">0000012618</field>
-    <field name="residenceAddress">ulica Mickiewicza 51, 27-600 Sandomierz</field>
-    <field name="workingAddress">ulica Mickiewicza 51, 27-600 Sandomierz</field>
+    <field name="residenceAddress">ulica Zachodnia 51, 90-402 Łódź</field>
+    <field name="workingAddress">ulica Zachodnia 51, 90-402 Łódź</field>
     <field name="accountNumbers">27 2936 9454 9103 6617 1430 7111</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2018/18/01</field>
+    <field name="registrationLegalDate">2025/05/05</field>
     <field name="removalDate">2017/26/02</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply Spółka Akcyjna</field>
+    <field name="name">Niebieski Barycz Spółka Akcyjna</field>
     <field name="nip">1245179357</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245337735</field>
     <field name="pesel">99010786332</field>
     <field name="krs">0000012715</field>
-    <field name="residenceAddress">Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski</field>
-    <field name="workingAddress">Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="residenceAddress">Świdnicka 68, 50-066 Wrocław</field>
+    <field name="workingAddress">Świdnicka 68, 50-066 Wrocław</field>
     <field name="accountNumbers">76904122239339540491286529</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">25-11-2015</field>
+    <field name="registrationLegalDate">12-06-2026</field>
     <field name="removalDate">05-03-2018</field>
   </record>
   <record>
-    <field name="name">Helios Markets sp. z o.o.</field>
+    <field name="name">Niebieski Noteć sp. z o.o.</field>
     <field name="nip">1245258542</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">245416920</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon"></field>
     <field name="pesel">00221487686</field>
     <field name="krs">0000012812</field>
-    <field name="residenceAddress">ul. Marszałkowska 85/7, 00-590 Warszawa</field>
-    <field name="workingAddress">ul. Marszałkowska 85/7, 00-590 Warszawa</field>
+    <field name="residenceAddress">ul. Legnicka 85/7, 54-203 Wrocław</field>
+    <field name="workingAddress">ul. Legnicka 85/7, 54-203 Wrocław</field>
     <field name="accountNumbers">77269446914846797007477978</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2022-29-12</field>
-    <field name="removalDate">2022-04-10</field>
+    <field name="registrationLegalDate">2015-19-07</field>
+    <field name="removalDate">2022-10-04</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp z oo</field>
+    <field name="name">Niebieski Pilica sp z oo</field>
     <field name="nip">1245337738</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">245575305</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">255496147</field>
     <field name="pesel">01232189073</field>
     <field name="krs">0000012909</field>
-    <field name="residenceAddress">ul Krakowskie Przedmieście 102, 00-071 Warszawa</field>
-    <field name="workingAddress">ul Krakowskie Przedmieście 102, 00-071 Warszawa</field>
+    <field name="residenceAddress">ul Święty Marcin 102, 61-806 Poznań</field>
+    <field name="workingAddress">ul Święty Marcin 102, 61-806 Poznań</field>
     <field name="accountNumbers">63635458054631552497336966</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20220409</field>
+    <field name="registrationLegalDate">20160826</field>
     <field name="removalDate">20230516</field>
   </record>
   <record>
-    <field name="name">Nova Data sp. z o. o.</field>
-    <field name="nip">2245416923</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="name">Niebieski Narew sp. z o. o.</field>
+    <field name="nip">1245416923</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245575305</field>
     <field name="pesel">02242890425</field>
     <field name="krs">0000013006</field>
-    <field name="residenceAddress">ulica Floriańska 119, 31-019 Kraków</field>
-    <field name="workingAddress">ulica Floriańska 119, 31-019 Kraków</field>
+    <field name="residenceAddress">ulica Głogowska 119, 60-734 Poznań</field>
+    <field name="workingAddress">ulica Głogowska 119, 60-734 Poznań</field>
     <field name="accountNumbers">46 1224 1724 1117 6438 5849 3886</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">09/01/2017</field>
+    <field name="registrationLegalDate">05/09/2017</field>
     <field name="removalDate">26/06/2021</field>
   </record>
   <record>
-    <field name="name">Optima Trade Sp. z o.o.</field>
+    <field name="name">Niebieski Jodełka Sp. z o.o.</field>
     <field name="nip">1245496112</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245654499</field>
     <field name="pesel">03250791818</field>
     <field name="krs">0000013103</field>
-    <field name="residenceAddress">Długa 136, 31-147 Kraków</field>
-    <field name="workingAddress">Długa 136, 31-147 Kraków</field>
+    <field name="residenceAddress">Długa 136, 80-831 Gdańsk</field>
+    <field name="workingAddress">Długa 136, 80-831 Gdańsk</field>
     <field name="accountNumbers">85644876491630629610254158</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2017/02/08</field>
+    <field name="registrationLegalDate">2018/12/10</field>
     <field name="removalDate">2021/02/02</field>
   </record>
   <record>
-    <field name="name">Polaris Capital SP Z O O</field>
+    <field name="name">Niebieski Kaktus SP Z O O</field>
     <field name="nip">1245575308</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245733684</field>
     <field name="pesel">04261493168</field>
     <field name="krs">0000013200</field>
-    <field name="residenceAddress">ul. Piotrkowska 153/59, 90-102 Łódź</field>
-    <field name="workingAddress">ul. Piotrkowska 153/59, 90-102 Łódź</field>
+    <field name="residenceAddress">ul. Grunwaldzka 153/59, 80-236 Gdańsk</field>
+    <field name="workingAddress">ul. Grunwaldzka 153/59, 80-236 Gdańsk</field>
     <field name="accountNumbers">37731377103089227957370236</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">30-01-2025</field>
+    <field name="registrationLegalDate">19-11-2019</field>
     <field name="removalDate">25-04-2024</field>
   </record>
   <record>
-    <field name="name">Quantum Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Szmaragd spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1245654491</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">245892069</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">255812909</field>
     <field name="pesel">05272194554</field>
     <field name="krs">0000013297</field>
-    <field name="residenceAddress">60-734 Poznań</field>
-    <field name="workingAddress">60-734 Poznań</field>
+    <field name="residenceAddress">05-500 Piaseczno</field>
+    <field name="workingAddress">05-500 Piaseczno</field>
     <field name="accountNumbers">63023538723756451451936903</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2018-03-09</field>
+    <field name="registrationLegalDate">2020-26-12</field>
     <field name="removalDate">2024-23-07</field>
   </record>
   <record>
-    <field name="name">Silesia Invest Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Topaz Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1245733687</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245892069</field>
     <field name="pesel">60082895909</field>
     <field name="krs">0000013394</field>
-    <field name="residenceAddress">ulica Świdnicka 7, 50-066 Wrocław</field>
-    <field name="workingAddress">ulica Świdnicka 7, 50-066 Wrocław</field>
+    <field name="residenceAddress">ulica Wyszyńskiego 7, 70-200 Szczecin</field>
+    <field name="workingAddress">ulica Wyszyńskiego 7, 70-200 Szczecin</field>
     <field name="accountNumbers">99 3140 1147 8611 4622 9856 1126</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20250202</field>
+    <field name="registrationLegalDate">20210105</field>
     <field name="removalDate">20251026</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech S.A.</field>
+    <field name="name">Niebieski Granit S.A.</field>
     <field name="nip">1245812872</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">245971254</field>
     <field name="pesel">61090797294</field>
     <field name="krs">0000013491</field>
-    <field name="residenceAddress">Legnicka 24, 54-203 Wrocław</field>
-    <field name="workingAddress">Legnicka 24, 54-203 Wrocław</field>
+    <field name="residenceAddress">Mariacka 24, 40-014 Katowice</field>
+    <field name="workingAddress">Mariacka 24, 40-014 Katowice</field>
     <field name="accountNumbers">28165807526714661873696464</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">09/12/2019</field>
+    <field name="registrationLegalDate">12/02/2022</field>
     <field name="removalDate">25/09/2020</field>
   </record>
   <record>
-    <field name="name">P.P.H.U. Astra Finance</field>
-    <field name="nip">1245892061</field>
-    <field name="statusVat">Czynny</field>
+    <field name="name">P.P.H.U. Niebieski Marmur</field>
+    <field name="nip">2245892061</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246050444</field>
     <field name="pesel">62101498645</field>
     <field name="krs">0000013588</field>
-    <field name="residenceAddress">ul. Święty Marcin 41/21, 61-806 Poznań</field>
-    <field name="workingAddress">ul. Święty Marcin 41/21, 61-806 Poznań</field>
+    <field name="residenceAddress">ul. Warszawska 41/21, 40-009 Katowice</field>
+    <field name="workingAddress">ul. Warszawska 41/21, 40-009 Katowice</field>
     <field name="accountNumbers">84 9348 8982 9929 9829 4052 8525</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2024/14/08</field>
+    <field name="registrationLegalDate">2023/19/03</field>
     <field name="removalDate">2015/12/12</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply S. A.</field>
+    <field name="name">Niebieski Syrena S. A.</field>
     <field name="nip">1245971257</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246129631</field>
     <field name="pesel">63112100035</field>
     <field name="krs">0000013685</field>
-    <field name="residenceAddress">ul Głogowska 58, 60-734 Poznań</field>
-    <field name="workingAddress">ul Głogowska 58, 60-734 Poznań</field>
+    <field name="residenceAddress">ul Krakowskie Przedmieście 58, 20-002 Lublin</field>
+    <field name="workingAddress">ul Krakowskie Przedmieście 58, 20-002 Lublin</field>
     <field name="accountNumbers">88 3030 7630 1293 9321 3998 7119</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">10-02-2015</field>
+    <field name="registrationLegalDate">26-04-2024</field>
     <field name="removalDate">19-01-2016</field>
   </record>
   <record>
-    <field name="name">Helios Markets Spółka Akcyjna</field>
+    <field name="name">Niebieski Zodiak Spółka Akcyjna</field>
     <field name="nip">1246050447</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246208827</field>
     <field name="pesel">64122801385</field>
     <field name="krs">0000013782</field>
-    <field name="residenceAddress">ulica Długa 75, 80-831 Gdańsk</field>
-    <field name="workingAddress">ulica Długa 75, 80-831 Gdańsk</field>
+    <field name="residenceAddress">ulica Narutowicza 75, 20-004 Lublin</field>
+    <field name="workingAddress">ulica Narutowicza 75, 20-004 Lublin</field>
     <field name="accountNumbers">70 4660 4949 2534 2742 7001 5211</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2024-10-12</field>
+    <field name="registrationLegalDate">2025-05-05</field>
     <field name="removalDate">2017-26-02</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory sp. z o.o.</field>
+    <field name="name">Niebieski Olimp sp. z o.o.</field>
     <field name="nip">1246129634</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246288016</field>
     <field name="pesel">65010702773</field>
     <field name="krs">0000013879</field>
-    <field name="residenceAddress">Grunwaldzka 92, 80-236 Gdańsk</field>
-    <field name="workingAddress">Grunwaldzka 92, 80-236 Gdańsk</field>
+    <field name="residenceAddress">Lipowa 92, 15-424 Białystok</field>
+    <field name="workingAddress">Lipowa 92, 15-424 Białystok</field>
     <field name="accountNumbers">91 3317 5977 2990 1247 9358 3521</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20200228</field>
+    <field name="registrationLegalDate">20260612</field>
     <field name="removalDate">20180305</field>
   </record>
   <record>
-    <field name="name">Nova Data sp z oo</field>
-    <field name="nip">1246288019</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="name">Niebieski Zorza sp z oo</field>
+    <field name="nip">1256208855</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246367201</field>
     <field name="pesel">66021404122</field>
     <field name="krs">0000013976</field>
-    <field name="residenceAddress">ul. Jagiellońska 109/73, 70-435 Szczecin</field>
-    <field name="workingAddress">ul. Jagiellońska 109/73, 70-435 Szczecin</field>
+    <field name="residenceAddress">ul. Sienkiewicza 109/73, 15-092 Białystok</field>
+    <field name="workingAddress">ul. Sienkiewicza 109/73, 15-092 Białystok</field>
     <field name="accountNumbers">89 6935 3198 8557 1060 8802 8181</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">17/11/2025</field>
+    <field name="registrationLegalDate">19/07/2015</field>
     <field name="removalDate">12/04/2019</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp. z o. o.</field>
+    <field name="name">Niebieski Krokus sp. z o. o.</field>
     <field name="nip">1246288019</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246446395</field>
     <field name="pesel">67032105518</field>
     <field name="krs">0000014073</field>
-    <field name="residenceAddress">os. Wyszyńskiego 126, 70-200 Szczecin</field>
-    <field name="workingAddress">os. Wyszyńskiego 126, 70-200 Szczecin</field>
+    <field name="residenceAddress">os. Gdańska 126, 85-005 Bydgoszcz</field>
+    <field name="workingAddress">os. Gdańska 126, 85-005 Bydgoszcz</field>
     <field name="accountNumbers">40949677253384186815603886</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2017/23/11</field>
+    <field name="registrationLegalDate">2016/26/08</field>
     <field name="removalDate">2020/19/05</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Sp. z o.o.</field>
+    <field name="name">Niebieski Narcyz Sp. z o.o.</field>
     <field name="nip">1246367204</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246525580</field>
     <field name="pesel">68042806868</field>
     <field name="krs">0000014170</field>
-    <field name="residenceAddress">ulica Mariacka 143, 40-014 Katowice</field>
-    <field name="workingAddress">ulica Mariacka 143, 40-014 Katowice</field>
+    <field name="residenceAddress">ulica Dworcowa 143, 85-009 Bydgoszcz</field>
+    <field name="workingAddress">ulica Dworcowa 143, 85-009 Bydgoszcz</field>
     <field name="accountNumbers">17 7492 7631 8096 4536 9267 3320</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">22-03-2021</field>
+    <field name="registrationLegalDate">05-09-2017</field>
     <field name="removalDate">26-06-2021</field>
   </record>
   <record>
-    <field name="name">Quantum Services SP Z O O</field>
+    <field name="name">Niebieski Giewont SP Z O O</field>
     <field name="nip">1246446398</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246604776</field>
     <field name="pesel">69050708252</field>
     <field name="krs">0000014267</field>
-    <field name="residenceAddress">Warszawska 160, 40-009 Katowice</field>
-    <field name="workingAddress">Warszawska 160, 40-009 Katowice</field>
+    <field name="residenceAddress">Szeroka 160, 87-100 Toruń</field>
+    <field name="workingAddress">Szeroka 160, 87-100 Toruń</field>
     <field name="accountNumbers">23 4544 5119 3756 9945 5150 2604</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2023-09-11</field>
-    <field name="removalDate">2022-05-07</field>
+    <field name="registrationLegalDate">2018-12-10</field>
+    <field name="removalDate">2022-07-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Rysy spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1246525583</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246683965</field>
     <field name="pesel">70061409609</field>
     <field name="krs">0000014364</field>
-    <field name="residenceAddress">ul. Krakowskie Przedmieście 177/35, 20-002 Lublin</field>
-    <field name="workingAddress">ul. Krakowskie Przedmieście 177/35, 20-002 Lublin</field>
+    <field name="residenceAddress">ul. Chełmińska 177/35, 87-100 Toruń</field>
+    <field name="workingAddress">ul. Chełmińska 177/35, 87-100 Toruń</field>
     <field name="accountNumbers">95524946706890796384992097</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20160709</field>
+    <field name="registrationLegalDate">20191119</field>
     <field name="removalDate">20250121</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Kasprowy Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1246604779</field>
-    <field name="statusVat"></field>
-    <field name="regon">246763150</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon"></field>
     <field name="pesel">71072110999</field>
     <field name="krs">0000014461</field>
-    <field name="residenceAddress">ul Narutowicza 14, 20-004 Lublin</field>
-    <field name="workingAddress"></field>
+    <field name="residenceAddress">ul 3 Maja 14, 35-030 Rzeszów</field>
+    <field name="workingAddress">ul 3 Maja 14, 35-030 Rzeszów</field>
     <field name="accountNumbers"></field>
     <field name="hasVirtualAccounts"></field>
-    <field name="registrationLegalDate">26/11/2023</field>
+    <field name="registrationLegalDate"></field>
     <field name="removalDate">19/09/2024</field>
   </record>
   <record>
-    <field name="name">Astra Finance S.A.</field>
+    <field name="name">Amber Budownictwo S.A.</field>
     <field name="nip">1246683968</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246842346</field>
     <field name="pesel">72082812349</field>
     <field name="krs">0000014558</field>
-    <field name="residenceAddress">ulica Lipowa 31, 15-424 Białystok</field>
-    <field name="workingAddress">ulica Lipowa 31, 15-424 Białystok</field>
+    <field name="residenceAddress">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
+    <field name="workingAddress">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
     <field name="accountNumbers">77 6650 5390 3475 1032 8684 7919</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2025/03/06</field>
+    <field name="registrationLegalDate">2021/05/01</field>
     <field name="removalDate">2025/26/10</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply SA</field>
+    <field name="name">Amber Transport SA</field>
     <field name="nip">1246763153</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">246921531</field>
     <field name="pesel">73090713732</field>
     <field name="krs">0000014655</field>
-    <field name="residenceAddress">Sienkiewicza 48, 15-092 Białystok</field>
-    <field name="workingAddress">Sienkiewicza 48, 15-092 Białystok</field>
+    <field name="residenceAddress">Sienkiewicza 48, 25-007 Kielce</field>
+    <field name="workingAddress">Sienkiewicza 48, 25-007 Kielce</field>
     <field name="accountNumbers">33733514775306668188099454</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">03-06-2023</field>
+    <field name="registrationLegalDate">12-02-2022</field>
     <field name="removalDate">09-08-2026</field>
   </record>
   <record>
-    <field name="name">Helios Markets S. A.</field>
+    <field name="name">Amber Spedycja S. A.</field>
     <field name="nip">1246842349</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247000721</field>
     <field name="pesel">74101415085</field>
     <field name="krs">0000014752</field>
-    <field name="residenceAddress">ul. Gdańska 65/87, 85-005 Bydgoszcz</field>
-    <field name="workingAddress">ul. Gdańska 65/87, 85-005 Bydgoszcz</field>
+    <field name="residenceAddress">ul. Warszawska 65/87, 25-512 Kielce</field>
+    <field name="workingAddress">ul. Warszawska 65/87, 25-512 Kielce</field>
     <field name="accountNumbers">34 3394 3451 2120 2292 7189 9293</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2020-22-01</field>
+    <field name="registrationLegalDate">2023-19-03</field>
     <field name="removalDate">2015-12-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory Spółka Akcyjna</field>
+    <field name="name">Amber Logistyka Spółka Akcyjna</field>
     <field name="nip">1246921534</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247079912</field>
     <field name="pesel">75112116471</field>
     <field name="krs">0000014849</field>
-    <field name="residenceAddress">ul Dworcowa 82, 85-009 Bydgoszcz</field>
-    <field name="workingAddress">ul Dworcowa 82, 85-009 Bydgoszcz</field>
+    <field name="residenceAddress">ul Kościuszki 82, 10-504 Olsztyn</field>
+    <field name="workingAddress">ul Kościuszki 82, 10-504 Olsztyn</field>
     <field name="accountNumbers">81839212909746117654642674</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20190529</field>
+    <field name="registrationLegalDate">20240426</field>
     <field name="removalDate">20210808</field>
   </record>
   <record>
-    <field name="name">Nova Data sp. z o.o.</field>
+    <field name="name">Amber Handel sp. z o.o.</field>
     <field name="nip">1247000724</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247159108</field>
     <field name="pesel">76122817820</field>
     <field name="krs">0000014946</field>
-    <field name="residenceAddress">ulica Szeroka 99, 87-100 Toruń</field>
-    <field name="workingAddress">ulica Szeroka 99, 87-100 Toruń</field>
+    <field name="residenceAddress">ulica Dąbrowszczaków 99, 10-540 Olsztyn</field>
+    <field name="workingAddress">ulica Dąbrowszczaków 99, 10-540 Olsztyn</field>
     <field name="accountNumbers">27794641493748313892095714</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">21/09/2016</field>
+    <field name="registrationLegalDate">05/05/2025</field>
     <field name="removalDate">26/02/2017</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp z oo</field>
+    <field name="name">Amber Usługi sp z oo</field>
     <field name="nip">1247079915</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247238291</field>
     <field name="pesel">77010719219</field>
     <field name="krs">0000015043</field>
-    <field name="residenceAddress">Chełmińska 116, 87-100 Toruń</field>
-    <field name="workingAddress">Chełmińska 116, 87-100 Toruń</field>
+    <field name="residenceAddress">Krakowska 116, 45-018 Opole</field>
+    <field name="workingAddress">Krakowska 116, 45-018 Opole</field>
     <field name="accountNumbers">23 2755 8375 6263 2275 8105 9241</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2018/27/11</field>
+    <field name="registrationLegalDate">2026/12/06</field>
     <field name="removalDate">2018/05/03</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp. z o. o.</field>
+    <field name="name">Amber Finanse sp. z o. o.</field>
     <field name="nip">1247159100</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247317487</field>
     <field name="pesel">78021420561</field>
     <field name="krs">0000015140</field>
-    <field name="residenceAddress">ul. 3 Maja 133/49, 35-030 Rzeszów</field>
-    <field name="workingAddress">ul. 3 Maja 133/49, 35-030 Rzeszów</field>
+    <field name="residenceAddress">ul. Ozimska 133/49, 45-057 Opole</field>
+    <field name="workingAddress">ul. Ozimska 133/49, 45-057 Opole</field>
     <field name="accountNumbers">92 5855 9519 2519 5275 8841 4653</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">26-07-2023</field>
+    <field name="registrationLegalDate">19-07-2015</field>
     <field name="removalDate">12-04-2019</field>
   </record>
   <record>
-    <field name="name">Quantum Services Sp. z o.o.</field>
+    <field name="name">Amber Doradztwo Sp. z o.o.</field>
     <field name="nip">1247238294</field>
-    <field name="statusVat">zCynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247396676</field>
     <field name="pesel">79032121957</field>
     <field name="krs">0000015237</field>
-    <field name="residenceAddress">ul Piłsudskiego 150, 35-074 Rzeszów</field>
-    <field name="workingAddress">ul Piłsudskiego 150, 35-074 Rzeszów</field>
+    <field name="residenceAddress">ul Bohaterów Westerplatte 150, 65-034 Zielona Góra</field>
+    <field name="workingAddress">ul Bohaterów Westerplatte 150, 65-034 Zielona Góra</field>
     <field name="accountNumbers">50832067304508470543166766</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2018-26-10</field>
-    <field name="removalDate">2022-06-10</field>
+    <field name="registrationLegalDate">2016-26-08</field>
+    <field name="removalDate">2022-10-06</field>
   </record>
   <record>
-    <field name="name">Silesia Invest SP Z O O</field>
-    <field name="nip">1247396679</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">347475861</field>
+    <field name="name">Amber Szkolenia SP Z O O</field>
+    <field name="nip">1257317517</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">247475861</field>
     <field name="pesel">80042823306</field>
     <field name="krs">0000015334</field>
-    <field name="residenceAddress">ulica Sienkiewicza 167, 25-007 Kielce</field>
-    <field name="workingAddress">ulica Sienkiewicza 167, 25-007 Kielce</field>
+    <field name="residenceAddress">ulica Kupiecka 167, 65-058 Zielona Góra</field>
+    <field name="workingAddress">ulica Kupiecka 167, 65-058 Zielona Góra</field>
     <field name="accountNumbers">25690959364937422179528006</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20201023</field>
+    <field name="registrationLegalDate">20170905</field>
     <field name="removalDate">20210626</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Amber Media spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1247396679</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247555057</field>
     <field name="pesel">81050724690</field>
     <field name="krs">0000015431</field>
-    <field name="residenceAddress">Warszawska 4, 25-512 Kielce</field>
-    <field name="workingAddress">Warszawska 4, 25-512 Kielce</field>
+    <field name="residenceAddress">Świętojańska 4, 81-372 Gdynia</field>
+    <field name="workingAddress">Świętojańska 4, 81-372 Gdynia</field>
     <field name="accountNumbers">70 2707 9057 1283 9619 9319 1602</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">25/12/2016</field>
+    <field name="registrationLegalDate">12/10/2018</field>
     <field name="removalDate">05/07/2022</field>
   </record>
   <record>
     <field name="name">Facebook - Meta</field>
     <field name="nip">1247475864</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247634242</field>
     <field name="pesel">82061426049</field>
     <field name="krs">0000015528</field>
-    <field name="residenceAddress">ul. Kościuszki 21/11, 10-504 Olsztyn</field>
-    <field name="workingAddress">ul. Kościuszki 21/11, 10-504 Olsztyn</field>
+    <field name="residenceAddress">ul. 10 Lutego 21/11, 81-364 Gdynia</field>
+    <field name="workingAddress">ul. 10 Lutego 21/11, 81-364 Gdynia</field>
     <field name="accountNumbers">38340352807333614111711356</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2022/29/07</field>
+    <field name="registrationLegalDate">2019/19/11</field>
     <field name="removalDate">2025/02/10</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply S.A.</field>
-    <field name="nip">1247634245</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="name">Amber Marketing S.A.</field>
+    <field name="nip">1257555085</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247713438</field>
     <field name="pesel">83072127435</field>
     <field name="krs">0000015625</field>
-    <field name="residenceAddress">ul Dąbrowszczaków 38, 10-540 Olsztyn</field>
-    <field name="workingAddress">ul Dąbrowszczaków 38, 10-540 Olsztyn</field>
+    <field name="residenceAddress">ul Bolesława Prusa 38, 05-800 Pruszków</field>
+    <field name="workingAddress">ul Bolesława Prusa 38, 05-800 Pruszków</field>
     <field name="accountNumbers">42 2189 8923 7363 7623 1822 7982</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">201905080648</field>
+    <field name="registrationLegalDate">202012260648</field>
     <field name="removalDate">19-09-2024</field>
   </record>
   <record>
-    <field name="name">Helios Markets SA</field>
+    <field name="name">Amber Druk SA</field>
     <field name="nip">1247634245</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247792627</field>
     <field name="pesel">84082828785</field>
     <field name="krs">0000015722</field>
-    <field name="residenceAddress">ulica Krakowska 55, 45-018 Opole</field>
-    <field name="workingAddress">ulica Krakowska 55, 45-018 Opole</field>
+    <field name="residenceAddress">ulica Kościuszki 55, 05-500 Piaseczno</field>
+    <field name="workingAddress">ulica Kościuszki 55, 05-500 Piaseczno</field>
     <field name="accountNumbers">98 7975 5149 5545 3612 2183 7232</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2017-29-04</field>
+    <field name="registrationLegalDate">2021-05-01</field>
     <field name="removalDate">2025-26-10</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory S. A.</field>
+    <field name="name">Amber Informatyka S. A.</field>
     <field name="nip">1247713430</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247871812</field>
     <field name="pesel">85090730172</field>
     <field name="krs">0000015819</field>
-    <field name="residenceAddress">Ozimska 72, 45-057 Opole</field>
-    <field name="workingAddress">Ozimska 72, 45-057 Opole</field>
+    <field name="residenceAddress">Sienkiewicza 72, 32-020 Wieliczka</field>
+    <field name="workingAddress">Sienkiewicza 72, 32-020 Wieliczka</field>
     <field name="accountNumbers">37 9781 3645 1298 9500 8592 1449</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20161011</field>
+    <field name="registrationLegalDate">20220212</field>
     <field name="removalDate">20261105</field>
   </record>
   <record>
-    <field name="name">Nova Data Spółka Akcyjna</field>
-    <field name="nip">1247871815</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="name">Amber Oprogramowanie Spółka Akcyjna</field>
+    <field name="nip">1257792655</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">247951008</field>
     <field name="pesel">86101431523</field>
     <field name="krs">0000015916</field>
-    <field name="residenceAddress">ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra</field>
-    <field name="workingAddress">ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra</field>
+    <field name="residenceAddress">ul. Dąbrowskiego 89/63, 32-600 Oświęcim</field>
+    <field name="workingAddress">ul. Dąbrowskiego 89/63, 32-600 Oświęcim</field>
     <field name="accountNumbers">20319205223165700913814020</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">28/08/2025</field>
+    <field name="registrationLegalDate">19/03/2023</field>
     <field name="removalDate">07/07/2025</field>
   </record>
   <record>
-    <field name="name">Optima Trade sp. z o.o.</field>
+    <field name="name">Amber Rolnictwo sp. z o.o.</field>
     <field name="nip">1247871815</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248030196</field>
     <field name="pesel">87112132919</field>
     <field name="krs">0000016013</field>
-    <field name="residenceAddress">ul Kupiecka 106, 65-058 Zielona Góra</field>
-    <field name="workingAddress">ul Kupiecka 106, 65-058 Zielona Góra</field>
+    <field name="residenceAddress">ul Rynek 106, 38-400 Krosno</field>
+    <field name="workingAddress">ul Rynek 106, 38-400 Krosno</field>
     <field name="accountNumbers">88 8792 7984 6648 1982 2137 3187</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2025/12/09</field>
+    <field name="registrationLegalDate">2024/26/04</field>
     <field name="removalDate">2016/19/01</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp z oo</field>
+    <field name="name">Amber Ogrodnictwo sp z oo</field>
     <field name="nip">1247951000</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248109383</field>
     <field name="pesel">88122834260</field>
     <field name="krs">000001611</field>
-    <field name="residenceAddress">ulica Świętojańska 123, 81-372 Gdynia</field>
-    <field name="workingAddress">ulica Świętojańska 123, 81-372 Gdynia</field>
+    <field name="residenceAddress">ulica Mickiewicza 123, 39-300 Mielec</field>
+    <field name="workingAddress">ulica Mickiewicza 123, 39-300 Mielec</field>
     <field name="accountNumbers">74505395028316768829288521</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">26-08-2019</field>
+    <field name="registrationLegalDate">05-05-2025</field>
     <field name="removalDate">31-01-2021</field>
   </record>
   <record>
-    <field name="name">Quantum Services sp. z o. o.</field>
+    <field name="name">Amber Produkcja sp. z o. o.</field>
     <field name="nip">1248030199</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248188572</field>
     <field name="pesel">89010735658</field>
     <field name="krs">0000016207</field>
-    <field name="residenceAddress">10 Lutego 140, 81-364 Gdynia</field>
-    <field name="workingAddress">10 Lutego 140, 81-364 Gdynia</field>
+    <field name="residenceAddress">Długa 140, 58-100 Świdnica</field>
+    <field name="workingAddress">Długa 140, 58-100 Świdnica</field>
     <field name="accountNumbers">51 8302 7499 3548 9290 6111 9859</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2022-03-08</field>
-    <field name="removalDate">2018-05-03</field>
+    <field name="registrationLegalDate">2026-12-06</field>
+    <field name="removalDate">2018-03-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest Sp. z o.o.</field>
+    <field name="name">Amber Przemysł Sp. z o.o.</field>
     <field name="nip">1248109386</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248267768</field>
     <field name="pesel">90021437006</field>
     <field name="krs">0000016304</field>
-    <field name="residenceAddress">ul. Bolesława Prusa 157/25, 05-800 Pruszków</field>
-    <field name="workingAddress">ul. Bolesława Prusa 157/25, 05-800 Pruszków</field>
+    <field name="residenceAddress">157/25, 57-300 Kłodzko</field>
+    <field name="workingAddress">157/25, 57-300 Kłodzko</field>
     <field name="accountNumbers">28256876783997790144654289</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20170524</field>
+    <field name="registrationLegalDate">20150719</field>
     <field name="removalDate">20190412</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech SP Z O O</field>
+    <field name="name">Amber Ekologia SP Z O O</field>
     <field name="nip">1248188575</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248346953</field>
     <field name="pesel">91032138393</field>
     <field name="krs">0000016401</field>
-    <field name="residenceAddress">ul Kościuszki 174, 05-500 Piaseczno</field>
-    <field name="workingAddress">ul Kościuszki 174, 05-500 Piaseczno</field>
+    <field name="residenceAddress">ul Chrobrego 174, 62-200 Gniezno</field>
+    <field name="workingAddress">ul Chrobrego 174, 62-200 Gniezno</field>
     <field name="accountNumbers">35 4169 5949 5009 9379 8565 2720</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">02/10/2016</field>
+    <field name="registrationLegalDate">26/08/2016</field>
     <field name="removalDate">19/05/2020</field>
   </record>
   <record>
-    <field name="name">Astra Finance spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Amber Energetyka spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1248267760</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248426149</field>
     <field name="pesel">92042839742</field>
     <field name="krs">0000016498</field>
-    <field name="residenceAddress">ulica Sienkiewicza 11, 32-020 Wieliczka</field>
-    <field name="workingAddress">ulica Sienkiewicza 11, 32-020 Wieliczka</field>
+    <field name="residenceAddress">ulica Słowiańska 11, 64-100 Leszno</field>
+    <field name="workingAddress">ulica Słowiańska 11, 64-100 Leszno</field>
     <field name="accountNumbers">61 8132 5431 7085 1509 3842 5237</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2017/08/08</field>
+    <field name="registrationLegalDate">2017/05/09</field>
     <field name="removalDate">2021/26/06</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Amber Instalacje Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1248346956</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248505334</field>
     <field name="pesel">93050741139</field>
     <field name="krs">0000016595</field>
-    <field name="residenceAddress">Dąbrowskiego 28, 32-600 Oświęcim</field>
-    <field name="workingAddress">Dąbrowskiego 28, 32-600 Oświęcim</field>
+    <field name="residenceAddress">Gdańska 28, 83-110 Tczew</field>
+    <field name="workingAddress">Gdańska 28, 83-110 Tczew</field>
     <field name="accountNumbers">92 9302 7292 5097 3611 7958 2679</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">25-02-2017</field>
+    <field name="registrationLegalDate">12-10-2018</field>
     <field name="removalDate">202207050648</field>
   </record>
   <record>
-    <field name="name">Helios Markets S.A.</field>
+    <field name="name">Amber Nieruchomości S.A.</field>
     <field name="nip">1248426141</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248584523</field>
     <field name="pesel">94061442488</field>
     <field name="krs">0000016692</field>
-    <field name="residenceAddress">ul. Rynek 45/77, 38-400 Krosno</field>
-    <field name="workingAddress">ul. Rynek 45/77, 38-400 Krosno</field>
+    <field name="residenceAddress">ul. Sobieskiego 45/77, 84-200 Wejherowo</field>
+    <field name="workingAddress">ul. Sobieskiego 45/77, 84-200 Wejherowo</field>
     <field name="accountNumbers">83735290138916512856444647</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2020-10-10</field>
-    <field name="removalDate">2023-12-08</field>
+    <field name="registrationLegalDate">2019-19-11</field>
+    <field name="removalDate">2023-08-12</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory SA</field>
+    <field name="name">Amber Inwestycje SA</field>
     <field name="nip">1248505337</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248663719</field>
     <field name="pesel">95072143874</field>
     <field name="krs">0000016789</field>
-    <field name="residenceAddress">ul Mickiewicza 62, 39-300 Mielec</field>
-    <field name="workingAddress">ul Mickiewicza 62, 39-300 Mielec</field>
+    <field name="residenceAddress">ul Głęboka 62, 43-400 Cieszyn</field>
+    <field name="workingAddress">ul Głęboka 62, 43-400 Cieszyn</field>
     <field name="accountNumbers">30 6745 9696 2245 5637 7554 9775</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20200318</field>
+    <field name="registrationLegalDate">20201226</field>
     <field name="removalDate">20240919</field>
   </record>
   <record>
-    <field name="name">Nova Data S. A.</field>
+    <field name="name">Amber Medycyna S. A.</field>
     <field name="nip">1248584526</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248742904</field>
     <field name="pesel">96082845224</field>
     <field name="krs">0000016886</field>
-    <field name="residenceAddress">os. Długa 79, 58-100 Świdnica</field>
-    <field name="workingAddress">os. Długa 79, 58-100 Świdnica</field>
+    <field name="residenceAddress">os. Małachowskiego 79, 42-500 Będzin</field>
+    <field name="workingAddress">os. Małachowskiego 79, 42-500 Będzin</field>
     <field name="accountNumbers">98 8610 8425 2242 3722 7364 8829</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">09/03/2017</field>
+    <field name="registrationLegalDate">05/01/2021</field>
     <field name="removalDate">26/10/2025</field>
   </record>
   <record>
-    <field name="name">Optima Trade Spółka Akcyjna</field>
+    <field name="name">Amber Zdrowie Spółka Akcyjna</field>
     <field name="nip">1248663711</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248822098</field>
     <field name="pesel">97090746617</field>
     <field name="krs">0000016983</field>
-    <field name="residenceAddress">96, 57-300 Kłodzko</field>
-    <field name="workingAddress">96, 57-300 Kłodzko</field>
+    <field name="residenceAddress">Królowej Jadwigi 96, 88-100 Inowrocław</field>
+    <field name="workingAddress">Królowej Jadwigi 96, 88-100 Inowrocław</field>
     <field name="accountNumbers">69 8589 1077 9060 8315 9937 7818</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2025/17/11</field>
+    <field name="registrationLegalDate">2022/12/02</field>
     <field name="removalDate">2026/05/11</field>
   </record>
   <record>
-    <field name="name">Polaris Capital sp. z o.o.</field>
+    <field name="name">Amber Urody sp. z o.o.</field>
     <field name="nip">1248742907</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248901283</field>
     <field name="pesel">98101447969</field>
     <field name="krs">0000017080</field>
-    <field name="residenceAddress">ul. Chrobrego 113/39, 62-200 Gniezno</field>
-    <field name="workingAddress">ul. Chrobrego 113/39, 62-200 Gniezno</field>
+    <field name="residenceAddress">ul. Wybickiego 113/39, 86-300 Grudziądz</field>
+    <field name="workingAddress">ul. Wybickiego 113/39, 86-300 Grudziądz</field>
     <field name="accountNumbers">59 7432 3740 7678 5764 1651 6398</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">30-07-2025</field>
+    <field name="registrationLegalDate">19-03-2023</field>
     <field name="removalDate">12-12-2015</field>
   </record>
   <record>
-    <field name="name">Quantum Services sp z oo</field>
+    <field name="name">Amber Turystyka sp z oo</field>
     <field name="nip">1248822090</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">248980472</field>
     <field name="pesel">99112149356</field>
     <field name="krs">0000017177</field>
-    <field name="residenceAddress">ul Słowiańska 130, 64-100 Leszno</field>
-    <field name="workingAddress">ul Słowiańska 130, 64-100 Leszno</field>
+    <field name="residenceAddress">ul Czarnieckiego 130, 14-100 Ostróda</field>
+    <field name="workingAddress">ul Czarnieckiego 130, 14-100 Ostróda</field>
     <field name="accountNumbers">80 6870 4547 4782 8684 6272 2833</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2021-20-07</field>
+    <field name="registrationLegalDate">2024-26-04</field>
     <field name="removalDate">2016-19-01</field>
   </record>
   <record>
-    <field name="name">Silesia Invest sp. z o. o.</field>
+    <field name="name">Amber Rozrywka sp. z o. o.</field>
     <field name="nip">1248901286</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249059664</field>
     <field name="pesel">00322850703</field>
     <field name="krs">0000017274</field>
-    <field name="residenceAddress">ulica Gdańska 147, 83-110 Tczew</field>
-    <field name="workingAddress">ulica Gdańska 147, 83-110 Tczew</field>
+    <field name="residenceAddress">ulica Warszawska 147, 11-500 Giżycko</field>
+    <field name="workingAddress">ulica Warszawska 147, 11-500 Giżycko</field>
     <field name="accountNumbers">26390738853874611842602361</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20231004</field>
+    <field name="registrationLegalDate">20250505</field>
     <field name="removalDate">20170226</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech Sp. z o.o.</field>
+    <field name="name">Amber Gastronomia Sp. z o.o.</field>
     <field name="nip">1248980475</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">249218045</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">259138887</field>
     <field name="pesel">01210752093</field>
     <field name="krs">0000017371</field>
-    <field name="residenceAddress">Sobieskiego 164, 84-200 Wejherowo</field>
-    <field name="workingAddress">Sobieskiego 164, 84-200 Wejherowo</field>
+    <field name="residenceAddress">Lubelska 164, 24-100 Puławy</field>
+    <field name="workingAddress">Lubelska 164, 24-100 Puławy</field>
     <field name="accountNumbers">18023522000679527742976253</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">19/11/2020</field>
+    <field name="registrationLegalDate">12/06/2026</field>
     <field name="removalDate">05/03/2018</field>
   </record>
   <record>
-    <field name="name">PPHU Astra Finance</field>
+    <field name="name">PPHU Amber Moda</field>
     <field name="nip">1249059667</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249218045</field>
     <field name="pesel">02221453441</field>
     <field name="krs">0000017468</field>
-    <field name="residenceAddress">ul. Głęboka 1/1, 43-400 Cieszyn</field>
-    <field name="workingAddress">ul. Głęboka 1/1, 43-400 Cieszyn</field>
+    <field name="residenceAddress">ul. Staszica 1/1, 22-400 Zamość</field>
+    <field name="workingAddress">ul. Staszica 1/1, 22-400 Zamość</field>
     <field name="accountNumbers">82123310129770380249844816</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2019/20/09</field>
+    <field name="registrationLegalDate">2015/19/07</field>
     <field name="removalDate">2020/10/04</field>
   </record>
   <record>
-    <field name="name">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Amber Tekstylia spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1249138852</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249297234</field>
     <field name="pesel">03232154837</field>
     <field name="krs">0000017565</field>
-    <field name="residenceAddress">ul Małachowskiego 18, 42-500 Będzin</field>
-    <field name="workingAddress">ul Małachowskiego 18, 42-500 Będzin</field>
+    <field name="residenceAddress">ul 3 Maja 18, 16-300 Augustów</field>
+    <field name="workingAddress">ul 3 Maja 18, 16-300 Augustów</field>
     <field name="accountNumbers">42717840983027705740790061</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20-12-2022</field>
+    <field name="registrationLegalDate">26-08-2016</field>
     <field name="removalDate">19-05-2020</field>
   </record>
   <record>
-    <field name="name">Helios Markets Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Amber Motoryzacja Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1249218048</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">249455615</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">259376457</field>
     <field name="pesel">04242856188</field>
     <field name="krs">0000017662</field>
-    <field name="residenceAddress">ulica Królowej Jadwigi 35, 88-100 Inowrocław</field>
-    <field name="workingAddress">ulica Królowej Jadwigi 35, 88-100 Inowrocław</field>
+    <field name="residenceAddress">ulica Kościuszki 35, 16-400 Suwałki</field>
+    <field name="workingAddress">ulica Kościuszki 35, 16-400 Suwałki</field>
     <field name="accountNumbers">51 3109 5675 6411 5809 2517 7144</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2020-21-11</field>
+    <field name="registrationLegalDate">2017-05-09</field>
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">Lumen Advisory S.A.</field>
-    <field name="nip">2249297237</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="name">Amber Ubezpieczenia S.A.</field>
+    <field name="nip">1249297237</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249455615</field>
     <field name="pesel">05250757571</field>
     <field name="krs">0000017759</field>
-    <field name="residenceAddress">Staszica 12, 22-400</field>
-    <field name="workingAddress">Staszica 12, 22-400</field>
+    <field name="residenceAddress">Zamkowa 12, 95-200</field>
+    <field name="workingAddress">Zamkowa 12, 95-200</field>
     <field name="accountNumbers">37 9519 1128 8223 8226 1086 1351</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20171125</field>
+    <field name="registrationLegalDate">20181012</field>
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">Nova Data SA</field>
+    <field name="name">Amber Spawalnictwo SA</field>
     <field name="nip">1249376422</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249534800</field>
     <field name="pesel">60061458925</field>
     <field name="krs">0000017856</field>
-    <field name="residenceAddress">ul. Czarnieckiego 69/53, 14-100 Ostróda</field>
-    <field name="workingAddress">ul. Czarnieckiego 69/53, 14-100 Ostróda</field>
+    <field name="residenceAddress">ul. Długa 69/53, 49-300 Brzeg</field>
+    <field name="workingAddress">ul. Długa 69/53, 49-300 Brzeg</field>
     <field name="accountNumbers">25359003729227666480795905</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">13/05/2023</field>
+    <field name="registrationLegalDate">19/11/2019</field>
     <field name="removalDate">15/07/2020</field>
   </record>
   <record>
-    <field name="name">Optima Trade S. A.</field>
+    <field name="name">Amber Ślusarstwo S. A.</field>
     <field name="nip">1249455618</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249613994</field>
     <field name="pesel">61072160315</field>
     <field name="krs">0000017953</field>
@@ -2601,203 +2601,203 @@
     <field name="workingAddress">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="accountNumbers">92153813671085319671163806</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2015/22/04</field>
+    <field name="registrationLegalDate">2020/26/12</field>
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">Polaris Capital Spółka Akcyjna</field>
+    <field name="name">Amber Krawiectwo Spółka Akcyjna</field>
     <field name="nip">1249534803</field>
-    <field name="statusVat">Zwolniony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249693183</field>
     <field name="pesel">62082861665</field>
     <field name="krs">0000018050</field>
-    <field name="residenceAddress">ulica Lubelska 103, 24-100 Puławy</field>
-    <field name="workingAddress">ulica Lubelska 103, 24-100 Puławy</field>
+    <field name="residenceAddress">ulica Sikorskiego 103, 66-200 Świebodzin</field>
+    <field name="workingAddress">ulica Sikorskiego 103, 66-200 Świebodzin</field>
     <field name="accountNumbers">29 7485 7368 9152 9488 5005 4357</field>
     <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">15-02-2019</field>
+    <field name="registrationLegalDate">05-01-2021</field>
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Quantum Services sp. z o.o.</field>
+    <field name="name">Amber Ochrona sp. z o.o.</field>
     <field name="nip">1249613997</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">249772379</field>
     <field name="pesel">63090763059</field>
     <field name="krs">0000018147</field>
-    <field name="residenceAddress">Staszica 120, 22-400 Zamość</field>
-    <field name="workingAddress">Staszica 120, 22-400 Zamość</field>
+    <field name="residenceAddress">Armii Krajowej 120, 78-100 Kołobrzeg</field>
+    <field name="workingAddress">Armii Krajowej 120, 78-100 Kołobrzeg</field>
     <field name="accountNumbers">56602455010242270872493514</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2020-13-06</field>
-    <field name="removalDate">2026-05-11</field>
-  </record>
-  <record>
-    <field name="name">Silesia Invest sp z oo</field>
-    <field name="nip">1249693186</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">249851564</field>
-    <field name="pesel">64101464400</field>
-    <field name="krs">0000018244</field>
-    <field name="residenceAddress">ul. 3 Maja 137/15, 16-300 Augustów</field>
-    <field name="workingAddress">ul. 3 Maja 137/15, 16-300 Augustów</field>
-    <field name="accountNumbers">74 7627 4106 1447 9638 5629 5010</field>
-    <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20160105</field>
-    <field name="removalDate">20151212</field>
-  </record>
-  <record>
-    <field name="name">Vistula Fintech sp. z o. o.</field>
-    <field name="nip">1249772371</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">250009941</field>
-    <field name="pesel">65112165797</field>
-    <field name="krs">0000018341</field>
-    <field name="residenceAddress">ul Kościuszki 154, 16-400 Suwałki</field>
-    <field name="workingAddress">ul Kościuszki 154, 16-400 Suwałki</field>
-    <field name="accountNumbers">01625942328785748252000766</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">06/09/2018</field>
-    <field name="removalDate">06/01/2023</field>
-  </record>
-  <record>
-    <field name="name">Astra Finance Sp. z o.o.</field>
-    <field name="nip">1249851567</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">250009941</field>
-    <field name="pesel">66122867147</field>
-    <field name="krs">0000018438</field>
-    <field name="residenceAddress">ulica Piastowska 171, 48-300 Nysa</field>
-    <field name="workingAddress">ulica Piastowska 171, 48-300 Nysa</field>
-    <field name="accountNumbers">30535995533726782332078388</field>
-    <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2018/08/11</field>
-    <field name="removalDate">2017/26/02</field>
-  </record>
-  <record>
-    <field name="name">Baltic Med Supply SP Z O O</field>
-    <field name="nip">1249930752</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">250089130</field>
-    <field name="pesel">67010768535</field>
-    <field name="krs">0000018535</field>
-    <field name="residenceAddress">Długa 8, 49-300 Brzeg</field>
-    <field name="workingAddress">Długa 8, 49-300 Brzeg</field>
-    <field name="accountNumbers">98068598861175904483709262</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">30-06-2018</field>
-    <field name="removalDate">07-12-2026</field>
-  </record>
-  <record>
-    <field name="name">Helios Markets spółka z ograniczoną odpowiedzialnością</field>
-    <field name="nip">1250009942</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">250168326</field>
-    <field name="pesel">68021469884</field>
-    <field name="krs">0000018632</field>
-    <field name="residenceAddress">ul. Rynek 25/67, 68-200 Żary</field>
-    <field name="workingAddress">ul. Rynek 25/67, 68-200 Żary</field>
-    <field name="accountNumbers">26882863405471955531054705</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">2015-12-04</field>
-    <field name="removalDate">2024-13-07</field>
-  </record>
-  <record>
-    <field name="name">Lumen Advisory Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="nip">1250089131</field>
-    <field name="statusVat">Zwolniony</field>
-    <field name="regon">250247511</field>
-    <field name="pesel">69032171274</field>
-    <field name="krs">0000018729</field>
-    <field name="residenceAddress">ul Sikorskiego 42, 66-200 Świebodzin</field>
-    <field name="workingAddress">ul Sikorskiego 42, 66-200 Świebodzin</field>
-    <field name="accountNumbers">96 9273 3759 5578 5392 2585 7131</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">20180418</field>
-    <field name="removalDate">20200519</field>
-  </record>
-  <record>
-    <field name="name">Nova Data S.A.</field>
-    <field name="nip">1250168327</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">250326707</field>
-    <field name="pesel">70042872622</field>
-    <field name="krs">0000018826</field>
-    <field name="residenceAddress">ulica Armii Krajowej 59, 78-100 Kołobrzeg</field>
-    <field name="workingAddress">ulica Armii Krajowej 59, 78-100 Kołobrzeg</field>
-    <field name="accountNumbers">46854250520261622181180038</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">29/01/2021</field>
-    <field name="removalDate">14/06/2025</field>
-  </record>
-  <record>
-    <field name="name">Optima Trade SA</field>
-    <field name="nip">1250247512</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">250405890</field>
-    <field name="pesel">71050774016</field>
-    <field name="krs">0000018923</field>
-    <field name="residenceAddress">Piłsudskiego 76, 73-110 Stargard</field>
-    <field name="workingAddress">Piłsudskiego 76, 73-110 Stargard</field>
-    <field name="accountNumbers">60 6599 9057 8308 2465 7114 1873</field>
-    <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2022/15/06</field>
-    <field name="removalDate">2022/05/07</field>
-  </record>
-  <record>
-    <field name="name">Polaris Capital S. A.</field>
-    <field name="nip">1250326708</field>
-    <field name="statusVat">Wykreślony</field>
-    <field name="regon">250564275</field>
-    <field name="pesel">72061475365</field>
-    <field name="krs">0000019020</field>
-    <field name="residenceAddress">93/29, 27-600 Sandomierz</field>
-    <field name="workingAddress">93/29, 27-600 Sandomierz</field>
-    <field name="accountNumbers">12 6085 1868 4285 1030 3200 8176</field>
-    <field name="hasVirtualAccounts">false</field>
-    <field name="registrationLegalDate">26-04-2017</field>
-    <field name="removalDate">12-08-2023</field>
-  </record>
-  <record>
-    <field name="name">Quantum Services Spółka Akcyjna</field>
-    <field name="nip">1250405891</field>
-    <field name="statusVat">Czynny</field>
-    <field name="regon">250564275</field>
-    <field name="pesel">73072176751</field>
-    <field name="krs">0000019117</field>
-    <field name="residenceAddress">ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski</field>
-    <field name="workingAddress">ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski</field>
-    <field name="accountNumbers">33761062252627970182334483</field>
-    <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">2019-23-03</field>
+    <field name="registrationLegalDate">2022-12-02</field>
     <field name="removalDate">2026-11-05</field>
   </record>
   <record>
-    <field name="name">Silesia Invest sp. z o.o.</field>
+    <field name="name">Amber Catering sp z oo</field>
+    <field name="nip">1249693186</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">249851564</field>
+    <field name="pesel">64101464400</field>
+    <field name="krs">0000018244</field>
+    <field name="residenceAddress">ul. Piłsudskiego 137/15, 73-110 Stargard</field>
+    <field name="workingAddress">ul. Piłsudskiego 137/15, 73-110 Stargard</field>
+    <field name="accountNumbers">74 7627 4106 1447 9638 5629 5010</field>
+    <field name="hasVirtualAccounts">true</field>
+    <field name="registrationLegalDate">20230319</field>
+    <field name="removalDate">20151212</field>
+  </record>
+  <record>
+    <field name="name">Amber Księgowość sp. z o. o.</field>
+    <field name="nip">1249772371</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">259930787</field>
+    <field name="pesel">65112165797</field>
+    <field name="krs">0000018341</field>
+    <field name="residenceAddress">154, 27-600 Sandomierz</field>
+    <field name="workingAddress">154, 27-600 Sandomierz</field>
+    <field name="accountNumbers">01625942328785748252000766</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">26/04/2024</field>
+    <field name="removalDate">06/01/2023</field>
+  </record>
+  <record>
+    <field name="name">Bizon Budownictwo Sp. z o.o.</field>
+    <field name="nip">1249851567</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250009941</field>
+    <field name="pesel">66122867147</field>
+    <field name="krs">0000018438</field>
+    <field name="residenceAddress">ulica Sienkiewicza 171, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="workingAddress">ulica Sienkiewicza 171, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="accountNumbers">30535995533726782332078388</field>
+    <field name="hasVirtualAccounts">true</field>
+    <field name="registrationLegalDate">2025/05/05</field>
+    <field name="removalDate">2017/26/02</field>
+  </record>
+  <record>
+    <field name="name">Bizon Transport SP Z O O</field>
+    <field name="nip">1249930752</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250089130</field>
+    <field name="pesel">67010768535</field>
+    <field name="krs">0000018535</field>
+    <field name="residenceAddress">Chmielna 8, 00-020 Warszawa</field>
+    <field name="workingAddress">Chmielna 8, 00-020 Warszawa</field>
+    <field name="accountNumbers">98068598861175904483709262</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">12-06-2026</field>
+    <field name="removalDate">07-12-2026</field>
+  </record>
+  <record>
+    <field name="name">Bizon Spedycja spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nip">1250009942</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250168326</field>
+    <field name="pesel">68021469884</field>
+    <field name="krs">0000018632</field>
+    <field name="residenceAddress">ul. Nowy Świat 25/67, 00-029 Warszawa</field>
+    <field name="workingAddress">ul. Nowy Świat 25/67, 00-029 Warszawa</field>
+    <field name="accountNumbers">26882863405471955531054705</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">2015-19-07</field>
+    <field name="removalDate">2024-13-07</field>
+  </record>
+  <record>
+    <field name="name">Bizon Logistyka Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nip">1250089131</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250247511</field>
+    <field name="pesel">69032171274</field>
+    <field name="krs">0000018729</field>
+    <field name="residenceAddress">ul os. Przyjaźń 42, 01-355 Warszawa</field>
+    <field name="workingAddress">ul os. Przyjaźń 42, 01-355 Warszawa</field>
+    <field name="accountNumbers">96 9273 3759 5578 5392 2585 7131</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">20160826</field>
+    <field name="removalDate">20200519</field>
+  </record>
+  <record>
+    <field name="name">Bizon Handel S.A.</field>
+    <field name="nip">1250168327</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250326707</field>
+    <field name="pesel">70042872622</field>
+    <field name="krs">0000018826</field>
+    <field name="residenceAddress">ulica Jagiellońska 59, 05-120 Legionowo</field>
+    <field name="workingAddress">ulica Jagiellońska 59, 05-120 Legionowo</field>
+    <field name="accountNumbers">46854250520261622181180038</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">05/09/2017</field>
+    <field name="removalDate">14/06/2025</field>
+  </record>
+  <record>
+    <field name="name">Bizon Usługi SA</field>
+    <field name="nip">1250247512</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250405890</field>
+    <field name="pesel">71050774016</field>
+    <field name="krs">0000018923</field>
+    <field name="residenceAddress">Piłsudskiego 76, 05-270 Marki</field>
+    <field name="workingAddress">Piłsudskiego 76, 05-270 Marki</field>
+    <field name="accountNumbers">60 6599 9057 8308 2465 7114 1873</field>
+    <field name="hasVirtualAccounts">true</field>
+    <field name="registrationLegalDate">2018/12/10</field>
+    <field name="removalDate">2022/05/07</field>
+  </record>
+  <record>
+    <field name="name">Bizon Finanse S. A.</field>
+    <field name="nip">1250326708</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">260485119</field>
+    <field name="pesel">72061475365</field>
+    <field name="krs">0000019020</field>
+    <field name="residenceAddress">ul. Andriollego 93/29, 05-400 Otwock</field>
+    <field name="workingAddress">ul. Andriollego 93/29, 05-400 Otwock</field>
+    <field name="accountNumbers">12 6085 1868 4285 1030 3200 8176</field>
+    <field name="hasVirtualAccounts">false</field>
+    <field name="registrationLegalDate">19-11-2019</field>
+    <field name="removalDate">12-08-2023</field>
+  </record>
+  <record>
+    <field name="name">Bizon Doradztwo Spółka Akcyjna</field>
+    <field name="nip">1250405891</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon">250564275</field>
+    <field name="pesel">73072176751</field>
+    <field name="krs">0000019117</field>
+    <field name="residenceAddress">ul Żeromskiego 110, 26-600 Radom</field>
+    <field name="workingAddress">ul Żeromskiego 110, 26-600 Radom</field>
+    <field name="accountNumbers">33761062252627970182334483</field>
+    <field name="hasVirtualAccounts">true</field>
+    <field name="registrationLegalDate">2020-26-12</field>
+    <field name="removalDate">2026-05-11</field>
+  </record>
+  <record>
+    <field name="name">Bizon Szkolenia sp. z o.o.</field>
     <field name="nip">1250485080</field>
-    <field name="statusVat">Czynny</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">250643460</field>
     <field name="pesel">74082878101</field>
     <field name="krs">0000019214</field>
-    <field name="residenceAddress">ulica Marszałkowska 127, 00-590 Warszawa</field>
-    <field name="workingAddress">ulica Marszałkowska 127, 00-590 Warszawa</field>
+    <field name="residenceAddress">ulica Tumska 127, 09-402 Płock</field>
+    <field name="workingAddress">ulica Tumska 127, 09-402 Płock</field>
     <field name="accountNumbers">35 9098 7926 9471 6661 2043 9391</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">20240910</field>
+    <field name="registrationLegalDate">20210105</field>
     <field name="removalDate">20251026</field>
   </record>
   <record>
-    <field name="name">Vistula Fintech sp z oo</field>
+    <field name="name">Bizon Media sp z oo</field>
     <field name="nip">1250564276</field>
-    <field name="statusVat">Wykreślony</field>
+    <field name="statusVat">AKTYWNY</field>
     <field name="regon">250722656</field>
     <field name="pesel">75090779495</field>
     <field name="krs">0000019311</field>
-    <field name="residenceAddress">Krakowskie Przedmieście 144, 00-071 Warszawa</field>
-    <field name="workingAddress">Krakowskie Przedmieście 144, 00-071 Warszawa</field>
+    <field name="residenceAddress">Karmelicka 144, 31-128 Kraków</field>
+    <field name="workingAddress">Karmelicka 144, 31-128 Kraków</field>
     <field name="accountNumbers">38 8085 1078 3635 8514 2634 5987</field>
     <field name="hasVirtualAccounts">true</field>
-    <field name="registrationLegalDate">06/08/2025</field>
+    <field name="registrationLegalDate">12/02/2022</field>
     <field name="removalDate">05/11/2026</field>
   </record>
 </dataset>

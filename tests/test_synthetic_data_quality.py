@@ -97,6 +97,56 @@ class SyntheticDataQualityTests(unittest.TestCase):
         self.assertGreater(len(invalid_refs), 0)
         self.assertEqual(len(with_valid_counterpart), len(invalid_refs))
 
+    def test_party_identifiers_do_not_point_to_different_companies(self) -> None:
+        party_refs = []
+        for source, file_name, columns in (
+            (
+                "ceidg",
+                "ceidg.csv",
+                {"nip": "firma.nip", "regon": "firma.regon", "krs": "", "name": "firma.nazwa"},
+            ),
+            (
+                "krs",
+                "krs.csv",
+                {"nip": "nip", "regon": "regon", "krs": "numerKRS", "name": "nazwa"},
+            ),
+            (
+                "regon",
+                "regon.csv",
+                {"nip": "nip", "regon": "regon", "krs": "krs", "name": "nazwa"},
+            ),
+            (
+                "vat",
+                "vat.csv",
+                {"nip": "nip", "regon": "regon", "krs": "krs", "name": "name"},
+            ),
+        ):
+            party_refs.extend(self._party_refs(source, file_name, columns))
+
+        for identifier in ("nip", "regon", "krs"):
+            refs_by_identifier: dict[str, list[dict[str, str]]] = defaultdict(list)
+            for ref in party_refs:
+                value = ref[identifier]
+                if value:
+                    refs_by_identifier[value].append(ref)
+
+            hard_conflicts = {}
+            for value, refs in refs_by_identifier.items():
+                names = sorted({ref["name"] for ref in refs if ref["name"]})
+                if len(names) < 2:
+                    continue
+
+                baseline = names[0]
+                if any(self._name_similarity(baseline, name) < 0.7 for name in names[1:]):
+                    hard_conflicts[value] = names
+
+            max_allowed = max(1, round(len(refs_by_identifier) * 0.005))
+            self.assertLessEqual(
+                len(hard_conflicts),
+                max_allowed,
+                f"Too many hard company conflicts for the same {identifier}: {hard_conflicts}",
+            )
+
     def _person_refs(
         self,
         source: str,
@@ -115,6 +165,27 @@ class SyntheticDataQualityTests(unittest.TestCase):
             name = " ".join(part for part in (first_name, last_name) if part)
             if pesel and name:
                 refs.append((source, pesel, name.casefold()))
+        return refs
+
+    def _party_refs(
+        self,
+        source: str,
+        file_name: str,
+        columns: dict[str, str],
+    ) -> list[dict[str, str]]:
+        with (DATA_DIR / file_name).open(encoding="utf-8-sig", newline="") as handle:
+            rows = list(csv.DictReader(handle))
+        refs = []
+        for row in rows:
+            refs.append(
+                {
+                    "source": source,
+                    "nip": (row.get(columns["nip"]) or "").strip() if columns["nip"] else "",
+                    "regon": (row.get(columns["regon"]) or "").strip() if columns["regon"] else "",
+                    "krs": (row.get(columns["krs"]) or "").strip() if columns["krs"] else "",
+                    "name": (row.get(columns["name"]) or "").strip().casefold(),
+                }
+            )
         return refs
 
     def _name_similarity(self, left: str, right: str) -> float:

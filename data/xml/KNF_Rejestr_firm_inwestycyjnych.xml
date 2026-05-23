@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset name="KNF_Rejestr_firm_inwestycyjnych">
+<dataset name="knf_rejestr_firm_inwestycyjnych">
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory SP Z O O</field>
+    <field name="Firma lub nazwa">Facebook - Meta</field>
     <field name="Adres siedziby">os. Marszałkowska 1/1, 00-590 Warszawa</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000000008</field>
@@ -11,10 +11,11 @@
     <field name="Numer decyzji">DFI/243/2024</field>
     <field name="CzlonekZarzadu1_PESEL">60101434205</field>
     <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańsak</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
+    <field name="Firma lub nazwa">Polskie Przetwory sp z oo</field>
     <field name="Adres siedziby">ul Krakowskie Przedmieście 18, 00-071 Warszawa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000000105</field>
@@ -24,10 +25,11 @@
     <field name="Numer decyzji">DFI/719/2025</field>
     <field name="CzlonekZarzadu1_PESEL">61112135592</field>
     <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąrbowski</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data sp z oo</field>
+    <field name="Firma lub nazwa">Hurtownia Nabiału Mleczko sp. z o. o.</field>
     <field name="Adres siedziby">ulica Floriańska 35, 31-019 Kraków</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000000202</field>
@@ -36,11 +38,12 @@
     <field name="Data zezwolenia">25-09-2019</field>
     <field name="Numer decyzji">DFI/125/2025</field>
     <field name="CzlonekZarzadu1_PESEL">62122836941</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazru</field>
+    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
+    <field name="Firma lub nazwa">Agencja Reklamowa Kreatywni Sp. z o.o.</field>
     <field name="Adres siedziby">Długa 52, 31-147 Kraków</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000000299</field>
@@ -49,11 +52,12 @@
     <field name="Data zezwolenia">2023-15-07</field>
     <field name="Numer decyzji">DFI/725/2020</field>
     <field name="CzlonekZarzadu1_PESEL">63010738330</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczy</field>
+    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Kancelaria Prawna Sankcja SP Z O O</field>
     <field name="Adres siedziby">ul. Piotrkowska 69/53, 90-102 Łódź</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000000396</field>
@@ -62,11 +66,12 @@
     <field name="Data zezwolenia">20210513</field>
     <field name="Numer decyzji">DFI/134/2021</field>
     <field name="CzlonekZarzadu1_PESEL">64021439689</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźnika</field>
+    <field name="CzlonekZarzadu1_Imie">Marta</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Services S.A.</field>
+    <field name="Firma lub nazwa">Śląskie Zakłady Mechaniczne spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Zachodnia 86, 90-402 Łódź</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000000493</field>
@@ -75,37 +80,40 @@
     <field name="Data zezwolenia">10/06/2024</field>
     <field name="Numer decyzji">DFI/170/2026</field>
     <field name="CzlonekZarzadu1_PESEL">65032141079</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jaknowski</field>
+    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sawicki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets Polska sp. z o.o.</field>
+    <field name="Firma lub nazwa">Fabryka Okien i Drzwi Profil Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Świdnicka 103, 50-066 Wrocław</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000000590</field>
-    <field name="NIP">2235280600</field>
+    <field name="NIP">1235280600</field>
     <field name="REGON">235438987</field>
     <field name="Data zezwolenia">2019/09/05</field>
     <field name="Numer decyzji">DFI/107/2024</field>
     <field name="CzlonekZarzadu1_PESEL">66042842428</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowksa</field>
+    <field name="CzlonekZarzadu1_Imie">Paulina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dudek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">ilSesia Invets sp. z o.o.</field>
+    <field name="Firma lub nazwa">Przedsiębiorstwo Robót Drogowych S.A.</field>
     <field name="Adres siedziby">Legnicka 120, 54-203 Wrocław</field>
-    <field name="Zakres czynności">zraządzanie portfelami</field>
+    <field name="Zakres czynności">zraązdzanie oprtfelami</field>
     <field name="KRS">0000000687</field>
     <field name="NIP">1235359796</field>
     <field name="REGON">235518172</field>
     <field name="Data zezwolenia">07-07-2018</field>
     <field name="Numer decyzji">DF/334/2020</field>
     <field name="CzlonekZarzadu1_PESEL">67050743811</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Palwak</field>
+    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
+    <field name="Firma lub nazwa">Krakowskie Biuro Nieruchomości SA</field>
     <field name="Adres siedziby">ul. Święty Marcin 137/15, 61-806 Poznań</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000000784</field>
@@ -114,11 +122,12 @@
     <field name="Data zezwolenia">2017-21-06</field>
     <field name="Numer decyzji">DFI/470/2022</field>
     <field name="CzlonekZarzadu1_PESEL">68061445161</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michaslka</field>
+    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawłowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Holding Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Salon Samochodowy Auto-Hit S. A.</field>
     <field name="Adres siedziby">ul Głogowska 154, 60-734 Poznań</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000000881</field>
@@ -127,11 +136,12 @@
     <field name="Data zezwolenia">20221220</field>
     <field name="Numer decyzji">DFI/572/2023</field>
     <field name="CzlonekZarzadu1_PESEL">69072146557</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kró</field>
+    <field name="CzlonekZarzadu1_Imie">Dawid</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowicki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
+    <field name="Firma lub nazwa">Klinika Stomatologiczna Dent-Med Spółka Akcyjna</field>
     <field name="Adres siedziby">ulica Długa 171, 80-831 Gdańsk</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000000978</field>
@@ -140,11 +150,12 @@
     <field name="Data zezwolenia">19/02/2017</field>
     <field name="Numer decyzji">DFI/633/2021</field>
     <field name="CzlonekZarzadu1_PESEL">70082847905</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Weiczorek</field>
+    <field name="CzlonekZarzadu1_Imie">Dorota</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sokołowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Polski Tytoń sp. z o.o.</field>
     <field name="Adres siedziby">Grunwaldzka 8, 80-236 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000001075</field>
@@ -153,11 +164,12 @@
     <field name="Data zezwolenia">2023/08/02</field>
     <field name="Numer decyzji">DFI/571/2022</field>
     <field name="CzlonekZarzadu1_PESEL">71090749290</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jbałoński</field>
+    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade SP Z O O</field>
+    <field name="Firma lub nazwa">Gdańska Stocznia Jachtowa sp z oo</field>
     <field name="Adres siedziby">ul. Jagiellońska 25/67, 70-435 Szczecin</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000001172</field>
@@ -166,24 +178,26 @@
     <field name="Data zezwolenia">28-01-2018</field>
     <field name="Numer decyzji">DFI/126/2021</field>
     <field name="CzlonekZarzadu1_PESEL">72101450644</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witokwska</field>
+    <field name="CzlonekZarzadu1_Imie">Beata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Majewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Polska S.A.</field>
+    <field name="Firma lub nazwa">Wytwórnia Makaronu Jajecznego sp. z o. o.</field>
     <field name="Adres siedziby">ul Wyszyńskiego 42, 70-200 Szczecin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zlecen</field>
     <field name="KRS">0000001269</field>
     <field name="NIP">1235834932</field>
-    <field name="REGON">235993312</field>
+    <field name="REGON">335993312</field>
     <field name="Data zezwolenia">2022-21-06</field>
     <field name="Numer decyzji">DFI/111/2022</field>
     <field name="CzlonekZarzadu1_PESEL">73112152031</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczka</field>
+    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Olszewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Technologie spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Zakłady Mięsne Tradycja Sp. z o.o.</field>
     <field name="Adres siedziby">ulica Mariacka 59, 40-014 Katowice</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000001366</field>
@@ -192,11 +206,12 @@
     <field name="Data zezwolenia">20211212</field>
     <field name="Numer decyzji">DFI/458/2018</field>
     <field name="CzlonekZarzadu1_PESEL">74122853381</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępie</field>
+    <field name="CzlonekZarzadu1_Imie">Urszula</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jaworska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Polska spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Spółdzielnia Mleczarska Radomsko SP Z O O</field>
     <field name="Adres siedziby">Warszawska 76, 40-009 Katowice</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000001463</field>
@@ -205,24 +220,26 @@
     <field name="Data zezwolenia">08/03/2020</field>
     <field name="Numer decyzji">DFI/683/2023</field>
     <field name="CzlonekZarzadu1_PESEL">75010754779</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Barna</field>
+    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Malinowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa"></field>
+    <field name="Firma lub nazwa">Kancelaria Finansowo-Księgowa Bilans spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
-    <field name="Zakres czynności">doradztwo inwestycyjne</field>
+    <field name="Zakres czynności"></field>
     <field name="KRS"></field>
     <field name="NIP">1236072507</field>
     <field name="REGON">236230881</field>
     <field name="Data zezwolenia">2023/04/09</field>
     <field name="Numer decyzji">DFI/356/2025</field>
     <field name="CzlonekZarzadu1_PESEL">76021456128</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ruktowska</field>
+    <field name="CzlonekZarzadu1_Imie">Izabela</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
+    <field name="Firma lub nazwa">Zarząd Nieruchomości Komercyjnych Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Narutowicza 110, 20-004 Lublin</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000001657</field>
@@ -231,11 +248,12 @@
     <field name="Data zezwolenia">07-09-2024</field>
     <field name="Numer decyzji">DFI/559/2018</field>
     <field name="CzlonekZarzadu1_PESEL">77032157514</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górsk</field>
+    <field name="CzlonekZarzadu1_Imie">Henryk</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szczepański</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
+    <field name="Firma lub nazwa">Polskie Linie Oceaniczne S.A.</field>
     <field name="Adres siedziby">ulica Lipowa 127, 15-424 Białystok</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000001754</field>
@@ -244,12 +262,13 @@
     <field name="Data zezwolenia">2018-26-04</field>
     <field name="Numer decyzji">DFI/490/2020</field>
     <field name="CzlonekZarzadu1_PESEL">78042858864</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Siokra</field>
+    <field name="CzlonekZarzadu1_Imie">Weronika</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czerwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Finanse S.A.</field>
-    <field name="Adres siedziby">Chełmińska 104, Toruń</field>
+    <field name="Firma lub nazwa">Hurtownia Materiałów Budowlanych Cegiełka SA</field>
+    <field name="Adres siedziby">Chrobrego 104, Gniezno</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000001851</field>
     <field name="NIP">1236310071</field>
@@ -257,11 +276,12 @@
     <field name="Data zezwolenia">20170411</field>
     <field name="Numer decyzji">DFI/873/2018</field>
     <field name="CzlonekZarzadu1_PESEL">79050760251</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowsk</field>
+    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">PPHU Studio Projektowe Architektura</field>
     <field name="Adres siedziby">ul. Gdańska 161/81, 85-005 Bydgoszcz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000001948</field>
@@ -270,11 +290,12 @@
     <field name="Data zezwolenia">13/06/2024</field>
     <field name="Numer decyzji">DFI/951/2017</field>
     <field name="CzlonekZarzadu1_PESEL">80061461608</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszeswka</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance S.A.</field>
+    <field name="Firma lub nazwa">Centrum Medycyny Pracy Spółka Akcyjna</field>
     <field name="Adres siedziby">ul Dworcowa 178, 85-009 Bydgoszcz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000002045</field>
@@ -283,24 +304,26 @@
     <field name="Data zezwolenia">2021/06/08</field>
     <field name="Numer decyzji">DFI/899/2023</field>
     <field name="CzlonekZarzadu1_PESEL">81072162995</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">aZjąc</field>
+    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wysocki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Technologie sp. z o.o.</field>
+    <field name="Firma lub nazwa">Przedsiębiorstwo Energetyki Cieplnej sp. z o.o.</field>
     <field name="Adres siedziby">ulica Szeroka 15, 87-100 Toruń</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000002142</field>
     <field name="NIP">1236547643</field>
-    <field name="REGON">236785219</field>
+    <field name="REGON">246706057</field>
     <field name="Data zezwolenia">08-04-2025</field>
     <field name="Numer decyzji">DFI/475/2026</field>
     <field name="CzlonekZarzadu1_PESEL">82082864345</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piertzak</field>
+    <field name="CzlonekZarzadu1_Imie">Olga</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Chmielewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply Services Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Gospodarstwo Rolno-Ogrodnicze sp z oo</field>
     <field name="Adres siedziby">Chełmińska 32, 87-100 Toruń</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000002239</field>
@@ -309,24 +332,26 @@
     <field name="Data zezwolenia">2019-28-12</field>
     <field name="Numer decyzji">DFI/412/2025</field>
     <field name="CzlonekZarzadu1_PESEL">83090765738</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicik</field>
+    <field name="CzlonekZarzadu1_Imie">Damian</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Urbański</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
+    <field name="Firma lub nazwa">Drukarnia Wielkoformatowa Impress sp. z o. o.</field>
     <field name="Adres siedziby">ul. 3 Maja 49/43, 35-030 Rzeszów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000002336</field>
     <field name="NIP">1236706024</field>
-    <field name="REGON">336864404</field>
+    <field name="REGON">236864404</field>
     <field name="Data zezwolenia">20241014</field>
     <field name="Numer decyzji">DFI/949/2019</field>
     <field name="CzlonekZarzadu1_PESEL">84101467081</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnekca</field>
+    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Klub Fitness Sylwetka Sp. z o.o.</field>
     <field name="Adres siedziby">ul Piłsudskiego 66, 35-074 Rzeszów</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000002433</field>
@@ -335,11 +360,12 @@
     <field name="Data zezwolenia">26/01/2025</field>
     <field name="Numer decyzji">DFI/232/2025</field>
     <field name="CzlonekZarzadu1_PESEL">85112168477</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Li</field>
+    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Polska Grupa Energetyczna SP Z O O</field>
     <field name="Adres siedziby">ulica Sienkiewicza 83, 25-007 Kielce</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000002530</field>
@@ -348,11 +374,12 @@
     <field name="Data zezwolenia">2023/03/10</field>
     <field name="Numer decyzji">DFI/842/2021</field>
     <field name="CzlonekZarzadu1_PESEL">86122869826</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołdoziej</field>
+    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Mazowieckie Zakłady Drobiarskie spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">Warszawska 100, 25-512 Kielce</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000002627</field>
@@ -361,24 +388,26 @@
     <field name="Data zezwolenia">15-09-2020</field>
     <field name="Numer decyzji">DFI/716/2020</field>
     <field name="CzlonekZarzadu1_PESEL">87010771218</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kazcmarek</field>
+    <field name="CzlonekZarzadu1_Imie">Leszek</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kacper</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
+    <field name="Firma lub nazwa">Hurtownia Farmaceutyczna Aptekarz Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. Kościuszki 117/5, 10-504 Olsztyn</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000002724</field>
     <field name="NIP">1237022782</field>
     <field name="REGON">237181162</field>
-    <field name="Data zezwolenia">2017-06-12</field>
+    <field name="Data zezwolenia">2017-12-06</field>
     <field name="Numer decyzji">DFI/437/2024</field>
     <field name="CzlonekZarzadu1_PESEL">88021472567</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pitąek</field>
+    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance SP Z O O</field>
+    <field name="Firma lub nazwa">Kancelaria Notarialna Lex S.A.</field>
     <field name="Adres siedziby">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000002821</field>
@@ -387,11 +416,12 @@
     <field name="Data zezwolenia">20200329</field>
     <field name="Numer decyzji">DFI/479/2019</field>
     <field name="CzlonekZarzadu1_PESEL">89032173953</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sdaowski</field>
+    <field name="CzlonekZarzadu1_Imie">Cezary</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets sp. z o.o.</field>
+    <field name="Firma lub nazwa">Biuro Podróży Wojażer SA</field>
     <field name="Adres siedziby">ulica Krakowska 151, 45-018 Opole</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000002918</field>
@@ -400,11 +430,12 @@
     <field name="Data zezwolenia">04/03/2024</field>
     <field name="Numer decyzji">DFI/267/2023</field>
     <field name="CzlonekZarzadu1_PESEL">90042875302</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Bożena</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Oliwia</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Laskowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade S.A.</field>
+    <field name="Firma lub nazwa">Szkoła Języków Obcych Lingua S. A.</field>
     <field name="Adres siedziby">Ozimska 168, 45-057 Opole</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000003015</field>
@@ -413,37 +444,40 @@
     <field name="Data zezwolenia">2023/05/03</field>
     <field name="Numer decyzji">DFI/562/2019</field>
     <field name="CzlonekZarzadu1_PESEL">91050776696</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
+    <field name="CzlonekZarzadu1_Imie">Filip</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazurek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker Services S.A.</field>
+    <field name="Firma lub nazwa">Centrum Logistyczne Podlasie Spółka Akcyjna</field>
     <field name="Adres siedziby">ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000003112</field>
-    <field name="NIP">1237418735</field>
-    <field name="REGON">237577115</field>
+    <field name="NIP">1247339575</field>
+    <field name="REGON">247497957</field>
     <field name="Data zezwolenia">10-01-2019</field>
     <field name="Numer decyzji">DFI/725/2017</field>
     <field name="CzlonekZarzadu1_PESEL">92061478045</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Zuzanna</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Emilia</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sobczak-Matusiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Fabryka Mebli Drewnianych Dąb sp. z o.o.</field>
     <field name="Adres siedziby">ul Kupiecka 22, 65-058 Zielona Góra</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
-    <field name="KRS">000000320</field>
+    <field name="KRS">0000003209</field>
     <field name="NIP">1237418735</field>
     <field name="REGON">237577115</field>
     <field name="Data zezwolenia">2020-10-10</field>
     <field name="Numer decyzji">DFI/884/2022</field>
     <field name="CzlonekZarzadu1_PESEL">93072179431</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_Imie">Mikołaj</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Ignacy</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Konieczny</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Polskie Sady sp z oo</field>
     <field name="Adres siedziby">ulica Świętojańska 39, 81-372 Gdynia</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000003306</field>
@@ -452,38 +486,41 @@
     <field name="Data zezwolenia">20201212</field>
     <field name="Numer decyzji">DFI/947/2024</field>
     <field name="CzlonekZarzadu1_PESEL">94082880784</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_Imie">Lena</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Brzezińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets Finanse S.A.</field>
+    <field name="Firma lub nazwa">Wielkopolska Hurtownia Stali sp. z o. o.</field>
     <field name="Adres siedziby">10 Lutego 56, 81-364 Gdynia</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000003403</field>
-    <field name="NIP">1237656305</field>
+    <field name="NIP">1247577145</field>
     <field name="REGON">237735494</field>
     <field name="Data zezwolenia">14/09/2017</field>
     <field name="Numer decyzji">DFI/954/2020</field>
     <field name="CzlonekZarzadu1_PESEL">95090782178</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_Imie">Antoni</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Leon</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Makowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
+    <field name="Firma lub nazwa">Zakład Oczyszczania Miasta Sp. z o.o.</field>
     <field name="Adres siedziby">ul. Bolesława Prusa 73/19, 05-800 Pruszków</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000003500</field>
     <field name="NIP">1237656305</field>
-    <field name="REGON">237893879</field>
+    <field name="REGON">247814719</field>
     <field name="Data zezwolenia">2025/02/08</field>
     <field name="Numer decyzji">DFI/484/2025</field>
     <field name="CzlonekZarzadu1_PESEL">96101483529</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Hanna</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Dominika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital Markets sp. z o.o.</field>
-    <field name="Adres siedziby">39-300 Mielec</field>
+    <field name="Firma lub nazwa">Przedsiębiorstwo Wodociągów i Kanalizacji SP Z O O</field>
+    <field name="Adres siedziby">78-100 Kołobrzeg</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000003597</field>
     <field name="NIP">1237735499</field>
@@ -491,11 +528,12 @@
     <field name="Data zezwolenia">10-03-2018</field>
     <field name="Numer decyzji">DFI/221/2021</field>
     <field name="CzlonekZarzadu1_PESEL">97112184915</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_Imie">Franciszek</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Instytut Badań Rynkowych spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Sienkiewicza 107, 32-020 Wieliczka</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000003694</field>
@@ -504,11 +542,12 @@
     <field name="Data zezwolenia">2018-23-07</field>
     <field name="Numer decyzji">DFI/368/2022</field>
     <field name="CzlonekZarzadu1_PESEL">98122886266</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_Imie">Amelia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jagoda</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kucharska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets S.A.</field>
+    <field name="Firma lub nazwa">Agencja Ochrony Solidna Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">Dąbrowskiego 124, 32-600 Oświęcim</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000003791</field>
@@ -517,24 +556,26 @@
     <field name="Data zezwolenia">20220325</field>
     <field name="Numer decyzji">DFI/282/2026</field>
     <field name="CzlonekZarzadu1_PESEL">99010787654</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_Imie">Nikodem</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jerzy</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lisowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Instagram - Meta</field>
     <field name="Adres siedziby">ul. Rynek 141/71, 38-400 Krosno</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000003888</field>
     <field name="NIP">1237973069</field>
-    <field name="REGON">238210635</field>
+    <field name="REGON">248131477</field>
     <field name="Data zezwolenia">19/05/2019</field>
     <field name="Numer decyzji">DFI/433/2021</field>
     <field name="CzlonekZarzadu1_PESEL">00221489008</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
+    <field name="Firma lub nazwa">Krajowa Izba Gospodarcza SA</field>
     <field name="Adres siedziby">ul Mickiewicza 158, 39-300 Mielec</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000003985</field>
@@ -543,11 +584,12 @@
     <field name="Data zezwolenia">2017/21/07</field>
     <field name="Numer decyzji">DFI/962/2019</field>
     <field name="CzlonekZarzadu1_PESEL">01232190398</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
+    <field name="CzlonekZarzadu1_Imie">Miłosz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marian</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Polskie Zakłady Lotnicze S. A.</field>
     <field name="Adres siedziby">175, 58-100 Świdnica</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000004082</field>
@@ -556,24 +598,26 @@
     <field name="Data zezwolenia">20-12-2022</field>
     <field name="Numer decyzji">DFI/111/2021</field>
     <field name="CzlonekZarzadu1_PESEL">02242891747</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_Imie">Agata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
+    <field name="Firma lub nazwa">Hurtownia Elektryczna Wat Spółka Akcyjna</field>
     <field name="Adres siedziby">Wojska Polskiego 12, 57-300 Kłodzko</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000004179</field>
-    <field name="NIP">1238289820</field>
+    <field name="NIP">1248210665</field>
     <field name="REGON">238369011</field>
     <field name="Data zezwolenia">2023-28-03</field>
     <field name="Numer decyzji">DFI/539/2026</field>
     <field name="CzlonekZarzadu1_PESEL">03250793131</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
+    <field name="Firma lub nazwa">Centrum Ogrodnicze Zielona Oaza sp. z o.o.</field>
     <field name="Adres siedziby">ul. Chrobrego 29/33, 62-200 Gniezno</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000004276</field>
@@ -582,11 +626,12 @@
     <field name="Data zezwolenia">20230831</field>
     <field name="Numer decyzji">DFI/758/2022</field>
     <field name="CzlonekZarzadu1_PESEL">04261494480</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_Imie">Helena</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments sp z oo</field>
+    <field name="Firma lub nazwa">Piekarnia i Cukiernia Chrupiący Rogalik sp z oo</field>
     <field name="Adres siedziby">ul Słowiańska 46, 64-100 Leszno</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000004373</field>
@@ -595,11 +640,12 @@
     <field name="Data zezwolenia">02/06/2017</field>
     <field name="Numer decyzji">DFI/341/2019</field>
     <field name="CzlonekZarzadu1_PESEL">05272195876</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
+    <field name="CzlonekZarzadu1_Imie">Stefan</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
+    <field name="Firma lub nazwa">Zakład Usług Komunalnych sp. z o. o.</field>
     <field name="Adres siedziby">ulica Gdańska 63, 83-110 Tczew</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000004470</field>
@@ -608,11 +654,12 @@
     <field name="Data zezwolenia">2020/25/10</field>
     <field name="Numer decyzji">DFI/495/2023</field>
     <field name="CzlonekZarzadu1_PESEL">60082897222</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
+    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
+    <field name="Firma lub nazwa">Polski Komfort Sp. z o.o.</field>
     <field name="Adres siedziby">Sobieskiego 80, 84-200 Wejherowo</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000004567</field>
@@ -621,11 +668,12 @@
     <field name="Data zezwolenia">11-11-2017</field>
     <field name="Numer decyzji">DFI/662/2022</field>
     <field name="CzlonekZarzadu1_PESEL">61090798615</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+    <field name="CzlonekZarzadu1_Imie">Józef</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
+    <field name="Firma lub nazwa">Kancelaria Radców Prawnych Partnerzy SP Z O O</field>
     <field name="Adres siedziby">ul. Głęboka 97/85, 43-400 Cieszyn</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000004664</field>
@@ -635,23 +683,25 @@
     <field name="Numer decyzji">DFI/578/2026</field>
     <field name="CzlonekZarzadu1_PESEL">62101499967</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments Services sp. z o.o.</field>
+    <field name="Firma lub nazwa">Centrum Dystrybucji Alkoholi spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">114, 42-500 Będzin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000004761</field>
-    <field name="NIP">1238764965</field>
+    <field name="NIP">1248685807</field>
     <field name="REGON">238844156</field>
     <field name="Data zezwolenia">20240428</field>
     <field name="Numer decyzji">DFI/725/2024</field>
     <field name="CzlonekZarzadu1_PESEL">63112101357</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_Imie">Edward</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Przedsiębiorstwo Spedycyjne Ładunek Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Królowej Jadwigi 131, 88-100 Inowrocław</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000004858</field>
@@ -660,11 +710,12 @@
     <field name="Data zezwolenia">15/05/2024</field>
     <field name="Numer decyzji">DFI/229/2026</field>
     <field name="CzlonekZarzadu1_PESEL">64122802706</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_Imie">Sabina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wasilewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Services SP Z O O</field>
+    <field name="Firma lub nazwa">Fabryka Tekstyliów Splot S.A.</field>
     <field name="Adres siedziby">Wybickiego 148, 86-300 Grudziądz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000004955</field>
@@ -673,11 +724,12 @@
     <field name="Data zezwolenia">2025/14/08</field>
     <field name="Numer decyzji">DFI/966/2018</field>
     <field name="CzlonekZarzadu1_PESEL">65010704096</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
+    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kalinowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Markets sp z oo</field>
+    <field name="Firma lub nazwa">Górnośląskie Towarzystwo Finansowe SA</field>
     <field name="Adres siedziby">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000005052</field>
@@ -687,23 +739,25 @@
     <field name="Numer decyzji">DFI/328/2019</field>
     <field name="CzlonekZarzadu1_PESEL">66021405444</field>
     <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
+    <field name="Firma lub nazwa">Krajowa Agencja Informacyjna S. A.</field>
     <field name="Adres siedziby">ul Warszawska 2, 11-500 Giżycko</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000005149</field>
     <field name="NIP">1239002536</field>
     <field name="REGON">239160916</field>
-    <field name="Data zezwolenia">2023-05-11</field>
+    <field name="Data zezwolenia">2023-11-05</field>
     <field name="Numer decyzji">DFI/290/2024</field>
     <field name="CzlonekZarzadu1_PESEL">67032106830</field>
     <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Przybylski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade sp. z o.o.</field>
+    <field name="Firma lub nazwa">Polskie Jagody Spółka Akcyjna</field>
     <field name="Adres siedziby">ulica Lubelska 19, 24-100 Puławy</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000005246</field>
@@ -713,23 +767,25 @@
     <field name="Numer decyzji">DFI/278/2021</field>
     <field name="CzlonekZarzadu1_PESEL">68042808181</field>
     <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Markets sp z oo</field>
+    <field name="Firma lub nazwa">Zielony Amber sp. z o.o.</field>
     <field name="Adres siedziby">Staszica 36, 22-400 Zamość</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000005343</field>
-    <field name="NIP">2239160910</field>
+    <field name="NIP">1239160910</field>
     <field name="REGON">239319297</field>
     <field name="Data zezwolenia">27/03/2022</field>
     <field name="Numer decyzji">DFI/936/2023</field>
     <field name="CzlonekZarzadu1_PESEL">69050709574</field>
     <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szatkowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Markets spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Zielony Bizon sp z oo</field>
     <field name="Adres siedziby">53/9, 16-300 Augustów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000005440</field>
@@ -739,10 +795,11 @@
     <field name="Numer decyzji">DFI/181/2026</field>
     <field name="CzlonekZarzadu1_PESEL">70061410924</field>
     <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">aMzovia Broker Techonlogie Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Zielony Canyon sp. z o. o.</field>
     <field name="Adres siedziby">ul Kościuszki 70, 16-400 Suwałki</field>
     <field name="Zakres czynności">zarzązdanie portfelami</field>
     <field name="KRS">0000005537</field>
@@ -752,23 +809,25 @@
     <field name="Numer decyzji">DF/574/2022</field>
     <field name="CzlonekZarzadu1_PESEL">71072112311</field>
     <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Podgórski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Technologie Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Zielony Delfin Sp. z o.o.</field>
     <field name="Adres siedziby">os. Piastowska 87, 48-300 Nysa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000005634</field>
     <field name="NIP">1239398480</field>
     <field name="REGON">239556867</field>
-    <field name="Data zezwolenia">2023-09-07</field>
+    <field name="Data zezwolenia">2023-07-09</field>
     <field name="Numer decyzji">DFI/474/2023</field>
     <field name="CzlonekZarzadu1_PESEL">72082813661</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Śliwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Zielony Echo SP Z O O</field>
     <field name="Adres siedziby">Długa 104, 49-300 Brzeg</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000005731</field>
@@ -778,10 +837,11 @@
     <field name="Numer decyzji">DFI/451/2019</field>
     <field name="CzlonekZarzadu1_PESEL">73090715055</field>
     <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajkowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
+    <field name="Firma lub nazwa">P.P.H.U. Zielony Falcon</field>
     <field name="Adres siedziby">ul. Rynek 121/61, 68-200 Żary</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000005828</field>
@@ -791,10 +851,11 @@
     <field name="Numer decyzji">DFI/317/2025</field>
     <field name="CzlonekZarzadu1_PESEL">74101416406</field>
     <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Zielony Gryf Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Sikorskiego 138, 66-200 Świebodzin</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000005925</field>
@@ -804,10 +865,11 @@
     <field name="Numer decyzji">DFI/831/2024</field>
     <field name="CzlonekZarzadu1_PESEL">75112117793</field>
     <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital Services spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Zielony Horyzont S.A.</field>
     <field name="Adres siedziby">ulica Armii Krajowej 155, 78-100 Kołobrzeg</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000006022</field>
@@ -816,24 +878,26 @@
     <field name="Data zezwolenia">13-05-2017</field>
     <field name="Numer decyzji">DFI/156/2017</field>
     <field name="CzlonekZarzadu1_PESEL">76122819143</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory sp z oo</field>
+    <field name="Firma lub nazwa">Zielony Ikar SA</field>
     <field name="Adres siedziby">Piłsudskiego 172, 73-110 Stargard</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000006119</field>
     <field name="NIP">1239794431</field>
     <field name="REGON">239952818</field>
-    <field name="Data zezwolenia">2017-11-08</field>
+    <field name="Data zezwolenia">2017-08-11</field>
     <field name="Numer decyzji">DFI/715/2020</field>
     <field name="CzlonekZarzadu1_PESEL">77010720534</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
+    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Zielony Jantar S. A.</field>
     <field name="Adres siedziby">ul. Mickiewicza 9/23, 27-600 Sandomierz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000006216</field>
@@ -842,11 +906,12 @@
     <field name="Data zezwolenia">20171221</field>
     <field name="Numer decyzji">DFI/954/2023</field>
     <field name="CzlonekZarzadu1_PESEL">78021421883</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
+    <field name="CzlonekZarzadu1_Imie">Marta</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Zielony Koral Spółka Akcyjna</field>
     <field name="Adres siedziby">ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000006313</field>
@@ -855,12 +920,13 @@
     <field name="Data zezwolenia">21/12/2020</field>
     <field name="Numer decyzji">DFI/775/2025</field>
     <field name="CzlonekZarzadu1_PESEL">79032123270</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
-    <field name="Adres siedziby">ulica Marszałkowska 43, 00-590 Warszawa</field>
+    <field name="Firma lub nazwa">Zielony Lotos sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Chmielna 43, 00-020 Warszawa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000006410</field>
     <field name="NIP">1240032000</field>
@@ -868,12 +934,13 @@
     <field name="Data zezwolenia">2020/18/10</field>
     <field name="Numer decyzji">DFI/940/2021</field>
     <field name="CzlonekZarzadu1_PESEL">80042824628</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_Imie">Paulina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital Spółka Akcyjna</field>
-    <field name="Adres siedziby">Krakowskie Przedmieście 60, 00-071 Warszawa</field>
+    <field name="Firma lub nazwa">Zielony Magnolia sp z oo</field>
+    <field name="Adres siedziby">Nowy Świat 60, 00-029 Warszawa</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000006507</field>
     <field name="NIP">1240111194</field>
@@ -881,12 +948,13 @@
     <field name="Data zezwolenia">26-08-2021</field>
     <field name="Numer decyzji">DFI/160/2022</field>
     <field name="CzlonekZarzadu1_PESEL">81050726012</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
-    <field name="Adres siedziby">ul. Floriańska 77/75, 31-019 Kraków</field>
+    <field name="Firma lub nazwa">Zielony Neon sp. z o. o.</field>
+    <field name="Adres siedziby">ul. os. Przyjaźń 77/75, 01-355 Warszawa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000006604</field>
     <field name="NIP">1240190383</field>
@@ -894,12 +962,13 @@
     <field name="Data zezwolenia">2018-20-09</field>
     <field name="Numer decyzji">DFI/624/2025</field>
     <field name="CzlonekZarzadu1_PESEL">82061427361</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply Polska Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Długa 94, 31-147 Kraków</field>
+    <field name="Firma lub nazwa">Zielony Oaza Sp. z o.o.</field>
+    <field name="Adres siedziby">ul Jagiellońska 94, 05-120 Legionowo</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000006701</field>
     <field name="NIP">1240269570</field>
@@ -907,12 +976,13 @@
     <field name="Data zezwolenia">20251017</field>
     <field name="Numer decyzji">DFI/589/2026</field>
     <field name="CzlonekZarzadu1_PESEL">83072128757</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
+    <field name="CzlonekZarzadu1_Imie">Dawid</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Markets spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Piotrkowska 111, 90-102 Łódź</field>
+    <field name="Firma lub nazwa">Zielony Pegaz SP Z O O</field>
+    <field name="Adres siedziby">ulica Piłsudskiego 111, 05-270 Marki</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000006798</field>
     <field name="NIP">1240348766</field>
@@ -920,12 +990,13 @@
     <field name="Data zezwolenia">2021-11-18T05:05:25Z</field>
     <field name="Numer decyzji">DFI/989/2023</field>
     <field name="CzlonekZarzadu1_PESEL">84082830100</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Dorota</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Markets sp. z o.o.</field>
-    <field name="Adres siedziby">Zachodnia 128, 90-402 Łódź</field>
+    <field name="Firma lub nazwa">Zielony Rubin spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Andriollego 128, 05-400 Otwock</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000006895</field>
     <field name="NIP">1240427951</field>
@@ -933,12 +1004,13 @@
     <field name="Data zezwolenia">2019/11/01</field>
     <field name="Numer decyzji">DFI/513/2023</field>
     <field name="CzlonekZarzadu1_PESEL">85090731494</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
+    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Świdnicka 145/37, 50-066 Wrocław</field>
+    <field name="Firma lub nazwa">Zielony Szafir Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Żeromskiego 145/37, 26-600 Radom</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000006992</field>
     <field name="NIP">1240507147</field>
@@ -947,11 +1019,12 @@
     <field name="Numer decyzji">DFI/565/2020</field>
     <field name="CzlonekZarzadu1_PESEL">60021406849</field>
     <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest sp z oo</field>
-    <field name="Adres siedziby">ul Legnicka 162, 54-203 Wrocław</field>
+    <field name="Firma lub nazwa">Zielony Tytan S.A.</field>
+    <field name="Adres siedziby">ul Tumska 162, 09-402 Płock</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000007089</field>
     <field name="NIP">1240586336</field>
@@ -960,24 +1033,26 @@
     <field name="Numer decyzji">DFI/830/2022</field>
     <field name="CzlonekZarzadu1_PESEL">61032108236</field>
     <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
     <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Finanse sp z oo</field>
-    <field name="Adres siedziby">ulica Święty Marcin 179, 61-806 Poznań</field>
+    <field name="Firma lub nazwa">Zielony Uran SA</field>
+    <field name="Adres siedziby">ulica Karmelicka 179, 31-128 Kraków</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007186</field>
     <field name="NIP">1240665521</field>
-    <field name="REGON">340903093</field>
+    <field name="REGON">250823937</field>
     <field name="Data zezwolenia">20230115</field>
     <field name="Numer decyzji">DFI/832/2020</field>
     <field name="CzlonekZarzadu1_PESEL">62042809586</field>
     <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
     <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">Głogowska 16, 60-734 Poznań</field>
+    <field name="Firma lub nazwa">Zielony Wektor S. A.</field>
+    <field name="Adres siedziby">os. Na Stoku 16, 31-704 Kraków</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007283</field>
     <field name="NIP">1240744717</field>
@@ -986,11 +1061,12 @@
     <field name="Numer decyzji">DFI/322/2024</field>
     <field name="CzlonekZarzadu1_PESEL">63050710972</field>
     <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest SP Z O O</field>
-    <field name="Adres siedziby">ul. Długa 33/89, 80-831 Gdańsk</field>
+    <field name="Firma lub nazwa">Zielony Zefir Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Krupówki 33/89, 34-500 Zakopane</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007380</field>
     <field name="NIP">1240823902</field>
@@ -999,11 +1075,12 @@
     <field name="Numer decyzji">DFI/268/2019</field>
     <field name="CzlonekZarzadu1_PESEL">64061412321</field>
     <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
     <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions sp. z o.o.</field>
-    <field name="Adres siedziby">ul Grunwaldzka 50, 80-236 Gdańsk</field>
+    <field name="Firma lub nazwa">Zielony Żubr sp. z o.o.</field>
+    <field name="Adres siedziby">50, 34-600 Mordarka</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000007477</field>
     <field name="NIP">1240903096</field>
@@ -1012,11 +1089,12 @@
     <field name="Numer decyzji">DFI/791/2026</field>
     <field name="CzlonekZarzadu1_PESEL">65072113717</field>
     <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
     <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Jagiellońska 67, 70-435 Szczecin</field>
+    <field name="Firma lub nazwa">Zielony Sokół sp z oo</field>
+    <field name="Adres siedziby">ulica Galicyjska 67, 32-087 Zielonki</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007574</field>
     <field name="NIP">1240982285</field>
@@ -1025,11 +1103,12 @@
     <field name="Numer decyzji">DFI/295/2020</field>
     <field name="CzlonekZarzadu1_PESEL">66082815068</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade S.A.</field>
-    <field name="Adres siedziby">Wyszyńskiego 84, 70-200 Szczecin</field>
+    <field name="Firma lub nazwa">Zielony Orzeł sp. z o. o.</field>
+    <field name="Adres siedziby">84, 32-003 Podłęże</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000007671</field>
     <field name="NIP">1241061475</field>
@@ -1038,11 +1117,12 @@
     <field name="Numer decyzji">DFI/333/2024</field>
     <field name="CzlonekZarzadu1_PESEL">67090716451</field>
     <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
     <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Mariacka 101/51, 40-014 Katowice</field>
+    <field name="Firma lub nazwa">mBank</field>
+    <field name="Adres siedziby">ul. Wałowa 101/51, 33-100 Tarnów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000007768</field>
     <field name="NIP">1241140660</field>
@@ -1051,50 +1131,54 @@
     <field name="Numer decyzji">DFI/462/2020</field>
     <field name="CzlonekZarzadu1_PESEL">68101417802</field>
     <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
     <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics Polska Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Warszawska 118, 40-009 Katowice</field>
+    <field name="Firma lub nazwa">Zielony Barycz SP Z O O</field>
+    <field name="Adres siedziby">ul Narutowicza 118, 90-135 Łódź</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000007865</field>
     <field name="NIP">1241219858</field>
-    <field name="REGON">241457425</field>
+    <field name="REGON">251378267</field>
     <field name="Data zezwolenia">2022/16/04</field>
     <field name="Numer decyzji">DFI/906/2018</field>
     <field name="CzlonekZarzadu1_PESEL">69112119190</field>
     <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade sp z oo</field>
-    <field name="Adres siedziby">ulica Krakowskie Przedmieście 135, 20-002 Lublin</field>
+    <field name="Firma lub nazwa">Zielony Noteć spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica os. Retkinia 135, 94-004 Łódź</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
-    <field name="KRS">000000796</field>
+    <field name="KRS">0000007962</field>
     <field name="NIP">1241299047</field>
     <field name="REGON">241457425</field>
     <field name="Data zezwolenia">01-12-2022</field>
     <field name="Numer decyzji">DFI/144/2022</field>
     <field name="CzlonekZarzadu1_PESEL">70122820541</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
     <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">Dworcowa 112, 85-009</field>
+    <field name="Firma lub nazwa">Zielony Pilica Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">112, 16-030</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000008059</field>
     <field name="NIP">1241378232</field>
     <field name="REGON">241536610</field>
-    <field name="Data zezwolenia">2025-10-07</field>
+    <field name="Data zezwolenia">2025-07-10</field>
     <field name="Numer decyzji">DFI/112/2021</field>
     <field name="CzlonekZarzadu1_PESEL">71010721939</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
     <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions SP Z O O</field>
-    <field name="Adres siedziby">ul. Lipowa 169/13, 15-424 Białystok</field>
+    <field name="Firma lub nazwa">Zielony Narew S.A.</field>
+    <field name="Adres siedziby">ul. Długa 169/13, 95-100 Zgierz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000008156</field>
     <field name="NIP">1241457428</field>
@@ -1102,12 +1186,13 @@
     <field name="Data zezwolenia">20240325</field>
     <field name="Numer decyzji">DFI/231/2017</field>
     <field name="CzlonekZarzadu1_PESEL">72021423289</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Imie">Marta</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Finanse spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Sienkiewicza 6, 15-092 Białystok</field>
+    <field name="Firma lub nazwa">Zielony Jodełka SA</field>
+    <field name="Adres siedziby">ul Rynek 6, 50-101 Wrocław</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008253</field>
     <field name="NIP">1241536613</field>
@@ -1115,12 +1200,13 @@
     <field name="Data zezwolenia">22/08/2024</field>
     <field name="Numer decyzji">DFI/775/2023</field>
     <field name="CzlonekZarzadu1_PESEL">73032124675</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
     <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Technologie SP Z O O</field>
-    <field name="Adres siedziby">ulica Gdańska 23, 85-005 Bydgoszcz</field>
+    <field name="Firma lub nazwa">Zielony Kaktus S. A.</field>
+    <field name="Adres siedziby">ulica Jedności Narodowej 23, 50-260 Wrocław</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000008350</field>
     <field name="NIP">1241615809</field>
@@ -1128,51 +1214,55 @@
     <field name="Data zezwolenia">2021/19/08</field>
     <field name="Numer decyzji">DFI/103/2026</field>
     <field name="CzlonekZarzadu1_PESEL">74042826025</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Imie">Paulina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
     <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply Holding S.A.</field>
-    <field name="Adres siedziby">os. Dworcowa 40, 85-009 Bydgoszcz</field>
+    <field name="Firma lub nazwa">Zielony Szmaragd Spółka Akcyjna</field>
+    <field name="Adres siedziby">os. Konstytucji 3 Maja 40, 58-540 Karpacz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008447</field>
-    <field name="NIP"></field>
+    <field name="NIP">1241694996</field>
     <field name="REGON">241853374</field>
     <field name="Data zezwolenia">17-08-2025</field>
     <field name="Numer decyzji">DFI/506/2026</field>
     <field name="CzlonekZarzadu1_PESEL">75050727418</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital SP Z O O</field>
-    <field name="Adres siedziby">ul. Szeroka 57/65, 87-100 Toruń</field>
+    <field name="Firma lub nazwa">Zielony Topaz sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Odrodzenia 57/65, 59-300 Lubin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000008544</field>
-    <field name="NIP">1241774181</field>
-    <field name="REGON">242090949</field>
+    <field name="NIP"></field>
+    <field name="REGON">251932597</field>
     <field name="Data zezwolenia">2020-26-11</field>
     <field name="Numer decyzji">DFI/149/2021</field>
     <field name="CzlonekZarzadu1_PESEL">76061428767</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
     <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Finanse S.A.</field>
-    <field name="Adres siedziby">ul Chełmińska 74, 87-100 Toruń</field>
+    <field name="Firma lub nazwa">Zielony Granit sp z oo</field>
+    <field name="Adres siedziby">ul Słowackiego 74, 58-300 Wałbrzych</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008641</field>
     <field name="NIP">1241853377</field>
-    <field name="REGON">242090949</field>
+    <field name="REGON">252011787</field>
     <field name="Data zezwolenia">20190513</field>
     <field name="Numer decyzji">DFI/199/2022</field>
     <field name="CzlonekZarzadu1_PESEL">77072130157</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Imie">Dawid</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
     <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply SP Z O O</field>
-    <field name="Adres siedziby">ulica 3 Maja 91, 35-030 Rzeszów</field>
+    <field name="Firma lub nazwa">Zielony Marmur sp. z o. o.</field>
+    <field name="Adres siedziby">ulica Półwiejska 91, 61-888 Poznań</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008738</field>
     <field name="NIP">1241932562</field>
@@ -1180,12 +1270,13 @@
     <field name="Data zezwolenia">27/11/2024</field>
     <field name="Numer decyzji">DFI/870/2020</field>
     <field name="CzlonekZarzadu1_PESEL">78082831506</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Imie">Dorota</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest Spółka Akcyjna</field>
-    <field name="Adres siedziby">Piłsudskiego 108, 35-074 Rzeszów</field>
+    <field name="Firma lub nazwa">Zielony Syrena Sp. z o.o.</field>
+    <field name="Adres siedziby">os. Bolesława Chrobrego 108, 60-681 Poznań</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008835</field>
     <field name="NIP">1242011752</field>
@@ -1193,12 +1284,13 @@
     <field name="Data zezwolenia">2023/13/10</field>
     <field name="Numer decyzji">DFI/121/2020</field>
     <field name="CzlonekZarzadu1_PESEL">79090732890</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
     <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Services S.A.</field>
-    <field name="Adres siedziby">ul. Sienkiewicza 125/27, 25-007 Kielce</field>
+    <field name="Firma lub nazwa">Zielony Zodiak SP Z O O</field>
+    <field name="Adres siedziby">ul. Główny Rynek 125/27, 62-800 Kalisz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000008932</field>
     <field name="NIP">1242090941</field>
@@ -1206,25 +1298,27 @@
     <field name="Data zezwolenia">03-08-2021</field>
     <field name="Numer decyzji">DFI/382/2020</field>
     <field name="CzlonekZarzadu1_PESEL">80101434241</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
+    <field name="CzlonekZarzadu1_Imie">Beata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
     <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets sp z oo</field>
-    <field name="Adres siedziby">ul Warszawska 142, 25-512 Kielce</field>
+    <field name="Firma lub nazwa">Zielony Olimp spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Kaliska 142, 63-400 Ostrów Wielkopolski</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000009029</field>
     <field name="NIP">1242170137</field>
     <field name="REGON">242328517</field>
-    <field name="Data zezwolenia">2024-06-01</field>
+    <field name="Data zezwolenia">2024-01-06</field>
     <field name="Numer decyzji">DFI/542/2026</field>
     <field name="CzlonekZarzadu1_PESEL">81112135637</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
+    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics Polska S.A.</field>
-    <field name="Adres siedziby">ulica Kościuszki 159, 10-504 Olsztyn</field>
+    <field name="Firma lub nazwa">Zielony Zorza Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Ogarna 159, 80-826 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000009126</field>
     <field name="NIP">1242249324</field>
@@ -1232,25 +1326,27 @@
     <field name="Data zezwolenia">20210207</field>
     <field name="Numer decyzji">DFI/765/2022</field>
     <field name="CzlonekZarzadu1_PESEL">82122836987</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
+    <field name="CzlonekZarzadu1_Imie">Urszula</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
     <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">Dąbrowszczaków 176, 10-540 Olsztyn</field>
+    <field name="Firma lub nazwa">Zielony Krokus S.A.</field>
+    <field name="Adres siedziby">os. Jasień 176, 80-180 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000009223</field>
-    <field name="NIP">1242407705</field>
-    <field name="REGON">242566085</field>
+    <field name="NIP">1252328545</field>
+    <field name="REGON">252486929</field>
     <field name="Data zezwolenia">30/11/2023</field>
     <field name="Numer decyzji">DFI/559/2021</field>
     <field name="CzlonekZarzadu1_PESEL">83010738376</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
+    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
     <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
-    <field name="Adres siedziby">ul. Krakowska 13/79, 45-018 Opole</field>
+    <field name="Firma lub nazwa">Zielony Narcyz SA</field>
+    <field name="Adres siedziby">ul. Bohaterów Monte Cassino 13/79, 81-759 Sopot</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000009320</field>
     <field name="NIP">1242407705</field>
@@ -1258,12 +1354,13 @@
     <field name="Data zezwolenia">2025/17/08</field>
     <field name="Numer decyzji">DFI/762/2026</field>
     <field name="CzlonekZarzadu1_PESEL">84021439724</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
+    <field name="CzlonekZarzadu1_Imie">Izabela</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
-    <field name="Adres siedziby">ul Ozimska 30, 45-057 Opole</field>
+    <field name="Firma lub nazwa">Zielony Giewont S. A.</field>
+    <field name="Adres siedziby">30, 80-209 Chwaszczyno</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000009417</field>
     <field name="NIP">1242486892</field>
@@ -1271,25 +1368,27 @@
     <field name="Data zezwolenia">04-01-2023</field>
     <field name="Numer decyzji">DFI/153/2017</field>
     <field name="CzlonekZarzadu1_PESEL">85032141114</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
+    <field name="CzlonekZarzadu1_Imie">Henryk</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
     <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
-    <field name="Adres siedziby">ulica Bohaterów Westerplatte 47, 65-034 Zielona Góra</field>
+    <field name="Firma lub nazwa">Zielony Rysy Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica 3 Maja 47, 40-096 Katowice</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000009514</field>
     <field name="NIP">1242566088</field>
     <field name="REGON">242724466</field>
-    <field name="Data zezwolenia">2023-04-07</field>
+    <field name="Data zezwolenia">2023-07-04</field>
     <field name="Numer decyzji">DFI/360/2018</field>
     <field name="CzlonekZarzadu1_PESEL">86042842464</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
+    <field name="CzlonekZarzadu1_Imie">Weronika</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
     <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
-    <field name="Adres siedziby">Kupiecka 64, 65-058 Zielona Góra</field>
+    <field name="Firma lub nazwa">Zielony Kasprowy sp. z o.o.</field>
+    <field name="Adres siedziby">os. Paderewskiego 64, 40-282 Katowice</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000009611</field>
     <field name="NIP">1242645273</field>
@@ -1297,12 +1396,13 @@
     <field name="Data zezwolenia">20210107</field>
     <field name="Numer decyzji">DFI/548/2025</field>
     <field name="CzlonekZarzadu1_PESEL">87050743857</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
+    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
     <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Świętojańska 81/41, 81-372 Gdynia</field>
+    <field name="Firma lub nazwa">PPHU Zielony Beskid</field>
+    <field name="Adres siedziby">ul. Zwycięstwa 81/41, 44-100 Gliwice</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000009708</field>
     <field name="NIP">1242724469</field>
@@ -1310,12 +1410,13 @@
     <field name="Data zezwolenia">21/04/2021</field>
     <field name="Numer decyzji">DFI/466/2021</field>
     <field name="CzlonekZarzadu1_PESEL">88061445206</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
     <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
-    <field name="Adres siedziby">ul Dąbrowskiego 58</field>
+    <field name="Firma lub nazwa">Zielony Bieszczady sp. z o. o.</field>
+    <field name="Adres siedziby">ul Krakowskie Przedmieście 58</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000009805</field>
     <field name="NIP">1242803654</field>
@@ -1323,12 +1424,13 @@
     <field name="Data zezwolenia">2023/09/06</field>
     <field name="Numer decyzji">DFI/791/2018</field>
     <field name="CzlonekZarzadu1_PESEL">89072146593</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
+    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
     <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
-    <field name="Adres siedziby">ulica Bolesława Prusa 115, 05-800 Pruszków</field>
+    <field name="Firma lub nazwa">Zielony Karpaty Sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000009902</field>
     <field name="NIP">1242882843</field>
@@ -1336,38 +1438,41 @@
     <field name="Data zezwolenia">05-02-2022</field>
     <field name="Numer decyzji">DFI/971/2019</field>
     <field name="CzlonekZarzadu1_PESEL">70042873944</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_Imie">Agata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest Services sp z oo</field>
-    <field name="Adres siedziby">Kościuszki 132, 05-500 Piaseczno</field>
+    <field name="Firma lub nazwa">Zielony Bałtyk SP Z O O</field>
+    <field name="Adres siedziby">11 Listopada 132, 43-300 Bielsko-Biała</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000009999</field>
     <field name="NIP">1242962039</field>
     <field name="REGON">243120411</field>
-    <field name="Data zezwolenia">2018-10-06</field>
+    <field name="Data zezwolenia">2018-06-10</field>
     <field name="Numer decyzji">DFI/933/2018</field>
     <field name="CzlonekZarzadu1_PESEL">71050775338</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
+    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services Technologie sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Sienkiewicza 149/3, 32-020 Wieliczka</field>
+    <field name="Firma lub nazwa">Zielony Sudety spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">149/3, 36-047 Niechobrz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000010096</field>
-    <field name="NIP">2243041229</field>
+    <field name="NIP">1243041229</field>
     <field name="REGON">243199602</field>
     <field name="Data zezwolenia">20180123</field>
     <field name="Numer decyzji">DFI/547/2026</field>
     <field name="CzlonekZarzadu1_PESEL">72061476687</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
+    <field name="CzlonekZarzadu1_Imie">Helena</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sawicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments S.A.</field>
-    <field name="Adres siedziby">ul Dąbrowskiego 166, 32-600 Oświęcim</field>
+    <field name="Firma lub nazwa">Niebieski Amber Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul Franciszkańska 166, 37-700 Przemyśl</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000010193</field>
     <field name="NIP">1243120414</field>
@@ -1375,25 +1480,27 @@
     <field name="Data zezwolenia">18/08/2024</field>
     <field name="Numer decyzji">DFI/576/2026</field>
     <field name="CzlonekZarzadu1_PESEL">73072178074</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_Imie">Stefan</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dudek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Holding spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Rynek 3, 38-400 Krosno</field>
+    <field name="Firma lub nazwa">Niebieski Bizon S.A.</field>
+    <field name="Adres siedziby">ulica Kościuszki 3, 38-500 Sanok</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000010290</field>
     <field name="NIP">1243199605</field>
-    <field name="REGON"></field>
+    <field name="REGON">243357981</field>
     <field name="Data zezwolenia">2020/18/01</field>
     <field name="Numer decyzji">DFI/532/2023</field>
     <field name="CzlonekZarzadu1_PESEL">74082879423</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply sp. z o.o.</field>
-    <field name="Adres siedziby">Mickiewicza 20, 39-300 Mielec</field>
+    <field name="Firma lub nazwa">Nibeieski Canyon SA</field>
+    <field name="Adres siedziby">Suraska 20, 15-422 Białystok</field>
     <field name="Zakres czynności">wykonywaine zleceń na rachunek klientów</field>
     <field name="KRS">0000010387</field>
     <field name="NIP">1243278799</field>
@@ -1401,38 +1508,41 @@
     <field name="Data zezwolenia">12-11-2024</field>
     <field name="Numer decyzji">FD/168/2020</field>
     <field name="CzlonekZarzadu1_PESEL">75090780819</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_Imie">Józef</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawłowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Długa 37/55, 58-100 Świdnica</field>
+    <field name="Firma lub nazwa">Niebieski Delfin S. A.</field>
+    <field name="Adres siedziby">37/55, 16-030 Ogrodniczki</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000010484</field>
     <field name="NIP">1243357984</field>
     <field name="REGON">243516362</field>
-    <field name="Data zezwolenia">2018-04-03</field>
+    <field name="Data zezwolenia">2018-03-04</field>
     <field name="Numer decyzji">DFI/701/2021</field>
     <field name="CzlonekZarzadu1_PESEL">76101482162</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker Markets Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Wojska Polskiego 54, 57-300 Kłodzko</field>
+    <field name="Firma lub nazwa">Niebieski Echo Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul 3 Maja 54, 17-200 Hajnówka</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000010581</field>
-    <field name="NIP">1243516365</field>
+    <field name="NIP">1253437207</field>
     <field name="REGON">243595551</field>
     <field name="Data zezwolenia">20200814</field>
     <field name="Numer decyzji">DFI/800/2021</field>
     <field name="CzlonekZarzadu1_PESEL">77112183558</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
+    <field name="CzlonekZarzadu1_Imie">Edward</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sokołowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Chrobrego 71, 62-200 Gniezno</field>
+    <field name="Firma lub nazwa">Niebieski Falcon sp. z o.o.</field>
+    <field name="Adres siedziby">ulica os. LSM 71, 20-400 Lublin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000010678</field>
     <field name="NIP">1243516365</field>
@@ -1440,12 +1550,13 @@
     <field name="Data zezwolenia">06/11/2019</field>
     <field name="Numer decyzji">DFI/616/2021</field>
     <field name="CzlonekZarzadu1_PESEL">78122884907</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Sabina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Polska Spółka Akcyjna</field>
-    <field name="Adres siedziby">Słowiańska 88, 64-100 Leszno</field>
+    <field name="Firma lub nazwa">Niebieski Gryf sp z oo</field>
+    <field name="Adres siedziby">88, 24-120 Mięćmierz</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000010775</field>
     <field name="NIP">1243595554</field>
@@ -1453,38 +1564,41 @@
     <field name="Data zezwolenia">2025/20/05</field>
     <field name="Numer decyzji">DFI/694/2021</field>
     <field name="CzlonekZarzadu1_PESEL">79010786297</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
+    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Majewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Technologie SP Z O O</field>
-    <field name="Adres siedziby">105/17, 83-110 Tczew</field>
+    <field name="Firma lub nazwa">Niebieski Horyzont sp. z o. o.</field>
+    <field name="Adres siedziby">ul. Brzeska 105/17, 21-500 Biała Podlaska</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000010872</field>
-    <field name="NIP">1243753935</field>
+    <field name="NIP">1253674775</field>
     <field name="REGON">243833128</field>
     <field name="Data zezwolenia">02-05-2022</field>
     <field name="Numer decyzji">DFI/491/2021</field>
     <field name="CzlonekZarzadu1_PESEL">80021487644</field>
     <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Olszewska-Błaszczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Spolka Akcyjna</field>
-    <field name="Adres siedziby">ul Sobieskiego 122, 84-200 Wejherowo</field>
+    <field name="Firma lub nazwa">Niebieski Ikar Sp. z o.o.</field>
+    <field name="Adres siedziby">ul Rynek Staromiejski 122, 87-100 Toruń</field>
     <field name="Zakres czynności">wykonywanie zlecen na rachunek klientow</field>
     <field name="KRS">0000010969</field>
     <field name="NIP">1243753935</field>
     <field name="REGON">243912313</field>
-    <field name="Data zezwolenia">2017-03-01</field>
+    <field name="Data zezwolenia">2017-01-03</field>
     <field name="Numer decyzji">DFI/675/2019</field>
     <field name="CzlonekZarzadu1_PESEL">81032189031</field>
     <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jaworski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments Holding sp z oo</field>
-    <field name="Adres siedziby">ulica Głęboka 139, 43-400 Cieszyn</field>
+    <field name="Firma lub nazwa">Niebieski Jantar SP Z O O</field>
+    <field name="Adres siedziby">ulica Mostowa 139, 85-110 Bydgoszcz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS"></field>
     <field name="NIP">1243833120</field>
@@ -1493,11 +1607,12 @@
     <field name="Numer decyzji">DFI/362/2023</field>
     <field name="CzlonekZarzadu1_PESEL">82042890384</field>
     <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Malinowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Markets SP Z O O</field>
-    <field name="Adres siedziby">Małachowskiego 156, 42-500 Będzin</field>
+    <field name="Firma lub nazwa">Niebieski Koral spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Stare Miasto 156, 10-026 Olsztyn</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000011163</field>
     <field name="NIP">1243912316</field>
@@ -1506,11 +1621,12 @@
     <field name="Numer decyzji">DFI/632/2026</field>
     <field name="CzlonekZarzadu1_PESEL">83050791777</field>
     <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets Spółka Akcyjna</field>
-    <field name="Adres siedziby">os. Królowej Jadwigi 173/69, 88-100 Inowrocław</field>
+    <field name="Firma lub nazwa">Niebieski Lotos Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">os. Warszawska 173/69, 11-700 Mrągowo</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000011260</field>
     <field name="NIP">1243991505</field>
@@ -1519,11 +1635,12 @@
     <field name="Numer decyzji">DFI/122/2017</field>
     <field name="CzlonekZarzadu1_PESEL">84061493126</field>
     <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szczepańska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Wybickiego 10, 86-300 Grudziądz</field>
+    <field name="Firma lub nazwa">Niebieski Magnolia S.A.</field>
+    <field name="Adres siedziby">ul Wojska Polskiego 10, 70-470 Szczecin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000011357</field>
     <field name="NIP">1244070693</field>
@@ -1532,11 +1649,12 @@
     <field name="Numer decyzji">DFI/428/2019</field>
     <field name="CzlonekZarzadu1_PESEL">85072194512</field>
     <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czerwiński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets S.A.</field>
-    <field name="Adres siedziby">ulica Czarnieckiego 27, 14-100 Ostróda</field>
+    <field name="Firma lub nazwa">Niebieski Neon SA</field>
+    <field name="Adres siedziby">ulica Monte Cassino 27, 72-600 Świnoujście</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000011454</field>
     <field name="NIP">1244149880</field>
@@ -1545,11 +1663,12 @@
     <field name="Numer decyzji">DFI/548/2022</field>
     <field name="CzlonekZarzadu1_PESEL">86082895862</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Dta Spółka Akcyjna</field>
-    <field name="Adres siedziby">Kościuszki 4, Suwałki</field>
+    <field name="Firma lub nazwa">Niebieski Oaza S. A.</field>
+    <field name="Adres siedziby">Sienkiewicza 4, Białystok</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000011551</field>
     <field name="NIP">1244229076</field>
@@ -1558,11 +1677,12 @@
     <field name="Numer decyzji">DFI/806/2020</field>
     <field name="CzlonekZarzadu1_PESEL">87090797256</field>
     <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital S.A.</field>
-    <field name="Adres siedziby">ul. Lubelska 61/31, 24-100 Puławy</field>
+    <field name="Firma lub nazwa">X - Twitter</field>
+    <field name="Adres siedziby">ul. Byczyńska 61/31, 46-200 Kluczbork</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000011648</field>
     <field name="NIP">1244308261</field>
@@ -1571,11 +1691,12 @@
     <field name="Numer decyzji">DFI/895/2021</field>
     <field name="CzlonekZarzadu1_PESEL">88101498607</field>
     <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wysocka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics Holding S.A.</field>
-    <field name="Adres siedziby">ul Staszica 78, 22-400 Zamość</field>
+    <field name="Firma lub nazwa">Niebieski Rubin sp. z o.o.</field>
+    <field name="Adres siedziby">ul Chrobrego 78, 66-400 Gorzów Wielkopolski</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000011745</field>
     <field name="NIP">1244387450</field>
@@ -1584,11 +1705,12 @@
     <field name="Numer decyzji">DFI/540/2021</field>
     <field name="CzlonekZarzadu1_PESEL">89112199994</field>
     <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Chmielewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
-    <field name="Adres siedziby">ulica 3 Maja 95, 16-300 Augustów</field>
+    <field name="Firma lub nazwa">Niebieski Szafir sp z oo</field>
+    <field name="Adres siedziby">ulica 30 Stycznia 95, 66-300 Międzyrzecz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000011842</field>
     <field name="NIP">1244466646</field>
@@ -1596,51 +1718,55 @@
     <field name="Data zezwolenia">30-06-2017</field>
     <field name="Numer decyzji">DFI/925/2020</field>
     <field name="CzlonekZarzadu1_PESEL">90122801346</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Urbańska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics Spółka Akcyjna</field>
-    <field name="Adres siedziby">Kościuszki 112, 16-400 Suwałki</field>
+    <field name="Firma lub nazwa">Niebieski Tytan sp. z o. o.</field>
+    <field name="Adres siedziby">Paderewskiego 112, 25-004 Kielce</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000011939</field>
     <field name="NIP">1244545831</field>
-    <field name="REGON">244783409</field>
+    <field name="REGON">254704247</field>
     <field name="Data zezwolenia">2024-28-12</field>
     <field name="Numer decyzji">DFI/439/2025</field>
     <field name="CzlonekZarzadu1_PESEL">91010702734</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance Markets Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Piastowska 129/83, 48-300 Nysa</field>
+    <field name="Firma lub nazwa">Niebieski Uran Sp. z o.o.</field>
+    <field name="Adres siedziby">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000012036</field>
     <field name="NIP">1244625027</field>
-    <field name="REGON">344783409</field>
+    <field name="REGON">244783409</field>
     <field name="Data zezwolenia">20200817</field>
     <field name="Numer decyzji">DFI/490/2024</field>
     <field name="CzlonekZarzadu1_PESEL">92021404084</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_Imie">Marta</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest S.A.</field>
-    <field name="Adres siedziby">ul Długa 146, 49-300 Brzeg</field>
+    <field name="Firma lub nazwa">Niebieski Wektor SP Z O O</field>
+    <field name="Adres siedziby">ul Marszałkowska 146, 00-590 Warszawa</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000012133</field>
     <field name="NIP">1244704212</field>
-    <field name="REGON">244862592</field>
+    <field name="REGON"></field>
     <field name="Data zezwolenia">09/09/2021</field>
     <field name="Numer decyzji">DFI/132/2021</field>
     <field name="CzlonekZarzadu1_PESEL">93032105470</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
+    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest Polska spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">163, 68-200 Żary</field>
+    <field name="Firma lub nazwa">Niebieski Zefir spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Krakowskie Przedmieście 163, 00-071 Warszawa</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000012230</field>
     <field name="NIP">1244783401</field>
@@ -1648,12 +1774,13 @@
     <field name="Data zezwolenia">2025/02/02</field>
     <field name="Numer decyzji">DFI/833/2026</field>
     <field name="CzlonekZarzadu1_PESEL">94042806829</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
+    <field name="CzlonekZarzadu1_Imie">Paulina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest SP Z O O</field>
-    <field name="Adres siedziby">Sikorskiego 180, 66-200 Świebodzin</field>
+    <field name="Firma lub nazwa">Niebieski Żubr Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Floriańska 180, 31-019 Kraków</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000012327</field>
     <field name="NIP">1244862595</field>
@@ -1661,12 +1788,13 @@
     <field name="Data zezwolenia">11-09-2018</field>
     <field name="Numer decyzji">DFI/985/2026</field>
     <field name="CzlonekZarzadu1_PESEL">95050708213</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Armii Krajowej 17/45, 78-100 Kołobrzeg</field>
+    <field name="Firma lub nazwa">Niebieski Sokół S.A.</field>
+    <field name="Adres siedziby">ul. Długa 17/45, 31-147 Kraków</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000012424</field>
     <field name="NIP">1244941780</field>
@@ -1674,12 +1802,13 @@
     <field name="Data zezwolenia">2021-29-01</field>
     <field name="Numer decyzji">DFI/126/2026</field>
     <field name="CzlonekZarzadu1_PESEL">96061409562</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
+    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Piłsudskiego 34, 73-110 Stargard</field>
+    <field name="Firma lub nazwa">Niebieski Orzeł SA</field>
+    <field name="Adres siedziby">ul Piotrkowska 34, 90-102 Łódź</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000012521</field>
     <field name="NIP">1245020970</field>
@@ -1687,38 +1816,41 @@
     <field name="Data zezwolenia">20220731</field>
     <field name="Numer decyzji">DFI/191/2024</field>
     <field name="CzlonekZarzadu1_PESEL">97072110951</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_Imie">Dawid</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Laskowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ulica Mickiewicza 51, 27-600 Sandomierz</field>
+    <field name="Firma lub nazwa">Niebieski Kormoran S. A.</field>
+    <field name="Adres siedziby">ulica Zachodnia 51, 90-402 Łódź</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000012618</field>
     <field name="NIP">1245100166</field>
-    <field name="REGON">245337735</field>
+    <field name="REGON">255258577</field>
     <field name="Data zezwolenia">15/04/2023</field>
     <field name="Numer decyzji">DFI/719/2022</field>
     <field name="CzlonekZarzadu1_PESEL">98082812301</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_Imie">Dorota</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazurek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
-    <field name="Adres siedziby">Sienkiewicza 68, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Firma lub nazwa">Niebieski Barycz Spółka Akcyjna</field>
+    <field name="Adres siedziby">Świdnicka 68, 50-066 Wrocław</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
-    <field name="KRS">000001271</field>
+    <field name="KRS">0000012715</field>
     <field name="NIP">1245179357</field>
     <field name="REGON">245337735</field>
     <field name="Data zezwolenia">2025/28/08</field>
     <field name="Numer decyzji">DFI/152/2021</field>
     <field name="CzlonekZarzadu1_PESEL">99090713695</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
+    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sobczak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest sp z oo</field>
-    <field name="Adres siedziby">ul. Marszałkowska 85/7, 00-590 Warszawa</field>
+    <field name="Firma lub nazwa">Niebieski Noteć sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Legnicka 85/7, 54-203 Wrocław</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000012812</field>
     <field name="NIP">1245258542</field>
@@ -1726,25 +1858,27 @@
     <field name="Data zezwolenia">30-10-2022</field>
     <field name="Numer decyzji">DFI/828/2020</field>
     <field name="CzlonekZarzadu1_PESEL">00301415042</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
+    <field name="CzlonekZarzadu1_Imie">Beata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Konieczna</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply S.A.</field>
-    <field name="Adres siedziby">ul Krakowskie Przedmieście 102, 00-071 Warszawa</field>
+    <field name="Firma lub nazwa">Niebieski Pilica sp z oo</field>
+    <field name="Adres siedziby">ul Święty Marcin 102, 61-806 Poznań</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000012909</field>
     <field name="NIP">1245337738</field>
-    <field name="REGON">245575305</field>
+    <field name="REGON">255496147</field>
     <field name="Data zezwolenia">2017-31-01</field>
     <field name="Numer decyzji">DFI/381/2021</field>
     <field name="CzlonekZarzadu1_PESEL">01312116438</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Brzeziński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade sp z oo</field>
-    <field name="Adres siedziby">ulica Floriańska 119, 31-019 Kraków</field>
+    <field name="Firma lub nazwa">Niebieski Narew sp. z o. o.</field>
+    <field name="Adres siedziby">ulica Głogowska 119, 60-734 Poznań</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000013006</field>
     <field name="NIP">1245416923</field>
@@ -1752,12 +1886,13 @@
     <field name="Data zezwolenia">20201220</field>
     <field name="Numer decyzji">DFI/427/2020</field>
     <field name="CzlonekZarzadu1_PESEL">02322817788</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_Imie">Urszula</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Makowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
-    <field name="Adres siedziby">Długa 136, 31-147 Kraków</field>
+    <field name="Firma lub nazwa">Niebieski Jodełka Sp. z o.o.</field>
+    <field name="Adres siedziby">Długa 136, 80-831 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000013103</field>
     <field name="NIP">1245496112</field>
@@ -1765,12 +1900,13 @@
     <field name="Data zezwolenia">28/09/2019</field>
     <field name="Numer decyzji">DFI/521/2025</field>
     <field name="CzlonekZarzadu1_PESEL">03210719177</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
-    <field name="Adres siedziby">ul. Piotrkowska 153/59, 90-102 Łódź</field>
+    <field name="Firma lub nazwa">Niebieski Kaktus SP Z O O</field>
+    <field name="Adres siedziby">ul. Grunwaldzka 153/59, 80-236 Gdańsk</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000013200</field>
     <field name="NIP">1245575308</field>
@@ -1778,25 +1914,27 @@
     <field name="Data zezwolenia">2023/13/11</field>
     <field name="Numer decyzji">DFI/722/2023</field>
     <field name="CzlonekZarzadu1_PESEL">04221420528</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
+    <field name="CzlonekZarzadu1_Imie">Izabela</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
-    <field name="Adres siedziby">60-734 Poznań</field>
+    <field name="Firma lub nazwa">Niebieski Szmaragd spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">05-500 Piaseczno</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000013297</field>
     <field name="NIP">1245654491</field>
-    <field name="REGON">245892069</field>
+    <field name="REGON">255812909</field>
     <field name="Data zezwolenia">16-07-2020</field>
     <field name="Numer decyzji">DFI/319/2026</field>
     <field name="CzlonekZarzadu1_PESEL">05232121914</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
+    <field name="CzlonekZarzadu1_Imie">Henryk</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kucharski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Świdnicka 7, 50-066 Wrocław</field>
+    <field name="Firma lub nazwa">Niebieski Topaz Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Wyszyńskiego 7, 70-200 Szczecin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000013394</field>
     <field name="NIP">1245733687</field>
@@ -1804,12 +1942,13 @@
     <field name="Data zezwolenia">2019-27-01</field>
     <field name="Numer decyzji">DFI/909/2026</field>
     <field name="CzlonekZarzadu1_PESEL">60042823261</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_Imie">Weronika</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lisowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
-    <field name="Adres siedziby">Legnicka 24, 54-203 Wrocław</field>
+    <field name="Firma lub nazwa">Niebieski Granit S.A.</field>
+    <field name="Adres siedziby">Mariacka 24, 40-014 Katowice</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000013491</field>
     <field name="NIP">1245812872</field>
@@ -1817,12 +1956,13 @@
     <field name="Data zezwolenia">20190101</field>
     <field name="Numer decyzji">DFI/304/2022</field>
     <field name="CzlonekZarzadu1_PESEL">61050724654</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
+    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Święty Marcin 41/21, 61-806 Poznań</field>
+    <field name="Firma lub nazwa">P.P.H.U. Niebieski Marmur</field>
+    <field name="Adres siedziby">ul. Warszawska 41/21, 40-009 Katowice</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000013588</field>
     <field name="NIP">1245892061</field>
@@ -1830,12 +1970,13 @@
     <field name="Data zezwolenia">03/04/2023</field>
     <field name="Numer decyzji">DFI/662/2020</field>
     <field name="CzlonekZarzadu1_PESEL">62061426003</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Głogowska 58, 60-734 Poznań</field>
+    <field name="Firma lub nazwa">Niebieski Syrena S. A.</field>
+    <field name="Adres siedziby">ul Krakowskie Przedmieście 58, 20-002 Lublin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000013685</field>
     <field name="NIP">1245971257</field>
@@ -1843,12 +1984,13 @@
     <field name="Data zezwolenia">2017/29/11</field>
     <field name="Numer decyzji">DFI/522/2023</field>
     <field name="CzlonekZarzadu1_PESEL">63072127390</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments Spółka Akcyjna</field>
-    <field name="Adres siedziby">ulica Długa 75, 80-831 Gdańsk</field>
+    <field name="Firma lub nazwa">Niebieski Zodiak Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Narutowicza 75, 20-004 Lublin</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000013782</field>
     <field name="NIP">1246050447</field>
@@ -1856,38 +1998,41 @@
     <field name="Data zezwolenia">30-10-2025</field>
     <field name="Numer decyzji">DFI/372/2023</field>
     <field name="CzlonekZarzadu1_PESEL">64082828749</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_Imie">Olga</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">Grunwaldzka 92, 80-236 Gdańsk</field>
+    <field name="Firma lub nazwa">Niebieski Olimp sp. z o.o.</field>
+    <field name="Adres siedziby">Lipowa 92, 15-424 Białystok</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000013879</field>
     <field name="NIP">1246129634</field>
     <field name="REGON">246288016</field>
-    <field name="Data zezwolenia">2022-08-05</field>
+    <field name="Data zezwolenia">2022-05-08</field>
     <field name="Numer decyzji">DFI/731/2020</field>
     <field name="CzlonekZarzadu1_PESEL">65090730136</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
+    <field name="CzlonekZarzadu1_Imie">Damian</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
-    <field name="Adres siedziby">ul. Jagiellońska 109/73, 70-435 Szczecin</field>
+    <field name="Firma lub nazwa">Niebieski Zorza sp z oo</field>
+    <field name="Adres siedziby">ul. Sienkiewicza 109/73, 15-092 Białystok</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000013976</field>
-    <field name="NIP">1246288019</field>
+    <field name="NIP">1256208855</field>
     <field name="REGON">246367201</field>
     <field name="Data zezwolenia">20251006</field>
     <field name="Numer decyzji">DFI/588/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">76101431488</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
+    <field name="CzlonekZarzadu1_PESEL">66101431488</field>
+    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Technologie SP Z O O</field>
-    <field name="Adres siedziby">os. Wyszyńskiego 126, 70-200 Szczecin</field>
+    <field name="Firma lub nazwa">Niebieski Krokus sp. z o. o.</field>
+    <field name="Adres siedziby">os. Gdańska 126, 85-005 Bydgoszcz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000014073</field>
     <field name="NIP">1246288019</field>
@@ -1895,12 +2040,13 @@
     <field name="Data zezwolenia">28/09/2021</field>
     <field name="Numer decyzji">DFI/740/2018</field>
     <field name="CzlonekZarzadu1_PESEL">67112132874</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital Technologie S.A.</field>
-    <field name="Adres siedziby">ulica Mariacka 143, 40-014 Katowice</field>
+    <field name="Firma lub nazwa">Niebieski Narcyz Sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Dworcowa 143, 85-009 Bydgoszcz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000014170</field>
     <field name="NIP">1246367204</field>
@@ -1908,12 +2054,13 @@
     <field name="Data zezwolenia">2021/03/03</field>
     <field name="Numer decyzji">DFI/121/2022</field>
     <field name="CzlonekZarzadu1_PESEL">68122834224</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services SP Z O O</field>
-    <field name="Adres siedziby">Warszawska 160, 40-009 Katowice</field>
+    <field name="Firma lub nazwa">Niebieski Giewont SP Z O O</field>
+    <field name="Adres siedziby">Szeroka 160, 87-100 Toruń</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000014267</field>
     <field name="NIP">1246446398</field>
@@ -1921,12 +2068,13 @@
     <field name="Data zezwolenia">23-12-2021</field>
     <field name="Numer decyzji">DFI/364/2024</field>
     <field name="CzlonekZarzadu1_PESEL">69010735612</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_Imie">Leszek</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kacper</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments Services Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Krakowskie Przedmieście 177/35, 20-002 Lublin</field>
+    <field name="Firma lub nazwa">Niebieski Rysy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Chełmińska 177/35, 87-100 Toruń</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000014364</field>
     <field name="NIP">1246525583</field>
@@ -1934,25 +2082,27 @@
     <field name="Data zezwolenia">2021-21-03</field>
     <field name="Numer decyzji">DFI/277/2024</field>
     <field name="CzlonekZarzadu1_PESEL">70021436960</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Narutowicza 14, 20-004 Lublin</field>
+    <field name="Firma lub nazwa">Niebieski Kasprowy Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul 3 Maja 14, 35-030 Rzeszów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
-    <field name="KRS">0000014461</field>
+    <field name="KRS"></field>
     <field name="NIP">1246604779</field>
     <field name="REGON">246763150</field>
     <field name="Data zezwolenia">20200217</field>
     <field name="Numer decyzji"></field>
     <field name="CzlonekZarzadu1_PESEL">71032138357</field>
-    <field name="CzlonekZarzadu1_Imie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
+    <field name="CzlonekZarzadu1_Imie">Cezary</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wasilewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments sp z oo</field>
-    <field name="Adres siedziby">ulica Lipowa 31, 15-424 Białystok</field>
+    <field name="Firma lub nazwa">Amber Budownictwo S.A.</field>
+    <field name="Adres siedziby">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000014558</field>
     <field name="NIP">1246683968</field>
@@ -1960,12 +2110,13 @@
     <field name="Data zezwolenia">21/06/2023</field>
     <field name="Numer decyzji">DFI/877/2018</field>
     <field name="CzlonekZarzadu1_PESEL">72042839706</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Bożena</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Oliwia</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kalinowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp. z o.o.</field>
-    <field name="Adres siedziby">Sienkiewicza 48, 15-092 Białystok</field>
+    <field name="Firma lub nazwa">Amber Transport SA</field>
+    <field name="Adres siedziby">Sienkiewicza 48, 25-007 Kielce</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000014655</field>
     <field name="NIP">1246763153</field>
@@ -1973,12 +2124,13 @@
     <field name="Data zezwolenia">2019/09/11</field>
     <field name="Numer decyzji">DFI/579/2023</field>
     <field name="CzlonekZarzadu1_PESEL">73050741094</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
+    <field name="CzlonekZarzadu1_Imie">Filip</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Gdańska 65/87, 85-005 Bydgoszcz</field>
+    <field name="Firma lub nazwa">Amber Spedycja S. A.</field>
+    <field name="Adres siedziby">ul. Warszawska 65/87, 25-512 Kielce</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000014752</field>
     <field name="NIP">1246842349</field>
@@ -1986,25 +2138,27 @@
     <field name="Data zezwolenia">07-03-2018</field>
     <field name="Numer decyzji">DFI/474/2023</field>
     <field name="CzlonekZarzadu1_PESEL">74061442442</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Zuzanna</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Emilia</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Przybylska-Kowalska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech sp z oo</field>
-    <field name="Adres siedziby">ul Dworcowa 82, 85-009 Bydgoszcz</field>
+    <field name="Firma lub nazwa">Amber Logistyka Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Kościuszki 82, 10-504 Olsztyn</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000014849</field>
-    <field name="NIP">2246921534</field>
+    <field name="NIP">1246921534</field>
     <field name="REGON">247079912</field>
     <field name="Data zezwolenia">2025-20-03</field>
     <field name="Numer decyzji">DFI/570/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">75072143838</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_PESEL">85072143838</field>
+    <field name="CzlonekZarzadu1_Imie">Mikołaj</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Ignacy</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets sp z oo</field>
-    <field name="Adres siedziby">ulica Szeroka 99, 87-100 Toruń</field>
+    <field name="Firma lub nazwa">Amber Handel sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Dąbrowszczaków 99, 10-540 Olsztyn</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000014946</field>
     <field name="NIP">1247000724</field>
@@ -2012,12 +2166,13 @@
     <field name="Data zezwolenia">20231126</field>
     <field name="Numer decyzji">DFI/699/2019</field>
     <field name="CzlonekZarzadu1_PESEL">76082845189</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_Imie">Lena</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szatkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
-    <field name="Adres siedziby">Chełmińska 116, 87-100 Toruń</field>
+    <field name="Firma lub nazwa">Amber Usługi sp z oo</field>
+    <field name="Adres siedziby">Krakowska 116, 45-018 Opole</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000015043</field>
     <field name="NIP">1247079915</field>
@@ -2025,12 +2180,13 @@
     <field name="Data zezwolenia">17/11/2025</field>
     <field name="Numer decyzji">DFI/289/2021</field>
     <field name="CzlonekZarzadu1_PESEL">77090746572</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_Imie">Antoni</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Leon</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data sp z oo</field>
-    <field name="Adres siedziby">ul. 3 Maja 133/49, 35-030 Rzeszów</field>
+    <field name="Firma lub nazwa">Amber Finanse sp. z o. o.</field>
+    <field name="Adres siedziby">ul. Ozimska 133/49, 45-057 Opole</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000015140</field>
     <field name="NIP">1247159100</field>
@@ -2038,38 +2194,41 @@
     <field name="Data zezwolenia">2018/01/09</field>
     <field name="Numer decyzji">DFI/284/2025</field>
     <field name="CzlonekZarzadu1_PESEL">78101447923</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Hanna</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Dominika</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Podgórska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Helios Markets spół  ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul Piłsudskiego 150, 35-074 Rzeszów</field>
-    <field name="Zakres czynności">przyjmownai  przekazywanie zleceń</field>
+    <field name="Firma lub nazwa">Amber Doradztwo Sp. z o.o.</field>
+    <field name="Adres siedziby">ul Bohaterów Westerplatte 150, 65-034 Zielona Góra</field>
+    <field name="Zakres czynności">przyjmownai  przekazywanie zlecńe</field>
     <field name="KRS">0000015237</field>
     <field name="NIP">1247238294</field>
     <field name="REGON">247396676</field>
     <field name="Data zezwolenia">11-07-2021</field>
     <field name="Numer decyzji">DF/392/2026</field>
     <field name="CzlonekZarzadu1_PESEL">79112149310</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_Imie">Franciszek</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Śliwiński</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker sp z oo</field>
-    <field name="Adres siedziby">ulica Sienkiewicza 167, 25-007 Kielce</field>
+    <field name="Firma lub nazwa">Amber Szkolenia SP Z O O</field>
+    <field name="Adres siedziby">ulica Kupiecka 167, 65-058 Zielona Góra</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000015334</field>
-    <field name="NIP">1247396679</field>
+    <field name="NIP">1257317517</field>
     <field name="REGON">247475861</field>
-    <field name="Data zezwolenia">2024-10-09</field>
+    <field name="Data zezwolenia">2024-09-10</field>
     <field name="Numer decyzji">DFI/355/2024</field>
     <field name="CzlonekZarzadu1_PESEL">80122850662</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_Imie">Amelia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jagoda</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
-    <field name="Adres siedziby">Warszawska 4, 25-512 Kielce</field>
+    <field name="Firma lub nazwa">Amber Media spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Świętojańska 4, 81-372 Gdynia</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000015431</field>
     <field name="NIP">1247396679</field>
@@ -2077,12 +2236,13 @@
     <field name="Data zezwolenia">20181105</field>
     <field name="Numer decyzji">DFI/298/2025</field>
     <field name="CzlonekZarzadu1_PESEL">81010752051</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_Imie">Nikodem</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jerzy</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Kościuszki 21/11, 10-504 Olsztyn</field>
+    <field name="Firma lub nazwa">Facebook - Meta</field>
+    <field name="Adres siedziby">ul. 10 Lutego 21/11, 81-364 Gdynia</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000015528</field>
     <field name="NIP">1247475864</field>
@@ -2090,25 +2250,27 @@
     <field name="Data zezwolenia">19/07/2017</field>
     <field name="Numer decyzji">DFI/721/2018</field>
     <field name="CzlonekZarzadu1_PESEL">82021453409</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Quantum Services sp z oo</field>
-    <field name="Adres siedziby">ul Dąbrowszczaków 38, 10-540 Olsztyn</field>
+    <field name="Firma lub nazwa">Amber Marketing S.A.</field>
+    <field name="Adres siedziby">ul Bolesława Prusa 38, 05-800 Pruszków</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000015625</field>
-    <field name="NIP">1247634245</field>
+    <field name="NIP">1257555085</field>
     <field name="REGON">247713438</field>
     <field name="Data zezwolenia">2018/10/12</field>
     <field name="Numer decyzji">DFI/641/2023</field>
     <field name="CzlonekZarzadu1_PESEL">83032154796</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
+    <field name="CzlonekZarzadu1_Imie">Miłosz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marian</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
-    <field name="Adres siedziby">ulica Krakowska 55, 45-018 Opole</field>
+    <field name="Firma lub nazwa">Amber Druk SA</field>
+    <field name="Adres siedziby">ulica Kościuszki 55, 05-500 Piaseczno</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000015722</field>
     <field name="NIP">1247634245</field>
@@ -2116,12 +2278,13 @@
     <field name="Data zezwolenia">28-02-2021</field>
     <field name="Numer decyzji">DFI/149/2023</field>
     <field name="CzlonekZarzadu1_PESEL">84042856146</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_Imie">Agata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Services spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">Ozimska 72, 45-057 Opole</field>
+    <field name="Firma lub nazwa">Amber Informatyka S. A.</field>
+    <field name="Adres siedziby">Sienkiewicza 72, 32-020 Wieliczka</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000015819</field>
     <field name="NIP">1247713430</field>
@@ -2129,38 +2292,41 @@
     <field name="Data zezwolenia">2022-27-08</field>
     <field name="Numer decyzji">DFI/897/2022</field>
     <field name="CzlonekZarzadu1_PESEL">85050757539</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker sp. z o.o.</field>
-    <field name="Adres siedziby">ul. Bohaterów Westerplatte 89/63, 65-034 Zielona Góra</field>
+    <field name="Firma lub nazwa">Amber Oprogramowanie Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul. Dąbrowskiego 89/63, 32-600 Oświęcim</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000015916</field>
-    <field name="NIP">1247871815</field>
+    <field name="NIP">1257792655</field>
     <field name="REGON">247951008</field>
     <field name="Data zezwolenia">20251104</field>
     <field name="Numer decyzji">DFI/936/2017</field>
     <field name="CzlonekZarzadu1_PESEL">86061458888</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_Imie">Helena</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Kupiecka 106, 65-058 Zielona Góra</field>
+    <field name="Firma lub nazwa">Amber Rolnictwo sp. z o.o.</field>
+    <field name="Adres siedziby">ul Rynek 106, 38-400 Krosno</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000016013</field>
-    <field name="NIP">1247871815</field>
+    <field name="NIP">2247871815</field>
     <field name="REGON">248030196</field>
     <field name="Data zezwolenia">04/07/2023</field>
     <field name="Numer decyzji">DFI/858/2019</field>
     <field name="CzlonekZarzadu1_PESEL">87072160278</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
+    <field name="CzlonekZarzadu1_Imie">Stefan</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp. z o.o.</field>
-    <field name="Adres siedziby">ulica Świętojańska 123, 81-372 Gdynia</field>
+    <field name="Firma lub nazwa">Amber Ogrodnictwo sp z oo</field>
+    <field name="Adres siedziby">ulica Mickiewicza 123, 39-300 Mielec</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016110</field>
     <field name="NIP">1247951000</field>
@@ -2168,12 +2334,13 @@
     <field name="Data zezwolenia">2017/29/08</field>
     <field name="Numer decyzji">DFI/573/2018</field>
     <field name="CzlonekZarzadu1_PESEL">88082861627</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
+    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech S.A.</field>
-    <field name="Adres siedziby">10 Lutego 140, 81-364 Gdynia</field>
+    <field name="Firma lub nazwa">Amber Produkcja sp. z o. o.</field>
+    <field name="Adres siedziby">Długa 140, 58-100 Świdnica</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016207</field>
     <field name="NIP">1248030199</field>
@@ -2181,25 +2348,27 @@
     <field name="Data zezwolenia">12/05/2018 06:24</field>
     <field name="Numer decyzji">DFI/932/2020</field>
     <field name="CzlonekZarzadu1_PESEL">89090763011</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+    <field name="CzlonekZarzadu1_Imie">Józef</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Technologie Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Bolesława Prusa 157/25, 05-800 Pruszków</field>
+    <field name="Firma lub nazwa">Amber Przemysł Sp. z o.o.</field>
+    <field name="Adres siedziby">157/25, 57-300 Kłodzko</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000016304</field>
     <field name="NIP">1248109386</field>
     <field name="REGON">248267768</field>
-    <field name="Data zezwolenia">2022-09-08</field>
+    <field name="Data zezwolenia">2022-08-09</field>
     <field name="Numer decyzji">DFI/282/2020</field>
     <field name="CzlonekZarzadu1_PESEL">90101464362</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nova Data Finanse SP Z O O</field>
-    <field name="Adres siedziby">ul Kościuszki 174, 05-500 Piaseczno</field>
+    <field name="Firma lub nazwa">Amber Ekologia SP Z O O</field>
+    <field name="Adres siedziby">ul Chrobrego 174, 62-200 Gniezno</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000016401</field>
     <field name="NIP">1248188575</field>
@@ -2207,12 +2376,13 @@
     <field name="Data zezwolenia">20200424</field>
     <field name="Numer decyzji">DFI/438/2018</field>
     <field name="CzlonekZarzadu1_PESEL">91112165758</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_Imie">Edward</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions sp z oo</field>
-    <field name="Adres siedziby">ulica Sienkiewicza 11, 32-020 Wieliczka</field>
+    <field name="Firma lub nazwa">Amber Energetyka spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Słowiańska 11, 64-100 Leszno</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016498</field>
     <field name="NIP">1248267760</field>
@@ -2220,12 +2390,13 @@
     <field name="Data zezwolenia">18/05/2024</field>
     <field name="Numer decyzji">DFI/448/2020</field>
     <field name="CzlonekZarzadu1_PESEL">92122867108</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_Imie">Sabina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
-    <field name="Adres siedziby">Dąbrowskiego 28, 32-600 Oświęcim</field>
+    <field name="Firma lub nazwa">Amber Instalacje Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">Gdańska 28, 83-110 Tczew</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000016595</field>
     <field name="NIP">1248346956</field>
@@ -2233,12 +2404,13 @@
     <field name="Data zezwolenia">2017/07/02</field>
     <field name="Numer decyzji">DFI/797/2024</field>
     <field name="CzlonekZarzadu1_PESEL">93010768497</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
+    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Rynek 45/77, 38-400 Krosno</field>
+    <field name="Firma lub nazwa">Amber Nieruchomości S.A.</field>
+    <field name="Adres siedziby">ul. Sobieskiego 45/77, 84-200 Wejherowo</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016692</field>
     <field name="NIP">1248426141</field>
@@ -2247,11 +2419,12 @@
     <field name="Numer decyzji">DFI/639/2025</field>
     <field name="CzlonekZarzadu1_PESEL">94021469845</field>
     <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply Finanse sp. z o.o.</field>
-    <field name="Adres siedziby">ul Mickiewicza 62, 39-300 Mielec</field>
+    <field name="Firma lub nazwa">Amber Inwestycje SA</field>
+    <field name="Adres siedziby">ul Głęboka 62, 43-400 Cieszyn</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000016789</field>
     <field name="NIP">1248505337</field>
@@ -2260,24 +2433,26 @@
     <field name="Numer decyzji">DFI/692/2019</field>
     <field name="CzlonekZarzadu1_PESEL">95032171235</field>
     <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Optima Trade Holding sp. z o.o.</field>
-    <field name="Adres siedziby">os. Długa 79, 58-100 Świdnica</field>
+    <field name="Firma lub nazwa">Amber Medycyna S. A.</field>
+    <field name="Adres siedziby">os. Małachowskiego 79, 42-500 Będzin</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016886</field>
     <field name="NIP">1248584526</field>
-    <field name="REGON">348742904</field>
+    <field name="REGON">248742904</field>
     <field name="Data zezwolenia">20190215</field>
     <field name="Numer decyzji">DFI/575/2025</field>
     <field name="CzlonekZarzadu1_PESEL">96042872585</field>
     <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest sp. z o.o.</field>
-    <field name="Adres siedziby">96, 57-300 Kłodzko</field>
+    <field name="Firma lub nazwa">Amber Zdrowie Spółka Akcyjna</field>
+    <field name="Adres siedziby">Królowej Jadwigi 96, 88-100 Inowrocław</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000016983</field>
     <field name="NIP">1248663711</field>
@@ -2286,11 +2461,12 @@
     <field name="Numer decyzji">DFI/293/2019</field>
     <field name="CzlonekZarzadu1_PESEL">97050773978</field>
     <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul. Chrobrego 113/39, 62-200 Gniezno</field>
+    <field name="Firma lub nazwa">Amber Urody sp. z o.o.</field>
+    <field name="Adres siedziby">ul. Wybickiego 113/39, 86-300 Grudziądz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000017080</field>
     <field name="NIP">1248742907</field>
@@ -2299,11 +2475,12 @@
     <field name="Numer decyzji">DFI/236/2026</field>
     <field name="CzlonekZarzadu1_PESEL">98061475327</field>
     <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory S.A.</field>
-    <field name="Adres siedziby">ul Słowiańska 130, 64-100 Leszno</field>
+    <field name="Firma lub nazwa">Amber Turystyka sp z oo</field>
+    <field name="Adres siedziby">ul Czarnieckiego 130, 14-100 Ostróda</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000017177</field>
     <field name="NIP">1248822090</field>
@@ -2312,11 +2489,12 @@
     <field name="Numer decyzji">DFI/556/2020</field>
     <field name="CzlonekZarzadu1_PESEL">99072176713</field>
     <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
-    <field name="Adres siedziby">ulica Gdańska 147, 83-110 Tczew</field>
+    <field name="Firma lub nazwa">Amber Rozrywka sp. z o. o.</field>
+    <field name="Adres siedziby">ulica Warszawska 147, 11-500 Giżycko</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000017274</field>
     <field name="NIP">1248901286</field>
@@ -2325,37 +2503,40 @@
     <field name="Numer decyzji">DFI/905/2025</field>
     <field name="CzlonekZarzadu1_PESEL">00282878069</field>
     <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Nebula Analytics SP Z O O</field>
-    <field name="Adres siedziby">Sobieskiego 164, 84-200 Wejherowo</field>
+    <field name="Firma lub nazwa">Amber Gastronomia Sp. z o.o.</field>
+    <field name="Adres siedziby">Lubelska 164, 24-100 Puławy</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000017371</field>
     <field name="NIP">1248980475</field>
-    <field name="REGON">249218045</field>
+    <field name="REGON">259138887</field>
     <field name="Data zezwolenia">20201005</field>
     <field name="Numer decyzji">DFI/797/2021</field>
     <field name="CzlonekZarzadu1_PESEL">01290779452</field>
     <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Lumen Advisory Holding spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Głęboka 1/1, 43-400 Cieszyn</field>
+    <field name="Firma lub nazwa">PPHU Amber Moda</field>
+    <field name="Adres siedziby">ul. Staszica 1/1, 22-400 Zamość</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
-    <field name="KRS">000001746</field>
+    <field name="KRS">0000017468</field>
     <field name="NIP">1249059667</field>
     <field name="REGON">249218045</field>
     <field name="Data zezwolenia">24/04/2020</field>
     <field name="Numer decyzji">DFI/831/2020</field>
     <field name="CzlonekZarzadu1_PESEL">02301480806</field>
     <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Polska SP Z O O</field>
-    <field name="Adres siedziby">ul Małachowskiego 18, 42-500 Będzin</field>
+    <field name="Firma lub nazwa">Amber Tekstylia spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul 3 Maja 18, 16-300 Augustów</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000017565</field>
     <field name="NIP">1249138852</field>
@@ -2364,24 +2545,26 @@
     <field name="Numer decyzji">DFI/735/2018</field>
     <field name="CzlonekZarzadu1_PESEL">03312182194</field>
     <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
-    <field name="Adres siedziby">ulica Królowej Jadwigi 35, 88-100 Inowrocław</field>
+    <field name="Firma lub nazwa">Amber Motoryzacja Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ulica Kościuszki 35, 16-400 Suwałki</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000017662</field>
     <field name="NIP">1249218048</field>
-    <field name="REGON">249455615</field>
+    <field name="REGON">259376457</field>
     <field name="Data zezwolenia">15-06-2025</field>
     <field name="Numer decyzji">DFI/687/2026</field>
     <field name="CzlonekZarzadu1_PESEL">04322883543</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest Polska S.A.</field>
-    <field name="Adres siedziby">Staszica 12, 22-400</field>
+    <field name="Firma lub nazwa">Amber Ubezpieczenia S.A.</field>
+    <field name="Adres siedziby">Zamkowa 12, 95-200</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000017759</field>
     <field name="NIP">1249297237</field>
@@ -2389,12 +2572,13 @@
     <field name="Data zezwolenia">2024-30-07</field>
     <field name="Numer decyzji">DFI/823/2017</field>
     <field name="CzlonekZarzadu1_PESEL">05210784931</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicki</field>
+    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Czarnieckiego 69/53, 14-100 Ostróda</field>
+    <field name="Firma lub nazwa">Amber Spawalnictwo SA</field>
+    <field name="Adres siedziby">ul. Długa 69/53, 49-300 Brzeg</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000017856</field>
     <field name="NIP">1249376422</field>
@@ -2402,11 +2586,12 @@
     <field name="Data zezwolenia">20190321</field>
     <field name="Numer decyzji">DFI/400/2025</field>
     <field name="CzlonekZarzadu1_PESEL">60021486287</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
+    <field name="CzlonekZarzadu1_Imie">Marta</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
+    <field name="Firma lub nazwa">Amber Ślusarstwo S. A.</field>
     <field name="Adres siedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000017953</field>
@@ -2415,12 +2600,13 @@
     <field name="Data zezwolenia">01/01/2018</field>
     <field name="Numer decyzji">DFI/448/2020</field>
     <field name="CzlonekZarzadu1_PESEL">61032187673</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
+    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital sp z oo</field>
-    <field name="Adres siedziby">ulica Lubelska 103, 24-100 Puławy</field>
+    <field name="Firma lub nazwa">Amber Krawiectwo Spółka Akcyjna</field>
+    <field name="Adres siedziby">ulica Sikorskiego 103, 66-200 Świebodzin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000018050</field>
     <field name="NIP">1249534803</field>
@@ -2428,12 +2614,13 @@
     <field name="Data zezwolenia">2018/29/03</field>
     <field name="Numer decyzji">DFI/729/2025</field>
     <field name="CzlonekZarzadu1_PESEL">62042889023</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_Imie">Paulina</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Orbis Retail Solutions Spółka Akcyjna</field>
-    <field name="Adres siedziby">Staszica 120, 22-400 Zamość</field>
+    <field name="Firma lub nazwa">Amber Ochrona sp. z o.o.</field>
+    <field name="Adres siedziby">Armii Krajowej 120, 78-100 Kołobrzeg</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000018147</field>
     <field name="NIP">1249613997</field>
@@ -2441,38 +2628,41 @@
     <field name="Data zezwolenia">10-10-2017</field>
     <field name="Numer decyzji">DFI/533/2017</field>
     <field name="CzlonekZarzadu1_PESEL">63050790419</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Amber Payments spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. 3 Maja 137/15, 16-300 Augustów</field>
+    <field name="Firma lub nazwa">Amber Catering sp z oo</field>
+    <field name="Adres siedziby">ul. Piłsudskiego 137/15, 73-110 Stargard</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000018244</field>
     <field name="NIP">1249693186</field>
     <field name="REGON">249851564</field>
-    <field name="Data zezwolenia">2021-04-05</field>
+    <field name="Data zezwolenia">2021-05-04</field>
     <field name="Numer decyzji">DFI/978/2021</field>
     <field name="CzlonekZarzadu1_PESEL">64061491768</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker S.A.</field>
-    <field name="Adres siedziby">ul Kościuszki 154, 16-400 Suwałki</field>
+    <field name="Firma lub nazwa">Amber Księgowość sp. z o. o.</field>
+    <field name="Adres siedziby">154, 27-600 Sandomierz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000018341</field>
     <field name="NIP">1249772371</field>
-    <field name="REGON">250009941</field>
+    <field name="REGON">259930787</field>
     <field name="Data zezwolenia">20241113</field>
     <field name="Numer decyzji">DFI/407/2021</field>
     <field name="CzlonekZarzadu1_PESEL">65072193155</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowski</field>
+    <field name="CzlonekZarzadu1_Imie">Dawid</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Holding sp z oo</field>
-    <field name="Adres siedziby">ulica Piastowska 171, 48-300 Nysa</field>
+    <field name="Firma lub nazwa">Bizon Budownictwo Sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 171, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000018438</field>
     <field name="NIP">1249851567</field>
@@ -2480,12 +2670,13 @@
     <field name="Data zezwolenia">08/10/2025</field>
     <field name="Numer decyzji">DFI/183/2025</field>
     <field name="CzlonekZarzadu1_PESEL">66082894504</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Dorota</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Baltic Med Supply sp z oo</field>
-    <field name="Adres siedziby">Długa 8, 49-300 Brzeg</field>
+    <field name="Firma lub nazwa">Bizon Transport SP Z O O</field>
+    <field name="Adres siedziby">Chmielna 8, 00-020 Warszawa</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000018535</field>
     <field name="NIP">1249930752</field>
@@ -2493,25 +2684,27 @@
     <field name="Data zezwolenia">2025/09/03</field>
     <field name="Numer decyzji">DFI/154/2025</field>
     <field name="CzlonekZarzadu1_PESEL">67090795898</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowski</field>
+    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">ul. Rynek 25/67, 68-200 Żary</field>
+    <field name="Firma lub nazwa">Bizon Spedycja spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul. Nowy Świat 25/67, 00-029 Warszawa</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
-    <field name="KRS">0000018632</field>
+    <field name="KRS">000001863</field>
     <field name="NIP">1250009942</field>
     <field name="REGON">250168326</field>
     <field name="Data zezwolenia">13-08-2021</field>
     <field name="Numer decyzji">DFI/493/2024</field>
     <field name="CzlonekZarzadu1_PESEL">68101497240</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Beata</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając-Sawicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Vistula Fintech Markets S.A.</field>
-    <field name="Adres siedziby">ul Sikorskiego 42, 66-200 Świebodzin</field>
+    <field name="Firma lub nazwa">Bizon Logistyka Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Adres siedziby">ul os. Przyjaźń 42, 01-355 Warszawa</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000018729</field>
     <field name="NIP">1250089131</field>
@@ -2519,12 +2712,13 @@
     <field name="Data zezwolenia">2022-21-07</field>
     <field name="Numer decyzji">DFI/504/2018</field>
     <field name="CzlonekZarzadu1_PESEL">69112198636</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Polaris Capital Finanse Spółka Akcyjna</field>
-    <field name="Adres siedziby">ulica Armii Krajowej 59, 78-100 Kołobrzeg</field>
+    <field name="Firma lub nazwa">Bizon Handel S.A.</field>
+    <field name="Adres siedziby">ulica Jagiellońska 59, 05-120 Legionowo</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000018826</field>
     <field name="NIP">1250168327</field>
@@ -2532,12 +2726,13 @@
     <field name="Data zezwolenia">20250711</field>
     <field name="Numer decyzji">DFI/959/2017</field>
     <field name="CzlonekZarzadu1_PESEL">70122899985</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_Imie">Urszula</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance sp zroo</field>
-    <field name="Adres siedziby">Piłsudskiego 76, 73-110 Stargard</field>
+    <field name="Firma lub nazwa">Bizon Usługi SA</field>
+    <field name="Adres siedziby">Piłsudskiego 76, 05-270 Marki</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000018923</field>
     <field name="NIP">1250247512</field>
@@ -2545,25 +2740,27 @@
     <field name="Data zezwolenia">16/11/2022</field>
     <field name="Numer decyzji">DFI/231/2026</field>
     <field name="CzlonekZarzadu1_PESEL">71010701377</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Silesia Invest spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Adres siedziby">93/29, 27-600 Sandomierz</field>
+    <field name="Firma lub nazwa">Bizon Finanse S. A.</field>
+    <field name="Adres siedziby">ul. Andriollego 93/29, 05-400 Otwock</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000019020</field>
     <field name="NIP">1250326708</field>
-    <field name="REGON">250564275</field>
+    <field name="REGON">260485119</field>
     <field name="Data zezwolenia">2022/12/07</field>
     <field name="Numer decyzji">DFI/781/2018</field>
     <field name="CzlonekZarzadu1_PESEL">72021402725</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_Imie">Izabela</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Astra Finance sp. z o.o.</field>
-    <field name="Adres siedziby">ul Sienkiewicza 110, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Firma lub nazwa">Bizon Doradztwo Spółka Akcyjna</field>
+    <field name="Adres siedziby">ul Żeromskiego 110, 26-600 Radom</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000019117</field>
     <field name="NIP">1250405891</field>
@@ -2571,12 +2768,13 @@
     <field name="Data zezwolenia">21-07-2021</field>
     <field name="Numer decyzji">DFI/553/2021</field>
     <field name="CzlonekZarzadu1_PESEL">73032104112</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_Imie">Henryk</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Aurum Invest S.A.</field>
-    <field name="Adres siedziby">ulica Marszałkowska 127, 00-590 Warszawa</field>
+    <field name="Firma lub nazwa">Bizon Szkolenia sp. z o.o.</field>
+    <field name="Adres siedziby">ulica Tumska 127, 09-402 Płock</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000019214</field>
     <field name="NIP">1250485080</field>
@@ -2584,12 +2782,13 @@
     <field name="Data zezwolenia">2019-29-09</field>
     <field name="Numer decyzji">DFI/841/2017</field>
     <field name="CzlonekZarzadu1_PESEL">74042805462</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_Imie">Weronika</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Mazovia Broker SP Z O O</field>
-    <field name="Adres siedziby">Krakowskie Przedmieście 144, 00-071 Warszawa</field>
+    <field name="Firma lub nazwa">Bizon Media sp z oo</field>
+    <field name="Adres siedziby">Karmelicka 144, 31-128 Kraków</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000019311</field>
     <field name="NIP">1250564276</field>
@@ -2597,7 +2796,8 @@
     <field name="Data zezwolenia">20180915</field>
     <field name="Numer decyzji">DFI/914/2017</field>
     <field name="CzlonekZarzadu1_PESEL">75050706855</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
 </dataset>
