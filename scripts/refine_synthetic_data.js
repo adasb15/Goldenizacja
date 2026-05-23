@@ -188,6 +188,9 @@ const MALE_FIRST_NAMES = [
   "Maciej", "Tadeusz", "Jerzy", "Stefan", "Marian", "Józef", "Władysław", "Edward", "Mirosław", "Arkadiusz"
 ];
 
+const FEMALE_FIRST_NAME_SET = new Set(FEMALE_FIRST_NAMES.map((name) => transliteratePolish(name).toLowerCase()));
+const MALE_FIRST_NAME_SET = new Set(MALE_FIRST_NAMES.map((name) => transliteratePolish(name).toLowerCase()));
+
 const LAST_NAME_PAIRS = [
   ["Kowalska", "Kowalski"],
   ["Nowacka", "Nowacki"],
@@ -563,11 +566,28 @@ function familyNameFor(index, female, person = null) {
   return "";
 }
 
+function firstNameGender(value) {
+  const normalized = transliteratePolish(String(value ?? "").trim()).toLowerCase();
+  if (FEMALE_FIRST_NAME_SET.has(normalized)) return "female";
+  if (MALE_FIRST_NAME_SET.has(normalized)) return "male";
+  return "";
+}
+
+function secondNameForGender(value, index, female) {
+  const normalized = String(value ?? "").trim();
+  if (!normalized) return "";
+  const gender = firstNameGender(normalized);
+  if ((female && gender === "female") || (!female && gender === "male")) return normalized;
+  return pick(female ? FEMALE_FIRST_NAMES : MALE_FIRST_NAMES, index + 5);
+}
+
 function personFieldPrefix(compactKey) {
   if (compactKey.startsWith("drugieimie")) return compactKey.slice("drugieimie".length);
+  if (compactKey.startsWith("secondname")) return compactKey.slice("secondname".length);
+  if (compactKey.startsWith("middlename")) return compactKey.slice("middlename".length);
   if (compactKey.startsWith("imie")) return compactKey.slice("imie".length);
   if (compactKey.startsWith("nazwisko")) return compactKey.slice("nazwisko".length);
-  return compactKey.replace(/(drugieimie|imie|nazwisko)$/, "");
+  return compactKey.replace(/(drugieimie|secondname|middlename|imie|nazwisko)$/, "");
 }
 
 function stableHash(value) {
@@ -580,7 +600,7 @@ function stableHash(value) {
 
 function personIdentityPrefix(compactKey) {
   return String(compactKey)
-    .replace(/(drugieimie|imie|nazwiskorodowe|nazwisko|pesel|plec|dataurodzenia|miejsceurodzenia|obywatelstwo|numerdowoduosobistego|idcard|numerpaszportu|passport)$/, "");
+    .replace(/(drugieimie|secondname|middlename|imie|nazwiskorodowe|nazwisko|pesel|plec|dataurodzenia|miejsceurodzenia|obywatelstwo|numerdowoduosobistego|idcard|numerpaszportu|passport)$/, "");
 }
 
 function personIdentitySeed(seed, compactKey = "") {
@@ -1343,7 +1363,17 @@ function normalizeNames(record, headers, index, seed = index) {
     else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 7);
     else if (compact === "miejsceurodzenia") record[key] = addressParts(personIdentitySeed(seed, compact)).city;
     else if (compact === "obywatelstwo") record[key] = "PL";
-    else if (compact === "drugieimie" || compact.endsWith("drugieimie") || compact.startsWith("drugieimie")) record[key] = duplicatedPersonTextVariant(person.second, index, compact);
+    else if (
+      compact === "drugieimie"
+      || compact === "secondname"
+      || compact === "middlename"
+      || compact.endsWith("drugieimie")
+      || compact.endsWith("secondname")
+      || compact.endsWith("middlename")
+      || compact.startsWith("drugieimie")
+      || compact.startsWith("secondname")
+      || compact.startsWith("middlename")
+    ) record[key] = duplicatedPersonTextVariant(person.second, index, compact);
     else if (compact === "imie" || compact.endsWith("imie") || compact.startsWith("imie")) record[key] = duplicatedPersonTextVariant(person.first, index, compact);
     else if (compact === "nazwiskorodowe" || compact.endsWith("nazwiskorodowe")) record[key] = duplicatedPersonTextVariant(familyNameFor(personIdentitySeed(seed, compact), isFemaleIndex(personIdentitySeed(seed, compact)), person), index, compact);
     else if (compact === "nazwisko" || compact.endsWith("nazwisko") || compact.startsWith("nazwisko")) record[key] = duplicatedPersonTextVariant(person.last, index, compact);
@@ -1744,12 +1774,7 @@ function getOrCreateSharedIdentity(pesel, sourceRecord, headers) {
                           (pierwImie.endsWith('a') && pierwImie.toLowerCase() !== 'jan');
 
   if (identity.drugieImie) {
-    const drugieImieTrim = identity.drugieImie.trim();
-    const drugieToKobieta = drugieImieTrim.endsWith('a') && drugieImieTrim.toLowerCase() !== 'jan';
-
-    if (sugerujeKobiete !== drugieToKobieta) {
-      identity.drugieImie = ""; 
-    }
+    identity.drugieImie = secondNameForGender(identity.drugieImie, stableHash(pesel), sugerujeKobiete);
   }
 
   if (sugerujeKobiete) {
@@ -1830,15 +1855,20 @@ function main() {
     const hImie = headers.find(h => FIELD_PATTERNS.imie.test(h) || FIELD_PATTERNS.imie.test(keyId(h)));
     const hDrugieImie = headers.find(h => FIELD_PATTERNS.drugieImie.test(h) || FIELD_PATTERNS.drugieImie.test(keyId(h)));
     const hNazwisko = headers.find(h => FIELD_PATTERNS.nazwisko.test(h) || FIELD_PATTERNS.nazwisko.test(keyId(h)));
+    const hPlec = headers.find(h => FIELD_PATTERNS.plec.test(h) || FIELD_PATTERNS.plec.test(keyId(h)));
     const hNazwa = headers.find(h => FIELD_PATTERNS.nazwaFirmy.test(h) || FIELD_PATTERNS.nazwaFirmy.test(keyId(h)));
 
     for (const rec of records) {
       if (hPesel && rec[hPesel] && hImie && hNazwisko && rec[hImie] && rec[hNazwisko]) {
         const pKey = String(rec[hPesel]).trim();
         if (!personsPool.has(pKey)) {
+          const firstGender = firstNameGender(rec[hImie]);
+          const female = hPlec && rec[hPlec]
+            ? String(rec[hPlec]).trim().toLowerCase().startsWith("k")
+            : firstGender === "female";
           personsPool.set(pKey, { 
             imie: String(rec[hImie]).trim(), 
-            drugieImie: hDrugieImie && rec[hDrugieImie] ? String(rec[hDrugieImie]).trim() : "",
+            drugieImie: hDrugieImie && rec[hDrugieImie] ? secondNameForGender(rec[hDrugieImie], stableHash(pKey), female) : "",
             nazwisko: String(rec[hNazwisko]).trim() 
           });
         }

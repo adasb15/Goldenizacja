@@ -11,6 +11,68 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "csv"
 
 
 class SyntheticDataQualityTests(unittest.TestCase):
+    FEMALE_FIRST_NAMES = {
+        "agnieszka",
+        "alicja",
+        "anna",
+        "barbara",
+        "beata",
+        "danuta",
+        "dorota",
+        "ewa",
+        "ewelina",
+        "iwona",
+        "izabela",
+        "joanna",
+        "kamila",
+        "karolina",
+        "katarzyna",
+        "kinga",
+        "magdalena",
+        "malgorzata",
+        "maria",
+        "monika",
+        "natalia",
+        "paulina",
+        "renata",
+        "sylwia",
+        "urszula",
+        "weronika",
+        "zofia",
+    }
+    MALE_FIRST_NAMES = {
+        "adam",
+        "andrzej",
+        "artur",
+        "bartlomiej",
+        "dariusz",
+        "dawid",
+        "edward",
+        "grzegorz",
+        "henryk",
+        "jacek",
+        "jakub",
+        "jan",
+        "kamil",
+        "krzysztof",
+        "leszek",
+        "lukasz",
+        "maciej",
+        "marcin",
+        "marek",
+        "mariusz",
+        "mateusz",
+        "michal",
+        "pawel",
+        "piotr",
+        "przemyslaw",
+        "robert",
+        "stanislaw",
+        "tomasz",
+        "wojciech",
+        "zbigniew",
+    }
+
     def test_pesel_identity_documents_are_not_reused_by_different_people(self) -> None:
         with (DATA_DIR / "pesel.csv").open(encoding="utf-8-sig", newline="") as handle:
             rows = list(csv.DictReader(handle))
@@ -217,6 +279,36 @@ class SyntheticDataQualityTests(unittest.TestCase):
 
         self.assertEqual(failures[:20], [], f"Invalid generated date chronology: {failures[:20]}")
 
+    def test_second_names_match_first_name_gender(self) -> None:
+        failures = []
+        for file_path in sorted(DATA_DIR.glob("*.csv")):
+            with file_path.open(encoding="utf-8-sig", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+
+            first_by_prefix = {}
+            second_by_prefix = {}
+            for header in rows[0].keys() if rows else []:
+                role, prefix = self._person_name_role(header)
+                if role == "first":
+                    first_by_prefix[prefix] = header
+                elif role == "second":
+                    second_by_prefix[prefix] = header
+
+            for prefix, second_header in second_by_prefix.items():
+                first_header = first_by_prefix.get(prefix)
+                if not first_header:
+                    continue
+                for row_number, row in enumerate(rows, start=2):
+                    first_gender = self._first_name_gender(row.get(first_header))
+                    second_gender = self._first_name_gender(row.get(second_header))
+                    if first_gender and second_gender and first_gender != second_gender:
+                        failures.append(
+                            f"{file_path.name}:{row_number} {first_header}={row.get(first_header)} "
+                            f"{second_header}={row.get(second_header)}"
+                        )
+
+        self.assertEqual(failures[:20], [], f"Second name gender mismatches: {failures[:20]}")
+
     def _person_refs(
         self,
         source: str,
@@ -341,6 +433,30 @@ class SyntheticDataQualityTests(unittest.TestCase):
             "acelnoszzACELNOSZZ",
         )
         return re.sub(r"[^a-z0-9]", "", value.translate(translation).casefold())
+
+    def _person_name_role(self, value: str) -> tuple[str, str]:
+        normalized = self._key_id(value)
+        if "ojca" in normalized or "matki" in normalized:
+            return "", ""
+        for token in ("drugieimie", "secondname", "middlename"):
+            if normalized.endswith(token):
+                return "second", normalized[: -len(token)]
+            if normalized.startswith(token):
+                return "second", normalized[len(token) :]
+        for token in ("imie", "firstname"):
+            if normalized.endswith(token):
+                return "first", normalized[: -len(token)]
+            if normalized.startswith(token):
+                return "first", normalized[len(token) :]
+        return "", ""
+
+    def _first_name_gender(self, value: str | None) -> str:
+        normalized = self._key_id(value or "")
+        if normalized in self.FEMALE_FIRST_NAMES:
+            return "female"
+        if normalized in self.MALE_FIRST_NAMES:
+            return "male"
+        return ""
 
 
 if __name__ == "__main__":
