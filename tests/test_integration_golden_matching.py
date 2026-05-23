@@ -34,6 +34,37 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertIn("PESEL", result.strong_match_fields)
         self.assertGreaterEqual(result.score, 0.95)
 
+    def test_auto_merges_person_when_only_family_name_has_typo(self) -> None:
+        left = SimpleNamespace(
+            PESEL_Normalized="74042826025",
+            Serial_Number_ID_Card_Normalized="BAI679005",
+            Serial_Number_Passport_Normalized="PL0346801",
+            Birth_Date="1974-04-28",
+            First_Name_Normalized="PAULINA",
+            Second_Name_Normalized="IWONA",
+            Last_Name_Normalized="GRABOWSKA",
+            Family_Name_Normalized="BARAN",
+            Full_Name_Normalized="PAULINA IWONA GRABOWSKA",
+            Place_Of_Birth_Normalized="KATOWICE",
+        )
+        right = SimpleNamespace(
+            PESEL_Normalized="74042826025",
+            Serial_Number_ID_Card_Normalized="BAI679005",
+            Serial_Number_Passport_Normalized="PL0346801",
+            Birth_Date="1974-04-28",
+            First_Name_Normalized="PAULINA",
+            Second_Name_Normalized="IWONA",
+            Last_Name_Normalized="GRABOWSKA",
+            Family_Name_Normalized="BRAAN",
+            Full_Name_Normalized="PAULINA IWONA GRABOWSKA",
+            Place_Of_Birth_Normalized="KATOWICE",
+        )
+
+        result = score_match(left, right, "PERSON")
+
+        self.assertEqual(result.decision, MatchDecision.AUTO_MERGE)
+        self.assertNotIn("Family_Name", result.conflict_fields)
+
     def test_keeps_same_pesel_as_candidate_when_stable_fields_conflict(self) -> None:
         left = SimpleNamespace(
             PESEL_Normalized="90010112345",

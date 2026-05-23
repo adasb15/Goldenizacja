@@ -359,7 +359,6 @@ const MISSING_EMAIL_DOMAINS = [
 const WEB_TLDS = [".pl", ".com.pl", ".eu", ".local"];
 
 function generateHighlyDiverseCompanyPool() {
-  // 1. Unikalne słowa kluczowe (Geografia, Flora, Fauna, Abstrakcja)
   const NOUNS = [
     "Amber", "Bizon", "Canyon", "Delfin", "Echo", "Falcon", "Gryf", "Horyzont", "Ikar", "Jantar",
     "Koral", "Lotos", "Magnolia", "Neon", "Oaza", "Pegaz", "Rubin", "Szafir", "Tytan", "Uran",
@@ -921,6 +920,116 @@ function dateFromIndex(index, key) {
   return { year, month, day };
 }
 
+function datePartsToUtc(parts) {
+  if (!isValidDateParts(parts)) return null;
+  return Date.UTC(parts.year, parts.month - 1, parts.day);
+}
+
+function addDays(parts, days) {
+  const date = new Date(Date.UTC(parts.year, parts.month - 1, parts.day + days));
+  return {
+    year: date.getUTCFullYear(),
+    month: date.getUTCMonth() + 1,
+    day: date.getUTCDate(),
+  };
+}
+
+function dateRole(compactKey) {
+  if (
+    compactKey.includes("wykresl")
+    || compactKey.includes("wyrejest")
+    || compactKey.includes("deregistration")
+    || compactKey.includes("termination")
+    || compactKey.includes("validto")
+    || compactKey.endsWith("datado")
+  ) {
+    return "end";
+  }
+  if (compactKey.includes("wznow")) return "resume";
+  if (compactKey.includes("zawies")) return "suspension";
+  if (
+    compactKey.includes("wpis")
+    || compactKey.includes("rejestr")
+    || compactKey.includes("powstania")
+    || compactKey.includes("rozpoczecia")
+    || compactKey.includes("registrationlegaldate")
+    || compactKey.includes("initialregistrationdate")
+    || compactKey.includes("validfrom")
+    || compactKey.endsWith("dataod")
+  ) {
+    return "start";
+  }
+  if (compactKey.includes("decyzji") || compactKey.includes("decision")) return "decision";
+  return "";
+}
+
+function enforceDateChronology(record, headers, index) {
+  const dateFields = headers
+    .map((key) => {
+      const compact = keyId(key);
+      if (!/(data|date|validfrom|validto)/.test(compact)) return null;
+      const parts = parseGeneratedDateParts(record[key]);
+      if (!isValidDateParts(parts)) return null;
+      return { key, compact, role: dateRole(compact), parts };
+    })
+    .filter(Boolean);
+
+  const starts = dateFields.filter((field) => field.role === "start");
+  const ends = dateFields.filter((field) => field.role === "end");
+  const suspensions = dateFields.filter((field) => field.role === "suspension");
+  const resumes = dateFields.filter((field) => field.role === "resume");
+  const decisions = dateFields.filter((field) => field.role === "decision");
+
+  const baseline = starts[0]?.parts ?? decisions[0]?.parts ?? dateFromIndex(index, "DataWpisu");
+  const startByCompact = new Map(starts.map((field) => [field.compact, field.parts]));
+  const pairedStartFor = (field) => {
+    if (field.compact.endsWith("datado")) {
+      return startByCompact.get(`${field.compact.slice(0, -"datado".length)}dataod`);
+    }
+    if (field.compact.endsWith("validto")) {
+      return startByCompact.get(`${field.compact.slice(0, -"validto".length)}validfrom`);
+    }
+    return null;
+  };
+
+  for (const field of starts) {
+    if (datePartsToUtc(field.parts) > datePartsToUtc(baseline)) {
+      field.parts = baseline;
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of decisions) {
+    if (starts.length && datePartsToUtc(field.parts) > datePartsToUtc(baseline)) {
+      field.parts = addDays(baseline, -30);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of suspensions) {
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(baseline)) {
+      field.parts = addDays(baseline, 180);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of resumes) {
+    const suspension = suspensions[0]?.parts ?? baseline;
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(suspension)) {
+      field.parts = addDays(suspension, 60);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of ends) {
+    const minimum = pairedStartFor(field) ?? resumes[0]?.parts ?? suspensions[0]?.parts ?? baseline;
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(minimum)) {
+      field.parts = addDays(minimum, 365);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+}
+
 function isCompanyEstablishmentDate(compactKey) {
   return [
     "datarejestracji",
@@ -1261,6 +1370,7 @@ function cloneRecord(base, headers, index, register) {
   normalizeNames(record, headers, index, seed);
   setAddress(record, headers, seed);
   normalizeDates(record, headers, index, seed, register);
+  enforceDateChronology(record, headers, index);
   normalizeIdentifiers(record, headers, index, seed);
   for (const key of headers) {
     const compact = keyId(key);
@@ -1610,9 +1720,50 @@ function getOrCreateSharedIdentity(pesel, sourceRecord, headers) {
     plec: sourceRecord[headers.find(h => FIELD_PATTERNS.plec.test(h) || FIELD_PATTERNS.plec.test(keyId(h)))] ?? "",
   };
 
+  const establishmentHeader = headers.find(h => /Establishment_Date/i.test(h) || /data.*zaloz/i.test(h));
+  const deregistrationHeader = headers.find(h => /Deregistration_Date/i.test(h) || /data.*wyrej/i.test(h));
+
+  if (establishmentHeader && deregistrationHeader) {
+    const startDateRaw = sourceRecord[establishmentHeader];
+    const endDateRaw = sourceRecord[deregistrationHeader];
+
+    if (startDateRaw && endDateRaw) {
+      const startSec = Date.parse(startDateRaw);
+      const endSec = Date.parse(endDateRaw);
+
+      if (!isNaN(startSec) && !isNaN(endSec) && startSec > endSec) {
+        sourceRecord[establishmentHeader] = endDateRaw;
+        sourceRecord[deregistrationHeader] = startDateRaw;
+      }
+    }
+  }
+
+  const pierwImie = identity.imie.trim();
+  const sugerujeKobiete = identity.plec.toLowerCase().startsWith('k') || 
+                          identity.plec.toLowerCase().startsWith('f') || 
+                          (pierwImie.endsWith('a') && pierwImie.toLowerCase() !== 'jan');
+
+  if (identity.drugieImie) {
+    const drugieImieTrim = identity.drugieImie.trim();
+    const drugieToKobieta = drugieImieTrim.endsWith('a') && drugieImieTrim.toLowerCase() !== 'jan';
+
+    if (sugerujeKobiete !== drugieToKobieta) {
+      identity.drugieImie = ""; 
+    }
+  }
+
+  if (sugerujeKobiete) {
+    identity.nazwisko = identity.nazwisko.replace(/ski$/, 'ska').replace(/cki$/, 'cka').replace(/dzki$/, 'dzka');
+    if (!identity.plec) identity.plec = "K";
+  } else {
+    identity.nazwisko = identity.nazwisko.replace(/ska$/, 'ski').replace(/cka$/, 'cki').replace(/dzka$/, 'dzki');
+    if (!identity.plec) identity.plec = "M";
+  }
+
   identityPool.set(pesel, identity);
   return identity;
 }
+
 
 function injectIdentity(record, headers, identity) {
   if (!identity) return;

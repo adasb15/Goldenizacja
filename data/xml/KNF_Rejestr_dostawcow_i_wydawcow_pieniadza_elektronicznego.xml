@@ -7,7 +7,7 @@
     <field name="Nazwa">Facebook - Meta</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/07/2025</field>
-    <field name="Data wykreślenia">2019/17/09</field>
+    <field name="Data wykreślenia">2026/20/07</field>
     <field name="Data decyzji">14-05-2023</field>
     <field name="KRS">0000000008</field>
     <field name="NIP">1234805466</field>
@@ -21,8 +21,8 @@
     <field name="Nazwa">Polskie Przetwory sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/03/10</field>
-    <field name="Data wykreślenia">24-10-2020</field>
-    <field name="Data decyzji">2025-20-09</field>
+    <field name="Data wykreślenia">02-10-2024</field>
+    <field name="Data decyzji">2023-03-09</field>
     <field name="KRS">0000000105</field>
     <field name="NIP">1234884655</field>
     <field name="Adres siedziby">ul Krakowskie Przedmieście 18, 00-071 Warszawa</field>
@@ -35,7 +35,7 @@
     <field name="Nazwa">Hurtownia Nabiału Mleczko sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28-01-2025</field>
-    <field name="Data wykreślenia">2021-11-03</field>
+    <field name="Data wykreślenia">2026-28-01</field>
     <field name="Data decyzji">20210221</field>
     <field name="KRS">0000000202</field>
     <field name="NIP">1234963840</field>
@@ -50,7 +50,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-25-03</field>
     <field name="Data wykreślenia">20250822</field>
-    <field name="Data decyzji">27/12/2023</field>
+    <field name="Data decyzji">23/02/2017</field>
     <field name="KRS">0000000299</field>
     <field name="NIP">1235043030</field>
     <field name="Adres siedziby">Długa 52, 31-147 Kraków</field>
@@ -64,7 +64,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20210425</field>
     <field name="Data wykreślenia">17/01/2023</field>
-    <field name="Data decyzji">2025/09/02</field>
+    <field name="Data decyzji">2021/26/03</field>
     <field name="KRS">0000000396</field>
     <field name="NIP">1235122226</field>
     <field name="Adres siedziby">ul. Piotrkowska 69/53, 90-102 Łódź</field>
@@ -77,7 +77,7 @@
     <field name="Nazwa">Śląskie Zakłady Mechaniczne spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13/02/2024</field>
-    <field name="Data wykreślenia">2022/25/08</field>
+    <field name="Data wykreślenia">2025/12/02</field>
     <field name="Data decyzji">10-04-2017</field>
     <field name="KRS">0000000493</field>
     <field name="NIP">1235201411</field>
@@ -92,7 +92,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024/25/05</field>
     <field name="Data wykreślenia">05-06-2025</field>
-    <field name="Data decyzji">2025-23-05</field>
+    <field name="Data decyzji">2024-25-04</field>
     <field name="KRS">0000000590</field>
     <field name="NIP">1235280600</field>
     <field name="Adres siedziby">ulica Świdnicka 103, 50-066 Wrocław</field>
@@ -119,7 +119,7 @@
     <field name="Nazwa">Krakowskie Biuro Nieruchomości SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-23-04</field>
-    <field name="Data wykreślenia">20150517</field>
+    <field name="Data wykreślenia">20250423</field>
     <field name="Data decyzji">29/08/2022</field>
     <field name="KRS">0000000784</field>
     <field name="NIP">1235438981</field>
@@ -147,7 +147,7 @@
     <field name="Nazwa">Klinika Stomatologiczna Dent-Med Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">08/02/2025</field>
-    <field name="Data wykreślenia">2017/03/07</field>
+    <field name="Data wykreślenia">2026/08/02</field>
     <field name="Data decyzji">13-05-2018</field>
     <field name="KRS">0000000978</field>
     <field name="NIP">1235597366</field>
@@ -162,7 +162,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/06/04</field>
     <field name="Data wykreślenia">17-07-2023</field>
-    <field name="Data decyzji">2022-12-03</field>
+    <field name="Data decyzji">2019-07-03</field>
     <field name="KRS">0000001075</field>
     <field name="NIP">1235676551</field>
     <field name="Adres siedziby">Grunwaldzka 8, 80-236 Gdańsk</field>
@@ -175,7 +175,7 @@
     <field name="Nazwa">Gdańska Stocznia Jachtowa sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">04-01-2021</field>
-    <field name="Data wykreślenia">2019-17-09</field>
+    <field name="Data wykreślenia">2022-04-01</field>
     <field name="Data decyzji">20170818</field>
     <field name="KRS">0000001172</field>
     <field name="NIP">1235755747</field>
@@ -190,7 +190,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-19-07</field>
     <field name="Data wykreślenia">20201024</field>
-    <field name="Data decyzji">27/09/2020</field>
+    <field name="Data decyzji">19/06/2018</field>
     <field name="KRS">0000001269</field>
     <field name="NIP">1235834932</field>
     <field name="Adres siedziby">ul Wyszyńskiego 42, 70-200 Szczecin</field>
@@ -203,7 +203,7 @@
     <field name="Nazwa">Zakłady Mięsne Tradycja Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20250801</field>
-    <field name="Data wykreślenia">24/06/2025</field>
+    <field name="Data wykreślenia">01/08/2026</field>
     <field name="Data decyzji">2024/21/05</field>
     <field name="KRS">0000001366</field>
     <field name="NIP">1235914128</field>
@@ -218,7 +218,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13/01/2018</field>
     <field name="Data wykreślenia">2022/10/12</field>
-    <field name="Data decyzji">27-10-2024</field>
+    <field name="Data decyzji">14-12-2017</field>
     <field name="KRS">0000001463</field>
     <field name="NIP">1235993317</field>
     <field name="Adres siedziby">Warszawska 76, 40-009 Katowice</field>
@@ -260,7 +260,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-10-12</field>
     <field name="Data wykreślenia">20240524</field>
-    <field name="Data decyzji">11/12/2024</field>
+    <field name="Data decyzji">12/09/2019</field>
     <field name="KRS">0000001754</field>
     <field name="NIP">1236230886</field>
     <field name="Adres siedziby">ulica Lipowa 127, 15-424 Białystok</field>
@@ -274,7 +274,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190608</field>
     <field name="Data wykreślenia">10/04/2026</field>
-    <field name="Data decyzji">2020/01/08</field>
+    <field name="Data decyzji">2019/09/05</field>
     <field name="KRS">0000001851</field>
     <field name="NIP">1236310071</field>
     <field name="Adres siedziby">Chrobrego 104, Gniezno</field>
@@ -287,7 +287,7 @@
     <field name="Nazwa">PPHU Studio Projektowe Architektura</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28/09/2025</field>
-    <field name="Data wykreślenia">2015/17/05</field>
+    <field name="Data wykreślenia">2026/28/09</field>
     <field name="Data decyzji">23-08-2021</field>
     <field name="KRS">0000001948</field>
     <field name="NIP">1236389262</field>
@@ -301,7 +301,7 @@
     <field name="Nazwa">Centrum Medycyny Pracy Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/15/04</field>
-    <field name="Data wykreślenia">23-12-2022</field>
+    <field name="Data wykreślenia">15-04-2026</field>
     <field name="Data decyzji">2024-23-05</field>
     <field name="KRS">0000002045</field>
     <field name="NIP">1236468458</field>
@@ -316,7 +316,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">29-02-2020</field>
     <field name="Data wykreślenia">2026-09-09</field>
-    <field name="Data decyzji">20241018</field>
+    <field name="Data decyzji">20200130</field>
     <field name="KRS">0000002142</field>
     <field name="NIP">1236547643</field>
     <field name="Adres siedziby">ulica Szeroka 15, 87-100 Toruń</field>
@@ -329,8 +329,8 @@
     <field name="Nazwa">Gospodarstwo Rolno-Ogrodnicze sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-09-11</field>
-    <field name="Data wykreślenia">20180810</field>
-    <field name="Data decyzji">02/02/2019</field>
+    <field name="Data wykreślenia">20191109</field>
+    <field name="Data decyzji">12/08/2018</field>
     <field name="KRS">0000002239</field>
     <field name="NIP">1236626839</field>
     <field name="Adres siedziby">Chełmińska 32, 87-100 Toruń</field>
@@ -343,7 +343,7 @@
     <field name="Nazwa">Drukarnia Wielkoformatowa Impress sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251105</field>
-    <field name="Data wykreślenia">17/09/2019</field>
+    <field name="Data wykreślenia">05/11/2026</field>
     <field name="Data decyzji">2020/26/08</field>
     <field name="KRS">0000002336</field>
     <field name="NIP">1236706024</field>
@@ -372,7 +372,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/31/03</field>
     <field name="Data wykreślenia">06-02-2026</field>
-    <field name="Data decyzji">2024-22-12</field>
+    <field name="Data decyzji">2018-01-03</field>
     <field name="KRS">0000002530</field>
     <field name="NIP">1236864409</field>
     <field name="Adres siedziby">ulica Sienkiewicza 83, 25-007 Kielce</field>
@@ -386,7 +386,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">10-01-2018</field>
     <field name="Data wykreślenia">2022-12-10</field>
-    <field name="Data decyzji">20200724</field>
+    <field name="Data decyzji">20171211</field>
     <field name="KRS">0000002627</field>
     <field name="NIP">1236943592</field>
     <field name="Adres siedziby">Warszawska 100, 25-512 Kielce</field>
@@ -400,7 +400,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-02-10</field>
     <field name="Data wykreślenia">20230117</field>
-    <field name="Data decyzji">04/08/2025</field>
+    <field name="Data decyzji">11/01/2018</field>
     <field name="KRS">0000002724</field>
     <field name="NIP">1237022782</field>
     <field name="Adres siedziby">ul. Kościuszki 117/5, 10-504 Olsztyn</field>
@@ -414,7 +414,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190324</field>
     <field name="Data wykreślenia">17/11/2024</field>
-    <field name="Data decyzji">2025/25/01</field>
+    <field name="Data decyzji">2019/22/02</field>
     <field name="KRS">0000002821</field>
     <field name="NIP">1237101978</field>
     <field name="Adres siedziby">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
@@ -441,7 +441,7 @@
     <field name="Nazwa">Szkoła Języków Obcych Lingua S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/10/11</field>
-    <field name="Data wykreślenia">25-08-2022</field>
+    <field name="Data wykreślenia">10-11-2026</field>
     <field name="Data decyzji">2025-07-03</field>
     <field name="KRS">0000003015</field>
     <field name="NIP">1237260352</field>
@@ -455,7 +455,7 @@
     <field name="Nazwa">Centrum Logistyczne Podlasie Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">29-11-2023</field>
-    <field name="Data wykreślenia">2015-17-05</field>
+    <field name="Data wykreślenia">2024-28-11</field>
     <field name="Data decyzji">20190430</field>
     <field name="KRS">0000003112</field>
     <field name="NIP">1247339575</field>
@@ -484,7 +484,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20170612</field>
     <field name="Data wykreślenia">05/06/2022</field>
-    <field name="Data decyzji">2024/09/10</field>
+    <field name="Data decyzji">2017/13/05</field>
     <field name="KRS">0000003306</field>
     <field name="NIP">1237497924</field>
     <field name="Adres siedziby">ulica Świętojańska 39, 81-372 Gdynia</field>
@@ -498,7 +498,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">11/03/2018</field>
     <field name="Data wykreślenia">2024/26/09</field>
-    <field name="Data decyzji">12-04-2019</field>
+    <field name="Data decyzji">09-02-2018</field>
     <field name="KRS">0000003403</field>
     <field name="NIP">1247577145</field>
     <field name="Adres siedziby">10 Lutego 56, 81-364 Gdynia</field>
@@ -512,7 +512,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/21/12</field>
     <field name="Data wykreślenia">17-09-2019</field>
-    <field name="Data decyzji">2024-11-10</field>
+    <field name="Data decyzji">2018-21-11</field>
     <field name="KRS">0000003500</field>
     <field name="NIP">1237656305</field>
     <field name="Adres siedziby">ul. Bolesława Prusa 73/19, 05-800 Pruszków</field>
@@ -540,7 +540,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-16-06</field>
     <field name="Data wykreślenia">20211103</field>
-    <field name="Data decyzji">09/11/2021</field>
+    <field name="Data decyzji">17/05/2020</field>
     <field name="KRS">0000003694</field>
     <field name="NIP">1237814684</field>
     <field name="Adres siedziby">ulica Sienkiewicza 107, 32-020 Wieliczka</field>
@@ -568,7 +568,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/07/2017</field>
     <field name="Data wykreślenia">2023/17/01</field>
-    <field name="Data decyzji">06-01-2019</field>
+    <field name="Data decyzji">03-06-2017</field>
     <field name="KRS">0000003888</field>
     <field name="NIP">1237973069</field>
     <field name="Adres siedziby">ul. Rynek 141/71, 38-400 Krosno</field>
@@ -581,7 +581,7 @@
     <field name="Nazwa">Krajowa Izba Gospodarcza SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/24/05</field>
-    <field name="Data wykreślenia">24-02-2024</field>
+    <field name="Data wykreślenia">24-05-2026</field>
     <field name="Data decyzji">2022-14-07</field>
     <field name="KRS">0000003985</field>
     <field name="NIP">1238052259</field>
@@ -596,7 +596,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-08-2024</field>
     <field name="Data wykreślenia">2025-03-03</field>
-    <field name="Data decyzji">20250226</field>
+    <field name="Data decyzji">20240713</field>
     <field name="KRS">0000004082</field>
     <field name="NIP">1238131444</field>
     <field name="Adres siedziby">175, 58-100 Świdnica</field>
@@ -624,7 +624,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200626</field>
     <field name="Data wykreślenia">04/08/2025</field>
-    <field name="Data decyzji">2024/16/01</field>
+    <field name="Data decyzji">2020/27/05</field>
     <field name="KRS">0000004276</field>
     <field name="NIP">1238289820</field>
     <field name="Adres siedziby">ul. Chrobrego 29/33, 62-200 Gniezno</field>
@@ -637,7 +637,7 @@
     <field name="Nazwa">Piekarnia i Cukiernia Chrupiący Rogalik sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/08/2025</field>
-    <field name="Data wykreślenia">2016/24/06</field>
+    <field name="Data wykreślenia">2026/25/08</field>
     <field name="Data decyzji">07-07-2024</field>
     <field name="KRS">0000004373</field>
     <field name="NIP">1238369016</field>
@@ -651,7 +651,7 @@
     <field name="Nazwa">Zakład Usług Komunalnych sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024/11/10</field>
-    <field name="Data wykreślenia">03-07-2017</field>
+    <field name="Data wykreślenia">11-10-2025</field>
     <field name="Data decyzji">2021-16-08</field>
     <field name="KRS">0000004470</field>
     <field name="NIP">1238448201</field>
@@ -679,7 +679,7 @@
     <field name="Nazwa">Kancelaria Radców Prawnych Partnerzy SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-08-10</field>
-    <field name="Data wykreślenia">20190917</field>
+    <field name="Data wykreślenia">20221008</field>
     <field name="Data decyzji">13/06/2018</field>
     <field name="KRS">0000004664</field>
     <field name="NIP">1238606580</field>
@@ -694,7 +694,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180522</field>
     <field name="Data wykreślenia">24/10/2020</field>
-    <field name="Data decyzji">2019/23/07</field>
+    <field name="Data decyzji">2018/22/04</field>
     <field name="KRS">0000004761</field>
     <field name="NIP">1248685807</field>
     <field name="Adres siedziby">114, 42-500 Będzin</field>
@@ -708,7 +708,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/07/2022</field>
     <field name="Data wykreślenia">2025/20/08</field>
-    <field name="Data decyzji">08-12-2022</field>
+    <field name="Data decyzji">05-06-2022</field>
     <field name="KRS">0000004858</field>
     <field name="NIP">1238764965</field>
     <field name="Adres siedziby">ulica Królowej Jadwigi 131, 88-100 Inowrocław</field>
@@ -722,7 +722,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/03/03</field>
     <field name="Data wykreślenia">10-12-2022</field>
-    <field name="Data decyzji">2021-18-03</field>
+    <field name="Data decyzji">2018-01-02</field>
     <field name="KRS">0000004955</field>
     <field name="NIP">1238844150</field>
     <field name="Adres siedziby">Wybickiego 148, 86-300 Grudziądz</field>
@@ -736,7 +736,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2018</field>
     <field name="Data wykreślenia">2023-17-01</field>
-    <field name="Data decyzji">20220126</field>
+    <field name="Data decyzji">20181007</field>
     <field name="KRS">0000005052</field>
     <field name="NIP">1238923346</field>
     <field name="Adres siedziby">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
@@ -750,7 +750,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-15-01</field>
     <field name="Data wykreślenia">20240224</field>
-    <field name="Data decyzji">11/08/2020</field>
+    <field name="Data decyzji">16/12/2019</field>
     <field name="KRS">0000005149</field>
     <field name="NIP">1239002536</field>
     <field name="Adres siedziby">ul Warszawska 2, 11-500 Giżycko</field>
@@ -764,7 +764,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240612</field>
     <field name="Data wykreślenia">18/04/2025</field>
-    <field name="Data decyzji">2024/03/10</field>
+    <field name="Data decyzji">2024/13/05</field>
     <field name="KRS">0000005246</field>
     <field name="NIP">1239081725</field>
     <field name="Adres siedziby">ulica Lubelska 19, 24-100 Puławy</field>
@@ -791,8 +791,8 @@
     <field name="Nazwa">Zielony Bizon sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/21/07</field>
-    <field name="Data wykreślenia">17-05-2015</field>
-    <field name="Data decyzji">2024-29-05</field>
+    <field name="Data wykreślenia">21-07-2018</field>
+    <field name="Data decyzji">2017-21-06</field>
     <field name="KRS">0000005440</field>
     <field name="NIP">1239240106</field>
     <field name="Adres siedziby">53/9, 16-300 Augustów</field>
@@ -805,7 +805,7 @@
     <field name="Nazwa">Zielony Canyon sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-12-2022</field>
-    <field name="Data wykreślenia">2016-24-06</field>
+    <field name="Data wykreślenia">2023-12-12</field>
     <field name="Data decyzji">20171208</field>
     <field name="KRS">0000005537</field>
     <field name="NIP">1239319291</field>
@@ -819,8 +819,8 @@
     <field name="Nazwa">Zielony Delfin Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-07-02</field>
-    <field name="Data wykreślenia">20170703</field>
-    <field name="Data decyzji">01/03/2019</field>
+    <field name="Data wykreślenia">20200207</field>
+    <field name="Data decyzji">08/01/2019</field>
     <field name="KRS">0000005634</field>
     <field name="NIP">1239398480</field>
     <field name="Adres siedziby">os. Piastowska 87, 48-300 Nysa</field>
@@ -834,7 +834,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180212</field>
     <field name="Data wykreślenia">30/01/2024</field>
-    <field name="Data decyzji">2023/30/06</field>
+    <field name="Data decyzji">2018/13/01</field>
     <field name="KRS">0000005731</field>
     <field name="NIP">1239477676</field>
     <field name="Adres siedziby">Długa 104, 49-300 Brzeg</field>
@@ -847,8 +847,8 @@
     <field name="Nazwa">P.P.H.U. Zielony Falcon</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/06/2021</field>
-    <field name="Data wykreślenia">2019/17/09</field>
-    <field name="Data decyzji">08-02-2023</field>
+    <field name="Data wykreślenia">2022/30/06</field>
+    <field name="Data decyzji">31-05-2021</field>
     <field name="KRS">0000005828</field>
     <field name="NIP">1239556861</field>
     <field name="Adres siedziby">ul. Rynek 121/61, 68-200 Żary</field>
@@ -876,7 +876,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25-12-2017</field>
     <field name="Data wykreślenia">2021-11-03</field>
-    <field name="Data decyzji">20180425</field>
+    <field name="Data decyzji">20171125</field>
     <field name="KRS">0000006022</field>
     <field name="NIP">1239715242</field>
     <field name="Adres siedziby">ulica Armii Krajowej 155, 78-100 Kołobrzeg</field>
@@ -889,7 +889,7 @@
     <field name="Nazwa">Zielony Ikar SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022-20-12</field>
-    <field name="Data wykreślenia">20221210</field>
+    <field name="Data wykreślenia">20231220</field>
     <field name="Data decyzji">15/02/2017</field>
     <field name="KRS">0000006119</field>
     <field name="NIP">1239794431</field>
@@ -918,7 +918,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/02/2017</field>
     <field name="Data wykreślenia">2024/24/02</field>
-    <field name="Data decyzji">11-10-2020</field>
+    <field name="Data decyzji">04-01-2017</field>
     <field name="KRS">0000006313</field>
     <field name="NIP">1239952812</field>
     <field name="Adres siedziby">ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski</field>
@@ -946,7 +946,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">22-02-2019</field>
     <field name="Data wykreślenia">2025-21-07</field>
-    <field name="Data decyzji">20200329</field>
+    <field name="Data decyzji">20190123</field>
     <field name="KRS">0000006507</field>
     <field name="NIP">1240111194</field>
     <field name="Adres siedziby">Nowy Świat 60, 00-029 Warszawa</field>
@@ -959,7 +959,7 @@
     <field name="Nazwa">Zielony Neon sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-01-03</field>
-    <field name="Data wykreślenia">20150517</field>
+    <field name="Data wykreślenia">20250301</field>
     <field name="Data decyzji">19/06/2019</field>
     <field name="KRS">0000006604</field>
     <field name="NIP">1240190383</field>
@@ -988,7 +988,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/03/2018</field>
     <field name="Data wykreślenia">2025/06/01</field>
-    <field name="Data decyzji">12-01-2023</field>
+    <field name="Data decyzji">25-02-2018</field>
     <field name="KRS">0000006798</field>
     <field name="NIP">1240348766</field>
     <field name="Adres siedziby">ulica Piłsudskiego 111, 05-270 Marki</field>
@@ -1001,7 +1001,7 @@
     <field name="Nazwa">Zielony Rubin spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/24/02</field>
-    <field name="Data wykreślenia">10-08-2018</field>
+    <field name="Data wykreślenia">23-02-2021</field>
     <field name="Data decyzji">2017-08-12</field>
     <field name="KRS">0000006895</field>
     <field name="NIP">1240427951</field>
@@ -1015,7 +1015,7 @@
     <field name="Nazwa">Zielony Szafir Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2025</field>
-    <field name="Data wykreślenia">2019-17-09</field>
+    <field name="Data wykreślenia">2026-06-11</field>
     <field name="Data decyzji">20220714</field>
     <field name="KRS">0000006992</field>
     <field name="NIP">1240507147</field>
@@ -1043,8 +1043,8 @@
     <field name="Nazwa">Zielony Uran SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240113</field>
-    <field name="Data wykreślenia">03/11/2021</field>
-    <field name="Data decyzji">2025/15/09</field>
+    <field name="Data wykreślenia">12/01/2025</field>
+    <field name="Data decyzji">2023/14/12</field>
     <field name="KRS">0000007186</field>
     <field name="NIP">1240665521</field>
     <field name="Adres siedziby">ulica Karmelicka 179, 31-128 Kraków</field>
@@ -1058,7 +1058,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-03-07T05:35:15Z</field>
     <field name="Data wykreślenia">2022/10/12</field>
-    <field name="Data decyzji">27-11-2022</field>
+    <field name="Data decyzji">05-02-2017</field>
     <field name="KRS">0000007283</field>
     <field name="NIP">1240744717</field>
     <field name="Adres siedziby">os. Na Stoku 16, 31-704 Kraków</field>
@@ -1071,7 +1071,7 @@
     <field name="Nazwa">Zielony Zefir Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/11/01</field>
-    <field name="Data wykreślenia">17-01-2023</field>
+    <field name="Data wykreślenia">11-01-2026</field>
     <field name="Data decyzji">2018-11-04</field>
     <field name="KRS">0000007380</field>
     <field name="NIP">1240823902</field>
@@ -1086,7 +1086,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15-03-2023</field>
     <field name="Data wykreślenia">2024-13-09</field>
-    <field name="Data decyzji">20240618</field>
+    <field name="Data decyzji">20230213</field>
     <field name="KRS">0000007477</field>
     <field name="NIP">1240903096</field>
     <field name="Adres siedziby">50, 34-600 Mordarka</field>
@@ -1100,7 +1100,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-03-02</field>
     <field name="Data wykreślenia">20251205</field>
-    <field name="Data decyzji">22/06/2025</field>
+    <field name="Data decyzji">04/01/2018</field>
     <field name="KRS">0000007574</field>
     <field name="NIP">1240982285</field>
     <field name="Adres siedziby">ulica Galicyjska 67, 32-087 Zielonki</field>
@@ -1127,7 +1127,7 @@
     <field name="Nazwa">mBank</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">07/12/2018</field>
-    <field name="Data wykreślenia">2015/17/05</field>
+    <field name="Data wykreślenia">2019/07/12</field>
     <field name="Data decyzji">24-02-2018</field>
     <field name="KRS">0000007768</field>
     <field name="NIP">1241140660</field>
@@ -1141,7 +1141,7 @@
     <field name="Nazwa">Zielony Barycz SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/24/10</field>
-    <field name="Data wykreślenia">19-12-2024</field>
+    <field name="Data wykreślenia">24-10-2026</field>
     <field name="Data decyzji">2019-30-10</field>
     <field name="KRS">0000007865</field>
     <field name="NIP">1241219858</field>
@@ -1156,7 +1156,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05-06-2017</field>
     <field name="Data wykreślenia">2025-28-11</field>
-    <field name="Data decyzji">20181202</field>
+    <field name="Data decyzji">20170506</field>
     <field name="KRS">0000007962</field>
     <field name="NIP">1241299047</field>
     <field name="Adres siedziby">ulica os. Retkinia 135, 94-004 Łódź</field>
@@ -1170,7 +1170,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-06-11</field>
     <field name="Data wykreślenia">20241126</field>
-    <field name="Data decyzji">07/03/2023</field>
+    <field name="Data decyzji">12/05/2019</field>
     <field name="KRS">0000008059</field>
     <field name="NIP">1241378232</field>
     <field name="Adres siedziby">112, 16-030</field>
@@ -1184,7 +1184,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220302</field>
     <field name="Data wykreślenia">05/11/2024</field>
-    <field name="Data decyzji">2023/02/05</field>
+    <field name="Data decyzji">2022/31/01</field>
     <field name="KRS">0000008156</field>
     <field name="NIP">1241457428</field>
     <field name="Adres siedziby">ul. Długa 169/13, 95-100 Zgierz</field>
@@ -1197,7 +1197,7 @@
     <field name="Nazwa">Zielony Jodełka SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/01/2023</field>
-    <field name="Data wykreślenia">2020/24/10</field>
+    <field name="Data wykreślenia">2024/03/01</field>
     <field name="Data decyzji">28-03-2022</field>
     <field name="KRS">0000008253</field>
     <field name="NIP">1241536613</field>
@@ -1226,7 +1226,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-07-2021</field>
     <field name="Data wykreślenia">2022-12-10</field>
-    <field name="Data decyzji">20250919</field>
+    <field name="Data decyzji">20210614</field>
     <field name="KRS">0000008447</field>
     <field name="NIP">1241694996</field>
     <field name="Adres siedziby">os. Konstytucji 3 Maja 40, 58-540 Karpacz</field>
@@ -1268,7 +1268,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">24/03/2021</field>
     <field name="Data wykreślenia">2025/29/07</field>
-    <field name="Data decyzji">23-09-2025</field>
+    <field name="Data decyzji">22-02-2021</field>
     <field name="KRS">0000008738</field>
     <field name="NIP">1241932562</field>
     <field name="Adres siedziby">ulica Półwiejska 91, 61-888 Poznań</field>
@@ -1310,7 +1310,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-05-04</field>
     <field name="Data wykreślenia">20230224</field>
-    <field name="Data decyzji">10/09/2020</field>
+    <field name="Data decyzji">06/03/2018</field>
     <field name="KRS">0000009029</field>
     <field name="NIP">1242170137</field>
     <field name="Adres siedziby">ul Kaliska 142, 63-400 Ostrów Wielkopolski</field>
@@ -1324,7 +1324,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20221116</field>
     <field name="Data wykreślenia">13/11/2023</field>
-    <field name="Data decyzji">2023/20/07</field>
+    <field name="Data decyzji">2022/17/10</field>
     <field name="KRS">0000009126</field>
     <field name="NIP">1242249324</field>
     <field name="Adres siedziby">ulica Ogarna 159, 80-826 Gdańsk</field>
@@ -1337,8 +1337,8 @@
     <field name="Nazwa">Zielony Krokus S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28/04/2023</field>
-    <field name="Data wykreślenia">2022/17/03</field>
-    <field name="Data decyzji">19-10-2023</field>
+    <field name="Data wykreślenia">2024/27/04</field>
+    <field name="Data decyzji">29-03-2023</field>
     <field name="KRS">0000009223</field>
     <field name="NIP">1252328545</field>
     <field name="Adres siedziby">os. Jasień 176, 80-180 Gdańsk</field>
@@ -1352,7 +1352,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/16/01</field>
     <field name="Data wykreślenia">17-09-2019</field>
-    <field name="Data decyzji">2024-08-02</field>
+    <field name="Data decyzji">2016-17-12</field>
     <field name="KRS">0000009320</field>
     <field name="NIP">1242407705</field>
     <field name="Adres siedziby">ul. Bohaterów Monte Cassino 13/79, 81-759 Sopot</field>
@@ -1365,7 +1365,7 @@
     <field name="Nazwa">Zielony Giewont S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-08-2022</field>
-    <field name="Data wykreślenia">2022-04-07</field>
+    <field name="Data wykreślenia">2023-12-08</field>
     <field name="Data decyzji">20170712</field>
     <field name="KRS">0000009417</field>
     <field name="NIP">1242486892</field>
@@ -1380,7 +1380,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-25-05</field>
     <field name="Data wykreślenia">20240802</field>
-    <field name="Data decyzji">17/05/2020</field>
+    <field name="Data decyzji">25/04/2017</field>
     <field name="KRS">0000009514</field>
     <field name="NIP">1242566088</field>
     <field name="Adres siedziby">ulica 3 Maja 47, 40-096 Katowice</field>
@@ -1394,7 +1394,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181208</field>
     <field name="Data wykreślenia">02/10/2026</field>
-    <field name="Data decyzji">2024/05/01</field>
+    <field name="Data decyzji">2018/08/11</field>
     <field name="KRS">0000009611</field>
     <field name="NIP">1242645273</field>
     <field name="Adres siedziby">os. Paderewskiego 64, 40-282 Katowice</field>
@@ -1407,7 +1407,7 @@
     <field name="Nazwa">PPHU Zielony Beskid</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15/10/2024</field>
-    <field name="Data wykreślenia">2023/18/03</field>
+    <field name="Data wykreślenia">2025/15/10</field>
     <field name="Data decyzji">03-01-2018</field>
     <field name="KRS">0000009708</field>
     <field name="NIP">1242724469</field>
@@ -1422,7 +1422,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/31/10</field>
     <field name="Data wykreślenia">24-02-2024</field>
-    <field name="Data decyzji">2025-21-08</field>
+    <field name="Data decyzji">2019-01-10</field>
     <field name="KRS">0000009805</field>
     <field name="NIP">1242803654</field>
     <field name="Adres siedziby">ul Krakowskie Przedmieście 58</field>
@@ -1436,7 +1436,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">16-09-2018</field>
     <field name="Data wykreślenia">2025-03-03</field>
-    <field name="Data decyzji">20231211</field>
+    <field name="Data decyzji">20180817</field>
     <field name="KRS">0000009902</field>
     <field name="NIP">1242882843</field>
     <field name="Adres siedziby">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
@@ -1463,7 +1463,7 @@
     <field name="Nazwa">Zielony Sudety spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180610</field>
-    <field name="Data wykreślenia">17/05/2015</field>
+    <field name="Data wykreślenia">10/06/2019</field>
     <field name="Data decyzji">2017/14/11</field>
     <field name="KRS">0000010096</field>
     <field name="NIP">1243041229</field>
@@ -1478,7 +1478,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06/10/2020</field>
     <field name="Data wykreślenia">2024/02/11</field>
-    <field name="Data decyzji">07-07-2021</field>
+    <field name="Data decyzji">06-09-2020</field>
     <field name="KRS">0000010193</field>
     <field name="NIP">1243120414</field>
     <field name="Adres siedziby">ul Franciszkańska 166, 37-700 Przemyśl</field>
@@ -1505,7 +1505,7 @@
     <field name="Nazwa">Niebieski Canyon SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">17-01-2025</field>
-    <field name="Data wykreślenia">2018-08-10</field>
+    <field name="Data wykreślenia">2026-17-01</field>
     <field name="Data decyzji">20211214</field>
     <field name="KRS">0000010387</field>
     <field name="NIP">1243278799</field>
@@ -1520,7 +1520,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-25-05</field>
     <field name="Data wykreślenia">20260929</field>
-    <field name="Data decyzji">09/12/2024</field>
+    <field name="Data decyzji">25/04/2019</field>
     <field name="KRS">0000010484</field>
     <field name="NIP">1243357984</field>
     <field name="Adres siedziby">37/55, 16-030 Ogrodniczki</field>
@@ -1534,7 +1534,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20230117</field>
     <field name="Data wykreślenia">13/05/2024</field>
-    <field name="Data decyzji">2024/03/11</field>
+    <field name="Data decyzji">2022/18/12</field>
     <field name="KRS">0000010581</field>
     <field name="NIP">1253437207</field>
     <field name="Adres siedziby">ul 3 Maja 54, 17-200 Hajnówka</field>
@@ -1547,8 +1547,8 @@
     <field name="Nazwa">Niebieski Falcon sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/05/2023</field>
-    <field name="Data wykreślenia">2021/03/11</field>
-    <field name="Data decyzji">09-02-2024</field>
+    <field name="Data wykreślenia">2024/24/05</field>
+    <field name="Data decyzji">25-04-2023</field>
     <field name="KRS">0000010678</field>
     <field name="NIP">1243516365</field>
     <field name="Adres siedziby">ulica os. LSM 71, 20-400 Lublin</field>
@@ -1589,7 +1589,7 @@
     <field name="Nazwa">Niebieski Ikar Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-30-10</field>
-    <field name="Data wykreślenia">20240224</field>
+    <field name="Data wykreślenia">20261030</field>
     <field name="Data decyzji">30/05/2020</field>
     <field name="KRS">0000010969</field>
     <field name="NIP">1243753935</field>
@@ -1631,7 +1631,7 @@
     <field name="Nazwa">Niebieski Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/08/05</field>
-    <field name="Data wykreślenia">17-05-2015</field>
+    <field name="Data wykreślenia">08-05-2026</field>
     <field name="Data decyzji">2019-22-03</field>
     <field name="KRS">0000011260</field>
     <field name="NIP">1243991505</field>
@@ -1646,7 +1646,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">26-03-2017</field>
     <field name="Data wykreślenia">2022-02-08</field>
-    <field name="Data decyzji">20240319</field>
+    <field name="Data decyzji">20170224</field>
     <field name="KRS">0000011357</field>
     <field name="NIP">1244070693</field>
     <field name="Adres siedziby">ul Wojska Polskiego 10, 70-470 Szczecin</field>
@@ -1659,8 +1659,8 @@
     <field name="Nazwa">Niebieski Neon SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-15-02</field>
-    <field name="Data wykreślenia">20170703</field>
-    <field name="Data decyzji">17/01/2024</field>
+    <field name="Data wykreślenia">20220215</field>
+    <field name="Data decyzji">16/01/2021</field>
     <field name="KRS">0000011454</field>
     <field name="NIP">1244149880</field>
     <field name="Adres siedziby">ulica Monte Cassino 27, 72-600 Świnoujście</field>
@@ -1673,7 +1673,7 @@
     <field name="Nazwa">Niebieski Oaza S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190112</field>
-    <field name="Data wykreślenia">10/08/2018</field>
+    <field name="Data wykreślenia">12/01/2020</field>
     <field name="Data decyzji">2017/05/10</field>
     <field name="KRS">0000011551</field>
     <field name="NIP">1244229076</field>
@@ -1688,7 +1688,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/05/2017</field>
     <field name="Data wykreślenia">2024/01/09</field>
-    <field name="Data decyzji">10-11-2020</field>
+    <field name="Data decyzji">30-04-2017</field>
     <field name="KRS">0000011648</field>
     <field name="NIP">1244308261</field>
     <field name="Adres siedziby">ul. Byczyńska 61/31, 46-200 Kluczbork</field>
@@ -1729,7 +1729,7 @@
     <field name="Nazwa">Niebieski Tytan sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-21-06</field>
-    <field name="Data wykreślenia">20220204</field>
+    <field name="Data wykreślenia">20250621</field>
     <field name="Data decyzji">11/04/2024</field>
     <field name="KRS">0000011939</field>
     <field name="NIP">1244545831</field>
@@ -1743,7 +1743,7 @@
     <field name="Nazwa">Niebieski Uran Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220522</field>
-    <field name="Data wykreślenia">01/03/2022</field>
+    <field name="Data wykreślenia">22/05/2023</field>
     <field name="Data decyzji">2017/25/02</field>
     <field name="KRS">0000012036</field>
     <field name="NIP">1244625027</field>
@@ -1758,7 +1758,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14/02/2020</field>
     <field name="Data wykreślenia">2024/24/02</field>
-    <field name="Data decyzji">06-12-2022</field>
+    <field name="Data decyzji">15-01-2020</field>
     <field name="KRS">0000012133</field>
     <field name="NIP">1244704212</field>
     <field name="Adres siedziby">ul Marszałkowska 146, 00-590 Warszawa</field>
@@ -1772,7 +1772,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/07/12</field>
     <field name="Data wykreślenia">23-12-2022</field>
-    <field name="Data decyzji">2020-14-06</field>
+    <field name="Data decyzji">2017-07-11</field>
     <field name="KRS">0000012230</field>
     <field name="NIP">1244783401</field>
     <field name="Adres siedziby">ulica Krakowskie Przedmieście 163, 00-071 Warszawa</field>
@@ -1799,7 +1799,7 @@
     <field name="Nazwa">Niebieski Sokół S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023-18-08</field>
-    <field name="Data wykreślenia">20150517</field>
+    <field name="Data wykreślenia">20240817</field>
     <field name="Data decyzji">18/06/2018</field>
     <field name="KRS">0000012424</field>
     <field name="NIP">1244941780</field>
@@ -1813,7 +1813,7 @@
     <field name="Nazwa">Niebieski Orzeł SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220213</field>
-    <field name="Data wykreślenia">12/01/2022</field>
+    <field name="Data wykreślenia">13/02/2023</field>
     <field name="Data decyzji">2020/12/01</field>
     <field name="KRS">0000012521</field>
     <field name="NIP">1245020970</field>
@@ -1827,8 +1827,8 @@
     <field name="Nazwa">Niebieski Kormoran S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/02/2024</field>
-    <field name="Data wykreślenia">2023/03/12</field>
-    <field name="Data decyzji">30-12-2025</field>
+    <field name="Data wykreślenia">2025/19/02</field>
+    <field name="Data decyzji">21-01-2024</field>
     <field name="KRS">0000012618</field>
     <field name="NIP">1245100166</field>
     <field name="Adres siedziby">ulica Zachodnia 51, 90-402 Łódź</field>
@@ -1842,7 +1842,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/11/07</field>
     <field name="Data wykreślenia">09-09-2025</field>
-    <field name="Data decyzji">2021-17-08</field>
+    <field name="Data decyzji">2020-11-06</field>
     <field name="KRS">0000012715</field>
     <field name="NIP">1245179357</field>
     <field name="Adres siedziby">Świdnicka 68, 50-066 Wrocław</field>
@@ -1869,7 +1869,7 @@
     <field name="Nazwa">Niebieski Pilica sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-09-04</field>
-    <field name="Data wykreślenia">20201024</field>
+    <field name="Data wykreślenia">20260409</field>
     <field name="Data decyzji">01/04/2025</field>
     <field name="KRS">0000012909</field>
     <field name="NIP">1245337738</field>
@@ -1883,7 +1883,7 @@
     <field name="Nazwa">Niebieski Narew sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240714</field>
-    <field name="Data wykreślenia">03/11/2021</field>
+    <field name="Data wykreślenia">14/07/2025</field>
     <field name="Data decyzji">2018/08/06</field>
     <field name="KRS">0000013006</field>
     <field name="NIP">1245416923</field>
@@ -1912,7 +1912,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/03/01</field>
     <field name="Data wykreślenia">04-11-2025</field>
-    <field name="Data decyzji">2019-19-09</field>
+    <field name="Data decyzji">2018-04-12</field>
     <field name="KRS">0000013200</field>
     <field name="NIP">1245575308</field>
     <field name="Adres siedziby">ul. Grunwaldzka 153/59, 80-236 Gdańsk</field>
@@ -1967,8 +1967,8 @@
     <field name="Nazwa">P.P.H.U. Niebieski Marmur</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/06/2021</field>
-    <field name="Data wykreślenia">2015/17/05</field>
-    <field name="Data decyzji">23-09-2023</field>
+    <field name="Data wykreślenia">2022/25/06</field>
+    <field name="Data decyzji">26-05-2021</field>
     <field name="KRS">0000013588</field>
     <field name="NIP">1245892061</field>
     <field name="Adres siedziby">ul. Warszawska 41/21, 40-009 Katowice</field>
@@ -1995,7 +1995,7 @@
     <field name="Nazwa">Niebieski Zodiak Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">10-04-2025</field>
-    <field name="Data wykreślenia">2017-07-03</field>
+    <field name="Data wykreślenia">2026-10-04</field>
     <field name="Data decyzji">20200907</field>
     <field name="KRS">0000013782</field>
     <field name="NIP">1246050447</field>
@@ -2009,7 +2009,7 @@
     <field name="Nazwa">Niebieski Olimp sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022-10-04</field>
-    <field name="Data wykreślenia">20220916</field>
+    <field name="Data wykreślenia">20231004</field>
     <field name="Data decyzji">19/11/2017</field>
     <field name="KRS">0000013879</field>
     <field name="NIP">1246129634</field>
@@ -2023,7 +2023,7 @@
     <field name="Nazwa">Niebieski Zorza sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251220</field>
-    <field name="Data wykreślenia">09/12/2024</field>
+    <field name="Data wykreślenia">20/12/2026</field>
     <field name="Data decyzji">2019/08/02</field>
     <field name="KRS">0000013976</field>
     <field name="NIP">1256208855</field>
@@ -2038,7 +2038,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2019</field>
     <field name="Data wykreślenia">2020/24/10</field>
-    <field name="Data decyzji">24-02-2022</field>
+    <field name="Data decyzji">28-03-2019</field>
     <field name="KRS">0000014073</field>
     <field name="NIP">1246288019</field>
     <field name="Adres siedziby">os. Gdańska 126, 85-005 Bydgoszcz</field>
@@ -2051,8 +2051,8 @@
     <field name="Nazwa">Niebieski Narcyz Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/20/07</field>
-    <field name="Data wykreślenia">03-11-2021</field>
-    <field name="Data decyzji">2025-20-06</field>
+    <field name="Data wykreślenia">19-07-2024</field>
+    <field name="Data decyzji">2023-20-06</field>
     <field name="KRS">0000014170</field>
     <field name="NIP">1246367204</field>
     <field name="Adres siedziby">ulica Dworcowa 143, 85-009 Bydgoszcz</field>
@@ -2080,7 +2080,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-06-06</field>
     <field name="Data wykreślenia">20240311</field>
-    <field name="Data decyzji">08/09/2025</field>
+    <field name="Data decyzji">07/05/2021</field>
     <field name="KRS">0000014364</field>
     <field name="NIP">1246525583</field>
     <field name="Adres siedziby">ul. Chełmińska 177/35, 87-100 Toruń</field>
@@ -2108,7 +2108,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/07/2018</field>
     <field name="Data wykreślenia">2023/29/11</field>
-    <field name="Data decyzji">24-09-2022</field>
+    <field name="Data decyzji">05-06-2018</field>
     <field name="KRS">0000014558</field>
     <field name="NIP">1246683968</field>
     <field name="Adres siedziby">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
@@ -2135,8 +2135,8 @@
     <field name="Nazwa">Amber Spedycja S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15-01-2020</field>
-    <field name="Data wykreślenia">2015-17-05</field>
-    <field name="Data decyzji">20240329</field>
+    <field name="Data wykreślenia">2021-14-01</field>
+    <field name="Data decyzji">20191216</field>
     <field name="KRS">0000014752</field>
     <field name="NIP">1246842349</field>
     <field name="Adres siedziby">ul. Warszawska 65/87, 25-512 Kielce</field>
@@ -2150,7 +2150,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-14-06</field>
     <field name="Data wykreślenia">20250610</field>
-    <field name="Data decyzji">01/07/2024</field>
+    <field name="Data decyzji">15/05/2019</field>
     <field name="KRS">0000014849</field>
     <field name="NIP">1246921534</field>
     <field name="Adres siedziby">ul Kościuszki 82, 10-504 Olsztyn</field>
@@ -2163,8 +2163,8 @@
     <field name="Nazwa">Amber Handel sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20170721</field>
-    <field name="Data wykreślenia">03/07/2017</field>
-    <field name="Data decyzji">2020/12/03</field>
+    <field name="Data wykreślenia">21/07/2018</field>
+    <field name="Data decyzji">2017/21/06</field>
     <field name="KRS">0000014946</field>
     <field name="NIP">1247000724</field>
     <field name="Adres siedziby">ulica Dąbrowszczaków 99, 10-540 Olsztyn</field>
@@ -2177,7 +2177,7 @@
     <field name="Nazwa">Amber Usługi sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14/09/2025</field>
-    <field name="Data wykreślenia">2018/10/08</field>
+    <field name="Data wykreślenia">2026/14/09</field>
     <field name="Data decyzji">30-11-2019</field>
     <field name="KRS">0000015043</field>
     <field name="NIP">1247079915</field>
@@ -2191,7 +2191,7 @@
     <field name="Nazwa">Amber Finanse sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/14/02</field>
-    <field name="Data wykreślenia">17-09-2019</field>
+    <field name="Data wykreślenia">14-02-2026</field>
     <field name="Data decyzji">2019-02-06</field>
     <field name="KRS">0000015140</field>
     <field name="NIP">1247159100</field>
@@ -2205,7 +2205,7 @@
     <field name="Nazwa">Amber Doradztwo Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-09-2024</field>
-    <field name="Data wykreślenia">2020-24-10</field>
+    <field name="Data wykreślenia">2025-06-09</field>
     <field name="Data decyzji">20240514</field>
     <field name="KRS">0000015237</field>
     <field name="NIP">1247238294</field>
@@ -2219,7 +2219,7 @@
     <field name="Nazwa">Amber Szkolenia SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-11-08</field>
-    <field name="Data wykreślenia">20211103</field>
+    <field name="Data wykreślenia">20250811</field>
     <field name="Data decyzji">01/03/2022</field>
     <field name="KRS">0000015334</field>
     <field name="NIP">1257317517</field>
@@ -2248,7 +2248,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/10/2017</field>
     <field name="Data wykreślenia">2023/17/01</field>
-    <field name="Data decyzji">19-07-2020</field>
+    <field name="Data decyzji">20-09-2017</field>
     <field name="KRS">0000015528</field>
     <field name="NIP">1247475864</field>
     <field name="Adres siedziby">ul. 10 Lutego 21/11, 81-364 Gdynia</field>
@@ -2262,7 +2262,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/01/10</field>
     <field name="Data wykreślenia">01-01-2024</field>
-    <field name="Data decyzji">2023-05-11</field>
+    <field name="Data decyzji">2019-01-09</field>
     <field name="KRS">0000015625</field>
     <field name="NIP">1257555085</field>
     <field name="Adres siedziby">ul Bolesława Prusa 38, 05-800 Pruszków</field>
@@ -2276,7 +2276,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20-01-2019</field>
     <field name="Data wykreślenia">2025-03-03</field>
-    <field name="Data decyzji">20240615</field>
+    <field name="Data decyzji">20181221</field>
     <field name="KRS">0000015722</field>
     <field name="NIP">1247634245</field>
     <field name="Adres siedziby">ulica Kościuszki 55, 05-500 Piaseczno</field>
@@ -2290,7 +2290,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-28-11</field>
     <field name="Data wykreślenia">20261025</field>
-    <field name="Data decyzji">04/12/2025</field>
+    <field name="Data decyzji">29/10/2017</field>
     <field name="KRS">0000015819</field>
     <field name="NIP">1247713430</field>
     <field name="Adres siedziby">Sienkiewicza 72, 32-020 Wieliczka</field>
@@ -2303,8 +2303,8 @@
     <field name="Nazwa">Amber Oprogramowanie Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200825</field>
-    <field name="Data wykreślenia">17/05/2015</field>
-    <field name="Data decyzji">2022/01/07</field>
+    <field name="Data wykreślenia">25/08/2021</field>
+    <field name="Data decyzji">2020/26/07</field>
     <field name="KRS">0000015916</field>
     <field name="NIP">2257792655</field>
     <field name="Adres siedziby">ul. Dąbrowskiego 89/63, 32-600 Oświęcim</field>
@@ -2359,8 +2359,8 @@
     <field name="Nazwa">Amber Przemysł Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-29-04</field>
-    <field name="Data wykreślenia">20190917</field>
-    <field name="Data decyzji">16/05/2025</field>
+    <field name="Data wykreślenia">20250429</field>
+    <field name="Data decyzji">30/03/2024</field>
     <field name="KRS">0000016304</field>
     <field name="NIP">1248109386</field>
     <field name="Adres siedziby">157/25, 57-300 Kłodzko</field>
@@ -2401,7 +2401,7 @@
     <field name="Nazwa">Amber Instalacje Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/19/11</field>
-    <field name="Data wykreślenia">10-12-2022</field>
+    <field name="Data wykreślenia">18-11-2024</field>
     <field name="Data decyzji">2020-11-10</field>
     <field name="KRS">0000016595</field>
     <field name="NIP">1248346956</field>
@@ -2416,7 +2416,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">04/08/2017 06:54</field>
     <field name="Data wykreślenia">2025-12-09</field>
-    <field name="Data decyzji">20220830</field>
+    <field name="Data decyzji">20170705</field>
     <field name="KRS">0000016692</field>
     <field name="NIP">1248426141</field>
     <field name="Adres siedziby">ul. Sobieskiego 45/77, 84-200 Wejherowo</field>
@@ -2443,7 +2443,7 @@
     <field name="Nazwa">Amber Medycyna S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251015</field>
-    <field name="Data wykreślenia">03/03/2025</field>
+    <field name="Data wykreślenia">15/10/2026</field>
     <field name="Data decyzji">2018/17/06</field>
     <field name="KRS">0000016886</field>
     <field name="NIP">1248584526</field>
@@ -2458,7 +2458,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/04/2020</field>
     <field name="Data wykreślenia">2026/10/04</field>
-    <field name="Data decyzji">05-04-2024</field>
+    <field name="Data decyzji">21-03-2020</field>
     <field name="KRS">0000016983</field>
     <field name="NIP">1248663711</field>
     <field name="Adres siedziby">Królowej Jadwigi 96, 88-100 Inowrocław</field>
@@ -2471,8 +2471,8 @@
     <field name="Nazwa">Amber Urody sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/01/02</field>
-    <field name="Data wykreślenia">17-05-2015</field>
-    <field name="Data decyzji">2024-25-12</field>
+    <field name="Data wykreślenia">01-02-2018</field>
+    <field name="Data decyzji">2017-02-01</field>
     <field name="KRS">0000017080</field>
     <field name="NIP">1248742907</field>
     <field name="Adres siedziby">ul. Wybickiego 113/39, 86-300 Grudziądz</field>
@@ -2486,7 +2486,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">09-03-2023</field>
     <field name="Data wykreślenia">2025-09-01</field>
-    <field name="Data decyzji">20240515</field>
+    <field name="Data decyzji">20230207</field>
     <field name="KRS">0000017177</field>
     <field name="NIP">1248822090</field>
     <field name="Adres siedziby">ul Czarnieckiego 130, 14-100 Ostróda</field>
@@ -2500,7 +2500,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-26-03</field>
     <field name="Data wykreślenia">20230327</field>
-    <field name="Data decyzji">15/06/2025</field>
+    <field name="Data decyzji">24/02/2021</field>
     <field name="KRS">0000017274</field>
     <field name="NIP">1248901286</field>
     <field name="Adres siedziby">ulica Warszawska 147, 11-500 Giżycko</field>
@@ -2527,7 +2527,7 @@
     <field name="Nazwa">PPHU Amber Moda</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/03/2023</field>
-    <field name="Data wykreślenia">2019/17/09</field>
+    <field name="Data wykreślenia">2024/04/03</field>
     <field name="Data decyzji">05-04-2020</field>
     <field name="KRS">0000017468</field>
     <field name="NIP">1249059667</field>
@@ -2570,7 +2570,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-01-08</field>
     <field name="Data wykreślenia">20230418</field>
-    <field name="Data decyzji">03/12/2022</field>
+    <field name="Data decyzji">09/12/2018</field>
     <field name="KRS">0000017759</field>
     <field name="NIP">1249297237</field>
     <field name="Adres siedziby">Zamkowa 12, 95-200</field>
@@ -2583,8 +2583,8 @@
     <field name="Nazwa">Amber Spawalnictwo SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20250211</field>
-    <field name="Data wykreślenia">17/01/2023</field>
-    <field name="Data decyzji">2025/08/07</field>
+    <field name="Data wykreślenia">11/02/2026</field>
+    <field name="Data decyzji">2025/12/01</field>
     <field name="KRS">0000017856</field>
     <field name="NIP">1249376422</field>
     <field name="Adres siedziby">ul. Długa 69/53, 49-300 Brzeg</field>
@@ -2597,8 +2597,8 @@
     <field name="Nazwa">Amber Ślusarstwo S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">21/03/2024</field>
-    <field name="Data wykreślenia">2024/24/02</field>
-    <field name="Data decyzji">11-11-2024</field>
+    <field name="Data wykreślenia">2025/21/03</field>
+    <field name="Data decyzji">20-02-2024</field>
     <field name="KRS">0000017953</field>
     <field name="NIP">1249455618</field>
     <field name="Adres siedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
@@ -2612,7 +2612,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/10/08</field>
     <field name="Data wykreślenia">14-03-2025</field>
-    <field name="Data decyzji">2020-13-10</field>
+    <field name="Data decyzji">2020-11-07</field>
     <field name="KRS">0000018050</field>
     <field name="NIP">1249534803</field>
     <field name="Adres siedziby">ulica Sikorskiego 103, 66-200 Świebodzin</field>
@@ -2626,7 +2626,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-08-2019</field>
     <field name="Data wykreślenia">2026-04-10</field>
-    <field name="Data decyzji">20221017</field>
+    <field name="Data decyzji">20190715</field>
     <field name="KRS">0000018147</field>
     <field name="NIP">1249613997</field>
     <field name="Adres siedziby">Armii Krajowej 120, 78-100 Kołobrzeg</field>
@@ -2639,7 +2639,7 @@
     <field name="Nazwa">Amber Catering sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-11-03</field>
-    <field name="Data wykreślenia">20220813</field>
+    <field name="Data wykreślenia">20250311</field>
     <field name="Data decyzji">20/06/2021</field>
     <field name="KRS">0000018244</field>
     <field name="NIP">1249693186</field>
@@ -2667,8 +2667,8 @@
     <field name="Nazwa">Bizon Budownictwo Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2018</field>
-    <field name="Data wykreślenia">2017/03/07</field>
-    <field name="Data decyzji">10-02-2019</field>
+    <field name="Data wykreślenia">2019/27/04</field>
+    <field name="Data decyzji">28-03-2018</field>
     <field name="KRS">0000018438</field>
     <field name="NIP">1249851567</field>
     <field name="Adres siedziby">ulica Sienkiewicza 171, 27-400 Ostrowiec Świętokrzyski</field>
@@ -2682,7 +2682,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022/08/09</field>
     <field name="Data wykreślenia">05-08-2025</field>
-    <field name="Data decyzji">2025-07-10</field>
+    <field name="Data decyzji">2022-09-08</field>
     <field name="KRS">0000018535</field>
     <field name="NIP">1249930752</field>
     <field name="Adres siedziby">Chmielna 8, 00-020 Warszawa</field>
@@ -2695,7 +2695,7 @@
     <field name="Nazwa">Bizon Spedycja spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">23-08-2024</field>
-    <field name="Data wykreślenia">2019-17-09</field>
+    <field name="Data wykreślenia">2025-23-08</field>
     <field name="Data decyzji">20180104</field>
     <field name="KRS">000001863</field>
     <field name="NIP">1250009942</field>
@@ -2709,7 +2709,7 @@
     <field name="Nazwa">Bizon Logistyka Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-08-11</field>
-    <field name="Data wykreślenia">20201024</field>
+    <field name="Data wykreślenia">20211108</field>
     <field name="Data decyzji">27/07/2018</field>
     <field name="KRS">0000018729</field>
     <field name="NIP">1250089131</field>
@@ -2724,7 +2724,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181002</field>
     <field name="Data wykreślenia">17/11/2025</field>
-    <field name="Data decyzji">2020/16/04</field>
+    <field name="Data decyzji">2018/02/09</field>
     <field name="KRS">0000018826</field>
     <field name="NIP">1250168327</field>
     <field name="Adres siedziby">ulica Jagiellońska 59, 05-120 Legionowo</field>
@@ -2737,7 +2737,7 @@
     <field name="Nazwa">Bizon Usługi SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">18/07/2024</field>
-    <field name="Data wykreślenia">2022/10/12</field>
+    <field name="Data wykreślenia">2025/18/07</field>
     <field name="Data decyzji">01-08-2017</field>
     <field name="KRS">0000018923</field>
     <field name="NIP">1250247512</field>
@@ -2751,7 +2751,7 @@
     <field name="Nazwa">Bizon Finanse S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/02/07</field>
-    <field name="Data wykreślenia">17-01-2023</field>
+    <field name="Data wykreślenia">01-07-2024</field>
     <field name="Data decyzji">2022-06-11</field>
     <field name="KRS">0000019020</field>
     <field name="NIP">1250326708</field>
@@ -2779,7 +2779,7 @@
     <field name="Nazwa">Bizon Szkolenia sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-22-04</field>
-    <field name="Data wykreślenia">20250303</field>
+    <field name="Data wykreślenia">20260422</field>
     <field name="Data decyzji">30/08/2022</field>
     <field name="KRS">0000019214</field>
     <field name="NIP">1250485080</field>
@@ -2794,7 +2794,7 @@
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200221</field>
     <field name="Data wykreślenia">10/04/2026</field>
-    <field name="Data decyzji">2023/21/01</field>
+    <field name="Data decyzji">2020/22/01</field>
     <field name="KRS">0000019311</field>
     <field name="NIP">1250564276</field>
     <field name="Adres siedziby">Karmelicka 144, 31-128 Kraków</field>

@@ -432,7 +432,7 @@
     <field name="firma.regon">236626834</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-05-19</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-06-04</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2022-02-03</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2024-05-06</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Dworcowa 178, 85-009 Bydgoszcz</field>
     <field name="firma.adresKorespondencyjny">ul Dworcowa 178, 85-009 Bydgoszcz</field>
@@ -592,7 +592,7 @@
     <field name="firma.regon">237260358</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-01-14</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci">2024-12-04</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2024/15/09</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
@@ -712,7 +712,7 @@
     <field name="firma.regon">237735494</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-01-04</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci">2021-09-05</field>
+    <field name="firma.dataWznowieniaDzialalnosci">31-05-2025</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">10 Lutego 56, 81-364 Gdynia</field>
     <field name="firma.adresKorespondencyjny">10 Lutego 56, 81-364 Gdynia</field>
@@ -851,7 +851,7 @@
     <field name="firma.nip">1238131444</field>
     <field name="firma.regon">238289826</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-11-27</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2021-03-11</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">20/02/2026</field>
     <field name="firma.dataWznowieniaDzialalnosci">2026-06-17</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">175, 58-100 Świdnica</field>
@@ -1172,7 +1172,7 @@
     <field name="firma.regon">239556867</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-12-04</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2021-09-30</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2022-04-02</field>
+    <field name="firma.dataWznowieniaDzialalnosci">11/06/2023</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Piastowska 87, 48-300 Nysa</field>
     <field name="firma.adresKorespondencyjny">os. Piastowska 87, 48-300 Nysa</field>
@@ -1212,7 +1212,7 @@
     <field name="firma.regon">239715248</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-03-26</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-12-03</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2023-03-10</field>
+    <field name="firma.dataWznowieniaDzialalnosci">11-05-2024</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ul. Rynek 121/61, 68-200 Żary</field>
     <field name="firma.adresKorespondencyjny">ul. Rynek 121/61, 68-200 Żary</field>
@@ -1451,7 +1451,7 @@
     <field name="firma.nip">1240507147</field>
     <field name="firma.regon">240665529</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-04-06</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2022-02-02</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">01/12/2022</field>
     <field name="firma.dataWznowieniaDzialalnosci"></field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. Żeromskiego 145/37, 26-600 Radom</field>
@@ -1551,8 +1551,8 @@
     <field name="firma.nip">1240903096</field>
     <field name="firma.regon">241061472</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-10-14</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2021-10-11</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2021-10-03</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">13/01/2025</field>
+    <field name="firma.dataWznowieniaDzialalnosci">20250314</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">50, 34-600 Mordarka</field>
     <field name="firma.adresKorespondencyjny">50, 34-600 Mordarka</field>
@@ -1811,7 +1811,7 @@
     <field name="firma.nip">1241932562</field>
     <field name="firma.regon">242090949</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-22</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2023-05-08</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">2026-20-02</field>
     <field name="firma.dataWznowieniaDzialalnosci"></field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Półwiejska 91, 61-888 Poznań</field>
@@ -2051,7 +2051,7 @@
     <field name="firma.nip">1242882843</field>
     <field name="firma.regon">243041226</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-04-22</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2024-05-02</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">20/02/2026</field>
     <field name="firma.dataWznowieniaDzialalnosci">2025-04-17</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
@@ -2291,7 +2291,7 @@
     <field name="firma.nip">1243833120</field>
     <field name="firma.regon">243991502</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-04-27</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2021-06-09</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">20-02-2026</field>
     <field name="firma.dataWznowieniaDzialalnosci">2022-12-15</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ulica Mostowa 139, 85-110 Bydgoszcz</field>
@@ -2492,7 +2492,7 @@
     <field name="firma.regon">244783409</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-02-23</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-08-11</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2023-10-07</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2025/07/01</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
     <field name="firma.adresKorespondencyjny">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
@@ -2512,7 +2512,7 @@
     <field name="firma.regon">244862592</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-08-13</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci">2022-06-09</field>
+    <field name="firma.dataWznowieniaDzialalnosci">15-09-2024</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Marszałkowska 146, 00-590 Warszawa</field>
     <field name="firma.adresKorespondencyjny">ul Marszałkowska 146, 00-590 Warszawa</field>
@@ -3012,7 +3012,7 @@
     <field name="firma.regon">246842346</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-08-03</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2024-06-08</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2023-11-05</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2024-05-10 06:42</field>
     <field name="firma.przewazajacePKD">62.01.Z</field>
     <field name="firma.adresDzialalnosci">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
@@ -3192,7 +3192,7 @@
     <field name="firma.regon">247555057</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-10-14</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2025-04-30</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2022-08-02</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2022/02/07</field>
     <field name="firma.przewazajacePKD">66.22.Z</field>
     <field name="firma.adresDzialalnosci">Świętojańska 4, 81-372 Gdynia</field>
     <field name="firma.adresKorespondencyjny">Świętojańska 4, 81-372 Gdynia</field>
@@ -3271,7 +3271,7 @@
     <field name="firma.nip">1247713430</field>
     <field name="firma.regon">247871812</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-09-29</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2022-11-08</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">2027/02/03</field>
     <field name="firma.dataWznowieniaDzialalnosci"></field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Sienkiewicza 72, 32-020 Wieliczka</field>
@@ -3492,7 +3492,7 @@
     <field name="firma.regon">248742904</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2022-05-28</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci">2025-03-05</field>
+    <field name="firma.dataWznowieniaDzialalnosci">2025/23/10</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">os. Małachowskiego 79, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">os. Małachowskiego 79, 42-500 Będzin</field>
@@ -3512,7 +3512,7 @@
     <field name="firma.regon">248822098</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-07-28</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-06-30</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2022-04-10</field>
+    <field name="firma.dataWznowieniaDzialalnosci">02-11-2026</field>
     <field name="firma.przewazajacePKD">70.22.Z</field>
     <field name="firma.adresDzialalnosci">Królowej Jadwigi 96, 88-100 Inowrocław</field>
     <field name="firma.adresKorespondencyjny">Królowej Jadwigi 96, 88-100 Inowrocław</field>
@@ -3711,7 +3711,7 @@
     <field name="firma.nip">1249455618</field>
     <field name="firma.regon">249613994</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-12-18</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2024-09-07</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">2025-13-01</field>
     <field name="firma.dataWznowieniaDzialalnosci">2025-10-04</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Nieistniejąca 46, 99-999 Nibylandia</field>
@@ -3952,7 +3952,7 @@
     <field name="firma.regon">250564275</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-03-16</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
-    <field name="firma.dataWznowieniaDzialalnosci">2023-04-11</field>
+    <field name="firma.dataWznowieniaDzialalnosci">20240915</field>
     <field name="firma.przewazajacePKD">43.22.Z</field>
     <field name="firma.adresDzialalnosci">ul Żeromskiego 110, 26-600 Radom</field>
     <field name="firma.adresKorespondencyjny">ul Żeromskiego 110, 26-600 Radom</field>
@@ -3972,7 +3972,7 @@
     <field name="firma.regon">250643460</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-09-17</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-06-21</field>
-    <field name="firma.dataWznowieniaDzialalnosci">2024-05-03</field>
+    <field name="firma.dataWznowieniaDzialalnosci">23/10/2025</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">ulica Tumska 127, 09-402 Płock</field>
     <field name="firma.adresKorespondencyjny">ulica Tumska 127, 09-402 Płock</field>
@@ -3991,7 +3991,7 @@
     <field name="firma.nip">1250564276</field>
     <field name="firma.regon">250722656</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-09-10</field>
-    <field name="firma.dataZawieszeniaDzialalnosci">2023-07-07</field>
+    <field name="firma.dataZawieszeniaDzialalnosci">06-04-2024</field>
     <field name="firma.dataWznowieniaDzialalnosci">2022-08-14</field>
     <field name="firma.przewazajacePKD">64.19.Z</field>
     <field name="firma.adresDzialalnosci">Karmelicka 144, 31-128 Kraków</field>

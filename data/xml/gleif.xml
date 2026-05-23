@@ -4729,7 +4729,7 @@
     <field name="RegisteredAs">247396676</field>
     <field name="DirectParentLEI">52990OC0OC0OC0OC0O06</field>
     <field name="DirectParentName">Astra Finance sp z oo</field>
-    <field name="DirectParentRelationshipType">IS_IDRECTLY_CONSOLIDATE_</field>
+    <field name="DirectParentRelationshipType">IS_IDRECTLY_CONSOLI_</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">13/03/2020</field>
     <field name="DirectParentRelationshipEndDate">2020-01-11</field>

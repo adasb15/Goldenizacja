@@ -1,6 +1,8 @@
 import csv
+import re
 import unittest
 from collections import defaultdict
+from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -147,6 +149,74 @@ class SyntheticDataQualityTests(unittest.TestCase):
                 f"Too many hard company conflicts for the same {identifier}: {hard_conflicts}",
             )
 
+    def test_generated_business_dates_are_chronological(self) -> None:
+        failures = []
+        for file_path in sorted(DATA_DIR.glob("*.csv")):
+            with file_path.open(encoding="utf-8-sig", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+                headers = handle.seekable() and rows[0].keys() if rows else []
+
+            date_columns = [
+                (header, self._date_role(header))
+                for header in headers
+                if self._date_role(header)
+            ]
+            if not date_columns:
+                continue
+
+            for row_number, row in enumerate(rows, start=2):
+                starts = []
+                ends = []
+                suspensions = []
+                resumes = []
+                for header, role in date_columns:
+                    parsed = self._parse_generated_date(row.get(header))
+                    if not parsed:
+                        continue
+                    if role == "start":
+                        starts.append((header, parsed))
+                    elif role == "end":
+                        ends.append((header, parsed))
+                    elif role == "suspension":
+                        suspensions.append((header, parsed))
+                    elif role == "resume":
+                        resumes.append((header, parsed))
+
+                for start_header, start_date in starts:
+                    for end_header, end_date in ends:
+                        if not self._dates_are_paired(start_header, end_header):
+                            continue
+                        if start_date > end_date:
+                            failures.append(
+                                f"{file_path.name}:{row_number} {start_header}={start_date} > {end_header}={end_date}"
+                            )
+
+                for suspension_header, suspension_date in suspensions:
+                    for start_header, start_date in starts:
+                        if suspension_date < start_date:
+                            failures.append(
+                                f"{file_path.name}:{row_number} {suspension_header}={suspension_date} < {start_header}={start_date}"
+                            )
+                    for end_header, end_date in ends:
+                        if suspension_date > end_date:
+                            failures.append(
+                                f"{file_path.name}:{row_number} {suspension_header}={suspension_date} > {end_header}={end_date}"
+                            )
+
+                for resume_header, resume_date in resumes:
+                    for suspension_header, suspension_date in suspensions:
+                        if resume_date < suspension_date:
+                            failures.append(
+                                f"{file_path.name}:{row_number} {resume_header}={resume_date} < {suspension_header}={suspension_date}"
+                            )
+                    for end_header, end_date in ends:
+                        if resume_date > end_date:
+                            failures.append(
+                                f"{file_path.name}:{row_number} {resume_header}={resume_date} > {end_header}={end_date}"
+                            )
+
+        self.assertEqual(failures[:20], [], f"Invalid generated date chronology: {failures[:20]}")
+
     def _person_refs(
         self,
         source: str,
@@ -198,6 +268,79 @@ class SyntheticDataQualityTests(unittest.TestCase):
         checksum = sum(int(value[index]) * weights[index] for index in range(10))
         control_digit = (10 - checksum % 10) % 10
         return control_digit == int(value[10])
+
+    def _date_role(self, value: str) -> str:
+        normalized = self._key_id(value)
+        if any(token in normalized for token in ("wykresl", "wyrejest", "deregistration", "termination")):
+            return "end"
+        if normalized.endswith("datado") or normalized.endswith("validto"):
+            return "end"
+        if "wznow" in normalized:
+            return "resume"
+        if "zawies" in normalized:
+            return "suspension"
+        if any(
+            token in normalized
+            for token in (
+                "wpis",
+                "rejestr",
+                "powstania",
+                "rozpoczecia",
+                "registrationlegaldate",
+                "initialregistrationdate",
+            )
+        ):
+            return "start"
+        if normalized.endswith("dataod") or normalized.endswith("validfrom"):
+            return "start"
+        return ""
+
+    def _dates_are_paired(self, start_header: str, end_header: str) -> bool:
+        start_id = self._key_id(start_header)
+        end_id = self._key_id(end_header)
+        if start_id.endswith("dataod") and end_id.endswith("datado"):
+            return start_id[: -len("dataod")] == end_id[: -len("datado")]
+        if start_id.endswith("validfrom") and end_id.endswith("validto"):
+            return start_id[: -len("validfrom")] == end_id[: -len("validto")]
+        return not (
+            start_id.endswith("dataod")
+            or start_id.endswith("validfrom")
+            or end_id.endswith("datado")
+            or end_id.endswith("validto")
+        )
+
+    def _parse_generated_date(self, value: str | None) -> date | None:
+        raw = (value or "").strip()
+        if not raw:
+            return None
+        text = raw.split("T", 1)[0].split(" ", 1)[0]
+        year_dash_order = ("year", "month", "day") if "T" in raw else ("year", "day", "month")
+        patterns = (
+            (r"^(\d{4})-(\d{2})-(\d{2})$", year_dash_order),
+            (r"^(\d{2})-(\d{2})-(\d{4})$", ("day", "month", "year")),
+            (r"^(\d{4})/(\d{2})/(\d{2})$", ("year", "day", "month")),
+            (r"^(\d{2})/(\d{2})/(\d{4})$", ("day", "month", "year")),
+            (r"^(\d{8})(?:\d{4}|\d{6})?$", ("compact",)),
+        )
+        for pattern, order in patterns:
+            match = re.match(pattern, text)
+            if not match:
+                continue
+            try:
+                if order == ("compact",):
+                    return date(int(text[:4]), int(text[4:6]), int(text[6:8]))
+                values = {name: int(group) for name, group in zip(order, match.groups())}
+                return date(values["year"], values["month"], values["day"])
+            except ValueError:
+                return None
+        return None
+
+    def _key_id(self, value: str) -> str:
+        translation = str.maketrans(
+            "ąćęłńóśżźĄĆĘŁŃÓŚŻŹ",
+            "acelnoszzACELNOSZZ",
+        )
+        return re.sub(r"[^a-z0-9]", "", value.translate(translation).casefold())
 
 
 if __name__ == "__main__":

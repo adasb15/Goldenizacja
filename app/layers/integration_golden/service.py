@@ -10,12 +10,12 @@ from rapidfuzz.distance import Levenshtein
 
 from app.layers.staging_validation.mapper import normalize_entity_type
 
-
+FUZZY_AUTO_MERGE_THRESHOLD = 0.95
 AUTO_MERGE_THRESHOLD = 0.90
 REVIEW_THRESHOLD = 0.70
 LEVENSHTEIN_CANDIDATE_THRESHOLD = 0.50
 DEFAULT_MATCHING_MAX_PAIRS = 2_000_000
-STABLE_CONFLICT_SIMILARITY_THRESHOLD = 0.70
+STABLE_CONFLICT_SIMILARITY_THRESHOLD = 0.60
 BLOCKING_CONFLICT_FIELD_COUNT = 3
 
 FALLBACK_SOURCE_TRUST_LEVELS = {
@@ -130,7 +130,7 @@ PERSON_FIELD_RULES = (
     FieldRule("Second_Name", 0.7, FieldRole.SEMI_FIXED, aliases=("Second_Name_Normalized",)),
     FieldRule("Last_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Last_Name_Normalized",)),
     FieldRule("Family_Name", 0.7, FieldRole.SEMI_FIXED, aliases=("Family_Name_Normalized",)),
-    FieldRule("Full_Name", 0.6, FieldRole.SEMI_FIXED, aliases=("Full_Name_Normalized",)),
+    FieldRule("Full_Name", 0.5, FieldRole.SEMI_FIXED, aliases=("Full_Name_Normalized",)),
     FieldRule("Place_Of_Birth", 0.9, FieldRole.FIXED, aliases=("Place_Of_Birth_Normalized",)),
     FieldRule("Sex", 0.8, FieldRole.SEMI_FIXED),
     FieldRule("Citizenship", 0.9, FieldRole.SEMI_FIXED, aliases=("Citizenship_Normalized",)),
@@ -448,11 +448,17 @@ def classify_match(
     blocking_conflict_fields: list[str] | None = None,
 ) -> MatchDecision:
     blocking_conflict_fields = blocking_conflict_fields or []
+    CRITICAL_IDENTIFIERS = {"pesel", "nip", "regon", "krs", "id_card", "passport"}
+    has_critical_id_conflict = any(
+        field.lower() in CRITICAL_IDENTIFIERS for field in blocking_conflict_fields
+    )
     if (
         not strong_match_fields
         and len(set(blocking_conflict_fields)) >= BLOCKING_CONFLICT_FIELD_COUNT
     ):
         return MatchDecision.NO_MATCH
+    if score >= FUZZY_AUTO_MERGE_THRESHOLD and not has_critical_id_conflict:
+        return MatchDecision.AUTO_MERGE
     if strong_match_fields and not conflict_fields:
         return MatchDecision.AUTO_MERGE
     if score >= AUTO_MERGE_THRESHOLD and not conflict_fields:
