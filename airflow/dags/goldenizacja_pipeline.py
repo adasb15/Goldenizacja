@@ -13,6 +13,8 @@ from airflow.operators.python import PythonOperator
 API_BASE_URL = "http://api:8000"
 LAYERS_API_PREFIX = "/layers"
 DEFAULT_FILE_PATH = "/opt/airflow/data/csv/pesel.csv"
+TERYT_SIMC_PATH = "/opt/airflow/data/teryt/SIMC.csv"
+TERYT_ULIC_PATH = "/opt/airflow/data/teryt/ULIC.csv"
 DEFAULT_SOURCE_SYSTEM_CODE_PARAM = "AUTO"
 DEFAULT_ENTITY_TYPE_PARAM = "AUTO"
 SOURCE_SYSTEM_BY_FILE_STEM = {
@@ -158,6 +160,27 @@ def preprocessing_load(**context: Any) -> dict[str, Any]:
     return results
 
 
+def teryt_load(**context: Any) -> dict[str, Any]:
+    simc_path = Path(TERYT_SIMC_PATH)
+    ulic_path = Path(TERYT_ULIC_PATH)
+
+    if not simc_path.is_file() or not ulic_path.is_file():
+        raise FileNotFoundError(
+            f"Brak plików TERYT w Airflow: SIMC={simc_path} ULIC={ulic_path}. "
+            "Upewnij się, że katalog ./data/teryt jest zamontowany do /opt/airflow/data/teryt."
+        )
+
+    with simc_path.open("rb") as simc_handle, ulic_path.open("rb") as ulic_handle:
+        return _post_form(
+            f"{LAYERS_API_PREFIX}/validation/teryt-load",
+            data={},
+            files={
+                "simc": (simc_path.name, simc_handle),
+                "ulic": (ulic_path.name, ulic_handle),
+            },
+        )
+
+
 def validation_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
     raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
@@ -227,9 +250,14 @@ with DAG(
         python_callable=preprocessing_load,
     )
 
+    teryt_load_task = PythonOperator(
+        task_id="teryt_load",
+        python_callable=teryt_load,
+    )
+
     validation_load_task = PythonOperator(
         task_id="validation_load",
         python_callable=validation_load,
     )
 
-    raw_load_task >> staging_load_task >> preprocessing_load_task >> validation_load_task
+    raw_load_task >> staging_load_task >> preprocessing_load_task >> teryt_load_task >> validation_load_task

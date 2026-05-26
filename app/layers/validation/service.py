@@ -1,5 +1,8 @@
 from datetime import date, datetime
+import csv
 import json
+import os
+from pathlib import Path
 import re
 import socket
 from dataclasses import dataclass
@@ -54,6 +57,10 @@ PESEL_MONTH_CENTURY_OFFSETS = (
 
 class RecordsForValidationNotFoundError(ValueError):
     pass
+
+
+TERYT_DIR_ENV = "TERYT_DIR"
+FILESTREAM_PATH_ENV = "FILESTREAM_PATH"
 
 
 @dataclass
@@ -249,6 +256,8 @@ def build_person_validation_results(
         ),
     ]
 
+    results.extend(build_address_teryt_validation_results(base=base, preprocessed_record=preprocessed_record))
+
     for field_name in (
         "First_Name_Normalized",
         "Second_Name_Normalized",
@@ -288,7 +297,7 @@ def build_party_validation_results(
     ultimate_parent_start_date = getattr(staging_record, "Ultimate_Parent_Relationship_Start_Date", None)
     ultimate_parent_end_date = getattr(staging_record, "Ultimate_Parent_Relationship_End_Date", None)
 
-    return [
+    results = [
         make_result(
             base,
             level="PREPROCESSING",
@@ -405,6 +414,44 @@ def build_party_validation_results(
         ),
     ]
 
+    results.extend(build_address_teryt_validation_results(base=base, preprocessed_record=preprocessed_record))
+    return results
+
+
+def build_address_teryt_validation_results(
+    base: dict[str, Any],
+    preprocessed_record: Any,
+) -> list[dict[str, Any]]:
+    if not teryt_enabled():
+        return []
+
+    city = getattr(preprocessed_record, "City_Normalized", None)
+    street = getattr(preprocessed_record, "Street_Normalized", None)
+
+    city_exists = validate_teryt_city_exists(city)
+    street_exists = validate_teryt_street_exists(city, street)
+
+    return [
+        make_result(
+            base,
+            level="PREPROCESSING",
+            rule_code="ADDR_TERYT_CITY_EXISTS",
+            field_name="City_Normalized",
+            value=city,
+            is_valid=city_exists,
+            error_message="ERR_TERYT_CITY_NOT_FOUND",
+        ),
+        make_result(
+            base,
+            level="PREPROCESSING",
+            rule_code="ADDR_TERYT_STREET_EXISTS",
+            field_name="Street_Normalized",
+            value=street,
+            is_valid=street_exists if city_exists else False,
+            error_message="ERR_TERYT_STREET_NOT_FOUND",
+        ),
+    ]
+
 
 def make_result(
     base: dict[str, Any],
@@ -426,6 +473,211 @@ def make_result(
         "Message": "OK" if is_valid else error_message,
         "Checked_Value": None if value is None else str(value),
     }
+
+
+def teryt_enabled() -> bool:
+    return teryt_files_exist(resolve_teryt_dir())
+
+
+def resolve_default_teryt_dir() -> Path:
+    # Prefer a local `data/teryt` next to the codebase, but be resilient to different working
+    # directories / installation layouts (Airflow, editable install, etc.).
+    candidates: list[Path] = []
+
+    filestream_base = os.getenv(FILESTREAM_PATH_ENV, "/data/filestream")
+    candidates.append(Path(filestream_base) / "teryt")
+
+    cwd = Path.cwd()
+    candidates.append(cwd / "data" / "teryt")
+
+    current = Path(__file__).resolve()
+    for parent in (current.parent, *current.parents):
+        candidates.append(parent / "data" / "teryt")
+
+    for candidate in candidates:
+        if teryt_files_exist(candidate):
+            return candidate
+
+    return candidates[0]
+
+
+def resolve_teryt_dir() -> Path:
+    override = os.getenv(TERYT_DIR_ENV, "").strip()
+    if override:
+        return Path(override)
+    return resolve_default_teryt_dir()
+
+
+def teryt_files_exist(teryt_dir: Path) -> bool:
+    if not teryt_dir.is_dir():
+        return False
+
+    simc = find_file_case_insensitive(teryt_dir, "SIMC.csv")
+    ulic = find_file_case_insensitive(teryt_dir, "ULIC.csv")
+    return simc is not None and ulic is not None
+
+
+def find_file_case_insensitive(directory: Path, filename: str) -> Path | None:
+    direct = directory / filename
+    if direct.is_file():
+        return direct
+
+    target = filename.casefold()
+    try:
+        for entry in directory.iterdir():
+            if entry.is_file() and entry.name.casefold() == target:
+                return entry
+    except OSError:
+        return None
+    return None
+
+
+def get_teryt_index() -> tuple[dict[str, set[str]], dict[str, set[str]], set[str]]:
+    teryt_dir = str(resolve_teryt_dir().resolve())
+    return load_teryt_index(teryt_dir)
+
+
+@lru_cache(maxsize=8)
+def load_teryt_index(teryt_dir: str) -> tuple[dict[str, set[str]], dict[str, set[str]], set[str]]:
+    teryt_dir_path = Path(teryt_dir)
+    simc_path = find_file_case_insensitive(teryt_dir_path, "SIMC.csv")
+    ulic_path = find_file_case_insensitive(teryt_dir_path, "ULIC.csv")
+    if simc_path is None or ulic_path is None:
+        return {}, {}, set()
+
+    city_to_syms: dict[str, set[str]] = {}
+    with simc_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle, delimiter=";")
+        for row in reader:
+            name = normalize_teryt_key(row.get("NAZWA"))
+            sym = normalize_teryt_key(row.get("SYM"))
+            if not name or not sym:
+                continue
+            city_to_syms.setdefault(name, set()).add(sym)
+
+    streets_by_sym: dict[str, set[str]] = {}
+    streets_anywhere: set[str] = set()
+    with ulic_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle, delimiter=";")
+        for row in reader:
+            sym = normalize_teryt_key(row.get("SYM"))
+            if not sym:
+                continue
+            variants = build_teryt_street_key_variants(
+                cecha=row.get("CECHA"),
+                nazwa_1=row.get("NAZWA_1"),
+                nazwa_2=row.get("NAZWA_2"),
+            )
+            for street_key in variants:
+                streets_by_sym.setdefault(sym, set()).add(street_key)
+                streets_anywhere.add(street_key)
+
+    return city_to_syms, streets_by_sym, streets_anywhere
+
+
+def normalize_teryt_key(value: Any) -> str | None:
+    if value in (None, ""):
+        return None
+    return re.sub(r"\s+", " ", str(value).strip().upper()) or None
+
+
+def canonicalize_street_prefix(value: str | None) -> str | None:
+    if not value:
+        return None
+    raw = str(value).strip().casefold().removesuffix(".")
+    if raw in {"ul", "ulica"}:
+        return "UL"
+    if raw in {"al", "aleja"}:
+        return "AL"
+    if raw in {"os", "osiedle"}:
+        return "OS"
+    if raw in {"pl", "plac"}:
+        return "PL"
+    return None
+
+
+def build_teryt_street_key(cecha: Any, nazwa_1: Any, nazwa_2: Any) -> str | None:
+    prefix = canonicalize_street_prefix(None if cecha is None else str(cecha))
+    name_1 = normalize_teryt_key(nazwa_1)
+    name_2 = normalize_teryt_key(nazwa_2)
+    if not prefix or not name_1:
+        return None
+    name = name_1 if not name_2 else f"{name_1} {name_2}"
+    return f"{prefix} {name}".strip()
+
+
+def build_teryt_street_key_variants(cecha: Any, nazwa_1: Any, nazwa_2: Any) -> set[str]:
+    prefix = canonicalize_street_prefix(None if cecha is None else str(cecha))
+    name_1 = normalize_teryt_key(nazwa_1)
+    name_2 = normalize_teryt_key(nazwa_2)
+    if not prefix or not name_1:
+        return set()
+
+    variants = {f"{prefix} {name_1}".strip()}
+    if name_2:
+        variants.add(f"{prefix} {name_1} {name_2}".strip())
+    return variants
+
+
+def split_normalized_street(value: str | None) -> tuple[str | None, str | None]:
+    if value in (None, ""):
+        return None, None
+    normalized = normalize_teryt_key(value)
+    if not normalized:
+        return None, None
+    parts = normalized.split(" ", 1)
+    if len(parts) == 1:
+        return None, normalized
+    prefix = canonicalize_street_prefix(parts[0])
+    if not prefix:
+        return None, normalized
+    return prefix, parts[1].strip() or None
+
+
+def swap_last_token_to_front(value: str) -> str | None:
+    tokens = value.split()
+    if len(tokens) < 2:
+        return None
+    last = tokens[-1]
+    rest = tokens[:-1]
+    swapped = " ".join([last, *rest]).strip()
+    return swapped or None
+
+
+def validate_teryt_city_exists(city_normalized: str | None) -> bool:
+    if city_normalized in (None, ""):
+        return True
+    city_to_syms, _, _ = get_teryt_index()
+    key = normalize_teryt_key(city_normalized)
+    return bool(key and key in city_to_syms)
+
+
+def validate_teryt_street_exists(city_normalized: str | None, street_normalized: str | None) -> bool:
+    if street_normalized in (None, ""):
+        return True
+
+    prefix, name = split_normalized_street(street_normalized)
+    if not prefix or not name:
+        return False
+    street_key = f"{prefix} {name}".strip()
+    swapped_name = swap_last_token_to_front(name)
+    swapped_key = f"{prefix} {swapped_name}".strip() if swapped_name else None
+
+    city_to_syms, streets_by_sym, streets_anywhere = get_teryt_index()
+    if city_normalized not in (None, ""):
+        city_key = normalize_teryt_key(city_normalized)
+        if not city_key:
+            return False
+        syms = city_to_syms.get(city_key)
+        if not syms:
+            return False
+        return any(
+            street_key in streets_by_sym.get(sym, set())
+            or (swapped_key is not None and swapped_key in streets_by_sym.get(sym, set()))
+            for sym in syms
+        )
+
+    return street_key in streets_anywhere or (swapped_key is not None and swapped_key in streets_anywhere)
 
 
 def validate_optional_identifier(identifier_type: str, value: str | None) -> bool:

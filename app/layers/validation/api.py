@@ -1,6 +1,8 @@
 from dataclasses import asdict
+import os
+from pathlib import Path
 
-from fastapi import APIRouter, Depends, Form, HTTPException
+from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from sqlalchemy.orm import Session
 
 from app.db.sql import get_db
@@ -9,11 +11,30 @@ from app.layers.validation.service import RecordsForValidationNotFoundError, loa
 
 
 router = APIRouter(prefix="/validation", tags=["validation"])
+FILESTREAM_PATH_ENV = "FILESTREAM_PATH"
 
 
 @router.get("/status", response_model=LayerStatus)
 def status() -> LayerStatus:
     return LayerStatus(layer="validation", status="ready")
+
+
+@router.post("/teryt-load")
+async def teryt_load(
+    simc: UploadFile = File(...),
+    ulic: UploadFile = File(...),
+) -> dict[str, str]:
+    try:
+        filestream_base = os.getenv(FILESTREAM_PATH_ENV, "/data/filestream")
+        target_dir = Path(filestream_base) / "teryt"
+        target_dir.mkdir(parents=True, exist_ok=True)
+
+        (target_dir / "SIMC.csv").write_bytes(await simc.read())
+        (target_dir / "ULIC.csv").write_bytes(await ulic.read())
+
+        return {"status": "ok", "teryt_dir": str(target_dir)}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"TERYT_LOAD failed: {exc}") from exc
 
 
 @router.post("/validation-load", response_model=ValidationLoadResponse)
