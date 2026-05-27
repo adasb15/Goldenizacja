@@ -13,7 +13,12 @@ except ImportError:
     phonenumbers = None
 
 
-ADDRESS_PREFIX_RE = re.compile(r"^(?:ul\.?|ulica|al\.?|aleja)\s+", re.IGNORECASE)
+# Prefiksy w adresach wchodzą w różnych wariantach ("ul.", "ul", "ulica", "os.", "osiedle", ...).
+# Nie usuwamy ich całkiem, bo "os." (osiedle) to nie to samo co "ul." (ulica) i może wpływać na matching.
+ADDRESS_PREFIX_RE = re.compile(
+    r"^(?P<prefix>ul\.?|ulica|al\.?|aleja|os\.?|osiedle|pl\.?|plac)\s+",
+    re.IGNORECASE,
+)
 APARTMENT_PREFIX_RE = re.compile(r"\s+(?:m\.?|lok\.?|lokal)\s+", re.IGNORECASE)
 FULL_ADDRESS_STREET_FIRST_RE = re.compile(
     r"^\s*(?P<street_part>.+?),\s*(?P<postal_code>\d{2}-\d{3})\s+(?P<city>.+?)\s*$"
@@ -501,8 +506,35 @@ def split_street_line(parts: AddressParts, street_line: str) -> None:
 
 
 def normalize_street_line(value: str) -> str:
-    without_prefix = ADDRESS_PREFIX_RE.sub("", value).strip()
-    return APARTMENT_PREFIX_RE.sub("/", without_prefix).strip()
+    value = value.strip()
+    prefix_match = ADDRESS_PREFIX_RE.match(value)
+    prefix_canonical: str | None = None
+
+    if prefix_match:
+        raw_prefix = prefix_match.group("prefix").strip().casefold().removesuffix(".")
+        if raw_prefix in ("ul", "ulica"):
+            prefix_canonical = "UL"
+        elif raw_prefix in ("al", "aleja"):
+            prefix_canonical = "AL"
+        elif raw_prefix in ("os", "osiedle"):
+            prefix_canonical = "OS"
+        elif raw_prefix in ("pl", "plac"):
+            prefix_canonical = "PL"
+
+        value = value[prefix_match.end() :].strip()
+
+    normalized = APARTMENT_PREFIX_RE.sub("/", value).strip()
+
+    # Jeżeli prefiksu nie ma w ogóle, a wygląda to na nazwę ulicy (a nie sam numer budynku),
+    # dopisujemy domyślnie "UL" dla lepszego matchingu z TERYT.
+    if not prefix_canonical and normalized:
+        starts_with_canonical = re.match(r"^(UL|AL|OS|PL)\b", normalized, re.IGNORECASE) is not None
+        if not starts_with_canonical and BUILDING_ONLY_RE.match(normalized) is None:
+            prefix_canonical = "UL"
+
+    if prefix_canonical:
+        return f"{prefix_canonical} {normalized}".strip()
+    return normalized
 
 
 def looks_like_street_line(value: str) -> bool:

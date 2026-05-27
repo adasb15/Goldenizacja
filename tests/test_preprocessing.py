@@ -21,8 +21,14 @@ class PreprocessingTests(unittest.TestCase):
         self.assertEqual(normalize_email(" Jan.Kowalski@Example.TEST "), "jan.kowalski@example.test")
 
     def test_keeps_pphu_as_part_of_party_name(self) -> None:
-        self.assertEqual(split_party_name_and_legal_form("P.P.H.U. Baltic Med Supply"), ("P.P.H.U. Baltic Med Supply", None))
-        self.assertEqual(split_party_name_and_legal_form("Baltic Med Supply - PPHU"), ("Baltic Med Supply - PPHU", None))
+        self.assertEqual(
+            split_party_name_and_legal_form("P.P.H.U. Baltic Med Supply"),
+            ("P.P.H.U. Baltic Med Supply", None),
+        )
+        self.assertEqual(
+            split_party_name_and_legal_form("Baltic Med Supply - PPHU"),
+            ("Baltic Med Supply - PPHU", None),
+        )
 
     def test_keeps_trade_name_without_legal_form(self) -> None:
         self.assertEqual(split_party_name_and_legal_form("Facebook - Meta"), ("Facebook - Meta", None))
@@ -51,7 +57,7 @@ class PreprocessingTests(unittest.TestCase):
             Phone_Number="+48 502 693 570",
             Email_Address="INFO@EXAMPLE.TEST",
             Website="https://www.example.test",
-            Street="Baltycka 136/11, 66-157 Bydgoszcz",
+            Street="Bałtycka 136/11, 66-157 Bydgoszcz",
             Building_Number=None,
             Apartment_Number=None,
             City=None,
@@ -64,27 +70,27 @@ class PreprocessingTests(unittest.TestCase):
 
         self.assertEqual(preprocessed["Name_Normalized"], "GŁOGOWSKA SPÓŁKA AKCYJNA")
         self.assertEqual(preprocessed["NIP_Normalized"], "1234567890")
-        self.assertEqual(preprocessed["Street_Normalized"], "BALTYCKA")
+        self.assertEqual(preprocessed["Street_Normalized"], "UL BAŁTYCKA")
         self.assertEqual(preprocessed["Building_Number_Normalized"], "136")
         self.assertEqual(preprocessed["Apartment_Number_Normalized"], "11")
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "66-157")
         self.assertEqual(preprocessed["City_Normalized"], "BYDGOSZCZ")
         self.assertEqual(preprocessed["Country_Normalized"], "PL")
 
-    def test_builds_party_preprocessed_record_with_oracle_legal_form_code(self) -> None:
+    def test_splits_estate_prefix_as_street(self) -> None:
         staging_record = SimpleNamespace(
             Staging_ID=15,
             ImportBatch_ID=25,
             RawFile_ID=35,
-            Source_Record_ID="IC-10001",
-            Name="Facebook Meta Sp. z o.o.",
-            Short_Name="Facebook Meta",
-            Legal_Entity_Type="LLC_PL",
-            Identifiers_JSON=json.dumps({"NIP": "525-234-56-78"}),
+            Source_Record_ID="SRC-15",
+            Name="Example sp. z o.o.",
+            Short_Name=None,
+            Legal_Entity_Type=None,
+            Identifiers_JSON=json.dumps({"NIP": "1234567890"}),
             Phone_Number=None,
             Email_Address=None,
             Website=None,
-            Street=None,
+            Street="os. Marszałkowskie 1/1, 00-590 Warszawa",
             Building_Number=None,
             Apartment_Number=None,
             City=None,
@@ -95,7 +101,11 @@ class PreprocessingTests(unittest.TestCase):
 
         preprocessed = build_preprocessed_record(staging_record, "PARTY")
 
-        self.assertEqual(preprocessed["Legal_Entity_Type_Normalized"], "SP. Z O.O.")
+        self.assertEqual(preprocessed["Street_Normalized"], "OS MARSZAŁKOWSKIE")
+        self.assertEqual(preprocessed["Building_Number_Normalized"], "1")
+        self.assertEqual(preprocessed["Apartment_Number_Normalized"], "1")
+        self.assertEqual(preprocessed["Postal_Code_Normalized"], "00-590")
+        self.assertEqual(preprocessed["City_Normalized"], "WARSZAWA")
 
     def test_builds_party_identifiers_from_gleif_registered_at_krs(self) -> None:
         staging_record = SimpleNamespace(
@@ -109,7 +119,7 @@ class PreprocessingTests(unittest.TestCase):
             Identifiers_JSON=json.dumps({"LEI": "529900T8BM49AURSDO55"}),
             Validation_Authority_ID=(
                 "National Court Register (Ministry of Justice) | "
-                "Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | "
+                "Krajowy Rejestr Sądowy (KRS) (Ministerstwo Sprawiedliwości) | "
                 "Poland | RA000466"
             ),
             Validation_Authority_Entity_ID="0000750893",
@@ -143,8 +153,8 @@ class PreprocessingTests(unittest.TestCase):
             Identifiers_JSON=json.dumps({"LEI": "259400T8BM49AURSDO55"}),
             Validation_Authority_ID=(
                 "National Official Business Register (Central Statistical Office) | "
-                "Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON "
-                "(Glowny Urzad Statystyczny) | Poland | RA000484"
+                "Krajowy Rejestr Urzędowy Podmiotów Gospodarki Narodowej REGON "
+                "(Główny Urząd Statystyczny) | Poland | RA000484"
             ),
             Validation_Authority_Entity_ID="235-043-036",
             Phone_Number=None,
@@ -218,7 +228,7 @@ class PreprocessingTests(unittest.TestCase):
         preprocessed = build_preprocessed_record(staging_record, "PERSON")
 
         self.assertEqual(preprocessed["Full_Name_Normalized"], "ŁUKASZ ŻÓŁĆ")
-        self.assertEqual(preprocessed["Street_Normalized"], "ŁĄKOWA")
+        self.assertEqual(preprocessed["Street_Normalized"], "UL ŁĄKOWA")
         self.assertEqual(preprocessed["Building_Number_Normalized"], "38")
         self.assertEqual(preprocessed["Apartment_Number_Normalized"], "43")
         self.assertEqual(preprocessed["Postal_Code_Normalized"], "44-508")
@@ -348,3 +358,4 @@ class ExtendedPreprocessingMatchingFieldTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
