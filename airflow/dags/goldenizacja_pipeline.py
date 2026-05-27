@@ -15,8 +15,11 @@ LAYERS_API_PREFIX = "/layers"
 DEFAULT_FILE_PATH = "/opt/airflow/data/csv/pesel.csv"
 TERYT_SIMC_PATH = "/opt/airflow/data/teryt/SIMC.csv"
 TERYT_ULIC_PATH = "/opt/airflow/data/teryt/ULIC.csv"
+DEFAULT_INPUT_TYPE = "FILE"
 DEFAULT_SOURCE_SYSTEM_CODE_PARAM = "AUTO"
 DEFAULT_ENTITY_TYPE_PARAM = "AUTO"
+DEFAULT_RELATIONAL_SOURCE_SYSTEM_CODE = "INSURANCE_CORE"
+DEFAULT_RELATIONAL_QUERY_NAME = "insurance_core_export"
 SOURCE_SYSTEM_BY_FILE_STEM = {
     "ceidg": "CEIDG",
     "gleif": "GLEIF",
@@ -35,6 +38,7 @@ DEFAULT_ENTITY_TYPE_BY_SOURCE_SYSTEM = {
     "PESEL": "PERSON",
     "REGON": "PARTY",
     "VAT": "PARTY",
+    "INSURANCE_CORE": "PARTY",
 }
 AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS = {
     "CEIDG",
@@ -68,10 +72,20 @@ def _post_form(endpoint: str, data: dict[str, Any], files: dict[str, Any] | None
     return response.json()
 
 
+def _input_type(conf: dict[str, Any]) -> str:
+    input_type = str(conf.get("input_type", DEFAULT_INPUT_TYPE)).upper()
+    if input_type not in {"FILE", "RELATIONAL"}:
+        raise ValueError("input_type musi mieć wartość FILE albo RELATIONAL.")
+    return input_type
+
+
 def _source_system_code(conf: dict[str, Any], file_path: Path) -> str:
     configured = conf.get("source_system_code")
     if configured and str(configured).upper() != DEFAULT_SOURCE_SYSTEM_CODE_PARAM:
         return str(configured).upper()
+
+    if _input_type(conf) == "RELATIONAL":
+        return DEFAULT_RELATIONAL_SOURCE_SYSTEM_CODE
 
     source_system_code = SOURCE_SYSTEM_BY_FILE_STEM.get(file_path.stem.lower())
     if source_system_code is None:
@@ -88,6 +102,9 @@ def _entity_types(conf: dict[str, Any]) -> tuple[str, ...]:
     if configured and str(configured).upper() != DEFAULT_ENTITY_TYPE_PARAM:
         return (str(configured).upper(),)
 
+    if _input_type(conf) == "RELATIONAL":
+        return AUTO_BOTH_ENTITY_TYPES
+
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
     if source_system_code in AUTO_BOTH_ENTITY_TYPES_SOURCE_SYSTEMS:
@@ -103,11 +120,28 @@ def _entity_types(conf: dict[str, Any]) -> tuple[str, ...]:
     return (entity_type,)
 
 
-def raw_load(**context: Any) -> int:
+def raw_load(**context: Any) -> int | dict[str, int]:
     conf = _conf(context)
     file_path = Path(conf.get("file_path", DEFAULT_FILE_PATH))
     source_system_code = _source_system_code(conf, file_path)
     created_by = conf.get("created_by", "airflow")
+
+    if _input_type(conf) == "RELATIONAL":
+        raw_file_ids = {}
+        for entity_type in _entity_types(conf):
+            result = _post_form(
+                f"{LAYERS_API_PREFIX}/ingestion/relational-load",
+                data={
+                    "source_system_code": source_system_code,
+                    "query_name": conf.get("query_name", DEFAULT_RELATIONAL_QUERY_NAME),
+                    "entity_type": entity_type,
+                    "created_by": created_by,
+                },
+            )
+            raw_file_ids[entity_type] = int(result["raw_file_id"])
+        if len(raw_file_ids) == 1:
+            return next(iter(raw_file_ids.values()))
+        return raw_file_ids
 
     with file_path.open("rb") as file_handle:
         result = _post_form(
@@ -126,11 +160,12 @@ def raw_load(**context: Any) -> int:
 
 def staging_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/staging_validation/staging-load",
             data={
@@ -144,11 +179,12 @@ def staging_load(**context: Any) -> dict[str, Any]:
 
 def preprocessing_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/preprocessing/preprocessing-load",
             data={
@@ -183,18 +219,42 @@ def teryt_load(**context: Any) -> dict[str, Any]:
 
 def validation_load(**context: Any) -> dict[str, Any]:
     conf = _conf(context)
-    raw_file_id = context["ti"].xcom_pull(task_ids="raw_load")
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
     check_email_dns = str(conf.get("check_email_dns", True)).lower()
 
     results = {}
     for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
         results[entity_type] = _post_form(
             f"{LAYERS_API_PREFIX}/validation/validation-load",
             data={
                 "raw_file_id": raw_file_id,
                 "entity_type": entity_type,
                 "check_email_dns": check_email_dns,
+            },
+        )
+
+    return results
+
+
+def integration_golden_match(**context: Any) -> dict[str, Any]:
+    conf = _conf(context)
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
+    entity_types = _entity_types(conf)
+    min_score = conf.get("matching_min_score", 0.50)
+    max_pairs = conf.get("matching_max_pairs", 2_000_000)
+
+    results = {}
+    for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/integration_golden/match-candidates",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+                "min_score": min_score,
+                "max_pairs": max_pairs,
             },
         )
 
@@ -210,12 +270,22 @@ with DAG(
         "file_path": Param(
             DEFAULT_FILE_PATH,
             type="string",
-            description="Sciezka do pliku widoczna z kontenera Airflow.",
+            description="Sciezka do pliku widoczna z kontenera Airflow dla input_type=FILE.",
+        ),
+        "input_type": Param(
+            DEFAULT_INPUT_TYPE,
+            enum=["FILE", "RELATIONAL"],
+            description="FILE = upload pliku, RELATIONAL = pobranie z Oracle przez ODBC.",
         ),
         "source_system_code": Param(
             DEFAULT_SOURCE_SYSTEM_CODE_PARAM,
             type="string",
-            description="AUTO = wykryj z nazwy pliku albo podaj PESEL, VAT, REGON, KRS itd.",
+            description="AUTO = wykryj z pliku albo użyj domyślnego źródła relacyjnego.",
+        ),
+        "query_name": Param(
+            DEFAULT_RELATIONAL_QUERY_NAME,
+            type="string",
+            description="Dla Oracle domyslnie insurance_core_export; entity_type wybiera zakres danych.",
         ),
         "entity_type": Param(
             DEFAULT_ENTITY_TYPE_PARAM,
@@ -231,6 +301,16 @@ with DAG(
             True,
             type="boolean",
             description="Czy walidacja email ma sprawdzac DNS.",
+        ),
+        "matching_min_score": Param(
+            0.50,
+            type="number",
+            description="Minimalny score pierwszego etapu Levenshteina. Nizszy prog przepuszcza wiecej kandydatow do kolejnych miar.",
+        ),
+        "matching_max_pairs": Param(
+            2000000,
+            type="integer",
+            description="Maksymalna liczba par porownywanych w kroku integration_golden. Wartosc 0 wylacza limit bezpieczenstwa.",
         ),
     },
     tags=["goldenizacja", "pipeline"],
@@ -260,4 +340,16 @@ with DAG(
         python_callable=validation_load,
     )
 
-    raw_load_task >> staging_load_task >> preprocessing_load_task >> teryt_load_task >> validation_load_task
+    integration_golden_match_task = PythonOperator(
+        task_id="integration_golden_match",
+        python_callable=integration_golden_match,
+    )
+
+    (
+        raw_load_task
+        >> staging_load_task
+        >> preprocessing_load_task
+        >> teryt_load_task
+        >> validation_load_task
+        >> integration_golden_match_task
+    )

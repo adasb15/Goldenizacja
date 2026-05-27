@@ -1,4 +1,10 @@
-from pydantic import BaseModel
+try:
+    from pydantic import BaseModel
+except ImportError:
+    class BaseModel:
+        def __init__(self, **data):
+            for key, value in data.items():
+                setattr(self, key, value)
 
 
 class LayerStatus(BaseModel):
@@ -17,3 +23,10 @@ class RawLoadResponse(BaseModel):
     file_hash: str
     records_in: int | None
     import_status: str
+
+
+class RelationalQueryInfo(BaseModel):
+    query_name: str
+    source_system_code: str
+    entity_type: str
+    description: str

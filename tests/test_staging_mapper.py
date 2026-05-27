@@ -210,6 +210,57 @@ class StagingMapperTests(unittest.TestCase):
         )
         self.assertEqual(result["Ultimate_Parent_LEI"], None)
 
+    def test_maps_insurance_core_identifiers_from_relational_snapshot(self) -> None:
+        source_record = {
+            "PARTY_LABEL": "Facebook Meta Sp. z o.o.",
+            "TAX_REF": "1234805466",
+            "STAT_REG_REF": "234963846",
+            "COURT_REF": "0000000008",
+        }
+        mapping = {
+            "PARTY_LABEL": "Name",
+            "TAX_REF": "Identifiers_JSON",
+            "STAT_REG_REF": "Identifiers_JSON",
+            "COURT_REF": "Identifiers_JSON",
+        }
+
+        result = map_record_to_canonical(source_record, mapping, "PARTY")
+
+        self.assertEqual(result["Name"], "Facebook Meta Sp. z o.o.")
+        self.assertEqual(
+            json.loads(result["Identifiers_JSON"]),
+            {
+                "NIP": "1234805466",
+                "REGON": "234963846",
+                "KRS": "0000000008",
+            },
+        )
+
+    def test_maps_insurance_core_person_from_relational_snapshot(self) -> None:
+        source_record = {
+            "PERSON_REF": "AGENT-1",
+            "NATIONAL_REF": "60021406849",
+            "GIVEN_TXT": "Magdalena",
+            "FAMILY_TXT": "Pawlak-Sikora",
+            "MAILBOX": None,
+            "TEL_NOTE": None,
+        }
+        mapping = {
+            "PERSON_REF": "Source_Record_ID",
+            "NATIONAL_REF": "PESEL",
+            "GIVEN_TXT": "First_Name",
+            "FAMILY_TXT": "Last_Name",
+            "MAILBOX": "Email_Address",
+            "TEL_NOTE": "Phone_Number",
+        }
+
+        result = map_record_to_canonical(source_record, mapping, "PERSON")
+
+        self.assertEqual(result["Source_Record_ID"], "AGENT-1")
+        self.assertEqual(result["PESEL"], "60021406849")
+        self.assertEqual(result["First_Name"], "Magdalena")
+        self.assertEqual(result["Last_Name"], "Pawlak-Sikora")
+
     def test_builds_gleif_staging_record_with_relationship_dates(self) -> None:
         canonical_record = {
             "Name": "GLEIF Company",
@@ -289,6 +340,7 @@ class StagingMapperTests(unittest.TestCase):
         source_record = {
             "nazwa": "KRS Company",
             "CzlonekZarzadu1_Imie": "Anna",
+            "CzlonekZarzadu1_DrugieImie": "Maria",
             "CzlonekZarzadu1_Nazwisko": "Nowak",
             "CzlonekZarzadu1_PESEL": "90010112345",
             "CzlonekZarzadu1_Funkcja": "PREZES",
@@ -321,6 +373,7 @@ class StagingMapperTests(unittest.TestCase):
                     "role_group": "BOARD_MEMBER",
                     "slot": 1,
                     "first_name": "Anna",
+                    "second_name": "Maria",
                     "last_name": "Nowak",
                     "pesel": "90010112345",
                     "role_name": "PREZES",
@@ -341,6 +394,35 @@ class StagingMapperTests(unittest.TestCase):
                 }
             ],
         )
+
+    def test_krs_person_mapping_does_not_mix_related_person_groups(self) -> None:
+        source_record = {
+            "CzlonekZarzadu1_Imie": "Anna",
+            "CzlonekZarzadu1_DrugieImie": "",
+            "CzlonekZarzadu1_Nazwisko": "Kowalska-Krawczyk",
+            "CzlonekZarzadu1_PESEL": "60021406849",
+            "Prokurent1_Imie": "Łukasz",
+            "Prokurent1_DrugieImie": "Artur",
+            "Prokurent1_Nazwisko": "Nowak",
+            "Prokurent1_PESEL": "73032124675",
+        }
+        mapping = {
+            "CzlonekZarzadu1_Imie": "First_Name",
+            "CzlonekZarzadu1_DrugieImie": "Second_Name",
+            "CzlonekZarzadu1_Nazwisko": "Last_Name",
+            "CzlonekZarzadu1_PESEL": "PESEL",
+            "Prokurent1_Imie": "First_Name",
+            "Prokurent1_DrugieImie": "Second_Name",
+            "Prokurent1_Nazwisko": "Last_Name",
+            "Prokurent1_PESEL": "PESEL",
+        }
+
+        canonical_record = map_record_to_canonical(source_record, mapping, "PERSON")
+
+        self.assertEqual(canonical_record["PESEL"], "60021406849")
+        self.assertEqual(canonical_record["First_Name"], "Anna")
+        self.assertIsNone(canonical_record["Second_Name"])
+        self.assertEqual(canonical_record["Last_Name"], "Kowalska-Krawczyk")
 
     def test_normalizes_vat_bank_accounts_json(self) -> None:
         staging_record = build_staging_record(

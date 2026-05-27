@@ -63,6 +63,11 @@ LEGAL_FORM_PATTERNS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bSTOWARZYSZENI[EA]\b", re.IGNORECASE), "STOWARZYSZENIE"),
 ]
 
+LEGAL_ENTITY_TYPE_ALIASES = {
+    "LLCPL": "SP. Z O.O.",
+    "JSCPL": "S.A.",
+}
+
 
 class StagingRecordsNotFoundError(ValueError):
     pass
@@ -88,7 +93,10 @@ class AddressParts:
     building_number: str | None = None
     apartment_number: str | None = None
     city: str | None = None
+    postal_city: str | None = None
     postal_code: str | None = None
+    district: str | None = None
+    province: str | None = None
     country: str | None = None
 
     @property
@@ -186,6 +194,7 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
     apartment_number_normalized = normalize_identifier(address_parts.apartment_number)
     postal_code_normalized = normalize_postal_code(address_parts.postal_code)
     city_normalized = normalize_city_text(address_parts.city)
+    postal_city_normalized = normalize_city_text(address_parts.postal_city)
     country_normalized = normalize_text_key(address_parts.country)
     full_address_normalized = build_full_address_normalized(
         street_normalized,
@@ -204,7 +213,10 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
         "Building_Number_Normalized": building_number_normalized,
         "Apartment_Number_Normalized": apartment_number_normalized,
         "City_Normalized": city_normalized,
+        "Postal_City_Normalized": postal_city_normalized,
         "Postal_Code_Normalized": postal_code_normalized,
+        "District_Normalized": normalize_text_key(address_parts.district),
+        "Province_Normalized": normalize_text_key(address_parts.province),
         "Country_Normalized": country_normalized,
         "Full_Address_Normalized": full_address_normalized,
         "Preprocessing_Rules_JSON": build_rules_json(),
@@ -218,12 +230,26 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
         base.update(
             {
                 "PESEL_Normalized": normalize_identifier(staging_record.PESEL),
+                "Serial_Number_ID_Card_Normalized": normalize_identifier(
+                    getattr(staging_record, "Serial_Number_ID_Card", None)
+                ),
+                "Serial_Number_Passport_Normalized": normalize_identifier(
+                    getattr(staging_record, "Serial_Number_Passport", None)
+                ),
                 "First_Name_Normalized": first_name,
                 "Second_Name_Normalized": second_name,
                 "Last_Name_Normalized": last_name,
                 "Family_Name_Normalized": family_name,
                 "Full_Name_Normalized": compact_text(
                     " ".join(part for part in (first_name, second_name, last_name) if part)
+                ),
+                "Birth_Date": getattr(staging_record, "Birth_Date", None),
+                "Place_Of_Birth_Normalized": normalize_text_key(
+                    getattr(staging_record, "Place_Of_Birth", None)
+                ),
+                "Sex": getattr(staging_record, "Sex", None),
+                "Citizenship_Normalized": normalize_text_key(
+                    getattr(staging_record, "Citizenship", None)
                 ),
                 "Phone_Normalized": normalize_phone(staging_record.Phone_Number),
                 "Email_Normalized": normalize_email(staging_record.Email_Address),
@@ -257,14 +283,108 @@ def build_preprocessed_record(staging_record: Any, entity_type: str) -> dict[str
         {
             "Name_Normalized": normalize_text_key(name_value),
             "Short_Name_Normalized": normalize_text_key(short_name_value),
-            "Legal_Entity_Type_Normalized": normalize_text_key(legal_entity_type_value),
+            "Legal_Entity_Type_Normalized": normalize_legal_entity_type(
+                legal_entity_type_value
+            ),
+            "Registration_Country_Normalized": normalize_text_key(
+                getattr(staging_record, "Registration_Country", None)
+            ),
+            "Establishment_Date": getattr(staging_record, "Establishment_Date", None),
             "NIP_Normalized": normalize_identifier(identifiers.get("NIP")),
             "REGON_Normalized": regon_value,
             "KRS_Normalized": krs_value,
             "LEI_Normalized": normalize_identifier(identifiers.get("LEI")),
+            "Register_Status_Normalized": normalize_text_key(
+                getattr(staging_record, "Register_Status", None)
+            ),
+            "Registration_Date": getattr(staging_record, "Registration_Date", None),
+            "Deregistration_Date": getattr(staging_record, "Deregistration_Date", None),
+            "Decision_Date": getattr(staging_record, "Decision_Date", None),
+            "Decision_Number_Normalized": normalize_identifier(
+                getattr(staging_record, "Decision_Number", None)
+            ),
+            "Register_Number_Normalized": normalize_identifier(
+                getattr(staging_record, "Register_Number", None)
+            ),
+            "Bank_Accounts_Normalized_JSON": normalize_json_text(
+                getattr(staging_record, "Bank_Accounts_JSON", None)
+            ),
+            "Has_Virtual_Accounts": getattr(staging_record, "Has_Virtual_Accounts", None),
+            "Business_Scope_Normalized": normalize_text_key(
+                getattr(staging_record, "Business_Scope", None)
+            ),
+            "Ownership_Form_Normalized": normalize_text_key(
+                getattr(staging_record, "Ownership_Form", None)
+            ),
+            "Municipality_Normalized": normalize_city_text(
+                getattr(staging_record, "Municipality", None)
+            ),
             "Phone_Normalized": normalize_phone(staging_record.Phone_Number),
             "Email_Normalized": normalize_email(staging_record.Email_Address),
             "Website_Normalized": normalize_website(staging_record.Website),
+            "Agent_Type_Normalized": normalize_text_key(getattr(staging_record, "Agent_Type", None)),
+            "Insurance_Company_Normalized": normalize_text_key(
+                getattr(staging_record, "Insurance_Company", None)
+            ),
+            "Related_Persons_Normalized_JSON": normalize_json_text(
+                getattr(staging_record, "Related_Persons_JSON", None)
+            ),
+            "Related_Parties_Normalized_JSON": normalize_json_text(
+                getattr(staging_record, "Related_Parties_JSON", None)
+            ),
+            "Registration_Status_Normalized": normalize_text_key(
+                getattr(staging_record, "Registration_Status", None)
+            ),
+            "Last_Update_Date": getattr(staging_record, "Last_Update_Date", None),
+            "Next_Renewal_Date": getattr(staging_record, "Next_Renewal_Date", None),
+            "Managing_LOU_Normalized": normalize_identifier(
+                getattr(staging_record, "Managing_LOU", None)
+            ),
+            "Validation_Sources_Normalized": normalize_text_key(
+                getattr(staging_record, "Validation_Sources", None)
+            ),
+            "Validation_Authority_ID_Normalized": normalize_text_key(
+                getattr(staging_record, "Validation_Authority_ID", None)
+            ),
+            "Validation_Authority_Entity_ID_Normalized": normalize_identifier(
+                getattr(staging_record, "Validation_Authority_Entity_ID", None)
+            ),
+            "Direct_Parent_LEI_Normalized": normalize_identifier(
+                getattr(staging_record, "Direct_Parent_LEI", None)
+            ),
+            "Direct_Parent_Name_Normalized": normalize_text_key(
+                getattr(staging_record, "Direct_Parent_Name", None)
+            ),
+            "Direct_Parent_Relationship_Type_Normalized": normalize_text_key(
+                getattr(staging_record, "Direct_Parent_Relationship_Type", None)
+            ),
+            "Direct_Parent_Relationship_Status_Normalized": normalize_text_key(
+                getattr(staging_record, "Direct_Parent_Relationship_Status", None)
+            ),
+            "Direct_Parent_Relationship_Start_Date": getattr(
+                staging_record, "Direct_Parent_Relationship_Start_Date", None
+            ),
+            "Direct_Parent_Relationship_End_Date": getattr(
+                staging_record, "Direct_Parent_Relationship_End_Date", None
+            ),
+            "Ultimate_Parent_LEI_Normalized": normalize_identifier(
+                getattr(staging_record, "Ultimate_Parent_LEI", None)
+            ),
+            "Ultimate_Parent_Name_Normalized": normalize_text_key(
+                getattr(staging_record, "Ultimate_Parent_Name", None)
+            ),
+            "Ultimate_Parent_Relationship_Type_Normalized": normalize_text_key(
+                getattr(staging_record, "Ultimate_Parent_Relationship_Type", None)
+            ),
+            "Ultimate_Parent_Relationship_Status_Normalized": normalize_text_key(
+                getattr(staging_record, "Ultimate_Parent_Relationship_Status", None)
+            ),
+            "Ultimate_Parent_Relationship_Start_Date": getattr(
+                staging_record, "Ultimate_Parent_Relationship_Start_Date", None
+            ),
+            "Ultimate_Parent_Relationship_End_Date": getattr(
+                staging_record, "Ultimate_Parent_Relationship_End_Date", None
+            ),
         }
     )
     return base
@@ -276,7 +396,10 @@ def split_address_from_staging(staging_record: Any) -> AddressParts:
         building_number=empty_to_none(staging_record.Building_Number),
         apartment_number=empty_to_none(staging_record.Apartment_Number),
         city=empty_to_none(staging_record.City),
+        postal_city=empty_to_none(staging_record.Postal_City),
         postal_code=empty_to_none(staging_record.Postal_Code),
+        district=empty_to_none(getattr(staging_record, "District", None)),
+        province=empty_to_none(getattr(staging_record, "Province", None)),
         country=empty_to_none(staging_record.Country),
     )
 
@@ -457,6 +580,22 @@ def infer_legal_entity_type_from_name(value: Any) -> str | None:
     return None
 
 
+def normalize_legal_entity_type(value: Any) -> str | None:
+    normalized = normalize_text_key(value)
+    if normalized is None:
+        return None
+
+    # Kody z systemow zrodlowych tlumaczymy na wspolny slownik form prawnych
+    alias_key = NON_ALNUM_RE.sub("", normalized)
+    if alias_key in LEGAL_ENTITY_TYPE_ALIASES:
+        return normalize_text_key(LEGAL_ENTITY_TYPE_ALIASES[alias_key])
+
+    inferred = infer_legal_entity_type_from_name(normalized)
+    if inferred is not None:
+        return normalize_text_key(inferred)
+    return normalized
+
+
 def infer_registration_identifier_type(value: Any) -> str | None:
     normalized = normalize_text_key(value)
     if normalized is None:
@@ -585,6 +724,17 @@ def parse_identifiers_json(value: Any) -> dict[str, Any]:
     except json.JSONDecodeError:
         return {}
     return parsed if isinstance(parsed, dict) else {}
+
+
+def normalize_json_text(value: Any) -> str | None:
+    value = empty_to_none(value)
+    if value is None:
+        return None
+    try:
+        parsed = json.loads(str(value))
+    except json.JSONDecodeError:
+        return normalize_text_key(value)
+    return normalize_text_key(json.dumps(parsed, ensure_ascii=False, sort_keys=True, default=str))
 
 
 def build_rules_json() -> str:

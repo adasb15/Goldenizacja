@@ -14,6 +14,8 @@ services:
         condition: service_healthy
       neo4j:
         condition: service_healthy
+      oracle:
+        condition: service_healthy
     volumes:
       - ./app:/workspace/app
       - filestream_data:/data/filestream
@@ -87,6 +89,24 @@ services:
     volumes:
       - mssql_data:/var/opt/mssql
 
+  oracle:
+    image: gvenzl/oracle-free:23-slim-faststart
+    container_name: goldenizacja-oracle
+    environment:
+      ORACLE_PASSWORD: "${ORACLE_PASSWORD}"
+      APP_USER: "${ORACLE_APP_USER}"
+      APP_USER_PASSWORD: "${ORACLE_APP_PASSWORD}"
+    ports:
+      - "1521:1521"
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+      - ./scripts/init_oracle_insurance_core.sql:/container-entrypoint-initdb.d/init_oracle_insurance_core.sql:ro
+
   neo4j:
     image: neo4j:5.24
     container_name: goldenizacja-neo4j
@@ -106,6 +126,7 @@ services:
 
 volumes:
   mssql_data:
+  oracle_data:
   neo4j_data:
   neo4j_logs:
   filestream_data:
