@@ -119,7 +119,7 @@ IDENTIFIER_KEY_ALIASES = {
 # Rozpoznajemy sloty KRS regexami, żeby później złożyć je do JSON relacji zamiast setek kolumn
 KRS_RELATED_PERSON_COLUMN_RE = re.compile(
     r"^(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|CzlonekRadyNadzorczej)"
-    r"\d+_(Imie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
+    r"(\d+)_(Imie|DrugieImie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
 )
 KRS_RELATED_PARTY_COLUMN_RE = re.compile(
     r"^WspolnikPodmiot\d+_(Nazwa|KRS|NIP|DataOd|DataDo)$"
@@ -202,6 +202,45 @@ def is_structured_related_column(source_column: str) -> bool:
     )
 
 
+def krs_related_person_key(source_column: str) -> tuple[str, int] | None:
+    match = KRS_RELATED_PERSON_COLUMN_RE.match(source_column.strip())
+    if not match:
+        return None
+    prefix, slot, _field_name = match.groups()
+    return prefix, int(slot)
+
+
+def select_person_related_group(
+    source_record: Mapping[str, Any],
+    mapping: Mapping[str, str],
+) -> tuple[str, int] | None:
+    groups: dict[tuple[str, int], set[str]] = {}
+    for source_column, canonical_column in mapping.items():
+        if canonical_column not in {"First_Name", "Second_Name", "Last_Name", "PESEL"}:
+            continue
+        related_key = krs_related_person_key(source_column)
+        if related_key is None:
+            continue
+        exists, value = get_source_value(source_record, source_column)
+        if exists and value not in (None, ""):
+            groups.setdefault(related_key, set()).add(canonical_column)
+
+    for source_column in mapping.keys():
+        related_key = krs_related_person_key(source_column)
+        if related_key is None:
+            continue
+        present_columns = groups.get(related_key, set())
+        if "PESEL" in present_columns and {"First_Name", "Last_Name"}.issubset(present_columns):
+            return related_key
+
+    for source_column in mapping.keys():
+        related_key = krs_related_person_key(source_column)
+        if related_key is not None and related_key in groups:
+            return related_key
+
+    return None
+
+
 def map_record_to_canonical(
     source_record: Mapping[str, Any],
     mapping: Mapping[str, str],
@@ -215,8 +254,22 @@ def map_record_to_canonical(
     }
     missing_columns: list[str] = []
     identifiers: dict[str, Any] = {}
+    selected_related_person_key = (
+        select_person_related_group(source_record, mapping)
+        if entity_type == "PERSON"
+        else None
+    )
 
     for source_column, canonical_column in mapping.items():
+        related_person_key = krs_related_person_key(source_column)
+        if (
+            entity_type == "PERSON"
+            and selected_related_person_key is not None
+            and related_person_key is not None
+            and related_person_key != selected_related_person_key
+        ):
+            continue
+
         exists, value = get_source_value(source_record, source_column)
         if not exists:
             missing_columns.append(source_column)

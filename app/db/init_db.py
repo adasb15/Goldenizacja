@@ -5,6 +5,11 @@ from sqlalchemy.exc import DBAPIError
 
 from app.core.config import settings
 from app.db.sql import engine
+from app.layers.ingestion import models as ingestion_models  # noqa: F401
+from app.layers.integration_golden import models as integration_golden_models  # noqa: F401
+from app.layers.preprocessing import models as preprocessing_models  # noqa: F401
+from app.layers.staging_validation import models as staging_validation_models  # noqa: F401
+from app.layers.validation import models as validation_models  # noqa: F401
 from app.models.base import Base
 
 

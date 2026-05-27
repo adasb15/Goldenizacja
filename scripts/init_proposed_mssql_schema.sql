@@ -7,6 +7,10 @@ GO
 USE [goldenizacja];
 GO
 
+SET ANSI_NULLS ON;
+SET QUOTED_IDENTIFIER ON;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'meta')
     EXEC(N'CREATE SCHEMA [meta]');
 GO
@@ -368,18 +372,27 @@ BEGIN
         [RawFile_ID] BIGINT NOT NULL,
         [Source_Record_ID] NVARCHAR(100) NULL,
         [PESEL_Normalized] NVARCHAR(20) NULL,
+        [Serial_Number_ID_Card_Normalized] NVARCHAR(30) NULL,
+        [Serial_Number_Passport_Normalized] NVARCHAR(30) NULL,
         [First_Name_Normalized] NVARCHAR(100) NULL,
         [Second_Name_Normalized] NVARCHAR(100) NULL,
         [Last_Name_Normalized] NVARCHAR(100) NULL,
         [Family_Name_Normalized] NVARCHAR(100) NULL,
         [Full_Name_Normalized] NVARCHAR(255) NULL,
+        [Birth_Date] DATE NULL,
+        [Place_Of_Birth_Normalized] NVARCHAR(150) NULL,
+        [Sex] BIT NULL,
+        [Citizenship_Normalized] NVARCHAR(100) NULL,
         [Phone_Normalized] NVARCHAR(50) NULL,
         [Email_Normalized] NVARCHAR(255) NULL,
         [Street_Normalized] NVARCHAR(150) NULL,
         [Building_Number_Normalized] NVARCHAR(30) NULL,
         [Apartment_Number_Normalized] NVARCHAR(30) NULL,
         [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_City_Normalized] NVARCHAR(100) NULL,
         [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [District_Normalized] NVARCHAR(100) NULL,
+        [Province_Normalized] NVARCHAR(100) NULL,
         [Country_Normalized] NVARCHAR(100) NULL,
         [Full_Address_Normalized] NVARCHAR(500) NULL,
         [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
@@ -397,6 +410,26 @@ BEGIN
 END;
 GO
 
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Serial_Number_ID_Card_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Serial_Number_ID_Card_Normalized] NVARCHAR(30) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Serial_Number_Passport_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Serial_Number_Passport_Normalized] NVARCHAR(30) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Birth_Date') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Birth_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Place_Of_Birth_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Place_Of_Birth_Normalized] NVARCHAR(150) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Sex') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Sex] BIT NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Citizenship_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Citizenship_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Postal_City_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Postal_City_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'District_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [District_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Person_Preprocessed', N'Province_Normalized') IS NULL
+    ALTER TABLE [stg].[Person_Preprocessed] ADD [Province_Normalized] NVARCHAR(100) NULL;
+GO
+
 IF OBJECT_ID(N'[stg].[Party_Preprocessed]', N'U') IS NULL
 BEGIN
     CREATE TABLE [stg].[Party_Preprocessed] (
@@ -408,18 +441,57 @@ BEGIN
         [Name_Normalized] NVARCHAR(255) NULL,
         [Short_Name_Normalized] NVARCHAR(255) NULL,
         [Legal_Entity_Type_Normalized] NVARCHAR(100) NULL,
+        [Registration_Country_Normalized] NVARCHAR(100) NULL,
+        [Establishment_Date] DATE NULL,
         [NIP_Normalized] NVARCHAR(20) NULL,
         [REGON_Normalized] NVARCHAR(20) NULL,
         [KRS_Normalized] NVARCHAR(20) NULL,
         [LEI_Normalized] NVARCHAR(30) NULL,
+        [Register_Status_Normalized] NVARCHAR(100) NULL,
+        [Registration_Date] DATE NULL,
+        [Deregistration_Date] DATE NULL,
+        [Decision_Date] DATE NULL,
+        [Decision_Number_Normalized] NVARCHAR(100) NULL,
+        [Register_Number_Normalized] NVARCHAR(100) NULL,
+        [Bank_Accounts_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Has_Virtual_Accounts] BIT NULL,
+        [Business_Scope_Normalized] NVARCHAR(MAX) NULL,
+        [Ownership_Form_Normalized] NVARCHAR(150) NULL,
+        [Municipality_Normalized] NVARCHAR(100) NULL,
         [Phone_Normalized] NVARCHAR(50) NULL,
         [Email_Normalized] NVARCHAR(255) NULL,
         [Website_Normalized] NVARCHAR(255) NULL,
+        [Agent_Type_Normalized] NVARCHAR(100) NULL,
+        [Insurance_Company_Normalized] NVARCHAR(255) NULL,
+        [Related_Persons_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Related_Parties_Normalized_JSON] NVARCHAR(MAX) NULL,
+        [Registration_Status_Normalized] NVARCHAR(50) NULL,
+        [Last_Update_Date] DATE NULL,
+        [Next_Renewal_Date] DATE NULL,
+        [Managing_LOU_Normalized] NVARCHAR(50) NULL,
+        [Validation_Sources_Normalized] NVARCHAR(100) NULL,
+        [Validation_Authority_ID_Normalized] NVARCHAR(500) NULL,
+        [Validation_Authority_Entity_ID_Normalized] NVARCHAR(100) NULL,
+        [Direct_Parent_LEI_Normalized] NVARCHAR(20) NULL,
+        [Direct_Parent_Name_Normalized] NVARCHAR(255) NULL,
+        [Direct_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL,
+        [Direct_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL,
+        [Direct_Parent_Relationship_Start_Date] DATE NULL,
+        [Direct_Parent_Relationship_End_Date] DATE NULL,
+        [Ultimate_Parent_LEI_Normalized] NVARCHAR(20) NULL,
+        [Ultimate_Parent_Name_Normalized] NVARCHAR(255) NULL,
+        [Ultimate_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL,
+        [Ultimate_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL,
+        [Ultimate_Parent_Relationship_Start_Date] DATE NULL,
+        [Ultimate_Parent_Relationship_End_Date] DATE NULL,
         [Street_Normalized] NVARCHAR(150) NULL,
         [Building_Number_Normalized] NVARCHAR(30) NULL,
         [Apartment_Number_Normalized] NVARCHAR(30) NULL,
         [City_Normalized] NVARCHAR(100) NULL,
+        [Postal_City_Normalized] NVARCHAR(100) NULL,
         [Postal_Code_Normalized] NVARCHAR(20) NULL,
+        [District_Normalized] NVARCHAR(100) NULL,
+        [Province_Normalized] NVARCHAR(100) NULL,
         [Country_Normalized] NVARCHAR(100) NULL,
         [Full_Address_Normalized] NVARCHAR(500) NULL,
         [Preprocessing_Rules_JSON] NVARCHAR(MAX) NULL,
@@ -433,6 +505,115 @@ BEGIN
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [UQ_Party_Preprocessed_Staging] UNIQUE ([Staging_ID]),
         CONSTRAINT [CK_Party_Preprocessed_Rules_JSON] CHECK ([Preprocessing_Rules_JSON] IS NULL OR ISJSON([Preprocessing_Rules_JSON]) = 1)
+    );
+END;
+GO
+
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Country_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Country_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Establishment_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Establishment_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Register_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Register_Status_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Deregistration_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Deregistration_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Decision_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Decision_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Decision_Number_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Decision_Number_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Register_Number_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Register_Number_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Bank_Accounts_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Bank_Accounts_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Has_Virtual_Accounts') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Has_Virtual_Accounts] BIT NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Business_Scope_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Business_Scope_Normalized] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ownership_Form_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ownership_Form_Normalized] NVARCHAR(150) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Municipality_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Municipality_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Agent_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Agent_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Insurance_Company_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Insurance_Company_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Related_Persons_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Related_Persons_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Related_Parties_Normalized_JSON') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Related_Parties_Normalized_JSON] NVARCHAR(MAX) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Registration_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Registration_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Last_Update_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Last_Update_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Next_Renewal_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Next_Renewal_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Managing_LOU_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Managing_LOU_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Sources_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Sources_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Authority_ID_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Authority_ID_Normalized] NVARCHAR(500) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Validation_Authority_Entity_ID_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Validation_Authority_Entity_ID_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_LEI_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_LEI_Normalized] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Name_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Name_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Direct_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Direct_Parent_Relationship_End_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_LEI_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_LEI_Normalized] NVARCHAR(20) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Name_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Name_Normalized] NVARCHAR(255) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Type_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Type_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Status_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Status_Normalized] NVARCHAR(50) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_Start_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_Start_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Ultimate_Parent_Relationship_End_Date') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Ultimate_Parent_Relationship_End_Date] DATE NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Postal_City_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Postal_City_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'District_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [District_Normalized] NVARCHAR(100) NULL;
+IF COL_LENGTH(N'stg.Party_Preprocessed', N'Province_Normalized') IS NULL
+    ALTER TABLE [stg].[Party_Preprocessed] ADD [Province_Normalized] NVARCHAR(100) NULL;
+GO
+
+IF OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Match_Candidate_Levenshtein] (
+        [Match_Candidate_Levenshtein_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [RawFile_ID] BIGINT NULL,
+        [Left_Preprocessed_ID] BIGINT NOT NULL,
+        [Right_Preprocessed_ID] BIGINT NOT NULL,
+        [Left_Staging_ID] BIGINT NOT NULL,
+        [Right_Staging_ID] BIGINT NOT NULL,
+        [Left_RawFile_ID] BIGINT NOT NULL,
+        [Right_RawFile_ID] BIGINT NOT NULL,
+        [Left_Source_Record_ID] NVARCHAR(100) NULL,
+        [Right_Source_Record_ID] NVARCHAR(100) NULL,
+        [Score] FLOAT NOT NULL,
+        [Decision] NVARCHAR(30) NOT NULL,
+        [Strong_Match_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Conflict_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Match_Candidate_Levenshtein_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Match_Candidate_Levenshtein] PRIMARY KEY CLUSTERED ([Match_Candidate_Levenshtein_ID]),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Decision] CHECK ([Decision] IN (N'AUTO_MERGE', N'REVIEW', N'CANDIDATE')),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Score] CHECK ([Score] >= 0 AND [Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Strong_JSON] CHECK ([Strong_Match_Fields_JSON] IS NULL OR ISJSON([Strong_Match_Fields_JSON]) = 1),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Conflict_JSON] CHECK ([Conflict_Fields_JSON] IS NULL OR ISJSON([Conflict_Fields_JSON]) = 1)
     );
 END;
 GO
@@ -515,12 +696,104 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_M
     CREATE INDEX [IX_Person_Preprocessed_Match] ON [stg].[Person_Preprocessed] ([PESEL_Normalized], [Full_Name_Normalized]);
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_IDCard' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_IDCard] ON [stg].[Person_Preprocessed] ([Serial_Number_ID_Card_Normalized]) WHERE [Serial_Number_ID_Card_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Passport' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Passport] ON [stg].[Person_Preprocessed] ([Serial_Number_Passport_Normalized]) WHERE [Serial_Number_Passport_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Email' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Email] ON [stg].[Person_Preprocessed] ([Email_Normalized]) WHERE [Email_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Phone' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Phone] ON [stg].[Person_Preprocessed] ([Phone_Normalized]) WHERE [Phone_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_Last] ON [stg].[Person_Preprocessed] ([Birth_Date], [Last_Name_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_First_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_First_Last] ON [stg].[Person_Preprocessed] ([Birth_Date], [First_Name_Normalized], [Last_Name_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [First_Name_Normalized] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Birth_Place' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Birth_Place] ON [stg].[Person_Preprocessed] ([Birth_Date], [Place_Of_Birth_Normalized]) WHERE [Birth_Date] IS NOT NULL AND [Place_Of_Birth_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Person_Preprocessed_Postal_Last' AND object_id = OBJECT_ID(N'[stg].[Person_Preprocessed]'))
+    CREATE INDEX [IX_Person_Preprocessed_Postal_Last] ON [stg].[Person_Preprocessed] ([Postal_Code_Normalized], [Last_Name_Normalized]) WHERE [Postal_Code_Normalized] IS NOT NULL AND [Last_Name_Normalized] IS NOT NULL;
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_RawFile_ID' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_RawFile_ID] ON [stg].[Party_Preprocessed] ([RawFile_ID]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Match' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
     CREATE INDEX [IX_Party_Preprocessed_Match] ON [stg].[Party_Preprocessed] ([NIP_Normalized], [REGON_Normalized], [KRS_Normalized]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_LEI' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_LEI] ON [stg].[Party_Preprocessed] ([LEI_Normalized]) WHERE [LEI_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Decision_Number' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Decision_Number] ON [stg].[Party_Preprocessed] ([Decision_Number_Normalized]) WHERE [Decision_Number_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Register_Number' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Register_Number] ON [stg].[Party_Preprocessed] ([Register_Number_Normalized]) WHERE [Register_Number_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Validation_Entity' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Validation_Entity] ON [stg].[Party_Preprocessed] ([Validation_Authority_Entity_ID_Normalized]) WHERE [Validation_Authority_Entity_ID_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Website' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Website] ON [stg].[Party_Preprocessed] ([Website_Normalized]) WHERE [Website_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Email' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Email] ON [stg].[Party_Preprocessed] ([Email_Normalized]) WHERE [Email_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Phone' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Phone] ON [stg].[Party_Preprocessed] ([Phone_Normalized]) WHERE [Phone_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_City' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_City] ON [stg].[Party_Preprocessed] ([Name_Normalized], [City_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [City_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_Postal' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_Postal] ON [stg].[Party_Preprocessed] ([Name_Normalized], [Postal_Code_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [Postal_Code_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Name_Country' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Name_Country] ON [stg].[Party_Preprocessed] ([Name_Normalized], [Country_Normalized]) WHERE [Name_Normalized] IS NOT NULL AND [Country_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Short_Country' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Short_Country] ON [stg].[Party_Preprocessed] ([Short_Name_Normalized], [Country_Normalized]) WHERE [Short_Name_Normalized] IS NOT NULL AND [Country_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Party_Preprocessed_Legal_Name' AND object_id = OBJECT_ID(N'[stg].[Party_Preprocessed]'))
+    CREATE INDEX [IX_Party_Preprocessed_Legal_Name] ON [stg].[Party_Preprocessed] ([Legal_Entity_Type_Normalized], [Name_Normalized]) WHERE [Legal_Entity_Type_Normalized] IS NOT NULL AND [Name_Normalized] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_RawFile_Entity] ON [stg].[Match_Candidate_Levenshtein] ([RawFile_ID], [Entity_Type]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_Decision_Score' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_Decision_Score] ON [stg].[Match_Candidate_Levenshtein] ([Decision], [Score]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Levenshtein_Left_Right' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE INDEX [IX_Match_Candidate_Levenshtein_Left_Right] ON [stg].[Match_Candidate_Levenshtein] ([Left_Preprocessed_ID], [Right_Preprocessed_ID]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
@@ -728,18 +1001,23 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KRS) - pierwszy znaleziony slot osoby powiązanej w rekordzie
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Prokurent1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'WspolnikOsoba1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'Likwidator1_PESEL', N'PESEL'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Imie', N'First_Name'),
+    (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_DrugieImie', N'Second_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_Nazwisko', N'Last_Name'),
     (@KRS_SourceSystem_ID, N'PERSON', N'CzlonekRadyNadzorczej1_PESEL', N'PESEL'),
 
@@ -871,6 +1149,7 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_AGENT) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_agent.csv
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'DrugieImię', N'Second_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
     (@KNF_AGENT_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
 
@@ -910,6 +1189,7 @@ MERGE [meta].[ColumnMapping] AS target
 USING (VALUES
     -- PERSON (KNF_PRACOWNIK_AGENTA) - data/csv/KNF_Rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta.csv
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Imię', N'First_Name'),
+    (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'DrugieImię', N'Second_Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Nazwisko', N'Last_Name'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'PESEL', N'PESEL'),
     (@KNF_PRACOWNIK_AGENTA_SourceSystem_ID, N'PERSON', N'Numer pracownika', N'Source_Record_ID'),
@@ -949,6 +1229,7 @@ USING (VALUES
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Data zezwolenia', N'Registration_Date'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PARTY', N'Numer decyzji', N'Decision_Number'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Imie', N'First_Name'),
+    (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_DrugieImie', N'Second_Name'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_Nazwisko', N'Last_Name'),
     (@KNF_FIRMY_INWESTYCYJNE_SourceSystem_ID, N'PERSON', N'CzlonekZarzadu1_PESEL', N'PESEL')
 ) AS source ([SourceSystem_ID], [Entity_Type], [Source_Column_Name], [Canonical_Column_Name])

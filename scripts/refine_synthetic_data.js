@@ -7,6 +7,7 @@ const FORMATS = ["csv", "json", "xml", "xlsx"];
 const TARGET_PER_REGISTER = 800;
 const TARGET_PER_FORMAT = TARGET_PER_REGISTER / FORMATS.length;
 const DUPLICATED_PERSONS_PER_FORMAT = Math.round(TARGET_PER_FORMAT * 0.15);
+const HARD_PERSON_CONFLICT_RATE = 0.005;
 const RNG_SEED = 20260507;
 
 const ADDRESSES = [
@@ -70,7 +71,7 @@ const ADDRESSES = [
   ["PODLASKIE", "SUWA\u0141KI", "SUWA\u0141KI", "SUWA\u0141KI", "Suwa\u0142ki", "Ko\u015bciuszki", "16-400"],
   ["OPOLSKIE", "NYSA", "NYSA", "NYSA", "Nysa", "Piastowska", "48-300"],
   ["OPOLSKIE", "BRZESKI", "BRZEG", "BRZEG", "Brzeg", "D\u0142uga", "49-300"],
-  ["LUBUSKIE", "\u017bARSKI", "\u017bARY", "\u017bARY", "\u017bary", "Rynek", "68-200"],
+  ["LUBUSKIE", "WARSZAWSKI", "ŻARY", "ŻARY", "Żary", "Rynek", "68-200"], // Poprawiony błędny powiat
   ["LUBUSKIE", "\u015aWIEBODZI\u0143SKI", "\u015aWIEBODZIN", "\u015aWIEBODZIN", "\u015awiebodzin", "Sikorskiego", "66-200"],
   ["ZACHODNIOPOMORSKIE", "KO\u0141OBRZESKI", "KO\u0141OBRZEG", "KO\u0141OBRZEG", "Ko\u0142obrzeg", "Armii Krajowej", "78-100"],
   ["ZACHODNIOPOMORSKIE", "STARGARDZKI", "STARGARD", "STARGARD", "Stargard", "Pi\u0142sudskiego", "73-110"],
@@ -78,8 +79,118 @@ const ADDRESSES = [
   ["\u015aWI\u0118TOKRZYSKIE", "OSTROWIECKI", "OSTROWIEC \u015aWI\u0118TOKRZYSKI", "OSTROWIEC \u015aWI\u0118TOKRZYSKI", "Ostrowiec \u015awi\u0119tokrzyski", "Sienkiewicza", "27-400"],
 ];
 
-const FEMALE_FIRST_NAMES = ["Anna", "Maria", "Katarzyna", "Joanna", "Ewa", "Magdalena", "Monika", "Agnieszka", "Barbara", "Justyna"];
-const MALE_FIRST_NAMES = ["Piotr", "Tomasz", "Michał", "Krzysztof", "Paweł", "Adam", "Robert", "Marek", "Wojciech", "Rafał"];
+const EXTRA_ADDRESSES = [
+  ["MAZOWIECKIE", "WARSZAWA", "WARSZAWA", "WARSZAWA", "Warszawa", "Chmielna", "00-020"],
+  ["MAZOWIECKIE", "WARSZAWA", "WARSZAWA", "WARSZAWA", "Warszawa", "Nowy Świat", "00-029"],
+  ["MAZOWIECKIE", "WARSZAWA", "WARSZAWA", "WARSZAWA", "Warszawa", "os. Przyjaźń", "01-355"],
+  ["MAZOWIECKIE", "LEGIONOWSKI", "LEGIONOWO", "LEGIONOWO", "Legionowo", "Jagiellońska", "05-120"],
+  ["MAZOWIECKIE", "WOŁOMIŃSKI", "MARKI", "MARKI", "Marki", "Piłsudskiego", "05-270"],
+  ["MAZOWIECKIE", "OTWOCKI", "OTWOCK", "OTWOCK", "Otwock", "Andriollego", "05-400"],
+  ["MAZOWIECKIE", "RADOM", "RADOM", "RADOM", "Radom", "Żeromskiego", "26-600"],
+  ["MAZOWIECKIE", "PŁOCK", "PŁOCK", "PŁOCK", "Płock", "Tumska", "09-402"],
+  ["MAŁOPOLSKIE", "KRAKÓW", "KRAKÓW", "KRAKÓW", "Kraków", "Karmelicka", "31-128"],
+  ["MAŁOPOLSKIE", "KRAKÓW", "KRAKÓW", "KRAKÓW", "Kraków", "os. Na Stoku", "31-704"],
+  ["MAŁOPOLSKIE", "TATRZAŃSKI", "ZAKOPANE", "ZAKOPANE", "Zakopane", "Krupówki", "34-500"],
+  ["MAŁOPOLSKIE", "LIMANOWSKI", "LIMANOWA", "MORDARKA", "Mordarka", "", "34-600"],
+  ["MAŁOPOLSKIE", "KRAKOWSKI", "ZIELONKI", "ZIELONKI", "Zielonki", "Galicyjska", "32-087"],
+  ["MAŁOPOLSKIE", "WIELICKI", "NIEPOŁOMICE", "PODŁĘŻE", "Podłęże", "", "32-003"],
+  ["MAŁOPOLSKIE", "TARNÓW", "TARNÓW", "TARNÓW", "Tarnów", "Wałowa", "33-100"],
+  ["ŁÓDZKIE", "ŁÓDŹ", "ŁÓDŹ", "ŁÓDŹ", "Łódź", "Narutowicza", "90-135"],
+  ["ŁÓDZKIE", "ŁÓDŹ", "ŁÓDŹ", "ŁÓDŹ", "Łódź", "os. Retkinia", "94-004"],
+  ["ŁÓDZKIE", "PABIANICKI", "PABIANICE", "PABIANICE", "Pabianice", "Zamkowa", "95-200"],
+  ["ŁÓDZKIE", "ZGIERZ", "ZGIERZ", "ZGIERZ", "Zgierz", "Długa", "95-100"],
+  ["DOLNOŚLĄSKIE", "WROCŁAW", "WROCŁAW", "WROCŁAW", "Wrocław", "Rynek", "50-101"],
+  ["DOLNOŚLĄSKIE", "WROCŁAW", "WROCŁAW", "WROCŁAW", "Wrocław", "Jedności Narodowej", "50-260"],
+  ["DOLNOŚLĄSKIE", "JELENIOGÓRSKI", "KARPACZ", "KARPACZ", "Karpacz", "Konstytucji 3 Maja", "58-540"],
+  ["DOLNOŚLĄSKIE", "LUBIŃSKI", "LUBIN", "LUBIN", "Lubin", "Odrodzenia", "59-300"],
+  ["DOLNOŚLĄSKIE", "WAŁBRZYCH", "WAŁBRZYCH", "WAŁBRZYCH", "Wałbrzych", "Słowackiego", "58-300"],
+  ["WIELKOPOLSKIE", "POZNAŃ", "POZNAŃ", "POZNAŃ", "Poznań", "Półwiejska", "61-888"],
+  ["WIELKOPOLSKIE", "POZNAŃ", "POZNAŃ", "POZNAŃ", "Poznań", "os. Bolesława Chrobrego", "60-681"],
+  ["WIELKOPOLSKIE", "KALISZ", "KALISZ", "KALISZ", "Kalisz", "Główny Rynek", "62-800"],
+  ["WIELKOPOLSKIE", "OSTROWSKI", "OSTRÓW WIELKOPOLSKI", "OSTRÓW WIELKOPOLSKI", "Ostrów Wielkopolski", "Kaliska", "63-400"],
+  ["POMORSKIE", "GDAŃSK", "GDAŃSK", "GDAŃSK", "Gdańsk", "Ogarna", "80-826"],
+  ["POMORSKIE", "GDAŃSK", "GDAŃSK", "GDAŃSK", "Gdańsk", "os. Jasień", "80-180"],
+  ["POMORSKIE", "SOPOT", "SOPOT", "SOPOT", "Sopot", "Bohaterów Monte Cassino", "81-759"],
+  ["POMORSKIE", "KARTUSKI", "ŻUKOWO", "CHWASZCZYNO", "Chwaszczyno", "", "80-209"],
+  ["ŚLĄSKIE", "KATOWICE", "KATOWICE", "KATOWICE", "Katowice", "3 Maja", "40-096"],
+  ["ŚLĄSKIE", "KATOWICE", "KATOWICE", "KATOWICE", "Katowice", "os. Paderewskiego", "40-282"],
+  ["ŚLĄSKIE", "GLIWICE", "GLIWICE", "GLIWICE", "Gliwice", "Zwycięstwa", "44-100"],
+  ["ŚLĄSKIE", "TYCHY", "TYCHY", "TYCHY", "Tychy", "Bocheńskiego", "43-100"],
+  ["ŚLĄSKIE", "CZĘSTOCHOWA", "CZĘSTOCHOWA", "CZĘSTOCHOWA", "Częstochowa", "Najświętszej Maryi Panny", "42-200"],
+  ["ŚLĄSKIE", "BIELSKO-BIAŁA", "BIELSKO-BIAŁA", "BIELSKO-BIAŁA", "Bielsko-Biała", "11 Listopada", "43-300"],
+  ["PODKARPACKIE", "RZESZOWSKI", "BOGUCHWAŁA", "NIECHOBRZ", "Niechobrz", "", "36-047"],
+  ["PODKARPACKIE", "PRZEMYŚL", "PRZEMYŚL", "PRZEMYŚL", "Przemyśl", "Franciszkańska", "37-700"],
+  ["PODKARPACKIE", "SANOCKI", "SANOK", "SANOK", "Sanok", "Kościuszki", "38-500"],
+  ["PODLASKIE", "BIAŁYSTOK", "BIAŁYSTOK", "BIAŁYSTOK", "Białystok", "Suraska", "15-422"],
+  ["PODLASKIE", "BIAŁOSTOCKI", "SUPRAŚL", "OGRODNICZKI", "Ogrodniczki", "", "16-030"],
+  ["PODLASKIE", "HAJNOWSKI", "HAJNÓWKA", "HAJNÓWKA", "Hajnówka", "3 Maja", "17-200"],
+  ["LUBELSKIE", "LUBLIN", "LUBLIN", "LUBLIN", "Lublin", "os. LSM", "20-400"],
+  ["LUBELSKIE", "KAZIMIERSKI", "KAZIMIERZ DOLNY", "MIĘĆMIERZ", "Mięćmierz", "", "24-120"],
+  ["LUBELSKIE", "BIALSKI", "BIAŁA PODLASKA", "BIAŁA PODLASKA", "Biała Podlaska", "Brzeska", "21-500"],
+  ["KUJAWSKO-POMORSKIE", "TORUŃ", "TORUŃ", "TORUŃ", "Toruń", "Rynek Staromiejski", "87-100"],
+  ["KUJAWSKO-POMORSKIE", "BYDGOSZCZ", "BYDGOSZCZ", "BYDGOSZCZ", "Bydgoszcz", "Mostowa", "85-110"],
+  ["WARMIŃSKO-MAZURSKIE", "OLSZTYN", "OLSZTYN", "OLSZTYN", "Olsztyn", "Stare Miasto", "10-026"],
+  ["WARMIŃSKO-MAZURSKIE", "MRĄGOWSKI", "MRĄGOWO", "MRĄGOWO", "Mrągowo", "Warszawska", "11-700"],
+  ["ZACHODNIOPOMORSKIE", "SZCZECIN", "SZCZECIN", "SZCZECIN", "Szczecin", "Wojska Polskiego", "70-470"],
+  ["ZACHODNIOPOMORSKIE", "ŚWINOUJŚCIE", "ŚWINOUJŚCIE", "ŚWINOUJŚCIE", "Świnoujście", "Monte Cassino", "72-600"],
+  ["OPOLSKIE", "OPOLE", "OPOLE", "OPOLE", "Opole", "Rynek", "45-015"],
+  ["OPOLSKIE", "KLUCZBORSKI", "KLUCZBORK", "KLUCZBORK", "Kluczbork", "Byczyńska", "46-200"],
+  ["LUBUSKIE", "GORZÓW WIELKOPOLSKI", "GORZÓW WIELKOPOLSKI", "GORZÓW WIELKOPOLSKI", "Gorzów Wielkopolski", "Chrobrego", "66-400"],
+  ["LUBUSKIE", "MIĘDZYRZECKI", "MIĘDZYRZECZ", "MIĘDZYRZECZ", "Międzyrzecz", "30 Stycznia", "66-300"],
+  ["ŚWIĘTOKRZYSKIE", "KIELCE", "KIELCE", "KIELCE", "Kielce", "Paderewskiego", "25-004"],
+  ["ŚWIĘTOKRZYSKIE", "BUSKI", "BUSKO-ZDRÓJ", "BUSKO-ZDRÓJ", "Busko-Zdrój", "1 Maja", "28-100"],
+];
+
+const ADDRESS_POOL = ADDRESSES.concat(EXTRA_ADDRESSES);
+
+const HOUSE_NUMBER_ONLY_CITIES = new Set([
+  "Wieliczka",
+  "Krosno",
+  "Mielec",
+  "\u015awidnica",
+  "K\u0142odzko",
+  "Tczew",
+  "Wejherowo",
+  "Cieszyn",
+  "B\u0119dzin",
+  "Ostr\u00f3da",
+  "Gi\u017cycko",
+  "Pu\u0142awy",
+  "August\u00f3w",
+  "\u017bary",
+  "\u015awiebodzin",
+  "Sandomierz",
+  "Mordarka",
+  "Podłęże",
+  "Chwaszczyno",
+  "Niechobrz",
+  "Ogrodniczki",
+  "Mięćmierz",
+  "Tarnów"
+]);
+
+
+const FEMALE_FIRST_NAMES = [
+  "Anna", "Maria", "Katarzyna", "Joanna", "Ewa", "Magdalena", "Monika", "Agnieszka", "Barbara", "Justyna",
+  "Aleksandra", "Natalia", "Marta", "Karolina", "Paulina", "Małgorzata", "Elżbieta", "Teresa", "Dorota", "Iwona",
+  "Beata", "Renata", "Urszula", "Alicja", "Izabela", "Patrycja", "Weronika", "Wiktoria", "Zofia", "Julia",
+  "Olga", "Kinga", "Ewelina", "Kamila", "Sylwia", "Halina", "Grażyna", "Danuta", "Bożena", "Aneta",
+  "Zuzanna", "Maja", "Lena", "Oliwia", "Hanna", "Emilia", "Amelia", "Gabriela", "Martyna", "Dominika",
+  "Agata", "Jagoda", "Helena", "Krystyna", "Jadwiga", "Irena", "Monika", "Izabela", "Sabina", "Mirosława"
+];
+
+const MALE_FIRST_NAMES = [
+  "Piotr", "Tomasz", "Michał", "Krzysztof", "Paweł", "Adam", "Robert", "Marek", "Wojciech", "Rafał",
+  "Jan", "Andrzej", "Marcin", "Łukasz", "Grzegorz", "Mateusz", "Jakub", "Dawid", "Artur", "Dariusz",
+  "Sebastian", "Sławomir", "Maciej", "Mariusz", "Zbigniew", "Henryk", "Ryszard", "Stanisław", "Jacek", "Bartłomiej",
+  "Przemysław", "Damian", "Kamil", "Bartosz", "Daniel", "Leszek", "Waldemar", "Cezary", "Norbert", "Filip",
+  "Kacper", "Mikołaj", "Szymon", "Antoni", "Aleksander", "Franciszek", "Ignacy", "Nikodem", "Leon", "Miłosz",
+  "Maciej", "Tadeusz", "Jerzy", "Stefan", "Marian", "Józef", "Władysław", "Edward", "Mirosław", "Arkadiusz"
+];
+
+const FEMALE_FIRST_NAME_SET = new Set(FEMALE_FIRST_NAMES.map((name) => transliteratePolish(name).toLowerCase()));
+const MALE_FIRST_NAME_SET = new Set(MALE_FIRST_NAMES.map((name) => transliteratePolish(name).toLowerCase()));
+
 const LAST_NAME_PAIRS = [
   ["Kowalska", "Kowalski"],
   ["Nowacka", "Nowacki"],
@@ -121,8 +232,67 @@ const LAST_NAME_PAIRS = [
   ["Sadowska", "Sadowski"],
   ["W\u0142odarczyk", "W\u0142odarczyk"],
   ["Borkowska", "Borkowski"],
+  ["Sawicka", "Sawicki"],
+  ["Dudek", "Dudek"],
+  ["Adamczyk", "Adamczyk"],
+  ["Pawłowska", "Pawłowski"],
+  ["Nowicka", "Nowicki"],
+  ["Sokołowska", "Sokołowski"],
+  ["Wróbel", "Wróbel"],
+  ["Majewska", "Majewski"],
+  ["Olszewska", "Olszewski"],
+  ["Jaworska", "Jaworski"],
+  ["Malinowska", "Malinowski"],
+  ["Pająk", "Pająk"],
+  ["Szczepańska", "Szczepański"],
+  ["Czerwińska", "Czerwiński"],
+  ["Kubiak", "Kubiak"],
+  ["Wilk", "Wilk"],
+  ["Wysocka", "Wysocki"],
+  ["Chmielewska", "Chmielewski"],
+  ["Urbańska", "Urbański"],
+  ["Błaszczyk", "Błaszczyk"],
+  ["Szulc", "Szulc"],
+  ["Kozak", "Kozak"],
+  ["Cieślak", "Cieślak"],
+  ["Andrzejewska", "Andrzejewski"],
+  ["Gajewska", "Gajewski"],
+  ["Laskowska", "Laskowski"],
+  ["Mazurek", "Mazurek"],
+  ["Sobczak", "Sobczak"],
+  ["Konieczna", "Konieczny"],
+  ["Brzezińska", "Brzeziński"],
+  ["Makowska", "Makowski"],
+  ["Wrona", "Wrona"],
+  ["Bąk", "Bąk"],
+  ["Kucharska", "Kucharski"],
+  ["Lisowska", "Lisowski"],
+  ["Słowik", "Słowik"],
+  ["Kopeć", "Kopeć"],
+  ["Czajka", "Czajka"],
+  ["Matusiak", "Matusiak"],
+  ["Gajda", "Gajda"],
+  ["Klimek", "Klimek"],
+  ["Madej", "Madej"],
+  ["Krupa", "Krupa"],
+  ["Kaczmarczyk", "Kaczmarczyk"],
+  ["Wrona", "Wrona"],
+  ["Wasilewska", "Wasilewski"],
+  ["Kalinowska", "Kalinowski"],
+  ["Zarychta", "Zarychta"],
+  ["Przybylska", "Przybylski"],
+  ["Michalak", "Michalak"],
+  ["Szatkowska", "Szatkowski"],
+  ["Bednarek", "Bednarek"],
+  ["Podgórska", "Podgórski"],
+  ["Śliwińska", "Śliwiński"],
+  ["Czajkowska", "Czajkowski"],
+  ["Biernat", "Biernat"],
+  ["Panek", "Panek"],
+  ["Prus", "Prus"],
+  ["Janik", "Janik"]
 ];
-const COMPANY_BASE = ["Astra Finance", "Baltic Med Supply", "Helios Markets", "Lumen Advisory", "Nova Data", "Optima Trade", "Polaris Capital", "Quantum Services", "Silesia Invest", "Vistula Fintech"];
+
 const COMPANY_TRADE_NAMES = [
   "Facebook - Meta",
   "Google - Alphabet",
@@ -190,24 +360,108 @@ const MISSING_EMAIL_DOMAINS = [
   "ubezpiecznia.pl",
 ];
 const WEB_TLDS = [".pl", ".com.pl", ".eu", ".local"];
-const HOUSE_NUMBER_ONLY_CITIES = new Set([
-  "Wieliczka",
-  "Krosno",
-  "Mielec",
-  "\u015awidnica",
-  "K\u0142odzko",
-  "Tczew",
-  "Wejherowo",
-  "Cieszyn",
-  "B\u0119dzin",
-  "Ostr\u00f3da",
-  "Gi\u017cycko",
-  "Pu\u0142awy",
-  "August\u00f3w",
-  "\u017bary",
-  "\u015awiebodzin",
-  "Sandomierz",
-]);
+
+function generateHighlyDiverseCompanyPool() {
+  const NOUNS = [
+    "Amber", "Bizon", "Canyon", "Delfin", "Echo", "Falcon", "Gryf", "Horyzont", "Ikar", "Jantar",
+    "Koral", "Lotos", "Magnolia", "Neon", "Oaza", "Pegaz", "Rubin", "Szafir", "Tytan", "Uran",
+    "Wektor", "Zefir", "Żubr", "Sokół", "Orzeł", "Kormoran", "Barycz", "Noteć", "Pilica", "Narew",
+    "Jodełka", "Kaktus", "Szmaragd", "Topaz", "Granit", "Marmur", "Syrena", "Zodiak", "Olimp", "Zorza",
+    "Krokus", "Narcyz", "Giewont", "Rysy", "Kasprowy", "Beskid", "Bieszczady", "Karpaty", "Bałtyk", "Sudety"
+  ];
+
+  const ADJECTIVES = [
+    "Zielony", "Niebieski", "Złoty", "Srebrny", "Czysty", "Szybki", "Pewny", "Dobry", "Polski", "Europejski",
+    "Globalny", "Lokalny", "Nowoczesny", "Tradycyjny", "Dynamiczny", "Stabilny", "Innowacyjny", "Kreatywny", "Aktywny", "Jasny",
+    "Green", "Blue", "Gold", "Silver", "Smart", "Fast", "Safe", "Best", "Global", "Future",
+    "Wielkopolski", "Śląski", "Mazowiecki", "Pomorski", "Dolnośląski", "Karpacki", "Bałtycki", "Młody", "Wspólny", "Pierwszy"
+  ];
+
+  const INDUSTRIES = [
+    "Budownictwo", "Transport", "Spedycja", "Logistyka", "Handel", "Usługi", "Finanse", "Doradztwo", "Szkolenia", "Media",
+    "Reklama", "Marketing", "Druk", "Informatyka", "Oprogramowanie", "Rolnictwo", "Ogrodnictwo", "Produkcja", "Przemysł", "Ekologia",
+    "Energetyka", "Instalacje", "Nieruchomości", "Inwestycje", "Medycyna", "Zdrowie", "Urody", "Turystyka", "Rozrywka", "Gastronomia",
+    "Moda", "Tekstylia", "Motoryzacja", "Ubezpieczenia", "Spawalnictwo", "Ślusarstwo", "Krawiectwo", "Ochrona", "Catering", "Księgowość"
+  ];
+
+  const NAMES = ["Kowalski", "Nowak", "Wiśniewski", "Wójcik", "Kowalczyk", "Kamiński", "Zieliński", "Szymański", "Woźniak", "Kozłowski"];
+
+  const ABSTRACT_BUSINESS = [
+    "Astra", "Apex", "Clarity", "Core", "Direct", "Envio", "Focus", "Genesis", "Impact", "Krypton",
+    "Logos", "Matrix", "Nexum", "Omni", "Pulse", "Quest", "Radius", "Summit", "Target", "Vertex",
+    "Alpina", "Arteria", "Consilio", "Dignitas", "Exact", "Fortis", "Idea", "Linear", "Meritum", "Optima",
+    "Profis", "Rationo", "Signum", "Talent", "Unia", "Valor", "Vera", "Zenith", "Avangarda", "Inwencja"
+  ];
+
+  const SEED_NAMES = [
+    "Krajowy Rejestr Długów", "Polskie Przetwory", "Hurtownia Nabiału Mleczko", "Agencja Reklamowa Kreatywni",
+    "Kancelaria Prawna Sankcja", "Śląskie Zakłady Mechaniczne", "Fabryka Okien i Drzwi Profil",
+    "Przedsiębiorstwo Robót Drogowych", "Krakowskie Biuro Nieruchomości", "Salon Samochodowy Auto-Hit",
+    "Klinika Stomatologiczna Dent-Med", "Polski Tytoń", "Gdańska Stocznia Jachtowa", "Wytwórnia Makaronu Jajecznego",
+    "Zakłady Mięsne Tradycja", "Spółdzielnia Mleczarska Radomsko", "Kancelaria Finansowo-Księgowa Bilans",
+    "Zarząd Nieruchomości Komercyjnych", "Polskie Linie Oceaniczne", "Hurtownia Materiałów Budowlanych Cegiełka",
+    "Studio Projektowe Architektura", "Centrum Medycyny Pracy", "Przedsiębiorstwo Energetyki Cieplnej",
+    "Gospodarstwo Rolno-Ogrodnicze", "Drukarnia Wielkoformatowa Impress", "Klub Fitness Sylwetka",
+    "Polska Grupa Energetyczna", "Mazowieckie Zakłady Drobiarskie", "Hurtownia Farmaceutyczna Aptekarz",
+    "Kancelaria Notarialna Lex", "Biuro Podróży Wojażer", "Szkoła Języków Obcych Lingua",
+    "Centrum Logistyczne Podlasie", "Fabryka Mebli Drewnianych Dąb", "Polskie Sady",
+    "Wielkopolska Hurtownia Stali", "Zakład Oczyszczania Miasta", "Przedsiębiorstwo Wodociągów i Kanalizacji",
+    "Instytut Badań Rynkowych", "Agencja Ochrony Solidna", "Salon Meblowy Komfort",
+    "Krajowa Izba Gospodarcza", "Polskie Zakłady Lotnicze", "Hurtownia Elektryczna Wat",
+    "Centrum Ogrodnicze Zielona Oaza", "Piekarnia i Cukiernia Chrupiący Rogalik",
+    "Zakład Usług Komunalnych", "Polski Komfort", "Kancelaria Radców Prawnych Partnerzy",
+    "Centrum Dystrybucji Alkoholi", "Przedsiębiorstwo Spedycyjne Ładunek", "Fabryka Tekstyliów Splot",
+    "Górnośląskie Towarzystwo Finansowe", "Krajowa Agencja Informacyjna", "Polskie Jagody"
+  ];
+
+  const pool = new Set(SEED_NAMES);
+
+  for (let i = 0; i < ADJECTIVES.length; i++) {
+    for (let j = 0; j < NOUNS.length; j++) {
+      if (pool.size >= 150) break;
+      pool.add(`${ADJECTIVES[i]} ${NOUNS[j]}`);
+    }
+  }
+
+  for (let i = 0; i < NOUNS.length; i++) {
+    for (let j = 0; j < INDUSTRIES.length; j++) {
+      if (pool.size >= 270) break;
+      pool.add(`${NOUNS[i]} ${INDUSTRIES[j]}`);
+    }
+  }
+
+  const SUFFIX_WORDS = ["Group", "Systems", "Holding", "Partners", "Polska", "Enterprise", "Network"];
+  for (let i = 0; i < ABSTRACT_BUSINESS.length; i++) {
+    for (let j = 0; j < SUFFIX_WORDS.length; j++) {
+      if (pool.size >= 380) break;
+      pool.add(`${ABSTRACT_BUSINESS[i]} ${SUFFIX_WORDS[j]}`);
+    }
+  }
+
+  const FAMILY_SUFFIX = ["i Synowie", "i Wspólnicy", "Spółka Rodzinna", "Bracia"];
+  for (let i = 0; i < NAMES.length; i++) {
+    for (let j = 0; j < FAMILY_SUFFIX.length; j++) {
+      pool.add(`${NAMES[i]} ${FAMILY_SUFFIX[j]}`);
+    }
+  }
+
+  for (let i = 0; i < INDUSTRIES.length; i++) {
+    const adj = ADJECTIVES[(i * 3) % ADJECTIVES.length];
+    pool.add(`${INDUSTRIES[i]} ${adj}`);
+  }
+
+  const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  while (pool.size < 530) {
+    let acro = LETTERS[Math.floor(Math.random() * 26)] + 
+               LETTERS[Math.floor(Math.random() * 26)] + 
+               LETTERS[Math.floor(Math.random() * 26)];
+    pool.add(acro);
+  }
+
+  return Array.from(pool).slice(0, 500);
+}
+
+const COMPANY_BASE = generateHighlyDiverseCompanyPool();
 
 let rngState = RNG_SEED >>> 0;
 function rand() {
@@ -312,11 +566,48 @@ function familyNameFor(index, female, person = null) {
   return "";
 }
 
+function firstNameGender(value) {
+  const normalized = transliteratePolish(String(value ?? "").trim()).toLowerCase();
+  if (FEMALE_FIRST_NAME_SET.has(normalized)) return "female";
+  if (MALE_FIRST_NAME_SET.has(normalized)) return "male";
+  return "";
+}
+
+function secondNameForGender(value, index, female) {
+  const normalized = String(value ?? "").trim();
+  if (!normalized) return "";
+  const gender = firstNameGender(normalized);
+  if ((female && gender === "female") || (!female && gender === "male")) return normalized;
+  return pick(female ? FEMALE_FIRST_NAMES : MALE_FIRST_NAMES, index + 5);
+}
+
 function personFieldPrefix(compactKey) {
   if (compactKey.startsWith("drugieimie")) return compactKey.slice("drugieimie".length);
+  if (compactKey.startsWith("secondname")) return compactKey.slice("secondname".length);
+  if (compactKey.startsWith("middlename")) return compactKey.slice("middlename".length);
   if (compactKey.startsWith("imie")) return compactKey.slice("imie".length);
   if (compactKey.startsWith("nazwisko")) return compactKey.slice("nazwisko".length);
-  return compactKey.replace(/(drugieimie|imie|nazwisko)$/, "");
+  return compactKey.replace(/(drugieimie|secondname|middlename|imie|nazwisko)$/, "");
+}
+
+function stableHash(value) {
+  let hash = 0;
+  for (const ch of String(value ?? "")) {
+    hash = ((hash * 31) + ch.charCodeAt(0)) >>> 0;
+  }
+  return hash;
+}
+
+function personIdentityPrefix(compactKey) {
+  return String(compactKey)
+    .replace(/(drugieimie|secondname|middlename|imie|nazwiskorodowe|nazwisko|pesel|plec|dataurodzenia|miejsceurodzenia|obywatelstwo|numerdowoduosobistego|idcard|numerpaszportu|passport)$/, "");
+}
+
+function personIdentitySeed(seed, compactKey = "") {
+  const baseSeed = personSeedFor(seed);
+  const prefix = personIdentityPrefix(compactKey);
+  if (!prefix || prefix === "firmawlasciciel" || prefix === "ofwca") return baseSeed;
+  return baseSeed + 1000 + (stableHash(prefix) % 100000);
 }
 
 function slug(value, separator = ".") {
@@ -486,7 +777,10 @@ function parseXmlRecords(filePath) {
 function readRecords(register) {
   const csvPath = path.join(DATA_DIR, "csv", `${register}.csv`);
   const parsed = parseCsv(fs.readFileSync(csvPath, "utf8"));
-  const headers = register === "gleif" ? withGleifRegistrationHeaders(parsed.headers) : parsed.headers;
+  const headers = withRegisterSpecificHeaders(
+    register,
+    register === "gleif" ? withGleifRegistrationHeaders(parsed.headers) : parsed.headers,
+  );
   const records = parsed.records.map((row) => Object.fromEntries(headers.map((h) => [h, row[h] ?? ""])));
   const combined = records;
   const jsonPath = path.join(DATA_DIR, "json", `${register}.json`);
@@ -496,6 +790,53 @@ function readRecords(register) {
   }
   combined.push(...parseXmlRecords(path.join(DATA_DIR, "xml", `${register}.xml`)).map((row) => Object.fromEntries(headers.map((h) => [h, row[h] ?? ""]))));
   return { headers, records: combined };
+}
+
+function withRegisterSpecificHeaders(register, headers) {
+  let result = [...headers];
+  if (register === "krs") {
+    result = withKrsSecondNameHeaders(result);
+  }
+  if (
+    register === "knf_rejestr_posrednikow_ubezpieczeniowych_agent"
+    || register === "knf_rejestr_posrednikow_ubezpieczeniowych_pracownik_agenta"
+  ) {
+    result = withColumnAfter(result, "Imię", "DrugieImię");
+  }
+  if (register === "knf_rejestr_firm_inwestycyjnych") {
+    result = withColumnAfter(result, "CzlonekZarzadu1_Imie", "CzlonekZarzadu1_DrugieImie");
+  }
+  return result;
+}
+
+function withKrsSecondNameHeaders(headers) {
+  let result = [...headers];
+  const rolePrefixes = [
+    "CzlonekZarzadu",
+    "Prokurent",
+    "WspolnikOsoba",
+    "Likwidator",
+    "CzlonekRadyNadzorczej",
+  ];
+  for (const prefix of rolePrefixes) {
+    for (let slot = 1; slot <= 10; slot += 1) {
+      result = withColumnAfter(
+        result,
+        `${prefix}${slot}_Imie`,
+        `${prefix}${slot}_DrugieImie`,
+      );
+    }
+  }
+  return result;
+}
+
+function withColumnAfter(headers, anchor, column) {
+  if (headers.includes(column)) return headers;
+  const anchorIndex = headers.indexOf(anchor);
+  if (anchorIndex < 0) return headers;
+  const result = [...headers];
+  result.splice(anchorIndex + 1, 0, column);
+  return result;
 }
 
 function withGleifRegistrationHeaders(headers) {
@@ -599,6 +940,126 @@ function dateFromIndex(index, key) {
   return { year, month, day };
 }
 
+function datePartsToUtc(parts) {
+  if (!isValidDateParts(parts)) return null;
+  return Date.UTC(parts.year, parts.month - 1, parts.day);
+}
+
+function addDays(parts, days) {
+  const date = new Date(Date.UTC(parts.year, parts.month - 1, parts.day + days));
+  return {
+    year: date.getUTCFullYear(),
+    month: date.getUTCMonth() + 1,
+    day: date.getUTCDate(),
+  };
+}
+
+function dateRole(compactKey) {
+  if (
+    compactKey.includes("wykresl")
+    || compactKey.includes("wyrejest")
+    || compactKey.includes("deregistration")
+    || compactKey.includes("termination")
+    || compactKey.includes("validto")
+    || compactKey.endsWith("datado")
+  ) {
+    return "end";
+  }
+  if (compactKey.includes("wznow")) return "resume";
+  if (compactKey.includes("zawies")) return "suspension";
+  if (
+    compactKey.includes("wpis")
+    || compactKey.includes("rejestr")
+    || compactKey.includes("powstania")
+    || compactKey.includes("rozpoczecia")
+    || compactKey.includes("registrationlegaldate")
+    || compactKey.includes("initialregistrationdate")
+    || compactKey.includes("validfrom")
+    || compactKey.endsWith("dataod")
+  ) {
+    return "start";
+  }
+  if (compactKey.includes("decyzji") || compactKey.includes("decision")) return "decision";
+  return "";
+}
+
+function enforceDateChronology(record, headers, index) {
+  const dateFields = headers
+    .map((key) => {
+      const compact = keyId(key);
+      if (!/(data|date|validfrom|validto)/.test(compact)) return null;
+      const parts = parseGeneratedDateParts(record[key]);
+      if (!isValidDateParts(parts)) return null;
+      return { key, compact, role: dateRole(compact), parts };
+    })
+    .filter(Boolean);
+
+  const starts = dateFields.filter((field) => field.role === "start");
+  const ends = dateFields.filter((field) => field.role === "end");
+  const suspensions = dateFields.filter((field) => field.role === "suspension");
+  const resumes = dateFields.filter((field) => field.role === "resume");
+  const decisions = dateFields.filter((field) => field.role === "decision");
+
+  const baseline = starts[0]?.parts ?? decisions[0]?.parts ?? dateFromIndex(index, "DataWpisu");
+  const startByCompact = new Map(starts.map((field) => [field.compact, field.parts]));
+  const pairedStartFor = (field) => {
+    if (field.compact.endsWith("datado")) {
+      return startByCompact.get(`${field.compact.slice(0, -"datado".length)}dataod`);
+    }
+    if (field.compact.endsWith("validto")) {
+      return startByCompact.get(`${field.compact.slice(0, -"validto".length)}validfrom`);
+    }
+    return null;
+  };
+
+  for (const field of starts) {
+    if (datePartsToUtc(field.parts) > datePartsToUtc(baseline)) {
+      field.parts = baseline;
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of decisions) {
+    if (starts.length && datePartsToUtc(field.parts) > datePartsToUtc(baseline)) {
+      field.parts = addDays(baseline, -30);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of suspensions) {
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(baseline)) {
+      field.parts = addDays(baseline, 180);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of resumes) {
+    const suspension = suspensions[0]?.parts ?? baseline;
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(suspension)) {
+      field.parts = addDays(suspension, 60);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+
+  for (const field of ends) {
+    const minimum = pairedStartFor(field) ?? resumes[0]?.parts ?? suspensions[0]?.parts ?? baseline;
+    if (datePartsToUtc(field.parts) <= datePartsToUtc(minimum)) {
+      field.parts = addDays(minimum, 365);
+      record[field.key] = formatDateVariant(field.parts, index, field.key);
+    }
+  }
+}
+
+function isCompanyEstablishmentDate(compactKey) {
+  return [
+    "datarejestracji",
+    "datapowstania",
+    "registrationlegaldate",
+    "initialregistrationdate",
+    "firmadatarozpoczeciadzialalnosci",
+  ].includes(compactKey);
+}
+
 function peselChecksum(firstTen) {
   const weights = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3];
   const sum = firstTen.split("").reduce((acc, digit, i) => acc + Number(digit) * weights[i], 0);
@@ -636,11 +1097,16 @@ function makeSharedPesel(index, female) {
 }
 
 function weightedNumber(index, length, weights) {
-  let base = pad((index * 7919 + 123456789).toString(), length - 1).slice(-(length - 1));
-  const sum = base.split("").reduce((acc, digit, i) => acc + Number(digit) * weights[i], 0);
-  let check = sum % 11;
-  if (check === 10) return weightedNumber(index + 1, length, weights);
-  return `${base}${check}`;
+  const modulus = 10 ** (length - 1);
+  let candidate = Math.abs((Number(index) || 0) * 7919 + 123456789);
+  for (let attempt = 0; attempt < 1000; attempt += 1) {
+    const base = pad(String(candidate % modulus), length - 1);
+    const sum = base.split("").reduce((acc, digit, i) => acc + Number(digit) * weights[i], 0);
+    const check = sum % 11;
+    if (check !== 10) return `${base}${check}`;
+    candidate += 1000003;
+  }
+  throw new Error(`Cannot generate weighted number for index ${index}`);
 }
 
 function makeNip(index) {
@@ -688,6 +1154,11 @@ function makeIdCard(index) {
     + tailDigits.reduce((acc, digit, i) => acc + digit * [7, 3, 1, 7, 3][i], 0);
   const check = withoutCheck % 10;
   return `${a}${b}${c}${check}${tail}`;
+}
+
+function makePassport(index) {
+  const prefixes = ["PA", "PB", "PC", "PL", "PX"];
+  return `${pick(prefixes, index)}${pad((index * 3571 + 246813) % 10000000, 7)}`;
 }
 
 function breakDigit(value) {
@@ -754,7 +1225,7 @@ function duplicatedPersonTextVariant(value, index, fieldId) {
 
 
 function addressParts(index, invalid = false) {
-  const [province, district, municipality, localityUpper, city, street, postalCode] = pick(ADDRESSES, index);
+  const [province, district, municipality, localityUpper, city, street, postalCode] = pick(ADDRESS_POOL, index);
   const building = 1 + ((index * 17) % 180);
   const apartment = index % 4 === 0 ? `/${1 + ((index * 13) % 90)}` : "";
   if (invalid) {
@@ -778,7 +1249,8 @@ function setAddress(record, headers, index, options = {}) {
   const streetPrefix = pick(STREET_PREFIXES, index);
   const isEstate = index % 29 === 0;
   const streetName = isEstate ? `os. ${p.street}` : p.street;
-  const houseNumberOnly = !options.invalid && HOUSE_NUMBER_ONLY_CITIES.has(p.city) && index % 7 === 0;
+  const ruralHouseNumberOnly = !p.street;
+  const houseNumberOnly = !options.invalid && (ruralHouseNumberOnly || (HOUSE_NUMBER_ONLY_CITIES.has(p.city) && index % 7 === 0));
   const streetLine = options.missingStreet
     ? ""
     : houseNumberOnly
@@ -815,7 +1287,9 @@ function normalizeDates(record, headers, index, seed = index, register = "") {
     const value = String(record[key] ?? "").trim();
     if (!value) continue;
     const parsed = parseDateParts(value);
-    const parts = register === "pesel" && compact === "dataurodzenia"
+    const parts = register !== "pesel" && isCompanyEstablishmentDate(compact)
+      ? dateFromIndex(seed, "Establishment_Date")
+      : register === "pesel" && compact === "dataurodzenia"
       ? dateFromIndex(seed, key)
       : isValidDateParts(parsed) ? parsed : dateFromIndex(seed, key);
     record[key] = formatDateVariant(parts, index, key);
@@ -823,9 +1297,12 @@ function normalizeDates(record, headers, index, seed = index, register = "") {
 }
 
 function normalizeIdentifiers(record, headers, index, seed = index) {
-  const female = String(record.Plec || "").toUpperCase() === "K" || isFemaleIndex(index);
   for (const key of headers) {
     const compact = keyId(key);
+    const identitySeed = personIdentitySeed(seed, compact);
+    const fieldFemale = String(record.Plec || "").toUpperCase() === "K" && personIdentityPrefix(compact) === ""
+      ? true
+      : isFemaleIndex(identitySeed);
     const relatedPartyMatch = String(key).match(/^WspolnikPodmiot(\d+)_(KRS|NIP)$/i);
     if (relatedPartyMatch) {
       const relatedSeed = companySeedFor(seed + Number(relatedPartyMatch[1]));
@@ -833,9 +1310,9 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
       continue;
     }
 
-    if (compact.includes("pesel")) record[key] = record.DataUrodzenia
-      ? makePeselFromDate(record.DataUrodzenia, female, personSeedFor(seed) + "PESEL".length, true)
-      : makeSharedPesel(seed, female);
+    if (compact.includes("pesel")) record[key] = record.DataUrodzenia && personIdentityPrefix(compact) === ""
+      ? makePeselFromDate(record.DataUrodzenia, fieldFemale, identitySeed + "PESEL".length, true)
+      : makeSharedPesel(identitySeed, fieldFemale);
     else if (compact.includes("lei")) record[key] = makeLei(companySeedFor(seed));
     else if (compact === "registrationauthorityid" || compact === "registeredat") {
       record[key] = companySeedFor(seed) % 2 === 0 ? "RA000466" : "RA000484";
@@ -849,7 +1326,8 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
     else if (compact.endsWith("nip") || compact.includes("numernip")) record[key] = makeSharedNip(seed);
     else if (compact.endsWith("regon")) record[key] = makeSharedRegon(seed);
     else if (compact.includes("krs")) record[key] = makeSharedKrs(seed);
-    else if (compact.includes("dowoduosobistego") || compact.includes("idcard")) record[key] = index % 8 === 0 ? "" : makeIdCard(seed + key.length);
+    else if (compact.includes("dowoduosobistego") || compact.includes("idcard")) record[key] = index % 8 === 0 ? "" : makeIdCard(identitySeed + key.length);
+    else if (compact.includes("paszport") || compact.includes("passport")) record[key] = index % 5 === 0 ? "" : makePassport(identitySeed + key.length);
   }
 }
 
@@ -857,10 +1335,12 @@ function normalizeNames(record, headers, index, seed = index) {
   const personCache = new Map();
   const company = companyInfoFor(seed);
   const getPerson = (key) => {
-    const prefix = personFieldPrefix(keyId(key));
+    const compact = keyId(key);
+    const prefix = personIdentityPrefix(compact) || personFieldPrefix(compact);
     if (!personCache.has(prefix)) {
-      const female = isFemaleIndex(seed);
-      personCache.set(prefix, personFor(seed + prefix.length, female, seed));
+      const identitySeed = personIdentitySeed(seed, compact);
+      const female = isFemaleIndex(identitySeed);
+      personCache.set(prefix, personFor(identitySeed, female, identitySeed));
     }
     return personCache.get(prefix);
   };
@@ -868,7 +1348,7 @@ function normalizeNames(record, headers, index, seed = index) {
   for (const key of headers) {
     const compact = keyId(key);
     if (compact === "plec") {
-      record[key] = isFemaleIndex(seed) ? "K" : "M";
+      record[key] = isFemaleIndex(personIdentitySeed(seed, compact)) ? "K" : "M";
     }
   }
 
@@ -879,15 +1359,28 @@ function normalizeNames(record, headers, index, seed = index) {
     if (relatedPartyNameMatch) {
       record[key] = companyInfoFor(companySeedFor(seed + Number(relatedPartyNameMatch[1]))).full;
     }
-    else if (compact === "imieojca") record[key] = pick(MALE_FIRST_NAMES, seed + 3);
-    else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, seed + 7);
-    else if (compact === "drugieimie" || compact.endsWith("drugieimie") || compact.startsWith("drugieimie")) record[key] = duplicatedPersonTextVariant(person.second, index, compact);
+    else if (compact === "imieojca") record[key] = pick(MALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 3);
+    else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 7);
+    else if (compact === "miejsceurodzenia") record[key] = addressParts(personIdentitySeed(seed, compact)).city;
+    else if (compact === "obywatelstwo") record[key] = "PL";
+    else if (
+      compact === "drugieimie"
+      || compact === "secondname"
+      || compact === "middlename"
+      || compact.endsWith("drugieimie")
+      || compact.endsWith("secondname")
+      || compact.endsWith("middlename")
+      || compact.startsWith("drugieimie")
+      || compact.startsWith("secondname")
+      || compact.startsWith("middlename")
+    ) record[key] = duplicatedPersonTextVariant(person.second, index, compact);
     else if (compact === "imie" || compact.endsWith("imie") || compact.startsWith("imie")) record[key] = duplicatedPersonTextVariant(person.first, index, compact);
-    else if (compact === "nazwiskorodowe" || compact.endsWith("nazwiskorodowe")) record[key] = duplicatedPersonTextVariant(familyNameFor(seed, isFemaleIndex(seed), getPerson("")), index, compact);
+    else if (compact === "nazwiskorodowe" || compact.endsWith("nazwiskorodowe")) record[key] = duplicatedPersonTextVariant(familyNameFor(personIdentitySeed(seed, compact), isFemaleIndex(personIdentitySeed(seed, compact)), person), index, compact);
     else if (compact === "nazwisko" || compact.endsWith("nazwisko") || compact.startsWith("nazwisko")) record[key] = duplicatedPersonTextVariant(person.last, index, compact);
     else if (compact === "name" || compact === "legalname" || compact === "nazwa" || compact.includes("firmanazwa")) record[key] = company.full;
     else if (compact.includes("nazwaskrocona") || compact.includes("skroconanazwa")) record[key] = company.short;
     else if (compact === "formaprawna" || compact === "entitylegalformcode" || compact === "legalentitytype") record[key] = company.legalForm;
+    else if (compact === "status" || compact === "statusvat" || compact === "registrationstatus") record[key] = "AKTYWNY";
     else if (compact === "email" || compact.includes("email")) {
       const emailPerson = personCache.get("firmawlasciciel") || personCache.get("") || personFor(seed, isFemaleIndex(seed));
       const hasPersonalColumns = headers.some((header) => {
@@ -907,6 +1400,7 @@ function cloneRecord(base, headers, index, register) {
   normalizeNames(record, headers, index, seed);
   setAddress(record, headers, seed);
   normalizeDates(record, headers, index, seed, register);
+  enforceDateChronology(record, headers, index);
   normalizeIdentifiers(record, headers, index, seed);
   for (const key of headers) {
     const compact = keyId(key);
@@ -932,8 +1426,9 @@ function selectIndexes(count, howMany, offset) {
   return result;
 }
 
-function applyAnomalies(records, headers) {
+function applyAnomalies(records, headers, register = "") {
   const total = records.length;
+  const registerOffset = stableHash(register) % 997;
   const typoIndexes = selectIndexes(total, Math.round(total * 0.02), 7);
   const incompleteRecordIndexes = selectIndexes(total, Math.round(total * 0.0075), 17);
   const missingPostal = selectIndexes(total, Math.round(total * 0.01), 19);
@@ -975,7 +1470,7 @@ function applyAnomalies(records, headers) {
 
   const typoFields = headers.filter((h) => {
     const id = keyId(h);
-    return !/(pesel|nip|regon|krs|lei|dowod|data|date|email|telefon|phone|kod|adres|address|www|url|plec|obywatelstwo|imieojca|imiematki)/.test(id);
+    return !/(pesel|nip|regon|krs|lei|dowod|data|date|email|telefon|phone|kod|adres|address|www|url|status|plec|obywatelstwo|imieojca|imiematki)/.test(id);
   });
   for (const i of typoIndexes) {
     const candidates = typoFields.filter((h) => String(records[i][h] ?? "").length > 4);
@@ -1028,8 +1523,9 @@ function applyAnomalies(records, headers) {
     regon: headers.filter((h) => keyId(h).includes("regon")),
     krs: headers.filter((h) => keyId(h).includes("krs")),
     idCard: headers.filter((h) => /(dowoduosobistego|idcard)/.test(keyId(h))),
+    passport: headers.filter((h) => /(paszport|passport)/.test(keyId(h))),
   };
-  const offsets = { pesel: 59, lei: 67, nip: 71, regon: 89, krs: 97, idCard: 107 };
+  const offsets = { pesel: 59, lei: 67, nip: 71, regon: 89, krs: 97, idCard: 107, passport: 109 };
   for (const [type, fields] of Object.entries(idGroups)) {
     const refs = [];
     for (let rowIndex = 0; rowIndex < records.length; rowIndex += 1) {
@@ -1039,9 +1535,12 @@ function applyAnomalies(records, headers) {
     }
     if (!refs.length) continue;
 
-    const badCount = Math.max(1, Math.round(refs.length * 0.02));
+    const badRate = type === "pesel" || type === "idCard" || type === "passport" || type === "nip" || type === "regon" || type === "krs" || type === "lei"
+      ? HARD_PERSON_CONFLICT_RATE
+      : 0.02;
+    const badCount = Math.round(refs.length * badRate);
     const missingCount = type === "pesel" || type === "lei" ? 0 : Math.round(refs.length * 0.005);
-    const badIndexes = new Set(selectIndexes(refs.length, badCount, offsets[type]));
+    const badIndexes = new Set(selectIndexes(refs.length, badCount, offsets[type] + registerOffset));
     const missingIndexes = selectIndexes(refs.length, missingCount, offsets[type] + 17)
       .filter((idx) => !badIndexes.has(idx));
 
@@ -1234,25 +1733,249 @@ function writeRegister(register, headers, records) {
   return Object.fromEntries(FORMATS.map((format) => [format, splits[format].length]));
 }
 
-function main() {
-  const registers = fs.readdirSync(path.join(DATA_DIR, "csv"))
-    .filter((name) => name.endsWith(".csv"))
-    .map((name) => path.basename(name, ".csv"))
-    .sort();
-  const manifest = Object.fromEntries(FORMATS.map((format) => [format, {}]));
-  for (const register of registers) {
-    const { headers, records: sourceRecords } = readRecords(register);
-    const records = [];
-    for (let i = 0; i < TARGET_PER_REGISTER; i += 1) {
-      records.push(cloneRecord(sourceRecords[i % sourceRecords.length], headers, i, register));
-    }
-    applyAnomalies(records, headers);
-    const counts = writeRegister(register, headers, records);
-    for (const format of FORMATS) manifest[format][register] = counts[format];
-    console.log(`${register}: ${records.length} records`);
+const identityPool = new Map();
+
+function getOrCreateSharedIdentity(pesel, sourceRecord, headers) {
+  if (!pesel) return null;
+  
+  if (identityPool.has(pesel)) {
+    return identityPool.get(pesel);
   }
-  fs.rmSync(path.join(DATA_DIR, ".xlsx-tmp"), { recursive: true, force: true });
-  fs.writeFileSync(path.join(DATA_DIR, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
+
+  const identity = {
+    imie: sourceRecord[headers.find(h => FIELD_PATTERNS.imie.test(h) || FIELD_PATTERNS.imie.test(keyId(h)))] ?? "",
+    drugieImie: sourceRecord[headers.find(h => FIELD_PATTERNS.drugieImie.test(h) || FIELD_PATTERNS.drugieImie.test(keyId(h)))] ?? "",
+    nazwisko: sourceRecord[headers.find(h => FIELD_PATTERNS.nazwisko.test(h) || FIELD_PATTERNS.nazwisko.test(keyId(h)))] ?? "",
+    dataUrodzenia: sourceRecord[headers.find(h => FIELD_PATTERNS.dataUrodzenia.test(h) || FIELD_PATTERNS.dataUrodzenia.test(keyId(h)))] ?? "",
+    plec: sourceRecord[headers.find(h => FIELD_PATTERNS.plec.test(h) || FIELD_PATTERNS.plec.test(keyId(h)))] ?? "",
+  };
+
+  const establishmentHeader = headers.find(h => /Establishment_Date/i.test(h) || /data.*zaloz/i.test(h));
+  const deregistrationHeader = headers.find(h => /Deregistration_Date/i.test(h) || /data.*wyrej/i.test(h));
+
+  if (establishmentHeader && deregistrationHeader) {
+    const startDateRaw = sourceRecord[establishmentHeader];
+    const endDateRaw = sourceRecord[deregistrationHeader];
+
+    if (startDateRaw && endDateRaw) {
+      const startSec = Date.parse(startDateRaw);
+      const endSec = Date.parse(endDateRaw);
+
+      if (!isNaN(startSec) && !isNaN(endSec) && startSec > endSec) {
+        sourceRecord[establishmentHeader] = endDateRaw;
+        sourceRecord[deregistrationHeader] = startDateRaw;
+      }
+    }
+  }
+
+  const pierwImie = identity.imie.trim();
+  const sugerujeKobiete = identity.plec.toLowerCase().startsWith('k') || 
+                          identity.plec.toLowerCase().startsWith('f') || 
+                          (pierwImie.endsWith('a') && pierwImie.toLowerCase() !== 'jan');
+
+  if (identity.drugieImie) {
+    identity.drugieImie = secondNameForGender(identity.drugieImie, stableHash(pesel), sugerujeKobiete);
+  }
+
+  if (sugerujeKobiete) {
+    identity.nazwisko = identity.nazwisko.replace(/ski$/, 'ska').replace(/cki$/, 'cka').replace(/dzki$/, 'dzka');
+    if (!identity.plec) identity.plec = "K";
+  } else {
+    identity.nazwisko = identity.nazwisko.replace(/ska$/, 'ski').replace(/cka$/, 'cki').replace(/dzka$/, 'dzki');
+    if (!identity.plec) identity.plec = "M";
+  }
+
+  identityPool.set(pesel, identity);
+  return identity;
 }
 
-main();
+
+function injectIdentity(record, headers, identity) {
+  if (!identity) return;
+
+  for (const field of headers) {
+    const id = keyId(field);
+    if (FIELD_PATTERNS.imie.test(field) || FIELD_PATTERNS.imie.test(id)) record[field] = identity.imie;
+    if (FIELD_PATTERNS.drugieImie.test(field) || FIELD_PATTERNS.drugieImie.test(id)) record[field] = identity.drugieImie ?? "";
+    if (FIELD_PATTERNS.nazwisko.test(field) || FIELD_PATTERNS.nazwisko.test(id)) record[field] = identity.nazwisko;
+    if (FIELD_PATTERNS.dataUrodzenia.test(field) || FIELD_PATTERNS.dataUrodzenia.test(id)) record[field] = identity.dataUrodzenia;
+    if (FIELD_PATTERNS.plec.test(field) || FIELD_PATTERNS.plec.test(id)) record[field] = identity.plec;
+  }
+}
+
+const FIELD_PATTERNS = {
+  pesel: /(pesel)/i,
+  nip: /(nip)/i,
+  regon: /(regon)/i,
+  imie: /^(?!.*(drugie|sec|2)).*(imie|first.*name)/i, 
+  drugieImie: /(drugie.*imie|second.*name|middle.*name|imie.*2)/i,
+  nazwisko: /(nazwisko|last.*name)/i,
+  dataUrodzenia: /(dataurodzenia|birth.*date)/i,
+  plec: /(plec|gender)/i,
+  nazwaFirmy: /(nazwa.*firmy|nazwa.*pelna|nazwa.*skrocona|company.*name|legal.*name|nazwa)/i
+};
+
+function main() {
+  console.log("Rozpoczynam działanie skryptu...");
+
+  const registers = fs.readdirSync(path.join(DATA_DIR, "csv"))
+    .filter((name) => name.endsWith(".csv"))
+    .map((name) => path.basename(name, ".csv").toUpperCase())
+    .sort();
+    
+  const manifest = Object.fromEntries(FORMATS.map((format) => [format, {}]));
+  const preparedRecords = {};
+  const headersMap = {};
+
+  for (const register of registers) {
+    const registerLower = register.toLowerCase();
+    const { headers, records: sourceRecords } = readRecords(registerLower);
+    headersMap[register] = headers;
+    preparedRecords[register] = [];
+
+    console.log(`Wczytano rejestr [${register}]: ${sourceRecords.length} rekordów źródłowych.`);
+
+    for (let i = 0; i < TARGET_PER_REGISTER; i += 1) {
+      const rawClone = cloneRecord(sourceRecords[i % sourceRecords.length], headers, i, registerLower);
+      const cloned = JSON.parse(JSON.stringify(rawClone));
+      preparedRecords[register].push(cloned);
+    }
+  }
+
+  const personsPool = new Map();
+  const companiesPool = new Map();
+
+  for (const register of registers) {
+    const records = preparedRecords[register];
+    const headers = headersMap[register];
+    
+    const hPesel = headers.find(h => FIELD_PATTERNS.pesel.test(h) || FIELD_PATTERNS.pesel.test(keyId(h)));
+    const hNip = headers.find(h => FIELD_PATTERNS.nip.test(h) || FIELD_PATTERNS.nip.test(keyId(h)));
+    const hRegon = headers.find(h => FIELD_PATTERNS.regon.test(h) || FIELD_PATTERNS.regon.test(keyId(h)));
+    const hImie = headers.find(h => FIELD_PATTERNS.imie.test(h) || FIELD_PATTERNS.imie.test(keyId(h)));
+    const hDrugieImie = headers.find(h => FIELD_PATTERNS.drugieImie.test(h) || FIELD_PATTERNS.drugieImie.test(keyId(h)));
+    const hNazwisko = headers.find(h => FIELD_PATTERNS.nazwisko.test(h) || FIELD_PATTERNS.nazwisko.test(keyId(h)));
+    const hPlec = headers.find(h => FIELD_PATTERNS.plec.test(h) || FIELD_PATTERNS.plec.test(keyId(h)));
+    const hNazwa = headers.find(h => FIELD_PATTERNS.nazwaFirmy.test(h) || FIELD_PATTERNS.nazwaFirmy.test(keyId(h)));
+
+    for (const rec of records) {
+      if (hPesel && rec[hPesel] && hImie && hNazwisko && rec[hImie] && rec[hNazwisko]) {
+        const pKey = String(rec[hPesel]).trim();
+        if (!personsPool.has(pKey)) {
+          const firstGender = firstNameGender(rec[hImie]);
+          const female = hPlec && rec[hPlec]
+            ? String(rec[hPlec]).trim().toLowerCase().startsWith("k")
+            : firstGender === "female";
+          personsPool.set(pKey, { 
+            imie: String(rec[hImie]).trim(), 
+            drugieImie: hDrugieImie && rec[hDrugieImie] ? secondNameForGender(rec[hDrugieImie], stableHash(pKey), female) : "",
+            nazwisko: String(rec[hNazwisko]).trim() 
+          });
+        }
+      }
+      
+      const compKey = (hNip && rec[hNip]) ? String(rec[hNip]).trim() : ((hRegon && rec[hRegon]) ? String(rec[hRegon]).trim() : null);
+      if (compKey && hNazwa && rec[hNazwa] && String(rec[hNazwa]).trim() !== "") {
+        if (!companiesPool.has(compKey)) {
+          companiesPool.set(compKey, { 
+            nazwa: String(rec[hNazwa]).trim() 
+          });
+        }
+      }
+    }
+  }
+
+  console.log(`Zbudowano pulę referencyjną: ${personsPool.size} osób, ${companiesPool.size} firm.`);
+
+  const allPesels = Array.from(personsPool.keys());
+  const allCompanyKeys = Array.from(companiesPool.keys());
+
+  for (const register of registers) {
+    const records = preparedRecords[register];
+    const headers = headersMap[register];
+    
+    const hPesel = headers.find(h => FIELD_PATTERNS.pesel.test(h) || FIELD_PATTERNS.pesel.test(keyId(h)));
+    const hNip = headers.find(h => FIELD_PATTERNS.nip.test(h) || FIELD_PATTERNS.nip.test(keyId(h)));
+    const hRegon = headers.find(h => FIELD_PATTERNS.regon.test(h) || FIELD_PATTERNS.regon.test(keyId(h)));
+    const hImie = headers.find(h => FIELD_PATTERNS.imie.test(h) || FIELD_PATTERNS.imie.test(keyId(h)));
+    const hDrugieImie = headers.find(h => FIELD_PATTERNS.drugieImie.test(h) || FIELD_PATTERNS.drugieImie.test(keyId(h)));
+    const hNazwisko = headers.find(h => FIELD_PATTERNS.nazwisko.test(h) || FIELD_PATTERNS.nazwisko.test(keyId(h)));
+    const hNazwa = headers.find(h => FIELD_PATTERNS.nazwaFirmy.test(h) || FIELD_PATTERNS.nazwaFirmy.test(keyId(h)));
+
+    const isBusinessSystem = ["KRS", "CEIDG", "REGON", "VAT", "GLEIF", "INSURANCE_CORE"].includes(register);
+    const linkRate = isBusinessSystem ? 0.30 : 0.05; 
+    const targetLinkCount = Math.round(records.length * linkRate);
+
+    for (let i = 0; i < records.length; i++) {
+      const rec = records[i];
+
+      if (i < targetLinkCount) {
+        if (hPesel && allPesels.length > 0) {
+          const sharedPesel = allPesels[i % allPesels.length];
+          const identity = personsPool.get(sharedPesel);
+          
+          if (identity) {
+            rec[hPesel] = sharedPesel;
+            if (hImie) rec[hImie] = identity.imie;
+            if (hDrugieImie) rec[hDrugieImie] = identity.drugieImie;
+            if (hNazwisko) rec[hNazwisko] = identity.nazwisko;
+          }
+        }
+        
+        if ((hNip || hRegon) && allCompanyKeys.length > 0) {
+          const sharedCompKey = allCompanyKeys[i % allCompanyKeys.length];
+          const compIdentity = companiesPool.get(sharedCompKey);
+          
+          if (compIdentity) {
+            if (sharedCompKey.length === 10) {
+              if (hNip) rec[hNip] = sharedCompKey;
+              if (hRegon) rec[hRegon] = ""; 
+            } else if (sharedCompKey.length === 9 || sharedCompKey.length === 14) {
+              if (hRegon) rec[hRegon] = sharedCompKey;
+              if (hNip) rec[hNip] = ""; 
+            }
+            if (hNazwa) rec[hNazwa] = compIdentity.nazwa;
+          }
+        }
+      } 
+      else {
+        if (hPesel && rec[hPesel] && personsPool.has(String(rec[hPesel]).trim())) {
+          const identity = personsPool.get(String(rec[hPesel]).trim());
+          if (identity) {
+            if (hImie) rec[hImie] = identity.imie;
+            if (hDrugieImie) rec[hDrugieImie] = identity.drugieImie;
+            if (hNazwisko) rec[hNazwisko] = identity.nazwisko;
+          }
+        }
+        
+        const currentCompKey = (hNip && rec[hNip]) ? String(rec[hNip]).trim() : ((hRegon && rec[hRegon]) ? String(rec[hRegon]).trim() : null);
+        if (currentCompKey && companiesPool.has(currentCompKey)) {
+          const compIdentity = companiesPool.get(currentCompKey);
+          if (compIdentity && hNazwa) rec[hNazwa] = compIdentity.nazwa;
+        }
+      }
+    }
+  }
+
+  for (const register of registers) {
+    const records = preparedRecords[register];
+    const headers = headersMap[register];
+    const registerLower = register.toLowerCase();
+
+    applyAnomalies(records, headers, registerLower);
+
+    const counts = writeRegister(registerLower, headers, records);
+    for (const format of FORMATS) manifest[format][registerLower] = counts[format];
+    console.log(`Zapisano system: [${register}] - ${records.length} rekordów.`);
+  }
+
+  fs.rmSync(path.join(DATA_DIR, ".xlsx-tmp"), { recursive: true, force: true });
+  fs.writeFileSync(path.join(DATA_DIR, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
+  console.log("Skrypt zakończył działanie z sukcesem!");
+}
+
+try {
+  main();
+} catch (error) {
+  console.error("KRYTYCZNY BŁĄD PODCZAS WYKONYWANIA SKRYPTU:", error);
+}

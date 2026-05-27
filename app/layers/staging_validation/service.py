@@ -64,7 +64,7 @@ KRS_PERSON_ROLE_PREFIXES = {
 }
 KRS_PERSON_ROLE_COLUMN_RE = re.compile(
     r"^(CzlonekZarzadu|Prokurent|WspolnikOsoba|Likwidator|CzlonekRadyNadzorczej)"
-    r"(\d+)_(Imie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
+    r"(\d+)_(Imie|DrugieImie|Nazwisko|PESEL|Funkcja|DataOd|DataDo)$"
 )
 # Rozpoznajemy wspólników podmiotowych KRS, żeby zapisać ich jako relacje party-party
 KRS_PARTY_RELATIONSHIP_COLUMN_RE = re.compile(
@@ -558,6 +558,7 @@ def extract_related_persons_json(source_record: Mapping[str, Any]) -> str | None
     persons_by_key: dict[tuple[str, int], dict[str, Any]] = {}
     field_map = {
         "Imie": "first_name",
+        "DrugieImie": "second_name",
         "Nazwisko": "last_name",
         "PESEL": "pesel",
         "Funkcja": "role_name",
