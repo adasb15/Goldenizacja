@@ -6,7 +6,7 @@ from typing import Any
 from sqlalchemy import and_, delete, func, or_, select
 from sqlalchemy.orm import Session
 
-from app.layers.integration_golden.models import MatchCandidateRecord
+from app.layers.integration_golden.models import JaroWinklerCandidateRecord, MatchCandidateRecord
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -67,6 +67,65 @@ class IntegrationGoldenRepository:
                 Decision=str(candidate.decision.value),
                 Strong_Match_Fields_JSON=json.dumps(list(candidate.strong_match_fields), ensure_ascii=False),
                 Conflict_Fields_JSON=json.dumps(list(candidate.conflict_fields), ensure_ascii=False),
+            )
+            for candidate in candidates
+        ]
+        self.db.add_all(entities)
+        self.db.commit()
+        return len(entities)
+
+    def get_levenshtein_candidates(
+        self,
+        entity_type: str,
+        raw_file_id: int | None = None,
+    ) -> list[MatchCandidateRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        query = (
+            select(MatchCandidateRecord)
+            .where(MatchCandidateRecord.Entity_Type == entity_type)
+            .order_by(MatchCandidateRecord.Score.desc())
+        )
+        if raw_file_id is not None:
+            query = query.where(MatchCandidateRecord.RawFile_ID == raw_file_id)
+        return list(self.db.scalars(query))
+
+    def get_preprocessed_record_by_id(self, entity_type: str, preprocessed_id: int) -> Any | None:
+        entity_type = normalize_entity_type(entity_type)
+        model = PersonPreprocessed if entity_type == "PERSON" else PartyPreprocessed
+        return self.db.get(model, preprocessed_id)
+
+    def replace_jaro_winkler_candidates(
+        self,
+        entity_type: str,
+        raw_file_id: int | None,
+        candidates: list[Any],
+    ) -> int:
+        entity_type = normalize_entity_type(entity_type)
+        self.db.execute(
+            delete(JaroWinklerCandidateRecord)
+            .where(JaroWinklerCandidateRecord.Entity_Type == entity_type)
+            .where(JaroWinklerCandidateRecord.RawFile_ID == raw_file_id)
+        )
+
+        entities = [
+            JaroWinklerCandidateRecord(
+                Levenshtein_Candidate_ID=candidate.levenshtein_candidate_id,
+                Entity_Type=entity_type,
+                RawFile_ID=raw_file_id,
+                Left_Preprocessed_ID=candidate.left_preprocessed_id,
+                Right_Preprocessed_ID=candidate.right_preprocessed_id,
+                Left_Staging_ID=candidate.left_staging_id,
+                Right_Staging_ID=candidate.right_staging_id,
+                Left_RawFile_ID=candidate.left_raw_file_id,
+                Right_RawFile_ID=candidate.right_raw_file_id,
+                Left_Source_Record_ID=candidate.left_source_record_id,
+                Right_Source_Record_ID=candidate.right_source_record_id,
+                Levenshtein_Score=candidate.levenshtein_score,
+                JaroWinkler_Score=candidate.jaro_winkler_score,
+                Decision=str(candidate.decision.value),
+                Strong_Match_Fields_JSON=json.dumps(list(candidate.strong_match_fields), ensure_ascii=False),
+                Conflict_Fields_JSON=json.dumps(list(candidate.conflict_fields), ensure_ascii=False),
+                Text_Match_Fields_JSON=json.dumps(list(candidate.text_match_fields), ensure_ascii=False),
             )
             for candidate in candidates
         ]

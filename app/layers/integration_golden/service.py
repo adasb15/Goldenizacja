@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Callable
 
-from rapidfuzz.distance import Levenshtein
+from rapidfuzz.distance import JaroWinkler, Levenshtein
 
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -14,6 +14,9 @@ FUZZY_AUTO_MERGE_THRESHOLD = 0.95
 AUTO_MERGE_THRESHOLD = 0.90
 REVIEW_THRESHOLD = 0.70
 LEVENSHTEIN_CANDIDATE_THRESHOLD = 0.50
+JARO_WINKLER_CANDIDATE_THRESHOLD = 0.78
+JARO_WINKLER_REVIEW_THRESHOLD = 0.86
+JARO_WINKLER_AUTO_MERGE_THRESHOLD = 0.94
 DEFAULT_MATCHING_MAX_PAIRS = 2_000_000
 STABLE_CONFLICT_SIMILARITY_THRESHOLD = 0.60
 BLOCKING_CONFLICT_FIELD_COUNT = 3
@@ -98,6 +101,25 @@ class MatchCandidate:
 
 
 @dataclass(frozen=True)
+class JaroWinklerCandidate:
+    levenshtein_candidate_id: int
+    left_preprocessed_id: int
+    right_preprocessed_id: int
+    left_staging_id: int
+    right_staging_id: int
+    left_raw_file_id: int
+    right_raw_file_id: int
+    left_source_record_id: str | None
+    right_source_record_id: str | None
+    levenshtein_score: float
+    jaro_winkler_score: float
+    decision: MatchDecision
+    strong_match_fields: tuple[str, ...]
+    conflict_fields: tuple[str, ...]
+    text_match_fields: tuple[str, ...]
+
+
+@dataclass(frozen=True)
 class MatchingRunResult:
     entity_type: str
     raw_file_id: int | None
@@ -107,6 +129,16 @@ class MatchingRunResult:
     candidates_out: int
     min_score: float
     candidates: tuple[MatchCandidate, ...]
+
+
+@dataclass(frozen=True)
+class JaroWinklerRunResult:
+    entity_type: str
+    raw_file_id: int | None
+    candidates_in_scope: int
+    candidates_out: int
+    min_score: float
+    candidates: tuple[JaroWinklerCandidate, ...]
 
 
 PERSON_FIELD_RULES = (
@@ -239,8 +271,52 @@ FIELD_RULES_BY_ENTITY_TYPE = {
     "PARTY": PARTY_FIELD_RULES,
 }
 
+JARO_WINKLER_RULES_BY_ENTITY_TYPE = {
+    "PERSON": tuple(
+        rule
+        for rule in PERSON_FIELD_RULES
+        if rule.name
+        in {
+            "First_Name",
+            "Second_Name",
+            "Last_Name",
+            "Family_Name",
+            "Full_Name",
+            "Place_Of_Birth",
+            "Street",
+            "City",
+            "Postal_City",
+            "Full_Address",
+        }
+    ),
+    "PARTY": tuple(
+        rule
+        for rule in PARTY_FIELD_RULES
+        if rule.name
+        in {
+            "Name",
+            "Short_Name",
+            "Legal_Entity_Type",
+            "Street",
+            "City",
+            "Postal_City",
+            "Full_Address",
+            "Business_Scope",
+            "Ownership_Form",
+            "Agent_Type",
+            "Insurance_Company",
+            "Direct_Parent_Name",
+            "Ultimate_Parent_Name",
+        }
+    ),
+}
+
 COMPARATORS: dict[str, Callable[[Any, Any], float]] = {
     "levenshtein": lambda left, right: Levenshtein.normalized_similarity(
+        normalize_value(left),
+        normalize_value(right),
+    ),
+    "jaro_winkler": lambda left, right: JaroWinkler.similarity(
         normalize_value(left),
         normalize_value(right),
     ),
@@ -252,6 +328,10 @@ class PreprocessedRecordsNotFoundError(ValueError):
 
 
 class MatchingPairLimitExceededError(ValueError):
+    pass
+
+
+class LevenshteinCandidatesNotFoundError(ValueError):
     pass
 
 
@@ -353,6 +433,100 @@ def find_match_candidates(
     )
 
 
+def refine_match_candidates_with_jaro_winkler(
+    db: Any,
+    entity_type: str,
+    raw_file_id: int | None = None,
+    min_score: float = JARO_WINKLER_CANDIDATE_THRESHOLD,
+    repo: Any | None = None,
+) -> JaroWinklerRunResult:
+    entity_type = normalize_entity_type(entity_type)
+    repo = repo or create_repository(db)
+    if not hasattr(repo, "get_levenshtein_candidates"):
+        raise LevenshteinCandidatesNotFoundError("Repository does not expose Levenshtein candidates.")
+
+    levenshtein_candidates = list(repo.get_levenshtein_candidates(entity_type, raw_file_id))
+    if not levenshtein_candidates:
+        persisted_candidates = persist_jaro_winkler_candidates(repo, entity_type, raw_file_id, [])
+        return JaroWinklerRunResult(
+            entity_type=entity_type,
+            raw_file_id=raw_file_id,
+            candidates_in_scope=0,
+            candidates_out=persisted_candidates,
+            min_score=min_score,
+            candidates=(),
+        )
+
+    refined_candidates: list[JaroWinklerCandidate] = []
+    for candidate_record in levenshtein_candidates:
+        left_record = repo.get_preprocessed_record_by_id(
+            entity_type,
+            get_int_record_value(candidate_record, "Left_Preprocessed_ID"),
+        )
+        right_record = repo.get_preprocessed_record_by_id(
+            entity_type,
+            get_int_record_value(candidate_record, "Right_Preprocessed_ID"),
+        )
+        if left_record is None or right_record is None:
+            continue
+
+        score_result = score_jaro_winkler_match(
+            left_record,
+            right_record,
+            entity_type,
+            original_strong_fields=parse_candidate_json_field(candidate_record, "Strong_Match_Fields_JSON"),
+            original_conflict_fields=parse_candidate_json_field(candidate_record, "Conflict_Fields_JSON"),
+            levenshtein_decision=get_optional_string_value(candidate_record, "Decision"),
+        )
+        if score_result.decision == MatchDecision.NO_MATCH:
+            continue
+        if score_result.score < min_score and not score_result.strong_match_fields:
+            continue
+
+        refined_candidates.append(
+            JaroWinklerCandidate(
+                levenshtein_candidate_id=get_int_record_value(
+                    candidate_record,
+                    "Match_Candidate_Levenshtein_ID",
+                ),
+                left_preprocessed_id=get_int_record_value(candidate_record, "Left_Preprocessed_ID"),
+                right_preprocessed_id=get_int_record_value(candidate_record, "Right_Preprocessed_ID"),
+                left_staging_id=get_int_record_value(candidate_record, "Left_Staging_ID"),
+                right_staging_id=get_int_record_value(candidate_record, "Right_Staging_ID"),
+                left_raw_file_id=get_int_record_value(candidate_record, "Left_RawFile_ID"),
+                right_raw_file_id=get_int_record_value(candidate_record, "Right_RawFile_ID"),
+                left_source_record_id=get_optional_string_value(candidate_record, "Left_Source_Record_ID"),
+                right_source_record_id=get_optional_string_value(candidate_record, "Right_Source_Record_ID"),
+                levenshtein_score=float(get_record_value(candidate_record, "Score")),
+                jaro_winkler_score=score_result.score,
+                decision=score_result.decision,
+                strong_match_fields=score_result.strong_match_fields,
+                conflict_fields=score_result.conflict_fields,
+                text_match_fields=tuple(
+                    field_score.field
+                    for field_score in score_result.field_scores
+                    if field_score.similarity is not None
+                ),
+            )
+        )
+
+    refined_candidates.sort(key=lambda candidate: candidate.jaro_winkler_score, reverse=True)
+    persisted_candidates = persist_jaro_winkler_candidates(
+        repo,
+        entity_type,
+        raw_file_id,
+        refined_candidates,
+    )
+    return JaroWinklerRunResult(
+        entity_type=entity_type,
+        raw_file_id=raw_file_id,
+        candidates_in_scope=len(levenshtein_candidates),
+        candidates_out=persisted_candidates,
+        min_score=min_score,
+        candidates=tuple(refined_candidates),
+    )
+
+
 def get_records_compared_against(repo: Any, entity_type: str) -> int:
     if hasattr(repo, "count_preprocessed_records"):
         return int(repo.count_preprocessed_records(entity_type))
@@ -378,6 +552,17 @@ def persist_match_candidates(
 ) -> int:
     if hasattr(repo, "replace_match_candidates"):
         return int(repo.replace_match_candidates(entity_type, raw_file_id, candidates))
+    return len(candidates)
+
+
+def persist_jaro_winkler_candidates(
+    repo: Any,
+    entity_type: str,
+    raw_file_id: int | None,
+    candidates: list[JaroWinklerCandidate],
+) -> int:
+    if hasattr(repo, "replace_jaro_winkler_candidates"):
+        return int(repo.replace_jaro_winkler_candidates(entity_type, raw_file_id, candidates))
     return len(candidates)
 
 
@@ -441,6 +626,65 @@ def score_match(left_record: Any, right_record: Any, entity_type: str) -> MatchR
     )
 
 
+def score_jaro_winkler_match(
+    left_record: Any,
+    right_record: Any,
+    entity_type: str,
+    original_strong_fields: tuple[str, ...] = (),
+    original_conflict_fields: tuple[str, ...] = (),
+    levenshtein_decision: str | None = None,
+) -> MatchResult:
+    entity_type = normalize_entity_type(entity_type)
+    rules = JARO_WINKLER_RULES_BY_ENTITY_TYPE[entity_type]
+    field_scores: list[FieldScore] = []
+    conflict_fields = list(original_conflict_fields)
+    weighted_score = 0.0
+    total_weight = 0.0
+
+    for rule in rules:
+        left_value = get_first_present_value(left_record, rule)
+        right_value = get_first_present_value(right_record, rule)
+        if is_blank(left_value) or is_blank(right_value):
+            continue
+
+        similarity = COMPARATORS["jaro_winkler"](left_value, right_value)
+        contribution = similarity * rule.weight
+        total_weight += rule.weight
+        weighted_score += contribution
+
+        if rule.role in {FieldRole.FIXED, FieldRole.SEMI_FIXED} and similarity < 0.82:
+            conflict_fields.append(rule.name)
+
+        field_scores.append(
+            FieldScore(
+                field=rule.name,
+                role=rule.role,
+                left_value=stringify_value(left_value),
+                right_value=stringify_value(right_value),
+                similarity=round(similarity, 4),
+                weight=rule.weight,
+                contribution=round(contribution, 4),
+                matched=similarity == 1.0,
+            )
+        )
+
+    rounded_score = round(weighted_score / total_weight if total_weight else 0.0, 4)
+    decision = classify_jaro_winkler_match(
+        rounded_score,
+        original_strong_fields,
+        conflict_fields,
+        levenshtein_decision,
+    )
+    return MatchResult(
+        entity_type=entity_type,
+        score=rounded_score,
+        decision=decision,
+        strong_match_fields=tuple(original_strong_fields),
+        conflict_fields=tuple(dict.fromkeys(conflict_fields)),
+        field_scores=tuple(field_scores),
+    )
+
+
 def classify_match(
     score: float,
     strong_match_fields: list[str],
@@ -467,6 +711,25 @@ def classify_match(
         return MatchDecision.REVIEW
     if score >= LEVENSHTEIN_CANDIDATE_THRESHOLD:
         return MatchDecision.CANDIDATE
+    return MatchDecision.NO_MATCH
+
+
+def classify_jaro_winkler_match(
+    score: float,
+    strong_match_fields: tuple[str, ...],
+    conflict_fields: list[str],
+    levenshtein_decision: str | None,
+) -> MatchDecision:
+    if score >= JARO_WINKLER_AUTO_MERGE_THRESHOLD and not conflict_fields:
+        return MatchDecision.AUTO_MERGE
+    if strong_match_fields and not conflict_fields and score >= JARO_WINKLER_REVIEW_THRESHOLD:
+        return MatchDecision.AUTO_MERGE
+    if score >= JARO_WINKLER_REVIEW_THRESHOLD:
+        return MatchDecision.REVIEW
+    if score >= JARO_WINKLER_CANDIDATE_THRESHOLD:
+        return MatchDecision.CANDIDATE
+    if levenshtein_decision == MatchDecision.AUTO_MERGE.value and strong_match_fields:
+        return MatchDecision.REVIEW
     return MatchDecision.NO_MATCH
 
 
@@ -543,3 +806,15 @@ def get_int_record_value(record: Any, field_name: str) -> int:
 def get_optional_string_value(record: Any, field_name: str) -> str | None:
     value = get_record_value(record, field_name)
     return None if is_blank(value) else stringify_value(value)
+
+
+def parse_candidate_json_field(record: Any, field_name: str) -> tuple[str, ...]:
+    import json
+
+    value = get_record_value(record, field_name)
+    if is_blank(value):
+        return ()
+    parsed = json.loads(str(value))
+    if not isinstance(parsed, list):
+        return ()
+    return tuple(str(item) for item in parsed)

@@ -243,12 +243,13 @@ def integration_golden_match(**context: Any) -> dict[str, Any]:
     raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
     entity_types = _entity_types(conf)
     min_score = conf.get("matching_min_score", 0.50)
+    jaro_winkler_min_score = conf.get("jaro_winkler_min_score", 0.78)
     max_pairs = conf.get("matching_max_pairs", 2_000_000)
 
     results = {}
     for entity_type in entity_types:
         raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
-        results[entity_type] = _post_form(
+        levenshtein_result = _post_form(
             f"{LAYERS_API_PREFIX}/integration_golden/match-candidates",
             data={
                 "raw_file_id": raw_file_id,
@@ -257,6 +258,18 @@ def integration_golden_match(**context: Any) -> dict[str, Any]:
                 "max_pairs": max_pairs,
             },
         )
+        jaro_winkler_result = _post_form(
+            f"{LAYERS_API_PREFIX}/integration_golden/match-candidates/jaro-winkler",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+                "min_score": jaro_winkler_min_score,
+            },
+        )
+        results[entity_type] = {
+            "levenshtein": levenshtein_result,
+            "jaro_winkler": jaro_winkler_result,
+        }
 
     return results
 
@@ -311,6 +324,11 @@ with DAG(
             2000000,
             type="integer",
             description="Maksymalna liczba par porownywanych w kroku integration_golden. Wartosc 0 wylacza limit bezpieczenstwa.",
+        ),
+        "jaro_winkler_min_score": Param(
+            0.78,
+            type="number",
+            description="Minimalny score drugiego sita Jaro-Winkler dla kandydatow z Levenshteina.",
         ),
     },
     tags=["goldenizacja", "pipeline"],

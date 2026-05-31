@@ -65,6 +65,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
+      - airflow_db:/opt/airflow
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
@@ -131,3 +132,4 @@ volumes:
   neo4j_logs:
   filestream_data:
   frontend_node_modules:
+  airflow_db:

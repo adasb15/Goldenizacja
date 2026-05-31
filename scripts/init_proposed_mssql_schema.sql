@@ -23,6 +23,10 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'stg')
     EXEC(N'CREATE SCHEMA [stg]');
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'gold')
+    EXEC(N'CREATE SCHEMA [gold]');
+GO
+
 IF OBJECT_ID(N'[meta].[SourceSystem]', N'U') IS NULL
 BEGIN
     CREATE TABLE [meta].[SourceSystem] (
@@ -618,6 +622,42 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Match_Candidate_JaroWinkler] (
+        [Match_Candidate_JaroWinkler_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Levenshtein_Candidate_ID] BIGINT NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [RawFile_ID] BIGINT NULL,
+        [Left_Preprocessed_ID] BIGINT NOT NULL,
+        [Right_Preprocessed_ID] BIGINT NOT NULL,
+        [Left_Staging_ID] BIGINT NOT NULL,
+        [Right_Staging_ID] BIGINT NOT NULL,
+        [Left_RawFile_ID] BIGINT NOT NULL,
+        [Right_RawFile_ID] BIGINT NOT NULL,
+        [Left_Source_Record_ID] NVARCHAR(100) NULL,
+        [Right_Source_Record_ID] NVARCHAR(100) NULL,
+        [Levenshtein_Score] FLOAT NOT NULL,
+        [JaroWinkler_Score] FLOAT NOT NULL,
+        [Decision] NVARCHAR(30) NOT NULL,
+        [Strong_Match_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Conflict_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Text_Match_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Match_Candidate_JaroWinkler_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Match_Candidate_JaroWinkler] PRIMARY KEY CLUSTERED ([Match_Candidate_JaroWinkler_ID]),
+        CONSTRAINT [FK_Match_Candidate_JaroWinkler_Levenshtein] FOREIGN KEY ([Levenshtein_Candidate_ID])
+            REFERENCES [stg].[Match_Candidate_Levenshtein] ([Match_Candidate_Levenshtein_ID]),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Decision] CHECK ([Decision] IN (N'AUTO_MERGE', N'REVIEW', N'CANDIDATE')),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Levenshtein_Score] CHECK ([Levenshtein_Score] >= 0 AND [Levenshtein_Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Score] CHECK ([JaroWinkler_Score] >= 0 AND [JaroWinkler_Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Strong_JSON] CHECK ([Strong_Match_Fields_JSON] IS NULL OR ISJSON([Strong_Match_Fields_JSON]) = 1),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Conflict_JSON] CHECK ([Conflict_Fields_JSON] IS NULL OR ISJSON([Conflict_Fields_JSON]) = 1),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Text_JSON] CHECK ([Text_Match_Fields_JSON] IS NULL OR ISJSON([Text_Match_Fields_JSON]) = 1)
+    );
+END;
+GO
+
 IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
 BEGIN
     CREATE TABLE [stg].[Validation_Result] (
@@ -644,6 +684,485 @@ BEGIN
         CONSTRAINT [CK_Validation_Result_Level] CHECK ([Validation_Level] IN (N'STAGING', N'PREPROCESSING')),
         CONSTRAINT [CK_Validation_Result_Severity] CHECK ([Severity] IN (N'INFO', N'WARNING', N'ERROR')),
         CONSTRAINT [CK_Validation_Result_Status] CHECK ([Status] IN (N'PASS', N'WARNING', N'ERROR'))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimAddress]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimAddress] (
+        [Address_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Street] NVARCHAR(100) NULL,
+        [Building_Number] NVARCHAR(20) NULL,
+        [Apartment_Number] NVARCHAR(20) NULL,
+        [City] NVARCHAR(50) NULL,
+        [Postal_City] NVARCHAR(50) NULL,
+        [Postal_Code] NVARCHAR(20) NULL,
+        [District] NVARCHAR(50) NULL,
+        [Province] NVARCHAR(50) NULL,
+        [Country] NVARCHAR(50) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_DimAddress_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_DimAddress] PRIMARY KEY CLUSTERED ([Address_ID])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimAddressType]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimAddressType] (
+        [AddressType_ID] INT IDENTITY(1,1) NOT NULL,
+        [AddressType_Name] NVARCHAR(50) NOT NULL,
+        CONSTRAINT [PK_DimAddressType] PRIMARY KEY CLUSTERED ([AddressType_ID]),
+        CONSTRAINT [UQ_DimAddressType_Name] UNIQUE ([AddressType_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimIdentityType]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimIdentityType] (
+        [IdentityType_ID] INT IDENTITY(1,1) NOT NULL,
+        [IdentityType_Name] NVARCHAR(50) NOT NULL,
+        CONSTRAINT [PK_DimIdentityType] PRIMARY KEY CLUSTERED ([IdentityType_ID]),
+        CONSTRAINT [UQ_DimIdentityType_Name] UNIQUE ([IdentityType_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimParty]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimParty] (
+        [Party_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Name] NVARCHAR(255) NOT NULL,
+        [Short_Name] NVARCHAR(255) NULL,
+        [Legal_Entity_Type] NVARCHAR(100) NULL,
+        [Registration_Country] NVARCHAR(50) NULL,
+        [Establishment_Date] DATE NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_DimParty_Created_At] DEFAULT SYSUTCDATETIME(),
+        [Updated_At] DATETIME2(0) NULL,
+        CONSTRAINT [PK_DimParty] PRIMARY KEY CLUSTERED ([Party_ID])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimPartyRelationshipType]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimPartyRelationshipType] (
+        [RelationshipType_ID] INT IDENTITY(1,1) NOT NULL,
+        [Relationship_Name] NVARCHAR(50) NOT NULL,
+        CONSTRAINT [PK_DimPartyRelationshipType] PRIMARY KEY CLUSTERED ([RelationshipType_ID]),
+        CONSTRAINT [UQ_DimPartyRelationshipType_Name] UNIQUE ([Relationship_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimPerson]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimPerson] (
+        [Person_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PESEL] NVARCHAR(11) NULL,
+        [Serial_Number_ID_Card] NVARCHAR(20) NULL,
+        [Serial_Number_Passport] NVARCHAR(20) NULL,
+        [First_Name] NVARCHAR(50) NULL,
+        [Second_Name] NVARCHAR(50) NULL,
+        [Last_Name] NVARCHAR(50) NULL,
+        [Family_Name] NVARCHAR(50) NULL,
+        [Birth_Date] DATE NULL,
+        [Place_Of_Birth] NVARCHAR(100) NULL,
+        [Sex] BIT NULL,
+        [Citizenship] NVARCHAR(50) NULL,
+        [Phone_Number] NVARCHAR(20) NULL,
+        [Email_Address] NVARCHAR(100) NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_DimPerson_Created_At] DEFAULT SYSUTCDATETIME(),
+        [Updated_At] DATETIME2(0) NULL,
+        CONSTRAINT [PK_DimPerson] PRIMARY KEY CLUSTERED ([Person_ID])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimRegister]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimRegister] (
+        [Register_ID] INT IDENTITY(1,1) NOT NULL,
+        [Register_Name] NVARCHAR(100) NOT NULL,
+        CONSTRAINT [PK_DimRegister] PRIMARY KEY CLUSTERED ([Register_ID]),
+        CONSTRAINT [UQ_DimRegister_Name] UNIQUE ([Register_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimRegisterStatus]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimRegisterStatus] (
+        [RegisterStatus_ID] INT IDENTITY(1,1) NOT NULL,
+        [Status_Name] NVARCHAR(50) NOT NULL,
+        CONSTRAINT [PK_DimRegisterStatus] PRIMARY KEY CLUSTERED ([RegisterStatus_ID]),
+        CONSTRAINT [UQ_DimRegisterStatus_Name] UNIQUE ([Status_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[DimRoleType]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[DimRoleType] (
+        [RoleType_ID] INT IDENTITY(1,1) NOT NULL,
+        [Role_Name] NVARCHAR(50) NOT NULL,
+        CONSTRAINT [PK_DimRoleType] PRIMARY KEY CLUSTERED ([RoleType_ID]),
+        CONSTRAINT [UQ_DimRoleType_Name] UNIQUE ([Role_Name])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPartyAddress]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPartyAddress] (
+        [PartyAddress_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Party_ID] BIGINT NOT NULL,
+        [Address_ID] BIGINT NOT NULL,
+        [AddressType_ID] INT NOT NULL,
+        [Valid_From] DATE NULL,
+        [Valid_To] DATE NULL,
+        CONSTRAINT [PK_FactlessPartyAddress] PRIMARY KEY CLUSTERED ([PartyAddress_ID]),
+        CONSTRAINT [FK_FactlessPartyAddress_Party] FOREIGN KEY ([Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPartyAddress_Address] FOREIGN KEY ([Address_ID]) REFERENCES [gold].[DimAddress] ([Address_ID]),
+        CONSTRAINT [FK_FactlessPartyAddress_AddressType] FOREIGN KEY ([AddressType_ID]) REFERENCES [gold].[DimAddressType] ([AddressType_ID]),
+        CONSTRAINT [CK_FactlessPartyAddress_Dates] CHECK ([Valid_To] IS NULL OR [Valid_From] IS NULL OR [Valid_To] >= [Valid_From])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPartyIdentities]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPartyIdentities] (
+        [PartyIdentity_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Party_ID] BIGINT NOT NULL,
+        [IdentityType_ID] INT NOT NULL,
+        [Identity_Value] NVARCHAR(100) NOT NULL,
+        [Is_Valid] BIT NULL,
+        [Match_Confidence] DECIMAL(5,4) NULL,
+        [Valid_From] DATE NULL,
+        [Valid_To] DATE NULL,
+        CONSTRAINT [PK_FactlessPartyIdentities] PRIMARY KEY CLUSTERED ([PartyIdentity_ID]),
+        CONSTRAINT [FK_FactlessPartyIdentities_Party] FOREIGN KEY ([Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPartyIdentities_IdentityType] FOREIGN KEY ([IdentityType_ID]) REFERENCES [gold].[DimIdentityType] ([IdentityType_ID]),
+        CONSTRAINT [UQ_FactlessPartyIdentities_Type_Value] UNIQUE ([IdentityType_ID], [Identity_Value]),
+        CONSTRAINT [CK_FactlessPartyIdentities_Match_Confidence] CHECK ([Match_Confidence] IS NULL OR ([Match_Confidence] >= 0 AND [Match_Confidence] <= 1)),
+        CONSTRAINT [CK_FactlessPartyIdentities_Dates] CHECK ([Valid_To] IS NULL OR [Valid_From] IS NULL OR [Valid_To] >= [Valid_From])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPartyRegisterEntry]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPartyRegisterEntry] (
+        [PartyRegisterEntry_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Party_ID] BIGINT NOT NULL,
+        [Register_ID] INT NOT NULL,
+        [RegisterStatus_ID] INT NOT NULL,
+        [Registration_Date] DATE NULL,
+        [Deregistration_Date] DATE NULL,
+        CONSTRAINT [PK_FactlessPartyRegisterEntry] PRIMARY KEY CLUSTERED ([PartyRegisterEntry_ID]),
+        CONSTRAINT [FK_FactlessPartyRegisterEntry_Party] FOREIGN KEY ([Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPartyRegisterEntry_Register] FOREIGN KEY ([Register_ID]) REFERENCES [gold].[DimRegister] ([Register_ID]),
+        CONSTRAINT [FK_FactlessPartyRegisterEntry_Status] FOREIGN KEY ([RegisterStatus_ID]) REFERENCES [gold].[DimRegisterStatus] ([RegisterStatus_ID]),
+        CONSTRAINT [CK_FactlessPartyRegisterEntry_Dates] CHECK ([Deregistration_Date] IS NULL OR [Registration_Date] IS NULL OR [Deregistration_Date] >= [Registration_Date])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPartyRelationship]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPartyRelationship] (
+        [PartyRelationship_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Parent_Party_ID] BIGINT NOT NULL,
+        [Child_Party_ID] BIGINT NOT NULL,
+        [RelationshipType_ID] INT NOT NULL,
+        [Valid_From] DATE NULL,
+        [Valid_To] DATE NULL,
+        CONSTRAINT [PK_FactlessPartyRelationship] PRIMARY KEY CLUSTERED ([PartyRelationship_ID]),
+        CONSTRAINT [FK_FactlessPartyRelationship_Parent] FOREIGN KEY ([Parent_Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPartyRelationship_Child] FOREIGN KEY ([Child_Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPartyRelationship_Type] FOREIGN KEY ([RelationshipType_ID]) REFERENCES [gold].[DimPartyRelationshipType] ([RelationshipType_ID]),
+        CONSTRAINT [CK_FactlessPartyRelationship_No_Self] CHECK ([Parent_Party_ID] <> [Child_Party_ID]),
+        CONSTRAINT [CK_FactlessPartyRelationship_Dates] CHECK ([Valid_To] IS NULL OR [Valid_From] IS NULL OR [Valid_To] >= [Valid_From])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPersonAddress]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPersonAddress] (
+        [PersonAddress_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Person_ID] BIGINT NOT NULL,
+        [Address_ID] BIGINT NOT NULL,
+        [AddressType_ID] INT NOT NULL,
+        [Valid_From] DATE NULL,
+        [Valid_To] DATE NULL,
+        CONSTRAINT [PK_FactlessPersonAddress] PRIMARY KEY CLUSTERED ([PersonAddress_ID]),
+        CONSTRAINT [FK_FactlessPersonAddress_Person] FOREIGN KEY ([Person_ID]) REFERENCES [gold].[DimPerson] ([Person_ID]),
+        CONSTRAINT [FK_FactlessPersonAddress_Address] FOREIGN KEY ([Address_ID]) REFERENCES [gold].[DimAddress] ([Address_ID]),
+        CONSTRAINT [FK_FactlessPersonAddress_AddressType] FOREIGN KEY ([AddressType_ID]) REFERENCES [gold].[DimAddressType] ([AddressType_ID]),
+        CONSTRAINT [CK_FactlessPersonAddress_Dates] CHECK ([Valid_To] IS NULL OR [Valid_From] IS NULL OR [Valid_To] >= [Valid_From])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[FactlessPersonPartyRole]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[FactlessPersonPartyRole] (
+        [PersonPartyRole_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Person_ID] BIGINT NOT NULL,
+        [Party_ID] BIGINT NOT NULL,
+        [RoleType_ID] INT NOT NULL,
+        [Valid_From] DATE NULL,
+        [Valid_To] DATE NULL,
+        CONSTRAINT [PK_FactlessPersonPartyRole] PRIMARY KEY CLUSTERED ([PersonPartyRole_ID]),
+        CONSTRAINT [FK_FactlessPersonPartyRole_Person] FOREIGN KEY ([Person_ID]) REFERENCES [gold].[DimPerson] ([Person_ID]),
+        CONSTRAINT [FK_FactlessPersonPartyRole_Party] FOREIGN KEY ([Party_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_FactlessPersonPartyRole_RoleType] FOREIGN KEY ([RoleType_ID]) REFERENCES [gold].[DimRoleType] ([RoleType_ID]),
+        CONSTRAINT [CK_FactlessPersonPartyRole_Dates] CHECK ([Valid_To] IS NULL OR [Valid_From] IS NULL OR [Valid_To] >= [Valid_From])
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[EntityChangeLog]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[EntityChangeLog] (
+        [Change_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [DimPerson_ID] BIGINT NULL,
+        [DimParty_ID] BIGINT NULL,
+        [DimAddress_ID] BIGINT NULL,
+        [PartyIdentity_ID] BIGINT NULL,
+        [Attribute_Name] NVARCHAR(100) NOT NULL,
+        [Old_Value] NVARCHAR(4000) NULL,
+        [New_Value] NVARCHAR(4000) NULL,
+        [Change_Date] DATETIME2(0) NOT NULL CONSTRAINT [DF_EntityChangeLog_Change_Date] DEFAULT SYSUTCDATETIME(),
+        [ImportBatch_ID] BIGINT NULL,
+        CONSTRAINT [PK_EntityChangeLog] PRIMARY KEY CLUSTERED ([Change_ID]),
+        CONSTRAINT [FK_EntityChangeLog_Person] FOREIGN KEY ([DimPerson_ID]) REFERENCES [gold].[DimPerson] ([Person_ID]),
+        CONSTRAINT [FK_EntityChangeLog_Party] FOREIGN KEY ([DimParty_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_EntityChangeLog_Address] FOREIGN KEY ([DimAddress_ID]) REFERENCES [gold].[DimAddress] ([Address_ID]),
+        CONSTRAINT [FK_EntityChangeLog_PartyIdentity] FOREIGN KEY ([PartyIdentity_ID]) REFERENCES [gold].[FactlessPartyIdentities] ([PartyIdentity_ID]),
+        CONSTRAINT [FK_EntityChangeLog_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_EntityChangeLog_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY', N'ADDRESS', N'PARTY_IDENTITY')),
+        CONSTRAINT [CK_EntityChangeLog_Entity_Ref] CHECK (
+            ([Entity_Type] = N'PERSON' AND [DimPerson_ID] IS NOT NULL AND [DimParty_ID] IS NULL AND [DimAddress_ID] IS NULL AND [PartyIdentity_ID] IS NULL) OR
+            ([Entity_Type] = N'PARTY' AND [DimPerson_ID] IS NULL AND [DimParty_ID] IS NOT NULL AND [DimAddress_ID] IS NULL AND [PartyIdentity_ID] IS NULL) OR
+            ([Entity_Type] = N'ADDRESS' AND [DimPerson_ID] IS NULL AND [DimParty_ID] IS NULL AND [DimAddress_ID] IS NOT NULL AND [PartyIdentity_ID] IS NULL) OR
+            ([Entity_Type] = N'PARTY_IDENTITY' AND [DimPerson_ID] IS NULL AND [DimParty_ID] IS NULL AND [DimAddress_ID] IS NULL AND [PartyIdentity_ID] IS NOT NULL)
+        )
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[GoldenPersonLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[GoldenPersonLineage] (
+        [Lineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [DimPerson_ID] BIGINT NOT NULL,
+        [Attribute_Name] NVARCHAR(100) NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_GoldenPersonLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_GoldenPersonLineage] PRIMARY KEY CLUSTERED ([Lineage_ID]),
+        CONSTRAINT [FK_GoldenPersonLineage_Person] FOREIGN KEY ([DimPerson_ID]) REFERENCES [gold].[DimPerson] ([Person_ID]),
+        CONSTRAINT [FK_GoldenPersonLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_GoldenPersonLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_GoldenPersonLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_GoldenPersonLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[GoldenPartyLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[GoldenPartyLineage] (
+        [Lineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [DimParty_ID] BIGINT NOT NULL,
+        [Attribute_Name] NVARCHAR(100) NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_GoldenPartyLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_GoldenPartyLineage] PRIMARY KEY CLUSTERED ([Lineage_ID]),
+        CONSTRAINT [FK_GoldenPartyLineage_Party] FOREIGN KEY ([DimParty_ID]) REFERENCES [gold].[DimParty] ([Party_ID]),
+        CONSTRAINT [FK_GoldenPartyLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_GoldenPartyLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_GoldenPartyLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_GoldenPartyLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[GoldenAddressLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[GoldenAddressLineage] (
+        [Lineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [DimAddress_ID] BIGINT NOT NULL,
+        [Attribute_Name] NVARCHAR(100) NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_GoldenAddressLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_GoldenAddressLineage] PRIMARY KEY CLUSTERED ([Lineage_ID]),
+        CONSTRAINT [FK_GoldenAddressLineage_Address] FOREIGN KEY ([DimAddress_ID]) REFERENCES [gold].[DimAddress] ([Address_ID]),
+        CONSTRAINT [FK_GoldenAddressLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_GoldenAddressLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_GoldenAddressLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_GoldenAddressLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[GoldenPartyIdentityLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[GoldenPartyIdentityLineage] (
+        [Lineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PartyIdentity_ID] BIGINT NOT NULL,
+        [Attribute_Name] NVARCHAR(100) NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_GoldenPartyIdentityLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_GoldenPartyIdentityLineage] PRIMARY KEY CLUSTERED ([Lineage_ID]),
+        CONSTRAINT [FK_GoldenPartyIdentityLineage_Identity] FOREIGN KEY ([PartyIdentity_ID]) REFERENCES [gold].[FactlessPartyIdentities] ([PartyIdentity_ID]),
+        CONSTRAINT [FK_GoldenPartyIdentityLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_GoldenPartyIdentityLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_GoldenPartyIdentityLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_GoldenPartyIdentityLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[PartyAddressLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[PartyAddressLineage] (
+        [RelationshipLineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PartyAddress_ID] BIGINT NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_PartyAddressLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_PartyAddressLineage] PRIMARY KEY CLUSTERED ([RelationshipLineage_ID]),
+        CONSTRAINT [FK_PartyAddressLineage_PartyAddress] FOREIGN KEY ([PartyAddress_ID]) REFERENCES [gold].[FactlessPartyAddress] ([PartyAddress_ID]),
+        CONSTRAINT [FK_PartyAddressLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_PartyAddressLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_PartyAddressLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_PartyAddressLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[PersonAddressLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[PersonAddressLineage] (
+        [RelationshipLineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PersonAddress_ID] BIGINT NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_PersonAddressLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_PersonAddressLineage] PRIMARY KEY CLUSTERED ([RelationshipLineage_ID]),
+        CONSTRAINT [FK_PersonAddressLineage_PersonAddress] FOREIGN KEY ([PersonAddress_ID]) REFERENCES [gold].[FactlessPersonAddress] ([PersonAddress_ID]),
+        CONSTRAINT [FK_PersonAddressLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_PersonAddressLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_PersonAddressLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_PersonAddressLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[PersonPartyRoleLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[PersonPartyRoleLineage] (
+        [RelationshipLineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PersonPartyRole_ID] BIGINT NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_PersonPartyRoleLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_PersonPartyRoleLineage] PRIMARY KEY CLUSTERED ([RelationshipLineage_ID]),
+        CONSTRAINT [FK_PersonPartyRoleLineage_Role] FOREIGN KEY ([PersonPartyRole_ID]) REFERENCES [gold].[FactlessPersonPartyRole] ([PersonPartyRole_ID]),
+        CONSTRAINT [FK_PersonPartyRoleLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_PersonPartyRoleLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_PersonPartyRoleLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_PersonPartyRoleLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[PartyRegisterEntryLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[PartyRegisterEntryLineage] (
+        [RelationshipLineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PartyRegisterEntry_ID] BIGINT NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_PartyRegisterEntryLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_PartyRegisterEntryLineage] PRIMARY KEY CLUSTERED ([RelationshipLineage_ID]),
+        CONSTRAINT [FK_PartyRegisterEntryLineage_Entry] FOREIGN KEY ([PartyRegisterEntry_ID]) REFERENCES [gold].[FactlessPartyRegisterEntry] ([PartyRegisterEntry_ID]),
+        CONSTRAINT [FK_PartyRegisterEntryLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_PartyRegisterEntryLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_PartyRegisterEntryLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_PartyRegisterEntryLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[gold].[PartyRelationshipLineage]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [gold].[PartyRelationshipLineage] (
+        [RelationshipLineage_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [PartyRelationship_ID] BIGINT NOT NULL,
+        [SourceSystem_ID] INT NOT NULL,
+        [Source_Record_ID] NVARCHAR(100) NULL,
+        [ImportBatch_ID] BIGINT NOT NULL,
+        [Selection_Rule] NVARCHAR(100) NULL,
+        [Trust_Score] DECIMAL(5,4) NULL,
+        [Quality_Score] DECIMAL(5,4) NULL,
+        [Validation_Status] NVARCHAR(30) NULL,
+        [Recorded_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_PartyRelationshipLineage_Recorded_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_PartyRelationshipLineage] PRIMARY KEY CLUSTERED ([RelationshipLineage_ID]),
+        CONSTRAINT [FK_PartyRelationshipLineage_Relationship] FOREIGN KEY ([PartyRelationship_ID]) REFERENCES [gold].[FactlessPartyRelationship] ([PartyRelationship_ID]),
+        CONSTRAINT [FK_PartyRelationshipLineage_SourceSystem] FOREIGN KEY ([SourceSystem_ID]) REFERENCES [meta].[SourceSystem] ([SourceSystem_ID]),
+        CONSTRAINT [FK_PartyRelationshipLineage_ImportBatch] FOREIGN KEY ([ImportBatch_ID]) REFERENCES [meta].[ImportBatch] ([ImportBatch_ID]),
+        CONSTRAINT [CK_PartyRelationshipLineage_Trust_Score] CHECK ([Trust_Score] IS NULL OR ([Trust_Score] >= 0 AND [Trust_Score] <= 1)),
+        CONSTRAINT [CK_PartyRelationshipLineage_Quality_Score] CHECK ([Quality_Score] IS NULL OR ([Quality_Score] >= 0 AND [Quality_Score] <= 1))
     );
 END;
 GO
@@ -796,12 +1315,245 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Leven
     CREATE INDEX [IX_Match_Candidate_Levenshtein_Left_Right] ON [stg].[Match_Candidate_Levenshtein] ([Left_Preprocessed_ID], [Right_Preprocessed_ID]);
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_JaroWinkler_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
+    CREATE INDEX [IX_Match_Candidate_JaroWinkler_RawFile_Entity] ON [stg].[Match_Candidate_JaroWinkler] ([RawFile_ID], [Entity_Type]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_JaroWinkler_Decision_Score' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
+    CREATE INDEX [IX_Match_Candidate_JaroWinkler_Decision_Score] ON [stg].[Match_Candidate_JaroWinkler] ([Decision], [JaroWinkler_Score]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_JaroWinkler_Levenshtein' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
+    CREATE INDEX [IX_Match_Candidate_JaroWinkler_Levenshtein] ON [stg].[Match_Candidate_JaroWinkler] ([Levenshtein_Candidate_ID]);
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
     CREATE INDEX [IX_Validation_Result_RawFile_Entity] ON [stg].[Validation_Result] ([RawFile_ID], [Entity_Type]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_Status' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
     CREATE INDEX [IX_Validation_Result_Status] ON [stg].[Validation_Result] ([Status], [Rule_Code]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_PESEL' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
+    CREATE UNIQUE INDEX [IX_DimPerson_PESEL] ON [gold].[DimPerson] ([PESEL]) WHERE [PESEL] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Email' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
+    CREATE UNIQUE INDEX [IX_DimPerson_Email] ON [gold].[DimPerson] ([Email_Address]) WHERE [Email_Address] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_IDCard' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
+    CREATE UNIQUE INDEX [IX_DimPerson_IDCard] ON [gold].[DimPerson] ([Serial_Number_ID_Card]) WHERE [Serial_Number_ID_Card] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Passport' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
+    CREATE UNIQUE INDEX [IX_DimPerson_Passport] ON [gold].[DimPerson] ([Serial_Number_Passport]) WHERE [Serial_Number_Passport] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Phone' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
+    CREATE UNIQUE INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson] ([Phone_Number]) WHERE [Phone_Number] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimParty_Name' AND object_id = OBJECT_ID(N'[gold].[DimParty]'))
+    CREATE INDEX [IX_DimParty_Name] ON [gold].[DimParty] ([Name]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_Entity' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_Entity] ON [gold].[EntityChangeLog] ([Entity_Type], [DimPerson_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_ChangeDate' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_ChangeDate] ON [gold].[EntityChangeLog] ([Change_Date]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_Party' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_Party] ON [gold].[EntityChangeLog] ([DimParty_ID]) WHERE [DimParty_ID] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_Address' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_Address] ON [gold].[EntityChangeLog] ([DimAddress_ID]) WHERE [DimAddress_ID] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_PartyIdentity' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_PartyIdentity] ON [gold].[EntityChangeLog] ([PartyIdentity_ID]) WHERE [PartyIdentity_ID] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_EntityChangeLog_ImportBatch' AND object_id = OBJECT_ID(N'[gold].[EntityChangeLog]'))
+    CREATE INDEX [IX_EntityChangeLog_ImportBatch] ON [gold].[EntityChangeLog] ([ImportBatch_ID]) WHERE [ImportBatch_ID] IS NOT NULL;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyAddress_Party' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyAddress]'))
+    CREATE INDEX [IX_FactlessPartyAddress_Party] ON [gold].[FactlessPartyAddress] ([Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyAddress_Address' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyAddress]'))
+    CREATE INDEX [IX_FactlessPartyAddress_Address] ON [gold].[FactlessPartyAddress] ([Address_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyIdentities_Party' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyIdentities]'))
+    CREATE INDEX [IX_FactlessPartyIdentities_Party] ON [gold].[FactlessPartyIdentities] ([Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyIdentities_Type' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyIdentities]'))
+    CREATE INDEX [IX_FactlessPartyIdentities_Type] ON [gold].[FactlessPartyIdentities] ([IdentityType_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyIdentities_Value' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyIdentities]'))
+    CREATE INDEX [IX_FactlessPartyIdentities_Value] ON [gold].[FactlessPartyIdentities] ([Identity_Value]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyRegisterEntry_Party' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyRegisterEntry]'))
+    CREATE INDEX [IX_FactlessPartyRegisterEntry_Party] ON [gold].[FactlessPartyRegisterEntry] ([Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyRegisterEntry_Register' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyRegisterEntry]'))
+    CREATE INDEX [IX_FactlessPartyRegisterEntry_Register] ON [gold].[FactlessPartyRegisterEntry] ([Register_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPersonAddress_Person' AND object_id = OBJECT_ID(N'[gold].[FactlessPersonAddress]'))
+    CREATE INDEX [IX_FactlessPersonAddress_Person] ON [gold].[FactlessPersonAddress] ([Person_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPersonAddress_Address' AND object_id = OBJECT_ID(N'[gold].[FactlessPersonAddress]'))
+    CREATE INDEX [IX_FactlessPersonAddress_Address] ON [gold].[FactlessPersonAddress] ([Address_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPersonPartyRole_Person' AND object_id = OBJECT_ID(N'[gold].[FactlessPersonPartyRole]'))
+    CREATE INDEX [IX_FactlessPersonPartyRole_Person] ON [gold].[FactlessPersonPartyRole] ([Person_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPersonPartyRole_Party' AND object_id = OBJECT_ID(N'[gold].[FactlessPersonPartyRole]'))
+    CREATE INDEX [IX_FactlessPersonPartyRole_Party] ON [gold].[FactlessPersonPartyRole] ([Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyRelationship_Parent' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyRelationship]'))
+    CREATE INDEX [IX_FactlessPartyRelationship_Parent] ON [gold].[FactlessPartyRelationship] ([Parent_Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_FactlessPartyRelationship_Child' AND object_id = OBJECT_ID(N'[gold].[FactlessPartyRelationship]'))
+    CREATE INDEX [IX_FactlessPartyRelationship_Child] ON [gold].[FactlessPartyRelationship] ([Child_Party_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldenPersonLineage_Person' AND object_id = OBJECT_ID(N'[gold].[GoldenPersonLineage]'))
+    CREATE INDEX [IX_GoldenPersonLineage_Person] ON [gold].[GoldenPersonLineage] ([DimPerson_ID], [Attribute_Name]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldenPartyLineage_Party' AND object_id = OBJECT_ID(N'[gold].[GoldenPartyLineage]'))
+    CREATE INDEX [IX_GoldenPartyLineage_Party] ON [gold].[GoldenPartyLineage] ([DimParty_ID], [Attribute_Name]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldenAddressLineage_Address' AND object_id = OBJECT_ID(N'[gold].[GoldenAddressLineage]'))
+    CREATE INDEX [IX_GoldenAddressLineage_Address] ON [gold].[GoldenAddressLineage] ([DimAddress_ID], [Attribute_Name]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldenPartyIdentityLineage_Identity' AND object_id = OBJECT_ID(N'[gold].[GoldenPartyIdentityLineage]'))
+    CREATE INDEX [IX_GoldenPartyIdentityLineage_Identity] ON [gold].[GoldenPartyIdentityLineage] ([PartyIdentity_ID], [Attribute_Name]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_PartyAddressLineage_PartyAddress' AND object_id = OBJECT_ID(N'[gold].[PartyAddressLineage]'))
+    CREATE INDEX [IX_PartyAddressLineage_PartyAddress] ON [gold].[PartyAddressLineage] ([PartyAddress_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_PersonAddressLineage_PersonAddress' AND object_id = OBJECT_ID(N'[gold].[PersonAddressLineage]'))
+    CREATE INDEX [IX_PersonAddressLineage_PersonAddress] ON [gold].[PersonAddressLineage] ([PersonAddress_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_PersonPartyRoleLineage_Role' AND object_id = OBJECT_ID(N'[gold].[PersonPartyRoleLineage]'))
+    CREATE INDEX [IX_PersonPartyRoleLineage_Role] ON [gold].[PersonPartyRoleLineage] ([PersonPartyRole_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_PartyRegisterEntryLineage_Entry' AND object_id = OBJECT_ID(N'[gold].[PartyRegisterEntryLineage]'))
+    CREATE INDEX [IX_PartyRegisterEntryLineage_Entry] ON [gold].[PartyRegisterEntryLineage] ([PartyRegisterEntry_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_PartyRelationshipLineage_Relationship' AND object_id = OBJECT_ID(N'[gold].[PartyRelationshipLineage]'))
+    CREATE INDEX [IX_PartyRelationshipLineage_Relationship] ON [gold].[PartyRelationshipLineage] ([PartyRelationship_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Gold_Lineage_Source_Import' AND object_id = OBJECT_ID(N'[gold].[GoldenPersonLineage]'))
+    CREATE INDEX [IX_Gold_Lineage_Source_Import] ON [gold].[GoldenPersonLineage] ([SourceSystem_ID], [ImportBatch_ID], [Recorded_At]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldParty_Lineage_Source_Import' AND object_id = OBJECT_ID(N'[gold].[GoldenPartyLineage]'))
+    CREATE INDEX [IX_GoldParty_Lineage_Source_Import] ON [gold].[GoldenPartyLineage] ([SourceSystem_ID], [ImportBatch_ID], [Recorded_At]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldAddress_Lineage_Source_Import' AND object_id = OBJECT_ID(N'[gold].[GoldenAddressLineage]'))
+    CREATE INDEX [IX_GoldAddress_Lineage_Source_Import] ON [gold].[GoldenAddressLineage] ([SourceSystem_ID], [ImportBatch_ID], [Recorded_At]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_GoldIdentity_Lineage_Source_Import' AND object_id = OBJECT_ID(N'[gold].[GoldenPartyIdentityLineage]'))
+    CREATE INDEX [IX_GoldIdentity_Lineage_Source_Import] ON [gold].[GoldenPartyIdentityLineage] ([SourceSystem_ID], [ImportBatch_ID], [Recorded_At]);
+GO
+
+MERGE [gold].[DimAddressType] AS target
+USING (VALUES
+    (N'REGISTERED'),
+    (N'CORRESPONDENCE'),
+    (N'RESIDENCE'),
+    (N'BUSINESS')
+) AS source ([AddressType_Name])
+ON target.[AddressType_Name] = source.[AddressType_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([AddressType_Name]) VALUES (source.[AddressType_Name]);
+GO
+
+MERGE [gold].[DimIdentityType] AS target
+USING (VALUES
+    (N'PESEL'),
+    (N'NIP'),
+    (N'REGON'),
+    (N'KRS'),
+    (N'LEI'),
+    (N'ID_CARD'),
+    (N'PASSPORT'),
+    (N'KNF_REGISTER_NUMBER'),
+    (N'DECISION_NUMBER')
+) AS source ([IdentityType_Name])
+ON target.[IdentityType_Name] = source.[IdentityType_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([IdentityType_Name]) VALUES (source.[IdentityType_Name]);
+GO
+
+MERGE [gold].[DimRegisterStatus] AS target
+USING (VALUES
+    (N'ACTIVE'),
+    (N'INACTIVE'),
+    (N'SUSPENDED'),
+    (N'DEREGISTERED'),
+    (N'UNKNOWN')
+) AS source ([Status_Name])
+ON target.[Status_Name] = source.[Status_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([Status_Name]) VALUES (source.[Status_Name]);
+GO
+
+MERGE [gold].[DimRoleType] AS target
+USING (VALUES
+    (N'OWNER'),
+    (N'BOARD_MEMBER'),
+    (N'PROXY'),
+    (N'SUPERVISORY_BOARD_MEMBER'),
+    (N'LIQUIDATOR'),
+    (N'AGENT'),
+    (N'EMPLOYEE')
+) AS source ([Role_Name])
+ON target.[Role_Name] = source.[Role_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([Role_Name]) VALUES (source.[Role_Name]);
+GO
+
+MERGE [gold].[DimPartyRelationshipType] AS target
+USING (VALUES
+    (N'DIRECT_PARENT'),
+    (N'ULTIMATE_PARENT'),
+    (N'SHAREHOLDER'),
+    (N'RELATED_PARTY')
+) AS source ([Relationship_Name])
+ON target.[Relationship_Name] = source.[Relationship_Name]
+WHEN NOT MATCHED THEN
+    INSERT ([Relationship_Name]) VALUES (source.[Relationship_Name]);
 GO
 
 MERGE [meta].[SourceSystem] AS target

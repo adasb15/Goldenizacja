@@ -4,13 +4,16 @@ from fastapi import APIRouter, Depends, Form, HTTPException
 from sqlalchemy.orm import Session
 
 from app.db.sql import get_db
-from app.layers.integration_golden.schemas import LayerStatus, MatchingRunResponse
+from app.layers.integration_golden.schemas import JaroWinklerRunResponse, LayerStatus, MatchingRunResponse
 from app.layers.integration_golden.service import (
     DEFAULT_MATCHING_MAX_PAIRS,
+    JARO_WINKLER_CANDIDATE_THRESHOLD,
     LEVENSHTEIN_CANDIDATE_THRESHOLD,
+    LevenshteinCandidatesNotFoundError,
     MatchingPairLimitExceededError,
     PreprocessedRecordsNotFoundError,
     find_match_candidates,
+    refine_match_candidates_with_jaro_winkler,
 )
 
 # Wystawiamy status integration_golden, żeby warstwa była widoczna zanim powstanie goldenizacja
@@ -47,3 +50,28 @@ def match_candidates(
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"MATCH_CANDIDATES failed: {exc}") from exc
+
+
+@router.post("/match-candidates/jaro-winkler", response_model=JaroWinklerRunResponse)
+def match_candidates_jaro_winkler(
+    entity_type: str = Form(...),
+    raw_file_id: int | None = Form(None),
+    min_score: float = Form(JARO_WINKLER_CANDIDATE_THRESHOLD),
+    db: Session = Depends(get_db),
+) -> JaroWinklerRunResponse:
+    try:
+        result = refine_match_candidates_with_jaro_winkler(
+            db=db,
+            entity_type=entity_type,
+            raw_file_id=raw_file_id,
+            min_score=min_score,
+        )
+        return JaroWinklerRunResponse(**asdict(result))
+    except (
+        LevenshteinCandidatesNotFoundError,
+        PreprocessedRecordsNotFoundError,
+        ValueError,
+    ) as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"JARO_WINKLER_MATCH failed: {exc}") from exc

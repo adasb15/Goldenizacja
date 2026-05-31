@@ -30,3 +30,30 @@ class MatchingRunResponse(BaseModel):
     candidates_out: int
     min_score: float
     candidates: list[MatchCandidateResponse]
+
+
+class JaroWinklerCandidateResponse(BaseModel):
+    levenshtein_candidate_id: int
+    left_preprocessed_id: int
+    right_preprocessed_id: int
+    left_staging_id: int
+    right_staging_id: int
+    left_raw_file_id: int
+    right_raw_file_id: int
+    left_source_record_id: str | None
+    right_source_record_id: str | None
+    levenshtein_score: float
+    jaro_winkler_score: float
+    decision: str
+    strong_match_fields: list[str]
+    conflict_fields: list[str]
+    text_match_fields: list[str]
+
+
+class JaroWinklerRunResponse(BaseModel):
+    entity_type: str
+    raw_file_id: int | None
+    candidates_in_scope: int
+    candidates_out: int
+    min_score: float
+    candidates: list[JaroWinklerCandidateResponse]

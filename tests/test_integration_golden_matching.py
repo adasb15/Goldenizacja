@@ -7,6 +7,8 @@ from app.layers.integration_golden.service import (
     MatchingPairLimitExceededError,
     choose_trusted_value,
     find_match_candidates,
+    refine_match_candidates_with_jaro_winkler,
+    score_jaro_winkler_match,
     score_match,
 )
 
@@ -314,6 +316,58 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertIn("NIP", result.conflict_fields)
         self.assertIn("KRS", result.conflict_fields)
 
+    def test_jaro_winkler_promotes_close_text_match_after_levenshtein(self) -> None:
+        left = SimpleNamespace(
+            PESEL_Normalized="90010112345",
+            First_Name_Normalized="JAN",
+            Last_Name_Normalized="KOWALSKI",
+            Full_Name_Normalized="JAN KOWALSKI",
+            Place_Of_Birth_Normalized="WARSZAWA",
+        )
+        right = SimpleNamespace(
+            PESEL_Normalized="90010112345",
+            First_Name_Normalized="JAN",
+            Last_Name_Normalized="KOWALSKY",
+            Full_Name_Normalized="JAN KOWALSKY",
+            Place_Of_Birth_Normalized="WARSZAWA",
+        )
+
+        result = score_jaro_winkler_match(
+            left,
+            right,
+            "PERSON",
+            original_strong_fields=("PESEL",),
+            original_conflict_fields=(),
+            levenshtein_decision=MatchDecision.AUTO_MERGE.value,
+        )
+
+        self.assertEqual(result.decision, MatchDecision.AUTO_MERGE)
+        self.assertGreaterEqual(result.score, 0.94)
+
+    def test_jaro_winkler_rejects_weak_text_match_from_large_sieve(self) -> None:
+        left = {
+            "Name_Normalized": "ALFA TRADE SP ZOO",
+            "City_Normalized": "WARSZAWA",
+            "Street_Normalized": "KWIATOWA",
+        }
+        right = {
+            "Name_Normalized": "OMEGA MARKET SA",
+            "City_Normalized": "KRAKOW",
+            "Street_Normalized": "DLUGA",
+        }
+
+        result = score_jaro_winkler_match(
+            left,
+            right,
+            "PARTY",
+            original_strong_fields=(),
+            original_conflict_fields=(),
+            levenshtein_decision=MatchDecision.CANDIDATE.value,
+        )
+
+        self.assertEqual(result.decision, MatchDecision.NO_MATCH)
+        self.assertLess(result.score, 0.78)
+
     def test_finds_match_candidates_from_preprocessed_records(self) -> None:
         records = [
             SimpleNamespace(
@@ -460,6 +514,98 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertEqual(repo.saved[0], "PARTY")
         self.assertEqual(repo.saved[1], 100)
         self.assertEqual(len(repo.saved[2]), 1)
+
+    def test_refines_persisted_levenshtein_candidates_with_jaro_winkler(self) -> None:
+        records = {
+            1: SimpleNamespace(
+                Preprocessed_ID=1,
+                Staging_ID=10,
+                RawFile_ID=100,
+                Source_Record_ID="A",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP ZOO",
+                City_Normalized="WARSZAWA",
+            ),
+            2: SimpleNamespace(
+                Preprocessed_ID=2,
+                Staging_ID=20,
+                RawFile_ID=200,
+                Source_Record_ID="B",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP. Z O.O.",
+                City_Normalized="WARSZAWA",
+            ),
+        }
+        levenshtein_candidates = [
+            SimpleNamespace(
+                Match_Candidate_Levenshtein_ID=1000,
+                Entity_Type="PARTY",
+                RawFile_ID=100,
+                Left_Preprocessed_ID=1,
+                Right_Preprocessed_ID=2,
+                Left_Staging_ID=10,
+                Right_Staging_ID=20,
+                Left_RawFile_ID=100,
+                Right_RawFile_ID=200,
+                Left_Source_Record_ID="A",
+                Right_Source_Record_ID="B",
+                Score=0.95,
+                Decision=MatchDecision.AUTO_MERGE.value,
+                Strong_Match_Fields_JSON='["NIP"]',
+                Conflict_Fields_JSON="[]",
+            )
+        ]
+
+        class Repo:
+            saved = None
+
+            def get_levenshtein_candidates(self, entity_type: str, raw_file_id: int | None = None):
+                return levenshtein_candidates
+
+            def get_preprocessed_record_by_id(self, entity_type: str, preprocessed_id: int):
+                return records[preprocessed_id]
+
+            def replace_jaro_winkler_candidates(self, entity_type: str, raw_file_id: int | None, candidates):
+                self.saved = (entity_type, raw_file_id, list(candidates))
+                return len(candidates)
+
+        repo = Repo()
+        result = refine_match_candidates_with_jaro_winkler(
+            db=None,
+            entity_type="PARTY",
+            raw_file_id=100,
+            repo=repo,
+        )
+
+        self.assertEqual(result.candidates_in_scope, 1)
+        self.assertEqual(result.candidates_out, 1)
+        self.assertIsNotNone(repo.saved)
+        self.assertEqual(repo.saved[0], "PARTY")
+        self.assertEqual(repo.saved[1], 100)
+        self.assertEqual(repo.saved[2][0].levenshtein_candidate_id, 1000)
+
+    def test_jaro_winkler_refinement_allows_empty_levenshtein_result(self) -> None:
+        class Repo:
+            saved = None
+
+            def get_levenshtein_candidates(self, entity_type: str, raw_file_id: int | None = None):
+                return []
+
+            def replace_jaro_winkler_candidates(self, entity_type: str, raw_file_id: int | None, candidates):
+                self.saved = (entity_type, raw_file_id, list(candidates))
+                return len(candidates)
+
+        repo = Repo()
+        result = refine_match_candidates_with_jaro_winkler(
+            db=None,
+            entity_type="PERSON",
+            raw_file_id=100,
+            repo=repo,
+        )
+
+        self.assertEqual(result.candidates_in_scope, 0)
+        self.assertEqual(result.candidates_out, 0)
+        self.assertEqual(repo.saved, ("PERSON", 100, []))
 
     def test_max_pairs_zero_disables_safety_limit(self) -> None:
         records = [
