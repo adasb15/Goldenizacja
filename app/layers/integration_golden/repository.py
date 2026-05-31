@@ -6,7 +6,12 @@ from typing import Any
 from sqlalchemy import and_, delete, func, or_, select
 from sqlalchemy.orm import Session
 
-from app.layers.integration_golden.models import JaroWinklerCandidateRecord, MatchCandidateRecord
+from app.layers.integration_golden.models import (
+    EntityGroupMemberRecord,
+    EntityGroupRecord,
+    JaroWinklerCandidateRecord,
+    MatchCandidateRecord,
+)
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -45,6 +50,11 @@ class IntegrationGoldenRepository:
         candidates: list[Any],
     ) -> int:
         entity_type = normalize_entity_type(entity_type)
+        self.db.execute(
+            delete(JaroWinklerCandidateRecord)
+            .where(JaroWinklerCandidateRecord.Entity_Type == entity_type)
+            .where(JaroWinklerCandidateRecord.RawFile_ID == raw_file_id)
+        )
         self.db.execute(
             delete(MatchCandidateRecord)
             .where(MatchCandidateRecord.Entity_Type == entity_type)
@@ -132,6 +142,58 @@ class IntegrationGoldenRepository:
         self.db.add_all(entities)
         self.db.commit()
         return len(entities)
+
+    def get_jaro_winkler_candidates(self, entity_type: str) -> list[JaroWinklerCandidateRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        query = (
+            select(JaroWinklerCandidateRecord)
+            .where(JaroWinklerCandidateRecord.Entity_Type == entity_type)
+            .where(JaroWinklerCandidateRecord.Decision == "AUTO_MERGE")
+            .order_by(JaroWinklerCandidateRecord.Match_Candidate_JaroWinkler_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def replace_entity_groups(self, entity_type: str, groups: list[Any]) -> tuple[int, int]:
+        entity_type = normalize_entity_type(entity_type)
+        group_keys = {group.group_key for group in groups}
+        existing_groups = list(
+            self.db.scalars(
+                select(EntityGroupRecord).where(EntityGroupRecord.Entity_Type == entity_type)
+            )
+        )
+        groups_by_key = {group.Group_Key: group for group in existing_groups}
+
+        self.db.execute(
+            delete(EntityGroupMemberRecord).where(EntityGroupMemberRecord.Entity_Type == entity_type)
+        )
+        for stale_group in existing_groups:
+            if stale_group.Group_Key not in group_keys:
+                self.db.delete(stale_group)
+
+        for group in groups:
+            group_record = groups_by_key.get(group.group_key)
+            if group_record is None:
+                group_record = EntityGroupRecord(
+                    Entity_Type=entity_type,
+                    Group_Key=group.group_key,
+                )
+                self.db.add(group_record)
+                self.db.flush()
+            else:
+                group_record.Updated_At = func.now()
+            for preprocessed_id in group.member_preprocessed_ids:
+                self.db.add(
+                    EntityGroupMemberRecord(
+                        Entity_Group_ID=group_record.Entity_Group_ID,
+                        Entity_Type=entity_type,
+                        Preprocessed_ID=preprocessed_id,
+                        Person_Preprocessed_ID=preprocessed_id if entity_type == "PERSON" else None,
+                        Party_Preprocessed_ID=preprocessed_id if entity_type == "PARTY" else None,
+                    )
+                )
+
+        self.db.commit()
+        return len(groups), sum(len(group.member_preprocessed_ids) for group in groups)
 
     def _get_person_candidate_records(self, record: Any) -> list[PersonPreprocessed]:
         conditions = []

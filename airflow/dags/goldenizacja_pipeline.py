@@ -266,9 +266,16 @@ def integration_golden_match(**context: Any) -> dict[str, Any]:
                 "min_score": jaro_winkler_min_score,
             },
         )
+        grouping_result = _post_form(
+            f"{LAYERS_API_PREFIX}/integration_golden/match-groups",
+            data={
+                "entity_type": entity_type,
+            },
+        )
         results[entity_type] = {
             "levenshtein": levenshtein_result,
             "jaro_winkler": jaro_winkler_result,
+            "groups": grouping_result,
         }
 
     return results

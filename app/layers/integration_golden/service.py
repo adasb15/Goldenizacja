@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Callable
@@ -139,6 +140,21 @@ class JaroWinklerRunResult:
     candidates_out: int
     min_score: float
     candidates: tuple[JaroWinklerCandidate, ...]
+
+
+@dataclass(frozen=True)
+class EntityGroup:
+    group_key: str
+    member_preprocessed_ids: tuple[int, ...]
+
+
+@dataclass(frozen=True)
+class EntityGroupingRunResult:
+    entity_type: str
+    auto_merge_pairs_in_scope: int
+    groups_out: int
+    members_out: int
+    groups: tuple[EntityGroup, ...]
 
 
 PERSON_FIELD_RULES = (
@@ -384,6 +400,13 @@ def find_match_candidates(
             if pair_key in seen_pairs:
                 continue
             seen_pairs.add(pair_key)
+            pair_left_record = left_record
+            pair_right_record = right_record
+            pair_left_id = left_id
+            pair_right_id = right_id
+            if left_id > right_id:
+                pair_left_record, pair_right_record = right_record, left_record
+                pair_left_id, pair_right_id = pair_key
 
             pairs_evaluated += 1
             if max_pairs > 0 and pairs_evaluated > max_pairs:
@@ -391,7 +414,7 @@ def find_match_candidates(
                     f"Pair limit exceeded ({max_pairs}). Raise matching_max_pairs or use 0 to disable the safety limit."
                 )
 
-            match_result = score_match(left_record, right_record, entity_type)
+            match_result = score_match(pair_left_record, pair_right_record, entity_type)
             if match_result.score < min_score:
                 continue
             if match_result.decision == MatchDecision.NO_MATCH:
@@ -399,14 +422,14 @@ def find_match_candidates(
 
             candidates.append(
                 MatchCandidate(
-                    left_preprocessed_id=left_id,
-                    right_preprocessed_id=right_id,
-                    left_staging_id=get_int_record_value(left_record, "Staging_ID"),
-                    right_staging_id=get_int_record_value(right_record, "Staging_ID"),
-                    left_raw_file_id=get_int_record_value(left_record, "RawFile_ID"),
-                    right_raw_file_id=get_int_record_value(right_record, "RawFile_ID"),
-                    left_source_record_id=get_optional_string_value(left_record, "Source_Record_ID"),
-                    right_source_record_id=get_optional_string_value(right_record, "Source_Record_ID"),
+                    left_preprocessed_id=pair_left_id,
+                    right_preprocessed_id=pair_right_id,
+                    left_staging_id=get_int_record_value(pair_left_record, "Staging_ID"),
+                    right_staging_id=get_int_record_value(pair_right_record, "Staging_ID"),
+                    left_raw_file_id=get_int_record_value(pair_left_record, "RawFile_ID"),
+                    right_raw_file_id=get_int_record_value(pair_right_record, "RawFile_ID"),
+                    left_source_record_id=get_optional_string_value(pair_left_record, "Source_Record_ID"),
+                    right_source_record_id=get_optional_string_value(pair_right_record, "Source_Record_ID"),
                     score=match_result.score,
                     decision=match_result.decision,
                     strong_match_fields=match_result.strong_match_fields,
@@ -564,6 +587,91 @@ def persist_jaro_winkler_candidates(
     if hasattr(repo, "replace_jaro_winkler_candidates"):
         return int(repo.replace_jaro_winkler_candidates(entity_type, raw_file_id, candidates))
     return len(candidates)
+
+
+def group_auto_merge_candidates(
+    db: Any,
+    entity_type: str,
+    repo: Any | None = None,
+) -> EntityGroupingRunResult:
+    entity_type = normalize_entity_type(entity_type)
+    repo = repo or create_repository(db)
+    if not hasattr(repo, "get_jaro_winkler_candidates"):
+        raise ValueError("Repository does not expose Jaro-Winkler candidates.")
+
+    candidates = [
+        candidate
+        for candidate in repo.get_jaro_winkler_candidates(entity_type)
+        if get_optional_string_value(candidate, "Decision") == MatchDecision.AUTO_MERGE.value
+    ]
+    groups = build_entity_groups(candidates)
+    groups_out, members_out = persist_entity_groups(repo, entity_type, groups)
+    return EntityGroupingRunResult(
+        entity_type=entity_type,
+        auto_merge_pairs_in_scope=len(candidates),
+        groups_out=groups_out,
+        members_out=members_out,
+        groups=tuple(groups),
+    )
+
+
+def build_entity_groups(candidates: list[Any]) -> list[EntityGroup]:
+    parents: dict[int, int] = {}
+
+    def find(member_id: int) -> int:
+        parents.setdefault(member_id, member_id)
+        if parents[member_id] != member_id:
+            parents[member_id] = find(parents[member_id])
+        return parents[member_id]
+
+    def union(left_id: int, right_id: int) -> None:
+        left_root = find(left_id)
+        right_root = find(right_id)
+        if left_root != right_root:
+            parents[max(left_root, right_root)] = min(left_root, right_root)
+
+    seen_pairs: set[tuple[int, int]] = set()
+    for candidate in candidates:
+        left_id = get_int_record_value(candidate, "Left_Preprocessed_ID")
+        right_id = get_int_record_value(candidate, "Right_Preprocessed_ID")
+        if left_id == right_id:
+            continue
+        pair_key = tuple(sorted((left_id, right_id)))
+        if pair_key in seen_pairs:
+            continue
+        seen_pairs.add(pair_key)
+        union(*pair_key)
+
+    members_by_root: dict[int, list[int]] = {}
+    for member_id in parents:
+        members_by_root.setdefault(find(member_id), []).append(member_id)
+
+    groups = []
+    for member_ids in members_by_root.values():
+        sorted_member_ids = tuple(sorted(member_ids))
+        groups.append(
+            EntityGroup(
+                group_key=build_group_key(sorted_member_ids),
+                member_preprocessed_ids=sorted_member_ids,
+            )
+        )
+    return sorted(groups, key=lambda group: group.member_preprocessed_ids)
+
+
+def build_group_key(member_preprocessed_ids: tuple[int, ...]) -> str:
+    serialized_ids = ",".join(str(member_id) for member_id in member_preprocessed_ids)
+    return hashlib.sha256(serialized_ids.encode("ascii")).hexdigest()
+
+
+def persist_entity_groups(
+    repo: Any,
+    entity_type: str,
+    groups: list[EntityGroup],
+) -> tuple[int, int]:
+    if hasattr(repo, "replace_entity_groups"):
+        groups_out, members_out = repo.replace_entity_groups(entity_type, groups)
+        return int(groups_out), int(members_out)
+    return len(groups), sum(len(group.member_preprocessed_ids) for group in groups)
 
 
 def score_match(left_record: Any, right_record: Any, entity_type: str) -> MatchResult:

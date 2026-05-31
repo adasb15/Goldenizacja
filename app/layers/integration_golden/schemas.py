@@ -57,3 +57,16 @@ class JaroWinklerRunResponse(BaseModel):
     candidates_out: int
     min_score: float
     candidates: list[JaroWinklerCandidateResponse]
+
+
+class EntityGroupResponse(BaseModel):
+    group_key: str
+    member_preprocessed_ids: list[int]
+
+
+class EntityGroupingRunResponse(BaseModel):
+    entity_type: str
+    auto_merge_pairs_in_scope: int
+    groups_out: int
+    members_out: int
+    groups: list[EntityGroupResponse]

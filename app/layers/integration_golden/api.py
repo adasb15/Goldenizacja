@@ -4,7 +4,12 @@ from fastapi import APIRouter, Depends, Form, HTTPException
 from sqlalchemy.orm import Session
 
 from app.db.sql import get_db
-from app.layers.integration_golden.schemas import JaroWinklerRunResponse, LayerStatus, MatchingRunResponse
+from app.layers.integration_golden.schemas import (
+    EntityGroupingRunResponse,
+    JaroWinklerRunResponse,
+    LayerStatus,
+    MatchingRunResponse,
+)
 from app.layers.integration_golden.service import (
     DEFAULT_MATCHING_MAX_PAIRS,
     JARO_WINKLER_CANDIDATE_THRESHOLD,
@@ -13,6 +18,7 @@ from app.layers.integration_golden.service import (
     MatchingPairLimitExceededError,
     PreprocessedRecordsNotFoundError,
     find_match_candidates,
+    group_auto_merge_candidates,
     refine_match_candidates_with_jaro_winkler,
 )
 
@@ -75,3 +81,20 @@ def match_candidates_jaro_winkler(
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"JARO_WINKLER_MATCH failed: {exc}") from exc
+
+
+@router.post("/match-groups", response_model=EntityGroupingRunResponse)
+def match_groups(
+    entity_type: str = Form(...),
+    db: Session = Depends(get_db),
+) -> EntityGroupingRunResponse:
+    try:
+        result = group_auto_merge_candidates(
+            db=db,
+            entity_type=entity_type,
+        )
+        return EntityGroupingRunResponse(**asdict(result))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"MATCH_GROUPS failed: {exc}") from exc

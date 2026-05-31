@@ -5,8 +5,10 @@ from app.layers.integration_golden.service import (
     FIELD_RULES_BY_ENTITY_TYPE,
     MatchDecision,
     MatchingPairLimitExceededError,
+    build_entity_groups,
     choose_trusted_value,
     find_match_candidates,
+    group_auto_merge_candidates,
     refine_match_candidates_with_jaro_winkler,
     score_jaro_winkler_match,
     score_match,
@@ -515,6 +517,84 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertEqual(repo.saved[1], 100)
         self.assertEqual(len(repo.saved[2]), 1)
 
+    def test_persists_match_candidate_in_canonical_direction(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=2,
+                Staging_ID=20,
+                RawFile_ID=200,
+                Source_Record_ID="B",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP. Z O.O.",
+            ),
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                Staging_ID=10,
+                RawFile_ID=100,
+                Source_Record_ID="A",
+                NIP_Normalized="1234567890",
+                Name_Normalized="ALFA TRADE SP ZOO",
+            ),
+        ]
+
+        class Repo:
+            saved = None
+
+            def get_preprocessed_records(self, entity_type: str, raw_file_id: int | None = None):
+                return [record for record in records if record.RawFile_ID == raw_file_id]
+
+            def count_preprocessed_records(self, entity_type: str) -> int:
+                return len(records)
+
+            def get_candidate_records_for_match(self, entity_type: str, record):
+                return records
+
+            def replace_match_candidates(self, entity_type: str, raw_file_id: int | None, candidates):
+                self.saved = list(candidates)
+                return len(candidates)
+
+        repo = Repo()
+        find_match_candidates(
+            db=None,
+            entity_type="PARTY",
+            raw_file_id=200,
+            repo=repo,
+        )
+
+        self.assertEqual(len(repo.saved), 1)
+        self.assertEqual(repo.saved[0].left_preprocessed_id, 1)
+        self.assertEqual(repo.saved[0].right_preprocessed_id, 2)
+        self.assertEqual(repo.saved[0].left_source_record_id, "A")
+        self.assertEqual(repo.saved[0].right_source_record_id, "B")
+
+    def test_rerun_clears_jaro_winkler_candidates_before_levenshtein_candidates(self) -> None:
+        from app.layers.integration_golden.repository import IntegrationGoldenRepository
+
+        class Db:
+            def __init__(self):
+                self.deleted_tables = []
+
+            def execute(self, statement):
+                self.deleted_tables.append(statement.table.name)
+
+            def add_all(self, entities):
+                pass
+
+            def commit(self):
+                pass
+
+        db = Db()
+        IntegrationGoldenRepository(db).replace_match_candidates(
+            entity_type="PARTY",
+            raw_file_id=100,
+            candidates=[],
+        )
+
+        self.assertEqual(
+            db.deleted_tables,
+            ["Match_Candidate_JaroWinkler", "Match_Candidate_Levenshtein"],
+        )
+
     def test_refines_persisted_levenshtein_candidates_with_jaro_winkler(self) -> None:
         records = {
             1: SimpleNamespace(
@@ -644,6 +724,119 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         )
 
         self.assertEqual(result.pairs_evaluated, 3)
+
+    def test_groups_auto_merge_candidates_transitively_and_ignores_pair_direction(self) -> None:
+        candidates = [
+            SimpleNamespace(Left_Preprocessed_ID=1, Right_Preprocessed_ID=2),
+            SimpleNamespace(Left_Preprocessed_ID=2, Right_Preprocessed_ID=1),
+            SimpleNamespace(Left_Preprocessed_ID=2, Right_Preprocessed_ID=3),
+            SimpleNamespace(Left_Preprocessed_ID=10, Right_Preprocessed_ID=11),
+        ]
+
+        groups = build_entity_groups(candidates)
+
+        self.assertEqual(
+            [group.member_preprocessed_ids for group in groups],
+            [(1, 2, 3), (10, 11)],
+        )
+        self.assertEqual(len({group.group_key for group in groups}), 2)
+
+    def test_grouping_persists_only_auto_merge_candidates(self) -> None:
+        candidates = [
+            SimpleNamespace(
+                Left_Preprocessed_ID=1,
+                Right_Preprocessed_ID=2,
+                Decision=MatchDecision.AUTO_MERGE.value,
+            ),
+            SimpleNamespace(
+                Left_Preprocessed_ID=2,
+                Right_Preprocessed_ID=3,
+                Decision=MatchDecision.REVIEW.value,
+            ),
+            SimpleNamespace(
+                Left_Preprocessed_ID=10,
+                Right_Preprocessed_ID=11,
+                Decision=MatchDecision.CANDIDATE.value,
+            ),
+        ]
+
+        class Repo:
+            saved = None
+
+            def get_jaro_winkler_candidates(self, entity_type: str):
+                return candidates
+
+            def replace_entity_groups(self, entity_type: str, groups):
+                self.saved = (entity_type, list(groups))
+                return len(groups), sum(len(group.member_preprocessed_ids) for group in groups)
+
+        repo = Repo()
+        result = group_auto_merge_candidates(
+            db=None,
+            entity_type="PARTY",
+            repo=repo,
+        )
+
+        self.assertEqual(result.entity_type, "PARTY")
+        self.assertEqual(result.auto_merge_pairs_in_scope, 1)
+        self.assertEqual(result.groups_out, 1)
+        self.assertEqual(result.members_out, 2)
+        self.assertEqual(result.groups[0].member_preprocessed_ids, (1, 2))
+        self.assertEqual(repo.saved[0], "PARTY")
+
+    def test_group_key_is_stable_for_repeated_grouping(self) -> None:
+        candidates = [
+            SimpleNamespace(Left_Preprocessed_ID=3, Right_Preprocessed_ID=2),
+            SimpleNamespace(Left_Preprocessed_ID=1, Right_Preprocessed_ID=2),
+        ]
+
+        first_run = build_entity_groups(candidates)
+        second_run = build_entity_groups(list(reversed(candidates)))
+
+        self.assertEqual(first_run, second_run)
+
+    def test_grouping_rerun_replaces_state_without_duplicates(self) -> None:
+        candidates = [
+            SimpleNamespace(
+                Left_Preprocessed_ID=1,
+                Right_Preprocessed_ID=2,
+                Decision=MatchDecision.AUTO_MERGE.value,
+            ),
+            SimpleNamespace(
+                Left_Preprocessed_ID=2,
+                Right_Preprocessed_ID=3,
+                Decision=MatchDecision.AUTO_MERGE.value,
+            ),
+        ]
+
+        class Repo:
+            def __init__(self):
+                self.saved_groups = {}
+                self.saved_members = set()
+
+            def get_jaro_winkler_candidates(self, entity_type: str):
+                return candidates
+
+            def replace_entity_groups(self, entity_type: str, groups):
+                self.saved_groups = {group.group_key: group for group in groups}
+                self.saved_members = {
+                    (entity_type, group.group_key, preprocessed_id)
+                    for group in groups
+                    for preprocessed_id in group.member_preprocessed_ids
+                }
+                return len(self.saved_groups), len(self.saved_members)
+
+        repo = Repo()
+        first_run = group_auto_merge_candidates(db=None, entity_type="PARTY", repo=repo)
+        first_groups = dict(repo.saved_groups)
+        first_members = set(repo.saved_members)
+        second_run = group_auto_merge_candidates(db=None, entity_type="PARTY", repo=repo)
+
+        self.assertEqual(first_run, second_run)
+        self.assertEqual(repo.saved_groups, first_groups)
+        self.assertEqual(repo.saved_members, first_members)
+        self.assertEqual(second_run.groups_out, 1)
+        self.assertEqual(second_run.members_out, 3)
 
 
 if __name__ == "__main__":

@@ -616,6 +616,7 @@ BEGIN
         CONSTRAINT [CK_Match_Candidate_Levenshtein_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
         CONSTRAINT [CK_Match_Candidate_Levenshtein_Decision] CHECK ([Decision] IN (N'AUTO_MERGE', N'REVIEW', N'CANDIDATE')),
         CONSTRAINT [CK_Match_Candidate_Levenshtein_Score] CHECK ([Score] >= 0 AND [Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_Levenshtein_Pair_Order] CHECK ([Left_Preprocessed_ID] < [Right_Preprocessed_ID]),
         CONSTRAINT [CK_Match_Candidate_Levenshtein_Strong_JSON] CHECK ([Strong_Match_Fields_JSON] IS NULL OR ISJSON([Strong_Match_Fields_JSON]) = 1),
         CONSTRAINT [CK_Match_Candidate_Levenshtein_Conflict_JSON] CHECK ([Conflict_Fields_JSON] IS NULL OR ISJSON([Conflict_Fields_JSON]) = 1)
     );
@@ -651,11 +652,198 @@ BEGIN
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Decision] CHECK ([Decision] IN (N'AUTO_MERGE', N'REVIEW', N'CANDIDATE')),
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Levenshtein_Score] CHECK ([Levenshtein_Score] >= 0 AND [Levenshtein_Score] <= 1),
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Score] CHECK ([JaroWinkler_Score] >= 0 AND [JaroWinkler_Score] <= 1),
+        CONSTRAINT [CK_Match_Candidate_JaroWinkler_Pair_Order] CHECK ([Left_Preprocessed_ID] < [Right_Preprocessed_ID]),
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Strong_JSON] CHECK ([Strong_Match_Fields_JSON] IS NULL OR ISJSON([Strong_Match_Fields_JSON]) = 1),
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Conflict_JSON] CHECK ([Conflict_Fields_JSON] IS NULL OR ISJSON([Conflict_Fields_JSON]) = 1),
         CONSTRAINT [CK_Match_Candidate_JaroWinkler_Text_JSON] CHECK ([Text_Match_Fields_JSON] IS NULL OR ISJSON([Text_Match_Fields_JSON]) = 1)
     );
 END;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = N'FK_Match_Candidate_JaroWinkler_Levenshtein')
+    ALTER TABLE [stg].[Match_Candidate_JaroWinkler] ADD CONSTRAINT [FK_Match_Candidate_JaroWinkler_Levenshtein]
+        FOREIGN KEY ([Levenshtein_Candidate_ID]) REFERENCES [stg].[Match_Candidate_Levenshtein] ([Match_Candidate_Levenshtein_ID]);
+GO
+
+UPDATE [stg].[Match_Candidate_Levenshtein]
+SET
+    [Left_Preprocessed_ID] = [Right_Preprocessed_ID],
+    [Right_Preprocessed_ID] = [Left_Preprocessed_ID],
+    [Left_Staging_ID] = [Right_Staging_ID],
+    [Right_Staging_ID] = [Left_Staging_ID],
+    [Left_RawFile_ID] = [Right_RawFile_ID],
+    [Right_RawFile_ID] = [Left_RawFile_ID],
+    [Left_Source_Record_ID] = [Right_Source_Record_ID],
+    [Right_Source_Record_ID] = [Left_Source_Record_ID]
+WHERE [Left_Preprocessed_ID] > [Right_Preprocessed_ID];
+GO
+
+UPDATE [stg].[Match_Candidate_JaroWinkler]
+SET
+    [Left_Preprocessed_ID] = [Right_Preprocessed_ID],
+    [Right_Preprocessed_ID] = [Left_Preprocessed_ID],
+    [Left_Staging_ID] = [Right_Staging_ID],
+    [Right_Staging_ID] = [Left_Staging_ID],
+    [Left_RawFile_ID] = [Right_RawFile_ID],
+    [Right_RawFile_ID] = [Left_RawFile_ID],
+    [Left_Source_Record_ID] = [Right_Source_Record_ID],
+    [Right_Source_Record_ID] = [Left_Source_Record_ID]
+WHERE [Left_Preprocessed_ID] > [Right_Preprocessed_ID];
+GO
+
+DELETE FROM [stg].[Match_Candidate_JaroWinkler]
+WHERE [Left_Preprocessed_ID] = [Right_Preprocessed_ID];
+GO
+
+DELETE FROM [stg].[Match_Candidate_Levenshtein]
+WHERE [Left_Preprocessed_ID] = [Right_Preprocessed_ID];
+GO
+
+;WITH [Ranked_JaroWinkler] AS (
+    SELECT
+        [Match_Candidate_JaroWinkler_ID],
+        ROW_NUMBER() OVER (
+            PARTITION BY [RawFile_ID], [Entity_Type], [Left_Preprocessed_ID], [Right_Preprocessed_ID]
+            ORDER BY [Match_Candidate_JaroWinkler_ID]
+        ) AS [Pair_Row_Number]
+    FROM [stg].[Match_Candidate_JaroWinkler]
+)
+DELETE FROM [Ranked_JaroWinkler]
+WHERE [Pair_Row_Number] > 1;
+GO
+
+;WITH [Ranked_Levenshtein] AS (
+    SELECT
+        [Match_Candidate_Levenshtein_ID],
+        MIN([Match_Candidate_Levenshtein_ID]) OVER (
+            PARTITION BY [RawFile_ID], [Entity_Type], [Left_Preprocessed_ID], [Right_Preprocessed_ID]
+        ) AS [Canonical_Candidate_ID]
+    FROM [stg].[Match_Candidate_Levenshtein]
+)
+UPDATE [JaroWinkler]
+SET [Levenshtein_Candidate_ID] = [Levenshtein].[Canonical_Candidate_ID]
+FROM [stg].[Match_Candidate_JaroWinkler] AS [JaroWinkler]
+INNER JOIN [Ranked_Levenshtein] AS [Levenshtein]
+    ON [Levenshtein].[Match_Candidate_Levenshtein_ID] = [JaroWinkler].[Levenshtein_Candidate_ID]
+WHERE [Levenshtein].[Match_Candidate_Levenshtein_ID] <> [Levenshtein].[Canonical_Candidate_ID];
+GO
+
+;WITH [Ranked_Levenshtein] AS (
+    SELECT
+        [Match_Candidate_Levenshtein_ID],
+        ROW_NUMBER() OVER (
+            PARTITION BY [RawFile_ID], [Entity_Type], [Left_Preprocessed_ID], [Right_Preprocessed_ID]
+            ORDER BY [Match_Candidate_Levenshtein_ID]
+        ) AS [Pair_Row_Number]
+    FROM [stg].[Match_Candidate_Levenshtein]
+)
+DELETE FROM [Ranked_Levenshtein]
+WHERE [Pair_Row_Number] > 1;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Match_Candidate_Levenshtein_Pair_Order')
+    ALTER TABLE [stg].[Match_Candidate_Levenshtein] ADD CONSTRAINT [CK_Match_Candidate_Levenshtein_Pair_Order]
+        CHECK ([Left_Preprocessed_ID] < [Right_Preprocessed_ID]);
+IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Match_Candidate_JaroWinkler_Pair_Order')
+    ALTER TABLE [stg].[Match_Candidate_JaroWinkler] ADD CONSTRAINT [CK_Match_Candidate_JaroWinkler_Pair_Order]
+        CHECK ([Left_Preprocessed_ID] < [Right_Preprocessed_ID]);
+GO
+
+IF OBJECT_ID(N'[stg].[Entity_Group]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Entity_Group] (
+        [Entity_Group_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [Group_Key] NVARCHAR(64) NOT NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Entity_Group_Created_At] DEFAULT SYSUTCDATETIME(),
+        [Updated_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Entity_Group_Updated_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Entity_Group] PRIMARY KEY CLUSTERED ([Entity_Group_ID]),
+        CONSTRAINT [UQ_Entity_Group_Type_Key] UNIQUE ([Entity_Type], [Group_Key]),
+        CONSTRAINT [UQ_Entity_Group_ID_Type] UNIQUE ([Entity_Group_ID], [Entity_Type]),
+        CONSTRAINT [CK_Entity_Group_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY'))
+    );
+END;
+GO
+
+IF OBJECT_ID(N'[stg].[Entity_Group_Member]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Entity_Group_Member] (
+        [Entity_Group_Member_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Group_ID] BIGINT NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [Preprocessed_ID] BIGINT NOT NULL,
+        [Person_Preprocessed_ID] BIGINT NULL,
+        [Party_Preprocessed_ID] BIGINT NULL,
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Entity_Group_Member_Created_At] DEFAULT SYSUTCDATETIME(),
+        CONSTRAINT [PK_Entity_Group_Member] PRIMARY KEY CLUSTERED ([Entity_Group_Member_ID]),
+        CONSTRAINT [FK_Entity_Group_Member_Group_Type] FOREIGN KEY ([Entity_Group_ID], [Entity_Type])
+            REFERENCES [stg].[Entity_Group] ([Entity_Group_ID], [Entity_Type]) ON DELETE CASCADE,
+        CONSTRAINT [FK_Entity_Group_Member_Person_Preprocessed] FOREIGN KEY ([Person_Preprocessed_ID])
+            REFERENCES [stg].[Person_Preprocessed] ([Preprocessed_ID]),
+        CONSTRAINT [FK_Entity_Group_Member_Party_Preprocessed] FOREIGN KEY ([Party_Preprocessed_ID])
+            REFERENCES [stg].[Party_Preprocessed] ([Preprocessed_ID]),
+        CONSTRAINT [UQ_Entity_Group_Member_Type_Preprocessed] UNIQUE ([Entity_Type], [Preprocessed_ID]),
+        CONSTRAINT [CK_Entity_Group_Member_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Entity_Group_Member_Preprocessed_Reference] CHECK (
+            ([Entity_Type] = N'PERSON' AND [Person_Preprocessed_ID] = [Preprocessed_ID] AND [Party_Preprocessed_ID] IS NULL)
+            OR ([Entity_Type] = N'PARTY' AND [Party_Preprocessed_ID] = [Preprocessed_ID] AND [Person_Preprocessed_ID] IS NULL)
+        )
+    );
+END;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.key_constraints WHERE name = N'UQ_Entity_Group_ID_Type')
+    ALTER TABLE [stg].[Entity_Group] ADD CONSTRAINT [UQ_Entity_Group_ID_Type]
+        UNIQUE ([Entity_Group_ID], [Entity_Type]);
+IF NOT EXISTS (SELECT 1 FROM sys.key_constraints WHERE name = N'UQ_Entity_Group_Type_Key')
+    ALTER TABLE [stg].[Entity_Group] ADD CONSTRAINT [UQ_Entity_Group_Type_Key]
+        UNIQUE ([Entity_Type], [Group_Key]);
+IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Entity_Group_Entity_Type')
+    ALTER TABLE [stg].[Entity_Group] ADD CONSTRAINT [CK_Entity_Group_Entity_Type]
+        CHECK ([Entity_Type] IN (N'PERSON', N'PARTY'));
+DECLARE @DropOldEntityGroupMemberForeignKeys NVARCHAR(MAX) = N'';
+SELECT @DropOldEntityGroupMemberForeignKeys +=
+    N'ALTER TABLE [stg].[Entity_Group_Member] DROP CONSTRAINT ' + QUOTENAME([name]) + N';'
+FROM sys.foreign_keys
+WHERE [parent_object_id] = OBJECT_ID(N'[stg].[Entity_Group_Member]')
+  AND [referenced_object_id] = OBJECT_ID(N'[stg].[Entity_Group]')
+  AND [name] <> N'FK_Entity_Group_Member_Group_Type';
+IF @DropOldEntityGroupMemberForeignKeys <> N''
+    EXEC sp_executesql @DropOldEntityGroupMemberForeignKeys;
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = N'FK_Entity_Group_Member_Group_Type')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [FK_Entity_Group_Member_Group_Type]
+        FOREIGN KEY ([Entity_Group_ID], [Entity_Type]) REFERENCES [stg].[Entity_Group] ([Entity_Group_ID], [Entity_Type]) ON DELETE CASCADE;
+GO
+
+IF COL_LENGTH(N'stg.Entity_Group_Member', N'Person_Preprocessed_ID') IS NULL
+    ALTER TABLE [stg].[Entity_Group_Member] ADD [Person_Preprocessed_ID] BIGINT NULL;
+IF COL_LENGTH(N'stg.Entity_Group_Member', N'Party_Preprocessed_ID') IS NULL
+    ALTER TABLE [stg].[Entity_Group_Member] ADD [Party_Preprocessed_ID] BIGINT NULL;
+GO
+
+UPDATE [stg].[Entity_Group_Member]
+SET
+    [Person_Preprocessed_ID] = CASE WHEN [Entity_Type] = N'PERSON' THEN [Preprocessed_ID] ELSE NULL END,
+    [Party_Preprocessed_ID] = CASE WHEN [Entity_Type] = N'PARTY' THEN [Preprocessed_ID] ELSE NULL END;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = N'FK_Entity_Group_Member_Person_Preprocessed')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [FK_Entity_Group_Member_Person_Preprocessed]
+        FOREIGN KEY ([Person_Preprocessed_ID]) REFERENCES [stg].[Person_Preprocessed] ([Preprocessed_ID]);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = N'FK_Entity_Group_Member_Party_Preprocessed')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [FK_Entity_Group_Member_Party_Preprocessed]
+        FOREIGN KEY ([Party_Preprocessed_ID]) REFERENCES [stg].[Party_Preprocessed] ([Preprocessed_ID]);
+IF NOT EXISTS (SELECT 1 FROM sys.key_constraints WHERE name = N'UQ_Entity_Group_Member_Type_Preprocessed')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [UQ_Entity_Group_Member_Type_Preprocessed]
+        UNIQUE ([Entity_Type], [Preprocessed_ID]);
+IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Entity_Group_Member_Entity_Type')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [CK_Entity_Group_Member_Entity_Type]
+        CHECK ([Entity_Type] IN (N'PERSON', N'PARTY'));
+IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Entity_Group_Member_Preprocessed_Reference')
+    ALTER TABLE [stg].[Entity_Group_Member] ADD CONSTRAINT [CK_Entity_Group_Member_Preprocessed_Reference] CHECK (
+        ([Entity_Type] = N'PERSON' AND [Person_Preprocessed_ID] = [Preprocessed_ID] AND [Party_Preprocessed_ID] IS NULL)
+        OR ([Entity_Type] = N'PARTY' AND [Party_Preprocessed_ID] = [Preprocessed_ID] AND [Person_Preprocessed_ID] IS NULL)
+    );
 GO
 
 IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
@@ -1315,6 +1503,10 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_Leven
     CREATE INDEX [IX_Match_Candidate_Levenshtein_Left_Right] ON [stg].[Match_Candidate_Levenshtein] ([Left_Preprocessed_ID], [Right_Preprocessed_ID]);
 GO
 
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'UX_Match_Candidate_Levenshtein_RawFile_Entity_Pair' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_Levenshtein]'))
+    CREATE UNIQUE INDEX [UX_Match_Candidate_Levenshtein_RawFile_Entity_Pair] ON [stg].[Match_Candidate_Levenshtein] ([RawFile_ID], [Entity_Type], [Left_Preprocessed_ID], [Right_Preprocessed_ID]);
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_JaroWinkler_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
     CREATE INDEX [IX_Match_Candidate_JaroWinkler_RawFile_Entity] ON [stg].[Match_Candidate_JaroWinkler] ([RawFile_ID], [Entity_Type]);
 GO
@@ -1325,6 +1517,14 @@ GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Match_Candidate_JaroWinkler_Levenshtein' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
     CREATE INDEX [IX_Match_Candidate_JaroWinkler_Levenshtein] ON [stg].[Match_Candidate_JaroWinkler] ([Levenshtein_Candidate_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'UX_Match_Candidate_JaroWinkler_RawFile_Entity_Pair' AND object_id = OBJECT_ID(N'[stg].[Match_Candidate_JaroWinkler]'))
+    CREATE UNIQUE INDEX [UX_Match_Candidate_JaroWinkler_RawFile_Entity_Pair] ON [stg].[Match_Candidate_JaroWinkler] ([RawFile_ID], [Entity_Type], [Left_Preprocessed_ID], [Right_Preprocessed_ID]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Entity_Group_Member_Group' AND object_id = OBJECT_ID(N'[stg].[Entity_Group_Member]'))
+    CREATE INDEX [IX_Entity_Group_Member_Group] ON [stg].[Entity_Group_Member] ([Entity_Group_ID]);
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Validation_Result_RawFile_Entity' AND object_id = OBJECT_ID(N'[stg].[Validation_Result]'))
