@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+from datetime import datetime
 from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Callable
@@ -491,6 +492,25 @@ class EntityGroupingRunResult:
     groups: tuple[EntityGroup, ...]
 
 
+@dataclass(frozen=True)
+class SurvivorValueCandidate:
+    value: Any
+    source_system_code: str | None = None
+    trust_level: int | float | None = None
+    validation_status: str | bool | None = None
+    import_started_at: datetime | None = None
+
+
+@dataclass(frozen=True)
+class SurvivorValueSelection:
+    value: Any
+    source_system_code: str | None
+    selected_by_rule: str
+    trust_level: int | float | None
+    validation_status: str | bool | None
+    import_started_at: datetime | None
+
+
 PERSON_FIELD_RULES = (
     FieldRule("PESEL", 1.0, FieldRole.STRONG, aliases=("PESEL_Normalized",), decisive=True),
     FieldRule(
@@ -705,6 +725,81 @@ def get_source_priority_rank(entity_type: str, field_name: str, source_system_co
         return priority_order.index(normalized_code)
     except ValueError:
         return len(priority_order)
+
+
+def select_survivor_value(
+    entity_type: str,
+    field_name: str,
+    candidates: list[SurvivorValueCandidate | dict[str, Any] | Any],
+) -> SurvivorValueSelection:
+    normalized_candidates = [normalize_survivor_candidate(candidate) for candidate in candidates]
+    if not normalized_candidates:
+        return SurvivorValueSelection(
+            value=None,
+            source_system_code=None,
+            selected_by_rule="NO_CANDIDATES",
+            trust_level=None,
+            validation_status=None,
+            import_started_at=None,
+        )
+
+    present_candidates = [candidate for candidate in normalized_candidates if not is_blank(candidate.value)]
+    if not present_candidates:
+        return SurvivorValueSelection(
+            value=None,
+            source_system_code=None,
+            selected_by_rule="NO_NON_BLANK_VALUE",
+            trust_level=None,
+            validation_status=None,
+            import_started_at=None,
+        )
+    if len(present_candidates) == 1:
+        return build_survivor_selection(present_candidates[0], "NON_EMPTY_VALUE")
+
+    validated_candidates = [candidate for candidate in present_candidates if is_successful_validation(candidate.validation_status)]
+    if validated_candidates:
+        if len(validated_candidates) == 1:
+            return build_survivor_selection(validated_candidates[0], "PASSED_VALIDATION")
+        present_candidates = validated_candidates
+
+    best_source_rank = min(
+        get_source_priority_rank(entity_type, field_name, candidate.source_system_code)
+        for candidate in present_candidates
+    )
+    prioritized_candidates = [
+        candidate
+        for candidate in present_candidates
+        if get_source_priority_rank(entity_type, field_name, candidate.source_system_code) == best_source_rank
+    ]
+    if len(prioritized_candidates) == 1:
+        return build_survivor_selection(prioritized_candidates[0], "SOURCE_PRIORITY")
+    present_candidates = prioritized_candidates
+
+    best_trust_level = max(normalize_trust_level(candidate.trust_level) for candidate in present_candidates)
+    trusted_candidates = [
+        candidate
+        for candidate in present_candidates
+        if normalize_trust_level(candidate.trust_level) == best_trust_level
+    ]
+    if len(trusted_candidates) == 1:
+        return build_survivor_selection(trusted_candidates[0], "TRUST_LEVEL")
+    present_candidates = trusted_candidates
+
+    candidates_with_import_timestamp = [
+        candidate for candidate in present_candidates if candidate.import_started_at is not None
+    ]
+    if candidates_with_import_timestamp:
+        newest_timestamp = max(candidate.import_started_at for candidate in candidates_with_import_timestamp)
+        newest_candidates = [
+            candidate
+            for candidate in candidates_with_import_timestamp
+            if candidate.import_started_at == newest_timestamp
+        ]
+        if len(newest_candidates) == 1:
+            return build_survivor_selection(newest_candidates[0], "NEWEST_IMPORT")
+        present_candidates = newest_candidates
+
+    return build_survivor_selection(present_candidates[0], "INPUT_ORDER_FALLBACK")
 
 
 def find_match_candidates(
@@ -1214,6 +1309,48 @@ def choose_trusted_value(candidates: list[tuple[str | None, Any]]) -> Any:
             FALLBACK_SOURCE_TRUST_LEVELS.get(str(item[0]).upper(), 0)
         ),
     )[1]
+
+
+def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, Any] | Any) -> SurvivorValueCandidate:
+    if isinstance(candidate, SurvivorValueCandidate):
+        return candidate
+    if isinstance(candidate, dict):
+        return SurvivorValueCandidate(
+            value=candidate.get("value"),
+            source_system_code=candidate.get("source_system_code"),
+            trust_level=candidate.get("trust_level"),
+            validation_status=candidate.get("validation_status"),
+            import_started_at=candidate.get("import_started_at"),
+        )
+    return SurvivorValueCandidate(
+        value=getattr(candidate, "value", None),
+        source_system_code=getattr(candidate, "source_system_code", None),
+        trust_level=getattr(candidate, "trust_level", None),
+        validation_status=getattr(candidate, "validation_status", None),
+        import_started_at=getattr(candidate, "import_started_at", None),
+    )
+
+
+def build_survivor_selection(
+    candidate: SurvivorValueCandidate,
+    selected_by_rule: str,
+) -> SurvivorValueSelection:
+    return SurvivorValueSelection(
+        value=candidate.value,
+        source_system_code=candidate.source_system_code,
+        selected_by_rule=selected_by_rule,
+        trust_level=candidate.trust_level,
+        validation_status=candidate.validation_status,
+        import_started_at=candidate.import_started_at,
+    )
+
+
+def is_successful_validation(validation_status: str | bool | None) -> bool:
+    if isinstance(validation_status, bool):
+        return validation_status
+    if validation_status is None:
+        return False
+    return str(validation_status).strip().upper() == "PASS"
 
 
 def get_first_present_value(record: Any, rule: FieldRule) -> Any:

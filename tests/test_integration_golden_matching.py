@@ -1,3 +1,4 @@
+from datetime import datetime
 import unittest
 from types import SimpleNamespace
 
@@ -14,6 +15,8 @@ from app.layers.integration_golden.service import (
     refine_match_candidates_with_jaro_winkler,
     score_jaro_winkler_match,
     score_match,
+    select_survivor_value,
+    SurvivorValueCandidate,
 )
 
 
@@ -290,6 +293,123 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         )
 
         self.assertEqual(value, "Jan Kowalski")
+
+    def test_survivorship_prefers_non_empty_value(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PERSON",
+            field_name="First_Name",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+                SurvivorValueCandidate(
+                    value="JAN",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "JAN")
+        self.assertEqual(selection.selected_by_rule, "NON_EMPTY_VALUE")
+
+    def test_survivorship_prefers_validated_value(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="NIP",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="1234567890",
+                    source_system_code="VAT",
+                    validation_status="ERROR",
+                    trust_level=85,
+                ),
+                SurvivorValueCandidate(
+                    value="1234567890",
+                    source_system_code="VAT",
+                    validation_status="PASS",
+                    trust_level=85,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.validation_status, "PASS")
+        self.assertEqual(selection.selected_by_rule, "PASSED_VALIDATION")
+
+    def test_survivorship_uses_source_priority_before_trust_level(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PERSON",
+            field_name="Email_Address",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="jan@firma.pl",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+                SurvivorValueCandidate(
+                    value="jan@firma.pl",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.source_system_code, "CEIDG")
+        self.assertEqual(selection.selected_by_rule, "SOURCE_PRIORITY")
+
+    def test_survivorship_uses_trust_level_when_source_priority_ties(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Related_Parties_JSON",
+            candidates=[
+                SurvivorValueCandidate(
+                    value='["A"]',
+                    source_system_code="INSURANCE_CORE",
+                    validation_status="PASS",
+                    trust_level=70,
+                ),
+                SurvivorValueCandidate(
+                    value='["B"]',
+                    source_system_code="INSURANCE_CORE",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, '["B"]')
+        self.assertEqual(selection.selected_by_rule, "TRUST_LEVEL")
+
+    def test_survivorship_prefers_newer_import_on_full_tie(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Street",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 1",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    import_started_at=datetime(2026, 5, 1, 10, 0, 0),
+                ),
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 2",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    import_started_at=datetime(2026, 5, 3, 10, 0, 0),
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "UL KWIATOWA 2")
+        self.assertEqual(selection.selected_by_rule, "NEWEST_IMPORT")
 
     def test_weights_mix_identification_strength_and_stability(self) -> None:
         person_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PERSON"]}
