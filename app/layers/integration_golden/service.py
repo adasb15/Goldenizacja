@@ -499,6 +499,7 @@ class SurvivorValueCandidate:
     trust_level: int | float | None = None
     validation_status: str | bool | None = None
     import_started_at: datetime | None = None
+    teryt_confirmed: bool | None = None
 
 
 @dataclass(frozen=True)
@@ -509,6 +510,7 @@ class SurvivorValueSelection:
     trust_level: int | float | None
     validation_status: str | bool | None
     import_started_at: datetime | None
+    teryt_confirmed: bool | None
 
 
 PERSON_FIELD_RULES = (
@@ -741,6 +743,7 @@ def select_survivor_value(
             trust_level=None,
             validation_status=None,
             import_started_at=None,
+            teryt_confirmed=None,
         )
 
     present_candidates = [candidate for candidate in normalized_candidates if not is_blank(candidate.value)]
@@ -752,6 +755,7 @@ def select_survivor_value(
             trust_level=None,
             validation_status=None,
             import_started_at=None,
+            teryt_confirmed=None,
         )
     if len(present_candidates) == 1:
         return build_survivor_selection(present_candidates[0], "NON_EMPTY_VALUE")
@@ -761,6 +765,15 @@ def select_survivor_value(
         if len(validated_candidates) == 1:
             return build_survivor_selection(validated_candidates[0], "PASSED_VALIDATION")
         present_candidates = validated_candidates
+
+    if is_address_field(field_name):
+        teryt_confirmed_candidates = [
+            candidate for candidate in present_candidates if candidate.teryt_confirmed is True
+        ]
+        if teryt_confirmed_candidates:
+            if len(teryt_confirmed_candidates) == 1:
+                return build_survivor_selection(teryt_confirmed_candidates[0], "TERYT_CONFIRMED_ADDRESS")
+            present_candidates = teryt_confirmed_candidates
 
     best_source_rank = min(
         get_source_priority_rank(entity_type, field_name, candidate.source_system_code)
@@ -1321,6 +1334,7 @@ def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, A
             trust_level=candidate.get("trust_level"),
             validation_status=candidate.get("validation_status"),
             import_started_at=candidate.get("import_started_at"),
+            teryt_confirmed=candidate.get("teryt_confirmed"),
         )
     return SurvivorValueCandidate(
         value=getattr(candidate, "value", None),
@@ -1328,6 +1342,7 @@ def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, A
         trust_level=getattr(candidate, "trust_level", None),
         validation_status=getattr(candidate, "validation_status", None),
         import_started_at=getattr(candidate, "import_started_at", None),
+        teryt_confirmed=getattr(candidate, "teryt_confirmed", None),
     )
 
 
@@ -1342,6 +1357,7 @@ def build_survivor_selection(
         trust_level=candidate.trust_level,
         validation_status=candidate.validation_status,
         import_started_at=candidate.import_started_at,
+        teryt_confirmed=candidate.teryt_confirmed,
     )
 
 
@@ -1351,6 +1367,21 @@ def is_successful_validation(validation_status: str | bool | None) -> bool:
     if validation_status is None:
         return False
     return str(validation_status).strip().upper() == "PASS"
+
+
+def is_address_field(field_name: str) -> bool:
+    return field_name in {
+        "Street",
+        "Building_Number",
+        "Apartment_Number",
+        "City",
+        "Postal_City",
+        "Postal_Code",
+        "District",
+        "Province",
+        "Country",
+        "Full_Address",
+    }
 
 
 def get_first_present_value(record: Any, rule: FieldRule) -> Any:

@@ -411,6 +411,64 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertEqual(selection.value, "UL KWIATOWA 2")
         self.assertEqual(selection.selected_by_rule, "NEWEST_IMPORT")
 
+    def test_survivorship_prefers_teryt_confirmed_address(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Street",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 12",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    teryt_confirmed=False,
+                ),
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 10",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                    teryt_confirmed=True,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "UL KWIATOWA 10")
+        self.assertEqual(selection.teryt_confirmed, True)
+        self.assertEqual(selection.selected_by_rule, "TERYT_CONFIRMED_ADDRESS")
+
+    def test_survivorship_keeps_teryt_confirmed_candidates_in_further_tie_break(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="City",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="WARSZAWA",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    teryt_confirmed=True,
+                ),
+                SurvivorValueCandidate(
+                    value="KRAKOW",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                    teryt_confirmed=True,
+                ),
+                SurvivorValueCandidate(
+                    value="LODZ",
+                    source_system_code="KRS",
+                    validation_status="PASS",
+                    trust_level=90,
+                    teryt_confirmed=False,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "WARSZAWA")
+        self.assertEqual(selection.selected_by_rule, "SOURCE_PRIORITY")
+
     def test_weights_mix_identification_strength_and_stability(self) -> None:
         person_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PERSON"]}
         party_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PARTY"]}
