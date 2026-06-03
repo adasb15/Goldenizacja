@@ -8,6 +8,8 @@ from app.layers.integration_golden.service import (
     build_entity_groups,
     choose_trusted_value,
     find_match_candidates,
+    get_source_priority_order,
+    get_source_priority_rank,
     group_auto_merge_candidates,
     refine_match_candidates_with_jaro_winkler,
     score_jaro_winkler_match,
@@ -216,6 +218,42 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertIn("NIP", result.strong_match_fields)
         self.assertIn("REGON", result.conflict_fields)
         self.assertLess(result.score, 0.70)
+
+    def test_person_source_priority_prefers_pesel_for_identity_fields(self) -> None:
+        priority = get_source_priority_order("PERSON", "Birth_Date")
+
+        self.assertEqual(priority[:3], ("PESEL", "CEIDG", "INSURANCE_CORE"))
+        self.assertLess(
+            get_source_priority_rank("PERSON", "Birth_Date", "PESEL"),
+            get_source_priority_rank("PERSON", "Birth_Date", "KNF_AGENT"),
+        )
+
+    def test_person_source_priority_prefers_ceidg_for_contact_fields(self) -> None:
+        priority = get_source_priority_order("PERSON", "Email_Address")
+
+        self.assertEqual(priority[:3], ("CEIDG", "INSURANCE_CORE", "PESEL"))
+        self.assertLess(
+            get_source_priority_rank("PERSON", "Email_Address", "CEIDG"),
+            get_source_priority_rank("PERSON", "Email_Address", "PESEL"),
+        )
+
+    def test_party_source_priority_prefers_gleif_for_lei_fields(self) -> None:
+        priority = get_source_priority_order("PARTY", "LEI")
+
+        self.assertEqual(priority[:4], ("GLEIF", "KRS", "REGON", "VAT"))
+        self.assertLess(
+            get_source_priority_rank("PARTY", "LEI", "GLEIF"),
+            get_source_priority_rank("PARTY", "LEI", "CEIDG"),
+        )
+
+    def test_party_source_priority_prefers_regon_for_address_fields(self) -> None:
+        priority = get_source_priority_order("PARTY", "Street")
+
+        self.assertEqual(priority[:4], ("REGON", "VAT", "CEIDG", "KRS"))
+        self.assertLess(
+            get_source_priority_rank("PARTY", "Street", "REGON"),
+            get_source_priority_rank("PARTY", "Street", "GLEIF"),
+        )
 
     def test_single_matching_regon_does_not_pass_when_stable_fields_conflict(self) -> None:
         left = {
