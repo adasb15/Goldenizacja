@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+from datetime import datetime
 from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Callable
@@ -35,6 +36,340 @@ FALLBACK_SOURCE_TRUST_LEVELS = {
     "GLEIF": 75,
     "INSURANCE_CORE": 70,
     "WWW_FORM": 50,
+}
+
+PERSON_DEFAULT_SOURCE_PRIORITY = (
+    "PESEL",
+    "CEIDG",
+    "INSURANCE_CORE",
+    "KNF_AGENT",
+    "KNF_PRACOWNIK_AGENTA",
+    "KNF_FIRMY_INWESTYCYJNE",
+)
+
+PARTY_DEFAULT_SOURCE_PRIORITY = (
+    "KRS",
+    "REGON",
+    "VAT",
+    "GLEIF",
+    "CEIDG",
+    "KNF_FIRMY_INWESTYCYJNE",
+    "KNF_PIENIADZ_ELEKTRONICZNY",
+    "KNF_AGENT",
+    "KNF_PRACOWNIK_AGENTA",
+    "INSURANCE_CORE",
+)
+
+PERSON_SOURCE_PRIORITY_BY_FIELD = {
+    "PESEL": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Serial_Number_ID_Card": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Serial_Number_Passport": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "First_Name": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Second_Name": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Last_Name": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Family_Name": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Birth_Date": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Place_Of_Birth": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Sex": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Citizenship": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Phone_Number": (
+        "CEIDG",
+        "INSURANCE_CORE",
+        "PESEL",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Email_Address": (
+        "CEIDG",
+        "INSURANCE_CORE",
+        "PESEL",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Street": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Building_Number": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Apartment_Number": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "City": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Postal_City": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Postal_Code": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "District": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Province": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+    "Country": PERSON_DEFAULT_SOURCE_PRIORITY,
+    "Full_Address": (
+        "CEIDG",
+        "PESEL",
+        "INSURANCE_CORE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "KNF_FIRMY_INWESTYCYJNE",
+    ),
+}
+
+PARTY_SOURCE_PRIORITY_BY_FIELD = {
+    "NIP": (
+        "VAT",
+        "REGON",
+        "CEIDG",
+        "KRS",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "INSURANCE_CORE",
+        "GLEIF",
+    ),
+    "REGON": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "INSURANCE_CORE",
+        "GLEIF",
+    ),
+    "KRS": (
+        "KRS",
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "INSURANCE_CORE",
+        "GLEIF",
+    ),
+    "LEI": (
+        "GLEIF",
+        "KRS",
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "INSURANCE_CORE",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+    ),
+    "Name": (
+        "KRS",
+        "REGON",
+        "GLEIF",
+        "VAT",
+        "CEIDG",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "KNF_AGENT",
+        "KNF_PRACOWNIK_AGENTA",
+        "INSURANCE_CORE",
+    ),
+    "Short_Name": (
+        "CEIDG",
+        "KRS",
+        "REGON",
+        "GLEIF",
+        "VAT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "INSURANCE_CORE",
+    ),
+    "Legal_Entity_Type": (
+        "KRS",
+        "GLEIF",
+        "REGON",
+        "CEIDG",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "INSURANCE_CORE",
+        "VAT",
+    ),
+    "Registration_Country": (
+        "GLEIF",
+        "KRS",
+        "REGON",
+        "CEIDG",
+        "VAT",
+        "INSURANCE_CORE",
+    ),
+    "Establishment_Date": (
+        "KRS",
+        "CEIDG",
+        "REGON",
+        "VAT",
+        "GLEIF",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "INSURANCE_CORE",
+    ),
+    "Street": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "Building_Number": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "Apartment_Number": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "City": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "Postal_City": (
+        "VAT",
+        "REGON",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "Postal_Code": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "District": ("REGON", "CEIDG", "KRS", "GLEIF", "INSURANCE_CORE"),
+    "Province": ("REGON", "CEIDG", "KRS", "GLEIF", "INSURANCE_CORE"),
+    "Country": ("GLEIF", "REGON", "KRS", "CEIDG", "VAT", "INSURANCE_CORE"),
+    "Full_Address": (
+        "REGON",
+        "VAT",
+        "CEIDG",
+        "KRS",
+        "KNF_AGENT",
+        "KNF_FIRMY_INWESTYCYJNE",
+        "KNF_PIENIADZ_ELEKTRONICZNY",
+        "GLEIF",
+        "INSURANCE_CORE",
+    ),
+    "Register_Status": ("KRS", "VAT", "CEIDG", "KNF_PIENIADZ_ELEKTRONICZNY", "GLEIF", "INSURANCE_CORE"),
+    "Registration_Date": ("KRS", "VAT", "CEIDG", "KNF_FIRMY_INWESTYCYJNE", "KNF_AGENT", "GLEIF", "INSURANCE_CORE"),
+    "Deregistration_Date": ("KRS", "VAT", "CEIDG", "KNF_AGENT", "KNF_PIENIADZ_ELEKTRONICZNY", "GLEIF", "INSURANCE_CORE"),
+    "Decision_Date": ("KNF_FIRMY_INWESTYCYJNE", "KNF_PIENIADZ_ELEKTRONICZNY", "KRS", "INSURANCE_CORE"),
+    "Decision_Number": ("KNF_FIRMY_INWESTYCYJNE", "KNF_PIENIADZ_ELEKTRONICZNY", "KRS", "INSURANCE_CORE"),
+    "Register_Number": ("KNF_AGENT", "KNF_PRACOWNIK_AGENTA", "KNF_PIENIADZ_ELEKTRONICZNY", "KRS", "INSURANCE_CORE"),
+    "Bank_Accounts_JSON": ("VAT", "INSURANCE_CORE", "CEIDG", "KRS", "REGON"),
+    "Has_Virtual_Accounts": ("VAT", "INSURANCE_CORE"),
+    "Business_Scope": ("REGON", "CEIDG", "KNF_FIRMY_INWESTYCYJNE", "KRS", "INSURANCE_CORE"),
+    "Ownership_Form": ("REGON", "KRS", "CEIDG", "INSURANCE_CORE"),
+    "Municipality": ("REGON", "CEIDG", "KRS", "INSURANCE_CORE"),
+    "Phone_Number": ("REGON", "CEIDG", "INSURANCE_CORE", "KRS", "KNF_AGENT", "GLEIF"),
+    "Email_Address": ("REGON", "CEIDG", "INSURANCE_CORE", "KRS", "KNF_AGENT", "GLEIF"),
+    "Website": ("REGON", "CEIDG", "INSURANCE_CORE", "KRS", "GLEIF"),
+    "Agent_Type": ("KNF_AGENT", "KNF_PRACOWNIK_AGENTA", "INSURANCE_CORE"),
+    "Insurance_Company": ("KNF_AGENT", "KNF_PRACOWNIK_AGENTA", "INSURANCE_CORE"),
+    "Related_Persons_JSON": ("KRS", "INSURANCE_CORE"),
+    "Related_Parties_JSON": ("KRS", "GLEIF", "INSURANCE_CORE"),
+    "Registration_Status": ("GLEIF", "KRS", "REGON", "INSURANCE_CORE"),
+    "Last_Update_Date": ("GLEIF", "KRS", "VAT", "INSURANCE_CORE"),
+    "Next_Renewal_Date": ("GLEIF", "INSURANCE_CORE"),
+    "Managing_LOU": ("GLEIF", "INSURANCE_CORE"),
+    "Validation_Sources": ("GLEIF", "KRS", "REGON", "INSURANCE_CORE"),
+    "Validation_Authority_ID": ("GLEIF", "KRS", "REGON", "INSURANCE_CORE"),
+    "Validation_Authority_Entity_ID": ("GLEIF", "KRS", "REGON", "INSURANCE_CORE"),
+    "Direct_Parent_LEI": ("GLEIF", "INSURANCE_CORE"),
+    "Direct_Parent_Name": ("GLEIF", "INSURANCE_CORE"),
+    "Direct_Parent_Relationship_Type": ("GLEIF", "INSURANCE_CORE"),
+    "Direct_Parent_Relationship_Status": ("GLEIF", "INSURANCE_CORE"),
+    "Direct_Parent_Relationship_Start_Date": ("GLEIF", "INSURANCE_CORE"),
+    "Direct_Parent_Relationship_End_Date": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_LEI": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_Name": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_Relationship_Type": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_Relationship_Status": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_Relationship_Start_Date": ("GLEIF", "INSURANCE_CORE"),
+    "Ultimate_Parent_Relationship_End_Date": ("GLEIF", "INSURANCE_CORE"),
 }
 
 
@@ -155,6 +490,27 @@ class EntityGroupingRunResult:
     groups_out: int
     members_out: int
     groups: tuple[EntityGroup, ...]
+
+
+@dataclass(frozen=True)
+class SurvivorValueCandidate:
+    value: Any
+    source_system_code: str | None = None
+    trust_level: int | float | None = None
+    validation_status: str | bool | None = None
+    import_started_at: datetime | None = None
+    teryt_confirmed: bool | None = None
+
+
+@dataclass(frozen=True)
+class SurvivorValueSelection:
+    value: Any
+    source_system_code: str | None
+    selected_by_rule: str
+    trust_level: int | float | None
+    validation_status: str | bool | None
+    import_started_at: datetime | None
+    teryt_confirmed: bool | None
 
 
 PERSON_FIELD_RULES = (
@@ -355,6 +711,108 @@ def create_repository(db: Any) -> Any:
     from app.layers.integration_golden.repository import IntegrationGoldenRepository
 
     return IntegrationGoldenRepository(db)
+
+
+def get_source_priority_order(entity_type: str, field_name: str) -> tuple[str, ...]:
+    entity_type = normalize_entity_type(entity_type)
+    if entity_type == "PERSON":
+        return PERSON_SOURCE_PRIORITY_BY_FIELD.get(field_name, PERSON_DEFAULT_SOURCE_PRIORITY)
+    return PARTY_SOURCE_PRIORITY_BY_FIELD.get(field_name, PARTY_DEFAULT_SOURCE_PRIORITY)
+
+
+def get_source_priority_rank(entity_type: str, field_name: str, source_system_code: str | None) -> int:
+    priority_order = get_source_priority_order(entity_type, field_name)
+    normalized_code = str(source_system_code or "").upper()
+    try:
+        return priority_order.index(normalized_code)
+    except ValueError:
+        return len(priority_order)
+
+
+def select_survivor_value(
+    entity_type: str,
+    field_name: str,
+    candidates: list[SurvivorValueCandidate | dict[str, Any] | Any],
+) -> SurvivorValueSelection:
+    normalized_candidates = [normalize_survivor_candidate(candidate) for candidate in candidates]
+    if not normalized_candidates:
+        return SurvivorValueSelection(
+            value=None,
+            source_system_code=None,
+            selected_by_rule="NO_CANDIDATES",
+            trust_level=None,
+            validation_status=None,
+            import_started_at=None,
+            teryt_confirmed=None,
+        )
+
+    present_candidates = [candidate for candidate in normalized_candidates if not is_blank(candidate.value)]
+    if not present_candidates:
+        return SurvivorValueSelection(
+            value=None,
+            source_system_code=None,
+            selected_by_rule="NO_NON_BLANK_VALUE",
+            trust_level=None,
+            validation_status=None,
+            import_started_at=None,
+            teryt_confirmed=None,
+        )
+    if len(present_candidates) == 1:
+        return build_survivor_selection(present_candidates[0], "NON_EMPTY_VALUE")
+
+    validated_candidates = [candidate for candidate in present_candidates if is_successful_validation(candidate.validation_status)]
+    if validated_candidates:
+        if len(validated_candidates) == 1:
+            return build_survivor_selection(validated_candidates[0], "PASSED_VALIDATION")
+        present_candidates = validated_candidates
+
+    if is_address_field(field_name):
+        teryt_confirmed_candidates = [
+            candidate for candidate in present_candidates if candidate.teryt_confirmed is True
+        ]
+        if teryt_confirmed_candidates:
+            if len(teryt_confirmed_candidates) == 1:
+                return build_survivor_selection(teryt_confirmed_candidates[0], "TERYT_CONFIRMED_ADDRESS")
+            present_candidates = teryt_confirmed_candidates
+
+    best_source_rank = min(
+        get_source_priority_rank(entity_type, field_name, candidate.source_system_code)
+        for candidate in present_candidates
+    )
+    prioritized_candidates = [
+        candidate
+        for candidate in present_candidates
+        if get_source_priority_rank(entity_type, field_name, candidate.source_system_code) == best_source_rank
+    ]
+    if len(prioritized_candidates) == 1:
+        return build_survivor_selection(prioritized_candidates[0], "SOURCE_PRIORITY")
+    present_candidates = prioritized_candidates
+
+    best_trust_level = max(normalize_trust_level(candidate.trust_level) for candidate in present_candidates)
+    trusted_candidates = [
+        candidate
+        for candidate in present_candidates
+        if normalize_trust_level(candidate.trust_level) == best_trust_level
+    ]
+    if len(trusted_candidates) == 1:
+        return build_survivor_selection(trusted_candidates[0], "TRUST_LEVEL")
+    present_candidates = trusted_candidates
+
+    candidates_with_import_timestamp = [
+        candidate for candidate in present_candidates if candidate.import_started_at is not None
+    ]
+    if candidates_with_import_timestamp:
+        newest_timestamp = max(candidate.import_started_at for candidate in candidates_with_import_timestamp)
+        newest_candidates = [
+            candidate
+            for candidate in candidates_with_import_timestamp
+            if candidate.import_started_at == newest_timestamp
+        ]
+        if len(newest_candidates) == 1:
+            return build_survivor_selection(newest_candidates[0], "NEWEST_IMPORT")
+        present_candidates = newest_candidates
+
+    return build_survivor_selection(present_candidates[0], "INPUT_ORDER_FALLBACK")
 
 
 def find_match_candidates(
@@ -864,6 +1322,66 @@ def choose_trusted_value(candidates: list[tuple[str | None, Any]]) -> Any:
             FALLBACK_SOURCE_TRUST_LEVELS.get(str(item[0]).upper(), 0)
         ),
     )[1]
+
+
+def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, Any] | Any) -> SurvivorValueCandidate:
+    if isinstance(candidate, SurvivorValueCandidate):
+        return candidate
+    if isinstance(candidate, dict):
+        return SurvivorValueCandidate(
+            value=candidate.get("value"),
+            source_system_code=candidate.get("source_system_code"),
+            trust_level=candidate.get("trust_level"),
+            validation_status=candidate.get("validation_status"),
+            import_started_at=candidate.get("import_started_at"),
+            teryt_confirmed=candidate.get("teryt_confirmed"),
+        )
+    return SurvivorValueCandidate(
+        value=getattr(candidate, "value", None),
+        source_system_code=getattr(candidate, "source_system_code", None),
+        trust_level=getattr(candidate, "trust_level", None),
+        validation_status=getattr(candidate, "validation_status", None),
+        import_started_at=getattr(candidate, "import_started_at", None),
+        teryt_confirmed=getattr(candidate, "teryt_confirmed", None),
+    )
+
+
+def build_survivor_selection(
+    candidate: SurvivorValueCandidate,
+    selected_by_rule: str,
+) -> SurvivorValueSelection:
+    return SurvivorValueSelection(
+        value=candidate.value,
+        source_system_code=candidate.source_system_code,
+        selected_by_rule=selected_by_rule,
+        trust_level=candidate.trust_level,
+        validation_status=candidate.validation_status,
+        import_started_at=candidate.import_started_at,
+        teryt_confirmed=candidate.teryt_confirmed,
+    )
+
+
+def is_successful_validation(validation_status: str | bool | None) -> bool:
+    if isinstance(validation_status, bool):
+        return validation_status
+    if validation_status is None:
+        return False
+    return str(validation_status).strip().upper() == "PASS"
+
+
+def is_address_field(field_name: str) -> bool:
+    return field_name in {
+        "Street",
+        "Building_Number",
+        "Apartment_Number",
+        "City",
+        "Postal_City",
+        "Postal_Code",
+        "District",
+        "Province",
+        "Country",
+        "Full_Address",
+    }
 
 
 def get_first_present_value(record: Any, rule: FieldRule) -> Any:

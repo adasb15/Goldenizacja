@@ -1,3 +1,4 @@
+from datetime import datetime
 import unittest
 from types import SimpleNamespace
 
@@ -8,10 +9,14 @@ from app.layers.integration_golden.service import (
     build_entity_groups,
     choose_trusted_value,
     find_match_candidates,
+    get_source_priority_order,
+    get_source_priority_rank,
     group_auto_merge_candidates,
     refine_match_candidates_with_jaro_winkler,
     score_jaro_winkler_match,
     score_match,
+    select_survivor_value,
+    SurvivorValueCandidate,
 )
 
 
@@ -217,6 +222,42 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         self.assertIn("REGON", result.conflict_fields)
         self.assertLess(result.score, 0.70)
 
+    def test_person_source_priority_prefers_pesel_for_identity_fields(self) -> None:
+        priority = get_source_priority_order("PERSON", "Birth_Date")
+
+        self.assertEqual(priority[:3], ("PESEL", "CEIDG", "INSURANCE_CORE"))
+        self.assertLess(
+            get_source_priority_rank("PERSON", "Birth_Date", "PESEL"),
+            get_source_priority_rank("PERSON", "Birth_Date", "KNF_AGENT"),
+        )
+
+    def test_person_source_priority_prefers_ceidg_for_contact_fields(self) -> None:
+        priority = get_source_priority_order("PERSON", "Email_Address")
+
+        self.assertEqual(priority[:3], ("CEIDG", "INSURANCE_CORE", "PESEL"))
+        self.assertLess(
+            get_source_priority_rank("PERSON", "Email_Address", "CEIDG"),
+            get_source_priority_rank("PERSON", "Email_Address", "PESEL"),
+        )
+
+    def test_party_source_priority_prefers_gleif_for_lei_fields(self) -> None:
+        priority = get_source_priority_order("PARTY", "LEI")
+
+        self.assertEqual(priority[:4], ("GLEIF", "KRS", "REGON", "VAT"))
+        self.assertLess(
+            get_source_priority_rank("PARTY", "LEI", "GLEIF"),
+            get_source_priority_rank("PARTY", "LEI", "CEIDG"),
+        )
+
+    def test_party_source_priority_prefers_regon_for_address_fields(self) -> None:
+        priority = get_source_priority_order("PARTY", "Street")
+
+        self.assertEqual(priority[:4], ("REGON", "VAT", "CEIDG", "KRS"))
+        self.assertLess(
+            get_source_priority_rank("PARTY", "Street", "REGON"),
+            get_source_priority_rank("PARTY", "Street", "GLEIF"),
+        )
+
     def test_single_matching_regon_does_not_pass_when_stable_fields_conflict(self) -> None:
         left = {
             "NIP_Normalized": "1234567890",
@@ -252,6 +293,181 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
         )
 
         self.assertEqual(value, "Jan Kowalski")
+
+    def test_survivorship_prefers_non_empty_value(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PERSON",
+            field_name="First_Name",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+                SurvivorValueCandidate(
+                    value="JAN",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "JAN")
+        self.assertEqual(selection.selected_by_rule, "NON_EMPTY_VALUE")
+
+    def test_survivorship_prefers_validated_value(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="NIP",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="1234567890",
+                    source_system_code="VAT",
+                    validation_status="ERROR",
+                    trust_level=85,
+                ),
+                SurvivorValueCandidate(
+                    value="1234567890",
+                    source_system_code="VAT",
+                    validation_status="PASS",
+                    trust_level=85,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.validation_status, "PASS")
+        self.assertEqual(selection.selected_by_rule, "PASSED_VALIDATION")
+
+    def test_survivorship_uses_source_priority_before_trust_level(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PERSON",
+            field_name="Email_Address",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="jan@firma.pl",
+                    source_system_code="PESEL",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+                SurvivorValueCandidate(
+                    value="jan@firma.pl",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.source_system_code, "CEIDG")
+        self.assertEqual(selection.selected_by_rule, "SOURCE_PRIORITY")
+
+    def test_survivorship_uses_trust_level_when_source_priority_ties(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Related_Parties_JSON",
+            candidates=[
+                SurvivorValueCandidate(
+                    value='["A"]',
+                    source_system_code="INSURANCE_CORE",
+                    validation_status="PASS",
+                    trust_level=70,
+                ),
+                SurvivorValueCandidate(
+                    value='["B"]',
+                    source_system_code="INSURANCE_CORE",
+                    validation_status="PASS",
+                    trust_level=90,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, '["B"]')
+        self.assertEqual(selection.selected_by_rule, "TRUST_LEVEL")
+
+    def test_survivorship_prefers_newer_import_on_full_tie(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Street",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 1",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    import_started_at=datetime(2026, 5, 1, 10, 0, 0),
+                ),
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 2",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    import_started_at=datetime(2026, 5, 3, 10, 0, 0),
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "UL KWIATOWA 2")
+        self.assertEqual(selection.selected_by_rule, "NEWEST_IMPORT")
+
+    def test_survivorship_prefers_teryt_confirmed_address(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="Street",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 12",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    teryt_confirmed=False,
+                ),
+                SurvivorValueCandidate(
+                    value="UL KWIATOWA 10",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                    teryt_confirmed=True,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "UL KWIATOWA 10")
+        self.assertEqual(selection.teryt_confirmed, True)
+        self.assertEqual(selection.selected_by_rule, "TERYT_CONFIRMED_ADDRESS")
+
+    def test_survivorship_keeps_teryt_confirmed_candidates_in_further_tie_break(self) -> None:
+        selection = select_survivor_value(
+            entity_type="PARTY",
+            field_name="City",
+            candidates=[
+                SurvivorValueCandidate(
+                    value="WARSZAWA",
+                    source_system_code="REGON",
+                    validation_status="PASS",
+                    trust_level=85,
+                    teryt_confirmed=True,
+                ),
+                SurvivorValueCandidate(
+                    value="KRAKOW",
+                    source_system_code="CEIDG",
+                    validation_status="PASS",
+                    trust_level=80,
+                    teryt_confirmed=True,
+                ),
+                SurvivorValueCandidate(
+                    value="LODZ",
+                    source_system_code="KRS",
+                    validation_status="PASS",
+                    trust_level=90,
+                    teryt_confirmed=False,
+                ),
+            ],
+        )
+
+        self.assertEqual(selection.value, "WARSZAWA")
+        self.assertEqual(selection.selected_by_rule, "SOURCE_PRIORITY")
 
     def test_weights_mix_identification_strength_and_stability(self) -> None:
         person_weights = {rule.name: rule.weight for rule in FIELD_RULES_BY_ENTITY_TYPE["PERSON"]}
