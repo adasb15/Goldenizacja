@@ -1,8 +1,11 @@
 from datetime import datetime
+from datetime import date
 
 from sqlalchemy import (
     BigInteger,
     CheckConstraint,
+    Boolean,
+    Date,
     DateTime,
     Float,
     ForeignKey,
@@ -161,3 +164,56 @@ class EntityGroupMemberRecord(Base):
         nullable=True,
     )
     Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class DimAddress(Base):
+    __tablename__ = "DimAddress"
+    __table_args__ = {"schema": "gold"}
+
+    Address_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Street: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Building_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Apartment_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    City: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Postal_City: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Postal_Code: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    District: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Province: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Country: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class DimParty(Base):
+    __tablename__ = "DimParty"
+    __table_args__ = {"schema": "gold"}
+
+    Party_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Name: Mapped[str] = mapped_column(Unicode(255), nullable=False)
+    Short_Name: Mapped[str | None] = mapped_column(Unicode(255), nullable=True)
+    Legal_Entity_Type: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Registration_Country: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Establishment_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Updated_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class DimPerson(Base):
+    __tablename__ = "DimPerson"
+    __table_args__ = {"schema": "gold"}
+
+    Person_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PESEL: Mapped[str | None] = mapped_column(Unicode(11), nullable=True)
+    Serial_Number_ID_Card: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Serial_Number_Passport: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    First_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Second_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Last_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Family_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Birth_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Place_Of_Birth: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Sex: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    Citizenship: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Phone_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Email_Address: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Updated_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
