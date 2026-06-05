@@ -513,6 +513,28 @@ class SurvivorValueSelection:
     teryt_confirmed: bool | None
 
 
+@dataclass(frozen=True)
+class GoldenDimensionLoadResult:
+    entity_type: str
+    entity_group_id: int
+    member_preprocessed_ids: tuple[int, ...]
+    dimension_id: int | None
+    dimension_action: str
+    address_id: int | None
+    address_action: str
+    address_link_action: str = "SKIPPED"
+    party_identities_saved: int = 0
+
+
+@dataclass(frozen=True)
+class GoldenLoadRunResult:
+    entity_type: str
+    entity_group_id: int | None
+    groups_in_scope: int
+    groups_processed: int
+    results: tuple[GoldenDimensionLoadResult, ...]
+
+
 PERSON_FIELD_RULES = (
     FieldRule("PESEL", 1.0, FieldRole.STRONG, aliases=("PESEL_Normalized",), decisive=True),
     FieldRule(
@@ -813,6 +835,384 @@ def select_survivor_value(
         present_candidates = newest_candidates
 
     return build_survivor_selection(present_candidates[0], "INPUT_ORDER_FALLBACK")
+
+
+PERSON_DIMENSION_FIELD_ALIASES = {
+    "PESEL": ("PESEL_Normalized", "PESEL"),
+    "Serial_Number_ID_Card": ("Serial_Number_ID_Card_Normalized", "Serial_Number_ID_Card"),
+    "Serial_Number_Passport": ("Serial_Number_Passport_Normalized", "Serial_Number_Passport"),
+    "First_Name": ("First_Name_Normalized", "First_Name"),
+    "Second_Name": ("Second_Name_Normalized", "Second_Name"),
+    "Last_Name": ("Last_Name_Normalized", "Last_Name"),
+    "Family_Name": ("Family_Name_Normalized", "Family_Name"),
+    "Birth_Date": ("Birth_Date",),
+    "Place_Of_Birth": ("Place_Of_Birth_Normalized", "Place_Of_Birth"),
+    "Sex": ("Sex",),
+    "Citizenship": ("Citizenship_Normalized", "Citizenship"),
+    "Phone_Number": ("Phone_Normalized", "Phone_Number"),
+    "Email_Address": ("Email_Normalized", "Email_Address"),
+}
+
+PARTY_DIMENSION_FIELD_ALIASES = {
+    "Name": ("Name_Normalized", "Name"),
+    "Short_Name": ("Short_Name_Normalized", "Short_Name"),
+    "Legal_Entity_Type": ("Legal_Entity_Type_Normalized", "Legal_Entity_Type"),
+    "Registration_Country": (
+        "Registration_Country_Normalized",
+        "Country_Normalized",
+        "Registration_Country",
+        "Country",
+    ),
+    "Establishment_Date": ("Establishment_Date",),
+}
+
+ADDRESS_FIELD_ALIASES = {
+    "Street": ("Street_Normalized", "Street"),
+    "Building_Number": ("Building_Number_Normalized", "Building_Number"),
+    "Apartment_Number": ("Apartment_Number_Normalized", "Apartment_Number"),
+    "City": ("City_Normalized", "City"),
+    "Postal_City": ("Postal_City_Normalized", "Postal_City"),
+    "Postal_Code": ("Postal_Code_Normalized", "Postal_Code"),
+    "District": ("District_Normalized", "District"),
+    "Province": ("Province_Normalized", "Province"),
+    "Country": ("Country_Normalized", "Country"),
+}
+
+
+def create_or_update_golden_person(
+    db: Any,
+    entity_group_id: int,
+    repo: Any | None = None,
+) -> GoldenDimensionLoadResult:
+    repo = repo or create_repository(db)
+    records, member_ids = get_group_preprocessed_records(repo, "PERSON", entity_group_id)
+    if not records:
+        raise ValueError(f"No PERSON preprocessed records for Entity_Group_ID={entity_group_id}.")
+
+    person_values = build_survivor_values(repo, "PERSON", records, PERSON_DIMENSION_FIELD_ALIASES)
+    existing = repo.find_person_by_identity(
+        pesel=person_values.get("PESEL"),
+        serial_number_id_card=person_values.get("Serial_Number_ID_Card"),
+        serial_number_passport=person_values.get("Serial_Number_Passport"),
+    )
+    if existing is None:
+        person = repo.create_person(**person_values)
+        dimension_action = "CREATED"
+    else:
+        person = repo.update_person(existing, **person_values)
+        dimension_action = "UPDATED"
+
+    address, address_action = create_golden_address_for_records(
+        repo=repo,
+        entity_type="PERSON",
+        records=records,
+    )
+    address_link_action = "SKIPPED"
+    if address is not None:
+        address_link_action = ensure_golden_address_link(
+            repo=repo,
+            entity_type="PERSON",
+            dimension_id=get_int_record_value(person, "Person_ID"),
+            address_id=get_int_record_value(address, "Address_ID"),
+        )
+    repo.commit()
+    return GoldenDimensionLoadResult(
+        entity_type="PERSON",
+        entity_group_id=entity_group_id,
+        member_preprocessed_ids=member_ids,
+        dimension_id=get_record_value(person, "Person_ID"),
+        dimension_action=dimension_action,
+        address_id=get_record_value(address, "Address_ID") if address is not None else None,
+        address_action=address_action,
+        address_link_action=address_link_action,
+    )
+
+
+def golden_load_dimensions(
+    db: Any,
+    entity_type: str,
+    entity_group_id: int | None = None,
+    repo: Any | None = None,
+) -> GoldenLoadRunResult:
+    entity_type = normalize_entity_type(entity_type)
+    repo = repo or create_repository(db)
+    groups = list(repo.get_entity_groups(entity_type))
+    if entity_group_id is not None:
+        groups = [
+            group
+            for group in groups
+            if get_int_record_value(group, "Entity_Group_ID") == int(entity_group_id)
+        ]
+    if not groups:
+        scope = (
+            f"Entity_Group_ID={entity_group_id}"
+            if entity_group_id is not None
+            else f"entity type {entity_type}"
+        )
+        raise ValueError(f"No entity groups found for {scope}.")
+
+    results: list[GoldenDimensionLoadResult] = []
+    for group in groups:
+        current_group_id = get_int_record_value(group, "Entity_Group_ID")
+        if entity_type == "PERSON":
+            results.append(
+                create_or_update_golden_person(
+                    db=db,
+                    entity_group_id=current_group_id,
+                    repo=repo,
+                )
+            )
+        else:
+            results.append(
+                create_or_update_golden_party(
+                    db=db,
+                    entity_group_id=current_group_id,
+                    repo=repo,
+                )
+            )
+
+    return GoldenLoadRunResult(
+        entity_type=entity_type,
+        entity_group_id=entity_group_id,
+        groups_in_scope=len(groups),
+        groups_processed=len(results),
+        results=tuple(results),
+    )
+
+
+def create_or_update_golden_party(
+    db: Any,
+    entity_group_id: int,
+    repo: Any | None = None,
+) -> GoldenDimensionLoadResult:
+    repo = repo or create_repository(db)
+    records, member_ids = get_group_preprocessed_records(repo, "PARTY", entity_group_id)
+    if not records:
+        raise ValueError(f"No PARTY preprocessed records for Entity_Group_ID={entity_group_id}.")
+
+    party_values = build_survivor_values(repo, "PARTY", records, PARTY_DIMENSION_FIELD_ALIASES)
+    existing = repo.find_party_by_identity(
+        NIP=select_survivor_scalar(repo, "PARTY", "NIP", records, ("NIP_Normalized", "NIP")),
+        REGON=select_survivor_scalar(repo, "PARTY", "REGON", records, ("REGON_Normalized", "REGON")),
+        KRS=select_survivor_scalar(repo, "PARTY", "KRS", records, ("KRS_Normalized", "KRS")),
+        LEI=select_survivor_scalar(repo, "PARTY", "LEI", records, ("LEI_Normalized", "LEI")),
+    )
+    if existing is None:
+        party = repo.create_party(**party_values)
+        dimension_action = "CREATED"
+    else:
+        party = repo.update_party(existing, **party_values)
+        dimension_action = "UPDATED"
+
+    address, address_action = create_golden_address_for_records(
+        repo=repo,
+        entity_type="PARTY",
+        records=records,
+    )
+    address_link_action = "SKIPPED"
+    if address is not None:
+        address_link_action = ensure_golden_address_link(
+            repo=repo,
+            entity_type="PARTY",
+            dimension_id=get_int_record_value(party, "Party_ID"),
+            address_id=get_int_record_value(address, "Address_ID"),
+        )
+    party_identities_saved = persist_party_identities(repo, party, records)
+    repo.commit()
+    return GoldenDimensionLoadResult(
+        entity_type="PARTY",
+        entity_group_id=entity_group_id,
+        member_preprocessed_ids=member_ids,
+        dimension_id=get_record_value(party, "Party_ID"),
+        dimension_action=dimension_action,
+        address_id=get_record_value(address, "Address_ID") if address is not None else None,
+        address_action=address_action,
+        address_link_action=address_link_action,
+        party_identities_saved=party_identities_saved,
+    )
+
+
+def create_golden_address_for_records(
+    *,
+    repo: Any,
+    entity_type: str,
+    records: list[Any],
+) -> tuple[Any | None, str]:
+    address_values = build_survivor_values(repo, entity_type, records, ADDRESS_FIELD_ALIASES)
+    if not any(not is_blank(value) for value in address_values.values()):
+        return None, "SKIPPED"
+
+    existing = repo.find_address(
+        street=address_values.get("Street"),
+        building_number=address_values.get("Building_Number"),
+        apartment_number=address_values.get("Apartment_Number"),
+        city=address_values.get("City"),
+        postal_city=address_values.get("Postal_City"),
+        postal_code=address_values.get("Postal_Code"),
+        district=address_values.get("District"),
+        province=address_values.get("Province"),
+        country=address_values.get("Country"),
+    )
+    address = repo.get_or_create_address(
+        street=address_values.get("Street"),
+        building_number=address_values.get("Building_Number"),
+        apartment_number=address_values.get("Apartment_Number"),
+        city=address_values.get("City"),
+        postal_city=address_values.get("Postal_City"),
+        postal_code=address_values.get("Postal_Code"),
+        district=address_values.get("District"),
+        province=address_values.get("Province"),
+        country=address_values.get("Country"),
+    )
+    return address, "CREATED" if existing is None and address is not None else "REUSED"
+
+
+def ensure_golden_address_link(
+    *,
+    repo: Any,
+    entity_type: str,
+    dimension_id: int,
+    address_id: int,
+) -> str:
+    entity_type = normalize_entity_type(entity_type)
+    address_type_name = "RESIDENCE" if entity_type == "PERSON" else "REGISTERED"
+    address_type = repo.get_address_type_by_name(address_type_name)
+    if address_type is None:
+        raise ValueError(f"Address type {address_type_name} not found in gold.DimAddressType.")
+
+    existing_count_before = _count_repo_links(repo, entity_type)
+
+    if entity_type == "PERSON":
+        repo.ensure_person_address_link(
+            person_id=dimension_id,
+            address_id=address_id,
+            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+        )
+    else:
+        repo.ensure_party_address_link(
+            party_id=dimension_id,
+            address_id=address_id,
+            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+        )
+
+    existing_count_after = _count_repo_links(repo, entity_type)
+    if existing_count_before is not None and existing_count_after == existing_count_before:
+        return "REUSED"
+    return "CREATED"
+
+
+PARTY_IDENTITY_FIELD_MAP = {
+    "NIP": ("NIP_Normalized", "NIP"),
+    "REGON": ("REGON_Normalized", "REGON"),
+    "KRS": ("KRS_Normalized", "KRS"),
+    "LEI": ("LEI_Normalized", "LEI"),
+    "KNF_REGISTER_NUMBER": ("Register_Number_Normalized", "Register_Number"),
+    "DECISION_NUMBER": ("Decision_Number_Normalized", "Decision_Number"),
+}
+
+
+def persist_party_identities(repo: Any, party: Any, records: list[Any]) -> int:
+    party_id = get_int_record_value(party, "Party_ID")
+    saved = 0
+    for identity_type_name, aliases in PARTY_IDENTITY_FIELD_MAP.items():
+        identity_value = select_survivor_scalar(repo, "PARTY", identity_type_name, records, aliases)
+        if is_blank(identity_value):
+            continue
+        identity_type = repo.get_identity_type_by_name(identity_type_name)
+        if identity_type is None:
+            raise ValueError(
+                f"Identity type {identity_type_name} not found in gold.DimIdentityType."
+            )
+        repo.ensure_party_identity(
+            party_id=party_id,
+            identity_type_id=get_int_record_value(identity_type, "IdentityType_ID"),
+            identity_value=stringify_value(identity_value),
+            is_valid=None,
+            match_confidence=None,
+        )
+        saved += 1
+    return saved
+
+
+def _count_repo_links(repo: Any, entity_type: str) -> int | None:
+    entity_type = normalize_entity_type(entity_type)
+    if entity_type == "PERSON" and hasattr(repo, "person_address_links"):
+        return len(repo.person_address_links)
+    if entity_type == "PARTY" and hasattr(repo, "party_address_links"):
+        return len(repo.party_address_links)
+    return None
+
+
+def get_group_preprocessed_records(
+    repo: Any,
+    entity_type: str,
+    entity_group_id: int,
+) -> tuple[list[Any], tuple[int, ...]]:
+    members = repo.get_entity_group_members(entity_type, entity_group_id)
+    member_ids = tuple(
+        sorted(get_int_record_value(member, "Preprocessed_ID") for member in members)
+    )
+    records = list(repo.get_preprocessed_records_by_ids(entity_type, list(member_ids)))
+    return records, member_ids
+
+
+def build_survivor_values(
+    repo: Any,
+    entity_type: str,
+    records: list[Any],
+    field_aliases: dict[str, tuple[str, ...]],
+) -> dict[str, Any]:
+    return {
+        target_field: select_survivor_scalar(repo, entity_type, target_field, records, aliases)
+        for target_field, aliases in field_aliases.items()
+    }
+
+
+def select_survivor_scalar(
+    repo: Any,
+    entity_type: str,
+    field_name: str,
+    records: list[Any],
+    aliases: tuple[str, ...],
+) -> Any:
+    candidates = build_survivor_candidates(repo, records, aliases)
+    return select_survivor_value(entity_type, field_name, candidates).value
+
+
+def build_survivor_candidates(
+    repo: Any,
+    records: list[Any],
+    aliases: tuple[str, ...],
+) -> list[SurvivorValueCandidate]:
+    candidates: list[SurvivorValueCandidate] = []
+    for record in records:
+        value = get_first_present_alias_value(record, aliases)
+        source_system_code = None
+        trust_level = None
+        import_started_at = None
+        if hasattr(repo, "get_source_metadata_for_import_batch"):
+            (
+                source_system_code,
+                trust_level,
+                import_started_at,
+            ) = repo.get_source_metadata_for_import_batch(get_int_record_value(record, "ImportBatch_ID"))
+        candidates.append(
+            SurvivorValueCandidate(
+                value=value,
+                source_system_code=source_system_code,
+                trust_level=trust_level,
+                import_started_at=import_started_at,
+            )
+        )
+    return candidates
+
+
+def get_first_present_alias_value(record: Any, aliases: tuple[str, ...]) -> Any:
+    for alias in aliases:
+        value = get_record_value(record, alias)
+        if not is_blank(value):
+            return value
+    return None
 
 
 def find_match_candidates(

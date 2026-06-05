@@ -70,3 +70,23 @@ class EntityGroupingRunResponse(BaseModel):
     groups_out: int
     members_out: int
     groups: list[EntityGroupResponse]
+
+
+class GoldenDimensionLoadResponse(BaseModel):
+    entity_type: str
+    entity_group_id: int
+    member_preprocessed_ids: list[int]
+    dimension_id: int | None
+    dimension_action: str
+    address_id: int | None
+    address_action: str
+    address_link_action: str
+    party_identities_saved: int
+
+
+class GoldenLoadRunResponse(BaseModel):
+    entity_type: str
+    entity_group_id: int | None
+    groups_in_scope: int
+    groups_processed: int
+    results: list[GoldenDimensionLoadResponse]

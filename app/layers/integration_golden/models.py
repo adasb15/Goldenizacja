@@ -1,12 +1,16 @@
 from datetime import datetime
+from datetime import date
 
 from sqlalchemy import (
     BigInteger,
     CheckConstraint,
+    Boolean,
+    Date,
     DateTime,
     Float,
     ForeignKey,
     ForeignKeyConstraint,
+    Numeric,
     Unicode,
     UnicodeText,
     UniqueConstraint,
@@ -161,3 +165,166 @@ class EntityGroupMemberRecord(Base):
         nullable=True,
     )
     Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class DimAddress(Base):
+    __tablename__ = "DimAddress"
+    __table_args__ = {"schema": "gold"}
+
+    Address_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Street: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Building_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Apartment_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    City: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Postal_City: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Postal_Code: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    District: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Province: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Country: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class DimParty(Base):
+    __tablename__ = "DimParty"
+    __table_args__ = {"schema": "gold"}
+
+    Party_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Name: Mapped[str] = mapped_column(Unicode(255), nullable=False)
+    Short_Name: Mapped[str | None] = mapped_column(Unicode(255), nullable=True)
+    Legal_Entity_Type: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Registration_Country: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Establishment_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Updated_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class DimPerson(Base):
+    __tablename__ = "DimPerson"
+    __table_args__ = {"schema": "gold"}
+
+    Person_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PESEL: Mapped[str | None] = mapped_column(Unicode(11), nullable=True)
+    Serial_Number_ID_Card: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Serial_Number_Passport: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    First_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Second_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Last_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Family_Name: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Birth_Date: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Place_Of_Birth: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Sex: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    Citizenship: Mapped[str | None] = mapped_column(Unicode(50), nullable=True)
+    Phone_Number: Mapped[str | None] = mapped_column(Unicode(20), nullable=True)
+    Email_Address: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Updated_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class DimAddressType(Base):
+    __tablename__ = "DimAddressType"
+    __table_args__ = {"schema": "gold"}
+
+    AddressType_ID: Mapped[int] = mapped_column(primary_key=True)
+    AddressType_Name: Mapped[str] = mapped_column(Unicode(50), nullable=False, unique=True)
+
+
+class DimIdentityType(Base):
+    __tablename__ = "DimIdentityType"
+    __table_args__ = {"schema": "gold"}
+
+    IdentityType_ID: Mapped[int] = mapped_column(primary_key=True)
+    IdentityType_Name: Mapped[str] = mapped_column(Unicode(50), nullable=False, unique=True)
+
+
+class FactlessPartyIdentities(Base):
+    __tablename__ = "FactlessPartyIdentities"
+    __table_args__ = (
+        UniqueConstraint(
+            "IdentityType_ID",
+            "Identity_Value",
+            name="UQ_FactlessPartyIdentities_Type_Value",
+        ),
+        CheckConstraint(
+            "Match_Confidence IS NULL OR (Match_Confidence >= 0 AND Match_Confidence <= 1)",
+            name="CK_FactlessPartyIdentities_Match_Confidence",
+        ),
+        CheckConstraint(
+            "Valid_To IS NULL OR Valid_From IS NULL OR Valid_To >= Valid_From",
+            name="CK_FactlessPartyIdentities_Dates",
+        ),
+        {"schema": "gold"},
+    )
+
+    PartyIdentity_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Party_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimParty.Party_ID"),
+        nullable=False,
+    )
+    IdentityType_ID: Mapped[int] = mapped_column(
+        ForeignKey("gold.DimIdentityType.IdentityType_ID"),
+        nullable=False,
+    )
+    Identity_Value: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    Is_Valid: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    Match_Confidence: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Valid_From: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Valid_To: Mapped[date | None] = mapped_column(Date, nullable=True)
+
+
+class FactlessPersonAddress(Base):
+    __tablename__ = "FactlessPersonAddress"
+    __table_args__ = (
+        CheckConstraint(
+            "Valid_To IS NULL OR Valid_From IS NULL OR Valid_To >= Valid_From",
+            name="CK_FactlessPersonAddress_Dates",
+        ),
+        {"schema": "gold"},
+    )
+
+    PersonAddress_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Person_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimPerson.Person_ID"),
+        nullable=False,
+    )
+    Address_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimAddress.Address_ID"),
+        nullable=False,
+    )
+    AddressType_ID: Mapped[int] = mapped_column(
+        ForeignKey("gold.DimAddressType.AddressType_ID"),
+        nullable=False,
+    )
+    Valid_From: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Valid_To: Mapped[date | None] = mapped_column(Date, nullable=True)
+
+
+class FactlessPartyAddress(Base):
+    __tablename__ = "FactlessPartyAddress"
+    __table_args__ = (
+        CheckConstraint(
+            "Valid_To IS NULL OR Valid_From IS NULL OR Valid_To >= Valid_From",
+            name="CK_FactlessPartyAddress_Dates",
+        ),
+        {"schema": "gold"},
+    )
+
+    PartyAddress_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Party_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimParty.Party_ID"),
+        nullable=False,
+    )
+    Address_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimAddress.Address_ID"),
+        nullable=False,
+    )
+    AddressType_ID: Mapped[int] = mapped_column(
+        ForeignKey("gold.DimAddressType.AddressType_ID"),
+        nullable=False,
+    )
+    Valid_From: Mapped[date | None] = mapped_column(Date, nullable=True)
+    Valid_To: Mapped[date | None] = mapped_column(Date, nullable=True)
