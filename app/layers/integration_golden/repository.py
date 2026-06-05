@@ -7,8 +7,16 @@ from sqlalchemy import and_, delete, func, or_, select
 from sqlalchemy.orm import Session
 
 from app.layers.integration_golden.models import (
+    DimAddress,
+    DimAddressType,
+    DimIdentityType,
+    DimParty,
+    DimPerson,
     EntityGroupMemberRecord,
     EntityGroupRecord,
+    FactlessPartyAddress,
+    FactlessPartyIdentities,
+    FactlessPersonAddress,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
@@ -19,6 +27,298 @@ from app.layers.staging_validation.mapper import normalize_entity_type
 class IntegrationGoldenRepository:
     def __init__(self, db: Session):
         self.db = db
+
+    def get_entity_groups(self, entity_type: str) -> list[EntityGroupRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        query = (
+            select(EntityGroupRecord)
+            .where(EntityGroupRecord.Entity_Type == entity_type)
+            .order_by(EntityGroupRecord.Entity_Group_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def get_entity_group_members(
+        self,
+        entity_type: str,
+        entity_group_id: int,
+    ) -> list[EntityGroupMemberRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        query = (
+            select(EntityGroupMemberRecord)
+            .where(EntityGroupMemberRecord.Entity_Type == entity_type)
+            .where(EntityGroupMemberRecord.Entity_Group_ID == entity_group_id)
+            .order_by(EntityGroupMemberRecord.Preprocessed_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def get_preprocessed_records_by_ids(
+        self,
+        entity_type: str,
+        preprocessed_ids: list[int],
+    ) -> list[Any]:
+        entity_type = normalize_entity_type(entity_type)
+        if not preprocessed_ids:
+            return []
+        model = PersonPreprocessed if entity_type == "PERSON" else PartyPreprocessed
+        query = (
+            select(model)
+            .where(model.Preprocessed_ID.in_(preprocessed_ids))
+            .order_by(model.Preprocessed_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def get_identity_type_by_name(self, identity_type_name: str) -> DimIdentityType | None:
+        return self.db.scalar(
+            select(DimIdentityType).where(
+                DimIdentityType.IdentityType_Name == identity_type_name
+            )
+        )
+
+    def get_address_type_by_name(self, address_type_name: str) -> DimAddressType | None:
+        return self.db.scalar(
+            select(DimAddressType).where(
+                DimAddressType.AddressType_Name == address_type_name
+            )
+        )
+
+    def find_address(
+        self,
+        *,
+        street: str | None = None,
+        building_number: str | None = None,
+        apartment_number: str | None = None,
+        city: str | None = None,
+        postal_city: str | None = None,
+        postal_code: str | None = None,
+        district: str | None = None,
+        province: str | None = None,
+        country: str | None = None,
+    ) -> DimAddress | None:
+        if not any(
+            self._is_present(value)
+            for value in (
+                street,
+                building_number,
+                apartment_number,
+                city,
+                postal_city,
+                postal_code,
+                district,
+                province,
+                country,
+            )
+        ):
+            return None
+
+        query = select(DimAddress).where(
+            DimAddress.Street == street,
+            DimAddress.Building_Number == building_number,
+            DimAddress.Apartment_Number == apartment_number,
+            DimAddress.City == city,
+            DimAddress.Postal_City == postal_city,
+            DimAddress.Postal_Code == postal_code,
+            DimAddress.District == district,
+            DimAddress.Province == province,
+            DimAddress.Country == country,
+        )
+        return self.db.scalar(query)
+
+    def get_or_create_address(self, **address_fields: Any) -> DimAddress | None:
+        existing = self.find_address(**address_fields)
+        if existing is not None:
+            return existing
+        if not any(self._is_present(value) for value in address_fields.values()):
+            return None
+        address = DimAddress(
+            Street=address_fields.get("street"),
+            Building_Number=address_fields.get("building_number"),
+            Apartment_Number=address_fields.get("apartment_number"),
+            City=address_fields.get("city"),
+            Postal_City=address_fields.get("postal_city"),
+            Postal_Code=address_fields.get("postal_code"),
+            District=address_fields.get("district"),
+            Province=address_fields.get("province"),
+            Country=address_fields.get("country"),
+        )
+        self.db.add(address)
+        self.db.flush()
+        return address
+
+    def find_person_by_identity(
+        self,
+        *,
+        pesel: str | None = None,
+        serial_number_id_card: str | None = None,
+        serial_number_passport: str | None = None,
+    ) -> DimPerson | None:
+        conditions = []
+        if self._is_present(pesel):
+            conditions.append(DimPerson.PESEL == pesel)
+        if self._is_present(serial_number_id_card):
+            conditions.append(DimPerson.Serial_Number_ID_Card == serial_number_id_card)
+        if self._is_present(serial_number_passport):
+            conditions.append(DimPerson.Serial_Number_Passport == serial_number_passport)
+        if not conditions:
+            return None
+        query = select(DimPerson).where(or_(*conditions)).order_by(DimPerson.Person_ID)
+        return self.db.scalar(query)
+
+    def create_person(self, **person_fields: Any) -> DimPerson:
+        person = DimPerson(**self._filter_allowed_fields(DimPerson, person_fields))
+        self.db.add(person)
+        self.db.flush()
+        return person
+
+    def update_person(self, person: DimPerson, **person_fields: Any) -> DimPerson:
+        for field_name, value in self._filter_allowed_fields(DimPerson, person_fields).items():
+            setattr(person, field_name, value)
+        self.db.flush()
+        return person
+
+    def find_party_by_identity(self, **identity_values: Any) -> DimParty | None:
+        conditions = []
+        for identity_type_name, identity_value in identity_values.items():
+            if not self._is_present(identity_value):
+                continue
+            conditions.append(
+                and_(
+                    DimIdentityType.IdentityType_Name == identity_type_name,
+                    FactlessPartyIdentities.Identity_Value == identity_value,
+                )
+            )
+        if not conditions:
+            return None
+
+        query = (
+            select(DimParty)
+            .join(
+                FactlessPartyIdentities,
+                FactlessPartyIdentities.Party_ID == DimParty.Party_ID,
+            )
+            .join(
+                DimIdentityType,
+                DimIdentityType.IdentityType_ID == FactlessPartyIdentities.IdentityType_ID,
+            )
+            .where(or_(*conditions))
+            .order_by(DimParty.Party_ID)
+        )
+        return self.db.scalars(query).first()
+
+    def create_party(self, **party_fields: Any) -> DimParty:
+        party = DimParty(**self._filter_allowed_fields(DimParty, party_fields))
+        self.db.add(party)
+        self.db.flush()
+        return party
+
+    def update_party(self, party: DimParty, **party_fields: Any) -> DimParty:
+        for field_name, value in self._filter_allowed_fields(DimParty, party_fields).items():
+            setattr(party, field_name, value)
+        self.db.flush()
+        return party
+
+    def ensure_party_identity(
+        self,
+        *,
+        party_id: int,
+        identity_type_id: int,
+        identity_value: str,
+        is_valid: bool | None = None,
+        match_confidence: float | None = None,
+        valid_from: Any = None,
+        valid_to: Any = None,
+    ) -> FactlessPartyIdentities:
+        existing = self.db.scalar(
+            select(FactlessPartyIdentities).where(
+                FactlessPartyIdentities.IdentityType_ID == identity_type_id,
+                FactlessPartyIdentities.Identity_Value == identity_value,
+            )
+        )
+        if existing is not None:
+            existing.Party_ID = party_id
+            existing.Is_Valid = is_valid
+            existing.Match_Confidence = match_confidence
+            existing.Valid_From = valid_from
+            existing.Valid_To = valid_to
+            self.db.flush()
+            return existing
+
+        identity = FactlessPartyIdentities(
+            Party_ID=party_id,
+            IdentityType_ID=identity_type_id,
+            Identity_Value=identity_value,
+            Is_Valid=is_valid,
+            Match_Confidence=match_confidence,
+            Valid_From=valid_from,
+            Valid_To=valid_to,
+        )
+        self.db.add(identity)
+        self.db.flush()
+        return identity
+
+    def ensure_person_address_link(
+        self,
+        *,
+        person_id: int,
+        address_id: int,
+        address_type_id: int,
+        valid_from: Any = None,
+        valid_to: Any = None,
+    ) -> FactlessPersonAddress:
+        existing = self.db.scalar(
+            select(FactlessPersonAddress).where(
+                FactlessPersonAddress.Person_ID == person_id,
+                FactlessPersonAddress.Address_ID == address_id,
+                FactlessPersonAddress.AddressType_ID == address_type_id,
+                FactlessPersonAddress.Valid_From == valid_from,
+                FactlessPersonAddress.Valid_To == valid_to,
+            )
+        )
+        if existing is not None:
+            return existing
+        link = FactlessPersonAddress(
+            Person_ID=person_id,
+            Address_ID=address_id,
+            AddressType_ID=address_type_id,
+            Valid_From=valid_from,
+            Valid_To=valid_to,
+        )
+        self.db.add(link)
+        self.db.flush()
+        return link
+
+    def ensure_party_address_link(
+        self,
+        *,
+        party_id: int,
+        address_id: int,
+        address_type_id: int,
+        valid_from: Any = None,
+        valid_to: Any = None,
+    ) -> FactlessPartyAddress:
+        existing = self.db.scalar(
+            select(FactlessPartyAddress).where(
+                FactlessPartyAddress.Party_ID == party_id,
+                FactlessPartyAddress.Address_ID == address_id,
+                FactlessPartyAddress.AddressType_ID == address_type_id,
+                FactlessPartyAddress.Valid_From == valid_from,
+                FactlessPartyAddress.Valid_To == valid_to,
+            )
+        )
+        if existing is not None:
+            return existing
+        link = FactlessPartyAddress(
+            Party_ID=party_id,
+            Address_ID=address_id,
+            AddressType_ID=address_type_id,
+            Valid_From=valid_from,
+            Valid_To=valid_to,
+        )
+        self.db.add(link)
+        self.db.flush()
+        return link
+
+    def commit(self) -> None:
+        self.db.commit()
 
     def get_preprocessed_records(
         self,
@@ -362,3 +662,7 @@ class IntegrationGoldenRepository:
 
     def _is_present(self, value: Any) -> bool:
         return value is not None and str(value).strip() != ""
+
+    def _filter_allowed_fields(self, model: Any, values: dict[str, Any]) -> dict[str, Any]:
+        allowed_fields = set(model.__table__.columns.keys())
+        return {field_name: value for field_name, value in values.items() if field_name in allowed_fields}
