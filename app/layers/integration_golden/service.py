@@ -529,6 +529,7 @@ class GoldenDimensionLoadResult:
 @dataclass(frozen=True)
 class GoldenLoadRunResult:
     entity_type: str
+    raw_file_id: int | None
     entity_group_id: int | None
     groups_in_scope: int
     groups_processed: int
@@ -931,53 +932,89 @@ def create_or_update_golden_person(
 def golden_load_dimensions(
     db: Any,
     entity_type: str,
+    raw_file_id: int | None = None,
     entity_group_id: int | None = None,
     repo: Any | None = None,
 ) -> GoldenLoadRunResult:
     entity_type = normalize_entity_type(entity_type)
     repo = repo or create_repository(db)
-    groups = list(repo.get_entity_groups(entity_type))
-    if entity_group_id is not None:
-        groups = [
-            group
-            for group in groups
-            if get_int_record_value(group, "Entity_Group_ID") == int(entity_group_id)
-        ]
-    if not groups:
-        scope = (
-            f"Entity_Group_ID={entity_group_id}"
-            if entity_group_id is not None
-            else f"entity type {entity_type}"
-        )
-        raise ValueError(f"No entity groups found for {scope}.")
+    process_log = None
+    if raw_file_id is not None and hasattr(repo, "create_golden_load_process_log"):
+        import_batch_id = repo.get_import_batch_id_for_raw_file(int(raw_file_id))
+        process_log = repo.create_golden_load_process_log(import_batch_id, int(raw_file_id))
 
-    results: list[GoldenDimensionLoadResult] = []
-    for group in groups:
-        current_group_id = get_int_record_value(group, "Entity_Group_ID")
-        if entity_type == "PERSON":
-            results.append(
-                create_or_update_golden_person(
-                    db=db,
-                    entity_group_id=current_group_id,
-                    repo=repo,
-                )
-            )
+    groups_in_scope = 0
+    try:
+        if raw_file_id is not None and hasattr(repo, "get_entity_groups_for_raw_file"):
+            groups = list(repo.get_entity_groups_for_raw_file(entity_type, int(raw_file_id)))
         else:
-            results.append(
-                create_or_update_golden_party(
-                    db=db,
-                    entity_group_id=current_group_id,
-                    repo=repo,
+            groups = list(repo.get_entity_groups(entity_type))
+        if entity_group_id is not None:
+            groups = [
+                group
+                for group in groups
+                if get_int_record_value(group, "Entity_Group_ID") == int(entity_group_id)
+            ]
+        groups_in_scope = len(groups)
+        if not groups:
+            scope = (
+                f"Entity_Group_ID={entity_group_id}"
+                if entity_group_id is not None
+                else (
+                    f"entity type {entity_type} and RawFile_ID={raw_file_id}"
+                    if raw_file_id is not None
+                    else f"entity type {entity_type}"
                 )
             )
+            raise ValueError(f"No entity groups found for {scope}.")
 
-    return GoldenLoadRunResult(
-        entity_type=entity_type,
-        entity_group_id=entity_group_id,
-        groups_in_scope=len(groups),
-        groups_processed=len(results),
-        results=tuple(results),
-    )
+        results: list[GoldenDimensionLoadResult] = []
+        for group in groups:
+            current_group_id = get_int_record_value(group, "Entity_Group_ID")
+            if entity_type == "PERSON":
+                results.append(
+                    create_or_update_golden_person(
+                        db=db,
+                        entity_group_id=current_group_id,
+                        repo=repo,
+                    )
+                )
+            else:
+                results.append(
+                    create_or_update_golden_party(
+                        db=db,
+                        entity_group_id=current_group_id,
+                        repo=repo,
+                    )
+                )
+
+        if process_log is not None:
+            repo.finish_process_log(
+                process_log,
+                "SUCCESS",
+                records_in=groups_in_scope,
+                records_out=len(results),
+            )
+        return GoldenLoadRunResult(
+            entity_type=entity_type,
+            raw_file_id=raw_file_id,
+            entity_group_id=entity_group_id,
+            groups_in_scope=groups_in_scope,
+            groups_processed=len(results),
+            results=tuple(results),
+        )
+    except Exception as exc:
+        if process_log is not None:
+            if hasattr(repo, "rollback"):
+                repo.rollback()
+            repo.finish_process_log(
+                process_log,
+                "FAILED",
+                records_in=groups_in_scope,
+                records_out=0,
+                error_message=str(exc),
+            )
+        raise
 
 
 def create_or_update_golden_party(
@@ -1463,6 +1500,12 @@ def group_auto_merge_candidates(
         if get_optional_string_value(candidate, "Decision") == MatchDecision.AUTO_MERGE.value
     ]
     groups = build_entity_groups(candidates)
+    if hasattr(repo, "get_preprocessed_records"):
+        preprocessed_ids = [
+            get_int_record_value(record, "Preprocessed_ID")
+            for record in repo.get_preprocessed_records(entity_type, raw_file_id=None)
+        ]
+        groups = add_singleton_entity_groups(groups, preprocessed_ids)
     groups_out, members_out = persist_entity_groups(repo, entity_type, groups)
     return EntityGroupingRunResult(
         entity_type=entity_type,
@@ -1514,6 +1557,29 @@ def build_entity_groups(candidates: list[Any]) -> list[EntityGroup]:
             )
         )
     return sorted(groups, key=lambda group: group.member_preprocessed_ids)
+
+
+def add_singleton_entity_groups(
+    groups: list[EntityGroup],
+    member_preprocessed_ids: list[int],
+) -> list[EntityGroup]:
+    grouped_member_ids = {
+        member_id
+        for group in groups
+        for member_id in group.member_preprocessed_ids
+    }
+    complete_groups = list(groups)
+    for member_id in sorted(set(member_preprocessed_ids)):
+        if member_id in grouped_member_ids:
+            continue
+        member_ids = (member_id,)
+        complete_groups.append(
+            EntityGroup(
+                group_key=build_group_key(member_ids),
+                member_preprocessed_ids=member_ids,
+            )
+        )
+    return sorted(complete_groups, key=lambda group: group.member_preprocessed_ids)
 
 
 def build_group_key(member_preprocessed_ids: tuple[int, ...]) -> str:

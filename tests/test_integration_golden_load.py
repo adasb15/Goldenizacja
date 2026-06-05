@@ -42,10 +42,17 @@ class GoldenLoadRepo:
         self.party_address_links = {}
         self.party_identities = {}
         self.groups = [SimpleNamespace(Entity_Group_ID=1, Entity_Type=entity_type)]
+        self.scoped_raw_file_ids = []
+        self.process_logs = []
         self.commits = 0
 
     def get_entity_groups(self, entity_type: str):
         assert entity_type == self.entity_type
+        return self.groups
+
+    def get_entity_groups_for_raw_file(self, entity_type: str, raw_file_id: int):
+        assert entity_type == self.entity_type
+        self.scoped_raw_file_ids.append(raw_file_id)
         return self.groups
 
     def get_entity_group_members(self, entity_type: str, entity_group_id: int):
@@ -67,6 +74,36 @@ class GoldenLoadRepo:
                     getattr(record, "import_started_at", None),
                 )
         return None, None, None
+
+    def get_import_batch_id_for_raw_file(self, raw_file_id: int):
+        return raw_file_id + 1000
+
+    def create_golden_load_process_log(self, import_batch_id: int, raw_file_id: int | None):
+        log = SimpleNamespace(
+            ImportBatch_ID=import_batch_id,
+            RawFile_ID=raw_file_id,
+            Step_Name="GOLDEN_LOAD",
+            Step_Status="STARTED",
+            Records_In=None,
+            Records_Out=None,
+            Error_Message=None,
+        )
+        self.process_logs.append(log)
+        return log
+
+    def finish_process_log(
+        self,
+        log,
+        status: str,
+        records_in: int | None = None,
+        records_out: int | None = None,
+        error_message: str | None = None,
+    ):
+        log.Step_Status = status
+        log.Records_In = records_in
+        log.Records_Out = records_out
+        log.Error_Message = error_message
+        return log
 
     def find_person_by_identity(self, **_kwargs):
         return self.existing_person
@@ -193,6 +230,57 @@ class GoldenLoadServiceTests(unittest.TestCase):
         self.assertEqual(len(repo.party_address_links), 1)
         self.assertEqual(len(repo.party_identities), 4)
 
+    def test_golden_load_dimensions_logs_process_when_raw_file_id_is_passed(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_code="PESEL",
+                trust_level=90,
+                PESEL_Normalized="90010112345",
+                First_Name_Normalized="JAN",
+                Last_Name_Normalized="KOWALSKI",
+            )
+        ]
+        repo = GoldenLoadRepo("PERSON", records)
+
+        result = golden_load_dimensions(
+            db=None,
+            entity_type="PERSON",
+            raw_file_id=55,
+            repo=repo,
+        )
+
+        self.assertEqual(result.raw_file_id, 55)
+        self.assertEqual(len(repo.process_logs), 1)
+        self.assertEqual(repo.process_logs[0].Step_Name, "GOLDEN_LOAD")
+        self.assertEqual(repo.process_logs[0].Step_Status, "SUCCESS")
+        self.assertEqual(repo.process_logs[0].Records_In, 1)
+        self.assertEqual(repo.process_logs[0].Records_Out, 1)
+
+    def test_golden_load_dimensions_scopes_groups_by_raw_file_id(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_code="PESEL",
+                trust_level=90,
+                PESEL_Normalized="90010112345",
+                First_Name_Normalized="JAN",
+                Last_Name_Normalized="KOWALSKI",
+            )
+        ]
+        repo = GoldenLoadRepo("PERSON", records)
+
+        golden_load_dimensions(
+            db=None,
+            entity_type="PERSON",
+            raw_file_id=55,
+            repo=repo,
+        )
+
+        self.assertEqual(repo.scoped_raw_file_ids, [55])
+
 
 class GoldenLoadApiTests(unittest.TestCase):
     def setUp(self) -> None:
@@ -207,6 +295,7 @@ class GoldenLoadApiTests(unittest.TestCase):
     def test_post_golden_load_returns_person_payload(self) -> None:
         mocked_result = GoldenLoadRunResult(
             entity_type="PERSON",
+            raw_file_id=100,
             entity_group_id=1,
             groups_in_scope=1,
             groups_processed=1,
@@ -226,16 +315,18 @@ class GoldenLoadApiTests(unittest.TestCase):
         with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
             response = self.client.post(
                 "/integration_golden/golden-load",
-                data={"entity_type": "PERSON", "entity_group_id": 1},
+                data={"entity_type": "PERSON", "raw_file_id": 100, "entity_group_id": 1},
             )
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json()["entity_type"], "PERSON")
+        self.assertEqual(response.json()["raw_file_id"], 100)
         self.assertEqual(response.json()["results"][0]["dimension_id"], 101)
 
     def test_post_golden_load_returns_party_payload(self) -> None:
         mocked_result = GoldenLoadRunResult(
             entity_type="PARTY",
+            raw_file_id=200,
             entity_group_id=1,
             groups_in_scope=1,
             groups_processed=1,
@@ -256,11 +347,12 @@ class GoldenLoadApiTests(unittest.TestCase):
         with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
             response = self.client.post(
                 "/integration_golden/golden-load",
-                data={"entity_type": "PARTY", "entity_group_id": 1},
+                data={"entity_type": "PARTY", "raw_file_id": 200, "entity_group_id": 1},
             )
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json()["entity_type"], "PARTY")
+        self.assertEqual(response.json()["raw_file_id"], 200)
         self.assertEqual(response.json()["results"][0]["party_identities_saved"], 3)
 
 

@@ -124,7 +124,7 @@ BEGIN
         CONSTRAINT [FK_ProcessLog_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION', N'GOLDEN_LOAD'
         )),
         CONSTRAINT [CK_ProcessLog_Step_Status] CHECK ([Step_Status] IN (
             N'STARTED', N'SUCCESS', N'FAILED'
@@ -142,7 +142,7 @@ IF EXISTS (
 BEGIN
     ALTER TABLE [meta].[ProcessLog] DROP CONSTRAINT [CK_ProcessLog_Step_Name];
     ALTER TABLE [meta].[ProcessLog] ADD CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION', N'GOLDEN_LOAD'
     ));
 END;
 GO
@@ -1539,8 +1539,18 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_PESEL' AND 
     CREATE UNIQUE INDEX [IX_DimPerson_PESEL] ON [gold].[DimPerson] ([PESEL]) WHERE [PESEL] IS NOT NULL;
 GO
 
+IF EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = N'IX_DimPerson_Email'
+      AND object_id = OBJECT_ID(N'[gold].[DimPerson]')
+      AND is_unique = 1
+)
+    DROP INDEX [IX_DimPerson_Email] ON [gold].[DimPerson];
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Email' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
-    CREATE UNIQUE INDEX [IX_DimPerson_Email] ON [gold].[DimPerson] ([Email_Address]) WHERE [Email_Address] IS NOT NULL;
+    CREATE INDEX [IX_DimPerson_Email] ON [gold].[DimPerson] ([Email_Address]) WHERE [Email_Address] IS NOT NULL;
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_IDCard' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
@@ -1551,8 +1561,18 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Passport' A
     CREATE UNIQUE INDEX [IX_DimPerson_Passport] ON [gold].[DimPerson] ([Serial_Number_Passport]) WHERE [Serial_Number_Passport] IS NOT NULL;
 GO
 
+IF EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = N'IX_DimPerson_Phone'
+      AND object_id = OBJECT_ID(N'[gold].[DimPerson]')
+      AND is_unique = 1
+)
+    DROP INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson];
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Phone' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
-    CREATE UNIQUE INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson] ([Phone_Number]) WHERE [Phone_Number] IS NOT NULL;
+    CREATE INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson] ([Phone_Number]) WHERE [Phone_Number] IS NOT NULL;
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimParty_Name' AND object_id = OBJECT_ID(N'[gold].[DimParty]'))

@@ -1,6 +1,7 @@
 """Dostep do danych dla warstwy integration_golden."""
 
 import json
+from datetime import datetime
 from typing import Any
 
 from sqlalchemy import and_, delete, func, or_, select
@@ -20,7 +21,7 @@ from app.layers.integration_golden.models import (
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
-from app.layers.ingestion.models import ImportBatch, SourceSystem
+from app.layers.ingestion.models import ImportBatch, ProcessLog, RawFile, SourceSystem
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -37,6 +38,78 @@ class IntegrationGoldenRepository:
             .order_by(EntityGroupRecord.Entity_Group_ID)
         )
         return list(self.db.scalars(query))
+
+    def get_entity_groups_for_raw_file(
+        self,
+        entity_type: str,
+        raw_file_id: int,
+    ) -> list[EntityGroupRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        model = PersonPreprocessed if entity_type == "PERSON" else PartyPreprocessed
+        member_preprocessed_id = (
+            EntityGroupMemberRecord.Person_Preprocessed_ID
+            if entity_type == "PERSON"
+            else EntityGroupMemberRecord.Party_Preprocessed_ID
+        )
+        query = (
+            select(EntityGroupRecord)
+            .join(
+                EntityGroupMemberRecord,
+                and_(
+                    EntityGroupMemberRecord.Entity_Group_ID == EntityGroupRecord.Entity_Group_ID,
+                    EntityGroupMemberRecord.Entity_Type == EntityGroupRecord.Entity_Type,
+                ),
+            )
+            .join(model, model.Preprocessed_ID == member_preprocessed_id)
+            .where(EntityGroupRecord.Entity_Type == entity_type)
+            .where(EntityGroupMemberRecord.Entity_Type == entity_type)
+            .where(model.RawFile_ID == raw_file_id)
+            .distinct()
+            .order_by(EntityGroupRecord.Entity_Group_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def get_import_batch_id_for_raw_file(self, raw_file_id: int) -> int:
+        import_batch_id = self.db.scalar(
+            select(RawFile.ImportBatch_ID).where(RawFile.RawFile_ID == raw_file_id)
+        )
+        if import_batch_id is None:
+            raise ValueError(f"RawFile_ID={raw_file_id} not found.")
+        return int(import_batch_id)
+
+    def create_golden_load_process_log(
+        self,
+        import_batch_id: int,
+        raw_file_id: int | None,
+    ) -> ProcessLog:
+        log = ProcessLog(
+            ImportBatch_ID=import_batch_id,
+            RawFile_ID=raw_file_id,
+            Step_Name="GOLDEN_LOAD",
+            Step_Status="STARTED",
+        )
+        self.db.add(log)
+        self.db.commit()
+        self.db.refresh(log)
+        return log
+
+    def finish_process_log(
+        self,
+        log: ProcessLog,
+        status: str,
+        records_in: int | None = None,
+        records_out: int | None = None,
+        error_message: str | None = None,
+    ) -> ProcessLog:
+        log.Step_Status = status
+        log.Records_In = records_in
+        log.Records_Out = records_out
+        log.Error_Message = error_message
+        log.Ended_At = datetime.utcnow()
+        self.db.add(log)
+        self.db.commit()
+        self.db.refresh(log)
+        return log
 
     def get_entity_group_members(
         self,
@@ -337,6 +410,9 @@ class IntegrationGoldenRepository:
 
     def commit(self) -> None:
         self.db.commit()
+
+    def rollback(self) -> None:
+        self.db.rollback()
 
     def get_preprocessed_records(
         self,
