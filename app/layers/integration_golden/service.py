@@ -522,6 +522,8 @@ class GoldenDimensionLoadResult:
     dimension_action: str
     address_id: int | None
     address_action: str
+    address_link_action: str = "SKIPPED"
+    party_identities_saved: int = 0
 
 
 PERSON_FIELD_RULES = (
@@ -896,6 +898,14 @@ def create_or_update_golden_person(
         entity_type="PERSON",
         records=records,
     )
+    address_link_action = "SKIPPED"
+    if address is not None:
+        address_link_action = ensure_golden_address_link(
+            repo=repo,
+            entity_type="PERSON",
+            dimension_id=get_int_record_value(person, "Person_ID"),
+            address_id=get_int_record_value(address, "Address_ID"),
+        )
     repo.commit()
     return GoldenDimensionLoadResult(
         entity_type="PERSON",
@@ -905,6 +915,7 @@ def create_or_update_golden_person(
         dimension_action=dimension_action,
         address_id=get_record_value(address, "Address_ID") if address is not None else None,
         address_action=address_action,
+        address_link_action=address_link_action,
     )
 
 
@@ -937,6 +948,15 @@ def create_or_update_golden_party(
         entity_type="PARTY",
         records=records,
     )
+    address_link_action = "SKIPPED"
+    if address is not None:
+        address_link_action = ensure_golden_address_link(
+            repo=repo,
+            entity_type="PARTY",
+            dimension_id=get_int_record_value(party, "Party_ID"),
+            address_id=get_int_record_value(address, "Address_ID"),
+        )
+    party_identities_saved = persist_party_identities(repo, party, records)
     repo.commit()
     return GoldenDimensionLoadResult(
         entity_type="PARTY",
@@ -946,6 +966,8 @@ def create_or_update_golden_party(
         dimension_action=dimension_action,
         address_id=get_record_value(address, "Address_ID") if address is not None else None,
         address_action=address_action,
+        address_link_action=address_link_action,
+        party_identities_saved=party_identities_saved,
     )
 
 
@@ -982,6 +1004,82 @@ def create_golden_address_for_records(
         country=address_values.get("Country"),
     )
     return address, "CREATED" if existing is None and address is not None else "REUSED"
+
+
+def ensure_golden_address_link(
+    *,
+    repo: Any,
+    entity_type: str,
+    dimension_id: int,
+    address_id: int,
+) -> str:
+    entity_type = normalize_entity_type(entity_type)
+    address_type_name = "RESIDENCE" if entity_type == "PERSON" else "REGISTERED"
+    address_type = repo.get_address_type_by_name(address_type_name)
+    if address_type is None:
+        raise ValueError(f"Address type {address_type_name} not found in gold.DimAddressType.")
+
+    existing_count_before = _count_repo_links(repo, entity_type)
+
+    if entity_type == "PERSON":
+        repo.ensure_person_address_link(
+            person_id=dimension_id,
+            address_id=address_id,
+            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+        )
+    else:
+        repo.ensure_party_address_link(
+            party_id=dimension_id,
+            address_id=address_id,
+            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+        )
+
+    existing_count_after = _count_repo_links(repo, entity_type)
+    if existing_count_before is not None and existing_count_after == existing_count_before:
+        return "REUSED"
+    return "CREATED"
+
+
+PARTY_IDENTITY_FIELD_MAP = {
+    "NIP": ("NIP_Normalized", "NIP"),
+    "REGON": ("REGON_Normalized", "REGON"),
+    "KRS": ("KRS_Normalized", "KRS"),
+    "LEI": ("LEI_Normalized", "LEI"),
+    "KNF_REGISTER_NUMBER": ("Register_Number_Normalized", "Register_Number"),
+    "DECISION_NUMBER": ("Decision_Number_Normalized", "Decision_Number"),
+}
+
+
+def persist_party_identities(repo: Any, party: Any, records: list[Any]) -> int:
+    party_id = get_int_record_value(party, "Party_ID")
+    saved = 0
+    for identity_type_name, aliases in PARTY_IDENTITY_FIELD_MAP.items():
+        identity_value = select_survivor_scalar(repo, "PARTY", identity_type_name, records, aliases)
+        if is_blank(identity_value):
+            continue
+        identity_type = repo.get_identity_type_by_name(identity_type_name)
+        if identity_type is None:
+            raise ValueError(
+                f"Identity type {identity_type_name} not found in gold.DimIdentityType."
+            )
+        repo.ensure_party_identity(
+            party_id=party_id,
+            identity_type_id=get_int_record_value(identity_type, "IdentityType_ID"),
+            identity_value=stringify_value(identity_value),
+            is_valid=None,
+            match_confidence=None,
+        )
+        saved += 1
+    return saved
+
+
+def _count_repo_links(repo: Any, entity_type: str) -> int | None:
+    entity_type = normalize_entity_type(entity_type)
+    if entity_type == "PERSON" and hasattr(repo, "person_address_links"):
+        return len(repo.person_address_links)
+    if entity_type == "PARTY" and hasattr(repo, "party_address_links"):
+        return len(repo.party_address_links)
+    return None
 
 
 def get_group_preprocessed_records(
