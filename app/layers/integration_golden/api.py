@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from app.db.sql import get_db
 from app.layers.integration_golden.schemas import (
     EntityGroupingRunResponse,
+    GoldenLoadRunResponse,
     JaroWinklerRunResponse,
     LayerStatus,
     MatchingRunResponse,
@@ -18,6 +19,7 @@ from app.layers.integration_golden.service import (
     MatchingPairLimitExceededError,
     PreprocessedRecordsNotFoundError,
     find_match_candidates,
+    golden_load_dimensions,
     group_auto_merge_candidates,
     refine_match_candidates_with_jaro_winkler,
 )
@@ -98,3 +100,22 @@ def match_groups(
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"MATCH_GROUPS failed: {exc}") from exc
+
+
+@router.post("/golden-load", response_model=GoldenLoadRunResponse)
+def golden_load(
+    entity_type: str = Form(...),
+    entity_group_id: int | None = Form(None),
+    db: Session = Depends(get_db),
+) -> GoldenLoadRunResponse:
+    try:
+        result = golden_load_dimensions(
+            db=db,
+            entity_type=entity_type,
+            entity_group_id=entity_group_id,
+        )
+        return GoldenLoadRunResponse(**asdict(result))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"GOLDEN_LOAD failed: {exc}") from exc

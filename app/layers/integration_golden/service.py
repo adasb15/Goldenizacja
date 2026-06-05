@@ -526,6 +526,15 @@ class GoldenDimensionLoadResult:
     party_identities_saved: int = 0
 
 
+@dataclass(frozen=True)
+class GoldenLoadRunResult:
+    entity_type: str
+    entity_group_id: int | None
+    groups_in_scope: int
+    groups_processed: int
+    results: tuple[GoldenDimensionLoadResult, ...]
+
+
 PERSON_FIELD_RULES = (
     FieldRule("PESEL", 1.0, FieldRole.STRONG, aliases=("PESEL_Normalized",), decisive=True),
     FieldRule(
@@ -916,6 +925,58 @@ def create_or_update_golden_person(
         address_id=get_record_value(address, "Address_ID") if address is not None else None,
         address_action=address_action,
         address_link_action=address_link_action,
+    )
+
+
+def golden_load_dimensions(
+    db: Any,
+    entity_type: str,
+    entity_group_id: int | None = None,
+    repo: Any | None = None,
+) -> GoldenLoadRunResult:
+    entity_type = normalize_entity_type(entity_type)
+    repo = repo or create_repository(db)
+    groups = list(repo.get_entity_groups(entity_type))
+    if entity_group_id is not None:
+        groups = [
+            group
+            for group in groups
+            if get_int_record_value(group, "Entity_Group_ID") == int(entity_group_id)
+        ]
+    if not groups:
+        scope = (
+            f"Entity_Group_ID={entity_group_id}"
+            if entity_group_id is not None
+            else f"entity type {entity_type}"
+        )
+        raise ValueError(f"No entity groups found for {scope}.")
+
+    results: list[GoldenDimensionLoadResult] = []
+    for group in groups:
+        current_group_id = get_int_record_value(group, "Entity_Group_ID")
+        if entity_type == "PERSON":
+            results.append(
+                create_or_update_golden_person(
+                    db=db,
+                    entity_group_id=current_group_id,
+                    repo=repo,
+                )
+            )
+        else:
+            results.append(
+                create_or_update_golden_party(
+                    db=db,
+                    entity_group_id=current_group_id,
+                    repo=repo,
+                )
+            )
+
+    return GoldenLoadRunResult(
+        entity_type=entity_type,
+        entity_group_id=entity_group_id,
+        groups_in_scope=len(groups),
+        groups_processed=len(results),
+        results=tuple(results),
     )
 
 

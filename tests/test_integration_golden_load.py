@@ -1,0 +1,268 @@
+import unittest
+from dataclasses import replace
+from types import SimpleNamespace
+from unittest.mock import patch
+
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
+
+from app.db.sql import get_db
+from app.layers.integration_golden.api import router
+from app.layers.integration_golden.service import (
+    GoldenDimensionLoadResult,
+    GoldenLoadRunResult,
+    golden_load_dimensions,
+)
+
+
+class GoldenLoadRepo:
+    def __init__(self, entity_type: str, records: list[SimpleNamespace]) -> None:
+        self.entity_type = entity_type
+        self.records = records
+        self.existing_person = None
+        self.existing_party = None
+        self.existing_address = None
+        self.created_person = None
+        self.updated_person = None
+        self.created_party = None
+        self.updated_party = None
+        self.address_types = {
+            "RESIDENCE": SimpleNamespace(AddressType_ID=1, AddressType_Name="RESIDENCE"),
+            "REGISTERED": SimpleNamespace(AddressType_ID=2, AddressType_Name="REGISTERED"),
+        }
+        self.identity_types = {
+            "NIP": SimpleNamespace(IdentityType_ID=11),
+            "REGON": SimpleNamespace(IdentityType_ID=12),
+            "KRS": SimpleNamespace(IdentityType_ID=13),
+            "LEI": SimpleNamespace(IdentityType_ID=14),
+            "KNF_REGISTER_NUMBER": SimpleNamespace(IdentityType_ID=15),
+            "DECISION_NUMBER": SimpleNamespace(IdentityType_ID=16),
+        }
+        self.person_address_links = {}
+        self.party_address_links = {}
+        self.party_identities = {}
+        self.groups = [SimpleNamespace(Entity_Group_ID=1, Entity_Type=entity_type)]
+        self.commits = 0
+
+    def get_entity_groups(self, entity_type: str):
+        assert entity_type == self.entity_type
+        return self.groups
+
+    def get_entity_group_members(self, entity_type: str, entity_group_id: int):
+        assert entity_type == self.entity_type
+        assert entity_group_id == 1
+        return [SimpleNamespace(Preprocessed_ID=record.Preprocessed_ID) for record in self.records]
+
+    def get_preprocessed_records_by_ids(self, entity_type: str, preprocessed_ids: list[int]):
+        assert entity_type == self.entity_type
+        assert sorted(preprocessed_ids) == sorted(record.Preprocessed_ID for record in self.records)
+        return self.records
+
+    def get_source_metadata_for_import_batch(self, import_batch_id: int):
+        for record in self.records:
+            if record.ImportBatch_ID == import_batch_id:
+                return (
+                    getattr(record, "source_system_code", None),
+                    getattr(record, "trust_level", None),
+                    getattr(record, "import_started_at", None),
+                )
+        return None, None, None
+
+    def find_person_by_identity(self, **_kwargs):
+        return self.existing_person
+
+    def create_person(self, **kwargs):
+        self.created_person = SimpleNamespace(Person_ID=101, **kwargs)
+        return self.created_person
+
+    def update_person(self, person, **kwargs):
+        for key, value in kwargs.items():
+            setattr(person, key, value)
+        self.updated_person = person
+        return person
+
+    def find_party_by_identity(self, **_kwargs):
+        return self.existing_party
+
+    def create_party(self, **kwargs):
+        self.created_party = SimpleNamespace(Party_ID=201, **kwargs)
+        return self.created_party
+
+    def update_party(self, party, **kwargs):
+        for key, value in kwargs.items():
+            setattr(party, key, value)
+        self.updated_party = party
+        return party
+
+    def find_address(self, **_kwargs):
+        return self.existing_address
+
+    def get_or_create_address(self, **kwargs):
+        if self.existing_address is not None:
+            return self.existing_address
+        self.existing_address = SimpleNamespace(Address_ID=301, **kwargs)
+        return self.existing_address
+
+    def get_address_type_by_name(self, address_type_name: str):
+        return self.address_types.get(address_type_name)
+
+    def get_identity_type_by_name(self, identity_type_name: str):
+        return self.identity_types.get(identity_type_name)
+
+    def ensure_person_address_link(self, *, person_id: int, address_id: int, address_type_id: int, valid_from=None, valid_to=None):
+        key = (person_id, address_id, address_type_id, valid_from, valid_to)
+        if key not in self.person_address_links:
+            self.person_address_links[key] = SimpleNamespace(PersonAddress_ID=len(self.person_address_links) + 1)
+        return self.person_address_links[key]
+
+    def ensure_party_address_link(self, *, party_id: int, address_id: int, address_type_id: int, valid_from=None, valid_to=None):
+        key = (party_id, address_id, address_type_id, valid_from, valid_to)
+        if key not in self.party_address_links:
+            self.party_address_links[key] = SimpleNamespace(PartyAddress_ID=len(self.party_address_links) + 1)
+        return self.party_address_links[key]
+
+    def ensure_party_identity(self, *, party_id: int, identity_type_id: int, identity_value: str, **kwargs):
+        key = (identity_type_id, identity_value)
+        if key not in self.party_identities:
+            self.party_identities[key] = SimpleNamespace(PartyIdentity_ID=len(self.party_identities) + 1)
+        return self.party_identities[key]
+
+    def commit(self):
+        self.commits += 1
+
+
+class GoldenLoadServiceTests(unittest.TestCase):
+    def test_golden_load_dimensions_person_processes_group(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_code="PESEL",
+                trust_level=90,
+                PESEL_Normalized="90010112345",
+                First_Name_Normalized="JAN",
+                Last_Name_Normalized="KOWALSKI",
+                Street_Normalized="KWIATOWA",
+                Building_Number_Normalized="10",
+                City_Normalized="WARSZAWA",
+                Postal_Code_Normalized="00-001",
+                Country_Normalized="PL",
+            )
+        ]
+        repo = GoldenLoadRepo("PERSON", records)
+
+        result = golden_load_dimensions(db=None, entity_type="PERSON", repo=repo)
+
+        self.assertEqual(result.entity_type, "PERSON")
+        self.assertEqual(result.groups_in_scope, 1)
+        self.assertEqual(result.groups_processed, 1)
+        self.assertEqual(result.results[0].dimension_action, "CREATED")
+        self.assertEqual(result.results[0].address_link_action, "CREATED")
+        self.assertEqual(len(repo.person_address_links), 1)
+
+    def test_golden_load_dimensions_party_processes_group(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_code="REGON",
+                trust_level=85,
+                REGON_Normalized="123456789",
+                NIP_Normalized="1234567890",
+                KRS_Normalized="0000001234",
+                LEI_Normalized="5493001KJTIIGC8Y1R12",
+                Name_Normalized="ALFA SA",
+                Legal_Entity_Type_Normalized="SA",
+                Registration_Country_Normalized="PL",
+                Street_Normalized="KWIATOWA",
+                Building_Number_Normalized="10",
+                City_Normalized="WARSZAWA",
+                Postal_Code_Normalized="00-001",
+                Country_Normalized="PL",
+            )
+        ]
+        repo = GoldenLoadRepo("PARTY", records)
+
+        result = golden_load_dimensions(db=None, entity_type="PARTY", repo=repo)
+
+        self.assertEqual(result.entity_type, "PARTY")
+        self.assertEqual(result.groups_processed, 1)
+        self.assertEqual(result.results[0].dimension_action, "CREATED")
+        self.assertEqual(result.results[0].address_link_action, "CREATED")
+        self.assertEqual(result.results[0].party_identities_saved, 4)
+        self.assertEqual(len(repo.party_address_links), 1)
+        self.assertEqual(len(repo.party_identities), 4)
+
+
+class GoldenLoadApiTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.app = FastAPI()
+        self.app.include_router(router)
+        self.app.dependency_overrides[get_db] = lambda: SimpleNamespace()
+        self.client = TestClient(self.app)
+
+    def tearDown(self) -> None:
+        self.app.dependency_overrides.clear()
+
+    def test_post_golden_load_returns_person_payload(self) -> None:
+        mocked_result = GoldenLoadRunResult(
+            entity_type="PERSON",
+            entity_group_id=1,
+            groups_in_scope=1,
+            groups_processed=1,
+            results=(
+                GoldenDimensionLoadResult(
+                    entity_type="PERSON",
+                    entity_group_id=1,
+                    member_preprocessed_ids=(1,),
+                    dimension_id=101,
+                    dimension_action="CREATED",
+                    address_id=301,
+                    address_action="CREATED",
+                    address_link_action="CREATED",
+                ),
+            ),
+        )
+        with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
+            response = self.client.post(
+                "/integration_golden/golden-load",
+                data={"entity_type": "PERSON", "entity_group_id": 1},
+            )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["entity_type"], "PERSON")
+        self.assertEqual(response.json()["results"][0]["dimension_id"], 101)
+
+    def test_post_golden_load_returns_party_payload(self) -> None:
+        mocked_result = GoldenLoadRunResult(
+            entity_type="PARTY",
+            entity_group_id=1,
+            groups_in_scope=1,
+            groups_processed=1,
+            results=(
+                GoldenDimensionLoadResult(
+                    entity_type="PARTY",
+                    entity_group_id=1,
+                    member_preprocessed_ids=(1,),
+                    dimension_id=201,
+                    dimension_action="UPDATED",
+                    address_id=301,
+                    address_action="REUSED",
+                    address_link_action="REUSED",
+                    party_identities_saved=3,
+                ),
+            ),
+        )
+        with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
+            response = self.client.post(
+                "/integration_golden/golden-load",
+                data={"entity_type": "PARTY", "entity_group_id": 1},
+            )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["entity_type"], "PARTY")
+        self.assertEqual(response.json()["results"][0]["party_identities_saved"], 3)
+
+
+if __name__ == "__main__":
+    unittest.main()

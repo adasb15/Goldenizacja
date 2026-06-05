@@ -32,7 +32,12 @@ class Settings(BaseSettings):
     oracle_port: int = 1521
     oracle_service_name: str = "FREEPDB1"
 
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", case_sensitive=False)
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        case_sensitive=False,
+        extra="ignore",
+    )
 
     @property
     def sqlalchemy_database_url(self) -> str:
