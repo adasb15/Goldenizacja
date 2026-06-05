@@ -20,6 +20,7 @@ from app.layers.integration_golden.models import (
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
+from app.layers.ingestion.models import ImportBatch, SourceSystem
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
 
@@ -66,6 +67,23 @@ class IntegrationGoldenRepository:
             .order_by(model.Preprocessed_ID)
         )
         return list(self.db.scalars(query))
+
+    def get_source_metadata_for_import_batch(
+        self,
+        import_batch_id: int,
+    ) -> tuple[str | None, int | float | None, Any]:
+        row = self.db.execute(
+            select(
+                SourceSystem.SourceSystem_Code,
+                SourceSystem.Trust_Level,
+                ImportBatch.Import_Start_At,
+            )
+            .join(SourceSystem, SourceSystem.SourceSystem_ID == ImportBatch.SourceSystem_ID)
+            .where(ImportBatch.ImportBatch_ID == import_batch_id)
+        ).first()
+        if row is None:
+            return None, None, None
+        return row[0], row[1], row[2]
 
     def get_identity_type_by_name(self, identity_type_name: str) -> DimIdentityType | None:
         return self.db.scalar(
