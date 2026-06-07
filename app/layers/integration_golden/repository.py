@@ -20,10 +20,12 @@ from app.layers.integration_golden.models import (
     FactlessPartyIdentities,
     FactlessPersonAddress,
     GoldenAddressLineage,
+    PartyAddressLineage,
     GoldenPartyIdentityLineage,
     GoldenPartyLineage,
     GoldenPersonLineage,
     GoldenRecordReject,
+    PersonAddressLineage,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
@@ -261,6 +263,47 @@ class IntegrationGoldenRepository:
             **{
                 id_field: dimension_id,
                 "Attribute_Name": attribute_name,
+                "SourceSystem_ID": source_system_id,
+                "Source_Record_ID": source_record_id,
+                "ImportBatch_ID": import_batch_id,
+                "Selection_Rule": selection_rule,
+                "Trust_Score": trust_score,
+                "Quality_Score": quality_score,
+                "Validation_Status": validation_status,
+            }
+        )
+        self.db.add(lineage)
+        self.db.flush()
+        return lineage
+
+    def upsert_address_link_lineage(
+        self,
+        *,
+        entity_type: str,
+        address_link_id: int,
+        source_system_id: int,
+        source_record_id: str | None,
+        import_batch_id: int,
+        selection_rule: str | None,
+        trust_score: float | None,
+        quality_score: float | None,
+        validation_status: str | None,
+    ) -> Any:
+        entity_type = normalize_entity_type(entity_type)
+        if entity_type == "PERSON":
+            lineage_model = PersonAddressLineage
+            id_field = "PersonAddress_ID"
+        else:
+            lineage_model = PartyAddressLineage
+            id_field = "PartyAddress_ID"
+
+        self.db.execute(
+            delete(lineage_model)
+            .where(getattr(lineage_model, id_field) == address_link_id)
+        )
+        lineage = lineage_model(
+            **{
+                id_field: address_link_id,
                 "SourceSystem_ID": source_system_id,
                 "Source_Record_ID": source_record_id,
                 "ImportBatch_ID": import_batch_id,

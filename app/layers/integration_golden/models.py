@@ -474,3 +474,43 @@ class GoldenPartyIdentityLineage(Base):
     Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
     Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
     Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class PartyAddressLineage(Base):
+    __tablename__ = "PartyAddressLineage"
+    __table_args__ = {"schema": "gold"}
+
+    RelationshipLineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PartyAddress_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPartyAddress.PartyAddress_ID"),
+        nullable=False,
+    )
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class PersonAddressLineage(Base):
+    __tablename__ = "PersonAddressLineage"
+    __table_args__ = {"schema": "gold"}
+
+    RelationshipLineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PersonAddress_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPersonAddress.PersonAddress_ID"),
+        nullable=False,
+    )
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())

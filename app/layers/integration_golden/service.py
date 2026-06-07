@@ -943,7 +943,7 @@ def create_or_update_golden_person(
         selections=person_selections,
     )
 
-    address, address_action = create_golden_address_for_records(
+    address, address_action, address_selections = create_golden_address_for_records(
         repo=repo,
         entity_type="PERSON",
         records=records,
@@ -955,6 +955,7 @@ def create_or_update_golden_person(
             entity_type="PERSON",
             dimension_id=get_int_record_value(person, "Person_ID"),
             address_id=get_int_record_value(address, "Address_ID"),
+            address_selections=address_selections,
         )
     repo.commit()
     return GoldenDimensionLoadResult(
@@ -1152,7 +1153,7 @@ def create_or_update_golden_party(
         selections=party_selections,
     )
 
-    address, address_action = create_golden_address_for_records(
+    address, address_action, address_selections = create_golden_address_for_records(
         repo=repo,
         entity_type="PARTY",
         records=records,
@@ -1164,6 +1165,7 @@ def create_or_update_golden_party(
             entity_type="PARTY",
             dimension_id=get_int_record_value(party, "Party_ID"),
             address_id=get_int_record_value(address, "Address_ID"),
+            address_selections=address_selections,
         )
     party_identities_saved = persist_party_identities(repo, party, records)
     repo.commit()
@@ -1185,11 +1187,11 @@ def create_golden_address_for_records(
     repo: Any,
     entity_type: str,
     records: list[Any],
-) -> tuple[Any | None, str]:
+) -> tuple[Any | None, str, dict[str, SurvivorValueSelection]]:
     address_selections = build_survivor_selections(repo, entity_type, records, ADDRESS_FIELD_ALIASES)
     address_values = selections_to_values(address_selections)
     if not any(not is_blank(value) for value in address_values.values()):
-        return None, "SKIPPED"
+        return None, "SKIPPED", address_selections
 
     existing = repo.find_address(
         street=address_values.get("Street"),
@@ -1220,7 +1222,7 @@ def create_golden_address_for_records(
             dimension_id=get_int_record_value(address, "Address_ID"),
             selections=address_selections,
         )
-    return address, "CREATED" if existing is None and address is not None else "REUSED"
+    return address, "CREATED" if existing is None and address is not None else "REUSED", address_selections
 
 
 def ensure_golden_address_link(
@@ -1229,6 +1231,7 @@ def ensure_golden_address_link(
     entity_type: str,
     dimension_id: int,
     address_id: int,
+    address_selections: dict[str, SurvivorValueSelection],
 ) -> str:
     entity_type = normalize_entity_type(entity_type)
     address_type_name = "RESIDENCE" if entity_type == "PERSON" else "REGISTERED"
@@ -1239,22 +1242,82 @@ def ensure_golden_address_link(
     existing_count_before = _count_repo_links(repo, entity_type)
 
     if entity_type == "PERSON":
-        repo.ensure_person_address_link(
+        address_link = repo.ensure_person_address_link(
             person_id=dimension_id,
             address_id=address_id,
             address_type_id=get_int_record_value(address_type, "AddressType_ID"),
         )
     else:
-        repo.ensure_party_address_link(
+        address_link = repo.ensure_party_address_link(
             party_id=dimension_id,
             address_id=address_id,
             address_type_id=get_int_record_value(address_type, "AddressType_ID"),
         )
+    write_address_link_lineage(
+        repo=repo,
+        entity_type=entity_type,
+        address_link=address_link,
+        address_selections=address_selections,
+    )
 
     existing_count_after = _count_repo_links(repo, entity_type)
     if existing_count_before is not None and existing_count_after == existing_count_before:
         return "REUSED"
     return "CREATED"
+
+
+ADDRESS_LINK_LINEAGE_SELECTION_PRIORITY = (
+    "Full_Address",
+    "Street",
+    "City",
+    "Postal_Code",
+    "Building_Number",
+    "Apartment_Number",
+    "Postal_City",
+    "District",
+    "Province",
+    "Country",
+)
+
+
+def write_address_link_lineage(
+    *,
+    repo: Any,
+    entity_type: str,
+    address_link: Any,
+    address_selections: dict[str, SurvivorValueSelection],
+) -> None:
+    if not hasattr(repo, "upsert_address_link_lineage"):
+        return
+    selection = select_address_link_lineage_selection(address_selections)
+    if selection is None:
+        return
+    if selection.source_system_id is None or selection.import_batch_id is None:
+        return
+
+    entity_type = normalize_entity_type(entity_type)
+    address_link_id_field = "PersonAddress_ID" if entity_type == "PERSON" else "PartyAddress_ID"
+    repo.upsert_address_link_lineage(
+        entity_type=entity_type,
+        address_link_id=get_int_record_value(address_link, address_link_id_field),
+        source_system_id=int(selection.source_system_id),
+        source_record_id=selection.source_record_id,
+        import_batch_id=int(selection.import_batch_id),
+        selection_rule=f"ADDRESS_LINK_FROM_{selection.selected_by_rule}",
+        trust_score=normalize_trust_level(selection.trust_level),
+        quality_score=quality_score_from_validation(selection.validation_status),
+        validation_status=stringify_validation_status(selection.validation_status),
+    )
+
+
+def select_address_link_lineage_selection(
+    address_selections: dict[str, SurvivorValueSelection],
+) -> SurvivorValueSelection | None:
+    for attribute_name in ADDRESS_LINK_LINEAGE_SELECTION_PRIORITY:
+        selection = address_selections.get(attribute_name)
+        if selection is not None and not is_blank(selection.value):
+            return selection
+    return None
 
 
 PARTY_IDENTITY_FIELD_MAP = {

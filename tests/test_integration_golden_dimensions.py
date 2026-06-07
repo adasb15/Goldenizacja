@@ -40,6 +40,7 @@ class GoldenRepo:
         }
         self.person_address_links = {}
         self.party_address_links = {}
+        self.address_link_lineage = {}
         self.party_identities = {}
         self.dimension_lineage = {}
         self.entity_changes = []
@@ -196,6 +197,14 @@ class GoldenRepo:
         self.dimension_lineage[key] = SimpleNamespace(**kwargs)
         return self.dimension_lineage[key]
 
+    def upsert_address_link_lineage(self, **kwargs):
+        key = (
+            kwargs["entity_type"],
+            kwargs["address_link_id"],
+        )
+        self.address_link_lineage[key] = SimpleNamespace(**kwargs)
+        return self.address_link_lineage[key]
+
     def record_entity_change(self, **kwargs):
         change = SimpleNamespace(Change_ID=len(self.entity_changes) + 1, **kwargs)
         self.entity_changes.append(change)
@@ -261,6 +270,11 @@ class GoldenDimensionServiceTests(unittest.TestCase):
         self.assertEqual(person_lineage.selection_rule, "SOURCE_PRIORITY")
         address_lineage = repo.dimension_lineage[("ADDRESS", 301, "Street")]
         self.assertEqual(address_lineage.attribute_name, "Street")
+        address_link_lineage = repo.address_link_lineage[("PERSON", 1)]
+        self.assertEqual(address_link_lineage.source_system_id, 2)
+        self.assertEqual(address_link_lineage.source_record_id, "SRC-2")
+        self.assertEqual(address_link_lineage.import_batch_id, 20)
+        self.assertEqual(address_link_lineage.selection_rule, "ADDRESS_LINK_FROM_SOURCE_PRIORITY")
         self.assertTrue(repo.committed)
 
     def test_updates_dim_party_when_identity_already_exists(self) -> None:
@@ -334,6 +348,10 @@ class GoldenDimensionServiceTests(unittest.TestCase):
             ("PARTY_IDENTITY", identity.PartyIdentity_ID, "Identity_Value")
         ]
         self.assertEqual(identity_lineage.source_record_id, "REGON-1")
+        address_link_lineage = repo.address_link_lineage[("PARTY", 1)]
+        self.assertEqual(address_link_lineage.source_system_id, 3)
+        self.assertEqual(address_link_lineage.source_record_id, "REGON-1")
+        self.assertEqual(address_link_lineage.import_batch_id, 10)
         changed_fields = {change.attribute_name for change in repo.entity_changes}
         self.assertIn("Name", changed_fields)
         self.assertNotIn("Registration_Country", changed_fields)
