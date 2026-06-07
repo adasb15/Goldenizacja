@@ -167,6 +167,43 @@ class EntityGroupMemberRecord(Base):
     Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
 
 
+class GoldenRecordReject(Base):
+    __tablename__ = "Golden_Record_Reject"
+    __table_args__ = (
+        ForeignKeyConstraint(
+            ["Entity_Group_ID", "Entity_Type"],
+            ["stg.Entity_Group.Entity_Group_ID", "stg.Entity_Group.Entity_Type"],
+            name="FK_Golden_Record_Reject_Group",
+        ),
+        CheckConstraint(
+            "Entity_Type IN ('PERSON', 'PARTY')",
+            name="CK_Golden_Record_Reject_Entity_Type",
+        ),
+        CheckConstraint(
+            "Status IN ('OPEN', 'RESOLVED', 'IGNORED')",
+            name="CK_Golden_Record_Reject_Status",
+        ),
+        {"schema": "stg"},
+    )
+
+    Reject_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Entity_Type: Mapped[str] = mapped_column(Unicode(20), nullable=False)
+    Entity_Group_ID: Mapped[int | None] = mapped_column(BigInteger, nullable=True)
+    RawFile_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("raw.RawFile.RawFile_ID", name="FK_Golden_Record_Reject_RawFile"),
+        nullable=True,
+    )
+    Reason_Code: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    Reason_Message: Mapped[str] = mapped_column(Unicode(1000), nullable=False)
+    Missing_Fields_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Survivor_Values_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Member_Preprocessed_IDs_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Status: Mapped[str] = mapped_column(Unicode(30), nullable=False, server_default="OPEN")
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Resolved_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
 class DimAddress(Base):
     __tablename__ = "DimAddress"
     __table_args__ = {"schema": "gold"}

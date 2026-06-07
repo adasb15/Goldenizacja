@@ -18,6 +18,7 @@ from app.layers.integration_golden.models import (
     FactlessPartyAddress,
     FactlessPartyIdentities,
     FactlessPersonAddress,
+    GoldenRecordReject,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
@@ -110,6 +111,41 @@ class IntegrationGoldenRepository:
         self.db.commit()
         self.db.refresh(log)
         return log
+
+    def record_golden_record_reject(
+        self,
+        *,
+        entity_type: str,
+        entity_group_id: int | None,
+        raw_file_id: int | None,
+        reason_code: str,
+        reason_message: str,
+        missing_fields: list[str],
+        survivor_values: dict[str, Any],
+        member_preprocessed_ids: list[int],
+    ) -> GoldenRecordReject:
+        entity_type = normalize_entity_type(entity_type)
+        self.db.execute(
+            delete(GoldenRecordReject)
+            .where(GoldenRecordReject.Entity_Type == entity_type)
+            .where(GoldenRecordReject.Entity_Group_ID == entity_group_id)
+            .where(GoldenRecordReject.Reason_Code == reason_code)
+            .where(GoldenRecordReject.Status == "OPEN")
+        )
+        reject = GoldenRecordReject(
+            Entity_Type=entity_type,
+            Entity_Group_ID=entity_group_id,
+            RawFile_ID=raw_file_id,
+            Reason_Code=reason_code,
+            Reason_Message=reason_message,
+            Missing_Fields_JSON=json.dumps(missing_fields, ensure_ascii=False),
+            Survivor_Values_JSON=json.dumps(survivor_values, ensure_ascii=False, default=str),
+            Member_Preprocessed_IDs_JSON=json.dumps(member_preprocessed_ids, ensure_ascii=False),
+            Status="OPEN",
+        )
+        self.db.add(reject)
+        self.db.flush()
+        return reject
 
     def get_entity_group_members(
         self,

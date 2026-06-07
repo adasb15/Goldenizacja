@@ -11,6 +11,7 @@ from app.layers.integration_golden.api import router
 from app.layers.integration_golden.service import (
     GoldenDimensionLoadResult,
     GoldenLoadRunResult,
+    GoldenRecordRejectResult,
     golden_load_dimensions,
 )
 
@@ -41,6 +42,7 @@ class GoldenLoadRepo:
         self.person_address_links = {}
         self.party_address_links = {}
         self.party_identities = {}
+        self.golden_record_rejects = []
         self.groups = [SimpleNamespace(Entity_Group_ID=1, Entity_Type=entity_type)]
         self.scoped_raw_file_ids = []
         self.process_logs = []
@@ -164,6 +166,11 @@ class GoldenLoadRepo:
             self.party_identities[key] = SimpleNamespace(PartyIdentity_ID=len(self.party_identities) + 1)
         return self.party_identities[key]
 
+    def record_golden_record_reject(self, **kwargs):
+        reject = SimpleNamespace(Reject_ID=len(self.golden_record_rejects) + 1, **kwargs)
+        self.golden_record_rejects.append(reject)
+        return reject
+
     def commit(self):
         self.commits += 1
 
@@ -193,6 +200,7 @@ class GoldenLoadServiceTests(unittest.TestCase):
         self.assertEqual(result.entity_type, "PERSON")
         self.assertEqual(result.groups_in_scope, 1)
         self.assertEqual(result.groups_processed, 1)
+        self.assertEqual(result.groups_rejected, 0)
         self.assertEqual(result.results[0].dimension_action, "CREATED")
         self.assertEqual(result.results[0].address_link_action, "CREATED")
         self.assertEqual(len(repo.person_address_links), 1)
@@ -224,11 +232,42 @@ class GoldenLoadServiceTests(unittest.TestCase):
 
         self.assertEqual(result.entity_type, "PARTY")
         self.assertEqual(result.groups_processed, 1)
+        self.assertEqual(result.groups_rejected, 0)
         self.assertEqual(result.results[0].dimension_action, "CREATED")
         self.assertEqual(result.results[0].address_link_action, "CREATED")
         self.assertEqual(result.results[0].party_identities_saved, 4)
         self.assertEqual(len(repo.party_address_links), 1)
         self.assertEqual(len(repo.party_identities), 4)
+
+    def test_golden_load_dimensions_rejects_party_without_required_name(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_code="REGON",
+                trust_level=85,
+                REGON_Normalized="123456789",
+                NIP_Normalized="1234567890",
+            )
+        ]
+        repo = GoldenLoadRepo("PARTY", records)
+
+        result = golden_load_dimensions(
+            db=None,
+            entity_type="PARTY",
+            raw_file_id=55,
+            repo=repo,
+        )
+
+        self.assertEqual(result.groups_in_scope, 1)
+        self.assertEqual(result.groups_processed, 0)
+        self.assertEqual(result.groups_rejected, 1)
+        self.assertEqual(result.results, ())
+        self.assertEqual(result.rejects[0].missing_fields, ("Name",))
+        self.assertEqual(result.rejects[0].reason_code, "MISSING_REQUIRED_GOLDEN_FIELD")
+        self.assertIsNone(repo.created_party)
+        self.assertEqual(len(repo.golden_record_rejects), 1)
+        self.assertEqual(repo.golden_record_rejects[0].entity_group_id, 1)
 
     def test_golden_load_dimensions_logs_process_when_raw_file_id_is_passed(self) -> None:
         records = [
@@ -299,6 +338,7 @@ class GoldenLoadApiTests(unittest.TestCase):
             entity_group_id=1,
             groups_in_scope=1,
             groups_processed=1,
+            groups_rejected=0,
             results=(
                 GoldenDimensionLoadResult(
                     entity_type="PERSON",
@@ -311,6 +351,7 @@ class GoldenLoadApiTests(unittest.TestCase):
                     address_link_action="CREATED",
                 ),
             ),
+            rejects=(),
         )
         with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
             response = self.client.post(
@@ -330,6 +371,7 @@ class GoldenLoadApiTests(unittest.TestCase):
             entity_group_id=1,
             groups_in_scope=1,
             groups_processed=1,
+            groups_rejected=1,
             results=(
                 GoldenDimensionLoadResult(
                     entity_type="PARTY",
@@ -343,6 +385,17 @@ class GoldenLoadApiTests(unittest.TestCase):
                     party_identities_saved=3,
                 ),
             ),
+            rejects=(
+                GoldenRecordRejectResult(
+                    entity_type="PARTY",
+                    entity_group_id=2,
+                    raw_file_id=200,
+                    missing_fields=("Name",),
+                    reason_code="MISSING_REQUIRED_GOLDEN_FIELD",
+                    reason_message="Missing required fields for golden PARTY: Name",
+                    member_preprocessed_ids=(10,),
+                ),
+            ),
         )
         with patch("app.layers.integration_golden.api.golden_load_dimensions", return_value=mocked_result):
             response = self.client.post(
@@ -354,6 +407,8 @@ class GoldenLoadApiTests(unittest.TestCase):
         self.assertEqual(response.json()["entity_type"], "PARTY")
         self.assertEqual(response.json()["raw_file_id"], 200)
         self.assertEqual(response.json()["results"][0]["party_identities_saved"], 3)
+        self.assertEqual(response.json()["groups_rejected"], 1)
+        self.assertEqual(response.json()["rejects"][0]["missing_fields"], ["Name"])
 
 
 if __name__ == "__main__":

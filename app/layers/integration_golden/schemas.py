@@ -84,10 +84,22 @@ class GoldenDimensionLoadResponse(BaseModel):
     party_identities_saved: int
 
 
+class GoldenRecordRejectResponse(BaseModel):
+    entity_type: str
+    entity_group_id: int
+    raw_file_id: int | None
+    missing_fields: list[str]
+    reason_code: str
+    reason_message: str
+    member_preprocessed_ids: list[int]
+
+
 class GoldenLoadRunResponse(BaseModel):
     entity_type: str
     raw_file_id: int | None
     entity_group_id: int | None
     groups_in_scope: int
     groups_processed: int
+    groups_rejected: int
     results: list[GoldenDimensionLoadResponse]
+    rejects: list[GoldenRecordRejectResponse]

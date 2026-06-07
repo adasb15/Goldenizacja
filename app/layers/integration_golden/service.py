@@ -527,13 +527,26 @@ class GoldenDimensionLoadResult:
 
 
 @dataclass(frozen=True)
+class GoldenRecordRejectResult:
+    entity_type: str
+    entity_group_id: int
+    raw_file_id: int | None
+    missing_fields: tuple[str, ...]
+    reason_code: str
+    reason_message: str
+    member_preprocessed_ids: tuple[int, ...]
+
+
+@dataclass(frozen=True)
 class GoldenLoadRunResult:
     entity_type: str
     raw_file_id: int | None
     entity_group_id: int | None
     groups_in_scope: int
     groups_processed: int
+    groups_rejected: int
     results: tuple[GoldenDimensionLoadResult, ...]
+    rejects: tuple[GoldenRecordRejectResult, ...]
 
 
 PERSON_FIELD_RULES = (
@@ -969,6 +982,7 @@ def golden_load_dimensions(
             raise ValueError(f"No entity groups found for {scope}.")
 
         results: list[GoldenDimensionLoadResult] = []
+        rejects: list[GoldenRecordRejectResult] = []
         for group in groups:
             current_group_id = get_int_record_value(group, "Entity_Group_ID")
             if entity_type == "PERSON":
@@ -980,6 +994,14 @@ def golden_load_dimensions(
                     )
                 )
             else:
+                reject_result = reject_party_group_if_missing_required_fields(
+                    repo=repo,
+                    entity_group_id=current_group_id,
+                    raw_file_id=raw_file_id,
+                )
+                if reject_result is not None:
+                    rejects.append(reject_result)
+                    continue
                 results.append(
                     create_or_update_golden_party(
                         db=db,
@@ -1001,7 +1023,9 @@ def golden_load_dimensions(
             entity_group_id=entity_group_id,
             groups_in_scope=groups_in_scope,
             groups_processed=len(results),
+            groups_rejected=len(rejects),
             results=tuple(results),
+            rejects=tuple(rejects),
         )
     except Exception as exc:
         if process_log is not None:
@@ -1015,6 +1039,51 @@ def golden_load_dimensions(
                 error_message=str(exc),
             )
         raise
+
+
+def reject_party_group_if_missing_required_fields(
+    *,
+    repo: Any,
+    entity_group_id: int,
+    raw_file_id: int | None,
+) -> GoldenRecordRejectResult | None:
+    records, member_ids = get_group_preprocessed_records(repo, "PARTY", entity_group_id)
+    party_values = build_survivor_values(repo, "PARTY", records, PARTY_DIMENSION_FIELD_ALIASES)
+    missing_fields = tuple(
+        field_name
+        for field_name in ("Name",)
+        if is_blank(party_values.get(field_name))
+    )
+    if not missing_fields:
+        return None
+
+    reason_code = "MISSING_REQUIRED_GOLDEN_FIELD"
+    reason_message = (
+        "Missing required fields for golden PARTY: "
+        + ", ".join(missing_fields)
+    )
+    if hasattr(repo, "record_golden_record_reject"):
+        repo.record_golden_record_reject(
+            entity_type="PARTY",
+            entity_group_id=entity_group_id,
+            raw_file_id=raw_file_id,
+            reason_code=reason_code,
+            reason_message=reason_message,
+            missing_fields=list(missing_fields),
+            survivor_values=party_values,
+            member_preprocessed_ids=list(member_ids),
+        )
+        repo.commit()
+
+    return GoldenRecordRejectResult(
+        entity_type="PARTY",
+        entity_group_id=entity_group_id,
+        raw_file_id=raw_file_id,
+        missing_fields=missing_fields,
+        reason_code=reason_code,
+        reason_message=reason_message,
+        member_preprocessed_ids=member_ids,
+    )
 
 
 def create_or_update_golden_party(
