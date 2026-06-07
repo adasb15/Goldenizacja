@@ -15,9 +15,14 @@ from app.layers.integration_golden.models import (
     DimPerson,
     EntityGroupMemberRecord,
     EntityGroupRecord,
+    EntityChangeLog,
     FactlessPartyAddress,
     FactlessPartyIdentities,
     FactlessPersonAddress,
+    GoldenAddressLineage,
+    GoldenPartyIdentityLineage,
+    GoldenPartyLineage,
+    GoldenPersonLineage,
     GoldenRecordReject,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
@@ -180,9 +185,10 @@ class IntegrationGoldenRepository:
     def get_source_metadata_for_import_batch(
         self,
         import_batch_id: int,
-    ) -> tuple[str | None, int | float | None, Any]:
+    ) -> tuple[int | None, str | None, int | float | None, Any]:
         row = self.db.execute(
             select(
+                SourceSystem.SourceSystem_ID,
                 SourceSystem.SourceSystem_Code,
                 SourceSystem.Trust_Level,
                 ImportBatch.Import_Start_At,
@@ -191,8 +197,79 @@ class IntegrationGoldenRepository:
             .where(ImportBatch.ImportBatch_ID == import_batch_id)
         ).first()
         if row is None:
-            return None, None, None
-        return row[0], row[1], row[2]
+            return None, None, None, None
+        return row[0], row[1], row[2], row[3]
+
+    def upsert_dimension_lineage(
+        self,
+        *,
+        lineage_type: str,
+        dimension_id: int,
+        attribute_name: str,
+        source_system_id: int,
+        source_record_id: str | None,
+        import_batch_id: int,
+        selection_rule: str | None,
+        trust_score: float | None,
+        quality_score: float | None,
+        validation_status: str | None,
+    ) -> Any:
+        lineage_model, id_field = {
+            "PERSON": (GoldenPersonLineage, "DimPerson_ID"),
+            "PARTY": (GoldenPartyLineage, "DimParty_ID"),
+            "ADDRESS": (GoldenAddressLineage, "DimAddress_ID"),
+            "PARTY_IDENTITY": (GoldenPartyIdentityLineage, "PartyIdentity_ID"),
+        }[lineage_type]
+        self.db.execute(
+            delete(lineage_model)
+            .where(getattr(lineage_model, id_field) == dimension_id)
+            .where(lineage_model.Attribute_Name == attribute_name)
+        )
+        lineage = lineage_model(
+            **{
+                id_field: dimension_id,
+                "Attribute_Name": attribute_name,
+                "SourceSystem_ID": source_system_id,
+                "Source_Record_ID": source_record_id,
+                "ImportBatch_ID": import_batch_id,
+                "Selection_Rule": selection_rule,
+                "Trust_Score": trust_score,
+                "Quality_Score": quality_score,
+                "Validation_Status": validation_status,
+            }
+        )
+        self.db.add(lineage)
+        self.db.flush()
+        return lineage
+
+    def record_entity_change(
+        self,
+        *,
+        entity_type: str,
+        dimension_id: int,
+        attribute_name: str,
+        old_value: Any,
+        new_value: Any,
+        import_batch_id: int | None,
+    ) -> EntityChangeLog:
+        entity_type = entity_type.upper()
+        id_fields = {
+            "PERSON": "DimPerson_ID",
+            "PARTY": "DimParty_ID",
+            "ADDRESS": "DimAddress_ID",
+            "PARTY_IDENTITY": "PartyIdentity_ID",
+        }
+        change = EntityChangeLog(
+            Entity_Type=entity_type,
+            Attribute_Name=attribute_name,
+            Old_Value=None if old_value is None else str(old_value),
+            New_Value=None if new_value is None else str(new_value),
+            ImportBatch_ID=import_batch_id,
+            **{id_fields[entity_type]: dimension_id},
+        )
+        self.db.add(change)
+        self.db.flush()
+        return change
 
     def get_identity_type_by_name(self, identity_type_name: str) -> DimIdentityType | None:
         return self.db.scalar(

@@ -496,6 +496,9 @@ class EntityGroupingRunResult:
 class SurvivorValueCandidate:
     value: Any
     source_system_code: str | None = None
+    source_system_id: int | None = None
+    source_record_id: str | None = None
+    import_batch_id: int | None = None
     trust_level: int | float | None = None
     validation_status: str | bool | None = None
     import_started_at: datetime | None = None
@@ -511,6 +514,9 @@ class SurvivorValueSelection:
     validation_status: str | bool | None
     import_started_at: datetime | None
     teryt_confirmed: bool | None
+    source_system_id: int | None = None
+    source_record_id: str | None = None
+    import_batch_id: int | None = None
 
 
 @dataclass(frozen=True)
@@ -775,6 +781,9 @@ def select_survivor_value(
         return SurvivorValueSelection(
             value=None,
             source_system_code=None,
+            source_system_id=None,
+            source_record_id=None,
+            import_batch_id=None,
             selected_by_rule="NO_CANDIDATES",
             trust_level=None,
             validation_status=None,
@@ -787,6 +796,9 @@ def select_survivor_value(
         return SurvivorValueSelection(
             value=None,
             source_system_code=None,
+            source_system_id=None,
+            source_record_id=None,
+            import_batch_id=None,
             selected_by_rule="NO_NON_BLANK_VALUE",
             trust_level=None,
             validation_status=None,
@@ -903,7 +915,8 @@ def create_or_update_golden_person(
     if not records:
         raise ValueError(f"No PERSON preprocessed records for Entity_Group_ID={entity_group_id}.")
 
-    person_values = build_survivor_values(repo, "PERSON", records, PERSON_DIMENSION_FIELD_ALIASES)
+    person_selections = build_survivor_selections(repo, "PERSON", records, PERSON_DIMENSION_FIELD_ALIASES)
+    person_values = selections_to_values(person_selections)
     existing = repo.find_person_by_identity(
         pesel=person_values.get("PESEL"),
         serial_number_id_card=person_values.get("Serial_Number_ID_Card"),
@@ -913,8 +926,22 @@ def create_or_update_golden_person(
         person = repo.create_person(**person_values)
         dimension_action = "CREATED"
     else:
+        record_dimension_changes(
+            repo=repo,
+            entity_type="PERSON",
+            dimension=existing,
+            dimension_id=get_int_record_value(existing, "Person_ID"),
+            values=person_values,
+            selections=person_selections,
+        )
         person = repo.update_person(existing, **person_values)
         dimension_action = "UPDATED"
+    write_dimension_lineage(
+        repo=repo,
+        lineage_type="PERSON",
+        dimension_id=get_int_record_value(person, "Person_ID"),
+        selections=person_selections,
+    )
 
     address, address_action = create_golden_address_for_records(
         repo=repo,
@@ -1096,7 +1123,8 @@ def create_or_update_golden_party(
     if not records:
         raise ValueError(f"No PARTY preprocessed records for Entity_Group_ID={entity_group_id}.")
 
-    party_values = build_survivor_values(repo, "PARTY", records, PARTY_DIMENSION_FIELD_ALIASES)
+    party_selections = build_survivor_selections(repo, "PARTY", records, PARTY_DIMENSION_FIELD_ALIASES)
+    party_values = selections_to_values(party_selections)
     existing = repo.find_party_by_identity(
         NIP=select_survivor_scalar(repo, "PARTY", "NIP", records, ("NIP_Normalized", "NIP")),
         REGON=select_survivor_scalar(repo, "PARTY", "REGON", records, ("REGON_Normalized", "REGON")),
@@ -1107,8 +1135,22 @@ def create_or_update_golden_party(
         party = repo.create_party(**party_values)
         dimension_action = "CREATED"
     else:
+        record_dimension_changes(
+            repo=repo,
+            entity_type="PARTY",
+            dimension=existing,
+            dimension_id=get_int_record_value(existing, "Party_ID"),
+            values=party_values,
+            selections=party_selections,
+        )
         party = repo.update_party(existing, **party_values)
         dimension_action = "UPDATED"
+    write_dimension_lineage(
+        repo=repo,
+        lineage_type="PARTY",
+        dimension_id=get_int_record_value(party, "Party_ID"),
+        selections=party_selections,
+    )
 
     address, address_action = create_golden_address_for_records(
         repo=repo,
@@ -1144,7 +1186,8 @@ def create_golden_address_for_records(
     entity_type: str,
     records: list[Any],
 ) -> tuple[Any | None, str]:
-    address_values = build_survivor_values(repo, entity_type, records, ADDRESS_FIELD_ALIASES)
+    address_selections = build_survivor_selections(repo, entity_type, records, ADDRESS_FIELD_ALIASES)
+    address_values = selections_to_values(address_selections)
     if not any(not is_blank(value) for value in address_values.values()):
         return None, "SKIPPED"
 
@@ -1170,6 +1213,13 @@ def create_golden_address_for_records(
         province=address_values.get("Province"),
         country=address_values.get("Country"),
     )
+    if address is not None:
+        write_dimension_lineage(
+            repo=repo,
+            lineage_type="ADDRESS",
+            dimension_id=get_int_record_value(address, "Address_ID"),
+            selections=address_selections,
+        )
     return address, "CREATED" if existing is None and address is not None else "REUSED"
 
 
@@ -1221,7 +1271,8 @@ def persist_party_identities(repo: Any, party: Any, records: list[Any]) -> int:
     party_id = get_int_record_value(party, "Party_ID")
     saved = 0
     for identity_type_name, aliases in PARTY_IDENTITY_FIELD_MAP.items():
-        identity_value = select_survivor_scalar(repo, "PARTY", identity_type_name, records, aliases)
+        selection = select_survivor_selection(repo, "PARTY", identity_type_name, records, aliases)
+        identity_value = selection.value
         if is_blank(identity_value):
             continue
         identity_type = repo.get_identity_type_by_name(identity_type_name)
@@ -1229,12 +1280,18 @@ def persist_party_identities(repo: Any, party: Any, records: list[Any]) -> int:
             raise ValueError(
                 f"Identity type {identity_type_name} not found in gold.DimIdentityType."
             )
-        repo.ensure_party_identity(
+        identity = repo.ensure_party_identity(
             party_id=party_id,
             identity_type_id=get_int_record_value(identity_type, "IdentityType_ID"),
             identity_value=stringify_value(identity_value),
             is_valid=None,
             match_confidence=None,
+        )
+        write_dimension_lineage(
+            repo=repo,
+            lineage_type="PARTY_IDENTITY",
+            dimension_id=get_int_record_value(identity, "PartyIdentity_ID"),
+            selections={"Identity_Value": selection},
         )
         saved += 1
     return saved
@@ -1247,6 +1304,84 @@ def _count_repo_links(repo: Any, entity_type: str) -> int | None:
     if entity_type == "PARTY" and hasattr(repo, "party_address_links"):
         return len(repo.party_address_links)
     return None
+
+
+def selections_to_values(selections: dict[str, SurvivorValueSelection]) -> dict[str, Any]:
+    return {field_name: selection.value for field_name, selection in selections.items()}
+
+
+def write_dimension_lineage(
+    *,
+    repo: Any,
+    lineage_type: str,
+    dimension_id: int,
+    selections: dict[str, SurvivorValueSelection],
+) -> None:
+    if not hasattr(repo, "upsert_dimension_lineage"):
+        return
+    for attribute_name, selection in selections.items():
+        if is_blank(selection.value):
+            continue
+        if selection.source_system_id is None or selection.import_batch_id is None:
+            continue
+        repo.upsert_dimension_lineage(
+            lineage_type=lineage_type,
+            dimension_id=dimension_id,
+            attribute_name=attribute_name,
+            source_system_id=int(selection.source_system_id),
+            source_record_id=selection.source_record_id,
+            import_batch_id=int(selection.import_batch_id),
+            selection_rule=selection.selected_by_rule,
+            trust_score=normalize_trust_level(selection.trust_level),
+            quality_score=quality_score_from_validation(selection.validation_status),
+            validation_status=stringify_validation_status(selection.validation_status),
+        )
+
+
+def record_dimension_changes(
+    *,
+    repo: Any,
+    entity_type: str,
+    dimension: Any,
+    dimension_id: int,
+    values: dict[str, Any],
+    selections: dict[str, SurvivorValueSelection],
+) -> None:
+    if not hasattr(repo, "record_entity_change"):
+        return
+    for attribute_name, new_value in values.items():
+        old_value = get_record_value(dimension, attribute_name)
+        if values_equal_for_history(old_value, new_value):
+            continue
+        selection = selections.get(attribute_name)
+        repo.record_entity_change(
+            entity_type=entity_type,
+            dimension_id=dimension_id,
+            attribute_name=attribute_name,
+            old_value=old_value,
+            new_value=new_value,
+            import_batch_id=selection.import_batch_id if selection is not None else None,
+        )
+
+
+def values_equal_for_history(left: Any, right: Any) -> bool:
+    if is_blank(left) and is_blank(right):
+        return True
+    return stringify_value(left) == stringify_value(right)
+
+
+def stringify_validation_status(validation_status: str | bool | None) -> str | None:
+    if isinstance(validation_status, bool):
+        return "PASS" if validation_status else "ERROR"
+    if validation_status is None:
+        return None
+    return stringify_value(validation_status).upper()
+
+
+def quality_score_from_validation(validation_status: str | bool | None) -> float | None:
+    if validation_status is None:
+        return None
+    return 1.0 if is_successful_validation(validation_status) else 0.0
 
 
 def get_group_preprocessed_records(
@@ -1274,6 +1409,18 @@ def build_survivor_values(
     }
 
 
+def build_survivor_selections(
+    repo: Any,
+    entity_type: str,
+    records: list[Any],
+    field_aliases: dict[str, tuple[str, ...]],
+) -> dict[str, SurvivorValueSelection]:
+    return {
+        target_field: select_survivor_selection(repo, entity_type, target_field, records, aliases)
+        for target_field, aliases in field_aliases.items()
+    }
+
+
 def select_survivor_scalar(
     repo: Any,
     entity_type: str,
@@ -1281,8 +1428,18 @@ def select_survivor_scalar(
     records: list[Any],
     aliases: tuple[str, ...],
 ) -> Any:
+    return select_survivor_selection(repo, entity_type, field_name, records, aliases).value
+
+
+def select_survivor_selection(
+    repo: Any,
+    entity_type: str,
+    field_name: str,
+    records: list[Any],
+    aliases: tuple[str, ...],
+) -> SurvivorValueSelection:
     candidates = build_survivor_candidates(repo, records, aliases)
-    return select_survivor_value(entity_type, field_name, candidates).value
+    return select_survivor_value(entity_type, field_name, candidates)
 
 
 def build_survivor_candidates(
@@ -1294,18 +1451,22 @@ def build_survivor_candidates(
     for record in records:
         value = get_first_present_alias_value(record, aliases)
         source_system_code = None
+        source_system_id = None
         trust_level = None
         import_started_at = None
         if hasattr(repo, "get_source_metadata_for_import_batch"):
-            (
-                source_system_code,
-                trust_level,
-                import_started_at,
-            ) = repo.get_source_metadata_for_import_batch(get_int_record_value(record, "ImportBatch_ID"))
+            metadata = repo.get_source_metadata_for_import_batch(get_int_record_value(record, "ImportBatch_ID"))
+            if len(metadata) >= 4:
+                source_system_id, source_system_code, trust_level, import_started_at = metadata[:4]
+            else:
+                source_system_code, trust_level, import_started_at = metadata
         candidates.append(
             SurvivorValueCandidate(
                 value=value,
                 source_system_code=source_system_code,
+                source_system_id=source_system_id,
+                source_record_id=get_optional_string_value(record, "Source_Record_ID"),
+                import_batch_id=get_int_record_value(record, "ImportBatch_ID"),
                 trust_level=trust_level,
                 import_started_at=import_started_at,
             )
@@ -1866,6 +2027,9 @@ def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, A
         return SurvivorValueCandidate(
             value=candidate.get("value"),
             source_system_code=candidate.get("source_system_code"),
+            source_system_id=candidate.get("source_system_id"),
+            source_record_id=candidate.get("source_record_id"),
+            import_batch_id=candidate.get("import_batch_id"),
             trust_level=candidate.get("trust_level"),
             validation_status=candidate.get("validation_status"),
             import_started_at=candidate.get("import_started_at"),
@@ -1874,6 +2038,9 @@ def normalize_survivor_candidate(candidate: SurvivorValueCandidate | dict[str, A
     return SurvivorValueCandidate(
         value=getattr(candidate, "value", None),
         source_system_code=getattr(candidate, "source_system_code", None),
+        source_system_id=getattr(candidate, "source_system_id", None),
+        source_record_id=getattr(candidate, "source_record_id", None),
+        import_batch_id=getattr(candidate, "import_batch_id", None),
         trust_level=getattr(candidate, "trust_level", None),
         validation_status=getattr(candidate, "validation_status", None),
         import_started_at=getattr(candidate, "import_started_at", None),
@@ -1888,6 +2055,9 @@ def build_survivor_selection(
     return SurvivorValueSelection(
         value=candidate.value,
         source_system_code=candidate.source_system_code,
+        source_system_id=candidate.source_system_id,
+        source_record_id=candidate.source_record_id,
+        import_batch_id=candidate.import_batch_id,
         selected_by_rule=selected_by_rule,
         trust_level=candidate.trust_level,
         validation_status=candidate.validation_status,
