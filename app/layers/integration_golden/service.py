@@ -1438,12 +1438,13 @@ def select_survivor_selection(
     records: list[Any],
     aliases: tuple[str, ...],
 ) -> SurvivorValueSelection:
-    candidates = build_survivor_candidates(repo, records, aliases)
+    candidates = build_survivor_candidates(repo, entity_type, records, aliases)
     return select_survivor_value(entity_type, field_name, candidates)
 
 
 def build_survivor_candidates(
     repo: Any,
+    entity_type: str,
     records: list[Any],
     aliases: tuple[str, ...],
 ) -> list[SurvivorValueCandidate]:
@@ -1460,6 +1461,12 @@ def build_survivor_candidates(
                 source_system_id, source_system_code, trust_level, import_started_at = metadata[:4]
             else:
                 source_system_code, trust_level, import_started_at = metadata
+        validation_status = get_record_validation_status(
+            repo=repo,
+            entity_type=entity_type,
+            record=record,
+            aliases=aliases,
+        )
         candidates.append(
             SurvivorValueCandidate(
                 value=value,
@@ -1468,10 +1475,34 @@ def build_survivor_candidates(
                 source_record_id=get_optional_string_value(record, "Source_Record_ID"),
                 import_batch_id=get_int_record_value(record, "ImportBatch_ID"),
                 trust_level=trust_level,
+                validation_status=validation_status,
                 import_started_at=import_started_at,
             )
         )
     return candidates
+
+
+def get_record_validation_status(
+    *,
+    repo: Any,
+    entity_type: str,
+    record: Any,
+    aliases: tuple[str, ...],
+) -> str | bool | None:
+    explicit_status = getattr(record, "validation_status", None)
+    if explicit_status is not None:
+        return explicit_status
+    if not hasattr(repo, "get_validation_status_for_preprocessed_field"):
+        return None
+    raw_preprocessed_id = get_record_value(record, "Preprocessed_ID")
+    if raw_preprocessed_id is None:
+        return None
+    preprocessed_id = int(raw_preprocessed_id)
+    return repo.get_validation_status_for_preprocessed_field(
+        entity_type,
+        preprocessed_id,
+        aliases,
+    )
 
 
 def get_first_present_alias_value(record: Any, aliases: tuple[str, ...]) -> Any:

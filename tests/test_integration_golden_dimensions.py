@@ -43,6 +43,7 @@ class GoldenRepo:
         self.party_identities = {}
         self.dimension_lineage = {}
         self.entity_changes = []
+        self.validation_statuses = {}
 
     def get_entity_group_members(self, entity_type: str, entity_group_id: int):
         assert entity_type == self.entity_type
@@ -69,6 +70,18 @@ class GoldenRepo:
             for record in self.records
         }
         return lookup.get(import_batch_id, (None, None, None, None))
+
+    def get_validation_status_for_preprocessed_field(
+        self,
+        entity_type: str,
+        preprocessed_id: int,
+        field_names: tuple[str, ...],
+    ):
+        for field_name in field_names:
+            key = (entity_type, preprocessed_id, field_name)
+            if key in self.validation_statuses:
+                return self.validation_statuses[key]
+        return None
 
     def find_person_by_identity(self, **_kwargs):
         return self.existing_person
@@ -325,6 +338,50 @@ class GoldenDimensionServiceTests(unittest.TestCase):
         self.assertIn("Name", changed_fields)
         self.assertNotIn("Registration_Country", changed_fields)
         self.assertTrue(repo.committed)
+
+    def test_lineage_uses_field_validation_status_and_quality_score(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_id=1,
+                source_system_code="PESEL",
+                trust_level=90,
+                Source_Record_ID="SRC-1",
+                PESEL_Normalized="90010112345",
+                First_Name_Normalized="JAN",
+            )
+        ]
+        repo = GoldenRepo("PERSON", records)
+        repo.validation_statuses[("PERSON", 1, "First_Name_Normalized")] = "PASS"
+
+        create_or_update_golden_person(db=None, entity_group_id=1, repo=repo)
+
+        lineage = repo.dimension_lineage[("PERSON", 101, "First_Name")]
+        self.assertEqual(lineage.validation_status, "PASS")
+        self.assertEqual(lineage.quality_score, 1.0)
+
+    def test_lineage_does_not_inherit_unrelated_record_validation_error(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_id=3,
+                source_system_code="REGON",
+                trust_level=85,
+                Source_Record_ID="REGON-1",
+                REGON_Normalized="123456789",
+                Name_Normalized="ALFA SA",
+            )
+        ]
+        repo = GoldenRepo("PARTY", records)
+        repo.validation_statuses[("PARTY", 1, "*")] = "ERROR"
+
+        create_or_update_golden_party(db=None, entity_group_id=1, repo=repo)
+
+        lineage = repo.dimension_lineage[("PARTY", 201, "Name")]
+        self.assertIsNone(lineage.validation_status)
+        self.assertIsNone(lineage.quality_score)
 
     def test_does_not_log_change_when_existing_value_is_unchanged(self) -> None:
         records = [

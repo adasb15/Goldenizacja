@@ -30,6 +30,7 @@ from app.layers.integration_golden.models import (
 from app.layers.ingestion.models import ImportBatch, ProcessLog, RawFile, SourceSystem
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
+from app.layers.validation.models import ValidationResult
 
 
 class IntegrationGoldenRepository:
@@ -199,6 +200,37 @@ class IntegrationGoldenRepository:
         if row is None:
             return None, None, None, None
         return row[0], row[1], row[2], row[3]
+
+    def get_validation_status_for_preprocessed_field(
+        self,
+        entity_type: str,
+        preprocessed_id: int,
+        field_names: tuple[str, ...],
+    ) -> str | None:
+        entity_type = normalize_entity_type(entity_type)
+        normalized_field_names = tuple(field_name for field_name in field_names if field_name)
+        field_statuses: list[str] = []
+        if normalized_field_names:
+            field_statuses = list(
+                self.db.scalars(
+                    select(ValidationResult.Status)
+                    .where(ValidationResult.Entity_Type == entity_type)
+                    .where(ValidationResult.Preprocessed_ID == preprocessed_id)
+                    .where(ValidationResult.Field_Name.in_(normalized_field_names))
+                )
+            )
+        if field_statuses:
+            return self._aggregate_validation_status(field_statuses)
+        return None
+
+    @staticmethod
+    def _aggregate_validation_status(statuses: list[str]) -> str:
+        normalized = {str(status).strip().upper() for status in statuses if status}
+        if "ERROR" in normalized:
+            return "ERROR"
+        if "WARNING" in normalized:
+            return "WARNING"
+        return "PASS"
 
     def upsert_dimension_lineage(
         self,
