@@ -211,6 +211,29 @@ class SyntheticDataQualityTests(unittest.TestCase):
                 f"Too many hard company conflicts for the same {identifier}: {hard_conflicts}",
             )
 
+    def test_gleif_lei_does_not_point_to_different_companies(self) -> None:
+        with (DATA_DIR / "gleif.csv").open(encoding="utf-8-sig", newline="") as handle:
+            rows = list(csv.DictReader(handle))
+
+        names_by_lei: dict[str, set[str]] = defaultdict(set)
+        for row in rows:
+            lei = (row.get("LEI") or "").strip()
+            name = (row.get("LegalName") or "").strip().casefold()
+            if lei and name:
+                names_by_lei[lei].add(name)
+
+        hard_conflicts = {}
+        for lei, names_set in names_by_lei.items():
+            names = sorted(names_set)
+            if len(names) < 2:
+                continue
+
+            baseline = names[0]
+            if any(self._name_similarity(baseline, name) < 0.7 for name in names[1:]):
+                hard_conflicts[lei] = names
+
+        self.assertEqual(hard_conflicts, {}, f"LEI reused by different GLEIF companies: {hard_conflicts}")
+
     def test_generated_business_dates_are_chronological(self) -> None:
         failures = []
         for file_path in sorted(DATA_DIR.glob("*.csv")):

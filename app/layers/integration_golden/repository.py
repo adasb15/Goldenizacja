@@ -1,6 +1,7 @@
 """Dostep do danych dla warstwy integration_golden."""
 
 import json
+from datetime import datetime
 from typing import Any
 
 from sqlalchemy import and_, delete, func, or_, select
@@ -14,15 +15,24 @@ from app.layers.integration_golden.models import (
     DimPerson,
     EntityGroupMemberRecord,
     EntityGroupRecord,
+    EntityChangeLog,
     FactlessPartyAddress,
     FactlessPartyIdentities,
     FactlessPersonAddress,
+    GoldenAddressLineage,
+    PartyAddressLineage,
+    GoldenPartyIdentityLineage,
+    GoldenPartyLineage,
+    GoldenPersonLineage,
+    GoldenRecordReject,
+    PersonAddressLineage,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
 )
-from app.layers.ingestion.models import ImportBatch, SourceSystem
+from app.layers.ingestion.models import ImportBatch, ProcessLog, RawFile, SourceSystem
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
+from app.layers.validation.models import ValidationResult
 
 
 class IntegrationGoldenRepository:
@@ -37,6 +47,113 @@ class IntegrationGoldenRepository:
             .order_by(EntityGroupRecord.Entity_Group_ID)
         )
         return list(self.db.scalars(query))
+
+    def get_entity_groups_for_raw_file(
+        self,
+        entity_type: str,
+        raw_file_id: int,
+    ) -> list[EntityGroupRecord]:
+        entity_type = normalize_entity_type(entity_type)
+        model = PersonPreprocessed if entity_type == "PERSON" else PartyPreprocessed
+        member_preprocessed_id = (
+            EntityGroupMemberRecord.Person_Preprocessed_ID
+            if entity_type == "PERSON"
+            else EntityGroupMemberRecord.Party_Preprocessed_ID
+        )
+        query = (
+            select(EntityGroupRecord)
+            .join(
+                EntityGroupMemberRecord,
+                and_(
+                    EntityGroupMemberRecord.Entity_Group_ID == EntityGroupRecord.Entity_Group_ID,
+                    EntityGroupMemberRecord.Entity_Type == EntityGroupRecord.Entity_Type,
+                ),
+            )
+            .join(model, model.Preprocessed_ID == member_preprocessed_id)
+            .where(EntityGroupRecord.Entity_Type == entity_type)
+            .where(EntityGroupMemberRecord.Entity_Type == entity_type)
+            .where(model.RawFile_ID == raw_file_id)
+            .distinct()
+            .order_by(EntityGroupRecord.Entity_Group_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def get_import_batch_id_for_raw_file(self, raw_file_id: int) -> int:
+        import_batch_id = self.db.scalar(
+            select(RawFile.ImportBatch_ID).where(RawFile.RawFile_ID == raw_file_id)
+        )
+        if import_batch_id is None:
+            raise ValueError(f"RawFile_ID={raw_file_id} not found.")
+        return int(import_batch_id)
+
+    def create_golden_load_process_log(
+        self,
+        import_batch_id: int,
+        raw_file_id: int | None,
+    ) -> ProcessLog:
+        log = ProcessLog(
+            ImportBatch_ID=import_batch_id,
+            RawFile_ID=raw_file_id,
+            Step_Name="GOLDEN_LOAD",
+            Step_Status="STARTED",
+        )
+        self.db.add(log)
+        self.db.commit()
+        self.db.refresh(log)
+        return log
+
+    def finish_process_log(
+        self,
+        log: ProcessLog,
+        status: str,
+        records_in: int | None = None,
+        records_out: int | None = None,
+        error_message: str | None = None,
+    ) -> ProcessLog:
+        log.Step_Status = status
+        log.Records_In = records_in
+        log.Records_Out = records_out
+        log.Error_Message = error_message
+        log.Ended_At = datetime.utcnow()
+        self.db.add(log)
+        self.db.commit()
+        self.db.refresh(log)
+        return log
+
+    def record_golden_record_reject(
+        self,
+        *,
+        entity_type: str,
+        entity_group_id: int | None,
+        raw_file_id: int | None,
+        reason_code: str,
+        reason_message: str,
+        missing_fields: list[str],
+        survivor_values: dict[str, Any],
+        member_preprocessed_ids: list[int],
+    ) -> GoldenRecordReject:
+        entity_type = normalize_entity_type(entity_type)
+        self.db.execute(
+            delete(GoldenRecordReject)
+            .where(GoldenRecordReject.Entity_Type == entity_type)
+            .where(GoldenRecordReject.Entity_Group_ID == entity_group_id)
+            .where(GoldenRecordReject.Reason_Code == reason_code)
+            .where(GoldenRecordReject.Status == "OPEN")
+        )
+        reject = GoldenRecordReject(
+            Entity_Type=entity_type,
+            Entity_Group_ID=entity_group_id,
+            RawFile_ID=raw_file_id,
+            Reason_Code=reason_code,
+            Reason_Message=reason_message,
+            Missing_Fields_JSON=json.dumps(missing_fields, ensure_ascii=False),
+            Survivor_Values_JSON=json.dumps(survivor_values, ensure_ascii=False, default=str),
+            Member_Preprocessed_IDs_JSON=json.dumps(member_preprocessed_ids, ensure_ascii=False),
+            Status="OPEN",
+        )
+        self.db.add(reject)
+        self.db.flush()
+        return reject
 
     def get_entity_group_members(
         self,
@@ -71,9 +188,10 @@ class IntegrationGoldenRepository:
     def get_source_metadata_for_import_batch(
         self,
         import_batch_id: int,
-    ) -> tuple[str | None, int | float | None, Any]:
+    ) -> tuple[int | None, str | None, int | float | None, Any]:
         row = self.db.execute(
             select(
+                SourceSystem.SourceSystem_ID,
                 SourceSystem.SourceSystem_Code,
                 SourceSystem.Trust_Level,
                 ImportBatch.Import_Start_At,
@@ -82,8 +200,151 @@ class IntegrationGoldenRepository:
             .where(ImportBatch.ImportBatch_ID == import_batch_id)
         ).first()
         if row is None:
-            return None, None, None
-        return row[0], row[1], row[2]
+            return None, None, None, None
+        return row[0], row[1], row[2], row[3]
+
+    def get_validation_status_for_preprocessed_field(
+        self,
+        entity_type: str,
+        preprocessed_id: int,
+        field_names: tuple[str, ...],
+    ) -> str | None:
+        entity_type = normalize_entity_type(entity_type)
+        normalized_field_names = tuple(field_name for field_name in field_names if field_name)
+        field_statuses: list[str] = []
+        if normalized_field_names:
+            field_statuses = list(
+                self.db.scalars(
+                    select(ValidationResult.Status)
+                    .where(ValidationResult.Entity_Type == entity_type)
+                    .where(ValidationResult.Preprocessed_ID == preprocessed_id)
+                    .where(ValidationResult.Field_Name.in_(normalized_field_names))
+                )
+            )
+        if field_statuses:
+            return self._aggregate_validation_status(field_statuses)
+        return None
+
+    @staticmethod
+    def _aggregate_validation_status(statuses: list[str]) -> str:
+        normalized = {str(status).strip().upper() for status in statuses if status}
+        if "ERROR" in normalized:
+            return "ERROR"
+        if "WARNING" in normalized:
+            return "WARNING"
+        return "PASS"
+
+    def upsert_dimension_lineage(
+        self,
+        *,
+        lineage_type: str,
+        dimension_id: int,
+        attribute_name: str,
+        source_system_id: int,
+        source_record_id: str | None,
+        import_batch_id: int,
+        selection_rule: str | None,
+        trust_score: float | None,
+        quality_score: float | None,
+        validation_status: str | None,
+    ) -> Any:
+        lineage_model, id_field = {
+            "PERSON": (GoldenPersonLineage, "DimPerson_ID"),
+            "PARTY": (GoldenPartyLineage, "DimParty_ID"),
+            "ADDRESS": (GoldenAddressLineage, "DimAddress_ID"),
+            "PARTY_IDENTITY": (GoldenPartyIdentityLineage, "PartyIdentity_ID"),
+        }[lineage_type]
+        self.db.execute(
+            delete(lineage_model)
+            .where(getattr(lineage_model, id_field) == dimension_id)
+            .where(lineage_model.Attribute_Name == attribute_name)
+        )
+        lineage = lineage_model(
+            **{
+                id_field: dimension_id,
+                "Attribute_Name": attribute_name,
+                "SourceSystem_ID": source_system_id,
+                "Source_Record_ID": source_record_id,
+                "ImportBatch_ID": import_batch_id,
+                "Selection_Rule": selection_rule,
+                "Trust_Score": trust_score,
+                "Quality_Score": quality_score,
+                "Validation_Status": validation_status,
+            }
+        )
+        self.db.add(lineage)
+        self.db.flush()
+        return lineage
+
+    def upsert_address_link_lineage(
+        self,
+        *,
+        entity_type: str,
+        address_link_id: int,
+        source_system_id: int,
+        source_record_id: str | None,
+        import_batch_id: int,
+        selection_rule: str | None,
+        trust_score: float | None,
+        quality_score: float | None,
+        validation_status: str | None,
+    ) -> Any:
+        entity_type = normalize_entity_type(entity_type)
+        if entity_type == "PERSON":
+            lineage_model = PersonAddressLineage
+            id_field = "PersonAddress_ID"
+        else:
+            lineage_model = PartyAddressLineage
+            id_field = "PartyAddress_ID"
+
+        self.db.execute(
+            delete(lineage_model)
+            .where(getattr(lineage_model, id_field) == address_link_id)
+        )
+        lineage = lineage_model(
+            **{
+                id_field: address_link_id,
+                "SourceSystem_ID": source_system_id,
+                "Source_Record_ID": source_record_id,
+                "ImportBatch_ID": import_batch_id,
+                "Selection_Rule": selection_rule,
+                "Trust_Score": trust_score,
+                "Quality_Score": quality_score,
+                "Validation_Status": validation_status,
+            }
+        )
+        self.db.add(lineage)
+        self.db.flush()
+        return lineage
+
+    def record_entity_change(
+        self,
+        *,
+        entity_type: str,
+        dimension_id: int,
+        attribute_name: str,
+        old_value: Any,
+        new_value: Any,
+        import_batch_id: int | None,
+    ) -> EntityChangeLog:
+        entity_type = entity_type.upper()
+        id_fields = {
+            "PERSON": "DimPerson_ID",
+            "PARTY": "DimParty_ID",
+            "ADDRESS": "DimAddress_ID",
+            "PARTY_IDENTITY": "PartyIdentity_ID",
+        }
+        change = EntityChangeLog(
+            Entity_Type=entity_type,
+            Attribute_Name=attribute_name,
+            Old_Value=None if old_value is None else str(old_value),
+            New_Value=None if new_value is None else str(new_value),
+            ImportBatch_ID=import_batch_id,
+            **{id_fields[entity_type]: dimension_id},
+        )
+        self.db.add(change)
+        self.db.flush()
+        return change
 
     def get_identity_type_by_name(self, identity_type_name: str) -> DimIdentityType | None:
         return self.db.scalar(
@@ -337,6 +598,9 @@ class IntegrationGoldenRepository:
 
     def commit(self) -> None:
         self.db.commit()
+
+    def rollback(self) -> None:
+        self.db.rollback()
 
     def get_preprocessed_records(
         self,

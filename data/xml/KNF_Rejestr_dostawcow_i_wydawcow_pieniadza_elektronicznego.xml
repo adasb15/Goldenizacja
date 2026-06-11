@@ -4,279 +4,279 @@
     <field name="ID">ID-00401</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2072/2021</field>
-    <field name="Nazwa">Facebook - Meta</field>
+    <field name="Nazwa">mBank</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/07/2025</field>
     <field name="Data wykreślenia">2026/20/07</field>
     <field name="Data decyzji">14-05-2023</field>
-    <field name="KRS">0000000008</field>
-    <field name="NIP">1234805466</field>
-    <field name="Adres siedziby">os. Marszałkowska 1/1, 00-590 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000038808</field>
+    <field name="NIP">1266481469</field>
+    <field name="Adres siedziby">ul. Piłsudskiego 141/71, 35-074 Rzeszów</field>
+    <field name="Siedziba">Rzeszów</field>
   </record>
   <record>
     <field name="ID">ID-00402</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7567/2024</field>
-    <field name="Nazwa">Polskie Przetwory sp z oo</field>
+    <field name="Nazwa">Kamiński i Wspólnicy spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/03/10</field>
     <field name="Data wykreślenia">02-10-2024</field>
-    <field name="Data decyzji">2023-03-09</field>
-    <field name="KRS">0000000105</field>
-    <field name="NIP">1234884655</field>
-    <field name="Adres siedziby">ul Krakowskie Przedmieście 18, 00-071 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="Data decyzji">2023-09-03</field>
+    <field name="KRS">0000038905</field>
+    <field name="NIP">1266560654</field>
+    <field name="Adres siedziby">ul Sienkiewicza 158, 25-007 Kielce</field>
+    <field name="Siedziba">Kielce</field>
   </record>
   <record>
     <field name="ID">ID-00403</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6766/2018</field>
-    <field name="Nazwa">Hurtownia Nabiału Mleczko sp. z o. o.</field>
+    <field name="Nazwa">Kamiński Spółka Rodzinna Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28-01-2025</field>
     <field name="Data wykreślenia">2026-28-01</field>
     <field name="Data decyzji">20210221</field>
-    <field name="KRS">0000000202</field>
-    <field name="NIP">1234963840</field>
-    <field name="Adres siedziby">ulica Floriańska 35, 31-019 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000039002</field>
+    <field name="NIP">1266639841</field>
+    <field name="Adres siedziby">ulica Warszawska 175, 25-512 Kielce</field>
+    <field name="Siedziba">Kielce</field>
   </record>
   <record>
     <field name="ID">ID-00404</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4881/2021</field>
-    <field name="Nazwa">Agencja Reklamowa Kreatywni Sp. z o.o.</field>
+    <field name="Nazwa">Kamiński Bracia S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-25-03</field>
     <field name="Data wykreślenia">20250822</field>
     <field name="Data decyzji">23/02/2017</field>
-    <field name="KRS">0000000299</field>
-    <field name="NIP">1235043030</field>
-    <field name="Adres siedziby">Długa 52, 31-147 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000039099</field>
+    <field name="NIP">1266719037</field>
+    <field name="Adres siedziby">Kościuszki 12, 10-504 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
   </record>
   <record>
     <field name="ID">ID-00405</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1129/2021</field>
-    <field name="Nazwa">Kancelaria Prawna Sankcja SP Z O O</field>
+    <field name="Nazwa">Zieliński i Synowie SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20210425</field>
     <field name="Data wykreślenia">17/01/2023</field>
     <field name="Data decyzji">2021/26/03</field>
-    <field name="KRS">0000000396</field>
-    <field name="NIP">1235122226</field>
-    <field name="Adres siedziby">ul. Piotrkowska 69/53, 90-102 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000039196</field>
+    <field name="NIP">1266798226</field>
+    <field name="Adres siedziby">ul. Dąbrowszczaków 29/33, 10-540 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
   </record>
   <record>
     <field name="ID">ID-00406</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5900/2025</field>
-    <field name="Nazwa">Śląskie Zakłady Mechaniczne spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zieliński i Wspólnicy S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13/02/2024</field>
     <field name="Data wykreślenia">2025/12/02</field>
     <field name="Data decyzji">10-04-2017</field>
-    <field name="KRS">0000000493</field>
-    <field name="NIP">1235201411</field>
-    <field name="Adres siedziby">ul Zachodnia 86, 90-402 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000039293</field>
+    <field name="NIP">1266877411</field>
+    <field name="Adres siedziby">ul Krakowska 46, 45-018 Opole</field>
+    <field name="Siedziba">Opole</field>
   </record>
   <record>
     <field name="ID">ID-00407</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9166/2018</field>
-    <field name="Nazwa">Fabryka Okien i Drzwi Profil Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zieliński Spółka Rodzinna Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024/25/05</field>
     <field name="Data wykreślenia">05-06-2025</field>
     <field name="Data decyzji">2024-25-04</field>
-    <field name="KRS">0000000590</field>
-    <field name="NIP">1235280600</field>
-    <field name="Adres siedziby">ulica Świdnicka 103, 50-066 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="KRS">0000039390</field>
+    <field name="NIP">1266956607</field>
+    <field name="Adres siedziby">os. Ozimska 63, 45-057 Opole</field>
+    <field name="Siedziba">Opole</field>
   </record>
   <record>
     <field name="ID">ID-00408</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elketronicznego</field>
     <field name="Numer UKNF">UK-EPI-2622/2018</field>
-    <field name="Nazwa">Przesdiębiorstwo Robót Drogowych S.A.</field>
+    <field name="Nazwa">Zeiliński Bracia sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">18-06-2020</field>
-    <field name="Data wykreślenia">2026-04-10</field>
+    <field name="Data wykreślenia">2026-10-04</field>
     <field name="Data decyzji">20200511</field>
-    <field name="KRS">0000000687</field>
-    <field name="NIP">1235359796</field>
-    <field name="Adres siedziby">Legnicka 120, 54-203 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="KRS">0000039487</field>
+    <field name="NIP">1267035795</field>
+    <field name="Adres siedziby">Bohaterów Westerplatte 80, 65-034 Zielona Góra</field>
+    <field name="Siedziba">Zielona Góra</field>
   </record>
   <record>
     <field name="ID">ID-00409</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2917/2026</field>
-    <field name="Nazwa">Krakowskie Biuro Nieruchomości SA</field>
+    <field name="Nazwa">Szymański i Synowie sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-23-04</field>
     <field name="Data wykreślenia">20250423</field>
     <field name="Data decyzji">29/08/2022</field>
-    <field name="KRS">0000000784</field>
-    <field name="NIP">1235438981</field>
-    <field name="Adres siedziby">ul. Święty Marcin 137/15, 61-806 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000039584</field>
+    <field name="NIP">1267114980</field>
+    <field name="Adres siedziby">ul. Kupiecka 97/85, 65-058 Zielona Góra</field>
+    <field name="Siedziba">Zielona Góra</field>
   </record>
   <record>
     <field name="ID">ID-00410</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1760/2020</field>
-    <field name="Nazwa">Salon Samochodowy Auto-Hit S. A.</field>
+    <field name="Nazwa">Szymański i Wspólnicy sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20230702</field>
     <field name="Data wykreślenia">08/02/2025</field>
     <field name="Data decyzji">2021/15/06</field>
-    <field name="KRS">0000000881</field>
-    <field name="NIP">1235518177</field>
-    <field name="Adres siedziby">ul Głogowska 154, 60-734 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000039681</field>
+    <field name="NIP">1277194207</field>
+    <field name="Adres siedziby">ul Świętojańska 114, 81-372 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
   </record>
   <record>
     <field name="ID">ID-00411</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5899/2022</field>
-    <field name="Nazwa">Klinika Stomatologiczna Dent-Med Spółka Akcyjna</field>
+    <field name="Nazwa">Szymański Spółka Rodzinna Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">08/02/2025</field>
     <field name="Data wykreślenia">2026/08/02</field>
     <field name="Data decyzji">13-05-2018</field>
-    <field name="KRS">0000000978</field>
-    <field name="NIP">1235597366</field>
-    <field name="Adres siedziby">ulica Długa 171, 80-831 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="KRS">0000039778</field>
+    <field name="NIP">1267273365</field>
+    <field name="Adres siedziby">ulica 10 Lutego 131, 81-364 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
   </record>
   <record>
     <field name="ID">ID-00412</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2701/2019</field>
-    <field name="Nazwa">Polski Tytoń sp. z o.o.</field>
+    <field name="Nazwa">Szymański Bracia SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/06/04</field>
     <field name="Data wykreślenia">17-07-2023</field>
     <field name="Data decyzji">2019-07-03</field>
-    <field name="KRS">0000001075</field>
-    <field name="NIP">1235676551</field>
-    <field name="Adres siedziby">Grunwaldzka 8, 80-236 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="KRS">0000039875</field>
+    <field name="NIP">1267352550</field>
+    <field name="Adres siedziby">Bolesława Prusa 148, 05-800 Pruszków</field>
+    <field name="Siedziba">Pruszków</field>
   </record>
   <record>
     <field name="ID">ID-00413</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1669/2022</field>
-    <field name="Nazwa">Gdańska Stocznia Jachtowa sp z oo</field>
+    <field name="Nazwa">Woźniak i Synowie spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">04-01-2021</field>
-    <field name="Data wykreślenia">2022-04-01</field>
+    <field name="Data wykreślenia">2022-01-04</field>
     <field name="Data decyzji">20170818</field>
-    <field name="KRS">0000001172</field>
-    <field name="NIP">1235755747</field>
-    <field name="Adres siedziby">ul. Jagiellońska 25/67, 70-435 Szczecin</field>
-    <field name="Siedziba">Szczecin</field>
+    <field name="KRS">0000039972</field>
+    <field name="NIP">1267431746</field>
+    <field name="Adres siedziby">ul. Kościuszki 165/47, 05-500 Piaseczno</field>
+    <field name="Siedziba">Piaseczno</field>
   </record>
   <record>
     <field name="ID">ID-00414</field>
     <field name="Typ podmiotu">mala instytucja pieniadza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3575/2026</field>
-    <field name="Nazwa">Wytwórnia Makaronu Jajecznego sp. z o. o.</field>
+    <field name="Nazwa">Woźniak i Wspólnicy Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-19-07</field>
     <field name="Data wykreślenia">20201024</field>
     <field name="Data decyzji">19/06/2018</field>
-    <field name="KRS">0000001269</field>
-    <field name="NIP">1235834932</field>
-    <field name="Adres siedziby">ul Wyszyńskiego 42, 70-200 Szczecin</field>
-    <field name="Siedziba">Szczecin</field>
+    <field name="KRS">0000040069</field>
+    <field name="NIP">1267510931</field>
+    <field name="Adres siedziby">2, 32-020 Wieliczka</field>
+    <field name="Siedziba">Wieliczka</field>
   </record>
   <record>
     <field name="ID">ID-00415</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6017/2025</field>
-    <field name="Nazwa">Zakłady Mięsne Tradycja Sp. z o.o.</field>
+    <field name="Nazwa">Woźniak Spółka Rodzinna S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20250801</field>
     <field name="Data wykreślenia">01/08/2026</field>
     <field name="Data decyzji">2024/21/05</field>
-    <field name="KRS">0000001366</field>
-    <field name="NIP">1235914128</field>
-    <field name="Adres siedziby">ulica Mariacka 59, 40-014 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000040166</field>
+    <field name="NIP">1267590120</field>
+    <field name="Adres siedziby">ulica Dąbrowskiego 19, 32-600 Oświęcim</field>
+    <field name="Siedziba">Oświęcim</field>
   </record>
   <record>
     <field name="ID">ID-00416</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2646/2022</field>
-    <field name="Nazwa">Spółdzielnia Mleczarska Radomsko SP Z O O</field>
+    <field name="Nazwa">Woźniak Bracia SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13/01/2018</field>
     <field name="Data wykreślenia">2022/10/12</field>
     <field name="Data decyzji">14-12-2017</field>
-    <field name="KRS">0000001463</field>
-    <field name="NIP">1235993317</field>
-    <field name="Adres siedziby">Warszawska 76, 40-009 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000040263</field>
+    <field name="NIP">1267669318</field>
+    <field name="Adres siedziby">Rynek 36, 38-400 Krosno</field>
+    <field name="Siedziba">Krosno</field>
   </record>
   <record>
     <field name="ID">ID-00417</field>
     <field name="Typ podmiotu"></field>
     <field name="Numer UKNF"></field>
-    <field name="Nazwa">Kancelaria Finansowo-Księgowa Bilans spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Kozłowski i Synowie S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/09/12</field>
     <field name="Data wykreślenia">11-03-2022</field>
     <field name="Data decyzji"></field>
-    <field name="KRS"></field>
-    <field name="NIP">1236072507</field>
-    <field name="Adres siedziby">ul. Krakowskie Przedmieście 93/29, 20-002 Lublin</field>
-    <field name="Siedziba">Lublin</field>
+    <field name="KRS">0000040360</field>
+    <field name="NIP"></field>
+    <field name="Adres siedziby">ul. Mickiewicza 53/9, 39-300 Mielec</field>
+    <field name="Siedziba">Mielec</field>
   </record>
   <record>
     <field name="ID">ID-00418</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5416/2026</field>
-    <field name="Nazwa">Zarząd Nieruchomości Komercyjnych Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Kozłowski i Wspólnicy Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">10-03-2022</field>
     <field name="Data wykreślenia">2024-24-02</field>
     <field name="Data decyzji">20170712</field>
-    <field name="KRS">0000001657</field>
-    <field name="NIP">1236151690</field>
-    <field name="Adres siedziby">ul Narutowicza 110, 20-004 Lublin</field>
-    <field name="Siedziba">Lublin</field>
+    <field name="KRS">0000040457</field>
+    <field name="NIP">1267827697</field>
+    <field name="Adres siedziby">ul Długa 70, 58-100 Świdnica</field>
+    <field name="Siedziba">Świdnica</field>
   </record>
   <record>
     <field name="ID">ID-00419</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7043/2025</field>
-    <field name="Nazwa">Polskie Linie Oceaniczne S.A.</field>
+    <field name="Nazwa">Kozłowski Spółka Rodzinna sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2019-10-12</field>
+    <field name="Data wpisu">2019-12-10</field>
     <field name="Data wykreślenia">20240524</field>
     <field name="Data decyzji">12/09/2019</field>
-    <field name="KRS">0000001754</field>
-    <field name="NIP">1236230886</field>
-    <field name="Adres siedziby">ulica Lipowa 127, 15-424 Białystok</field>
-    <field name="Siedziba">Białystok</field>
+    <field name="KRS">0000040554</field>
+    <field name="NIP">1267906882</field>
+    <field name="Adres siedziby">ulica Wojska Polskiego 87, 57-300 Kłodzko</field>
+    <field name="Siedziba">Kłodzko</field>
   </record>
   <record>
     <field name="ID">ID-00420</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9178/2024</field>
-    <field name="Nazwa">Hurtownia Materiałów Budowlanych Cegiełka SA</field>
+    <field name="Nazwa">Kozłowski Bracia sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190608</field>
     <field name="Data wykreślenia">10/04/2026</field>
     <field name="Data decyzji">2019/09/05</field>
-    <field name="KRS">0000001851</field>
-    <field name="NIP">1236310071</field>
+    <field name="KRS">0000040651</field>
+    <field name="NIP">1267986071</field>
     <field name="Adres siedziby">Chrobrego 104, Gniezno</field>
     <field name="Siedziba">Gniezno</field>
   </record>
@@ -284,251 +284,251 @@
     <field name="ID">ID-00421</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6413/2019</field>
-    <field name="Nazwa">PPHU Studio Projektowe Architektura</field>
+    <field name="Nazwa">PPHU Budownictwo Zielony</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28/09/2025</field>
     <field name="Data wykreślenia">2026/28/09</field>
     <field name="Data decyzji">23-08-2021</field>
-    <field name="KRS">0000001948</field>
-    <field name="NIP">1236389262</field>
-    <field name="Adres siedziby">ul. Gdańska 161/81, 85-005 Bydgoszcz</field>
-    <field name="Siedziba">Bydgoszcz</field>
+    <field name="KRS">0000040748</field>
+    <field name="NIP">1268065261</field>
+    <field name="Adres siedziby">ul. Słowiańska 121/61, 64-100 Leszno</field>
+    <field name="Siedziba">Leszno</field>
   </record>
   <record>
     <field name="ID">ID-00422</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6857/2024</field>
-    <field name="Nazwa">Centrum Medycyny Pracy Spółka Akcyjna</field>
+    <field name="Nazwa">Transport Srebrny Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/15/04</field>
     <field name="Data wykreślenia">15-04-2026</field>
     <field name="Data decyzji">2024-23-05</field>
-    <field name="KRS">0000002045</field>
-    <field name="NIP">1236468458</field>
-    <field name="Adres siedziby">ul Dworcowa 178, 85-009 Bydgoszcz</field>
-    <field name="Siedziba">Bydgoszcz</field>
+    <field name="KRS">0000040845</field>
+    <field name="NIP">1268144457</field>
+    <field name="Adres siedziby">ul Gdańska 138, 83-110 Tczew</field>
+    <field name="Siedziba">Tczew</field>
   </record>
   <record>
     <field name="ID">ID-00423</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4005/2019</field>
-    <field name="Nazwa">Przedsiębiorstwo Energetyki Cieplnej sp. z o.o.</field>
+    <field name="Nazwa">Spedycja Pewny SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">29-02-2020</field>
     <field name="Data wykreślenia">2026-09-09</field>
     <field name="Data decyzji">20200130</field>
-    <field name="KRS">0000002142</field>
-    <field name="NIP">1236547643</field>
-    <field name="Adres siedziby">ulica Szeroka 15, 87-100 Toruń</field>
-    <field name="Siedziba">Toruń</field>
+    <field name="KRS">0000040942</field>
+    <field name="NIP">1268223642</field>
+    <field name="Adres siedziby">ulica Sobieskiego 155, 84-200 Wejherowo</field>
+    <field name="Siedziba">Wejherowo</field>
   </record>
   <record>
     <field name="ID">ID-00424</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8508/2023</field>
-    <field name="Nazwa">Gospodarstwo Rolno-Ogrodnicze sp z oo</field>
+    <field name="Nazwa">Logistyka Europejski spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2018-09-11</field>
+    <field name="Data wpisu">2018-11-09</field>
     <field name="Data wykreślenia">20191109</field>
     <field name="Data decyzji">12/08/2018</field>
-    <field name="KRS">0000002239</field>
-    <field name="NIP">1236626839</field>
-    <field name="Adres siedziby">Chełmińska 32, 87-100 Toruń</field>
-    <field name="Siedziba">Toruń</field>
+    <field name="KRS">0000041039</field>
+    <field name="NIP">1268302838</field>
+    <field name="Adres siedziby">Głęboka 172, 43-400 Cieszyn</field>
+    <field name="Siedziba">Cieszyn</field>
   </record>
   <record>
     <field name="ID">ID-00425</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7783/2020</field>
-    <field name="Nazwa">Drukarnia Wielkoformatowa Impress sp. z o. o.</field>
+    <field name="Nazwa">Handel Nowoczesny Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251105</field>
     <field name="Data wykreślenia">05/11/2026</field>
     <field name="Data decyzji">2020/26/08</field>
-    <field name="KRS">0000002336</field>
-    <field name="NIP">1236706024</field>
-    <field name="Adres siedziby">ul. 3 Maja 49/43, 35-030 Rzeszów</field>
-    <field name="Siedziba">Rzeszów</field>
+    <field name="KRS">0000041136</field>
+    <field name="NIP">1268382027</field>
+    <field name="Adres siedziby">ul. Małachowskiego 9/23, 42-500 Będzin</field>
+    <field name="Siedziba">Będzin</field>
   </record>
   <record>
     <field name="ID">ID-00426</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6693/2018</field>
-    <field name="Nazwa">Klub Fitness Sylwetka Sp. z o.o.</field>
+    <field name="Nazwa">Usługi Stabilny S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">01/10/2023</field>
     <field name="Data wykreślenia">2024/22/01</field>
     <field name="Data decyzji">09-10-2017</field>
-    <field name="KRS">0000002433</field>
-    <field name="NIP">1236785213</field>
-    <field name="Adres siedziby">ul Piłsudskiego 66, 35-074 Rzeszów</field>
-    <field name="Siedziba">Rzeszów</field>
+    <field name="KRS">0000041233</field>
+    <field name="NIP">1268461212</field>
+    <field name="Adres siedziby">ul Królowej Jadwigi 26, 88-100 Inowrocław</field>
+    <field name="Siedziba">Inowrocław</field>
   </record>
   <record>
     <field name="ID">ID-00427</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1704/2026</field>
-    <field name="Nazwa">Polska Grupa Energetyczna SP Z O O</field>
+    <field name="Nazwa">Finanse Aktywny SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/31/03</field>
     <field name="Data wykreślenia">06-02-2026</field>
-    <field name="Data decyzji">2018-01-03</field>
-    <field name="KRS">0000002530</field>
-    <field name="NIP">1236864409</field>
-    <field name="Adres siedziby">ulica Sienkiewicza 83, 25-007 Kielce</field>
-    <field name="Siedziba">Kielce</field>
+    <field name="Data decyzji">2018-03-01</field>
+    <field name="KRS">0000041330</field>
+    <field name="NIP">1268540408</field>
+    <field name="Adres siedziby">ulica Wybickiego 43, 86-300 Grudziądz</field>
+    <field name="Siedziba">Grudziądz</field>
   </record>
   <record>
     <field name="ID">ID-00428</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5954/2020</field>
-    <field name="Nazwa">Mazowieckie Zakłady Drobiarskie spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Doradztwo Blue S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">10-01-2018</field>
-    <field name="Data wykreślenia">2022-12-10</field>
+    <field name="Data wykreślenia">2022-10-12</field>
     <field name="Data decyzji">20171211</field>
-    <field name="KRS">0000002627</field>
-    <field name="NIP">1236943592</field>
-    <field name="Adres siedziby">Warszawska 100, 25-512 Kielce</field>
-    <field name="Siedziba">Kielce</field>
+    <field name="KRS">0000041427</field>
+    <field name="NIP">1268619593</field>
+    <field name="Adres siedziby">60, 14-100 Ostróda</field>
+    <field name="Siedziba">Ostróda</field>
   </record>
   <record>
     <field name="ID">ID-00429</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9785/2026</field>
-    <field name="Nazwa">Hurtownia Farmaceutyczna Aptekarz Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Szkolenia Smart Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2018-02-10</field>
+    <field name="Data wpisu">2018-10-02</field>
     <field name="Data wykreślenia">20230117</field>
     <field name="Data decyzji">11/01/2018</field>
-    <field name="KRS">0000002724</field>
-    <field name="NIP">1237022782</field>
-    <field name="Adres siedziby">ul. Kościuszki 117/5, 10-504 Olsztyn</field>
-    <field name="Siedziba">Olsztyn</field>
+    <field name="KRS">0000041524</field>
+    <field name="NIP">1268698782</field>
+    <field name="Adres siedziby">ul. Warszawska 77/75, 11-500 Giżycko</field>
+    <field name="Siedziba">Giżycko</field>
   </record>
   <record>
     <field name="ID">ID-00430</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8678/2025</field>
-    <field name="Nazwa">Kancelaria Notarialna Lex S.A.</field>
+    <field name="Nazwa">Media Best sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190324</field>
     <field name="Data wykreślenia">17/11/2024</field>
     <field name="Data decyzji">2019/22/02</field>
-    <field name="KRS">0000002821</field>
-    <field name="NIP">1237101978</field>
-    <field name="Adres siedziby">os. Dąbrowszczaków 134, 10-540 Olsztyn</field>
-    <field name="Siedziba">Olsztyn</field>
+    <field name="KRS">0000041621</field>
+    <field name="NIP">1268777978</field>
+    <field name="Adres siedziby">ul Lubelska 94, 24-100 Puławy</field>
+    <field name="Siedziba">Puławy</field>
   </record>
   <record>
     <field name="ID">ID-00431</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9967/2020</field>
-    <field name="Nazwa">Biuro Podróży Wojażer SA</field>
+    <field name="Nazwa">Reklama Wielkopolski sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">11/05/2024</field>
     <field name="Data wykreślenia">2025/03/03</field>
     <field name="Data decyzji">13-08-2021</field>
-    <field name="KRS">0000002918</field>
-    <field name="NIP">1237181167</field>
-    <field name="Adres siedziby">ulica Krakowska 151, 45-018 Opole</field>
-    <field name="Siedziba">Opole</field>
+    <field name="KRS">0000041718</field>
+    <field name="NIP">1268857163</field>
+    <field name="Adres siedziby">ulica Staszica 111, 22-400 Zamość</field>
+    <field name="Siedziba">Zamość</field>
   </record>
   <record>
     <field name="ID">ID-00432</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6443/2024</field>
-    <field name="Nazwa">Szkoła Języków Obcych Lingua S. A.</field>
+    <field name="Nazwa">Marketing Pomorski sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/10/11</field>
     <field name="Data wykreślenia">10-11-2026</field>
-    <field name="Data decyzji">2025-07-03</field>
-    <field name="KRS">0000003015</field>
-    <field name="NIP">1237260352</field>
-    <field name="Adres siedziby">Ozimska 168, 45-057 Opole</field>
-    <field name="Siedziba">Opole</field>
+    <field name="Data decyzji">2025-03-07</field>
+    <field name="KRS">0000041815</field>
+    <field name="NIP">1268936359</field>
+    <field name="Adres siedziby">3 Maja 128, 16-300 Augustów</field>
+    <field name="Siedziba">Augustów</field>
   </record>
   <record>
     <field name="ID">ID-00433</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1181/2026</field>
-    <field name="Nazwa">Centrum Logistyczne Podlasie Spółka Akcyjna</field>
+    <field name="Nazwa">Druk Bałtycki Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">29-11-2023</field>
     <field name="Data wykreślenia">2024-28-11</field>
     <field name="Data decyzji">20190430</field>
-    <field name="KRS">0000003112</field>
-    <field name="NIP">1247339575</field>
-    <field name="Adres siedziby">ul. Bohaterów Westerplatte 5/57, 65-034 Zielona Góra</field>
-    <field name="Siedziba">Zielona Góra</field>
+    <field name="KRS">0000041912</field>
+    <field name="NIP">1269015549</field>
+    <field name="Adres siedziby">ul. Kościuszki 145/37, 16-400 Suwałki</field>
+    <field name="Siedziba">Suwałki</field>
   </record>
   <record>
     <field name="ID">ID-00434</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4240/2018</field>
-    <field name="Nazwa">Fabryka Mebli Drewnianych Dąb sp. z o.o.</field>
+    <field name="Nazwa">Informatyka Pierwszy SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-20-07</field>
     <field name="Data wykreślenia">20220905</field>
     <field name="Data decyzji">07/11/2017</field>
-    <field name="KRS">0000003209</field>
-    <field name="NIP">1237418735</field>
-    <field name="Adres siedziby">ul Kupiecka 22, 65-058 Zielona Góra</field>
-    <field name="Siedziba">Zielona Góra</field>
+    <field name="KRS">0000042009</field>
+    <field name="NIP">1269094738</field>
+    <field name="Adres siedziby">ul Piastowska 162, 48-300 Nysa</field>
+    <field name="Siedziba">Nysa</field>
   </record>
   <record>
     <field name="ID">ID-00435</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9818/2018</field>
-    <field name="Nazwa">Polskie Sady sp z oo</field>
+    <field name="Nazwa">Oprogramowanie Złoty spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20170612</field>
     <field name="Data wykreślenia">05/06/2022</field>
     <field name="Data decyzji">2017/13/05</field>
-    <field name="KRS">0000003306</field>
-    <field name="NIP">1237497924</field>
-    <field name="Adres siedziby">ulica Świętojańska 39, 81-372 Gdynia</field>
-    <field name="Siedziba">Gdynia</field>
+    <field name="KRS">0000042106</field>
+    <field name="NIP">1269173923</field>
+    <field name="Adres siedziby">ulica Długa 179, 49-300 Brzeg</field>
+    <field name="Siedziba">Brzeg</field>
   </record>
   <record>
     <field name="ID">ID-00436</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7020/2024</field>
-    <field name="Nazwa">Wielkopolska Hurtownia Stali sp. z o. o.</field>
+    <field name="Nazwa">Rolnictwo Szybki Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">11/03/2018</field>
     <field name="Data wykreślenia">2024/26/09</field>
     <field name="Data decyzji">09-02-2018</field>
-    <field name="KRS">0000003403</field>
-    <field name="NIP">1247577145</field>
-    <field name="Adres siedziby">10 Lutego 56, 81-364 Gdynia</field>
-    <field name="Siedziba">Gdynia</field>
+    <field name="KRS">0000042203</field>
+    <field name="NIP">1269253119</field>
+    <field name="Adres siedziby">os. Rynek 16, 68-200 Żary</field>
+    <field name="Siedziba">Żary</field>
   </record>
   <record>
     <field name="ID">ID-00437</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5678/2022</field>
-    <field name="Nazwa">Zakład Oczyszczania Miasta Sp. z o.o.</field>
+    <field name="Nazwa">Ogrodnictwo Polski S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/21/12</field>
     <field name="Data wykreślenia">17-09-2019</field>
     <field name="Data decyzji">2018-21-11</field>
-    <field name="KRS">0000003500</field>
-    <field name="NIP">1237656305</field>
-    <field name="Adres siedziby">ul. Bolesława Prusa 73/19, 05-800 Pruszków</field>
-    <field name="Siedziba">Pruszków</field>
+    <field name="KRS">0000042300</field>
+    <field name="NIP">1269332304</field>
+    <field name="Adres siedziby">ul. Sikorskiego 33/89, 66-200 Świebodzin</field>
+    <field name="Siedziba">Świebodzin</field>
   </record>
   <record>
     <field name="ID">ID-00438</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7300/2022</field>
-    <field name="Nazwa">Przedsiębiorstwo Wodociągów i Kanalizacji SP Z O O</field>
+    <field name="Nazwa">Produkcja Lokalny SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">07-08-2020</field>
     <field name="Data wykreślenia">2020-24-10</field>
     <field name="Data decyzji">20200621</field>
-    <field name="KRS">0000003597</field>
-    <field name="NIP">1237735499</field>
+    <field name="KRS">0000042397</field>
+    <field name="NIP">1269411498</field>
     <field name="Adres siedziby">78-100 Kołobrzeg</field>
     <field name="Siedziba">Kołobrzeg</field>
   </record>
@@ -536,209 +536,209 @@
     <field name="ID">ID-00439</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4282/2023</field>
-    <field name="Nazwa">Instytut Badań Rynkowych spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Przemysł Dynamiczny S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-16-06</field>
     <field name="Data wykreślenia">20211103</field>
     <field name="Data decyzji">17/05/2020</field>
-    <field name="KRS">0000003694</field>
-    <field name="NIP">1237814684</field>
-    <field name="Adres siedziby">ulica Sienkiewicza 107, 32-020 Wieliczka</field>
-    <field name="Siedziba">Wieliczka</field>
+    <field name="KRS">0000042494</field>
+    <field name="NIP">1269490687</field>
+    <field name="Adres siedziby">ulica Piłsudskiego 67, 73-110 Stargard</field>
+    <field name="Siedziba">Stargard</field>
   </record>
   <record>
     <field name="ID">ID-00440</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9637/2019</field>
-    <field name="Nazwa">Agencja Ochrony Solidna Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Ekologia Kreatywny Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220326</field>
     <field name="Data wykreślenia">10/12/2022</field>
     <field name="Data decyzji">2017/20/12</field>
-    <field name="KRS">0000003791</field>
-    <field name="NIP">1237893873</field>
-    <field name="Adres siedziby">Dąbrowskiego 124, 32-600 Oświęcim</field>
-    <field name="Siedziba">Oświęcim</field>
+    <field name="KRS">0000042591</field>
+    <field name="NIP">1269569874</field>
+    <field name="Adres siedziby">Mickiewicza 84, 27-600 Sandomierz</field>
+    <field name="Siedziba">Sandomierz</field>
   </record>
   <record>
     <field name="ID">ID-00441</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3495/2021</field>
-    <field name="Nazwa">Instagram - Meta</field>
+    <field name="Nazwa">X - Twitter</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/07/2017</field>
     <field name="Data wykreślenia">2023/17/01</field>
     <field name="Data decyzji">03-06-2017</field>
-    <field name="KRS">0000003888</field>
-    <field name="NIP">1237973069</field>
-    <field name="Adres siedziby">ul. Rynek 141/71, 38-400 Krosno</field>
-    <field name="Siedziba">Krosno</field>
+    <field name="KRS">0000042688</field>
+    <field name="NIP">1279649095</field>
+    <field name="Adres siedziby">ul. Sienkiewicza 101/51, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Siedziba">Ostrowiec Świętokrzyski</field>
   </record>
   <record>
     <field name="ID">ID-00442</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3816/2019</field>
-    <field name="Nazwa">Krajowa Izba Gospodarcza SA</field>
+    <field name="Nazwa">Instalacje Silver sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/24/05</field>
     <field name="Data wykreślenia">24-05-2026</field>
     <field name="Data decyzji">2022-14-07</field>
-    <field name="KRS">0000003985</field>
-    <field name="NIP">1238052259</field>
-    <field name="Adres siedziby">ul Mickiewicza 158, 39-300 Mielec</field>
-    <field name="Siedziba">Mielec</field>
+    <field name="KRS">0000042785</field>
+    <field name="NIP">1269728255</field>
+    <field name="Adres siedziby">ul Chmielna 118, 00-020 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00443</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1462/2018</field>
-    <field name="Nazwa">Polskie Zakłady Lotnicze S. A.</field>
+    <field name="Nazwa">Nieruchomości Safe sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-08-2024</field>
     <field name="Data wykreślenia">2025-03-03</field>
     <field name="Data decyzji">20240713</field>
-    <field name="KRS">0000004082</field>
-    <field name="NIP">1238131444</field>
-    <field name="Adres siedziby">175, 58-100 Świdnica</field>
-    <field name="Siedziba">Świdnica</field>
+    <field name="KRS">0000042882</field>
+    <field name="NIP">1269807440</field>
+    <field name="Adres siedziby">ulica Nowy Świat 135, 00-029 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00444</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7432/2024</field>
-    <field name="Nazwa">Hurtownia Elektryczna Wat Spółka Akcyjna</field>
+    <field name="Nazwa">Inwestycje Future Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2024-08-10</field>
+    <field name="Data wpisu">2024-10-08</field>
     <field name="Data wykreślenia">20260410</field>
     <field name="Data decyzji">02/09/2022</field>
-    <field name="KRS">0000004179</field>
-    <field name="NIP">1248210665</field>
-    <field name="Adres siedziby">Wojska Polskiego 12, 57-300 Kłodzko</field>
-    <field name="Siedziba">Kłodzko</field>
+    <field name="KRS">0000042979</field>
+    <field name="NIP">1279886665</field>
+    <field name="Adres siedziby">os. Przyjaźń 152, 01-355 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00445</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8600/2021</field>
-    <field name="Nazwa">Centrum Ogrodnicze Zielona Oaza sp. z o.o.</field>
+    <field name="Nazwa">Medycyna Mazowiecki SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200626</field>
     <field name="Data wykreślenia">04/08/2025</field>
     <field name="Data decyzji">2020/27/05</field>
-    <field name="KRS">0000004276</field>
-    <field name="NIP">1238289820</field>
-    <field name="Adres siedziby">ul. Chrobrego 29/33, 62-200 Gniezno</field>
-    <field name="Siedziba">Gniezno</field>
+    <field name="KRS">0000043076</field>
+    <field name="NIP">1269965825</field>
+    <field name="Adres siedziby">ul. Jagiellońska 169/13, 05-120 Legionowo</field>
+    <field name="Siedziba">Legionowo</field>
   </record>
   <record>
     <field name="ID">ID-00446</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9049/2019</field>
-    <field name="Nazwa">Piekarnia i Cukiernia Chrupiący Rogalik sp z oo</field>
+    <field name="Nazwa">Zdrowie Karpacki spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/08/2025</field>
     <field name="Data wykreślenia">2026/25/08</field>
     <field name="Data decyzji">07-07-2024</field>
-    <field name="KRS">0000004373</field>
-    <field name="NIP">1238369016</field>
-    <field name="Adres siedziby">ul Słowiańska 46, 64-100 Leszno</field>
-    <field name="Siedziba">Leszno</field>
+    <field name="KRS">0000043173</field>
+    <field name="NIP">1270045013</field>
+    <field name="Adres siedziby">ul Piłsudskiego 6, 05-270 Marki</field>
+    <field name="Siedziba">Marki</field>
   </record>
   <record>
     <field name="ID">ID-00447</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5208/2024</field>
-    <field name="Nazwa">Zakład Usług Komunalnych sp. z o. o.</field>
+    <field name="Nazwa">Urody Wspólny Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024/11/10</field>
     <field name="Data wykreślenia">11-10-2025</field>
     <field name="Data decyzji">2021-16-08</field>
-    <field name="KRS">0000004470</field>
-    <field name="NIP">1238448201</field>
-    <field name="Adres siedziby">ulica Gdańska 63, 83-110 Tczew</field>
-    <field name="Siedziba">Tczew</field>
+    <field name="KRS">0000043270</field>
+    <field name="NIP">1270124209</field>
+    <field name="Adres siedziby">ulica Andriollego 23, 05-400 Otwock</field>
+    <field name="Siedziba">Otwock</field>
   </record>
   <record>
     <field name="ID">ID-00448</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5552/2023</field>
-    <field name="Nazwa">Polski Komfort Sp. z o.o.</field>
+    <field name="Nazwa">Turystyka Niebieski S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">09-03-2022</field>
     <field name="Data wykreślenia">2024-16-09</field>
     <field name="Data decyzji">20210913</field>
-    <field name="KRS">0000004567</field>
-    <field name="NIP">1238527395</field>
-    <field name="Adres siedziby">Sobieskiego 80, 84-200 Wejherowo</field>
-    <field name="Siedziba">Wejherowo</field>
+    <field name="KRS">0000043367</field>
+    <field name="NIP">1270203392</field>
+    <field name="Adres siedziby">Żeromskiego 40, 26-600 Radom</field>
+    <field name="Siedziba">Radom</field>
   </record>
   <record>
     <field name="ID">ID-00449</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6078/2022</field>
-    <field name="Nazwa">Kancelaria Radców Prawnych Partnerzy SP Z O O</field>
+    <field name="Nazwa">Rozrywka Czysty SA</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2021-08-10</field>
+    <field name="Data wpisu">2021-10-08</field>
     <field name="Data wykreślenia">20221008</field>
     <field name="Data decyzji">13/06/2018</field>
-    <field name="KRS">0000004664</field>
-    <field name="NIP">1238606580</field>
-    <field name="Adres siedziby">ul. Głęboka 97/85, 43-400 Cieszyn</field>
-    <field name="Siedziba">Cieszyn</field>
+    <field name="KRS">0000043464</field>
+    <field name="NIP">1270282581</field>
+    <field name="Adres siedziby">ul. Tumska 57/65, 09-402 Płock</field>
+    <field name="Siedziba">Płock</field>
   </record>
   <record>
     <field name="ID">ID-00450</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9444/2024</field>
-    <field name="Nazwa">Centrum Dystrybucji Alkoholi spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Gastronomia Dobry S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180522</field>
     <field name="Data wykreślenia">24/10/2020</field>
     <field name="Data decyzji">2018/22/04</field>
-    <field name="KRS">0000004761</field>
-    <field name="NIP">1248685807</field>
-    <field name="Adres siedziby">114, 42-500 Będzin</field>
-    <field name="Siedziba">Będzin</field>
+    <field name="KRS">0000043561</field>
+    <field name="NIP">1270361777</field>
+    <field name="Adres siedziby">ul Karmelicka 74, 31-128 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00451</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8128/2020</field>
-    <field name="Nazwa">Przedsiębiorstwo Spedycyjne Ładunek Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Moda Globalny Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/07/2022</field>
     <field name="Data wykreślenia">2025/20/08</field>
     <field name="Data decyzji">05-06-2022</field>
-    <field name="KRS">0000004858</field>
-    <field name="NIP">1238764965</field>
-    <field name="Adres siedziby">ulica Królowej Jadwigi 131, 88-100 Inowrocław</field>
-    <field name="Siedziba">Inowrocław</field>
+    <field name="KRS">0000043658</field>
+    <field name="NIP">1270440962</field>
+    <field name="Adres siedziby">ulica os. Na Stoku 91, 31-704 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00452</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6420/2025</field>
-    <field name="Nazwa">Fabryka Tekstyliów Splot S.A.</field>
+    <field name="Nazwa">Tekstylia Tradycyjny sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018/03/03</field>
     <field name="Data wykreślenia">10-12-2022</field>
-    <field name="Data decyzji">2018-01-02</field>
-    <field name="KRS">0000004955</field>
-    <field name="NIP">1238844150</field>
-    <field name="Adres siedziby">Wybickiego 148, 86-300 Grudziądz</field>
-    <field name="Siedziba">Grudziądz</field>
+    <field name="Data decyzji">2018-02-01</field>
+    <field name="KRS">0000043755</field>
+    <field name="NIP">1270520158</field>
+    <field name="Adres siedziby">Krupówki 108, 34-500 Zakopane</field>
+    <field name="Siedziba">Zakopane</field>
   </record>
   <record>
     <field name="ID">ID-00453</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7509/2019</field>
-    <field name="Nazwa">Górnośląskie Towarzystwo Finansowe SA</field>
+    <field name="Nazwa">Motoryzacja Innowacyjny sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2018</field>
     <field name="Data wykreślenia">2023-17-01</field>
     <field name="Data decyzji">20181007</field>
-    <field name="KRS">0000005052</field>
-    <field name="NIP">1238923346</field>
+    <field name="KRS">0000043852</field>
+    <field name="NIP">1270599349</field>
     <field name="Adres siedziby">ul. Nieistniejąca 125/27, 99-999 Nibylandia</field>
     <field name="Siedziba">Nibylandia</field>
   </record>
@@ -746,433 +746,433 @@
     <field name="ID">ID-00454</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9380/2025</field>
-    <field name="Nazwa">Krajowa Agencja Informacyjna S. A.</field>
+    <field name="Nazwa">Ubezpieczenia Jasny sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-15-01</field>
     <field name="Data wykreślenia">20240224</field>
     <field name="Data decyzji">16/12/2019</field>
-    <field name="KRS">0000005149</field>
-    <field name="NIP">1239002536</field>
-    <field name="Adres siedziby">ul Warszawska 2, 11-500 Giżycko</field>
-    <field name="Siedziba">Giżycko</field>
+    <field name="KRS">0000043949</field>
+    <field name="NIP">1270678534</field>
+    <field name="Adres siedziby">ul Galicyjska 142, 32-087 Zielonki</field>
+    <field name="Siedziba">Zielonki</field>
   </record>
   <record>
     <field name="ID">ID-00455</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9946/2018</field>
-    <field name="Nazwa">Polskie Jagody Spółka Akcyjna</field>
+    <field name="Nazwa">Spawalnictwo Gold Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240612</field>
     <field name="Data wykreślenia">18/04/2025</field>
     <field name="Data decyzji">2024/13/05</field>
-    <field name="KRS">0000005246</field>
-    <field name="NIP">1239081725</field>
-    <field name="Adres siedziby">ulica Lubelska 19, 24-100 Puławy</field>
-    <field name="Siedziba">Puławy</field>
+    <field name="KRS">0000044046</field>
+    <field name="NIP">1280757755</field>
+    <field name="Adres siedziby">159, 32-003 Podłęże</field>
+    <field name="Siedziba">Podłęże</field>
   </record>
   <record>
     <field name="ID">ID-00456</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6237/2020</field>
-    <field name="Nazwa">Zielony Amber sp. z o.o.</field>
+    <field name="Nazwa">Ślusarstwo Fast SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/01/2018</field>
     <field name="Data wykreślenia">2024/21/02</field>
     <field name="Data decyzji">04-04-2017</field>
-    <field name="KRS">0000005343</field>
-    <field name="NIP">1239160910</field>
-    <field name="Adres siedziby">Staszica 36, 22-400 Zamość</field>
-    <field name="Siedziba">Zamość</field>
+    <field name="KRS">0000044143</field>
+    <field name="NIP">1270836915</field>
+    <field name="Adres siedziby">176, 33-100 Tarnów</field>
+    <field name="Siedziba">Tarnów</field>
   </record>
   <record>
     <field name="ID">ID-00457</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3326/2022</field>
-    <field name="Nazwa">Zielony Bizon sp z oo</field>
+    <field name="Nazwa">Krawiectwo Global spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/21/07</field>
     <field name="Data wykreślenia">21-07-2018</field>
     <field name="Data decyzji">2017-21-06</field>
-    <field name="KRS">0000005440</field>
-    <field name="NIP">1239240106</field>
-    <field name="Adres siedziby">53/9, 16-300 Augustów</field>
-    <field name="Siedziba">Augustów</field>
+    <field name="KRS">0000044240</field>
+    <field name="NIP">1270916100</field>
+    <field name="Adres siedziby">ul. Narutowicza 13/79, 90-135 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00458</field>
     <field name="Typ podmiotu">ywdawca pieniądza eletkroniczngeo</field>
     <field name="Numer UKNF">UKNF-EPI-9584/2023</field>
-    <field name="Nazwa">Zielony Canyon sp. z o. o.</field>
+    <field name="Nazwa">Ochrona Śląski Sópłka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-12-2022</field>
     <field name="Data wykreślenia">2023-12-12</field>
     <field name="Data decyzji">20171208</field>
-    <field name="KRS">0000005537</field>
-    <field name="NIP">1239319291</field>
-    <field name="Adres siedziby">ul Kościuszki 70, 16-400 Suwałki</field>
-    <field name="Siedziba">Suwałki</field>
+    <field name="KRS">0000044337</field>
+    <field name="NIP">1270995298</field>
+    <field name="Adres siedziby">ul os. Retkinia 30, 94-004 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00459</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8993/2026</field>
-    <field name="Nazwa">Zielony Delfin Sp. z o.o.</field>
+    <field name="Nazwa">Catering Dolnośląski S.A.</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2019-07-02</field>
+    <field name="Data wpisu">2019-02-07</field>
     <field name="Data wykreślenia">20200207</field>
     <field name="Data decyzji">08/01/2019</field>
-    <field name="KRS">0000005634</field>
-    <field name="NIP">1239398480</field>
-    <field name="Adres siedziby">os. Piastowska 87, 48-300 Nysa</field>
-    <field name="Siedziba">Nysa</field>
+    <field name="KRS">0000044434</field>
+    <field name="NIP">1271074488</field>
+    <field name="Adres siedziby">ulica Zamkowa 47, 95-200 Pabianice</field>
+    <field name="Siedziba">Pabianice</field>
   </record>
   <record>
     <field name="ID">ID-00460</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1274/2024</field>
-    <field name="Nazwa">Zielony Echo SP Z O O</field>
+    <field name="Nazwa">Księgowość Młody SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180212</field>
     <field name="Data wykreślenia">30/01/2024</field>
     <field name="Data decyzji">2018/13/01</field>
-    <field name="KRS">0000005731</field>
-    <field name="NIP">1239477676</field>
-    <field name="Adres siedziby">Długa 104, 49-300 Brzeg</field>
-    <field name="Siedziba">Brzeg</field>
+    <field name="KRS">0000044531</field>
+    <field name="NIP">1271153673</field>
+    <field name="Adres siedziby">Długa 64, 95-100 Zgierz</field>
+    <field name="Siedziba">Zgierz</field>
   </record>
   <record>
     <field name="ID">ID-00461</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5921/2023</field>
-    <field name="Nazwa">P.P.H.U. Zielony Falcon</field>
+    <field name="Nazwa">P.P.H.U. ZLS</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/06/2021</field>
     <field name="Data wykreślenia">2022/30/06</field>
     <field name="Data decyzji">31-05-2021</field>
-    <field name="KRS">0000005828</field>
-    <field name="NIP">1239556861</field>
-    <field name="Adres siedziby">ul. Rynek 121/61, 68-200 Żary</field>
-    <field name="Siedziba">Żary</field>
+    <field name="KRS">0000044628</field>
+    <field name="NIP">1271232869</field>
+    <field name="Adres siedziby">ul. Rynek 81/41, 50-101 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
   </record>
   <record>
     <field name="ID">ID-00462</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6025/2019</field>
-    <field name="Nazwa">Zielony Gryf Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">UZA Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/09/04</field>
     <field name="Data wykreślenia">14-09-2026</field>
     <field name="Data decyzji">2022-29-05</field>
-    <field name="KRS">0000005925</field>
-    <field name="NIP">1239636057</field>
-    <field name="Adres siedziby">ul Sikorskiego 138, 66-200 Świebodzin</field>
-    <field name="Siedziba">Świebodzin</field>
+    <field name="KRS">0000044725</field>
+    <field name="NIP">1271312054</field>
+    <field name="Adres siedziby">ul Jedności Narodowej 98, 50-260 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
   </record>
   <record>
     <field name="ID">ID-00463</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8286/2021</field>
-    <field name="Nazwa">Zielony Horyzont S.A.</field>
+    <field name="Nazwa">NKV sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25-12-2017</field>
-    <field name="Data wykreślenia">2021-11-03</field>
+    <field name="Data wykreślenia">2021-03-11</field>
     <field name="Data decyzji">20171125</field>
-    <field name="KRS">0000006022</field>
-    <field name="NIP">1239715242</field>
-    <field name="Adres siedziby">ulica Armii Krajowej 155, 78-100 Kołobrzeg</field>
-    <field name="Siedziba">Kołobrzeg</field>
+    <field name="KRS">0000044822</field>
+    <field name="NIP">1271391243</field>
+    <field name="Adres siedziby">ulica Konstytucji 3 Maja 115, 58-540 Karpacz</field>
+    <field name="Siedziba">Karpacz</field>
   </record>
   <record>
     <field name="ID">ID-00464</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7390/2019</field>
-    <field name="Nazwa">Zielony Ikar SA</field>
+    <field name="Nazwa">SAI sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022-20-12</field>
     <field name="Data wykreślenia">20231220</field>
     <field name="Data decyzji">15/02/2017</field>
-    <field name="KRS">0000006119</field>
-    <field name="NIP">1239794431</field>
-    <field name="Adres siedziby">Piłsudskiego 172, 73-110 Stargard</field>
-    <field name="Siedziba">Stargard</field>
+    <field name="KRS">0000044919</field>
+    <field name="NIP">1271470439</field>
+    <field name="Adres siedziby">Odrodzenia 132, 59-300 Lubin</field>
+    <field name="Siedziba">Lubin</field>
   </record>
   <record>
     <field name="ID">ID-00465</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8882/2025</field>
-    <field name="Nazwa">Zielony Jantar S. A.</field>
+    <field name="Nazwa">EFT sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220225</field>
     <field name="Data wykreślenia">17/01/2023</field>
     <field name="Data decyzji">2022/29/01</field>
-    <field name="KRS">0000006216</field>
-    <field name="NIP">1239873627</field>
-    <field name="Adres siedziby">ul. Mickiewicza 9/23, 27-600 Sandomierz</field>
-    <field name="Siedziba">Sandomierz</field>
+    <field name="KRS">0000045016</field>
+    <field name="NIP">1271549626</field>
+    <field name="Adres siedziby">os. Słowackiego 149/3, 58-300 Wałbrzych</field>
+    <field name="Siedziba">Wałbrzych</field>
   </record>
   <record>
     <field name="ID">ID-00466</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6456/2025</field>
-    <field name="Nazwa">Zielony Koral Spółka Akcyjna</field>
+    <field name="Nazwa">HMO Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/02/2017</field>
     <field name="Data wykreślenia">2024/24/02</field>
     <field name="Data decyzji">04-01-2017</field>
-    <field name="KRS">0000006313</field>
-    <field name="NIP">1239952812</field>
-    <field name="Adres siedziby">ul Sienkiewicza 26, 27-400 Ostrowiec Świętokrzyski</field>
-    <field name="Siedziba">Ostrowiec Świętokrzyski</field>
+    <field name="KRS">0000045113</field>
+    <field name="NIP">1271628811</field>
+    <field name="Adres siedziby">ul Półwiejska 166, 61-888 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00467</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5364/2020</field>
-    <field name="Nazwa">Zielony Lotos sp. z o.o.</field>
+    <field name="Nazwa">OYX SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/22/04</field>
     <field name="Data wykreślenia">29-10-2023</field>
     <field name="Data decyzji">2020-21-11</field>
-    <field name="KRS">0000006410</field>
-    <field name="NIP">1240032000</field>
-    <field name="Adres siedziby">ulica Chmielna 43, 00-020 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000045210</field>
+    <field name="NIP">1271708007</field>
+    <field name="Adres siedziby">ulica os. Bolesława Chrobrego 3, 60-681 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00468</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6861/2019</field>
-    <field name="Nazwa">Zielony Magnolia sp z oo</field>
+    <field name="Nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">22-02-2019</field>
     <field name="Data wykreślenia">2025-21-07</field>
     <field name="Data decyzji">20190123</field>
-    <field name="KRS">0000006507</field>
-    <field name="NIP">1240111194</field>
-    <field name="Adres siedziby">Nowy Świat 60, 00-029 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000045307</field>
+    <field name="NIP">1271787194</field>
+    <field name="Adres siedziby">Główny Rynek 20, 62-800 Kalisz</field>
+    <field name="Siedziba">Kalisz</field>
   </record>
   <record>
     <field name="ID">ID-00469</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7378/2021</field>
-    <field name="Nazwa">Zielony Neon sp. z o. o.</field>
+    <field name="Nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2024-01-03</field>
+    <field name="Data wpisu">2024-03-01</field>
     <field name="Data wykreślenia">20250301</field>
     <field name="Data decyzji">19/06/2019</field>
-    <field name="KRS">0000006604</field>
-    <field name="NIP">1240190383</field>
-    <field name="Adres siedziby">ul. os. Przyjaźń 77/75, 01-355 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000045404</field>
+    <field name="NIP">1281866417</field>
+    <field name="Adres siedziby">ul. Kaliska 37/55, 63-400 Ostrów Wielkopolski</field>
+    <field name="Siedziba">Ostrów Wielkopolski</field>
   </record>
   <record>
     <field name="ID">ID-00470</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4502/2026</field>
-    <field name="Nazwa">Zielony Oaza Sp. z o.o.</field>
+    <field name="Nazwa">IIG S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240827</field>
     <field name="Data wykreślenia">23/05/2025 05:59</field>
     <field name="Data decyzji">2022/11/09</field>
-    <field name="KRS">0000006701</field>
-    <field name="NIP">1240269570</field>
-    <field name="Adres siedziby">ul Jagiellońska 94, 05-120 Legionowo</field>
-    <field name="Siedziba">Legionowo</field>
+    <field name="KRS">0000045501</field>
+    <field name="NIP">1271945575</field>
+    <field name="Adres siedziby">ul Ogarna 54, 80-826 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00471</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4642/2024</field>
-    <field name="Nazwa">Zielony Pegaz SP Z O O</field>
+    <field name="Nazwa">DUH SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/03/2018</field>
     <field name="Data wykreślenia">2025/06/01</field>
     <field name="Data decyzji">25-02-2018</field>
-    <field name="KRS">0000006798</field>
-    <field name="NIP">1240348766</field>
-    <field name="Adres siedziby">ulica Piłsudskiego 111, 05-270 Marki</field>
-    <field name="Siedziba">Marki</field>
+    <field name="KRS">0000045598</field>
+    <field name="NIP">1272024765</field>
+    <field name="Adres siedziby">ulica os. Jasień 71, 80-180 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00472</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3180/2019</field>
-    <field name="Nazwa">Zielony Rubin spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">WJJ S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/24/02</field>
     <field name="Data wykreślenia">23-02-2021</field>
-    <field name="Data decyzji">2017-08-12</field>
-    <field name="KRS">0000006895</field>
-    <field name="NIP">1240427951</field>
-    <field name="Adres siedziby">Andriollego 128, 05-400 Otwock</field>
-    <field name="Siedziba">Otwock</field>
+    <field name="Data decyzji">2017-12-08</field>
+    <field name="KRS">0000045695</field>
+    <field name="NIP">1272103950</field>
+    <field name="Adres siedziby">Bohaterów Monte Cassino 88, 81-759 Sopot</field>
+    <field name="Siedziba">Sopot</field>
   </record>
   <record>
     <field name="ID">ID-00473</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8518/2026</field>
-    <field name="Nazwa">Zielony Szafir Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">SNP Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2025</field>
-    <field name="Data wykreślenia">2026-06-11</field>
+    <field name="Data wykreślenia">2026-11-06</field>
     <field name="Data decyzji">20220714</field>
-    <field name="KRS">0000006992</field>
-    <field name="NIP">1240507147</field>
-    <field name="Adres siedziby">ul. Żeromskiego 145/37, 26-600 Radom</field>
-    <field name="Siedziba">Radom</field>
+    <field name="KRS">0000045792</field>
+    <field name="NIP">1282183175</field>
+    <field name="Adres siedziby">105/17, 80-209 Chwaszczyno</field>
+    <field name="Siedziba">Chwaszczyno</field>
   </record>
   <record>
     <field name="ID">ID-00474</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8845/2025</field>
-    <field name="Nazwa">Zielony Tytan S.A.</field>
+    <field name="Nazwa">VUK sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-26-08</field>
     <field name="Data wykreślenia">20261102</field>
     <field name="Data decyzji">201907010523</field>
-    <field name="KRS">0000007089</field>
-    <field name="NIP">1240586336</field>
-    <field name="Adres siedziby">ul Tumska 162, 09-402 Płock</field>
-    <field name="Siedziba">Płock</field>
+    <field name="KRS">0000045889</field>
+    <field name="NIP">1272262335</field>
+    <field name="Adres siedziby">ul 3 Maja 122, 40-096 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
   <record>
     <field name="ID">ID-00475</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3961/2018</field>
-    <field name="Nazwa">Zielony Uran SA</field>
+    <field name="Nazwa">YBL sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240113</field>
     <field name="Data wykreślenia">12/01/2025</field>
     <field name="Data decyzji">2023/14/12</field>
-    <field name="KRS">0000007186</field>
-    <field name="NIP">1240665521</field>
-    <field name="Adres siedziby">ulica Karmelicka 179, 31-128 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000045986</field>
+    <field name="NIP">1272341520</field>
+    <field name="Adres siedziby">ulica os. Paderewskiego 139, 40-282 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
   <record>
     <field name="ID">ID-00476</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6729/2023</field>
-    <field name="Nazwa">Zielony Wektor S. A.</field>
+    <field name="Nazwa">ZVK sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-03-07T05:35:15Z</field>
     <field name="Data wykreślenia">2022/10/12</field>
     <field name="Data decyzji">05-02-2017</field>
-    <field name="KRS">0000007283</field>
-    <field name="NIP">1240744717</field>
-    <field name="Adres siedziby">os. Na Stoku 16, 31-704 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000046083</field>
+    <field name="NIP">1272420716</field>
+    <field name="Adres siedziby">Zwycięstwa 156, 44-100 Gliwice</field>
+    <field name="Siedziba">Gliwice</field>
   </record>
   <record>
     <field name="ID">ID-00477</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8521/2026</field>
-    <field name="Nazwa">Zielony Zefir Spółka Akcyjna</field>
+    <field name="Nazwa">GCG Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/11/01</field>
     <field name="Data wykreślenia">11-01-2026</field>
-    <field name="Data decyzji">2018-11-04</field>
-    <field name="KRS">0000007380</field>
-    <field name="NIP">1240823902</field>
-    <field name="Adres siedziby">ul. Krupówki 33/89, 34-500 Zakopane</field>
-    <field name="Siedziba">Zakopane</field>
+    <field name="Data decyzji">2018-04-11</field>
+    <field name="KRS">0000046180</field>
+    <field name="NIP">1272499907</field>
+    <field name="Adres siedziby">ul. Bocheńskiego 173/69, 43-100 Tychy</field>
+    <field name="Siedziba">Tychy</field>
   </record>
   <record>
     <field name="ID">ID-00478</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6445/2022</field>
-    <field name="Nazwa">Zielony Żubr sp. z o.o.</field>
+    <field name="Nazwa">LVO SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15-03-2023</field>
     <field name="Data wykreślenia">2024-13-09</field>
     <field name="Data decyzji">20230213</field>
-    <field name="KRS">0000007477</field>
-    <field name="NIP">1240903096</field>
-    <field name="Adres siedziby">50, 34-600 Mordarka</field>
-    <field name="Siedziba">Mordarka</field>
+    <field name="KRS">0000046277</field>
+    <field name="NIP">1272579090</field>
+    <field name="Adres siedziby">ul Najświętszej Maryi Panny 10, 42-200 Częstochowa</field>
+    <field name="Siedziba">Częstochowa</field>
   </record>
   <record>
     <field name="ID">ID-00479</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9332/2018</field>
-    <field name="Nazwa">Zielony Sokół sp z oo</field>
+    <field name="Nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2018-03-02</field>
+    <field name="Data wpisu">2018-02-03</field>
     <field name="Data wykreślenia">20251205</field>
     <field name="Data decyzji">04/01/2018</field>
-    <field name="KRS">0000007574</field>
-    <field name="NIP">1240982285</field>
-    <field name="Adres siedziby">ulica Galicyjska 67, 32-087 Zielonki</field>
-    <field name="Siedziba">Zielonki</field>
+    <field name="KRS">0000046374</field>
+    <field name="NIP">1272658286</field>
+    <field name="Adres siedziby">ulica 11 Listopada 27, 43-300 Bielsko-Biała</field>
+    <field name="Siedziba">Bielsko-Biała</field>
   </record>
   <record>
     <field name="ID">ID-00480</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1325/2026</field>
-    <field name="Nazwa">Zielony Orzeł sp. z o. o.</field>
+    <field name="Nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20221015</field>
     <field name="Data wykreślenia">04/08/2023</field>
     <field name="Data decyzji">2018/02/04</field>
-    <field name="KRS">0000007671</field>
-    <field name="NIP">1241061475</field>
-    <field name="Adres siedziby">84, 32-003 Podłęże</field>
-    <field name="Siedziba">Podłęże</field>
+    <field name="KRS">0000046471</field>
+    <field name="NIP">1272737471</field>
+    <field name="Adres siedziby">44, 36-047 Niechobrz</field>
+    <field name="Siedziba">Niechobrz</field>
   </record>
   <record>
     <field name="ID">ID-00481</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3018/2018</field>
-    <field name="Nazwa">mBank</field>
+    <field name="Nazwa">Facebook - Meta</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">07/12/2018</field>
     <field name="Data wykreślenia">2019/07/12</field>
     <field name="Data decyzji">24-02-2018</field>
-    <field name="KRS">0000007768</field>
-    <field name="NIP">1241140660</field>
-    <field name="Adres siedziby">ul. Wałowa 101/51, 33-100 Tarnów</field>
-    <field name="Siedziba">Tarnów</field>
+    <field name="KRS">0000046568</field>
+    <field name="NIP">1272816667</field>
+    <field name="Adres siedziby">ul. Franciszkańska 61/31, 37-700 Przemyśl</field>
+    <field name="Siedziba">Przemyśl</field>
   </record>
   <record>
     <field name="ID">ID-00482</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1645/2019</field>
-    <field name="Nazwa">Zielony Barycz SP Z O O</field>
+    <field name="Nazwa">NKM SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/24/10</field>
     <field name="Data wykreślenia">24-10-2026</field>
     <field name="Data decyzji">2019-30-10</field>
-    <field name="KRS">0000007865</field>
-    <field name="NIP">1241219858</field>
-    <field name="Adres siedziby">ul Narutowicza 118, 90-135 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000046665</field>
+    <field name="NIP">1272895856</field>
+    <field name="Adres siedziby">ul Kościuszki 78, 38-500 Sanok</field>
+    <field name="Siedziba">Sanok</field>
   </record>
   <record>
     <field name="ID">ID-00483</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5673/2024</field>
-    <field name="Nazwa">Zielony Noteć spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">JSF S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05-06-2017</field>
     <field name="Data wykreślenia">2025-28-11</field>
     <field name="Data decyzji">20170506</field>
-    <field name="KRS">0000007962</field>
-    <field name="NIP">1241299047</field>
-    <field name="Adres siedziby">ulica os. Retkinia 135, 94-004 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000046762</field>
+    <field name="NIP">1272975041</field>
+    <field name="Adres siedziby">ulica Suraska 95, 15-422 Białystok</field>
+    <field name="Siedziba">Białystok</field>
   </record>
   <record>
     <field name="ID">ID-00484</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9587/2022</field>
-    <field name="Nazwa">Zielony Pilica Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">YSY Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2019-06-11</field>
+    <field name="Data wpisu">2019-11-06</field>
     <field name="Data wykreślenia">20241126</field>
     <field name="Data decyzji">12/05/2019</field>
-    <field name="KRS">0000008059</field>
-    <field name="NIP">1241378232</field>
+    <field name="KRS">0000046859</field>
+    <field name="NIP">1273054231</field>
     <field name="Adres siedziby">112, 16-030</field>
     <field name="Siedziba"></field>
   </record>
@@ -1180,251 +1180,251 @@
     <field name="ID">ID-00485</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1076/2019</field>
-    <field name="Nazwa">Zielony Narew S.A.</field>
+    <field name="Nazwa">AKX sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220302</field>
     <field name="Data wykreślenia">05/11/2024</field>
     <field name="Data decyzji">2022/31/01</field>
-    <field name="KRS">0000008156</field>
-    <field name="NIP">1241457428</field>
-    <field name="Adres siedziby">ul. Długa 169/13, 95-100 Zgierz</field>
-    <field name="Siedziba">Zgierz</field>
+    <field name="KRS">0000046956</field>
+    <field name="NIP">1273133427</field>
+    <field name="Adres siedziby">ul. 3 Maja 129/83, 17-200 Hajnówka</field>
+    <field name="Siedziba">Hajnówka</field>
   </record>
   <record>
     <field name="ID">ID-00486</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8913/2025</field>
-    <field name="Nazwa">Zielony Jodełka SA</field>
+    <field name="Nazwa">NCK sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/01/2023</field>
     <field name="Data wykreślenia">2024/03/01</field>
     <field name="Data decyzji">28-03-2022</field>
-    <field name="KRS">0000008253</field>
-    <field name="NIP">1241536613</field>
-    <field name="Adres siedziby">ul Rynek 6, 50-101 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="KRS">0000047053</field>
+    <field name="NIP">1273212612</field>
+    <field name="Adres siedziby">ul os. LSM 146, 20-400 Lublin</field>
+    <field name="Siedziba">Lublin</field>
   </record>
   <record>
     <field name="ID">ID-00487</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6521/2026</field>
-    <field name="Nazwa">Zielony Kaktus S. A.</field>
+    <field name="Nazwa">RRG sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/16/05</field>
     <field name="Data wykreślenia">10-08-2025</field>
-    <field name="Data decyzji">2017-06-10</field>
-    <field name="KRS">0000008350</field>
-    <field name="NIP">1241615809</field>
-    <field name="Adres siedziby">ulica Jedności Narodowej 23, 50-260 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="Data decyzji">2017-10-06</field>
+    <field name="KRS">0000047150</field>
+    <field name="NIP">1273291801</field>
+    <field name="Adres siedziby">163, 24-120 Mięćmierz</field>
+    <field name="Siedziba">Mięćmierz</field>
   </record>
   <record>
     <field name="ID">ID-00488</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5232/2020</field>
-    <field name="Nazwa">Zielony Szmaragd Spółka Akcyjna</field>
+    <field name="Nazwa">PFD Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-07-2021</field>
-    <field name="Data wykreślenia">2022-12-10</field>
+    <field name="Data wykreślenia">2022-10-12</field>
     <field name="Data decyzji">20210614</field>
-    <field name="KRS">0000008447</field>
-    <field name="NIP">1241694996</field>
-    <field name="Adres siedziby">os. Konstytucji 3 Maja 40, 58-540 Karpacz</field>
-    <field name="Siedziba">Karpacz</field>
+    <field name="KRS">0000047247</field>
+    <field name="NIP"></field>
+    <field name="Adres siedziby">Brzeska 180, 21-500 Biała Podlaska</field>
+    <field name="Siedziba">Biała Podlaska</field>
   </record>
   <record>
     <field name="ID">ID-00489</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2873/2020</field>
-    <field name="Nazwa">Zielony Topaz sp. z o.o.</field>
+    <field name="Nazwa">JJS SP Z O O</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2023-12-10</field>
+    <field name="Data wpisu">2023-10-12</field>
     <field name="Data wykreślenia">20240722</field>
     <field name="Data decyzji">05/08/2019</field>
-    <field name="KRS">0000008544</field>
-    <field name="NIP"></field>
-    <field name="Adres siedziby">ul. Odrodzenia 57/65, 59-300 Lubin</field>
-    <field name="Siedziba">Lubin</field>
+    <field name="KRS">0000047344</field>
+    <field name="NIP">1273450180</field>
+    <field name="Adres siedziby">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
+    <field name="Siedziba">Toruń</field>
   </record>
   <record>
     <field name="ID">ID-00490</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8251/2025</field>
-    <field name="Nazwa">Zielony Granit sp z oo</field>
+    <field name="Nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220627</field>
     <field name="Data wykreślenia">24/02/2024</field>
     <field name="Data decyzji">2017/14/03</field>
-    <field name="KRS">0000008641</field>
-    <field name="NIP">1241853377</field>
-    <field name="Adres siedziby">ul Słowackiego 74, 58-300 Wałbrzych</field>
-    <field name="Siedziba">Wałbrzych</field>
+    <field name="KRS">0000047441</field>
+    <field name="NIP">1273529378</field>
+    <field name="Adres siedziby">ul Mostowa 34, 85-110 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
   </record>
   <record>
     <field name="ID">ID-00491</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9257/2021</field>
-    <field name="Nazwa">Zielony Marmur sp. z o. o.</field>
+    <field name="Nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">24/03/2021</field>
     <field name="Data wykreślenia">2025/29/07</field>
     <field name="Data decyzji">22-02-2021</field>
-    <field name="KRS">0000008738</field>
-    <field name="NIP">1241932562</field>
-    <field name="Adres siedziby">ulica Półwiejska 91, 61-888 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000047538</field>
+    <field name="NIP">1273608563</field>
+    <field name="Adres siedziby">ulica Stare Miasto 51, 10-026 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
   </record>
   <record>
     <field name="ID">ID-00492</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1195/2025</field>
-    <field name="Nazwa">Zielony Syrena Sp. z o.o.</field>
+    <field name="Nazwa">BGD S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/25/02</field>
     <field name="Data wykreślenia">10-11-2026</field>
     <field name="Data decyzji">2017-26-08</field>
-    <field name="KRS">0000008835</field>
-    <field name="NIP">1242011752</field>
-    <field name="Adres siedziby">os. Bolesława Chrobrego 108, 60-681 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000047635</field>
+    <field name="NIP">1273687752</field>
+    <field name="Adres siedziby">Warszawska 68, 11-700 Mrągowo</field>
+    <field name="Siedziba">Mrągowo</field>
   </record>
   <record>
     <field name="ID">ID-00493</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3712/2022</field>
-    <field name="Nazwa">Zielony Zodiak SP Z O O</field>
+    <field name="Nazwa">GBS SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13-04-2020</field>
-    <field name="Data wykreślenia">2023-09-07</field>
+    <field name="Data wykreślenia">2023-07-09</field>
     <field name="Data decyzji">20170920</field>
-    <field name="KRS">0000008932</field>
-    <field name="NIP">1242090941</field>
-    <field name="Adres siedziby">ul. Główny Rynek 125/27, 62-800 Kalisz</field>
-    <field name="Siedziba">Kalisz</field>
+    <field name="KRS">0000047732</field>
+    <field name="NIP">1273766948</field>
+    <field name="Adres siedziby">ul. Wojska Polskiego 85/7, 70-470 Szczecin</field>
+    <field name="Siedziba">Szczecin</field>
   </record>
   <record>
     <field name="ID">ID-00494</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5902/2020</field>
-    <field name="Nazwa">Zielony Olimp spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">YIC S. A.</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2018-05-04</field>
+    <field name="Data wpisu">2018-04-05</field>
     <field name="Data wykreślenia">20230224</field>
     <field name="Data decyzji">06/03/2018</field>
-    <field name="KRS">0000009029</field>
-    <field name="NIP">1242170137</field>
-    <field name="Adres siedziby">ul Kaliska 142, 63-400 Ostrów Wielkopolski</field>
-    <field name="Siedziba">Ostrów Wielkopolski</field>
+    <field name="KRS">0000047829</field>
+    <field name="NIP">1273846133</field>
+    <field name="Adres siedziby">os. Monte Cassino 102, 72-600 Świnoujście</field>
+    <field name="Siedziba">Świnoujście</field>
   </record>
   <record>
     <field name="ID">ID-00495</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7290/2019</field>
-    <field name="Nazwa">Zielony Zorza Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">OKT Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20221116</field>
     <field name="Data wykreślenia">13/11/2023</field>
     <field name="Data decyzji">2022/17/10</field>
-    <field name="KRS">0000009126</field>
-    <field name="NIP">1242249324</field>
-    <field name="Adres siedziby">ulica Ogarna 159, 80-826 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="KRS">0000047926</field>
+    <field name="NIP">1273925329</field>
+    <field name="Adres siedziby">ulica Rynek 119, 45-015 Opole</field>
+    <field name="Siedziba">Opole</field>
   </record>
   <record>
     <field name="ID">ID-00496</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2083/2024</field>
-    <field name="Nazwa">Zielony Krokus S.A.</field>
+    <field name="Nazwa">QPU sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28/04/2023</field>
     <field name="Data wykreślenia">2024/27/04</field>
     <field name="Data decyzji">29-03-2023</field>
-    <field name="KRS">0000009223</field>
-    <field name="NIP">1252328545</field>
-    <field name="Adres siedziby">os. Jasień 176, 80-180 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="KRS">0000048023</field>
+    <field name="NIP">1274004519</field>
+    <field name="Adres siedziby">Byczyńska 136, 46-200 Kluczbork</field>
+    <field name="Siedziba">Kluczbork</field>
   </record>
   <record>
     <field name="ID">ID-00497</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1918/2018</field>
-    <field name="Nazwa">Zielony Narcyz SA</field>
+    <field name="Nazwa">IEU sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/16/01</field>
     <field name="Data wykreślenia">17-09-2019</field>
     <field name="Data decyzji">2016-17-12</field>
-    <field name="KRS">0000009320</field>
-    <field name="NIP">1242407705</field>
-    <field name="Adres siedziby">ul. Bohaterów Monte Cassino 13/79, 81-759 Sopot</field>
-    <field name="Siedziba">Sopot</field>
+    <field name="KRS">0000048120</field>
+    <field name="NIP">1274083708</field>
+    <field name="Adres siedziby">ul. Chrobrego 153/59, 66-400 Gorzów Wielkopolski</field>
+    <field name="Siedziba">Gorzów Wielkopolski</field>
   </record>
   <record>
     <field name="ID">ID-00498</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6579/2026</field>
-    <field name="Nazwa">Zielony Giewont S. A.</field>
+    <field name="Nazwa">PAZ sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-08-2022</field>
-    <field name="Data wykreślenia">2023-12-08</field>
+    <field name="Data wykreślenia">2023-08-12</field>
     <field name="Data decyzji">20170712</field>
-    <field name="KRS">0000009417</field>
-    <field name="NIP">1242486892</field>
-    <field name="Adres siedziby">30, 80-209 Chwaszczyno</field>
-    <field name="Siedziba">Chwaszczyno</field>
+    <field name="KRS">0000048217</field>
+    <field name="NIP">1274162891</field>
+    <field name="Adres siedziby">ul 30 Stycznia 170, 66-300 Międzyrzecz</field>
+    <field name="Siedziba">Międzyrzecz</field>
   </record>
   <record>
     <field name="ID">ID-00499</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4155/2025</field>
-    <field name="Nazwa">Zielony Rysy Spółka Akcyjna</field>
+    <field name="Nazwa">ZAB Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-25-05</field>
     <field name="Data wykreślenia">20240802</field>
     <field name="Data decyzji">25/04/2017</field>
-    <field name="KRS">0000009514</field>
-    <field name="NIP">1242566088</field>
-    <field name="Adres siedziby">ulica 3 Maja 47, 40-096 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000048314</field>
+    <field name="NIP">1274242087</field>
+    <field name="Adres siedziby">ulica Paderewskiego 7, 25-004 Kielce</field>
+    <field name="Siedziba">Kielce</field>
   </record>
   <record>
     <field name="ID">ID-00500</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3929/2023</field>
-    <field name="Nazwa">Zielony Kasprowy sp. z o.o.</field>
+    <field name="Nazwa">SBZ SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181208</field>
     <field name="Data wykreślenia">02/10/2026</field>
     <field name="Data decyzji">2018/08/11</field>
-    <field name="KRS">0000009611</field>
-    <field name="NIP">1242645273</field>
-    <field name="Adres siedziby">os. Paderewskiego 64, 40-282 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000048411</field>
+    <field name="NIP">1274321272</field>
+    <field name="Adres siedziby">1 Maja 24, 28-100 Busko-Zdrój</field>
+    <field name="Siedziba">Busko-Zdrój</field>
   </record>
   <record>
     <field name="ID">ID-00501</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4607/2026</field>
-    <field name="Nazwa">PPHU Zielony Beskid</field>
+    <field name="Nazwa">PPHU Krajowy Rejestr Długów</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15/10/2024</field>
     <field name="Data wykreślenia">2025/15/10</field>
     <field name="Data decyzji">03-01-2018</field>
-    <field name="KRS">0000009708</field>
-    <field name="NIP">1242724469</field>
-    <field name="Adres siedziby">ul. Zwycięstwa 81/41, 44-100 Gliwice</field>
-    <field name="Siedziba">Gliwice</field>
+    <field name="KRS">0000048508</field>
+    <field name="NIP">1274400468</field>
+    <field name="Adres siedziby">ul. Marszałkowska 41/21, 00-590 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00502</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3780/2025</field>
-    <field name="Nazwa">Zielony Bieszczady sp. z o. o.</field>
+    <field name="Nazwa">Polskie Przetwory Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/31/10</field>
     <field name="Data wykreślenia">24-02-2024</field>
-    <field name="Data decyzji">2019-01-10</field>
-    <field name="KRS">0000009805</field>
-    <field name="NIP">1242803654</field>
+    <field name="Data decyzji">2019-10-01</field>
+    <field name="KRS">0000048605</field>
+    <field name="NIP">1274479659</field>
     <field name="Adres siedziby">ul Krakowskie Przedmieście 58</field>
     <field name="Siedziba"></field>
   </record>
@@ -1432,251 +1432,251 @@
     <field name="ID">ID-00503</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1494/2021</field>
-    <field name="Nazwa">Zielony Karpaty Sp. z o.o.</field>
+    <field name="Nazwa">Hurtownia Nabiału Mleczko S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">16-09-2018</field>
     <field name="Data wykreślenia">2025-03-03</field>
     <field name="Data decyzji">20180817</field>
-    <field name="KRS">0000009902</field>
-    <field name="NIP">1242882843</field>
-    <field name="Adres siedziby">ulica Najświętszej Maryi Panny 115, 42-200 Częstochowa</field>
-    <field name="Siedziba">Częstochowa</field>
+    <field name="KRS">0000048702</field>
+    <field name="NIP">1274558844</field>
+    <field name="Adres siedziby">ulica Floriańska 75, 31-019 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00504</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3835/2025</field>
-    <field name="Nazwa">Zielony Bałtyk SP Z O O</field>
+    <field name="Nazwa">Agencja Reklamowa Kreatywni SA</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2023-09-01</field>
+    <field name="Data wpisu">2023-01-09</field>
     <field name="Data wykreślenia">20260410</field>
     <field name="Data decyzji">10/10/2019</field>
-    <field name="KRS">0000009999</field>
-    <field name="NIP">1242962039</field>
-    <field name="Adres siedziby">11 Listopada 132, 43-300 Bielsko-Biała</field>
-    <field name="Siedziba">Bielsko-Biała</field>
+    <field name="KRS">0000048799</field>
+    <field name="NIP">1284638065</field>
+    <field name="Adres siedziby">Długa 92, 31-147 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00505</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8872/2024</field>
-    <field name="Nazwa">Zielony Sudety spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Kancelaria Prawna Sankcja S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180610</field>
     <field name="Data wykreślenia">10/06/2019</field>
     <field name="Data decyzji">2017/14/11</field>
-    <field name="KRS">0000010096</field>
-    <field name="NIP">1243041229</field>
-    <field name="Adres siedziby">149/3, 36-047 Niechobrz</field>
-    <field name="Siedziba">Niechobrz</field>
+    <field name="KRS">0000048896</field>
+    <field name="NIP">1274717225</field>
+    <field name="Adres siedziby">ul. Piotrkowska 109/73, 90-102 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00506</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8125/2025</field>
-    <field name="Nazwa">Niebieski Amber Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Śląskie Zakłady Mechaniczne Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06/10/2020</field>
     <field name="Data wykreślenia">2024/02/11</field>
     <field name="Data decyzji">06-09-2020</field>
-    <field name="KRS">0000010193</field>
-    <field name="NIP">1243120414</field>
-    <field name="Adres siedziby">ul Franciszkańska 166, 37-700 Przemyśl</field>
-    <field name="Siedziba">Przemyśl</field>
+    <field name="KRS">0000048993</field>
+    <field name="NIP">1274796414</field>
+    <field name="Adres siedziby">ul Zachodnia 126, 90-402 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00507</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2316/2025</field>
-    <field name="Nazwa">Niebieski Bizon S.A.</field>
+    <field name="Nazwa">Fabryka Okien i Drzwi Profil sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/15/04</field>
     <field name="Data wykreślenia">21-12-2026</field>
-    <field name="Data decyzji">2019-01-08</field>
-    <field name="KRS">0000010290</field>
-    <field name="NIP">1243199605</field>
-    <field name="Adres siedziby">ulica Kościuszki 3, 38-500 Sanok</field>
-    <field name="Siedziba">Sanok</field>
+    <field name="Data decyzji">2019-08-01</field>
+    <field name="KRS">0000049090</field>
+    <field name="NIP">1284875635</field>
+    <field name="Adres siedziby">ulica Świdnicka 143, 50-066 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
   </record>
   <record>
     <field name="ID">ID-00508</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UK--8585/2022</field>
-    <field name="Nazwa">Niebieski Canyon SA</field>
+    <field name="Nazwa">Przesdiębiorstwo Robót Drogowych sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">17-01-2025</field>
     <field name="Data wykreślenia">2026-17-01</field>
     <field name="Data decyzji">20211214</field>
-    <field name="KRS">0000010387</field>
-    <field name="NIP">1243278799</field>
-    <field name="Adres siedziby">Suraska 20, 15-422 Białystok</field>
-    <field name="Siedziba">Białystok</field>
+    <field name="KRS">0000049187</field>
+    <field name="NIP">1274954793</field>
+    <field name="Adres siedziby">Legnicka 160, 54-203 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
   </record>
   <record>
     <field name="ID">ID-00509</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1549/2020</field>
-    <field name="Nazwa">Niebieski Delfin S. A.</field>
+    <field name="Nazwa">Krakowskie Biuro Nieruchomości sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-25-05</field>
     <field name="Data wykreślenia">20260929</field>
     <field name="Data decyzji">25/04/2019</field>
-    <field name="KRS">0000010484</field>
-    <field name="NIP">1243357984</field>
-    <field name="Adres siedziby">37/55, 16-030 Ogrodniczki</field>
-    <field name="Siedziba">Ogrodniczki</field>
+    <field name="KRS">0000049284</field>
+    <field name="NIP">1275033983</field>
+    <field name="Adres siedziby">ul. Święty Marcin 177/35, 61-806 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00510</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8359/2021</field>
-    <field name="Nazwa">Niebieski Echo Spółka Akcyjna</field>
+    <field name="Nazwa">Salon Samochodowy Auto-Hit Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20230117</field>
     <field name="Data wykreślenia">13/05/2024</field>
     <field name="Data decyzji">2022/18/12</field>
-    <field name="KRS">0000010581</field>
-    <field name="NIP">1253437207</field>
-    <field name="Adres siedziby">ul 3 Maja 54, 17-200 Hajnówka</field>
-    <field name="Siedziba">Hajnówka</field>
+    <field name="KRS">0000049381</field>
+    <field name="NIP">1275113179</field>
+    <field name="Adres siedziby">ul Głogowska 14, 60-734 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00511</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2890/2022</field>
-    <field name="Nazwa">Niebieski Falcon sp. z o.o.</field>
+    <field name="Nazwa">Klinika Stomatologiczna Dent-Med SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/05/2023</field>
     <field name="Data wykreślenia">2024/24/05</field>
     <field name="Data decyzji">25-04-2023</field>
-    <field name="KRS">0000010678</field>
-    <field name="NIP">1243516365</field>
-    <field name="Adres siedziby">ulica os. LSM 71, 20-400 Lublin</field>
-    <field name="Siedziba">Lublin</field>
+    <field name="KRS">0000049478</field>
+    <field name="NIP">1275192368</field>
+    <field name="Adres siedziby">ulica Długa 31, 80-831 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00512</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9061/2024</field>
-    <field name="Nazwa">Niebieski Gryf sp z oo</field>
+    <field name="Nazwa">Polski Tytoń spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/25/07</field>
     <field name="Data wykreślenia">18-07-2026</field>
-    <field name="Data decyzji">2024-09-11</field>
-    <field name="KRS">0000010775</field>
-    <field name="NIP">1243595554</field>
-    <field name="Adres siedziby">88, 24-120 Mięćmierz</field>
-    <field name="Siedziba">Mięćmierz</field>
+    <field name="Data decyzji">2024-11-09</field>
+    <field name="KRS">0000049575</field>
+    <field name="NIP">1275271553</field>
+    <field name="Adres siedziby">Grunwaldzka 48, 80-236 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00513</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7406/2021</field>
-    <field name="Nazwa">Niebieski Horyzont sp. z o. o.</field>
+    <field name="Nazwa">Gdańska Stocznia Jachtowa Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">21-01-2023</field>
-    <field name="Data wykreślenia">2024-06-11</field>
+    <field name="Data wykreślenia">2024-11-06</field>
     <field name="Data decyzji">20220321</field>
-    <field name="KRS">0000010872</field>
-    <field name="NIP">1253674775</field>
-    <field name="Adres siedziby">ul. Brzeska 105/17, 21-500 Biała Podlaska</field>
-    <field name="Siedziba">Biała Podlaska</field>
+    <field name="KRS">0000049672</field>
+    <field name="NIP">1275350749</field>
+    <field name="Adres siedziby">ul. Jagiellońska 65/87, 70-435 Szczecin</field>
+    <field name="Siedziba">Szczecin</field>
   </record>
   <record>
     <field name="ID">ID-00514</field>
     <field name="Typ podmiotu">krajowa instytucja pieniadza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8582/2025</field>
-    <field name="Nazwa">Niebieski Ikar Sp. z o.o.</field>
+    <field name="Nazwa">Wytwórnia Makaronu Jajecznego S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-30-10</field>
     <field name="Data wykreślenia">20261030</field>
     <field name="Data decyzji">30/05/2020</field>
-    <field name="KRS">0000010969</field>
-    <field name="NIP">1243753935</field>
-    <field name="Adres siedziby">ul Rynek Staromiejski 122, 87-100 Toruń</field>
-    <field name="Siedziba">Toruń</field>
+    <field name="KRS">0000049769</field>
+    <field name="NIP">1275429936</field>
+    <field name="Adres siedziby">ul Wyszyńskiego 82, 70-200 Szczecin</field>
+    <field name="Siedziba">Szczecin</field>
   </record>
   <record>
     <field name="ID">ID-00515</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4546/2026</field>
-    <field name="Nazwa">Niebieski Jantar SP Z O O</field>
+    <field name="Nazwa">Zakłady Mięsne Tradycja SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20241223</field>
     <field name="Data wykreślenia">03/03/2025</field>
     <field name="Data decyzji">2019/07/12</field>
     <field name="KRS"></field>
-    <field name="NIP">1243833120</field>
-    <field name="Adres siedziby">ulica Mostowa 139, 85-110 Bydgoszcz</field>
-    <field name="Siedziba">Bydgoszcz</field>
+    <field name="NIP">1275509121</field>
+    <field name="Adres siedziby">ulica Mariacka 99, 40-014 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
   <record>
     <field name="ID">ID-00516</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2081/2025</field>
-    <field name="Nazwa">Niebieski Koral spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Spółdzielnia Mleczarska Radomsko S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">02/03/2019</field>
     <field name="Data wykreślenia">2026/10/04</field>
     <field name="Data decyzji">11-08-2018</field>
-    <field name="KRS">0000011163</field>
-    <field name="NIP">1243912316</field>
-    <field name="Adres siedziby">Stare Miasto 156, 10-026 Olsztyn</field>
-    <field name="Siedziba">Olsztyn</field>
+    <field name="KRS">0000049963</field>
+    <field name="NIP">1275588310</field>
+    <field name="Adres siedziby">Warszawska 116, 40-009 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
   <record>
     <field name="ID">ID-00517</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1868/2021</field>
-    <field name="Nazwa">Niebieski Lotos Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Kancelaria Finansowo-Księgowa Bilans Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/08/05</field>
     <field name="Data wykreślenia">08-05-2026</field>
     <field name="Data decyzji">2019-22-03</field>
-    <field name="KRS">0000011260</field>
-    <field name="NIP">1243991505</field>
-    <field name="Adres siedziby">os. Warszawska 173/69, 11-700 Mrągowo</field>
-    <field name="Siedziba">Mrągowo</field>
+    <field name="KRS">0000050060</field>
+    <field name="NIP">1275667506</field>
+    <field name="Adres siedziby">ul. Krakowskie Przedmieście 133/49, 20-002 Lublin</field>
+    <field name="Siedziba">Lublin</field>
   </record>
   <record>
     <field name="ID">ID-00518</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4302/2024</field>
-    <field name="Nazwa">Niebieski Magnolia S.A.</field>
+    <field name="Nazwa">Zarząd Nieruchomości Komercyjnych sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">26-03-2017</field>
-    <field name="Data wykreślenia">2022-02-08</field>
+    <field name="Data wykreślenia">2022-08-02</field>
     <field name="Data decyzji">20170224</field>
-    <field name="KRS">0000011357</field>
-    <field name="NIP">1244070693</field>
-    <field name="Adres siedziby">ul Wojska Polskiego 10, 70-470 Szczecin</field>
-    <field name="Siedziba">Szczecin</field>
+    <field name="KRS">0000050157</field>
+    <field name="NIP">1285746727</field>
+    <field name="Adres siedziby">ul Narutowicza 150, 20-004 Lublin</field>
+    <field name="Siedziba">Lublin</field>
   </record>
   <record>
     <field name="ID">ID-00519</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2789/2025</field>
-    <field name="Nazwa">Niebieski Neon SA</field>
+    <field name="Nazwa">Polskie Linie Oceaniczne sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-15-02</field>
     <field name="Data wykreślenia">20220215</field>
     <field name="Data decyzji">16/01/2021</field>
-    <field name="KRS">0000011454</field>
-    <field name="NIP">1244149880</field>
-    <field name="Adres siedziby">ulica Monte Cassino 27, 72-600 Świnoujście</field>
-    <field name="Siedziba">Świnoujście</field>
+    <field name="KRS">0000050254</field>
+    <field name="NIP">1275825885</field>
+    <field name="Adres siedziby">ulica Lipowa 167, 15-424 Białystok</field>
+    <field name="Siedziba">Białystok</field>
   </record>
   <record>
     <field name="ID">ID-00520</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4367/2026</field>
-    <field name="Nazwa">Niebieski Oaza S. A.</field>
+    <field name="Nazwa">Hurtownia Materiałów Budowlanych Cegiełka sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20190112</field>
     <field name="Data wykreślenia">12/01/2020</field>
     <field name="Data decyzji">2017/05/10</field>
-    <field name="KRS">0000011551</field>
-    <field name="NIP">1244229076</field>
+    <field name="KRS">0000050351</field>
+    <field name="NIP">1275905070</field>
     <field name="Adres siedziby">Sienkiewicza 4, Białystok</field>
     <field name="Siedziba">Białystok</field>
   </record>
@@ -1684,251 +1684,251 @@
     <field name="ID">ID-00521</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6640/2022</field>
-    <field name="Nazwa">X - Twitter</field>
+    <field name="Nazwa">Instagram - Meta</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/05/2017</field>
     <field name="Data wykreślenia">2024/01/09</field>
     <field name="Data decyzji">30-04-2017</field>
-    <field name="KRS">0000011648</field>
-    <field name="NIP">1244308261</field>
-    <field name="Adres siedziby">ul. Byczyńska 61/31, 46-200 Kluczbork</field>
-    <field name="Siedziba">Kluczbork</field>
+    <field name="KRS">0000050448</field>
+    <field name="NIP">1285984295</field>
+    <field name="Adres siedziby">ul. Gdańska 21/11, 85-005 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
   </record>
   <record>
     <field name="ID">ID-00522</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1768/2019</field>
-    <field name="Nazwa">Niebieski Rubin sp. z o.o.</field>
+    <field name="Nazwa">Centrum Medycyny Pracy SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/24/01</field>
     <field name="Data wykreślenia">06-11-2024</field>
     <field name="Data decyzji">2018-14-09</field>
-    <field name="KRS">0000011745</field>
-    <field name="NIP">1244387450</field>
-    <field name="Adres siedziby">ul Chrobrego 78, 66-400 Gorzów Wielkopolski</field>
-    <field name="Siedziba">Gorzów Wielkopolski</field>
+    <field name="KRS">0000050545</field>
+    <field name="NIP">1286063485</field>
+    <field name="Adres siedziby">ul Dworcowa 38, 85-009 Bydgoszcz</field>
+    <field name="Siedziba">Bydgoszcz</field>
   </record>
   <record>
     <field name="ID">ID-00523</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7577/2024</field>
-    <field name="Nazwa">Niebieski Szafir sp z oo</field>
+    <field name="Nazwa">Przedsiębiorstwo Energetyki Cieplnej spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">31-07-2025</field>
     <field name="Data wykreślenia">2025-25-10</field>
     <field name="Data decyzji">20200112</field>
-    <field name="KRS">0000011842</field>
-    <field name="NIP">1244466646</field>
-    <field name="Adres siedziby">ulica 30 Stycznia 95, 66-300 Międzyrzecz</field>
-    <field name="Siedziba">Międzyrzecz</field>
+    <field name="KRS">0000050642</field>
+    <field name="NIP">1276142645</field>
+    <field name="Adres siedziby">os. Szeroka 55, 87-100 Toruń</field>
+    <field name="Siedziba">Toruń</field>
   </record>
   <record>
     <field name="ID">ID-00524</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3049/2021</field>
-    <field name="Nazwa">Niebieski Tytan sp. z o. o.</field>
+    <field name="Nazwa">Gospodarstwo Rolno-Ogrodnicze Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-21-06</field>
     <field name="Data wykreślenia">20250621</field>
     <field name="Data decyzji">11/04/2024</field>
-    <field name="KRS">0000011939</field>
-    <field name="NIP">1244545831</field>
-    <field name="Adres siedziby">Paderewskiego 112, 25-004 Kielce</field>
-    <field name="Siedziba">Kielce</field>
+    <field name="KRS">0000050739</field>
+    <field name="NIP">1276221830</field>
+    <field name="Adres siedziby">Chełmińska 72, 87-100 Toruń</field>
+    <field name="Siedziba">Toruń</field>
   </record>
   <record>
     <field name="ID">ID-00525</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5903/2021</field>
-    <field name="Nazwa">Niebieski Uran Sp. z o.o.</field>
+    <field name="Nazwa">Drukarnia Wielkoformatowa Impress S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220522</field>
     <field name="Data wykreślenia">22/05/2023</field>
     <field name="Data decyzji">2017/25/02</field>
-    <field name="KRS">0000012036</field>
-    <field name="NIP">1244625027</field>
-    <field name="Adres siedziby">ul. 1 Maja 129/83, 28-100 Busko-Zdrój</field>
-    <field name="Siedziba">Busko-Zdrój</field>
+    <field name="KRS">0000050836</field>
+    <field name="NIP">1276301026</field>
+    <field name="Adres siedziby">ul. 3 Maja 89/63, 35-030 Rzeszów</field>
+    <field name="Siedziba">Rzeszów</field>
   </record>
   <record>
     <field name="ID">ID-00526</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7787/2022</field>
-    <field name="Nazwa">Niebieski Wektor SP Z O O</field>
+    <field name="Nazwa">Klub Fitness Sylwetka SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14/02/2020</field>
     <field name="Data wykreślenia">2024/24/02</field>
     <field name="Data decyzji">15-01-2020</field>
-    <field name="KRS">0000012133</field>
-    <field name="NIP">1244704212</field>
-    <field name="Adres siedziby">ul Marszałkowska 146, 00-590 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000050933</field>
+    <field name="NIP">1276380215</field>
+    <field name="Adres siedziby">ul Piłsudskiego 106, 35-074 Rzeszów</field>
+    <field name="Siedziba">Rzeszów</field>
   </record>
   <record>
     <field name="ID">ID-00527</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9347/2019</field>
-    <field name="Nazwa">Niebieski Zefir spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Polska Grupa Energetyczna S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/07/12</field>
     <field name="Data wykreślenia">23-12-2022</field>
-    <field name="Data decyzji">2017-07-11</field>
-    <field name="KRS">0000012230</field>
-    <field name="NIP">1244783401</field>
-    <field name="Adres siedziby">ulica Krakowskie Przedmieście 163, 00-071 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="Data decyzji">2017-11-07</field>
+    <field name="KRS">0000051030</field>
+    <field name="NIP">1276459402</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 123, 25-007 Kielce</field>
+    <field name="Siedziba">Kielce</field>
   </record>
   <record>
     <field name="ID">ID-00528</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4753/2019</field>
-    <field name="Nazwa">Niebieski Żubr Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Mazowieckie Zakłady Drobiarskie Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">16-07-2023</field>
-    <field name="Data wykreślenia">2025-07-06</field>
+    <field name="Data wykreślenia">2025-06-07</field>
     <field name="Data decyzji">20200311</field>
-    <field name="KRS">0000012327</field>
-    <field name="NIP">1244862595</field>
-    <field name="Adres siedziby">Floriańska 180, 31-019 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000051127</field>
+    <field name="NIP">1276538596</field>
+    <field name="Adres siedziby">Warszawska 140, 25-512 Kielce</field>
+    <field name="Siedziba">Kielce</field>
   </record>
   <record>
     <field name="ID">ID-00529</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9564/2019</field>
-    <field name="Nazwa">Niebieski Sokół S.A.</field>
+    <field name="Nazwa">Hurtownia Farmaceutyczna Aptekarz sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023-18-08</field>
     <field name="Data wykreślenia">20240817</field>
     <field name="Data decyzji">18/06/2018</field>
-    <field name="KRS">0000012424</field>
-    <field name="NIP">1244941780</field>
-    <field name="Adres siedziby">ul. Długa 17/45, 31-147 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000051224</field>
+    <field name="NIP">1276617781</field>
+    <field name="Adres siedziby">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
   </record>
   <record>
     <field name="ID">ID-00530</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4199/2021</field>
-    <field name="Nazwa">Niebieski Orzeł SA</field>
+    <field name="Nazwa">Kancelaria Notarialna Lex sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220213</field>
     <field name="Data wykreślenia">13/02/2023</field>
     <field name="Data decyzji">2020/12/01</field>
-    <field name="KRS">0000012521</field>
-    <field name="NIP">1245020970</field>
-    <field name="Adres siedziby">ul Piotrkowska 34, 90-102 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000051321</field>
+    <field name="NIP">1276696970</field>
+    <field name="Adres siedziby">ul Dąbrowszczaków 174, 10-540 Olsztyn</field>
+    <field name="Siedziba">Olsztyn</field>
   </record>
   <record>
     <field name="ID">ID-00531</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8421/2018</field>
-    <field name="Nazwa">Niebieski Kormoran S. A.</field>
+    <field name="Nazwa">Biuro Podróży Wojażer sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/02/2024</field>
     <field name="Data wykreślenia">2025/19/02</field>
     <field name="Data decyzji">21-01-2024</field>
-    <field name="KRS">0000012618</field>
-    <field name="NIP">1245100166</field>
-    <field name="Adres siedziby">ulica Zachodnia 51, 90-402 Łódź</field>
-    <field name="Siedziba">Łódź</field>
+    <field name="KRS">0000051418</field>
+    <field name="NIP">1276776166</field>
+    <field name="Adres siedziby">ulica Krakowska 11, 45-018 Opole</field>
+    <field name="Siedziba">Opole</field>
   </record>
   <record>
     <field name="ID">ID-00532</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5736/2019</field>
-    <field name="Nazwa">Niebieski Barycz Spółka Akcyjna</field>
+    <field name="Nazwa">Szkoła Języków Obcych Lingua Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/11/07</field>
     <field name="Data wykreślenia">09-09-2025</field>
     <field name="Data decyzji">2020-11-06</field>
-    <field name="KRS">0000012715</field>
-    <field name="NIP">1245179357</field>
-    <field name="Adres siedziby">Świdnicka 68, 50-066 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="KRS">0000051515</field>
+    <field name="NIP">1276855351</field>
+    <field name="Adres siedziby">Ozimska 28, 45-057 Opole</field>
+    <field name="Siedziba">Opole</field>
   </record>
   <record>
     <field name="ID">ID-00533</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2623/2019</field>
-    <field name="Nazwa">Niebieski Noteć sp. z o.o.</field>
+    <field name="Nazwa">Centrum Logistyczne Podlasie SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">19-02-2024</field>
     <field name="Data wykreślenia">2024-19-06</field>
     <field name="Data decyzji">20230127</field>
-    <field name="KRS">0000012812</field>
-    <field name="NIP">1245258542</field>
-    <field name="Adres siedziby">ul. Legnicka 85/7, 54-203 Wrocław</field>
-    <field name="Siedziba">Wrocław</field>
+    <field name="KRS">0000051612</field>
+    <field name="NIP">1276934547</field>
+    <field name="Adres siedziby">ul. Bohaterów Westerplatte 45/77, 65-034 Zielona Góra</field>
+    <field name="Siedziba">Zielona Góra</field>
   </record>
   <record>
     <field name="ID">ID-00534</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9163/2026</field>
-    <field name="Nazwa">Niebieski Pilica sp z oo</field>
+    <field name="Nazwa">Fabryka Mebli Drewnianych Dąb spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2025-09-04</field>
+    <field name="Data wpisu">2025-04-09</field>
     <field name="Data wykreślenia">20260409</field>
     <field name="Data decyzji">01/04/2025</field>
-    <field name="KRS">0000012909</field>
-    <field name="NIP">1245337738</field>
-    <field name="Adres siedziby">ul Święty Marcin 102, 61-806 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000051709</field>
+    <field name="NIP">1277013737</field>
+    <field name="Adres siedziby">ul Kupiecka 62, 65-058 Zielona Góra</field>
+    <field name="Siedziba">Zielona Góra</field>
   </record>
   <record>
     <field name="ID">ID-00535</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2496/2018</field>
-    <field name="Nazwa">Niebieski Narew sp. z o. o.</field>
+    <field name="Nazwa">Polskie Sady Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240714</field>
     <field name="Data wykreślenia">14/07/2025</field>
     <field name="Data decyzji">2018/08/06</field>
-    <field name="KRS">0000013006</field>
-    <field name="NIP">1245416923</field>
-    <field name="Adres siedziby">ulica Głogowska 119, 60-734 Poznań</field>
-    <field name="Siedziba">Poznań</field>
+    <field name="KRS">0000051806</field>
+    <field name="NIP">1277092926</field>
+    <field name="Adres siedziby">ulica Świętojańska 79, 81-372 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
   </record>
   <record>
     <field name="ID">ID-00536</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9859/2024</field>
-    <field name="Nazwa">Niebieski Jodełka Sp. z o.o.</field>
+    <field name="Nazwa">Wielkopolska Hurtownia Stali S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/10/2023</field>
     <field name="Data wykreślenia">2025/07/08</field>
     <field name="Data decyzji">16-06-2022</field>
-    <field name="KRS">0000013103</field>
-    <field name="NIP">1245496112</field>
-    <field name="Adres siedziby">Długa 136, 80-831 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="KRS">0000051903</field>
+    <field name="NIP">1277172111</field>
+    <field name="Adres siedziby">10 Lutego 96, 81-364 Gdynia</field>
+    <field name="Siedziba">Gdynia</field>
   </record>
   <record>
     <field name="ID">ID-00537</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1044/2021</field>
-    <field name="Nazwa">Niebieski Kaktus SP Z O O</field>
+    <field name="Nazwa">Zakład Oczyszczania Miasta SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/03/01</field>
     <field name="Data wykreślenia">04-11-2025</field>
-    <field name="Data decyzji">2018-04-12</field>
-    <field name="KRS">0000013200</field>
-    <field name="NIP">1245575308</field>
-    <field name="Adres siedziby">ul. Grunwaldzka 153/59, 80-236 Gdańsk</field>
-    <field name="Siedziba">Gdańsk</field>
+    <field name="Data decyzji">2018-12-04</field>
+    <field name="KRS">0000052000</field>
+    <field name="NIP">1277251307</field>
+    <field name="Adres siedziby">ul. Bolesława Prusa 113/39, 05-800 Pruszków</field>
+    <field name="Siedziba">Pruszków</field>
   </record>
   <record>
     <field name="ID">ID-00538</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3474/2020</field>
-    <field name="Nazwa">Niebieski Szmaragd spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Przedsiębiorstwo Wodociągów i Kanalizacji S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2018</field>
     <field name="Data wykreślenia">2022-19-06</field>
     <field name="Data decyzji">20170517</field>
-    <field name="KRS">0000013297</field>
-    <field name="NIP">1245654491</field>
+    <field name="KRS">0000052097</field>
+    <field name="NIP">1277330490</field>
     <field name="Adres siedziby">05-500 Piaseczno</field>
     <field name="Siedziba">Piaseczno</field>
   </record>
@@ -1936,643 +1936,643 @@
     <field name="ID">ID-00539</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2757/2026</field>
-    <field name="Nazwa">Niebieski Topaz Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Instytut Badań Rynkowych Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-29-03</field>
     <field name="Data wykreślenia">20250303</field>
     <field name="Data decyzji">26/04/2022</field>
-    <field name="KRS">0000013394</field>
-    <field name="NIP">1245733687</field>
-    <field name="Adres siedziby">ulica Wyszyńskiego 7, 70-200 Szczecin</field>
-    <field name="Siedziba">Szczecin</field>
+    <field name="KRS">0000052194</field>
+    <field name="NIP">1277409688</field>
+    <field name="Adres siedziby">ulica Sienkiewicza 147, 32-020 Wieliczka</field>
+    <field name="Siedziba">Wieliczka</field>
   </record>
   <record>
     <field name="ID">ID-00540</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6743/2018</field>
-    <field name="Nazwa">Niebieski Granit S.A.</field>
+    <field name="Nazwa">Agencja Ochrony Solidna sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200221</field>
     <field name="Data wykreślenia">23/05/2024</field>
     <field name="Data decyzji">2020/10/01</field>
-    <field name="KRS">0000013491</field>
-    <field name="NIP">1245812872</field>
-    <field name="Adres siedziby">Mariacka 24, 40-014 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000052291</field>
+    <field name="NIP">1277488877</field>
+    <field name="Adres siedziby">Dąbrowskiego 164, 32-600 Oświęcim</field>
+    <field name="Siedziba">Oświęcim</field>
   </record>
   <record>
     <field name="ID">ID-00541</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8676/2026</field>
-    <field name="Nazwa">P.P.H.U. Niebieski Marmur</field>
+    <field name="Nazwa">P.P.H.U. Salon Meblowy Komfort</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25/06/2021</field>
     <field name="Data wykreślenia">2022/25/06</field>
     <field name="Data decyzji">26-05-2021</field>
-    <field name="KRS">0000013588</field>
-    <field name="NIP">1245892061</field>
-    <field name="Adres siedziby">ul. Warszawska 41/21, 40-009 Katowice</field>
-    <field name="Siedziba">Katowice</field>
+    <field name="KRS">0000052388</field>
+    <field name="NIP">1277568062</field>
+    <field name="Adres siedziby">ul. Rynek 1/1, 38-400 Krosno</field>
+    <field name="Siedziba">Krosno</field>
   </record>
   <record>
     <field name="ID">ID-00542</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5648/2026</field>
-    <field name="Nazwa">Niebieski Syrena S. A.</field>
+    <field name="Nazwa">Krajowa Izba Gospodarcza sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024/05/04</field>
     <field name="Data wykreślenia">07-12-2024</field>
     <field name="Data decyzji">2023-15-12</field>
-    <field name="KRS">0000013685</field>
-    <field name="NIP">1245971257</field>
-    <field name="Adres siedziby">ul Krakowskie Przedmieście 58, 20-002 Lublin</field>
-    <field name="Siedziba">Lublin</field>
+    <field name="KRS">0000052485</field>
+    <field name="NIP">1277647258</field>
+    <field name="Adres siedziby">ul Mickiewicza 18, 39-300 Mielec</field>
+    <field name="Siedziba">Mielec</field>
   </record>
   <record>
     <field name="ID">ID-00543</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5504/2023</field>
-    <field name="Nazwa">Niebieski Zodiak Spółka Akcyjna</field>
+    <field name="Nazwa">Polskie Zakłady Lotnicze Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">10-04-2025</field>
-    <field name="Data wykreślenia">2026-10-04</field>
+    <field name="Data wykreślenia">2026-04-10</field>
     <field name="Data decyzji">20200907</field>
-    <field name="KRS">0000013782</field>
-    <field name="NIP">1246050447</field>
-    <field name="Adres siedziby">ulica Narutowicza 75, 20-004 Lublin</field>
-    <field name="Siedziba">Lublin</field>
+    <field name="KRS">0000052582</field>
+    <field name="NIP">1277726443</field>
+    <field name="Adres siedziby">ulica Długa 35, 58-100 Świdnica</field>
+    <field name="Siedziba">Świdnica</field>
   </record>
   <record>
     <field name="ID">ID-00544</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4991/2025</field>
-    <field name="Nazwa">Niebieski Olimp sp. z o.o.</field>
+    <field name="Nazwa">Hurtownia Elektryczna Wat SP Z O O</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2022-10-04</field>
+    <field name="Data wpisu">2022-04-10</field>
     <field name="Data wykreślenia">20231004</field>
     <field name="Data decyzji">19/11/2017</field>
-    <field name="KRS">0000013879</field>
-    <field name="NIP">1246129634</field>
-    <field name="Adres siedziby">Lipowa 92, 15-424 Białystok</field>
-    <field name="Siedziba">Białystok</field>
+    <field name="KRS">0000052679</field>
+    <field name="NIP">1277805639</field>
+    <field name="Adres siedziby">Wojska Polskiego 52, 57-300 Kłodzko</field>
+    <field name="Siedziba">Kłodzko</field>
   </record>
   <record>
     <field name="ID">ID-00545</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7846/2022</field>
-    <field name="Nazwa">Niebieski Zorza sp z oo</field>
+    <field name="Nazwa">Centrum Ogrodnicze Zielona Oaza spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251220</field>
     <field name="Data wykreślenia">20/12/2026</field>
     <field name="Data decyzji">2019/08/02</field>
-    <field name="KRS">0000013976</field>
-    <field name="NIP">1256208855</field>
-    <field name="Adres siedziby">ul. Sienkiewicza 109/73, 15-092 Białystok</field>
-    <field name="Siedziba">Białystok</field>
+    <field name="KRS">0000052776</field>
+    <field name="NIP">1277884828</field>
+    <field name="Adres siedziby">ul. Chrobrego 69/53, 62-200 Gniezno</field>
+    <field name="Siedziba">Gniezno</field>
   </record>
   <record>
     <field name="ID">ID-00546</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3536/2024</field>
-    <field name="Nazwa">Niebieski Krokus sp. z o. o.</field>
+    <field name="Nazwa">Piekarnia i Cukiernia Chrupiący Rogalik Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2019</field>
     <field name="Data wykreślenia">2020/24/10</field>
     <field name="Data decyzji">28-03-2019</field>
-    <field name="KRS">0000014073</field>
-    <field name="NIP">1246288019</field>
-    <field name="Adres siedziby">os. Gdańska 126, 85-005 Bydgoszcz</field>
-    <field name="Siedziba">Bydgoszcz</field>
+    <field name="KRS">0000052873</field>
+    <field name="NIP">1277964013</field>
+    <field name="Adres siedziby">ul Słowiańska 86, 64-100 Leszno</field>
+    <field name="Siedziba">Leszno</field>
   </record>
   <record>
     <field name="ID">ID-00547</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1361/2022</field>
-    <field name="Nazwa">Niebieski Narcyz Sp. z o.o.</field>
+    <field name="Nazwa">Zakład Usług Komunalnych S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/20/07</field>
     <field name="Data wykreślenia">19-07-2024</field>
     <field name="Data decyzji">2023-20-06</field>
-    <field name="KRS">0000014170</field>
-    <field name="NIP">1246367204</field>
-    <field name="Adres siedziby">ulica Dworcowa 143, 85-009 Bydgoszcz</field>
-    <field name="Siedziba">Bydgoszcz</field>
+    <field name="KRS">0000052970</field>
+    <field name="NIP">1278043203</field>
+    <field name="Adres siedziby">103, 83-110 Tczew</field>
+    <field name="Siedziba">Tczew</field>
   </record>
   <record>
     <field name="ID">ID-00548</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8859/2019</field>
-    <field name="Nazwa">Niebieski Giewont SP Z O O</field>
+    <field name="Nazwa">Polski Komfort SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-09-2017</field>
     <field name="Data wykreślenia">2024-29-05</field>
     <field name="Data decyzji">20170118</field>
-    <field name="KRS">0000014267</field>
-    <field name="NIP">1246446398</field>
-    <field name="Adres siedziby">Szeroka 160, 87-100 Toruń</field>
-    <field name="Siedziba">Toruń</field>
+    <field name="KRS">0000053067</field>
+    <field name="NIP">1278122397</field>
+    <field name="Adres siedziby">Sobieskiego 120, 84-200 Wejherowo</field>
+    <field name="Siedziba">Wejherowo</field>
   </record>
   <record>
     <field name="ID">ID-00549</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9096/2020</field>
-    <field name="Nazwa">Niebieski Rysy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Kancelaria Radców Prawnych Partnerzy S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-06-06</field>
     <field name="Data wykreślenia">20240311</field>
     <field name="Data decyzji">07/05/2021</field>
-    <field name="KRS">0000014364</field>
-    <field name="NIP">1246525583</field>
-    <field name="Adres siedziby">ul. Chełmińska 177/35, 87-100 Toruń</field>
-    <field name="Siedziba">Toruń</field>
+    <field name="KRS">0000053164</field>
+    <field name="NIP">1278201582</field>
+    <field name="Adres siedziby">ul. Głęboka 137/15, 43-400 Cieszyn</field>
+    <field name="Siedziba">Cieszyn</field>
   </record>
   <record>
     <field name="ID">ID-00550</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3889/2018</field>
-    <field name="Nazwa">Niebieski Kasprowy Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Status"></field>
+    <field name="Nazwa"></field>
+    <field name="Status">AKTYWNY</field>
     <field name="Data wpisu"></field>
     <field name="Data wykreślenia"></field>
     <field name="Data decyzji">2022/10/05</field>
-    <field name="KRS">0000014461</field>
-    <field name="NIP">1246604779</field>
-    <field name="Adres siedziby">ul 3 Maja 14, 35-030 Rzeszów</field>
-    <field name="Siedziba">Rzeszów</field>
+    <field name="KRS">0000053261</field>
+    <field name="NIP">1278280771</field>
+    <field name="Adres siedziby">ul Małachowskiego 154, 42-500 Będzin</field>
+    <field name="Siedziba">Będzin</field>
   </record>
   <record>
     <field name="ID">ID-00551</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9863/2023</field>
-    <field name="Nazwa">Amber Budownictwo S.A.</field>
+    <field name="Nazwa">Przedsiębiorstwo Spedycyjne Ładunek sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/07/2018</field>
     <field name="Data wykreślenia">2023/29/11</field>
     <field name="Data decyzji">05-06-2018</field>
-    <field name="KRS">0000014558</field>
-    <field name="NIP">1246683968</field>
-    <field name="Adres siedziby">ulica Piłsudskiego 31, 35-074 Rzeszów</field>
-    <field name="Siedziba">Rzeszów</field>
+    <field name="KRS">0000053358</field>
+    <field name="NIP">1278359969</field>
+    <field name="Adres siedziby">ulica Królowej Jadwigi 171, 88-100 Inowrocław</field>
+    <field name="Siedziba">Inowrocław</field>
   </record>
   <record>
     <field name="ID">ID-00552</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5703/2021</field>
-    <field name="Nazwa">Amber Transport SA</field>
+    <field name="Nazwa">Fabryka Tekstyliów Splot sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/27/04</field>
     <field name="Data wykreślenia">26-04-2026</field>
     <field name="Data decyzji">2017-27-02</field>
-    <field name="KRS">0000014655</field>
-    <field name="NIP">1246763153</field>
-    <field name="Adres siedziby">Sienkiewicza 48, 25-007 Kielce</field>
-    <field name="Siedziba">Kielce</field>
+    <field name="KRS">0000053455</field>
+    <field name="NIP">1278439154</field>
+    <field name="Adres siedziby">os. Wybickiego 8, 86-300 Grudziądz</field>
+    <field name="Siedziba">Grudziądz</field>
   </record>
   <record>
     <field name="ID">ID-00553</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3180/2025</field>
-    <field name="Nazwa">Amber Spedycja S. A.</field>
+    <field name="Nazwa">Górnośląskie Towarzystwo Finansowe sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15-01-2020</field>
     <field name="Data wykreślenia">2021-14-01</field>
     <field name="Data decyzji">20191216</field>
-    <field name="KRS">0000014752</field>
-    <field name="NIP">1246842349</field>
-    <field name="Adres siedziby">ul. Warszawska 65/87, 25-512 Kielce</field>
-    <field name="Siedziba">Kielce</field>
+    <field name="KRS">0000053552</field>
+    <field name="NIP">1288518375</field>
+    <field name="Adres siedziby">ul. Czarnieckiego 25/67, 14-100 Ostróda</field>
+    <field name="Siedziba">Ostróda</field>
   </record>
   <record>
     <field name="ID">ID-00554</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9030/2020</field>
-    <field name="Nazwa">Amber Logistyka Spółka Akcyjna</field>
+    <field name="Nazwa">Krajowa Agencja Informacyjna Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-14-06</field>
     <field name="Data wykreślenia">20250610</field>
     <field name="Data decyzji">15/05/2019</field>
-    <field name="KRS">0000014849</field>
-    <field name="NIP">1246921534</field>
-    <field name="Adres siedziby">ul Kościuszki 82, 10-504 Olsztyn</field>
-    <field name="Siedziba">Olsztyn</field>
+    <field name="KRS">0000053649</field>
+    <field name="NIP">1278597539</field>
+    <field name="Adres siedziby">42, 11-500 Giżycko</field>
+    <field name="Siedziba">Giżycko</field>
   </record>
   <record>
     <field name="ID">ID-00555</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9116/2019</field>
-    <field name="Nazwa">Amber Handel sp. z o.o.</field>
+    <field name="Nazwa">Polskie Jagody SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20170721</field>
     <field name="Data wykreślenia">21/07/2018</field>
     <field name="Data decyzji">2017/21/06</field>
-    <field name="KRS">0000014946</field>
-    <field name="NIP">1247000724</field>
-    <field name="Adres siedziby">ulica Dąbrowszczaków 99, 10-540 Olsztyn</field>
-    <field name="Siedziba">Olsztyn</field>
+    <field name="KRS">0000053746</field>
+    <field name="NIP">1278676724</field>
+    <field name="Adres siedziby">ulica Lubelska 59, 24-100 Puławy</field>
+    <field name="Siedziba">Puławy</field>
   </record>
   <record>
     <field name="ID">ID-00556</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9531/2018</field>
-    <field name="Nazwa">Amber Usługi sp z oo</field>
+    <field name="Nazwa">Zielony Amber spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14/09/2025</field>
     <field name="Data wykreślenia">2026/14/09</field>
     <field name="Data decyzji">30-11-2019</field>
-    <field name="KRS">0000015043</field>
-    <field name="NIP">1247079915</field>
-    <field name="Adres siedziby">Krakowska 116, 45-018 Opole</field>
-    <field name="Siedziba">Opole</field>
+    <field name="KRS">0000053843</field>
+    <field name="NIP">1288755945</field>
+    <field name="Adres siedziby">Staszica 76, 22-400 Zamość</field>
+    <field name="Siedziba">Zamość</field>
   </record>
   <record>
     <field name="ID">ID-00557</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9107/2024</field>
-    <field name="Nazwa">Amber Finanse sp. z o. o.</field>
+    <field name="Nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/14/02</field>
     <field name="Data wykreślenia">14-02-2026</field>
-    <field name="Data decyzji">2019-02-06</field>
-    <field name="KRS">0000015140</field>
-    <field name="NIP">1247159100</field>
-    <field name="Adres siedziby">ul. Ozimska 133/49, 45-057 Opole</field>
-    <field name="Siedziba">Opole</field>
+    <field name="Data decyzji">2019-06-02</field>
+    <field name="KRS">0000053940</field>
+    <field name="NIP">1278835105</field>
+    <field name="Adres siedziby">ul. 3 Maja 93/29, 16-300 Augustów</field>
+    <field name="Siedziba">Augustów</field>
   </record>
   <record>
     <field name="ID">ID-00558</field>
-    <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
+    <field name="Typ podmiotu">rkajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UK--6956/2020</field>
-    <field name="Nazwa">Amber Doradztwo Sp. z o.o.</field>
+    <field name="Nazwa">Zielony Canyon S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-09-2024</field>
-    <field name="Data wykreślenia">2025-06-09</field>
+    <field name="Data wykreślenia">2025-09-06</field>
     <field name="Data decyzji">20240514</field>
-    <field name="KRS">0000015237</field>
-    <field name="NIP">1247238294</field>
-    <field name="Adres siedziby">ul Bohaterów Westerplatte 150, 65-034 Zielona Góra</field>
-    <field name="Siedziba">Zielona Góra</field>
+    <field name="KRS">0000054037</field>
+    <field name="NIP">1278914299</field>
+    <field name="Adres siedziby">ul Kościuszki 110, 16-400 Suwałki</field>
+    <field name="Siedziba">Suwałki</field>
   </record>
   <record>
     <field name="ID">ID-00559</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8164/2024</field>
-    <field name="Nazwa">Amber Szkolenia SP Z O O</field>
+    <field name="Nazwa">Zielony Delfin SA</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2024-11-08</field>
+    <field name="Data wpisu">2024-08-11</field>
     <field name="Data wykreślenia">20250811</field>
     <field name="Data decyzji">01/03/2022</field>
-    <field name="KRS">0000015334</field>
-    <field name="NIP">1257317517</field>
-    <field name="Adres siedziby">ulica Kupiecka 167, 65-058 Zielona Góra</field>
-    <field name="Siedziba">Zielona Góra</field>
+    <field name="KRS">0000054134</field>
+    <field name="NIP">1278993488</field>
+    <field name="Adres siedziby">ulica Piastowska 127, 48-300 Nysa</field>
+    <field name="Siedziba">Nysa</field>
   </record>
   <record>
     <field name="ID">ID-00560</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8352/2022</field>
-    <field name="Nazwa">Amber Media spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Echo S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220515</field>
     <field name="Data wykreślenia">24/05/2023</field>
     <field name="Data decyzji">2017/12/05</field>
-    <field name="KRS">0000015431</field>
-    <field name="NIP">1247396679</field>
-    <field name="Adres siedziby">Świętojańska 4, 81-372 Gdynia</field>
-    <field name="Siedziba">Gdynia</field>
+    <field name="KRS">0000054231</field>
+    <field name="NIP">1279072678</field>
+    <field name="Adres siedziby">Długa 144, 49-300 Brzeg</field>
+    <field name="Siedziba">Brzeg</field>
   </record>
   <record>
     <field name="ID">ID-00561</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1263/2026</field>
-    <field name="Nazwa">Facebook - Meta</field>
+    <field name="Nazwa">mBank</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/10/2017</field>
     <field name="Data wykreślenia">2023/17/01</field>
     <field name="Data decyzji">20-09-2017</field>
-    <field name="KRS">0000015528</field>
-    <field name="NIP">1247475864</field>
-    <field name="Adres siedziby">ul. 10 Lutego 21/11, 81-364 Gdynia</field>
-    <field name="Siedziba">Gdynia</field>
+    <field name="KRS">0000054328</field>
+    <field name="NIP">1279151863</field>
+    <field name="Adres siedziby">161/81, 68-200 Żary</field>
+    <field name="Siedziba">Żary</field>
   </record>
   <record>
     <field name="ID">ID-00562</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3810/2022</field>
-    <field name="Nazwa">Amber Marketing S.A.</field>
+    <field name="Nazwa">Zielony Gryf sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/01/10</field>
     <field name="Data wykreślenia">01-01-2024</field>
-    <field name="Data decyzji">2019-01-09</field>
-    <field name="KRS">0000015625</field>
-    <field name="NIP">1257555085</field>
-    <field name="Adres siedziby">ul Bolesława Prusa 38, 05-800 Pruszków</field>
-    <field name="Siedziba">Pruszków</field>
+    <field name="Data decyzji">2019-09-01</field>
+    <field name="KRS">0000054425</field>
+    <field name="NIP">1279231059</field>
+    <field name="Adres siedziby">ul Sikorskiego 178, 66-200 Świebodzin</field>
+    <field name="Siedziba">Świebodzin</field>
   </record>
   <record>
     <field name="ID">ID-00563</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7609/2024</field>
-    <field name="Nazwa">Amber Druk SA</field>
+    <field name="Nazwa">Zielony Horyzont sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20-01-2019</field>
     <field name="Data wykreślenia">2025-03-03</field>
     <field name="Data decyzji">20181221</field>
-    <field name="KRS">0000015722</field>
-    <field name="NIP">1247634245</field>
-    <field name="Adres siedziby">ulica Kościuszki 55, 05-500 Piaseczno</field>
-    <field name="Siedziba">Piaseczno</field>
+    <field name="KRS">0000054522</field>
+    <field name="NIP">1279310244</field>
+    <field name="Adres siedziby">ulica Armii Krajowej 15, 78-100 Kołobrzeg</field>
+    <field name="Siedziba">Kołobrzeg</field>
   </record>
   <record>
     <field name="ID">ID-00564</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4204/2023</field>
-    <field name="Nazwa">Amber Informatyka S. A.</field>
+    <field name="Nazwa">Zielony Ikar sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-28-11</field>
     <field name="Data wykreślenia">20261025</field>
     <field name="Data decyzji">29/10/2017</field>
-    <field name="KRS">0000015819</field>
-    <field name="NIP">1247713430</field>
-    <field name="Adres siedziby">Sienkiewicza 72, 32-020 Wieliczka</field>
-    <field name="Siedziba">Wieliczka</field>
+    <field name="KRS">0000054619</field>
+    <field name="NIP">1279389435</field>
+    <field name="Adres siedziby">Piłsudskiego 32, 73-110 Stargard</field>
+    <field name="Siedziba">Stargard</field>
   </record>
   <record>
     <field name="ID">ID-00565</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3693/2025</field>
-    <field name="Nazwa">Amber Oprogramowanie Spółka Akcyjna</field>
+    <field name="Nazwa">Zielony Jantar Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200825</field>
     <field name="Data wykreślenia">25/08/2021</field>
     <field name="Data decyzji">2020/26/07</field>
-    <field name="KRS">0000015916</field>
-    <field name="NIP">2257792655</field>
-    <field name="Adres siedziby">ul. Dąbrowskiego 89/63, 32-600 Oświęcim</field>
-    <field name="Siedziba">Oświęcim</field>
+    <field name="KRS">0000054716</field>
+    <field name="NIP">2279468620</field>
+    <field name="Adres siedziby">ul. Mickiewicza 49/43, 27-600 Sandomierz</field>
+    <field name="Siedziba">Sandomierz</field>
   </record>
   <record>
     <field name="ID">ID-00566</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3393/2025</field>
-    <field name="Nazwa">Amber Rolnictwo sp. z o.o.</field>
+    <field name="Nazwa">Zielony Koral SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06/01/2023</field>
     <field name="Data wykreślenia">2024/17/08</field>
     <field name="Data decyzji">09-12-2017</field>
-    <field name="KRS">0000016013</field>
-    <field name="NIP">1247871815</field>
-    <field name="Adres siedziby">ul Rynek 106, 38-400 Krosno</field>
-    <field name="Siedziba">Krosno</field>
+    <field name="KRS">0000054813</field>
+    <field name="NIP">1279547816</field>
+    <field name="Adres siedziby">ul Sienkiewicza 66, 27-400 Ostrowiec Świętokrzyski</field>
+    <field name="Siedziba">Ostrowiec Świętokrzyski</field>
   </record>
   <record>
     <field name="ID">ID-00567</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7576/2020</field>
-    <field name="Nazwa">Amber Ogrodnictwo sp z oo</field>
+    <field name="Nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/06/07</field>
     <field name="Data wykreślenia">202511120618</field>
-    <field name="Data decyzji">2019-09-02</field>
-    <field name="KRS">0000016110</field>
-    <field name="NIP">1247951000</field>
-    <field name="Adres siedziby">ulica Mickiewicza 123, 39-300 Mielec</field>
-    <field name="Siedziba">Mielec</field>
+    <field name="Data decyzji">2019-02-09</field>
+    <field name="KRS">0000054910</field>
+    <field name="NIP">1279627001</field>
+    <field name="Adres siedziby">ulica Chmielna 83, 00-020 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00568</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2836/2018</field>
-    <field name="Nazwa">Amber Produkcja sp. z o. o.</field>
+    <field name="Nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">08-05-2023</field>
-    <field name="Data wykreślenia">2026-07-05</field>
+    <field name="Data wykreślenia">2026-05-07</field>
     <field name="Data decyzji">20220509</field>
-    <field name="KRS">0000016207</field>
-    <field name="NIP">1248030199</field>
-    <field name="Adres siedziby">Długa 140, 58-100 Świdnica</field>
-    <field name="Siedziba">Świdnica</field>
+    <field name="KRS">0000055007</field>
+    <field name="NIP">1279706195</field>
+    <field name="Adres siedziby">Nowy Świat 100, 00-029 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00569</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8430/2025</field>
-    <field name="Nazwa">Amber Przemysł Sp. z o.o.</field>
+    <field name="Nazwa">Zielony Neon S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-29-04</field>
     <field name="Data wykreślenia">20250429</field>
     <field name="Data decyzji">30/03/2024</field>
-    <field name="KRS">0000016304</field>
-    <field name="NIP">1248109386</field>
-    <field name="Adres siedziby">157/25, 57-300 Kłodzko</field>
-    <field name="Siedziba">Kłodzko</field>
+    <field name="KRS">0000055104</field>
+    <field name="NIP">1279785384</field>
+    <field name="Adres siedziby">ul. os. Przyjaźń 117/5, 01-355 Warszawa</field>
+    <field name="Siedziba">Warszawa</field>
   </record>
   <record>
     <field name="ID">ID-00570</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4845/2022</field>
-    <field name="Nazwa">Amber Ekologia SP Z O O</field>
+    <field name="Nazwa">Zielony Oaza SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220706</field>
     <field name="Data wykreślenia">17/02/2025</field>
     <field name="Data decyzji">2019/26/03</field>
-    <field name="KRS">0000016401</field>
-    <field name="NIP">1248188575</field>
-    <field name="Adres siedziby">ul Chrobrego 174, 62-200 Gniezno</field>
-    <field name="Siedziba">Gniezno</field>
+    <field name="KRS">0000055201</field>
+    <field name="NIP">1289864607</field>
+    <field name="Adres siedziby">ul Jagiellońska 134, 05-120 Legionowo</field>
+    <field name="Siedziba">Legionowo</field>
   </record>
   <record>
     <field name="ID">ID-00571</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9000/2026</field>
-    <field name="Nazwa">Amber Energetyka spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Pegaz S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2025</field>
     <field name="Data wykreślenia">2026/20/06</field>
-    <field name="Data decyzji">2018-07-10 06:42</field>
-    <field name="KRS">0000016498</field>
-    <field name="NIP">1248267760</field>
-    <field name="Adres siedziby">ulica Słowiańska 11, 64-100 Leszno</field>
-    <field name="Siedziba">Leszno</field>
+    <field name="Data decyzji">2018-10-07 06:42</field>
+    <field name="KRS">0000055298</field>
+    <field name="NIP">1279943765</field>
+    <field name="Adres siedziby">ulica Piłsudskiego 151, 05-270 Marki</field>
+    <field name="Siedziba">Marki</field>
   </record>
   <record>
     <field name="ID">ID-00572</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6851/2024</field>
-    <field name="Nazwa">Amber Instalacje Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Rubin Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/19/11</field>
     <field name="Data wykreślenia">18-11-2024</field>
-    <field name="Data decyzji">2020-11-10</field>
-    <field name="KRS">0000016595</field>
-    <field name="NIP">1248346956</field>
-    <field name="Adres siedziby">Gdańska 28, 83-110 Tczew</field>
-    <field name="Siedziba">Tczew</field>
+    <field name="Data decyzji">2020-10-11</field>
+    <field name="KRS">0000055395</field>
+    <field name="NIP">1280022953</field>
+    <field name="Adres siedziby">Andriollego 168, 05-400 Otwock</field>
+    <field name="Siedziba">Otwock</field>
   </record>
   <record>
     <field name="ID">ID-00573</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7367/2022</field>
-    <field name="Nazwa">Amber Nieruchomości S.A.</field>
+    <field name="Nazwa">Zielony Szafir sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">04/08/2017 06:54</field>
-    <field name="Data wykreślenia">2025-12-09</field>
+    <field name="Data wykreślenia">2025-09-12</field>
     <field name="Data decyzji">20170705</field>
-    <field name="KRS">0000016692</field>
-    <field name="NIP">1248426141</field>
-    <field name="Adres siedziby">ul. Sobieskiego 45/77, 84-200 Wejherowo</field>
-    <field name="Siedziba">Wejherowo</field>
+    <field name="KRS">0000055492</field>
+    <field name="NIP">1280102149</field>
+    <field name="Adres siedziby">ul. Żeromskiego 5/57, 26-600 Radom</field>
+    <field name="Siedziba">Radom</field>
   </record>
   <record>
     <field name="ID">ID-00574</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4307/2026</field>
-    <field name="Nazwa">Amber Inwestycje SA</field>
+    <field name="Nazwa">Zielony Tytan sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-29-08</field>
     <field name="Data wykreślenia">20240224</field>
     <field name="Data decyzji">18/08/2017</field>
-    <field name="KRS">0000016789</field>
-    <field name="NIP">1248505337</field>
-    <field name="Adres siedziby">ul Głęboka 62, 43-400 Cieszyn</field>
-    <field name="Siedziba">Cieszyn</field>
+    <field name="KRS">0000055589</field>
+    <field name="NIP">1280181338</field>
+    <field name="Adres siedziby">ul Tumska 22, 09-402 Płock</field>
+    <field name="Siedziba">Płock</field>
   </record>
   <record>
     <field name="ID">ID-00575</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6345/2026</field>
-    <field name="Nazwa">Amber Medycyna S. A.</field>
+    <field name="Nazwa">Zielony Uran sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251015</field>
     <field name="Data wykreślenia">15/10/2026</field>
     <field name="Data decyzji">2018/17/06</field>
-    <field name="KRS">0000016886</field>
-    <field name="NIP">1248584526</field>
-    <field name="Adres siedziby">os. Małachowskiego 79, 42-500 Będzin</field>
-    <field name="Siedziba">Będzin</field>
+    <field name="KRS">0000055686</field>
+    <field name="NIP">1280260523</field>
+    <field name="Adres siedziby">ulica Karmelicka 39, 31-128 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00576</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6693/2026</field>
-    <field name="Nazwa">Amber Zdrowie Spółka Akcyjna</field>
+    <field name="Nazwa">Zielony Wektor Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/04/2020</field>
     <field name="Data wykreślenia">2026/10/04</field>
     <field name="Data decyzji">21-03-2020</field>
-    <field name="KRS">0000016983</field>
-    <field name="NIP">1248663711</field>
-    <field name="Adres siedziby">Królowej Jadwigi 96, 88-100 Inowrocław</field>
-    <field name="Siedziba">Inowrocław</field>
+    <field name="KRS">0000055783</field>
+    <field name="NIP">1280339710</field>
+    <field name="Adres siedziby">os. Na Stoku 56, 31-704 Kraków</field>
+    <field name="Siedziba">Kraków</field>
   </record>
   <record>
     <field name="ID">ID-00577</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5704/2023</field>
-    <field name="Nazwa">Amber Urody sp. z o.o.</field>
+    <field name="Nazwa">Zielony Zefir SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/01/02</field>
     <field name="Data wykreślenia">01-02-2018</field>
-    <field name="Data decyzji">2017-02-01</field>
-    <field name="KRS">0000017080</field>
-    <field name="NIP">1248742907</field>
-    <field name="Adres siedziby">ul. Wybickiego 113/39, 86-300 Grudziądz</field>
-    <field name="Siedziba">Grudziądz</field>
+    <field name="Data decyzji">2017-01-02</field>
+    <field name="KRS">0000055880</field>
+    <field name="NIP">1280418906</field>
+    <field name="Adres siedziby">ul. Krupówki 73/19, 34-500 Zakopane</field>
+    <field name="Siedziba">Zakopane</field>
   </record>
   <record>
     <field name="ID">ID-00578</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1210/2018</field>
-    <field name="Nazwa">Amber Turystyka sp z oo</field>
+    <field name="Nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">09-03-2023</field>
-    <field name="Data wykreślenia">2025-09-01</field>
+    <field name="Data wykreślenia">2025-01-09</field>
     <field name="Data decyzji">20230207</field>
-    <field name="KRS">0000017177</field>
-    <field name="NIP">1248822090</field>
-    <field name="Adres siedziby">ul Czarnieckiego 130, 14-100 Ostróda</field>
-    <field name="Siedziba">Ostróda</field>
+    <field name="KRS">0000055977</field>
+    <field name="NIP">1280498093</field>
+    <field name="Adres siedziby">90, 34-600 Mordarka</field>
+    <field name="Siedziba">Mordarka</field>
   </record>
   <record>
     <field name="ID">ID-00579</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7291/2018</field>
-    <field name="Nazwa">Amber Rozrywka sp. z o. o.</field>
+    <field name="Nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-26-03</field>
     <field name="Data wykreślenia">20230327</field>
     <field name="Data decyzji">24/02/2021</field>
-    <field name="KRS">0000017274</field>
-    <field name="NIP">1248901286</field>
-    <field name="Adres siedziby">ulica Warszawska 147, 11-500 Giżycko</field>
-    <field name="Siedziba">Giżycko</field>
+    <field name="KRS">0000056074</field>
+    <field name="NIP">1280577289</field>
+    <field name="Adres siedziby">ulica Galicyjska 107, 32-087 Zielonki</field>
+    <field name="Siedziba">Zielonki</field>
   </record>
   <record>
     <field name="ID">ID-00580</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8556/2021</field>
-    <field name="Nazwa">Amber Gastronomia Sp. z o.o.</field>
+    <field name="Nazwa">Zielony Orzeł S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20191018</field>
     <field name="Data wykreślenia">21/01/2023</field>
     <field name="Data decyzji">2018/17/10</field>
-    <field name="KRS">0000017371</field>
-    <field name="NIP">1248980475</field>
-    <field name="Adres siedziby">Lubelska 164, 24-100 Puławy</field>
-    <field name="Siedziba">Puławy</field>
+    <field name="KRS">0000056171</field>
+    <field name="NIP">1280656474</field>
+    <field name="Adres siedziby">124, 32-003 Podłęże</field>
+    <field name="Siedziba">Podłęże</field>
   </record>
   <record>
     <field name="ID">ID-00581</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4984/2018</field>
-    <field name="Nazwa">PPHU Amber Moda</field>
+    <field name="Nazwa">PPHU Zielony Kormoran</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/03/2023</field>
     <field name="Data wykreślenia">2024/04/03</field>
     <field name="Data decyzji">05-04-2020</field>
-    <field name="KRS">0000017468</field>
-    <field name="NIP">1249059667</field>
-    <field name="Adres siedziby">ul. Staszica 1/1, 22-400 Zamość</field>
-    <field name="Siedziba">Zamość</field>
+    <field name="KRS">0000056268</field>
+    <field name="NIP">1290735695</field>
+    <field name="Adres siedziby">os. Wałowa 141/71, 33-100 Tarnów</field>
+    <field name="Siedziba">Tarnów</field>
   </record>
   <record>
     <field name="ID">ID-00582</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5571/2020</field>
-    <field name="Nazwa">Amber Tekstylia spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Barycz S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/19/03</field>
     <field name="Data wykreślenia">20-11-2026</field>
     <field name="Data decyzji">2018-20-11</field>
-    <field name="KRS">0000017565</field>
-    <field name="NIP">1249138852</field>
-    <field name="Adres siedziby">ul 3 Maja 18, 16-300 Augustów</field>
-    <field name="Siedziba">Augustów</field>
+    <field name="KRS">0000056365</field>
+    <field name="NIP">1280814855</field>
+    <field name="Adres siedziby">ul Narutowicza 158, 90-135 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00583</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8652/2021</field>
-    <field name="Nazwa">Amber Motoryzacja Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Noteć Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-01-2021</field>
-    <field name="Data wykreślenia">2021-11-03</field>
+    <field name="Data wykreślenia">2021-03-11</field>
     <field name="Data decyzji">20190520</field>
-    <field name="KRS">0000017662</field>
-    <field name="NIP">1249218048</field>
-    <field name="Adres siedziby">ulica Kościuszki 35, 16-400 Suwałki</field>
-    <field name="Siedziba">Suwałki</field>
+    <field name="KRS">0000056462</field>
+    <field name="NIP">1280894044</field>
+    <field name="Adres siedziby">ulica os. Retkinia 175, 94-004 Łódź</field>
+    <field name="Siedziba">Łódź</field>
   </record>
   <record>
     <field name="ID">ID-00584</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2642/2023</field>
-    <field name="Nazwa">Amber Ubezpieczenia S.A.</field>
+    <field name="Nazwa">Zielony Pilica sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2019-01-08</field>
+    <field name="Data wpisu">2019-08-01</field>
     <field name="Data wykreślenia">20230418</field>
     <field name="Data decyzji">09/12/2018</field>
-    <field name="KRS">0000017759</field>
-    <field name="NIP">1249297237</field>
+    <field name="KRS">0000056559</field>
+    <field name="NIP">1290973265</field>
     <field name="Adres siedziby">Zamkowa 12, 95-200</field>
     <field name="Siedziba"></field>
   </record>
@@ -2580,27 +2580,27 @@
     <field name="ID">ID-00585</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1274/2025</field>
-    <field name="Nazwa">Amber Spawalnictwo SA</field>
+    <field name="Nazwa">Zielony Narew sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20250211</field>
     <field name="Data wykreślenia">11/02/2026</field>
     <field name="Data decyzji">2025/12/01</field>
-    <field name="KRS">0000017856</field>
-    <field name="NIP">1249376422</field>
-    <field name="Adres siedziby">ul. Długa 69/53, 49-300 Brzeg</field>
-    <field name="Siedziba">Brzeg</field>
+    <field name="KRS">0000056656</field>
+    <field name="NIP">1291052455</field>
+    <field name="Adres siedziby">ul. Długa 29/33, 95-100 Zgierz</field>
+    <field name="Siedziba">Zgierz</field>
   </record>
   <record>
     <field name="ID">ID-00586</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2924/2020</field>
-    <field name="Nazwa">Amber Ślusarstwo S. A.</field>
+    <field name="Nazwa">Zielony Jodełka sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">21/03/2024</field>
     <field name="Data wykreślenia">2025/21/03</field>
     <field name="Data decyzji">20-02-2024</field>
-    <field name="KRS">0000017953</field>
-    <field name="NIP">1249455618</field>
+    <field name="KRS">0000056753</field>
+    <field name="NIP">1281131615</field>
     <field name="Adres siedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="Siedziba">Nibylandia</field>
   </record>
@@ -2608,196 +2608,196 @@
     <field name="ID">ID-00587</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1804/2026</field>
-    <field name="Nazwa">Amber Krawiectwo Spółka Akcyjna</field>
+    <field name="Nazwa">Zielony Kaktus Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/10/08</field>
     <field name="Data wykreślenia">14-03-2025</field>
     <field name="Data decyzji">2020-11-07</field>
-    <field name="KRS">0000018050</field>
-    <field name="NIP">1249534803</field>
-    <field name="Adres siedziby">ulica Sikorskiego 103, 66-200 Świebodzin</field>
-    <field name="Siedziba">Świebodzin</field>
+    <field name="KRS">0000056850</field>
+    <field name="NIP">1281210800</field>
+    <field name="Adres siedziby">ulica Jedności Narodowej 63, 50-260 Wrocław</field>
+    <field name="Siedziba">Wrocław</field>
   </record>
   <record>
     <field name="ID">ID-00588</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8479/2018</field>
-    <field name="Nazwa">Amber Ochrona sp. z o.o.</field>
+    <field name="Nazwa">Zielony Szmaragd SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-08-2019</field>
-    <field name="Data wykreślenia">2026-04-10</field>
+    <field name="Data wykreślenia">2026-10-04</field>
     <field name="Data decyzji">20190715</field>
-    <field name="KRS">0000018147</field>
-    <field name="NIP">1249613997</field>
-    <field name="Adres siedziby">Armii Krajowej 120, 78-100 Kołobrzeg</field>
-    <field name="Siedziba">Kołobrzeg</field>
+    <field name="KRS">0000056947</field>
+    <field name="NIP">1291290025</field>
+    <field name="Adres siedziby">Konstytucji 3 Maja 80, 58-540 Karpacz</field>
+    <field name="Siedziba">Karpacz</field>
   </record>
   <record>
     <field name="ID">ID-00589</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2627/2023</field>
-    <field name="Nazwa">Amber Catering sp z oo</field>
+    <field name="Nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2024-11-03</field>
+    <field name="Data wpisu">2024-03-11</field>
     <field name="Data wykreślenia">20250311</field>
     <field name="Data decyzji">20/06/2021</field>
-    <field name="KRS">0000018244</field>
-    <field name="NIP">1249693186</field>
-    <field name="Adres siedziby">ul. Piłsudskiego 137/15, 73-110 Stargard</field>
-    <field name="Siedziba">Stargard</field>
+    <field name="KRS">0000057044</field>
+    <field name="NIP">1281369185</field>
+    <field name="Adres siedziby">ul. Odrodzenia 97/85, 59-300 Lubin</field>
+    <field name="Siedziba">Lubin</field>
   </record>
   <record>
     <field name="ID">ID-00590</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6950/2023</field>
-    <field name="Nazwa">Amber Księgowość sp. z o. o.</field>
+    <field name="Nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180116</field>
     <field name="Data wykreślenia">06/03/2023</field>
     <field name="Data decyzji">2017/23/08</field>
-    <field name="KRS">0000018341</field>
-    <field name="NIP">1249772371</field>
-    <field name="Adres siedziby">154, 27-600 Sandomierz</field>
-    <field name="Siedziba">Sandomierz</field>
+    <field name="KRS">0000057141</field>
+    <field name="NIP">1281448370</field>
+    <field name="Adres siedziby">ul Słowackiego 114, 58-300 Wałbrzych</field>
+    <field name="Siedziba">Wałbrzych</field>
   </record>
   <record>
     <field name="ID">ID-00591</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2992/2025</field>
-    <field name="Nazwa">Bizon Budownictwo Sp. z o.o.</field>
+    <field name="Nazwa">Zielony Marmur S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2018</field>
     <field name="Data wykreślenia">2019/27/04</field>
     <field name="Data decyzji">28-03-2018</field>
-    <field name="KRS">0000018438</field>
-    <field name="NIP">1249851567</field>
-    <field name="Adres siedziby">ulica Sienkiewicza 171, 27-400 Ostrowiec Świętokrzyski</field>
-    <field name="Siedziba">Ostrowiec Świętokrzyski</field>
+    <field name="KRS">000005723</field>
+    <field name="NIP">1281527566</field>
+    <field name="Adres siedziby">ulica Półwiejska 131, 61-888 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00592</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8929/2026</field>
-    <field name="Nazwa">Bizon Transport SP Z O O</field>
+    <field name="Nazwa">Zielony Syrena SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022/08/09</field>
     <field name="Data wykreślenia">05-08-2025</field>
-    <field name="Data decyzji">2022-09-08</field>
-    <field name="KRS">0000018535</field>
-    <field name="NIP">1249930752</field>
-    <field name="Adres siedziby">Chmielna 8, 00-020 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="Data decyzji">2022-08-09</field>
+    <field name="KRS">0000057335</field>
+    <field name="NIP">1281606751</field>
+    <field name="Adres siedziby">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
+    <field name="Siedziba">Poznań</field>
   </record>
   <record>
     <field name="ID">ID-00593</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3851/2020</field>
-    <field name="Nazwa">Bizon Spedycja spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Zodiak S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">23-08-2024</field>
     <field name="Data wykreślenia">2025-23-08</field>
     <field name="Data decyzji">20180104</field>
-    <field name="KRS">000001863</field>
-    <field name="NIP">1250009942</field>
-    <field name="Adres siedziby">ul. Nowy Świat 25/67, 00-029 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000057432</field>
+    <field name="NIP">1281685940</field>
+    <field name="Adres siedziby">ul. Główny Rynek 165/47, 62-800 Kalisz</field>
+    <field name="Siedziba">Kalisz</field>
   </record>
   <record>
     <field name="ID">ID-00594</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5446/2023</field>
-    <field name="Nazwa">Bizon Logistyka Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Zielony Olimp Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
-    <field name="Data wpisu">2020-08-11</field>
+    <field name="Data wpisu">2020-11-08</field>
     <field name="Data wykreślenia">20211108</field>
     <field name="Data decyzji">27/07/2018</field>
-    <field name="KRS">0000018729</field>
-    <field name="NIP">1250089131</field>
-    <field name="Adres siedziby">ul os. Przyjaźń 42, 01-355 Warszawa</field>
-    <field name="Siedziba">Warszawa</field>
+    <field name="KRS">0000057529</field>
+    <field name="NIP">1281765136</field>
+    <field name="Adres siedziby">ul Kaliska 2, 63-400 Ostrów Wielkopolski</field>
+    <field name="Siedziba">Ostrów Wielkopolski</field>
   </record>
   <record>
     <field name="ID">ID-00595</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5782/2020</field>
-    <field name="Nazwa">Bizon Handel S.A.</field>
+    <field name="Nazwa">Zielony Zorza sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181002</field>
     <field name="Data wykreślenia">17/11/2025</field>
     <field name="Data decyzji">2018/02/09</field>
-    <field name="KRS">0000018826</field>
-    <field name="NIP">1250168327</field>
-    <field name="Adres siedziby">ulica Jagiellońska 59, 05-120 Legionowo</field>
-    <field name="Siedziba">Legionowo</field>
+    <field name="KRS">0000057626</field>
+    <field name="NIP">1281844321</field>
+    <field name="Adres siedziby">ulica Ogarna 19, 80-826 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00596</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2317/2026</field>
-    <field name="Nazwa">Bizon Usługi SA</field>
+    <field name="Nazwa">Zielony Krokus sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">18/07/2024</field>
     <field name="Data wykreślenia">2025/18/07</field>
     <field name="Data decyzji">01-08-2017</field>
-    <field name="KRS">0000018923</field>
-    <field name="NIP">1250247512</field>
-    <field name="Adres siedziby">Piłsudskiego 76, 05-270 Marki</field>
-    <field name="Siedziba">Marki</field>
+    <field name="KRS">0000057723</field>
+    <field name="NIP">1281923517</field>
+    <field name="Adres siedziby">os. Jasień 36, 80-180 Gdańsk</field>
+    <field name="Siedziba">Gdańsk</field>
   </record>
   <record>
     <field name="ID">ID-00597</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2153/2018</field>
-    <field name="Nazwa">Bizon Finanse S. A.</field>
+    <field name="Nazwa">Zielony Narcyz sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/02/07</field>
     <field name="Data wykreślenia">01-07-2024</field>
-    <field name="Data decyzji">2022-06-11</field>
-    <field name="KRS">0000019020</field>
-    <field name="NIP">1250326708</field>
-    <field name="Adres siedziby">ul. Andriollego 93/29, 05-400 Otwock</field>
-    <field name="Siedziba">Otwock</field>
+    <field name="Data decyzji">2022-11-06</field>
+    <field name="KRS">0000057820</field>
+    <field name="NIP">1282002707</field>
+    <field name="Adres siedziby">ul. Bohaterów Monte Cassino 53/9, 81-759 Sopot</field>
+    <field name="Siedziba">Sopot</field>
   </record>
   <record>
     <field name="ID">ID-00598</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6155/2021</field>
-    <field name="Nazwa">Bizon Doradztwo Spółka Akcyjna</field>
+    <field name="Nazwa">Zielony Giewont Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">07-07-2022</field>
     <field name="Data wykreślenia">2024-24-02</field>
     <field name="Data decyzji">20190607</field>
-    <field name="KRS">0000019117</field>
-    <field name="NIP">1250405891</field>
-    <field name="Adres siedziby">ul Żeromskiego 110, 26-600 Radom</field>
-    <field name="Siedziba">Radom</field>
+    <field name="KRS">0000057917</field>
+    <field name="NIP">1282081894</field>
+    <field name="Adres siedziby">70, 80-209 Chwaszczyno</field>
+    <field name="Siedziba">Chwaszczyno</field>
   </record>
   <record>
     <field name="ID">ID-00599</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9456/2023</field>
-    <field name="Nazwa">Bizon Szkolenia sp. z o.o.</field>
+    <field name="Nazwa">Zielony Rysy SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-22-04</field>
     <field name="Data wykreślenia">20260422</field>
     <field name="Data decyzji">30/08/2022</field>
-    <field name="KRS">0000019214</field>
-    <field name="NIP">1250485080</field>
-    <field name="Adres siedziby">ulica Tumska 127, 09-402 Płock</field>
-    <field name="Siedziba">Płock</field>
+    <field name="KRS">0000058014</field>
+    <field name="NIP">1292161117</field>
+    <field name="Adres siedziby">ulica 3 Maja 87, 40-096 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
   <record>
     <field name="ID">ID-00600</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1586/2020</field>
-    <field name="Nazwa">Bizon Media sp z oo</field>
+    <field name="Nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200221</field>
     <field name="Data wykreślenia">10/04/2026</field>
     <field name="Data decyzji">2020/22/01</field>
-    <field name="KRS">0000019311</field>
-    <field name="NIP">1250564276</field>
-    <field name="Adres siedziby">Karmelicka 144, 31-128 Kraków</field>
-    <field name="Siedziba">Kraków</field>
+    <field name="KRS">0000058111</field>
+    <field name="NIP">1282240275</field>
+    <field name="Adres siedziby">os. Paderewskiego 104, 40-282 Katowice</field>
+    <field name="Siedziba">Katowice</field>
   </record>
 </dataset>

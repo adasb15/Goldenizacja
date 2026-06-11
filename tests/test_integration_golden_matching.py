@@ -1011,6 +1011,44 @@ class IntegrationGoldenMatchingTests(unittest.TestCase):
 
         self.assertEqual(first_run, second_run)
 
+    def test_grouping_adds_singleton_groups_for_records_without_auto_merge(self) -> None:
+        candidates = [
+            SimpleNamespace(
+                Left_Preprocessed_ID=1,
+                Right_Preprocessed_ID=2,
+                Decision=MatchDecision.AUTO_MERGE.value,
+            )
+        ]
+        records = [
+            SimpleNamespace(Preprocessed_ID=1),
+            SimpleNamespace(Preprocessed_ID=2),
+            SimpleNamespace(Preprocessed_ID=3),
+            SimpleNamespace(Preprocessed_ID=4),
+        ]
+
+        class Repo:
+            saved = None
+
+            def get_jaro_winkler_candidates(self, entity_type: str):
+                return candidates
+
+            def get_preprocessed_records(self, entity_type: str, raw_file_id: int | None = None):
+                return records
+
+            def replace_entity_groups(self, entity_type: str, groups):
+                self.saved = list(groups)
+                return len(groups), sum(len(group.member_preprocessed_ids) for group in groups)
+
+        repo = Repo()
+        result = group_auto_merge_candidates(db=None, entity_type="PARTY", repo=repo)
+
+        self.assertEqual(result.groups_out, 3)
+        self.assertEqual(result.members_out, 4)
+        self.assertEqual(
+            [group.member_preprocessed_ids for group in repo.saved],
+            [(1, 2), (3,), (4,)],
+        )
+
     def test_grouping_rerun_replaces_state_without_duplicates(self) -> None:
         candidates = [
             SimpleNamespace(

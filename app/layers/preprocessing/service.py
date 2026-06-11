@@ -417,12 +417,22 @@ def split_address_from_staging(staging_record: Any) -> AddressParts:
     return parts
 
 
+def clear_derived_address_fields(parts: AddressParts, address_line: str) -> None:
+    if parts.postal_city == address_line:
+        parts.postal_city = None
+    if parts.city == address_line:
+        parts.city = None
+    if parts.street == address_line:
+        parts.street = None
+
+
 def split_full_address_line(parts: AddressParts, address_line: str) -> bool:
     for pattern in (FULL_ADDRESS_STREET_FIRST_RE, FULL_ADDRESS_POSTAL_FIRST_RE):
         full_match = pattern.match(address_line)
         if full_match:
             # Pełny adres rozbijamy dopiero tutaj, bo to wartość pochodna do matchingu
             street_part = full_match.group("street_part")
+            clear_derived_address_fields(parts, address_line)
             parts.postal_code = parts.postal_code or full_match.group("postal_code")
             parts.city = parts.city or normalize_city_text(full_match.group("city"))
             split_street_line(parts, street_part)
@@ -441,7 +451,8 @@ def split_full_address_line(parts: AddressParts, address_line: str) -> bool:
     ):
         street_part = street_city_match.group("street_part")
         parsed_city = normalize_city_text(street_city_match.group("city"))
-        parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
+        clear_derived_address_fields(parts, address_line)
+        parts.city = parts.city or parsed_city
         split_street_line(parts, street_part)
         if (
             BUILDING_ONLY_RE.match(normalize_street_line(street_part)) is not None
@@ -454,15 +465,17 @@ def split_full_address_line(parts: AddressParts, address_line: str) -> bool:
     city_street_match = CITY_STREET_LINE_RE.match(address_line)
     if city_street_match and looks_like_street_line(city_street_match.group("street_part")):
         parsed_city = normalize_city_text(city_street_match.group("city"))
-        parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
+        clear_derived_address_fields(parts, address_line)
+        parts.city = parts.city or parsed_city
         split_street_line(parts, city_street_match.group("street_part"))
         return True
 
     postal_city_match = POSTAL_CITY_LINE_RE.match(address_line)
     if postal_city_match:
+        clear_derived_address_fields(parts, address_line)
         parts.postal_code = parts.postal_code or postal_city_match.group("postal_code")
         parsed_city = normalize_city_text(postal_city_match.group("city"))
-        parts.city = parsed_city if parts.city == address_line else parts.city or parsed_city
+        parts.city = parts.city or parsed_city
         if parts.street == address_line:
             parts.street = None
         return True

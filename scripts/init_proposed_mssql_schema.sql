@@ -124,7 +124,7 @@ BEGIN
         CONSTRAINT [FK_ProcessLog_RawFile] FOREIGN KEY ([RawFile_ID])
             REFERENCES [raw].[RawFile] ([RawFile_ID]),
         CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+            N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION', N'GOLDEN_LOAD'
         )),
         CONSTRAINT [CK_ProcessLog_Step_Status] CHECK ([Step_Status] IN (
             N'STARTED', N'SUCCESS', N'FAILED'
@@ -142,7 +142,7 @@ IF EXISTS (
 BEGIN
     ALTER TABLE [meta].[ProcessLog] DROP CONSTRAINT [CK_ProcessLog_Step_Name];
     ALTER TABLE [meta].[ProcessLog] ADD CONSTRAINT [CK_ProcessLog_Step_Name] CHECK ([Step_Name] IN (
-        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION'
+        N'RAW_LOAD', N'STAGING_LOAD', N'STANDARDIZATION', N'VALIDATION', N'GOLDEN_LOAD'
     ));
 END;
 GO
@@ -846,6 +846,41 @@ IF NOT EXISTS (SELECT 1 FROM sys.check_constraints WHERE name = N'CK_Entity_Grou
     );
 GO
 
+IF OBJECT_ID(N'[stg].[Golden_Record_Reject]', N'U') IS NULL
+BEGIN
+    CREATE TABLE [stg].[Golden_Record_Reject] (
+        [Reject_ID] BIGINT IDENTITY(1,1) NOT NULL,
+        [Entity_Type] NVARCHAR(20) NOT NULL,
+        [Entity_Group_ID] BIGINT NULL,
+        [RawFile_ID] BIGINT NULL,
+        [Reason_Code] NVARCHAR(100) NOT NULL,
+        [Reason_Message] NVARCHAR(1000) NOT NULL,
+        [Missing_Fields_JSON] NVARCHAR(MAX) NULL,
+        [Survivor_Values_JSON] NVARCHAR(MAX) NULL,
+        [Member_Preprocessed_IDs_JSON] NVARCHAR(MAX) NULL,
+        [Status] NVARCHAR(30) NOT NULL CONSTRAINT [DF_Golden_Record_Reject_Status] DEFAULT N'OPEN',
+        [Created_At] DATETIME2(0) NOT NULL CONSTRAINT [DF_Golden_Record_Reject_Created_At] DEFAULT SYSUTCDATETIME(),
+        [Resolved_At] DATETIME2(0) NULL,
+        CONSTRAINT [PK_Golden_Record_Reject] PRIMARY KEY CLUSTERED ([Reject_ID]),
+        CONSTRAINT [FK_Golden_Record_Reject_Group] FOREIGN KEY ([Entity_Group_ID], [Entity_Type])
+            REFERENCES [stg].[Entity_Group] ([Entity_Group_ID], [Entity_Type]),
+        CONSTRAINT [FK_Golden_Record_Reject_RawFile] FOREIGN KEY ([RawFile_ID])
+            REFERENCES [raw].[RawFile] ([RawFile_ID]),
+        CONSTRAINT [CK_Golden_Record_Reject_Entity_Type] CHECK ([Entity_Type] IN (N'PERSON', N'PARTY')),
+        CONSTRAINT [CK_Golden_Record_Reject_Status] CHECK ([Status] IN (N'OPEN', N'RESOLVED', N'IGNORED')),
+        CONSTRAINT [CK_Golden_Record_Reject_Missing_JSON] CHECK ([Missing_Fields_JSON] IS NULL OR ISJSON([Missing_Fields_JSON]) = 1),
+        CONSTRAINT [CK_Golden_Record_Reject_Survivor_JSON] CHECK ([Survivor_Values_JSON] IS NULL OR ISJSON([Survivor_Values_JSON]) = 1),
+        CONSTRAINT [CK_Golden_Record_Reject_Members_JSON] CHECK ([Member_Preprocessed_IDs_JSON] IS NULL OR ISJSON([Member_Preprocessed_IDs_JSON]) = 1)
+    );
+END;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Golden_Record_Reject_Status' AND object_id = OBJECT_ID(N'[stg].[Golden_Record_Reject]'))
+    CREATE INDEX [IX_Golden_Record_Reject_Status] ON [stg].[Golden_Record_Reject] ([Status], [Entity_Type], [Created_At]);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_Golden_Record_Reject_Group' AND object_id = OBJECT_ID(N'[stg].[Golden_Record_Reject]'))
+    CREATE INDEX [IX_Golden_Record_Reject_Group] ON [stg].[Golden_Record_Reject] ([Entity_Group_ID], [Entity_Type]);
+GO
+
 IF OBJECT_ID(N'[stg].[Validation_Result]', N'U') IS NULL
 BEGIN
     CREATE TABLE [stg].[Validation_Result] (
@@ -1539,8 +1574,18 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_PESEL' AND 
     CREATE UNIQUE INDEX [IX_DimPerson_PESEL] ON [gold].[DimPerson] ([PESEL]) WHERE [PESEL] IS NOT NULL;
 GO
 
+IF EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = N'IX_DimPerson_Email'
+      AND object_id = OBJECT_ID(N'[gold].[DimPerson]')
+      AND is_unique = 1
+)
+    DROP INDEX [IX_DimPerson_Email] ON [gold].[DimPerson];
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Email' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
-    CREATE UNIQUE INDEX [IX_DimPerson_Email] ON [gold].[DimPerson] ([Email_Address]) WHERE [Email_Address] IS NOT NULL;
+    CREATE INDEX [IX_DimPerson_Email] ON [gold].[DimPerson] ([Email_Address]) WHERE [Email_Address] IS NOT NULL;
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_IDCard' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
@@ -1551,8 +1596,18 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Passport' A
     CREATE UNIQUE INDEX [IX_DimPerson_Passport] ON [gold].[DimPerson] ([Serial_Number_Passport]) WHERE [Serial_Number_Passport] IS NOT NULL;
 GO
 
+IF EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = N'IX_DimPerson_Phone'
+      AND object_id = OBJECT_ID(N'[gold].[DimPerson]')
+      AND is_unique = 1
+)
+    DROP INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson];
+GO
+
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimPerson_Phone' AND object_id = OBJECT_ID(N'[gold].[DimPerson]'))
-    CREATE UNIQUE INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson] ([Phone_Number]) WHERE [Phone_Number] IS NOT NULL;
+    CREATE INDEX [IX_DimPerson_Phone] ON [gold].[DimPerson] ([Phone_Number]) WHERE [Phone_Number] IS NOT NULL;
 GO
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_DimParty_Name' AND object_id = OBJECT_ID(N'[gold].[DimParty]'))

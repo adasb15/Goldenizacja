@@ -503,7 +503,7 @@ function personSeedFor(index) {
 }
 
 function companySeedFor(index) {
-  return formatSliceIndex(index);
+  return index;
 }
 
 function isDuplicatedPersonIndex(index) {
@@ -1132,11 +1132,7 @@ function leiToDigits(value) {
 }
 
 function makeLei(index) {
-  const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let entity = "";
-  for (let i = 0; i < 14; i += 1) {
-    entity += chars[(index * (i + 7) + i * 11 + 17) % chars.length];
-  }
+  const entity = String(Math.abs(Number(index) || 0)).padStart(14, "0").slice(-14);
   const base = `5299${entity}`;
   const check = 98 - mod97(`${leiToDigits(base)}00`);
   return `${base}${pad(check, 2)}`;
@@ -1313,6 +1309,8 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
     if (compact.includes("pesel")) record[key] = record.DataUrodzenia && personIdentityPrefix(compact) === ""
       ? makePeselFromDate(record.DataUrodzenia, fieldFemale, identitySeed + "PESEL".length, true)
       : makeSharedPesel(identitySeed, fieldFemale);
+    else if (compact === "directparentlei") record[key] = makeLei(companySeedFor(seed) + 100000);
+    else if (compact === "ultimateparentlei") record[key] = makeLei(companySeedFor(seed) + 200000);
     else if (compact.includes("lei")) record[key] = makeLei(companySeedFor(seed));
     else if (compact === "registrationauthorityid" || compact === "registeredat") {
       record[key] = companySeedFor(seed) % 2 === 0 ? "RA000466" : "RA000484";

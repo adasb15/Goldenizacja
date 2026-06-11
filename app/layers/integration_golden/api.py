@@ -105,6 +105,7 @@ def match_groups(
 @router.post("/golden-load", response_model=GoldenLoadRunResponse)
 def golden_load(
     entity_type: str = Form(...),
+    raw_file_id: int | None = Form(None),
     entity_group_id: int | None = Form(None),
     db: Session = Depends(get_db),
 ) -> GoldenLoadRunResponse:
@@ -112,6 +113,7 @@ def golden_load(
         result = golden_load_dimensions(
             db=db,
             entity_type=entity_type,
+            raw_file_id=raw_file_id,
             entity_group_id=entity_group_id,
         )
         return GoldenLoadRunResponse(**asdict(result))

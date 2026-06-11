@@ -277,6 +277,43 @@ class ExtendedPreprocessingMatchingFieldTests(unittest.TestCase):
         self.assertEqual(preprocessed["District_Normalized"], "WARSZAWSKI")
         self.assertEqual(preprocessed["Province_Normalized"], "MAZOWIECKIE")
 
+    def test_does_not_keep_full_address_as_postal_city(self) -> None:
+        staging_record = SimpleNamespace(
+            Staging_ID=18,
+            ImportBatch_ID=28,
+            RawFile_ID=38,
+            Source_Record_ID="SRC-18",
+            PESEL=None,
+            Serial_Number_ID_Card=None,
+            Serial_Number_Passport=None,
+            First_Name="Anna",
+            Second_Name=None,
+            Last_Name="Nowak",
+            Family_Name=None,
+            Birth_Date=None,
+            Place_Of_Birth=None,
+            Sex=None,
+            Citizenship=None,
+            Phone_Number=None,
+            Email_Address=None,
+            Street=None,
+            Building_Number=None,
+            Apartment_Number=None,
+            City=None,
+            Postal_City="UL KRAKOWSKIE PRZEDMIEŚCIE 18, WARSZAWA",
+            Postal_Code="00-071",
+            District=None,
+            Province=None,
+            Country="PL",
+        )
+
+        preprocessed = build_preprocessed_record(staging_record, "PERSON")
+
+        self.assertEqual(preprocessed["Street_Normalized"], "UL KRAKOWSKIE PRZEDMIEŚCIE")
+        self.assertEqual(preprocessed["Building_Number_Normalized"], "18")
+        self.assertEqual(preprocessed["City_Normalized"], "WARSZAWA")
+        self.assertIsNone(preprocessed["Postal_City_Normalized"])
+
     def test_builds_party_preprocessed_record_with_extended_matching_fields(self) -> None:
         staging_record = SimpleNamespace(
             Staging_ID=16,

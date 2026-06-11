@@ -281,6 +281,25 @@ def integration_golden_match(**context: Any) -> dict[str, Any]:
     return results
 
 
+def golden_load(**context: Any) -> dict[str, Any]:
+    conf = _conf(context)
+    raw_file_ids = context["ti"].xcom_pull(task_ids="raw_load")
+    entity_types = _entity_types(conf)
+
+    results = {}
+    for entity_type in entity_types:
+        raw_file_id = raw_file_ids[entity_type] if isinstance(raw_file_ids, dict) else raw_file_ids
+        results[entity_type] = _post_form(
+            f"{LAYERS_API_PREFIX}/integration_golden/golden-load",
+            data={
+                "raw_file_id": raw_file_id,
+                "entity_type": entity_type,
+            },
+        )
+
+    return results
+
+
 with DAG(
     dag_id="goldenizacja_pipeline",
     start_date=datetime(2026, 1, 1),
@@ -370,6 +389,11 @@ with DAG(
         python_callable=integration_golden_match,
     )
 
+    golden_load_task = PythonOperator(
+        task_id="golden_load",
+        python_callable=golden_load,
+    )
+
     (
         raw_load_task
         >> staging_load_task
@@ -377,4 +401,5 @@ with DAG(
         >> teryt_load_task
         >> validation_load_task
         >> integration_golden_match_task
+        >> golden_load_task
     )

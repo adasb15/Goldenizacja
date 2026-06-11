@@ -167,6 +167,43 @@ class EntityGroupMemberRecord(Base):
     Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
 
 
+class GoldenRecordReject(Base):
+    __tablename__ = "Golden_Record_Reject"
+    __table_args__ = (
+        ForeignKeyConstraint(
+            ["Entity_Group_ID", "Entity_Type"],
+            ["stg.Entity_Group.Entity_Group_ID", "stg.Entity_Group.Entity_Type"],
+            name="FK_Golden_Record_Reject_Group",
+        ),
+        CheckConstraint(
+            "Entity_Type IN ('PERSON', 'PARTY')",
+            name="CK_Golden_Record_Reject_Entity_Type",
+        ),
+        CheckConstraint(
+            "Status IN ('OPEN', 'RESOLVED', 'IGNORED')",
+            name="CK_Golden_Record_Reject_Status",
+        ),
+        {"schema": "stg"},
+    )
+
+    Reject_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Entity_Type: Mapped[str] = mapped_column(Unicode(20), nullable=False)
+    Entity_Group_ID: Mapped[int | None] = mapped_column(BigInteger, nullable=True)
+    RawFile_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("raw.RawFile.RawFile_ID", name="FK_Golden_Record_Reject_RawFile"),
+        nullable=True,
+    )
+    Reason_Code: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    Reason_Message: Mapped[str] = mapped_column(Unicode(1000), nullable=False)
+    Missing_Fields_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Survivor_Values_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Member_Preprocessed_IDs_JSON: Mapped[str | None] = mapped_column(UnicodeText, nullable=True)
+    Status: Mapped[str] = mapped_column(Unicode(30), nullable=False, server_default="OPEN")
+    Created_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    Resolved_At: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
 class DimAddress(Base):
     __tablename__ = "DimAddress"
     __table_args__ = {"schema": "gold"}
@@ -328,3 +365,152 @@ class FactlessPartyAddress(Base):
     )
     Valid_From: Mapped[date | None] = mapped_column(Date, nullable=True)
     Valid_To: Mapped[date | None] = mapped_column(Date, nullable=True)
+
+
+class EntityChangeLog(Base):
+    __tablename__ = "EntityChangeLog"
+    __table_args__ = {"schema": "gold"}
+
+    Change_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    Entity_Type: Mapped[str] = mapped_column(Unicode(20), nullable=False)
+    DimPerson_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimPerson.Person_ID", name="FK_EntityChangeLog_Person"),
+        nullable=True,
+    )
+    DimParty_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimParty.Party_ID", name="FK_EntityChangeLog_Party"),
+        nullable=True,
+    )
+    DimAddress_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.DimAddress.Address_ID", name="FK_EntityChangeLog_Address"),
+        nullable=True,
+    )
+    PartyIdentity_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPartyIdentities.PartyIdentity_ID", name="FK_EntityChangeLog_PartyIdentity"),
+        nullable=True,
+    )
+    Attribute_Name: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    Old_Value: Mapped[str | None] = mapped_column(Unicode(4000), nullable=True)
+    New_Value: Mapped[str | None] = mapped_column(Unicode(4000), nullable=True)
+    Change_Date: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    ImportBatch_ID: Mapped[int | None] = mapped_column(
+        BigInteger,
+        ForeignKey("meta.ImportBatch.ImportBatch_ID", name="FK_EntityChangeLog_ImportBatch"),
+        nullable=True,
+    )
+
+
+class GoldenPersonLineage(Base):
+    __tablename__ = "GoldenPersonLineage"
+    __table_args__ = {"schema": "gold"}
+
+    Lineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    DimPerson_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("gold.DimPerson.Person_ID"), nullable=False)
+    Attribute_Name: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class GoldenPartyLineage(Base):
+    __tablename__ = "GoldenPartyLineage"
+    __table_args__ = {"schema": "gold"}
+
+    Lineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    DimParty_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("gold.DimParty.Party_ID"), nullable=False)
+    Attribute_Name: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class GoldenAddressLineage(Base):
+    __tablename__ = "GoldenAddressLineage"
+    __table_args__ = {"schema": "gold"}
+
+    Lineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    DimAddress_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("gold.DimAddress.Address_ID"), nullable=False)
+    Attribute_Name: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class GoldenPartyIdentityLineage(Base):
+    __tablename__ = "GoldenPartyIdentityLineage"
+    __table_args__ = {"schema": "gold"}
+
+    Lineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PartyIdentity_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPartyIdentities.PartyIdentity_ID"),
+        nullable=False,
+    )
+    Attribute_Name: Mapped[str] = mapped_column(Unicode(100), nullable=False)
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class PartyAddressLineage(Base):
+    __tablename__ = "PartyAddressLineage"
+    __table_args__ = {"schema": "gold"}
+
+    RelationshipLineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PartyAddress_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPartyAddress.PartyAddress_ID"),
+        nullable=False,
+    )
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+
+class PersonAddressLineage(Base):
+    __tablename__ = "PersonAddressLineage"
+    __table_args__ = {"schema": "gold"}
+
+    RelationshipLineage_ID: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    PersonAddress_ID: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("gold.FactlessPersonAddress.PersonAddress_ID"),
+        nullable=False,
+    )
+    SourceSystem_ID: Mapped[int] = mapped_column(ForeignKey("meta.SourceSystem.SourceSystem_ID"), nullable=False)
+    Source_Record_ID: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    ImportBatch_ID: Mapped[int] = mapped_column(BigInteger, ForeignKey("meta.ImportBatch.ImportBatch_ID"), nullable=False)
+    Selection_Rule: Mapped[str | None] = mapped_column(Unicode(100), nullable=True)
+    Trust_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Quality_Score: Mapped[float | None] = mapped_column(Numeric(5, 4), nullable=True)
+    Validation_Status: Mapped[str | None] = mapped_column(Unicode(30), nullable=True)
+    Recorded_At: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
