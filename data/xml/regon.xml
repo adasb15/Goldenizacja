@@ -144,7 +144,7 @@
     <field name="wojewodztwo">LUBUSKIE</field>
     <field name="powiat">ZIELONA GÓRA</field>
     <field name="gmina">ZIELONA GÓRA</field>
-    <field name="miejscowosc">ZIELONA GÓRA</field>
+    <field name="miejscowosc">ZIELOAN GÓRA</field>
     <field name="kodPocztowy">65-034</field>
     <field name="telefon">+48 799 636 672</field>
     <field name="email">biuro.zielinski-bracia@yahoo.com</field>
@@ -306,13 +306,13 @@
   </record>
   <record>
     <field name="regon">267906883</field>
-    <field name="nip"></field>
+    <field name="nip">1267748503</field>
     <field name="krs">0000040360</field>
     <field name="nazwa">Kozłowski i Synowie S. A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Mickiewicza 53/9, 39-300 Mielec</field>
-    <field name="wojewodztwo">PODKARPACKIE</field>
+    <field name="wojewodztwo"></field>
     <field name="powiat">MIELECKI</field>
     <field name="gmina">MIELEC</field>
     <field name="miejscowosc">MIELEC</field>
@@ -838,7 +838,7 @@
   </record>
   <record>
     <field name="regon">270124201</field>
-    <field name="nip">1269965825</field>
+    <field name="nip">2269965825</field>
     <field name="krs">0000043076</field>
     <field name="nazwa">Medycyna Mazowiecki SP Z O O</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
@@ -857,7 +857,7 @@
   </record>
   <record>
     <field name="regon">270203395</field>
-    <field name="nip">2270045013</field>
+    <field name="nip">1270045013</field>
     <field name="krs">0000043173</field>
     <field name="nazwa">Zdrowie Karpacki spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp. z o.o.</field>
@@ -1088,10 +1088,10 @@
     <field name="nip">1270995298</field>
     <field name="krs">0000044337</field>
     <field name="nazwa">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="formaPrawna">s. z o.o.</field>
+    <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">włsaność krajowa os fizycznych</field>
     <field name="adresSiedziby">ul os. Retkinia 30, 94-004 Łódź</field>
-    <field name="wojewodztwo">ŁÓDZKIE</field>
+    <field name="wojewodztwo">ŁDÓZKIE</field>
     <field name="powiat">ŁÓDŹ</field>
     <field name="gmina">ŁÓDŹ</field>
     <field name="miejscowosc">ŁÓDŹ</field>
@@ -1144,7 +1144,7 @@
     <field name="regon">271391246</field>
     <field name="nip">1271232869</field>
     <field name="krs">0000044628</field>
-    <field name="nazwa">P.P.H.U. ZLS</field>
+    <field name="nazwa">P.P.H.U. ORR</field>
     <field name="formaPrawna"></field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Rynek 81/41, 50-101 Wrocław</field>
@@ -1155,7 +1155,7 @@
     <field name="kodPocztowy">50-101</field>
     <field name="telefon">+48 504 419 636</field>
     <field name="email">biuro@interia.pl</field>
-    <field name="stronaWWW">https://www.zls.com.pl</field>
+    <field name="stronaWWW">https://www.orr.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2019-19-11</field>
   </record>
@@ -1163,7 +1163,7 @@
     <field name="regon">271470431</field>
     <field name="nip">1271312054</field>
     <field name="krs">0000044725</field>
-    <field name="nazwa">UZA Spółka Akcyjna</field>
+    <field name="nazwa">BDZ Spółka Akcyjna</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Jedności Narodowej 98, 50-260 Wrocław</field>
@@ -1173,8 +1173,8 @@
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">50-260</field>
     <field name="telefon">(48) 675727260</field>
-    <field name="email">office.uza@o2.pl</field>
-    <field name="stronaWWW">https://uza.eu</field>
+    <field name="email">office.bdz@o2.pl</field>
+    <field name="stronaWWW">https://bdz.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">20201226</field>
   </record>
@@ -1182,7 +1182,7 @@
     <field name="regon">271549629</field>
     <field name="nip">1271391243</field>
     <field name="krs">0000044822</field>
-    <field name="nazwa">NKV sp. z o.o.</field>
+    <field name="nazwa">SYT sp. z o.o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Konstytucji 3 Maja 115, 58-540 Karpacz</field>
@@ -1192,7 +1192,7 @@
     <field name="miejscowosc">KARPACZ</field>
     <field name="kodPocztowy">58-540</field>
     <field name="telefon">48-774-762-201</field>
-    <field name="email">kontakt.nkv@proton.me</field>
+    <field name="email">kontakt.syt@proton.me</field>
     <field name="stronaWWW"></field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">05/01/2021</field>
@@ -1201,7 +1201,7 @@
     <field name="regon">271628814</field>
     <field name="nip">1271470439</field>
     <field name="krs">0000044919</field>
-    <field name="nazwa">SAI sp z oo</field>
+    <field name="nazwa">FFB sp z oo</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Odrodzenia 132, 59-300 Lubin</field>
@@ -1211,8 +1211,8 @@
     <field name="miejscowosc">LUBIN</field>
     <field name="kodPocztowy">59-300</field>
     <field name="telefon">48-741-651-952</field>
-    <field name="email">biuro.sai@yahoo.com</field>
-    <field name="stronaWWW">https://www.sai-group.pl</field>
+    <field name="email">biuro.ffb@yahoo.com</field>
+    <field name="stronaWWW">https://www.ffb-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022/12/02</field>
   </record>
@@ -1220,7 +1220,7 @@
     <field name="regon">281708037</field>
     <field name="nip">1271549626</field>
     <field name="krs">0000045016</field>
-    <field name="nazwa">EFT sp. z o. o.</field>
+    <field name="nazwa">HVB sp. z o. o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">os. Słowackiego 149/3, 58-300 Wałbrzych</field>
@@ -1230,8 +1230,8 @@
     <field name="miejscowosc">WAŁBRZYCH</field>
     <field name="kodPocztowy">58-300</field>
     <field name="telefon">+48 795 241 484</field>
-    <field name="email">sekretariat.eft@gmail.com</field>
-    <field name="stronaWWW">https://www.eft-group.com.pl</field>
+    <field name="email">sekretariat.hvb@gmail.com</field>
+    <field name="stronaWWW">https://www.hvb-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">19-03-2023</field>
   </record>
@@ -1239,7 +1239,7 @@
     <field name="regon">271787197</field>
     <field name="nip">1271628811</field>
     <field name="krs">0000045113</field>
-    <field name="nazwa">HMO Sp. z o.o.</field>
+    <field name="nazwa">TTH Sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Półwiejska 166, 61-888 Poznań</field>
@@ -1249,8 +1249,8 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">61-888</field>
     <field name="telefon">+48 788 544 840</field>
-    <field name="email">firma.hmo@outlook.com</field>
-    <field name="stronaWWW">https://www.hmo.eu</field>
+    <field name="email">firma.tth@outlook.com</field>
+    <field name="stronaWWW">https://www.tth.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2024-26-04</field>
   </record>
@@ -1258,7 +1258,7 @@
     <field name="regon">271866382</field>
     <field name="nip">1271708007</field>
     <field name="krs">0000045210</field>
-    <field name="nazwa">OYX SP Z O O</field>
+    <field name="nazwa">IJD SP Z O O</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica os. Bolesława Chrobrego 3, 60-681 Poznań</field>
@@ -1269,7 +1269,7 @@
     <field name="kodPocztowy">60-681</field>
     <field name="telefon">608382514</field>
     <field name="email">kontakt@wp.pl</field>
-    <field name="stronaWWW">https://oyx.local</field>
+    <field name="stronaWWW">https://ijd.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20250505</field>
   </record>
@@ -1277,7 +1277,7 @@
     <field name="regon">271945578</field>
     <field name="nip">1271787194</field>
     <field name="krs">0000045307</field>
-    <field name="nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">Główny Rynek 20, 62-800 Kalisz</field>
@@ -1288,7 +1288,7 @@
     <field name="kodPocztowy">62-800</field>
     <field name="telefon">(48) 546782858</field>
     <field name="email">biuro@onet.pl</field>
-    <field name="stronaWWW">https://www.iqs-group.pl</field>
+    <field name="stronaWWW">https://www.geu-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">12/06/2026</field>
   </record>
@@ -1296,7 +1296,7 @@
     <field name="regon">272024768</field>
     <field name="nip">1281866417</field>
     <field name="krs">0000045404</field>
-    <field name="nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Kaliska 37/55, 63-400 Ostrów Wielkopolski</field>
@@ -1306,7 +1306,7 @@
     <field name="miejscowosc">OSTRÓW WIELKOPOLSKI</field>
     <field name="kodPocztowy">63-400</field>
     <field name="telefon">48-714-515-484</field>
-    <field name="email">office.nnl@interia.pl</field>
+    <field name="email">office.iao@interia.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2015/19/07</field>
@@ -1315,7 +1315,7 @@
     <field name="regon">272103953</field>
     <field name="nip">1271945575</field>
     <field name="krs">0000045501</field>
-    <field name="nazwa">IIG S.A.</field>
+    <field name="nazwa">HFT S.A.</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Ogarna 54, 80-826 Gdańsk</field>
@@ -1325,8 +1325,8 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-826</field>
     <field name="telefon">503535575</field>
-    <field name="email">kontakt.iig@o2.pl</field>
-    <field name="stronaWWW">https://www.iig-group.eu</field>
+    <field name="email">kontakt.hft@o2.pl</field>
+    <field name="stronaWWW">https://www.hft-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">26-08-2016</field>
   </record>
@@ -1334,7 +1334,7 @@
     <field name="regon">272183142</field>
     <field name="nip">1272024765</field>
     <field name="krs">0000045598</field>
-    <field name="nazwa">DUH SA</field>
+    <field name="nazwa">TWY SA</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica os. Jasień 71, 80-180 Gdańsk</field>
@@ -1344,8 +1344,8 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-180</field>
     <field name="telefon">+48 572 415 345</field>
-    <field name="email">biuro.duh@proton.me</field>
-    <field name="stronaWWW">https://www.duh.local</field>
+    <field name="email">biuro.twy@proton.me</field>
+    <field name="stronaWWW">https://www.twy.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017-05-09</field>
   </record>
@@ -1353,7 +1353,7 @@
     <field name="regon">272262338</field>
     <field name="nip">1272103950</field>
     <field name="krs">000004569</field>
-    <field name="nazwa">WJJ S. A.</field>
+    <field name="nazwa">KSB S. A.</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">Bohaterów Monte Cassino 88, 81-759 Sopot</field>
@@ -1363,8 +1363,8 @@
     <field name="miejscowosc">SOPOT</field>
     <field name="kodPocztowy">81-759</field>
     <field name="telefon">(48) 707113357</field>
-    <field name="email">sekretariat.wjj@yahoo.com</field>
-    <field name="stronaWWW">https://wjj.pl</field>
+    <field name="email">sekretariat.ksb@yahoo.com</field>
+    <field name="stronaWWW">https://ksb.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">20181012</field>
   </record>
@@ -1372,7 +1372,7 @@
     <field name="regon">272341523</field>
     <field name="nip">1282183175</field>
     <field name="krs">0000045792</field>
-    <field name="nazwa">SNP Spółka Akcyjna</field>
+    <field name="nazwa">TEZ Spółka Akcyjna</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">105/17, 80-209 Chwaszczyno</field>
@@ -1382,8 +1382,8 @@
     <field name="miejscowosc">CHWASZCZYNO</field>
     <field name="kodPocztowy">80-209</field>
     <field name="telefon">48-640-111-570</field>
-    <field name="email">firma.snp@gmail.com</field>
-    <field name="stronaWWW">https://www.snp-group.com.pl</field>
+    <field name="email">firma.tez@gmail.com</field>
+    <field name="stronaWWW">https://www.tez-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2019-19-11 05:17</field>
   </record>
@@ -1391,7 +1391,7 @@
     <field name="regon">272420719</field>
     <field name="nip">1272262335</field>
     <field name="krs">0000045889</field>
-    <field name="nazwa">VUK sp. z o.o.</field>
+    <field name="nazwa">ATE sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul 3 Maja 122, 40-096 Katowice</field>
@@ -1402,7 +1402,7 @@
     <field name="kodPocztowy">40-096</field>
     <field name="telefon">48-678-244-296</field>
     <field name="email">kontakt@outlook.com</field>
-    <field name="stronaWWW">https://www.vuk-group.eu</field>
+    <field name="stronaWWW">https://www.ate-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020/26/12</field>
   </record>
@@ -1410,7 +1410,7 @@
     <field name="regon">282499937</field>
     <field name="nip">1272341520</field>
     <field name="krs">0000045986</field>
-    <field name="nazwa">YBL sp z oo</field>
+    <field name="nazwa">OBK sp z oo</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica os. Paderewskiego 139, 40-282 Katowice</field>
@@ -1429,7 +1429,7 @@
     <field name="regon">272579093</field>
     <field name="nip">1272420716</field>
     <field name="krs">0000046083</field>
-    <field name="nazwa">ZVK sp. z o. o.</field>
+    <field name="nazwa">FWF sp. z o. o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Zwycięstwa 156, 44-100 Gliwice</field>
@@ -1439,8 +1439,8 @@
     <field name="miejscowosc">GLIWICE</field>
     <field name="kodPocztowy">44-100</field>
     <field name="telefon">704992244</field>
-    <field name="email">office.zvk@onet.pl</field>
-    <field name="stronaWWW">https://www.zvk.pl</field>
+    <field name="email">office.fwf@onet.pl</field>
+    <field name="stronaWWW">https://www.fwf.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2022-12-02</field>
   </record>
@@ -1448,7 +1448,7 @@
     <field name="regon">272658289</field>
     <field name="nip">1272499907</field>
     <field name="krs">0000046180</field>
-    <field name="nazwa">GCG Sp. z o.o.</field>
+    <field name="nazwa">EPD Sp. z o.o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Bocheńskiego 173/69, 43-100 Tychy</field>
@@ -1458,8 +1458,8 @@
     <field name="miejscowosc">TYCHY</field>
     <field name="kodPocztowy">43-100</field>
     <field name="telefon">526874664</field>
-    <field name="email">kontakt.gcg@interia.pl</field>
-    <field name="stronaWWW">https://gcg.com.pl</field>
+    <field name="email">kontakt.epd@interia.pl</field>
+    <field name="stronaWWW">https://epd.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">20230319</field>
   </record>
@@ -1467,7 +1467,7 @@
     <field name="regon">272737474</field>
     <field name="nip">1272579090</field>
     <field name="krs">0000046277</field>
-    <field name="nazwa">LVO SP Z O O</field>
+    <field name="nazwa">KVZ SP Z O O</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Najświętszej Maryi Panny 10, 42-200 Częstochowa</field>
@@ -1477,8 +1477,8 @@
     <field name="miejscowosc">CZĘSTOCHOWA</field>
     <field name="kodPocztowy">42-200</field>
     <field name="telefon">(48) 664380277</field>
-    <field name="email">biuro.lvo@o2.pl</field>
-    <field name="stronaWWW">https://www.lvo-group.eu</field>
+    <field name="email">biuro.kvz@o2.pl</field>
+    <field name="stronaWWW">https://www.kvz-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">26/04/2024</field>
   </record>
@@ -1486,7 +1486,7 @@
     <field name="regon">282816697</field>
     <field name="nip">1272658286</field>
     <field name="krs">0000046374</field>
-    <field name="nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica 11 Listopada 27, 43-300 Bielsko-Biała</field>
@@ -1496,8 +1496,8 @@
     <field name="miejscowosc">BIELSKO-BIAŁA</field>
     <field name="kodPocztowy">43-300</field>
     <field name="telefon">48-544-341-291</field>
-    <field name="email">sekretariat.rom@proton.me</field>
-    <field name="stronaWWW">https://www.rom-group.local</field>
+    <field name="email">sekretariat.kef@proton.me</field>
+    <field name="stronaWWW">https://www.kef-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2025/05/05</field>
   </record>
@@ -1505,7 +1505,7 @@
     <field name="regon">272895859</field>
     <field name="nip">1272737471</field>
     <field name="krs">0000046471</field>
-    <field name="nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">44, 36-047 Niechobrz</field>
@@ -1515,8 +1515,8 @@
     <field name="miejscowosc">NIECHOBRZ</field>
     <field name="kodPocztowy">36-047</field>
     <field name="telefon">48-599-276-028</field>
-    <field name="email">firma.pjl@yahoo.com</field>
-    <field name="stronaWWW">https://www.pjl-group.pl</field>
+    <field name="email">firma.xtn@yahoo.com</field>
+    <field name="stronaWWW">https://www.xtn-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">12-06-2026</field>
   </record>
@@ -1543,7 +1543,7 @@
     <field name="regon">273054234</field>
     <field name="nip">1272895856</field>
     <field name="krs">0000046665</field>
-    <field name="nazwa">NKM SA</field>
+    <field name="nazwa">QOQ SA</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Kościuszki 78, 38-500 Sanok</field>
@@ -1554,7 +1554,7 @@
     <field name="kodPocztowy">38-500</field>
     <field name="telefon">542 191 061</field>
     <field name="email">biuro@outlook.com</field>
-    <field name="stronaWWW">https://nkm.eu</field>
+    <field name="stronaWWW">https://qoq.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">20160826</field>
   </record>
@@ -1562,7 +1562,7 @@
     <field name="regon">283133457</field>
     <field name="nip">1272975041</field>
     <field name="krs">0000046762</field>
-    <field name="nazwa">JSF S. A.</field>
+    <field name="nazwa">GVM S. A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Suraska 95, 15-422 Białystok</field>
@@ -1572,8 +1572,8 @@
     <field name="miejscowosc">BIAŁYSTOK</field>
     <field name="kodPocztowy">15-422</field>
     <field name="telefon">+48 610 228 165</field>
-    <field name="email">office.jsf@wp.pl</field>
-    <field name="stronaWWW">https://www.jsf-group.local</field>
+    <field name="email">office.gvm@wp.pl</field>
+    <field name="stronaWWW">https://www.gvm-group.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">05/09/2017</field>
   </record>
@@ -1581,7 +1581,7 @@
     <field name="regon">273212615</field>
     <field name="nip">1273054231</field>
     <field name="krs">0000046859</field>
-    <field name="nazwa">YSY Spółka Akcyjna</field>
+    <field name="nazwa">EXN Spółka Akcyjna</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">112, 16-030</field>
@@ -1591,8 +1591,8 @@
     <field name="miejscowosc"></field>
     <field name="kodPocztowy">16-030</field>
     <field name="telefon">(48) 508399972</field>
-    <field name="email">kontakt.ysy@onet.pl</field>
-    <field name="stronaWWW">https://www.ysy-group.pl</field>
+    <field name="email">kontakt.exn@onet.pl</field>
+    <field name="stronaWWW">https://www.exn-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2018/12/10</field>
   </record>
@@ -1600,7 +1600,7 @@
     <field name="regon">273291804</field>
     <field name="nip">1273133427</field>
     <field name="krs">0000046956</field>
-    <field name="nazwa">AKX sp. z o.o.</field>
+    <field name="nazwa">ZEH sp. z o.o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. 3 Maja 129/83, 17-200 Hajnówka</field>
@@ -1610,8 +1610,8 @@
     <field name="miejscowosc">HAJNÓWKA</field>
     <field name="kodPocztowy">17-200</field>
     <field name="telefon">(48) 511641332</field>
-    <field name="email">biuro.akx@interia.pl</field>
-    <field name="stronaWWW">https://www.akx-group.com.pl</field>
+    <field name="email">biuro.zeh@interia.pl</field>
+    <field name="stronaWWW">https://www.zeh-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">19-11-2019</field>
   </record>
@@ -1619,7 +1619,7 @@
     <field name="regon">273370998</field>
     <field name="nip">1273212612</field>
     <field name="krs">0000047053</field>
-    <field name="nazwa">NCK sp z oo</field>
+    <field name="nazwa">BZB sp z oo</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul os. LSM 146, 20-400 Lublin</field>
@@ -1629,8 +1629,8 @@
     <field name="miejscowosc">LUBLIN</field>
     <field name="kodPocztowy">20-400</field>
     <field name="telefon">502 907 388</field>
-    <field name="email">sekretariat.nck@o2.pl</field>
-    <field name="stronaWWW">https://www.nck.eu</field>
+    <field name="email">sekretariat.bzb@o2.pl</field>
+    <field name="stronaWWW">https://www.bzb.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2020-26-12</field>
   </record>
@@ -1638,7 +1638,7 @@
     <field name="regon">273450183</field>
     <field name="nip">1273291801</field>
     <field name="krs">0000047150</field>
-    <field name="nazwa">RRG sp. z o. o.</field>
+    <field name="nazwa">ZQQ sp. z o. o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">163, 24-120 Mięćmierz</field>
@@ -1648,16 +1648,16 @@
     <field name="miejscowosc">MIĘĆMIERZ</field>
     <field name="kodPocztowy">24-120</field>
     <field name="telefon">+48 586 832 558</field>
-    <field name="email">firma.rrg@proton.me</field>
+    <field name="email">firma.zqq@proton.me</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20210105</field>
   </record>
   <record>
     <field name="regon">273529370</field>
-    <field name="nip"></field>
+    <field name="nip">1273370995</field>
     <field name="krs">0000047247</field>
-    <field name="nazwa">PFD Sp. z o.o.</field>
+    <field name="nazwa">DQZ Sp. z o.o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Brzeska 180, 21-500 Biała Podlaska</field>
@@ -1668,15 +1668,15 @@
     <field name="kodPocztowy">21-500</field>
     <field name="telefon">(48) 500440856</field>
     <field name="email">kontakt@yahoo.com</field>
-    <field name="stronaWWW">https://www.pfd-group.pl</field>
+    <field name="stronaWWW">https://www.dqz-group.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">12/02/2022</field>
   </record>
   <record>
     <field name="regon">273608566</field>
-    <field name="nip">1273450180</field>
+    <field name="nip"></field>
     <field name="krs">0000047344</field>
-    <field name="nazwa">JJS SP Z O O</field>
+    <field name="nazwa">ASW SP Z O O</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
@@ -1687,7 +1687,7 @@
     <field name="kodPocztowy">87-100</field>
     <field name="telefon">(48) 729387302</field>
     <field name="email">biuro@gmail.com</field>
-    <field name="stronaWWW">https://www.jjs-group.com.pl</field>
+    <field name="stronaWWW">https://www.asw-group.com.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2023/19/03</field>
   </record>
@@ -1695,7 +1695,7 @@
     <field name="regon">273687755</field>
     <field name="nip">1273529378</field>
     <field name="krs">0000047441</field>
-    <field name="nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Mostowa 34, 85-110 Bydgoszcz</field>
@@ -1705,8 +1705,8 @@
     <field name="miejscowosc">BYDGOSZCZ</field>
     <field name="kodPocztowy">85-110</field>
     <field name="telefon">+48 606 801 795</field>
-    <field name="email">office.mzl@outlook.com</field>
-    <field name="stronaWWW">https://www.mzl-group.eu</field>
+    <field name="email">office.rey@outlook.com</field>
+    <field name="stronaWWW">https://www.rey-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">26-04-2024</field>
   </record>
@@ -1714,7 +1714,7 @@
     <field name="regon">273766940</field>
     <field name="nip">1273608563</field>
     <field name="krs">0000047538</field>
-    <field name="nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Stare Miasto 51, 10-026 Olsztyn</field>
@@ -1724,8 +1724,8 @@
     <field name="miejscowosc">OLSZTYN</field>
     <field name="kodPocztowy">10-026</field>
     <field name="telefon">48-728-708-387</field>
-    <field name="email">kontakt.xou@wp.pl</field>
-    <field name="stronaWWW">https://www.xou.local</field>
+    <field name="email">kontakt.vds@wp.pl</field>
+    <field name="stronaWWW">https://www.vds.local</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2025-05-05</field>
   </record>
@@ -1733,7 +1733,7 @@
     <field name="regon">273846136</field>
     <field name="nip">1273687752</field>
     <field name="krs">0000047635</field>
-    <field name="nazwa">BGD S.A.</field>
+    <field name="nazwa">JII S.A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Warszawska 68, 11-700 Mrągowo</field>
@@ -1743,8 +1743,8 @@
     <field name="miejscowosc">MRĄGOWO</field>
     <field name="kodPocztowy">11-700</field>
     <field name="telefon">595717619</field>
-    <field name="email">biuro.bgd@onet.pl</field>
-    <field name="stronaWWW">https://bgd.pl</field>
+    <field name="email">biuro.jii@onet.pl</field>
+    <field name="stronaWWW">https://jii.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">20260612</field>
   </record>
@@ -1752,7 +1752,7 @@
     <field name="regon">273925321</field>
     <field name="nip">1273766948</field>
     <field name="krs">0000047732</field>
-    <field name="nazwa">GBS SA</field>
+    <field name="nazwa">UYY SA</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Wojska Polskiego 85/7, 70-470 Szczecin</field>
@@ -1762,7 +1762,7 @@
     <field name="miejscowosc">SZCZECIN</field>
     <field name="kodPocztowy">70-470</field>
     <field name="telefon">(48) 786655781</field>
-    <field name="email">sekretariat.gbs@interia.pl</field>
+    <field name="email">sekretariat.uyy@interia.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">19/07/2015</field>
@@ -1771,7 +1771,7 @@
     <field name="regon">274004511</field>
     <field name="nip">1273846133</field>
     <field name="krs">0000047829</field>
-    <field name="nazwa">YIC S. A.</field>
+    <field name="nazwa">GGK S. A.</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">os. Monte Cassino 102, 72-600 Świnoujście</field>
@@ -1781,8 +1781,8 @@
     <field name="miejscowosc">ŚWINOUJŚCIE</field>
     <field name="kodPocztowy">72-600</field>
     <field name="telefon">(48) 639468812</field>
-    <field name="email">firma.yic@o2.pl</field>
-    <field name="stronaWWW">https://www.yic-group.eu</field>
+    <field name="email">firma.ggk@o2.pl</field>
+    <field name="stronaWWW">https://www.ggk-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2016/26/08</field>
   </record>
@@ -1790,7 +1790,7 @@
     <field name="regon">274083700</field>
     <field name="nip">1273925329</field>
     <field name="krs">0000047926</field>
-    <field name="nazwa">OKT Spółka Akcyjna</field>
+    <field name="nazwa">YAS Spółka Akcyjna</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Rynek 119, 45-015 Opole</field>
@@ -1801,7 +1801,7 @@
     <field name="kodPocztowy">45-015</field>
     <field name="telefon">560345865</field>
     <field name="email">kontakt@proton.me</field>
-    <field name="stronaWWW">https://www.okt-group.local</field>
+    <field name="stronaWWW">https://www.yas-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">05-09-2017</field>
   </record>
@@ -1809,7 +1809,7 @@
     <field name="regon">274162894</field>
     <field name="nip">1274004519</field>
     <field name="krs">0000048023</field>
-    <field name="nazwa">QPU sp. z o.o.</field>
+    <field name="nazwa">UQU sp. z o.o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Byczyńska 136, 46-200 Kluczbork</field>
@@ -1820,7 +1820,7 @@
     <field name="kodPocztowy">46-200</field>
     <field name="telefon">580 439 227</field>
     <field name="email">biuro@yahoo.com</field>
-    <field name="stronaWWW">https://www.qpu.pl</field>
+    <field name="stronaWWW">https://www.uqu.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2018-12-10</field>
   </record>
@@ -1828,7 +1828,7 @@
     <field name="regon">284242119</field>
     <field name="nip">1274083708</field>
     <field name="krs">0000048120</field>
-    <field name="nazwa">IEU sp z oo</field>
+    <field name="nazwa">MUV sp z oo</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Chrobrego 153/59, 66-400 Gorzów Wielkopolski</field>
@@ -1838,8 +1838,8 @@
     <field name="miejscowosc">GORZÓW WIELKOPOLSKI</field>
     <field name="kodPocztowy">66-400</field>
     <field name="telefon">(48) 603846244</field>
-    <field name="email">office.ieu@gmail.com</field>
-    <field name="stronaWWW">https://ieu.com.pl</field>
+    <field name="email">office.muv@gmail.com</field>
+    <field name="stronaWWW">https://muv.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">20191119</field>
   </record>
@@ -1847,7 +1847,7 @@
     <field name="regon">274321275</field>
     <field name="nip">1274162891</field>
     <field name="krs">0000048217</field>
-    <field name="nazwa">PAZ sp. z o. o.</field>
+    <field name="nazwa">HAY sp. z o. o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul 30 Stycznia 170, 66-300 Międzyrzecz</field>
@@ -1857,8 +1857,8 @@
     <field name="miejscowosc">MIĘDZYRZECZ</field>
     <field name="kodPocztowy">66-300</field>
     <field name="telefon">(48) 763499544</field>
-    <field name="email">kontakt.paz@outlook.com</field>
-    <field name="stronaWWW">https://www.paz-group.eu</field>
+    <field name="email">kontakt.hay@outlook.com</field>
+    <field name="stronaWWW">https://www.hay-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">26/12/2020</field>
   </record>
@@ -1866,7 +1866,7 @@
     <field name="regon">274400460</field>
     <field name="nip">1274242087</field>
     <field name="krs">0000048314</field>
-    <field name="nazwa">ZAB Sp. z o.o.</field>
+    <field name="nazwa">CCZ Sp. z o.o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Paderewskiego 7, 25-004 Kielce</field>
@@ -1876,7 +1876,7 @@
     <field name="miejscowosc">KIELCE</field>
     <field name="kodPocztowy">25-004</field>
     <field name="telefon">+48 719 219 555</field>
-    <field name="email">biuro.zab@wp.pl</field>
+    <field name="email">biuro.ccz@wp.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2021/05/01</field>
@@ -1885,7 +1885,7 @@
     <field name="regon">274479651</field>
     <field name="nip">1274321272</field>
     <field name="krs">0000048411</field>
-    <field name="nazwa">SBZ SP Z O O</field>
+    <field name="nazwa">WUF SP Z O O</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">1 Maja 24, 28-100 Busko-Zdrój</field>
@@ -1895,8 +1895,8 @@
     <field name="miejscowosc">BUSKO-ZDRÓJ</field>
     <field name="kodPocztowy">28-100</field>
     <field name="telefon">505343408</field>
-    <field name="email">sekretariat.sbz@mail.xz</field>
-    <field name="stronaWWW">https://www.sbz-group.pl</field>
+    <field name="email">sekretariat.wuf@mail.xz</field>
+    <field name="stronaWWW">https://www.wuf-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">12-02-2022</field>
   </record>
@@ -2043,7 +2043,7 @@
     <field name="adresSiedziby">Legnicka 160, 54-203 Wrocław</field>
     <field name="wojewodztwo">DOLNOŚLĄSKIE</field>
     <field name="powiat">WROCŁAW</field>
-    <field name="gmina">WROCŁA</field>
+    <field name="gmina">WRCOŁAW</field>
     <field name="miejscowosc">WROCŁAW</field>
     <field name="kodPocztowy">54-203</field>
     <field name="telefon">+48 629 142 461</field>
@@ -2837,9 +2837,9 @@
     <field name="krs">0000053261</field>
     <field name="nazwa">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
     <field name="formaPrawna">spółka akcyjna</field>
-    <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
-    <field name="adresSiedziby">ul Małachowskiego 154, 42-500 Będzin</field>
-    <field name="wojewodztwo"></field>
+    <field name="formaWlasnosci"></field>
+    <field name="adresSiedziby"></field>
+    <field name="wojewodztwo">ŚLĄSKIE</field>
     <field name="powiat">BĘDZIŃSKI</field>
     <field name="gmina">BĘDZIN</field>
     <field name="miejscowosc">BĘDZIN</field>
@@ -2968,7 +2968,7 @@
     <field name="regon">278993480</field>
     <field name="nip">1278835105</field>
     <field name="krs">0000053940</field>
-    <field name="nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. 3 Maja 93/29, 16-300 Augustów</field>
@@ -2978,8 +2978,8 @@
     <field name="miejscowosc">AUGUSTÓW</field>
     <field name="kodPocztowy">16-300</field>
     <field name="telefon">(48) 617453300</field>
-    <field name="email">firma.zielony-bizon@interia.pl</field>
-    <field name="stronaWWW">https://zielony-bizon.com.pl</field>
+    <field name="email">firma.niebieski-horyzont@interia.pl</field>
+    <field name="stronaWWW">https://niebieski-horyzont.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20191119</field>
   </record>
@@ -2987,18 +2987,18 @@
     <field name="regon">279072670</field>
     <field name="nip">1278914299</field>
     <field name="krs">0000054037</field>
-    <field name="nazwa">Zielony Canyon S.A.</field>
+    <field name="nazwa">Złoty Oaza S.A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własonść krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Kościuszki 110, 16-400 Suwałki</field>
     <field name="wojewodztwo">PODLASKIE</field>
     <field name="powiat">SUWAŁKI</field>
-    <field name="gmina">SUWAŁKI</field>
+    <field name="gmina">SUWAKŁI</field>
     <field name="miejscowosc">SUWAŁKI</field>
     <field name="kodPocztowy">16-400</field>
     <field name="telefon">687 451 465</field>
     <field name="email">kontakt@o2.pl</field>
-    <field name="stronaWWW">https://www.zielony-canyon-group.eu</field>
+    <field name="stronaWWW">https://www.zloty-oaza-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">26/12/2020</field>
   </record>
@@ -3006,7 +3006,7 @@
     <field name="regon">279151866</field>
     <field name="nip">1278993488</field>
     <field name="krs">0000054134</field>
-    <field name="nazwa">Zielony Delfin SA</field>
+    <field name="nazwa">Srebrny Zefir SA</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Piastowska 127, 48-300 Nysa</field>
@@ -3025,7 +3025,7 @@
     <field name="regon">279231051</field>
     <field name="nip">1279072678</field>
     <field name="krs">0000054231</field>
-    <field name="nazwa">Zielony Echo S. A.</field>
+    <field name="nazwa">Czysty Pilica S. A.</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Długa 144, 49-300 Brzeg</field>
@@ -3035,8 +3035,8 @@
     <field name="miejscowosc">BRZEG</field>
     <field name="kodPocztowy">49-300</field>
     <field name="telefon">679248136</field>
-    <field name="email">office.zielony-echo@yahoo.com</field>
-    <field name="stronaWWW">https://www.zielony-echo-group.pl</field>
+    <field name="email">office.czysty-pilica@yahoo.com</field>
+    <field name="stronaWWW">https://www.czysty-pilica-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">12-02-2022</field>
   </record>
@@ -3063,7 +3063,7 @@
     <field name="regon">279389438</field>
     <field name="nip">1279231059</field>
     <field name="krs">0000054425</field>
-    <field name="nazwa">Zielony Gryf sp. z o.o.</field>
+    <field name="nazwa">Pewny Giewont sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Sikorskiego 178, 66-200 Świebodzin</field>
@@ -3073,8 +3073,8 @@
     <field name="miejscowosc">ŚWIEBODZIN</field>
     <field name="kodPocztowy">66-200</field>
     <field name="telefon">792 335 714</field>
-    <field name="email">biuro.zielony-gryf@outlook.com</field>
-    <field name="stronaWWW">https://zielony-gryf.eu</field>
+    <field name="email">biuro.pewny-giewont@outlook.com</field>
+    <field name="stronaWWW">https://pewny-giewont.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20240426</field>
   </record>
@@ -3082,7 +3082,7 @@
     <field name="regon">279468623</field>
     <field name="nip">1279310244</field>
     <field name="krs">0000054522</field>
-    <field name="nazwa">Zielony Horyzont sp z oo</field>
+    <field name="nazwa">Dobry Sudety sp z oo</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Armii Krajowej 15, 78-100 Kołobrzeg</field>
@@ -3092,8 +3092,8 @@
     <field name="miejscowosc">KOŁOBRZEG</field>
     <field name="kodPocztowy">78-100</field>
     <field name="telefon">723 850 420</field>
-    <field name="email">sekretariat.zielony-horyzont@wp.pl</field>
-    <field name="stronaWWW">https://www.zielony-horyzont-group.local</field>
+    <field name="email">sekretariat.dobry-sudety@wp.pl</field>
+    <field name="stronaWWW">https://www.dobry-sudety-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">05/05/2025</field>
   </record>
@@ -3101,7 +3101,7 @@
     <field name="regon">279547819</field>
     <field name="nip">1279389435</field>
     <field name="krs">0000054619</field>
-    <field name="nazwa">Zielony Ikar sp. z o. o.</field>
+    <field name="nazwa">Polski Gryf sp. z o. o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">Piłsudskiego 32, 73-110 Stargard</field>
@@ -3111,8 +3111,8 @@
     <field name="miejscowosc">STARGARD</field>
     <field name="kodPocztowy">73-110</field>
     <field name="telefon">+48 552 541 838</field>
-    <field name="email">firma.zielony-ikar@onet.pl</field>
-    <field name="stronaWWW">https://www.zielony-ikar-group.pl</field>
+    <field name="email">firma.polski-gryf@onet.pl</field>
+    <field name="stronaWWW">https://www.polski-gryf-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2026/12/06</field>
   </record>
@@ -3120,7 +3120,7 @@
     <field name="regon">279627004</field>
     <field name="nip">1279468620</field>
     <field name="krs">0000054716</field>
-    <field name="nazwa">Zielony Jantar Sp. z o.o.</field>
+    <field name="nazwa">Europejski Neon Sp. z o.o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Mickiewicza 49/43, 27-600 Sandomierz</field>
@@ -3139,7 +3139,7 @@
     <field name="regon">279706198</field>
     <field name="nip">1279547816</field>
     <field name="krs">0000054813</field>
-    <field name="nazwa">Zielony Koral SP Z O O</field>
+    <field name="nazwa">Globalny Wektor SP Z O O</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Sienkiewicza 66, 27-400 Ostrowiec Świętokrzyski</field>
@@ -3150,7 +3150,7 @@
     <field name="kodPocztowy">27-400</field>
     <field name="telefon">(48) 615298837</field>
     <field name="email">biuro@o2.pl</field>
-    <field name="stronaWWW">https://www.zielony-koral.eu</field>
+    <field name="stronaWWW">https://www.globalny-wektor.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2016-26-08</field>
   </record>
@@ -3158,7 +3158,7 @@
     <field name="regon">279785387</field>
     <field name="nip">1279627001</field>
     <field name="krs">0000054910</field>
-    <field name="nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Chmielna 83, 00-020 Warszawa</field>
@@ -3168,8 +3168,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-020</field>
     <field name="telefon">48-742-853-229</field>
-    <field name="email">office.zielony-lotos@proton.me</field>
-    <field name="stronaWWW">https://zielony-lotos.local</field>
+    <field name="email">office.lokalny-notec@proton.me</field>
+    <field name="stronaWWW">https://lokalny-notec.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20170905</field>
   </record>
@@ -3177,7 +3177,7 @@
     <field name="regon">279864572</field>
     <field name="nip">1279706195</field>
     <field name="krs">0000055007</field>
-    <field name="nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Nowy Świat 100, 00-029 Warszawa</field>
@@ -3187,8 +3187,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">00-029</field>
     <field name="telefon">693952400</field>
-    <field name="email">kontakt.zielony-magnolia@yahoo.com</field>
-    <field name="stronaWWW">https://www.zielony-magnolia-group.pl</field>
+    <field name="email">kontakt.nowoczesny-granit@yahoo.com</field>
+    <field name="stronaWWW">https://www.nowoczesny-granit-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">12/10/2018</field>
   </record>
@@ -3196,7 +3196,7 @@
     <field name="regon">279943768</field>
     <field name="nip">1279785384</field>
     <field name="krs">0000055104</field>
-    <field name="nazwa">Zielony Neon S.A.</field>
+    <field name="nazwa">Tradycyjny Narcyz S.A.</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. os. Przyjaźń 117/5, 01-355 Warszawa</field>
@@ -3206,8 +3206,8 @@
     <field name="miejscowosc">WARSZAWA</field>
     <field name="kodPocztowy">01-355</field>
     <field name="telefon">48-590-831-683</field>
-    <field name="email">biuro.zielony-neon@gmail.com</field>
-    <field name="stronaWWW">https://www.zielony-neon-group.com.pl</field>
+    <field name="email">biuro.tradycyjny-narcyz@gmail.com</field>
+    <field name="stronaWWW">https://www.tradycyjny-narcyz-group.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2019/19/11</field>
   </record>
@@ -3215,7 +3215,7 @@
     <field name="regon">280022958</field>
     <field name="nip">1289864607</field>
     <field name="krs">0000055201</field>
-    <field name="nazwa">Zielony Oaza SA</field>
+    <field name="nazwa">Dynamiczny Bałtyk SA</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Jagiellońska 134, 05-120 Legionowo</field>
@@ -3225,8 +3225,8 @@
     <field name="miejscowosc">LEGIONOWO</field>
     <field name="kodPocztowy">05-120</field>
     <field name="telefon">616786083</field>
-    <field name="email">sekretariat.zielony-oaza@outlook.com</field>
-    <field name="stronaWWW">https://www.zielony-oaza-group.eu</field>
+    <field name="email">sekretariat.dynamiczny-baltyk@outlook.com</field>
+    <field name="stronaWWW">https://www.dynamiczny-baltyk-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">26-12-2020 06:36:32</field>
   </record>
@@ -3234,7 +3234,7 @@
     <field name="regon">280102143</field>
     <field name="nip">1279943765</field>
     <field name="krs">0000055298</field>
-    <field name="nazwa">Zielony Pegaz S. A.</field>
+    <field name="nazwa">Stabilny Falcon S. A.</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Piłsudskiego 151, 05-270 Marki</field>
@@ -3244,7 +3244,7 @@
     <field name="miejscowosc">MARKI</field>
     <field name="kodPocztowy">05-270</field>
     <field name="telefon">741259020</field>
-    <field name="email">firma.zielony-pegaz@wp.pl</field>
+    <field name="email">firma.stabilny-falcon@wp.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2021-05-01</field>
@@ -3253,7 +3253,7 @@
     <field name="regon">280181332</field>
     <field name="nip">1280022953</field>
     <field name="krs">0000055395</field>
-    <field name="nazwa">Zielony Rubin Spółka Akcyjna</field>
+    <field name="nazwa">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">Andriollego 168, 05-400 Otwock</field>
@@ -3264,7 +3264,7 @@
     <field name="kodPocztowy">05-400</field>
     <field name="telefon">(48) 510643973</field>
     <field name="email">kontakt@onet.pl</field>
-    <field name="stronaWWW">https://zielony-rubin.pl</field>
+    <field name="stronaWWW">https://innowacyjny-magnolia.pl</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">20220212</field>
   </record>
@@ -3272,7 +3272,7 @@
     <field name="regon">280260528</field>
     <field name="nip">1280102149</field>
     <field name="krs">0000055492</field>
-    <field name="nazwa">Zielony Szafir sp. z o.o.</field>
+    <field name="nazwa">Kreatywny Uran sp. z o.o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Żeromskiego 5/57, 26-600 Radom</field>
@@ -3283,7 +3283,7 @@
     <field name="kodPocztowy">26-600</field>
     <field name="telefon">(48) 774482794</field>
     <field name="email">biuro@interia.pl</field>
-    <field name="stronaWWW">https://www.zielony-szafir-group.com.pl</field>
+    <field name="stronaWWW">https://www.kreatywny-uran-group.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">19/03/2023</field>
   </record>
@@ -3291,7 +3291,7 @@
     <field name="regon">280339715</field>
     <field name="nip">1280181338</field>
     <field name="krs">0000055589</field>
-    <field name="nazwa">Zielony Tytan sp z oo</field>
+    <field name="nazwa">Aktywny Barycz sp z oo</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Tumska 22, 09-402 Płock</field>
@@ -3301,8 +3301,8 @@
     <field name="miejscowosc">PŁOCK</field>
     <field name="kodPocztowy">09-402</field>
     <field name="telefon">645574497</field>
-    <field name="email">office.zielony-tytan@o2.pl</field>
-    <field name="stronaWWW">https://www.zielony-tytan-group.eu</field>
+    <field name="email">office.aktywny-barycz@o2.pl</field>
+    <field name="stronaWWW">https://www.aktywny-barycz-group.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2024/26/04</field>
   </record>
@@ -3310,7 +3310,7 @@
     <field name="regon">280418900</field>
     <field name="nip">1280260523</field>
     <field name="krs">0000055686</field>
-    <field name="nazwa">Zielony Uran sp. z o. o.</field>
+    <field name="nazwa">Jasny Topaz sp. z o. o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Karmelicka 39, 31-128 Kraków</field>
@@ -3320,8 +3320,8 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-128</field>
     <field name="telefon">673917386</field>
-    <field name="email">kontakt.zielony-uran@proton.me</field>
-    <field name="stronaWWW">https://www.zielony-uran-group.local</field>
+    <field name="email">kontakt.jasny-topaz@proton.me</field>
+    <field name="stronaWWW">https://www.jasny-topaz-group.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">05-05-2025</field>
   </record>
@@ -3329,7 +3329,7 @@
     <field name="regon">280498098</field>
     <field name="nip">1280339710</field>
     <field name="krs">0000055783</field>
-    <field name="nazwa">Zielony Wektor Sp. z o.o.</field>
+    <field name="nazwa">Green Krokus Sp. z o.o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">os. Na Stoku 56, 31-704 Kraków</field>
@@ -3339,8 +3339,8 @@
     <field name="miejscowosc">KRAKÓW</field>
     <field name="kodPocztowy">31-704</field>
     <field name="telefon">(48) 726301352</field>
-    <field name="email">biuro.zielony-wektor@yahoo.com</field>
-    <field name="stronaWWW">https://www.zielony-wektor.pl</field>
+    <field name="email">biuro.green-krokus@yahoo.com</field>
+    <field name="stronaWWW">https://www.green-krokus.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2026-12-06</field>
   </record>
@@ -3348,7 +3348,7 @@
     <field name="regon">280577283</field>
     <field name="nip">1280418906</field>
     <field name="krs">0000055880</field>
-    <field name="nazwa">Zielony Zefir SP Z O O</field>
+    <field name="nazwa">Blue Karpaty SP Z O O</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Krupówki 73/19, 34-500 Zakopane</field>
@@ -3358,7 +3358,7 @@
     <field name="miejscowosc">ZAKOPANE</field>
     <field name="kodPocztowy">34-500</field>
     <field name="telefon">48-671-598-952</field>
-    <field name="email">sekretariat.zielony-zefir@gmail.com</field>
+    <field name="email">sekretariat.blue-karpaty@gmail.com</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20150719</field>
@@ -3367,7 +3367,7 @@
     <field name="regon">280656479</field>
     <field name="nip">1280498093</field>
     <field name="krs">0000055977</field>
-    <field name="nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">90, 34-600 Mordarka</field>
@@ -3377,8 +3377,8 @@
     <field name="miejscowosc">MORDARKA</field>
     <field name="kodPocztowy">34-600</field>
     <field name="telefon">+48 737 821 109</field>
-    <field name="email">firma.zielony-zubr@outlook.com</field>
-    <field name="stronaWWW">https://www.zielony-zubr-group.eu</field>
+    <field name="email">firma.gold-echo@outlook.com</field>
+    <field name="stronaWWW">https://www.gold-echo-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">26/08/2016</field>
   </record>
@@ -3386,7 +3386,7 @@
     <field name="regon">280735664</field>
     <field name="nip">1280577289</field>
     <field name="krs">0000056074</field>
-    <field name="nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Galicyjska 107, 32-087 Zielonki</field>
@@ -3397,7 +3397,7 @@
     <field name="kodPocztowy">32-087</field>
     <field name="telefon">(48) 647356822</field>
     <field name="email">kontakt@wp.pl</field>
-    <field name="stronaWWW">https://www.zielony-sokol-group.local</field>
+    <field name="stronaWWW">https://www.silver-lotos-group.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2017/05/09</field>
   </record>
@@ -3405,7 +3405,7 @@
     <field name="regon">290814887</field>
     <field name="nip">1280656474</field>
     <field name="krs">0000056171</field>
-    <field name="nazwa">Zielony Orzeł S.A.</field>
+    <field name="nazwa">Smart Tytan S.A.</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">124, 32-003 Podłęże</field>
@@ -3416,7 +3416,7 @@
     <field name="kodPocztowy">32-003</field>
     <field name="telefon">(48) 628946870</field>
     <field name="email">biuro@onet.pl</field>
-    <field name="stronaWWW">https://www.zielony-orzel-group.pl</field>
+    <field name="stronaWWW">https://www.smart-tytan-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">12-10-2018</field>
   </record>
@@ -3424,7 +3424,7 @@
     <field name="regon">280894049</field>
     <field name="nip">1290735695</field>
     <field name="krs">0000056268</field>
-    <field name="nazwa">PPHU Zielony Kormoran</field>
+    <field name="nazwa">PPHU Fast Kormoran</field>
     <field name="formaPrawna"></field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">os. Wałowa 141/71, 33-100 Tarnów</field>
@@ -3434,8 +3434,8 @@
     <field name="miejscowosc">TARNÓW</field>
     <field name="kodPocztowy">33-100</field>
     <field name="telefon">649 516 738</field>
-    <field name="email">office.zielony-kormoran@interia.pl</field>
-    <field name="stronaWWW">https://www.zielony-kormoran.com.pl</field>
+    <field name="email">office.fast-kormoran@interia.pl</field>
+    <field name="stronaWWW">https://www.fast-kormoran.com.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2019-19-11</field>
   </record>
@@ -3443,7 +3443,7 @@
     <field name="regon">280973234</field>
     <field name="nip">1280814855</field>
     <field name="krs">0000056365</field>
-    <field name="nazwa">Zielony Barycz S. A.</field>
+    <field name="nazwa">Safe Szmaragd S. A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Narutowicza 158, 90-135 Łódź</field>
@@ -3453,8 +3453,8 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">90-135</field>
     <field name="telefon">736 675 397</field>
-    <field name="email">kontakt.zielony-barycz@o2.pl</field>
-    <field name="stronaWWW">https://zielony-barycz.eu</field>
+    <field name="email">kontakt.safe-szmaragd@o2.pl</field>
+    <field name="stronaWWW">https://safe-szmaragd.eu</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20201226</field>
   </record>
@@ -3462,7 +3462,7 @@
     <field name="regon">281052424</field>
     <field name="nip">1280894044</field>
     <field name="krs">0000056462</field>
-    <field name="nazwa">Zielony Noteć Spółka Akcyjna</field>
+    <field name="nazwa">Best Zorza Spółka Akcyjna</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica os. Retkinia 175, 94-004 Łódź</field>
@@ -3472,7 +3472,7 @@
     <field name="miejscowosc">ŁÓDŹ</field>
     <field name="kodPocztowy">94-004</field>
     <field name="telefon">602917999</field>
-    <field name="email">biuro.zielony-notec@proton.me</field>
+    <field name="email">biuro.best-zorza@proton.me</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">05/01/2021</field>
@@ -3481,7 +3481,7 @@
     <field name="regon">291131647</field>
     <field name="nip">1290973265</field>
     <field name="krs">0000056559</field>
-    <field name="nazwa">Zielony Pilica sp. z o.o.</field>
+    <field name="nazwa">Global Bieszczady sp. z o.o.</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">Zamkowa 12, 95-200</field>
@@ -3491,8 +3491,8 @@
     <field name="miejscowosc"></field>
     <field name="kodPocztowy">95-200</field>
     <field name="telefon">+48 547 673 736</field>
-    <field name="email">sekretariat.zielony-pilica@yahoo.com</field>
-    <field name="stronaWWW">https://www.zielony-pilica-group.pl</field>
+    <field name="email">sekretariat.global-bieszczady@yahoo.com</field>
+    <field name="stronaWWW">https://www.global-bieszczady-group.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022/12/02</field>
   </record>
@@ -3500,7 +3500,7 @@
     <field name="regon">281210805</field>
     <field name="nip">1291052455</field>
     <field name="krs">0000056656</field>
-    <field name="nazwa">Zielony Narew sp z oo</field>
+    <field name="nazwa">Future Delfin sp z oo</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Długa 29/33, 95-100 Zgierz</field>
@@ -3510,8 +3510,8 @@
     <field name="miejscowosc">ZGIERZ</field>
     <field name="kodPocztowy">95-100</field>
     <field name="telefon">48-537-570-847</field>
-    <field name="email">firma.zielony-narew@gmail.com</field>
-    <field name="stronaWWW">https://www.zielony-narew-group.com.pl</field>
+    <field name="email">firma.future-delfin@gmail.com</field>
+    <field name="stronaWWW">https://www.future-delfin-group.com.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">19-03-2023</field>
   </record>
@@ -3519,7 +3519,7 @@
     <field name="regon">281289994</field>
     <field name="nip">1281131615</field>
     <field name="krs">0000056753</field>
-    <field name="nazwa">Zielony Jodełka sp. z o. o.</field>
+    <field name="nazwa">Wielkopolski Koral sp. z o. o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
@@ -3530,7 +3530,7 @@
     <field name="kodPocztowy">99-999</field>
     <field name="telefon">697137304</field>
     <field name="email">kontakt@outlook.com</field>
-    <field name="stronaWWW">https://www.zielony-jodelka.eu</field>
+    <field name="stronaWWW">https://www.wielkopolski-koral.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2024-26-04</field>
   </record>
@@ -3538,7 +3538,7 @@
     <field name="regon">291369219</field>
     <field name="nip">1281210800</field>
     <field name="krs">0000056850</field>
-    <field name="nazwa">Zielony Kaktus Sp. z o.o.</field>
+    <field name="nazwa">Śląski Szafir Sp. z o.o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Jedności Narodowej 63, 50-260 Wrocław</field>
@@ -3549,7 +3549,7 @@
     <field name="kodPocztowy">50-260</field>
     <field name="telefon">+48 753 310 088</field>
     <field name="email">biuro@wp.pl</field>
-    <field name="stronaWWW">https://zielony-kaktus.local</field>
+    <field name="stronaWWW">https://slaski-szafir.local</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20250505</field>
   </record>
@@ -3557,7 +3557,7 @@
     <field name="regon">281448375</field>
     <field name="nip">1291290025</field>
     <field name="krs">0000056947</field>
-    <field name="nazwa">Zielony Szmaragd SP Z O O</field>
+    <field name="nazwa">Mazowiecki Orzeł SP Z O O</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">Konstytucji 3 Maja 80, 58-540 Karpacz</field>
@@ -3567,8 +3567,8 @@
     <field name="miejscowosc">KARPACZ</field>
     <field name="kodPocztowy">58-540</field>
     <field name="telefon">504652747</field>
-    <field name="email">office.zielony-szmaragd@onet.pl</field>
-    <field name="stronaWWW">https://www.zielony-szmaragd-group.pl</field>
+    <field name="email">office.mazowiecki-orzel@onet.pl</field>
+    <field name="stronaWWW">https://www.mazowiecki-orzel-group.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">12/06/2026</field>
   </record>
@@ -3576,7 +3576,7 @@
     <field name="regon">281527560</field>
     <field name="nip">1281369185</field>
     <field name="krs">0000057044</field>
-    <field name="nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Odrodzenia 97/85, 59-300 Lubin</field>
@@ -3586,7 +3586,7 @@
     <field name="miejscowosc">LUBIN</field>
     <field name="kodPocztowy">59-300</field>
     <field name="telefon">48-647-786-700</field>
-    <field name="email">kontakt.zielony-topaz@interia.pl</field>
+    <field name="email">kontakt.pomorski-kaktus@interia.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">2015/19/07</field>
@@ -3595,7 +3595,7 @@
     <field name="regon">281606756</field>
     <field name="nip">1281448370</field>
     <field name="krs">0000057141</field>
-    <field name="nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul Słowackiego 114, 58-300 Wałbrzych</field>
@@ -3605,8 +3605,8 @@
     <field name="miejscowosc">WAŁBRZYCH</field>
     <field name="kodPocztowy">58-300</field>
     <field name="telefon">48-769-978-466</field>
-    <field name="email">biuro.zielony-granit@o2.pl</field>
-    <field name="stronaWWW">https://www.zielony-granit-group.eu</field>
+    <field name="email">biuro.dolnoslaski-olimp@o2.pl</field>
+    <field name="stronaWWW">https://www.dolnoslaski-olimp-group.eu</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">26-08-2016</field>
   </record>
@@ -3614,7 +3614,7 @@
     <field name="regon">281685945</field>
     <field name="nip">1281527566</field>
     <field name="krs">0000057238</field>
-    <field name="nazwa">Zielony Marmur S.A.</field>
+    <field name="nazwa">Karpacki Beskid S.A.</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ulica Półwiejska 131, 61-888 Poznań</field>
@@ -3624,8 +3624,8 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">61-888</field>
     <field name="telefon">683197459</field>
-    <field name="email">sekretariat.zielony-marmur@proton.me</field>
-    <field name="stronaWWW">https://www.zielony-marmur.local</field>
+    <field name="email">sekretariat.karpacki-beskid@proton.me</field>
+    <field name="stronaWWW">https://www.karpacki-beskid.local</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2017-05-09</field>
   </record>
@@ -3633,7 +3633,7 @@
     <field name="regon">281765130</field>
     <field name="nip">1281606751</field>
     <field name="krs">0000057335</field>
-    <field name="nazwa">Zielony Syrena SA</field>
+    <field name="nazwa">Bałtycki Canyon SA</field>
     <field name="formaPrawna">spółka akcyjna</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
@@ -3643,8 +3643,8 @@
     <field name="miejscowosc">POZNAŃ</field>
     <field name="kodPocztowy">60-681</field>
     <field name="telefon">544 673 489</field>
-    <field name="email">firma.zielony-syrena@yahoo.com</field>
-    <field name="stronaWWW">https://zielony-syrena.pl</field>
+    <field name="email">firma.baltycki-canyon@yahoo.com</field>
+    <field name="stronaWWW">https://baltycki-canyon.pl</field>
     <field name="pkd">64.99.Z</field>
     <field name="dataPowstania">20181012</field>
   </record>
@@ -3652,7 +3652,7 @@
     <field name="regon">281844326</field>
     <field name="nip">1281685940</field>
     <field name="krs">0000057432</field>
-    <field name="nazwa">Zielony Zodiak S. A.</field>
+    <field name="nazwa">Młody Jantar S. A.</field>
     <field name="formaPrawna">S.A.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul. Główny Rynek 165/47, 62-800 Kalisz</field>
@@ -3663,7 +3663,7 @@
     <field name="kodPocztowy">62-800</field>
     <field name="telefon">743569696</field>
     <field name="email">kontakt@gmail.com</field>
-    <field name="stronaWWW">https://www.zielony-zodiak-group.com.pl</field>
+    <field name="stronaWWW">https://www.mlody-jantar-group.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">19/11/2019</field>
   </record>
@@ -3671,7 +3671,7 @@
     <field name="regon">281923511</field>
     <field name="nip">1281765136</field>
     <field name="krs">0000057529</field>
-    <field name="nazwa">Zielony Olimp Spółka Akcyjna</field>
+    <field name="nazwa">Wspólny Rubin Spółka Akcyjna</field>
     <field name="formaPrawna">SA</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ul Kaliska 2, 63-400 Ostrów Wielkopolski</field>
@@ -3682,7 +3682,7 @@
     <field name="kodPocztowy">63-400</field>
     <field name="telefon">(48) 720923667</field>
     <field name="email">biuro@outlook.com</field>
-    <field name="stronaWWW">https://www.zielony-olimp-group.eu</field>
+    <field name="stronaWWW">https://www.wspolny-rubin-group.eu</field>
     <field name="pkd">62.01.Z</field>
     <field name="dataPowstania">2020/26/12</field>
   </record>
@@ -3690,7 +3690,7 @@
     <field name="regon">282002701</field>
     <field name="nip">1281844321</field>
     <field name="krs">0000057626</field>
-    <field name="nazwa">Zielony Zorza sp. z o.o.</field>
+    <field name="nazwa">Pierwszy Sokół sp. z o.o.</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica Ogarna 19, 80-826 Gdańsk</field>
@@ -3700,7 +3700,7 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-826</field>
     <field name="telefon">672441774</field>
-    <field name="email">office.zielony-zorza@wp.pl</field>
+    <field name="email">office.pierwszy-sokol@wp.pl</field>
     <field name="stronaWWW"></field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">05-01-2021</field>
@@ -3709,7 +3709,7 @@
     <field name="regon">282081899</field>
     <field name="nip">1281923517</field>
     <field name="krs">0000057723</field>
-    <field name="nazwa">Zielony Krokus sp z oo</field>
+    <field name="nazwa">Zielony Lotos sp z oo</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">os. Jasień 36, 80-180 Gdańsk</field>
@@ -3719,8 +3719,8 @@
     <field name="miejscowosc">GDAŃSK</field>
     <field name="kodPocztowy">80-180</field>
     <field name="telefon">658 436 073</field>
-    <field name="email">kontakt.zielony-krokus@onet.pl</field>
-    <field name="stronaWWW">https://www.zielony-krokus.pl</field>
+    <field name="email">kontakt.zielony-lotos@onet.pl</field>
+    <field name="stronaWWW">https://www.zielony-lotos.pl</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">2022-12-02</field>
   </record>
@@ -3728,7 +3728,7 @@
     <field name="regon">282161084</field>
     <field name="nip">1282002707</field>
     <field name="krs">0000057820</field>
-    <field name="nazwa">Zielony Narcyz sp. z o. o.</field>
+    <field name="nazwa">Niebieski Tytan sp. z o. o.</field>
     <field name="formaPrawna">spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaWlasnosci">własność prywatna krajowa</field>
     <field name="adresSiedziby">ul. Bohaterów Monte Cassino 53/9, 81-759 Sopot</field>
@@ -3738,8 +3738,8 @@
     <field name="miejscowosc">SOPOT</field>
     <field name="kodPocztowy">81-759</field>
     <field name="telefon">48-599-853-574</field>
-    <field name="email">biuro.zielony-narcyz@interia.pl</field>
-    <field name="stronaWWW">https://zielony-narcyz.com.pl</field>
+    <field name="email">biuro.niebieski-tytan@interia.pl</field>
+    <field name="stronaWWW">https://niebieski-tytan.com.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">20230319</field>
   </record>
@@ -3747,7 +3747,7 @@
     <field name="regon">292240309</field>
     <field name="nip">1282081894</field>
     <field name="krs">0000057917</field>
-    <field name="nazwa">Zielony Giewont Sp. z o.o.</field>
+    <field name="nazwa">Złoty Kormoran Sp. z o.o.</field>
     <field name="formaPrawna">sp. z o.o.</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">70, 80-209 Chwaszczyno</field>
@@ -3757,8 +3757,8 @@
     <field name="miejscowosc">CHWASZCZYNO</field>
     <field name="kodPocztowy">80-209</field>
     <field name="telefon">48-796-782-647</field>
-    <field name="email">sekretariat.zielony-giewont@o2.pl</field>
-    <field name="stronaWWW">https://www.zielony-giewont-group.eu</field>
+    <field name="email">sekretariat.zloty-kormoran@o2.pl</field>
+    <field name="stronaWWW">https://www.zloty-kormoran-group.eu</field>
     <field name="pkd">62.02.Z</field>
     <field name="dataPowstania">26/04/2024</field>
   </record>
@@ -3766,7 +3766,7 @@
     <field name="regon">282319467</field>
     <field name="nip">1292161117</field>
     <field name="krs">0000058014</field>
-    <field name="nazwa">Zielony Rysy SP Z O O</field>
+    <field name="nazwa">Srebrny Szmaragd SP Z O O</field>
     <field name="formaPrawna">sp z oo</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">ulica 3 Maja 87, 40-096 Katowice</field>
@@ -3776,8 +3776,8 @@
     <field name="miejscowosc">KATOWICE</field>
     <field name="kodPocztowy">40-096</field>
     <field name="telefon">48-506-413-073</field>
-    <field name="email">firma.zielony-rysy@proton.me</field>
-    <field name="stronaWWW">https://www.zielony-rysy-group.local</field>
+    <field name="email">firma.srebrny-szmaragd@proton.me</field>
+    <field name="stronaWWW">https://www.srebrny-szmaragd-group.local</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">2025/05/05</field>
   </record>
@@ -3785,7 +3785,7 @@
     <field name="regon">282398656</field>
     <field name="nip">1282240275</field>
     <field name="krs">0000058111</field>
-    <field name="nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="nazwa">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="formaPrawna">SP Z O O</field>
     <field name="formaWlasnosci">własność krajowa osób fizycznych</field>
     <field name="adresSiedziby">os. Paderewskiego 104, 40-282 Katowice</field>
@@ -3796,7 +3796,7 @@
     <field name="kodPocztowy">40-282</field>
     <field name="telefon">+48 733 906 908</field>
     <field name="email">kontakt@protonn.me</field>
-    <field name="stronaWWW">https://www.zielony-kasprowy-group.pl</field>
+    <field name="stronaWWW">https://www.czysty-zorza-group.pl</field>
     <field name="pkd">66.22.Z</field>
     <field name="dataPowstania">12-06-2026</field>
   </record>
