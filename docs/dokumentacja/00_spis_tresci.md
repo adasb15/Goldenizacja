@@ -103,7 +103,7 @@ Zakres:
 - przyjmowanie danych,
 - składowanie danych surowych,
 - mapowanie i standaryzacja,
-- walidacja i wzbogacanie,
+- walidacja,
 - integracja i goldenizacja,
 - audytowalność,
 - udostępnianie danych,
@@ -422,11 +422,11 @@ Testy:
 
 - `tests/test_preprocessing.py`.
 
-## 14. Walidacja i wzbogacanie
+## 14. Walidacja
 
 Zakres:
 
-- walidacja PESEL, NIP, REGON i KRS,
+- walidacja PESEL, NIP, REGON, KRS, LEI i numeru dowodu osobistego,
 - kontrola zależności daty urodzenia i płci z numerem PESEL,
 - walidacja nazw,
 - kontrola adresu e-mail i opcjonalne sprawdzenie DNS,
