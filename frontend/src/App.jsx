@@ -1,33 +1,39 @@
+import { API_URL } from './api/serving'
+import { ValidationView } from './features/validation/ValidationView'
 import { useState } from 'react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-
 export default function App() {
-  const [status, setStatus] = useState('idle')
-  const [backendHealth, setBackendHealth] = useState(null)
+  const [refreshToken, setRefreshToken] = useState(0)
 
-  const checkHealth = async () => {
-    setStatus('loading')
-    try {
-      const res = await fetch(`${API_URL}/health`)
-      const data = await res.json()
-      setBackendHealth(data)
-      setStatus('ok')
-    } catch (error) {
-      setBackendHealth({ error: String(error) })
-      setStatus('error')
-    }
+  function refreshData() {
+    setRefreshToken((current) => current + 1)
   }
 
   return (
-    <main className="page">
-      <section className="card">
-        <h1>Goldenizacja Frontend</h1>
-        <p>Prosty frontend React do testu połączenia z backendem FastAPI.</p>
-        <button onClick={checkHealth} disabled={status === 'loading'}>
-          {status === 'loading' ? 'Sprawdzam...' : 'Sprawdź /health'}
-        </button>
-        <pre>{backendHealth ? JSON.stringify(backendHealth, null, 2) : 'Brak wyniku'}</pre>
+    <main className="app-shell">
+      <section className="hero">
+        <div>
+          <p className="eyebrow">React serving console</p>
+          <h1>Widok walidacji</h1>
+          <p className="hero__copy">
+            Tabela wynikow walidacji oparta o endpoint warstwy serving.
+          </p>
+        </div>
+
+        <div className="hero__actions">
+          <div className="api-target">
+            <span>API</span>
+            <strong>{API_URL}</strong>
+          </div>
+
+          <button type="button" className="button" onClick={refreshData}>
+            Odswiez dane
+          </button>
+        </div>
+      </section>
+
+      <section className="workspace">
+        <ValidationView refreshToken={refreshToken} />
       </section>
     </main>
   )
