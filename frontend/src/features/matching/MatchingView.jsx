@@ -7,6 +7,22 @@ import { MATCHING_ALGORITHM_OPTIONS, MATCHING_LIMIT, EMPTY_MATCHING_PAGE } from 
 import { formatDateTime, formatValue } from '../../utils/formatters'
 import { formatMatchScore } from '../../utils/matching'
 
+function MatchFieldList({ values, tone }) {
+  if (!values || values.length === 0) {
+    return <span className="match-field-list__empty">-</span>
+  }
+
+  return (
+    <div className="match-field-list">
+      {values.map((value) => (
+        <span key={value} className={`match-field-chip match-field-chip--${tone}`}>
+          {value}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 function MatchingView({ refreshToken }) {
   const [algorithm, setAlgorithm] = useState('levenshtein')
   const [query, setQuery] = useState({
@@ -107,7 +123,7 @@ function MatchingView({ refreshToken }) {
             <tr>
               <th>ID</th>
               <th>Encja</th>
-              <th>Score</th>
+              <th>Wynik liczbowy</th>
               <th>Decyzja</th>
               <th>Silne pola</th>
               <th>Pola konfliktowe</th>
@@ -141,8 +157,12 @@ function MatchingView({ refreshToken }) {
                 <td>
                   <StatusBadge value={item.decision} />
                 </td>
-                <td className="cell-break">{formatValue(item.strong_match_fields)}</td>
-                <td className="cell-break">{formatValue(item.conflict_fields)}</td>
+                <td className="cell-break">
+                  <MatchFieldList values={item.strong_match_fields} tone="strong" />
+                </td>
+                <td className="cell-break">
+                  <MatchFieldList values={item.conflict_fields} tone="conflict" />
+                </td>
                 <td className="cell-break">{formatValue(item.text_match_fields)}</td>
                 <td className="cell-break">
                   {item.left_preprocessed_id} / {item.right_preprocessed_id}

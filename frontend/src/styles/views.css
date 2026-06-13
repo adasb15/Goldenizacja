@@ -169,6 +169,39 @@ tbody tr:nth-child(even) {
   gap: 12px;
 }
 
+.match-field-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.match-field-list__empty {
+  color: #516072;
+}
+
+.match-field-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.match-field-chip--strong {
+  background: rgba(20, 149, 112, 0.12);
+  color: #0c6d52;
+  border-color: rgba(20, 149, 112, 0.18);
+}
+
+.match-field-chip--conflict {
+  background: rgba(202, 62, 48, 0.12);
+  color: #a62d22;
+  border-color: rgba(202, 62, 48, 0.18);
+}
+
 @media (max-width: 640px) {
   .pager,
   .pager__actions {
