@@ -48,15 +48,15 @@ def status() -> LayerStatus:
     response_model=GoldenRecordListResponse,
     summary="Golden Records",
     description=(
-        "Zwraca listę golden recordów z paginacją. "
-        "Pole `record_id` z odpowiedzi jest później używane jako `person_id` albo `party_id` "
-        "w endpointach szczegółów, lineage i historii."
+        "Zwraca listÄ™ golden recordĂłw z paginacjÄ…. "
+        "Pole `record_id` z odpowiedzi jest pĂłĹşniej uĹĽywane jako `person_id` albo `party_id` "
+        "w endpointach szczegĂłĹ‚Ăłw, lineage i historii."
     ),
 )
 def golden_records(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
-    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
-    offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
+    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wynikĂłw."),
+    offset: int = Query(default=0, ge=0, description="PrzesuniÄ™cie paginacji."),
     db: Session = Depends(get_db),
 ) -> GoldenRecordListResponse:
     try:
@@ -70,7 +70,7 @@ def golden_records(
     response_model=PersonDetailResponse,
     summary="Person Detail",
     description=(
-        "Zwraca szczegóły golden rekordu osoby. "
+        "Zwraca szczegĂłĹ‚y golden rekordu osoby. "
         "Tutaj podajesz `Person_ID`, czyli `record_id` z listy `/golden-records` dla `entity_type=PERSON`."
     ),
 )
@@ -85,7 +85,7 @@ def person_detail(person_id: int, db: Session = Depends(get_db)) -> PersonDetail
     "/persons/search/by-pesel",
     response_model=PersonDetailResponse,
     summary="Search Person by PESEL",
-    description="Wyszukuje golden rekord osoby po numerze PESEL i zwraca jego szczegóły.",
+    description="Wyszukuje golden rekord osoby po numerze PESEL i zwraca jego szczegĂłĹ‚y.",
 )
 def person_search_by_pesel(
     pesel: str = Query(..., min_length=1, description="PESEL osoby."),
@@ -102,8 +102,8 @@ def person_search_by_pesel(
     response_model=GoldenRecordListResponse,
     summary="Search Party",
     description=(
-        "Wyszukuje golden rekordy podmiotów po NIP, REGON, KRS, LEI albo nazwie. "
-        "Pole `record_id` z odpowiedzi jest później używane jako `party_id`."
+        "Wyszukuje golden rekordy podmiotĂłw po NIP, REGON, KRS, LEI albo nazwie. "
+        "Pole `record_id` z odpowiedzi jest pĂłĹşniej uĹĽywane jako `party_id`."
     ),
 )
 def party_search(
@@ -112,8 +112,8 @@ def party_search(
     krs: str | None = Query(default=None, description="KRS podmiotu."),
     lei: str | None = Query(default=None, description="LEI podmiotu."),
     name: str | None = Query(default=None, description="Nazwa podmiotu."),
-    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
-    offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
+    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wynikĂłw."),
+    offset: int = Query(default=0, ge=0, description="PrzesuniÄ™cie paginacji."),
     db: Session = Depends(get_db),
 ) -> GoldenRecordListResponse:
     return search_parties(
@@ -133,7 +133,7 @@ def party_search(
     response_model=PartyDetailResponse,
     summary="Party Detail",
     description=(
-        "Zwraca szczegóły golden rekordu podmiotu. "
+        "Zwraca szczegĂłĹ‚y golden rekordu podmiotu. "
         "Tutaj podajesz `Party_ID`, czyli `record_id` z listy `/golden-records` dla `entity_type=PARTY`."
     ),
 )
@@ -169,7 +169,7 @@ def lineage(
     response_model=ChangeHistoryResponse,
     summary="Change History",
     description=(
-        "Zwraca historię zmian atrybutów golden rekordu. "
+        "Zwraca historiÄ™ zmian atrybutĂłw golden rekordu. "
         "Parametr `record_id` to golden `Person_ID` albo `Party_ID`, nie `preprocessed_id`."
     ),
 )
@@ -188,14 +188,16 @@ def history(
     "/validation-results",
     response_model=ValidationResultListResponse,
     summary="Validation Results",
-    description="Zwraca listę wyników walidacji z opcjonalnym filtrowaniem i paginacją.",
+    description="Zwraca listÄ™ wynikĂłw walidacji z opcjonalnym filtrowaniem i paginacjÄ….",
 )
 def validation_results(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
-    source_system_code: str | None = Query(default=None, description="Kod systemu źródłowego, np. KRS."),
-    rule_code: str | None = Query(default=None, description="Kod reguły walidacyjnej."),
-    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
-    offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
+    source_system_code: str | None = Query(default=None, description="Kod systemu ĹşrĂłdĹ‚owego, np. KRS."),
+    rule_code: str | None = Query(default=None, description="Kod reguĹ‚y walidacyjnej."),
+    status: str | None = Query(default=None, description="Opcjonalny status walidacji, np. PASS albo ERROR."),
+    severity: str | None = Query(default=None, description="Opcjonalna severity reguĹ‚y, np. INFO albo ERROR."),
+    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wynikĂłw."),
+    offset: int = Query(default=0, ge=0, description="PrzesuniÄ™cie paginacji."),
     db: Session = Depends(get_db),
 ) -> ValidationResultListResponse:
     try:
@@ -204,6 +206,8 @@ def validation_results(
             entity_type=entity_type,
             source_system_code=source_system_code,
             rule_code=rule_code,
+            status=status,
+            severity=severity,
             limit=limit,
             offset=offset,
         )
@@ -216,15 +220,15 @@ def validation_results(
     response_model=MatchCandidateListResponse,
     summary="Levenshtein Matches",
     description=(
-        "Zwraca listę kandydatów dopasowania Levenshteina. "
+        "Zwraca listÄ™ kandydatĂłw dopasowania Levenshteina. "
         "Z odpowiedzi bierzesz `left_preprocessed_id` i `right_preprocessed_id` do endpointu comparison."
     ),
 )
 def levenshtein_results(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
     decision: str | None = Query(default=None, description="Opcjonalny status decyzji matchingu."),
-    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
-    offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
+    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wynikĂłw."),
+    offset: int = Query(default=0, ge=0, description="PrzesuniÄ™cie paginacji."),
     db: Session = Depends(get_db),
 ) -> MatchCandidateListResponse:
     try:
@@ -244,15 +248,15 @@ def levenshtein_results(
     response_model=MatchCandidateListResponse,
     summary="Jaro-Winkler Matches",
     description=(
-        "Zwraca listę kandydatów dopasowania Jaro-Winklera. "
+        "Zwraca listÄ™ kandydatĂłw dopasowania Jaro-Winklera. "
         "Z odpowiedzi bierzesz `left_preprocessed_id` i `right_preprocessed_id` do endpointu comparison."
     ),
 )
 def jaro_winkler_results(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
     decision: str | None = Query(default=None, description="Opcjonalny status decyzji matchingu."),
-    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
-    offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
+    limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wynikĂłw."),
+    offset: int = Query(default=0, ge=0, description="PrzesuniÄ™cie paginacji."),
     db: Session = Depends(get_db),
 ) -> MatchCandidateListResponse:
     try:
@@ -272,8 +276,8 @@ def jaro_winkler_results(
     response_model=MatchComparisonDetailResponse,
     summary="Compare Two Records",
     description=(
-        "Zwraca szczegóły porównania dwóch rekordów z warstwy preprocessed. "
-        "Tutaj podajesz `left_preprocessed_id` i `right_preprocessed_id` pobrane z endpointów "
+        "Zwraca szczegĂłĹ‚y porĂłwnania dwĂłch rekordĂłw z warstwy preprocessed. "
+        "Tutaj podajesz `left_preprocessed_id` i `right_preprocessed_id` pobrane z endpointĂłw "
         "`/match-results/levenshtein` albo `/match-results/jaro-winkler`."
     ),
 )
@@ -298,7 +302,7 @@ def match_comparison(
     "/counts",
     response_model=StageCountResponse,
     summary="Stage Counts",
-    description="Zwraca podstawowe liczniki rekordów dla kolejnych etapów przetwarzania.",
+    description="Zwraca podstawowe liczniki rekordĂłw dla kolejnych etapĂłw przetwarzania.",
 )
 def counts(db: Session = Depends(get_db)) -> StageCountResponse:
     return get_stage_counts(db)

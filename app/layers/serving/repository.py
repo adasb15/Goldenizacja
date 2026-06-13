@@ -188,6 +188,8 @@ class ServingRepository:
         entity_type: str | None,
         source_system_code: str | None,
         rule_code: str | None,
+        status: str | None,
+        severity: str | None,
         limit: int,
         offset: int,
     ) -> tuple[list[Any], int]:
@@ -204,6 +206,10 @@ class ServingRepository:
             query = query.where(SourceSystem.SourceSystem_Code == source_system_code.strip().upper())
         if self._is_present(rule_code):
             query = query.where(ValidationResult.Rule_Code == rule_code.strip())
+        if self._is_present(status):
+            query = query.where(ValidationResult.Status == status.strip().upper())
+        if self._is_present(severity):
+            query = query.where(ValidationResult.Severity == severity.strip().upper())
         total = self._count(query)
         return list(self.db.execute(query.offset(offset).limit(limit))), total
 

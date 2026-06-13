@@ -3,9 +3,28 @@ import { useEffect, useState } from 'react'
 import { getValidationResults } from '../../api/serving'
 import { StatusBadge } from '../../components/ui/StatusBadge'
 import { EMPTY_VALIDATION_PAGE, VALIDATION_LIMIT } from '../../constants/validation'
+import {
+  VALIDATION_ENTITY_OPTIONS,
+  VALIDATION_SEVERITY_OPTIONS,
+  VALIDATION_STATUS_OPTIONS,
+} from '../../constants/validationFilters'
 import { formatDateTime, formatValue } from '../../utils/formatters'
 
 function ValidationView({ refreshToken }) {
+  const [filters, setFilters] = useState({
+    entity_type: '',
+    source_system_code: '',
+    rule_code: '',
+    status: '',
+    severity: '',
+  })
+  const [query, setQuery] = useState({
+    entity_type: '',
+    source_system_code: '',
+    rule_code: '',
+    status: '',
+    severity: '',
+  })
   const [state, setState] = useState({
     status: 'idle',
     data: EMPTY_VALIDATION_PAGE,
@@ -19,7 +38,11 @@ function ValidationView({ refreshToken }) {
       setState((current) => ({ ...current, status: 'loading', error: '' }))
 
       try {
-        const data = await getValidationResults({ limit: VALIDATION_LIMIT, offset: 0 })
+        const data = await getValidationResults({
+          ...query,
+          limit: VALIDATION_LIMIT,
+          offset: 0,
+        })
 
         if (!cancelled) {
           setState({ status: 'success', data, error: '' })
@@ -40,7 +63,12 @@ function ValidationView({ refreshToken }) {
     return () => {
       cancelled = true
     }
-  }, [refreshToken])
+  }, [query, refreshToken])
+
+  function submitFilters(event) {
+    event.preventDefault()
+    setQuery(filters)
+  }
 
   return (
     <section className="panel">
@@ -53,6 +81,97 @@ function ValidationView({ refreshToken }) {
           {state.data.page?.total ?? 0} rekordow, pokazane pierwsze {VALIDATION_LIMIT}
         </span>
       </div>
+
+      <form className="filters" onSubmit={submitFilters}>
+        <label>
+          Zrodlo
+          <input
+            value={filters.source_system_code}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                source_system_code: event.target.value.toUpperCase(),
+              }))
+            }
+            placeholder="np. KRS"
+          />
+        </label>
+
+        <label>
+          Typ encji
+          <select
+            value={filters.entity_type}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                entity_type: event.target.value,
+              }))
+            }
+          >
+            {VALIDATION_ENTITY_OPTIONS.map((option) => (
+              <option key={option.label} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label>
+          Kod bledu
+          <input
+            value={filters.rule_code}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                rule_code: event.target.value.toUpperCase(),
+              }))
+            }
+            placeholder="np. PARTY_NIP_CHECKSUM"
+          />
+        </label>
+
+        <label>
+          Status
+          <select
+            value={filters.status}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                status: event.target.value,
+              }))
+            }
+          >
+            {VALIDATION_STATUS_OPTIONS.map((option) => (
+              <option key={option.label} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label>
+          Severity
+          <select
+            value={filters.severity}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                severity: event.target.value,
+              }))
+            }
+          >
+            {VALIDATION_SEVERITY_OPTIONS.map((option) => (
+              <option key={option.label} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <button type="submit" className="button">
+          Filtruj
+        </button>
+      </form>
 
       {state.status === 'error' ? (
         <div className="banner banner--danger">Blad pobierania walidacji: {state.error}</div>

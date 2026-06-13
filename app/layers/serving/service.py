@@ -170,6 +170,8 @@ def list_validation_results(
     entity_type: str | None = None,
     source_system_code: str | None = None,
     rule_code: str | None = None,
+    status: str | None = None,
+    severity: str | None = None,
     limit: int = 50,
     offset: int = 0,
     repo: ServingRepository | None = None,
@@ -179,6 +181,8 @@ def list_validation_results(
         entity_type=entity_type,
         source_system_code=source_system_code,
         rule_code=rule_code,
+        status=status,
+        severity=severity,
         limit=limit,
         offset=offset,
     )

@@ -20,6 +20,39 @@
   font-size: 0.92rem;
 }
 
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.filters label {
+  display: grid;
+  gap: 8px;
+  min-width: 180px;
+  flex: 1 1 190px;
+  font-size: 0.92rem;
+  color: #425065;
+}
+
+.filters input,
+.filters select {
+  min-height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(19, 34, 56, 0.14);
+  background: rgba(247, 250, 252, 0.9);
+  color: #132238;
+  padding: 0 14px;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: 2px solid rgba(15, 132, 122, 0.2);
+  border-color: #0f847a;
+}
+
 .table-wrap {
   overflow: auto;
   border: 1px solid rgba(19, 34, 56, 0.08);

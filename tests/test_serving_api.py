@@ -144,7 +144,7 @@ def test_validation_results_endpoint_accepts_filters() -> None:
 
     with patch("app.layers.serving.api.list_validation_results", return_value=mocked) as service:
         response = client.get(
-            "/serving/validation-results?entity_type=PARTY&source_system_code=KRS&rule_code=NIP_INVALID&limit=25&offset=5"
+            "/serving/validation-results?entity_type=PARTY&source_system_code=KRS&rule_code=NIP_INVALID&status=ERROR&severity=ERROR&limit=25&offset=5"
         )
 
     assert response.status_code == 200
@@ -152,6 +152,8 @@ def test_validation_results_endpoint_accepts_filters() -> None:
     assert service.call_args.kwargs["entity_type"] == "PARTY"
     assert service.call_args.kwargs["source_system_code"] == "KRS"
     assert service.call_args.kwargs["rule_code"] == "NIP_INVALID"
+    assert service.call_args.kwargs["status"] == "ERROR"
+    assert service.call_args.kwargs["severity"] == "ERROR"
 
 
 def test_matching_endpoints_and_comparison_return_payloads() -> None:
