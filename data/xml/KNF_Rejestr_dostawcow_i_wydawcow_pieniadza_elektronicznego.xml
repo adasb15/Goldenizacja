@@ -102,7 +102,7 @@
     <field name="ID">ID-00408</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elketronicznego</field>
     <field name="Numer UKNF">UK-EPI-2622/2018</field>
-    <field name="Nazwa">Zeiliński Bracia sp. z o.o.</field>
+    <field name="Nazwa">iZeliński Bracia sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">18-06-2020</field>
     <field name="Data wykreślenia">2026-10-04</field>
@@ -802,7 +802,7 @@
     <field name="ID">ID-00458</field>
     <field name="Typ podmiotu">ywdawca pieniądza eletkroniczngeo</field>
     <field name="Numer UKNF">UKNF-EPI-9584/2023</field>
-    <field name="Nazwa">Ochrona Śląski Sópłka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-12-2022</field>
     <field name="Data wykreślenia">2023-12-12</field>
@@ -844,7 +844,7 @@
     <field name="ID">ID-00461</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5921/2023</field>
-    <field name="Nazwa">P.P.H.U. ZLS</field>
+    <field name="Nazwa">P.P.H.U. ORR</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">30/06/2021</field>
     <field name="Data wykreślenia">2022/30/06</field>
@@ -858,7 +858,7 @@
     <field name="ID">ID-00462</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6025/2019</field>
-    <field name="Nazwa">UZA Spółka Akcyjna</field>
+    <field name="Nazwa">BDZ Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/09/04</field>
     <field name="Data wykreślenia">14-09-2026</field>
@@ -872,7 +872,7 @@
     <field name="ID">ID-00463</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8286/2021</field>
-    <field name="Nazwa">NKV sp. z o.o.</field>
+    <field name="Nazwa">SYT sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">25-12-2017</field>
     <field name="Data wykreślenia">2021-03-11</field>
@@ -886,7 +886,7 @@
     <field name="ID">ID-00464</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7390/2019</field>
-    <field name="Nazwa">SAI sp z oo</field>
+    <field name="Nazwa">FFB sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022-20-12</field>
     <field name="Data wykreślenia">20231220</field>
@@ -900,7 +900,7 @@
     <field name="ID">ID-00465</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8882/2025</field>
-    <field name="Nazwa">EFT sp. z o. o.</field>
+    <field name="Nazwa">HVB sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220225</field>
     <field name="Data wykreślenia">17/01/2023</field>
@@ -914,7 +914,7 @@
     <field name="ID">ID-00466</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6456/2025</field>
-    <field name="Nazwa">HMO Sp. z o.o.</field>
+    <field name="Nazwa">TTH Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/02/2017</field>
     <field name="Data wykreślenia">2024/24/02</field>
@@ -928,7 +928,7 @@
     <field name="ID">ID-00467</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5364/2020</field>
-    <field name="Nazwa">OYX SP Z O O</field>
+    <field name="Nazwa">IJD SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/22/04</field>
     <field name="Data wykreślenia">29-10-2023</field>
@@ -942,7 +942,7 @@
     <field name="ID">ID-00468</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6861/2019</field>
-    <field name="Nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">22-02-2019</field>
     <field name="Data wykreślenia">2025-21-07</field>
@@ -956,7 +956,7 @@
     <field name="ID">ID-00469</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7378/2021</field>
-    <field name="Nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-03-01</field>
     <field name="Data wykreślenia">20250301</field>
@@ -970,7 +970,7 @@
     <field name="ID">ID-00470</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4502/2026</field>
-    <field name="Nazwa">IIG S.A.</field>
+    <field name="Nazwa">HFT S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240827</field>
     <field name="Data wykreślenia">23/05/2025 05:59</field>
@@ -984,7 +984,7 @@
     <field name="ID">ID-00471</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4642/2024</field>
-    <field name="Nazwa">DUH SA</field>
+    <field name="Nazwa">TWY SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/03/2018</field>
     <field name="Data wykreślenia">2025/06/01</field>
@@ -998,7 +998,7 @@
     <field name="ID">ID-00472</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3180/2019</field>
-    <field name="Nazwa">WJJ S. A.</field>
+    <field name="Nazwa">KSB S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/24/02</field>
     <field name="Data wykreślenia">23-02-2021</field>
@@ -1012,7 +1012,7 @@
     <field name="ID">ID-00473</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8518/2026</field>
-    <field name="Nazwa">SNP Spółka Akcyjna</field>
+    <field name="Nazwa">TEZ Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-11-2025</field>
     <field name="Data wykreślenia">2026-11-06</field>
@@ -1026,7 +1026,7 @@
     <field name="ID">ID-00474</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8845/2025</field>
-    <field name="Nazwa">VUK sp. z o.o.</field>
+    <field name="Nazwa">ATE sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-26-08</field>
     <field name="Data wykreślenia">20261102</field>
@@ -1040,7 +1040,7 @@
     <field name="ID">ID-00475</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3961/2018</field>
-    <field name="Nazwa">YBL sp z oo</field>
+    <field name="Nazwa">OBK sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20240113</field>
     <field name="Data wykreślenia">12/01/2025</field>
@@ -1054,7 +1054,7 @@
     <field name="ID">ID-00476</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6729/2023</field>
-    <field name="Nazwa">ZVK sp. z o. o.</field>
+    <field name="Nazwa">FWF sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-03-07T05:35:15Z</field>
     <field name="Data wykreślenia">2022/10/12</field>
@@ -1068,7 +1068,7 @@
     <field name="ID">ID-00477</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8521/2026</field>
-    <field name="Nazwa">GCG Sp. z o.o.</field>
+    <field name="Nazwa">EPD Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/11/01</field>
     <field name="Data wykreślenia">11-01-2026</field>
@@ -1082,7 +1082,7 @@
     <field name="ID">ID-00478</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6445/2022</field>
-    <field name="Nazwa">LVO SP Z O O</field>
+    <field name="Nazwa">KVZ SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">15-03-2023</field>
     <field name="Data wykreślenia">2024-13-09</field>
@@ -1096,7 +1096,7 @@
     <field name="ID">ID-00479</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9332/2018</field>
-    <field name="Nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-02-03</field>
     <field name="Data wykreślenia">20251205</field>
@@ -1110,7 +1110,7 @@
     <field name="ID">ID-00480</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1325/2026</field>
-    <field name="Nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20221015</field>
     <field name="Data wykreślenia">04/08/2023</field>
@@ -1138,7 +1138,7 @@
     <field name="ID">ID-00482</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1645/2019</field>
-    <field name="Nazwa">NKM SA</field>
+    <field name="Nazwa">QOQ SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/24/10</field>
     <field name="Data wykreślenia">24-10-2026</field>
@@ -1152,7 +1152,7 @@
     <field name="ID">ID-00483</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5673/2024</field>
-    <field name="Nazwa">JSF S. A.</field>
+    <field name="Nazwa">GVM S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05-06-2017</field>
     <field name="Data wykreślenia">2025-28-11</field>
@@ -1166,7 +1166,7 @@
     <field name="ID">ID-00484</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9587/2022</field>
-    <field name="Nazwa">YSY Spółka Akcyjna</field>
+    <field name="Nazwa">EXN Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-11-06</field>
     <field name="Data wykreślenia">20241126</field>
@@ -1180,7 +1180,7 @@
     <field name="ID">ID-00485</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1076/2019</field>
-    <field name="Nazwa">AKX sp. z o.o.</field>
+    <field name="Nazwa">ZEH sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220302</field>
     <field name="Data wykreślenia">05/11/2024</field>
@@ -1194,7 +1194,7 @@
     <field name="ID">ID-00486</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8913/2025</field>
-    <field name="Nazwa">NCK sp z oo</field>
+    <field name="Nazwa">BZB sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">03/01/2023</field>
     <field name="Data wykreślenia">2024/03/01</field>
@@ -1208,7 +1208,7 @@
     <field name="ID">ID-00487</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6521/2026</field>
-    <field name="Nazwa">RRG sp. z o. o.</field>
+    <field name="Nazwa">ZQQ sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/16/05</field>
     <field name="Data wykreślenia">10-08-2025</field>
@@ -1222,13 +1222,13 @@
     <field name="ID">ID-00488</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5232/2020</field>
-    <field name="Nazwa">PFD Sp. z o.o.</field>
+    <field name="Nazwa">DQZ Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-07-2021</field>
     <field name="Data wykreślenia">2022-10-12</field>
     <field name="Data decyzji">20210614</field>
     <field name="KRS">0000047247</field>
-    <field name="NIP"></field>
+    <field name="NIP">1273370995</field>
     <field name="Adres siedziby">Brzeska 180, 21-500 Biała Podlaska</field>
     <field name="Siedziba">Biała Podlaska</field>
   </record>
@@ -1236,13 +1236,13 @@
     <field name="ID">ID-00489</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2873/2020</field>
-    <field name="Nazwa">JJS SP Z O O</field>
+    <field name="Nazwa">ASW SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023-10-12</field>
     <field name="Data wykreślenia">20240722</field>
     <field name="Data decyzji">05/08/2019</field>
     <field name="KRS">0000047344</field>
-    <field name="NIP">1273450180</field>
+    <field name="NIP"></field>
     <field name="Adres siedziby">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
     <field name="Siedziba">Toruń</field>
   </record>
@@ -1250,7 +1250,7 @@
     <field name="ID">ID-00490</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8251/2025</field>
-    <field name="Nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220627</field>
     <field name="Data wykreślenia">24/02/2024</field>
@@ -1264,7 +1264,7 @@
     <field name="ID">ID-00491</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9257/2021</field>
-    <field name="Nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">24/03/2021</field>
     <field name="Data wykreślenia">2025/29/07</field>
@@ -1278,7 +1278,7 @@
     <field name="ID">ID-00492</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1195/2025</field>
-    <field name="Nazwa">BGD S.A.</field>
+    <field name="Nazwa">JII S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/25/02</field>
     <field name="Data wykreślenia">10-11-2026</field>
@@ -1292,7 +1292,7 @@
     <field name="ID">ID-00493</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3712/2022</field>
-    <field name="Nazwa">GBS SA</field>
+    <field name="Nazwa">UYY SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">13-04-2020</field>
     <field name="Data wykreślenia">2023-07-09</field>
@@ -1306,7 +1306,7 @@
     <field name="ID">ID-00494</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5902/2020</field>
-    <field name="Nazwa">YIC S. A.</field>
+    <field name="Nazwa">GGK S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2018-04-05</field>
     <field name="Data wykreślenia">20230224</field>
@@ -1320,7 +1320,7 @@
     <field name="ID">ID-00495</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7290/2019</field>
-    <field name="Nazwa">OKT Spółka Akcyjna</field>
+    <field name="Nazwa">YAS Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20221116</field>
     <field name="Data wykreślenia">13/11/2023</field>
@@ -1334,7 +1334,7 @@
     <field name="ID">ID-00496</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2083/2024</field>
-    <field name="Nazwa">QPU sp. z o.o.</field>
+    <field name="Nazwa">UQU sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">28/04/2023</field>
     <field name="Data wykreślenia">2024/27/04</field>
@@ -1348,7 +1348,7 @@
     <field name="ID">ID-00497</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1918/2018</field>
-    <field name="Nazwa">IEU sp z oo</field>
+    <field name="Nazwa">MUV sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/16/01</field>
     <field name="Data wykreślenia">17-09-2019</field>
@@ -1362,7 +1362,7 @@
     <field name="ID">ID-00498</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6579/2026</field>
-    <field name="Nazwa">PAZ sp. z o. o.</field>
+    <field name="Nazwa">HAY sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">12-08-2022</field>
     <field name="Data wykreślenia">2023-08-12</field>
@@ -1376,7 +1376,7 @@
     <field name="ID">ID-00499</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4155/2025</field>
-    <field name="Nazwa">ZAB Sp. z o.o.</field>
+    <field name="Nazwa">CCZ Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-25-05</field>
     <field name="Data wykreślenia">20240802</field>
@@ -1390,7 +1390,7 @@
     <field name="ID">ID-00500</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3929/2023</field>
-    <field name="Nazwa">SBZ SP Z O O</field>
+    <field name="Nazwa">WUF SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181208</field>
     <field name="Data wykreślenia">02/10/2026</field>
@@ -1502,7 +1502,7 @@
     <field name="ID">ID-00508</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UK--8585/2022</field>
-    <field name="Nazwa">Przesdiębiorstwo Robót Drogowych sp z oo</field>
+    <field name="Nazwa">Przedsiębiorstwo Robót Drgoowych sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">17-01-2025</field>
     <field name="Data wykreślenia">2026-17-01</field>
@@ -2090,7 +2090,7 @@
     <field name="ID">ID-00550</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3889/2018</field>
-    <field name="Nazwa"></field>
+    <field name="Nazwa">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu"></field>
     <field name="Data wykreślenia"></field>
@@ -2098,7 +2098,7 @@
     <field name="KRS">0000053261</field>
     <field name="NIP">1278280771</field>
     <field name="Adres siedziby">ul Małachowskiego 154, 42-500 Będzin</field>
-    <field name="Siedziba">Będzin</field>
+    <field name="Siedziba"></field>
   </record>
   <record>
     <field name="ID">ID-00551</field>
@@ -2188,7 +2188,7 @@
     <field name="ID">ID-00557</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9107/2024</field>
-    <field name="Nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025/14/02</field>
     <field name="Data wykreślenia">14-02-2026</field>
@@ -2202,7 +2202,7 @@
     <field name="ID">ID-00558</field>
     <field name="Typ podmiotu">rkajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UK--6956/2020</field>
-    <field name="Nazwa">Zielony Canyon S.A.</field>
+    <field name="Nazwa">Złoty Oaza S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06-09-2024</field>
     <field name="Data wykreślenia">2025-09-06</field>
@@ -2216,7 +2216,7 @@
     <field name="ID">ID-00559</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8164/2024</field>
-    <field name="Nazwa">Zielony Delfin SA</field>
+    <field name="Nazwa">Srebrny Zefir SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-08-11</field>
     <field name="Data wykreślenia">20250811</field>
@@ -2230,7 +2230,7 @@
     <field name="ID">ID-00560</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8352/2022</field>
-    <field name="Nazwa">Zielony Echo S. A.</field>
+    <field name="Nazwa">Czysty Pilica S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220515</field>
     <field name="Data wykreślenia">24/05/2023</field>
@@ -2258,7 +2258,7 @@
     <field name="ID">ID-00562</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3810/2022</field>
-    <field name="Nazwa">Zielony Gryf sp. z o.o.</field>
+    <field name="Nazwa">Pewny Giewont sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019/01/10</field>
     <field name="Data wykreślenia">01-01-2024</field>
@@ -2272,7 +2272,7 @@
     <field name="ID">ID-00563</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7609/2024</field>
-    <field name="Nazwa">Zielony Horyzont sp z oo</field>
+    <field name="Nazwa">Dobry Sudety sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20-01-2019</field>
     <field name="Data wykreślenia">2025-03-03</field>
@@ -2286,7 +2286,7 @@
     <field name="ID">ID-00564</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4204/2023</field>
-    <field name="Nazwa">Zielony Ikar sp. z o. o.</field>
+    <field name="Nazwa">Polski Gryf sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017-28-11</field>
     <field name="Data wykreślenia">20261025</field>
@@ -2300,13 +2300,13 @@
     <field name="ID">ID-00565</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3693/2025</field>
-    <field name="Nazwa">Zielony Jantar Sp. z o.o.</field>
+    <field name="Nazwa">Europejski Neon Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200825</field>
     <field name="Data wykreślenia">25/08/2021</field>
     <field name="Data decyzji">2020/26/07</field>
     <field name="KRS">0000054716</field>
-    <field name="NIP">2279468620</field>
+    <field name="NIP">1279468620</field>
     <field name="Adres siedziby">ul. Mickiewicza 49/43, 27-600 Sandomierz</field>
     <field name="Siedziba">Sandomierz</field>
   </record>
@@ -2314,7 +2314,7 @@
     <field name="ID">ID-00566</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3393/2025</field>
-    <field name="Nazwa">Zielony Koral SP Z O O</field>
+    <field name="Nazwa">Globalny Wektor SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">06/01/2023</field>
     <field name="Data wykreślenia">2024/17/08</field>
@@ -2328,13 +2328,13 @@
     <field name="ID">ID-00567</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7576/2020</field>
-    <field name="Nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/06/07</field>
     <field name="Data wykreślenia">202511120618</field>
     <field name="Data decyzji">2019-02-09</field>
     <field name="KRS">0000054910</field>
-    <field name="NIP">1279627001</field>
+    <field name="NIP">2279627001</field>
     <field name="Adres siedziby">ulica Chmielna 83, 00-020 Warszawa</field>
     <field name="Siedziba">Warszawa</field>
   </record>
@@ -2342,7 +2342,7 @@
     <field name="ID">ID-00568</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2836/2018</field>
-    <field name="Nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">08-05-2023</field>
     <field name="Data wykreślenia">2026-05-07</field>
@@ -2356,7 +2356,7 @@
     <field name="ID">ID-00569</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8430/2025</field>
-    <field name="Nazwa">Zielony Neon S.A.</field>
+    <field name="Nazwa">Tradycyjny Narcyz S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-29-04</field>
     <field name="Data wykreślenia">20250429</field>
@@ -2370,7 +2370,7 @@
     <field name="ID">ID-00570</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4845/2022</field>
-    <field name="Nazwa">Zielony Oaza SA</field>
+    <field name="Nazwa">Dynamiczny Bałtyk SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20220706</field>
     <field name="Data wykreślenia">17/02/2025</field>
@@ -2384,7 +2384,7 @@
     <field name="ID">ID-00571</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9000/2026</field>
-    <field name="Nazwa">Zielony Pegaz S. A.</field>
+    <field name="Nazwa">Stabilny Falcon S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2025</field>
     <field name="Data wykreślenia">2026/20/06</field>
@@ -2398,7 +2398,7 @@
     <field name="ID">ID-00572</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6851/2024</field>
-    <field name="Nazwa">Zielony Rubin Spółka Akcyjna</field>
+    <field name="Nazwa">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/19/11</field>
     <field name="Data wykreślenia">18-11-2024</field>
@@ -2412,7 +2412,7 @@
     <field name="ID">ID-00573</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7367/2022</field>
-    <field name="Nazwa">Zielony Szafir sp. z o.o.</field>
+    <field name="Nazwa">Kreatywny Uran sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">04/08/2017 06:54</field>
     <field name="Data wykreślenia">2025-09-12</field>
@@ -2426,7 +2426,7 @@
     <field name="ID">ID-00574</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4307/2026</field>
-    <field name="Nazwa">Zielony Tytan sp z oo</field>
+    <field name="Nazwa">Aktywny Barycz sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-29-08</field>
     <field name="Data wykreślenia">20240224</field>
@@ -2440,7 +2440,7 @@
     <field name="ID">ID-00575</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6345/2026</field>
-    <field name="Nazwa">Zielony Uran sp. z o. o.</field>
+    <field name="Nazwa">Jasny Topaz sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20251015</field>
     <field name="Data wykreślenia">15/10/2026</field>
@@ -2454,7 +2454,7 @@
     <field name="ID">ID-00576</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6693/2026</field>
-    <field name="Nazwa">Zielony Wektor Sp. z o.o.</field>
+    <field name="Nazwa">Green Krokus Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20/04/2020</field>
     <field name="Data wykreślenia">2026/10/04</field>
@@ -2468,7 +2468,7 @@
     <field name="ID">ID-00577</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5704/2023</field>
-    <field name="Nazwa">Zielony Zefir SP Z O O</field>
+    <field name="Nazwa">Blue Karpaty SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2017/01/02</field>
     <field name="Data wykreślenia">01-02-2018</field>
@@ -2482,7 +2482,7 @@
     <field name="ID">ID-00578</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1210/2018</field>
-    <field name="Nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">09-03-2023</field>
     <field name="Data wykreślenia">2025-01-09</field>
@@ -2496,7 +2496,7 @@
     <field name="ID">ID-00579</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-7291/2018</field>
-    <field name="Nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021-26-03</field>
     <field name="Data wykreślenia">20230327</field>
@@ -2510,7 +2510,7 @@
     <field name="ID">ID-00580</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8556/2021</field>
-    <field name="Nazwa">Zielony Orzeł S.A.</field>
+    <field name="Nazwa">Smart Tytan S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20191018</field>
     <field name="Data wykreślenia">21/01/2023</field>
@@ -2524,7 +2524,7 @@
     <field name="ID">ID-00581</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-4984/2018</field>
-    <field name="Nazwa">PPHU Zielony Kormoran</field>
+    <field name="Nazwa">PPHU Fast Kormoran</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">05/03/2023</field>
     <field name="Data wykreślenia">2024/04/03</field>
@@ -2538,7 +2538,7 @@
     <field name="ID">ID-00582</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5571/2020</field>
-    <field name="Nazwa">Zielony Barycz S. A.</field>
+    <field name="Nazwa">Safe Szmaragd S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2021/19/03</field>
     <field name="Data wykreślenia">20-11-2026</field>
@@ -2552,7 +2552,7 @@
     <field name="ID">ID-00583</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8652/2021</field>
-    <field name="Nazwa">Zielony Noteć Spółka Akcyjna</field>
+    <field name="Nazwa">Best Zorza Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-01-2021</field>
     <field name="Data wykreślenia">2021-03-11</field>
@@ -2566,7 +2566,7 @@
     <field name="ID">ID-00584</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2642/2023</field>
-    <field name="Nazwa">Zielony Pilica sp. z o.o.</field>
+    <field name="Nazwa">Global Bieszczady sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2019-08-01</field>
     <field name="Data wykreślenia">20230418</field>
@@ -2580,7 +2580,7 @@
     <field name="ID">ID-00585</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1274/2025</field>
-    <field name="Nazwa">Zielony Narew sp z oo</field>
+    <field name="Nazwa">Future Delfin sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20250211</field>
     <field name="Data wykreślenia">11/02/2026</field>
@@ -2594,7 +2594,7 @@
     <field name="ID">ID-00586</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2924/2020</field>
-    <field name="Nazwa">Zielony Jodełka sp. z o. o.</field>
+    <field name="Nazwa">Wielkopolski Koral sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">21/03/2024</field>
     <field name="Data wykreślenia">2025/21/03</field>
@@ -2608,7 +2608,7 @@
     <field name="ID">ID-00587</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1804/2026</field>
-    <field name="Nazwa">Zielony Kaktus Sp. z o.o.</field>
+    <field name="Nazwa">Śląski Szafir Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020/10/08</field>
     <field name="Data wykreślenia">14-03-2025</field>
@@ -2622,7 +2622,7 @@
     <field name="ID">ID-00588</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8479/2018</field>
-    <field name="Nazwa">Zielony Szmaragd SP Z O O</field>
+    <field name="Nazwa">Mazowiecki Orzeł SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">14-08-2019</field>
     <field name="Data wykreślenia">2026-10-04</field>
@@ -2636,7 +2636,7 @@
     <field name="ID">ID-00589</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2627/2023</field>
-    <field name="Nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2024-03-11</field>
     <field name="Data wykreślenia">20250311</field>
@@ -2650,7 +2650,7 @@
     <field name="ID">ID-00590</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6950/2023</field>
-    <field name="Nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20180116</field>
     <field name="Data wykreślenia">06/03/2023</field>
@@ -2664,7 +2664,7 @@
     <field name="ID">ID-00591</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2992/2025</field>
-    <field name="Nazwa">Zielony Marmur S.A.</field>
+    <field name="Nazwa">Karpacki Beskid S.A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">27/04/2018</field>
     <field name="Data wykreślenia">2019/27/04</field>
@@ -2678,7 +2678,7 @@
     <field name="ID">ID-00592</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-8929/2026</field>
-    <field name="Nazwa">Zielony Syrena SA</field>
+    <field name="Nazwa">Bałtycki Canyon SA</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2022/08/09</field>
     <field name="Data wykreślenia">05-08-2025</field>
@@ -2692,7 +2692,7 @@
     <field name="ID">ID-00593</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-3851/2020</field>
-    <field name="Nazwa">Zielony Zodiak S. A.</field>
+    <field name="Nazwa">Młody Jantar S. A.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">23-08-2024</field>
     <field name="Data wykreślenia">2025-23-08</field>
@@ -2706,7 +2706,7 @@
     <field name="ID">ID-00594</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5446/2023</field>
-    <field name="Nazwa">Zielony Olimp Spółka Akcyjna</field>
+    <field name="Nazwa">Wspólny Rubin Spółka Akcyjna</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2020-11-08</field>
     <field name="Data wykreślenia">20211108</field>
@@ -2720,7 +2720,7 @@
     <field name="ID">ID-00595</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-5782/2020</field>
-    <field name="Nazwa">Zielony Zorza sp. z o.o.</field>
+    <field name="Nazwa">Pierwszy Sokół sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20181002</field>
     <field name="Data wykreślenia">17/11/2025</field>
@@ -2734,7 +2734,7 @@
     <field name="ID">ID-00596</field>
     <field name="Typ podmiotu">mała instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2317/2026</field>
-    <field name="Nazwa">Zielony Krokus sp z oo</field>
+    <field name="Nazwa">Zielony Lotos sp z oo</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">18/07/2024</field>
     <field name="Data wykreślenia">2025/18/07</field>
@@ -2748,7 +2748,7 @@
     <field name="ID">ID-00597</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-2153/2018</field>
-    <field name="Nazwa">Zielony Narcyz sp. z o. o.</field>
+    <field name="Nazwa">Niebieski Tytan sp. z o. o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2023/02/07</field>
     <field name="Data wykreślenia">01-07-2024</field>
@@ -2762,7 +2762,7 @@
     <field name="ID">ID-00598</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-6155/2021</field>
-    <field name="Nazwa">Zielony Giewont Sp. z o.o.</field>
+    <field name="Nazwa">Złoty Kormoran Sp. z o.o.</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">07-07-2022</field>
     <field name="Data wykreślenia">2024-24-02</field>
@@ -2776,7 +2776,7 @@
     <field name="ID">ID-00599</field>
     <field name="Typ podmiotu">krajowa instytucja pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-9456/2023</field>
-    <field name="Nazwa">Zielony Rysy SP Z O O</field>
+    <field name="Nazwa">Srebrny Szmaragd SP Z O O</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">2025-22-04</field>
     <field name="Data wykreślenia">20260422</field>
@@ -2790,7 +2790,7 @@
     <field name="ID">ID-00600</field>
     <field name="Typ podmiotu">wydawca pieniądza elektronicznego</field>
     <field name="Numer UKNF">UKNF-EPI-1586/2020</field>
-    <field name="Nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="Status">AKTYWNY</field>
     <field name="Data wpisu">20200221</field>
     <field name="Data wykreślenia">10/04/2026</field>

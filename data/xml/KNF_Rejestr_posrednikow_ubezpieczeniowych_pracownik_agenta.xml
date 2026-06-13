@@ -5,14 +5,14 @@
     <field name="Numer agenta">10000400/A/300400</field>
     <field name="Nazwa zakładu ubezpieczeń">mBank</field>
     <field name="Nazwa agenta">Karolina Kozłowska Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Anna</field>
-    <field name="Nazwisko agenta">Kowalska-Krawczyk</field>
+    <field name="Imię agenta">Zuzanna</field>
+    <field name="Nazwisko agenta">Kowalczyk-Pawlak</field>
     <field name="Numer NIP agenta">1266481469</field>
     <field name="Numer KRS agenta">0000038808</field>
-    <field name="Imię">Anna</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Kwoalska-Krawczyk</field>
-    <field name="PESEL">60021406849</field>
+    <field name="Imię">Zuzanna</field>
+    <field name="DrugieImię">Emilia</field>
+    <field name="Nazwisko">Kowalczyk-Pawlak</field>
+    <field name="PESEL">92061454847</field>
     <field name="Data wpisu">30/03/2025</field>
     <field name="Data zakończenia">2025/26/04</field>
   </record>
@@ -21,14 +21,14 @@
     <field name="Numer agenta">10000401/A/300401</field>
     <field name="Nazwa zakładu ubezpieczeń">Kamiński i Wspólnicy spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Justyna Zielińska Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Tomasz</field>
-    <field name="Nazwisko agenta">Nowacki</field>
+    <field name="Imię agenta">Mikołaj</field>
+    <field name="Nazwisko agenta">Kamiński</field>
     <field name="Numer NIP agenta">1266560654</field>
     <field name="Numer KRS agenta">0000038905</field>
-    <field name="Imię">Tomasz</field>
-    <field name="DrugieImię">Robert</field>
-    <field name="Nazwisko">Noawcki</field>
-    <field name="PESEL">61032108236</field>
+    <field name="Imię">Mikołaj</field>
+    <field name="DrugieImię">Ignacy</field>
+    <field name="Nazwisko">Kamiński</field>
+    <field name="PESEL">93072156234</field>
     <field name="Data wpisu">2024/18/10</field>
     <field name="Data zakończenia">10-05-2026</field>
   </record>
@@ -37,14 +37,14 @@
     <field name="Numer agenta">10000402/A/300402</field>
     <field name="Nazwa zakładu ubezpieczeń">Kamiński Spółka Rodzinna Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Katarzyna Duda Pośrednictwo</field>
-    <field name="Imię agenta">Katarzyna</field>
-    <field name="Nazwisko agenta">Wiśniewska</field>
+    <field name="Imię agenta">Lena</field>
+    <field name="Nazwisko agenta">Lewandowska</field>
     <field name="Numer NIP agenta">1266639841</field>
     <field name="Numer KRS agenta">0000039002</field>
-    <field name="Imię">Katarzyna</field>
-    <field name="DrugieImię">Agnieszka</field>
-    <field name="Nazwisko">Winśiewska</field>
-    <field name="PESEL">62042809586</field>
+    <field name="Imię">Lena</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Lewandowska</field>
+    <field name="PESEL">94082857584</field>
     <field name="Data wpisu">26-02-2020</field>
     <field name="Data zakończenia">2021-03-11</field>
   </record>
@@ -53,14 +53,14 @@
     <field name="Numer agenta">10000403/A/300403</field>
     <field name="Nazwa zakładu ubezpieczeń">Kamiński Bracia S.A.</field>
     <field name="Nazwa agenta">Marcin Pawłowski Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Krzysztof</field>
-    <field name="Nazwisko agenta">Wójcik</field>
+    <field name="Imię agenta">Antoni</field>
+    <field name="Nazwisko agenta">Zieliński</field>
     <field name="Numer NIP agenta">1266719037</field>
     <field name="Numer KRS agenta">0000039099</field>
-    <field name="Imię">Krzysztof</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Wójick</field>
-    <field name="PESEL">63050710972</field>
+    <field name="Imię">Antoni</field>
+    <field name="DrugieImię">Leon</field>
+    <field name="Nazwisko">Zieliński</field>
+    <field name="PESEL">95090758977</field>
     <field name="Data wpisu">2025-09-10</field>
     <field name="Data zakończenia">20251106</field>
   </record>
@@ -69,14 +69,14 @@
     <field name="Numer agenta">10000404/A/300404</field>
     <field name="Nazwa zakładu ubezpieczeń">Zieliński i Synowie SA</field>
     <field name="Nazwa agenta">Ewa Zielińska Studio Danych</field>
-    <field name="Imię agenta">Ewa</field>
-    <field name="Nazwisko agenta">Kowalczyk</field>
+    <field name="Imię agenta">Hanna</field>
+    <field name="Nazwisko agenta">Szymańska</field>
     <field name="Numer NIP agenta">1266798226</field>
     <field name="Numer KRS agenta">0000039196</field>
-    <field name="Imię">Ewa</field>
-    <field name="DrugieImię">Justyna</field>
-    <field name="Nazwisko">Kowalzcyk</field>
-    <field name="PESEL">64061412321</field>
+    <field name="Imię">Hanna</field>
+    <field name="DrugieImię">Dominika</field>
+    <field name="Nazwisko">Szymańska</field>
+    <field name="PESEL">96101460322</field>
     <field name="Data wpisu">20231221</field>
     <field name="Data zakończenia">05/05/2025</field>
   </record>
@@ -85,14 +85,14 @@
     <field name="Numer agenta">10000405/A/300405</field>
     <field name="Nazwa zakładu ubezpieczeń">Zieliński i Wspólnicy S. A.</field>
     <field name="Nazwa agenta">Marek Pawlik Konsulting</field>
-    <field name="Imię agenta">Adam</field>
-    <field name="Nazwisko agenta">Kamiński</field>
+    <field name="Imię agenta">Franciszek</field>
+    <field name="Nazwisko agenta">Dąbrowski</field>
     <field name="Numer NIP agenta">1266877411</field>
     <field name="Numer KRS agenta">0000039293</field>
-    <field name="Imię">Adam</field>
-    <field name="DrugieImię">Jan</field>
-    <field name="Nazwisko">Kamińsik</field>
-    <field name="PESEL">65072113717</field>
+    <field name="Imię">Franciszek</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Dąbrowski</field>
+    <field name="PESEL">97112161718</field>
     <field name="Data wpisu">25/05/2023</field>
     <field name="Data zakończenia">2024/24/02</field>
   </record>
@@ -101,14 +101,14 @@
     <field name="Numer agenta">10000406/A/300406</field>
     <field name="Nazwa zakładu ubezpieczeń">Zieliński Spółka Rodzinna Spółka Akcyjna</field>
     <field name="Nazwa agenta">Magdalena Piotrowska Studio Danych</field>
-    <field name="Imię agenta">Monika</field>
-    <field name="Nazwisko agenta">Lewandowska</field>
+    <field name="Imię agenta">Amelia</field>
+    <field name="Nazwisko agenta">Mazur</field>
     <field name="Numer NIP agenta">1266956607</field>
     <field name="Numer KRS agenta">0000039390</field>
-    <field name="Imię">Monika</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Lewandowsk</field>
-    <field name="PESEL">66082815068</field>
+    <field name="Imię">Amelia</field>
+    <field name="DrugieImię">Jagoda</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">98122863069</field>
     <field name="Data wpisu">2019/25/02</field>
     <field name="Data zakończenia">03-03-2025</field>
   </record>
@@ -117,14 +117,14 @@
     <field name="Numer agenta">10000407/A/300407</field>
     <field name="Nazwa zakładu ubezpieczeń">Zieliński Bracia sp. z o.o.</field>
     <field name="Nazwa agenta">Macrin Lweandowski Studio Danych</field>
-    <field name="Imię agenta">Marek</field>
-    <field name="Nazwisko agenta">Zieliński</field>
+    <field name="Imię agenta">Nikodem</field>
+    <field name="Nazwisko agenta">Krawczyk</field>
     <field name="Numer NIP agenta">1267035795</field>
     <field name="Numer KRS agenta">0000039487</field>
-    <field name="Imię">Marke</field>
-    <field name="DrugieImię">Marcin</field>
-    <field name="Nazwisko">Zielińsk</field>
-    <field name="PESEL">67090716451</field>
+    <field name="Imię">iNkodem</field>
+    <field name="DrugieImię">Jerzy</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">99010764457</field>
     <field name="Data wpisu">16-09-2019</field>
     <field name="Data zakończenia">2026-10-04</field>
   </record>
@@ -133,14 +133,14 @@
     <field name="Numer agenta">10000408/A/300408</field>
     <field name="Nazwa zakładu ubezpieczeń">Szymański i Synowie sp z oo</field>
     <field name="Nazwa agenta">Iwona Duda Pośrednictwo</field>
-    <field name="Imię agenta">Barbara</field>
-    <field name="Nazwisko agenta">Szymańska</field>
+    <field name="Imię agenta">Martyna</field>
+    <field name="Nazwisko agenta">Woźniak</field>
     <field name="Numer NIP agenta">1267114980</field>
     <field name="Numer KRS agenta">000003958</field>
-    <field name="Imię">Barbara</field>
-    <field name="DrugieImię">Karolina</field>
-    <field name="Nazwisko">Szymańsak</field>
-    <field name="PESEL">68101417802</field>
+    <field name="Imię">Martyna</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">00221465800</field>
     <field name="Data wpisu">2024-11-06</field>
     <field name="Data zakończenia">20260611</field>
   </record>
@@ -149,14 +149,14 @@
     <field name="Numer agenta">10000409/A/300409</field>
     <field name="Nazwa zakładu ubezpieczeń">Szymański i Wspólnicy sp. z o. o.</field>
     <field name="Nazwa agenta">Krzysztof Szymański Pośrednictwo</field>
-    <field name="Imię agenta">Rafał</field>
-    <field name="Nazwisko agenta">Dąbrowski</field>
+    <field name="Imię agenta">Miłosz</field>
+    <field name="Nazwisko agenta">Jankowski</field>
     <field name="Numer NIP agenta">1277194207</field>
     <field name="Numer KRS agenta">0000039681</field>
-    <field name="Imię">Rafał</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Dbąrowski</field>
-    <field name="PESEL">69112119190</field>
+    <field name="Imię">Miłosz</field>
+    <field name="DrugieImię">Marian</field>
+    <field name="Nazwisko">Jankowski</field>
+    <field name="PESEL">01232167198</field>
     <field name="Data wpisu">20210316</field>
     <field name="Data zakończenia">05/08/2026</field>
   </record>
@@ -165,14 +165,14 @@
     <field name="Numer agenta">10000410/A/300410</field>
     <field name="Nazwa zakładu ubezpieczeń">Szymański Spółka Rodzinna Sp. z o.o.</field>
     <field name="Nazwa agenta">Maria Dąbrowska Studio Danych</field>
-    <field name="Imię agenta">Aleksandra</field>
-    <field name="Nazwisko agenta">Mazur</field>
+    <field name="Imię agenta">Agata</field>
+    <field name="Nazwisko agenta">Grabowska</field>
     <field name="Numer NIP agenta">1267273365</field>
     <field name="Numer KRS agenta">0000039778</field>
-    <field name="Imię">Aleksandra</field>
-    <field name="DrugieImię">Małgorzata</field>
-    <field name="Nazwisko">Mauzr</field>
-    <field name="PESEL">70122820541</field>
+    <field name="Imię">Agata</field>
+    <field name="DrugieImię">Irena</field>
+    <field name="Nazwisko">Grabowska</field>
+    <field name="PESEL">02242868547</field>
     <field name="Data wpisu">14/01/2020</field>
     <field name="Data zakończenia">2017/03/07</field>
   </record>
@@ -181,14 +181,14 @@
     <field name="Numer agenta">10000411/A/300411</field>
     <field name="Nazwa zakładu ubezpieczeń">Szymański Bracia SP Z O O</field>
     <field name="Nazwa agenta">Paulina Wojciechowska Konsulting</field>
-    <field name="Imię agenta">Andrzej</field>
-    <field name="Nazwisko agenta">Krawczyk</field>
+    <field name="Imię agenta">Tadeusz</field>
+    <field name="Nazwisko agenta">Pawlak</field>
     <field name="Numer NIP agenta">1267352550</field>
     <field name="Numer KRS agenta">0000039875</field>
-    <field name="Imię">Andrzej</field>
-    <field name="DrugieImię">Jakub</field>
-    <field name="Nazwisko">Kracwzyk</field>
-    <field name="PESEL">71010721939</field>
+    <field name="Imię">Tadeusz</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Pawlak</field>
+    <field name="PESEL">03250769930</field>
     <field name="Data wpisu">2022/26/09</field>
     <field name="Data zakończenia">26-08-2024</field>
   </record>
@@ -197,14 +197,14 @@
     <field name="Numer agenta">10000412/A/300412</field>
     <field name="Nazwa zakładu ubezpieczeń">Woźniak i Synowie spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Bartosz Kaczmarek Usługi Finansowe</field>
-    <field name="Imię agenta">Marta</field>
-    <field name="Nazwisko agenta">Woźniak</field>
+    <field name="Imię agenta">Helena</field>
+    <field name="Nazwisko agenta">Michalska</field>
     <field name="Numer NIP agenta">1267431746</field>
     <field name="Numer KRS agenta">0000039972</field>
-    <field name="Imię">Marta</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">oWźniak</field>
-    <field name="PESEL">72021423289</field>
+    <field name="Imię">Helena</field>
+    <field name="DrugieImię">Izabela</field>
+    <field name="Nazwisko">Michalska</field>
+    <field name="PESEL">04261471283</field>
     <field name="Data wpisu">19-02-2018</field>
     <field name="Data zakończenia">2019-17-09</field>
   </record>
@@ -213,14 +213,14 @@
     <field name="Numer agenta">10000413/A/300413</field>
     <field name="Nazwa zakładu ubezpieczeń">Woźniak i Wspólnicy Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Agnieszka Kaimnska Biuro Ubezpieczen</field>
-    <field name="Imię agenta">Łukasz</field>
-    <field name="Nazwisko agenta">Jankowski</field>
+    <field name="Imię agenta">Stefan</field>
+    <field name="Nazwisko agenta">Król</field>
     <field name="Numer NIP agenta">1267510931</field>
     <field name="Numer KRS agenta">0000040069</field>
-    <field name="Imię">Łukasz</field>
-    <field name="DrugieImię">Artur</field>
-    <field name="Nazwisko">Jnakowski</field>
-    <field name="PESEL">73032124675</field>
+    <field name="Imię">Stefan</field>
+    <field name="DrugieImię">Mirosław</field>
+    <field name="Nazwisko">Król</field>
+    <field name="PESEL">05272172679</field>
     <field name="Data wpisu">2024-29-08</field>
     <field name="Data zakończenia">20201024</field>
   </record>
@@ -229,14 +229,14 @@
     <field name="Numer agenta">10000414/A/300414</field>
     <field name="Nazwa zakładu ubezpieczeń">Woźniak Spółka Rodzinna S.A.</field>
     <field name="Nazwa agenta">Sebastian Pawłowski Konsulting</field>
-    <field name="Imię agenta">Paulina</field>
-    <field name="Nazwisko agenta">Grabowska</field>
+    <field name="Imię agenta">Jadwiga</field>
+    <field name="Nazwisko agenta">Wieczorek</field>
     <field name="Numer NIP agenta">1267590120</field>
     <field name="Numer KRS agenta">0000040166</field>
-    <field name="Imię">Paulina</field>
-    <field name="DrugieImię">Iwona</field>
-    <field name="Nazwisko">Graboswka</field>
-    <field name="PESEL">74042826025</field>
+    <field name="Imię">Jadwiga</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Wieczorek</field>
+    <field name="PESEL">60082874025</field>
     <field name="Data wpisu">20220824</field>
     <field name="Data zakończenia">03/11/2021</field>
   </record>
@@ -245,14 +245,14 @@
     <field name="Numer agenta">10000415/A/300415</field>
     <field name="Nazwa zakładu ubezpieczeń">Woźniak Bracia SA</field>
     <field name="Nazwa agenta">Andrzej Jasieński Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Mateusz</field>
-    <field name="Nazwisko agenta">Pawlak</field>
+    <field name="Imię agenta">Józef</field>
+    <field name="Nazwisko agenta">Jabłoński</field>
     <field name="Numer NIP agenta">1267669318</field>
     <field name="Numer KRS agenta">0000040263</field>
-    <field name="Imię">Mateusz</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">aPwlak</field>
-    <field name="PESEL">75050727418</field>
+    <field name="Imię">Józef</field>
+    <field name="DrugieImię">Piotr</field>
+    <field name="Nazwisko">Jabłoński</field>
+    <field name="PESEL">61090775418</field>
     <field name="Data wpisu">03/06/2021</field>
     <field name="Data zakończenia">2022/10/12</field>
   </record>
@@ -261,14 +261,14 @@
     <field name="Numer agenta">10000416/A/300416</field>
     <field name="Nazwa zakładu ubezpieczeń">Kozłowski i Synowie S. A.</field>
     <field name="Nazwa agenta"></field>
-    <field name="Imię agenta">Elżbieta</field>
-    <field name="Nazwisko agenta">Michalska</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Witkowska</field>
     <field name="Numer NIP agenta">1267748503</field>
     <field name="Numer KRS agenta">0000040360</field>
-    <field name="Imię">Elżbieta</field>
-    <field name="DrugieImię">Renata</field>
-    <field name="Nazwisko">Mihcalska</field>
-    <field name="PESEL"></field>
+    <field name="Imię">Monika</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Witkowska</field>
+    <field name="PESEL">62101476760</field>
     <field name="Data wpisu"></field>
     <field name="Data zakończenia">01-11-2024</field>
   </record>
@@ -277,14 +277,14 @@
     <field name="Numer agenta">10000417/A/300417</field>
     <field name="Nazwa zakładu ubezpieczeń">Kozłowski i Wspólnicy Spółka Akcyjna</field>
     <field name="Nazwa agenta">Jakub Jasieński Studio Danych</field>
-    <field name="Imię agenta">Dawid</field>
-    <field name="Nazwisko agenta">Król</field>
+    <field name="Imię agenta">Edward</field>
+    <field name="Nazwisko agenta">Walczak</field>
     <field name="Numer NIP agenta">1267827697</field>
     <field name="Numer KRS agenta">0000040457</field>
-    <field name="Imię">Dawid</field>
-    <field name="DrugieImię">Maciej</field>
-    <field name="Nazwisko">Kró</field>
-    <field name="PESEL">77072130157</field>
+    <field name="Imię">Edward</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Walczak</field>
+    <field name="PESEL">63112178157</field>
     <field name="Data wpisu">18-09-2020</field>
     <field name="Data zakończenia">2024-19-08</field>
   </record>
@@ -293,14 +293,14 @@
     <field name="Numer agenta">10000418/A/300418</field>
     <field name="Nazwa zakładu ubezpieczeń">Kozłowski Spółka Rodzinna sp. z o.o.</field>
     <field name="Nazwa agenta">Rafał Cieślicki Usługi Finansowe</field>
-    <field name="Imię agenta">Dorota</field>
-    <field name="Nazwisko agenta">Wieczorek</field>
+    <field name="Imię agenta">Sabina</field>
+    <field name="Nazwisko agenta">Stępień</field>
     <field name="Numer NIP agenta">1267906882</field>
     <field name="Numer KRS agenta">0000040554</field>
-    <field name="Imię">Dorota</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">iWeczorek</field>
-    <field name="PESEL">78082831506</field>
+    <field name="Imię">Sabina</field>
+    <field name="DrugieImię">Joanna</field>
+    <field name="Nazwisko">Stępień</field>
+    <field name="PESEL">64122879506</field>
     <field name="Data wpisu">2018-07-08</field>
     <field name="Data zakończenia">20250822</field>
   </record>
@@ -309,14 +309,14 @@
     <field name="Numer agenta">10000419/A/300419</field>
     <field name="Nazwa zakładu ubezpieczeń">Kozłowski Bracia sp z oo</field>
     <field name="Nazwa agenta">Wojciech Cieślar Konsulting</field>
-    <field name="Imię agenta">Dariusz</field>
-    <field name="Nazwisko agenta">Jabłoński</field>
+    <field name="Imię agenta">Arkadiusz</field>
+    <field name="Nazwisko agenta">Baran</field>
     <field name="Numer NIP agenta">1267986071</field>
     <field name="Numer KRS agenta">0000040651</field>
-    <field name="Imię">Dariusz</field>
-    <field name="DrugieImię">Zbigniew</field>
-    <field name="Nazwisko">Jałboński</field>
-    <field name="PESEL">79090732890</field>
+    <field name="Imię">Arkadiusz</field>
+    <field name="DrugieImię">Paweł</field>
+    <field name="Nazwisko">Baran</field>
+    <field name="PESEL">65010780898</field>
     <field name="Data wpisu">20251016</field>
     <field name="Data zakończenia">10/04/2026</field>
   </record>
@@ -325,14 +325,14 @@
     <field name="Numer agenta">10000420/A/300420</field>
     <field name="Nazwa zakładu ubezpieczeń">PPHU Budownictwo Zielony</field>
     <field name="Nazwa agenta">Jan Kowalski Studio Danych</field>
-    <field name="Imię agenta">Beata</field>
-    <field name="Nazwisko agenta">Witkowska</field>
+    <field name="Imię agenta">Anna</field>
+    <field name="Nazwisko agenta">Rutkowska</field>
     <field name="Numer NIP agenta">1268065261</field>
     <field name="Numer KRS agenta">0000040748</field>
-    <field name="Imię">Beata</field>
-    <field name="DrugieImię">Patrycja</field>
-    <field name="Nazwisko">Witkowksa</field>
-    <field name="PESEL">80101434241</field>
+    <field name="Imię">Anna</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Rutkowska</field>
+    <field name="PESEL">66021482247</field>
     <field name="Data wpisu">19/06/2021</field>
     <field name="Data zakończenia">2025/27/02</field>
   </record>
@@ -341,14 +341,14 @@
     <field name="Numer agenta">10000421/A/300421</field>
     <field name="Nazwa zakładu ubezpieczeń">Transport Srebrny Sp. z o.o.</field>
     <field name="Nazwa agenta">Iwona Nowak Pośrednictwo</field>
-    <field name="Imię agenta">Sławomir</field>
-    <field name="Nazwisko agenta">Walczak</field>
+    <field name="Imię agenta">Tomasz</field>
+    <field name="Nazwisko agenta">Górski</field>
     <field name="Numer NIP agenta">1268144457</field>
     <field name="Numer KRS agenta">0000040845</field>
-    <field name="Imię">Sławomir</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Walzcak</field>
-    <field name="PESEL">81112135637</field>
+    <field name="Imię">Tomasz</field>
+    <field name="DrugieImię">Robert</field>
+    <field name="Nazwisko">Górski</field>
+    <field name="PESEL">67032183633</field>
     <field name="Data wpisu">2021/30/12</field>
     <field name="Data zakończenia">24-06-2016</field>
   </record>
@@ -357,14 +357,14 @@
     <field name="Numer agenta">10000422/A/300422</field>
     <field name="Nazwa zakładu ubezpieczeń">Spedycja Pewny SP Z O O</field>
     <field name="Nazwa agenta">Paulina Kwiatkowska Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Urszula</field>
-    <field name="Nazwisko agenta">Stępień</field>
+    <field name="Imię agenta">Katarzyna</field>
+    <field name="Nazwisko agenta">Sikora</field>
     <field name="Numer NIP agenta">1268223642</field>
     <field name="Numer KRS agenta">0000040942</field>
-    <field name="Imię">Urszula</field>
-    <field name="DrugieImię">Wiktoria</field>
-    <field name="Nazwisko">tSępień</field>
-    <field name="PESEL">82122836987</field>
+    <field name="Imię">Katarzyna</field>
+    <field name="DrugieImię">Agnieszka</field>
+    <field name="Nazwisko">Sikora</field>
+    <field name="PESEL">68042884983</field>
     <field name="Data wpisu">22-06-2025</field>
     <field name="Data zakończenia">2017-03-07</field>
   </record>
@@ -373,14 +373,14 @@
     <field name="Numer agenta">10000423/A/300423</field>
     <field name="Nazwa zakładu ubezpieczeń">Logistyka Europejski spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Katarzyna Kaczmarek Biuro Ubezpieczeń</field>
-    <field name="Imię agenta">Mariusz</field>
-    <field name="Nazwisko agenta">Baran</field>
+    <field name="Imię agenta">Krzysztof</field>
+    <field name="Nazwisko agenta">Ostrowski</field>
     <field name="Numer NIP agenta">1268302838</field>
     <field name="Numer KRS agenta">0000041039</field>
-    <field name="Imię">Mariusz</field>
-    <field name="DrugieImię">Jacek</field>
-    <field name="Nazwisko">Barna</field>
-    <field name="PESEL">83010738376</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Ostrowski</field>
+    <field name="PESEL">69050786377</field>
     <field name="Data wpisu">2024-20-05</field>
     <field name="Data zakończenia">20240606</field>
   </record>
@@ -389,14 +389,14 @@
     <field name="Numer agenta">10000424/A/300424</field>
     <field name="Nazwa zakładu ubezpieczeń">Handel Nowoczesny Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Dorota Woźniak Konsulting</field>
-    <field name="Imię agenta">Izabela</field>
-    <field name="Nazwisko agenta">Rutkowska</field>
+    <field name="Imię agenta">Ewa</field>
+    <field name="Nazwisko agenta">Tomaszewska</field>
     <field name="Numer NIP agenta">1268382027</field>
     <field name="Numer KRS agenta">0000041136</field>
-    <field name="Imię">Izabela</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Rutkoswka</field>
-    <field name="PESEL">84021439724</field>
+    <field name="Imię">Ewa</field>
+    <field name="DrugieImię">Justyna</field>
+    <field name="Nazwisko">Tomaszewska</field>
+    <field name="PESEL">70061487724</field>
     <field name="Data wpisu">20181123</field>
     <field name="Data zakończenia">05/01/2025</field>
   </record>
@@ -405,14 +405,14 @@
     <field name="Numer agenta">10000425/A/300425</field>
     <field name="Nazwa zakładu ubezpieczeń">Usługi Stabilny S.A.</field>
     <field name="Nazwa agenta">Paweł Wójcik Konsulting</field>
-    <field name="Imię agenta">Henryk</field>
-    <field name="Nazwisko agenta">Górski</field>
+    <field name="Imię agenta">Adam</field>
+    <field name="Nazwisko agenta">Zając</field>
     <field name="Numer NIP agenta">1268461212</field>
     <field name="Numer KRS agenta">0000041233</field>
-    <field name="Imię">Henryk</field>
-    <field name="DrugieImię">Przemysław</field>
-    <field name="Nazwisko">Gósrki</field>
-    <field name="PESEL">85032141114</field>
+    <field name="Imię">Adam</field>
+    <field name="DrugieImię">Jan</field>
+    <field name="Nazwisko">Zając</field>
+    <field name="PESEL">71072189111</field>
     <field name="Data wpisu">31/03/2020</field>
     <field name="Data zakończenia">2024/08/08</field>
   </record>
@@ -421,14 +421,14 @@
     <field name="Numer agenta">10000426/A/300426</field>
     <field name="Nazwa zakładu ubezpieczeń">Finanse Aktywny SA</field>
     <field name="Nazwa agenta">Monika Kozłowska Pośrednictwo</field>
-    <field name="Imię agenta">Weronika</field>
-    <field name="Nazwisko agenta">Sikora</field>
+    <field name="Imię agenta">Monika</field>
+    <field name="Nazwisko agenta">Pietrzak</field>
     <field name="Numer NIP agenta">1268540408</field>
     <field name="Numer KRS agenta">0000041330</field>
-    <field name="Imię">Weronika</field>
-    <field name="DrugieImię">Kinga</field>
-    <field name="Nazwisko">Sikroa</field>
-    <field name="PESEL">86042842464</field>
+    <field name="Imię">Monika</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Pietrzak</field>
+    <field name="PESEL">72082890464</field>
     <field name="Data wpisu">2022/11/06</field>
     <field name="Data zakończenia">06-05-2025</field>
   </record>
@@ -437,14 +437,14 @@
     <field name="Numer agenta">10000427/A/300427</field>
     <field name="Nazwa zakładu ubezpieczeń">Doradztwo Blue S. A.</field>
     <field name="Nazwa agenta">Natalia Kowalska Pośrednictwo</field>
-    <field name="Imię agenta">Stanisław</field>
-    <field name="Nazwisko agenta">Ostrowski</field>
+    <field name="Imię agenta">Marek</field>
+    <field name="Nazwisko agenta">Wójcicki</field>
     <field name="Numer NIP agenta">1268619593</field>
     <field name="Numer KRS agenta">0000041427</field>
-    <field name="Imię">Stanisław</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">sOtrowski</field>
-    <field name="PESEL">87050743857</field>
+    <field name="Imię">Marek</field>
+    <field name="DrugieImię">Marcin</field>
+    <field name="Nazwisko">Wójcicki</field>
+    <field name="PESEL">73090791857</field>
     <field name="Data wpisu">17-10-2019</field>
     <field name="Data zakończenia">2025-08-05</field>
   </record>
@@ -453,14 +453,14 @@
     <field name="Numer agenta">10000428/A/300428</field>
     <field name="Nazwa zakładu ubezpieczeń">Szkolenia Smart Spółka Akcyjna</field>
     <field name="Nazwa agenta">Dariusz Nowak Studio Danych</field>
-    <field name="Imię agenta">Zofia</field>
-    <field name="Nazwisko agenta">Tomaszewska</field>
+    <field name="Imię agenta">Barbara</field>
+    <field name="Nazwisko agenta">Czarnecka</field>
     <field name="Numer NIP agenta">1268698782</field>
     <field name="Numer KRS agenta">0000041524</field>
-    <field name="Imię">Zofia</field>
-    <field name="DrugieImię">Kamila</field>
-    <field name="Nazwisko">Toamszewska</field>
-    <field name="PESEL">88061445206</field>
+    <field name="Imię">Barbara</field>
+    <field name="DrugieImię">Karolina</field>
+    <field name="Nazwisko">Czarnecka</field>
+    <field name="PESEL">74101493209</field>
     <field name="Data wpisu">2024-21-09</field>
     <field name="Data zakończenia">20230117</field>
   </record>
@@ -469,14 +469,14 @@
     <field name="Numer agenta">10000429/A/300429</field>
     <field name="Nazwa zakładu ubezpieczeń">Media Best sp. z o.o.</field>
     <field name="Nazwa agenta">Karolina Kwiatkowska Pośrednictwo</field>
-    <field name="Imię agenta">Bartłomiej</field>
-    <field name="Nazwisko agenta">Zając</field>
+    <field name="Imię agenta">Rafał</field>
+    <field name="Nazwisko agenta">Lis</field>
     <field name="Numer NIP agenta">1268777978</field>
     <field name="Numer KRS agenta">0000041621</field>
-    <field name="Imię">Bartłomiej</field>
-    <field name="DrugieImię">Daniel</field>
-    <field name="Nazwisko">Zaąjc</field>
-    <field name="PESEL">89072146593</field>
+    <field name="Imię">Rafał</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Lis</field>
+    <field name="PESEL">75112194596</field>
     <field name="Data wpisu">20190324</field>
     <field name="Data zakończenia">24/02/2024</field>
   </record>
@@ -917,7 +917,7 @@
     <field name="Numer agenta">10000457/A/300457</field>
     <field name="Nazwa zakładu ubezpieczeń">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Patrycja oKwalska Biuor Ubezpieczeń</field>
-    <field name="Imię agenta">Cezary</field>
+    <field name="Imię agenta">Ceazry</field>
     <field name="Nazwisko agenta">Kozak</field>
     <field name="Numer NIP agenta">1270995298</field>
     <field name="Numer KRS agenta">0000044337</field>
@@ -963,7 +963,7 @@
   <record>
     <field name="Numer pracownika">95397152/P/846888</field>
     <field name="Numer agenta">10000460/A/300460</field>
-    <field name="Nazwa zakładu ubezpieczeń">P.P.H.U. ZLS</field>
+    <field name="Nazwa zakładu ubezpieczeń">P.P.H.U. ORR</field>
     <field name="Nazwa agenta">Michał Woźniak Pośrednictwo</field>
     <field name="Imię agenta">Zuzanna</field>
     <field name="Nazwisko agenta">Gajewska</field>
@@ -979,7 +979,7 @@
   <record>
     <field name="Numer pracownika">42277526/P/444857</field>
     <field name="Numer agenta">10000461/A/300461</field>
-    <field name="Nazwa zakładu ubezpieczeń">UZA Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">BDZ Spółka Akcyjna</field>
     <field name="Nazwa agenta">Krzysztof Piotrowski Usługi Finansowe</field>
     <field name="Imię agenta">Mikołaj</field>
     <field name="Nazwisko agenta">Laskowski</field>
@@ -995,7 +995,7 @@
   <record>
     <field name="Numer pracownika">94650631/P/101329</field>
     <field name="Numer agenta">10000462/A/300462</field>
-    <field name="Nazwa zakładu ubezpieczeń">NKV sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">SYT sp. z o.o.</field>
     <field name="Nazwa agenta">Aleksandra Pawłowska Konsulting</field>
     <field name="Imię agenta">Lena</field>
     <field name="Nazwisko agenta">Mazurek</field>
@@ -1011,7 +1011,7 @@
   <record>
     <field name="Numer pracownika">35174417/P/824459</field>
     <field name="Numer agenta">10000463/A/300463</field>
-    <field name="Nazwa zakładu ubezpieczeń">SAI sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">FFB sp z oo</field>
     <field name="Nazwa agenta">Krzysztof Jasieński Usługi Finansowe</field>
     <field name="Imię agenta">Antoni</field>
     <field name="Nazwisko agenta">Sobczak</field>
@@ -1027,7 +1027,7 @@
   <record>
     <field name="Numer pracownika">41379323/P/499619</field>
     <field name="Numer agenta">10000464/A/300464</field>
-    <field name="Nazwa zakładu ubezpieczeń">EFT sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">HVB sp. z o. o.</field>
     <field name="Nazwa agenta">Bartosz Krawczyk Pośrednictwo</field>
     <field name="Imię agenta">Hanna</field>
     <field name="Nazwisko agenta">Konieczna</field>
@@ -1043,7 +1043,7 @@
   <record>
     <field name="Numer pracownika">84203713/P/658443</field>
     <field name="Numer agenta">10000465/A/300465</field>
-    <field name="Nazwa zakładu ubezpieczeń">HMO Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">TTH Sp. z o.o.</field>
     <field name="Nazwa agenta">Maria Kozłowska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Franciszek</field>
     <field name="Nazwisko agenta">Brzeziński</field>
@@ -1059,7 +1059,7 @@
   <record>
     <field name="Numer pracownika">41274098/P/331407</field>
     <field name="Numer agenta">10000466/A/300466</field>
-    <field name="Nazwa zakładu ubezpieczeń">OYX SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">IJD SP Z O O</field>
     <field name="Nazwa agenta">Małgorzata Cieślicka Konsulting</field>
     <field name="Imię agenta">Amelia</field>
     <field name="Nazwisko agenta">Makowska</field>
@@ -1075,7 +1075,7 @@
   <record>
     <field name="Numer pracownika">88968223/P/550575</field>
     <field name="Numer agenta">10000467/A/300467</field>
-    <field name="Nazwa zakładu ubezpieczeń">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Krzysztof Krawczyk Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Nikodem</field>
     <field name="Nazwisko agenta">Wrona</field>
@@ -1091,7 +1091,7 @@
   <record>
     <field name="Numer pracownika">16806511/P/642420</field>
     <field name="Numer agenta">10000468/A/300468</field>
-    <field name="Nazwa zakładu ubezpieczeń">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Monika Wiśniewska Studio Danych</field>
     <field name="Imię agenta">Martyna</field>
     <field name="Nazwisko agenta">Bąk</field>
@@ -1107,7 +1107,7 @@
   <record>
     <field name="Numer pracownika">31814291/P/799769</field>
     <field name="Numer agenta">10000469/A/300469</field>
-    <field name="Nazwa zakładu ubezpieczeń">IIG S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">HFT S.A.</field>
     <field name="Nazwa agenta">Elżbieta Krawczyk Usługi Finansowe</field>
     <field name="Imię agenta">Miłosz</field>
     <field name="Nazwisko agenta">Kucharski</field>
@@ -1123,7 +1123,7 @@
   <record>
     <field name="Numer pracownika">25433758/P/505821</field>
     <field name="Numer agenta">10000470/A/300470</field>
-    <field name="Nazwa zakładu ubezpieczeń">DUH SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">TWY SA</field>
     <field name="Nazwa agenta">Dariusz Piotrowski Studio Danych</field>
     <field name="Imię agenta">Agata</field>
     <field name="Nazwisko agenta">Lisowska</field>
@@ -1139,7 +1139,7 @@
   <record>
     <field name="Numer pracownika">71996630/P/930632</field>
     <field name="Numer agenta">10000471/A/300471</field>
-    <field name="Nazwa zakładu ubezpieczeń">WJJ S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">KSB S. A.</field>
     <field name="Nazwa agenta">Dariusz Pawlik Usługi Finansowe</field>
     <field name="Imię agenta">Tadeusz</field>
     <field name="Nazwisko agenta">Słowik</field>
@@ -1155,7 +1155,7 @@
   <record>
     <field name="Numer pracownika">29030047/P/132018</field>
     <field name="Numer agenta">10000472/A/300472</field>
-    <field name="Nazwa zakładu ubezpieczeń">SNP Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">TEZ Spółka Akcyjna</field>
     <field name="Nazwa agenta">Katarzyna Piotrowska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Helena</field>
     <field name="Nazwisko agenta">Kopeć</field>
@@ -1171,7 +1171,7 @@
   <record>
     <field name="Numer pracownika">76864108/P/965858</field>
     <field name="Numer agenta">10000473/A/300473</field>
-    <field name="Nazwa zakładu ubezpieczeń">VUK sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">ATE sp. z o.o.</field>
     <field name="Nazwa agenta">Katarzyna Kowalska Studio Danych</field>
     <field name="Imię agenta">Stefan</field>
     <field name="Nazwisko agenta">Czajka</field>
@@ -1187,7 +1187,7 @@
   <record>
     <field name="Numer pracownika">75094007/P/155024</field>
     <field name="Numer agenta">10000474/A/300474</field>
-    <field name="Nazwa zakładu ubezpieczeń">YBL sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">OBK sp z oo</field>
     <field name="Nazwa agenta">Marek Zieliński Usługi Finansowe</field>
     <field name="Imię agenta">Jadwiga</field>
     <field name="Nazwisko agenta">Matusiak</field>
@@ -1203,7 +1203,7 @@
   <record>
     <field name="Numer pracownika">63978771/P/181538</field>
     <field name="Numer agenta">10000475/A/300475</field>
-    <field name="Nazwa zakładu ubezpieczeń">ZVK sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">FWF sp. z o. o.</field>
     <field name="Nazwa agenta">Barbara Zielińska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Józef</field>
     <field name="Nazwisko agenta">Gajda</field>
@@ -1219,7 +1219,7 @@
   <record>
     <field name="Numer pracownika">15199031/P/826436</field>
     <field name="Numer agenta">10000476/A/300476</field>
-    <field name="Nazwa zakładu ubezpieczeń">GCG Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">EPD Sp. z o.o.</field>
     <field name="Nazwa agenta">Robert Dąbrowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Monika</field>
     <field name="Nazwisko agenta">Klimek</field>
@@ -1235,7 +1235,7 @@
   <record>
     <field name="Numer pracownika">78050830/P/558579</field>
     <field name="Numer agenta">10000477/A/300477</field>
-    <field name="Nazwa zakładu ubezpieczeń">LVO SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">KVZ SP Z O O</field>
     <field name="Nazwa agenta">Robert Kamiński Studio Danych</field>
     <field name="Imię agenta">Edward</field>
     <field name="Nazwisko agenta">Madej</field>
@@ -1251,7 +1251,7 @@
   <record>
     <field name="Numer pracownika">52299863/P/925792</field>
     <field name="Numer agenta">10000478/A/300478</field>
-    <field name="Nazwa zakładu ubezpieczeń">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Jan Wiśniewski Studio Danych</field>
     <field name="Imię agenta">Sabina</field>
     <field name="Nazwisko agenta">Krupa</field>
@@ -1267,7 +1267,7 @@
   <record>
     <field name="Numer pracownika">72921036/P/236260</field>
     <field name="Numer agenta">10000479/A/300479</field>
-    <field name="Nazwa zakładu ubezpieczeń">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Marcin Lewandowski Pośrednictwo</field>
     <field name="Imię agenta">Arkadiusz</field>
     <field name="Nazwisko agenta">Kaczmarczyk</field>
@@ -1299,7 +1299,7 @@
   <record>
     <field name="Numer pracownika">44273710/P/976592</field>
     <field name="Numer agenta">10000481/A/300481</field>
-    <field name="Nazwa zakładu ubezpieczeń">NKM SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">QOQ SA</field>
     <field name="Nazwa agenta">Rafał Pawłowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Tomasz</field>
     <field name="Nazwisko agenta">Wasilewski</field>
@@ -1315,7 +1315,7 @@
   <record>
     <field name="Numer pracownika">50951259/P/140585</field>
     <field name="Numer agenta">10000482/A/300482</field>
-    <field name="Nazwa zakładu ubezpieczeń">JSF S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">GVM S. A.</field>
     <field name="Nazwa agenta">Dorota Pawłowska Usługi Finansowe</field>
     <field name="Imię agenta">Katarzyna</field>
     <field name="Nazwisko agenta">Kalinowska</field>
@@ -1331,7 +1331,7 @@
   <record>
     <field name="Numer pracownika">45667279/P/834696</field>
     <field name="Numer agenta">10000483/A/300483</field>
-    <field name="Nazwa zakładu ubezpieczeń">YSY Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">EXN Spółka Akcyjna</field>
     <field name="Nazwa agenta">Robert Mazur Konsulting</field>
     <field name="Imię agenta">Krzysztof</field>
     <field name="Nazwisko agenta">Zarychta</field>
@@ -1347,7 +1347,7 @@
   <record>
     <field name="Numer pracownika">94215726/P/775526</field>
     <field name="Numer agenta">10000484/A/300484</field>
-    <field name="Nazwa zakładu ubezpieczeń">AKX sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">ZEH sp. z o.o.</field>
     <field name="Nazwa agenta">Marcin Wojciechowski Pośrednictwo</field>
     <field name="Imię agenta">Ewa</field>
     <field name="Nazwisko agenta">Przybylska</field>
@@ -1363,7 +1363,7 @@
   <record>
     <field name="Numer pracownika">58352391/P/141482</field>
     <field name="Numer agenta">10000485/A/300485</field>
-    <field name="Nazwa zakładu ubezpieczeń">NCK sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">BZB sp z oo</field>
     <field name="Nazwa agenta">Mateusz Jankowski Konsulting</field>
     <field name="Imię agenta">Adam</field>
     <field name="Nazwisko agenta">Michalak</field>
@@ -1379,7 +1379,7 @@
   <record>
     <field name="Numer pracownika">24393232/P/158552</field>
     <field name="Numer agenta">10000486/A/300486</field>
-    <field name="Nazwa zakładu ubezpieczeń">RRG sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">ZQQ sp. z o. o.</field>
     <field name="Nazwa agenta">Piotr Pawlik Pośrednictwo</field>
     <field name="Imię agenta">Monika</field>
     <field name="Nazwisko agenta">Szatkowska</field>
@@ -1395,7 +1395,7 @@
   <record>
     <field name="Numer pracownika">89344179/P/862488</field>
     <field name="Numer agenta">10000487/A/300487</field>
-    <field name="Nazwa zakładu ubezpieczeń">PFD Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">DQZ Sp. z o.o.</field>
     <field name="Nazwa agenta">Andrzej Pawłowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Marek</field>
     <field name="Nazwisko agenta">Bednarek</field>
@@ -1411,7 +1411,7 @@
   <record>
     <field name="Numer pracownika">93473061/P/131458</field>
     <field name="Numer agenta">10000488/A/300488</field>
-    <field name="Nazwa zakładu ubezpieczeń">JJS SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">ASW SP Z O O</field>
     <field name="Nazwa agenta">Małgorzata Piotrowska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Barbara</field>
     <field name="Nazwisko agenta">Podgórska</field>
@@ -1427,7 +1427,7 @@
   <record>
     <field name="Numer pracownika">93429704/P/612026</field>
     <field name="Numer agenta">10000489/A/300489</field>
-    <field name="Nazwa zakładu ubezpieczeń">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Barbara Mazur Konsulting</field>
     <field name="Imię agenta">Rafał</field>
     <field name="Nazwisko agenta">Śliwiński</field>
@@ -1443,7 +1443,7 @@
   <record>
     <field name="Numer pracownika">10660150/P/779544</field>
     <field name="Numer agenta">10000490/A/300490</field>
-    <field name="Nazwa zakładu ubezpieczeń">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Joanna Cieślar Usługi Finansowe</field>
     <field name="Imię agenta">Aleksandra</field>
     <field name="Nazwisko agenta">Czajkowska</field>
@@ -1459,7 +1459,7 @@
   <record>
     <field name="Numer pracownika">78368633/P/285012</field>
     <field name="Numer agenta">10000491/A/300491</field>
-    <field name="Nazwa zakładu ubezpieczeń">BGD S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">JII S.A.</field>
     <field name="Nazwa agenta">Iwona Grabowska Konsulting</field>
     <field name="Imię agenta">Andrzej</field>
     <field name="Nazwisko agenta">Biernat</field>
@@ -1475,7 +1475,7 @@
   <record>
     <field name="Numer pracownika">43607043/P/746741</field>
     <field name="Numer agenta">10000492/A/300492</field>
-    <field name="Nazwa zakładu ubezpieczeń">GBS SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">UYY SA</field>
     <field name="Nazwa agenta">Piotr Wiśniewski Usługi Finansowe</field>
     <field name="Imię agenta">Marta</field>
     <field name="Nazwisko agenta">Panek</field>
@@ -1491,7 +1491,7 @@
   <record>
     <field name="Numer pracownika">69538667/P/782843</field>
     <field name="Numer agenta">10000493/A/300493</field>
-    <field name="Nazwa zakładu ubezpieczeń">YIC S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">GGK S. A.</field>
     <field name="Nazwa agenta">Barbara Grabowska Studio Danych</field>
     <field name="Imię agenta">Łukasz</field>
     <field name="Nazwisko agenta">Prus</field>
@@ -1507,7 +1507,7 @@
   <record>
     <field name="Numer pracownika">50509867/P/627482</field>
     <field name="Numer agenta">10000494/A/300494</field>
-    <field name="Nazwa zakładu ubezpieczeń">OKT Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">YAS Spółka Akcyjna</field>
     <field name="Nazwa agenta">Monika Nowacka Studio Danych</field>
     <field name="Imię agenta">Paulina</field>
     <field name="Nazwisko agenta">Janik</field>
@@ -1523,7 +1523,7 @@
   <record>
     <field name="Numer pracownika">10952189/P/535396</field>
     <field name="Numer agenta">10000495/A/300495</field>
-    <field name="Nazwa zakładu ubezpieczeń">QPU sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">UQU sp. z o.o.</field>
     <field name="Nazwa agenta">Dorota Kozłowska Studio Danych</field>
     <field name="Imię agenta">Mateusz</field>
     <field name="Nazwisko agenta">Kowalski</field>
@@ -1539,7 +1539,7 @@
   <record>
     <field name="Numer pracownika">57332059/P/322209</field>
     <field name="Numer agenta">10000496/A/300496</field>
-    <field name="Nazwa zakładu ubezpieczeń">IEU sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">MUV sp z oo</field>
     <field name="Nazwa agenta">Anna Woźniak Studio Danych</field>
     <field name="Imię agenta">Elżbieta</field>
     <field name="Nazwisko agenta">Nowacka</field>
@@ -1555,7 +1555,7 @@
   <record>
     <field name="Numer pracownika">30268654/P/583078</field>
     <field name="Numer agenta">10000497/A/300497</field>
-    <field name="Nazwa zakładu ubezpieczeń">PAZ sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">HAY sp. z o. o.</field>
     <field name="Nazwa agenta">Aleksandra Dąbrowska Pośrednictwo</field>
     <field name="Imię agenta">Dawid</field>
     <field name="Nazwisko agenta">Wiśniewski</field>
@@ -1571,7 +1571,7 @@
   <record>
     <field name="Numer pracownika">38667285/P/944210</field>
     <field name="Numer agenta">10000498/A/300498</field>
-    <field name="Nazwa zakładu ubezpieczeń">ZAB Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">CCZ Sp. z o.o.</field>
     <field name="Nazwa agenta">Maria Krawczyk Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Dorota</field>
     <field name="Nazwisko agenta">Wójcik</field>
@@ -1587,7 +1587,7 @@
   <record>
     <field name="Numer pracownika">25746132/P/486441</field>
     <field name="Numer agenta">10000499/A/300499</field>
-    <field name="Nazwa zakładu ubezpieczeń">SBZ SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">WUF SP Z O O</field>
     <field name="Nazwa agenta">Mateusz Cieślar Usługi Finansowe</field>
     <field name="Imię agenta">Dariusz</field>
     <field name="Nazwisko agenta">Kowalczyk</field>
@@ -1723,7 +1723,7 @@
     <field name="Numer KRS agenta">0000049187</field>
     <field name="Imię">Stanisław</field>
     <field name="DrugieImię"></field>
-    <field name="Nazwisko">Woźinak</field>
+    <field name="Nazwisko">Woźniak</field>
     <field name="PESEL">61050701457</field>
     <field name="Data wpisu">20-02-2022</field>
     <field name="Data zakończenia">2018-10-08</field>
@@ -2387,7 +2387,7 @@
   <record>
     <field name="Numer pracownika"></field>
     <field name="Numer agenta">10000549/A/300549</field>
-    <field name="Nazwa zakładu ubezpieczeń">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń"></field>
     <field name="Nazwa agenta"></field>
     <field name="Imię agenta">Rafał</field>
     <field name="Nazwisko agenta">Kubiak</field>
@@ -2499,7 +2499,7 @@
   <record>
     <field name="Numer pracownika">45221967/P/453567</field>
     <field name="Numer agenta">10000556/A/300556</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Łukasz Wójcik Usługi Finansowe</field>
     <field name="Imię agenta">Elżbieta</field>
     <field name="Nazwisko agenta">Kozak</field>
@@ -2515,15 +2515,15 @@
   <record>
     <field name="Numer pracownika">95592711/P/948831</field>
     <field name="Numer agenta">10000557/A/300557</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Canyon S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Złoty Oaza S.A.</field>
     <field name="Nazwa agenta">Wojciech Zieliński Studio Danych</field>
-    <field name="Imię agenta">Dawid</field>
+    <field name="Imię agenta">aDwid</field>
     <field name="Nazwisko agenta">Cieślak</field>
     <field name="Numer NIP agenta">1278914299</field>
     <field name="Numer KRS agenta">0000054037</field>
     <field name="Imię">Dawid</field>
     <field name="DrugieImię">Maciej</field>
-    <field name="Nazwisko">Ceiślak</field>
+    <field name="Nazwisko">Cieślak</field>
     <field name="PESEL">65072169954</field>
     <field name="Data wpisu">22-09-2021</field>
     <field name="Data zakończenia">2026-24-04</field>
@@ -2531,7 +2531,7 @@
   <record>
     <field name="Numer pracownika">70262268/P/191399</field>
     <field name="Numer agenta">10000558/A/300558</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Delfin SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">Srebrny Zefir SA</field>
     <field name="Nazwa agenta">Ewa Szymańska Usługi Finansowe</field>
     <field name="Imię agenta">Dorota</field>
     <field name="Nazwisko agenta">Andrzejewska</field>
@@ -2547,7 +2547,7 @@
   <record>
     <field name="Numer pracownika">38173865/P/374346</field>
     <field name="Numer agenta">10000559/A/300559</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Echo S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Czysty Pilica S. A.</field>
     <field name="Nazwa agenta">Jan Nowak Konsulting</field>
     <field name="Imię agenta">Dariusz</field>
     <field name="Nazwisko agenta">Gajewski</field>
@@ -2579,7 +2579,7 @@
   <record>
     <field name="Numer pracownika">17774753/P/674680</field>
     <field name="Numer agenta">10000561/A/300561</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Gryf sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Pewny Giewont sp. z o.o.</field>
     <field name="Nazwa agenta">Marta Pawłowska Konsulting</field>
     <field name="Imię agenta">Sławomir</field>
     <field name="Nazwisko agenta">Mazurek</field>
@@ -2595,7 +2595,7 @@
   <record>
     <field name="Numer pracownika">81754604/P/232432</field>
     <field name="Numer agenta">10000562/A/300562</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Horyzont sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">Dobry Sudety sp z oo</field>
     <field name="Nazwa agenta">Marek Kaczmarek Usługi Finansowe</field>
     <field name="Imię agenta">Urszula</field>
     <field name="Nazwisko agenta">Sobczak</field>
@@ -2611,7 +2611,7 @@
   <record>
     <field name="Numer pracownika">67681920/P/438976</field>
     <field name="Numer agenta">10000563/A/300563</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Ikar sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Polski Gryf sp. z o. o.</field>
     <field name="Nazwa agenta">Marcin Krawczyk Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Mariusz</field>
     <field name="Nazwisko agenta">Konieczny</field>
@@ -2627,7 +2627,7 @@
   <record>
     <field name="Numer pracownika">23625083/P/205873</field>
     <field name="Numer agenta">10000564/A/300564</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Jantar Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Europejski Neon Sp. z o.o.</field>
     <field name="Nazwa agenta">Aleksandra Szymańska Konsulting</field>
     <field name="Imię agenta">Izabela</field>
     <field name="Nazwisko agenta">Brzezińska</field>
@@ -2643,7 +2643,7 @@
   <record>
     <field name="Numer pracownika">55496872/P/941857</field>
     <field name="Numer agenta">10000565/A/300565</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Koral SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">Globalny Wektor SP Z O O</field>
     <field name="Nazwa agenta">Jakub Cieślicki Studio Danych</field>
     <field name="Imię agenta">Henryk</field>
     <field name="Nazwisko agenta">Makowski</field>
@@ -2659,7 +2659,7 @@
   <record>
     <field name="Numer pracownika">58749120/P/578260</field>
     <field name="Numer agenta">10000566/A/300566</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Karolina Szymańska Studio Danych</field>
     <field name="Imię agenta">Weronika</field>
     <field name="Nazwisko agenta">Wrona</field>
@@ -2675,7 +2675,7 @@
   <record>
     <field name="Numer pracownika">71146133/P/310337</field>
     <field name="Numer agenta">10000567/A/300567</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Bartosz Jasieński Usługi Finansowe</field>
     <field name="Imię agenta">Stanisław</field>
     <field name="Nazwisko agenta">Bąk</field>
@@ -2691,7 +2691,7 @@
   <record>
     <field name="Numer pracownika">96676905/P/676766</field>
     <field name="Numer agenta">10000568/A/300568</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Neon S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Tradycyjny Narcyz S.A.</field>
     <field name="Nazwa agenta">Ewa Lewandowska Studio Danych</field>
     <field name="Imię agenta">Zofia</field>
     <field name="Nazwisko agenta">Kucharska</field>
@@ -2707,7 +2707,7 @@
   <record>
     <field name="Numer pracownika">13063907/P/242603</field>
     <field name="Numer agenta">10000569/A/300569</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Oaza SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">Dynamiczny Bałtyk SA</field>
     <field name="Nazwa agenta">Marek Pawlik Konsulting</field>
     <field name="Imię agenta">Bartłomiej</field>
     <field name="Nazwisko agenta">Lisowski</field>
@@ -2723,7 +2723,7 @@
   <record>
     <field name="Numer pracownika">72491687/P/584590</field>
     <field name="Numer agenta">10000570/A/300570</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Pegaz S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Stabilny Falcon S. A.</field>
     <field name="Nazwa agenta">Ewa Nowak Konsulting</field>
     <field name="Imię agenta">Olga</field>
     <field name="Nazwisko agenta">Słowik</field>
@@ -2739,7 +2739,7 @@
   <record>
     <field name="Numer pracownika">13882673/P/425982</field>
     <field name="Numer agenta">10000571/A/300571</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Rubin Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="Nazwa agenta">Marek Kamiński Konsulting</field>
     <field name="Imię agenta">Damian</field>
     <field name="Nazwisko agenta">Kopeć</field>
@@ -2755,7 +2755,7 @@
   <record>
     <field name="Numer pracownika">30630736/P/271813</field>
     <field name="Numer agenta">10000572/A/300572</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Szafir sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Kreatywny Uran sp. z o.o.</field>
     <field name="Nazwa agenta">Agnieszka Jankowska Usługi Finansowe</field>
     <field name="Imię agenta">Ewelina</field>
     <field name="Nazwisko agenta">Czajka</field>
@@ -2771,7 +2771,7 @@
   <record>
     <field name="Numer pracownika">98782331/P/219622</field>
     <field name="Numer agenta">10000573/A/300573</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Tytan sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">Aktywny Barycz sp z oo</field>
     <field name="Nazwa agenta">Karolina Mazur Usługi Finansowe</field>
     <field name="Imię agenta">Bartosz</field>
     <field name="Nazwisko agenta">Matusiak</field>
@@ -2787,7 +2787,7 @@
   <record>
     <field name="Numer pracownika">11478688/P/523265</field>
     <field name="Numer agenta">10000574/A/300574</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Uran sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Jasny Topaz sp. z o. o.</field>
     <field name="Nazwa agenta">Dariusz Piotrowski Usługi Finansowe</field>
     <field name="Imię agenta">Sylwia</field>
     <field name="Nazwisko agenta">Gajda</field>
@@ -2803,7 +2803,7 @@
   <record>
     <field name="Numer pracownika">69998233/P/942544</field>
     <field name="Numer agenta">10000575/A/300575</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Wektor Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Green Krokus Sp. z o.o.</field>
     <field name="Nazwa agenta">Krzysztof Krawczyk Pośrednictwo</field>
     <field name="Imię agenta">Leszek</field>
     <field name="Nazwisko agenta">Klimek</field>
@@ -2819,7 +2819,7 @@
   <record>
     <field name="Numer pracownika">59497725/P/837669</field>
     <field name="Numer agenta">10000576/A/300576</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Zefir SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">Blue Karpaty SP Z O O</field>
     <field name="Nazwa agenta">Mateusz Kozłowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Grażyna</field>
     <field name="Nazwisko agenta">Madej</field>
@@ -2835,7 +2835,7 @@
   <record>
     <field name="Numer pracownika">40082202/P/479689</field>
     <field name="Numer agenta">10000577/A/300577</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Jakub Jankowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Cezary</field>
     <field name="Nazwisko agenta">Krupa</field>
@@ -2851,7 +2851,7 @@
   <record>
     <field name="Numer pracownika">22336385/P/921049</field>
     <field name="Numer agenta">10000578/A/300578</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Joanna Kamińska Konsulting</field>
     <field name="Imię agenta">Bożena</field>
     <field name="Nazwisko agenta">Kaczmarczyk</field>
@@ -2867,7 +2867,7 @@
   <record>
     <field name="Numer pracownika">94546957/P/686998</field>
     <field name="Numer agenta">10000579/A/300579</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Orzeł S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Smart Tytan S.A.</field>
     <field name="Nazwa agenta">Bartosz Jankowski Usługi Finansowe</field>
     <field name="Imię agenta">Filip</field>
     <field name="Nazwisko agenta">Wrona</field>
@@ -2883,7 +2883,7 @@
   <record>
     <field name="Numer pracownika">76406443/P/687218</field>
     <field name="Numer agenta">10000580/A/300580</field>
-    <field name="Nazwa zakładu ubezpieczeń">PPHU Zielony Kormoran</field>
+    <field name="Nazwa zakładu ubezpieczeń">PPHU Fast Kormoran</field>
     <field name="Nazwa agenta">Agnieszka Kozłowska Konsulting</field>
     <field name="Imię agenta">Zuzanna</field>
     <field name="Nazwisko agenta">Wasilewska</field>
@@ -2899,7 +2899,7 @@
   <record>
     <field name="Numer pracownika">82518898/P/297137</field>
     <field name="Numer agenta">10000581/A/300581</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Barycz S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Safe Szmaragd S. A.</field>
     <field name="Nazwa agenta">Michał Pawłowski Studio Danych</field>
     <field name="Imię agenta">Mikołaj</field>
     <field name="Nazwisko agenta">Kalinowski</field>
@@ -2915,7 +2915,7 @@
   <record>
     <field name="Numer pracownika">21851948/P/120489</field>
     <field name="Numer agenta">10000582/A/300582</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Noteć Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">Best Zorza Spółka Akcyjna</field>
     <field name="Nazwa agenta">Bartosz Kwiatkowsi Studio Danych</field>
     <field name="Imię agenta">Lena</field>
     <field name="Nazwisko agenta">Zarychta</field>
@@ -2931,7 +2931,7 @@
   <record>
     <field name="Numer pracownika">96047489/P/223869</field>
     <field name="Numer agenta">10000583/A/300583</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Pilica sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Global Bieszczady sp. z o.o.</field>
     <field name="Nazwa agenta">Bartosz Kozłowski Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Antoni</field>
     <field name="Nazwisko agenta">Przybylski</field>
@@ -2947,7 +2947,7 @@
   <record>
     <field name="Numer pracownika">15354200/P/599179</field>
     <field name="Numer agenta">10000584/A/300584</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Narew sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">Future Delfin sp z oo</field>
     <field name="Nazwa agenta">Marcin Cieślar Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Hanna</field>
     <field name="Nazwisko agenta">Michalak</field>
@@ -2963,7 +2963,7 @@
   <record>
     <field name="Numer pracownika">42945655/P/854949</field>
     <field name="Numer agenta">10000585/A/300585</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Jodełka sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Wielkopolski Koral sp. z o. o.</field>
     <field name="Nazwa agenta">Anna Cieślicka Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Franciszek</field>
     <field name="Nazwisko agenta">Szatkowski</field>
@@ -2979,7 +2979,7 @@
   <record>
     <field name="Numer pracownika">88538434/P/185649</field>
     <field name="Numer agenta">10000586/A/300586</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Kaktus Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Śląski Szafir Sp. z o.o.</field>
     <field name="Nazwa agenta">Mateusz Szymański Usługi Finansowe</field>
     <field name="Imię agenta">Amelia</field>
     <field name="Nazwisko agenta">Bednarek</field>
@@ -2995,7 +2995,7 @@
   <record>
     <field name="Numer pracownika">66779666/P/854554</field>
     <field name="Numer agenta">10000587/A/300587</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Szmaragd SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">Mazowiecki Orzeł SP Z O O</field>
     <field name="Nazwa agenta">Adam Lewandowski Konsulting</field>
     <field name="Imię agenta">Nikodem</field>
     <field name="Nazwisko agenta">Podgórski</field>
@@ -3011,7 +3011,7 @@
   <record>
     <field name="Numer pracownika">72588778/P/618295</field>
     <field name="Numer agenta">10000588/A/300588</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Monika Pawłowksa Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Martyna</field>
     <field name="Nazwisko agenta">Śliwińska</field>
@@ -3027,7 +3027,7 @@
   <record>
     <field name="Numer pracownika">16928142/P/521136</field>
     <field name="Numer agenta">10000589/A/300589</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Marcin Mazur Pośrednictwo</field>
     <field name="Imię agenta">Miłosz</field>
     <field name="Nazwisko agenta">Czajkowski</field>
@@ -3043,7 +3043,7 @@
   <record>
     <field name="Numer pracownika">15039569/P/178096</field>
     <field name="Numer agenta">10000590/A/300590</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Marmur S.A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Karpacki Beskid S.A.</field>
     <field name="Nazwa agenta">Iwona Nowacka Usługi Finansowe</field>
     <field name="Imię agenta">Agata</field>
     <field name="Nazwisko agenta">Biernat</field>
@@ -3059,7 +3059,7 @@
   <record>
     <field name="Numer pracownika">93425306/P/837558</field>
     <field name="Numer agenta">10000591/A/300591</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Syrena SA</field>
+    <field name="Nazwa zakładu ubezpieczeń">Bałtycki Canyon SA</field>
     <field name="Nazwa agenta">Marcin Jasieńskq Studio Danych</field>
     <field name="Imię agenta">Tadeusz</field>
     <field name="Nazwisko agenta">Panek</field>
@@ -3075,7 +3075,7 @@
   <record>
     <field name="Numer pracownika">58354137/P/252861</field>
     <field name="Numer agenta">10000592/A/300592</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Zodiak S. A.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Młody Jantar S. A.</field>
     <field name="Nazwa agenta">Marcin Kaczmarek Studio Danych</field>
     <field name="Imię agenta">Helena</field>
     <field name="Nazwisko agenta">Prus</field>
@@ -3091,7 +3091,7 @@
   <record>
     <field name="Numer pracownika">66194924/P/572960</field>
     <field name="Numer agenta">10000593/A/300593</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Olimp Spółka Akcyjna</field>
+    <field name="Nazwa zakładu ubezpieczeń">Wspólny Rubin Spółka Akcyjna</field>
     <field name="Nazwa agenta">Barbara Pawlik Pośrednictwo</field>
     <field name="Imię agenta">Stefan</field>
     <field name="Nazwisko agenta">Janik</field>
@@ -3107,7 +3107,7 @@
   <record>
     <field name="Numer pracownika">75034305/P/406117</field>
     <field name="Numer agenta">10000594/A/300594</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Zorza sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Pierwszy Sokół sp. z o.o.</field>
     <field name="Nazwa agenta">Michał Kamiński Studio Danych</field>
     <field name="Imię agenta">Jadwiga</field>
     <field name="Nazwisko agenta">Kowalska</field>
@@ -3123,7 +3123,7 @@
   <record>
     <field name="Numer pracownika">42015258/P/778247</field>
     <field name="Numer agenta">10000595/A/300595</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Krokus sp z oo</field>
+    <field name="Nazwa zakładu ubezpieczeń">Zielony Lotos sp z oo</field>
     <field name="Nazwa agenta">Tomasz Grabowski Studio Danych</field>
     <field name="Imię agenta">Józef</field>
     <field name="Nazwisko agenta">Nowacki</field>
@@ -3139,7 +3139,7 @@
   <record>
     <field name="Numer pracownika">97472945/P/112012</field>
     <field name="Numer agenta">10000596/A/300596</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Narcyz sp. z o. o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Niebieski Tytan sp. z o. o.</field>
     <field name="Nazwa agenta">Bartosn Kozłowski Studio Danych</field>
     <field name="Imię agenta">Monika</field>
     <field name="Nazwisko agenta">Wiśniewska</field>
@@ -3155,7 +3155,7 @@
   <record>
     <field name="Numer pracownika">14953220/P/197925</field>
     <field name="Numer agenta">10000597/A/300597</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Giewont Sp. z o.o.</field>
+    <field name="Nazwa zakładu ubezpieczeń">Złoty Kormoran Sp. z o.o.</field>
     <field name="Nazwa agenta">Joanna Lewandowska Pośrednictwo</field>
     <field name="Imię agenta">Edward</field>
     <field name="Nazwisko agenta">Wójcik</field>
@@ -3171,7 +3171,7 @@
   <record>
     <field name="Numer pracownika">98171320/P/512157</field>
     <field name="Numer agenta">10000598/A/300598</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Rysy SP Z O O</field>
+    <field name="Nazwa zakładu ubezpieczeń">Srebrny Szmaragd SP Z O O</field>
     <field name="Nazwa agenta">Magdalena Kamińska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Sabina</field>
     <field name="Nazwisko agenta">Kowalczyk</field>
@@ -3187,7 +3187,7 @@
   <record>
     <field name="Numer pracownika">92324964/P/545081</field>
     <field name="Numer agenta">10000599/A/300599</field>
-    <field name="Nazwa zakładu ubezpieczeń">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Nazwa zakładu ubezpieczeń">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="Nazwa agenta">Katarzyna Zielińska Biuro Ubezpieczeń</field>
     <field name="Imię agenta">Arkadiusz</field>
     <field name="Nazwisko agenta">Kamiński</field>

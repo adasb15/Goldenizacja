@@ -9,10 +9,10 @@
     <field name="REGON">266639842</field>
     <field name="Data zezwolenia">22/04/2025</field>
     <field name="Numer decyzji">DFI/243/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">60101434205</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">70061474209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wasilewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kamiński i Wspólnicy spółka z ograniczoną odpowiedzialnością</field>
@@ -23,10 +23,10 @@
     <field name="REGON">266719038</field>
     <field name="Data zezwolenia">2020/14/03</field>
     <field name="Numer decyzji">DFI/719/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">61112135592</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">04301444208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kamiński Spółka Rodzinna Spółka z ograniczoną odpowiedzialnością</field>
@@ -37,10 +37,10 @@
     <field name="REGON">266798227</field>
     <field name="Data zezwolenia">25-09-2019</field>
     <field name="Numer decyzji">DFI/125/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">62122836941</field>
-    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">92021414209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kamiński Bracia S.A.</field>
@@ -51,10 +51,10 @@
     <field name="REGON">266877412</field>
     <field name="Data zezwolenia">2023-15-07</field>
     <field name="Numer decyzji">DFI/725/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">63010738330</field>
-    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">80061484201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zieliński i Synowie SA</field>
@@ -65,10 +65,10 @@
     <field name="REGON">266956608</field>
     <field name="Data zezwolenia">20210513</field>
     <field name="Numer decyzji">DFI/134/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">64021439689</field>
-    <field name="CzlonekZarzadu1_Imie">Marta</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">68101454207</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zieliński i Wspólnicy S. A.</field>
@@ -79,10 +79,10 @@
     <field name="REGON">267035796</field>
     <field name="Data zezwolenia">10/06/2024</field>
     <field name="Numer decyzji">DFI/170/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">65032141079</field>
-    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sawicki</field>
+    <field name="CzlonekZarzadu1_PESEL">02221424207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zieliński Spółka Rodzinna Spółka Akcyjna</field>
@@ -93,10 +93,10 @@
     <field name="REGON">267114981</field>
     <field name="Data zezwolenia">2019/09/05</field>
     <field name="Numer decyzji">DFI/107/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">66042842428</field>
-    <field name="CzlonekZarzadu1_Imie">Paulina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dudek</field>
+    <field name="CzlonekZarzadu1_PESEL">90061494203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zieliński Bracia sp. z o.o.</field>
@@ -107,10 +107,10 @@
     <field name="REGON">267194170</field>
     <field name="Data zezwolenia">07-07-2018</field>
     <field name="Numer decyzji">DF/334/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">67050743811</field>
-    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">78101464209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wysocka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szymański i Synowie sp z oo</field>
@@ -121,10 +121,10 @@
     <field name="REGON">267273366</field>
     <field name="Data zezwolenia">2017-21-06</field>
     <field name="Numer decyzji">DFI/470/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">68061445161</field>
-    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawłowska</field>
+    <field name="CzlonekZarzadu1_PESEL">66021434206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazurek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szymański i Wspólnicy sp. z o. o.</field>
@@ -135,10 +135,10 @@
     <field name="REGON">267352551</field>
     <field name="Data zezwolenia">20221220</field>
     <field name="Numer decyzji">DFI/572/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">69072146557</field>
-    <field name="CzlonekZarzadu1_Imie">Dawid</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowicki</field>
+    <field name="CzlonekZarzadu1_PESEL">00261404201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szymański Spółka Rodzinna Sp. z o.o.</field>
@@ -149,10 +149,10 @@
     <field name="REGON">267431747</field>
     <field name="Data zezwolenia">19/02/2017</field>
     <field name="Numer decyzji">DFI/633/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">70082847905</field>
-    <field name="CzlonekZarzadu1_Imie">Dorota</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sokołowska</field>
+    <field name="CzlonekZarzadu1_PESEL">88101474201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kalinowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szymański Bracia SP Z O O</field>
@@ -163,10 +163,10 @@
     <field name="REGON">267510932</field>
     <field name="Data zezwolenia">2023/08/02</field>
     <field name="Numer decyzji">DFI/571/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">71090749290</field>
-    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
+    <field name="CzlonekZarzadu1_PESEL">76021444208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Woźniak i Synowie spółka z ograniczoną odpowiedzialnością</field>
@@ -177,10 +177,10 @@
     <field name="REGON">267590121</field>
     <field name="Data zezwolenia">28-01-2018</field>
     <field name="Numer decyzji">DFI/126/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">72101450644</field>
-    <field name="CzlonekZarzadu1_Imie">Beata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Majewska</field>
+    <field name="CzlonekZarzadu1_PESEL">64061414200</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Woźniak i Wspólnicy Spółka z ograniczoną odpowiedzialnością</field>
@@ -188,13 +188,13 @@
     <field name="Zakres czynności">przyjmowanie i przekazywanie zlecen</field>
     <field name="KRS">0000040069</field>
     <field name="NIP">1267510931</field>
-    <field name="REGON">367669319</field>
+    <field name="REGON">267669319</field>
     <field name="Data zezwolenia">2022-21-06</field>
     <field name="Numer decyzji">DFI/111/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">73112152031</field>
-    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Olszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">98101484203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Woźniak Spółka Rodzinna S.A.</field>
@@ -202,13 +202,13 @@
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000040166</field>
     <field name="NIP">1267590120</field>
-    <field name="REGON">267748504</field>
+    <field name="REGON">367748504</field>
     <field name="Data zezwolenia">20211212</field>
     <field name="Numer decyzji">DFI/458/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">74122853381</field>
-    <field name="CzlonekZarzadu1_Imie">Urszula</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jaworska</field>
+    <field name="CzlonekZarzadu1_PESEL">86021454200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Woźniak Bracia SA</field>
@@ -219,10 +219,10 @@
     <field name="REGON">267827698</field>
     <field name="Data zezwolenia">08/03/2020</field>
     <field name="Numer decyzji">DFI/683/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">75010754779</field>
-    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Malinowski</field>
+    <field name="CzlonekZarzadu1_PESEL">74061424202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kozłowski i Synowie S. A.</field>
@@ -233,10 +233,10 @@
     <field name="REGON">267906883</field>
     <field name="Data zezwolenia">2023/04/09</field>
     <field name="Numer decyzji">DFI/356/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">76021456128</field>
-    <field name="CzlonekZarzadu1_Imie">Izabela</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
+    <field name="CzlonekZarzadu1_PESEL">62101494207</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Majewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kozłowski i Wspólnicy Spółka Akcyjna</field>
@@ -247,10 +247,10 @@
     <field name="REGON">267986072</field>
     <field name="Data zezwolenia">07-09-2024</field>
     <field name="Numer decyzji">DFI/559/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">77032157514</field>
-    <field name="CzlonekZarzadu1_Imie">Henryk</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szczepański</field>
+    <field name="CzlonekZarzadu1_PESEL">96021464202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Chmielewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kozłowski Spółka Rodzinna sp. z o.o.</field>
@@ -261,10 +261,10 @@
     <field name="REGON">268065262</field>
     <field name="Data zezwolenia">2018-26-04</field>
     <field name="Numer decyzji">DFI/490/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">78042858864</field>
-    <field name="CzlonekZarzadu1_Imie">Weronika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czerwińska</field>
+    <field name="CzlonekZarzadu1_PESEL">84061434204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sobczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kozłowski Bracia sp z oo</field>
@@ -275,10 +275,10 @@
     <field name="REGON">268144458</field>
     <field name="Data zezwolenia">20170411</field>
     <field name="Numer decyzji">DFI/873/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">79050760251</field>
-    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
+    <field name="CzlonekZarzadu1_PESEL">72101404209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">PPHU Budownictwo Zielony</field>
@@ -289,10 +289,10 @@
     <field name="REGON">268223643</field>
     <field name="Data zezwolenia">13/06/2024</field>
     <field name="Numer decyzji">DFI/951/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">80061461608</field>
-    <field name="CzlonekZarzadu1_Imie">Zofia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
+    <field name="CzlonekZarzadu1_PESEL">60021474206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Transport Srebrny Sp. z o.o.</field>
@@ -303,10 +303,10 @@
     <field name="REGON">268302839</field>
     <field name="Data zezwolenia">2021/06/08</field>
     <field name="Numer decyzji">DFI/899/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">81072162995</field>
-    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wysocki</field>
+    <field name="CzlonekZarzadu1_PESEL">94061444206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Spedycja Pewny SP Z O O</field>
@@ -317,10 +317,10 @@
     <field name="REGON">268382028</field>
     <field name="Data zezwolenia">08-04-2025</field>
     <field name="Numer decyzji">DFI/475/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">82082864345</field>
-    <field name="CzlonekZarzadu1_Imie">Olga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Chmielewska</field>
+    <field name="CzlonekZarzadu1_PESEL">82101414201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Logistyka Europejski spółka z ograniczoną odpowiedzialnością</field>
@@ -331,10 +331,10 @@
     <field name="REGON">268461213</field>
     <field name="Data zezwolenia">2019-28-12</field>
     <field name="Numer decyzji">DFI/412/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">83090765738</field>
-    <field name="CzlonekZarzadu1_Imie">Damian</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Urbański</field>
+    <field name="CzlonekZarzadu1_PESEL">70021484208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Handel Nowoczesny Spółka z ograniczoną odpowiedzialnością</field>
@@ -345,10 +345,10 @@
     <field name="REGON">268540409</field>
     <field name="Data zezwolenia">20241014</field>
     <field name="Numer decyzji">DFI/949/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">84101467081</field>
-    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">04261454204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Usługi Stabilny S.A.</field>
@@ -359,10 +359,10 @@
     <field name="REGON">268619594</field>
     <field name="Data zezwolenia">26/01/2025</field>
     <field name="Numer decyzji">DFI/232/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">85112168477</field>
-    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
+    <field name="CzlonekZarzadu1_PESEL">92101424203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Finanse Aktywny SA</field>
@@ -373,10 +373,10 @@
     <field name="REGON">268698783</field>
     <field name="Data zezwolenia">2023/03/10</field>
     <field name="Numer decyzji">DFI/842/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">86122869826</field>
-    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
+    <field name="CzlonekZarzadu1_PESEL">80021494200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Olszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Doradztwo Blue S. A.</field>
@@ -387,10 +387,10 @@
     <field name="REGON">268777979</field>
     <field name="Data zezwolenia">15-09-2020</field>
     <field name="Numer decyzji">DFI/716/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">87010771218</field>
-    <field name="CzlonekZarzadu1_Imie">Leszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kacper</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
+    <field name="CzlonekZarzadu1_PESEL">68061464203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Urbańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szkolenia Smart Spółka Akcyjna</field>
@@ -401,10 +401,10 @@
     <field name="REGON">268857164</field>
     <field name="Data zezwolenia">2017-06-12</field>
     <field name="Numer decyzji">DFI/437/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">88021472567</field>
-    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewska</field>
+    <field name="CzlonekZarzadu1_PESEL">02301434201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Konieczna</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Media Best sp. z o.o.</field>
@@ -415,10 +415,10 @@
     <field name="REGON">278936387</field>
     <field name="Data zezwolenia">20200329</field>
     <field name="Numer decyzji">DFI/479/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">89032173953</field>
-    <field name="CzlonekZarzadu1_Imie">Cezary</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Gajewski</field>
+    <field name="CzlonekZarzadu1_PESEL">90021404202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Reklama Wielkopolski sp z oo</field>
@@ -429,10 +429,10 @@
     <field name="REGON">279015577</field>
     <field name="Data zezwolenia">04/03/2024</field>
     <field name="Numer decyzji">DFI/267/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">76082823303</field>
-    <field name="CzlonekZarzadu1_Imie">Dorota</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Brzezińska</field>
+    <field name="CzlonekZarzadu1_PESEL">78061474205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Przybylska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Marketing Pomorski sp. z o. o.</field>
@@ -443,10 +443,10 @@
     <field name="REGON">269094739</field>
     <field name="Data zezwolenia">2023/05/03</field>
     <field name="Numer decyzji">DFI/562/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">77090724697</field>
-    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Makowski</field>
+    <field name="CzlonekZarzadu1_PESEL">66101444200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Druk Bałtycki Sp. z o.o.</field>
@@ -457,10 +457,10 @@
     <field name="REGON">269173924</field>
     <field name="Data zezwolenia">10-01-2019</field>
     <field name="Numer decyzji">DFI/725/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">78101426049</field>
-    <field name="CzlonekZarzadu1_Imie">Beata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wrona-Krupa</field>
+    <field name="CzlonekZarzadu1_PESEL">00221414200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Informatyka Pierwszy SP Z O O</field>
@@ -471,10 +471,10 @@
     <field name="REGON">279253147</field>
     <field name="Data zezwolenia">2020-10-10</field>
     <field name="Numer decyzji">DFI/884/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">79112127435</field>
-    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
+    <field name="CzlonekZarzadu1_PESEL">88061484207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Oprogramowanie Złoty spółka z ograniczoną odpowiedzialnością</field>
@@ -485,10 +485,10 @@
     <field name="REGON">269332305</field>
     <field name="Data zezwolenia">20201212</field>
     <field name="Numer decyzji">DFI/947/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">80122828784</field>
-    <field name="CzlonekZarzadu1_Imie">Urszula</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kucharska</field>
+    <field name="CzlonekZarzadu1_PESEL">76101454202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Rolnictwo Szybki Spółka z ograniczoną odpowiedzialnością</field>
@@ -499,10 +499,10 @@
     <field name="REGON">269411499</field>
     <field name="Data zezwolenia">14/09/2017</field>
     <field name="Numer decyzji">DFI/954/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">81010730176</field>
-    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lisowski</field>
+    <field name="CzlonekZarzadu1_PESEL">64021424209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Ogrodnictwo Polski S.A.</field>
@@ -513,10 +513,10 @@
     <field name="REGON">269490688</field>
     <field name="Data zezwolenia">2025/02/08</field>
     <field name="Numer decyzji">DFI/484/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">82021431524</field>
-    <field name="CzlonekZarzadu1_Imie">Izabela</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
+    <field name="CzlonekZarzadu1_PESEL">98061494209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jaworska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Produkcja Lokalny SA</field>
@@ -527,10 +527,10 @@
     <field name="REGON">269569875</field>
     <field name="Data zezwolenia">10-03-2018</field>
     <field name="Numer decyzji">DFI/221/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">83032132910</field>
-    <field name="CzlonekZarzadu1_Imie">Henryk</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
+    <field name="CzlonekZarzadu1_PESEL">86101464204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Przemysł Dynamiczny S. A.</field>
@@ -541,10 +541,10 @@
     <field name="REGON">269649060</field>
     <field name="Data zezwolenia">2018-23-07</field>
     <field name="Numer decyzji">DFI/368/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">84042834261</field>
-    <field name="CzlonekZarzadu1_Imie">Weronika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
+    <field name="CzlonekZarzadu1_PESEL">74021434201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Brzezińska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Ekologia Kreatywny Spółka Akcyjna</field>
@@ -555,10 +555,10 @@
     <field name="REGON">269728256</field>
     <field name="Data zezwolenia">20220325</field>
     <field name="Numer decyzji">DFI/282/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">85050735654</field>
-    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
+    <field name="CzlonekZarzadu1_PESEL">62061404203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
   </record>
   <record>
     <field name="Firma lub nazwa">X - Twitter</field>
@@ -569,10 +569,10 @@
     <field name="REGON">269807441</field>
     <field name="Data zezwolenia">19/05/2019</field>
     <field name="Numer decyzji">DFI/433/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">86061437003</field>
-    <field name="CzlonekZarzadu1_Imie">Zofia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
+    <field name="CzlonekZarzadu1_PESEL">96101474206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Instalacje Silver sp z oo</field>
@@ -583,10 +583,10 @@
     <field name="REGON">269886630</field>
     <field name="Data zezwolenia">2017/21/07</field>
     <field name="Numer decyzji">DFI/962/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">87072138390</field>
-    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
+    <field name="CzlonekZarzadu1_PESEL">84021444203</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Nieruchomości Safe sp. z o. o.</field>
@@ -597,10 +597,10 @@
     <field name="REGON">269965826</field>
     <field name="Data zezwolenia">20-12-2022</field>
     <field name="Numer decyzji">DFI/111/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">88082839749</field>
-    <field name="CzlonekZarzadu1_Imie">Olga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
+    <field name="CzlonekZarzadu1_PESEL">72061414205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Inwestycje Future Sp. z o.o.</field>
@@ -611,10 +611,10 @@
     <field name="REGON">270045016</field>
     <field name="Data zezwolenia">2023-28-03</field>
     <field name="Numer decyzji">DFI/539/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">89090741136</field>
-    <field name="CzlonekZarzadu1_Imie">Damian</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
+    <field name="CzlonekZarzadu1_PESEL">60101484200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Medycyna Mazowiecki SP Z O O</field>
@@ -625,10 +625,10 @@
     <field name="REGON">270124201</field>
     <field name="Data zezwolenia">20230831</field>
     <field name="Numer decyzji">DFI/758/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">90101442487</field>
-    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">94021454205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zdrowie Karpacki spółka z ograniczoną odpowiedzialnością</field>
@@ -639,10 +639,10 @@
     <field name="REGON">270203395</field>
     <field name="Data zezwolenia">02/06/2017</field>
     <field name="Numer decyzji">DFI/341/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">91112143873</field>
-    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
+    <field name="CzlonekZarzadu1_PESEL">82061424207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sawicka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Urody Wspólny Spółka z ograniczoną odpowiedzialnością</field>
@@ -653,10 +653,10 @@
     <field name="REGON">270282584</field>
     <field name="Data zezwolenia">2020/25/10</field>
     <field name="Numer decyzji">DFI/495/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">92122845223</field>
-    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wasilewska</field>
+    <field name="CzlonekZarzadu1_PESEL">70101494202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Malinowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Turystyka Niebieski S.A.</field>
@@ -667,10 +667,10 @@
     <field name="REGON">280361809</field>
     <field name="Data zezwolenia">11-11-2017</field>
     <field name="Numer decyzji">DFI/662/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">93010746611</field>
-    <field name="CzlonekZarzadu1_Imie">Leszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kacper</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kalinowski</field>
+    <field name="CzlonekZarzadu1_PESEL">04221464203</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Rozrywka Czysty SA</field>
@@ -681,10 +681,10 @@
     <field name="REGON">270440965</field>
     <field name="Data zezwolenia">2018-31-08</field>
     <field name="Numer decyzji">DFI/578/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">94021447960</field>
-    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
+    <field name="CzlonekZarzadu1_PESEL">92061434209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Makowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Gastronomia Dobry S. A.</field>
@@ -695,10 +695,10 @@
     <field name="REGON">270520150</field>
     <field name="Data zezwolenia">20240428</field>
     <field name="Numer decyzji">DFI/725/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">95032149357</field>
-    <field name="CzlonekZarzadu1_Imie">Cezary</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Przybylski</field>
+    <field name="CzlonekZarzadu1_PESEL">80101404204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Moda Globalny Spółka Akcyjna</field>
@@ -709,10 +709,10 @@
     <field name="REGON">270599341</field>
     <field name="Data zezwolenia">15/05/2024</field>
     <field name="Numer decyzji">DFI/229/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">96042850709</field>
-    <field name="CzlonekZarzadu1_Imie">Bożena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Oliwia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
+    <field name="CzlonekZarzadu1_PESEL">68021474202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szatkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Tekstylia Tradycyjny sp. z o.o.</field>
@@ -723,10 +723,10 @@
     <field name="REGON">270678537</field>
     <field name="Data zezwolenia">2025/14/08</field>
     <field name="Numer decyzji">DFI/966/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">97050752094</field>
-    <field name="CzlonekZarzadu1_Imie">Filip</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szatkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">02261444207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Motoryzacja Innowacyjny sp z oo</field>
@@ -737,10 +737,10 @@
     <field name="REGON">270757722</field>
     <field name="Data zezwolenia">24-06-2020</field>
     <field name="Numer decyzji">DFI/328/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">98061453442</field>
-    <field name="CzlonekZarzadu1_Imie">Zuzanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Emilia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
+    <field name="CzlonekZarzadu1_PESEL">90101414206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Ubezpieczenia Jasny sp. z o. o.</field>
@@ -751,10 +751,10 @@
     <field name="REGON">270836918</field>
     <field name="Data zezwolenia">2023-05-11</field>
     <field name="Numer decyzji">DFI/290/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">99072154838</field>
-    <field name="CzlonekZarzadu1_Imie">Mikołaj</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Ignacy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Podgórski</field>
+    <field name="CzlonekZarzadu1_PESEL">78021484204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Spawalnictwo Gold Sp. z o.o.</field>
@@ -765,10 +765,10 @@
     <field name="REGON">270916103</field>
     <field name="Data zezwolenia">20210205</field>
     <field name="Numer decyzji">DFI/278/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">00282856184</field>
-    <field name="CzlonekZarzadu1_Imie">Lena</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Śliwińska</field>
+    <field name="CzlonekZarzadu1_PESEL">66061454206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Ślusarstwo Fast SP Z O O</field>
@@ -779,10 +779,10 @@
     <field name="REGON">270995290</field>
     <field name="Data zezwolenia">27/03/2022</field>
     <field name="Numer decyzji">DFI/936/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">01290757577</field>
-    <field name="CzlonekZarzadu1_Imie">Antoni</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Leon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czajkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">00301424204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dudek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Krawiectwo Global spółka z ograniczoną odpowiedzialnością</field>
@@ -793,10 +793,10 @@
     <field name="REGON">271074480</field>
     <field name="Data zezwolenia">2019/15/06</field>
     <field name="Numer decyzji">DFI/181/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">02301458928</field>
-    <field name="CzlonekZarzadu1_Imie">Hanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Dominika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
+    <field name="CzlonekZarzadu1_PESEL">88021494206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
@@ -807,10 +807,10 @@
     <field name="REGON">271153676</field>
     <field name="Data zezwolenia">17-06-2022</field>
     <field name="Numer decyzji">DF/574/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">03312160318</field>
-    <field name="CzlonekZarzadu1_Imie">Franciszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
+    <field name="CzlonekZarzadu1_PESEL">76061464208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Catering Dolnośląski S.A.</field>
@@ -821,10 +821,10 @@
     <field name="REGON">271232861</field>
     <field name="Data zezwolenia">2023-09-07</field>
     <field name="Numer decyzji">DFI/474/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">04322861668</field>
-    <field name="CzlonekZarzadu1_Imie">Amelia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jagoda</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
+    <field name="CzlonekZarzadu1_PESEL">64101434203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Księgowość Młody SA</field>
@@ -835,13 +835,13 @@
     <field name="REGON">271312057</field>
     <field name="Data zezwolenia">20220603</field>
     <field name="Numer decyzji">DFI/451/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">05210763057</field>
-    <field name="CzlonekZarzadu1_Imie">Nikodem</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jerzy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
+    <field name="CzlonekZarzadu1_PESEL">98021404208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">P.P.H.U. ZLS</field>
+    <field name="Firma lub nazwa">P.P.H.U. ORR</field>
     <field name="Adres siedziby">ul. Rynek 81/41, 50-101 Wrocław</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000044628</field>
@@ -849,13 +849,13 @@
     <field name="REGON">271391246</field>
     <field name="Data zezwolenia">31/12/2019</field>
     <field name="Numer decyzji">DFI/317/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">60021464401</field>
-    <field name="CzlonekZarzadu1_Imie">Martyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska</field>
+    <field name="CzlonekZarzadu1_PESEL">86061474200</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">UZA Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">BDZ Spółka Akcyjna</field>
     <field name="Adres siedziby">ul Jedności Narodowej 98, 50-260 Wrocław</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000044725</field>
@@ -863,13 +863,13 @@
     <field name="REGON">271470431</field>
     <field name="Data zezwolenia">2017/12/07</field>
     <field name="Numer decyzji">DFI/831/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">61032165798</field>
-    <field name="CzlonekZarzadu1_Imie">Miłosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marian</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_PESEL">74101444205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">NKV sp. z o.o.</field>
+    <field name="Firma lub nazwa">SYT sp. z o.o.</field>
     <field name="Adres siedziby">ulica Konstytucji 3 Maja 115, 58-540 Karpacz</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000044822</field>
@@ -877,13 +877,13 @@
     <field name="REGON">271549629</field>
     <field name="Data zezwolenia">13-05-2017</field>
     <field name="Numer decyzji">DFI/156/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">62042867148</field>
-    <field name="CzlonekZarzadu1_Imie">Agata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_PESEL">62021414202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">SAI sp z oo</field>
+    <field name="Firma lub nazwa">FFB sp z oo</field>
     <field name="Adres siedziby">Odrodzenia 132, 59-300 Lubin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000044919</field>
@@ -891,13 +891,13 @@
     <field name="REGON">271628814</field>
     <field name="Data zezwolenia">2017-11-08</field>
     <field name="Numer decyzji">DFI/715/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">63050768531</field>
-    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">96061484202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">EFT sp. z o. o.</field>
+    <field name="Firma lub nazwa">HVB sp. z o. o.</field>
     <field name="Adres siedziby">os. Słowackiego 149/3, 58-300 Wałbrzych</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000045016</field>
@@ -905,13 +905,13 @@
     <field name="REGON">281708037</field>
     <field name="Data zezwolenia">20171221</field>
     <field name="Numer decyzji">DFI/954/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">64061469880</field>
-    <field name="CzlonekZarzadu1_Imie">Helena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">84101454207</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">HMO Sp. z o.o.</field>
+    <field name="Firma lub nazwa">TTH Sp. z o.o.</field>
     <field name="Adres siedziby">ul Półwiejska 166, 61-888 Poznań</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000045113</field>
@@ -919,13 +919,13 @@
     <field name="REGON">271787197</field>
     <field name="Data zezwolenia">21/12/2020</field>
     <field name="Numer decyzji">DFI/775/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">65072171270</field>
-    <field name="CzlonekZarzadu1_Imie">Stefan</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_PESEL">72021424204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">OYX SP Z O O</field>
+    <field name="Firma lub nazwa">IJD SP Z O O</field>
     <field name="Adres siedziby">ulica os. Bolesława Chrobrego 3, 60-681 Poznań</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000045210</field>
@@ -933,13 +933,13 @@
     <field name="REGON">271866382</field>
     <field name="Data zezwolenia">2020/18/10</field>
     <field name="Numer decyzji">DFI/940/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">66082872629</field>
-    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_PESEL">60061494206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szczepańska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">Główny Rynek 20, 62-800 Kalisz</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000045307</field>
@@ -947,13 +947,13 @@
     <field name="REGON">271945578</field>
     <field name="Data zezwolenia">26-08-2021</field>
     <field name="Numer decyzji">DFI/160/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">67090774013</field>
-    <field name="CzlonekZarzadu1_Imie">Józef</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_PESEL">94101464209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. Kaliska 37/55, 63-400 Ostrów Wielkopolski</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000045404</field>
@@ -961,13 +961,13 @@
     <field name="REGON">272024768</field>
     <field name="Data zezwolenia">2018-20-09</field>
     <field name="Numer decyzji">DFI/624/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">68101475365</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
+    <field name="CzlonekZarzadu1_PESEL">82021434206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">IIG S.A.</field>
+    <field name="Firma lub nazwa">HFT S.A.</field>
     <field name="Adres siedziby">ul Ogarna 54, 80-826 Gdańsk</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000045501</field>
@@ -975,13 +975,13 @@
     <field name="REGON">272103953</field>
     <field name="Data zezwolenia">20251017</field>
     <field name="Numer decyzji">DFI/589/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">69112176751</field>
-    <field name="CzlonekZarzadu1_Imie">Edward</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
+    <field name="CzlonekZarzadu1_PESEL">70061404208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">DUH SA</field>
+    <field name="Firma lub nazwa">TWY SA</field>
     <field name="Adres siedziby">ulica os. Jasień 71, 80-180 Gdańsk</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000045598</field>
@@ -989,13 +989,13 @@
     <field name="REGON">272183142</field>
     <field name="Data zezwolenia">2021-11-18T05:05:25Z</field>
     <field name="Numer decyzji">DFI/989/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">70122878100</field>
-    <field name="CzlonekZarzadu1_Imie">Sabina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">04301474207</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Podgórska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">WJJ S. A.</field>
+    <field name="Firma lub nazwa">KSB S. A.</field>
     <field name="Adres siedziby">Bohaterów Monte Cassino 88, 81-759 Sopot</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000045695</field>
@@ -1003,13 +1003,13 @@
     <field name="REGON">272262338</field>
     <field name="Data zezwolenia">2019/11/01</field>
     <field name="Numer decyzji">DFI/513/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">71010779499</field>
-    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">92021444208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">SNP Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">TEZ Spółka Akcyjna</field>
     <field name="Adres siedziby">105/17, 80-209 Chwaszczyno</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000045792</field>
@@ -1017,13 +1017,13 @@
     <field name="REGON">272341523</field>
     <field name="Data zezwolenia">29-08-2024</field>
     <field name="Numer decyzji">DFI/565/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">60021406849</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalska-Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">80061414200</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">VUK sp. z o.o.</field>
+    <field name="Firma lub nazwa">ATE sp. z o.o.</field>
     <field name="Adres siedziby">ul 3 Maja 122, 40-096 Katowice</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000045889</field>
@@ -1031,13 +1031,13 @@
     <field name="REGON">272420719</field>
     <field name="Data zezwolenia">2024-23-04</field>
     <field name="Numer decyzji">DFI/830/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">61032108236</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacki</field>
+    <field name="CzlonekZarzadu1_PESEL">68101484206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">YBL sp z oo</field>
+    <field name="Firma lub nazwa">OBK sp z oo</field>
     <field name="Adres siedziby">ulica os. Paderewskiego 139, 40-282 Katowice</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000045986</field>
@@ -1045,13 +1045,13 @@
     <field name="REGON">282499937</field>
     <field name="Data zezwolenia">20230115</field>
     <field name="Numer decyzji">DFI/832/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">62042809586</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
+    <field name="CzlonekZarzadu1_PESEL">02221454206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">ZVK sp. z o. o.</field>
+    <field name="Firma lub nazwa">FWF sp. z o. o.</field>
     <field name="Adres siedziby">Zwycięstwa 156, 44-100 Gliwice</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000046083</field>
@@ -1059,13 +1059,13 @@
     <field name="REGON">272579093</field>
     <field name="Data zezwolenia">16/01/2017</field>
     <field name="Numer decyzji">DFI/322/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">63050710972</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">90061424202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawłowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">GCG Sp. z o.o.</field>
+    <field name="Firma lub nazwa">EPD Sp. z o.o.</field>
     <field name="Adres siedziby">ul. Bocheńskiego 173/69, 43-100 Tychy</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000046180</field>
@@ -1073,13 +1073,13 @@
     <field name="REGON">272658289</field>
     <field name="Data zezwolenia">2020/15/11</field>
     <field name="Numer decyzji">DFI/268/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">64061412321</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">78101494208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czerwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">LVO SP Z O O</field>
+    <field name="Firma lub nazwa">KVZ SP Z O O</field>
     <field name="Adres siedziby">ul Najświętszej Maryi Panny 10, 42-200 Częstochowa</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000046277</field>
@@ -1087,13 +1087,13 @@
     <field name="REGON">272737474</field>
     <field name="Data zezwolenia">04-01-2022</field>
     <field name="Numer decyzji">DFI/791/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">65072113717</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamiński</field>
+    <field name="CzlonekZarzadu1_PESEL">66021464205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica 11 Listopada 27, 43-300 Bielsko-Biała</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000046374</field>
@@ -1101,13 +1101,13 @@
     <field name="REGON">282816697</field>
     <field name="Data zezwolenia">2019-16-03</field>
     <field name="Numer decyzji">DFI/295/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">66082815068</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
+    <field name="CzlonekZarzadu1_PESEL">00261434200</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kucharska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">44, 36-047 Niechobrz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000046471</field>
@@ -1115,10 +1115,10 @@
     <field name="REGON">272895859</field>
     <field name="Data zezwolenia">20240416</field>
     <field name="Numer decyzji">DFI/333/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">67090716451</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zieliński</field>
+    <field name="CzlonekZarzadu1_PESEL">88101404200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Facebook - Meta</field>
@@ -1129,13 +1129,13 @@
     <field name="REGON">272975044</field>
     <field name="Data zezwolenia">28/05/2018</field>
     <field name="Numer decyzji">DFI/462/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">68101417802</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
+    <field name="CzlonekZarzadu1_PESEL">76021474207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Śliwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">NKM SA</field>
+    <field name="Firma lub nazwa">QOQ SA</field>
     <field name="Adres siedziby">ul Kościuszki 78, 38-500 Sanok</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000046665</field>
@@ -1143,13 +1143,13 @@
     <field name="REGON">273054234</field>
     <field name="Data zezwolenia">2022/16/04</field>
     <field name="Numer decyzji">DFI/906/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">69112119190</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowski</field>
+    <field name="CzlonekZarzadu1_PESEL">64061444209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">JSF S. A.</field>
+    <field name="Firma lub nazwa">GVM S. A.</field>
     <field name="Adres siedziby">ulica Suraska 95, 15-422 Białystok</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000046762</field>
@@ -1157,13 +1157,13 @@
     <field name="REGON">283133457</field>
     <field name="Data zezwolenia">01-12-2022</field>
     <field name="Numer decyzji">DFI/144/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">70122820541</field>
-    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">98101414202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">YSY Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">EXN Spółka Akcyjna</field>
     <field name="Adres siedziby">112, 16-030</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000046859</field>
@@ -1171,13 +1171,13 @@
     <field name="REGON">273212615</field>
     <field name="Data zezwolenia">2025-10-07</field>
     <field name="Numer decyzji">DFI/112/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">71010721939</field>
-    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">86021484209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">AKX sp. z o.o.</field>
+    <field name="Firma lub nazwa">ZEH sp. z o.o.</field>
     <field name="Adres siedziby">ul. 3 Maja 129/83, 17-200 Hajnówka</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000046956</field>
@@ -1185,13 +1185,13 @@
     <field name="REGON">273291804</field>
     <field name="Data zezwolenia">20240325</field>
     <field name="Numer decyzji">DFI/231/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">72021423289</field>
-    <field name="CzlonekZarzadu1_Imie">Marta</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">74061454201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">NCK sp z oo</field>
+    <field name="Firma lub nazwa">BZB sp z oo</field>
     <field name="Adres siedziby">ul os. LSM 146, 20-400 Lublin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047053</field>
@@ -1199,13 +1199,13 @@
     <field name="REGON">273370998</field>
     <field name="Data zezwolenia">22/08/2024</field>
     <field name="Numer decyzji">DFI/775/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">73032124675</field>
-    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowski</field>
+    <field name="CzlonekZarzadu1_PESEL">62101424206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">RRG sp. z o. o.</field>
+    <field name="Firma lub nazwa">ZQQ sp. z o. o.</field>
     <field name="Adres siedziby">163, 24-120 Mięćmierz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000047150</field>
@@ -1213,13 +1213,13 @@
     <field name="REGON">273450183</field>
     <field name="Data zezwolenia">2021/19/08</field>
     <field name="Numer decyzji">DFI/103/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">74042826025</field>
-    <field name="CzlonekZarzadu1_Imie">Paulina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
+    <field name="CzlonekZarzadu1_PESEL">96021494201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">PFD Sp. z o.o.</field>
+    <field name="Firma lub nazwa">DQZ Sp. z o.o.</field>
     <field name="Adres siedziby">Brzeska 180, 21-500 Biała Podlaska</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047247</field>
@@ -1227,13 +1227,13 @@
     <field name="REGON">273529370</field>
     <field name="Data zezwolenia">17-08-2025</field>
     <field name="Numer decyzji">DFI/506/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">75050727418</field>
-    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+    <field name="CzlonekZarzadu1_PESEL">84061464203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">JJS SP Z O O</field>
+    <field name="Firma lub nazwa">ASW SP Z O O</field>
     <field name="Adres siedziby">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000047344</field>
@@ -1241,13 +1241,13 @@
     <field name="REGON">273608566</field>
     <field name="Data zezwolenia">2020-26-11</field>
     <field name="Numer decyzji">DFI/149/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">76061428767</field>
-    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
+    <field name="CzlonekZarzadu1_PESEL">72101434208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lisowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Mostowa 34, 85-110 Bydgoszcz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047441</field>
@@ -1255,13 +1255,13 @@
     <field name="REGON">273687755</field>
     <field name="Data zezwolenia">20190513</field>
     <field name="Numer decyzji">DFI/199/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">77072130157</field>
-    <field name="CzlonekZarzadu1_Imie">Dawid</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">60021404205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Stare Miasto 51, 10-026 Olsztyn</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047538</field>
@@ -1269,13 +1269,13 @@
     <field name="REGON">273766940</field>
     <field name="Data zezwolenia">27/11/2024</field>
     <field name="Numer decyzji">DFI/870/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">78082831506</field>
-    <field name="CzlonekZarzadu1_Imie">Dorota</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">94061474205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">BGD S.A.</field>
+    <field name="Firma lub nazwa">JII S.A.</field>
     <field name="Adres siedziby">Warszawska 68, 11-700 Mrągowo</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047635</field>
@@ -1283,13 +1283,13 @@
     <field name="REGON">273846136</field>
     <field name="Data zezwolenia">2023/13/10</field>
     <field name="Numer decyzji">DFI/121/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">79090732890</field>
-    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłoński</field>
+    <field name="CzlonekZarzadu1_PESEL">82101444200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">GBS SA</field>
+    <field name="Firma lub nazwa">UYY SA</field>
     <field name="Adres siedziby">ul. Wojska Polskiego 85/7, 70-470 Szczecin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000047732</field>
@@ -1297,13 +1297,13 @@
     <field name="REGON">273925321</field>
     <field name="Data zezwolenia">03-08-2021</field>
     <field name="Numer decyzji">DFI/382/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">80101434241</field>
-    <field name="CzlonekZarzadu1_Imie">Beata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">70021414207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">YIC S. A.</field>
+    <field name="Firma lub nazwa">GGK S. A.</field>
     <field name="Adres siedziby">os. Monte Cassino 102, 72-600 Świnoujście</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000047829</field>
@@ -1311,13 +1311,13 @@
     <field name="REGON">274004511</field>
     <field name="Data zezwolenia">2024-06-01</field>
     <field name="Numer decyzji">DFI/542/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">81112135637</field>
-    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">04261484203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">OKT Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">YAS Spółka Akcyjna</field>
     <field name="Adres siedziby">ulica Rynek 119, 45-015 Opole</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000047926</field>
@@ -1325,13 +1325,13 @@
     <field name="REGON">274083700</field>
     <field name="Data zezwolenia">20210207</field>
     <field name="Numer decyzji">DFI/765/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">82122836987</field>
-    <field name="CzlonekZarzadu1_Imie">Urszula</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">92101454202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">QPU sp. z o.o.</field>
+    <field name="Firma lub nazwa">UQU sp. z o.o.</field>
     <field name="Adres siedziby">Byczyńska 136, 46-200 Kluczbork</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000048023</field>
@@ -1339,13 +1339,13 @@
     <field name="REGON">274162894</field>
     <field name="Data zezwolenia">30/11/2023</field>
     <field name="Numer decyzji">DFI/559/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">83010738376</field>
-    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">80021424209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sokołowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">IEU sp z oo</field>
+    <field name="Firma lub nazwa">MUV sp z oo</field>
     <field name="Adres siedziby">ul. Chrobrego 153/59, 66-400 Gorzów Wielkopolski</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000048120</field>
@@ -1353,13 +1353,13 @@
     <field name="REGON">284242119</field>
     <field name="Data zezwolenia">2025/17/08</field>
     <field name="Numer decyzji">DFI/762/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">84021439724</field>
-    <field name="CzlonekZarzadu1_Imie">Izabela</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">68061494202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">PAZ sp. z o. o.</field>
+    <field name="Firma lub nazwa">HAY sp. z o. o.</field>
     <field name="Adres siedziby">ul 30 Stycznia 170, 66-300 Międzyrzecz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000048217</field>
@@ -1367,13 +1367,13 @@
     <field name="REGON">274321275</field>
     <field name="Data zezwolenia">04-01-2023</field>
     <field name="Numer decyzji">DFI/153/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">85032141114</field>
-    <field name="CzlonekZarzadu1_Imie">Henryk</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górski</field>
+    <field name="CzlonekZarzadu1_PESEL">02301464200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Laskowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">ZAB Sp. z o.o.</field>
+    <field name="Firma lub nazwa">CCZ Sp. z o.o.</field>
     <field name="Adres siedziby">ulica Paderewskiego 7, 25-004 Kielce</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000048314</field>
@@ -1381,13 +1381,13 @@
     <field name="REGON">274400460</field>
     <field name="Data zezwolenia">2023-04-07</field>
     <field name="Numer decyzji">DFI/360/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">86042842464</field>
-    <field name="CzlonekZarzadu1_Imie">Weronika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">90021434201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">SBZ SP Z O O</field>
+    <field name="Firma lub nazwa">WUF SP Z O O</field>
     <field name="Adres siedziby">1 Maja 24, 28-100 Busko-Zdrój</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000048411</field>
@@ -1395,10 +1395,10 @@
     <field name="REGON">274479651</field>
     <field name="Data zezwolenia">20210107</field>
     <field name="Numer decyzji">DFI/548/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">87050743857</field>
-    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowski</field>
+    <field name="CzlonekZarzadu1_PESEL">78061404204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wasilewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">PPHU Krajowy Rejestr Długów</field>
@@ -1409,10 +1409,10 @@
     <field name="REGON">274558847</field>
     <field name="Data zezwolenia">21/04/2021</field>
     <field name="Numer decyzji">DFI/466/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">88061445206</field>
-    <field name="CzlonekZarzadu1_Imie">Zofia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
+    <field name="CzlonekZarzadu1_PESEL">66101474209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polskie Przetwory Spółka z ograniczoną odpowiedzialnością</field>
@@ -1423,10 +1423,10 @@
     <field name="REGON">274638032</field>
     <field name="Data zezwolenia">2023/09/06</field>
     <field name="Numer decyzji">DFI/791/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">89072146593</field>
-    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">00221444209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lewandowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Hurtownia Nabiału Mleczko S.A.</field>
@@ -1437,10 +1437,10 @@
     <field name="REGON">274717228</field>
     <field name="Data zezwolenia">05-02-2022</field>
     <field name="Numer decyzji">DFI/971/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">02282821948</field>
-    <field name="CzlonekZarzadu1_Imie">Olga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">88061414206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Agencja Reklamowa Kreatywni SA</field>
@@ -1451,10 +1451,10 @@
     <field name="REGON">274796417</field>
     <field name="Data zezwolenia">2018-10-06</field>
     <field name="Numer decyzji">DFI/933/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">03290723332</field>
-    <field name="CzlonekZarzadu1_Imie">Damian</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawłowski</field>
+    <field name="CzlonekZarzadu1_PESEL">76101484201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kancelaria Prawna Sankcja S. A.</field>
@@ -1465,10 +1465,10 @@
     <field name="REGON">274875602</field>
     <field name="Data zezwolenia">20180123</field>
     <field name="Numer decyzji">DFI/547/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">04301424684</field>
-    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowicka</field>
+    <field name="CzlonekZarzadu1_PESEL">64021454208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Śląskie Zakłady Mechaniczne Spółka Akcyjna</field>
@@ -1479,10 +1479,10 @@
     <field name="REGON">274954796</field>
     <field name="Data zezwolenia">18/08/2024</field>
     <field name="Numer decyzji">DFI/576/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">05312126071</field>
-    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sokołowski</field>
+    <field name="CzlonekZarzadu1_PESEL">98061424208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Fabryka Okien i Drzwi Profil sp. z o.o.</field>
@@ -1493,13 +1493,13 @@
     <field name="REGON">275033986</field>
     <field name="Data zezwolenia">2020/18/01</field>
     <field name="Numer decyzji">DFI/532/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">60122827426</field>
-    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wróbel</field>
+    <field name="CzlonekZarzadu1_PESEL">86101494203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wysocka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Przedsiębiorstwo Robót Drogowych sp z oo</field>
+    <field name="Firma lub nazwa">Przedsiębiorstwo oRbót Drogowych sp z oo</field>
     <field name="Adres siedziby">Legnicka 160, 54-203 Wrocław</field>
     <field name="Zakres czynności">wykonywaine zleceń na rachunek klientów</field>
     <field name="KRS">0000049187</field>
@@ -1507,10 +1507,10 @@
     <field name="REGON">275113171</field>
     <field name="Data zezwolenia">12-11-2024</field>
     <field name="Numer decyzji">FD/168/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">61010728814</field>
-    <field name="CzlonekZarzadu1_Imie">Leszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">aKcper</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Majewski</field>
+    <field name="CzlonekZarzadu1_PESEL">74021464200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazurek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Krakowskie Biuro Nieruchomości sp. z o. o.</field>
@@ -1521,10 +1521,10 @@
     <field name="REGON">275192360</field>
     <field name="Data zezwolenia">2018-04-03</field>
     <field name="Numer decyzji">DFI/701/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">62021430167</field>
-    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Olszewska</field>
+    <field name="CzlonekZarzadu1_PESEL">62061434202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Salon Samochodowy Auto-Hit Sp. z o.o.</field>
@@ -1535,10 +1535,10 @@
     <field name="REGON">275271556</field>
     <field name="Data zezwolenia">20200814</field>
     <field name="Numer decyzji">DFI/800/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">63032131553</field>
-    <field name="CzlonekZarzadu1_Imie">Cezary</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jaworski</field>
+    <field name="CzlonekZarzadu1_PESEL">96101404205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kalinowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Klinika Stomatologiczna Dent-Med SP Z O O</field>
@@ -1549,10 +1549,10 @@
     <field name="REGON">275350741</field>
     <field name="Data zezwolenia">06/11/2019</field>
     <field name="Numer decyzji">DFI/616/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">64042832902</field>
-    <field name="CzlonekZarzadu1_Imie">Bożena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Oliwia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Malinowska</field>
+    <field name="CzlonekZarzadu1_PESEL">84021474202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polski Tytoń spółka z ograniczoną odpowiedzialnością</field>
@@ -1563,10 +1563,10 @@
     <field name="REGON">275429939</field>
     <field name="Data zezwolenia">2025/20/05</field>
     <field name="Numer decyzji">DFI/694/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">65050734297</field>
-    <field name="CzlonekZarzadu1_Imie">Filip</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
+    <field name="CzlonekZarzadu1_PESEL">72061444204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Gdańska Stocznia Jachtowa Spółka z ograniczoną odpowiedzialnością</field>
@@ -1577,10 +1577,10 @@
     <field name="REGON">275509124</field>
     <field name="Data zezwolenia">02-05-2022</field>
     <field name="Numer decyzji">DFI/491/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">66061435645</field>
-    <field name="CzlonekZarzadu1_Imie">Zuzanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Emilia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szczepańska-Andrzejewska</field>
+    <field name="CzlonekZarzadu1_PESEL">60101414209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Wytwórnia Makaronu Jajecznego S.A.</field>
@@ -1591,10 +1591,10 @@
     <field name="REGON">275588313</field>
     <field name="Data zezwolenia">2017-03-01</field>
     <field name="Numer decyzji">DFI/675/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">67072137032</field>
-    <field name="CzlonekZarzadu1_Imie">Mikołaj</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Ignacy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czerwiński</field>
+    <field name="CzlonekZarzadu1_PESEL">94021484204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zakłady Mięsne Tradycja SA</field>
@@ -1605,10 +1605,10 @@
     <field name="REGON">275667509</field>
     <field name="Data zezwolenia">20180819</field>
     <field name="Numer decyzji">DFI/362/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">68082838382</field>
-    <field name="CzlonekZarzadu1_Imie">Lena</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
+    <field name="CzlonekZarzadu1_PESEL">82061454206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Spółdzielnia Mleczarska Radomsko S. A.</field>
@@ -1619,10 +1619,10 @@
     <field name="REGON">275746692</field>
     <field name="Data zezwolenia">26/07/2020</field>
     <field name="Numer decyzji">DFI/632/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">69090739775</field>
-    <field name="CzlonekZarzadu1_Imie">Antoni</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Leon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
+    <field name="CzlonekZarzadu1_PESEL">70101424201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Majewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kancelaria Finansowo-Księgowa Bilans Spółka Akcyjna</field>
@@ -1633,10 +1633,10 @@
     <field name="REGON">275825888</field>
     <field name="Data zezwolenia">2019/20/01</field>
     <field name="Numer decyzji">DFI/122/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">70101441129</field>
-    <field name="CzlonekZarzadu1_Imie">Hanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Dominika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wysocka</field>
+    <field name="CzlonekZarzadu1_PESEL">04221494202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Chmielewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zarząd Nieruchomości Komercyjnych sp. z o.o.</field>
@@ -1647,10 +1647,10 @@
     <field name="REGON">275905073</field>
     <field name="Data zezwolenia">26-07-2023</field>
     <field name="Numer decyzji">DFI/428/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">71112142515</field>
-    <field name="CzlonekZarzadu1_Imie">Franciszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Chmielewski</field>
+    <field name="CzlonekZarzadu1_PESEL">92061464208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sobczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polskie Linie Oceaniczne sp z oo</field>
@@ -1661,10 +1661,10 @@
     <field name="REGON">275984262</field>
     <field name="Data zezwolenia">2025-27-01</field>
     <field name="Numer decyzji">DFI/548/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">72122843865</field>
-    <field name="CzlonekZarzadu1_Imie">Amelia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jagoda</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Urbańska</field>
+    <field name="CzlonekZarzadu1_PESEL">80101434203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Hurtownia Materiałów Budowlanych Cegiełka sp. z o. o.</field>
@@ -1675,10 +1675,10 @@
     <field name="REGON">276063452</field>
     <field name="Data zezwolenia">20190316</field>
     <field name="Numer decyzji">DFI/806/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">73010745254</field>
-    <field name="CzlonekZarzadu1_Imie">Nikodem</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jerzy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">68021404201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Instagram - Meta</field>
@@ -1689,10 +1689,10 @@
     <field name="REGON">276142648</field>
     <field name="Data zezwolenia">13/05/2017</field>
     <field name="Numer decyzji">DFI/895/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">74021446602</field>
-    <field name="CzlonekZarzadu1_Imie">Martyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
+    <field name="CzlonekZarzadu1_PESEL">02261474206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Centrum Medycyny Pracy SP Z O O</field>
@@ -1703,10 +1703,10 @@
     <field name="REGON">276221833</field>
     <field name="Data zezwolenia">2019/25/10</field>
     <field name="Numer decyzji">DFI/540/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">75032147999</field>
-    <field name="CzlonekZarzadu1_Imie">Miłosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marian</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
+    <field name="CzlonekZarzadu1_PESEL">90101444205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szymańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Przedsiębiorstwo Energetyki Cieplnej spółka z ograniczoną odpowiedzialnością</field>
@@ -1717,10 +1717,10 @@
     <field name="REGON">276301029</field>
     <field name="Data zezwolenia">30-06-2017</field>
     <field name="Numer decyzji">DFI/925/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">76042849349</field>
-    <field name="CzlonekZarzadu1_Imie">Agata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
+    <field name="CzlonekZarzadu1_PESEL">78021414203</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Gospodarstwo Rolno-Ogrodnicze Spółka z ograniczoną odpowiedzialnością</field>
@@ -1731,10 +1731,10 @@
     <field name="REGON">276380218</field>
     <field name="Data zezwolenia">2024-28-12</field>
     <field name="Numer decyzji">DFI/439/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">77050750735</field>
-    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewski</field>
+    <field name="CzlonekZarzadu1_PESEL">66061484205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Drukarnia Wielkoformatowa Impress S.A.</field>
@@ -1745,10 +1745,10 @@
     <field name="REGON">276459405</field>
     <field name="Data zezwolenia">20200817</field>
     <field name="Numer decyzji">DFI/490/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">78061452085</field>
-    <field name="CzlonekZarzadu1_Imie">Helena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Gajewska</field>
+    <field name="CzlonekZarzadu1_PESEL">00301454203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Klub Fitness Sylwetka SA</field>
@@ -1756,13 +1756,13 @@
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000050933</field>
     <field name="NIP">1276380215</field>
-    <field name="REGON"></field>
+    <field name="REGON">276538599</field>
     <field name="Data zezwolenia">09/09/2021</field>
     <field name="Numer decyzji">DFI/132/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">79072153471</field>
-    <field name="CzlonekZarzadu1_Imie">Stefan</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Laskowski</field>
+    <field name="CzlonekZarzadu1_PESEL">88021424205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Olszewska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polska Grupa Energetyczna S. A.</field>
@@ -1770,13 +1770,13 @@
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000051030</field>
     <field name="NIP">1276459402</field>
-    <field name="REGON">276617784</field>
+    <field name="REGON"></field>
     <field name="Data zezwolenia">2025/02/02</field>
     <field name="Numer decyzji">DFI/833/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">80082854829</field>
-    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazurek</field>
+    <field name="CzlonekZarzadu1_PESEL">76061494207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Urbańska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Mazowieckie Zakłady Drobiarskie Spółka Akcyjna</field>
@@ -1787,10 +1787,10 @@
     <field name="REGON">276696973</field>
     <field name="Data zezwolenia">11-09-2018</field>
     <field name="Numer decyzji">DFI/985/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">81090756213</field>
-    <field name="CzlonekZarzadu1_Imie">Józef</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sobczak</field>
+    <field name="CzlonekZarzadu1_PESEL">64101464202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Konieczna</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Hurtownia Farmaceutyczna Aptekarz sp. z o.o.</field>
@@ -1801,10 +1801,10 @@
     <field name="REGON">276776169</field>
     <field name="Data zezwolenia">2021-29-01</field>
     <field name="Numer decyzji">DFI/126/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">82101457565</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Konieczna</field>
+    <field name="CzlonekZarzadu1_PESEL">98021434207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kancelaria Notarialna Lex sp z oo</field>
@@ -1815,10 +1815,10 @@
     <field name="REGON">276855354</field>
     <field name="Data zezwolenia">20220731</field>
     <field name="Numer decyzji">DFI/191/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">83112158951</field>
-    <field name="CzlonekZarzadu1_Imie">Edward</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Brzeziński</field>
+    <field name="CzlonekZarzadu1_PESEL">86061404209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Przybylska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Biuro Podróży Wojażer sp. z o. o.</field>
@@ -1829,10 +1829,10 @@
     <field name="REGON">286934577</field>
     <field name="Data zezwolenia">15/04/2023</field>
     <field name="Numer decyzji">DFI/719/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">84122860304</field>
-    <field name="CzlonekZarzadu1_Imie">Sabina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Makowska</field>
+    <field name="CzlonekZarzadu1_PESEL">74101474204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Szkoła Języków Obcych Lingua Sp. z o.o.</field>
@@ -1843,10 +1843,10 @@
     <field name="REGON">287013767</field>
     <field name="Data zezwolenia">2025/28/08</field>
     <field name="Numer decyzji">DFI/152/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">85010761693</field>
-    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
+    <field name="CzlonekZarzadu1_PESEL">62021444201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Centrum Logistyczne Podlasie SP Z O O</field>
@@ -1857,10 +1857,10 @@
     <field name="REGON">277092929</field>
     <field name="Data zezwolenia">30-10-2022</field>
     <field name="Numer decyzji">DFI/828/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">86021463042</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
+    <field name="CzlonekZarzadu1_PESEL">96061414201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Fabryka Mebli Drewnianych Dąb spółka z ograniczoną odpowiedzialnością</field>
@@ -1871,10 +1871,10 @@
     <field name="REGON">277172114</field>
     <field name="Data zezwolenia">2017-31-01</field>
     <field name="Numer decyzji">DFI/381/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">87032164438</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kucharski</field>
+    <field name="CzlonekZarzadu1_PESEL">84101484206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polskie Sady Spółka z ograniczoną odpowiedzialnością</field>
@@ -1885,10 +1885,10 @@
     <field name="REGON">287251337</field>
     <field name="Data zezwolenia">20201220</field>
     <field name="Numer decyzji">DFI/427/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">88042865788</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lisowska</field>
+    <field name="CzlonekZarzadu1_PESEL">72021454203</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Wielkopolska Hurtownia Stali S.A.</field>
@@ -1899,10 +1899,10 @@
     <field name="REGON">277330493</field>
     <field name="Data zezwolenia">28/09/2019</field>
     <field name="Numer decyzji">DFI/521/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">89050767172</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
+    <field name="CzlonekZarzadu1_PESEL">60061424205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jaworska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zakład Oczyszczania Miasta SA</field>
@@ -1913,10 +1913,10 @@
     <field name="REGON">277409680</field>
     <field name="Data zezwolenia">2023/13/11</field>
     <field name="Numer decyzji">DFI/722/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">90061468529</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kopeć</field>
+    <field name="CzlonekZarzadu1_PESEL">94101494208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Błaszczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Przedsiębiorstwo Wodociągów i Kanalizacji S. A.</field>
@@ -1927,10 +1927,10 @@
     <field name="REGON">287488909</field>
     <field name="Data zezwolenia">16-07-2020</field>
     <field name="Numer decyzji">DFI/319/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">91072169915</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czajka</field>
+    <field name="CzlonekZarzadu1_PESEL">82021464205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Brzezińska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Instytut Badań Rynkowych Spółka Akcyjna</field>
@@ -1941,10 +1941,10 @@
     <field name="REGON">277568065</field>
     <field name="Data zezwolenia">2019-27-01</field>
     <field name="Numer decyzji">DFI/909/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">92082871269</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Matusiak</field>
+    <field name="CzlonekZarzadu1_PESEL">70061434207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Agencja Ochrony Solidna sp. z o.o.</field>
@@ -1955,10 +1955,10 @@
     <field name="REGON">277647250</field>
     <field name="Data zezwolenia">20190101</field>
     <field name="Numer decyzji">DFI/304/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">93090772652</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Gajda</field>
+    <field name="CzlonekZarzadu1_PESEL">04301404206</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">P.P.H.U. Salon Meblowy Komfort</field>
@@ -1969,10 +1969,10 @@
     <field name="REGON">277726446</field>
     <field name="Data zezwolenia">03/04/2023</field>
     <field name="Numer decyzji">DFI/662/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">94101474004</field>
-    <field name="CzlonekZarzadu1_Imie">Barbara</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
+    <field name="CzlonekZarzadu1_PESEL">92021474207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Krajowa Izba Gospodarcza sp. z o. o.</field>
@@ -1983,10 +1983,10 @@
     <field name="REGON">277805631</field>
     <field name="Data zezwolenia">2017/29/11</field>
     <field name="Numer decyzji">DFI/522/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">95112175391</field>
-    <field name="CzlonekZarzadu1_Imie">Rafał</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
+    <field name="CzlonekZarzadu1_PESEL">80061444209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polskie Zakłady Lotnicze Sp. z o.o.</field>
@@ -1997,10 +1997,10 @@
     <field name="REGON">277884820</field>
     <field name="Data zezwolenia">30-10-2025</field>
     <field name="Numer decyzji">DFI/372/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">96122876740</field>
-    <field name="CzlonekZarzadu1_Imie">Aleksandra</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Małgorzata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
+    <field name="CzlonekZarzadu1_PESEL">68101414205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Witkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Hurtownia Elektryczna Wat SP Z O O</field>
@@ -2011,10 +2011,10 @@
     <field name="REGON">277964016</field>
     <field name="Data zezwolenia">2022-08-05</field>
     <field name="Numer decyzji">DFI/731/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">97010778139</field>
-    <field name="CzlonekZarzadu1_Imie">Andrzej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jakub</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">02221484205</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Centrum Ogrodnicze Zielona Oaza spółka z ograniczoną odpowiedzialnością</field>
@@ -2025,10 +2025,10 @@
     <field name="REGON">278043206</field>
     <field name="Data zezwolenia">20251006</field>
     <field name="Numer decyzji">DFI/588/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">98021479488</field>
-    <field name="CzlonekZarzadu1_Imie">Marta</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
+    <field name="CzlonekZarzadu1_PESEL">90061454201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sawicka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Piekarnia i Cukiernia Chrupiący Rogalik Spółka z ograniczoną odpowiedzialnością</field>
@@ -2039,10 +2039,10 @@
     <field name="REGON">288122429</field>
     <field name="Data zezwolenia">28/09/2021</field>
     <field name="Numer decyzji">DFI/740/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">99032180877</field>
-    <field name="CzlonekZarzadu1_Imie">Łukasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Artur</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wasilewski</field>
+    <field name="CzlonekZarzadu1_PESEL">78101424207</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Malinowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zakład Usług Komunalnych S.A.</field>
@@ -2053,10 +2053,10 @@
     <field name="REGON">278201585</field>
     <field name="Data zezwolenia">2021/03/03</field>
     <field name="Numer decyzji">DFI/121/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">00242882222</field>
-    <field name="CzlonekZarzadu1_Imie">Paulina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Iwona</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kalinowska</field>
+    <field name="CzlonekZarzadu1_PESEL">66021494204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szulc</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polski Komfort SA</field>
@@ -2067,10 +2067,10 @@
     <field name="REGON">278280774</field>
     <field name="Data zezwolenia">23-12-2021</field>
     <field name="Numer decyzji">DFI/364/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">01250783615</field>
-    <field name="CzlonekZarzadu1_Imie">Mateusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zarychta</field>
+    <field name="CzlonekZarzadu1_PESEL">00261464209</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Makowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Kancelaria Radców Prawnych Partnerzy S. A.</field>
@@ -2081,24 +2081,24 @@
     <field name="REGON">278359961</field>
     <field name="Data zezwolenia">2021-21-03</field>
     <field name="Numer decyzji">DFI/277/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">02261484964</field>
-    <field name="CzlonekZarzadu1_Imie">Elżbieta</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Renata</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Przybylska</field>
+    <field name="CzlonekZarzadu1_PESEL">88101434209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Klimek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
-    <field name="Adres siedziby">ul Małachowskiego 154, 42-500 Będzin</field>
+    <field name="Adres siedziby"></field>
     <field name="Zakres czynności"></field>
     <field name="KRS">0000053261</field>
     <field name="NIP">1278280771</field>
     <field name="REGON">278439157</field>
     <field name="Data zezwolenia">20200217</field>
     <field name="Numer decyzji"></field>
-    <field name="CzlonekZarzadu1_PESEL">03272186351</field>
-    <field name="CzlonekZarzadu1_Imie">Dawid</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maciej</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalak</field>
+    <field name="CzlonekZarzadu1_PESEL">76021404206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szatkowska</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Przedsiębiorstwo Spedycyjne Ładunek sp. z o.o.</field>
@@ -2109,10 +2109,10 @@
     <field name="REGON">278518342</field>
     <field name="Data zezwolenia">21/06/2023</field>
     <field name="Numer decyzji">DFI/877/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">04282887700</field>
-    <field name="CzlonekZarzadu1_Imie">Dorota</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szatkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">64061474208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Fabryka Tekstyliów Splot sp z oo</field>
@@ -2123,10 +2123,10 @@
     <field name="REGON">278597531</field>
     <field name="Data zezwolenia">2019/09/11</field>
     <field name="Numer decyzji">DFI/579/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">05290789095</field>
-    <field name="CzlonekZarzadu1_Imie">Dariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Zbigniew</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
+    <field name="CzlonekZarzadu1_PESEL">98101444201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Górnośląskie Towarzystwo Finansowe sp. z o. o.</field>
@@ -2137,10 +2137,10 @@
     <field name="REGON">278676727</field>
     <field name="Data zezwolenia">07-03-2018</field>
     <field name="Numer decyzji">DFI/474/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">60101490445</field>
-    <field name="CzlonekZarzadu1_Imie">Beata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Patrycja</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Podgórska-Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">96021414208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Krajowa Agencja Informacyjna Sp. z o.o.</field>
@@ -2151,10 +2151,10 @@
     <field name="REGON">278755912</field>
     <field name="Data zezwolenia">2025-20-03</field>
     <field name="Numer decyzji">DFI/570/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">71112191831</field>
-    <field name="CzlonekZarzadu1_Imie">Sławomir</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Śliwiński</field>
+    <field name="CzlonekZarzadu1_PESEL">74061484200</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Polskie Jagody SP Z O O</field>
@@ -2165,10 +2165,10 @@
     <field name="REGON">278835108</field>
     <field name="Data zezwolenia">20231126</field>
     <field name="Numer decyzji">DFI/699/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">62122893182</field>
-    <field name="CzlonekZarzadu1_Imie">Urszula</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Wiktoria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czajkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">62101454205</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Dudek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">Zielony Amber spółka z ograniczoną odpowiedzialnością</field>
@@ -2179,13 +2179,13 @@
     <field name="REGON">278914291</field>
     <field name="Data zezwolenia">17/11/2025</field>
     <field name="Numer decyzji">DFI/289/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">63010794570</field>
-    <field name="CzlonekZarzadu1_Imie">Mariusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jacek</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
+    <field name="CzlonekZarzadu1_PESEL">96021424200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pająk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. 3 Maja 93/29, 16-300 Augustów</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000053940</field>
@@ -2193,13 +2193,13 @@
     <field name="REGON">278993480</field>
     <field name="Data zezwolenia">2018/01/09</field>
     <field name="Numer decyzji">DFI/284/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">64021495928</field>
-    <field name="CzlonekZarzadu1_Imie">Izabela</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Panek</field>
+    <field name="CzlonekZarzadu1_PESEL">84061494202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kozak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielnoy Canyon S.A.</field>
+    <field name="Firma lub nazwa">Złoty Oaza S.A.</field>
     <field name="Adres siedziby">ul Kościuszki 110, 16-400 Suwałki</field>
     <field name="Zakres czynności">przyjmownai  przekazywanie zlecńe</field>
     <field name="KRS">0000054037</field>
@@ -2207,13 +2207,13 @@
     <field name="REGON">279072670</field>
     <field name="Data zezwolenia">11-07-2021</field>
     <field name="Numer decyzji">DF/392/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">65032197315</field>
-    <field name="CzlonekZarzadu1_Imie">Henryk</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Przemysław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Prus</field>
+    <field name="CzlonekZarzadu1_PESEL">72101464207</field>
+    <field name="CzlonekZarzadu1_Imie">Babrara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Delfin SA</field>
+    <field name="Firma lub nazwa">Srebrny Zefir SA</field>
     <field name="Adres siedziby">ulica Piastowska 127, 48-300 Nysa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000054134</field>
@@ -2221,13 +2221,13 @@
     <field name="REGON">279151866</field>
     <field name="Data zezwolenia">2024-10-09</field>
     <field name="Numer decyzji">DFI/355/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">66042898665</field>
-    <field name="CzlonekZarzadu1_Imie">Weronika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kinga</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Janik</field>
+    <field name="CzlonekZarzadu1_PESEL">60021434204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Madej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Echo S. A.</field>
+    <field name="Firma lub nazwa">Czysty Pilica S. A.</field>
     <field name="Adres siedziby">Długa 144, 49-300 Brzeg</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000054231</field>
@@ -2235,10 +2235,10 @@
     <field name="REGON">279231051</field>
     <field name="Data zezwolenia">20181105</field>
     <field name="Numer decyzji">DFI/298/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">67050700052</field>
-    <field name="CzlonekZarzadu1_Imie">Stanisław</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalski</field>
+    <field name="CzlonekZarzadu1_PESEL">94061404204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bednarek</field>
   </record>
   <record>
     <field name="Firma lub nazwa">mBank</field>
@@ -2249,13 +2249,13 @@
     <field name="REGON">279310247</field>
     <field name="Data zezwolenia">19/07/2017</field>
     <field name="Numer decyzji">DFI/721/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">68061401400</field>
-    <field name="CzlonekZarzadu1_Imie">Zofia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Nowacka</field>
+    <field name="CzlonekZarzadu1_PESEL">82101474209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Gryf sp. z o.o.</field>
+    <field name="Firma lub nazwa">Pewny Giewont sp. z o.o.</field>
     <field name="Adres siedziby">ul Sikorskiego 178, 66-200 Świebodzin</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000054425</field>
@@ -2263,13 +2263,13 @@
     <field name="REGON">279389438</field>
     <field name="Data zezwolenia">2018/10/12</field>
     <field name="Numer decyzji">DFI/641/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">69072102797</field>
-    <field name="CzlonekZarzadu1_Imie">Bartłomiej</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Daniel</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wiśniewski</field>
+    <field name="CzlonekZarzadu1_PESEL">70021444206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Horyzont sp z oo</field>
+    <field name="Firma lub nazwa">Dobry Sudety sp z oo</field>
     <field name="Adres siedziby">ulica Armii Krajowej 15, 78-100 Kołobrzeg</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000054522</field>
@@ -2277,13 +2277,13 @@
     <field name="REGON">279468623</field>
     <field name="Data zezwolenia">28-02-2021</field>
     <field name="Numer decyzji">DFI/149/2023</field>
-    <field name="CzlonekZarzadu1_PESEL">70082804146</field>
-    <field name="CzlonekZarzadu1_Imie">Olga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
+    <field name="CzlonekZarzadu1_PESEL">04261414202</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Ikar sp. z o. o.</field>
+    <field name="Firma lub nazwa">Polski Gryf sp. z o. o.</field>
     <field name="Adres siedziby">Piłsudskiego 32, 73-110 Stargard</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000054619</field>
@@ -2291,13 +2291,13 @@
     <field name="REGON">279547819</field>
     <field name="Data zezwolenia">2022-27-08</field>
     <field name="Numer decyzji">DFI/897/2022</field>
-    <field name="CzlonekZarzadu1_PESEL">71090705539</field>
-    <field name="CzlonekZarzadu1_Imie">Damian</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Waldemar</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">92101484201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czarnecka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Jantar Sp. z o.o.</field>
+    <field name="Firma lub nazwa">Europejski Neon Sp. z o.o.</field>
     <field name="Adres siedziby">ul. Mickiewicza 49/43, 27-600 Sandomierz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000054716</field>
@@ -2305,13 +2305,13 @@
     <field name="REGON">279627004</field>
     <field name="Data zezwolenia">20251104</field>
     <field name="Numer decyzji">DFI/936/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">72101406881</field>
-    <field name="CzlonekZarzadu1_Imie">Ewelina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Danuta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
+    <field name="CzlonekZarzadu1_PESEL">80021454208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Adamczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Koral SP Z O O</field>
+    <field name="Firma lub nazwa">Globalny Wektor SP Z O O</field>
     <field name="Adres siedziby">ul Sienkiewicza 66, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000054813</field>
@@ -2319,13 +2319,13 @@
     <field name="REGON">279706198</field>
     <field name="Data zezwolenia">04/07/2023</field>
     <field name="Numer decyzji">DFI/858/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">73112108278</field>
-    <field name="CzlonekZarzadu1_Imie">Bartosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lewandowski</field>
+    <field name="CzlonekZarzadu1_PESEL">68061424201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Szczepańska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Chmielna 83, 00-020 Warszawa</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000054910</field>
@@ -2333,13 +2333,13 @@
     <field name="REGON">279785387</field>
     <field name="Data zezwolenia">2017/29/08</field>
     <field name="Numer decyzji">DFI/573/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">74122809627</field>
-    <field name="CzlonekZarzadu1_Imie">Sylwia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Aneta</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zielińska</field>
+    <field name="CzlonekZarzadu1_PESEL">02301494209</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Cieślak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">Nowy Świat 100, 00-029 Warszawa</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000055007</field>
@@ -2347,13 +2347,13 @@
     <field name="REGON">279864572</field>
     <field name="Data zezwolenia">12/05/2018 06:24</field>
     <field name="Numer decyzji">DFI/932/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">75010711019</field>
-    <field name="CzlonekZarzadu1_Imie">Leszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Kacper</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Szymański</field>
+    <field name="CzlonekZarzadu1_PESEL">90021464200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Bąk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Neon S.A.</field>
+    <field name="Firma lub nazwa">Tradycyjny Narcyz S.A.</field>
     <field name="Adres siedziby">ul. os. Przyjaźń 117/5, 01-355 Warszawa</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000055104</field>
@@ -2361,13 +2361,13 @@
     <field name="REGON">279943768</field>
     <field name="Data zezwolenia">2022-09-08</field>
     <field name="Numer decyzji">DFI/282/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">76021412368</field>
-    <field name="CzlonekZarzadu1_Imie">Grażyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Dąbrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">78061434203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Krupa</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Oaza SA</field>
+    <field name="Firma lub nazwa">Dynamiczny Bałtyk SA</field>
     <field name="Adres siedziby">ul Jagiellońska 134, 05-120 Legionowo</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000055201</field>
@@ -2375,13 +2375,13 @@
     <field name="REGON">280022958</field>
     <field name="Data zezwolenia">20200424</field>
     <field name="Numer decyzji">DFI/438/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">77032113754</field>
-    <field name="CzlonekZarzadu1_Imie">Cezary</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Szymon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Mazur</field>
+    <field name="CzlonekZarzadu1_PESEL">66101404208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Podgórska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Pegaz S. A.</field>
+    <field name="Firma lub nazwa">Stabilny Falcon S. A.</field>
     <field name="Adres siedziby">ulica Piłsudskiego 151, 05-270 Marki</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000055298</field>
@@ -2389,13 +2389,13 @@
     <field name="REGON">280102143</field>
     <field name="Data zezwolenia">18/05/2024</field>
     <field name="Numer decyzji">DFI/448/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">78042815104</field>
-    <field name="CzlonekZarzadu1_Imie">Bożena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Oliwia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Krawczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">00221474208</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wójcik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Rubin Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="Adres siedziby">Andriollego 168, 05-400 Otwock</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000055395</field>
@@ -2403,13 +2403,13 @@
     <field name="REGON">280181332</field>
     <field name="Data zezwolenia">2017/07/02</field>
     <field name="Numer decyzji">DFI/797/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">79050716498</field>
-    <field name="CzlonekZarzadu1_Imie">Filip</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Woźniak</field>
+    <field name="CzlonekZarzadu1_PESEL">88061444205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Szafir sp. z o.o.</field>
+    <field name="Firma lub nazwa">Kreatywny Uran sp. z o.o.</field>
     <field name="Adres siedziby">ul. Żeromskiego 5/57, 26-600 Radom</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000055492</field>
@@ -2417,13 +2417,13 @@
     <field name="REGON">280260528</field>
     <field name="Data zezwolenia">24-01-2022</field>
     <field name="Numer decyzji">DFI/639/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">80061417845</field>
-    <field name="CzlonekZarzadu1_Imie">Zuzanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Emilia</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jankowska</field>
+    <field name="CzlonekZarzadu1_PESEL">76101414200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Tytan sp z oo</field>
+    <field name="Firma lub nazwa">Aktywny Barycz sp z oo</field>
     <field name="Adres siedziby">ul Tumska 22, 09-402 Płock</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000055589</field>
@@ -2431,13 +2431,13 @@
     <field name="REGON">280339715</field>
     <field name="Data zezwolenia">2022-19-10</field>
     <field name="Numer decyzji">DFI/692/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">81072119232</field>
-    <field name="CzlonekZarzadu1_Imie">Mikołaj</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Ignacy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Grabowski</field>
+    <field name="CzlonekZarzadu1_PESEL">64021484207</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lis</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Uran sp. z o. o.</field>
+    <field name="Firma lub nazwa">Jasny Topaz sp. z o. o.</field>
     <field name="Adres siedziby">ulica Karmelicka 39, 31-128 Kraków</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000055686</field>
@@ -2445,13 +2445,13 @@
     <field name="REGON">280418900</field>
     <field name="Data zezwolenia">20190215</field>
     <field name="Numer decyzji">DFI/575/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">82082820585</field>
-    <field name="CzlonekZarzadu1_Imie">Lena</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
+    <field name="CzlonekZarzadu1_PESEL">98061454207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawłowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Wektor Sp. z o.o.</field>
+    <field name="Firma lub nazwa">Green Krokus Sp. z o.o.</field>
     <field name="Adres siedziby">os. Na Stoku 56, 31-704 Kraków</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000055783</field>
@@ -2459,13 +2459,13 @@
     <field name="REGON">280498098</field>
     <field name="Data zezwolenia">29/06/2023</field>
     <field name="Numer decyzji">DFI/293/2019</field>
-    <field name="CzlonekZarzadu1_PESEL">83090721978</field>
-    <field name="CzlonekZarzadu1_Imie">Antoni</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Leon</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Michalski</field>
+    <field name="CzlonekZarzadu1_PESEL">86101424202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czerwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Zefir SP Z O O</field>
+    <field name="Firma lub nazwa">Blue Karpaty SP Z O O</field>
     <field name="Adres siedziby">ul. Krupówki 73/19, 34-500 Zakopane</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000055880</field>
@@ -2473,13 +2473,13 @@
     <field name="REGON">280577283</field>
     <field name="Data zezwolenia">2023/25/06</field>
     <field name="Numer decyzji">DFI/236/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">84101423320</field>
-    <field name="CzlonekZarzadu1_Imie">Hanna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Dominika</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Król</field>
+    <field name="CzlonekZarzadu1_PESEL">74021494209</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Andrzejewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">90, 34-600 Mordarka</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000055977</field>
@@ -2487,13 +2487,13 @@
     <field name="REGON">280656479</field>
     <field name="Data zezwolenia">02-11-2022</field>
     <field name="Numer decyzji">DFI/556/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">85112124716</field>
-    <field name="CzlonekZarzadu1_Imie">Franciszek</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wieczorek</field>
+    <field name="CzlonekZarzadu1_PESEL">62061464201</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kucharska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ulica Galicyjska 107, 32-087 Zielonki</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000056074</field>
@@ -2501,13 +2501,13 @@
     <field name="REGON">280735664</field>
     <field name="Data zezwolenia">2020-29-10</field>
     <field name="Numer decyzji">DFI/905/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">86122826067</field>
-    <field name="CzlonekZarzadu1_Imie">Amelia</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jagoda</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Jabłońska</field>
+    <field name="CzlonekZarzadu1_PESEL">96101434204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Orzeł S.A.</field>
+    <field name="Firma lub nazwa">Smart Tytan S.A.</field>
     <field name="Adres siedziby">124, 32-003 Podłęże</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000056171</field>
@@ -2515,13 +2515,13 @@
     <field name="REGON">290814887</field>
     <field name="Data zezwolenia">20201005</field>
     <field name="Numer decyzji">DFI/797/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">87010727455</field>
-    <field name="CzlonekZarzadu1_Imie">Nikodem</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jerzy</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Witkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">84021404201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Śliwińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">PPHU Zielony Kormoran</field>
+    <field name="Firma lub nazwa">PPHU Fast Kormoran</field>
     <field name="Adres siedziby">os. Wałowa 141/71, 33-100 Tarnów</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000056268</field>
@@ -2529,13 +2529,13 @@
     <field name="REGON">280894049</field>
     <field name="Data zezwolenia">24/04/2020</field>
     <field name="Numer decyzji">DFI/831/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">88021428803</field>
-    <field name="CzlonekZarzadu1_Imie">Martyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Walczak</field>
+    <field name="CzlonekZarzadu1_PESEL">72061474203</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kowalczyk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Barycz S. A.</field>
+    <field name="Firma lub nazwa">Safe Szmaragd S. A.</field>
     <field name="Adres siedziby">ul Narutowicza 158, 90-135 Łódź</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000056365</field>
@@ -2543,13 +2543,13 @@
     <field name="REGON">280973234</field>
     <field name="Data zezwolenia">2019/15/04</field>
     <field name="Numer decyzji">DFI/735/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">89032130194</field>
-    <field name="CzlonekZarzadu1_Imie">Miłosz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marian</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Stępień</field>
+    <field name="CzlonekZarzadu1_PESEL">60101444208</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Grabowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Noteć Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Best Zorza Spółka Akcyjna</field>
     <field name="Adres siedziby">ulica os. Retkinia 175, 94-004 Łódź</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000056462</field>
@@ -2557,13 +2557,13 @@
     <field name="REGON">281052424</field>
     <field name="Data zezwolenia">15-06-2025</field>
     <field name="Numer decyzji">DFI/687/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">90042831542</field>
-    <field name="CzlonekZarzadu1_Imie">Agata</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Irena</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Baran</field>
+    <field name="CzlonekZarzadu1_PESEL">94021414203</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Rutkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Pilica sp. z o.o.</field>
+    <field name="Firma lub nazwa">Global Bieszczady sp. z o.o.</field>
     <field name="Adres siedziby">Zamkowa 12, 95-200</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000056559</field>
@@ -2571,13 +2571,13 @@
     <field name="REGON">291131647</field>
     <field name="Data zezwolenia">2024-30-07</field>
     <field name="Numer decyzji">DFI/823/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">91050732935</field>
-    <field name="CzlonekZarzadu1_Imie">Tadeusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Rutkowski</field>
+    <field name="CzlonekZarzadu1_PESEL">82061484205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Narew sp z oo</field>
+    <field name="Firma lub nazwa">Future Delfin sp z oo</field>
     <field name="Adres siedziby">ul. Długa 29/33, 95-100 Zgierz</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000056656</field>
@@ -2585,13 +2585,13 @@
     <field name="REGON">281210805</field>
     <field name="Data zezwolenia">20190321</field>
     <field name="Numer decyzji">DFI/400/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">92061434285</field>
-    <field name="CzlonekZarzadu1_Imie">Helena</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Izabela</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
+    <field name="CzlonekZarzadu1_PESEL">70101454200</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Nowicka</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Jodełka sp. z o. o.</field>
+    <field name="Firma lub nazwa">Wielkopolski Koral sp. z o. o.</field>
     <field name="Adres siedziby">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000056753</field>
@@ -2599,13 +2599,13 @@
     <field name="REGON">281289994</field>
     <field name="Data zezwolenia">01/01/2018</field>
     <field name="Numer decyzji">DFI/448/2020</field>
-    <field name="CzlonekZarzadu1_PESEL">93072135671</field>
-    <field name="CzlonekZarzadu1_Imie">Stefan</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Mirosław</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sikora</field>
+    <field name="CzlonekZarzadu1_PESEL">04221424201</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kubiak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Kaktus Sp. z o.o.</field>
+    <field name="Firma lub nazwa">Śląski Szafir Sp. z o.o.</field>
     <field name="Adres siedziby">ulica Jedności Narodowej 63, 50-260 Wrocław</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000056850</field>
@@ -2613,13 +2613,13 @@
     <field name="REGON">291369219</field>
     <field name="Data zezwolenia">2018/29/03</field>
     <field name="Numer decyzji">DFI/729/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">94082837021</field>
-    <field name="CzlonekZarzadu1_Imie">Jadwiga</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Ostrowska</field>
+    <field name="CzlonekZarzadu1_PESEL">92061494207</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Gajewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Szmaragd SP Z O O</field>
+    <field name="Firma lub nazwa">Mazowiecki Orzeł SP Z O O</field>
     <field name="Adres siedziby">Konstytucji 3 Maja 80, 58-540 Karpacz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000056947</field>
@@ -2627,13 +2627,13 @@
     <field name="REGON">281448375</field>
     <field name="Data zezwolenia">10-10-2017</field>
     <field name="Numer decyzji">DFI/533/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">95090738414</field>
-    <field name="CzlonekZarzadu1_Imie">Józef</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Piotr</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Tomaszewski</field>
+    <field name="CzlonekZarzadu1_PESEL">80101464202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Lisowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul. Odrodzenia 97/85, 59-300 Lubin</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000057044</field>
@@ -2641,13 +2641,13 @@
     <field name="REGON">281527560</field>
     <field name="Data zezwolenia">2021-04-05</field>
     <field name="Numer decyzji">DFI/978/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">96101439766</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Maria</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Zając</field>
+    <field name="CzlonekZarzadu1_PESEL">68021434200</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wrona</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">ul Słowackiego 114, 58-300 Wałbrzych</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000057141</field>
@@ -2655,13 +2655,13 @@
     <field name="REGON">281606756</field>
     <field name="Data zezwolenia">20241113</field>
     <field name="Numer decyzji">DFI/407/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">97112141156</field>
-    <field name="CzlonekZarzadu1_Imie">Edward</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Pietrzak</field>
+    <field name="CzlonekZarzadu1_PESEL">02261404205</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Czajkowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Marmur S.A.</field>
+    <field name="Firma lub nazwa">Karpacki Beskid S.A.</field>
     <field name="Adres siedziby">ulica Półwiejska 131, 61-888 Poznań</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">000005723</field>
@@ -2669,13 +2669,13 @@
     <field name="REGON">281685945</field>
     <field name="Data zezwolenia">08/10/2025</field>
     <field name="Numer decyzji">DFI/183/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">98122842505</field>
-    <field name="CzlonekZarzadu1_Imie">Sabina</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Joanna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Wójcicka</field>
+    <field name="CzlonekZarzadu1_PESEL">90101474204</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kamińska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Syrena SA</field>
+    <field name="Firma lub nazwa">Bałtycki Canyon SA</field>
     <field name="Adres siedziby">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000057335</field>
@@ -2683,13 +2683,13 @@
     <field name="REGON">281765130</field>
     <field name="Data zezwolenia">2025/09/03</field>
     <field name="Numer decyzji">DFI/154/2025</field>
-    <field name="CzlonekZarzadu1_PESEL">99010743894</field>
-    <field name="CzlonekZarzadu1_Imie">Arkadiusz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Paweł</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Czarnecki</field>
+    <field name="CzlonekZarzadu1_PESEL">78021444202</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Pawlak</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Zodiak S. A.</field>
+    <field name="Firma lub nazwa">Młody Jantar S. A.</field>
     <field name="Adres siedziby">ul. Główny Rynek 165/47, 62-800 Kalisz</field>
     <field name="Zakres czynności">doradztwo inwestycyjne</field>
     <field name="KRS">0000057432</field>
@@ -2697,13 +2697,13 @@
     <field name="REGON">281844326</field>
     <field name="Data zezwolenia">13-08-2021</field>
     <field name="Numer decyzji">DFI/493/2024</field>
-    <field name="CzlonekZarzadu1_PESEL">00221445248</field>
-    <field name="CzlonekZarzadu1_Imie">Anna</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Lis-Nowicka</field>
+    <field name="CzlonekZarzadu1_PESEL">66061414204</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Górska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Olimp Spółka Akcyjna</field>
+    <field name="Firma lub nazwa">Wspólny Rubin Spółka Akcyjna</field>
     <field name="Adres siedziby">ul Kaliska 2, 63-400 Ostrów Wielkopolski</field>
     <field name="Zakres czynności">wykonywanie zleceń na rachunek klientów</field>
     <field name="KRS">0000057529</field>
@@ -2711,13 +2711,13 @@
     <field name="REGON">281923511</field>
     <field name="Data zezwolenia">2022-21-07</field>
     <field name="Numer decyzji">DFI/504/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">01232146634</field>
-    <field name="CzlonekZarzadu1_Imie">Tomasz</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Robert</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kołodziej</field>
+    <field name="CzlonekZarzadu1_PESEL">00301484202</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Zorza sp. z o.o.</field>
+    <field name="Firma lub nazwa">Pierwszy Sokół sp. z o.o.</field>
     <field name="Adres siedziby">ulica Ogarna 19, 80-826 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000057626</field>
@@ -2725,13 +2725,13 @@
     <field name="REGON">282002701</field>
     <field name="Data zezwolenia">20250711</field>
     <field name="Numer decyzji">DFI/959/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">02242847984</field>
-    <field name="CzlonekZarzadu1_Imie">Katarzyna</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Agnieszka</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Kaczmarek</field>
+    <field name="CzlonekZarzadu1_PESEL">88021454204</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Sokołowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Krokus sp z oo</field>
+    <field name="Firma lub nazwa">Zielony Lotos sp z oo</field>
     <field name="Adres siedziby">os. Jasień 36, 80-180 Gdańsk</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000057723</field>
@@ -2739,13 +2739,13 @@
     <field name="REGON">282081899</field>
     <field name="Data zezwolenia">16/11/2022</field>
     <field name="Numer decyzji">DFI/231/2026</field>
-    <field name="CzlonekZarzadu1_PESEL">03250749378</field>
-    <field name="CzlonekZarzadu1_Imie">Krzysztof</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Piątek</field>
+    <field name="CzlonekZarzadu1_PESEL">76061424206</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wilk</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Narcyz sp. z o. o.</field>
+    <field name="Firma lub nazwa">Niebieski Tytan sp. z o. o.</field>
     <field name="Adres siedziby">ul. Bohaterów Monte Cassino 53/9, 81-759 Sopot</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000057820</field>
@@ -2753,13 +2753,13 @@
     <field name="REGON">282161084</field>
     <field name="Data zezwolenia">2022/12/07</field>
     <field name="Numer decyzji">DFI/781/2018</field>
-    <field name="CzlonekZarzadu1_PESEL">04261450729</field>
-    <field name="CzlonekZarzadu1_Imie">Ewa</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Justyna</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sadowska</field>
+    <field name="CzlonekZarzadu1_PESEL">64101494201</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Laskowska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Giewont Sp. z o.o.</field>
+    <field name="Firma lub nazwa">Złoty Kormoran Sp. z o.o.</field>
     <field name="Adres siedziby">70, 80-209 Chwaszczyno</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000057917</field>
@@ -2767,13 +2767,13 @@
     <field name="REGON">292240309</field>
     <field name="Data zezwolenia">21-07-2021</field>
     <field name="Numer decyzji">DFI/553/2021</field>
-    <field name="CzlonekZarzadu1_PESEL">05272152116</field>
-    <field name="CzlonekZarzadu1_Imie">Adam</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Jan</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Włodarczyk</field>
+    <field name="CzlonekZarzadu1_PESEL">98021464206</field>
+    <field name="CzlonekZarzadu1_Imie">Martyna</field>
+    <field name="CzlonekZarzadu1_DrugieImie"></field>
+    <field name="CzlonekZarzadu1_Nazwisko">Słowik</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Rysy SP Z O O</field>
+    <field name="Firma lub nazwa">Srebrny Szmaragd SP Z O O</field>
     <field name="Adres siedziby">ulica 3 Maja 87, 40-096 Katowice</field>
     <field name="Zakres czynności">przyjmowanie i przekazywanie zleceń</field>
     <field name="KRS">0000058014</field>
@@ -2781,13 +2781,13 @@
     <field name="REGON">282319467</field>
     <field name="Data zezwolenia">2019-29-09</field>
     <field name="Numer decyzji">DFI/841/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">60082853462</field>
-    <field name="CzlonekZarzadu1_Imie">Monika</field>
-    <field name="CzlonekZarzadu1_DrugieImie"></field>
-    <field name="CzlonekZarzadu1_Nazwisko">Borkowska</field>
+    <field name="CzlonekZarzadu1_PESEL">86061434208</field>
+    <field name="CzlonekZarzadu1_Imie">Zofia</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Kamila</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Wasilewska</field>
   </record>
   <record>
-    <field name="Firma lub nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma lub nazwa">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="Adres siedziby">os. Paderewskiego 104, 40-282 Katowice</field>
     <field name="Zakres czynności">zarządzanie portfelami</field>
     <field name="KRS">0000058111</field>
@@ -2795,9 +2795,9 @@
     <field name="REGON">282398656</field>
     <field name="Data zezwolenia">20180915</field>
     <field name="Numer decyzji">DFI/914/2017</field>
-    <field name="CzlonekZarzadu1_PESEL">61090754855</field>
-    <field name="CzlonekZarzadu1_Imie">Marek</field>
-    <field name="CzlonekZarzadu1_DrugieImie">Marcin</field>
-    <field name="CzlonekZarzadu1_Nazwisko">Sawicki</field>
+    <field name="CzlonekZarzadu1_PESEL">74101404203</field>
+    <field name="CzlonekZarzadu1_Imie">Barbara</field>
+    <field name="CzlonekZarzadu1_DrugieImie">Karolina</field>
+    <field name="CzlonekZarzadu1_Nazwisko">Biernat</field>
   </record>
 </dataset>

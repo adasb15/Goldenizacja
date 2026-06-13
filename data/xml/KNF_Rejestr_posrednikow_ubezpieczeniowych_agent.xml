@@ -10,10 +10,10 @@
     <field name="Ulica i numer">ul. Piłsudskiego 141/71</field>
     <field name="Kod pocztowy">35-074</field>
     <field name="Numer NIP">1266481469</field>
-    <field name="Imię">Anna</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Kowalska-Krawczyk</field>
-    <field name="PESEL">60021406849</field>
+    <field name="Imię">Zuzanna</field>
+    <field name="DrugieImię">Emilia</field>
+    <field name="Nazwisko">Kowalczyk-Pawlak</field>
+    <field name="PESEL">92061454847</field>
     <field name="Data wpisu">28/08/2025</field>
     <field name="Data zakończenia">2024/28/11</field>
   </record>
@@ -27,10 +27,10 @@
     <field name="Ulica i numer">ul Sienkiewicza 158</field>
     <field name="Kod pocztowy">25-007</field>
     <field name="Numer NIP">1266560654</field>
-    <field name="Imię">Tomasz</field>
-    <field name="DrugieImię">Robert</field>
-    <field name="Nazwisko">Nowacki</field>
-    <field name="PESEL">61032108236</field>
+    <field name="Imię">Mikołaj</field>
+    <field name="DrugieImię">Ignacy</field>
+    <field name="Nazwisko">Kamiński</field>
+    <field name="PESEL">93072156234</field>
     <field name="Data wpisu">2016/06/11</field>
     <field name="Data zakończenia">24-10-2020</field>
   </record>
@@ -44,10 +44,10 @@
     <field name="Ulica i numer">ulica Warszawska 175</field>
     <field name="Kod pocztowy">25-512</field>
     <field name="Numer NIP">1266639841</field>
-    <field name="Imię">Katarzyna</field>
-    <field name="DrugieImię">Agnieszka</field>
-    <field name="Nazwisko">Wiśniewska</field>
-    <field name="PESEL">62042809586</field>
+    <field name="Imię">Lena</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Lewandowska</field>
+    <field name="PESEL">94082857584</field>
     <field name="Data wpisu">01-09-2019</field>
     <field name="Data zakończenia">2021-03-11</field>
   </record>
@@ -61,10 +61,10 @@
     <field name="Ulica i numer">Kościuszki 12</field>
     <field name="Kod pocztowy">10-504</field>
     <field name="Numer NIP">1266719037</field>
-    <field name="Imię">Krzysztof</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Wójcik</field>
-    <field name="PESEL">63050710972</field>
+    <field name="Imię">Antoni</field>
+    <field name="DrugieImię">Leon</field>
+    <field name="Nazwisko">Zieliński</field>
+    <field name="PESEL">95090758977</field>
     <field name="Data wpisu">2016-27-04</field>
     <field name="Data zakończenia">20250721</field>
   </record>
@@ -78,10 +78,10 @@
     <field name="Ulica i numer">ul. Dąbrowszczaków 29/33</field>
     <field name="Kod pocztowy">10-540</field>
     <field name="Numer NIP">1266798226</field>
-    <field name="Imię">Ewa</field>
-    <field name="DrugieImię">Justyna</field>
-    <field name="Nazwisko">Kowalczyk</field>
-    <field name="PESEL">64061412321</field>
+    <field name="Imię">Hanna</field>
+    <field name="DrugieImię">Dominika</field>
+    <field name="Nazwisko">Szymańska</field>
+    <field name="PESEL">96101460322</field>
     <field name="Data wpisu">20200116</field>
     <field name="Data zakończenia">26/12/2025</field>
   </record>
@@ -95,10 +95,10 @@
     <field name="Ulica i numer">ul Krakowska 46</field>
     <field name="Kod pocztowy">45-018</field>
     <field name="Numer NIP">1266877411</field>
-    <field name="Imię">Adam</field>
-    <field name="DrugieImię">Jan</field>
-    <field name="Nazwisko">Kamiński</field>
-    <field name="PESEL">65072113717</field>
+    <field name="Imię">Franciszek</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Dąbrowski</field>
+    <field name="PESEL">97112161718</field>
     <field name="Data wpisu">07/01/2024</field>
     <field name="Data zakończenia">2024/24/02</field>
   </record>
@@ -112,10 +112,10 @@
     <field name="Ulica i numer">os. Ozimska 63</field>
     <field name="Kod pocztowy">45-057</field>
     <field name="Numer NIP">1266956607</field>
-    <field name="Imię">Monika</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Lewandowska</field>
-    <field name="PESEL">66082815068</field>
+    <field name="Imię">Amelia</field>
+    <field name="DrugieImię">Jagoda</field>
+    <field name="Nazwisko">Mazur</field>
+    <field name="PESEL">98122863069</field>
     <field name="Data wpisu">2016/03/01</field>
     <field name="Data zakończenia">28-06-2025</field>
   </record>
@@ -129,10 +129,10 @@
     <field name="Ulica i numer">Bohaterów Westerplatte 80</field>
     <field name="Kod pocztowy">65-034</field>
     <field name="Numer NIP">1267035795</field>
-    <field name="Imię">Marek</field>
-    <field name="DrugieImię">Marci</field>
-    <field name="Nazwisko">Zieliński</field>
-    <field name="PESEL">67090716451</field>
+    <field name="Imię">Nikodem</field>
+    <field name="DrugieImię">Jerzy</field>
+    <field name="Nazwisko">Krawczyk</field>
+    <field name="PESEL">99010764457</field>
     <field name="Data wpisu">19-07-2016</field>
     <field name="Data zakończenia">2024-19-11</field>
   </record>
@@ -146,10 +146,10 @@
     <field name="Ulica i numer">ul. Kupiecka 97/85</field>
     <field name="Kod pocztowy">65-058</field>
     <field name="Numer NIP">1267114980</field>
-    <field name="Imię">Barbara</field>
-    <field name="DrugieImię">Karolina</field>
-    <field name="Nazwisko">Szymańska</field>
-    <field name="PESEL">68101417802</field>
+    <field name="Imię">Martyna</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Woźniak</field>
+    <field name="PESEL">00221465800</field>
     <field name="Data wpisu">2023-23-08</field>
     <field name="Data zakończenia">20150517</field>
   </record>
@@ -163,10 +163,10 @@
     <field name="Ulica i numer">ul Świętojańska 114</field>
     <field name="Kod pocztowy">81-372</field>
     <field name="Numer NIP">1277194207</field>
-    <field name="Imię">Rafał</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Dąbrowski</field>
-    <field name="PESEL">69112119190</field>
+    <field name="Imię">Miłosz</field>
+    <field name="DrugieImię">Marian</field>
+    <field name="Nazwisko">Jankowski</field>
+    <field name="PESEL">01232167198</field>
     <field name="Data wpisu">20231203</field>
     <field name="Data zakończenia">24/06/2016</field>
   </record>
@@ -180,10 +180,10 @@
     <field name="Ulica i numer">ulica 10 Lutego 131</field>
     <field name="Kod pocztowy">81-364</field>
     <field name="Numer NIP">1267273365</field>
-    <field name="Imię">Aleksandra</field>
-    <field name="DrugieImię">Małgorzata</field>
-    <field name="Nazwisko">Mazur</field>
-    <field name="PESEL">70122820541</field>
+    <field name="Imię">Agata</field>
+    <field name="DrugieImię">Irena</field>
+    <field name="Nazwisko">Grabowska</field>
+    <field name="PESEL">02242868547</field>
     <field name="Data wpisu">11/09/2020</field>
     <field name="Data zakończenia">2017/03/07</field>
   </record>
@@ -197,10 +197,10 @@
     <field name="Ulica i numer">Bolesława Prusa 148</field>
     <field name="Kod pocztowy">05-800</field>
     <field name="Numer NIP">1267352550</field>
-    <field name="Imię">Andrzej</field>
-    <field name="DrugieImię">Jakub</field>
-    <field name="Nazwisko">Krawczyk</field>
-    <field name="PESEL">71010721939</field>
+    <field name="Imię">Tadeusz</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Pawlak</field>
+    <field name="PESEL">03250769930</field>
     <field name="Data wpisu">2023/15/02</field>
     <field name="Data zakończenia">05-06-2024</field>
   </record>
@@ -214,10 +214,10 @@
     <field name="Ulica i numer">ul. Kościuszki 165/47</field>
     <field name="Kod pocztowy">05-500</field>
     <field name="Numer NIP">1267431746</field>
-    <field name="Imię">Marta</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Woźniak</field>
-    <field name="PESEL">72021423289</field>
+    <field name="Imię">Helena</field>
+    <field name="DrugieImię">Izabela</field>
+    <field name="Nazwisko">Michalska</field>
+    <field name="PESEL">04261471283</field>
     <field name="Data wpisu">30-08-2020</field>
     <field name="Data zakończenia">2025-14-09</field>
   </record>
@@ -231,10 +231,10 @@
     <field name="Ulica i numer">2</field>
     <field name="Kod pocztowy">32-020</field>
     <field name="Numer NIP">1267510931</field>
-    <field name="Imię">Łukasz</field>
-    <field name="DrugieImię">Artur</field>
-    <field name="Nazwisko">Jankowski</field>
-    <field name="PESEL">73032124675</field>
+    <field name="Imię">Stefan</field>
+    <field name="DrugieImię">Mirosław</field>
+    <field name="Nazwisko">Król</field>
+    <field name="PESEL">05272172679</field>
     <field name="Data wpisu">2024-20-05</field>
     <field name="Data zakończenia">20201024</field>
   </record>
@@ -248,10 +248,10 @@
     <field name="Ulica i numer">ulica Dąbrowskiego 19</field>
     <field name="Kod pocztowy">32-600</field>
     <field name="Numer NIP">1267590120</field>
-    <field name="Imię">Paulina</field>
-    <field name="DrugieImię">Iwona</field>
-    <field name="Nazwisko">Grabowska</field>
-    <field name="PESEL">74042826025</field>
+    <field name="Imię">Jadwiga</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Wieczorek</field>
+    <field name="PESEL">60082874025</field>
     <field name="Data wpisu">20161130</field>
     <field name="Data zakończenia">07/12/2024</field>
   </record>
@@ -265,27 +265,27 @@
     <field name="Ulica i numer">Rynek 36</field>
     <field name="Kod pocztowy">38-400</field>
     <field name="Numer NIP">1267669318</field>
-    <field name="Imię">Mateusz</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Pawlak</field>
-    <field name="PESEL">75050727418</field>
+    <field name="Imię">Józef</field>
+    <field name="DrugieImię">Piotr</field>
+    <field name="Nazwisko">Jabłoński</field>
+    <field name="PESEL">61090775418</field>
     <field name="Data wpisu">31/10/2021</field>
     <field name="Data zakończenia">2022/10/12</field>
   </record>
   <record>
-    <field name="Numer agenta">10000416/A/300416</field>
+    <field name="Numer agenta"></field>
     <field name="Firma/Nazwa">Kozłowski i Synowie S. A.</field>
     <field name="Zakład ubezpieczeń"></field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000040360</field>
     <field name="Miejscowość">Mielec</field>
-    <field name="Ulica i numer"></field>
+    <field name="Ulica i numer">ul. Mickiewicza 53/9</field>
     <field name="Kod pocztowy">39-300</field>
     <field name="Numer NIP">1267748503</field>
-    <field name="Imię">Elżbieta</field>
-    <field name="DrugieImię">Renata</field>
-    <field name="Nazwisko">Michalska</field>
-    <field name="PESEL">76061428767</field>
+    <field name="Imię">Monika</field>
+    <field name="DrugieImię">Maria</field>
+    <field name="Nazwisko">Witkowska</field>
+    <field name="PESEL">62101476760</field>
     <field name="Data wpisu"></field>
     <field name="Data zakończenia"></field>
   </record>
@@ -299,10 +299,10 @@
     <field name="Ulica i numer">ul Długa 70</field>
     <field name="Kod pocztowy">58-100</field>
     <field name="Numer NIP">1267827697</field>
-    <field name="Imię">Dawid</field>
-    <field name="DrugieImię">Maciej</field>
-    <field name="Nazwisko">Król</field>
-    <field name="PESEL">77072130157</field>
+    <field name="Imię">Edward</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Walczak</field>
+    <field name="PESEL">63112178157</field>
     <field name="Data wpisu">22-01-2019</field>
     <field name="Data zakończenia">2023-18-11</field>
   </record>
@@ -316,10 +316,10 @@
     <field name="Ulica i numer">ulica Wojska Polskiego 87</field>
     <field name="Kod pocztowy">57-300</field>
     <field name="Numer NIP">1267906882</field>
-    <field name="Imię">Dorota</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Wieczorek</field>
-    <field name="PESEL">78082831506</field>
+    <field name="Imię">Sabina</field>
+    <field name="DrugieImię">Joanna</field>
+    <field name="Nazwisko">Stępień</field>
+    <field name="PESEL">64122879506</field>
     <field name="Data wpisu">2022-07-03</field>
     <field name="Data zakończenia">20230817</field>
   </record>
@@ -333,10 +333,10 @@
     <field name="Ulica i numer">Chrobrego 104</field>
     <field name="Kod pocztowy"></field>
     <field name="Numer NIP">1267986071</field>
-    <field name="Imię">Dariusz</field>
-    <field name="DrugieImię">Zbigniew</field>
-    <field name="Nazwisko">Jabłoński</field>
-    <field name="PESEL">79090732890</field>
+    <field name="Imię">Arkadiusz</field>
+    <field name="DrugieImię">Paweł</field>
+    <field name="Nazwisko">Baran</field>
+    <field name="PESEL">65010780898</field>
     <field name="Data wpisu">20200322</field>
     <field name="Data zakończenia">10/04/2026</field>
   </record>
@@ -350,10 +350,10 @@
     <field name="Ulica i numer">ul. Słowiańska 121/61</field>
     <field name="Kod pocztowy">64-100</field>
     <field name="Numer NIP">1268065261</field>
-    <field name="Imię">Beata</field>
-    <field name="DrugieImię">Patrycja</field>
-    <field name="Nazwisko">Witkowska</field>
-    <field name="PESEL">80101434241</field>
+    <field name="Imię">Anna</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Rutkowska</field>
+    <field name="PESEL">66021482247</field>
     <field name="Data wpisu">05/03/2022</field>
     <field name="Data zakończenia">2015/17/05</field>
   </record>
@@ -367,10 +367,10 @@
     <field name="Ulica i numer">ul Gdańska 138</field>
     <field name="Kod pocztowy">83-110</field>
     <field name="Numer NIP">1268144457</field>
-    <field name="Imię">Sławomir</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Walczak</field>
-    <field name="PESEL">81112135637</field>
+    <field name="Imię">Tomasz</field>
+    <field name="DrugieImię">Robert</field>
+    <field name="Nazwisko">Górski</field>
+    <field name="PESEL">67032183633</field>
     <field name="Data wpisu">2021/23/09</field>
     <field name="Data zakończenia">24-06-2016</field>
   </record>
@@ -384,10 +384,10 @@
     <field name="Ulica i numer">ulica Sobieskiego 155</field>
     <field name="Kod pocztowy">84-200</field>
     <field name="Numer NIP">1268223642</field>
-    <field name="Imię">Urszula</field>
-    <field name="DrugieImię">Wiktoria</field>
-    <field name="Nazwisko">Stępień</field>
-    <field name="PESEL">82122836987</field>
+    <field name="Imię">Katarzyna</field>
+    <field name="DrugieImię">Agnieszka</field>
+    <field name="Nazwisko">Sikora</field>
+    <field name="PESEL">68042884983</field>
     <field name="Data wpisu">08-02-2017</field>
     <field name="Data zakończenia">2017-03-07</field>
   </record>
@@ -401,10 +401,10 @@
     <field name="Ulica i numer">Głęboka 172</field>
     <field name="Kod pocztowy">43-400</field>
     <field name="Numer NIP">1268302838</field>
-    <field name="Imię">Mariusz</field>
-    <field name="DrugieImię">Jacek</field>
-    <field name="Nazwisko">Baran</field>
-    <field name="PESEL">83010738376</field>
+    <field name="Imię">Krzysztof</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Ostrowski</field>
+    <field name="PESEL">69050786377</field>
     <field name="Data wpisu">2020-17-12</field>
     <field name="Data zakończenia">20260521</field>
   </record>
@@ -418,10 +418,10 @@
     <field name="Ulica i numer">ul. Małachowskiego 9/23</field>
     <field name="Kod pocztowy">42-500</field>
     <field name="Numer NIP">1268382027</field>
-    <field name="Imię">Izabela</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Rutkowska</field>
-    <field name="PESEL">84021439724</field>
+    <field name="Imię">Ewa</field>
+    <field name="DrugieImię">Justyna</field>
+    <field name="Nazwisko">Tomaszewska</field>
+    <field name="PESEL">70061487724</field>
     <field name="Data wpisu">20160815</field>
     <field name="Data zakończenia">14/09/2024</field>
   </record>
@@ -435,10 +435,10 @@
     <field name="Ulica i numer">ul Królowej Jadwigi 26</field>
     <field name="Kod pocztowy">88-100</field>
     <field name="Numer NIP">1268461212</field>
-    <field name="Imię">Henryk</field>
-    <field name="DrugieImię">Przemysław</field>
-    <field name="Nazwisko">Górski</field>
-    <field name="PESEL">85032141114</field>
+    <field name="Imię">Adam</field>
+    <field name="DrugieImię">Jan</field>
+    <field name="Nazwisko">Zając</field>
+    <field name="PESEL">71072189111</field>
     <field name="Data wpisu">21/04/2021</field>
     <field name="Data zakończenia">2023/25/09</field>
   </record>
@@ -452,10 +452,10 @@
     <field name="Ulica i numer">ulica Wybickiego 43</field>
     <field name="Kod pocztowy">86-300</field>
     <field name="Numer NIP">1268540408</field>
-    <field name="Imię">Weronika</field>
-    <field name="DrugieImię">Kinga</field>
-    <field name="Nazwisko">Sikora</field>
-    <field name="PESEL">86042842464</field>
+    <field name="Imię">Monika</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Pietrzak</field>
+    <field name="PESEL">72082890464</field>
     <field name="Data wpisu">2023/19/04</field>
     <field name="Data zakończenia">03-11-2021</field>
   </record>
@@ -469,10 +469,10 @@
     <field name="Ulica i numer">60</field>
     <field name="Kod pocztowy">14-100</field>
     <field name="Numer NIP">1268619593</field>
-    <field name="Imię">Stanisław</field>
-    <field name="DrugieImię"></field>
-    <field name="Nazwisko">Ostrowski</field>
-    <field name="PESEL">87050743857</field>
+    <field name="Imię">Marek</field>
+    <field name="DrugieImię">Marcin</field>
+    <field name="Nazwisko">Wójcicki</field>
+    <field name="PESEL">73090791857</field>
     <field name="Data wpisu">01-02-2015</field>
     <field name="Data zakończenia">2023-12-09</field>
   </record>
@@ -486,10 +486,10 @@
     <field name="Ulica i numer">ul. Warszawska 77/75</field>
     <field name="Kod pocztowy">11-500</field>
     <field name="Numer NIP">1268698782</field>
-    <field name="Imię">Zofia</field>
-    <field name="DrugieImię">Kamila</field>
-    <field name="Nazwisko">Tomaszewska</field>
-    <field name="PESEL">88061445206</field>
+    <field name="Imię">Barbara</field>
+    <field name="DrugieImię">Karolina</field>
+    <field name="Nazwisko">Czarnecka</field>
+    <field name="PESEL">74101493209</field>
     <field name="Data wpisu">2016-05-10</field>
     <field name="Data zakończenia">20230117</field>
   </record>
@@ -503,10 +503,10 @@
     <field name="Ulica i numer">ul Lubelska 94</field>
     <field name="Kod pocztowy">24-100</field>
     <field name="Numer NIP">1268777978</field>
-    <field name="Imię">Bartłomiej</field>
-    <field name="DrugieImię">Daniel</field>
-    <field name="Nazwisko">Zając</field>
-    <field name="PESEL">89072146593</field>
+    <field name="Imię">Rafał</field>
+    <field name="DrugieImię"></field>
+    <field name="Nazwisko">Lis</field>
+    <field name="PESEL">75112194596</field>
     <field name="Data wpisu">20170120</field>
     <field name="Data zakończenia">24/02/2024</field>
   </record>
@@ -972,11 +972,11 @@
   <record>
     <field name="Numer agenta">10000457/A/300457</field>
     <field name="Firma/Nazwa">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="Zakład ubezpieczeń">UINQ T .A.</field>
+    <field name="Zakład ubezpieczeń">UIN  .A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000044337</field>
     <field name="Miejscowość">Łódź</field>
-    <field name="Ulica i numer">ul os. Retiknia 30</field>
+    <field name="Ulica i numer">ul os. Retkinia 30</field>
     <field name="Kod pocztowy">94-004</field>
     <field name="Numer NIP">1270995298</field>
     <field name="Imię">Cezary</field>
@@ -1022,7 +1022,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000460/A/300460</field>
-    <field name="Firma/Nazwa">P.P.H.U. ZLS</field>
+    <field name="Firma/Nazwa">P.P.H.U. ORR</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000044628</field>
@@ -1039,7 +1039,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000461/A/300461</field>
-    <field name="Firma/Nazwa">UZA Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">BDZ Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000044725</field>
@@ -1056,7 +1056,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000462/A/300462</field>
-    <field name="Firma/Nazwa">NKV sp. z o.o.</field>
+    <field name="Firma/Nazwa">SYT sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000044822</field>
@@ -1073,7 +1073,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000463/A/300463</field>
-    <field name="Firma/Nazwa">SAI sp z oo</field>
+    <field name="Firma/Nazwa">FFB sp z oo</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000044919</field>
@@ -1090,7 +1090,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000464/A/300464</field>
-    <field name="Firma/Nazwa">EFT sp. z o. o.</field>
+    <field name="Firma/Nazwa">HVB sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000045016</field>
@@ -1107,7 +1107,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000465/A/300465</field>
-    <field name="Firma/Nazwa">HMO Sp. z o.o.</field>
+    <field name="Firma/Nazwa">TTH Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000045113</field>
@@ -1124,7 +1124,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000466/A/300466</field>
-    <field name="Firma/Nazwa">OYX SP Z O O</field>
+    <field name="Firma/Nazwa">IJD SP Z O O</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045210</field>
@@ -1141,7 +1141,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000467/A/300467</field>
-    <field name="Firma/Nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000045307</field>
@@ -1158,7 +1158,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000468/A/300468</field>
-    <field name="Firma/Nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045404</field>
@@ -1175,7 +1175,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000469/A/300469</field>
-    <field name="Firma/Nazwa">IIG S.A.</field>
+    <field name="Firma/Nazwa">HFT S.A.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045501</field>
@@ -1192,7 +1192,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000470/A/300470</field>
-    <field name="Firma/Nazwa">DUH SA</field>
+    <field name="Firma/Nazwa">TWY SA</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000045598</field>
@@ -1209,7 +1209,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000471/A/300471</field>
-    <field name="Firma/Nazwa">WJJ S. A.</field>
+    <field name="Firma/Nazwa">KSB S. A.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045695</field>
@@ -1226,7 +1226,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000472/A/300472</field>
-    <field name="Firma/Nazwa">SNP Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">TEZ Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045792</field>
@@ -1243,7 +1243,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000473/A/300473</field>
-    <field name="Firma/Nazwa">VUK sp. z o.o.</field>
+    <field name="Firma/Nazwa">ATE sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000045889</field>
@@ -1260,7 +1260,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000474/A/300474</field>
-    <field name="Firma/Nazwa">YBL sp z oo</field>
+    <field name="Firma/Nazwa">OBK sp z oo</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000045986</field>
@@ -1277,7 +1277,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000475/A/300475</field>
-    <field name="Firma/Nazwa">ZVK sp. z o. o.</field>
+    <field name="Firma/Nazwa">FWF sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000046083</field>
@@ -1294,7 +1294,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000476/A/300476</field>
-    <field name="Firma/Nazwa">GCG Sp. z o.o.</field>
+    <field name="Firma/Nazwa">EPD Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000046180</field>
@@ -1311,7 +1311,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000477/A/300477</field>
-    <field name="Firma/Nazwa">LVO SP Z O O</field>
+    <field name="Firma/Nazwa">KVZ SP Z O O</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000046277</field>
@@ -1328,7 +1328,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000478/A/300478</field>
-    <field name="Firma/Nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000046374</field>
@@ -1345,7 +1345,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000479/A/300479</field>
-    <field name="Firma/Nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000046471</field>
@@ -1379,7 +1379,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000481/A/300481</field>
-    <field name="Firma/Nazwa">NKM SA</field>
+    <field name="Firma/Nazwa">QOQ SA</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000046665</field>
@@ -1396,7 +1396,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000482/A/300482</field>
-    <field name="Firma/Nazwa">JSF S. A.</field>
+    <field name="Firma/Nazwa">GVM S. A.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000046762</field>
@@ -1413,7 +1413,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000483/A/300483</field>
-    <field name="Firma/Nazwa">YSY Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">EXN Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000046859</field>
@@ -1430,7 +1430,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000484/A/300484</field>
-    <field name="Firma/Nazwa">AKX sp. z o.o.</field>
+    <field name="Firma/Nazwa">ZEH sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000046956</field>
@@ -1447,7 +1447,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000485/A/300485</field>
-    <field name="Firma/Nazwa">NCK sp z oo</field>
+    <field name="Firma/Nazwa">BZB sp z oo</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047053</field>
@@ -1464,7 +1464,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000486/A/300486</field>
-    <field name="Firma/Nazwa">RRG sp. z o. o.</field>
+    <field name="Firma/Nazwa">ZQQ sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047150</field>
@@ -1481,7 +1481,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000487/A/300487</field>
-    <field name="Firma/Nazwa">PFD Sp. z o.o.</field>
+    <field name="Firma/Nazwa">DQZ Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047247</field>
@@ -1498,7 +1498,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000488/A/300488</field>
-    <field name="Firma/Nazwa">JJS SP Z O O</field>
+    <field name="Firma/Nazwa">ASW SP Z O O</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000047344</field>
@@ -1515,7 +1515,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000489/A/300489</field>
-    <field name="Firma/Nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047441</field>
@@ -1532,7 +1532,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000490/A/300490</field>
-    <field name="Firma/Nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047538</field>
@@ -1549,7 +1549,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000491/A/300491</field>
-    <field name="Firma/Nazwa">BGD S.A.</field>
+    <field name="Firma/Nazwa">JII S.A.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000047635</field>
@@ -1566,7 +1566,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000492/A/300492</field>
-    <field name="Firma/Nazwa">GBS SA</field>
+    <field name="Firma/Nazwa">UYY SA</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047732</field>
@@ -1583,7 +1583,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000493/A/300493</field>
-    <field name="Firma/Nazwa">YIC S. A.</field>
+    <field name="Firma/Nazwa">GGK S. A.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000047829</field>
@@ -1600,7 +1600,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000494/A/300494</field>
-    <field name="Firma/Nazwa">OKT Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">YAS Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000047926</field>
@@ -1617,7 +1617,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000495/A/300495</field>
-    <field name="Firma/Nazwa">QPU sp. z o.o.</field>
+    <field name="Firma/Nazwa">UQU sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000048023</field>
@@ -1634,7 +1634,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000496/A/300496</field>
-    <field name="Firma/Nazwa">IEU sp z oo</field>
+    <field name="Firma/Nazwa">MUV sp z oo</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000048120</field>
@@ -1651,7 +1651,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000497/A/300497</field>
-    <field name="Firma/Nazwa">PAZ sp. z o. o.</field>
+    <field name="Firma/Nazwa">HAY sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000048217</field>
@@ -1668,7 +1668,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000498/A/300498</field>
-    <field name="Firma/Nazwa">ZAB Sp. z o.o.</field>
+    <field name="Firma/Nazwa">CCZ Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000048314</field>
@@ -1685,7 +1685,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000499/A/300499</field>
-    <field name="Firma/Nazwa">SBZ SP Z O O</field>
+    <field name="Firma/Nazwa">WUF SP Z O O</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000048411</field>
@@ -1825,8 +1825,8 @@
     <field name="Zakład ubezpieczeń">EROG HETSAI S.A.</field>
     <field name="Rodzaj agenta">przedsiębiocra</field>
     <field name="Numer KRS">0000049187</field>
-    <field name="Miejscowość">Wrocałw</field>
-    <field name="Ulica i numer">Legnicka 160</field>
+    <field name="Miejscowość">Wrocław</field>
+    <field name="Ulica i numer">eLgnicka 160</field>
     <field name="Kod pocztowy">54-203</field>
     <field name="Numer NIP">1274954793</field>
     <field name="Imię">Stanisław</field>
@@ -2534,8 +2534,8 @@
     <field name="Data zakończenia">20250206</field>
   </record>
   <record>
-    <field name="Numer agenta">10000549/A/300549</field>
-    <field name="Firma/Nazwa"></field>
+    <field name="Numer agenta"></field>
+    <field name="Firma/Nazwa">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń"></field>
     <field name="Rodzaj agenta"></field>
     <field name="Numer KRS">0000053261</field>
@@ -2654,7 +2654,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000556/A/300556</field>
-    <field name="Firma/Nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000053940</field>
@@ -2671,7 +2671,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000557/A/300557</field>
-    <field name="Firma/Nazwa">Zielony Canyon S.A.</field>
+    <field name="Firma/Nazwa">Złoty Oaza S.A.</field>
     <field name="Zakład ubezpieczeń">ER  ..</field>
     <field name="Rodzaj agenta">przedsięboirca</field>
     <field name="Numer KRS">0000054037</field>
@@ -2679,8 +2679,8 @@
     <field name="Ulica i numer">ul Kościuszki 110</field>
     <field name="Kod pocztowy">16-400</field>
     <field name="Numer NIP">1278914299</field>
-    <field name="Imię">Dwaid</field>
-    <field name="DrugieImię">Maciej</field>
+    <field name="Imię">Dawid</field>
+    <field name="DrugieImię">Macie</field>
     <field name="Nazwisko">Cieślak</field>
     <field name="PESEL">65072169954</field>
     <field name="Data wpisu">14-12-2015</field>
@@ -2688,7 +2688,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000558/A/300558</field>
-    <field name="Firma/Nazwa">Zielony Delfin SA</field>
+    <field name="Firma/Nazwa">Srebrny Zefir SA</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000054134</field>
@@ -2705,7 +2705,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000559/A/300559</field>
-    <field name="Firma/Nazwa">Zielony Echo S. A.</field>
+    <field name="Firma/Nazwa">Czysty Pilica S. A.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000054231</field>
@@ -2739,7 +2739,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000561/A/300561</field>
-    <field name="Firma/Nazwa">Zielony Gryf sp. z o.o.</field>
+    <field name="Firma/Nazwa">Pewny Giewont sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000054425</field>
@@ -2756,7 +2756,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000562/A/300562</field>
-    <field name="Firma/Nazwa">Zielony Horyzont sp z oo</field>
+    <field name="Firma/Nazwa">Dobry Sudety sp z oo</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000054522</field>
@@ -2773,7 +2773,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000563/A/300563</field>
-    <field name="Firma/Nazwa">Zielony Ikar sp. z o. o.</field>
+    <field name="Firma/Nazwa">Polski Gryf sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000054619</field>
@@ -2790,7 +2790,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000564/A/300564</field>
-    <field name="Firma/Nazwa">Zielony Jantar Sp. z o.o.</field>
+    <field name="Firma/Nazwa">Europejski Neon Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000054716</field>
@@ -2807,7 +2807,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000565/A/300565</field>
-    <field name="Firma/Nazwa">Zielony Koral SP Z O O</field>
+    <field name="Firma/Nazwa">Globalny Wektor SP Z O O</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000054813</field>
@@ -2824,7 +2824,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000566/A/300566</field>
-    <field name="Firma/Nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000054910</field>
@@ -2841,7 +2841,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000567/A/300567</field>
-    <field name="Firma/Nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055007</field>
@@ -2858,7 +2858,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000568/A/300568</field>
-    <field name="Firma/Nazwa">Zielony Neon S.A.</field>
+    <field name="Firma/Nazwa">Tradycyjny Narcyz S.A.</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055104</field>
@@ -2875,7 +2875,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000569/A/300569</field>
-    <field name="Firma/Nazwa">Zielony Oaza SA</field>
+    <field name="Firma/Nazwa">Dynamiczny Bałtyk SA</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000055201</field>
@@ -2892,7 +2892,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000570/A/300570</field>
-    <field name="Firma/Nazwa">Zielony Pegaz S. A.</field>
+    <field name="Firma/Nazwa">Stabilny Falcon S. A.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055298</field>
@@ -2909,7 +2909,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000571/A/300571</field>
-    <field name="Firma/Nazwa">Zielony Rubin Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055395</field>
@@ -2926,7 +2926,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000572/A/300572</field>
-    <field name="Firma/Nazwa">Zielony Szafir sp. z o.o.</field>
+    <field name="Firma/Nazwa">Kreatywny Uran sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055492</field>
@@ -2943,7 +2943,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000573/A/300573</field>
-    <field name="Firma/Nazwa">Zielony Tytan sp z oo</field>
+    <field name="Firma/Nazwa">Aktywny Barycz sp z oo</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000055589</field>
@@ -2960,7 +2960,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000574/A/300574</field>
-    <field name="Firma/Nazwa">Zielony Uran sp. z o. o.</field>
+    <field name="Firma/Nazwa">Jasny Topaz sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000055686</field>
@@ -2977,7 +2977,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000575/A/300575</field>
-    <field name="Firma/Nazwa">Zielony Wektor Sp. z o.o.</field>
+    <field name="Firma/Nazwa">Green Krokus Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000055783</field>
@@ -2994,7 +2994,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000576/A/300576</field>
-    <field name="Firma/Nazwa">Zielony Zefir SP Z O O</field>
+    <field name="Firma/Nazwa">Blue Karpaty SP Z O O</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000055880</field>
@@ -3011,7 +3011,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000577/A/300577</field>
-    <field name="Firma/Nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000055977</field>
@@ -3028,7 +3028,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000578/A/300578</field>
-    <field name="Firma/Nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000056074</field>
@@ -3045,7 +3045,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000579/A/300579</field>
-    <field name="Firma/Nazwa">Zielony Orzeł S.A.</field>
+    <field name="Firma/Nazwa">Smart Tytan S.A.</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000056171</field>
@@ -3062,7 +3062,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000580/A/300580</field>
-    <field name="Firma/Nazwa">PPHU Zielony Kormoran</field>
+    <field name="Firma/Nazwa">PPHU Fast Kormoran</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000056268</field>
@@ -3079,7 +3079,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000581/A/300581</field>
-    <field name="Firma/Nazwa">Zielony Barycz S. A.</field>
+    <field name="Firma/Nazwa">Safe Szmaragd S. A.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000056365</field>
@@ -3096,7 +3096,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000582/A/300582</field>
-    <field name="Firma/Nazwa">Zielony Noteć Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">Best Zorza Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000056462</field>
@@ -3113,7 +3113,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000583/A/300583</field>
-    <field name="Firma/Nazwa">Zielony Pilica sp. z o.o.</field>
+    <field name="Firma/Nazwa">Global Bieszczady sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000056559</field>
@@ -3130,7 +3130,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000584/A/300584</field>
-    <field name="Firma/Nazwa">Zielony Narew sp z oo</field>
+    <field name="Firma/Nazwa">Future Delfin sp z oo</field>
     <field name="Zakład ubezpieczeń">UNIQA TU S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000056656</field>
@@ -3147,7 +3147,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000585/A/300585</field>
-    <field name="Firma/Nazwa">Zielony Jodełka sp. z o. o.</field>
+    <field name="Firma/Nazwa">Wielkopolski Koral sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000056753</field>
@@ -3164,7 +3164,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000586/A/300586</field>
-    <field name="Firma/Nazwa">Zielony Kaktus Sp. z o.o.</field>
+    <field name="Firma/Nazwa">Śląski Szafir Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000056850</field>
@@ -3181,7 +3181,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000587/A/300587</field>
-    <field name="Firma/Nazwa">Zielony Szmaragd SP Z O O</field>
+    <field name="Firma/Nazwa">Mazowiecki Orzeł SP Z O O</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000056947</field>
@@ -3198,7 +3198,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000588/A/300588</field>
-    <field name="Firma/Nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057044</field>
@@ -3215,7 +3215,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000589/A/300589</field>
-    <field name="Firma/Nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000057141</field>
@@ -3232,7 +3232,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000590/A/300590</field>
-    <field name="Firma/Nazwa">Zielony Marmur S.A.</field>
+    <field name="Firma/Nazwa">Karpacki Beskid S.A.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000057238</field>
@@ -3249,7 +3249,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000591/A/300591</field>
-    <field name="Firma/Nazwa">Zielony Syrena SA</field>
+    <field name="Firma/Nazwa">Bałtycki Canyon SA</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057335</field>
@@ -3266,7 +3266,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000592/A/300592</field>
-    <field name="Firma/Nazwa">Zielony Zodiak S. A.</field>
+    <field name="Firma/Nazwa">Młody Jantar S. A.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000057432</field>
@@ -3283,7 +3283,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000593/A/300593</field>
-    <field name="Firma/Nazwa">Zielony Olimp Spółka Akcyjna</field>
+    <field name="Firma/Nazwa">Wspólny Rubin Spółka Akcyjna</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057529</field>
@@ -3300,7 +3300,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000594/A/300594</field>
-    <field name="Firma/Nazwa">Zielony Zorza sp. z o.o.</field>
+    <field name="Firma/Nazwa">Pierwszy Sokół sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000057626</field>
@@ -3317,7 +3317,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000595/A/300595</field>
-    <field name="Firma/Nazwa">Zielony Krokus sp z oo</field>
+    <field name="Firma/Nazwa">Zielony Lotos sp z oo</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057723</field>
@@ -3334,7 +3334,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000596/A/300596</field>
-    <field name="Firma/Nazwa">Zielony Narcyz sp. z o. o.</field>
+    <field name="Firma/Nazwa">Niebieski Tytan sp. z o. o.</field>
     <field name="Zakład ubezpieczeń">WARTA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057820</field>
@@ -3351,7 +3351,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000597/A/300597</field>
-    <field name="Firma/Nazwa">Zielony Giewont Sp. z o.o.</field>
+    <field name="Firma/Nazwa">Złoty Kormoran Sp. z o.o.</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000057917</field>
@@ -3368,7 +3368,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000598/A/300598</field>
-    <field name="Firma/Nazwa">Zielony Rysy SP Z O O</field>
+    <field name="Firma/Nazwa">Srebrny Szmaragd SP Z O O</field>
     <field name="Zakład ubezpieczeń">PZU SA</field>
     <field name="Rodzaj agenta">przedsiębiorca</field>
     <field name="Numer KRS">0000058014</field>
@@ -3385,7 +3385,7 @@
   </record>
   <record>
     <field name="Numer agenta">10000599/A/300599</field>
-    <field name="Firma/Nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="Firma/Nazwa">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="Zakład ubezpieczeń">ERGO HESTIA S.A.</field>
     <field name="Rodzaj agenta">osoba fizyczna</field>
     <field name="Numer KRS">0000058111</field>

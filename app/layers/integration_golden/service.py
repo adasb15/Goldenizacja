@@ -1238,21 +1238,57 @@ def ensure_golden_address_link(
     address_type = repo.get_address_type_by_name(address_type_name)
     if address_type is None:
         raise ValueError(f"Address type {address_type_name} not found in gold.DimAddressType.")
+    address_type_id = get_int_record_value(address_type, "AddressType_ID")
+    effective_from = address_link_effective_start_date(address_selections)
 
     existing_count_before = _count_repo_links(repo, entity_type)
 
     if entity_type == "PERSON":
-        address_link = repo.ensure_person_address_link(
+        active_links = repo.get_active_person_address_links(
             person_id=dimension_id,
-            address_id=address_id,
-            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+            address_type_id=address_type_id,
+        ) if hasattr(repo, "get_active_person_address_links") else []
+        matching_link = next(
+            (link for link in active_links if get_int_record_value(link, "Address_ID") == address_id),
+            None,
         )
+        if matching_link is not None:
+            if getattr(matching_link, "Valid_From", None) is None:
+                matching_link.Valid_From = effective_from
+            address_link = matching_link
+        else:
+            for link in active_links:
+                repo.close_person_address_link(link=link, valid_to=effective_from)
+            address_link = repo.ensure_person_address_link(
+                person_id=dimension_id,
+                address_id=address_id,
+                address_type_id=address_type_id,
+                valid_from=effective_from,
+                valid_to=None,
+            )
     else:
-        address_link = repo.ensure_party_address_link(
+        active_links = repo.get_active_party_address_links(
             party_id=dimension_id,
-            address_id=address_id,
-            address_type_id=get_int_record_value(address_type, "AddressType_ID"),
+            address_type_id=address_type_id,
+        ) if hasattr(repo, "get_active_party_address_links") else []
+        matching_link = next(
+            (link for link in active_links if get_int_record_value(link, "Address_ID") == address_id),
+            None,
         )
+        if matching_link is not None:
+            if getattr(matching_link, "Valid_From", None) is None:
+                matching_link.Valid_From = effective_from
+            address_link = matching_link
+        else:
+            for link in active_links:
+                repo.close_party_address_link(link=link, valid_to=effective_from)
+            address_link = repo.ensure_party_address_link(
+                party_id=dimension_id,
+                address_id=address_id,
+                address_type_id=address_type_id,
+                valid_from=effective_from,
+                valid_to=None,
+            )
     write_address_link_lineage(
         repo=repo,
         entity_type=entity_type,
@@ -1318,6 +1354,15 @@ def select_address_link_lineage_selection(
         if selection is not None and not is_blank(selection.value):
             return selection
     return None
+
+
+def address_link_effective_start_date(
+    address_selections: dict[str, SurvivorValueSelection],
+):
+    selection = select_address_link_lineage_selection(address_selections)
+    if selection is not None and selection.import_started_at is not None:
+        return selection.import_started_at.date()
+    return datetime.now().date()
 
 
 PARTY_IDENTITY_FIELD_MAP = {

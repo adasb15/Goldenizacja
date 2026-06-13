@@ -1,7 +1,7 @@
 """Dostep do danych dla warstwy integration_golden."""
 
 import json
-from datetime import datetime
+from datetime import date, datetime
 from typing import Any
 
 from sqlalchemy import and_, delete, func, or_, select
@@ -565,6 +565,31 @@ class IntegrationGoldenRepository:
         self.db.flush()
         return link
 
+    def get_active_person_address_links(
+        self,
+        *,
+        person_id: int,
+        address_type_id: int,
+    ) -> list[FactlessPersonAddress]:
+        query = (
+            select(FactlessPersonAddress)
+            .where(FactlessPersonAddress.Person_ID == person_id)
+            .where(FactlessPersonAddress.AddressType_ID == address_type_id)
+            .where(FactlessPersonAddress.Valid_To.is_(None))
+            .order_by(FactlessPersonAddress.PersonAddress_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def close_person_address_link(
+        self,
+        *,
+        link: FactlessPersonAddress,
+        valid_to: date,
+    ) -> FactlessPersonAddress:
+        link.Valid_To = valid_to
+        self.db.flush()
+        return link
+
     def ensure_party_address_link(
         self,
         *,
@@ -593,6 +618,31 @@ class IntegrationGoldenRepository:
             Valid_To=valid_to,
         )
         self.db.add(link)
+        self.db.flush()
+        return link
+
+    def get_active_party_address_links(
+        self,
+        *,
+        party_id: int,
+        address_type_id: int,
+    ) -> list[FactlessPartyAddress]:
+        query = (
+            select(FactlessPartyAddress)
+            .where(FactlessPartyAddress.Party_ID == party_id)
+            .where(FactlessPartyAddress.AddressType_ID == address_type_id)
+            .where(FactlessPartyAddress.Valid_To.is_(None))
+            .order_by(FactlessPartyAddress.PartyAddress_ID)
+        )
+        return list(self.db.scalars(query))
+
+    def close_party_address_link(
+        self,
+        *,
+        link: FactlessPartyAddress,
+        valid_to: date,
+    ) -> FactlessPartyAddress:
+        link.Valid_To = valid_to
         self.db.flush()
         return link
 

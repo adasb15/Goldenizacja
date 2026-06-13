@@ -31,7 +31,7 @@
   },
   {
     "LEI": "52990000000000020178",
-    "LegalName": "Bizon Marketing Sp. z o.o.",
+    "LegalName": "Oaza Marketing Sp. z o.o.",
     "FirstAddressLine": "ul Krupówki 178, 34-500 Zakopane",
     "City": "Gdańsk",
     "PostalCode": "34-500",
@@ -61,7 +61,7 @@
   },
   {
     "LEI": "52990000000000020275",
-    "LegalName": "Bizon Druk SP Z O O",
+    "LegalName": "Uran Druk SP Z O O",
     "FirstAddressLine": "15, 34-600 Mordarka",
     "City": "Białystok",
     "PostalCode": "34-600",
@@ -91,7 +91,7 @@
   },
   {
     "LEI": "52990000000000020372",
-    "LegalName": "Bizon Informatyka spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Orzeł Informatyka spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "os. Galicyjska 32, 32-087 Zielonki",
     "City": "Gdańsk",
     "PostalCode": "32-087",
@@ -121,7 +121,7 @@
   },
   {
     "LEI": "52990000000000020469",
-    "LegalName": "Bizon Oprogramowanie Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Narew Oprogramowanie Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "49/43, 32-003 Podłęże",
     "City": "Warszawa",
     "PostalCode": "32-003",
@@ -151,7 +151,7 @@
   },
   {
     "LEI": "52990000000000020566",
-    "LegalName": "Bizon Rolnictwo S.A.",
+    "LegalName": "Granit Rolnictwo S.A.",
     "FirstAddressLine": "ul Wałowa 66, 33-100 Tarnów",
     "City": "Toruń",
     "PostalCode": "33-100",
@@ -181,7 +181,7 @@
   },
   {
     "LEI": "52990000000000020663",
-    "LegalName": "Bizon Ogrodnictwo SA",
+    "LegalName": "Zorza Ogrodnictwo SA",
     "FirstAddressLine": "ulica Narutowicza 83, 90-135 Łódź",
     "City": "Olsztyn",
     "PostalCode": "90-135",
@@ -211,13 +211,13 @@
   },
   {
     "LEI": "52990000000000020760",
-    "LegalName": "Bizon Produkcja S. A.",
+    "LegalName": "Kasprowy Produkcja S. A.",
     "FirstAddressLine": "os. Retkinia 100, 94-004 Łódź",
     "City": "Katoiwce",
     "PostalCode": "94-004",
     "Country": "PL",
     "LegalJurisdiction": "PL",
-    "EntityLegalFormCode": "spółka akcyjna",
+    "EntityLegalFormCode": "spółka akcyjn",
     "RegistrationStatus": "AKTYWNY",
     "InitialRegistrationDate": "12/10/2018",
     "LastUpdateDate": "2018/08/06",
@@ -241,7 +241,7 @@
   },
   {
     "LEI": "52990000000000020857",
-    "LegalName": "Bizon Przemysł Spółka Akcyjna",
+    "LegalName": "Sudety Przemysł Spółka Akcyjna",
     "FirstAddressLine": "ul. Zamkowa 117/5, 95-200 Pabianice",
     "City": "Wrocław",
     "PostalCode": "95-200",
@@ -271,7 +271,7 @@
   },
   {
     "LEI": "52990000000000020954",
-    "LegalName": "Bizon Ekologia sp. z o.o.",
+    "LegalName": "Echo Ekologia sp. z o.o.",
     "FirstAddressLine": "ul Długa 134, 95-100 Zgierz",
     "City": "Bydgoszcz",
     "PostalCode": "95-100",
@@ -301,7 +301,7 @@
   },
   {
     "LEI": "52990000000000021051",
-    "LegalName": "Bizon Energetyka sp z oo",
+    "LegalName": "Jantar Energetyka sp z oo",
     "FirstAddressLine": "ulica Rynek 151, 50-101 Wrocław",
     "City": "Bydgoszcz",
     "PostalCode": "50-101",
@@ -331,7 +331,7 @@
   },
   {
     "LEI": "52990000000000021148",
-    "LegalName": "Bizon Instalacje sp. z o. o.",
+    "LegalName": "Oaza Instalacje sp. z o. o.",
     "FirstAddressLine": "Jedności Narodowej 168, 50-260 Wrocław",
     "City": "Lublin",
     "PostalCode": "50-260",
@@ -361,7 +361,7 @@
   },
   {
     "LEI": "52990000000000021245",
-    "LegalName": "Bizon Nieruchomości Sp. z o.o.",
+    "LegalName": "Uran Nieruchomości Sp. z o.o.",
     "FirstAddressLine": "ul. Konstytucji 3 Maja 5/57, 58-540 Karpacz",
     "City": "Kielce",
     "PostalCode": "58-540",
@@ -391,7 +391,7 @@
   },
   {
     "LEI": "52990000000000021342",
-    "LegalName": "Bizon Inwestycje SP Z O O",
+    "LegalName": "Orzeł Inwestycje SP Z O O",
     "FirstAddressLine": "ul Odrodzenia 22, 59-300 Lubin",
     "City": "Szczecin",
     "PostalCode": "59-300",
@@ -421,7 +421,7 @@
   },
   {
     "LEI": "52990000000000021439",
-    "LegalName": "Bizon Medycyna spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Narew Medycyna spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ulica Słowackiego 39, 58-300 Wałbrzych",
     "City": "Wrocław",
     "PostalCode": "58-300",
@@ -451,7 +451,7 @@
   },
   {
     "LEI": "52990000000000021536",
-    "LegalName": "Bizon Zdrowie Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Granit Zdrowie Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "Półwiejska 56, 61-888 Poznań",
     "City": "Opole",
     "PostalCode": "61-888",
@@ -481,7 +481,7 @@
   },
   {
     "LEI": "52990000000000021633",
-    "LegalName": "Bizon Urody S.A.",
+    "LegalName": "Zorza Urody S.A.",
     "FirstAddressLine": "ul. os. Bolesława Chrobrego 73/19, 60-681 Poznań",
     "City": "Białystok",
     "PostalCode": "60-681",
@@ -511,7 +511,7 @@
   },
   {
     "LEI": "52990000000000021730",
-    "LegalName": "Bizon Turystyka SA",
+    "LegalName": "Kasprowy Turystyka SA",
     "FirstAddressLine": "ul Główny Rynek 90, 62-800 Kalisz",
     "City": "Opole",
     "PostalCode": "62-800",
@@ -541,7 +541,7 @@
   },
   {
     "LEI": "52990000000000021827",
-    "LegalName": "Bizon Rozrywka S. A.",
+    "LegalName": "Sudety Rozrywka S. A.",
     "FirstAddressLine": "ulica Kaliska 107, 63-400 Ostrów Wielkopolski",
     "City": "Kielce",
     "PostalCode": "63-400",
@@ -571,7 +571,7 @@
   },
   {
     "LEI": "52990000000000021924",
-    "LegalName": "Bizon Gastronomia Spółka Akcyjna",
+    "LegalName": "Echo Gastronomia Spółka Akcyjna",
     "FirstAddressLine": "Ogarna 124, Gdańsk",
     "City": "Szczecin",
     "PostalCode": null,
@@ -601,7 +601,7 @@
   },
   {
     "LEI": "52990000000000022021",
-    "LegalName": "P.P.H.U. Bizon Moda",
+    "LegalName": "P.P.H.U. Jantar Moda",
     "FirstAddressLine": "ul. os. Jasień 141/71, 80-180 Gdańsk",
     "City": "Kielce",
     "PostalCode": "80-180",
@@ -631,7 +631,7 @@
   },
   {
     "LEI": "52990000000000022118",
-    "LegalName": "Bizon Tekstylia sp z oo",
+    "LegalName": "Oaza Tekstylia sp z oo",
     "FirstAddressLine": "ul Bohaterów Monte Cassino 158, 81-759 Sopot",
     "City": "Szczecin",
     "PostalCode": "81-759",
@@ -661,7 +661,7 @@
   },
   {
     "LEI": "52990000000000022215",
-    "LegalName": "Bizon Motoryzacja sp. z o. o.",
+    "LegalName": "Uran Motoryzacja sp. z o. o.",
     "FirstAddressLine": "175, 80-209 Chwaszczyno",
     "City": "Kraków",
     "PostalCode": "80-209",
@@ -691,7 +691,7 @@
   },
   {
     "LEI": "52990000000000022312",
-    "LegalName": "Bizon Ubezpieczenia Sp. z o.o.",
+    "LegalName": "Orzeł Ubezpieczenia Sp. z o.o.",
     "FirstAddressLine": "3 Maja 12, 40-096 Katowice",
     "City": "Kielce",
     "PostalCode": "40-096",
@@ -721,7 +721,7 @@
   },
   {
     "LEI": "52990000000000022409",
-    "LegalName": "Bizon Spawalnictwo SP Z O O",
+    "LegalName": "Narew Spawalnictwo SP Z O O",
     "FirstAddressLine": "ul. os. Paderewskiego 29/33, 40-282 Katowice",
     "City": "Łódź",
     "PostalCode": "40-282",
@@ -751,7 +751,7 @@
   },
   {
     "LEI": "52990000000000022506",
-    "LegalName": "Bizon Ślusarstwo spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Granit Ślusarstwo spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ul Zwycięstwa 46, 44-100 Gliwice",
     "City": "Toruń",
     "PostalCode": "44-100",
@@ -781,7 +781,7 @@
   },
   {
     "LEI": "52990000000000022603",
-    "LegalName": "Bizon Krawiectwo Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Zorza Krawiectwo Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ulica Bocheńskiego 63, 43-100 Tychy",
     "City": "Łódź",
     "PostalCode": "43-100",
@@ -811,7 +811,7 @@
   },
   {
     "LEI": "52990000000000022797",
-    "LegalName": "Bizon Ochrona S.A.",
+    "LegalName": "Kasprowy Ochrona S.A.",
     "FirstAddressLine": "Najświętszej Maryi Panny 80, 42-200 Częstochowa",
     "City": "Kielce",
     "PostalCode": "42-200",
@@ -841,7 +841,7 @@
   },
   {
     "LEI": "52990000000000022894",
-    "LegalName": "Bizon Catering SA",
+    "LegalName": "Sudety Catering SA",
     "FirstAddressLine": "ul. 11 Listopada 97/85, 43-300 Bielsko-Biała",
     "City": "Poznań",
     "PostalCode": "43-300",
@@ -871,7 +871,7 @@
   },
   {
     "LEI": "52990000000000022991",
-    "LegalName": "Bizon Księgowość S. A.",
+    "LegalName": "Echo Księgowość S. A.",
     "FirstAddressLine": "114, 36-047 Niechobrz",
     "City": "Lublin",
     "PostalCode": "36-047",
@@ -901,7 +901,7 @@
   },
   {
     "LEI": "52990000000000023088",
-    "LegalName": "Canyon Budownictwo Spółka Akcyjna",
+    "LegalName": "Tytan Budownictwo Spółka Akcyjna",
     "FirstAddressLine": "ulica Franciszkańska 131, 37-700 Przemyśl",
     "City": "Zielona Góra",
     "PostalCode": "37-700",
@@ -931,7 +931,7 @@
   },
   {
     "LEI": "52990000000000023185",
-    "LegalName": "Canyon Transport sp. z o.o.",
+    "LegalName": "Sokół Transport sp. z o.o.",
     "FirstAddressLine": "Kościuszki 148, 38-500 Sanok",
     "City": "Szczecin",
     "PostalCode": "38-500",
@@ -961,7 +961,7 @@
   },
   {
     "LEI": "52990000000000023282",
-    "LegalName": "Canyon Spedycja sp z oo",
+    "LegalName": "Pilica Spedycja sp z oo",
     "FirstAddressLine": "os. Suraska 165/47, 15-422 Białystok",
     "City": "Toruń",
     "PostalCode": "15-422",
@@ -991,7 +991,7 @@
   },
   {
     "LEI": "52990000000000023379",
-    "LegalName": "Canyon Logistyka sp. z o. o.",
+    "LegalName": "Topaz Logistyka sp. z o. o.",
     "FirstAddressLine": "2, 16-030 Ogrodniczki",
     "City": "Gdynia",
     "PostalCode": "16-030",
@@ -1021,7 +1021,7 @@
   },
   {
     "LEI": "52990000000000023476",
-    "LegalName": "Canyon Handel Sp. z o.o.",
+    "LegalName": "Olimp Handel Sp. z o.o.",
     "FirstAddressLine": "ulica 3 Maja 19, 17-200 Hajnówka",
     "City": "Opole",
     "PostalCode": "17-200",
@@ -1051,7 +1051,7 @@
   },
   {
     "LEI": "52990000000000023573",
-    "LegalName": "Canyon Usługi SP Z O O",
+    "LegalName": "Rysy Usługi SP Z O O",
     "FirstAddressLine": "os. LSM 36, 20-400 Lublin",
     "City": "Rzeszów",
     "PostalCode": "20-400",
@@ -1081,7 +1081,7 @@
   },
   {
     "LEI": "52990000000000023670",
-    "LegalName": "Canyon Finanse spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Bałtyk Finanse spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "53/9, 24-120 Mięćmierz",
     "City": "Bydgoszcz",
     "PostalCode": "24-120",
@@ -1111,7 +1111,7 @@
   },
   {
     "LEI": "52990000000000023767",
-    "LegalName": "Canyon Doradztwo Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Delfin Doradztwo Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "21-500 Biała Podlaska",
     "City": "Gdynia",
     "PostalCode": "21-500",
@@ -1141,7 +1141,7 @@
   },
   {
     "LEI": "52990000000000023864",
-    "LegalName": "Canyon Szkolenia S.A.",
+    "LegalName": "Ikar Szkolenia S.A.",
     "FirstAddressLine": "ulica Rynek Staromiejski 87, 87-100 Toruń",
     "City": "Białystok",
     "PostalCode": "87-100",
@@ -1171,7 +1171,7 @@
   },
   {
     "LEI": "52990000000000023961",
-    "LegalName": "Canyon Media SA",
+    "LegalName": "Neon Media SA",
     "FirstAddressLine": "Mostowa 104, 85-110 Bydgoszcz",
     "City": "Toruń",
     "PostalCode": "85-110",
@@ -1231,7 +1231,7 @@
   },
   {
     "LEI": "52990000000000024155",
-    "LegalName": "Canyon Marketing Spółka Akcyjna",
+    "LegalName": "Sokół Marketing Spółka Akcyjna",
     "FirstAddressLine": "ul Warszawska 138, 11-700 Mrągowo",
     "City": "Kielce",
     "PostalCode": "11-700",
@@ -1261,7 +1261,7 @@
   },
   {
     "LEI": "52990000000000024252",
-    "LegalName": "Canyon Druk sp. z o.o.",
+    "LegalName": "Pilica Druk sp. z o.o.",
     "FirstAddressLine": "ulica Wojska Polskiego 155, 70-470 Szczecin",
     "City": "Katowice",
     "PostalCode": "70-470",
@@ -1291,7 +1291,7 @@
   },
   {
     "LEI": "52990000000000024349",
-    "LegalName": "Canyon Informatyka sp z oo",
+    "LegalName": "Topaz Informatyka sp z oo",
     "FirstAddressLine": "Monte Cassino 172, 72-600 Świnoujście",
     "City": "Rzeszów",
     "PostalCode": "72-600",
@@ -1321,7 +1321,7 @@
   },
   {
     "LEI": "52990000000000024446",
-    "LegalName": "Canyon Oprogramowanie sp. z o. o.",
+    "LegalName": "Olimp Oprogramowanie sp. z o. o.",
     "FirstAddressLine": "ul. Rynek 9/23, 45-015 Opole",
     "City": "Opole",
     "PostalCode": "45-015",
@@ -1351,7 +1351,7 @@
   },
   {
     "LEI": "52990000000000024543",
-    "LegalName": "Canyon Rolnictwo Sp. z o.o.",
+    "LegalName": "Rysy Rolnictwo Sp. z o.o.",
     "FirstAddressLine": "ul Byczyńska 26, 46-200 Kluczbork",
     "City": "Zielona Góra",
     "PostalCode": "46-200",
@@ -1381,7 +1381,7 @@
   },
   {
     "LEI": "52990000000000024640",
-    "LegalName": "Canyon Ogrodnictwo SP Z O O",
+    "LegalName": "Bałtyk Ogrodnictwo SP Z O O",
     "FirstAddressLine": "ulica Chrobrego 43, 66-400 Gorzów Wielkopolski",
     "City": "Lublin",
     "PostalCode": "66-400",
@@ -1411,7 +1411,7 @@
   },
   {
     "LEI": "52990000000000024737",
-    "LegalName": "Canyon Produkcja spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Delfin Produkcja spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "30 Stycznia 60, 66-300 Międzyrzecz",
     "City": "Rzeszów",
     "PostalCode": "66-300",
@@ -1441,7 +1441,7 @@
   },
   {
     "LEI": "52990000000000024834",
-    "LegalName": "Canyon Przemysł Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Ikar Przemysł Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ul. Paderewskiego 77/75, 25-004 Kielce",
     "City": "Łódź",
     "PostalCode": "25-004",
@@ -1471,7 +1471,7 @@
   },
   {
     "LEI": "52990000000000024931",
-    "LegalName": "Canyon Ekologia S.A.",
+    "LegalName": "Neon Ekologia S.A.",
     "FirstAddressLine": "ul 1 Maja 94, 28-100 Busko-Zdrój",
     "City": "Kielce",
     "PostalCode": "28-100",
@@ -1501,7 +1501,7 @@
   },
   {
     "LEI": "52990000000000025028",
-    "LegalName": "Canyon Energetyka SA",
+    "LegalName": "Tytan Energetyka SA",
     "FirstAddressLine": "ulica Marszałkowska 111, 00-590 Warszawa",
     "City": "Bydgoszcz",
     "PostalCode": "00-590",
@@ -1531,7 +1531,7 @@
   },
   {
     "LEI": "52990000000000025125",
-    "LegalName": "Canyon Instalacje S. A.",
+    "LegalName": "Sokół Instalacje S. A.",
     "FirstAddressLine": "Krakowskie Przedmieście 128, 00-071 Warszawa",
     "City": "Rzeszów",
     "PostalCode": "00-071",
@@ -1561,7 +1561,7 @@
   },
   {
     "LEI": "52990000000000025222",
-    "LegalName": "Canyon Nieruchomości Spółka Akcyjna",
+    "LegalName": "Pilica Nieruchomości Spółka Akcyjna",
     "FirstAddressLine": "ul. Floriańska 145/37, 31-019 Kraków",
     "City": "Lublin",
     "PostalCode": "31-019",
@@ -1591,7 +1591,7 @@
   },
   {
     "LEI": "52990000000000025319",
-    "LegalName": "Canyon Inwestycje sp. z o.o.",
+    "LegalName": "Topaz Inwestycje sp. z o.o.",
     "FirstAddressLine": "ul Długa 162, 31-147 Kraków",
     "City": "Łódź",
     "PostalCode": "31-147",
@@ -1621,7 +1621,7 @@
   },
   {
     "LEI": "52990000000000025416",
-    "LegalName": "Canyon Medycyna sp z oo",
+    "LegalName": "Olimp Medycyna sp z oo",
     "FirstAddressLine": "ulica Piotrkowska 179, 90-102 Łódź",
     "City": "Opole",
     "PostalCode": "90-102",
@@ -1651,7 +1651,7 @@
   },
   {
     "LEI": "52990000000000025513",
-    "LegalName": "Canyon Zdrowie sp. z o. o.",
+    "LegalName": "Rysy Zdrowie sp. z o. o.",
     "FirstAddressLine": "Zachodnia 16, 90-402 Łódź",
     "City": "Kielce",
     "PostalCode": "90-402",
@@ -1681,7 +1681,7 @@
   },
   {
     "LEI": "52990000000000025610",
-    "LegalName": "Canyon Urody Sp. z o.o.",
+    "LegalName": "Bałtyk Urody Sp. z o.o.",
     "FirstAddressLine": "ul. Świdnicka 33/89, 50-066 Wrocław",
     "City": "Poznań",
     "PostalCode": "50-066",
@@ -1711,7 +1711,7 @@
   },
   {
     "LEI": "52990000000000025707",
-    "LegalName": "Canyon Turystyka SP Z O O",
+    "LegalName": "Delfin Turystyka SP Z O O",
     "FirstAddressLine": "ul Legnicka 50, 54-203 Wrocław",
     "City": "Wrocław",
     "PostalCode": "54-203",
@@ -1741,7 +1741,7 @@
   },
   {
     "LEI": "52990000000000025804",
-    "LegalName": "Canyon Rozrywka spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Ikar Rozrywka spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ulica Święty Marcin 67, 61-806 Poznań",
     "City": "Bydgoszcz",
     "PostalCode": "61-806",
@@ -1771,7 +1771,7 @@
   },
   {
     "LEI": "52990000000000025998",
-    "LegalName": "Canyon Gastronomia Spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Neon Gastronomia Spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "Głogowska 84, 60-734 Poznań",
     "City": "Olsztyn",
     "PostalCode": "60-734",
@@ -1801,7 +1801,7 @@
   },
   {
     "LEI": "52990000000000026095",
-    "LegalName": "PPHU Canyon Moda",
+    "LegalName": "PPHU Tytan Moda",
     "FirstAddressLine": "ul. Długa 101/51, 80-831 Gdańsk",
     "City": "Bydgoszcz",
     "PostalCode": "80-831",
@@ -1831,7 +1831,7 @@
   },
   {
     "LEI": "52990000000000026192",
-    "LegalName": "Canyon Tekstylia SA",
+    "LegalName": "Sokół Tekstylia SA",
     "FirstAddressLine": "os. Grunwaldzka 118, 80-236 Gdańsk",
     "City": "Wrocław",
     "PostalCode": "80-236",
@@ -1846,13 +1846,13 @@
     "ValidationSources": "PARTIALLY_CORROBORATED",
     "RegisteredAt": "National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484",
     "RegisteredAs": "355632432",
-    "DirectParentLEI": "62990000000010026116",
+    "DirectParentLEI": "52990000000010026116",
     "DirectParentName": "Lumen Advisory SP Z O O",
     "DirectParentRelationshipType": "IS_DIRECTLY_CONSOLIDATED_BY",
     "DirectParentRelationshipStatus": "ACTIVE",
     "DirectParentRelationshipStartDate": "20240713",
     "DirectParentRelationshipEndDate": "11-05-2024",
-    "UltimateParentLEI": "52990000000020026137",
+    "UltimateParentLEI": "62990000000020026137",
     "UltimateParentName": "Polaris Capital Finanse sp z oo",
     "UltimateParentRelationshipType": "IS_ULTIMATELY_CONSOLIDATED_BY",
     "UltimateParentRelationshipStatus": "ACTIVE",
@@ -1861,7 +1861,7 @@
   },
   {
     "LEI": "52990000000000026289",
-    "LegalName": "Canyon Motoryzacja S. A.",
+    "LegalName": "Pilica Motoryzacja S. A.",
     "FirstAddressLine": "ulica Jagiellońska 135, 70-435 Szczecin",
     "City": "Wrocław",
     "PostalCode": "70-435",
@@ -1891,7 +1891,7 @@
   },
   {
     "LEI": "52990000000000026386",
-    "LegalName": "Canyon Ubezpieczenia Spółka Akcyjna",
+    "LegalName": "Topaz Ubezpieczenia Spółka Akcyjna",
     "FirstAddressLine": "Wyszyńskiego 152, 70-200 Szczecin",
     "City": "Olsztyn",
     "PostalCode": "70-200",
@@ -1921,7 +1921,7 @@
   },
   {
     "LEI": "52990000000000026483",
-    "LegalName": "Canyon Spawalnictwo sp. z o.o.",
+    "LegalName": "Olimp Spawalnictwo sp. z o.o.",
     "FirstAddressLine": "ul. Mariacka 169/13, 40-014 Katowice",
     "City": "Bydgoszcz",
     "PostalCode": "40-014",
@@ -1951,7 +1951,7 @@
   },
   {
     "LEI": "52990000000000026580",
-    "LegalName": "Canyon Ślusarstwo sp z oo",
+    "LegalName": "Rysy Ślusarstwo sp z oo",
     "FirstAddressLine": "ul Warszawska 6, 40-009 Katowice",
     "City": "Gdynia",
     "PostalCode": "40-009",
@@ -1981,7 +1981,7 @@
   },
   {
     "LEI": "52990000000000026677",
-    "LegalName": "Canyon Krawiectwo sp. z o. o.",
+    "LegalName": "Bałtyk Krawiectwo sp. z o. o.",
     "FirstAddressLine": "ulica Krakowskie Przedmieście 23, 20-002 Lublin",
     "City": "Zielona Góra",
     "PostalCode": "20-002",
@@ -2011,7 +2011,7 @@
   },
   {
     "LEI": "52990000000000026774",
-    "LegalName": "Canyon Ochrona Sp. z o.o.",
+    "LegalName": "Delfin Ochrona Sp. z o.o.",
     "FirstAddressLine": "Narutowicza 40, 20-004 Lublin",
     "City": "Opole",
     "PostalCode": "20-004",
@@ -2041,7 +2041,7 @@
   },
   {
     "LEI": "52990000000000026871",
-    "LegalName": "Canyon Catering SP Z O O",
+    "LegalName": "Ikar Catering SP Z O O",
     "FirstAddressLine": "ul. Lipowa 57/65, 15-424 Białystok",
     "City": "Lublin",
     "PostalCode": "15-424",
@@ -2071,7 +2071,7 @@
   },
   {
     "LEI": "52990000000000026968",
-    "LegalName": "Canyon Księgowość spółka z ograniczoną odpowiedzialnością",
+    "LegalName": "Neon Księgowość spółka z ograniczoną odpowiedzialnością",
     "FirstAddressLine": "ul Sienkiewicza 74, 15-092 Białystok",
     "City": "Bydgoszcz",
     "PostalCode": "15-092",
@@ -2496,7 +2496,7 @@
     "City": null,
     "PostalCode": "65-058",
     "Country": "PL",
-    "LegalJurisdiction": null,
+    "LegalJurisdiction": "PL",
     "EntityLegalFormCode": "S.A.",
     "RegistrationStatus": "AKTYWNY",
     "InitialRegistrationDate": "2022/12/02",
@@ -2510,8 +2510,8 @@
     "DirectParentName": null,
     "DirectParentRelationshipType": null,
     "DirectParentRelationshipStatus": null,
-    "DirectParentRelationshipStartDate": "2022/27/05",
-    "DirectParentRelationshipEndDate": "20220325",
+    "DirectParentRelationshipStartDate": null,
+    "DirectParentRelationshipEndDate": null,
     "UltimateParentLEI": "52990000000020028368",
     "UltimateParentName": null,
     "UltimateParentRelationshipType": "IS_ULTIMATELY_CONSOLIDATED_BY",
@@ -4722,7 +4722,7 @@
     "InitialRegistrationDate": "26/04/2024",
     "LastUpdateDate": "2024/22/12",
     "NextRenewalDate": "23-01-2024",
-    "ManagingLOU": "529900T8BM49UA55",
+    "ManagingLOU": "5299008MB49UA55",
     "ValidationSources": "PARTIALLY_CORROBROATED",
     "RegisteredAt": "National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484",
     "RegisteredAs": "263234671",
@@ -5836,13 +5836,13 @@
     "ValidationSources": "PARTIALLY_CORROBORATED",
     "RegisteredAt": "National Court Register (Ministry of Justice) | Krajowy Rejestr Sadowy (KRS) (Ministerstwo Sprawiedliwosci) | Poland | RA000466",
     "RegisteredAs": "0000038226",
-    "DirectParentLEI": "52990000000010039405",
+    "DirectParentLEI": "62990000000010039405",
     "DirectParentName": "Quantum Services spółka z ograniczoną odpowiedzialnością",
     "DirectParentRelationshipType": "IS_DIRECTLY_CONSOLIDATED_BY",
     "DirectParentRelationshipStatus": "ACTIVE",
     "DirectParentRelationshipStartDate": "20-08-2025",
     "DirectParentRelationshipEndDate": "18/06/2025",
-    "UltimateParentLEI": "62990000000020039426",
+    "UltimateParentLEI": "52990000000020039426",
     "UltimateParentName": "Silesia Invest sp. z o.o.",
     "UltimateParentRelationshipType": "IS_ULTIMATELY_CONSOLIDATED_BY",
     "UltimateParentRelationshipStatus": "ACTIVE",
