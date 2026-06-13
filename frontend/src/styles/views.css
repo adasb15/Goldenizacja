@@ -20,6 +20,10 @@
   font-size: 0.92rem;
 }
 
+.workspace > .segmented {
+  margin-bottom: 4px;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -145,4 +149,30 @@ tbody tr:nth-child(even) {
 
 .validation-row--teryt-error td:first-child {
   color: #0c6d65;
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.pager__meta {
+  color: #516072;
+  font-size: 0.92rem;
+}
+
+.pager__actions {
+  display: flex;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .pager,
+  .pager__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }

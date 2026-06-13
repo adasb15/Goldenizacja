@@ -1,23 +1,30 @@
-import { API_URL } from './api/serving'
-import { ValidationView } from './features/validation/ValidationView'
 import { useState } from 'react'
 
+import { API_URL } from './api/serving'
+import { MatchingView } from './features/matching/MatchingView'
+import { ValidationView } from './features/validation/ValidationView'
+
 export default function App() {
+  const [activeView, setActiveView] = useState('validation')
   const [refreshToken, setRefreshToken] = useState(0)
 
   function refreshData() {
     setRefreshToken((current) => current + 1)
   }
 
+  const heroTitle = activeView === 'validation' ? 'Widok walidacji' : 'Widok matchingu'
+  const heroCopy =
+    activeView === 'validation'
+      ? 'Tabela wynikow walidacji oparta o endpoint warstwy serving.'
+      : 'Tabela kandydatow matchingu oparta o endpointy Levenshtein i Jaro-Winkler.'
+
   return (
     <main className="app-shell">
       <section className="hero">
         <div>
           <p className="eyebrow">React serving console</p>
-          <h1>Widok walidacji</h1>
-          <p className="hero__copy">
-            Tabela wynikow walidacji oparta o endpoint warstwy serving.
-          </p>
+          <h1>{heroTitle}</h1>
+          <p className="hero__copy">{heroCopy}</p>
         </div>
 
         <div className="hero__actions">
@@ -33,7 +40,28 @@ export default function App() {
       </section>
 
       <section className="workspace">
-        <ValidationView refreshToken={refreshToken} />
+        <div className="segmented">
+          <button
+            type="button"
+            className={activeView === 'validation' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveView('validation')}
+          >
+            Walidacja
+          </button>
+          <button
+            type="button"
+            className={activeView === 'matching' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveView('matching')}
+          >
+            Matching
+          </button>
+        </div>
+
+        {activeView === 'validation' ? (
+          <ValidationView refreshToken={refreshToken} />
+        ) : (
+          <MatchingView refreshToken={refreshToken} />
+        )}
       </section>
     </main>
   )

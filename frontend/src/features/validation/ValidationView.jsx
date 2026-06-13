@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import { getValidationResults } from '../../api/serving'
+import { Pager } from '../../components/ui/Pager'
 import { StatusBadge } from '../../components/ui/StatusBadge'
 import { EMPTY_VALIDATION_PAGE, VALIDATION_LIMIT } from '../../constants/validation'
 import {
@@ -25,6 +26,7 @@ function ValidationView({ refreshToken }) {
     rule_code: '',
     status: '',
     severity: '',
+    offset: 0,
   })
   const [state, setState] = useState({
     status: 'idle',
@@ -42,7 +44,7 @@ function ValidationView({ refreshToken }) {
         const data = await getValidationResults({
           ...query,
           limit: VALIDATION_LIMIT,
-          offset: 0,
+          offset: query.offset,
         })
 
         if (!cancelled) {
@@ -68,8 +70,22 @@ function ValidationView({ refreshToken }) {
 
   function submitFilters(event) {
     event.preventDefault()
-    setQuery(filters)
+    setQuery({
+      ...filters,
+      offset: 0,
+    })
   }
+
+  function changePage(direction) {
+    setQuery((current) => ({
+      ...current,
+      offset: Math.max(0, current.offset + direction * VALIDATION_LIMIT),
+    }))
+  }
+
+  const page = state.data.page || EMPTY_VALIDATION_PAGE.page
+  const currentFrom = page.total === 0 ? 0 : page.offset + 1
+  const currentTo = Math.min(page.offset + page.limit, page.total)
 
   return (
     <section className="panel">
@@ -79,7 +95,7 @@ function ValidationView({ refreshToken }) {
           <h2>Tabela wynikow walidacji</h2>
         </div>
         <span className="section-meta">
-          {state.data.page?.total ?? 0} rekordow, pokazane pierwsze {VALIDATION_LIMIT}
+          {page.total} rekordow, zakres {currentFrom}-{currentTo}
         </span>
       </div>
 
@@ -246,6 +262,8 @@ function ValidationView({ refreshToken }) {
           </tbody>
         </table>
       </div>
+
+      <Pager page={page} onPrev={() => changePage(-1)} onNext={() => changePage(1)} />
     </section>
   )
 }

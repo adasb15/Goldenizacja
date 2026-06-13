@@ -35,6 +35,30 @@
   background: rgba(19, 34, 56, 0.14);
 }
 
+.segmented {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  gap: 0;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 8px;
+  background: rgba(19, 34, 56, 0.08);
+}
+
+.segmented__item {
+  min-height: 42px;
+  padding: 0 16px;
+  background: transparent;
+  color: #425065;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.segmented__item.is-active {
+  background: #132238;
+  color: #f8fbfc;
+}
+
 .badge {
   display: inline-flex;
   align-items: center;

@@ -38,4 +38,8 @@ function getValidationResults(params) {
   return fetchJson('/layers/serving/validation-results', params)
 }
 
-export { API_URL, getValidationResults }
+function getMatchResults({ algorithm, ...params }) {
+  return fetchJson(`/layers/serving/match-results/${algorithm}`, params)
+}
+
+export { API_URL, getValidationResults, getMatchResults }
