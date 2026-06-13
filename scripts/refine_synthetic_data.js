@@ -6,9 +6,12 @@ const DATA_DIR = path.join(ROOT, "data");
 const FORMATS = ["csv", "json", "xml", "xlsx"];
 const TARGET_PER_REGISTER = 800;
 const TARGET_PER_FORMAT = TARGET_PER_REGISTER / FORMATS.length;
-const DUPLICATED_PERSONS_PER_FORMAT = Math.round(TARGET_PER_FORMAT * 0.15);
+const DUPLICATED_PERSONS_PER_FORMAT = 0;
 const HARD_PERSON_CONFLICT_RATE = 0.005;
 const RNG_SEED = 20260507;
+const KRS_ROLE_SLOT_CAP = 4;
+const PERSON_IDENTITY_SEED_MULTIPLIER = 1000;
+const RELATED_COMPANY_SEED_OFFSET = 1000000;
 
 const ADDRESSES = [
   ["MAZOWIECKIE", "WARSZAWA", "WARSZAWA", "WARSZAWA", "Warszawa", "Marszałkowska", "00-590"],
@@ -414,51 +417,60 @@ function generateHighlyDiverseCompanyPool() {
     "Górnośląskie Towarzystwo Finansowe", "Krajowa Agencja Informacyjna", "Polskie Jagody"
   ];
 
-  const pool = new Set(SEED_NAMES);
+  const pool = [];
+  const seen = new Set();
+  const addToPool = (value) => {
+    if (!seen.has(value)) {
+      seen.add(value);
+      pool.push(value);
+    }
+  };
 
-  for (let i = 0; i < ADJECTIVES.length; i++) {
-    for (let j = 0; j < NOUNS.length; j++) {
-      if (pool.size >= 150) break;
-      pool.add(`${ADJECTIVES[i]} ${NOUNS[j]}`);
+  for (const value of SEED_NAMES) addToPool(value);
+
+  for (let round = 0; pool.length < 150 && round < NOUNS.length; round += 1) {
+    for (let i = 0; i < ADJECTIVES.length && pool.length < 150; i += 1) {
+      const nounIndex = (i * 7 + round * 11) % NOUNS.length;
+      addToPool(`${ADJECTIVES[i]} ${NOUNS[nounIndex]}`);
     }
   }
 
-  for (let i = 0; i < NOUNS.length; i++) {
-    for (let j = 0; j < INDUSTRIES.length; j++) {
-      if (pool.size >= 270) break;
-      pool.add(`${NOUNS[i]} ${INDUSTRIES[j]}`);
+  for (let round = 0; pool.length < 270 && round < NOUNS.length; round += 1) {
+    for (let j = 0; j < INDUSTRIES.length && pool.length < 270; j += 1) {
+      const nounIndex = (j * 5 + round * 9) % NOUNS.length;
+      addToPool(`${NOUNS[nounIndex]} ${INDUSTRIES[j]}`);
     }
   }
 
   const SUFFIX_WORDS = ["Group", "Systems", "Holding", "Partners", "Polska", "Enterprise", "Network"];
   for (let i = 0; i < ABSTRACT_BUSINESS.length; i++) {
     for (let j = 0; j < SUFFIX_WORDS.length; j++) {
-      if (pool.size >= 380) break;
-      pool.add(`${ABSTRACT_BUSINESS[i]} ${SUFFIX_WORDS[j]}`);
+      if (pool.length >= 380) break;
+      addToPool(`${ABSTRACT_BUSINESS[i]} ${SUFFIX_WORDS[j]}`);
     }
   }
 
   const FAMILY_SUFFIX = ["i Synowie", "i Wspólnicy", "Spółka Rodzinna", "Bracia"];
   for (let i = 0; i < NAMES.length; i++) {
     for (let j = 0; j < FAMILY_SUFFIX.length; j++) {
-      pool.add(`${NAMES[i]} ${FAMILY_SUFFIX[j]}`);
+      addToPool(`${NAMES[i]} ${FAMILY_SUFFIX[j]}`);
     }
   }
 
   for (let i = 0; i < INDUSTRIES.length; i++) {
     const adj = ADJECTIVES[(i * 3) % ADJECTIVES.length];
-    pool.add(`${INDUSTRIES[i]} ${adj}`);
+    addToPool(`${INDUSTRIES[i]} ${adj}`);
   }
 
   const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  while (pool.size < 530) {
+  while (pool.length < 530) {
     let acro = LETTERS[Math.floor(Math.random() * 26)] + 
                LETTERS[Math.floor(Math.random() * 26)] + 
                LETTERS[Math.floor(Math.random() * 26)];
-    pool.add(acro);
+    addToPool(acro);
   }
 
-  return Array.from(pool).slice(0, 500);
+  return pool.slice(0, 500);
 }
 
 const COMPANY_BASE = generateHighlyDiverseCompanyPool();
@@ -498,8 +510,7 @@ function formatSliceIndex(index) {
 }
 
 function personSeedFor(index) {
-  const sliceIndex = formatSliceIndex(index);
-  return sliceIndex < DUPLICATED_PERSONS_PER_FORMAT ? sliceIndex : index;
+  return index;
 }
 
 function companySeedFor(index) {
@@ -507,7 +518,7 @@ function companySeedFor(index) {
 }
 
 function isDuplicatedPersonIndex(index) {
-  return formatSliceIndex(index) < DUPLICATED_PERSONS_PER_FORMAT;
+  return DUPLICATED_PERSONS_PER_FORMAT > 0 && formatSliceIndex(index) < DUPLICATED_PERSONS_PER_FORMAT;
 }
 
 function duplicateVariantIndex(index) {
@@ -607,7 +618,48 @@ function personIdentitySeed(seed, compactKey = "") {
   const baseSeed = personSeedFor(seed);
   const prefix = personIdentityPrefix(compactKey);
   if (!prefix || prefix === "firmawlasciciel" || prefix === "ofwca") return baseSeed;
-  return baseSeed + 1000 + (stableHash(prefix) % 100000);
+  return (baseSeed * PERSON_IDENTITY_SEED_MULTIPLIER) + 1000 + (stableHash(prefix) % PERSON_IDENTITY_SEED_MULTIPLIER);
+}
+
+function relatedCompanySeed(seed, slot) {
+  return RELATED_COMPANY_SEED_OFFSET + (companySeedFor(seed) * 100) + slot;
+}
+
+function krsRoleConfigs() {
+  return [
+    { countField: "LiczbaCzlonekZarzadu", prefix: "CzlonekZarzadu", maxSlots: 10 },
+    { countField: "LiczbaProkurent", prefix: "Prokurent", maxSlots: 10 },
+    { countField: "LiczbaWspolnikOsoba", prefix: "WspolnikOsoba", maxSlots: 10 },
+    { countField: "LiczbaLikwidator", prefix: "Likwidator", maxSlots: 10 },
+    { countField: "LiczbaCzlonekRadyNadzorczej", prefix: "CzlonekRadyNadzorczej", maxSlots: 10 },
+    { countField: "LiczbaWspolnikPodmiot", prefix: "WspolnikPodmiot", maxSlots: 10 },
+  ];
+}
+
+function parseNonNegativeInt(value, fallback = 0) {
+  const parsed = Number.parseInt(String(value ?? "").trim(), 10);
+  return Number.isFinite(parsed) && parsed >= 0 ? parsed : fallback;
+}
+
+function clearKrsRoleSlot(record, headers, prefix, slot) {
+  const marker = `${prefix}${slot}_`;
+  for (const header of headers) {
+    if (String(header).startsWith(marker)) {
+      record[header] = "";
+    }
+  }
+}
+
+function enforceKrsRoleCardinality(record, headers) {
+  for (const { countField, prefix, maxSlots } of krsRoleConfigs()) {
+    if (!headers.includes(countField)) continue;
+    const declaredCount = parseNonNegativeInt(record[countField], 0);
+    const effectiveCount = Math.min(declaredCount, KRS_ROLE_SLOT_CAP);
+    record[countField] = String(effectiveCount);
+    for (let slot = effectiveCount + 1; slot <= maxSlots; slot += 1) {
+      clearKrsRoleSlot(record, headers, prefix, slot);
+    }
+  }
 }
 
 function slug(value, separator = ".") {
@@ -1301,7 +1353,7 @@ function normalizeIdentifiers(record, headers, index, seed = index) {
       : isFemaleIndex(identitySeed);
     const relatedPartyMatch = String(key).match(/^WspolnikPodmiot(\d+)_(KRS|NIP)$/i);
     if (relatedPartyMatch) {
-      const relatedSeed = companySeedFor(seed + Number(relatedPartyMatch[1]));
+      const relatedSeed = relatedCompanySeed(seed, Number(relatedPartyMatch[1]));
       record[key] = relatedPartyMatch[2].toUpperCase() === "KRS" ? makeSharedKrs(relatedSeed) : makeSharedNip(relatedSeed);
       continue;
     }
@@ -1355,7 +1407,7 @@ function normalizeNames(record, headers, index, seed = index) {
     const person = getPerson(key);
     const relatedPartyNameMatch = String(key).match(/^WspolnikPodmiot(\d+)_Nazwa$/i);
     if (relatedPartyNameMatch) {
-      record[key] = companyInfoFor(companySeedFor(seed + Number(relatedPartyNameMatch[1]))).full;
+      record[key] = companyInfoFor(relatedCompanySeed(seed, Number(relatedPartyNameMatch[1]))).full;
     }
     else if (compact === "imieojca") record[key] = pick(MALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 3);
     else if (compact === "imiematki") record[key] = pick(FEMALE_FIRST_NAMES, personIdentitySeed(seed, compact) + 7);
@@ -1410,6 +1462,9 @@ function cloneRecord(base, headers, index, register) {
       record[key] = `${key.replace(/[^A-Za-z0-9]/g, "").toUpperCase()}-${pad(index + 1, 5)}`;
     }
     if (key === "Numer agenta") record[key] = `${pad(10000000 + index, 8)}/A/${pad(300000 + index, 6)}`;
+  }
+  if (register === "krs") {
+    enforceKrsRoleCardinality(record, headers);
   }
   return record;
 }
@@ -1468,6 +1523,7 @@ function applyAnomalies(records, headers, register = "") {
 
   const typoFields = headers.filter((h) => {
     const id = keyId(h);
+    if (/^liczba/.test(id)) return false;
     return !/(pesel|nip|regon|krs|lei|dowod|data|date|email|telefon|phone|kod|adres|address|www|url|status|plec|obywatelstwo|imieojca|imiematki)/.test(id);
   });
   for (const i of typoIndexes) {
@@ -1478,7 +1534,7 @@ function applyAnomalies(records, headers, register = "") {
     }
   }
 
-  const nullableFields = headers;
+  const nullableFields = headers.filter((h) => !/^Liczba[A-Z]/.test(String(h)));
   for (const i of incompleteRecordIndexes) {
     const candidates = nullableFields.filter((h) => {
       const id = keyId(h);
@@ -1551,6 +1607,12 @@ function applyAnomalies(records, headers, register = "") {
     for (const refIndex of missingIndexes) {
       const [rowIndex, field] = refs[refIndex];
       records[rowIndex][field] = "";
+    }
+  }
+
+  if (register === "krs") {
+    for (const record of records) {
+      enforceKrsRoleCardinality(record, headers);
     }
   }
 }

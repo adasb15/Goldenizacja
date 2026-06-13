@@ -4,10 +4,10 @@
     <field name="firma.id">FIRMAID-00401</field>
     <field name="firma.nazwa">mBank</field>
     <field name="firma.skroconaNazwa">mBank</field>
-    <field name="firma.wlasciciel.imie">Anna</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Kowalska-Krawczyk</field>
-    <field name="firma.wlasciciel.pesel">60021406849</field>
+    <field name="firma.wlasciciel.imie">Zuzanna</field>
+    <field name="firma.wlasciciel.drugieImie">Emilia</field>
+    <field name="firma.wlasciciel.nazwisko">Kowalczyk-Pawlak</field>
+    <field name="firma.wlasciciel.pesel">92061454847</field>
     <field name="firma.nip">1266481469</field>
     <field name="firma.regon">266639842</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2014-02-18</field>
@@ -17,17 +17,17 @@
     <field name="firma.adresDzialalnosci">ul. Piłsudskiego 141/71, 35-074 Rzeszów</field>
     <field name="firma.adresKorespondencyjny">ul. Piłsudskiego 141/71, 35-074 Rzeszów</field>
     <field name="firma.telefon">(48) 534569318</field>
-    <field name="firma.email">anna_kowalska.krawczyk@gmail.com</field>
+    <field name="firma.email">zuzanna_kowalczyk.pawlak@gmail.com</field>
     <field name="firma.www">https://www.mbank.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00402</field>
     <field name="firma.nazwa">Kamiński i Wspólnicy spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Kamiński i Wspólnicy</field>
-    <field name="firma.wlasciciel.imie">Tomasz</field>
-    <field name="firma.wlasciciel.drugieImie">Robert</field>
-    <field name="firma.wlasciciel.nazwisko">Nowacki</field>
-    <field name="firma.wlasciciel.pesel">61032108236</field>
+    <field name="firma.wlasciciel.imie">Mikołaj</field>
+    <field name="firma.wlasciciel.drugieImie">Ignacy</field>
+    <field name="firma.wlasciciel.nazwisko">Kamiński</field>
+    <field name="firma.wlasciciel.pesel">93072156234</field>
     <field name="firma.nip">1266560654</field>
     <field name="firma.regon">266719038</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-08-10</field>
@@ -37,17 +37,17 @@
     <field name="firma.adresDzialalnosci">ul Sienkiewicza 158, 25-007 Kielce</field>
     <field name="firma.adresKorespondencyjny">ul Sienkiewicza 158, 25-007 Kielce</field>
     <field name="firma.telefon">674 138 360</field>
-    <field name="firma.email">tomasz.nowacki94@outlook.com</field>
+    <field name="firma.email">mikolaj.kaminski94@outlook.com</field>
     <field name="firma.www">https://kaminski-i-wspolnicy.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00403</field>
     <field name="firma.nazwa">Kamiński Spółka Rodzinna Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Kamiński Spółka Rodzinna</field>
-    <field name="firma.wlasciciel.imie">Katarzyna</field>
-    <field name="firma.wlasciciel.drugieImie">Agnieszka</field>
-    <field name="firma.wlasciciel.nazwisko">Wiśniewska</field>
-    <field name="firma.wlasciciel.pesel">62042809586</field>
+    <field name="firma.wlasciciel.imie">Lena</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Lewandowska</field>
+    <field name="firma.wlasciciel.pesel">94082857584</field>
     <field name="firma.nip">1266639841</field>
     <field name="firma.regon">266798227</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-07-25</field>
@@ -57,17 +57,17 @@
     <field name="firma.adresDzialalnosci">ulica Warszawska 175, 25-512 Kielce</field>
     <field name="firma.adresKorespondencyjny">ulica Warszawska 175, 25-512 Kielce</field>
     <field name="firma.telefon">505589705</field>
-    <field name="firma.email">katarzyna.wisniewska@wp.pl</field>
+    <field name="firma.email">lena.lewandowska@wp.pl</field>
     <field name="firma.www"></field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00404</field>
     <field name="firma.nazwa">Kamiński Bracia S.A.</field>
     <field name="firma.skroconaNazwa">Kamiński Bracia</field>
-    <field name="firma.wlasciciel.imie">Krzysztof</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Wójcik</field>
-    <field name="firma.wlasciciel.pesel">63050710972</field>
+    <field name="firma.wlasciciel.imie">Antoni</field>
+    <field name="firma.wlasciciel.drugieImie">Leon</field>
+    <field name="firma.wlasciciel.nazwisko">Zieliński</field>
+    <field name="firma.wlasciciel.pesel">95090758977</field>
     <field name="firma.nip">1266719037</field>
     <field name="firma.regon">266877412</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-10-07</field>
@@ -77,17 +77,17 @@
     <field name="firma.adresDzialalnosci">Kościuszki 12, 10-504 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">Kościuszki 12, 10-504 Olsztyn</field>
     <field name="firma.telefon">775668736</field>
-    <field name="firma.email">k.wojcik@onet.pl</field>
+    <field name="firma.email">a.zielinski@onet.pl</field>
     <field name="firma.www">https://www.kaminski-bracia-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00405</field>
     <field name="firma.nazwa">Zieliński i Synowie SA</field>
     <field name="firma.skroconaNazwa">Zieliński i Synowie</field>
-    <field name="firma.wlasciciel.imie">Ewa</field>
-    <field name="firma.wlasciciel.drugieImie">Justyna</field>
-    <field name="firma.wlasciciel.nazwisko">Kowalczyk</field>
-    <field name="firma.wlasciciel.pesel">64061412321</field>
+    <field name="firma.wlasciciel.imie">Hanna</field>
+    <field name="firma.wlasciciel.drugieImie">Dominika</field>
+    <field name="firma.wlasciciel.nazwisko">Szymańska</field>
+    <field name="firma.wlasciciel.pesel">96101460322</field>
     <field name="firma.nip">1266798226</field>
     <field name="firma.regon">266956608</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-02-28</field>
@@ -97,17 +97,17 @@
     <field name="firma.adresDzialalnosci">ul. Dąbrowszczaków 29/33, 10-540 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul. Dąbrowszczaków 29/33, 10-540 Olsztyn</field>
     <field name="firma.telefon">48-663-413-803</field>
-    <field name="firma.email">kowalczyk.ewa@interia.pl</field>
+    <field name="firma.email">szymanska.hanna@interia.pl</field>
     <field name="firma.www">https://www.zielinski-i-synowie-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00406</field>
     <field name="firma.nazwa">Zieliński i Wspólnicy S. A.</field>
     <field name="firma.skroconaNazwa">Zieliński i Wspólnicy</field>
-    <field name="firma.wlasciciel.imie">Adam</field>
-    <field name="firma.wlasciciel.drugieImie">Jan</field>
-    <field name="firma.wlasciciel.nazwisko">Kamiński</field>
-    <field name="firma.wlasciciel.pesel">65072113717</field>
+    <field name="firma.wlasciciel.imie">Franciszek</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Dąbrowski</field>
+    <field name="firma.wlasciciel.pesel">97112161718</field>
     <field name="firma.nip">1266877411</field>
     <field name="firma.regon">267035796</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-11-07</field>
@@ -117,17 +117,17 @@
     <field name="firma.adresDzialalnosci">ul Krakowska 46, 45-018 Opole</field>
     <field name="firma.adresKorespondencyjny">ul Krakowska 46, 45-018 Opole</field>
     <field name="firma.telefon">+48 760 870 632</field>
-    <field name="firma.email">adamkaminski@o2.pl</field>
+    <field name="firma.email">franciszekdabrowski@o2.pl</field>
     <field name="firma.www">https://www.zielinski-i-wspolnicy.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00407</field>
     <field name="firma.nazwa">Zieliński Spółka Rodzinna Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Zieliński Spółka Rodzinna</field>
-    <field name="firma.wlasciciel.imie">Monika</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Lewandowska</field>
-    <field name="firma.wlasciciel.pesel">66082815068</field>
+    <field name="firma.wlasciciel.imie">Amelia</field>
+    <field name="firma.wlasciciel.drugieImie">Jagoda</field>
+    <field name="firma.wlasciciel.nazwisko">Mazur</field>
+    <field name="firma.wlasciciel.pesel">98122863069</field>
     <field name="firma.nip">1266956607</field>
     <field name="firma.regon">267114981</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-02-21</field>
@@ -137,17 +137,17 @@
     <field name="firma.adresDzialalnosci">os. Ozimska 63, 45-057 Opole</field>
     <field name="firma.adresKorespondencyjny">os. Ozimska 63, 45-057 Opole</field>
     <field name="firma.telefon">(48) 760539030</field>
-    <field name="firma.email">monika_lewandowska@proton.me</field>
+    <field name="firma.email">amelia_mazur@proton.me</field>
     <field name="firma.www">https://zielinski-spolka-rodzinna.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00408</field>
     <field name="firma.nazwa">Zieliński Bracia sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Zieliński Bracia</field>
-    <field name="firma.wlasciciel.imie">Marek</field>
-    <field name="firma.wlasciciel.drugieImie">Marcin</field>
-    <field name="firma.wlasciciel.nazwisko">Zieliński</field>
-    <field name="firma.wlasciciel.pesel">67090716451</field>
+    <field name="firma.wlasciciel.imie">Nikodem</field>
+    <field name="firma.wlasciciel.drugieImie">Jrezy</field>
+    <field name="firma.wlasciciel.nazwisko">Krawczyk</field>
+    <field name="firma.wlasciciel.pesel">99010764457</field>
     <field name="firma.nip">1267035795</field>
     <field name="firma.regon">267194170</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-09-15</field>
@@ -157,17 +157,17 @@
     <field name="firma.adresDzialalnosci">Bohaterów Westerplatte 80, 65-034 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">Bohaterów Westerplatte 80, 65-034 Zielona Góra</field>
     <field name="firma.telefon">48-668-508-929</field>
-    <field name="firma.email">marek.zielinski71@yahoo.com</field>
+    <field name="firma.email">nikodem.krawczyk71@yahoo.com</field>
     <field name="firma.www">https://www.zielinski-bracia-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00409</field>
     <field name="firma.nazwa">Szymański i Synowie sp z oo</field>
     <field name="firma.skroconaNazwa">Szymański i Synowie</field>
-    <field name="firma.wlasciciel.imie">Barbara</field>
-    <field name="firma.wlasciciel.drugieImie">Karolina</field>
-    <field name="firma.wlasciciel.nazwisko">Szymańska</field>
-    <field name="firma.wlasciciel.pesel">68101417802</field>
+    <field name="firma.wlasciciel.imie">Martyna</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Woźniak</field>
+    <field name="firma.wlasciciel.pesel">00221465800</field>
     <field name="firma.nip">1267114980</field>
     <field name="firma.regon">267273366</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2015-07-03</field>
@@ -177,17 +177,17 @@
     <field name="firma.adresDzialalnosci">ul. Kupiecka 97/85, 65-058 Zielona Góra</field>
     <field name="firma.adresKorespondencyjny">ul. Kupiecka 97/85, 65-058 Zielona Góra</field>
     <field name="firma.telefon">547 684 112</field>
-    <field name="firma.email">barbara.szymanska@gmail.com</field>
+    <field name="firma.email">martyna.wozniak@gmail.com</field>
     <field name="firma.www"></field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00410</field>
     <field name="firma.nazwa">Szymański i Wspólnicy sp. z o. o.</field>
     <field name="firma.skroconaNazwa">Szymański i Wspólnicy</field>
-    <field name="firma.wlasciciel.imie">Rafał</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Dąbrowski</field>
-    <field name="firma.wlasciciel.pesel">69112119190</field>
+    <field name="firma.wlasciciel.imie">Miłosz</field>
+    <field name="firma.wlasciciel.drugieImie">Marian</field>
+    <field name="firma.wlasciciel.nazwisko">Jankowski</field>
+    <field name="firma.wlasciciel.pesel">01232167198</field>
     <field name="firma.nip">1277194207</field>
     <field name="firma.regon">267352551</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-07-29</field>
@@ -197,17 +197,17 @@
     <field name="firma.adresDzialalnosci">ul Świętojańska 114, 81-372 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ul Świętojańska 114, 81-372 Gdynia</field>
     <field name="firma.telefon">(48) 781608833</field>
-    <field name="firma.email">r.dabrowski@outlook.com</field>
+    <field name="firma.email">m.jankowski@outlook.com</field>
     <field name="firma.www">https://www.szymanski-i-wspolnicy-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00411</field>
     <field name="firma.nazwa">Szymański Spółka Rodzinna Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Szymański Spółka Rodzinna</field>
-    <field name="firma.wlasciciel.imie">Aleksandra</field>
-    <field name="firma.wlasciciel.drugieImie">Małgorzata</field>
-    <field name="firma.wlasciciel.nazwisko">Mazur</field>
-    <field name="firma.wlasciciel.pesel">70122820541</field>
+    <field name="firma.wlasciciel.imie">Agata</field>
+    <field name="firma.wlasciciel.drugieImie">Irena</field>
+    <field name="firma.wlasciciel.nazwisko">Grabowska</field>
+    <field name="firma.wlasciciel.pesel">02242868547</field>
     <field name="firma.nip">1267273365</field>
     <field name="firma.regon">267431747</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-12-21</field>
@@ -217,17 +217,17 @@
     <field name="firma.adresDzialalnosci">ulica 10 Lutego 131, 81-364 Gdynia</field>
     <field name="firma.adresKorespondencyjny">ulica 10 Lutego 131, 81-364 Gdynia</field>
     <field name="firma.telefon">677332961</field>
-    <field name="firma.email">mazur.aleksandra@wp.pl</field>
+    <field name="firma.email">grabowska.agata@wp.pl</field>
     <field name="firma.www">https://www.szymanski-spolka-rodzinna.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00412</field>
     <field name="firma.nazwa">Szymański Bracia SP Z O O</field>
     <field name="firma.skroconaNazwa">Szymański Bracia</field>
-    <field name="firma.wlasciciel.imie">Andrzej</field>
-    <field name="firma.wlasciciel.drugieImie">Jakub</field>
-    <field name="firma.wlasciciel.nazwisko">Krawczyk</field>
-    <field name="firma.wlasciciel.pesel">71010721939</field>
+    <field name="firma.wlasciciel.imie">Tadeusz</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Pawlak</field>
+    <field name="firma.wlasciciel.pesel">03250769930</field>
     <field name="firma.nip">1267352550</field>
     <field name="firma.regon">267510932</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-11-27</field>
@@ -237,17 +237,17 @@
     <field name="firma.adresDzialalnosci">Bolesława Prusa 148, 05-800 Pruszków</field>
     <field name="firma.adresKorespondencyjny">Bolesława Prusa 148, 05-800 Pruszków</field>
     <field name="firma.telefon">760103482</field>
-    <field name="firma.email">andrzejkrawczyk@onet.pl</field>
+    <field name="firma.email">tadeuszpawlak@onet.pl</field>
     <field name="firma.www">https://szymanski-bracia.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00413</field>
     <field name="firma.nazwa">Woźniak i Synowie spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Woźniak i Synowie</field>
-    <field name="firma.wlasciciel.imie">Marta</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Woźniak</field>
-    <field name="firma.wlasciciel.pesel">72021423289</field>
+    <field name="firma.wlasciciel.imie">Helena</field>
+    <field name="firma.wlasciciel.drugieImie">Izabela</field>
+    <field name="firma.wlasciciel.nazwisko">Michalska</field>
+    <field name="firma.wlasciciel.pesel">04261471283</field>
     <field name="firma.nip">1267431746</field>
     <field name="firma.regon">267590121</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-09-19</field>
@@ -257,17 +257,17 @@
     <field name="firma.adresDzialalnosci">ul. Kościuszki 165/47, 05-500 Piaseczno</field>
     <field name="firma.adresKorespondencyjny">ul. Kościuszki 165/47, 05-500 Piaseczno</field>
     <field name="firma.telefon">694 973 146</field>
-    <field name="firma.email">marta_wozniak@interia.pl</field>
+    <field name="firma.email">helena_michalska@interia.pl</field>
     <field name="firma.www">https://www.wozniak-i-synowie-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00414</field>
     <field name="firma.nazwa">Woźniak i Wspólnicy Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Woźniak i Wspólnicy</field>
-    <field name="firma.wlasciciel.imie">Łukasz</field>
-    <field name="firma.wlasciciel.drugieImie">Artur</field>
-    <field name="firma.wlasciciel.nazwisko">Jankowski</field>
-    <field name="firma.wlasciciel.pesel">73032124675</field>
+    <field name="firma.wlasciciel.imie">Stefan</field>
+    <field name="firma.wlasciciel.drugieImie">Mirosław</field>
+    <field name="firma.wlasciciel.nazwisko">Król</field>
+    <field name="firma.wlasciciel.pesel">05272172679</field>
     <field name="firma.nip">1267510931</field>
     <field name="firma.regon">267669319</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-03-31</field>
@@ -277,17 +277,17 @@
     <field name="firma.adresDzialalnosci">2, 32-020 Wieliczka</field>
     <field name="firma.adresKorespondencyjny">2, 32-020 Wieliczka</field>
     <field name="firma.telefon">48-617-792-243</field>
-    <field name="firma.email">lukasz.jankowski77@o2.pl</field>
+    <field name="firma.email">stefan.krol77@o2.pl</field>
     <field name="firma.www">https://www.wozniak-i-wspolnicy-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00415</field>
     <field name="firma.nazwa">Woźniak Spółka Rodzinna S.A.</field>
     <field name="firma.skroconaNazwa">Woźniak Spółka Rodzinna</field>
-    <field name="firma.wlasciciel.imie">Paulina</field>
-    <field name="firma.wlasciciel.drugieImie">Iwona</field>
-    <field name="firma.wlasciciel.nazwisko">Grabowska</field>
-    <field name="firma.wlasciciel.pesel">74042826025</field>
+    <field name="firma.wlasciciel.imie">Jadwiga</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Wieczorek</field>
+    <field name="firma.wlasciciel.pesel">60082874025</field>
     <field name="firma.nip">1267590120</field>
     <field name="firma.regon">267748504</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2019-02-25</field>
@@ -297,17 +297,17 @@
     <field name="firma.adresDzialalnosci">ulica Dąbrowskiego 19, 32-600 Oświęcim</field>
     <field name="firma.adresKorespondencyjny">ulica Dąbrowskiego 19, 32-600 Oświęcim</field>
     <field name="firma.telefon">557 602 755</field>
-    <field name="firma.email">paulina.grabowska@proton.me</field>
+    <field name="firma.email">jadwiga.wieczorek@proton.me</field>
     <field name="firma.www"></field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00416</field>
     <field name="firma.nazwa">Woźniak Bracia SA</field>
     <field name="firma.skroconaNazwa">Woźniak Bracia</field>
-    <field name="firma.wlasciciel.imie">Mateusz</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Pawlak</field>
-    <field name="firma.wlasciciel.pesel">75050727418</field>
+    <field name="firma.wlasciciel.imie">Józef</field>
+    <field name="firma.wlasciciel.drugieImie">Piotr</field>
+    <field name="firma.wlasciciel.nazwisko">Jabłoński</field>
+    <field name="firma.wlasciciel.pesel">61090775418</field>
     <field name="firma.nip">1267669318</field>
     <field name="firma.regon">267827698</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-09-29</field>
@@ -317,17 +317,17 @@
     <field name="firma.adresDzialalnosci">Rynek 36, 38-400 Krosno</field>
     <field name="firma.adresKorespondencyjny">Rynek 36, 38-400 Krosno</field>
     <field name="firma.telefon">(48) 626824679</field>
-    <field name="firma.email">m.pawlak@yahoo.com</field>
+    <field name="firma.email">j.jablonski@yahoo.com</field>
     <field name="firma.www">https://www.wozniak-bracia.pl</field>
   </record>
   <record>
-    <field name="firma.id"></field>
+    <field name="firma.id">FIRMAID-00417</field>
     <field name="firma.nazwa">Kozłowski i Synowie S. A.</field>
     <field name="firma.skroconaNazwa">Kozłowski i Synowie</field>
-    <field name="firma.wlasciciel.imie">Elżbieta</field>
-    <field name="firma.wlasciciel.drugieImie">Renata</field>
-    <field name="firma.wlasciciel.nazwisko">Michalska</field>
-    <field name="firma.wlasciciel.pesel">76061428767</field>
+    <field name="firma.wlasciciel.imie">Monika</field>
+    <field name="firma.wlasciciel.drugieImie">Maria</field>
+    <field name="firma.wlasciciel.nazwisko">Witkowska</field>
+    <field name="firma.wlasciciel.pesel">62101476760</field>
     <field name="firma.nip">1267748503</field>
     <field name="firma.regon">267906883</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-12-07</field>
@@ -337,17 +337,17 @@
     <field name="firma.adresDzialalnosci">ul. Mickiewicza 53/9, 39-300 Mielec</field>
     <field name="firma.adresKorespondencyjny">ul. Mickiewicza 53/9, 39-300 Mielec</field>
     <field name="firma.telefon"></field>
-    <field name="firma.email">michalska.elzbieta@gmail.com</field>
+    <field name="firma.email"></field>
     <field name="firma.www">https://kozlowski-i-synowie.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00418</field>
     <field name="firma.nazwa">Kozłowski i Wspólnicy Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Kozłowski i Wspólnicy</field>
-    <field name="firma.wlasciciel.imie">Dawid</field>
-    <field name="firma.wlasciciel.drugieImie">Maciej</field>
-    <field name="firma.wlasciciel.nazwisko">Król</field>
-    <field name="firma.wlasciciel.pesel">77072130157</field>
+    <field name="firma.wlasciciel.imie">Edward</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Walczak</field>
+    <field name="firma.wlasciciel.pesel">63112178157</field>
     <field name="firma.nip">1267827697</field>
     <field name="firma.regon">267986072</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-03-01</field>
@@ -357,17 +357,17 @@
     <field name="firma.adresDzialalnosci">ul Długa 70, 58-100 Świdnica</field>
     <field name="firma.adresKorespondencyjny">ul Długa 70, 58-100 Świdnica</field>
     <field name="firma.telefon">48-517-354-991</field>
-    <field name="firma.email">dawidkrol@outlook.com</field>
+    <field name="firma.email">edwardwalczak@outlook.com</field>
     <field name="firma.www">https://www.kozlowski-i-wspolnicy-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00419</field>
     <field name="firma.nazwa">Kozłowski Spółka Rodzinna sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Kozłowski Spółka Rodzinna</field>
-    <field name="firma.wlasciciel.imie">Dorota</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Wieczorek</field>
-    <field name="firma.wlasciciel.pesel">78082831506</field>
+    <field name="firma.wlasciciel.imie">Sabina</field>
+    <field name="firma.wlasciciel.drugieImie">Joanna</field>
+    <field name="firma.wlasciciel.nazwisko">Stępień</field>
+    <field name="firma.wlasciciel.pesel">64122879506</field>
     <field name="firma.nip">1267906882</field>
     <field name="firma.regon">268065262</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-11-26</field>
@@ -377,17 +377,17 @@
     <field name="firma.adresDzialalnosci">ulica Wojska Polskiego 87, 57-300 Kłodzko</field>
     <field name="firma.adresKorespondencyjny">ulica Wojska Polskiego 87, 57-300 Kłodzko</field>
     <field name="firma.telefon">48-708-620-800</field>
-    <field name="firma.email">dorota_wieczorek@wp.pl</field>
+    <field name="firma.email">sabina_stepien@wp.pl</field>
     <field name="firma.www">https://www.kozlowski-spolka-rodzinna-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00420</field>
     <field name="firma.nazwa">Kozłowski Bracia sp z oo</field>
     <field name="firma.skroconaNazwa">Kozłowski Bracia</field>
-    <field name="firma.wlasciciel.imie">Dariusz</field>
-    <field name="firma.wlasciciel.drugieImie">Zbigniew</field>
-    <field name="firma.wlasciciel.nazwisko">Jabłoński</field>
-    <field name="firma.wlasciciel.pesel">79090732890</field>
+    <field name="firma.wlasciciel.imie">Arkadiusz</field>
+    <field name="firma.wlasciciel.drugieImie">Paweł</field>
+    <field name="firma.wlasciciel.nazwisko">Baran</field>
+    <field name="firma.wlasciciel.pesel">65010780898</field>
     <field name="firma.nip">1267986071</field>
     <field name="firma.regon">268144458</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-01-09</field>
@@ -397,17 +397,17 @@
     <field name="firma.adresDzialalnosci">Chrobrego 104, Gniezno</field>
     <field name="firma.adresKorespondencyjny">Chrobrego 104, Gniezno</field>
     <field name="firma.telefon">48-743-691-441</field>
-    <field name="firma.email">dariusz.jablonski83@onet.pl</field>
+    <field name="firma.email">arkadiusz.baran83@onet.pl</field>
     <field name="firma.www">https://www.kozlowski-bracia-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00421</field>
     <field name="firma.nazwa">PPHU Budownictwo Zielony</field>
     <field name="firma.skroconaNazwa">PPHU Budownictwo Zielony</field>
-    <field name="firma.wlasciciel.imie">Beata</field>
-    <field name="firma.wlasciciel.drugieImie">Patrycja</field>
-    <field name="firma.wlasciciel.nazwisko">Witkowska</field>
-    <field name="firma.wlasciciel.pesel">80101434241</field>
+    <field name="firma.wlasciciel.imie">Anna</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Rutkowska</field>
+    <field name="firma.wlasciciel.pesel">66021482247</field>
     <field name="firma.nip">1268065261</field>
     <field name="firma.regon">268223643</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2010-07-31</field>
@@ -417,17 +417,17 @@
     <field name="firma.adresDzialalnosci">ul. Słowiańska 121/61, 64-100 Leszno</field>
     <field name="firma.adresKorespondencyjny">ul. Słowiańska 121/61, 64-100 Leszno</field>
     <field name="firma.telefon">48-569-153-524</field>
-    <field name="firma.email">beata.witkowska@interia.pl</field>
+    <field name="firma.email">anna.rutkowska@interia.pl</field>
     <field name="firma.www"></field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00422</field>
     <field name="firma.nazwa">Transport Srebrny Sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Transport Srebrny</field>
-    <field name="firma.wlasciciel.imie">Sławomir</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Walczak</field>
-    <field name="firma.wlasciciel.pesel">81112135637</field>
+    <field name="firma.wlasciciel.imie">Tomasz</field>
+    <field name="firma.wlasciciel.drugieImie">Robert</field>
+    <field name="firma.wlasciciel.nazwisko">Górski</field>
+    <field name="firma.wlasciciel.pesel">67032183633</field>
     <field name="firma.nip">1268144457</field>
     <field name="firma.regon">268302839</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-05-19</field>
@@ -437,17 +437,17 @@
     <field name="firma.adresDzialalnosci">ul Gdańska 138, 83-110 Tczew</field>
     <field name="firma.adresKorespondencyjny">ul Gdańska 138, 83-110 Tczew</field>
     <field name="firma.telefon">(48) 746803310</field>
-    <field name="firma.email">s.walczak@o2.pl</field>
+    <field name="firma.email">t.gorski@o2.pl</field>
     <field name="firma.www">https://transport-srebrny.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00423</field>
     <field name="firma.nazwa">Spedycja Pewny SP Z O O</field>
     <field name="firma.skroconaNazwa">Spedycja Pewny</field>
-    <field name="firma.wlasciciel.imie">Urszula</field>
-    <field name="firma.wlasciciel.drugieImie">Wiktoria</field>
-    <field name="firma.wlasciciel.nazwisko">Stępień</field>
-    <field name="firma.wlasciciel.pesel">82122836987</field>
+    <field name="firma.wlasciciel.imie">Katarzyna</field>
+    <field name="firma.wlasciciel.drugieImie">Agnieszka</field>
+    <field name="firma.wlasciciel.nazwisko">Sikora</field>
+    <field name="firma.wlasciciel.pesel">68042884983</field>
     <field name="firma.nip">1268223642</field>
     <field name="firma.regon">268382028</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2025-02-08</field>
@@ -457,17 +457,17 @@
     <field name="firma.adresDzialalnosci">ulica Sobieskiego 155, 84-200 Wejherowo</field>
     <field name="firma.adresKorespondencyjny">ulica Sobieskiego 155, 84-200 Wejherowo</field>
     <field name="firma.telefon">(48) 730490140</field>
-    <field name="firma.email">stepien.urszula@proton.me</field>
+    <field name="firma.email">sikora.katarzyna@proton.me</field>
     <field name="firma.www">https://www.spedycja-pewny-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00424</field>
     <field name="firma.nazwa">Logistyka Europejski spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Logistyka Europejski</field>
-    <field name="firma.wlasciciel.imie">Mariusz</field>
-    <field name="firma.wlasciciel.drugieImie">Jacek</field>
-    <field name="firma.wlasciciel.nazwisko">Baran</field>
-    <field name="firma.wlasciciel.pesel">83010738376</field>
+    <field name="firma.wlasciciel.imie">Krzysztof</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Ostrowski</field>
+    <field name="firma.wlasciciel.pesel">69050786377</field>
     <field name="firma.nip">1268302838</field>
     <field name="firma.regon">268461213</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-11-30</field>
@@ -477,17 +477,17 @@
     <field name="firma.adresDzialalnosci">Głęboka 172, 43-400 Cieszyn</field>
     <field name="firma.adresKorespondencyjny">Głęboka 172, 43-400 Cieszyn</field>
     <field name="firma.telefon">48-558-899-603</field>
-    <field name="firma.email">mariuszbaran@yahoo.com</field>
+    <field name="firma.email">krzysztofostrowski@yahoo.com</field>
     <field name="firma.www">https://www.logistyka-europejski-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00425</field>
     <field name="firma.nazwa">Handel Nowoczesny Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Handel Nowoczesny</field>
-    <field name="firma.wlasciciel.imie">Izabela</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Rutkowska</field>
-    <field name="firma.wlasciciel.pesel">84021439724</field>
+    <field name="firma.wlasciciel.imie">Ewa</field>
+    <field name="firma.wlasciciel.drugieImie">Justyna</field>
+    <field name="firma.wlasciciel.nazwisko">Tomaszewska</field>
+    <field name="firma.wlasciciel.pesel">70061487724</field>
     <field name="firma.nip">1268382027</field>
     <field name="firma.regon">268540409</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2017-04-01</field>
@@ -497,17 +497,17 @@
     <field name="firma.adresDzialalnosci">ul. Małachowskiego 9/23, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">ul. Małachowskiego 9/23, 42-500 Będzin</field>
     <field name="firma.telefon">(48) 718340133</field>
-    <field name="firma.email">izabela_rutkowska@gmail.com</field>
+    <field name="firma.email">ewa_tomaszewska@gmail.com</field>
     <field name="firma.www">https://www.handel-nowoczesny-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00426</field>
     <field name="firma.nazwa">Usługi Stabilny S.A.</field>
     <field name="firma.skroconaNazwa">Usługi Stabilny</field>
-    <field name="firma.wlasciciel.imie">Henryk</field>
-    <field name="firma.wlasciciel.drugieImie">Przemysław</field>
-    <field name="firma.wlasciciel.nazwisko">Górski</field>
-    <field name="firma.wlasciciel.pesel">85032141114</field>
+    <field name="firma.wlasciciel.imie">Adam</field>
+    <field name="firma.wlasciciel.drugieImie">Jan</field>
+    <field name="firma.wlasciciel.nazwisko">Zając</field>
+    <field name="firma.wlasciciel.pesel">71072189111</field>
     <field name="firma.nip">1268461212</field>
     <field name="firma.regon">268619594</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2018-08-15</field>
@@ -517,17 +517,17 @@
     <field name="firma.adresDzialalnosci">ul Królowej Jadwigi 26, 88-100 Inowrocław</field>
     <field name="firma.adresKorespondencyjny">ul Królowej Jadwigi 26, 88-100 Inowrocław</field>
     <field name="firma.telefon">695 991 543</field>
-    <field name="firma.email">henryk.gorski89@outlook.com</field>
+    <field name="firma.email">adam.zajac89@outlook.com</field>
     <field name="firma.www">https://www.uslugi-stabilny.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00427</field>
     <field name="firma.nazwa">Finanse Aktywny SA</field>
     <field name="firma.skroconaNazwa">Finanse Aktywny</field>
-    <field name="firma.wlasciciel.imie">Weronika</field>
-    <field name="firma.wlasciciel.drugieImie">Kinga</field>
-    <field name="firma.wlasciciel.nazwisko">Sikora</field>
-    <field name="firma.wlasciciel.pesel">86042842464</field>
+    <field name="firma.wlasciciel.imie">Monika</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Pietrzak</field>
+    <field name="firma.wlasciciel.pesel">72082890464</field>
     <field name="firma.nip">1268540408</field>
     <field name="firma.regon">268698783</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-04-15</field>
@@ -537,17 +537,17 @@
     <field name="firma.adresDzialalnosci">ulica Wybickiego 43, 86-300 Grudziądz</field>
     <field name="firma.adresKorespondencyjny">ulica Wybickiego 43, 86-300 Grudziądz</field>
     <field name="firma.telefon">48-656-311-774</field>
-    <field name="firma.email">weronika.sikora@wp.pl</field>
+    <field name="firma.email">monika.pietrzak@wp.pl</field>
     <field name="firma.www"></field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00428</field>
     <field name="firma.nazwa">Doradztwo Blue S. A.</field>
     <field name="firma.skroconaNazwa">Doradztwo Blue</field>
-    <field name="firma.wlasciciel.imie">Stanisław</field>
-    <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Ostrowski</field>
-    <field name="firma.wlasciciel.pesel">87050743857</field>
+    <field name="firma.wlasciciel.imie">Marek</field>
+    <field name="firma.wlasciciel.drugieImie">Marcin</field>
+    <field name="firma.wlasciciel.nazwisko">Wójcicki</field>
+    <field name="firma.wlasciciel.pesel">73090791857</field>
     <field name="firma.nip">1268619593</field>
     <field name="firma.regon">268777979</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-01-03</field>
@@ -557,17 +557,17 @@
     <field name="firma.adresDzialalnosci">60, 14-100 Ostróda</field>
     <field name="firma.adresKorespondencyjny">60, 14-100 Ostróda</field>
     <field name="firma.telefon">754 471 062</field>
-    <field name="firma.email">s.ostrowski@onet.pl</field>
+    <field name="firma.email">m.wojcicki@onet.pl</field>
     <field name="firma.www">https://www.doradztwo-blue-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00429</field>
     <field name="firma.nazwa">Szkolenia Smart Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Szkolenia Smart</field>
-    <field name="firma.wlasciciel.imie">Zofia</field>
-    <field name="firma.wlasciciel.drugieImie">Kamila</field>
-    <field name="firma.wlasciciel.nazwisko">Tomaszewska</field>
-    <field name="firma.wlasciciel.pesel">88061445206</field>
+    <field name="firma.wlasciciel.imie">Barbara</field>
+    <field name="firma.wlasciciel.drugieImie">Karolina</field>
+    <field name="firma.wlasciciel.nazwisko">Czarnecka</field>
+    <field name="firma.wlasciciel.pesel">74101493209</field>
     <field name="firma.nip">1268698782</field>
     <field name="firma.regon">268857164</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2024-12-25</field>
@@ -577,17 +577,17 @@
     <field name="firma.adresDzialalnosci">ul. Warszawska 77/75, 11-500 Giżycko</field>
     <field name="firma.adresKorespondencyjny">ul. Warszawska 77/75, 11-500 Giżycko</field>
     <field name="firma.telefon">511329428</field>
-    <field name="firma.email">tomaszewska.zofia@interia.pl</field>
+    <field name="firma.email">czarnecka.barbara@interia.pl</field>
     <field name="firma.www">https://www.szkolenia-smart-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00430</field>
     <field name="firma.nazwa">Media Best sp. z o.o.</field>
     <field name="firma.skroconaNazwa">Media Best</field>
-    <field name="firma.wlasciciel.imie">Bartłomiej</field>
-    <field name="firma.wlasciciel.drugieImie">Daniel</field>
-    <field name="firma.wlasciciel.nazwisko">Zając</field>
-    <field name="firma.wlasciciel.pesel">89072146593</field>
+    <field name="firma.wlasciciel.imie">Rafał</field>
+    <field name="firma.wlasciciel.drugieImie"></field>
+    <field name="firma.wlasciciel.nazwisko">Lis</field>
+    <field name="firma.wlasciciel.pesel">75112194596</field>
     <field name="firma.nip">1268777978</field>
     <field name="firma.regon">278936387</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2011-01-14</field>
@@ -597,7 +597,7 @@
     <field name="firma.adresDzialalnosci">ul Lubelska 94, 24-100 Puławy</field>
     <field name="firma.adresKorespondencyjny">ul Lubelska 94, 24-100 Puławy</field>
     <field name="firma.telefon">48-700-346-992</field>
-    <field name="firma.email">bartlomiejzajac@o2.pl</field>
+    <field name="firma.email">rafallis@o2pl</field>
     <field name="firma.www">https://www.media-best-group.eu</field>
   </record>
   <record>
@@ -637,7 +637,7 @@
     <field name="firma.adresDzialalnosci">3 Maja 128, 16-300 Augustów</field>
     <field name="firma.adresKorespondencyjny">3 Maja 128, 16-300 Augustów</field>
     <field name="firma.telefon">557356137</field>
-    <field name="firma.email">andrzej.kaczmarek95@yahoocom</field>
+    <field name="firma.email">andrzej.kaczmarek95@yahoo.com</field>
     <field name="firma.www">https://marketing-pomorski.pl</field>
   </record>
   <record>
@@ -897,7 +897,7 @@
     <field name="firma.adresDzialalnosci">ul. Jagiellońska 169/13, 05-120 Legionowo</field>
     <field name="firma.adresKorespondencyjny">ul. Jagiellońska 169/13, 05-120 Legionowo</field>
     <field name="firma.telefon">597 294 152</field>
-    <field name="firma.email">izabela.olszewska@interia.pl</field>
+    <field name="firma.email">izabela.olszewska@firmaa.pl</field>
     <field name="firma.www"></field>
   </record>
   <record>
@@ -997,7 +997,7 @@
     <field name="firma.adresDzialalnosci">ul Karmelicka 74, 31-128 Kraków</field>
     <field name="firma.adresKorespondencyjny">ul Karmelicka 74, 31-128 Kraków</field>
     <field name="firma.telefon">+48 747 718 270</field>
-    <field name="firma.email">bartlomiej.czerwinski84@firmaa.pl</field>
+    <field name="firma.email">bartlomiej.czerwinski84@outlook.com</field>
     <field name="firma.www">https://www.gastronomia-dobry-group.eu</field>
   </record>
   <record>
@@ -1141,7 +1141,7 @@
     <field name="firma.www"></field>
   </record>
   <record>
-    <field name="firma.id">FIRAMID-00458</field>
+    <field name="firma.id">FIRMAID-00458</field>
     <field name="firma.nazwa">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
     <field name="firma.skroconaNazwa">Ochrona Śląski</field>
     <field name="firma.wlasciciel.imie">Cezary</field>
@@ -1202,8 +1202,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00461</field>
-    <field name="firma.nazwa">P.P.H.U. ZLS</field>
-    <field name="firma.skroconaNazwa">P.P.H.U. ZLS</field>
+    <field name="firma.nazwa">P.P.H.U. ORR</field>
+    <field name="firma.skroconaNazwa">P.P.H.U. ORR</field>
     <field name="firma.wlasciciel.imie">Zuzanna</field>
     <field name="firma.wlasciciel.drugieImie">Emilia</field>
     <field name="firma.wlasciciel.nazwisko">Gajewska</field>
@@ -1218,12 +1218,12 @@
     <field name="firma.adresKorespondencyjny">ul. Rynek 81/41, 50-101 Wrocław</field>
     <field name="firma.telefon">+48 620 744 475</field>
     <field name="firma.email">zuzanna_gajewska@interia.pl</field>
-    <field name="firma.www">https://www.zls.com.pl</field>
+    <field name="firma.www">https://www.orr.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00462</field>
-    <field name="firma.nazwa">UZA Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">UZA</field>
+    <field name="firma.nazwa">BDZ Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">BDZ</field>
     <field name="firma.wlasciciel.imie">Mikołaj</field>
     <field name="firma.wlasciciel.drugieImie">Ignacy</field>
     <field name="firma.wlasciciel.nazwisko">Laskowski</field>
@@ -1238,12 +1238,12 @@
     <field name="firma.adresKorespondencyjny">ul Jedności Narodowej 98, 50-260 Wrocław</field>
     <field name="firma.telefon">+48 613 660 826</field>
     <field name="firma.email">mikolaj.laskowski96@o2.pl</field>
-    <field name="firma.www">https://uza.eu</field>
+    <field name="firma.www">https://bdz.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00463</field>
-    <field name="firma.nazwa">NKV sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">NKV</field>
+    <field name="firma.nazwa">SYT sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">SYT</field>
     <field name="firma.wlasciciel.imie">Lena</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Mazurek</field>
@@ -1262,8 +1262,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00464</field>
-    <field name="firma.nazwa">SAI sp z oo</field>
-    <field name="firma.skroconaNazwa">SAI</field>
+    <field name="firma.nazwa">FFB sp z oo</field>
+    <field name="firma.skroconaNazwa">FFB</field>
     <field name="firma.wlasciciel.imie">Antoni</field>
     <field name="firma.wlasciciel.drugieImie">Leon</field>
     <field name="firma.wlasciciel.nazwisko">Sobczak</field>
@@ -1278,12 +1278,12 @@
     <field name="firma.adresKorespondencyjny">Odrodzenia 132, 59-300 Lubin</field>
     <field name="firma.telefon">676 236 446</field>
     <field name="firma.email">a.sobczak@yahoo.com</field>
-    <field name="firma.www">https://www.sai-group.pl</field>
+    <field name="firma.www">https://www.ffb-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00465</field>
-    <field name="firma.nazwa">EFT sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">EFT</field>
+    <field name="firma.nazwa">HVB sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">HVB</field>
     <field name="firma.wlasciciel.imie">Hanna</field>
     <field name="firma.wlasciciel.drugieImie">Dominika</field>
     <field name="firma.wlasciciel.nazwisko">Konieczna</field>
@@ -1298,12 +1298,12 @@
     <field name="firma.adresKorespondencyjny">os. Słowackiego 149/3, 58-300 Wałbrzych</field>
     <field name="firma.telefon">48-561-380-721</field>
     <field name="firma.email">konieczna.hanna@gmail.com</field>
-    <field name="firma.www">https://www.eft-group.com.pl</field>
+    <field name="firma.www">https://www.hvb-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00466</field>
-    <field name="firma.nazwa">HMO Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">HMO</field>
+    <field name="firma.nazwa">TTH Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">TTH</field>
     <field name="firma.wlasciciel.imie">Franciszek</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Brzeziński</field>
@@ -1318,12 +1318,12 @@
     <field name="firma.adresKorespondencyjny">ul Półwiejska 166, 61-888 Poznań</field>
     <field name="firma.telefon">(48) 794655769</field>
     <field name="firma.email">franciszekbrzezinski@outlook.com</field>
-    <field name="firma.www">https://www.hmo.eu</field>
+    <field name="firma.www">https://www.tth.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00467</field>
-    <field name="firma.nazwa">OYX SP Z O O</field>
-    <field name="firma.skroconaNazwa">OYX</field>
+    <field name="firma.nazwa">IJD SP Z O O</field>
+    <field name="firma.skroconaNazwa">IJD</field>
     <field name="firma.wlasciciel.imie">Amelia</field>
     <field name="firma.wlasciciel.drugieImie">Jagoda</field>
     <field name="firma.wlasciciel.nazwisko">Makowska</field>
@@ -1338,12 +1338,12 @@
     <field name="firma.adresKorespondencyjny">ulica os. Bolesława Chrobrego 3, 60-681 Poznań</field>
     <field name="firma.telefon">(48) 509423758</field>
     <field name="firma.email">amelia_makowska@wp.pl</field>
-    <field name="firma.www">https://oyx.local</field>
+    <field name="firma.www">https://ijd.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00468</field>
-    <field name="firma.nazwa">IQS spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">IQS</field>
+    <field name="firma.nazwa">GEU spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">GEU</field>
     <field name="firma.wlasciciel.imie">Nikodem</field>
     <field name="firma.wlasciciel.drugieImie">Jerzy</field>
     <field name="firma.wlasciciel.nazwisko">Wrona</field>
@@ -1358,12 +1358,12 @@
     <field name="firma.adresKorespondencyjny">Główny Rynek 20, 62-800 Kalisz</field>
     <field name="firma.telefon">(48) 596260155</field>
     <field name="firma.email">nikodem.wrona73@onet.pl</field>
-    <field name="firma.www">https://www.iqs-group.pl</field>
+    <field name="firma.www">https://www.geu-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00469</field>
-    <field name="firma.nazwa">NNL Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">NNL</field>
+    <field name="firma.nazwa">IAO Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">IAO</field>
     <field name="firma.wlasciciel.imie">Martyna</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Bąk</field>
@@ -1382,8 +1382,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00470</field>
-    <field name="firma.nazwa">IIG S.A.</field>
-    <field name="firma.skroconaNazwa">IIG</field>
+    <field name="firma.nazwa">HFT S.A.</field>
+    <field name="firma.skroconaNazwa">HFT</field>
     <field name="firma.wlasciciel.imie">Miłosz</field>
     <field name="firma.wlasciciel.drugieImie">Marian</field>
     <field name="firma.wlasciciel.nazwisko">Kucharski</field>
@@ -1398,12 +1398,12 @@
     <field name="firma.adresKorespondencyjny">ul Ogarna 54, 80-826 Gdańsk</field>
     <field name="firma.telefon">+48 556 444 268</field>
     <field name="firma.email">m.kucharski@o2.pl</field>
-    <field name="firma.www">https://www.iig-group.eu</field>
+    <field name="firma.www">https://www.hft-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00471</field>
-    <field name="firma.nazwa">DUH SA</field>
-    <field name="firma.skroconaNazwa">DUH</field>
+    <field name="firma.nazwa">TWY SA</field>
+    <field name="firma.skroconaNazwa">TWY</field>
     <field name="firma.wlasciciel.imie">Agata</field>
     <field name="firma.wlasciciel.drugieImie">Irena</field>
     <field name="firma.wlasciciel.nazwisko">Lisowska</field>
@@ -1418,12 +1418,12 @@
     <field name="firma.adresKorespondencyjny">ulica os. Jasień 71, 80-180 Gdańsk</field>
     <field name="firma.telefon">+48 727 934 295</field>
     <field name="firma.email">lisowska.agata@proton.me</field>
-    <field name="firma.www">https://www.duh.local</field>
+    <field name="firma.www">https://www.twy.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00472</field>
-    <field name="firma.nazwa">WJJ S. A.</field>
-    <field name="firma.skroconaNazwa">WJJ</field>
+    <field name="firma.nazwa">KSB S. A.</field>
+    <field name="firma.skroconaNazwa">KSB</field>
     <field name="firma.wlasciciel.imie">Tadeusz</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Słowik</field>
@@ -1438,12 +1438,12 @@
     <field name="firma.adresKorespondencyjny">Bohaterów Monte Cassino 88, 81-759 Sopot</field>
     <field name="firma.telefon">699 674 865</field>
     <field name="firma.email">tadeuszslowik@yahoo.com</field>
-    <field name="firma.www">https://wjj.pl</field>
+    <field name="firma.www">https://ksb.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00473</field>
-    <field name="firma.nazwa">SNP Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">SNP</field>
+    <field name="firma.nazwa">TEZ Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">TEZ</field>
     <field name="firma.wlasciciel.imie">Helena</field>
     <field name="firma.wlasciciel.drugieImie">Izabela</field>
     <field name="firma.wlasciciel.nazwisko">Kopeć</field>
@@ -1458,12 +1458,12 @@
     <field name="firma.adresKorespondencyjny">105/17, 80-209 Chwaszczyno</field>
     <field name="firma.telefon">667 173 073</field>
     <field name="firma.email">helena_kopec@gmail.com</field>
-    <field name="firma.www">https://www.snp-group.com.pl</field>
+    <field name="firma.www">https://www.tez-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00474</field>
-    <field name="firma.nazwa">VUK sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">VUK</field>
+    <field name="firma.nazwa">ATE sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">ATE</field>
     <field name="firma.wlasciciel.imie">Stefan</field>
     <field name="firma.wlasciciel.drugieImie">Mirosław</field>
     <field name="firma.wlasciciel.nazwisko">Czajka</field>
@@ -1478,12 +1478,12 @@
     <field name="firma.adresKorespondencyjny">ul 3 Maja 122, 40-096 Katowice</field>
     <field name="firma.telefon">48-517-946-798</field>
     <field name="firma.email">stefan.czajka79@outlook.com</field>
-    <field name="firma.www">https://www.vuk-group.eu</field>
+    <field name="firma.www">https://www.ate-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00475</field>
-    <field name="firma.nazwa">YBL sp z oo</field>
-    <field name="firma.skroconaNazwa">YBL</field>
+    <field name="firma.nazwa">OBK sp z oo</field>
+    <field name="firma.skroconaNazwa">OBK</field>
     <field name="firma.wlasciciel.imie">Jadwiga</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Matusiak</field>
@@ -1502,8 +1502,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00476</field>
-    <field name="firma.nazwa">ZVK sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">ZVK</field>
+    <field name="firma.nazwa">FWF sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">FWF</field>
     <field name="firma.wlasciciel.imie">Józef</field>
     <field name="firma.wlasciciel.drugieImie">Piotr</field>
     <field name="firma.wlasciciel.nazwisko">Gajda</field>
@@ -1518,12 +1518,12 @@
     <field name="firma.adresKorespondencyjny">Zwycięstwa 156, 44-100 Gliwice</field>
     <field name="firma.telefon">516 317 653</field>
     <field name="firma.email">j.gajda@onet.pl</field>
-    <field name="firma.www">https://www.zvk.pl</field>
+    <field name="firma.www">https://www.fwf.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00477</field>
-    <field name="firma.nazwa">GCG Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">GCG</field>
+    <field name="firma.nazwa">EPD Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">EPD</field>
     <field name="firma.wlasciciel.imie">Monika</field>
     <field name="firma.wlasciciel.drugieImie">Maria</field>
     <field name="firma.wlasciciel.nazwisko">Klimek</field>
@@ -1538,12 +1538,12 @@
     <field name="firma.adresKorespondencyjny">ul. Bocheńskiego 173/69, 43-100 Tychy</field>
     <field name="firma.telefon">511528242</field>
     <field name="firma.email">klimek.monika@interia.pl</field>
-    <field name="firma.www">https://gcg.com.pl</field>
+    <field name="firma.www">https://epd.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00478</field>
-    <field name="firma.nazwa">LVO SP Z O O</field>
-    <field name="firma.skroconaNazwa">LVO</field>
+    <field name="firma.nazwa">KVZ SP Z O O</field>
+    <field name="firma.skroconaNazwa">KVZ</field>
     <field name="firma.wlasciciel.imie">Edward</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Madej</field>
@@ -1558,12 +1558,12 @@
     <field name="firma.adresKorespondencyjny">ul Najświętszej Maryi Panny 10, 42-200 Częstochowa</field>
     <field name="firma.telefon">737 928 423</field>
     <field name="firma.email">edwardmadej@o2.pl</field>
-    <field name="firma.www">https://www.lvo-group.eu</field>
+    <field name="firma.www">https://www.kvz-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00479</field>
-    <field name="firma.nazwa">ROM spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">ROM</field>
+    <field name="firma.nazwa">KEF spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">KEF</field>
     <field name="firma.wlasciciel.imie">Sabina</field>
     <field name="firma.wlasciciel.drugieImie">Joanna</field>
     <field name="firma.wlasciciel.nazwisko">Krupa</field>
@@ -1578,12 +1578,12 @@
     <field name="firma.adresKorespondencyjny">ulica 11 Listopada 27, 43-300 Bielsko-Biała</field>
     <field name="firma.telefon">597 264 419</field>
     <field name="firma.email">sabina_krupa@proton.me</field>
-    <field name="firma.www">https://www.rom-group.local</field>
+    <field name="firma.www">https://www.kef-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00480</field>
-    <field name="firma.nazwa">PJL Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">PJL</field>
+    <field name="firma.nazwa">XTN Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">XTN</field>
     <field name="firma.wlasciciel.imie">Arkadiusz</field>
     <field name="firma.wlasciciel.drugieImie">Paweł</field>
     <field name="firma.wlasciciel.nazwisko">Kaczmarczyk</field>
@@ -1598,7 +1598,7 @@
     <field name="firma.adresKorespondencyjny">44, 36-047 Niechobrz</field>
     <field name="firma.telefon">+48 786 665 136</field>
     <field name="firma.email">arkadiusz.kaczmarczyk85@yahoo.com</field>
-    <field name="firma.www">https://www.pjl-group.pl</field>
+    <field name="firma.www">https://www.xtn-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00481</field>
@@ -1622,8 +1622,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00482</field>
-    <field name="firma.nazwa">NKM SA</field>
-    <field name="firma.skroconaNazwa">NKM</field>
+    <field name="firma.nazwa">QOQ SA</field>
+    <field name="firma.skroconaNazwa">QOQ</field>
     <field name="firma.wlasciciel.imie">Tomasz</field>
     <field name="firma.wlasciciel.drugieImie">Robert</field>
     <field name="firma.wlasciciel.nazwisko">Wasilewski</field>
@@ -1638,12 +1638,12 @@
     <field name="firma.adresKorespondencyjny">ul Kościuszki 78, 38-500 Sanok</field>
     <field name="firma.telefon">795 672 152</field>
     <field name="firma.email">t.wasilewski@outlook.com</field>
-    <field name="firma.www">https://nkm.eu</field>
+    <field name="firma.www">https://qoq.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00483</field>
-    <field name="firma.nazwa">JSF S. A.</field>
-    <field name="firma.skroconaNazwa">JSF</field>
+    <field name="firma.nazwa">GVM S. A.</field>
+    <field name="firma.skroconaNazwa">GVM</field>
     <field name="firma.wlasciciel.imie">Katarzyna</field>
     <field name="firma.wlasciciel.drugieImie">Agnieszka</field>
     <field name="firma.wlasciciel.nazwisko">Kalinowska</field>
@@ -1658,12 +1658,12 @@
     <field name="firma.adresKorespondencyjny">ulica Suraska 95, 15-422 Białystok</field>
     <field name="firma.telefon">+48 624 420 080</field>
     <field name="firma.email">kalinowska.katarzyna@wp.pl</field>
-    <field name="firma.www">https://www.jsf-group.local</field>
+    <field name="firma.www">https://www.gvm-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00484</field>
-    <field name="firma.nazwa">YSY Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">YSY</field>
+    <field name="firma.nazwa">EXN Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">EXN</field>
     <field name="firma.wlasciciel.imie">Krzysztof</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Zarychta</field>
@@ -1678,12 +1678,12 @@
     <field name="firma.adresKorespondencyjny">112, 16-030</field>
     <field name="firma.telefon">48-627-192-066</field>
     <field name="firma.email">krzysztofzarychta@onet.pl</field>
-    <field name="firma.www">https://www.ysy-group.pl</field>
+    <field name="firma.www">https://www.exn-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00485</field>
-    <field name="firma.nazwa">AKX sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">AKX</field>
+    <field name="firma.nazwa">ZEH sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">ZEH</field>
     <field name="firma.wlasciciel.imie">Ewa</field>
     <field name="firma.wlasciciel.drugieImie">Justyna</field>
     <field name="firma.wlasciciel.nazwisko">Przybylska</field>
@@ -1698,12 +1698,12 @@
     <field name="firma.adresKorespondencyjny">ul. 3 Maja 129/83, 17-200 Hajnówka</field>
     <field name="firma.telefon">763401548</field>
     <field name="firma.email">ewa_przybylska@interia.pl</field>
-    <field name="firma.www">https://www.akx-group.com.pl</field>
+    <field name="firma.www">https://www.zeh-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00486</field>
-    <field name="firma.nazwa">NCK sp z oo</field>
-    <field name="firma.skroconaNazwa">NCK</field>
+    <field name="firma.nazwa">BZB sp z oo</field>
+    <field name="firma.skroconaNazwa">BZB</field>
     <field name="firma.wlasciciel.imie">Adam</field>
     <field name="firma.wlasciciel.drugieImie">Jan</field>
     <field name="firma.wlasciciel.nazwisko">Michalak</field>
@@ -1718,12 +1718,12 @@
     <field name="firma.adresKorespondencyjny">ul os. LSM 146, 20-400 Lublin</field>
     <field name="firma.telefon">564 342 000</field>
     <field name="firma.email">adam.michalak91@o2.pl</field>
-    <field name="firma.www">https://www.nck.eu</field>
+    <field name="firma.www">https://www.bzb.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00487</field>
-    <field name="firma.nazwa">RRG sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">RRG</field>
+    <field name="firma.nazwa">ZQQ sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">ZQQ</field>
     <field name="firma.wlasciciel.imie">Monika</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Szatkowska</field>
@@ -1742,13 +1742,13 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00488</field>
-    <field name="firma.nazwa">PFD Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">PFD</field>
+    <field name="firma.nazwa">DQZ Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">DQZ</field>
     <field name="firma.wlasciciel.imie">Marek</field>
     <field name="firma.wlasciciel.drugieImie">Marcin</field>
     <field name="firma.wlasciciel.nazwisko">Bednarek</field>
     <field name="firma.wlasciciel.pesel">87090774059</field>
-    <field name="firma.nip">1273370995</field>
+    <field name="firma.nip"></field>
     <field name="firma.regon">273529370</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-02-17</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2022-02-13</field>
@@ -1758,17 +1758,17 @@
     <field name="firma.adresKorespondencyjny">Brzeska 180, 21-500 Biała Podlaska</field>
     <field name="firma.telefon">598 810 563</field>
     <field name="firma.email">m.bednarek@yahoo.com</field>
-    <field name="firma.www">https://www.pfd-group.pl</field>
+    <field name="firma.www">https://www.dqz-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00489</field>
-    <field name="firma.nazwa">JJS SP Z O O</field>
-    <field name="firma.skroconaNazwa">JJS</field>
+    <field name="firma.nazwa">ASW SP Z O O</field>
+    <field name="firma.skroconaNazwa">ASW</field>
     <field name="firma.wlasciciel.imie">Barbara</field>
     <field name="firma.wlasciciel.drugieImie">Karolina</field>
     <field name="firma.wlasciciel.nazwisko">Podgórska</field>
     <field name="firma.wlasciciel.pesel">88101475400</field>
-    <field name="firma.nip"></field>
+    <field name="firma.nip">1273450180</field>
     <field name="firma.regon">273608566</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2020-10-29</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
@@ -1778,12 +1778,12 @@
     <field name="firma.adresKorespondencyjny">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
     <field name="firma.telefon">536201309</field>
     <field name="firma.email">podgorska.barbara@gmail.com</field>
-    <field name="firma.www">https://www.jjs-group.com.pl</field>
+    <field name="firma.www">https://www.asw-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00490</field>
-    <field name="firma.nazwa">MZL spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">MZL</field>
+    <field name="firma.nazwa">REY spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">REY</field>
     <field name="firma.wlasciciel.imie">Rafał</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Śliwiński</field>
@@ -1798,12 +1798,12 @@
     <field name="firma.adresKorespondencyjny">ul Mostowa 34, 85-110 Bydgoszcz</field>
     <field name="firma.telefon">+48 546 412 435</field>
     <field name="firma.email">rafalsliwinski@outlook.com</field>
-    <field name="firma.www">https://www.mzl-group.eu</field>
+    <field name="firma.www">https://www.rey-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00491</field>
-    <field name="firma.nazwa">XOU Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">XOU</field>
+    <field name="firma.nazwa">VDS Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">VDS</field>
     <field name="firma.wlasciciel.imie">Aleksandra</field>
     <field name="firma.wlasciciel.drugieImie">Małgorzata</field>
     <field name="firma.wlasciciel.nazwisko">Czajkowska</field>
@@ -1818,12 +1818,12 @@
     <field name="firma.adresKorespondencyjny">ulica Stare Miasto 51, 10-026 Olsztyn</field>
     <field name="firma.telefon">48-766-296-903</field>
     <field name="firma.email">aleksandra_czajkowska@wp.pl</field>
-    <field name="firma.www">https://www.xou.local</field>
+    <field name="firma.www">https://www.vds.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00492</field>
-    <field name="firma.nazwa">BGD S.A.</field>
-    <field name="firma.skroconaNazwa">BGD</field>
+    <field name="firma.nazwa">JII S.A.</field>
+    <field name="firma.skroconaNazwa">JII</field>
     <field name="firma.wlasciciel.imie">Andrzej</field>
     <field name="firma.wlasciciel.drugieImie">Jakub</field>
     <field name="firma.wlasciciel.nazwisko">Biernat</field>
@@ -1838,12 +1838,12 @@
     <field name="firma.adresKorespondencyjny">Warszawska 68, 11-700 Mrągowo</field>
     <field name="firma.telefon">(48) 556760835</field>
     <field name="firma.email">andrzej.biernat97@onet.pl</field>
-    <field name="firma.www">https://bgd.pl</field>
+    <field name="firma.www">https://jii.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00493</field>
-    <field name="firma.nazwa">GBS SA</field>
-    <field name="firma.skroconaNazwa">GBS</field>
+    <field name="firma.nazwa">UYY SA</field>
+    <field name="firma.skroconaNazwa">UYY</field>
     <field name="firma.wlasciciel.imie">Marta</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Panek</field>
@@ -1862,8 +1862,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00494</field>
-    <field name="firma.nazwa">YIC S. A.</field>
-    <field name="firma.skroconaNazwa">YIC</field>
+    <field name="firma.nazwa">GGK S. A.</field>
+    <field name="firma.skroconaNazwa">GGK</field>
     <field name="firma.wlasciciel.imie">Łukasz</field>
     <field name="firma.wlasciciel.drugieImie">Artur</field>
     <field name="firma.wlasciciel.nazwisko">Prus</field>
@@ -1877,13 +1877,13 @@
     <field name="firma.adresDzialalnosci">os. Monte Cassino 102, 72-600 Świnoujście</field>
     <field name="firma.adresKorespondencyjny">os. Monte Cassino 102, 72-600 Świnoujście</field>
     <field name="firma.telefon">(48) 574365711</field>
-    <field name="firma.email">l.prus@o2.pl</field>
-    <field name="firma.www">https://www.yic-group.eu</field>
+    <field name="firma.email">l.prus@mail.xz</field>
+    <field name="firma.www">https://www.ggk-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00495</field>
-    <field name="firma.nazwa">OKT Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">OKT</field>
+    <field name="firma.nazwa">YAS Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">YAS</field>
     <field name="firma.wlasciciel.imie">Paulina</field>
     <field name="firma.wlasciciel.drugieImie">Iwona</field>
     <field name="firma.wlasciciel.nazwisko">Janik</field>
@@ -1898,12 +1898,12 @@
     <field name="firma.adresKorespondencyjny">ulica Rynek 119, 45-015 Opole</field>
     <field name="firma.telefon">(48) 505840739</field>
     <field name="firma.email">janik.paulina@proton.me</field>
-    <field name="firma.www">https://www.okt-group.local</field>
+    <field name="firma.www">https://www.yas-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00496</field>
-    <field name="firma.nazwa">QPU sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">QPU</field>
+    <field name="firma.nazwa">UQU sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">UQU</field>
     <field name="firma.wlasciciel.imie">Mateusz</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Kowalski</field>
@@ -1918,12 +1918,12 @@
     <field name="firma.adresKorespondencyjny">Byczyńska 136, 46-200 Kluczbork</field>
     <field name="firma.telefon">48-510-267-498</field>
     <field name="firma.email">mateuszkowalski@yahoo.com</field>
-    <field name="firma.www">https://www.qpu.pl</field>
+    <field name="firma.www">https://www.uqu.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00497</field>
-    <field name="firma.nazwa">IEU sp z oo</field>
-    <field name="firma.skroconaNazwa">IEU</field>
+    <field name="firma.nazwa">MUV sp z oo</field>
+    <field name="firma.skroconaNazwa">MUV</field>
     <field name="firma.wlasciciel.imie">Elżbieta</field>
     <field name="firma.wlasciciel.drugieImie">Renata</field>
     <field name="firma.wlasciciel.nazwisko">Nowacka</field>
@@ -1938,12 +1938,12 @@
     <field name="firma.adresKorespondencyjny">ul. Chrobrego 153/59, 66-400 Gorzów Wielkopolski</field>
     <field name="firma.telefon">(48) 699883037</field>
     <field name="firma.email">elzbieta_nowacka@gmail.com</field>
-    <field name="firma.www">https://ieu.com.pl</field>
+    <field name="firma.www">https://muv.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00498</field>
-    <field name="firma.nazwa">PAZ sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">PAZ</field>
+    <field name="firma.nazwa">HAY sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">HAY</field>
     <field name="firma.wlasciciel.imie">Dawid</field>
     <field name="firma.wlasciciel.drugieImie">Maciej</field>
     <field name="firma.wlasciciel.nazwisko">Wiśniewski</field>
@@ -1958,12 +1958,12 @@
     <field name="firma.adresKorespondencyjny">ul 30 Stycznia 170, 66-300 Międzyrzecz</field>
     <field name="firma.telefon">+48 665 497 640</field>
     <field name="firma.email">dawid.wisniewski74@outlook.com</field>
-    <field name="firma.www">https://www.paz-group.eu</field>
+    <field name="firma.www">https://www.hay-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00499</field>
-    <field name="firma.nazwa">ZAB Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">ZAB</field>
+    <field name="firma.nazwa">CCZ Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">CCZ</field>
     <field name="firma.wlasciciel.imie">Dorota</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Wójcik</field>
@@ -1982,8 +1982,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00500</field>
-    <field name="firma.nazwa">SBZ SP Z O O</field>
-    <field name="firma.skroconaNazwa">SBZ</field>
+    <field name="firma.nazwa">WUF SP Z O O</field>
+    <field name="firma.skroconaNazwa">WUF</field>
     <field name="firma.wlasciciel.imie">Dariusz</field>
     <field name="firma.wlasciciel.drugieImie">Zbigniew</field>
     <field name="firma.wlasciciel.nazwisko">Kowalczyk</field>
@@ -1997,8 +1997,8 @@
     <field name="firma.adresDzialalnosci">1 Maja 24, 28-100 Busko-Zdrój</field>
     <field name="firma.adresKorespondencyjny">1 Maja 24, 28-100 Busko-Zdrój</field>
     <field name="firma.telefon">675662303</field>
-    <field name="firma.email">d.kowalczyk@mail.xz</field>
-    <field name="firma.www">https://www.sbz-group.pl</field>
+    <field name="firma.email">d.kowalczyk@onet.pl</field>
+    <field name="firma.www">https://www.wuf-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00501</field>
@@ -2144,9 +2144,9 @@
     <field name="firma.id">FIRMAID-00508</field>
     <field name="firma.nazwa">Przedsiębiorstwo Robót Drogowych sp z oo</field>
     <field name="firma.skroconaNazwa">Przedsiębiorstwo Robót Drogowych</field>
-    <field name="firma.wlasciciel.imie">Satnisław</field>
+    <field name="firma.wlasciciel.imie">Stanisław</field>
     <field name="firma.wlasciciel.drugieImie"></field>
-    <field name="firma.wlasciciel.nazwisko">Woźniak</field>
+    <field name="firma.wlasciciel.nazwisko">Wźoniak</field>
     <field name="firma.wlasciciel.pesel">61050701457</field>
     <field name="firma.nip">1274954793</field>
     <field name="firma.regon">275113171</field>
@@ -2287,7 +2287,7 @@
     <field name="firma.wlasciciel.imie">Sylwia</field>
     <field name="firma.wlasciciel.drugieImie">Aneta</field>
     <field name="firma.wlasciciel.nazwisko">Jabłońska</field>
-    <field name="firma.wlasciciel.pesel">68122811027</field>
+    <field name="firma.wlasciciel.pesel">78122811027</field>
     <field name="firma.nip">1275509121</field>
     <field name="firma.regon">275667509</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2013-04-27</field>
@@ -2307,7 +2307,7 @@
     <field name="firma.wlasciciel.imie">Leszek</field>
     <field name="firma.wlasciciel.drugieImie">Kacper</field>
     <field name="firma.wlasciciel.nazwisko">Witkowski</field>
-    <field name="firma.wlasciciel.pesel">79010712415</field>
+    <field name="firma.wlasciciel.pesel">69010712415</field>
     <field name="firma.nip">1275588310</field>
     <field name="firma.regon">275746692</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2012-07-05</field>
@@ -2528,7 +2528,7 @@
     <field name="firma.wlasciciel.drugieImie">Jagoda</field>
     <field name="firma.wlasciciel.nazwisko">Wójcicka</field>
     <field name="firma.wlasciciel.pesel">80122827462</field>
-    <field name="firma.nip">1276459402</field>
+    <field name="firma.nip">2276459402</field>
     <field name="firma.regon">276617784</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2021-01-06</field>
     <field name="firma.dataZawieszeniaDzialalnosci"></field>
@@ -2548,7 +2548,7 @@
     <field name="firma.wlasciciel.drugieImie">Jerzy</field>
     <field name="firma.wlasciciel.nazwisko">Czarnecki</field>
     <field name="firma.wlasciciel.pesel">81010728850</field>
-    <field name="firma.nip">2276538596</field>
+    <field name="firma.nip">1276538596</field>
     <field name="firma.regon">276696973</field>
     <field name="firma.dataRozpoczeciaDzialalnosci">2023-01-27</field>
     <field name="firma.dataZawieszeniaDzialalnosci">2023-01-31</field>
@@ -2577,7 +2577,7 @@
     <field name="firma.adresDzialalnosci">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
     <field name="firma.adresKorespondencyjny">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
     <field name="firma.telefon">665 862 355</field>
-    <field name="firma.email">martyna.lis@gmail.com</field>
+    <field name="firma.email">martyna.lisgmail.com</field>
     <field name="firma.www"></field>
   </record>
   <record>
@@ -2637,7 +2637,7 @@
     <field name="firma.adresDzialalnosci">Ozimska 28, 45-057 Opole</field>
     <field name="firma.adresKorespondencyjny">Ozimska 28, 45-057 Opole</field>
     <field name="firma.telefon">+48 608 400 162</field>
-    <field name="firma.email">tadeuszpiatekonet.pl</field>
+    <field name="firma.email">tadeuszpiatek@onet.pl</field>
     <field name="firma.www">https://szkola-jezykow-obcych-lingua.pl</field>
   </record>
   <record>
@@ -2857,7 +2857,7 @@
     <field name="firma.adresDzialalnosci">ulica Długa 35, 58-100 Świdnica</field>
     <field name="firma.adresKorespondencyjny">ulica Długa 35, 58-100 Świdnica</field>
     <field name="firma.telefon">746 311 724</field>
-    <field name="firma.email">majewska.katarzyna@proton.me</field>
+    <field name="firma.email">majewska.katarzyna@kontaktqq.pl</field>
     <field name="firma.www">https://www.polskie-zaklady-lotnicze-group.local</field>
   </record>
   <record>
@@ -2982,9 +2982,9 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00550</field>
-    <field name="firma.nazwa"></field>
+    <field name="firma.nazwa">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
     <field name="firma.skroconaNazwa">Centrum Dystrybucji Alkoholi</field>
-    <field name="firma.wlasciciel.imie">Rafał</field>
+    <field name="firma.wlasciciel.imie"></field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Kubiak</field>
     <field name="firma.wlasciciel.pesel">03312158993</field>
@@ -2997,7 +2997,7 @@
     <field name="firma.adresDzialalnosci">ul Małachowskiego 154, 42-500 Będzin</field>
     <field name="firma.adresKorespondencyjny">ul Małachowskiego 154, 42-500 Będzin</field>
     <field name="firma.telefon"></field>
-    <field name="firma.email">rafalkubiak@kontaktqq.pl</field>
+    <field name="firma.email">rafalkubiak@o2.pl</field>
     <field name="firma.www">https://www.centrum-dystrybucji-alkoholi-group.eu</field>
   </record>
   <record>
@@ -3122,8 +3122,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00557</field>
-    <field name="firma.nazwa">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Bizon</field>
+    <field name="firma.nazwa">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Niebieski Horyzont</field>
     <field name="firma.wlasciciel.imie">Elżbieta</field>
     <field name="firma.wlasciciel.drugieImie">Renata</field>
     <field name="firma.wlasciciel.nazwisko">Kozak</field>
@@ -3138,12 +3138,12 @@
     <field name="firma.adresKorespondencyjny">ul. 3 Maja 93/29, 16-300 Augustów</field>
     <field name="firma.telefon">+48 751 103 892</field>
     <field name="firma.email">elzbieta_kozak@interia.pl</field>
-    <field name="firma.www">https://zielony-bizon.com.pl</field>
+    <field name="firma.www">https://niebieski-horyzont.com.pl</field>
   </record>
   <record>
-    <field name="firma.id">FIRMAI-00558</field>
-    <field name="firma.nazwa">Zielony Canyon S.A.</field>
-    <field name="firma.skroconaNazwa">Zielony Canyon</field>
+    <field name="firma.id">FIRAMID-00558</field>
+    <field name="firma.nazwa">Złoty Oaza S.A.</field>
+    <field name="firma.skroconaNazwa">Złoty Oaza</field>
     <field name="firma.wlasciciel.imie">Dawid</field>
     <field name="firma.wlasciciel.drugieImie">Maciej</field>
     <field name="firma.wlasciciel.nazwisko">Cieślak</field>
@@ -3158,12 +3158,12 @@
     <field name="firma.adresKorespondencyjny">ul Kościuszki 110, 16-400 Suwałki</field>
     <field name="firma.telefon">+48 516 676 179</field>
     <field name="firma.email">dawid.cieslak76@o2.pl</field>
-    <field name="firma.www">https://www.zielony-canyon-group.eu</field>
+    <field name="firma.www">https://www.zloty-oaza-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00559</field>
-    <field name="firma.nazwa">Zielony Delfin SA</field>
-    <field name="firma.skroconaNazwa">Zielony Delfin</field>
+    <field name="firma.nazwa">Srebrny Zefir SA</field>
+    <field name="firma.skroconaNazwa">Srebrny Zefir</field>
     <field name="firma.wlasciciel.imie">Dorota</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Andrzejewska</field>
@@ -3182,8 +3182,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00560</field>
-    <field name="firma.nazwa">Zielony Echo S. A.</field>
-    <field name="firma.skroconaNazwa">Zielony Echo</field>
+    <field name="firma.nazwa">Czysty Pilica S. A.</field>
+    <field name="firma.skroconaNazwa">Czysty Pilica</field>
     <field name="firma.wlasciciel.imie">Dariusz</field>
     <field name="firma.wlasciciel.drugieImie">Zbigniew</field>
     <field name="firma.wlasciciel.nazwisko">Gajewski</field>
@@ -3198,7 +3198,7 @@
     <field name="firma.adresKorespondencyjny">Długa 144, 49-300 Brzeg</field>
     <field name="firma.telefon">(48) 535954282</field>
     <field name="firma.email">d.gajewski@yahoo.com</field>
-    <field name="firma.www">https://www.zielony-echo-group.pl</field>
+    <field name="firma.www">https://www.czysty-pilica-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00561</field>
@@ -3222,8 +3222,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00562</field>
-    <field name="firma.nazwa">Zielony Gryf sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Gryf</field>
+    <field name="firma.nazwa">Pewny Giewont sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Pewny Giewont</field>
     <field name="firma.wlasciciel.imie">Sławomir</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Mazurek</field>
@@ -3238,12 +3238,12 @@
     <field name="firma.adresKorespondencyjny">ul Sikorskiego 178, 66-200 Świebodzin</field>
     <field name="firma.telefon">48-567-814-416</field>
     <field name="firma.email">slawomirmazurek@outlook.com</field>
-    <field name="firma.www">https://zielony-gryf.eu</field>
+    <field name="firma.www">https://pewny-giewont.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00563</field>
-    <field name="firma.nazwa">Zielony Horyzont sp z oo</field>
-    <field name="firma.skroconaNazwa">Zielony Horyzont</field>
+    <field name="firma.nazwa">Dobry Sudety sp z oo</field>
+    <field name="firma.skroconaNazwa">Dobry Sudety</field>
     <field name="firma.wlasciciel.imie">Urszula</field>
     <field name="firma.wlasciciel.drugieImie">Wiktoria</field>
     <field name="firma.wlasciciel.nazwisko">Sobczak</field>
@@ -3258,12 +3258,12 @@
     <field name="firma.adresKorespondencyjny">ulica Armii Krajowej 15, 78-100 Kołobrzeg</field>
     <field name="firma.telefon">676370298</field>
     <field name="firma.email">urszula_sobczak@wp.pl</field>
-    <field name="firma.www">https://www.zielony-horyzont-group.local</field>
+    <field name="firma.www">https://www.dobry-sudety-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00564</field>
-    <field name="firma.nazwa">Zielony Ikar sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">Zielony Ikar</field>
+    <field name="firma.nazwa">Polski Gryf sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">Polski Gryf</field>
     <field name="firma.wlasciciel.imie">Mariusz</field>
     <field name="firma.wlasciciel.drugieImie">Jacek</field>
     <field name="firma.wlasciciel.nazwisko">Konieczny</field>
@@ -3278,12 +3278,12 @@
     <field name="firma.adresKorespondencyjny">Piłsudskiego 32, 73-110 Stargard</field>
     <field name="firma.telefon">(48) 720248171</field>
     <field name="firma.email">mariusz.konieczny82@onet.pl</field>
-    <field name="firma.www">https://www.zielony-ikar-group.pl</field>
+    <field name="firma.www">https://www.polski-gryf-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00565</field>
-    <field name="firma.nazwa">Zielony Jantar Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Jantar</field>
+    <field name="firma.nazwa">Europejski Neon Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Europejski Neon</field>
     <field name="firma.wlasciciel.imie">Izabela</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Brzezińska</field>
@@ -3302,8 +3302,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00566</field>
-    <field name="firma.nazwa">Zielony Koral SP Z O O</field>
-    <field name="firma.skroconaNazwa">Zielony Koral</field>
+    <field name="firma.nazwa">Globalny Wektor SP Z O O</field>
+    <field name="firma.skroconaNazwa">Globalny Wektor</field>
     <field name="firma.wlasciciel.imie">Henryk</field>
     <field name="firma.wlasciciel.drugieImie">Przemysław</field>
     <field name="firma.wlasciciel.nazwisko">Makowski</field>
@@ -3318,12 +3318,12 @@
     <field name="firma.adresKorespondencyjny">ul Sienkiewicza 66, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="firma.telefon">501 836 127</field>
     <field name="firma.email">h.makowski@o2.pl</field>
-    <field name="firma.www">https://www.zielony-koral.eu</field>
+    <field name="firma.www">https://www.globalny-wektor.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00567</field>
-    <field name="firma.nazwa">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Lotos</field>
+    <field name="firma.nazwa">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Lokalny Noteć</field>
     <field name="firma.wlasciciel.imie">Weronika</field>
     <field name="firma.wlasciciel.drugieImie">Kinga</field>
     <field name="firma.wlasciciel.nazwisko">Wrona</field>
@@ -3338,12 +3338,12 @@
     <field name="firma.adresKorespondencyjny">ulica Chmielna 83, 00-020 Warszawa</field>
     <field name="firma.telefon">640 153 142</field>
     <field name="firma.email">wrona.weronika@proton.me</field>
-    <field name="firma.www">https://zielony-lotos.local</field>
+    <field name="firma.www">https://lokalny-notec.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00568</field>
-    <field name="firma.nazwa">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Magnolia</field>
+    <field name="firma.nazwa">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Nowoczesny Granit</field>
     <field name="firma.wlasciciel.imie">Stanisław</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Bąk</field>
@@ -3358,12 +3358,12 @@
     <field name="firma.adresKorespondencyjny">Nowy Świat 100, 00-029 Warszawa</field>
     <field name="firma.telefon">+48 622 127 477</field>
     <field name="firma.email">stanislawbak@yahoo.com</field>
-    <field name="firma.www">https://www.zielony-magnolia-group.pl</field>
+    <field name="firma.www">https://www.nowoczesny-granit-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00569</field>
-    <field name="firma.nazwa">Zielony Neon S.A.</field>
-    <field name="firma.skroconaNazwa">Zielony Neon</field>
+    <field name="firma.nazwa">Tradycyjny Narcyz S.A.</field>
+    <field name="firma.skroconaNazwa">Tradycyjny Narcyz</field>
     <field name="firma.wlasciciel.imie">Zofia</field>
     <field name="firma.wlasciciel.drugieImie">Kamila</field>
     <field name="firma.wlasciciel.nazwisko">Kucharska</field>
@@ -3378,12 +3378,12 @@
     <field name="firma.adresKorespondencyjny">ul. os. Przyjaźń 117/5, 01-355 Warszawa</field>
     <field name="firma.telefon">+48 799 202 103</field>
     <field name="firma.email">zofia_kucharska@gmail.com</field>
-    <field name="firma.www">https://www.zielony-neon-group.com.pl</field>
+    <field name="firma.www">https://www.tradycyjny-narcyz-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00570</field>
-    <field name="firma.nazwa">Zielony Oaza SA</field>
-    <field name="firma.skroconaNazwa">Zielony Oaza</field>
+    <field name="firma.nazwa">Dynamiczny Bałtyk SA</field>
+    <field name="firma.skroconaNazwa">Dynamiczny Bałtyk</field>
     <field name="firma.wlasciciel.imie">Bartłomiej</field>
     <field name="firma.wlasciciel.drugieImie">Daniel</field>
     <field name="firma.wlasciciel.nazwisko">Lisowski</field>
@@ -3398,12 +3398,12 @@
     <field name="firma.adresKorespondencyjny">ul Jagiellońska 134, 05-120 Legionowo</field>
     <field name="firma.telefon">+48 690 748 182</field>
     <field name="firma.email">bartlomiej.lisowski88@outlook.com</field>
-    <field name="firma.www">https://www.zielony-oaza-group.eu</field>
+    <field name="firma.www">https://www.dynamiczny-baltyk-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00571</field>
-    <field name="firma.nazwa">Zielony Pegaz S. A.</field>
-    <field name="firma.skroconaNazwa">Zielony Pegaz</field>
+    <field name="firma.nazwa">Stabilny Falcon S. A.</field>
+    <field name="firma.skroconaNazwa">Stabilny Falcon</field>
     <field name="firma.wlasciciel.imie">Olga</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Słowik</field>
@@ -3422,8 +3422,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00572</field>
-    <field name="firma.nazwa">Zielony Rubin Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">Zielony Rubin</field>
+    <field name="firma.nazwa">Innowacyjny Magnolia Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">Innowacyjny Magnolia</field>
     <field name="firma.wlasciciel.imie">Damian</field>
     <field name="firma.wlasciciel.drugieImie">Waldemar</field>
     <field name="firma.wlasciciel.nazwisko">Kopeć</field>
@@ -3438,12 +3438,12 @@
     <field name="firma.adresKorespondencyjny">Andriollego 168, 05-400 Otwock</field>
     <field name="firma.telefon">48-745-482-019</field>
     <field name="firma.email">d.kopec@onet.pl</field>
-    <field name="firma.www">https://zielony-rubin.pl</field>
+    <field name="firma.www">https://innowacyjny-magnolia.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00573</field>
-    <field name="firma.nazwa">Zielony Szafir sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Szafir</field>
+    <field name="firma.nazwa">Kreatywny Uran sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Kreatywny Uran</field>
     <field name="firma.wlasciciel.imie">Ewelina</field>
     <field name="firma.wlasciciel.drugieImie">Danuta</field>
     <field name="firma.wlasciciel.nazwisko">Czajka</field>
@@ -3458,12 +3458,12 @@
     <field name="firma.adresKorespondencyjny">ul. Żeromskiego 5/57, 26-600 Radom</field>
     <field name="firma.telefon">+48 636 543 245</field>
     <field name="firma.email">czajka.ewelina@interia.pl</field>
-    <field name="firma.www">https://www.zielony-szafir-group.com.pl</field>
+    <field name="firma.www">https://www.kreatywny-uran-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00574</field>
-    <field name="firma.nazwa">Zielony Tytan sp z oo</field>
-    <field name="firma.skroconaNazwa">Zielony Tytan</field>
+    <field name="firma.nazwa">Aktywny Barycz sp z oo</field>
+    <field name="firma.skroconaNazwa">Aktywny Barycz</field>
     <field name="firma.wlasciciel.imie">Bartosz</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Matusiak</field>
@@ -3478,12 +3478,12 @@
     <field name="firma.adresKorespondencyjny">ul Tumska 22, 09-402 Płock</field>
     <field name="firma.telefon">(48) 674108654</field>
     <field name="firma.email">bartoszmatusiak@o2.pl</field>
-    <field name="firma.www">https://www.zielony-tytan-group.eu</field>
+    <field name="firma.www">https://www.aktywny-barycz-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00575</field>
-    <field name="firma.nazwa">Zielony Uran sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">Zielony Uran</field>
+    <field name="firma.nazwa">Jasny Topaz sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">Jasny Topaz</field>
     <field name="firma.wlasciciel.imie">Sylwia</field>
     <field name="firma.wlasciciel.drugieImie">Aneta</field>
     <field name="firma.wlasciciel.nazwisko">Gajda</field>
@@ -3498,12 +3498,12 @@
     <field name="firma.adresKorespondencyjny">ulica Karmelicka 39, 31-128 Kraków</field>
     <field name="firma.telefon">717 683 785</field>
     <field name="firma.email">sylwia_gajda@proton.me</field>
-    <field name="firma.www">https://www.zielony-uran-group.local</field>
+    <field name="firma.www">https://www.jasny-topaz-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00576</field>
-    <field name="firma.nazwa">Zielony Wektor Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Wektor</field>
+    <field name="firma.nazwa">Green Krokus Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Green Krokus</field>
     <field name="firma.wlasciciel.imie">Leszek</field>
     <field name="firma.wlasciciel.drugieImie">Kacper</field>
     <field name="firma.wlasciciel.nazwisko">Klimek</field>
@@ -3518,12 +3518,12 @@
     <field name="firma.adresKorespondencyjny">os. Na Stoku 56, 31-704 Kraków</field>
     <field name="firma.telefon">+48 758 542 656</field>
     <field name="firma.email">leszek.klimek94@yahoo.com</field>
-    <field name="firma.www">https://www.zielony-wektor.pl</field>
+    <field name="firma.www">https://www.green-krokus.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00577</field>
-    <field name="firma.nazwa">Zielony Zefir SP Z O O</field>
-    <field name="firma.skroconaNazwa">Zielony Zefir</field>
+    <field name="firma.nazwa">Blue Karpaty SP Z O O</field>
+    <field name="firma.skroconaNazwa">Blue Karpaty</field>
     <field name="firma.wlasciciel.imie">Grażyna</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Madej</field>
@@ -3542,8 +3542,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00578</field>
-    <field name="firma.nazwa">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Żubr</field>
+    <field name="firma.nazwa">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Gold Echo</field>
     <field name="firma.wlasciciel.imie">Cezary</field>
     <field name="firma.wlasciciel.drugieImie">Szymon</field>
     <field name="firma.wlasciciel.nazwisko">Krupa</field>
@@ -3558,12 +3558,12 @@
     <field name="firma.adresKorespondencyjny">90, 34-600 Mordarka</field>
     <field name="firma.telefon">+48 794 894 882</field>
     <field name="firma.email">c.krupa@outlook.com</field>
-    <field name="firma.www">https://www.zielony-zubr-group.eu</field>
+    <field name="firma.www">https://www.gold-echo-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00579</field>
-    <field name="firma.nazwa">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Sokół</field>
+    <field name="firma.nazwa">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Silver Lotos</field>
     <field name="firma.wlasciciel.imie">Bożena</field>
     <field name="firma.wlasciciel.drugieImie">Oliwia</field>
     <field name="firma.wlasciciel.nazwisko">Kaczmarczyk</field>
@@ -3578,12 +3578,12 @@
     <field name="firma.adresKorespondencyjny">ulica Galicyjska 107, 32-087 Zielonki</field>
     <field name="firma.telefon">781813828</field>
     <field name="firma.email">kaczmarczyk.bozena@wp.pl</field>
-    <field name="firma.www">https://www.zielony-sokol-group.local</field>
+    <field name="firma.www">https://www.silver-lotos-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00580</field>
-    <field name="firma.nazwa">Zielony Orzeł S.A.</field>
-    <field name="firma.skroconaNazwa">Zielony Orzeł</field>
+    <field name="firma.nazwa">Smart Tytan S.A.</field>
+    <field name="firma.skroconaNazwa">Smart Tytan</field>
     <field name="firma.wlasciciel.imie">Filip</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Wrona</field>
@@ -3598,12 +3598,12 @@
     <field name="firma.adresKorespondencyjny">124, 32-003 Podłęże</field>
     <field name="firma.telefon">574 892 192</field>
     <field name="firma.email">filipwrona@onet.pl</field>
-    <field name="firma.www">https://www.zielony-orzel-group.pl</field>
+    <field name="firma.www">https://www.smart-tytan-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00581</field>
-    <field name="firma.nazwa">PPHU Zielony Kormoran</field>
-    <field name="firma.skroconaNazwa">PPHU Zielony Kormoran</field>
+    <field name="firma.nazwa">PPHU Fast Kormoran</field>
+    <field name="firma.skroconaNazwa">PPHU Fast Kormoran</field>
     <field name="firma.wlasciciel.imie">Zuzanna</field>
     <field name="firma.wlasciciel.drugieImie">Emilia</field>
     <field name="firma.wlasciciel.nazwisko">Wasilewska</field>
@@ -3618,12 +3618,12 @@
     <field name="firma.adresKorespondencyjny">os. Wałowa 141/71, 33-100 Tarnów</field>
     <field name="firma.telefon">777973582</field>
     <field name="firma.email">zuzanna_wasilewska@interia.pl</field>
-    <field name="firma.www">https://www.zielony-kormoran.com.pl</field>
+    <field name="firma.www">https://www.fast-kormoran.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00582</field>
-    <field name="firma.nazwa">Zielony Barycz S. A.</field>
-    <field name="firma.skroconaNazwa">Zielony Barycz</field>
+    <field name="firma.nazwa">Safe Szmaragd S. A.</field>
+    <field name="firma.skroconaNazwa">Safe Szmaragd</field>
     <field name="firma.wlasciciel.imie">Mikołaj</field>
     <field name="firma.wlasciciel.drugieImie">Ignacy</field>
     <field name="firma.wlasciciel.nazwisko">Kalinowski</field>
@@ -3638,12 +3638,12 @@
     <field name="firma.adresKorespondencyjny">ul Narutowicza 158, 90-135 Łódź</field>
     <field name="firma.telefon">746924870</field>
     <field name="firma.email">mikolaj.kalinowski71@o2.pl</field>
-    <field name="firma.www">https://zielony-barycz.eu</field>
+    <field name="firma.www">https://safe-szmaragd.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00583</field>
-    <field name="firma.nazwa">Zielony Noteć Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">Zielony Noteć</field>
+    <field name="firma.nazwa">Best Zorza Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">Best Zorza</field>
     <field name="firma.wlasciciel.imie">Lena</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Zarychta</field>
@@ -3662,8 +3662,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00584</field>
-    <field name="firma.nazwa">Zielony Pilica sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Pilica</field>
+    <field name="firma.nazwa">Global Bieszczady sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Global Bieszczady</field>
     <field name="firma.wlasciciel.imie">Antoni</field>
     <field name="firma.wlasciciel.drugieImie">Leon</field>
     <field name="firma.wlasciciel.nazwisko">Przybylski</field>
@@ -3678,12 +3678,12 @@
     <field name="firma.adresKorespondencyjny">Zamkowa 12, 95-200</field>
     <field name="firma.telefon">+48 600 982 945</field>
     <field name="firma.email">a.przybylski@yahoo.com</field>
-    <field name="firma.www">https://www.zielony-pilica-group.pl</field>
+    <field name="firma.www">https://www.global-bieszczady-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00585</field>
-    <field name="firma.nazwa">Zielony Narew sp z oo</field>
-    <field name="firma.skroconaNazwa">Zielony Narew</field>
+    <field name="firma.nazwa">Future Delfin sp z oo</field>
+    <field name="firma.skroconaNazwa">Future Delfin</field>
     <field name="firma.wlasciciel.imie">Hanna</field>
     <field name="firma.wlasciciel.drugieImie">Dominika</field>
     <field name="firma.wlasciciel.nazwisko">Michalak</field>
@@ -3698,12 +3698,12 @@
     <field name="firma.adresKorespondencyjny">ul. Długa 29/33, 95-100 Zgierz</field>
     <field name="firma.telefon">48-583-884-228</field>
     <field name="firma.email">michalak.hanna@gmail.com</field>
-    <field name="firma.www">https://www.zielony-narew-group.com.pl</field>
+    <field name="firma.www">https://www.future-delfin-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00586</field>
-    <field name="firma.nazwa">Zielony Jodełka sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">Zielony Jodełka</field>
+    <field name="firma.nazwa">Wielkopolski Koral sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">Wielkopolski Koral</field>
     <field name="firma.wlasciciel.imie">Franciszek</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Szatkowski</field>
@@ -3718,12 +3718,12 @@
     <field name="firma.adresKorespondencyjny">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="firma.telefon">+48 657 526 204</field>
     <field name="firma.email">franciszekszatkowski@outlook.com</field>
-    <field name="firma.www">https://www.zielony-jodelka.eu</field>
+    <field name="firma.www">https://www.wielkopolski-koral.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00587</field>
-    <field name="firma.nazwa">Zielony Kaktus Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Kaktus</field>
+    <field name="firma.nazwa">Śląski Szafir Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Śląski Szafir</field>
     <field name="firma.wlasciciel.imie">Amelia</field>
     <field name="firma.wlasciciel.drugieImie">Jagoda</field>
     <field name="firma.wlasciciel.nazwisko">Bednarek</field>
@@ -3738,12 +3738,12 @@
     <field name="firma.adresKorespondencyjny">ulica Jedności Narodowej 63, 50-260 Wrocław</field>
     <field name="firma.telefon">(48) 657671277</field>
     <field name="firma.email">amelia_bednarek@wp.pl</field>
-    <field name="firma.www">https://zielony-kaktus.local</field>
+    <field name="firma.www">https://slaski-szafir.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00588</field>
-    <field name="firma.nazwa">Zielony Szmaragd SP Z O O</field>
-    <field name="firma.skroconaNazwa">Zielony Szmaragd</field>
+    <field name="firma.nazwa">Mazowiecki Orzeł SP Z O O</field>
+    <field name="firma.skroconaNazwa">Mazowiecki Orzeł</field>
     <field name="firma.wlasciciel.imie">Nikodem</field>
     <field name="firma.wlasciciel.drugieImie">Jerzy</field>
     <field name="firma.wlasciciel.nazwisko">Podgórski</field>
@@ -3758,12 +3758,12 @@
     <field name="firma.adresKorespondencyjny">Konstytucji 3 Maja 80, 58-540 Karpacz</field>
     <field name="firma.telefon">641 306 312</field>
     <field name="firma.email">nikodem.podgorski77@onet.pl</field>
-    <field name="firma.www">https://www.zielony-szmaragd-group.pl</field>
+    <field name="firma.www">https://www.mazowiecki-orzel-group.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00589</field>
-    <field name="firma.nazwa">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Topaz</field>
+    <field name="firma.nazwa">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Pomorski Kaktus</field>
     <field name="firma.wlasciciel.imie">Martyna</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Śliwińska</field>
@@ -3782,8 +3782,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00590</field>
-    <field name="firma.nazwa">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Granit</field>
+    <field name="firma.nazwa">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Dolnośląski Olimp</field>
     <field name="firma.wlasciciel.imie">Miłosz</field>
     <field name="firma.wlasciciel.drugieImie">Marian</field>
     <field name="firma.wlasciciel.nazwisko">Czajkowski</field>
@@ -3798,12 +3798,12 @@
     <field name="firma.adresKorespondencyjny">ul Słowackiego 114, 58-300 Wałbrzych</field>
     <field name="firma.telefon">608413140</field>
     <field name="firma.email">m.czajkowski@o2.pl</field>
-    <field name="firma.www">https://www.zielony-granit-group.eu</field>
+    <field name="firma.www">https://www.dolnoslaski-olimp-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00591</field>
-    <field name="firma.nazwa">Zielony Marmur S.A.</field>
-    <field name="firma.skroconaNazwa">Zielony Marmur</field>
+    <field name="firma.nazwa">Karpacki Beskid S.A.</field>
+    <field name="firma.skroconaNazwa">Karpacki Beskid</field>
     <field name="firma.wlasciciel.imie">Agata</field>
     <field name="firma.wlasciciel.drugieImie">Irena</field>
     <field name="firma.wlasciciel.nazwisko">Biernat</field>
@@ -3818,12 +3818,12 @@
     <field name="firma.adresKorespondencyjny">ulica Półwiejska 131, 61-888 Poznań</field>
     <field name="firma.telefon">48-600-257-333</field>
     <field name="firma.email">biernat.agata@proton.me</field>
-    <field name="firma.www">https://www.zielony-marmur.local</field>
+    <field name="firma.www">https://www.karpacki-beskid.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00592</field>
-    <field name="firma.nazwa">Zielony Syrena SA</field>
-    <field name="firma.skroconaNazwa">Zielony Syrena</field>
+    <field name="firma.nazwa">Bałtycki Canyon SA</field>
+    <field name="firma.skroconaNazwa">Bałtycki Canyon</field>
     <field name="firma.wlasciciel.imie">Tadeusz</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Panek</field>
@@ -3837,13 +3837,13 @@
     <field name="firma.adresDzialalnosci">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
     <field name="firma.adresKorespondencyjny">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
     <field name="firma.telefon">48-650-483-711</field>
-    <field name="firma.email">tadeuszpanek@yahoo.com</field>
-    <field name="firma.www">https://zielony-syrena.pl</field>
+    <field name="firma.email">tadeuszpanek@protonn.me</field>
+    <field name="firma.www">https://baltycki-canyon.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00593</field>
-    <field name="firma.nazwa">Zielony Zodiak S. A.</field>
-    <field name="firma.skroconaNazwa">Zielony Zodiak</field>
+    <field name="firma.nazwa">Młody Jantar S. A.</field>
+    <field name="firma.skroconaNazwa">Młody Jantar</field>
     <field name="firma.wlasciciel.imie">Helena</field>
     <field name="firma.wlasciciel.drugieImie">Izabela</field>
     <field name="firma.wlasciciel.nazwisko">Prus</field>
@@ -3858,12 +3858,12 @@
     <field name="firma.adresKorespondencyjny">ul. Główny Rynek 165/47, 62-800 Kalisz</field>
     <field name="firma.telefon">(48) 576588763</field>
     <field name="firma.email">helena_prus@gmail.com</field>
-    <field name="firma.www">https://www.zielony-zodiak-group.com.pl</field>
+    <field name="firma.www">https://www.mlody-jantar-group.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00594</field>
-    <field name="firma.nazwa">Zielony Olimp Spółka Akcyjna</field>
-    <field name="firma.skroconaNazwa">Zielony Olimp</field>
+    <field name="firma.nazwa">Wspólny Rubin Spółka Akcyjna</field>
+    <field name="firma.skroconaNazwa">Wspólny Rubin</field>
     <field name="firma.wlasciciel.imie">Stefan</field>
     <field name="firma.wlasciciel.drugieImie">Mirosław</field>
     <field name="firma.wlasciciel.nazwisko">Janik</field>
@@ -3878,12 +3878,12 @@
     <field name="firma.adresKorespondencyjny">ul Kaliska 2, 63-400 Ostrów Wielkopolski</field>
     <field name="firma.telefon">719792946</field>
     <field name="firma.email">stefan.janik83@outlook.com</field>
-    <field name="firma.www">https://www.zielony-olimp-group.eu</field>
+    <field name="firma.www">https://www.wspolny-rubin-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00595</field>
-    <field name="firma.nazwa">Zielony Zorza sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Zorza</field>
+    <field name="firma.nazwa">Pierwszy Sokół sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Pierwszy Sokół</field>
     <field name="firma.wlasciciel.imie">Jadwiga</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Kowalska</field>
@@ -3902,8 +3902,8 @@
   </record>
   <record>
     <field name="firma.id">FIRMAID-00596</field>
-    <field name="firma.nazwa">Zielony Krokus sp z oo</field>
-    <field name="firma.skroconaNazwa">Zielony Krokus</field>
+    <field name="firma.nazwa">Zielony Lotos sp z oo</field>
+    <field name="firma.skroconaNazwa">Zielony Lotos</field>
     <field name="firma.wlasciciel.imie">Józef</field>
     <field name="firma.wlasciciel.drugieImie">Piotr</field>
     <field name="firma.wlasciciel.nazwisko">Nowacki</field>
@@ -3918,12 +3918,12 @@
     <field name="firma.adresKorespondencyjny">os. Jasień 36, 80-180 Gdańsk</field>
     <field name="firma.telefon">+48 746 822 605</field>
     <field name="firma.email">j.nowacki@onet.pl</field>
-    <field name="firma.www">https://www.zielony-krokus.pl</field>
+    <field name="firma.www">https://www.zielony-lotos.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00597</field>
-    <field name="firma.nazwa">Zielony Narcyz sp. z o. o.</field>
-    <field name="firma.skroconaNazwa">Zielony Narcyz</field>
+    <field name="firma.nazwa">Niebieski Tytan sp. z o. o.</field>
+    <field name="firma.skroconaNazwa">Niebieski Tytan</field>
     <field name="firma.wlasciciel.imie">Monika</field>
     <field name="firma.wlasciciel.drugieImie">Maria</field>
     <field name="firma.wlasciciel.nazwisko">Wiśniewska</field>
@@ -3938,12 +3938,12 @@
     <field name="firma.adresKorespondencyjny">ul. Bohaterów Monte Cassino 53/9, 81-759 Sopot</field>
     <field name="firma.telefon">+48 504 182 998</field>
     <field name="firma.email">wisniewska.monika@interia.pl</field>
-    <field name="firma.www">https://zielony-narcyz.com.pl</field>
+    <field name="firma.www">https://niebieski-tytan.com.pl</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00598</field>
-    <field name="firma.nazwa">Zielony Giewont Sp. z o.o.</field>
-    <field name="firma.skroconaNazwa">Zielony Giewont</field>
+    <field name="firma.nazwa">Złoty Kormoran Sp. z o.o.</field>
+    <field name="firma.skroconaNazwa">Złoty Kormoran</field>
     <field name="firma.wlasciciel.imie">Edward</field>
     <field name="firma.wlasciciel.drugieImie"></field>
     <field name="firma.wlasciciel.nazwisko">Wójcik</field>
@@ -3958,12 +3958,12 @@
     <field name="firma.adresKorespondencyjny">70, 80-209 Chwaszczyno</field>
     <field name="firma.telefon">780 323 493</field>
     <field name="firma.email">edwardwojcik@o2.pl</field>
-    <field name="firma.www">https://www.zielony-giewont-group.eu</field>
+    <field name="firma.www">https://www.zloty-kormoran-group.eu</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00599</field>
-    <field name="firma.nazwa">Zielony Rysy SP Z O O</field>
-    <field name="firma.skroconaNazwa">Zielony Rysy</field>
+    <field name="firma.nazwa">Srebrny Szmaragd SP Z O O</field>
+    <field name="firma.skroconaNazwa">Srebrny Szmaragd</field>
     <field name="firma.wlasciciel.imie">Sabina</field>
     <field name="firma.wlasciciel.drugieImie">Joanna</field>
     <field name="firma.wlasciciel.nazwisko">Kowalczyk</field>
@@ -3978,12 +3978,12 @@
     <field name="firma.adresKorespondencyjny">ulica 3 Maja 87, 40-096 Katowice</field>
     <field name="firma.telefon">48-628-339-824</field>
     <field name="firma.email">sabina_kowalczyk@proton.me</field>
-    <field name="firma.www">https://www.zielony-rysy-group.local</field>
+    <field name="firma.www">https://www.srebrny-szmaragd-group.local</field>
   </record>
   <record>
     <field name="firma.id">FIRMAID-00600</field>
-    <field name="firma.nazwa">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
-    <field name="firma.skroconaNazwa">Zielony Kasprowy</field>
+    <field name="firma.nazwa">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
+    <field name="firma.skroconaNazwa">Czysty Zorza</field>
     <field name="firma.wlasciciel.imie">Arkadiusz</field>
     <field name="firma.wlasciciel.drugieImie">Paweł</field>
     <field name="firma.wlasciciel.nazwisko">Kamiński</field>
@@ -3997,7 +3997,7 @@
     <field name="firma.adresDzialalnosci">os. Paderewskiego 104, 40-282 Katowice</field>
     <field name="firma.adresKorespondencyjny">os. Paderewskiego 104, 40-282 Katowice</field>
     <field name="firma.telefon">+48 735 315 973</field>
-    <field name="firma.email">arkadiusz.kaminski89@protonn.me</field>
-    <field name="firma.www">https://www.zielony-kasprowy-group.pl</field>
+    <field name="firma.email">arkadiusz.kaminski89@yahoo.com</field>
+    <field name="firma.www">https://www.czysty-zorza-group.pl</field>
   </record>
 </dataset>

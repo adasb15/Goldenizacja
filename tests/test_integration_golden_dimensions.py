@@ -1,4 +1,5 @@
 import unittest
+from datetime import datetime
 from types import SimpleNamespace
 
 from app.layers.integration_golden.service import (
@@ -140,6 +141,19 @@ class GoldenRepo:
         self.person_address_links[key] = link
         return link
 
+    def get_active_person_address_links(self, *, person_id: int, address_type_id: int):
+        return [
+            link
+            for link in self.person_address_links.values()
+            if link.Person_ID == person_id
+            and link.AddressType_ID == address_type_id
+            and link.Valid_To is None
+        ]
+
+    def close_person_address_link(self, *, link, valid_to):
+        link.Valid_To = valid_to
+        return link
+
     def ensure_party_address_link(self, *, party_id: int, address_id: int, address_type_id: int, valid_from=None, valid_to=None):
         key = (party_id, address_id, address_type_id, valid_from, valid_to)
         if key in self.party_address_links:
@@ -153,6 +167,19 @@ class GoldenRepo:
             Valid_To=valid_to,
         )
         self.party_address_links[key] = link
+        return link
+
+    def get_active_party_address_links(self, *, party_id: int, address_type_id: int):
+        return [
+            link
+            for link in self.party_address_links.values()
+            if link.Party_ID == party_id
+            and link.AddressType_ID == address_type_id
+            and link.Valid_To is None
+        ]
+
+    def close_party_address_link(self, *, link, valid_to):
+        link.Valid_To = valid_to
         return link
 
     def ensure_party_identity(
@@ -511,6 +538,51 @@ class GoldenDimensionServiceTests(unittest.TestCase):
         self.assertEqual(second.party_identities_saved, 3)
         self.assertEqual(len(repo.party_identities), 3)
         self.assertEqual(len(repo.party_address_links), 1)
+
+    def test_closes_previous_person_address_and_sets_validity_dates(self) -> None:
+        records = [
+            SimpleNamespace(
+                Preprocessed_ID=1,
+                ImportBatch_ID=10,
+                source_system_id=1,
+                source_system_code="CEIDG",
+                trust_level=90,
+                import_started_at=datetime(2026, 6, 12, 8, 0, 0),
+                Source_Record_ID="SRC-1",
+                PESEL_Normalized="90010112345",
+                First_Name_Normalized="JAN",
+                Last_Name_Normalized="KOWALSKI",
+                Street_Normalized="NOWA",
+                Building_Number_Normalized="15",
+                City_Normalized="WARSZAWA",
+                Postal_Code_Normalized="00-100",
+                Country_Normalized="PL",
+            )
+        ]
+        repo = GoldenRepo("PERSON", records)
+        repo.existing_person = SimpleNamespace(
+            Person_ID=101,
+            PESEL="90010112345",
+            First_Name="JAN",
+            Last_Name="KOWALSKI",
+        )
+        old_link = repo.ensure_person_address_link(
+            person_id=101,
+            address_id=201,
+            address_type_id=1,
+            valid_from=None,
+            valid_to=None,
+        )
+
+        result = create_or_update_golden_person(db=None, entity_group_id=1, repo=repo)
+
+        self.assertEqual(result.address_link_action, "CREATED")
+        self.assertEqual(old_link.Valid_To.isoformat(), "2026-06-12")
+        new_link = next(
+            link for link in repo.person_address_links.values() if link.Address_ID == 301
+        )
+        self.assertEqual(new_link.Valid_From.isoformat(), "2026-06-12")
+        self.assertIsNone(new_link.Valid_To)
 
 
 if __name__ == "__main__":

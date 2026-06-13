@@ -489,7 +489,7 @@
     <field name="Country">PL</field>
     <field name="LegalJurisdiction">PL</field>
     <field name="EntityLegalFormCode">SA</field>
-    <field name="RegistrationStatus"></field>
+    <field name="RegistrationStatus">AKTYWNY</field>
     <field name="InitialRegistrationDate"></field>
     <field name="LastUpdateDate"></field>
     <field name="NextRenewalDate">2023/16/12</field>
@@ -503,7 +503,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">20230606</field>
     <field name="DirectParentRelationshipEndDate">04-04-2023</field>
-    <field name="UltimateParentLEI">52990000000020041657</field>
+    <field name="UltimateParentLEI"></field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType"></field>
     <field name="UltimateParentRelationshipStatus"></field>
@@ -1802,7 +1802,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046077</field>
-    <field name="LegalName">P.P.H.U. ZLS</field>
+    <field name="LegalName">P.P.H.U. ORR</field>
     <field name="FirstAddressLine">ul. Rynek 81/41, 50-101 Wrocław</field>
     <field name="City">Kraków</field>
     <field name="PostalCode">50-101</field>
@@ -1831,8 +1831,8 @@
     <field name="UltimateParentRelationshipEndDate">2019-06-02</field>
   </record>
   <record>
-    <field name="LEI">52990000000000046174</field>
-    <field name="LegalName">UZA Spółka Akcyjna</field>
+    <field name="LEI">62990000000000046174</field>
+    <field name="LegalName">BDZ Spółka Akcyjna</field>
     <field name="FirstAddressLine">ul Jedności Narodowej 98, 50-260 Wrocław</field>
     <field name="City">Gdynia</field>
     <field name="PostalCode">50-260</field>
@@ -1847,7 +1847,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">371470431</field>
-    <field name="DirectParentLEI">62990000000010046195</field>
+    <field name="DirectParentLEI">52990000000010046195</field>
     <field name="DirectParentName">Orbis Retail Solutions spółka z ograniczoną odpowiedzialnością</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -1862,7 +1862,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046271</field>
-    <field name="LegalName">NKV sp. z o.o.</field>
+    <field name="LegalName">SYT sp. z o.o.</field>
     <field name="FirstAddressLine">ulica Konstytucji 3 Maja 115, 58-540 Karpacz</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">58-540</field>
@@ -1892,7 +1892,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046368</field>
-    <field name="LegalName">SAI sp z oo</field>
+    <field name="LegalName">FFB sp z oo</field>
     <field name="FirstAddressLine">Odrodzenia 132, 59-300 Lubin</field>
     <field name="City">Toruń</field>
     <field name="PostalCode">59-300</field>
@@ -1922,7 +1922,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046465</field>
-    <field name="LegalName">EFT sp. z o. o.</field>
+    <field name="LegalName">HVB sp. z o. o.</field>
     <field name="FirstAddressLine">os. Słowackiego 149/3, 58-300 Wałbrzych</field>
     <field name="City">Toruń</field>
     <field name="PostalCode">58-300</field>
@@ -1952,7 +1952,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046562</field>
-    <field name="LegalName">HMO Sp. z o.o.</field>
+    <field name="LegalName">TTH Sp. z o.o.</field>
     <field name="FirstAddressLine">ul Półwiejska 166, 61-888 Poznań</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">61-888</field>
@@ -1982,7 +1982,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046659</field>
-    <field name="LegalName">OYX SP Z O O</field>
+    <field name="LegalName">IJD SP Z O O</field>
     <field name="FirstAddressLine">ulica os. Bolesława Chrobrego 3, 60-681 Poznań</field>
     <field name="City">Toruń</field>
     <field name="PostalCode">60-681</field>
@@ -2012,7 +2012,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046756</field>
-    <field name="LegalName">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">Główny Rynek 20, 62-800 Kalisz</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">62-800</field>
@@ -2042,7 +2042,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046853</field>
-    <field name="LegalName">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ul. Kaliska 37/55, 63-400 Ostrów Wielkopolski</field>
     <field name="City">Łódź</field>
     <field name="PostalCode">63-400</field>
@@ -2072,7 +2072,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000046950</field>
-    <field name="LegalName">IIG S.A.</field>
+    <field name="LegalName">HFT S.A.</field>
     <field name="FirstAddressLine">ul Ogarna 54, 80-826 Gdańsk</field>
     <field name="City">Zielona Góra</field>
     <field name="PostalCode">80-826</field>
@@ -2102,7 +2102,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047047</field>
-    <field name="LegalName">DUH SA</field>
+    <field name="LegalName">TWY SA</field>
     <field name="FirstAddressLine">ulica os. Jasień 71, 80-180 Gdańsk</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">80-180</field>
@@ -2132,7 +2132,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047144</field>
-    <field name="LegalName">WJJ S. A.</field>
+    <field name="LegalName">KSB S. A.</field>
     <field name="FirstAddressLine">Bohaterów Monte Cassino 88, 81-759 Sopot</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">81-759</field>
@@ -2162,7 +2162,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047241</field>
-    <field name="LegalName">SNP Spółka Akcyjna</field>
+    <field name="LegalName">TEZ Spółka Akcyjna</field>
     <field name="FirstAddressLine">105/17, 80-209 Chwaszczyno</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">80-209</field>
@@ -2192,7 +2192,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047338</field>
-    <field name="LegalName">VUK sp. z o.o.</field>
+    <field name="LegalName">ATE sp. z o.o.</field>
     <field name="FirstAddressLine">ul 3 Maja 122, 40-096 Katowice</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">40-096</field>
@@ -2222,7 +2222,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047435</field>
-    <field name="LegalName">YBL sp z oo</field>
+    <field name="LegalName">OBK sp z oo</field>
     <field name="FirstAddressLine">ulica os. Paderewskiego 139, 40-282 Katowice</field>
     <field name="City">Kielce</field>
     <field name="PostalCode">40-282</field>
@@ -2252,7 +2252,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047532</field>
-    <field name="LegalName">ZVK sp. z o. o.</field>
+    <field name="LegalName">FWF sp. z o. o.</field>
     <field name="FirstAddressLine">Zwycięstwa 156, 44-100 Gliwice</field>
     <field name="City">Kraków</field>
     <field name="PostalCode">44-100</field>
@@ -2282,7 +2282,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047629</field>
-    <field name="LegalName">GCG Sp. z o.o.</field>
+    <field name="LegalName">EPD Sp. z o.o.</field>
     <field name="FirstAddressLine">ul. Bocheńskiego 173/69, 43-100 Tychy</field>
     <field name="City">Zielona Góra</field>
     <field name="PostalCode">43-100</field>
@@ -2312,7 +2312,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047726</field>
-    <field name="LegalName">LVO SP Z O O</field>
+    <field name="LegalName">KVZ SP Z O O</field>
     <field name="FirstAddressLine">ul Najświętszej Maryi Panny 10, 42-200 Częstochowa</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">42-200</field>
@@ -2342,7 +2342,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047823</field>
-    <field name="LegalName">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ulica 11 Listopada 27, 43-300 Bielsko-Biała</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">43-300</field>
@@ -2372,7 +2372,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000047920</field>
-    <field name="LegalName">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">44, 36-047 Niechobrz</field>
     <field name="City">Łódź</field>
     <field name="PostalCode">36-047</field>
@@ -2432,7 +2432,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048114</field>
-    <field name="LegalName">NKM SA</field>
+    <field name="LegalName">QOQ SA</field>
     <field name="FirstAddressLine">ul Kościuszki 78, 38-500 Sanok</field>
     <field name="City">Zielona Góra</field>
     <field name="PostalCode">38-500</field>
@@ -2462,7 +2462,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048211</field>
-    <field name="LegalName">JSF S. A.</field>
+    <field name="LegalName">GVM S. A.</field>
     <field name="FirstAddressLine">ulica Suraska 95, 15-422 Białystok</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">15-422</field>
@@ -2492,7 +2492,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048308</field>
-    <field name="LegalName">YSY Spółka Akcyjna</field>
+    <field name="LegalName">EXN Spółka Akcyjna</field>
     <field name="FirstAddressLine">112, 16-030</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">16-030</field>
@@ -2522,7 +2522,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048405</field>
-    <field name="LegalName">AKX sp. z o.o.</field>
+    <field name="LegalName">ZEH sp. z o.o.</field>
     <field name="FirstAddressLine">ul. 3 Maja 129/83, 17-200 Hajnówka</field>
     <field name="City">Łódź</field>
     <field name="PostalCode">17-200</field>
@@ -2552,7 +2552,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048502</field>
-    <field name="LegalName">NCK sp z oo</field>
+    <field name="LegalName">BZB sp z oo</field>
     <field name="FirstAddressLine">ul os. LSM 146, 20-400 Lublin</field>
     <field name="City">Łódź</field>
     <field name="PostalCode">20-400</field>
@@ -2582,7 +2582,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048696</field>
-    <field name="LegalName">RRG sp. z o. o.</field>
+    <field name="LegalName">ZQQ sp. z o. o.</field>
     <field name="FirstAddressLine">163, 24-120 Mięćmierz</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">24-120</field>
@@ -2612,7 +2612,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048793</field>
-    <field name="LegalName">PFD Sp. z o.o.</field>
+    <field name="LegalName">DQZ Sp. z o.o.</field>
     <field name="FirstAddressLine">Brzeska 180, 21-500 Biała Podlaska</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">21-500</field>
@@ -2642,7 +2642,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048890</field>
-    <field name="LegalName">JJS SP Z O O</field>
+    <field name="LegalName">ASW SP Z O O</field>
     <field name="FirstAddressLine">ul. Rynek Staromiejski 17/45, 87-100 Toruń</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">87-100</field>
@@ -2672,7 +2672,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000048987</field>
-    <field name="LegalName">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ul Mostowa 34, 85-110 Bydgoszcz</field>
     <field name="City">Zielona Góra</field>
     <field name="PostalCode">85-110</field>
@@ -2702,7 +2702,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049084</field>
-    <field name="LegalName">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ulica Stare Miasto 51, 10-026 Olsztyn</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">10-026</field>
@@ -2732,7 +2732,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049181</field>
-    <field name="LegalName">BGD S.A.</field>
+    <field name="LegalName">JII S.A.</field>
     <field name="FirstAddressLine">Warszawska 68, 11-700 Mrągowo</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">11-700</field>
@@ -2762,7 +2762,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049278</field>
-    <field name="LegalName">GBS SA</field>
+    <field name="LegalName">UYY SA</field>
     <field name="FirstAddressLine">ul. Wojska Polskiego 85/7, 70-470 Szczecin</field>
     <field name="City">Lublin</field>
     <field name="PostalCode">70-470</field>
@@ -2792,7 +2792,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049375</field>
-    <field name="LegalName">YIC S. A.</field>
+    <field name="LegalName">GGK S. A.</field>
     <field name="FirstAddressLine">os. Monte Cassino 102, 72-600 Świnoujście</field>
     <field name="City">Kielce</field>
     <field name="PostalCode">72-600</field>
@@ -2822,7 +2822,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049472</field>
-    <field name="LegalName">OKT Spółka Akcyjna</field>
+    <field name="LegalName">YAS Spółka Akcyjna</field>
     <field name="FirstAddressLine">ulica Rynek 119, 45-015 Opole</field>
     <field name="City">Opole</field>
     <field name="PostalCode">45-015</field>
@@ -2852,7 +2852,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049569</field>
-    <field name="LegalName">QPU sp. z o.o.</field>
+    <field name="LegalName">UQU sp. z o.o.</field>
     <field name="FirstAddressLine">Byczyńska 136, 46-200 Kluczbork</field>
     <field name="City">Białystok</field>
     <field name="PostalCode">46-200</field>
@@ -2882,7 +2882,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049666</field>
-    <field name="LegalName">IEU sp z oo</field>
+    <field name="LegalName">MUV sp z oo</field>
     <field name="FirstAddressLine">ul. Chrobrego 153/59, 66-400 Gorzów Wielkopolski</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">66-400</field>
@@ -2912,7 +2912,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049763</field>
-    <field name="LegalName">PAZ sp. z o. o.</field>
+    <field name="LegalName">HAY sp. z o. o.</field>
     <field name="FirstAddressLine">ul 30 Stycznia 170, 66-300 Międzyrzecz</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">66-300</field>
@@ -2942,7 +2942,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049860</field>
-    <field name="LegalName">ZAB Sp. z o.o.</field>
+    <field name="LegalName">CCZ Sp. z o.o.</field>
     <field name="FirstAddressLine">ulica Paderewskiego 7, 25-004 Kielce</field>
     <field name="City">Lublin</field>
     <field name="PostalCode">25-004</field>
@@ -2972,7 +2972,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000049957</field>
-    <field name="LegalName">SBZ SP Z O O</field>
+    <field name="LegalName">WUF SP Z O O</field>
     <field name="FirstAddressLine">1 Maja 24, 28-100 Busko-Zdrój</field>
     <field name="City">Kielce</field>
     <field name="PostalCode">28-100</field>
@@ -3827,7 +3827,7 @@
     <field name="ValidationSources">FULLY_CORROBORATED</field>
     <field name="RegisteredAt">National Official Business Register (Central Statistical Office) | Krajowy Rejestr Urzedowy Podmiotow Gospodarki Narodowej REGON (Glowny Urzad Statystyczny) | Poland | RA000484</field>
     <field name="RegisteredAs">276696973</field>
-    <field name="DirectParentLEI">52990000000010052791</field>
+    <field name="DirectParentLEI">62990000000010052791</field>
     <field name="DirectParentName">Amber Payments Technologie Spółka Akcyjna</field>
     <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
@@ -3841,7 +3841,7 @@
     <field name="UltimateParentRelationshipEndDate">27/09/2026</field>
   </record>
   <record>
-    <field name="LEI">62990000000000052867</field>
+    <field name="LEI">52990000000000052867</field>
     <field name="LegalName">Hurtownia Farmaceutyczna Aptekarz sp. z o.o.</field>
     <field name="FirstAddressLine">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
     <field name="City">Opole</field>
@@ -4478,7 +4478,7 @@
     <field name="PostalCode">42-500</field>
     <field name="Country">PL</field>
     <field name="LegalJurisdiction">PL</field>
-    <field name="EntityLegalFormCode"></field>
+    <field name="EntityLegalFormCode">spółka akcyjna</field>
     <field name="RegistrationStatus">AKTYWNY</field>
     <field name="InitialRegistrationDate">26-04-2024</field>
     <field name="LastUpdateDate"></field>
@@ -4489,9 +4489,9 @@
     <field name="RegisteredAs">278439157</field>
     <field name="DirectParentLEI">52990000000010054925</field>
     <field name="DirectParentName"></field>
-    <field name="DirectParentRelationshipType">IS_DIRECTLY_CONSOLIDATED_BY</field>
+    <field name="DirectParentRelationshipType"></field>
     <field name="DirectParentRelationshipStatus"></field>
-    <field name="DirectParentRelationshipStartDate">13-07-2024 06:36:12</field>
+    <field name="DirectParentRelationshipStartDate"></field>
     <field name="DirectParentRelationshipEndDate">11/05/2024</field>
     <field name="UltimateParentLEI">52990000000020054946</field>
     <field name="UltimateParentName"></field>
@@ -4682,7 +4682,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000055680</field>
-    <field name="LegalName">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ul. 3 Maja 93/29, 16-300 Augustów</field>
     <field name="City">Bydgoszcz</field>
     <field name="PostalCode">16-300</field>
@@ -4712,7 +4712,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000055777</field>
-    <field name="LegalName">Zielony Canyon .A.</field>
+    <field name="LegalName">Złoty Oaza S.A.</field>
     <field name="FirstAddressLine">ul Kościuszki 110, 16-400 Suwałki</field>
     <field name="City">Opol</field>
     <field name="PostalCode">16-400</field>
@@ -4742,7 +4742,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000055874</field>
-    <field name="LegalName">Zielony Delfin SA</field>
+    <field name="LegalName">Srebrny Zefir SA</field>
     <field name="FirstAddressLine">ulica Piastowska 127, 48-300 Nysa</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">48-300</field>
@@ -4772,7 +4772,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000055971</field>
-    <field name="LegalName">Zielony Echo S. A.</field>
+    <field name="LegalName">Czysty Pilica S. A.</field>
     <field name="FirstAddressLine">Długa 144, 49-300 Brzeg</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">49-300</field>
@@ -4832,7 +4832,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056165</field>
-    <field name="LegalName">Zielony Gryf sp. z o.o.</field>
+    <field name="LegalName">Pewny Giewont sp. z o.o.</field>
     <field name="FirstAddressLine">ul Sikorskiego 178, 66-200 Świebodzin</field>
     <field name="City">Rzeszów</field>
     <field name="PostalCode">66-200</field>
@@ -4862,7 +4862,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056262</field>
-    <field name="LegalName">Zielony Horyzont sp z oo</field>
+    <field name="LegalName">Dobry Sudety sp z oo</field>
     <field name="FirstAddressLine">ulica Armii Krajowej 15, 78-100 Kołobrzeg</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">78-100</field>
@@ -4892,7 +4892,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056359</field>
-    <field name="LegalName">Zielony Ikar sp. z o. o.</field>
+    <field name="LegalName">Polski Gryf sp. z o. o.</field>
     <field name="FirstAddressLine">Piłsudskiego 32, 73-110 Stargard</field>
     <field name="City">Gdynia</field>
     <field name="PostalCode">73-110</field>
@@ -4922,7 +4922,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056456</field>
-    <field name="LegalName">Zielony Jantar Sp. z o.o.</field>
+    <field name="LegalName">Europejski Neon Sp. z o.o.</field>
     <field name="FirstAddressLine">ul. Mickiewicza 49/43, 27-600 Sandomierz</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">27-600</field>
@@ -4952,7 +4952,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056553</field>
-    <field name="LegalName">Zielony Koral SP Z O O</field>
+    <field name="LegalName">Globalny Wektor SP Z O O</field>
     <field name="FirstAddressLine">ul Sienkiewicza 66, 27-400 Ostrowiec Świętokrzyski</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">27-400</field>
@@ -4982,7 +4982,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056650</field>
-    <field name="LegalName">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ulica Chmielna 83, 00-020 Warszawa</field>
     <field name="City">Gdynia</field>
     <field name="PostalCode">00-020</field>
@@ -5012,7 +5012,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056747</field>
-    <field name="LegalName">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">Nowy Świat 100, 00-029 Warszawa</field>
     <field name="City">Białystok</field>
     <field name="PostalCode">00-029</field>
@@ -5042,7 +5042,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056844</field>
-    <field name="LegalName">Zielony Neon S.A.</field>
+    <field name="LegalName">Tradycyjny Narcyz S.A.</field>
     <field name="FirstAddressLine">ul. os. Przyjaźń 117/5, 01-355 Warszawa</field>
     <field name="City">Opole</field>
     <field name="PostalCode">01-355</field>
@@ -5072,7 +5072,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000056941</field>
-    <field name="LegalName">Zielony Oaza SA</field>
+    <field name="LegalName">Dynamiczny Bałtyk SA</field>
     <field name="FirstAddressLine">ul Jagiellońska 134, 05-120 Legionowo</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">05-120</field>
@@ -5102,7 +5102,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057038</field>
-    <field name="LegalName">Zielony Pegaz S. A.</field>
+    <field name="LegalName">Stabilny Falcon S. A.</field>
     <field name="FirstAddressLine">ulica Piłsudskiego 151, 05-270 Marki</field>
     <field name="City">Bydgoszcz</field>
     <field name="PostalCode">05-270</field>
@@ -5132,7 +5132,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057135</field>
-    <field name="LegalName">Zielony Rubin Spółka Akcyjna</field>
+    <field name="LegalName">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="FirstAddressLine">Andriollego 168, 05-400 Otwock</field>
     <field name="City">Warszawa</field>
     <field name="PostalCode">05-400</field>
@@ -5162,7 +5162,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057232</field>
-    <field name="LegalName">Zielony Szafir sp. z o.o.</field>
+    <field name="LegalName">Kreatywny Uran sp. z o.o.</field>
     <field name="FirstAddressLine">ul. Żeromskiego 5/57, 26-600 Radom</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">26-600</field>
@@ -5192,7 +5192,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057329</field>
-    <field name="LegalName">Zielony Tytan sp z oo</field>
+    <field name="LegalName">Aktywny Barycz sp z oo</field>
     <field name="FirstAddressLine">ul Tumska 22, 09-402 Płock</field>
     <field name="City">Lublin</field>
     <field name="PostalCode">09-402</field>
@@ -5222,7 +5222,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057426</field>
-    <field name="LegalName">Zielony Uran sp. z o. o.</field>
+    <field name="LegalName">Jasny Topaz sp. z o. o.</field>
     <field name="FirstAddressLine">ulica Karmelicka 39, 31-128 Kraków</field>
     <field name="City">Poznań</field>
     <field name="PostalCode">31-128</field>
@@ -5252,7 +5252,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057523</field>
-    <field name="LegalName">Zielony Wektor Sp. z o.o.</field>
+    <field name="LegalName">Green Krokus Sp. z o.o.</field>
     <field name="FirstAddressLine">os. Na Stoku 56, 31-704 Kraków</field>
     <field name="City">Opole</field>
     <field name="PostalCode">31-704</field>
@@ -5282,7 +5282,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057620</field>
-    <field name="LegalName">Zielony Zefir SP Z O O</field>
+    <field name="LegalName">Blue Karpaty SP Z O O</field>
     <field name="FirstAddressLine">ul. Krupówki 73/19, 34-500 Zakopane</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">34-500</field>
@@ -5312,7 +5312,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057717</field>
-    <field name="LegalName">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">90, 34-600 Mordarka</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">34-600</field>
@@ -5342,7 +5342,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057814</field>
-    <field name="LegalName">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ulica Galicyjska 107, 32-087 Zielonki</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">32-087</field>
@@ -5372,7 +5372,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000057911</field>
-    <field name="LegalName">Zielony Orzeł S.A.</field>
+    <field name="LegalName">Smart Tytan S.A.</field>
     <field name="FirstAddressLine">124, 32-003 Podłęże</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">32-003</field>
@@ -5402,7 +5402,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058008</field>
-    <field name="LegalName">PPHU Zielony Kormoran</field>
+    <field name="LegalName">PPHU Fast Kormoran</field>
     <field name="FirstAddressLine">os. Wałowa 141/71, 33-100 Tarnów</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">33-100</field>
@@ -5432,7 +5432,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058105</field>
-    <field name="LegalName">Zielony Barycz S. A.</field>
+    <field name="LegalName">Safe Szmaragd S. A.</field>
     <field name="FirstAddressLine">ul Narutowicza 158, 90-135 Łódź</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">90-135</field>
@@ -5462,7 +5462,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058202</field>
-    <field name="LegalName">Zielony Noteć Spółka Akcyjna</field>
+    <field name="LegalName">Best Zorza Spółka Akcyjna</field>
     <field name="FirstAddressLine">ulica os. Retkinia 175, 94-004 Łódź</field>
     <field name="City">Białystok</field>
     <field name="PostalCode">94-004</field>
@@ -5492,7 +5492,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058396</field>
-    <field name="LegalName">Zielony Pilica sp. z o.o.</field>
+    <field name="LegalName">Global Bieszczady sp. z o.o.</field>
     <field name="FirstAddressLine">Zamkowa 12, 95-200</field>
     <field name="City">Gdańsk</field>
     <field name="PostalCode">95-200</field>
@@ -5522,7 +5522,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058493</field>
-    <field name="LegalName">Zielony Narew sp z oo</field>
+    <field name="LegalName">Future Delfin sp z oo</field>
     <field name="FirstAddressLine">ul. Długa 29/33, 95-100 Zgierz</field>
     <field name="City">Warszawa</field>
     <field name="PostalCode">95-100</field>
@@ -5552,7 +5552,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058590</field>
-    <field name="LegalName">Zielony Jodełka sp. z o. o.</field>
+    <field name="LegalName">Wielkopolski Koral sp. z o. o.</field>
     <field name="FirstAddressLine">ul Nieistniejąca 46, 99-999 Nibylandia</field>
     <field name="City">Toruń</field>
     <field name="PostalCode">99-999</field>
@@ -5582,7 +5582,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058687</field>
-    <field name="LegalName">Zielony Kaktus Sp. z o.o.</field>
+    <field name="LegalName">Śląski Szafir Sp. z o.o.</field>
     <field name="FirstAddressLine">ulica Jedności Narodowej 63, 50-260 Wrocław</field>
     <field name="City">Olsztyn</field>
     <field name="PostalCode">50-260</field>
@@ -5612,7 +5612,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058784</field>
-    <field name="LegalName">Zielony Szmaragd SP Z O O</field>
+    <field name="LegalName">Mazowiecki Orzeł SP Z O O</field>
     <field name="FirstAddressLine">Konstytucji 3 Maja 80, 58-540 Karpacz</field>
     <field name="City">Katowice</field>
     <field name="PostalCode">58-540</field>
@@ -5642,7 +5642,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058881</field>
-    <field name="LegalName">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ul. Odrodzenia 97/85, 59-300 Lubin</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">59-300</field>
@@ -5672,7 +5672,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000058978</field>
-    <field name="LegalName">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">ul Słowackiego 114, 58-300 Wałbrzych</field>
     <field name="City">Bydgoszcz</field>
     <field name="PostalCode">58-300</field>
@@ -5702,7 +5702,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059075</field>
-    <field name="LegalName">Zielony Marmur S.A.</field>
+    <field name="LegalName">Karpacki Beskid S.A.</field>
     <field name="FirstAddressLine">ulica Półwiejska 131, 61-888 Poznań</field>
     <field name="City">Bydgoszcz</field>
     <field name="PostalCode">61-888</field>
@@ -5732,7 +5732,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059172</field>
-    <field name="LegalName">Zielony Syrena SA</field>
+    <field name="LegalName">Bałtycki Canyon SA</field>
     <field name="FirstAddressLine">os. Bolesława Chrobrego 148, 60-681 Poznań</field>
     <field name="City">Lublin</field>
     <field name="PostalCode">60-681</field>
@@ -5762,7 +5762,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059269</field>
-    <field name="LegalName">Zielony Zodiak S. A.</field>
+    <field name="LegalName">Młody Jantar S. A.</field>
     <field name="FirstAddressLine">ul. Główny Rynek 165/47, 62-800 Kalisz</field>
     <field name="City">Kielce</field>
     <field name="PostalCode">62-800</field>
@@ -5792,7 +5792,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059366</field>
-    <field name="LegalName">Zielony Olimp Spółka Akcyjna</field>
+    <field name="LegalName">Wspólny Rubin Spółka Akcyjna</field>
     <field name="FirstAddressLine">ul Kaliska 2, 63-400 Ostrów Wielkopolski</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">63-400</field>
@@ -5813,7 +5813,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">2020/13/03</field>
     <field name="DirectParentRelationshipEndDate">20200111</field>
-    <field name="UltimateParentLEI">52990000000020059311</field>
+    <field name="UltimateParentLEI">62990000000020059311</field>
     <field name="UltimateParentName">Astra Finance Spółka Akcyjna</field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -5822,7 +5822,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059463</field>
-    <field name="LegalName">Zielony Zorza sp. z o.o.</field>
+    <field name="LegalName">Pierwszy Sokół sp. z o.o.</field>
     <field name="FirstAddressLine">ulica Ogarna 19, 80-826 Gdańsk</field>
     <field name="City">Wrocław</field>
     <field name="PostalCode">80-826</field>
@@ -5843,7 +5843,7 @@
     <field name="DirectParentRelationshipStatus">ACTIVE</field>
     <field name="DirectParentRelationshipStartDate">20-04-2021</field>
     <field name="DirectParentRelationshipEndDate">18/02/2021</field>
-    <field name="UltimateParentLEI">62990000000020059408</field>
+    <field name="UltimateParentLEI">52990000000020059408</field>
     <field name="UltimateParentName"></field>
     <field name="UltimateParentRelationshipType">IS_ULTIMATELY_CONSOLIDATED_BY</field>
     <field name="UltimateParentRelationshipStatus">ACTIVE</field>
@@ -5852,7 +5852,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059560</field>
-    <field name="LegalName">Zielony Krokus sp z oo</field>
+    <field name="LegalName">Zielony Lotos sp z oo</field>
     <field name="FirstAddressLine">os. Jasień 36, 80-180 Gdańsk</field>
     <field name="City">Opole</field>
     <field name="PostalCode">80-180</field>
@@ -5882,7 +5882,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059657</field>
-    <field name="LegalName">Zielony Narcyz sp. z o. o.</field>
+    <field name="LegalName">Niebieski Tytan sp. z o. o.</field>
     <field name="FirstAddressLine">ul. Bohaterów Monte Cassino 53/9, 81-759 Sopot</field>
     <field name="City">Białystok</field>
     <field name="PostalCode">81-759</field>
@@ -5912,7 +5912,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059754</field>
-    <field name="LegalName">Zielony Giewont Sp. z o.o.</field>
+    <field name="LegalName">Złoty Kormoran Sp. z o.o.</field>
     <field name="FirstAddressLine">70, 80-209 Chwaszczyno</field>
     <field name="City">Opole</field>
     <field name="PostalCode">80-209</field>
@@ -5942,7 +5942,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059851</field>
-    <field name="LegalName">Zielony Rysy SP Z O O</field>
+    <field name="LegalName">Srebrny Szmaragd SP Z O O</field>
     <field name="FirstAddressLine">ulica 3 Maja 87, 40-096 Katowice</field>
     <field name="City">Kielce</field>
     <field name="PostalCode">40-096</field>
@@ -5972,7 +5972,7 @@
   </record>
   <record>
     <field name="LEI">52990000000000059948</field>
-    <field name="LegalName">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="LegalName">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="FirstAddressLine">os. Paderewskiego 104, 40-282 Katowice</field>
     <field name="City">Szczecin</field>
     <field name="PostalCode">40-282</field>

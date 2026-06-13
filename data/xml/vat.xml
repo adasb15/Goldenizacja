@@ -5,7 +5,7 @@
     <field name="nip">1266481469</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">266639842</field>
-    <field name="pesel">60021406849</field>
+    <field name="pesel">92061454847</field>
     <field name="krs">0000038808</field>
     <field name="residenceAddress">ul. Piłsudskiego 141/71, 35-074 Rzeszów</field>
     <field name="workingAddress">ul. Piłsudskiego 141/71, 35-074 Rzeszów</field>
@@ -19,7 +19,7 @@
     <field name="nip">1266560654</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">266719038</field>
-    <field name="pesel">61032108236</field>
+    <field name="pesel">93072156234</field>
     <field name="krs">0000038905</field>
     <field name="residenceAddress">ul Sienkiewicza 158, 25-007 Kielce</field>
     <field name="workingAddress">ul Sienkiewicza 158, 25-007 Kielce</field>
@@ -33,7 +33,7 @@
     <field name="nip">1266639841</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">266798227</field>
-    <field name="pesel">62042809586</field>
+    <field name="pesel">94082857584</field>
     <field name="krs">0000039002</field>
     <field name="residenceAddress">ulica Warszawska 175, 25-512 Kielce</field>
     <field name="workingAddress">ulica Warszawska 175, 25-512 Kielce</field>
@@ -47,7 +47,7 @@
     <field name="nip">1266719037</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">266877412</field>
-    <field name="pesel">63050710972</field>
+    <field name="pesel">95090758977</field>
     <field name="krs">0000039099</field>
     <field name="residenceAddress">Kościuszki 12, 10-504 Olsztyn</field>
     <field name="workingAddress">Kościuszki 12, 10-504 Olsztyn</field>
@@ -61,7 +61,7 @@
     <field name="nip">1266798226</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">266956608</field>
-    <field name="pesel">64061412321</field>
+    <field name="pesel">96101460322</field>
     <field name="krs">0000039196</field>
     <field name="residenceAddress">ul. Dąbrowszczaków 29/33, 10-540 Olsztyn</field>
     <field name="workingAddress">ul. Dąbrowszczaków 29/33, 10-540 Olsztyn</field>
@@ -75,7 +75,7 @@
     <field name="nip">1266877411</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267035796</field>
-    <field name="pesel">65072113717</field>
+    <field name="pesel">97112161718</field>
     <field name="krs">0000039293</field>
     <field name="residenceAddress">ul Krakowska 46, 45-018 Opole</field>
     <field name="workingAddress">ul Krakowska 46, 45-018 Opole</field>
@@ -89,7 +89,7 @@
     <field name="nip">1266956607</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267114981</field>
-    <field name="pesel">66082815068</field>
+    <field name="pesel">98122863069</field>
     <field name="krs">0000039390</field>
     <field name="residenceAddress">os. Ozimska 63, 45-057 Opole</field>
     <field name="workingAddress">os. Ozimska 63, 45-057 Opole</field>
@@ -99,11 +99,11 @@
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Zileiński Bracia sp. z o.o.</field>
+    <field name="name">Zieliński Bracai sp. z o.o.</field>
     <field name="nip">1267035795</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267194170</field>
-    <field name="pesel">67090716451</field>
+    <field name="pesel">99010764457</field>
     <field name="krs">0000039487</field>
     <field name="residenceAddress">Bohaterów Westerplatte 80, 65-034 Zielona Góra</field>
     <field name="workingAddress">Bohaterów Westerplatte 80, 65-034 Zielona Góra</field>
@@ -117,7 +117,7 @@
     <field name="nip">1267114980</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267273366</field>
-    <field name="pesel">68101417802</field>
+    <field name="pesel">00221465800</field>
     <field name="krs">0000039584</field>
     <field name="residenceAddress">ul. Kupiecka 97/85, 65-058 Zielona Góra</field>
     <field name="workingAddress">ul. Kupiecka 97/85, 65-058 Zielona Góra</field>
@@ -131,7 +131,7 @@
     <field name="nip">1277194207</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267352551</field>
-    <field name="pesel">69112119190</field>
+    <field name="pesel">01232167198</field>
     <field name="krs">0000039681</field>
     <field name="residenceAddress">ul Świętojańska 114, 81-372 Gdynia</field>
     <field name="workingAddress">ul Świętojańska 114, 81-372 Gdynia</field>
@@ -145,7 +145,7 @@
     <field name="nip">1267273365</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267431747</field>
-    <field name="pesel">70122820541</field>
+    <field name="pesel">02242868547</field>
     <field name="krs">0000039778</field>
     <field name="residenceAddress">ulica 10 Lutego 131, 81-364 Gdynia</field>
     <field name="workingAddress">ulica 10 Lutego 131, 81-364 Gdynia</field>
@@ -159,7 +159,7 @@
     <field name="nip">1267352550</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267510932</field>
-    <field name="pesel">71010721939</field>
+    <field name="pesel">03250769930</field>
     <field name="krs">0000039875</field>
     <field name="residenceAddress">Bolesława Prusa 148, 05-800 Pruszków</field>
     <field name="workingAddress">Bolesława Prusa 148, 05-800 Pruszków</field>
@@ -173,7 +173,7 @@
     <field name="nip">1267431746</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267590121</field>
-    <field name="pesel">72021423289</field>
+    <field name="pesel">04261471283</field>
     <field name="krs">0000039972</field>
     <field name="residenceAddress">ul. Kościuszki 165/47, 05-500 Piaseczno</field>
     <field name="workingAddress">ul. Kościuszki 165/47, 05-500 Piaseczno</field>
@@ -187,7 +187,7 @@
     <field name="nip">1267510931</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267669319</field>
-    <field name="pesel">73032124675</field>
+    <field name="pesel">05272172679</field>
     <field name="krs">0000040069</field>
     <field name="residenceAddress">2, 32-020 Wieliczka</field>
     <field name="workingAddress">2, 32-020 Wieliczka</field>
@@ -201,7 +201,7 @@
     <field name="nip">1267590120</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267748504</field>
-    <field name="pesel">74042826025</field>
+    <field name="pesel">60082874025</field>
     <field name="krs">0000040166</field>
     <field name="residenceAddress">ulica Dąbrowskiego 19, 32-600 Oświęcim</field>
     <field name="workingAddress">ulica Dąbrowskiego 19, 32-600 Oświęcim</field>
@@ -215,7 +215,7 @@
     <field name="nip">1267669318</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267827698</field>
-    <field name="pesel">75050727418</field>
+    <field name="pesel">61090775418</field>
     <field name="krs">0000040263</field>
     <field name="residenceAddress">Rynek 36, 38-400 Krosno</field>
     <field name="workingAddress">Rynek 36, 38-400 Krosno</field>
@@ -229,7 +229,7 @@
     <field name="nip">1267748503</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267906883</field>
-    <field name="pesel">76061428767</field>
+    <field name="pesel">62101476760</field>
     <field name="krs">0000040360</field>
     <field name="residenceAddress"></field>
     <field name="workingAddress">ul. Mickiewicza 53/9, 39-300 Mielec</field>
@@ -243,7 +243,7 @@
     <field name="nip">1267827697</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">267986072</field>
-    <field name="pesel">77072130157</field>
+    <field name="pesel">63112178157</field>
     <field name="krs">0000040457</field>
     <field name="residenceAddress">ul Długa 70, 58-100 Świdnica</field>
     <field name="workingAddress">ul Długa 70, 58-100 Świdnica</field>
@@ -257,7 +257,7 @@
     <field name="nip">1267906882</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268065262</field>
-    <field name="pesel">78082831506</field>
+    <field name="pesel">64122879506</field>
     <field name="krs">0000040554</field>
     <field name="residenceAddress">ulica Wojska Polskiego 87, 57-300 Kłodzko</field>
     <field name="workingAddress">ulica Wojska Polskiego 87, 57-300 Kłodzko</field>
@@ -271,7 +271,7 @@
     <field name="nip">1267986071</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268144458</field>
-    <field name="pesel">79090732890</field>
+    <field name="pesel">65010780898</field>
     <field name="krs">0000040651</field>
     <field name="residenceAddress">Chrobrego 104, Gniezno</field>
     <field name="workingAddress">Chrobrego 104, Gniezno</field>
@@ -285,7 +285,7 @@
     <field name="nip">1268065261</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268223643</field>
-    <field name="pesel">80101434241</field>
+    <field name="pesel">66021482247</field>
     <field name="krs">0000040748</field>
     <field name="residenceAddress">ul. Słowiańska 121/61, 64-100 Leszno</field>
     <field name="workingAddress">ul. Słowiańska 121/61, 64-100 Leszno</field>
@@ -299,7 +299,7 @@
     <field name="nip">1268144457</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268302839</field>
-    <field name="pesel">81112135637</field>
+    <field name="pesel">67032183633</field>
     <field name="krs">0000040845</field>
     <field name="residenceAddress">ul Gdańska 138, 83-110 Tczew</field>
     <field name="workingAddress">ul Gdańska 138, 83-110 Tczew</field>
@@ -313,7 +313,7 @@
     <field name="nip">1268223642</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268382028</field>
-    <field name="pesel">82122836987</field>
+    <field name="pesel">68042884983</field>
     <field name="krs">0000040942</field>
     <field name="residenceAddress">ulica Sobieskiego 155, 84-200 Wejherowo</field>
     <field name="workingAddress">ulica Sobieskiego 155, 84-200 Wejherowo</field>
@@ -327,7 +327,7 @@
     <field name="nip">1268302838</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268461213</field>
-    <field name="pesel">83010738376</field>
+    <field name="pesel">69050786377</field>
     <field name="krs">0000041039</field>
     <field name="residenceAddress">Głęboka 172, 43-400 Cieszyn</field>
     <field name="workingAddress">Głęboka 172, 43-400 Cieszyn</field>
@@ -341,7 +341,7 @@
     <field name="nip">1268382027</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268540409</field>
-    <field name="pesel">84021439724</field>
+    <field name="pesel">70061487724</field>
     <field name="krs">0000041136</field>
     <field name="residenceAddress">ul. Małachowskiego 9/23, 42-500 Będzin</field>
     <field name="workingAddress">ul. Małachowskiego 9/23, 42-500 Będzin</field>
@@ -355,7 +355,7 @@
     <field name="nip">1268461212</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268619594</field>
-    <field name="pesel">85032141114</field>
+    <field name="pesel">71072189111</field>
     <field name="krs">0000041233</field>
     <field name="residenceAddress">ul Królowej Jadwigi 26, 88-100 Inowrocław</field>
     <field name="workingAddress">ul Królowej Jadwigi 26, 88-100 Inowrocław</field>
@@ -369,7 +369,7 @@
     <field name="nip">1268540408</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268698783</field>
-    <field name="pesel">86042842464</field>
+    <field name="pesel">72082890464</field>
     <field name="krs">0000041330</field>
     <field name="residenceAddress">ulica Wybickiego 43, 86-300 Grudziądz</field>
     <field name="workingAddress">ulica Wybickiego 43, 86-300 Grudziądz</field>
@@ -383,7 +383,7 @@
     <field name="nip">1268619593</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268777979</field>
-    <field name="pesel">87050743857</field>
+    <field name="pesel">73090791857</field>
     <field name="krs">0000041427</field>
     <field name="residenceAddress">60, 14-100 Ostróda</field>
     <field name="workingAddress">60, 14-100 Ostróda</field>
@@ -397,7 +397,7 @@
     <field name="nip">1268698782</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">268857164</field>
-    <field name="pesel">88061445206</field>
+    <field name="pesel">74101493209</field>
     <field name="krs">0000041524</field>
     <field name="residenceAddress">ul. Warszawska 77/75, 11-500 Giżycko</field>
     <field name="workingAddress">ul. Warszawska 77/75, 11-500 Giżycko</field>
@@ -411,7 +411,7 @@
     <field name="nip">1268777978</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">278936387</field>
-    <field name="pesel">89072146593</field>
+    <field name="pesel">75112194596</field>
     <field name="krs">0000041621</field>
     <field name="residenceAddress">ul Lubelska 94, 24-100 Puławy</field>
     <field name="workingAddress">ul Lubelska 94, 24-100 Puławy</field>
@@ -704,7 +704,7 @@
     <field name="name">Moda Globalny Spółka Akcyjna</field>
     <field name="nip">1270440962</field>
     <field name="statusVat">AKTYWNY</field>
-    <field name="regon">370599341</field>
+    <field name="regon">270599341</field>
     <field name="pesel">96082823349</field>
     <field name="krs">0000043658</field>
     <field name="residenceAddress">ulica os. Na Stoku 91, 31-704 Kraków</field>
@@ -774,7 +774,7 @@
     <field name="name">Ślusarstwo Fast SP Z O O</field>
     <field name="nip">1270836915</field>
     <field name="statusVat">AKTYWNY</field>
-    <field name="regon">270995290</field>
+    <field name="regon">370995290</field>
     <field name="pesel">01210730217</field>
     <field name="krs">0000044143</field>
     <field name="residenceAddress">176, 33-100 Tarnów</field>
@@ -799,7 +799,7 @@
     <field name="removalDate">12-12-2015</field>
   </record>
   <record>
-    <field name="name">Ochrona Śląski Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Ochrona Śląski Spółka z ograniczoną odpowiedzailnością</field>
     <field name="nip">1270995298</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271153676</field>
@@ -841,7 +841,7 @@
     <field name="removalDate">05/03/2018</field>
   </record>
   <record>
-    <field name="name">P.P.H.U. ZLS</field>
+    <field name="name">P.P.H.U. ORR</field>
     <field name="nip">1271232869</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271391246</field>
@@ -855,7 +855,7 @@
     <field name="removalDate">2019/12/04</field>
   </record>
   <record>
-    <field name="name">UZA Spółka Akcyjna</field>
+    <field name="name">BDZ Spółka Akcyjna</field>
     <field name="nip">1271312054</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271470431</field>
@@ -869,7 +869,7 @@
     <field name="removalDate">20-04-2023</field>
   </record>
   <record>
-    <field name="name">NKV sp. z o.o.</field>
+    <field name="name">SYT sp. z o.o.</field>
     <field name="nip">1271391243</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271549629</field>
@@ -883,7 +883,7 @@
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">SAI sp z oo</field>
+    <field name="name">FFB sp z oo</field>
     <field name="nip">1271470439</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271628814</field>
@@ -897,7 +897,7 @@
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">EFT sp. z o. o.</field>
+    <field name="name">HVB sp. z o. o.</field>
     <field name="nip">1271549626</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281708037</field>
@@ -911,7 +911,7 @@
     <field name="removalDate">12/08/2023</field>
   </record>
   <record>
-    <field name="name">HMO Sp. z o.o.</field>
+    <field name="name">TTH Sp. z o.o.</field>
     <field name="nip">1271628811</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271787197</field>
@@ -925,7 +925,7 @@
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">OYX SP Z O O</field>
+    <field name="name">IJD SP Z O O</field>
     <field name="nip">1271708007</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271866382</field>
@@ -939,7 +939,7 @@
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">IQS spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">GEU spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1271787194</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">271945578</field>
@@ -953,7 +953,7 @@
     <field name="removalDate">2026-05-11</field>
   </record>
   <record>
-    <field name="name">NNL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">IAO Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1281866417</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272024768</field>
@@ -967,7 +967,7 @@
     <field name="removalDate">20251211</field>
   </record>
   <record>
-    <field name="name">IIG S.A.</field>
+    <field name="name">HFT S.A.</field>
     <field name="nip">1271945575</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272103953</field>
@@ -981,7 +981,7 @@
     <field name="removalDate">21/08/2024</field>
   </record>
   <record>
-    <field name="name">DUH SA</field>
+    <field name="name">TWY SA</field>
     <field name="nip">1272024765</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272183142</field>
@@ -995,7 +995,7 @@
     <field name="removalDate">2017/26/02</field>
   </record>
   <record>
-    <field name="name">WJJ S. A.</field>
+    <field name="name">KSB S. A.</field>
     <field name="nip">1272103950</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272262338</field>
@@ -1009,7 +1009,7 @@
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">SNP Spółka Akcyjna</field>
+    <field name="name">TEZ Spółka Akcyjna</field>
     <field name="nip">1282183175</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272341523</field>
@@ -1023,7 +1023,7 @@
     <field name="removalDate">2019-12-04</field>
   </record>
   <record>
-    <field name="name">VUK sp. z o.o.</field>
+    <field name="name">ATE sp. z o.o.</field>
     <field name="nip">1272262335</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272420719</field>
@@ -1037,7 +1037,7 @@
     <field name="removalDate">20260621</field>
   </record>
   <record>
-    <field name="name">YBL sp z oo</field>
+    <field name="name">OBK sp z oo</field>
     <field name="nip">1272341520</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282499937</field>
@@ -1051,7 +1051,7 @@
     <field name="removalDate">26/06/2021 05:29</field>
   </record>
   <record>
-    <field name="name">ZVK sp. z o. o.</field>
+    <field name="name">FWF sp. z o. o.</field>
     <field name="nip">1272420716</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272579093</field>
@@ -1065,7 +1065,7 @@
     <field name="removalDate">2022/05/07</field>
   </record>
   <record>
-    <field name="name">GCG Sp. z o.o.</field>
+    <field name="name">EPD Sp. z o.o.</field>
     <field name="nip">1272499907</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272658289</field>
@@ -1079,7 +1079,7 @@
     <field name="removalDate">12-08-2023</field>
   </record>
   <record>
-    <field name="name">LVO SP Z O O</field>
+    <field name="name">KVZ SP Z O O</field>
     <field name="nip">1272579090</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272737474</field>
@@ -1093,7 +1093,7 @@
     <field name="removalDate">2024-19-09</field>
   </record>
   <record>
-    <field name="name">ROM spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">KEF spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1272658286</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282816697</field>
@@ -1107,7 +1107,7 @@
     <field name="removalDate">20251026</field>
   </record>
   <record>
-    <field name="name">PJL Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">XTN Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1272737471</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">272895859</field>
@@ -1135,7 +1135,7 @@
     <field name="removalDate">2015/12/12</field>
   </record>
   <record>
-    <field name="name">NKM SA</field>
+    <field name="name">QOQ SA</field>
     <field name="nip">1272895856</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273054234</field>
@@ -1149,7 +1149,7 @@
     <field name="removalDate">19-01-2016</field>
   </record>
   <record>
-    <field name="name">JSF S. A.</field>
+    <field name="name">GVM S. A.</field>
     <field name="nip">1272975041</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">283133457</field>
@@ -1163,7 +1163,7 @@
     <field name="removalDate">2026-12-05</field>
   </record>
   <record>
-    <field name="name">YSY Spółka Akcyjna</field>
+    <field name="name">EXN Spółka Akcyjna</field>
     <field name="nip">1273054231</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273212615</field>
@@ -1177,7 +1177,7 @@
     <field name="removalDate">20180305</field>
   </record>
   <record>
-    <field name="name">AKX sp. z o.o.</field>
+    <field name="name">ZEH sp. z o.o.</field>
     <field name="nip">1273133427</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273291804</field>
@@ -1191,7 +1191,7 @@
     <field name="removalDate">12/04/2019</field>
   </record>
   <record>
-    <field name="name">NCK sp z oo</field>
+    <field name="name">BZB sp z oo</field>
     <field name="nip">1273212612</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273370998</field>
@@ -1205,7 +1205,7 @@
     <field name="removalDate">2020/19/05</field>
   </record>
   <record>
-    <field name="name">RRG sp. z o. o.</field>
+    <field name="name">ZQQ sp. z o. o.</field>
     <field name="nip">1273291801</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273450183</field>
@@ -1219,8 +1219,8 @@
     <field name="removalDate">26-06-2021</field>
   </record>
   <record>
-    <field name="name">PFD Sp. z o.o.</field>
-    <field name="nip"></field>
+    <field name="name">DQZ Sp. z o.o.</field>
+    <field name="nip">1273370995</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273529370</field>
     <field name="pesel">87090774059</field>
@@ -1233,8 +1233,8 @@
     <field name="removalDate">2022-05-07</field>
   </record>
   <record>
-    <field name="name">JJS SP Z O O</field>
-    <field name="nip">1273450180</field>
+    <field name="name">ASW SP Z O O</field>
+    <field name="nip"></field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273608566</field>
     <field name="pesel">88101475400</field>
@@ -1247,7 +1247,7 @@
     <field name="removalDate">20240126</field>
   </record>
   <record>
-    <field name="name">MZL spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">REY spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1273529378</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273687755</field>
@@ -1261,7 +1261,7 @@
     <field name="removalDate">19/09/2024</field>
   </record>
   <record>
-    <field name="name">XOU Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">VDS Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1273608563</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273766940</field>
@@ -1275,7 +1275,7 @@
     <field name="removalDate">2025/26/10</field>
   </record>
   <record>
-    <field name="name">BGD S.A.</field>
+    <field name="name">JII S.A.</field>
     <field name="nip">1273687752</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273846136</field>
@@ -1289,7 +1289,7 @@
     <field name="removalDate">05-11-2026</field>
   </record>
   <record>
-    <field name="name">GBS SA</field>
+    <field name="name">UYY SA</field>
     <field name="nip">1273766948</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">273925321</field>
@@ -1303,7 +1303,7 @@
     <field name="removalDate">2015-12-12</field>
   </record>
   <record>
-    <field name="name">YIC S. A.</field>
+    <field name="name">GGK S. A.</field>
     <field name="nip">1273846133</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274004511</field>
@@ -1317,7 +1317,7 @@
     <field name="removalDate">20160119</field>
   </record>
   <record>
-    <field name="name">OKT Spółka Akcyjna</field>
+    <field name="name">YAS Spółka Akcyjna</field>
     <field name="nip">1273925329</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274083700</field>
@@ -1331,7 +1331,7 @@
     <field name="removalDate">26/02/2017</field>
   </record>
   <record>
-    <field name="name">QPU sp. z o.o.</field>
+    <field name="name">UQU sp. z o.o.</field>
     <field name="nip">1274004519</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274162894</field>
@@ -1345,7 +1345,7 @@
     <field name="removalDate">2022/20/08</field>
   </record>
   <record>
-    <field name="name">IEU sp z oo</field>
+    <field name="name">MUV sp z oo</field>
     <field name="nip">1274083708</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">284242119</field>
@@ -1359,7 +1359,7 @@
     <field name="removalDate">12-04-2019</field>
   </record>
   <record>
-    <field name="name">PAZ sp. z o. o.</field>
+    <field name="name">HAY sp. z o. o.</field>
     <field name="nip">1274162891</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274321275</field>
@@ -1373,7 +1373,7 @@
     <field name="removalDate">2020-19-05</field>
   </record>
   <record>
-    <field name="name">ZAB Sp. z o.o.</field>
+    <field name="name">CCZ Sp. z o.o.</field>
     <field name="nip">1274242087</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274400460</field>
@@ -1387,7 +1387,7 @@
     <field name="removalDate">20210626</field>
   </record>
   <record>
-    <field name="name">SBZ SP Z O O</field>
+    <field name="name">WUF SP Z O O</field>
     <field name="nip">1274321272</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">274479651</field>
@@ -1797,7 +1797,7 @@
     <field name="nip">1276617781</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">276776169</field>
-    <field name="pesel">82021430202</field>
+    <field name="pesel">92021430202</field>
     <field name="krs">0000051224</field>
     <field name="residenceAddress">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
     <field name="workingAddress">ul. Kościuszki 157/25, 10-504 Olsztyn</field>
@@ -1811,7 +1811,7 @@
     <field name="nip">1276696970</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">276855354</field>
-    <field name="pesel">93032131599</field>
+    <field name="pesel">83032131599</field>
     <field name="krs">0000051321</field>
     <field name="residenceAddress">ul Dąbrowszczaków 174, 10-540 Olsztyn</field>
     <field name="workingAddress">ul Dąbrowszczaków 174, 10-540 Olsztyn</field>
@@ -1852,7 +1852,7 @@
     <field name="name">Centrum Logistyczne Podlasie SP Z O O</field>
     <field name="nip">1276934547</field>
     <field name="statusVat">AKTYWNY</field>
-    <field name="regon"></field>
+    <field name="regon">277092929</field>
     <field name="pesel">86061435681</field>
     <field name="krs">0000051612</field>
     <field name="residenceAddress">ul. Bohaterów Westerplatte 45/77, 65-034 Zielona Góra</field>
@@ -1866,7 +1866,7 @@
     <field name="name">Fabryka Mebli Drewnianych Dąb spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1277013737</field>
     <field name="statusVat">AKTYWNY</field>
-    <field name="regon">277172114</field>
+    <field name="regon"></field>
     <field name="pesel">87072137078</field>
     <field name="krs">0000051709</field>
     <field name="residenceAddress">ul Kupiecka 62, 65-058 Zielona Góra</field>
@@ -2089,8 +2089,8 @@
   <record>
     <field name="name">Centrum Dystrybucji Alkoholi Spółka Akcyjna</field>
     <field name="nip">1278280771</field>
-    <field name="statusVat"></field>
-    <field name="regon">278439157</field>
+    <field name="statusVat">AKTYWNY</field>
+    <field name="regon"></field>
     <field name="pesel">03312158993</field>
     <field name="krs">0000053261</field>
     <field name="residenceAddress">ul Małachowskiego 154, 42-500 Będzin</field>
@@ -2185,7 +2185,7 @@
     <field name="removalDate">2018/05/03</field>
   </record>
   <record>
-    <field name="name">Zielony Bizon Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Niebieski Horyzont Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1278835105</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">278993480</field>
@@ -2199,7 +2199,7 @@
     <field name="removalDate">12-04-2019</field>
   </record>
   <record>
-    <field name="name">iZelony Canyon S.A.</field>
+    <field name="name">Złoty Oaza S.A.</field>
     <field name="nip">1278914299</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279072670</field>
@@ -2213,7 +2213,7 @@
     <field name="removalDate">2022-06-10</field>
   </record>
   <record>
-    <field name="name">Zielony Delfin SA</field>
+    <field name="name">Srebrny Zefir SA</field>
     <field name="nip">1278993488</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279151866</field>
@@ -2227,7 +2227,7 @@
     <field name="removalDate">20210626</field>
   </record>
   <record>
-    <field name="name">Zielony Echo S. A.</field>
+    <field name="name">Czysty Pilica S. A.</field>
     <field name="nip">1279072678</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279231051</field>
@@ -2255,7 +2255,7 @@
     <field name="removalDate">2025/02/10</field>
   </record>
   <record>
-    <field name="name">Zielony Gryf sp. z o.o.</field>
+    <field name="name">Pewny Giewont sp. z o.o.</field>
     <field name="nip">1279231059</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279389438</field>
@@ -2269,7 +2269,7 @@
     <field name="removalDate">19-09-2024</field>
   </record>
   <record>
-    <field name="name">Zielony Horyzont sp z oo</field>
+    <field name="name">Dobry Sudety sp z oo</field>
     <field name="nip">1279310244</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279468623</field>
@@ -2283,7 +2283,7 @@
     <field name="removalDate">2025-26-10</field>
   </record>
   <record>
-    <field name="name">Zielony Ikar sp. z o. o.</field>
+    <field name="name">Polski Gryf sp. z o. o.</field>
     <field name="nip">1279389435</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279547819</field>
@@ -2297,7 +2297,7 @@
     <field name="removalDate">20261105</field>
   </record>
   <record>
-    <field name="name">Zielony Jantar Sp. z o.o.</field>
+    <field name="name">Europejski Neon Sp. z o.o.</field>
     <field name="nip">1279468620</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279627004</field>
@@ -2311,7 +2311,7 @@
     <field name="removalDate">07/07/2025</field>
   </record>
   <record>
-    <field name="name">Zielony Koral SP Z O O</field>
+    <field name="name">Globalny Wektor SP Z O O</field>
     <field name="nip">1279547816</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279706198</field>
@@ -2325,7 +2325,7 @@
     <field name="removalDate">2016/19/01</field>
   </record>
   <record>
-    <field name="name">Zielony Lotos spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Lokalny Noteć spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1279627001</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279785387</field>
@@ -2339,7 +2339,7 @@
     <field name="removalDate">31-01-2021</field>
   </record>
   <record>
-    <field name="name">Zielony Magnolia Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Nowoczesny Granit Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1279706195</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279864572</field>
@@ -2353,7 +2353,7 @@
     <field name="removalDate">2018-05-03</field>
   </record>
   <record>
-    <field name="name">Zielony Neon S.A.</field>
+    <field name="name">Tradycyjny Narcyz S.A.</field>
     <field name="nip">1279785384</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">279943768</field>
@@ -2367,7 +2367,7 @@
     <field name="removalDate">20190412</field>
   </record>
   <record>
-    <field name="name">Zielony Oaza SA</field>
+    <field name="name">Dynamiczny Bałtyk SA</field>
     <field name="nip">1289864607</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280022958</field>
@@ -2381,7 +2381,7 @@
     <field name="removalDate">19/05/2020</field>
   </record>
   <record>
-    <field name="name">Zielony Pegaz S. A.</field>
+    <field name="name">Stabilny Falcon S. A.</field>
     <field name="nip">1279943765</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280102143</field>
@@ -2395,7 +2395,7 @@
     <field name="removalDate">2021/26/06</field>
   </record>
   <record>
-    <field name="name">Zielony Rubin Spółka Akcyjna</field>
+    <field name="name">Innowacyjny Magnolia Spółka Akcyjna</field>
     <field name="nip">1280022953</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280181332</field>
@@ -2409,7 +2409,7 @@
     <field name="removalDate">202207050648</field>
   </record>
   <record>
-    <field name="name">Zielony Szafir sp. z o.o.</field>
+    <field name="name">Kreatywny Uran sp. z o.o.</field>
     <field name="nip">1280102149</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280260528</field>
@@ -2423,7 +2423,7 @@
     <field name="removalDate">2023-12-08</field>
   </record>
   <record>
-    <field name="name">Zielony Tytan sp z oo</field>
+    <field name="name">Aktywny Barycz sp z oo</field>
     <field name="nip">1280181338</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280339715</field>
@@ -2437,7 +2437,7 @@
     <field name="removalDate">20240919</field>
   </record>
   <record>
-    <field name="name">Zielony Uran sp. z o. o.</field>
+    <field name="name">Jasny Topaz sp. z o. o.</field>
     <field name="nip">1280260523</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280418900</field>
@@ -2451,7 +2451,7 @@
     <field name="removalDate">26/10/2025</field>
   </record>
   <record>
-    <field name="name">Zielony Wektor Sp. z o.o.</field>
+    <field name="name">Green Krokus Sp. z o.o.</field>
     <field name="nip">1280339710</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280498098</field>
@@ -2465,7 +2465,7 @@
     <field name="removalDate">2026/05/11</field>
   </record>
   <record>
-    <field name="name">Zielony Zefir SP Z O O</field>
+    <field name="name">Blue Karpaty SP Z O O</field>
     <field name="nip">1280418906</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280577283</field>
@@ -2479,7 +2479,7 @@
     <field name="removalDate">12-12-2015</field>
   </record>
   <record>
-    <field name="name">Zielony Żubr spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Gold Echo spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1280498093</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280656479</field>
@@ -2493,7 +2493,7 @@
     <field name="removalDate">2016-19-01</field>
   </record>
   <record>
-    <field name="name">Zielony Sokół Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Silver Lotos Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1280577289</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280735664</field>
@@ -2507,7 +2507,7 @@
     <field name="removalDate">20170226</field>
   </record>
   <record>
-    <field name="name">Zielony Orzeł S.A.</field>
+    <field name="name">Smart Tytan S.A.</field>
     <field name="nip">1280656474</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">290814887</field>
@@ -2521,7 +2521,7 @@
     <field name="removalDate">05/03/2018</field>
   </record>
   <record>
-    <field name="name">PPHU Zielony Kormoran</field>
+    <field name="name">PPHU Fast Kormoran</field>
     <field name="nip">1290735695</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280894049</field>
@@ -2535,7 +2535,7 @@
     <field name="removalDate">2020/10/04</field>
   </record>
   <record>
-    <field name="name">Zielony Barycz S. A.</field>
+    <field name="name">Safe Szmaragd S. A.</field>
     <field name="nip">1280814855</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">280973234</field>
@@ -2549,7 +2549,7 @@
     <field name="removalDate">19-05-2020</field>
   </record>
   <record>
-    <field name="name">Zielony Noteć Spółka Akcyjna</field>
+    <field name="name">Best Zorza Spółka Akcyjna</field>
     <field name="nip">1280894044</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281052424</field>
@@ -2563,7 +2563,7 @@
     <field name="removalDate">2021-26-06</field>
   </record>
   <record>
-    <field name="name">Zielony Pilica sp. z o.o.</field>
+    <field name="name">Global Bieszczady sp. z o.o.</field>
     <field name="nip">1290973265</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">291131647</field>
@@ -2577,7 +2577,7 @@
     <field name="removalDate">20220705</field>
   </record>
   <record>
-    <field name="name">Zielony Narew sp z oo</field>
+    <field name="name">Future Delfin sp z oo</field>
     <field name="nip">1291052455</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281210805</field>
@@ -2591,7 +2591,7 @@
     <field name="removalDate">15/07/2020</field>
   </record>
   <record>
-    <field name="name">Zielony Jodełka sp. z o. o.</field>
+    <field name="name">Wielkopolski Koral sp. z o. o.</field>
     <field name="nip">1281131615</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281289994</field>
@@ -2605,7 +2605,7 @@
     <field name="removalDate">2024/19/09</field>
   </record>
   <record>
-    <field name="name">Zielony Kaktus Sp. z o.o.</field>
+    <field name="name">Śląski Szafir Sp. z o.o.</field>
     <field name="nip">1281210800</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">291369219</field>
@@ -2619,7 +2619,7 @@
     <field name="removalDate">26-10-2025</field>
   </record>
   <record>
-    <field name="name">Zielony Szmaragd SP Z O O</field>
+    <field name="name">Mazowiecki Orzeł SP Z O O</field>
     <field name="nip">1291290025</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281448375</field>
@@ -2633,7 +2633,7 @@
     <field name="removalDate">2026-05-11</field>
   </record>
   <record>
-    <field name="name">Zielony Topaz spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Pomorski Kaktus spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1281369185</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281527560</field>
@@ -2647,7 +2647,7 @@
     <field name="removalDate">20151212</field>
   </record>
   <record>
-    <field name="name">Zielony Granit Spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Dolnośląski Olimp Spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1281448370</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281606756</field>
@@ -2661,7 +2661,7 @@
     <field name="removalDate">06/01/2023</field>
   </record>
   <record>
-    <field name="name">Zielony Marmur S.A.</field>
+    <field name="name">Karpacki Beskid S.A.</field>
     <field name="nip">1281527566</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281685945</field>
@@ -2675,7 +2675,7 @@
     <field name="removalDate">2017/26/02</field>
   </record>
   <record>
-    <field name="name">Zielony Syrena SA</field>
+    <field name="name">Bałtycki Canyon SA</field>
     <field name="nip">1281606751</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281765130</field>
@@ -2689,7 +2689,7 @@
     <field name="removalDate">07-12-2026</field>
   </record>
   <record>
-    <field name="name">Zielony Zodiak S. A.</field>
+    <field name="name">Młody Jantar S. A.</field>
     <field name="nip">1281685940</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281844326</field>
@@ -2703,7 +2703,7 @@
     <field name="removalDate">2024-13-07</field>
   </record>
   <record>
-    <field name="name">Zielony Olimp Spółka Akcyjna</field>
+    <field name="name">Wspólny Rubin Spółka Akcyjna</field>
     <field name="nip">1281765136</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">281923511</field>
@@ -2717,7 +2717,7 @@
     <field name="removalDate">20200519</field>
   </record>
   <record>
-    <field name="name">Zielony Zorza sp. z o.o.</field>
+    <field name="name">Pierwszy Sokół sp. z o.o.</field>
     <field name="nip">1281844321</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282002701</field>
@@ -2731,7 +2731,7 @@
     <field name="removalDate">14/06/2025</field>
   </record>
   <record>
-    <field name="name">Zielony Krokus sp z oo</field>
+    <field name="name">Zielony Lotos sp z oo</field>
     <field name="nip">1281923517</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282081899</field>
@@ -2745,7 +2745,7 @@
     <field name="removalDate">2022/05/07</field>
   </record>
   <record>
-    <field name="name">Zielony Narcyz sp. z o. o.</field>
+    <field name="name">Niebieski Tytan sp. z o. o.</field>
     <field name="nip">1282002707</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282161084</field>
@@ -2759,7 +2759,7 @@
     <field name="removalDate">12-08-2023</field>
   </record>
   <record>
-    <field name="name">Zielony Giewont Sp. z o.o.</field>
+    <field name="name">Złoty Kormoran Sp. z o.o.</field>
     <field name="nip">1282081894</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">292240309</field>
@@ -2773,7 +2773,7 @@
     <field name="removalDate">2026-11-05</field>
   </record>
   <record>
-    <field name="name">Zielony Rysy SP Z O O</field>
+    <field name="name">Srebrny Szmaragd SP Z O O</field>
     <field name="nip">1292161117</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282319467</field>
@@ -2787,7 +2787,7 @@
     <field name="removalDate">20251026</field>
   </record>
   <record>
-    <field name="name">Zielony Kasprowy spółka z ograniczoną odpowiedzialnością</field>
+    <field name="name">Czysty Zorza spółka z ograniczoną odpowiedzialnością</field>
     <field name="nip">1282240275</field>
     <field name="statusVat">AKTYWNY</field>
     <field name="regon">282398656</field>
