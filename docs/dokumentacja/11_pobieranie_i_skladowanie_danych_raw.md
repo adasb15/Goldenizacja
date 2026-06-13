@@ -39,14 +39,14 @@ Dozwolone rozszerzenia są określone w stałej `SUPPORTED_FILE_TYPES`.
 
 | Format | Kontrola wykonywana podczas RAW load | Sposób ustalenia `records_in` |
 |---|---|---|
-| CSV | odczyt jako UTF-8 z opcjonalnym BOM i sprawdzenie obecności wierszy | liczba wierszy pomniejszona o wiersz nagłówka |
+| CSV | odczyt jako UTF-8 z opcjonalnym BOM | liczba wierszy pomniejszona o wiersz nagłówka |
 | JSON | dekodowanie UTF-8 i sprawdzenie, czy korzeniem jest obiekt albo lista | `1` dla obiektu albo długość listy |
 | XML | parsowanie dokumentu XML | liczba elementów bezpośrednio pod elementem głównym |
 | XLSX | otwarcie skoroszytu i sprawdzenie obecności niepustych wierszy | liczba niepustych wierszy pomniejszona o nagłówek |
 
-Rozszerzenie jest sprawdzane przed utworzeniem partii, a `File_Type` zapisywany wielkimi literami. Kontrola ma charakter techniczny: nie sprawdza wymaganych kolumn ani zgodności z modelem kanonicznym. Plik poprawnie zapisany w RAW może więc zostać później odrzucony w stagingu.
+Rozszerzenie jest sprawdzane przed utworzeniem partii, a `File_Type` zapisywany wielkimi literami. Kontrola ma charakter techniczny: nie sprawdza wymaganych kolumn ani zgodności z modelem kanonicznym. Plik zapisany w RAW może więc zostać później odrzucony w stagingu.
 
-`records_in` również jest wartością techniczną. Dla CSV i XLSX zakłada obecność jednego wiersza nagłówka, dla XML liczy elementy pierwszego poziomu, a dla JSON elementy listy lub pojedynczy obiekt. Licznik nie potwierdza, że wszystkie rekordy zostaną poprawnie zmapowane.
+`records_in` jest licznikiem technicznym. Dla CSV i XLSX zakłada jeden wiersz nagłówka, dla XML liczy elementy pierwszego poziomu, a dla JSON elementy listy lub pojedynczy obiekt. Nie potwierdza, że rekordy zostaną poprawnie zmapowane.
 
 ### Sprawdzanie systemu źródłowego
 
@@ -56,16 +56,16 @@ Rozszerzenie jest sprawdzane przed utworzeniem partii, a `File_Type` zapisywany 
 
 Endpoint przyjmuje `source_system_code`, `query_name`, opcjonalny `entity_type` i `created_by`. Nie pozwala przekazać dowolnego SQL: zapytanie musi występować w `RELATIONAL_QUERY_DEFINITIONS` i być zgodne z systemem źródłowym oraz typem encji.
 
-### Udostępnione zapytania
+### Definicje zapytań
 
-Demonstracyjne źródło `INSURANCE_CORE` udostępnia dwa warianty eksportu:
+Endpoint `GET /relational-queries` zwraca publiczną nazwę `insurance_core_export` z typem `AUTO`. Podczas uruchomienia jest ona rozwijana według `entity_type` do jednej z dwóch definicji wewnętrznych:
 
 | Nazwa wewnętrzna | Typ encji | Nazwa snapshotu |
 |---|---|---|
 | `insurance_core_party_export` | `PARTY` | `insurance_core_party_export.json` |
 | `insurance_core_person_export` | `PERSON` | `insurance_core_person_export.json` |
 
-Ogólna nazwa `insurance_core_export` wymaga podania `entity_type` i jest rozwijana do odpowiedniego wariantu. W DAG-u Airflow przy automatycznym wyborze obu typów wykonywane są dwa osobne wywołania, dlatego powstają dwie partie i dwa materiały RAW.
+Ogólna nazwa wymaga podania `PERSON` albo `PARTY`. W DAG-u Airflow przy automatycznym wyborze obu typów wykonywane są dwa osobne wywołania, dlatego powstają dwie partie i dwa materiały RAW.
 
 Definicja jest odrzucana, jeżeli nazwa jest nieznana, brakuje wymaganego typu encji albo zapytanie nie odpowiada wskazanemu typowi lub źródłu.
 
@@ -73,13 +73,11 @@ Wybór z zamkniętej listy zapobiega wykonaniu przez endpoint dowolnego SQL prze
 
 ### Połączenie z Oracle
 
-Połączenie korzysta z `ORACLE_ODBC_CONNECTION_STRING` i PyODBC albo, gdy ciągu nie podano, ze sterownika `oracledb` w trybie thin. Nazwy kolumn są pobierane z `cursor.description`, a wiersze zamieniane na słowniki.
+Połączenie korzysta z `ORACLE_ODBC_CONNECTION_STRING` i PyODBC albo, gdy ciągu nie podano, ze sterownika `oracledb` w trybie thin. Nazwy kolumn pochodzą z `cursor.description`, a wiersze są zamieniane na słowniki.
 
 Eksport `PARTY` wykonuje zapytanie główne oraz zapytania pobierające role osób i relacje między podmiotami. Dane dodatkowe są dołączane do odpowiedniego rekordu klienta w polach `RELATED_PERSONS_JSON` i `RELATED_PARTIES_JSON`.
 
-Eksport `PERSON` zwraca osoby z przypisań agentów oraz osoby zapisane jako klienci systemu demonstracyjnego. Połączenie jest zamykane także po wystąpieniu błędu.
-
-Kursor odczytuje wszystkie wyniki do pamięci. Dla eksportu `PARTY` rekordy główne są indeksowane według `CUST_UID`, co umożliwia dołączenie danych z zapytań pomocniczych przed utworzeniem snapshotu.
+Eksport `PERSON` zwraca osoby z przypisań agentów oraz osoby zapisane jako klienci systemu demonstracyjnego. Wyniki są odczytywane do pamięci, a połączenie jest zamykane również po wystąpieniu błędu.
 
 ### Utworzenie snapshotu
 
@@ -92,11 +90,11 @@ lista rekordów Oracle
   -> zapis jako raw.RawFile
 ```
 
-Serializacja zachowuje znaki narodowe, a wartości takie jak daty konwertuje do tekstu. Snapshot jest dalej przetwarzany jak zwykły plik JSON, dzięki czemu staging pracuje na stanie danych pobranym dla konkretnej partii.
+Serializacja zachowuje znaki narodowe, a wartości nieobsługiwane bezpośrednio przez JSON, na przykład daty, konwertuje do tekstu. Snapshot jest dalej przetwarzany jak plik JSON, dzięki czemu staging pracuje na stanie danych pobranym dla konkretnej partii.
 
 ## Wspólny zapis materiału RAW
 
-Import plikowy i relacyjny kończą się wywołaniem `persist_raw_content()`. Wspólna ścieżka zapewnia jednakowe tworzenie metadanych, obliczanie skrótu i logowanie.
+Import plikowy i relacyjny kończą się wywołaniem `persist_raw_content()`, które tworzy metadane, oblicza skrót i zapisuje log.
 
 ### Kolejność operacji
 
@@ -146,28 +144,20 @@ Porównanie jest wykonywane na poziomie bajtów, a nie znaczenia danych. Dwa dok
 
 W przypadku snapshotu Oracle stabilność skrótu zależy również od kolejności rekordów zwróconych przez zapytanie i sposobu serializacji wartości. Mechanizm wykrywa zatem identyczny obraz wejścia, a nie biznesową równoważność dwóch zbiorów.
 
-Konflikt ograniczenia unikalności jest przechwytywany jako `IntegrityError`. Serwis:
+Konflikt ograniczenia unikalności jest przechwytywany jako `IntegrityError`. Serwis wycofuje bieżącą transakcję, kończy log i partię statusem `FAILED`, zapisuje komunikat `File with this hash already exists.` i zgłasza kontrolowany błąd zawartości. Endpoint zwraca wtedy HTTP 400 bez identyfikatora istniejącego materiału RAW.
 
-1. wycofuje bieżącą transakcję sesji;
-2. kończy log `RAW_LOAD` statusem `FAILED`;
-3. ustawia partię na `FAILED`;
-4. zapisuje komunikat `File with this hash already exists.`;
-5. zgłasza kontrolowany błąd zawartości.
-
-Endpoint zamienia ten błąd na odpowiedź HTTP 400. Nie jest zwracany identyfikator istniejącego materiału RAW.
-
-Mechanizm zabezpiecza przed przypadkowym wielokrotnym zapisaniem tego samego materiału. Jednocześnie globalny zakres unikalności oznacza, że system nie przechowuje dwóch osobnych rekordów RAW dla identycznej zawartości pochodzącej z różnych deklarowanych źródeł.
+Globalny zakres unikalności oznacza, że system nie przechowuje dwóch osobnych rekordów RAW dla identycznej zawartości pochodzącej z różnych deklarowanych źródeł.
 
 ## Obsługa błędów
 
 HTTP 400 jest zwracany dla rozpoznanych problemów wejścia i konfiguracji:
 
 - nieobsługiwanego formatu lub kodu źródła;
-- pustej zawartości albo nieprawidłowego XLSX;
-- błędnej definicji zapytania lub braku konfiguracji Oracle;
+- pustej zawartości, nieprawidłowego XLSX albo nieobsługiwanej struktury korzenia JSON;
+- błędnej nazwy lub kombinacji parametrów zapytania relacyjnego;
 - duplikatu zawartości.
 
-Pozostałe wyjątki zwracają HTTP 500 z oznaczeniem etapu. Niektóre błędy uszkodzonego JSON lub XML również mogą zostać sklasyfikowane jako HTTP 500.
+Pozostałe wyjątki zwracają HTTP 500 z oznaczeniem etapu. Błąd składni JSON lub XML oraz błąd dekodowania tekstu nie są obecnie zamieniane na `InvalidFileContentError`, dlatego również trafiają do tej kategorii.
 
 Po błędzie, który wystąpił już po utworzeniu partii, serwis próbuje:
 
@@ -176,38 +166,19 @@ Po błędzie, który wystąpił już po utworzeniu partii, serwis próbuje:
 - ustawić partię na `FAILED`;
 - zapisać treść wyjątku.
 
-Repozytorium wykonuje zatwierdzenia po kolejnych operacjach tworzenia źródła, partii, logu i materiału RAW. Nie jest to jedna transakcja obejmująca cały krok. Pozwala to zachować metadane i status błędu, ale oznacza również, że diagnostyka powinna uwzględniać stan zarówno `ImportBatch`, jak i `ProcessLog`.
+Repozytorium zatwierdza osobno utworzenie źródła, partii, logu i materiału RAW. Nie jest to jedna transakcja obejmująca cały krok. Pozwala to zachować metadane błędu, ale diagnostyka powinna uwzględniać zarówno `ImportBatch`, jak i `ProcessLog`.
 
 ## Uzasadnienie użycia VARBINARY(MAX)
 
-Pierwotna koncepcja rozwiązania przewidywała zastosowanie mechanizmu SQL Server FILESTREAM. W wykonanej implementacji zawartość RAW jest przechowywana bezpośrednio w kolumnie `VARBINARY(MAX)`, mapowanej w SQLAlchemy jako `LargeBinary`.
+Pierwotna koncepcja przewidywała SQL Server FILESTREAM. W wykonanej implementacji zastosowano `VARBINARY(MAX)` mapowany jako `LargeBinary`, ponieważ w czasie realizacji możliwe było uruchomienie i zweryfikowanie tego wariantu bez dodatkowej konfiguracji magazynu FILESTREAM, ścieżek systemowych i uprawnień. Decyzja nie wynika z założenia, że środowisko docelowe nie obsługuje FILESTREAM.
 
-Decyzja nie wynika z założenia, że środowisko docelowe nie obsługuje FILESTREAM. Na etapie realizacji nie przeprowadzono wdrożenia i prób rozwiązania w docelowej konfiguracji infrastrukturalnej. W ograniczonym czasie projektu przyjęto wariant, który można było uruchomić i zweryfikować razem z pozostałymi elementami stosu kontenerowego bez dodatkowej konfiguracji magazynu FILESTREAM, ścieżek systemowych i uprawnień.
+Przyjęte rozwiązanie zachowuje pełną zawartość bajtową, umożliwia kontrolę SHA-256 i wiąże materiał z partią oraz logami w SQL Serverze. Nie zapewnia natomiast strumieniowego dostępu ani korzyści FILESTREAM przy obsłudze dużych obiektów.
 
-Zastosowanie `VARBINARY(MAX)` zapewnia wymagane w projekcie właściwości:
-
-- przechowanie pełnej zawartości bajtowej;
-- zachowanie tego samego materiału dla kolejnych etapów;
-- obliczenie i kontrolę SHA-256;
-- powiązanie zawartości z partią i logami w jednej bazie;
-- wspólną obsługę plików i snapshotów relacyjnych;
-- dostęp do danych przez standardowy model SQLAlchemy.
-
-Rozwiązanie utrzymuje metadane i zawartość w jednym repozytorium oraz nie wymaga od aplikacji zarządzania osobnymi ścieżkami do plików RAW. Nie oznacza to jednak, że cały krok jest jedną transakcją: repozytorium zatwierdza utworzenie partii, logu i materiału RAW w kolejnych operacjach.
-
-W porównaniu z FILESTREAM przyjęty wariant nie zapewnia:
-
-- strumieniowego dostępu do dużych obiektów przez system plików;
-- przechowywania binarnej zawartości poza głównymi stronami danych bazy w sposób zarządzany przez FILESTREAM;
-- korzyści wydajnościowych FILESTREAM dla dużych plików i operacji strumieniowych.
-
-W praktyce aplikacja odczytuje przesłany plik do pamięci, a następnie przekazuje pełną wartość `bytes` do SQLAlchemy. Rozwiązanie jest odpowiednie dla rozmiarów materiałów wykorzystanych i przetestowanych w projekcie. Dokumentacja nie potwierdza jego wydajności dla bardzo dużych plików ani dużej liczby równoległych importów.
-
-Wybór fizycznego sposobu składowania danych RAW w środowisku eksploatacyjnym powinien wynikać z przewidywanych rozmiarów plików, częstotliwości importu, polityki kopii zapasowych, wymagań retencji oraz konfiguracji SQL Servera i platformy kontenerowej. Wykonana wersja potwierdza logikę zachowania i śledzenia danych RAW przy użyciu `VARBINARY(MAX)`.
+Aplikacja odczytuje cały plik do pamięci i przekazuje wartość `bytes` do SQLAlchemy. Wariant został zweryfikowany dla danych projektu, ale nie wykonano pomiarów dla bardzo dużych plików ani wielu równoległych importów.
 
 ## Bezpieczeństwo i integralność
 
-Parametry połączeń są pobierane z konfiguracji środowiska. Ponieważ `File_Content` może zawierać źródłowe dane osobowe i biznesowe, dostęp do schematu `raw` i kopii zapasowych powinien być ograniczony. Integralność wspierają klucze obce, unikalny hash, kontrola rozmiaru oraz logi procesu. SHA-256 wykrywa identyczną zawartość, ale nie jest podpisem cyfrowym ani potwierdzeniem autentyczności.
+Parametry połączeń są pobierane z konfiguracji środowiska. Ponieważ `File_Content` może zawierać dane osobowe i biznesowe, dostęp do schematu `raw` i kopii zapasowych powinien być ograniczony. Integralność wspierają klucze obce, unikalny hash, kontrola rozmiaru i logi procesu. SHA-256 wykrywa identyczną zawartość, ale nie potwierdza jej autentyczności.
 
 ## Ograniczenia
 
@@ -221,7 +192,7 @@ W obecnej implementacji:
 - nie ma endpointu zwracającego istniejący `RawFile_ID` po wykryciu duplikatu;
 - lista importów relacyjnych jest zdefiniowana w kodzie, a nie konfigurowana administracyjnie;
 - `records_in` jest licznikiem technicznym i nie zastępuje wyniku stagingu;
-- część błędów uszkodzonego JSON lub XML może zostać sklasyfikowana jako HTTP 500.
+- błędy składni JSON i XML mogą zostać sklasyfikowane jako HTTP 500.
 
 ## Realizacja w kodzie
 
@@ -234,12 +205,4 @@ W obecnej implementacji:
 | modele ORM | `app/layers/ingestion/models.py` |
 | fizyczny schemat SQL Server | `scripts/init_proposed_mssql_schema.sql` |
 
-`tests/test_relational_ingestion.py` potwierdza:
-
-- pobieranie rekordów Oracle i dołączanie powiązanych osób oraz podmiotów;
-- serializację wyniku do snapshotu JSON;
-- osobne warianty eksportu `PERSON` i `PARTY`;
-- rozwijanie nazwy `insurance_core_export` według typu encji;
-- odrzucanie braku typu i zapytania przypisanego do innego źródła.
-
-Testy nie obejmują pełnej integracji endpointu plikowego z rzeczywistym SQL Serverem ani wydajności `VARBINARY(MAX)`.
+`tests/test_relational_ingestion.py` sprawdza pobieranie danych Oracle, dołączanie relacji, serializację snapshotu oraz wybór wariantu `PERSON` lub `PARTY`. Testy nie obejmują pełnej integracji endpointu plikowego z rzeczywistym SQL Serverem ani wydajności `VARBINARY(MAX)`.
