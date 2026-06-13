@@ -76,7 +76,7 @@ DAG Apache Airflow wykonuje pełną sekwencję od pobrania danych do utworzenia 
 
 Założenia przewidują udostępnianie pełnych i dedykowanych widoków danych przez REST, a także przekazywanie aktualizacji do innych systemów.
 
-Wykonane API udostępnia operacje sterujące etapami pipeline'u i ich modele odpowiedzi. Nie wykonano konsumenckich endpointów REST Out zwracających pełny profil Golden Record, dedykowanych widoków ani mechanizmu PUSH lub webhooków.
+Wykonane API udostępnia operacje sterujące etapami pipeline'u oraz konsumenckie endpointy odczytowe warstwy `serving`. Obejmują one listy i szczegóły osób oraz podmiotów GOLD, wyszukiwanie po identyfikatorach i nazwie, lineage, historię zmian, wyniki walidacji, kandydatów matchingu, porównanie rekordów i liczniki etapów. Nie wykonano mechanizmu PUSH ani webhooków.
 
 ### Interfejs użytkownika
 
@@ -104,7 +104,7 @@ Kod powinien umożliwiać rozdzielenie odpowiedzialności poszczególnych etapó
 
 ### Powtarzalność i idempotencja
 
-Ponowne wykonanie procesu nie powinno prowadzić do niekontrolowanego powielania danych. Kod blokuje ponowne załadowanie tego samego pliku do tego samego stagingu, zastępuje wyniki kandydatów matchingu dla danego zakresu, stabilnie tworzy grupy i ponownie wykorzystuje istniejące adresy, identyfikatory oraz relacje.
+Ponowne wykonanie procesu nie powinno prowadzić do niekontrolowanego powielania danych. Kod blokuje ponowne załadowanie tego samego pliku do tego samego stagingu, zastępuje wyniki kandydatów matchingu dla danego zakresu, stabilnie tworzy grupy i ponownie wykorzystuje istniejące adresy, identyfikatory oraz relacje. Zmiana adresu zamyka wcześniejsze aktywne powiązanie danego typu i tworzy nowe z datą obowiązywania.
 
 ### Diagnostyka i obsługa błędów
 
@@ -132,7 +132,7 @@ Matching posiada limit maksymalnej liczby porównywanych par oraz wykorzystuje w
 
 ### Testowalność
 
-Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia testowanie jej z repozytoriami zastępczymi. Testy obejmują import relacyjny, mapowanie, preprocessing, walidację, matching, survivorship, grupowanie, Golden Record, lineage, idempotencję i jakość danych syntetycznych.
+Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia testowanie jej z repozytoriami zastępczymi. Testy obejmują import relacyjny, mapowanie, preprocessing, walidację, matching, survivorship, grupowanie, Golden Record, lineage, idempotencję, API servingowe i jakość danych syntetycznych.
 
 ## Macierz realizacji wymagań
 
@@ -158,7 +158,7 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 | F-18 | Rejestr zmian Golden Record | Zrealizowane | `EntityChangeLog`, `record_dimension_changes()`, `record_entity_change()` | Obejmuje aktualizowane atrybuty `DimPerson` i `DimParty` |
 | F-19 | Orkiestracja pełnego procesu | Zrealizowane | DAG `goldenizacja_pipeline` w `airflow/dags/goldenizacja_pipeline.py` | Nie wykonano automatycznego harmonogramu; DAG jest uruchamiany ręcznie |
 | F-20 | REST API do sterowania pipeline'em | Zrealizowane | Endpointy warstw w `app/layers/*/api.py`, router w `app/layers/router.py` | Dokumentacja OpenAPI generowana przez FastAPI |
-| F-21 | REST Out: pełne i dedykowane widoki Golden Record | Niezrealizowane | Warstwa `serving` zawiera jedynie szkielet i endpoint statusowy | Brak endpointów konsumenckich |
+| F-21 | REST Out: pełne i dedykowane widoki Golden Record | Zrealizowane | Endpointy w `app/layers/serving/api.py` udostępniają listy, szczegóły, wyszukiwanie, lineage, historię i wyniki procesu | `tests/test_serving_api.py`; API ma charakter odczytowy |
 | F-22 | PUSH lub webhooki po zmianie danych | Niezrealizowane | Brak implementacji | Wymienione tylko w założeniach i README warstwy |
 | F-23 | Interfejs użytkownika do danych | Częściowo zrealizowane | `frontend/src/App.jsx` sprawdza endpoint `/health` | Brak wyszukiwarki, profilu Golden Record i obsługi `REVIEW` |
 | F-24 | Mechanizm samouczący ML/DL | Niezrealizowane | Brak bibliotek, modelu, danych uczących i procesu treningowego | Matching jest regułowy; Random Forest występuje wyłącznie w materiale koncepcyjnym |
@@ -176,8 +176,8 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 
 ## Podsumowanie oceny
 
-Najpełniej zrealizowana jest centralna część platformy: pobieranie plików i danych relacyjnych, przechowywanie RAW, mapowanie, preprocessing, walidacja, dwuetapowy matching, grupowanie, budowa Golden Record oraz audytowalność. Elementy te posiadają odpowiadające modele danych, endpointy API i testy.
+Najpełniej zrealizowana jest centralna część platformy: pobieranie plików i danych relacyjnych, przechowywanie RAW, mapowanie, preprocessing, walidacja, dwuetapowy matching, grupowanie, budowa Golden Record, audytowalność oraz odczyt wyników przez API. Elementy te posiadają odpowiadające modele danych, endpointy API i testy.
 
-Funkcje związane z końcowym udostępnianiem wiedzy są znacznie mniej rozwinięte. Warstwy analityczna i servingowa mają strukturę przygotowaną do rozbudowy, ale nie oferują widoków Golden Record ani API konsumenckiego. Frontend nie realizuje dostępu do danych biznesowych, a Neo4j nie jest częścią pipeline'u.
+Warstwa servingowa oferuje odczyt Golden Record i danych audytowych, ale nie obsługuje aktywnego przekazywania zmian do systemów zewnętrznych. Warstwa analityczna pozostaje szkieletem, frontend nie realizuje dostępu do danych biznesowych, a Neo4j nie jest częścią pipeline'u.
 
 Nie wykonano również mechanizmu samouczącego, wejść strumieniowych, integracji z zewnętrznymi usługami REST lub SOAP, procesu manualnej obsługi decyzji `REVIEW`, zabezpieczeń API i testów wydajnościowych. Ograniczenia te nie wpływają na działanie wykonanego rdzenia integracyjnego, lecz oznaczają, że platforma nie realizuje pełnego zakresu rozwiązania docelowego opisanego w materiałach wejściowych.

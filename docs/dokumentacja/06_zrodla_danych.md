@@ -97,7 +97,7 @@ Mapowanie nie ogranicza się do prostego przypisania jednej kolumny. `app/layers
 - zachowuje pierwszą niepustą wartość przy powtarzających się polach,
 - zapisuje oryginalny rekord w `Raw_Record_JSON`.
 
-Szczególną obsługę posiada KRS. Szerokie zestawy kolumn opisujące członków zarządu, prokurentów, wspólników i inne powiązania są grupowane do struktur JSON. Dzięki temu dane relacyjne nie muszą być przechowywane jako duża liczba osobnych kolumn stagingowych.
+Szczególną obsługę posiada KRS. Szerokie zestawy kolumn opisujące członków zarządu, prokurentów, wspólników i inne powiązania są grupowane do struktur JSON. Struktura plików przewiduje do dziesięciu slotów dla danego rodzaju relacji, natomiast generator danych wypełnia maksymalnie cztery i pozostawia pozostałe puste. Dzięki temu dane relacyjne nie muszą być przechowywane jako duża liczba osobnych kolumn stagingowych.
 
 Definicje systemów źródłowych i mapowań znajdują się w `scripts/init_proposed_mssql_schema.sql`. Samo automatyczne utworzenie tabel przez SQLAlchemy nie wypełnia `ColumnMapping`, dlatego do działania mapowania na przygotowanej bazie wymagane jest wykonanie skryptu inicjalizacyjnego.
 

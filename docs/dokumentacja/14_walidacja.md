@@ -48,6 +48,8 @@ Każdy wpis `Validation_Result` dotyczy jednej reguły zastosowanej do jednego r
 
 Poprawny wynik ma status `PASS`, poziom `INFO` i komunikat `OK`. Niezgodność otrzymuje status oraz poziom istotności `ERROR`, a komunikat zawiera kod rozpoznanego błędu. Podsumowanie odpowiedzi API podaje liczbę wszystkich wyników oraz liczbę reguł zakończonych jako `PASS` i `ERROR`. Nie są to liczby poprawnych i błędnych rekordów, ponieważ jeden rekord jest sprawdzany przez wiele reguł.
 
+Zapisane wyniki można później odczytać przez endpoint `GET /layers/serving/validation-results`, z opcjonalnym filtrowaniem po typie encji, systemie źródłowym i kodzie reguły.
+
 ## 14.4. Walidacja osoby
 
 Dla encji `PERSON` wykonywane są następujące kontrole:

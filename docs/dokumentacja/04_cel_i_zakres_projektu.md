@@ -14,6 +14,8 @@ Dane są następnie mapowane do modeli `PERSON` albo `PARTY`, normalizowane i po
 
 Wartości Golden Record są wybierane według reguł survivorship uwzględniających jakość, priorytet i poziom zaufania źródła oraz aktualność partii. Pełny proces może zostać uruchomiony przez DAG Apache Airflow, który wywołuje operacje aplikacji FastAPI od importu RAW do materializacji danych GOLD.
 
+Warstwa `serving` udostępnia przez REST listy i szczegóły Golden Record, wyszukiwanie osób po PESEL oraz podmiotów po identyfikatorach lub nazwie. Pozwala także odczytywać lineage, historię zmian, wyniki walidacji, kandydatów matchingu i liczniki etapów procesu.
+
 ## Audytowalność procesu
 
 System rejestruje źródła, partie importu, przebieg etapów, wyniki walidacji, kandydatów matchingu i grupy encji. Dla aktualnych wartości GOLD utrzymywane jest lineage wskazujące ich źródło, partię oraz regułę wyboru.
@@ -32,7 +34,7 @@ Pierwotna koncepcja przewidywała SQL Server FILESTREAM. W wykonanej wersji zast
 
 Matching nie wykorzystuje ML ani DL, lecz jawne reguły, wagi, progi i deterministyczne miary podobieństwa. Nie wykonano także konektorów strumieniowych oraz wejść z zewnętrznych usług REST lub SOAP.
 
-Warstwy `analytics` i `serving` pozostają szkieletami. Nie udostępniają konsumenckich widoków Golden Record, raportów, webhooków ani mechanizmu PUSH. Frontend jest demonstratorem połączenia z API, a Neo4j nie przechowuje relacji wynikowych głównego procesu.
+Warstwa `analytics` pozostaje szkieletem i nie udostępnia raportów ani metryk. Warstwa `serving` realizuje odczyt danych, ale nie zawiera mechanizmu PUSH ani webhooków. Frontend jest demonstratorem połączenia z API i nie korzysta jeszcze z biznesowych endpointów servingowych, a Neo4j nie przechowuje relacji wynikowych głównego procesu.
 
 Brakuje również interfejsu operatora do ręcznej obsługi decyzji `REVIEW` oraz uwierzytelniania i autoryzacji API. Szczegółowa ocena realizacji tych elementów znajduje się w macierzy wymagań.
 
@@ -47,6 +49,7 @@ Poszczególne części zakresu są realizowane w następujących modułach:
 | Preprocessing | `app/layers/preprocessing` |
 | Walidacja i TERYT | `app/layers/validation` |
 | Matching, grupowanie i Golden Record | `app/layers/integration_golden` |
+| Udostępnianie danych | `app/layers/serving` |
 | Orkiestracja | `airflow/dags/goldenizacja_pipeline.py` |
 | Model SQL Server | `scripts/init_proposed_mssql_schema.sql` |
 | Źródło demonstracyjne Oracle | `scripts/init_oracle_insurance_core.sql` |

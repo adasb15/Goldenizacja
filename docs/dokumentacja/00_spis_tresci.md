@@ -517,6 +517,7 @@ Zakres:
 - wyszukiwanie istniejących wymiarów,
 - tworzenie i aktualizacja osoby lub podmiotu,
 - tworzenie i ponowne użycie adresów,
+- wersjonowanie powiązań adresowych przez `Valid_From` i `Valid_To`,
 - zapis identyfikatorów podmiotu,
 - zapis relacji,
 - obsługa wymaganych atrybutów,
@@ -598,6 +599,9 @@ Zakres:
 - modele odpowiedzi,
 - obsługa błędów HTTP,
 - Swagger/OpenAPI,
+- listy, szczegóły i wyszukiwanie Golden Record,
+- odczyt lineage, historii zmian, wyników walidacji i matchingu,
+- liczniki etapów procesu,
 - endpointy demonstracyjne niezwiązane bezpośrednio z pipeline'em.
 
 Realizacja w kodzie:
@@ -767,7 +771,7 @@ Zakres:
 
 - brak mechanizmu ML/DL,
 - brak kompletnej warstwy `analytics`,
-- brak REST Out GET/PUSH dla Golden Record,
+- brak REST Out PUSH i webhooków dla Golden Record,
 - brak interfejsu profilu 360 stopni,
 - ograniczony frontend,
 - Neo4j niewłączony do właściwego pipeline'u Golden Record,
@@ -838,6 +842,7 @@ Planowany układ:
 | Preprocessing | `app/layers/preprocessing/api.py` | `app/layers/preprocessing/service.py` | `app/layers/preprocessing/repository.py` | `app/layers/preprocessing/models.py` | `tests/test_preprocessing.py` |
 | Validation | `app/layers/validation/api.py` | `app/layers/validation/service.py` | `app/layers/validation/repository.py` | `app/layers/validation/models.py` | `tests/test_validation.py`, `tests/test_teryt_validation.py` |
 | Goldenizacja | `app/layers/integration_golden/api.py` | `app/layers/integration_golden/service.py` | `app/layers/integration_golden/repository.py` | `app/layers/integration_golden/models.py` | `tests/test_integration_golden_*.py` |
+| Serving | `app/layers/serving/api.py` | `app/layers/serving/service.py` | `app/layers/serving/repository.py` | nie definiuje własnych tabel | `tests/test_serving_api.py` |
 
 ### 28.5. Struktura repozytorium
 

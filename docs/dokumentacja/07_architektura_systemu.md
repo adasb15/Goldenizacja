@@ -47,7 +47,7 @@ Warstwa `analytics` została przewidziana jako miejsce dla metryk, raportów, pr
 
 ### Udostępnianie
 
-Warstwa `serving` ma docelowo odpowiadać za konsumenckie widoki Golden Record i integrację z systemami zewnętrznymi. W wykonanej wersji posiada strukturę modułu i endpoint statusowy, lecz nie udostępnia danych wynikowych.
+Warstwa `serving` udostępnia odczytowe widoki danych wynikowych. Obejmuje listy i szczegóły Golden Record, wyszukiwanie osób i podmiotów, lineage, historię zmian, wyniki walidacji, kandydatów matchingu, porównanie rekordów oraz liczniki kolejnych etapów. Endpointy stosują paginację i opcjonalne filtry. Warstwa nie realizuje mechanizmu PUSH ani webhooków.
 
 ## Architektura aplikacji FastAPI
 
@@ -199,7 +199,7 @@ Najważniejsze ograniczenia obecnej architektury obejmują:
 - brak uwierzytelniania i autoryzacji API,
 - synchroniczne wykonywanie operacji warstw przez endpointy HTTP,
 - `SequentialExecutor` w lokalnym Airflow,
-- brak konsumenckiego API Golden Record,
+- brak mechanizmu PUSH i webhooków dla zmian Golden Record,
 - brak biznesowego interfejsu użytkownika,
 - niewykorzystanie Neo4j w głównym pipeline'ie,
 - nieprzetestowane manifesty OpenShift,
@@ -220,6 +220,7 @@ Ograniczenia nie zmieniają podziału odpowiedzialności w działającym rdzeniu
 | Inicjalizacja bazy | `app/db/init_db.py` |
 | Połączenie Neo4j | `app/db/neo4j.py` |
 | Endpointy demonstracyjne | `app/api/routes.py` |
+| Konsumenckie API danych | `app/layers/serving/` |
 | Warstwy biznesowe | `app/layers/` |
 | DAG | `airflow/dags/goldenizacja_pipeline.py` |
 | Środowisko lokalne | `docker-compose.yml` |

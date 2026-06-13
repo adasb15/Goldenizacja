@@ -243,7 +243,7 @@ Kombinacja `IdentityType_ID` i `Identity_Value` jest unikalna. Oznacza to, że t
 | typ | `AddressType_ID` FK do `DimAddressType` | `AddressType_ID` FK do `DimAddressType` |
 | okres | `Valid_From`, `Valid_To` | `Valid_From`, `Valid_To` |
 
-Repozytorium zapobiega ponownemu tworzeniu identycznego aktywnego powiązania. Indeksy po właścicielu i adresie wspierają przechodzenie relacji w obu kierunkach.
+Repozytorium zapobiega ponownemu tworzeniu identycznego aktywnego powiązania. Jeżeli dla osoby lub podmiotu zostanie wybrany inny adres tego samego typu, dotychczas aktywne powiązanie otrzymuje `Valid_To`, a nowe `Valid_From`. Datą graniczną jest dzień rozpoczęcia importu rekordu, z którego wybrano adres, a przy braku tej informacji dzień wykonania goldenizacji. Dzięki temu model zachowuje kolejność obowiązywania adresów bez tworzenia kolejnych wersji głównego wymiaru osoby lub podmiotu. Indeksy po właścicielu i adresie wspierają przechodzenie relacji w obu kierunkach.
 
 ### Pozostałe relacje modelu GOLD
 

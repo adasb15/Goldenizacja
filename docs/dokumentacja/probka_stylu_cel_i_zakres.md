@@ -10,7 +10,7 @@ Jednym z głównych założeń projektu jest audytowalność przetwarzania. Syst
 
 Orkiestrację procesu zapewnia Apache Airflow. DAG `goldenizacja_pipeline` wykonuje kolejno import RAW, załadowanie danych do stagingu, preprocessing, załadowanie danych referencyjnych TERYT, walidację, dwa etapy matchingu, grupowanie oraz budowę Golden Record. Poszczególne operacje są udostępnione również przez interfejs REST aplikacji FastAPI. Dane procesowe i wynikowe są składowane w Microsoft SQL Server.
 
-Zakres wykonanej platformy nie obejmuje wszystkich elementów wymienionych w pierwotnej koncepcji. Matching jest realizowany przez jawne reguły, wagi oraz algorytmy podobieństwa tekstowego, bez modelu ML lub DL. Warstwy analityczna i udostępniania stanowią przygotowany szkielet, ale nie udostępniają jeszcze kompletnego profilu 360 stopni ani mechanizmu powiadomień PUSH. Frontend React służy obecnie do technicznego sprawdzenia połączenia z API. Neo4j jest dostępny w środowisku uruchomieniowym i wykorzystywany przez moduł demonstracyjny, lecz nie został włączony do głównego procesu budowy Golden Record.
+Zakres wykonanej platformy nie obejmuje wszystkich elementów wymienionych w pierwotnej koncepcji. Matching jest realizowany przez jawne reguły, wagi oraz algorytmy podobieństwa tekstowego, bez modelu ML lub DL. Warstwa udostępniania zawiera odczytowe endpointy Golden Record i wyników procesu, ale nie realizuje mechanizmu powiadomień PUSH. Warstwa analityczna pozostaje szkieletem, a frontend React służy obecnie do technicznego sprawdzenia połączenia z API. Neo4j jest dostępny w środowisku uruchomieniowym i wykorzystywany przez moduł demonstracyjny, lecz nie został włączony do głównego procesu budowy Golden Record.
 
 Tak określony zakres pozwolił skoncentrować realizację na najważniejszej części zadania: powtarzalnym i audytowalnym przetwarzaniu danych heterogenicznych, kontroli ich jakości, identyfikacji odpowiadających sobie rekordów oraz budowie wspólnej reprezentacji osoby lub podmiotu.
 
@@ -22,7 +22,8 @@ Podział warstw aplikacji jest zdefiniowany w `app/layers/router.py`. Implementa
 - `app/layers/staging_validation`,
 - `app/layers/preprocessing`,
 - `app/layers/validation`,
-- `app/layers/integration_golden`.
+- `app/layers/integration_golden`,
+- `app/layers/serving`.
 
 Przebieg procesu Airflow znajduje się w `airflow/dags/goldenizacja_pipeline.py`. Modele bazodanowe są rozdzielone pomiędzy pliki `models.py` poszczególnych warstw, natomiast pełny skrypt tworzący strukturę Microsoft SQL Server znajduje się w `scripts/init_proposed_mssql_schema.sql`. Środowisko lokalne jest definiowane przez `docker-compose.yml`.
 
@@ -35,4 +36,5 @@ Zgodność najważniejszych mechanizmów z założonym działaniem jest sprawdza
 - `tests/test_teryt_validation.py`,
 - `tests/test_integration_golden_matching.py`,
 - `tests/test_integration_golden_dimensions.py`,
-- `tests/test_integration_golden_load.py`.
+- `tests/test_integration_golden_load.py`,
+- `tests/test_serving_api.py`.

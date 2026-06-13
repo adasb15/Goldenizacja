@@ -4,6 +4,7 @@
 flowchart LR
     U["Operator procesu"]
     B["Użytkownik przeglądarki"]
+    C["Klient API / Swagger"]
     FILES[("Syntetyczne pliki danych<br/>CSV / JSON / XML / XLSX")]
     TERYT[("Dane referencyjne TERYT<br/>SIMC / ULIC")]
 
@@ -19,7 +20,7 @@ flowchart LR
             VAL["validation"]
             GOLD["integration_golden"]
             ANA["analytics<br/>szkielet"]
-            SERV["serving<br/>szkielet"]
+            SERV["serving<br/>odczyt Golden Record i wyników procesu"]
         end
 
         MSSQL[("Microsoft SQL Server<br/>meta / raw / stg / gold")]
@@ -30,6 +31,7 @@ flowchart LR
     U -->|"uruchomienie i parametry"| AF
     B -->|"HTTP"| FE
     FE -->|"GET /health"| CORE
+    C -->|"REST GET"| SERV
 
     FILES -->|"odczyt pliku"| AF
     TERYT -->|"upload plików"| AF
@@ -52,7 +54,8 @@ flowchart LR
     PRE --> VAL
     VAL --> GOLD
     GOLD -.->|"brak kompletnej logiki"| ANA
-    ANA -.->|"brak API konsumenckiego"| SERV
+    GOLD --> SERV
+    SERV -->|"odczyt"| MSSQL
 
     CORE -.->|"demonstracyjny zapis dokumentów"| NEO
 
@@ -69,9 +72,9 @@ flowchart LR
     classDef partial fill:#fff0cc,stroke:#a87500,color:#5c4300;
     classDef unverified fill:#f3e2e2,stroke:#9a4646,color:#552626;
 
-    class FE,AF,CORE,ING,STG,PRE,VAL,GOLD active;
+    class FE,AF,CORE,ING,STG,PRE,VAL,GOLD,SERV active;
     class MSSQL,ORACLE database;
-    class ANA,SERV,NEO partial;
+    class ANA,NEO partial;
     class OSM,NOTE unverified;
 ```
 
@@ -85,6 +88,6 @@ flowchart LR
 ## Uwagi
 
 1. Neo4j nie uczestniczy w głównym procesie goldenizacji.
-2. Warstwy `analytics` i `serving` posiadają strukturę kodu, ale nie zawierają kompletnej logiki.
+2. Warstwa `serving` udostępnia dane wynikowe przez REST, natomiast `analytics` pozostaje szkieletem.
 3. Manifesty OpenShift nie zostały przetestowane i nie obejmują Oracle.
 4. Airflow komunikuje się z FastAPI przez HTTP, a nie przez bezpośredni dostęp do SQL Servera.
