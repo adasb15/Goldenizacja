@@ -33,39 +33,7 @@ SQLAlchemy używa odpowiadających typów przenośnych, między innymi `BigInteg
 
 ## Schemat META
 
-Schemat `meta` przechowuje informacje techniczne niezbędne do kontrolowania importu i odtworzenia przebiegu procesu.
-
-### SourceSystem
-
-Tabela `meta.SourceSystem` jest słownikiem systemów źródłowych. Każde źródło posiada kod, nazwę i opcjonalny poziom zaufania. Identyfikator `SourceSystem_ID` jest wykorzystywany przez partie importu, mapowania kolumn oraz tabele lineage.
-
-Poziom zaufania stanowi jeden z elementów oceny wartości podczas budowy Golden Record. Pozwala preferować dane pochodzące ze źródeł uznanych za bardziej wiarygodne.
-
-### ImportBatch
-
-Tabela `meta.ImportBatch` reprezentuje pojedynczy przebieg importu. Przechowuje między innymi:
-
-- system źródłowy,
-- status importu,
-- czas rozpoczęcia i zakończenia,
-- użytkownika lub proces inicjujący,
-- komunikat błędu.
-
-Partia importu jest tworzona przed zapisaniem danych RAW. Jej identyfikator przechodzi następnie przez staging, preprocessing, walidację i lineage.
-
-### ColumnMapping
-
-Tabela `meta.ColumnMapping` definiuje mapowanie nazw pól źródłowych na kolumny modelu kanonicznego osoby albo podmiotu. Dzięki temu różne formaty wejściowe mogą być przetwarzane przez wspólne tabele stagingowe i tę samą logikę dalszych warstw.
-
-Mapowania są inicjalizowane przez skrypt SQL. Model ORM znajduje się w `app/layers/staging_validation/models.py`, natomiast ich użycie podczas ładowania stagingu jest zaimplementowane w `app/layers/staging_validation/mapper.py`.
-
-### ProcessLog
-
-Tabela `meta.ProcessLog` rejestruje wykonanie etapów procesu. Zawiera nazwę i status kroku, czas rozpoczęcia i zakończenia, liczbę rekordów wejściowych i wynikowych oraz ewentualny komunikat błędu.
-
-Powiązanie z `ImportBatch_ID` i opcjonalnie `RawFile_ID` umożliwia analizę konkretnego przebiegu bez łączenia logów wyłącznie na podstawie czasu wykonania.
-
-### Szczegółowe zestawienie tabel META
+Schemat `meta` przechowuje słownik źródeł, partie importu, mapowania kolumn i logi procesu. `SourceSystem.Trust_Level` jest wykorzystywany podczas survivorship, natomiast `ImportBatch_ID` przechodzi przez kolejne warstwy i łączy wyniki z konkretnym importem.
 
 | Tabela | Klucz główny | Najważniejsze kolumny | Relacje i ograniczenia |
 |---|---|---|---|
@@ -74,28 +42,11 @@ Powiązanie z `ImportBatch_ID` i opcjonalnie `RawFile_ID` umożliwia analizę ko
 | `meta.ColumnMapping` | `ColumnMapping_ID INT` | `SourceSystem_ID`, `Entity_Type`, `Source_Column_Name`, `Canonical_Column_Name` | FK do `SourceSystem`; unikalna kombinacja źródła, encji i kolumny wejściowej |
 | `meta.ProcessLog` | `ProcessLog_ID BIGINT` | `ImportBatch_ID`, `RawFile_ID`, `Staging_ID`, `Step_Name`, `Step_Status`, liczniki i czasy | FK do `ImportBatch` i `RawFile`; kontrolowane nazwy i statusy kroków |
 
-Dozwolone statusy `ImportBatch` to `NEW`, `PROCESSING`, `RAW_LOADED`, `STAGING_LOADED`, `COMPLETED` i `FAILED`. Model umożliwia zatem odróżnienie błędu całej partii od niepowodzenia pojedynczego kroku zapisanego w `ProcessLog`.
-
-`ProcessLog.Step_Name` przyjmuje wartości `RAW_LOAD`, `STAGING_LOAD`, `STANDARDIZATION`, `VALIDATION` i `GOLDEN_LOAD`, natomiast `Step_Status` przyjmuje `STARTED`, `SUCCESS` lub `FAILED`. Kolumny `Records_In` i `Records_Out` pozwalają porównać liczebność danych przed i po danym etapie.
-
-Indeksy schematu META wspierają wyszukiwanie mapowań dla systemu i typu encji, odczyt logów partii oraz filtrowanie logów według kroku i statusu.
+Dozwolone statusy partii to `NEW`, `PROCESSING`, `RAW_LOADED`, `STAGING_LOADED`, `COMPLETED` i `FAILED`. `ProcessLog` rozróżnia kroki procesu oraz statusy `STARTED`, `SUCCESS` i `FAILED`, zapisując także liczniki i komunikaty błędów.
 
 ## Schemat RAW
 
-Warstwa RAW składa się z tabeli `raw.RawFile`. Przechowuje ona:
-
-- nazwę i typ materiału wejściowego,
-- rozmiar,
-- skrót SHA-256,
-- binarną zawartość,
-- identyfikator partii importu,
-- datę utworzenia wpisu.
-
-Zawartość jest zapisywana w kolumnie `VARBINARY(MAX)`, mapowanej w SQLAlchemy jako `LargeBinary`. Dotyczy to zarówno plików przesłanych do systemu, jak i wyniku zapytania do źródła relacyjnego, który przed zapisem jest serializowany do JSON.
-
-Unikalny skrót pliku pozwala wykryć ponowną próbę zapisania tej samej zawartości. Zachowanie danych RAW umożliwia ponowne wykonanie dalszych etapów bez ponownego pobierania danych ze źródła.
-
-### Struktura RawFile
+Schemat `raw` zawiera tabelę `RawFile` przechowującą plik albo snapshot JSON importu relacyjnego. Zawartość jest zapisana jako `VARBINARY(MAX)`, a unikalny SHA-256 służy do wykrywania identycznych danych wejściowych.
 
 | Kolumna | Typ SQL | Wymagalność | Znaczenie |
 |---|---|---:|---|
@@ -108,7 +59,7 @@ Unikalny skrót pliku pozwala wykryć ponowną próbę zapisania tej samej zawar
 | `File_Content` | `VARBINARY(MAX)` | nie | oryginalna zawartość pliku lub zserializowany wynik zapytania |
 | `Created_At` | `DATETIME2(0)` | tak | techniczny czas zapisu |
 
-`RawFile.ImportBatch_ID` wskazuje `meta.ImportBatch`. Na tej kolumnie utworzono indeks, natomiast `File_Hash` posiada ograniczenie unikalności. Model nie wymaga przechowywania pliku w zewnętrznym systemie plików, ponieważ zawartość jest częścią rekordu RAW.
+`ImportBatch_ID` wskazuje partię importu i posiada indeks. Szczegóły pobierania, kontroli duplikatów oraz wyboru `VARBINARY(MAX)` opisano w rozdziale 11.
 
 ## Schemat STG
 
@@ -116,18 +67,7 @@ Schemat `stg` obejmuje dane kanoniczne, dane po normalizacji, wyniki kontroli ja
 
 ### Dane stagingowe
 
-Tabele `stg.Person_Staging` i `stg.Party_Staging` przechowują rekordy po sparsowaniu materiału RAW i zastosowaniu mapowania kolumn.
-
-`Person_Staging` zawiera podstawowe dane identyfikacyjne i kontaktowe osoby oraz jej adres. `Party_Staging` przechowuje dane podmiotu, jego identyfikatory, adres, informacje rejestrowe, dane kontaktowe oraz dostępne informacje o podmiotach i osobach powiązanych.
-
-Obie tabele zachowują:
-
-- `ImportBatch_ID`,
-- `RawFile_ID`,
-- `Source_Record_ID`,
-- kopię rekordu źródłowego w polu JSON.
-
-Pozwala to powiązać rekord kanoniczny z miejscem jego pochodzenia nawet wtedy, gdy nazwy i formaty pól zostały już ujednolicone.
+`stg.Person_Staging` i `stg.Party_Staging` przechowują dane po parsowaniu i mapowaniu. Obie tabele zachowują `ImportBatch_ID`, `RawFile_ID`, `Source_Record_ID` i kopię rekordu źródłowego w JSON.
 
 #### Person_Staging
 
@@ -140,7 +80,7 @@ Pozwala to powiązać rekord kanoniczny z miejscem jego pochodzenia nawet wtedy,
 | adres | `Street`, `Building_Number`, `Apartment_Number`, `City`, `Postal_City`, `Postal_Code`, `District`, `Province`, `Country` | adres zapisany jeszcze przy rekordzie stagingowym |
 | audyt mapowania | `Raw_Record_JSON`, `Created_At` | kopia rekordu wejściowego i czas zapisu |
 
-Kluczami obcymi są `ImportBatch_ID` oraz `RawFile_ID`. `Raw_Record_JSON` podlega kontroli poprawności JSON. Kolumny biznesowe są opcjonalne, ponieważ warstwa stagingowa przyjmuje także rekordy niekompletne, które zostaną ocenione dopiero podczas walidacji.
+`Raw_Record_JSON` podlega kontroli poprawności JSON. Kolumny biznesowe są opcjonalne, ponieważ rekordy niekompletne są oceniane dopiero podczas walidacji.
 
 #### Party_Staging
 
@@ -161,40 +101,18 @@ Pola `Identifiers_JSON`, `Bank_Accounts_JSON`, `Related_Persons_JSON`, `Related_
 
 ### Dane po preprocessingu
 
-Tabele `stg.Person_Preprocessed` i `stg.Party_Preprocessed` przechowują wartości przygotowane do walidacji i porównywania. Dane oryginalne ze stagingu nie są nadpisywane.
-
-Wartości znormalizowane obejmują między innymi:
-
-- imiona i nazwiska,
-- nazwy i formy prawne podmiotów,
-- numery PESEL, NIP, REGON, KRS i LEI,
-- numery telefonów i adresy e-mail,
-- elementy adresu,
-- informacje rejestrowe,
-- dane o relacjach podmiotów.
-
-Pole `Preprocessing_Rules_JSON` umożliwia zapis informacji o zastosowanych przekształceniach. Każdy rekord preprocessingowy wskazuje odpowiadający mu rekord stagingowy, partię importu i materiał RAW.
-
-#### Struktury preprocessingowe
+Tabele preprocessingowe przechowują wartości znormalizowane bez nadpisywania stagingu. `Preprocessing_Rules_JSON` opisuje zastosowane przekształcenia.
 
 | Tabela | Klucz główny | Powiązanie ze stagingiem | Główne grupy danych |
 |---|---|---|---|
 | `stg.Person_Preprocessed` | `Preprocessed_ID` | `Staging_ID` FK do `Person_Staging`, relacja unikalna 1:1 | identyfikatory, pełna nazwa osoby, kontakt i adres po normalizacji |
 | `stg.Party_Preprocessed` | `Preprocessed_ID` | `Staging_ID` FK do `Party_Staging`, relacja unikalna 1:1 | nazwa, identyfikatory, rejestry, kontakt, adres i relacje po normalizacji |
 
-Obie tabele posiadają także bezpośrednie klucze obce do `meta.ImportBatch` i `raw.RawFile`. Powtórzenie identyfikatorów procesu jest zamierzone: upraszcza filtrowanie rekordów konkretnego przebiegu bez konieczności każdorazowego łączenia przez tabelę stagingową.
-
-Nazwy pól przekształconych mają przyrostek `_Normalized`. Wyjątkiem są wartości, których typ nie wymaga normalizacji tekstowej, na przykład daty i pola logiczne. Pola `Full_Name_Normalized` i `Full_Address_Normalized` są wartościami pomocniczymi używanymi w porównywaniu rekordów.
-
-Na tabelach preprocessingowych utworzono indeksy odpowiadające regułom wyszukiwania kandydatów. Dla osób obejmują one między innymi PESEL, dokumenty tożsamości, e-mail, telefon oraz kombinacje daty urodzenia z nazwiskiem lub miejscem urodzenia. Dla podmiotów indeksowane są NIP, REGON, KRS, LEI, nazwa z lokalizacją, dane kontaktowe oraz numery rejestrowe.
+Bezpośrednie klucze do partii i RAW upraszczają filtrowanie przebiegu. Wybrane pola znormalizowane są objęte indeksami odpowiadającymi ścieżkom wyszukiwania kandydatów, na przykład kombinacja `PESEL_Normalized` i `Full_Name_Normalized`.
 
 ### Walidacja
 
-Tabela `stg.Validation_Result` zapisuje wynik pojedynczej reguły dla wskazanego rekordu i pola. Rozróżnia poziom wykonania reguły, ważność wyniku oraz status `PASS`, `WARNING` albo `ERROR`.
-
-Taki układ pozwala przechować wiele wyników walidacji dla jednego rekordu bez dodawania osobnej kolumny dla każdej reguły jakości.
-
-#### Struktura Validation_Result
+`stg.Validation_Result` zapisuje osobny wynik każdej reguły i pola, dzięki czemu jeden rekord może mieć wiele ocen jakości.
 
 | Kolumna lub grupa | Znaczenie |
 |---|---|
@@ -212,21 +130,7 @@ Tabela posiada klucze obce do partii importu i materiału RAW. `Staging_ID` oraz
 
 ### Matching i grupowanie
 
-Pierwszy etap matchingu zapisuje pary kandydatów w `stg.Match_Candidate_Levenshtein`. Drugi etap zapisuje wynik ponownej oceny w `stg.Match_Candidate_JaroWinkler`.
-
-Tabele przechowują:
-
-- identyfikatory porównywanych rekordów,
-- wynik podobieństwa,
-- decyzję,
-- pola stanowiące podstawę dopasowania,
-- wykryte konflikty.
-
-Po zaakceptowaniu powiązań rekordy są organizowane w `stg.Entity_Group` i `stg.Entity_Group_Member`. Grupa reprezentuje zestaw rekordów źródłowych opisujących tę samą osobę albo ten sam podmiot.
-
-Jeżeli grupa nie zawiera wartości wymaganych do utworzenia Golden Record, informacja jest zapisywana w `stg.Golden_Record_Reject`. Rekord odrzucony pozostaje dostępny wraz z przyczyną, wartościami kandydującymi i listą członków grupy.
-
-### Szczegółowe zestawienie tabel technicznych STG
+Kandydaci Levenshteina i Jaro-Winklera zachowują porównywaną parę, wynik, decyzję i uzasadniające ją pola. Zaakceptowane powiązania tworzą grupy encji, a grupy niespełniające warunków materializacji mogą zostać zapisane w rejestrze odrzuceń.
 
 | Tabela | Klucz i najważniejsze relacje | Integralność |
 |---|---|---|
@@ -236,15 +140,11 @@ Jeżeli grupa nie zawiera wartości wymaganych do utworzenia Golden Record, info
 | `Entity_Group_Member` | FK złożony do grupy; FK do odpowiedniej tabeli preprocessingowej | jeden rekord preprocessingowy może należeć tylko do jednej grupy danego typu |
 | `Golden_Record_Reject` | opcjonalny FK złożony do grupy oraz FK do `RawFile` | status `OPEN`, `RESOLVED` albo `IGNORED`; poprawność trzech pól JSON |
 
-Pola `Strong_Match_Fields_JSON`, `Conflict_Fields_JSON` i `Text_Match_Fields_JSON` zachowują uzasadnienie wyniku porównania. Decyzja może przyjąć wartość `AUTO_MERGE`, `REVIEW` albo `CANDIDATE`.
-
-`Entity_Group.Group_Key` jest stabilnym skrótem obliczonym z uporządkowanego zbioru identyfikatorów członków. Powiązanie grupy z typem encji jest zabezpieczone złożonym kluczem obcym, dzięki czemu członek typu `PERSON` nie może zostać przypisany do grupy `PARTY`.
+Pola JSON zachowują podstawę decyzji `AUTO_MERGE`, `REVIEW` albo `CANDIDATE`. `Group_Key` jest stabilnym skrótem członków, a złożone klucze chronią przed połączeniem różnych typów encji.
 
 ## Schemat GOLD
 
-Model obszaru GOLD został zatwierdzony w dokumencie `docs/dokumentacja/diagramy/Goldenizacja - model 22.04.pdf`. Obejmuje wymiary osób, podmiotów, adresów i słowników oraz tabele faktów bezmiarowych opisujące identyfikatory i relacje.
-
-Pełny model z diagramu został odwzorowany w skrypcie `scripts/init_proposed_mssql_schema.sql`. Skrypt tworzy klucze główne i obce, ograniczenia integralności, indeksy oraz początkowe wartości słownikowe.
+Model GOLD zatwierdzony w `docs/dokumentacja/diagramy/Goldenizacja - model 22.04.pdf` został odwzorowany w skrypcie SQL razem z kluczami, ograniczeniami, indeksami i słownikami.
 
 ### Zestawienie struktur GOLD
 
@@ -259,20 +159,7 @@ Pełny model z diagramu został odwzorowany w skrypcie `scripts/init_proposed_ms
 
 ### Główne wymiary
 
-`gold.DimPerson` przechowuje uzgodniony profil osoby, obejmujący dane identyfikacyjne, datę i miejsce urodzenia, obywatelstwo oraz dane kontaktowe.
-
-`gold.DimParty` przechowuje profil podmiotu: nazwę, nazwę skróconą, formę prawną, kraj rejestracji i datę utworzenia.
-
-`gold.DimAddress` stanowi współdzielony wymiar adresowy. Adres nie jest trwale osadzony w wymiarze osoby lub podmiotu, lecz łączony z nimi za pomocą tabel relacyjnych. Ogranicza to powielanie tej samej struktury adresowej i pozwala przypisać typ adresu.
-
-Wymiary słownikowe obejmują:
-
-- `gold.DimAddressType`,
-- `gold.DimIdentityType`,
-- `gold.DimPartyRelationshipType`,
-- `gold.DimRegister`,
-- `gold.DimRegisterStatus`,
-- `gold.DimRoleType`.
+Główne wymiary przechowują uzgodnione profile osób i podmiotów oraz współdzielone adresy. Adres jest łączony z encją tabelą relacyjną, a nie osadzony bezpośrednio w profilu.
 
 #### DimPerson
 
@@ -285,7 +172,7 @@ Wymiary słownikowe obejmują:
 | kontakt | `Phone_Number`, `Email_Address` | indeksy nieunikalne, ponieważ dane kontaktowe mogą być współdzielone |
 | audyt techniczny | `Created_At`, `Updated_At` | czas utworzenia i ostatniej aktualizacji |
 
-`DimPerson` jest wyszukiwany przede wszystkim po identyfikatorach o wysokiej sile identyfikacyjnej. Aktualizacja wymiaru nie tworzy nowej wersji wiersza; zmienione wartości są zapisywane w `EntityChangeLog`.
+Aktualizacja `DimPerson` nie tworzy nowej wersji wiersza; zmiany są zapisywane w `EntityChangeLog`.
 
 #### DimParty
 
@@ -324,15 +211,11 @@ Repozytorium wyszukuje istniejący adres po zestawie pól adresowych. Jeżeli ni
 | `DimRegisterStatus` | `RegisterStatus_ID` | `Status_Name` | `ACTIVE`, `INACTIVE`, `SUSPENDED`, `DEREGISTERED`, `UNKNOWN` |
 | `DimRoleType` | `RoleType_ID` | `Role_Name` | `OWNER`, `BOARD_MEMBER`, `PROXY`, `AGENT`, `EMPLOYEE` |
 
-Nazwy w słownikach są unikalne. Skrypt inicjalizacyjny zasila słowniki typów adresu, identyfikatora, statusu, roli i relacji. `DimRegister` jest przygotowany do przechowywania nazw rejestrów właściwych dla podłączonych źródeł.
+Nazwy słownikowe są unikalne, a wartości początkowe są ładowane przez skrypt inicjalizacyjny.
 
 ### Identyfikatory i adresy
 
-Tabela `gold.FactlessPartyIdentities` łączy podmiot z typem i wartością identyfikatora. Umożliwia przechowanie wielu identyfikatorów jednego podmiotu bez rozszerzania `DimParty` o kolejne kolumny. W obecnej materializacji wykorzystywane są między innymi NIP, REGON, KRS i LEI.
-
-Tabele `gold.FactlessPersonAddress` i `gold.FactlessPartyAddress` przypisują adres odpowiednio do osoby i podmiotu. Poza kluczami encji przechowują typ adresu oraz opcjonalny okres obowiązywania relacji.
-
-Powyższe struktury są odwzorowane w modelach SQLAlchemy i obsługiwane przez repozytorium `app/layers/integration_golden/repository.py`.
+`FactlessPartyIdentities` przechowuje wiele identyfikatorów podmiotu, m.in. NIP, REGON, KRS i LEI. `FactlessPersonAddress` i `FactlessPartyAddress` przypisują współdzielony adres do encji wraz z typem i okresem obowiązywania.
 
 #### FactlessPartyIdentities
 
@@ -364,17 +247,7 @@ Repozytorium zapobiega ponownemu tworzeniu identycznego aktywnego powiązania. I
 
 ### Pozostałe relacje modelu GOLD
 
-Zatwierdzony model przewiduje również:
-
-- `gold.FactlessPartyRegisterEntry` dla wpisów podmiotu w rejestrach,
-- `gold.FactlessPartyRelationship` dla relacji pomiędzy podmiotami,
-- `gold.FactlessPersonPartyRole` dla ról osoby w podmiocie.
-
-Tabele oraz wymagane słowniki i tabele lineage są zdefiniowane w skrypcie SQL i stanowią część modelu fizycznego. Aktualny proces automatycznej materializacji koncentruje się na profilach osób i podmiotów, ich adresach oraz identyfikatorach. Informacje rejestrowe i relacyjne są przyjmowane i normalizowane w warstwie STG, natomiast nie są jeszcze zapisywane przez serwis goldenizacji do wymienionych tabel GOLD.
-
-Rozróżnienie to nie zmienia zatwierdzonej struktury modelu. Określa jedynie zakres tabel zasilanych przez aktualną implementację procesu.
-
-#### Struktura przygotowanych relacji
+Model fizyczny zawiera również wpisy rejestrowe, relacje podmiotów i role osób. Aktualna materializacja zasila profile osób i podmiotów, adresy oraz identyfikatory; wymienione niżej relacje nie są jeszcze zapisywane przez serwis goldenizacji.
 
 | Tabela | Klucze obce | Dane dodatkowe | Kontrola integralności |
 |---|---|---|---|
@@ -382,38 +255,11 @@ Rozróżnienie to nie zmienia zatwierdzonej struktury modelu. Określa jedynie z
 | `FactlessPartyRelationship` | `Parent_Party_ID`, `Child_Party_ID`, `RelationshipType_ID` | `Valid_From`, `Valid_To` | brak relacji podmiotu z samym sobą; poprawny zakres dat |
 | `FactlessPersonPartyRole` | `Person_ID`, `Party_ID`, `RoleType_ID` | `Valid_From`, `Valid_To` | poprawny zakres dat |
 
-Ich odpowiedniki lineage posiadają klucz do rekordu relacji, źródło, rekord źródłowy, partię importu, regułę wyboru, oceny jakości i czas zapisu. Dzięki temu model jest przygotowany do zachowania pochodzenia także dla relacji innych niż adresowe.
+Odpowiadające im tabele lineage są obecne w modelu fizycznym, ale pozostają poza aktualną ścieżką automatycznego zapisu.
 
 ## Audyt zmian i lineage
 
-Tabela `gold.EntityChangeLog` rejestruje zmiany wartości w encjach GOLD. Wpis zawiera:
-
-- typ i identyfikator encji,
-- nazwę zmienionego atrybutu,
-- poprzednią wartość,
-- nową wartość,
-- czas zmiany,
-- partię importu.
-
-Rejestr jest przeznaczony do analizy sposobu powstawania i zmian rekordów Golden Record. Dla aktualizowanych wymiarów osoby i podmiotu pozwala ustalić, które wartości uległy zmianie w kolejnych przebiegach.
-
-Tabele lineage atrybutów to:
-
-- `gold.GoldenPersonLineage`,
-- `gold.GoldenPartyLineage`,
-- `gold.GoldenAddressLineage`,
-- `gold.GoldenPartyIdentityLineage`.
-
-Każdy wpis wskazuje encję lub identyfikator, nazwę atrybutu, system i rekord źródłowy, partię importu, regułę wyboru, poziom zaufania, ocenę jakości i wynik walidacji.
-
-Dla relacji adresowych zastosowano:
-
-- `gold.PersonAddressLineage`,
-- `gold.PartyAddressLineage`.
-
-Pełny model zawiera ponadto analogiczne tabele dla ról, wpisów rejestrowych i relacji podmiotów. Są one przygotowane w skrypcie SQL razem z odpowiadającymi im tabelami faktów bezmiarowych.
-
-### Struktura EntityChangeLog
+`EntityChangeLog` rejestruje zmianę wartości, natomiast tabele `Golden*Lineage` wskazują pochodzenie aktualnie wybranego atrybutu. Osobne lineage istnieje dla adresów, identyfikatorów i relacji przewidzianych w modelu.
 
 | Kolumna | Typ | Znaczenie |
 |---|---|---|
@@ -425,9 +271,7 @@ Pełny model zawiera ponadto analogiczne tabele dla ról, wpisów rejestrowych i
 | `Change_Date` | `DATETIME2(0)` | czas zarejestrowania zmiany |
 | `ImportBatch_ID` | `BIGINT` | partia, która spowodowała zmianę |
 
-Ograniczenie `CK_EntityChangeLog_Entity_Ref` zapewnia zgodność `Entity_Type` z odpowiednią kolumną identyfikatora. Przykładowo wpis typu `PERSON` musi wskazywać `DimPerson_ID`, a pozostałe identyfikatory encji muszą pozostać puste.
-
-### Wspólna struktura lineage
+Ograniczenie `CK_EntityChangeLog_Entity_Ref` wymaga wskazania dokładnie jednego identyfikatora zgodnego z `Entity_Type`.
 
 Tabele lineage atrybutów mają wspólny zestaw pól:
 
@@ -445,24 +289,13 @@ Tabele lineage atrybutów mają wspólny zestaw pól:
 | `Validation_Status` | status walidacji wybranej wartości |
 | `Recorded_At` | czas zapisania informacji o pochodzeniu |
 
-`Trust_Score` i `Quality_Score` mają typ `DECIMAL(5,4)` i, jeżeli są podane, muszą mieścić się w zakresie 0-1. Indeksy umożliwiają wyszukiwanie lineage po encji i atrybucie oraz po systemie źródłowym, partii importu i czasie zapisu.
+`Trust_Score` i `Quality_Score` muszą mieścić się w zakresie 0-1. Indeksy wspierają odczyt po encji, atrybucie, źródle i partii.
 
 W aktualnej implementacji zapis lineage jest wykonywany metodami `upsert_dimension_lineage()` i `upsert_address_link_lineage()` z `app/layers/integration_golden/repository.py`. Dla danego atrybutu wymiaru utrzymywane jest aktualne wskazanie wybranego źródła, a zmiany wartości biznesowej są niezależnie rejestrowane w `EntityChangeLog`.
 
 ## Relacje między schematami
 
-Najważniejsza ścieżka kluczy wygląda następująco:
-
-1. `meta.SourceSystem.SourceSystem_ID` wskazuje źródło danych.
-2. `meta.ImportBatch.SourceSystem_ID` przypisuje partię do źródła.
-3. `raw.RawFile.ImportBatch_ID` przypisuje materiał RAW do partii.
-4. tabele stagingowe wskazują jednocześnie `ImportBatch_ID` i `RawFile_ID`;
-5. tabele preprocessingowe wskazują rekord stagingowy, partię i plik RAW;
-6. wyniki walidacji wskazują rekord stagingowy lub preprocessingowy;
-7. grupy encji łączą rekordy preprocessingowe opisujące tę samą encję;
-8. serwis tworzy albo aktualizuje wymiary i relacje GOLD;
-9. lineage zapisuje źródło, rekord źródłowy i partię dla wybranych wartości;
-10. `EntityChangeLog` wiąże zmianę wymiaru z partią, która ją wywołała.
+Ścieżka pochodzenia prowadzi od `SourceSystem` przez `ImportBatch`, `RawFile`, staging i preprocessing do grup encji oraz wymiarów GOLD. Lineage zachowuje źródło, rekord i partię wybranej wartości, a `EntityChangeLog` wiąże zmianę wymiaru z importem.
 
 Model nie tworzy bezpośredniego klucza obcego z wymiaru GOLD do pojedynczego rekordu stagingowego. Jest to celowe, ponieważ jeden Golden Record może powstać z wielu rekordów i źródeł. Powiązanie wieloźródłowe jest reprezentowane przez tabele lineage.
 
@@ -484,15 +317,7 @@ Model nie tworzy bezpośredniego klucza obcego z wymiaru GOLD do pojedynczego re
 
 ## Integralność i inicjalizacja
 
-Skrypt SQL definiuje:
-
-- klucze główne i obce,
-- ograniczenia unikalności,
-- kontrolę zakresów dat,
-- kontrolę wartości ocen w przedziale od 0 do 1,
-- indeksy wspierające wyszukiwanie identyfikatorów i lineage,
-- wartości początkowe słowników,
-- konfigurację źródeł i mapowań kolumn.
+Skrypt SQL definiuje klucze, ograniczenia, indeksy, słowniki oraz konfigurację źródeł i mapowań.
 
 Podczas uruchamiania FastAPI funkcja `init_db()` wykonuje `Base.metadata.create_all()`. Mechanizm tworzy tabele zarejestrowane w modelach ORM, ale nie zastępuje pełnego skryptu inicjalizacyjnego. Przygotowanie kompletnej struktury, zgodnej z zatwierdzonym modelem GOLD, wymaga uruchomienia `scripts/init_proposed_mssql_schema.sql` zgodnie z instrukcją zawartą w `README.md`.
 
@@ -513,7 +338,7 @@ Podczas uruchamiania FastAPI funkcja `init_db()` wykonuje `Base.metadata.create_
 | lineage | wyniki zaufania i jakości w zakresie 0-1 |
 | historia zmian | zgodność typu encji z dokładnie jednym identyfikatorem |
 
-Indeksy nie są jedynie optymalizacją ogólną. Odzwierciedlają główne ścieżki dostępu aplikacji: filtrowanie po partii i pliku RAW, wyszukiwanie kandydatów po identyfikatorach i danych opisowych, odnajdywanie istniejącego wymiaru oraz odczyt historii i lineage.
+Indeksy odpowiadają głównym ścieżkom dostępu: filtrowaniu przebiegu, wyszukiwaniu kandydatów i wymiarów oraz odczytowi historii i lineage.
 
 ## Odniesienie do implementacji
 
@@ -530,21 +355,3 @@ Indeksy nie są jedynie optymalizacją ogólną. Odzwierciedlają główne ście
 | Operacje na GOLD | `app/layers/integration_golden/repository.py` |
 | Budowa Golden Record | `app/layers/integration_golden/service.py` |
 | Inicjalizacja ORM | `app/db/init_db.py` |
-
-### Powiązanie tabel z klasami ORM
-
-| Tabela lub grupa | Klasa/model | Repozytorium korzystające z modelu |
-|---|---|---|
-| `meta.SourceSystem` | `SourceSystem` | `app/layers/ingestion/repository.py` |
-| `meta.ImportBatch` | `ImportBatch` | ingestion, staging i goldenizacja |
-| `meta.ColumnMapping` | `ColumnMapping` | `app/layers/staging_validation/repository.py` |
-| `meta.ProcessLog` | `ProcessLog` | repozytoria kolejnych etapów |
-| `raw.RawFile` | `RawFile` | ingestion i staging |
-| staging osoby i podmiotu | `PersonStaging`, `PartyStaging` | `app/layers/staging_validation/repository.py` |
-| preprocessing osoby i podmiotu | `PersonPreprocessed`, `PartyPreprocessed` | preprocessing, validation i integration_golden |
-| wyniki walidacji | `ValidationResult` | `app/layers/validation/repository.py` |
-| kandydaci i grupy | `MatchCandidateRecord`, `JaroWinklerCandidateRecord`, `EntityGroupRecord`, `EntityGroupMemberRecord` | `app/layers/integration_golden/repository.py` |
-| główne wymiary GOLD | `DimPerson`, `DimParty`, `DimAddress` | `app/layers/integration_golden/repository.py` |
-| identyfikatory i adresy | `FactlessPartyIdentities`, `FactlessPersonAddress`, `FactlessPartyAddress` | `app/layers/integration_golden/repository.py` |
-| historia i aktywne lineage | `EntityChangeLog` oraz klasy `*Lineage` | `app/layers/integration_golden/repository.py` |
-| rejestry, role i relacje podmiotów | definicje fizyczne w skrypcie SQL | obecnie poza automatycznym zapisem serwisu |
