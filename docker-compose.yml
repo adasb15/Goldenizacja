@@ -36,32 +36,14 @@ services:
       - api
 
   airflow:
-    image: apache/airflow:2.10.2-python3.12
+    image: apache/airflow:3.2.2-python3.14
     container_name: goldenizacja-airflow
     user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW_HOME: /opt/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
       AIRFLOW__CORE__EXECUTOR: SequentialExecutor
-      _AIRFLOW_WWW_USER_USERNAME: "${AIRFLOW_USERNAME:-admin}"
-      _AIRFLOW_WWW_USER_PASSWORD: "${AIRFLOW_PASSWORD:-admin}"
-    command: >
-      bash -c "
-      airflow db migrate &&
-      (
-      airflow users create
-      --username ${AIRFLOW_USERNAME:-admin}
-      --password ${AIRFLOW_PASSWORD:-admin}
-      --firstname Admin
-      --lastname User
-      --role Admin
-      --email admin@example.com
-      || airflow users reset-password
-      --username ${AIRFLOW_USERNAME:-admin}
-      --password ${AIRFLOW_PASSWORD:-admin}
-      ) &&
-      exec airflow standalone
-      "
+    command: airflow standalone
     ports:
       - "8080:8080"
     volumes:

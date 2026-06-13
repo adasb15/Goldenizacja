@@ -16,7 +16,7 @@ spec:
         fsGroup: 0
       containers:
         - name: airflow
-          image: apache/airflow:2.10.2-python3.12
+          image: apache/airflow:3.2.2-python3.14
           command: ["airflow", "standalone"]
           ports:
             - containerPort: 8080
@@ -30,16 +30,6 @@ spec:
               value: "False"
             - name: AIRFLOW__CORE__EXECUTOR
               value: SequentialExecutor
-            - name: _AIRFLOW_WWW_USER_USERNAME
-              valueFrom:
-                secretKeyRef:
-                  name: goldenizacja-secrets
-                  key: AIRFLOW_USERNAME
-            - name: _AIRFLOW_WWW_USER_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: goldenizacja-secrets
-                  key: AIRFLOW_PASSWORD
           volumeMounts:
             - name: airflow-data
               mountPath: /opt/airflow
@@ -48,13 +38,13 @@ spec:
               subPath: example_goldenizacja.py
           readinessProbe:
             httpGet:
-              path: /health
+              path: /api/v2/monitor/health
               port: 8080
             initialDelaySeconds: 30
             periodSeconds: 10
           livenessProbe:
             httpGet:
-              path: /health
+              path: /api/v2/monitor/health
               port: 8080
             initialDelaySeconds: 45
             periodSeconds: 15

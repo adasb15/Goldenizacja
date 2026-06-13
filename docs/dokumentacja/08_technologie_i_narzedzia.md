@@ -8,26 +8,27 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 
 | Technologia | Wersja w projekcie | Zastosowanie | Status wykorzystania |
 |---|---:|---|---|
-| Python | 3.12 | język backendu i zadań Airflow | główny element systemu |
-| FastAPI | 0.115.0 | REST API i organizacja endpointów warstw | używane w głównym pipeline |
-| Uvicorn | 0.30.6 | serwer ASGI aplikacji FastAPI | używane lokalnie i w obrazie API |
-| Pydantic | 2.9.2 | modele danych wejściowych i odpowiedzi API | używane w głównym pipeline |
-| pydantic-settings | 2.5.2 | konfiguracja ze zmiennych środowiskowych | używane w backendzie |
-| SQLAlchemy | 2.0.35 | ORM, sesje i operacje bazodanowe | używane w głównym pipeline |
-| PyODBC | 5.1.0 | komunikacja SQLAlchemy z SQL Serverem | używane w głównym pipeline |
+| Python | 3.14 | język backendu i zadań Airflow | główny element systemu |
+| FastAPI | 0.136.3 | REST API i organizacja endpointów warstw | używane w głównym pipeline |
+| Uvicorn | 0.49.0 | serwer ASGI aplikacji FastAPI | używane lokalnie i w obrazie API |
+| Pydantic | 2.13.4 | modele danych wejściowych i odpowiedzi API | używane w głównym pipeline |
+| pydantic-settings | 2.14.1 | konfiguracja ze zmiennych środowiskowych | używane w backendzie |
+| SQLAlchemy | 2.0.50 | ORM, sesje i operacje bazodanowe | używane w głównym pipeline |
+| PyODBC | 5.3.0 | komunikacja SQLAlchemy z SQL Serverem | używane w głównym pipeline |
 | ODBC Driver 18 for SQL Server | instalowany w obrazie API | sterownik połączenia z Microsoft SQL Serverem | używane w obrazie backendu |
 | Microsoft SQL Server | obraz 2022 latest | centralne repozytorium `meta`, `raw`, `stg` i `gold` | używane w głównym pipeline |
 | Oracle Database Free | obraz 23 slim faststart | demonstracyjne źródło relacyjne | używane jako źródło testowe |
-| python-oracledb | 2.5.1 | połączenie z Oracle bez klienta natywnego | używane przez import relacyjny |
-| Apache Airflow | 2.10.2, Python 3.12 | orkiestracja kolejnych etapów procesu | używane w głównym pipeline |
-| RapidFuzz | 3.9.7 | Levenshtein i Jaro-Winkler | używane w matchingu |
-| python-stdnum | 1.20 | walidacja identyfikatorów | używane w walidacji |
-| email-validator | 2.2.0 | kontrola składni adresów e-mail | używane w walidacji |
+| python-oracledb | 4.0.1 | połączenie z Oracle bez klienta natywnego | używane przez import relacyjny |
+| Apache Airflow | 3.2.2, Python 3.14 | orkiestracja kolejnych etapów procesu | używane w głównym pipeline |
+| RapidFuzz | 3.14.5 | Levenshtein i Jaro-Winkler | używane w matchingu |
+| python-stdnum | 2.2 | walidacja identyfikatorów | używane w walidacji |
+| email-validator | 2.3.0 | kontrola składni adresów e-mail | używane w walidacji |
 | dnspython | 2.8.0 | opcjonalna kontrola domen pocztowych | używane w walidacji |
-| phonenumbers | 8.13.47 | normalizacja numerów telefonów | używane w preprocessingu |
+| phonenumbers | 9.0.32 | normalizacja numerów telefonów | używane w preprocessingu |
 | text-unidecode | 1.3 | uproszczenie tekstu na potrzeby porównań | używane w preprocessingu |
 | openpyxl | 3.1.5 | odczyt plików XLSX | używane przez ingestion i staging |
-| python-multipart | 0.0.12 | obsługa formularzy i uploadu plików w FastAPI | używane przez API |
+| python-multipart | 0.0.32 | obsługa formularzy i uploadu plików w FastAPI | używane przez API |
+| Neo4j Python Driver | 6.2.0 | komunikacja backendu z bazą grafową | używane przez demonstracyjną obsługę dokumentów |
 | React | 18.3.1 | frontend techniczny | używane w ograniczonym zakresie |
 | Vite | 5.4.21 | środowisko developerskie i budowanie frontendu | używane przez frontend |
 | Node.js | obraz 20 Alpine | uruchamianie i budowanie frontendu | używane lokalnie i w buildzie |
@@ -40,7 +41,7 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 
 ### Python
 
-Backend i DAG Airflow zostały napisane w Pythonie 3.12. Obraz API bazuje na `python:3.12-slim`, a Airflow na `apache/airflow:2.10.2-python3.12`, dzięki czemu oba komponenty korzystają z tej samej wersji języka.
+Backend i DAG Airflow działają na Pythonie 3.14. Obraz API bazuje na `python:3.14-slim`, a Airflow na `apache/airflow:3.2.2-python3.14`, dzięki czemu oba komponenty korzystają z tej samej wersji języka.
 
 ### FastAPI i Uvicorn
 
@@ -96,7 +97,7 @@ Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpi
 
 ## Neo4j
 
-Biblioteka i obraz Neo4j mają wersję 5.24. Komponent obsługuje demonstracyjny zapis dokumentów, ale nie jest częścią przetestowanego pipeline'u i nie przechowuje relacji Golden Record.
+Backend używa sterownika Neo4j 6.2.0, natomiast serwer działa na obrazie Neo4j 5.24. Komponent obsługuje demonstracyjny zapis dokumentów, ale nie jest częścią przetestowanego pipeline'u i nie przechowuje relacji Golden Record.
 
 ## Konteneryzacja i wdrożenie
 

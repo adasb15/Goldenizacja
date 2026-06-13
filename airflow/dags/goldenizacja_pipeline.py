@@ -5,9 +5,8 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from airflow import DAG
-from airflow.models.param import Param
-from airflow.operators.python import PythonOperator
+from airflow.providers.standard.operators.python import PythonOperator
+from airflow.sdk import DAG, Param
 
 
 API_BASE_URL = "http://api:8000"

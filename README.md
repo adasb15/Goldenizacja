@@ -44,8 +44,6 @@ Kluczowe zmienne:
 - `NEO4J_PASSWORD`
 - `CORS_ORIGINS` (domyślnie `http://localhost:5173`)
 - `AIRFLOW_UID`
-- `AIRFLOW_USERNAME`
-- `AIRFLOW_PASSWORD`
 
 Hasła do baz są wymagane z `.env` (nie ma fallbacku w kodzie).
 
@@ -159,17 +157,13 @@ Tam widać utworzone tabele, kolumny, klucze i indeksy. Jeśli lista tabel się 
 
 ## Airflow logowanie
 
-Airflow startuje z komendą, która:
-1. robi migrację DB,
-2. tworzy użytkownika admin z `.env`,
-3. jeśli user już istnieje, resetuje mu hasło,
-4. uruchamia `airflow standalone`.
+Airflow 3 jest uruchamiany poleceniem `airflow standalone`. Polecenie inicjalizuje lokalną bazę metadanych, uruchamia wymagane komponenty i przy pierwszym starcie wyświetla w logach dane dostępowe administratora.
 
-Czyli logujesz się danymi:
-- `AIRFLOW_USERNAME`
-- `AIRFLOW_PASSWORD`
+Logi zawierające dane dostępowe można sprawdzić poleceniem:
 
-(domyślnie: `admin/admin`).
+```bash
+docker compose logs airflow
+```
 
 ## Frontend
 
