@@ -9,6 +9,7 @@ import {
   VALIDATION_STATUS_OPTIONS,
 } from '../../constants/validationFilters'
 import { formatDateTime, formatValue } from '../../utils/formatters'
+import { getValidationHighlight } from './ruleHighlight'
 
 function ValidationView({ refreshToken }) {
   const [filters, setFilters] = useState({
@@ -210,24 +211,38 @@ function ValidationView({ refreshToken }) {
               </tr>
             ) : null}
 
-            {state.data.items.map((item) => (
-              <tr key={item.validation_id}>
-                <td>{item.validation_id}</td>
-                <td>{item.source_system_code || '-'}</td>
-                <td>{item.entity_type}</td>
-                <td>{item.rule_code}</td>
-                <td>{item.field_name}</td>
-                <td>
-                  <StatusBadge value={item.status} />
-                </td>
-                <td>
-                  <StatusBadge value={item.severity} />
-                </td>
-                <td className="cell-break">{formatValue(item.checked_value)}</td>
-                <td className="cell-break">{item.message}</td>
-                <td>{formatDateTime(item.created_at)}</td>
-              </tr>
-            ))}
+            {state.data.items.map((item) => {
+              const highlight = getValidationHighlight(item)
+              const rowClassName = highlight ? `validation-row validation-row--${highlight.tone}` : ''
+
+              return (
+                <tr key={item.validation_id} className={rowClassName}>
+                  <td>{item.validation_id}</td>
+                  <td>{item.source_system_code || '-'}</td>
+                  <td>{item.entity_type}</td>
+                  <td>
+                    <div className="rule-cell">
+                      <span>{item.rule_code}</span>
+                      {highlight ? (
+                        <span className={`highlight-chip highlight-chip--${highlight.tone}`}>
+                          {highlight.label}
+                        </span>
+                      ) : null}
+                    </div>
+                  </td>
+                  <td>{item.field_name}</td>
+                  <td>
+                    <StatusBadge value={item.status} />
+                  </td>
+                  <td>
+                    <StatusBadge value={item.severity} />
+                  </td>
+                  <td className="cell-break">{formatValue(item.checked_value)}</td>
+                  <td className="cell-break">{item.message}</td>
+                  <td>{formatDateTime(item.created_at)}</td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>

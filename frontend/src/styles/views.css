@@ -93,3 +93,56 @@ tbody tr:nth-child(even) {
   min-width: 160px;
   word-break: break-word;
 }
+
+.rule-cell {
+  display: grid;
+  gap: 6px;
+}
+
+.highlight-chip {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 24px;
+  padding: 0 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+}
+
+.highlight-chip--identifier,
+.highlight-chip--identifier-error {
+  background: rgba(184, 107, 28, 0.12);
+  color: #8a5300;
+  border-color: rgba(184, 107, 28, 0.18);
+}
+
+.highlight-chip--teryt,
+.highlight-chip--teryt-error {
+  background: rgba(12, 109, 101, 0.12);
+  color: #0c6d65;
+  border-color: rgba(12, 109, 101, 0.18);
+}
+
+.validation-row--identifier-error {
+  background: rgba(184, 107, 28, 0.08);
+}
+
+.validation-row--teryt-error {
+  background: rgba(12, 109, 101, 0.08);
+}
+
+.validation-row--identifier-error td:first-child,
+.validation-row--teryt-error td:first-child {
+  box-shadow: inset 4px 0 0 currentColor;
+}
+
+.validation-row--identifier-error td:first-child {
+  color: #8a5300;
+}
+
+.validation-row--teryt-error td:first-child {
+  color: #0c6d65;
+}
