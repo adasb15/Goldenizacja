@@ -1,7 +1,7 @@
 import json
 from typing import Any
 
-from sqlalchemy import func, or_, select
+from sqlalchemy import and_, func, or_, select
 from sqlalchemy.orm import Session
 
 from app.layers.ingestion.models import ImportBatch, RawFile, SourceSystem
@@ -246,6 +246,31 @@ class ServingRepository:
             query = query.where(JaroWinklerCandidateRecord.Decision == decision.strip().upper())
         total = self._count(query)
         return list(self.db.scalars(query.offset(offset).limit(limit))), total
+
+    def get_jaro_winkler_pair_keys(
+        self,
+        candidates: list[MatchCandidateRecord],
+    ) -> set[tuple[str, int, int]]:
+        if not candidates:
+            return set()
+
+        conditions = [
+            and_(
+                JaroWinklerCandidateRecord.Entity_Type == candidate.Entity_Type,
+                JaroWinklerCandidateRecord.Left_Preprocessed_ID == candidate.Left_Preprocessed_ID,
+                JaroWinklerCandidateRecord.Right_Preprocessed_ID == candidate.Right_Preprocessed_ID,
+            )
+            for candidate in candidates
+        ]
+        query = select(
+            JaroWinklerCandidateRecord.Entity_Type,
+            JaroWinklerCandidateRecord.Left_Preprocessed_ID,
+            JaroWinklerCandidateRecord.Right_Preprocessed_ID,
+        ).where(or_(*conditions))
+        return {
+            (row.Entity_Type, int(row.Left_Preprocessed_ID), int(row.Right_Preprocessed_ID))
+            for row in self.db.execute(query)
+        }
 
     def get_match_comparison(
         self,

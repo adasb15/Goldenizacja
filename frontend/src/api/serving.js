@@ -42,4 +42,8 @@ function getMatchResults({ algorithm, ...params }) {
   return fetchJson(`/layers/serving/match-results/${algorithm}`, params)
 }
 
-export { API_URL, getValidationResults, getMatchResults }
+function getMatchComparison(params) {
+  return fetchJson('/layers/serving/match-results/comparison', params)
+}
+
+export { API_URL, getValidationResults, getMatchResults, getMatchComparison }

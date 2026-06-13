@@ -202,7 +202,90 @@ tbody tr:nth-child(even) {
   border-color: rgba(202, 62, 48, 0.18);
 }
 
+.match-field-chip--text {
+  background: rgba(19, 34, 56, 0.08);
+  color: #425065;
+  border-color: rgba(19, 34, 56, 0.12);
+}
+
+.comparison {
+  margin-top: 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.comparison-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.comparison-metric {
+  padding: 18px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(19, 34, 56, 0.96), rgba(22, 53, 66, 0.96));
+  color: #f7fafc;
+  display: grid;
+  gap: 10px;
+}
+
+.comparison-metric span {
+  color: rgba(247, 250, 252, 0.74);
+}
+
+.comparison-metric strong {
+  font-size: 2rem;
+}
+
+.comparison-row--same {
+  background: rgba(20, 149, 112, 0.06);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(19, 34, 56, 0.44);
+  backdrop-filter: blur(6px);
+}
+
+.comparison-modal {
+  width: min(1180px, 100%);
+  max-height: min(88vh, 920px);
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.comparison-modal__table {
+  max-height: 52vh;
+  overflow: auto;
+}
+
 @media (max-width: 640px) {
+  .comparison-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-backdrop {
+    padding: 12px;
+  }
+
+  .comparison-modal {
+    width: 100%;
+    max-height: 92vh;
+  }
+
+  .comparison-modal__table {
+    max-height: 56vh;
+  }
+
   .pager,
   .pager__actions {
     flex-direction: column;

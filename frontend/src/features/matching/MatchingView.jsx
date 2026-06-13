@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
 
-import { getMatchResults } from '../../api/serving'
+import { getMatchComparison, getMatchResults } from '../../api/serving'
 import { Pager } from '../../components/ui/Pager'
 import { StatusBadge } from '../../components/ui/StatusBadge'
 import { MATCHING_ALGORITHM_OPTIONS, MATCHING_LIMIT, EMPTY_MATCHING_PAGE } from '../../constants/matching'
 import { formatDateTime, formatValue } from '../../utils/formatters'
 import { formatMatchScore } from '../../utils/matching'
+import { MatchingComparisonPanel } from './MatchingComparisonPanel'
 
 function MatchFieldList({ values, tone }) {
   if (!values || values.length === 0) {
@@ -33,6 +34,13 @@ function MatchingView({ refreshToken }) {
     status: 'idle',
     data: EMPTY_MATCHING_PAGE,
     error: '',
+  })
+  const [comparison, setComparison] = useState({
+    open: false,
+    status: 'idle',
+    data: null,
+    error: '',
+    candidate: null,
   })
 
   useEffect(() => {
@@ -84,6 +92,50 @@ function MatchingView({ refreshToken }) {
     }))
   }
 
+  async function openComparison(candidate) {
+    setComparison({
+      open: true,
+      status: 'loading',
+      data: null,
+      error: '',
+      candidate,
+    })
+
+    try {
+      const data = await getMatchComparison({
+        entity_type: candidate.entity_type,
+        left_preprocessed_id: candidate.left_preprocessed_id,
+        right_preprocessed_id: candidate.right_preprocessed_id,
+      })
+
+      setComparison({
+        open: true,
+        status: 'success',
+        data,
+        error: '',
+        candidate,
+      })
+    } catch (error) {
+      setComparison({
+        open: true,
+        status: 'error',
+        data: null,
+        error: String(error.message || error),
+        candidate,
+      })
+    }
+  }
+
+  function closeComparison() {
+    setComparison({
+      open: false,
+      status: 'idle',
+      data: null,
+      error: '',
+      candidate: null,
+    })
+  }
+
   const page = state.data.page || EMPTY_MATCHING_PAGE.page
   const currentFrom = page.total === 0 ? 0 : page.offset + 1
   const currentTo = Math.min(page.offset + page.limit, page.total)
@@ -127,15 +179,17 @@ function MatchingView({ refreshToken }) {
               <th>Decyzja</th>
               <th>Silne pola</th>
               <th>Pola konfliktowe</th>
+              <th>Drugie sito</th>
               <th>Pola tekstowe</th>
               <th>Para rekordow</th>
               <th>Utworzono</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {state.status === 'loading' ? (
               <tr>
-                <td colSpan="9" className="table-state">
+                <td colSpan="11" className="table-state">
                   Ladowanie wynikow matchingu...
                 </td>
               </tr>
@@ -143,7 +197,7 @@ function MatchingView({ refreshToken }) {
 
             {state.status !== 'loading' && state.data.items.length === 0 ? (
               <tr>
-                <td colSpan="9" className="table-state">
+                <td colSpan="11" className="table-state">
                   Brak wynikow matchingu.
                 </td>
               </tr>
@@ -163,11 +217,29 @@ function MatchingView({ refreshToken }) {
                 <td className="cell-break">
                   <MatchFieldList values={item.conflict_fields} tone="conflict" />
                 </td>
+                <td>
+                  <StatusBadge
+                    value={
+                      item.passed_to_second_stage || query.algorithm === 'jaro-winkler'
+                        ? 'TAK'
+                        : 'NIE'
+                    }
+                  />
+                </td>
                 <td className="cell-break">{formatValue(item.text_match_fields)}</td>
                 <td className="cell-break">
                   {item.left_preprocessed_id} / {item.right_preprocessed_id}
                 </td>
                 <td>{formatDateTime(item.created_at)}</td>
+                <td>
+                  <button
+                    type="button"
+                    className="button button--secondary"
+                    onClick={() => openComparison(item)}
+                  >
+                    Porownaj
+                  </button>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -175,6 +247,8 @@ function MatchingView({ refreshToken }) {
       </div>
 
       <Pager page={page} onPrev={() => changePage(-1)} onNext={() => changePage(1)} />
+
+      {comparison.open ? <MatchingComparisonPanel comparison={comparison} onClose={closeComparison} /> : null}
     </section>
   )
 }

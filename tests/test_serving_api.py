@@ -172,6 +172,7 @@ def test_matching_endpoints_and_comparison_return_payloads() -> None:
         decision="AUTO_MERGE",
         strong_match_fields=["NIP"],
         conflict_fields=[],
+        passed_to_second_stage=True,
     )
     list_response = MatchCandidateListResponse(
         items=[candidate],
