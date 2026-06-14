@@ -30,7 +30,7 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 | openpyxl | 3.1.5 | odczyt plików XLSX | używane przez ingestion i staging |
 | python-multipart | 0.0.32 | obsługa formularzy i uploadu plików w FastAPI | używane przez API |
 | Neo4j Python Driver | 6.2.0 | komunikacja backendu z bazą grafową | używane przez demonstracyjną obsługę dokumentów |
-| React | 18.3.1 | frontend techniczny | używane w ograniczonym zakresie |
+| React | 18.3.1 | frontend prezentujący dane z warstwy `serving` | używane w zakresie widoków walidacji i matchingu |
 | Vite | 5.4.21 | środowisko developerskie i budowanie frontendu | używane przez frontend |
 | Node.js | obraz 20 Alpine | uruchamianie i budowanie frontendu | używane lokalnie i w buildzie |
 | Nginx unprivileged | stable Alpine | serwowanie zbudowanego frontendu | przygotowane w obrazie wdrożeniowym |
@@ -94,7 +94,7 @@ RapidFuzz dostarcza implementacje Levenshteina i Jaro-Winklera używane do oceny
 
 ## Frontend
 
-Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpine`, natomiast wieloetapowy `frontend/Dockerfile` buduje pliki statyczne i przekazuje je do Nginx unprivileged. Aplikacja wywołuje jedynie `/health`, dlatego jej zakres biznesowy pozostaje ograniczony.
+Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpine`, natomiast wieloetapowy `frontend/Dockerfile` buduje pliki statyczne i przekazuje je do Nginx unprivileged. Aplikacja korzysta z endpointów warstwy `serving` i udostępnia widoki walidacji oraz matchingu, w tym filtrowanie, paginację i porównanie wybranej pary rekordów. Zakres nadal pozostaje odczytowy i nie obejmuje pełnego widoku Golden Record ani ręcznej obsługi decyzji integracyjnych.
 
 ## Neo4j
 

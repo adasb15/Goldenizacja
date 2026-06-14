@@ -34,7 +34,7 @@ Pierwotna koncepcja przewidywała SQL Server FILESTREAM. W wykonanej wersji zast
 
 Matching nie wykorzystuje ML ani DL, lecz jawne reguły, wagi, progi i deterministyczne miary podobieństwa. Nie wykonano także konektorów strumieniowych oraz wejść z zewnętrznych usług REST lub SOAP.
 
-Warstwa `analytics` pozostaje szkieletem i nie udostępnia raportów ani metryk. Warstwa `serving` realizuje odczyt danych, ale nie zawiera mechanizmu PUSH ani webhooków. Frontend jest demonstratorem połączenia z API i nie korzysta jeszcze z biznesowych endpointów servingowych, a Neo4j nie przechowuje relacji wynikowych głównego procesu.
+Warstwa `analytics` pozostaje szkieletem i nie udostępnia raportów ani metryk. Warstwa `serving` realizuje odczyt danych, ale nie zawiera mechanizmu PUSH ani webhooków. Frontend korzysta już z odczytowych endpointów servingowych dla walidacji i matchingu, ale nie udostępnia jeszcze pełnego profilu Golden Record ani obsługi manualnych decyzji integracyjnych. Neo4j nie przechowuje relacji wynikowych głównego procesu.
 
 Brakuje również interfejsu operatora do ręcznej obsługi decyzji `REVIEW` oraz uwierzytelniania i autoryzacji API. Szczegółowa ocena realizacji tych elementów znajduje się w macierzy wymagań.
 

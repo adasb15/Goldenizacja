@@ -629,18 +629,25 @@ Zakres:
 
 - zastosowana technologia,
 - sposób połączenia z API,
-- aktualna funkcja testu dostępności backendu,
+- widok wyników walidacji,
+- widok wyników matchingu,
+- porównanie par rekordów,
 - zakres niewykonanych widoków profilu Golden Record.
 
 Realizacja w kodzie:
 
 - `frontend/src/App.jsx`,
-- `frontend/src/styles.css`,
+- `frontend/src/api/serving.js`,
+- `frontend/src/features/validation/ValidationView.jsx`,
+- `frontend/src/features/matching/MatchingView.jsx`,
+- `frontend/src/features/matching/MatchingComparisonPanel.jsx`,
+- `frontend/src/components/ui/`,
+- `frontend/src/styles/`,
 - `frontend/package.json`.
 
 Ocena:
 
-- interfejs użytkownika jest zrealizowany częściowo i ma charakter technicznego demonstratora.
+- interfejs użytkownika jest zrealizowany częściowo i udostępnia odczyt wyników walidacji oraz matchingu, ale nie obejmuje jeszcze pełnego profilu Golden Record i operacji decyzyjnych.
 
 ## 20. Apache Airflow
 

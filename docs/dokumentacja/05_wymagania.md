@@ -82,7 +82,7 @@ Wykonane API udostępnia operacje sterujące etapami pipeline'u oraz konsumencki
 
 Platforma powinna zapewniać użytkownikowi dostęp do danych i wyników integracji.
 
-Frontend React pozwala sprawdzić dostępność backendu przez endpoint `/health`. Nie zawiera widoku Golden Record, wyszukiwarki ani interfejsu ręcznej obsługi przypadków `REVIEW`, dlatego wymaganie jest zrealizowane jedynie w zakresie technicznego demonstratora.
+Frontend React udostępnia widoki wyników walidacji i matchingu oparte na endpointach warstwy `serving`. Pozwala filtrować wyniki walidacji, przeglądać kandydatów Levenshteina i Jaro-Winklera oraz porównywać szczegóły wybranej pary rekordów. Nie zawiera jeszcze widoku pełnego profilu Golden Record, wyszukiwarki biznesowej ani interfejsu ręcznej obsługi przypadków `REVIEW`, dlatego wymaganie pozostaje zrealizowane częściowo.
 
 ### Mechanizm samouczący
 
@@ -160,7 +160,7 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 | F-20 | REST API do sterowania pipeline'em | Zrealizowane | Endpointy warstw w `app/layers/*/api.py`, router w `app/layers/router.py` | Dokumentacja OpenAPI generowana przez FastAPI |
 | F-21 | REST Out: pełne i dedykowane widoki Golden Record | Zrealizowane | Endpointy w `app/layers/serving/api.py` udostępniają listy, szczegóły, wyszukiwanie, lineage, historię i wyniki procesu | `tests/test_serving_api.py`; API ma charakter odczytowy |
 | F-22 | PUSH lub webhooki po zmianie danych | Niezrealizowane | Brak implementacji | Wymienione tylko w założeniach i README warstwy |
-| F-23 | Interfejs użytkownika do danych | Częściowo zrealizowane | `frontend/src/App.jsx` sprawdza endpoint `/health` | Brak wyszukiwarki, profilu Golden Record i obsługi `REVIEW` |
+| F-23 | Interfejs użytkownika do danych | Częściowo zrealizowane | `frontend/src/App.jsx`, `frontend/src/features/validation/ValidationView.jsx`, `frontend/src/features/matching/MatchingView.jsx`, `frontend/src/features/matching/MatchingComparisonPanel.jsx` | Brak profilu Golden Record, operacji zapisu i obsługi `REVIEW` |
 | F-24 | Mechanizm samouczący ML/DL | Niezrealizowane | Brak bibliotek, modelu, danych uczących i procesu treningowego | Matching jest regułowy; Random Forest występuje wyłącznie w materiale koncepcyjnym |
 | F-25 | Grafowa reprezentacja relacji i widok 360 stopni | Niezrealizowane w głównym systemie | Neo4j jest skonfigurowany, a `app/api/routes.py` zawiera demonstracyjny zapis dokumentów | Nieprzetestowane w pipeline'ie; brak grafu osób i podmiotów |
 | F-26 | Warstwa analityczna | Częściowo zrealizowane | Istnieje model wymiarowy `gold`; moduł `app/layers/analytics` jest szkieletem | Brak raportów, metryk i projekcji analitycznych |
@@ -178,6 +178,6 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 
 Najpełniej zrealizowana jest centralna część platformy: pobieranie plików i danych relacyjnych, przechowywanie RAW, mapowanie, preprocessing, walidacja, dwuetapowy matching, grupowanie, budowa Golden Record, audytowalność oraz odczyt wyników przez API. Elementy te posiadają odpowiadające modele danych, endpointy API i testy.
 
-Warstwa servingowa oferuje odczyt Golden Record i danych audytowych, ale nie obsługuje aktywnego przekazywania zmian do systemów zewnętrznych. Warstwa analityczna pozostaje szkieletem, frontend nie realizuje dostępu do danych biznesowych, a Neo4j nie jest częścią pipeline'u.
+Warstwa servingowa oferuje odczyt Golden Record i danych audytowych, ale nie obsługuje aktywnego przekazywania zmian do systemów zewnętrznych. Warstwa analityczna pozostaje szkieletem, frontend udostępnia już odczyt walidacji i matchingu, lecz nadal nie obejmuje pełnego widoku Golden Record, a Neo4j nie jest częścią pipeline'u.
 
 Nie wykonano również mechanizmu samouczącego, wejść strumieniowych, integracji z zewnętrznymi usługami REST lub SOAP, procesu manualnej obsługi decyzji `REVIEW`, zabezpieczeń API i testów wydajnościowych. Ograniczenia te nie wpływają na działanie wykonanego rdzenia integracyjnego, lecz oznaczają, że platforma nie realizuje pełnego zakresu rozwiązania docelowego opisanego w materiałach wejściowych.

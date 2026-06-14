@@ -9,7 +9,7 @@ flowchart LR
     TERYT[("Dane referencyjne TERYT<br/>SIMC / ULIC")]
 
     subgraph LOCAL["Środowisko lokalne zdefiniowane w Docker Compose"]
-        FE["Frontend React / Vite<br/>techniczny test /health"]
+        FE["Frontend React / Vite<br/>widoki walidacji i matchingu"]
         AF["Apache Airflow<br/>DAG goldenizacja_pipeline"]
 
         subgraph API["FastAPI"]
@@ -30,7 +30,7 @@ flowchart LR
 
     U -->|"uruchomienie i parametry"| AF
     B -->|"HTTP"| FE
-    FE -->|"GET /health"| CORE
+    FE -->|"GET /layers/serving/validation-results<br/>GET /layers/serving/match-results/*"| SERV
     C -->|"REST GET"| SERV
 
     FILES -->|"odczyt pliku"| AF

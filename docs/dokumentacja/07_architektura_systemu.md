@@ -119,7 +119,12 @@ Oracle działa jako demonstracyjny system dziedzinowy. FastAPI łączy się z ni
 
 Frontend React jest osobną aplikacją komunikującą się z FastAPI przez HTTP. W środowisku lokalnym działa przez serwer developerski Vite. W przygotowanym obrazie wdrożeniowym aplikacja jest budowana statycznie i serwowana przez Nginx.
 
-Obecny interfejs umożliwia wyłącznie sprawdzenie endpointu `/health`. Nie stanowi interfejsu biznesowego dla Golden Record.
+Aktualny frontend wykorzystuje endpointy odczytowe warstwy `serving`. Udostępnia dwa główne widoki:
+
+- tabelę wyników walidacji z filtrowaniem i paginacją,
+- tabelę kandydatów matchingu dla Levenshteina i Jaro-Winklera wraz z porównaniem szczegółów pary rekordów.
+
+Interfejs nie obsługuje jeszcze pełnego profilu Golden Record, ręcznej obsługi przypadków `REVIEW` ani operacji zapisu do pipeline'u. Nie jest więc pełnym interfejsem biznesowym systemu, ale przestał być już wyłącznie testem technicznego połączenia z API.
 
 ### Neo4j
 

@@ -494,7 +494,7 @@ Zakres:
 - zastosowana technologia,
 - architektura aktualnego frontendu,
 - komunikacja z backendem,
-- aktualna funkcja w branchu głównym,
+- aktualne widoki walidacji i matchingu,
 - zakres funkcji przygotowanych poza `main`,
 - miejsce frontendu w docelowym systemie,
 - ograniczenia obecnej integracji.
@@ -507,7 +507,11 @@ Realizacja w kodzie:
 
 - `frontend/src/App.jsx`,
 - `frontend/src/main.jsx`,
-- `frontend/src/styles.css`,
+- `frontend/src/api/serving.js`,
+- `frontend/src/features/validation/`,
+- `frontend/src/features/matching/`,
+- `frontend/src/components/ui/`,
+- `frontend/src/styles/`,
 - `frontend/package.json`.
 
 Uwaga:
