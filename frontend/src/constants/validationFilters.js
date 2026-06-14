@@ -11,7 +11,7 @@ const VALIDATION_STATUS_OPTIONS = [
 ]
 
 const VALIDATION_SEVERITY_OPTIONS = [
-  { value: '', label: 'Każda severity' },
+  { value: '', label: 'Każdy poziom' },
   { value: 'INFO', label: 'INFO' },
   { value: 'ERROR', label: 'ERROR' },
 ]

@@ -167,7 +167,7 @@ function ValidationView({ refreshToken }) {
         </label>
 
         <label>
-          Severity
+          Poziom
           <select
             value={filters.severity}
             onChange={(event) =>
