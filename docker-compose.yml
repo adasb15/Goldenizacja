@@ -36,14 +36,22 @@ services:
       - api
 
   airflow:
-    image: apache/airflow:3.2.2-python3.14
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    image: goldenizacja-airflow:3.2.2-python3.14
     container_name: goldenizacja-airflow
     user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW_HOME: /opt/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
       AIRFLOW__CORE__EXECUTOR: SequentialExecutor
-    command: airflow standalone
+      AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+      AIRFLOW__API__SECRET_KEY: "${AIRFLOW_API_SECRET_KEY:-goldenizacja-dev-airflow-api-secret-change-me}"
+      AIRFLOW__API_AUTH__JWT_SECRET: "${AIRFLOW_JWT_SECRET:-goldenizacja-dev-airflow-jwt-secret-change-me}"
+      AIRFLOW_USERNAME: "${AIRFLOW_USERNAME:-admin}"
+      AIRFLOW_PASSWORD: "${AIRFLOW_PASSWORD:-admin}"
+    entrypoint: ["/usr/local/bin/start-airflow"]
     ports:
       - "8080:8080"
     volumes:

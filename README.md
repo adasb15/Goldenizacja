@@ -44,6 +44,10 @@ Kluczowe zmienne:
 - `NEO4J_PASSWORD`
 - `CORS_ORIGINS` (domyślnie `http://localhost:5173`)
 - `AIRFLOW_UID`
+- `AIRFLOW_USERNAME`
+- `AIRFLOW_PASSWORD`
+- `AIRFLOW_API_SECRET_KEY`
+- `AIRFLOW_JWT_SECRET`
 
 Hasła do baz są wymagane z `.env` (nie ma fallbacku w kodzie).
 
@@ -157,13 +161,9 @@ Tam widać utworzone tabele, kolumny, klucze i indeksy. Jeśli lista tabel się 
 
 ## Airflow logowanie
 
-Airflow 3 jest uruchamiany poleceniem `airflow standalone`. Polecenie inicjalizuje lokalną bazę metadanych, uruchamia wymagane komponenty i przy pierwszym starcie wyświetla w logach dane dostępowe administratora.
+Obraz Airflow rozszerza oficjalny `apache/airflow:3.2.2-python3.14` o FAB Auth Manager. Podczas startu wykonywana jest migracja bazy metadanych, konto administratora jest tworzone albo otrzymuje hasło zgodne z `.env`, a następnie uruchamiane są komponenty API server, scheduler, DAG processor i triggerer.
 
-Logi zawierające dane dostępowe można sprawdzić poleceniem:
-
-```bash
-docker compose logs airflow
-```
+Domyślne dane logowania to `admin/admin`. Można je zmienić przez `AIRFLOW_USERNAME` i `AIRFLOW_PASSWORD`.
 
 ## Frontend
 

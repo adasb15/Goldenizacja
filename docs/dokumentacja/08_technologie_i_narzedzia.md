@@ -20,6 +20,7 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 | Oracle Database Free | obraz 23 slim faststart | demonstracyjne źródło relacyjne | używane jako źródło testowe |
 | python-oracledb | 4.0.1 | połączenie z Oracle bez klienta natywnego | używane przez import relacyjny |
 | Apache Airflow | 3.2.2, Python 3.14 | orkiestracja kolejnych etapów procesu | używane w głównym pipeline |
+| FAB Auth Manager | 3.6.5 | logowanie i zarządzanie kontami Airflow | używane przez interfejs Airflow |
 | RapidFuzz | 3.14.5 | Levenshtein i Jaro-Winkler | używane w matchingu |
 | python-stdnum | 2.2 | walidacja identyfikatorów | używane w walidacji |
 | email-validator | 2.3.0 | kontrola składni adresów e-mail | używane w walidacji |
@@ -41,7 +42,7 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 
 ### Python
 
-Backend i DAG Airflow działają na Pythonie 3.14. Obraz API bazuje na `python:3.14-slim`, a Airflow na `apache/airflow:3.2.2-python3.14`, dzięki czemu oba komponenty korzystają z tej samej wersji języka.
+Backend i DAG Airflow działają na Pythonie 3.14. Obraz API bazuje na `python:3.14-slim-bookworm`, zgodnym z repozytorium ODBC Driver 18 dla Debiana 12. Obraz Airflow rozszerza `apache/airflow:3.2.2-python3.14` o FAB Auth Manager.
 
 ### FastAPI i Uvicorn
 
@@ -69,7 +70,7 @@ Oracle Database Free 23 jest demonstracyjnym źródłem relacyjnym inicjalizowan
 
 ## Orkiestracja
 
-Apache Airflow wywołuje przez HTTP kolejne operacje FastAPI. Lokalnie używa `SequentialExecutor`, a DAG jest uruchamiany ręcznie. Szczegóły przepływu i parametrów opisano w rozdziale 10.
+Apache Airflow wywołuje przez HTTP kolejne operacje FastAPI. Lokalnie używa `SequentialExecutor`, a API server, scheduler, DAG processor i triggerer działają w jednym kontenerze. FAB Auth Manager zapewnia logowanie kontem administratora skonfigurowanym przez zmienne środowiskowe. Szczegóły przepływu i parametrów opisano w rozdziale 10.
 
 ## Biblioteki przetwarzania danych
 
@@ -121,6 +122,7 @@ Skrypty w katalogu `scripts` inicjalizują bazy i wspierają przygotowanie danyc
 | Zależności frontendowe | `frontend/package.json`, `frontend/package-lock.json` |
 | Obraz backendu | `Dockerfile` |
 | Obraz frontendu | `frontend/Dockerfile` |
+| Obraz i inicjalizacja Airflow | `airflow/Dockerfile`, `airflow/start-airflow.sh` |
 | Środowisko lokalne | `docker-compose.yml` |
 | Konfiguracja backendu | `app/core/config.py` |
 | Połączenie SQL Server | `app/db/sql.py` |
