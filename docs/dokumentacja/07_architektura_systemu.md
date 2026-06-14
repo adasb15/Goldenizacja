@@ -172,7 +172,7 @@ API oczekuje na poprawne uruchomienie SQL Servera, Oracle i Neo4j. Zależność 
 
 Wolumeny zapewniają trwałość baz danych, logów Neo4j, środowiska Airflow i pomocniczych plików aplikacji. Katalog `data` jest montowany do kontenera Airflow tylko do odczytu.
 
-Środowisko Docker Compose jest środowiskiem developerskim. API i frontend pracują w trybie umożliwiającym szybkie przeładowanie zmian, a Airflow używa `SequentialExecutor`.
+Środowisko Docker Compose jest środowiskiem developerskim. API i frontend pracują w trybie umożliwiającym szybkie przeładowanie zmian, a Airflow używa własnego obrazu z `apache/airflow:3.2.2-python3.14`, menedżera uwierzytelniania FAB oraz uruchamia w jednym kontenerze procesy `api-server`, `scheduler`, `dag-processor` i `triggerer`. Lokalny executor pozostaje `SequentialExecutor`.
 
 ## Przygotowane zasoby OpenShift
 
@@ -186,9 +186,9 @@ Katalog `openshift` zawiera manifesty:
 - Deployment i Service dla frontendu,
 - Deployment i Service dla Airflow,
 - Route dla usług udostępnianych przez HTTP,
-- ConfigMap zawierającą DAG.
+- ConfigMap zawierającą przykładowy DAG.
 
-Manifesty nie zostały przetestowane na docelowym klastrze. Nie obejmują także usługi Oracle używanej w aktualnym środowisku Docker Compose. Zawierają wartości wymagające zastąpienia dla konkretnego projektu i tras klastra. Stanowią więc podstawę wdrożenia, ale nie są potwierdzonym odwzorowaniem działającego środowiska lokalnego.
+Manifesty nie zostały przetestowane na docelowym klastrze. Nie obejmują także usługi Oracle używanej w aktualnym środowisku Docker Compose. Konfiguracja Airflow w OpenShift zawiera jedynie przykładowy DAG `goldenizacja_example`, a nie właściwy pipeline `goldenizacja_pipeline`. Zawierają również wartości wymagające zastąpienia dla konkretnego projektu i tras klastra. Stanowią więc podstawę wdrożenia, ale nie są potwierdzonym odwzorowaniem działającego środowiska lokalnego.
 
 OpenShift nie jest uwzględniany jako część potwierdzonej ścieżki wykonania systemu. Szczegółowy opis manifestów i rozbieżności zostanie przedstawiony w rozdziale dotyczącym wdrożenia.
 

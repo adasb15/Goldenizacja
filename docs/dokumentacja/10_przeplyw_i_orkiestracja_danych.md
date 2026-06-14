@@ -191,6 +191,12 @@ Matching Levenshteina, Jaro-Winklera i grupowanie nie tworzą oddzielnych wpisó
 
 Repozytoria wykonują zatwierdzenia po utworzeniu logów oraz po zapisaniu wyników etapów. W razie błędu serwis wycofuje bieżącą transakcję i, jeżeli log został już utworzony, kończy go statusem `FAILED`.
 
+Etap GOLD nie działa jako jedna wspólna transakcja dla całego przebiegu `golden_load`. Implementacja zapisuje wynik osobno dla kolejnych grup encji. Oznacza to, że:
+
+- grupy przetworzone przed błędem pozostają zapisane,
+- błąd zatrzymuje dalsze grupy i oznacza krok jako `FAILED`,
+- ponowne uruchomienie opiera się na logice `create or update`, więc nie wymaga ręcznego czyszczenia już zapisanych wymiarów.
+
 Powtarzalność operacji zależy od etapu:
 
 | Etap | Zachowanie przy ponownym uruchomieniu |
@@ -256,4 +262,4 @@ Nie uniemożliwia to wykonania pełnego procesu. Właściwości te wpływają pr
 | TERYT i walidacja | `app/layers/validation/api.py`, `service.py`, `repository.py` |
 | matching, grupowanie i GOLD | `app/layers/integration_golden/api.py`, `service.py`, `repository.py` |
 | modele statusów i logów | `app/layers/ingestion/models.py` |
-| konfiguracja Airflow | `docker-compose.yml` |
+| konfiguracja Airflow | `docker-compose.yml`, `airflow/Dockerfile`, `airflow/start-airflow.sh` |

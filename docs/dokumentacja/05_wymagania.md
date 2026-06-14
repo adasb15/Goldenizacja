@@ -170,7 +170,7 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 | N-04 | Lokalne środowisko kontenerowe | Zrealizowane | `docker-compose.yml`, obrazy aplikacji i trwałe wolumeny | Dotyczy środowiska developerskiego |
 | N-05 | Wdrożenie OpenShift | Przygotowane, niezweryfikowane | Manifesty w katalogu `openshift/` | Nie zostały przetestowane na docelowym klastrze; zestaw nie odzwierciedla w pełni aktualnego Compose |
 | N-06 | Bezpieczeństwo dostępu do API | Niezrealizowane | Konfiguracja i sekrety są oddzielone od kodu, ale brak mechanizmu użytkowników i uprawnień | Brak uwierzytelniania i autoryzacji |
-| N-07 | Testy funkcjonalne | Zrealizowane w kodzie testów | Katalog `tests/` obejmuje główne reguły biznesowe | Wynik całego zestawu zostanie potwierdzony przed finalizacją dokumentacji |
+| N-07 | Testy funkcjonalne | Zrealizowane w kodzie testów | Katalog `tests/` obejmuje główne reguły biznesowe | W repozytorium znajduje się 143 testów jednostkowych i integracyjnych |
 | N-08 | Testy wydajnościowe | Niezrealizowane | Brak scenariuszy obciążeniowych i pomiarów | Istnieje jedynie limit bezpieczeństwa liczby par matchingu |
 | N-09 | Diagnostyka i obsługa błędów | Zrealizowane | Wyjątki warstw, odpowiedzi HTTP 400/500, `ProcessLog` | Zakres logowania zależy od etapu procesu |
 
