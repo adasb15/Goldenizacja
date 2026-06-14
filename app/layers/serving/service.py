@@ -170,6 +170,8 @@ def list_validation_results(
     entity_type: str | None = None,
     source_system_code: str | None = None,
     rule_code: str | None = None,
+    status: str | None = None,
+    severity: str | None = None,
     limit: int = 50,
     offset: int = 0,
     repo: ServingRepository | None = None,
@@ -179,6 +181,8 @@ def list_validation_results(
         entity_type=entity_type,
         source_system_code=source_system_code,
         rule_code=rule_code,
+        status=status,
+        severity=severity,
         limit=limit,
         offset=offset,
     )
@@ -204,8 +208,21 @@ def list_levenshtein_candidates(
         limit=limit,
         offset=offset,
     )
+    second_stage_pairs = repo.get_jaro_winkler_pair_keys(rows)
     return MatchCandidateListResponse(
-        items=[_levenshtein_candidate(row, repo) for row in rows],
+        items=[
+            _levenshtein_candidate(
+                row,
+                repo,
+                passed_to_second_stage=(
+                    row.Entity_Type,
+                    int(row.Left_Preprocessed_ID),
+                    int(row.Right_Preprocessed_ID),
+                )
+                in second_stage_pairs,
+            )
+            for row in rows
+        ],
         page=PageMeta(limit=limit, offset=offset, total=total),
     )
 
@@ -426,6 +443,8 @@ def _validation_result(result: Any, source_system: Any) -> ValidationResultRespo
 def _levenshtein_candidate(
     candidate: MatchCandidateRecord,
     repo: ServingRepository,
+    *,
+    passed_to_second_stage: bool = False,
 ) -> MatchCandidateListItem:
     return MatchCandidateListItem(
         candidate_id=candidate.Match_Candidate_Levenshtein_ID,
@@ -443,6 +462,7 @@ def _levenshtein_candidate(
         decision=candidate.Decision,
         strong_match_fields=repo.parse_json_list(candidate.Strong_Match_Fields_JSON),
         conflict_fields=repo.parse_json_list(candidate.Conflict_Fields_JSON),
+        passed_to_second_stage=passed_to_second_stage,
         created_at=candidate.Created_At,
     )
 
@@ -469,5 +489,6 @@ def _jaro_winkler_candidate(
         strong_match_fields=repo.parse_json_list(candidate.Strong_Match_Fields_JSON),
         conflict_fields=repo.parse_json_list(candidate.Conflict_Fields_JSON),
         text_match_fields=repo.parse_json_list(candidate.Text_Match_Fields_JSON),
+        passed_to_second_stage=True,
         created_at=candidate.Created_At,
     )
