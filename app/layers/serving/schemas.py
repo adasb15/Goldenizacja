@@ -166,6 +166,7 @@ class MatchCandidateListItem(BaseModel):
     strong_match_fields: list[str]
     conflict_fields: list[str]
     text_match_fields: list[str] = Field(default_factory=list)
+    passed_to_second_stage: bool = False
     created_at: datetime | None = None
 
 

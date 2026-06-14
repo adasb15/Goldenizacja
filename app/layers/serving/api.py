@@ -194,6 +194,8 @@ def validation_results(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
     source_system_code: str | None = Query(default=None, description="Kod systemu źródłowego, np. KRS."),
     rule_code: str | None = Query(default=None, description="Kod reguły walidacyjnej."),
+    status: str | None = Query(default=None, description="Opcjonalny status walidacji, np. PASS albo ERROR."),
+    severity: str | None = Query(default=None, description="Opcjonalna severity reguły, np. INFO albo ERROR."),
     limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
     offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
     db: Session = Depends(get_db),
@@ -204,6 +206,8 @@ def validation_results(
             entity_type=entity_type,
             source_system_code=source_system_code,
             rule_code=rule_code,
+            status=status,
+            severity=severity,
             limit=limit,
             offset=offset,
         )
