@@ -46,6 +46,8 @@ Kluczowe zmienne:
 - `AIRFLOW_UID`
 - `AIRFLOW_USERNAME`
 - `AIRFLOW_PASSWORD`
+- `AIRFLOW_API_SECRET_KEY`
+- `AIRFLOW_JWT_SECRET`
 
 Hasła do baz są wymagane z `.env` (nie ma fallbacku w kodzie).
 
@@ -159,17 +161,9 @@ Tam widać utworzone tabele, kolumny, klucze i indeksy. Jeśli lista tabel się 
 
 ## Airflow logowanie
 
-Airflow startuje z komendą, która:
-1. robi migrację DB,
-2. tworzy użytkownika admin z `.env`,
-3. jeśli user już istnieje, resetuje mu hasło,
-4. uruchamia `airflow standalone`.
+Obraz Airflow rozszerza oficjalny `apache/airflow:3.2.2-python3.14` o FAB Auth Manager. Podczas startu wykonywana jest migracja bazy metadanych, konto administratora jest tworzone albo otrzymuje hasło zgodne z `.env`, a następnie uruchamiane są komponenty API server, scheduler, DAG processor i triggerer.
 
-Czyli logujesz się danymi:
-- `AIRFLOW_USERNAME`
-- `AIRFLOW_PASSWORD`
-
-(domyślnie: `admin/admin`).
+Domyślne dane logowania to `admin/admin`. Można je zmienić przez `AIRFLOW_USERNAME` i `AIRFLOW_PASSWORD`.
 
 ## Frontend
 

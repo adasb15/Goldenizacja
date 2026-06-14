@@ -990,14 +990,18 @@ def golden_load_dimensions(
             groups = list(repo.get_entity_groups_for_raw_file(entity_type, int(raw_file_id)))
         else:
             groups = list(repo.get_entity_groups(entity_type))
+        group_ids = [
+            get_int_record_value(group, "Entity_Group_ID")
+            for group in groups
+        ]
         if entity_group_id is not None:
-            groups = [
-                group
-                for group in groups
-                if get_int_record_value(group, "Entity_Group_ID") == int(entity_group_id)
+            group_ids = [
+                group_id
+                for group_id in group_ids
+                if group_id == int(entity_group_id)
             ]
-        groups_in_scope = len(groups)
-        if not groups:
+        groups_in_scope = len(group_ids)
+        if not group_ids:
             scope = (
                 f"Entity_Group_ID={entity_group_id}"
                 if entity_group_id is not None
@@ -1011,8 +1015,7 @@ def golden_load_dimensions(
 
         results: list[GoldenDimensionLoadResult] = []
         rejects: list[GoldenRecordRejectResult] = []
-        for group in groups:
-            current_group_id = get_int_record_value(group, "Entity_Group_ID")
+        for current_group_id in group_ids:
             if entity_type == "PERSON":
                 results.append(
                     create_or_update_golden_person(

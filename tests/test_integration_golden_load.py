@@ -176,6 +176,48 @@ class GoldenLoadRepo:
 
 
 class GoldenLoadServiceTests(unittest.TestCase):
+    def test_golden_load_copies_group_ids_before_commits_expire_group_records(self) -> None:
+        class ExpiringGroup:
+            def __init__(self, group_id: int) -> None:
+                self.group_id = group_id
+                self.expired = False
+
+            @property
+            def Entity_Group_ID(self) -> int:
+                if self.expired:
+                    raise RuntimeError("group record expired")
+                return self.group_id
+
+        groups = [ExpiringGroup(1), ExpiringGroup(2)]
+        repo = GoldenLoadRepo("PERSON", [])
+        repo.groups = groups
+
+        def load_group(*, entity_group_id: int, **_kwargs):
+            for group in groups:
+                group.expired = True
+            return GoldenDimensionLoadResult(
+                entity_type="PERSON",
+                entity_group_id=entity_group_id,
+                member_preprocessed_ids=(),
+                dimension_id=entity_group_id,
+                dimension_action="CREATED",
+                address_id=None,
+                address_action="SKIPPED",
+                address_link_action="SKIPPED",
+            )
+
+        with patch(
+            "app.layers.integration_golden.service.create_or_update_golden_person",
+            side_effect=load_group,
+        ):
+            result = golden_load_dimensions(db=None, entity_type="PERSON", repo=repo)
+
+        self.assertEqual(result.groups_in_scope, 2)
+        self.assertEqual(
+            [item.entity_group_id for item in result.results],
+            [1, 2],
+        )
+
     def test_golden_load_dimensions_person_processes_group(self) -> None:
         records = [
             SimpleNamespace(
