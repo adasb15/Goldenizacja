@@ -85,8 +85,22 @@ function MatchingComparisonPanel({ comparison, onClose }) {
             <h2>Szczegóły porównania rekordów</h2>
           </div>
 
-          <button type="button" className="button button--secondary" onClick={onClose}>
-            Zamknij
+          <button
+            type="button"
+            className="modal-close"
+            onClick={onClose}
+            aria-label="Zamknij porównanie"
+            title="Zamknij"
+          >
+            <svg
+              className="modal-close__icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M7 7L17 17" />
+              <path d="M17 7L7 17" />
+            </svg>
           </button>
         </div>
 

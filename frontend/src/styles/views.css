@@ -257,10 +257,61 @@ body.modal-open {
 }
 
 .comparison-modal {
+  position: relative;
   width: min(1180px, 100%);
   max-height: min(88vh, 920px);
   overflow: hidden;
   margin-top: 0;
+}
+
+.comparison-modal .comparison__header {
+  padding-right: 56px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(19, 34, 56, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #425065;
+  box-shadow: 0 8px 20px rgba(19, 34, 56, 0.08);
+  backdrop-filter: blur(10px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease,
+    box-shadow 140ms ease,
+    transform 140ms ease;
+}
+
+.modal-close__icon {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.modal-close:hover {
+  background: #ffffff;
+  border-color: rgba(19, 34, 56, 0.16);
+  color: #132238;
+  box-shadow: 0 10px 24px rgba(19, 34, 56, 0.12);
+  transform: translateY(-1px);
+}
+
+.modal-close:focus-visible {
+  outline: 2px solid rgba(15, 132, 122, 0.24);
+  outline-offset: 2px;
 }
 
 .comparison-modal__table {
@@ -280,6 +331,11 @@ body.modal-open {
   .comparison-modal {
     width: 100%;
     max-height: 92vh;
+  }
+
+  .modal-close {
+    top: 12px;
+    right: 12px;
   }
 
   .comparison-modal__table {
