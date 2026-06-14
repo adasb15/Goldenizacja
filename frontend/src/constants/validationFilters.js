@@ -5,13 +5,13 @@ const VALIDATION_ENTITY_OPTIONS = [
 ]
 
 const VALIDATION_STATUS_OPTIONS = [
-  { value: '', label: 'Kazdy status' },
+  { value: '', label: 'Każdy status' },
   { value: 'PASS', label: 'PASS' },
   { value: 'ERROR', label: 'ERROR' },
 ]
 
 const VALIDATION_SEVERITY_OPTIONS = [
-  { value: '', label: 'Kazda severity' },
+  { value: '', label: 'Każda severity' },
   { value: 'INFO', label: 'INFO' },
   { value: 'ERROR', label: 'ERROR' },
 ]

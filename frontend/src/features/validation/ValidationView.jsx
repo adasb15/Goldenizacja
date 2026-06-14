@@ -92,16 +92,16 @@ function ValidationView({ refreshToken }) {
       <div className="section-header">
         <div>
           <p className="eyebrow">Validation results</p>
-          <h2>Tabela wynikow walidacji</h2>
+          <h2>Tabela wyników walidacji</h2>
         </div>
         <span className="section-meta">
-          {page.total} rekordow, zakres {currentFrom}-{currentTo}
+          {page.total} rekordów, zakres {currentFrom}-{currentTo}
         </span>
       </div>
 
       <form className="filters" onSubmit={submitFilters}>
         <label>
-          Zrodlo
+          Źródło
           <input
             value={filters.source_system_code}
             onChange={(event) =>
@@ -134,7 +134,7 @@ function ValidationView({ refreshToken }) {
         </label>
 
         <label>
-          Kod bledu
+          Kod błędu
           <input
             value={filters.rule_code}
             onChange={(event) =>
@@ -191,7 +191,7 @@ function ValidationView({ refreshToken }) {
       </form>
 
       {state.status === 'error' ? (
-        <div className="banner banner--danger">Blad pobierania walidacji: {state.error}</div>
+        <div className="banner banner--danger">Błąd pobierania walidacji: {state.error}</div>
       ) : null}
 
       <div className="table-wrap">
@@ -199,13 +199,13 @@ function ValidationView({ refreshToken }) {
           <thead>
             <tr>
               <th>ID</th>
-              <th>Zrodlo</th>
+              <th>Źródło</th>
               <th>Encja</th>
-              <th>Regula</th>
+              <th>Reguła</th>
               <th>Pole</th>
               <th>Status</th>
-              <th>Severity</th>
-              <th>Checked value</th>
+              <th>Poziom</th>
+              <th>Sprawdzana wartość</th>
               <th>Komunikat</th>
               <th>Utworzono</th>
             </tr>
@@ -214,7 +214,7 @@ function ValidationView({ refreshToken }) {
             {state.status === 'loading' ? (
               <tr>
                 <td colSpan="10" className="table-state">
-                  Ladowanie wynikow walidacji...
+                  Ładowanie wyników walidacji...
                 </td>
               </tr>
             ) : null}
@@ -222,7 +222,7 @@ function ValidationView({ refreshToken }) {
             {state.status !== 'loading' && state.data.items.length === 0 ? (
               <tr>
                 <td colSpan="10" className="table-state">
-                  Brak wynikow dla podanych filtrow.
+                  Brak wyników dla podanych filtrów.
                 </td>
               </tr>
             ) : null}

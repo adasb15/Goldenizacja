@@ -148,7 +148,7 @@ function MatchingView({ refreshToken }) {
           <h2>Widok matchingu</h2>
         </div>
         <span className="section-meta">
-          {page.total} rekordow, zakres {currentFrom}-{currentTo}
+          {page.total} rekordów, zakres {currentFrom}-{currentTo}
         </span>
       </div>
 
@@ -166,7 +166,7 @@ function MatchingView({ refreshToken }) {
       </div>
 
       {state.status === 'error' ? (
-        <div className="banner banner--danger">Blad pobierania matchingu: {state.error}</div>
+        <div className="banner banner--danger">Błąd pobierania matchingu: {state.error}</div>
       ) : null}
 
       <div className="table-wrap">
@@ -181,7 +181,7 @@ function MatchingView({ refreshToken }) {
               <th>Pola konfliktowe</th>
               <th>Drugie sito</th>
               <th>Pola tekstowe</th>
-              <th>Para rekordow</th>
+              <th>Para rekordów</th>
               <th>Utworzono</th>
               <th></th>
             </tr>
@@ -190,7 +190,7 @@ function MatchingView({ refreshToken }) {
             {state.status === 'loading' ? (
               <tr>
                 <td colSpan="11" className="table-state">
-                  Ladowanie wynikow matchingu...
+                  Ładowanie wyników matchingu...
                 </td>
               </tr>
             ) : null}
@@ -198,7 +198,7 @@ function MatchingView({ refreshToken }) {
             {state.status !== 'loading' && state.data.items.length === 0 ? (
               <tr>
                 <td colSpan="11" className="table-state">
-                  Brak wynikow matchingu.
+                  Brak wyników matchingu.
                 </td>
               </tr>
             ) : null}
@@ -237,7 +237,7 @@ function MatchingView({ refreshToken }) {
                     className="button button--secondary"
                     onClick={() => openComparison(item)}
                   >
-                    Porownaj
+                    Porównaj
                   </button>
                 </td>
               </tr>

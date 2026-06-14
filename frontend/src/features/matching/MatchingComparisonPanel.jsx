@@ -82,7 +82,7 @@ function MatchingComparisonPanel({ comparison, onClose }) {
         <div className="comparison__header">
           <div>
             <p className="eyebrow">Record comparison</p>
-            <h2>Szczegoly porownania rekordow</h2>
+            <h2>Szczegóły porównania rekordów</h2>
           </div>
 
           <button type="button" className="button button--secondary" onClick={onClose}>
@@ -91,11 +91,11 @@ function MatchingComparisonPanel({ comparison, onClose }) {
         </div>
 
         {comparison.status === 'loading' ? (
-          <div className="banner">Ladowanie szczegolow porownania...</div>
+          <div className="banner">Ładowanie szczegółów porównania...</div>
         ) : null}
 
         {comparison.status === 'error' ? (
-          <div className="banner banner--danger">Blad porownania: {comparison.error}</div>
+          <div className="banner banner--danger">Błąd porównania: {comparison.error}</div>
         ) : null}
 
         {comparison.data ? (
@@ -119,9 +119,9 @@ function MatchingComparisonPanel({ comparison, onClose }) {
                 <thead>
                   <tr>
                     <th>Pole</th>
-                    <th>Lewa wartosc</th>
-                    <th>Prawa wartosc</th>
-                    <th>Porownanie</th>
+                    <th>Lewa wartość</th>
+                    <th>Prawa wartość</th>
+                    <th>Porównanie</th>
                     <th>Kategoria</th>
                   </tr>
                 </thead>
@@ -132,7 +132,7 @@ function MatchingComparisonPanel({ comparison, onClose }) {
                       <td className="cell-break">{formatValue(row.leftValue)}</td>
                       <td className="cell-break">{formatValue(row.rightValue)}</td>
                       <td>
-                        <StatusBadge value={row.same ? 'ZGODNE' : 'ROZNICA'} />
+                        <StatusBadge value={row.same ? 'ZGODNE' : 'RÓŻNICA'} />
                       </td>
                       <td>
                         {row.category ? (

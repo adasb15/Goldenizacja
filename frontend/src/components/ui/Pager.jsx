@@ -15,7 +15,7 @@ function Pager({ page, onPrev, onNext }) {
           Poprzednia
         </button>
         <button type="button" className="button button--secondary" onClick={onNext} disabled={!canNext}>
-          Nastepna
+          Następna
         </button>
       </div>
     </div>

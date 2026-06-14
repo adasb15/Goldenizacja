@@ -15,8 +15,8 @@ export default function App() {
   const heroTitle = activeView === 'validation' ? 'Widok walidacji' : 'Widok matchingu'
   const heroCopy =
     activeView === 'validation'
-      ? 'Tabela wynikow walidacji oparta o endpoint warstwy serving.'
-      : 'Tabela kandydatow matchingu oparta o endpointy Levenshtein i Jaro-Winkler.'
+      ? 'Tabela wyników walidacji oparta o endpoint warstwy serving.'
+      : 'Tabela kandydatów matchingu oparta o endpointy Levenshtein i Jaro-Winkler.'
 
   return (
     <main className="app-shell">
@@ -34,7 +34,7 @@ export default function App() {
           </div>
 
           <button type="button" className="button" onClick={refreshData}>
-            Odswiez dane
+            Odśwież dane
           </button>
         </div>
       </section>
