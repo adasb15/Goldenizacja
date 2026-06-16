@@ -42,6 +42,14 @@ function getGoldenRecords(params) {
   return fetchJson('/layers/serving/golden-records', params)
 }
 
+function getPersonDetail(personId) {
+  return fetchJson(`/layers/serving/persons/${personId}`)
+}
+
+function getPartyDetail(partyId) {
+  return fetchJson(`/layers/serving/parties/${partyId}`)
+}
+
 function getMatchResults({ algorithm, ...params }) {
   return fetchJson(`/layers/serving/match-results/${algorithm}`, params)
 }
@@ -50,4 +58,12 @@ function getMatchComparison(params) {
   return fetchJson('/layers/serving/match-results/comparison', params)
 }
 
-export { API_URL, getGoldenRecords, getValidationResults, getMatchResults, getMatchComparison }
+export {
+  API_URL,
+  getGoldenRecords,
+  getPersonDetail,
+  getPartyDetail,
+  getValidationResults,
+  getMatchResults,
+  getMatchComparison,
+}

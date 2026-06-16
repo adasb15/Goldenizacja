@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { getGoldenRecords } from '../../api/serving'
+import { getGoldenRecords, getPartyDetail, getPersonDetail } from '../../api/serving'
 import { Pager } from '../../components/ui/Pager'
 import {
   EMPTY_GOLDEN_RECORDS_PAGE,
@@ -8,6 +8,7 @@ import {
   GOLDEN_RECORDS_LIMIT,
 } from '../../constants/goldenRecords'
 import { formatDateTime, formatValue } from '../../utils/formatters'
+import { GoldenRecordDetailModal } from './GoldenRecordDetailModal'
 
 function GoldenRecordsView({ refreshToken }) {
   const [filters, setFilters] = useState({ search: '', entity_type: '' })
@@ -16,6 +17,14 @@ function GoldenRecordsView({ refreshToken }) {
     status: 'idle',
     data: EMPTY_GOLDEN_RECORDS_PAGE,
     error: '',
+  })
+  const [detail, setDetail] = useState({
+    open: false,
+    status: 'idle',
+    data: null,
+    error: '',
+    entityType: '',
+    recordId: null,
   })
 
   useEffect(() => {
@@ -72,6 +81,53 @@ function GoldenRecordsView({ refreshToken }) {
   function clearFilters() {
     setFilters({ search: '', entity_type: '' })
     setQuery({ search: '', entity_type: '', offset: 0 })
+  }
+
+  async function openDetail(record) {
+    setDetail({
+      open: true,
+      status: 'loading',
+      data: null,
+      error: '',
+      entityType: record.entity_type,
+      recordId: record.record_id,
+    })
+
+    try {
+      const data =
+        record.entity_type === 'PERSON'
+          ? await getPersonDetail(record.record_id)
+          : await getPartyDetail(record.record_id)
+
+      setDetail({
+        open: true,
+        status: 'success',
+        data,
+        error: '',
+        entityType: record.entity_type,
+        recordId: record.record_id,
+      })
+    } catch (error) {
+      setDetail({
+        open: true,
+        status: 'error',
+        data: null,
+        error: String(error.message || error),
+        entityType: record.entity_type,
+        recordId: record.record_id,
+      })
+    }
+  }
+
+  function closeDetail() {
+    setDetail({
+      open: false,
+      status: 'idle',
+      data: null,
+      error: '',
+      entityType: '',
+      recordId: null,
+    })
   }
 
   const page = state.data.page || EMPTY_GOLDEN_RECORDS_PAGE.page
@@ -147,12 +203,13 @@ function GoldenRecordsView({ refreshToken }) {
               <th>Główny identyfikator</th>
               <th>Utworzono</th>
               <th>Zaktualizowano</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {state.status === 'loading' ? (
               <tr>
-                <td colSpan="6" className="table-state">
+                <td colSpan="7" className="table-state">
                   Ładowanie golden rekordów...
                 </td>
               </tr>
@@ -160,7 +217,7 @@ function GoldenRecordsView({ refreshToken }) {
 
             {state.status !== 'loading' && state.data.items.length === 0 ? (
               <tr>
-                <td colSpan="6" className="table-state">
+                <td colSpan="7" className="table-state">
                   Brak golden rekordów.
                 </td>
               </tr>
@@ -174,6 +231,11 @@ function GoldenRecordsView({ refreshToken }) {
                 <td>{formatValue(item.primary_identifier)}</td>
                 <td>{formatDateTime(item.created_at)}</td>
                 <td>{formatDateTime(item.updated_at)}</td>
+                <td>
+                  <button type="button" className="button button--secondary" onClick={() => openDetail(item)}>
+                    Szczegóły
+                  </button>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -181,6 +243,8 @@ function GoldenRecordsView({ refreshToken }) {
       </div>
 
       <Pager page={page} onPrev={() => changePage(-1)} onNext={() => changePage(1)} />
+
+      {detail.open ? <GoldenRecordDetailModal detail={detail} onClose={closeDetail} /> : null}
     </section>
   )
 }

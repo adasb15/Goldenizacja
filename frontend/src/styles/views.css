@@ -319,8 +319,65 @@ body.modal-open {
   overflow: auto;
 }
 
+.detail-modal {
+  width: min(1240px, 100%);
+}
+
+.detail-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.detail-card {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(247, 250, 252, 0.92);
+  border: 1px solid rgba(19, 34, 56, 0.08);
+}
+
+.detail-card span {
+  color: #516072;
+  font-size: 0.84rem;
+}
+
+.detail-card strong {
+  color: #132238;
+  font-size: 0.98rem;
+  word-break: break-word;
+}
+
+.detail-section {
+  display: grid;
+  gap: 12px;
+}
+
+.detail-section__header {
+  margin-bottom: 0;
+}
+
+.detail-section__header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.detail-table table {
+  min-width: 820px;
+}
+
 @media (max-width: 640px) {
   .comparison-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-grid {
     grid-template-columns: 1fr;
   }
 
