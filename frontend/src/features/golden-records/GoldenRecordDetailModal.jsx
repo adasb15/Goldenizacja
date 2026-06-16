@@ -1,5 +1,6 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
+import { getChangeHistory, getLineage } from '../../api/serving'
 import { StatusBadge } from '../../components/ui/StatusBadge'
 import { formatDate, formatDateTime, formatValue } from '../../utils/formatters'
 
@@ -49,6 +50,43 @@ const ADDRESS_SOURCE_FIELDS = [
   ['Do', 'valid_to', 'date'],
 ]
 
+const ATTRIBUTE_LABELS = {
+  PESEL: 'PESEL',
+  Serial_Number_ID_Card: 'Numer dowodu',
+  Serial_Number_Passport: 'Numer paszportu',
+  First_Name: 'Imię',
+  Second_Name: 'Drugie imię',
+  Last_Name: 'Nazwisko',
+  Family_Name: 'Nazwisko rodowe',
+  Birth_Date: 'Data urodzenia',
+  Place_Of_Birth: 'Miejsce urodzenia',
+  Sex: 'Płeć',
+  Citizenship: 'Obywatelstwo',
+  Phone_Number: 'Telefon',
+  Email_Address: 'E-mail',
+  Created_At: 'Utworzono',
+  Updated_At: 'Zaktualizowano',
+  Name: 'Nazwa',
+  Short_Name: 'Nazwa skrócona',
+  Legal_Entity_Type: 'Typ podmiotu',
+  Registration_Country: 'Kraj rejestracji',
+  Establishment_Date: 'Data założenia',
+  Street: 'Ulica',
+  Building_Number: 'Nr budynku',
+  Apartment_Number: 'Nr lokalu',
+  City: 'Miasto',
+  Postal_City: 'Miejscowość pocztowa',
+  Postal_Code: 'Kod pocztowy',
+  District: 'Powiat',
+  Province: 'Województwo',
+  Country: 'Kraj',
+}
+
+const ENTITY_TYPE_LABELS = {
+  PERSON: 'Osoba',
+  PARTY: 'Podmiot',
+}
+
 function formatFieldValue(value, type) {
   if (type === 'datetime') {
     return formatDateTime(value)
@@ -79,6 +117,22 @@ function formatSource(provenance) {
   return provenance.source_record_id
     ? `${provenance.source_system_code} (${provenance.source_record_id})`
     : provenance.source_system_code
+}
+
+function formatAttributeName(value) {
+  if (!value) {
+    return '-'
+  }
+
+  return ATTRIBUTE_LABELS[value] || String(value)
+}
+
+function formatEntityType(value) {
+  if (!value) {
+    return '-'
+  }
+
+  return ENTITY_TYPE_LABELS[value] || String(value)
 }
 
 function DetailGrid({ rows, data }) {
@@ -112,7 +166,7 @@ function PersonIdentifierTable({ data }) {
               <td>{label}</td>
               <td>{formatValue(data?.[key])}</td>
               <td className="cell-break">{formatSource(data?.provenance?.[key])}</td>
-              <td className="cell-break">{data?.provenance?.[key]?.selection_rule || '-'}</td>
+              <td className="cell-nowrap">{data?.provenance?.[key]?.selection_rule || '-'}</td>
             </tr>
           ))}
         </tbody>
@@ -196,7 +250,7 @@ function AddressSourceTable({ addresses }) {
               <td>{row.label}</td>
               <td className="cell-break">{row.value}</td>
               <td className="cell-break">{formatSource(row.provenance)}</td>
-              <td className="cell-break">{row.provenance?.selection_rule || '-'}</td>
+              <td className="cell-nowrap">{row.provenance?.selection_rule || '-'}</td>
             </tr>
           ))}
         </tbody>
@@ -230,9 +284,7 @@ function IdentityTable({ identities }) {
               <td className="cell-break">{identity.identity_value}</td>
               <td>
                 <StatusBadge
-                  value={
-                    identity.is_valid === true ? 'POPRAWNY' : identity.is_valid === false ? 'BŁĘDNY' : 'BRAK'
-                  }
+                  value={identity.is_valid === true ? 'POPRAWNY' : identity.is_valid === false ? 'BŁĘDNY' : 'BRAK'}
                 />
               </td>
               <td>{formatValue(identity.match_confidence)}</td>
@@ -246,7 +298,113 @@ function IdentityTable({ identities }) {
   )
 }
 
+function LineageTab({ lineage }) {
+  if (lineage.status === 'loading') {
+    return <div className="banner">Ładowanie pochodzenia rekordu...</div>
+  }
+
+  if (lineage.status === 'error') {
+    return <div className="banner banner--danger">Błąd pobierania pochodzenia rekordu: {lineage.error}</div>
+  }
+
+  const items = lineage.data?.items ?? []
+
+  if (items.length === 0) {
+    return <div className="banner">Brak wpisów pochodzenia dla tego rekordu.</div>
+  }
+
+  return (
+    <div className="table-wrap detail-table">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Typ</th>
+            <th>Atrybut</th>
+            <th>System źródłowy</th>
+            <th>ID rekordu źródłowego</th>
+            <th>Partia importu</th>
+            <th>Reguła selekcji</th>
+            <th>Ocena zaufania</th>
+            <th>Ocena jakości</th>
+            <th>Status walidacji</th>
+            <th>Zarejestrowano</th>
+          </tr>
+        </thead>
+        <tbody>
+          {items.map((item) => (
+            <tr key={item.lineage_id}>
+              <td>{item.lineage_id}</td>
+              <td>{formatEntityType(item.lineage_type)}</td>
+              <td className="cell-break">{formatAttributeName(item.attribute_name)}</td>
+              <td>{formatValue(item.source_system_code)}</td>
+              <td className="cell-break">{formatValue(item.source_record_id)}</td>
+              <td>{item.import_batch_id}</td>
+              <td className="cell-nowrap">{formatValue(item.selection_rule)}</td>
+              <td>{formatValue(item.trust_score)}</td>
+              <td>{formatValue(item.quality_score)}</td>
+              <td>{formatValue(item.validation_status)}</td>
+              <td>{formatDateTime(item.recorded_at)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function HistoryTab({ history }) {
+  if (history.status === 'loading') {
+    return <div className="banner">Ładowanie historii zmian...</div>
+  }
+
+  if (history.status === 'error') {
+    return <div className="banner banner--danger">Błąd pobierania historii zmian: {history.error}</div>
+  }
+
+  const items = history.data?.items ?? []
+
+  if (items.length === 0) {
+    return <div className="banner">Brak historii zmian dla tego rekordu.</div>
+  }
+
+  return (
+    <div className="table-wrap detail-table">
+      <table>
+        <thead>
+          <tr>
+            <th>ID zmiany</th>
+            <th>Typ encji</th>
+            <th>Atrybut</th>
+            <th>Stara wartość</th>
+            <th>Nowa wartość</th>
+            <th>Partia importu</th>
+            <th>Data zmiany</th>
+          </tr>
+        </thead>
+        <tbody>
+          {items.map((item) => (
+            <tr key={item.change_id}>
+              <td>{item.change_id}</td>
+              <td>{formatEntityType(item.entity_type)}</td>
+              <td className="cell-break">{formatAttributeName(item.attribute_name)}</td>
+              <td className="cell-break">{formatValue(item.old_value)}</td>
+              <td className="cell-break">{formatValue(item.new_value)}</td>
+              <td>{formatValue(item.import_batch_id)}</td>
+              <td>{formatDateTime(item.change_date)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function GoldenRecordDetailModal({ detail, onClose }) {
+  const [activeTab, setActiveTab] = useState('details')
+  const [lineage, setLineage] = useState({ status: 'loading', data: null, error: '' })
+  const [history, setHistory] = useState({ status: 'loading', data: null, error: '' })
+
   useEffect(() => {
     function handleKeyDown(event) {
       if (event.key === 'Escape') {
@@ -263,9 +421,48 @@ function GoldenRecordDetailModal({ detail, onClose }) {
     }
   }, [onClose])
 
+  useEffect(() => {
+    if (!detail.recordId || !detail.entityType) {
+      return
+    }
+
+    let cancelled = false
+
+    setLineage({ status: 'loading', data: null, error: '' })
+    setHistory({ status: 'loading', data: null, error: '' })
+
+    getLineage(detail.entityType, detail.recordId)
+      .then((data) => {
+        if (!cancelled) {
+          setLineage({ status: 'success', data, error: '' })
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          setLineage({ status: 'error', data: null, error: String(error.message || error) })
+        }
+      })
+
+    getChangeHistory(detail.entityType, detail.recordId)
+      .then((data) => {
+        if (!cancelled) {
+          setHistory({ status: 'success', data, error: '' })
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          setHistory({ status: 'error', data: null, error: String(error.message || error) })
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [detail.entityType, detail.recordId])
+
   const isPerson = detail.entityType === 'PERSON'
   const title = isPerson ? 'Szczegóły osoby' : 'Szczegóły podmiotu'
-  const eyebrow = isPerson ? 'Person detail' : 'Party detail'
+  const eyebrow = isPerson ? 'Szczegóły osoby' : 'Szczegóły podmiotu'
   const rows = isPerson ? PERSON_FIELDS : PARTY_FIELDS
 
   return (
@@ -285,60 +482,92 @@ function GoldenRecordDetailModal({ detail, onClose }) {
           </button>
         </div>
 
-        {detail.status === 'loading' ? <div className="banner">Ładowanie szczegółów...</div> : null}
-        {detail.status === 'error' ? (
-          <div className="banner banner--danger">Błąd pobierania szczegółów: {detail.error}</div>
-        ) : null}
+        <div className="segmented" style={{ margin: '0 0 1rem' }}>
+          <button
+            type="button"
+            className={activeTab === 'details' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveTab('details')}
+          >
+            Szczegóły
+          </button>
+          <button
+            type="button"
+            className={activeTab === 'lineage' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveTab('lineage')}
+          >
+            Pochodzenie (lineage)
+          </button>
+          <button
+            type="button"
+            className={activeTab === 'history' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveTab('history')}
+          >
+            Historia zmian
+          </button>
+        </div>
 
-        {detail.data ? (
-          <div className="detail-layout">
-            <DetailGrid rows={rows} data={detail.data} />
-
-            {isPerson ? (
-              <section className="detail-section">
-                <div className="section-header detail-section__header">
-                  <div>
-                    <p className="eyebrow">Identity</p>
-                    <h3>Identyfikatory</h3>
-                  </div>
-                </div>
-                <PersonIdentifierTable data={detail.data} />
-              </section>
+        {activeTab === 'details' ? (
+          <>
+            {detail.status === 'loading' ? <div className="banner">Ładowanie szczegółów...</div> : null}
+            {detail.status === 'error' ? (
+              <div className="banner banner--danger">Błąd pobierania szczegółów: {detail.error}</div>
             ) : null}
 
-            {!isPerson ? (
-              <section className="detail-section">
-                <div className="section-header detail-section__header">
-                  <div>
-                    <p className="eyebrow">Identity</p>
-                    <h3>Identyfikatory podmiotu</h3>
+            {detail.data ? (
+              <div className="detail-layout">
+                <DetailGrid rows={rows} data={detail.data} />
+
+                {isPerson ? (
+                  <section className="detail-section">
+                    <div className="section-header detail-section__header">
+                      <div>
+                        <p className="eyebrow">Identyfikatory</p>
+                        <h3>Identyfikatory</h3>
+                      </div>
+                    </div>
+                    <PersonIdentifierTable data={detail.data} />
+                  </section>
+                ) : null}
+
+                {!isPerson ? (
+                  <section className="detail-section">
+                    <div className="section-header detail-section__header">
+                      <div>
+                        <p className="eyebrow">Identyfikatory</p>
+                        <h3>Identyfikatory podmiotu</h3>
+                      </div>
+                    </div>
+                    <IdentityTable identities={detail.data.identities} />
+                  </section>
+                ) : null}
+
+                <section className="detail-section">
+                  <div className="section-header detail-section__header">
+                    <div>
+                      <p className="eyebrow">Adresy</p>
+                      <h3>Adresy</h3>
+                    </div>
                   </div>
-                </div>
-                <IdentityTable identities={detail.data.identities} />
-              </section>
+                  <AddressTable addresses={detail.data.addresses} />
+                </section>
+
+                <section className="detail-section">
+                  <div className="section-header detail-section__header">
+                    <div>
+                      <p className="eyebrow">Źródła adresów</p>
+                      <h3>Źródła wartości adresów</h3>
+                    </div>
+                  </div>
+                  <AddressSourceTable addresses={detail.data.addresses} />
+                </section>
+              </div>
             ) : null}
-
-            <section className="detail-section">
-              <div className="section-header detail-section__header">
-                <div>
-                  <p className="eyebrow">Address</p>
-                  <h3>Adresy</h3>
-                </div>
-              </div>
-              <AddressTable addresses={detail.data.addresses} />
-            </section>
-
-            <section className="detail-section">
-              <div className="section-header detail-section__header">
-                <div>
-                  <p className="eyebrow">Address provenance</p>
-                  <h3>Źródła wartości adresów</h3>
-                </div>
-              </div>
-              <AddressSourceTable addresses={detail.data.addresses} />
-            </section>
-          </div>
+          </>
         ) : null}
+
+        {activeTab === 'lineage' ? <LineageTab lineage={lineage} /> : null}
+
+        {activeTab === 'history' ? <HistoryTab history={history} /> : null}
       </section>
     </div>
   )

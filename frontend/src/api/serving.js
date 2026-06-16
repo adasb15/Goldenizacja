@@ -58,6 +58,14 @@ function getMatchComparison(params) {
   return fetchJson('/layers/serving/match-results/comparison', params)
 }
 
+function getLineage(entityType, recordId) {
+  return fetchJson(`/layers/serving/lineage/${entityType}/${recordId}`)
+}
+
+function getChangeHistory(entityType, recordId) {
+  return fetchJson(`/layers/serving/history/${entityType}/${recordId}`)
+}
+
 export {
   API_URL,
   getGoldenRecords,
@@ -66,4 +74,6 @@ export {
   getValidationResults,
   getMatchResults,
   getMatchComparison,
+  getLineage,
+  getChangeHistory,
 }

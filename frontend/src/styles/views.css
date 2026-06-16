@@ -98,6 +98,11 @@ tbody tr:nth-child(even) {
   word-break: break-word;
 }
 
+.cell-nowrap {
+  min-width: 160px;
+  white-space: nowrap;
+}
+
 .rule-cell {
   display: grid;
   gap: 6px;
