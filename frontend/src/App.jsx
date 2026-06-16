@@ -1,30 +1,42 @@
 import { useState } from 'react'
 
 import { API_URL } from './api/serving'
+import { GoldenRecordsView } from './features/golden-records/GoldenRecordsView'
 import { MatchingView } from './features/matching/MatchingView'
 import { ValidationView } from './features/validation/ValidationView'
 
+const HERO_BY_VIEW = {
+  'golden-records': {
+    title: 'Lista golden rekordów',
+    copy: 'Tabela rekordów golden oparta o endpoint warstwy serving.',
+  },
+  validation: {
+    title: 'Widok walidacji',
+    copy: 'Tabela wyników walidacji oparta o endpoint warstwy serving.',
+  },
+  matching: {
+    title: 'Widok matchingu',
+    copy: 'Tabela kandydatów matchingu oparta o endpointy Levenshtein i Jaro-Winkler.',
+  },
+}
+
 export default function App() {
-  const [activeView, setActiveView] = useState('validation')
+  const [activeView, setActiveView] = useState('golden-records')
   const [refreshToken, setRefreshToken] = useState(0)
 
   function refreshData() {
     setRefreshToken((current) => current + 1)
   }
 
-  const heroTitle = activeView === 'validation' ? 'Widok walidacji' : 'Widok matchingu'
-  const heroCopy =
-    activeView === 'validation'
-      ? 'Tabela wyników walidacji oparta o endpoint warstwy serving.'
-      : 'Tabela kandydatów matchingu oparta o endpointy Levenshtein i Jaro-Winkler.'
+  const hero = HERO_BY_VIEW[activeView]
 
   return (
     <main className="app-shell">
       <section className="hero">
         <div>
           <p className="eyebrow">React serving console</p>
-          <h1>{heroTitle}</h1>
-          <p className="hero__copy">{heroCopy}</p>
+          <h1>{hero.title}</h1>
+          <p className="hero__copy">{hero.copy}</p>
         </div>
 
         <div className="hero__actions">
@@ -43,6 +55,13 @@ export default function App() {
         <div className="segmented">
           <button
             type="button"
+            className={activeView === 'golden-records' ? 'segmented__item is-active' : 'segmented__item'}
+            onClick={() => setActiveView('golden-records')}
+          >
+            Golden Records
+          </button>
+          <button
+            type="button"
             className={activeView === 'validation' ? 'segmented__item is-active' : 'segmented__item'}
             onClick={() => setActiveView('validation')}
           >
@@ -57,7 +76,9 @@ export default function App() {
           </button>
         </div>
 
-        {activeView === 'validation' ? (
+        {activeView === 'golden-records' ? (
+          <GoldenRecordsView refreshToken={refreshToken} />
+        ) : activeView === 'validation' ? (
           <ValidationView refreshToken={refreshToken} />
         ) : (
           <MatchingView refreshToken={refreshToken} />

@@ -38,6 +38,10 @@ function getValidationResults(params) {
   return fetchJson('/layers/serving/validation-results', params)
 }
 
+function getGoldenRecords(params) {
+  return fetchJson('/layers/serving/golden-records', params)
+}
+
 function getMatchResults({ algorithm, ...params }) {
   return fetchJson(`/layers/serving/match-results/${algorithm}`, params)
 }
@@ -46,4 +50,4 @@ function getMatchComparison(params) {
   return fetchJson('/layers/serving/match-results/comparison', params)
 }
 
-export { API_URL, getValidationResults, getMatchResults, getMatchComparison }
+export { API_URL, getGoldenRecords, getValidationResults, getMatchResults, getMatchComparison }

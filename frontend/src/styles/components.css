@@ -36,8 +36,8 @@
 }
 
 .segmented {
-  display: inline-grid;
-  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  display: inline-flex;
+  flex-wrap: wrap;
   gap: 0;
   width: fit-content;
   padding: 4px;
