@@ -47,12 +47,14 @@ def test_get_golden_records_returns_paginated_payload() -> None:
     )
 
     with patch("app.layers.serving.api.list_golden_records", return_value=mocked) as service:
-        response = client.get("/serving/golden-records?entity_type=PERSON&limit=10&offset=0")
+        response = client.get("/serving/golden-records?entity_type=PERSON&search=KOWALSKI&limit=10&offset=0")
 
     assert response.status_code == 200
     assert response.json()["items"][0]["record_id"] == 1
     assert response.json()["page"]["total"] == 1
     service.assert_called_once()
+    assert service.call_args.kwargs["entity_type"] == "PERSON"
+    assert service.call_args.kwargs["search"] == "KOWALSKI"
 
 
 def test_get_person_detail_returns_person_payload() -> None:

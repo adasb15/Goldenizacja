@@ -47,12 +47,18 @@ def list_golden_records(
     db: Session,
     *,
     entity_type: str | None = None,
+    search: str | None = None,
     limit: int = 50,
     offset: int = 0,
     repo: ServingRepository | None = None,
 ) -> GoldenRecordListResponse:
     repo = repo or ServingRepository(db)
-    records, total = repo.list_golden_records(entity_type=entity_type, limit=limit, offset=offset)
+    records, total = repo.list_golden_records(
+        entity_type=entity_type,
+        search=search,
+        limit=limit,
+        offset=offset,
+    )
     return GoldenRecordListResponse(
         items=[_golden_summary(record) for record in records],
         page=PageMeta(limit=limit, offset=offset, total=total),

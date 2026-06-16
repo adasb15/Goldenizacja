@@ -6,7 +6,8 @@ import { EMPTY_GOLDEN_RECORDS_PAGE, GOLDEN_RECORDS_LIMIT } from '../../constants
 import { formatDateTime, formatValue } from '../../utils/formatters'
 
 function GoldenRecordsView({ refreshToken }) {
-  const [query, setQuery] = useState({ offset: 0 })
+  const [filters, setFilters] = useState({ search: '' })
+  const [query, setQuery] = useState({ search: '', offset: 0 })
   const [state, setState] = useState({
     status: 'idle',
     data: EMPTY_GOLDEN_RECORDS_PAGE,
@@ -21,6 +22,7 @@ function GoldenRecordsView({ refreshToken }) {
 
       try {
         const data = await getGoldenRecords({
+          search: query.search,
           limit: GOLDEN_RECORDS_LIMIT,
           offset: query.offset,
         })
@@ -53,6 +55,19 @@ function GoldenRecordsView({ refreshToken }) {
     }))
   }
 
+  function submitFilters(event) {
+    event.preventDefault()
+    setQuery({
+      search: filters.search.trim(),
+      offset: 0,
+    })
+  }
+
+  function clearFilters() {
+    setFilters({ search: '' })
+    setQuery({ search: '', offset: 0 })
+  }
+
   const page = state.data.page || EMPTY_GOLDEN_RECORDS_PAGE.page
   const currentFrom = page.total === 0 ? 0 : page.offset + 1
   const currentTo = Math.min(page.offset + page.limit, page.total)
@@ -68,6 +83,30 @@ function GoldenRecordsView({ refreshToken }) {
           {page.total} rekordów, zakres {currentFrom}-{currentTo}
         </span>
       </div>
+
+      <form className="filters" onSubmit={submitFilters}>
+        <label>
+          Wyszukaj
+          <input
+            value={filters.search}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                search: event.target.value,
+              }))
+            }
+            placeholder="np. Kowalski, PESEL, NIP, REGON, KRS, LEI"
+          />
+        </label>
+
+        <button type="submit" className="button">
+          Szukaj
+        </button>
+
+        <button type="button" className="button button--secondary" onClick={clearFilters}>
+          Wyczyść
+        </button>
+      </form>
 
       {state.status === 'error' ? (
         <div className="banner banner--danger">Błąd pobierania golden rekordów: {state.error}</div>

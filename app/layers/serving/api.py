@@ -55,12 +55,16 @@ def status() -> LayerStatus:
 )
 def golden_records(
     entity_type: str | None = Query(default=None, description="Opcjonalnie: PERSON albo PARTY."),
+    search: str | None = Query(
+        default=None,
+        description="Opcjonalna fraza wyszukiwania po nazwie lub identyfikatorze golden rekordu.",
+    ),
     limit: int = Query(default=50, ge=1, le=200, description="Rozmiar strony wyników."),
     offset: int = Query(default=0, ge=0, description="Przesunięcie paginacji."),
     db: Session = Depends(get_db),
 ) -> GoldenRecordListResponse:
     try:
-        return list_golden_records(db, entity_type=entity_type, limit=limit, offset=offset)
+        return list_golden_records(db, entity_type=entity_type, search=search, limit=limit, offset=offset)
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
