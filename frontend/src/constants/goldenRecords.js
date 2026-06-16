@@ -5,4 +5,10 @@ const EMPTY_GOLDEN_RECORDS_PAGE = {
   page: { limit: GOLDEN_RECORDS_LIMIT, offset: 0, total: 0 },
 }
 
-export { GOLDEN_RECORDS_LIMIT, EMPTY_GOLDEN_RECORDS_PAGE }
+const GOLDEN_RECORD_ENTITY_OPTIONS = [
+  { value: '', label: 'Wszystkie' },
+  { value: 'PERSON', label: 'Osoba' },
+  { value: 'PARTY', label: 'Podmiot' },
+]
+
+export { GOLDEN_RECORDS_LIMIT, EMPTY_GOLDEN_RECORDS_PAGE, GOLDEN_RECORD_ENTITY_OPTIONS }

@@ -2,12 +2,16 @@ import { useEffect, useState } from 'react'
 
 import { getGoldenRecords } from '../../api/serving'
 import { Pager } from '../../components/ui/Pager'
-import { EMPTY_GOLDEN_RECORDS_PAGE, GOLDEN_RECORDS_LIMIT } from '../../constants/goldenRecords'
+import {
+  EMPTY_GOLDEN_RECORDS_PAGE,
+  GOLDEN_RECORD_ENTITY_OPTIONS,
+  GOLDEN_RECORDS_LIMIT,
+} from '../../constants/goldenRecords'
 import { formatDateTime, formatValue } from '../../utils/formatters'
 
 function GoldenRecordsView({ refreshToken }) {
-  const [filters, setFilters] = useState({ search: '' })
-  const [query, setQuery] = useState({ search: '', offset: 0 })
+  const [filters, setFilters] = useState({ search: '', entity_type: '' })
+  const [query, setQuery] = useState({ search: '', entity_type: '', offset: 0 })
   const [state, setState] = useState({
     status: 'idle',
     data: EMPTY_GOLDEN_RECORDS_PAGE,
@@ -23,6 +27,7 @@ function GoldenRecordsView({ refreshToken }) {
       try {
         const data = await getGoldenRecords({
           search: query.search,
+          entity_type: query.entity_type,
           limit: GOLDEN_RECORDS_LIMIT,
           offset: query.offset,
         })
@@ -59,13 +64,14 @@ function GoldenRecordsView({ refreshToken }) {
     event.preventDefault()
     setQuery({
       search: filters.search.trim(),
+      entity_type: filters.entity_type,
       offset: 0,
     })
   }
 
   function clearFilters() {
-    setFilters({ search: '' })
-    setQuery({ search: '', offset: 0 })
+    setFilters({ search: '', entity_type: '' })
+    setQuery({ search: '', entity_type: '', offset: 0 })
   }
 
   const page = state.data.page || EMPTY_GOLDEN_RECORDS_PAGE.page
@@ -97,6 +103,25 @@ function GoldenRecordsView({ refreshToken }) {
             }
             placeholder="np. Kowalski, PESEL, NIP, REGON, KRS, LEI"
           />
+        </label>
+
+        <label>
+          Typ encji
+          <select
+            value={filters.entity_type}
+            onChange={(event) =>
+              setFilters((current) => ({
+                ...current,
+                entity_type: event.target.value,
+              }))
+            }
+          >
+            {GOLDEN_RECORD_ENTITY_OPTIONS.map((option) => (
+              <option key={option.value || 'ALL'} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
         </label>
 
         <button type="submit" className="button">
