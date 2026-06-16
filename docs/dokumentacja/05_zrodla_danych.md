@@ -1,10 +1,10 @@
-# Źródła danych i zakres informacyjny
+# 5. Źródła danych i zakres informacyjny
 
 Platforma została przygotowana do integracji danych o osobach i podmiotach pochodzących z wielu źródeł. W repozytorium znajdują się zestawy plikowe odwzorowujące struktury wybranych rejestrów publicznych i branżowych oraz demonstracyjny system relacyjny Oracle. Dane służą do sprawdzania mapowania, walidacji, matchingu, grupowania i budowy Golden Record.
 
 Wszystkie dane plikowe używane w projekcie są syntetyczne. Nazwy zbiorów i układ kolumn nawiązują do rzeczywistych rejestrów, jednak rekordy nie stanowią kopii danych produkcyjnych ani oficjalnych eksportów. Pozwala to wykonywać testy integracji bez przetwarzania rzeczywistych danych osobowych i biznesowych. Syntetyczny charakter ma również baza Oracle utworzona na potrzeby demonstracji importu relacyjnego.
 
-## Systemy źródłowe
+## 5.1. Systemy źródłowe
 
 Kod warstwy ingestion rozpoznaje jedenaście systemów źródłowych. Dziesięć z nich odpowiada zestawom plikowym, natomiast `INSURANCE_CORE` jest relacyjnym źródłem demonstracyjnym.
 
@@ -24,7 +24,7 @@ Kod warstwy ingestion rozpoznaje jedenaście systemów źródłowych. Dziesięć
 
 Lista dozwolonych kodów znajduje się w stałej `SUPPORTED_SOURCE_SYSTEMS` w `app/layers/ingestion/service.py`. Kod źródła jest zapisywany w tabeli `meta.SourceSystem` i wiąże późniejsze dane z poziomem zaufania, mapowaniem kolumn oraz regułami survivorship.
 
-## Zbiory plikowe
+## 5.2. Zbiory plikowe
 
 Katalog `data` zawiera dziesięć logicznych zestawów danych w czterech formatach:
 
@@ -45,7 +45,7 @@ Obsługa formatów jest realizowana przez:
 - `parse_raw_file_records()` w `app/layers/staging_validation/service.py`,
 - `parse_xlsx_records()` i `parse_xml_records()` w tym samym module.
 
-## Modele PERSON i PARTY
+## 5.3. Modele PERSON i PARTY
 
 Źródła są mapowane do jednego albo dwóch typów encji. `PERSON` reprezentuje osobę fizyczną, natomiast `PARTY` reprezentuje podmiot, organizację albo działalność gospodarczą.
 
@@ -77,7 +77,7 @@ CEIDG, KRS, rejestr agentów, rejestr pracowników agentów i rejestr firm inwes
 
 Rozdzielenie encji następuje na etapie stagingu. Dla jednego pliku można wykonać osobne ładowanie do `Person_Staging` i `Party_Staging`, jeżeli dla danego źródła istnieją mapowania obu typów.
 
-## Mapowanie kolumn
+## 5.4. Mapowanie kolumn
 
 Każde źródło może używać innego nazewnictwa i struktury danych. Mapowania są przechowywane w tabeli `meta.ColumnMapping` i wiążą:
 
@@ -101,7 +101,7 @@ Szczególną obsługę posiada KRS. Szerokie zestawy kolumn opisujące członkó
 
 Definicje systemów źródłowych i mapowań znajdują się w `scripts/init_proposed_mssql_schema.sql`. Samo automatyczne utworzenie tabel przez SQLAlchemy nie wypełnia `ColumnMapping`, dlatego do działania mapowania na przygotowanej bazie wymagane jest wykonanie skryptu inicjalizacyjnego.
 
-## Demonstracyjne źródło Oracle
+## 5.5. Demonstracyjne źródło Oracle
 
 Oracle Insurance Core symuluje relacyjny system dziedzinowy. Struktura jest tworzona przez `scripts/init_oracle_insurance_core.sql` i obejmuje między innymi:
 
@@ -128,7 +128,7 @@ w pliku `app/layers/ingestion/service.py`.
 
 Poprawność importu i tworzenia snapshotów sprawdzają testy w `tests/test_relational_ingestion.py`.
 
-## Dane referencyjne TERYT
+## 5.6. Dane referencyjne TERYT
 
 Pliki `SIMC.csv` i `ULIC.csv` są wykorzystywane przez warstwę validation do sprawdzania miejscowości oraz ulic. Dane są ładowane do katalogu dostępnego dla API, a następnie przetwarzane do indeksów używanych podczas walidacji.
 
@@ -147,7 +147,7 @@ Obsługę danych TERYT realizują:
 
 Testy znajdują się w `tests/test_teryt_validation.py`.
 
-## Automatyczne rozpoznawanie źródła w Airflow
+## 5.7. Automatyczne rozpoznawanie źródła w Airflow
 
 DAG może automatycznie wyznaczyć kod źródła na podstawie nazwy pliku. Słownik `SOURCE_SYSTEM_BY_FILE_STEM` mapuje nazwę bazową, na przykład `pesel` albo `regon`, na kod systemu źródłowego.
 
@@ -160,7 +160,7 @@ Airflow określa również typ encji:
 
 Automatyczne rozpoznawanie wymaga zachowania znanej nazwy pliku. Dla innej nazwy należy jawnie podać `source_system_code`. Podobnie nieznany lub niestandardowy układ kolumn wymaga dodania odpowiednich rekordów do `meta.ColumnMapping`.
 
-## Dane syntetyczne
+## 5.8. Dane syntetyczne
 
 Zbiory syntetyczne zostały przygotowane tak, aby umożliwiały sprawdzanie zarówno poprawnych przypadków, jak i kontrolowanych anomalii. Zawierają między innymi:
 
@@ -182,7 +182,7 @@ scripts/refine_synthetic_data.js
 
 Jakość wygenerowanych zbiorów jest kontrolowana w `tests/test_synthetic_data_quality.py`. Testy sprawdzają między innymi brak nieuzasadnionego współdzielenia dokumentów tożsamości, spójność identyfikatorów podmiotów, chronologię dat oraz zgodność części danych osobowych.
 
-## Odniesienie do implementacji
+## 5.9. Odniesienie do implementacji
 
 | Obszar | Lokalizacja |
 |---|---|

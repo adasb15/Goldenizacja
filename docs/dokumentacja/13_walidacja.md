@@ -1,10 +1,10 @@
-# 14. Walidacja
+# 13. Walidacja
 
 Warstwa walidacji ocenia jakość danych po preprocessingu. Nie modyfikuje sprawdzanych rekordów i nie uzupełnia ich danymi zewnętrznymi. Dla każdej wykonanej reguły zapisuje osobny wynik, który wskazuje sprawdzane pole, wartość, status oraz komunikat.
 
 Błąd danych nie przerywa przetwarzania pozostałych rekordów. Dzięki temu po zakończeniu procesu dostępny jest zestaw wszystkich wykrytych niezgodności, a nie tylko pierwszy napotkany problem.
 
-## 14.1. Uruchomienie procesu
+## 13.1. Uruchomienie procesu
 
 Walidację uruchamia endpoint:
 
@@ -20,7 +20,7 @@ POST /layers/validation/validation-load
 
 Walidacja wymaga wcześniejszego utworzenia rekordów preprocessed. Serwis pobiera odpowiadające sobie rekordy z tabel staging i preprocessed. Brak takich danych lub niepoprawny typ encji powoduje odpowiedź HTTP 400.
 
-## 14.2. Przebieg walidacji
+## 13.2. Przebieg walidacji
 
 Proces obejmuje:
 
@@ -35,7 +35,7 @@ Ponowne uruchomienie zastępuje wcześniejszy zestaw wyników, dlatego w tabeli 
 
 Status procesu opisuje wykonanie techniczne etapu. Wykrycie niepoprawnych wartości nie oznacza awarii procesu. Jeżeli wszystkie reguły zostały wykonane i zapisane, `ProcessLog` otrzymuje status `SUCCESS`, nawet gdy część wyników ma status `ERROR`.
 
-## 14.3. Model wyniku
+## 13.3. Model wyniku
 
 Każdy wpis `Validation_Result` dotyczy jednej reguły zastosowanej do jednego rekordu. Zawiera między innymi:
 
@@ -50,7 +50,7 @@ Poprawny wynik ma status `PASS`, poziom `INFO` i komunikat `OK`. Niezgodność o
 
 Zapisane wyniki można później odczytać przez endpoint `GET /layers/serving/validation-results`, z opcjonalnym filtrowaniem po typie encji, systemie źródłowym i kodzie reguły.
 
-## 14.4. Walidacja osoby
+## 13.4. Walidacja osoby
 
 Dla encji `PERSON` wykonywane są następujące kontrole:
 
@@ -69,7 +69,7 @@ Przy porównaniu płci serwis w pierwszej kolejności próbuje odczytać jej war
 
 Brak PESEL jest traktowany jako błąd podstawowej reguły jego poprawności. Większość pozostałych pól opcjonalnych nie powoduje błędu wyłącznie z powodu braku wartości. Przykładowo suma kontrolna dowodu jest sprawdzana dopiero wtedy, gdy numer został podany.
 
-## 14.5. Walidacja podmiotu
+## 13.5. Walidacja podmiotu
 
 Dla encji `PARTY` sprawdzane są:
 
@@ -94,7 +94,7 @@ Walidacja podmiotu obejmuje również porządek dat:
 
 Jeżeli jedna z dat pary nie występuje, kolejność nie jest kwestionowana. Podana, lecz nierozpoznana wartość daty powoduje wynik `ERROR`.
 
-## 14.6. Kontrola adresu z wykorzystaniem TERYT
+## 13.6. Kontrola adresu z wykorzystaniem TERYT
 
 Walidacja adresu korzysta z plików `SIMC.csv` i `ULIC.csv`. Dane mogą znajdować się w katalogu wskazanym przez zmienną `TERYT_DIR` albo w katalogu `teryt` pod ścieżką `FILESTREAM_PATH`. W repozytorium dostępne są pliki w `data/teryt`.
 
@@ -115,19 +115,19 @@ Nazwy są porównywane po ujednoliceniu wielkości liter i odstępów. Dla ulic 
 
 Brak miejscowości lub ulicy nie jest sam w sobie oznaczany jako błąd TERYT. Jeżeli miejscowość została podana, ale nie występuje w SIMC, zarówno kontrola miejscowości, jak i powiązanej ulicy otrzymuje `ERROR`. Gdy pliki TERYT nie są dostępne, reguły adresowe nie są wykonywane i nie powstają dla nich wyniki.
 
-## 14.7. Walidacja adresu e-mail
+## 13.7. Walidacja adresu e-mail
 
 Adres e-mail jest najpierw sprawdzany składniowo. Jeżeli parametr `check_email_dns` ma wartość `true`, po poprawnej kontroli składni serwis sprawdza również istnienie domeny.
 
 Kontrola domeny próbuje rozwiązać jej adres sieciowy, a następnie rekord MX. Zapytania DNS mają krótki limit czasu, aby ograniczyć wpływ niedostępnej sieci na czas przetwarzania. Wynik tej reguły może zatem zależeć od aktualnej dostępności DNS. Dla środowiska bez dostępu do sieci można wyłączyć tę część kontroli, pozostawiając samą walidację składni.
 
-## 14.8. Wykorzystanie wyników
+## 13.8. Wykorzystanie wyników
 
 Wyniki walidacji są wykorzystywane przez warstwę goldenizacji przy wyborze wartości przeżywającej. Status jest pobierany dla konkretnego pola rekordu preprocessed. Wartość z wynikiem `PASS` może otrzymać pierwszeństwo przed kandydatem, który nie przeszedł walidacji.
 
 Potwierdzenie adresu przez TERYT stanowi dodatkową przesłankę przy wyborze adresu. Walidacja nie wykonuje jednak matchingu, nie grupuje rekordów i nie tworzy rekordu golden.
 
-## 14.9. Ograniczenia
+## 13.9. Ograniczenia
 
 Najważniejsze ograniczenia walidacji to:
 
@@ -140,7 +140,7 @@ Najważniejsze ograniczenia walidacji to:
 
 Warstwa rejestruje wykryte problemy, lecz nie poprawia wartości automatycznie. Zachowane powiązania z rekordami staging i preprocessed pozwalają ustalić, której wartości oraz reguły dotyczy wynik.
 
-## 14.10. Odniesienia do implementacji
+## 13.10. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 

@@ -1,12 +1,12 @@
-# Cel i zakres projektu
+# 3. Cel i zakres projektu
 
-## Cel projektu
+## 3.1. Cel projektu
 
 Celem projektu było wykonanie autonomicznej platformy integracji danych podstawowych osób i podmiotów. Rozwiązanie miało umożliwiać przyjmowanie danych z różnych źródeł, zachowanie ich oryginalnej postaci, kontrolę jakości, integrację rekordów oraz udostępnienie spójnej reprezentacji danych. Założenia przekazane przez opiekuna wskazywały na potrzebę budowy rozwiązania odpowiadającego koncepcji centralnego repozytorium osób i podmiotów, w którym możliwe jest prześledzenie pochodzenia danych oraz procesu prowadzącego do utworzenia Golden Record.
 
 Projekt obejmował analizę wymagań, zaprojektowanie architektury warstwowej, implementację modułów przetwarzania, przygotowanie środowiska uruchomieniowego oraz testowanie rozwiązania. Szczególny nacisk położono na centralną część procesu: przejście od danych heterogenicznych do ujednoliconych, zwalidowanych i pogrupowanych rekordów osoby lub podmiotu.
 
-## Zakres funkcjonalny wykonanej platformy
+## 3.2. Zakres funkcjonalny wykonanej platformy
 
 Platforma przyjmuje pliki CSV, JSON, XML i XLSX oraz dane z demonstracyjnego źródła Oracle. Każdy import jest przypisywany do systemu źródłowego i partii, a zawartość wejściowa jest zachowywana w warstwie RAW wraz z metadanymi i skrótem SHA-256.
 
@@ -16,13 +16,13 @@ Wartości Golden Record są wybierane według reguł survivorship uwzględniają
 
 Warstwa `serving` udostępnia przez REST listy i szczegóły Golden Record, wyszukiwanie osób po PESEL oraz podmiotów po identyfikatorach lub nazwie. Pozwala także odczytywać lineage, historię zmian, wyniki walidacji, kandydatów matchingu i liczniki etapów procesu.
 
-## Audytowalność procesu
+## 3.3. Audytowalność procesu
 
 System rejestruje źródła, partie importu, przebieg etapów, wyniki walidacji, kandydatów matchingu i grupy encji. Dla aktualnych wartości GOLD utrzymywane jest lineage wskazujące ich źródło, partię oraz regułę wyboru.
 
 Zmiany atrybutów istniejących osób i podmiotów są zapisywane w `EntityChangeLog` wraz ze starą i nową wartością. Pozwala to ustalić, na podstawie jakich danych powstał aktualny Golden Record oraz jak zmieniał się w kolejnych importach.
 
-## Zakres techniczny
+## 3.4. Zakres techniczny
 
 Backend wykonano w Pythonie z użyciem FastAPI i SQLAlchemy. Microsoft SQL Server przechowuje dane procesowe i wynikowe, Oracle jest demonstracyjnym źródłem relacyjnym, a Apache Airflow orkiestruje pipeline. Środowisko lokalne jest uruchamiane przez Docker Compose i obejmuje również frontend React oraz demonstracyjną konfigurację Neo4j.
 
@@ -30,7 +30,7 @@ Repozytorium zawiera manifesty OpenShift, ale nie zostały one zweryfikowane na 
 
 Pierwotna koncepcja przewidywała SQL Server FILESTREAM. W wykonanej wersji zastosowano `VARBINARY(MAX)` mapowany jako `LargeBinary`. W ograniczonym czasie projektu wybrano wariant możliwy do uruchomienia i zweryfikowania bez dodatkowej konfiguracji FILESTREAM. Decyzja nie wynika z założenia, że środowisko docelowe nie obsługuje tego mechanizmu.
 
-## Elementy poza wykonanym zakresem
+## 3.5. Elementy poza wykonanym zakresem
 
 Matching nie wykorzystuje ML ani DL, lecz jawne reguły, wagi, progi i deterministyczne miary podobieństwa. Nie wykonano także konektorów strumieniowych oraz wejść z zewnętrznych usług REST lub SOAP.
 
@@ -38,7 +38,7 @@ Warstwa `analytics` pozostaje szkieletem i nie udostępnia raportów ani metryk.
 
 Brakuje również interfejsu operatora do ręcznej obsługi decyzji `REVIEW` oraz uwierzytelniania i autoryzacji API. Szczegółowa ocena realizacji tych elementów znajduje się w macierzy wymagań.
 
-## Odniesienie do implementacji
+## 3.6. Odniesienie do implementacji
 
 Poszczególne części zakresu są realizowane w następujących modułach:
 

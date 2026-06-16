@@ -1,10 +1,10 @@
-# Staging i mapowanie danych
+# 11. Staging i mapowanie danych
 
 Warstwa staging przekształca materiał zapisany w RAW do wspólnej struktury osoby albo podmiotu. Na tym etapie dane są parsowane, przypisywane do kolumn kanonicznych i zapisywane w `stg.Person_Staging` lub `stg.Party_Staging`. Oryginalny materiał RAW nie jest modyfikowany.
 
 Staging nie wykonuje pełnej standaryzacji ani oceny jakości biznesowej. Zachowuje wartości możliwie blisko postaci źródłowej, wykonując jedynie sanitację tekstu, konwersję typów wymaganych przez model SQL oraz składanie wybranych struktur do JSON. Właściwa normalizacja danych odbywa się w warstwie preprocessing.
 
-## Interfejs API
+## 11.1. Interfejs API
 
 Ładowanie stagingu udostępnia endpoint:
 
@@ -21,7 +21,7 @@ Wywołanie wymaga:
 
 Odpowiedź `StagingLoadResponse` zawiera identyfikatory partii i RAW, typ encji, liczbę rekordów wejściowych i zapisanych, statusy procesu oraz zestawienia brakujących i nierozpoznanych kolumn.
 
-## Przebieg ładowania
+## 11.2. Przebieg ładowania
 
 Funkcja `load_raw_file_to_staging()` wykonuje następujące operacje:
 
@@ -38,7 +38,7 @@ Funkcja `load_raw_file_to_staging()` wykonuje następujące operacje:
 
 Przy plikach zawierających dane obu typów ten sam `RawFile_ID` może zostać załadowany osobno do `Person_Staging` i `Party_Staging`. Kontrola ponownego wykonania jest prowadzona niezależnie dla każdej tabeli.
 
-## Parsowanie materiału RAW
+## 11.3. Parsowanie materiału RAW
 
 Parser jest wybierany na podstawie `RawFile.File_Type`.
 
@@ -51,7 +51,7 @@ Parser jest wybierany na podstawie `RawFile.File_Type`.
 
 Każdy rekord jest reprezentowany jako słownik nazw kolumn i wartości. JSON może zachować struktury zagnieżdżone, natomiast CSV i XLSX dostarczają strukturę płaską. XML bez elementów `<record>` oraz tablica JSON zawierająca wartości inne niż obiekty są odrzucane.
 
-## Mapowania kolumn
+## 11.4. Mapowania kolumn
 
 Mapowania znajdują się w `meta.ColumnMapping` i są wybierane według:
 
@@ -79,7 +79,7 @@ Nazwy kolumn są porównywane bez uwzględnienia wielkości liter. Notacja kropk
 
 Jeżeli kilka kolumn źródłowych prowadzi do tego samego pola kanonicznego, wybierana jest pierwsza niepusta wartość według kolejności mapowań pobranych z bazy.
 
-## Raport mapowania
+## 11.5. Raport mapowania
 
 Dla każdego rekordu mapper ustala:
 
@@ -90,7 +90,7 @@ Odpowiedź API agreguje te informacje jako słowniki `missing_columns` i `unreco
 
 Kolumny użyte jako techniczny identyfikator rekordu oraz rozpoznane szerokie pola relacji KRS nie są wykazywane jako nierozpoznane. Raport służy do wykrywania zmian struktury źródła, ale nie zastępuje późniejszej walidacji wartości.
 
-## Budowa rekordu stagingowego
+## 11.6. Budowa rekordu stagingowego
 
 Każdy zapisany rekord otrzymuje:
 
@@ -113,7 +113,7 @@ Każdy zapisany rekord otrzymuje:
 
 Ostatni wariant zapewnia techniczne wskazanie rekordu, ale nie jest stabilnym identyfikatorem biznesowym po zmianie kolejności danych wejściowych.
 
-## Model PERSON
+## 11.7. Model PERSON
 
 `Person_Staging` przechowuje identyfikatory osoby, imiona i nazwiska, dane urodzenia, płeć, obywatelstwo, kontakt oraz elementy adresu.
 
@@ -125,7 +125,7 @@ Podczas budowy rekordu:
 
 Dla szerokich danych KRS mapper wybiera jedną spójną grupę osoby powiązanej, zamiast łączyć imię, nazwisko i PESEL pochodzące z różnych ról lub slotów.
 
-## Model PARTY
+## 11.8. Model PARTY
 
 `Party_Staging` obejmuje profil podmiotu, identyfikatory, adres, dane rejestrowe, kontakt, rachunki bankowe oraz informacje o osobach i podmiotach powiązanych.
 
@@ -140,7 +140,7 @@ Rozpoznawane klucze identyfikatorów obejmują m.in. NIP, REGON, KRS, LEI i nume
 
 Szerokie kolumny KRS opisujące członków zarządu, prokurentów, wspólników, likwidatorów i członków rady nadzorczej są grupowane do `Related_Persons_JSON`. Dane wspólników będących podmiotami trafiają do `Related_Parties_JSON`. Struktury zachowują rolę lub rodzaj relacji, numer slotu, dane identyfikacyjne oraz dostępny okres obowiązywania.
 
-## Zakres konwersji
+## 11.9. Zakres konwersji
 
 Staging wykonuje wyłącznie konwersje potrzebne do utworzenia spójnego rekordu technicznego. Nie rozdziela złożonych linii adresowych na ulicę, numer budynku, kod i miejscowość. Jeżeli źródło przekazuje cały adres w jednym polu, wartość pozostaje w kolumnie wskazanej przez mapowanie.
 
@@ -154,7 +154,7 @@ Nie są również wykonywane:
 
 Operacje te należą do kolejnych warstw procesu.
 
-## Statusy, błędy i powtarzalność
+## 11.10. Statusy, błędy i powtarzalność
 
 Ponowne załadowanie tego samego `RawFile_ID` do tej samej tabeli stagingowej jest blokowane. Taki przypadek nie ustawia wcześniej poprawnej partii na `FAILED`.
 
@@ -169,7 +169,7 @@ Pozostałe wyjątki kończą log `STAGING_LOAD` i partię statusem `FAILED`, o i
 
 Repozytorium zatwierdza osobno zmianę statusu partii, utworzenie logu, zapis rekordów i zakończenie procesu. Operacja nie jest jedną transakcją obejmującą cały staging.
 
-## Ograniczenia
+## 11.11. Ograniczenia
 
 Aktualna implementacja:
 
@@ -180,9 +180,9 @@ Aktualna implementacja:
 - nie aktualizuje istniejącego stagingu, lecz blokuje ponowne ładowanie;
 - zachowuje tylko jeden rekord `PERSON` z szerokiego rekordu KRS, mimo że może on zawierać wiele osób powiązanych.
 
-Pełne listy kolumn tabel stagingowych i ich ograniczenia opisano w rozdziale 9.
+Pełne listy kolumn tabel stagingowych i ich ograniczenia opisano w rozdziale 8.
 
-## Odniesienie do implementacji
+## 11.12. Odniesienie do implementacji
 
 | Obszar | Lokalizacja |
 |---|---|

@@ -1,10 +1,10 @@
-# 13. Preprocessing i standaryzacja
+# 12. Preprocessing i standaryzacja
 
 Warstwa preprocessing przekształca dane zapisane w tabelach staging do ujednoliconej postaci wykorzystywanej przez walidację, wyszukiwanie duplikatów i proces goldenizacji. Oryginalne wartości pozostają w tabelach staging, natomiast ich znormalizowane odpowiedniki są zapisywane w tabelach `Person_Preprocessed` albo `Party_Preprocessed`.
 
 Preprocessing nie rozstrzyga, czy wartość jest poprawna biznesowo. Przykładowo ujednolica zapis numeru telefonu lub adresu, ale nie potwierdza ich istnienia. Takie kontrole należą do kolejnych etapów przetwarzania.
 
-## 13.1. Uruchomienie procesu
+## 12.1. Uruchomienie procesu
 
 Proces jest udostępniony przez endpoint:
 
@@ -21,7 +21,7 @@ Serwis pobiera z warstwy staging wszystkie rekordy powiązane z podanym plikiem 
 
 Jeżeli plik nie ma odpowiednich rekordów staging albo został już przetworzony dla danego typu encji, żądanie jest odrzucane z kodem HTTP 400. Ponowne uruchomienie nie nadpisuje istniejących danych i nie tworzy ich kopii.
 
-## 13.2. Przebieg przetwarzania
+## 12.2. Przebieg przetwarzania
 
 Przetwarzanie obejmuje następujące kroki:
 
@@ -33,9 +33,9 @@ Przetwarzanie obejmuje następujące kroki:
 6. zapis rekordów w odpowiedniej tabeli preprocessed,
 7. zakończenie wpisu procesu statusem `SUCCESS` lub `FAILED`.
 
-Operacja zapisu jest wykonywana w ramach transakcji. W przypadku błędu zmiany są wycofywane. Preprocessing nie zmienia statusu całej partii importowej, ponieważ odpowiada wyłącznie za jeden z etapów jej przetwarzania.
+Preprocessing nie zmienia statusu całej partii importowej, ponieważ odpowiada wyłącznie za jeden z etapów jej przetwarzania. Aktualna implementacja nie wykonuje całego etapu jako jednej wspólnej transakcji. Repozytorium zatwierdza osobno utworzenie logu procesu, zapis rekordów preprocessed i zakończenie logu. W przypadku błędu niezakończona część operacji jest wycofywana, ale wcześniej zatwierdzone kroki techniczne mogą pozostać zapisane.
 
-## 13.3. Reguły wspólne
+## 12.3. Reguły wspólne
 
 Podstawowe reguły standaryzacji są stosowane zależnie od rodzaju pola.
 
@@ -51,7 +51,7 @@ Podstawowe reguły standaryzacji są stosowane zależnie od rodzaju pola.
 
 Wartości puste lub zawierające wyłącznie białe znaki są zapisywane jako `NULL`. Preprocessing nie uzupełnia brakujących danych wartościami domyślnymi, z wyjątkiem opisanych niżej reguł wyprowadzania pól.
 
-## 13.4. Standaryzacja danych osoby
+## 12.4. Standaryzacja danych osoby
 
 Dla encji `PERSON` przetwarzane są w szczególności:
 
@@ -65,7 +65,7 @@ Na podstawie dostępnych części imienia i nazwiska powstaje pole `Full_Name`. 
 
 Data urodzenia, płeć i pola logiczne są przenoszone z warstwy staging w postaci nadanej podczas wcześniejszego ładowania danych. Preprocessing nie wykonuje ponownie ich konwersji.
 
-## 13.5. Standaryzacja danych podmiotu
+## 12.5. Standaryzacja danych podmiotu
 
 Dla encji `PARTY` ujednolicane są między innymi:
 
@@ -82,7 +82,7 @@ Jeżeli brakuje nazwy skróconej lub formy prawnej, serwis może wyprowadzić je
 
 Reguła ta ma charakter pomocniczy. Nie zastępuje danych rejestrowych i nie przesądza o poprawności prawnej rozpoznanego oznaczenia.
 
-## 13.6. Rozdzielanie i składanie adresu
+## 12.6. Rozdzielanie i składanie adresu
 
 Adres źródłowy może być zapisany jako jedno pole albo jako kilka części. Preprocessing próbuje rozpoznać:
 
@@ -99,7 +99,7 @@ Po rozdzieleniu elementów tworzona jest również wartość `Full_Address`, zaw
 
 Mechanizm jest oparty na regułach i wyrażeniach regularnych. Nietypowe lub niejednoznaczne adresy mogą nie zostać rozdzielone w pełni. Weryfikacja miejscowości i kodu pocztowego względem danych TERYT jest wykonywana w warstwie walidacji, a nie podczas preprocessingu.
 
-## 13.7. Informacja o zastosowanych regułach
+## 12.7. Informacja o zastosowanych regułach
 
 Każdy rekord preprocessed zawiera pole `Preprocessing_Rules_JSON`. Przechowuje ono ogólne oznaczenia zastosowanych grup reguł:
 
@@ -110,7 +110,7 @@ Każdy rekord preprocessed zawiera pole `Preprocessing_Rules_JSON`. Przechowuje 
 
 Pole opisuje sposób przetwarzania na poziomie ogólnym. Nie stanowi szczegółowego rejestru każdej zmiany wykonanej na poszczególnych wartościach. Zachowanie wartości źródłowych w warstwie staging umożliwia jednak porównanie danych przed i po standaryzacji.
 
-## 13.8. Przygotowanie danych do dopasowywania
+## 12.8. Przygotowanie danych do dopasowywania
 
 Tabele preprocessed zawierają zarówno ujednolicone pola pojedyncze, jak i pola złożone używane przez kolejne etapy. Dla osoby są to przykładowo pełne imię i nazwisko oraz zestawienia imienia, nazwiska, daty i miejsca urodzenia. Dla podmiotu wykorzystywane są przede wszystkim identyfikatory rejestrowe, nazwa, adres i dane kontaktowe.
 
@@ -118,7 +118,7 @@ W bazie utworzono indeksy wspierające wyszukiwanie po najważniejszych identyfi
 
 Preprocessing przygotowuje dane do porównania, ale nie łączy rekordów i nie wybiera rekordu golden. Decyzje te są podejmowane przez dalsze warstwy systemu.
 
-## 13.9. Ograniczenia
+## 12.9. Ograniczenia
 
 Najważniejsze ograniczenia etapu to:
 
@@ -130,7 +130,7 @@ Najważniejsze ograniczenia etapu to:
 
 Ograniczenia te nie powodują utraty danych źródłowych, ponieważ rekord staging pozostaje dostępny i jest wskazywany przez rekord preprocessed.
 
-## 13.10. Odniesienia do implementacji
+## 12.10. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 
@@ -140,4 +140,4 @@ Najważniejsze elementy implementacji znajdują się w plikach:
 - `app/layers/preprocessing/models.py` – modele tabel preprocessed,
 - `app/layers/preprocessing/schemas.py` – model odpowiedzi API,
 - `tests/test_preprocessing.py` – testy reguł normalizacji,
-- `sql/init/01_schema.sql` – definicje tabel, ograniczeń i indeksów.
+- `scripts/init_proposed_mssql_schema.sql` – definicje tabel, ograniczeń i indeksów.

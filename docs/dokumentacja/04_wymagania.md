@@ -1,10 +1,10 @@
-# Wymagania
+# 4. Wymagania
 
 Wymagania dla platformy wynikają przede wszystkim z dokumentu „Projekt studencki - Platforma integracyjna CRP”, przekazanego przez opiekuna projektu. Dokument określa cel rozwiązania oraz główne bloki funkcjonalne, lecz nie definiuje szczegółowych kryteriów odbioru ani zamkniętej listy przypadków użycia. Materiały przygotowane przez zespół na początku prac rozwijają tę koncepcję o proponowane mechanizmy techniczne. Nie wszystkie opisane w nich rozwiązania zostały ostatecznie wykorzystane.
 
 W poniższym zestawieniu wymagania pierwotne zostały uporządkowane i odniesione do wykonanej implementacji. Ocena dotyczy stanu kodu analizowanego podczas przygotowania dokumentacji. Funkcje obecne wyłącznie jako szkielet, demonstrator albo nieprzetestowana konfiguracja nie są traktowane jako pełna realizacja wymagania.
 
-## Wymagania funkcjonalne
+## 4.1. Wymagania funkcjonalne
 
 ### Przyjmowanie danych z wielu źródeł
 
@@ -96,7 +96,7 @@ Wymagania wskazują potrzebę rozważenia technologii grafowej dla złożonych r
 
 Neo4j został dodany do konfiguracji środowiska, a moduł demonstracyjny zapisuje do niego dokumenty. Baza grafowa nie została jednak wykorzystana ani przetestowana w głównym procesie goldenizacji i nie zawiera grafowej reprezentacji wynikowych relacji osób i podmiotów.
 
-## Wymagania niefunkcjonalne
+## 4.2. Wymagania niefunkcjonalne
 
 ### Modularność
 
@@ -134,7 +134,7 @@ Matching posiada limit maksymalnej liczby porównywanych par oraz wykorzystuje w
 
 Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia testowanie jej z repozytoriami zastępczymi. Testy obejmują import relacyjny, mapowanie, preprocessing, walidację, matching, survivorship, grupowanie, Golden Record, lineage, idempotencję, API servingowe i jakość danych syntetycznych.
 
-## Macierz realizacji wymagań
+## 4.3. Macierz realizacji wymagań
 
 | Id | Wymaganie | Stan realizacji | Realizacja i dowód w kodzie | Testy lub ograniczenia |
 |---|---|---|---|---|
@@ -174,7 +174,7 @@ Logika biznesowa jest oddzielona od API i dostępu do danych, co umożliwia test
 | N-08 | Testy wydajnościowe | Niezrealizowane | Brak scenariuszy obciążeniowych i pomiarów | Istnieje jedynie limit bezpieczeństwa liczby par matchingu |
 | N-09 | Diagnostyka i obsługa błędów | Zrealizowane | Wyjątki warstw, odpowiedzi HTTP 400/500, `ProcessLog` | Zakres logowania zależy od etapu procesu |
 
-## Podsumowanie oceny
+## 4.4. Podsumowanie oceny
 
 Najpełniej zrealizowana jest centralna część platformy: pobieranie plików i danych relacyjnych, przechowywanie RAW, mapowanie, preprocessing, walidacja, dwuetapowy matching, grupowanie, budowa Golden Record, audytowalność oraz odczyt wyników przez API. Elementy te posiadają odpowiadające modele danych, endpointy API i testy.
 
