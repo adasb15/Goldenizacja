@@ -16,10 +16,13 @@ from app.layers.integration_golden.models import (
     FactlessPartyAddress,
     FactlessPartyIdentities,
     FactlessPersonAddress,
+    GoldenAddressLineage,
     GoldenPartyLineage,
     GoldenPersonLineage,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
+    PartyAddressLineage,
+    PersonAddressLineage,
 )
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
@@ -155,6 +158,32 @@ class ServingRepository:
             )
             .where(FactlessPartyIdentities.Party_ID == party_id)
             .order_by(FactlessPartyIdentities.PartyIdentity_ID)
+        )
+        return list(self.db.execute(query))
+
+    def get_address_lineage(self, address_ids: list[int]) -> list[Any]:
+        if not address_ids:
+            return []
+        query = (
+            select(GoldenAddressLineage, SourceSystem)
+            .join(SourceSystem, SourceSystem.SourceSystem_ID == GoldenAddressLineage.SourceSystem_ID)
+            .where(GoldenAddressLineage.DimAddress_ID.in_(address_ids))
+            .order_by(GoldenAddressLineage.DimAddress_ID, GoldenAddressLineage.Lineage_ID)
+        )
+        return list(self.db.execute(query))
+
+    def get_address_link_lineage(self, entity_type: str, link_ids: list[int]) -> list[Any]:
+        if not link_ids:
+            return []
+
+        normalized = normalize_entity_type(entity_type)
+        lineage_model = PersonAddressLineage if normalized == "PERSON" else PartyAddressLineage
+        id_column = lineage_model.PersonAddress_ID if normalized == "PERSON" else lineage_model.PartyAddress_ID
+        query = (
+            select(lineage_model, SourceSystem)
+            .join(SourceSystem, SourceSystem.SourceSystem_ID == lineage_model.SourceSystem_ID)
+            .where(id_column.in_(link_ids))
+            .order_by(id_column)
         )
         return list(self.db.execute(query))
 

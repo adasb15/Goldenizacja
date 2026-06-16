@@ -15,6 +15,17 @@ class PageMeta(BaseModel):
     total: int
 
 
+class FieldSourceResponse(BaseModel):
+    attribute_name: str
+    source_system_code: str | None = None
+    source_record_id: str | None = None
+    selection_rule: str | None = None
+    trust_score: float | None = None
+    quality_score: float | None = None
+    validation_status: str | None = None
+    recorded_at: datetime | None = None
+
+
 class AddressResponse(BaseModel):
     address_id: int
     address_type: str | None = None
@@ -29,6 +40,7 @@ class AddressResponse(BaseModel):
     country: str | None = None
     valid_from: date | None = None
     valid_to: date | None = None
+    provenance: dict[str, FieldSourceResponse] = Field(default_factory=dict)
 
 
 class PartyIdentityResponse(BaseModel):
@@ -72,6 +84,7 @@ class PersonDetailResponse(BaseModel):
     email_address: str | None = None
     created_at: datetime | None = None
     updated_at: datetime | None = None
+    provenance: dict[str, FieldSourceResponse] = Field(default_factory=dict)
     addresses: list[AddressResponse] = Field(default_factory=list)
 
 

@@ -321,11 +321,25 @@ body.modal-open {
 
 .detail-modal {
   width: min(1240px, 100%);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
 }
 
 .detail-layout {
   display: grid;
   gap: 16px;
+}
+
+.detail-modal .comparison__header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: -20px -20px 0;
+  padding: 20px 56px 16px 20px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(19, 34, 56, 0.08);
 }
 
 .detail-grid {
