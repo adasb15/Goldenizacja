@@ -1,4 +1,4 @@
-# 17. REST API
+# 16. REST API
 
 Interfejs REST jest głównym sposobem uruchamiania kolejnych warstw systemu oraz odczytu wyników procesu. API zostało zbudowane w FastAPI i obejmuje dwa obszary:
 
@@ -7,7 +7,7 @@ Interfejs REST jest głównym sposobem uruchamiania kolejnych warstw systemu ora
 
 Taki podział rozdziela funkcje demonstracyjne od właściwego procesu goldenizacji i ułatwia późniejsze powiązanie operacji z poszczególnymi warstwami kodu.
 
-## 17.1. Organizacja aplikacji
+## 16.1. Organizacja aplikacji
 
 Punktem wejścia jest `app/main.py`. Aplikacja:
 
@@ -32,7 +32,7 @@ W jego ramach podłączone są routery:
 - `analytics`,
 - `serving`.
 
-## 17.2. Styl komunikacji API
+## 16.2. Styl komunikacji API
 
 API używa dwóch głównych sposobów przekazywania danych:
 
@@ -46,7 +46,7 @@ W praktyce oznacza to, że:
 
 Odpowiedzi są zwracane jako JSON zgodny z modelami Pydantic z plików `schemas.py`.
 
-## 17.3. Endpointy techniczne poza `/layers`
+## 16.3. Endpointy techniczne poza `/layers`
 
 Router `app.api.routes` zawiera pomocnicze trasy demonstracyjne:
 
@@ -66,7 +66,7 @@ Ich rola jest pomocnicza:
 
 Endpointy te nie należą do głównego pipeline'u goldenizacji i nie powinny być traktowane jako interfejs biznesowy systemu.
 
-## 17.4. Endpointy statusowe warstw
+## 16.4. Endpointy statusowe warstw
 
 Każda główna warstwa posiada prosty endpoint:
 
@@ -86,7 +86,7 @@ Dotyczy to warstw:
 
 Odpowiedź ma jednolity schemat `LayerStatus` i zawiera nazwę warstwy oraz status `ready`. Endpointy te służą głównie do szybkiej diagnostyki i weryfikacji dostępności modułu.
 
-## 17.5. Endpointy sterujące pipeline'em
+## 16.5. Endpointy sterujące pipeline'em
 
 Główna ścieżka przetwarzania jest udostępniona przez endpointy `POST` pod `/layers`. Najważniejsze z nich to:
 
@@ -180,7 +180,7 @@ Etapy matchingu przyjmują:
 - opcjonalny `raw_file_id`,
 - opcjonalny `entity_group_id`.
 
-## 17.6. Endpointy odczytowe warstwy serving
+## 16.6. Endpointy odczytowe warstwy serving
 
 Warstwa `serving` udostępnia interfejs odczytowy wyników procesu. Wszystkie jej endpointy są oparte o `GET` i modele Pydantic ze schematami paginacji, list i szczegółów.
 
@@ -213,7 +213,7 @@ Zakres funkcjonalny tych endpointów obejmuje:
 - porównanie dwóch rekordów `preprocessed`,
 - liczniki etapów procesu.
 
-## 17.7. Typowe odpowiedzi warstwy serving
+## 16.7. Typowe odpowiedzi warstwy serving
 
 Warstwa `serving` korzysta z kilku powtarzalnych wzorców odpowiedzi.
 
@@ -264,7 +264,7 @@ Endpoint `/match-results/comparison` zwraca:
 
 Jest to endpoint szczególnie istotny dla frontendu, ponieważ zasila modal porównania par rekordów.
 
-## 17.8. Konwencja błędów
+## 16.8. Konwencja błędów
 
 API rozróżnia dwa podstawowe typy błędów:
 
@@ -277,7 +277,7 @@ Typowy wzorzec jest następujący:
 
 - wyjątki domenowe i walidacyjne są mapowane na `HTTPException(status_code=400, detail=...)`,
 - brak rekordu szczegółowego jest mapowany na `404`,
-- nieobsłużony wyjątek jest opakowany w `500` z nazwą kroku.
+- w wielu endpointach pipeline'u nieobsłużony wyjątek jest opakowany w `500` z nazwą kroku, natomiast część endpointów odczytowych `serving` pozostawia nieobsłużone wyjątki do domyślnej obsługi FastAPI.
 
 Przykłady:
 
@@ -287,7 +287,7 @@ Przykłady:
 - nieistniejący `RawFile_ID`,
 - nieistniejący `Person_ID` albo `Party_ID`.
 
-## 17.9. CORS i współpraca z frontendem
+## 16.9. CORS i współpraca z frontendem
 
 W `app/main.py` skonfigurowano middleware CORS z listą źródeł pobieraną z konfiguracji. Dzięki temu frontend działający na innym porcie może wywoływać API lokalnie bez dodatkowego proxy.
 
@@ -298,7 +298,7 @@ Ma to bezpośrednie znaczenie dla frontendu React, który pobiera dane z:
 - `/layers/serving/match-results/jaro-winkler`,
 - `/layers/serving/match-results/comparison`.
 
-## 17.10. Swagger i OpenAPI
+## 16.10. Swagger i OpenAPI
 
 Ponieważ API jest zbudowane w FastAPI, dokumentacja OpenAPI i interfejs Swagger są generowane automatycznie. Pozwala to:
 
@@ -308,7 +308,7 @@ Ponieważ API jest zbudowane w FastAPI, dokumentacja OpenAPI i interfejs Swagger
 
 Swagger jest szczególnie przydatny przy ręcznym uruchamianiu etapów pipeline'u niezależnie od Airflow.
 
-## 17.11. Zakres i ograniczenia API
+## 16.11. Zakres i ograniczenia API
 
 Najważniejsze ograniczenia obecnej wersji są następujące:
 
@@ -320,7 +320,7 @@ Najważniejsze ograniczenia obecnej wersji są następujące:
 
 Warstwa `serving` jest odczytowa. Nie służy do edycji Golden Record ani do ręcznego zatwierdzania decyzji integracyjnych.
 
-## 17.12. Odniesienia do implementacji
+## 16.12. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 

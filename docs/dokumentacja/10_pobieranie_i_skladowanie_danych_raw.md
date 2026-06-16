@@ -1,4 +1,4 @@
-# Pobieranie i składowanie danych RAW
+# 10. Pobieranie i składowanie danych RAW
 
 Warstwa RAW stanowi pierwszy trwały etap przetwarzania danych. Jej zadaniem jest przyjęcie danych ze źródła, wykonanie podstawowej kontroli technicznej oraz zachowanie zawartości, na której będą pracowały kolejne warstwy. Dane nie są na tym etapie mapowane do modelu osoby ani podmiotu, normalizowane lub oceniane pod względem jakości biznesowej.
 
@@ -9,7 +9,7 @@ Platforma obsługuje dwa sposoby pozyskania danych:
 
 Niezależnie od sposobu pozyskania wynikiem jest rekord `raw.RawFile` powiązany z systemem źródłowym, partią importu i logiem `RAW_LOAD`. Warstwa sprawdza wejście, oblicza SHA-256 i zachowuje zawartość. Mapowanie do modeli `PERSON` i `PARTY`, normalizacja oraz walidacja odbywają się później.
 
-## Interfejs API
+## 10.1. Interfejs API
 
 | Metoda i endpoint | Przeznaczenie |
 |---|---|
@@ -29,7 +29,7 @@ Oba endpointy importowe zwracają `RawLoadResponse`.
 
 `raw_file_id` jest podstawowym identyfikatorem przekazywanym do stagingu i dalszych etapów.
 
-## Import plików
+## 10.2. Import plików
 
 Endpoint przyjmuje plik, `source_system_code` oraz opcjonalne `created_by`. `UploadFile` jest odczytywany do postaci bajtowej i przekazywany do `import_raw_file()`.
 
@@ -50,9 +50,9 @@ Rozszerzenie jest sprawdzane przed utworzeniem partii, a `File_Type` zapisywany 
 
 ### Sprawdzanie systemu źródłowego
 
-`source_system_code` jest normalizowany do wielkich liter i musi występować w `SUPPORTED_SOURCE_SYSTEMS`. Pełny katalog źródeł opisano w rozdziale 6. Brakujący wpis `meta.SourceSystem` jest tworzony automatycznie, z pustym poziomem zaufania.
+`source_system_code` jest normalizowany do wielkich liter i musi występować w `SUPPORTED_SOURCE_SYSTEMS`. Pełny katalog źródeł opisano w rozdziale 5. Brakujący wpis `meta.SourceSystem` jest tworzony automatycznie, z pustym poziomem zaufania.
 
-## Import ze źródła relacyjnego
+## 10.3. Import ze źródła relacyjnego
 
 Endpoint przyjmuje `source_system_code`, `query_name`, opcjonalny `entity_type` i `created_by`. Nie pozwala przekazać dowolnego SQL: zapytanie musi występować w `RELATIONAL_QUERY_DEFINITIONS` i być zgodne z systemem źródłowym oraz typem encji.
 
@@ -92,7 +92,7 @@ lista rekordów Oracle
 
 Serializacja zachowuje znaki narodowe, a wartości nieobsługiwane bezpośrednio przez JSON, na przykład daty, konwertuje do tekstu. Snapshot jest dalej przetwarzany jak plik JSON, dzięki czemu staging pracuje na stanie danych pobranym dla konkretnej partii.
 
-## Wspólny zapis materiału RAW
+## 10.4. Wspólny zapis materiału RAW
 
 Import plikowy i relacyjny kończą się wywołaniem `persist_raw_content()`, które tworzy metadane, oblicza skrót i zapisuje log.
 
@@ -109,7 +109,7 @@ Import plikowy i relacyjny kończą się wywołaniem `persist_raw_content()`, kt
 
 Partia jest tworzona przed próbą zapisu materiału RAW. Dzięki temu błąd zapisu może zostać przypisany do konkretnego `ImportBatch_ID`.
 
-## Struktura RawFile
+## 10.5. Struktura RawFile
 
 `raw.RawFile` przechowuje zawartość wejściową oraz metadane potrzebne do jej identyfikacji.
 
@@ -130,7 +130,7 @@ Model SQLAlchemy odwzorowuje `File_Content` typem `LargeBinary`. Chociaż defini
 
 Krok jest rejestrowany w `meta.ProcessLog`. Po sukcesie log zawiera `RawFile_ID`, status `SUCCESS` i wstępne liczniki rekordów; po błędzie status `FAILED` i komunikat. Szczegółowy model metadanych i statusów opisano w rozdziałach 9 i 10.
 
-## Kontrola duplikatów
+## 10.6. Kontrola duplikatów
 
 Skrót jest obliczany dla pełnej zawartości bajtowej:
 
@@ -148,7 +148,7 @@ Konflikt ograniczenia unikalności jest przechwytywany jako `IntegrityError`. Se
 
 Globalny zakres unikalności oznacza, że system nie przechowuje dwóch osobnych rekordów RAW dla identycznej zawartości pochodzącej z różnych deklarowanych źródeł.
 
-## Obsługa błędów
+## 10.7. Obsługa błędów
 
 HTTP 400 jest zwracany dla rozpoznanych problemów wejścia i konfiguracji:
 
@@ -168,7 +168,7 @@ Po błędzie, który wystąpił już po utworzeniu partii, serwis próbuje:
 
 Repozytorium zatwierdza osobno utworzenie źródła, partii, logu i materiału RAW. Nie jest to jedna transakcja obejmująca cały krok. Pozwala to zachować metadane błędu, ale diagnostyka powinna uwzględniać zarówno `ImportBatch`, jak i `ProcessLog`.
 
-## Uzasadnienie użycia VARBINARY(MAX)
+## 10.8. Uzasadnienie użycia VARBINARY(MAX)
 
 Pierwotna koncepcja przewidywała SQL Server FILESTREAM. W wykonanej implementacji zastosowano `VARBINARY(MAX)` mapowany jako `LargeBinary`, ponieważ w czasie realizacji możliwe było uruchomienie i zweryfikowanie tego wariantu bez dodatkowej konfiguracji magazynu FILESTREAM, ścieżek systemowych i uprawnień. Decyzja nie wynika z założenia, że środowisko docelowe nie obsługuje FILESTREAM.
 
@@ -176,11 +176,11 @@ Przyjęte rozwiązanie zachowuje pełną zawartość bajtową, umożliwia kontro
 
 Aplikacja odczytuje cały plik do pamięci i przekazuje wartość `bytes` do SQLAlchemy. Wariant został zweryfikowany dla danych projektu, ale nie wykonano pomiarów dla bardzo dużych plików ani wielu równoległych importów.
 
-## Bezpieczeństwo i integralność
+## 10.9. Bezpieczeństwo i integralność
 
 Parametry połączeń są pobierane z konfiguracji środowiska. Ponieważ `File_Content` może zawierać dane osobowe i biznesowe, dostęp do schematu `raw` i kopii zapasowych powinien być ograniczony. Integralność wspierają klucze obce, unikalny hash, kontrola rozmiaru i logi procesu. SHA-256 wykrywa identyczną zawartość, ale nie potwierdza jej autentyczności.
 
-## Ograniczenia
+## 10.10. Ograniczenia
 
 W obecnej implementacji:
 
@@ -194,7 +194,7 @@ W obecnej implementacji:
 - `records_in` jest licznikiem technicznym i nie zastępuje wyniku stagingu;
 - błędy składni JSON i XML mogą zostać sklasyfikowane jako HTTP 500.
 
-## Realizacja w kodzie
+## 10.11. Realizacja w kodzie
 
 | Obszar | Plik lub element |
 |---|---|

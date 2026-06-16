@@ -1,4 +1,4 @@
-# 21. Podsumowanie realizacji
+# 20. Podsumowanie realizacji
 
 W ramach projektu wykonano działającą platformę integracji i goldenizacji danych osób oraz podmiotów, opartą na warstwowym przetwarzaniu danych i centralnym repozytorium SQL Server. Rozwiązanie obejmuje import danych z wielu źródeł, zachowanie warstwy RAW, mapowanie do modeli stagingowych, preprocessing, walidację, matching, grupowanie encji oraz budowę i aktualizację rekordów GOLD wraz z lineage i rejestrem zmian.
 
@@ -8,7 +8,7 @@ Zrealizowana wersja odpowiada więc na główny cel projektu: pokazuje kompletny
 
 Na poziomie dokumentacyjnym najważniejsze jest to, że opisany system odpowiada stanowi faktycznie zaimplementowanemu w repozytorium. Dokumentacja nie opisuje rozwiązania docelowego w sensie koncepcyjnym, tylko wersję rzeczywiście wykonaną, uruchomioną i zweryfikowaną w zakresie przedstawionym w poprzednich rozdziałach.
 
-## 21.1. Końcowe odniesienie do implementacji
+## 20.1. Końcowe odniesienie do implementacji
 
 Najważniejsze obszary kodu zamykające zakres realizacji projektu:
 

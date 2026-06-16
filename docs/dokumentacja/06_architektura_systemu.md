@@ -1,4 +1,4 @@
-# Architektura systemu
+# 6. Architektura systemu
 
 Platforma została zbudowana jako aplikacja warstwowa, w której kolejne etapy przetwarzania są udostępniane przez wspólny interfejs FastAPI i uruchamiane w określonej kolejności przez Apache Airflow. Podstawowym repozytorium jest Microsoft SQL Server. Przechowuje on metadane procesu, dane RAW, rekordy pośrednie oraz wynikowe encje Golden Record. Oracle pełni rolę demonstracyjnego źródła relacyjnego.
 
@@ -8,7 +8,7 @@ Architekturę należy rozpatrywać na trzech poziomach:
 - aplikacyjnym, opisującym organizację kodu backendu,
 - uruchomieniowym, opisującym współpracę kontenerów i baz danych.
 
-## Architektura logiczna
+## 6.1. Architektura logiczna
 
 Główny przepływ danych składa się z pięciu funkcjonalnych obszarów. W kodzie część z nich została rozdzielona na bardziej szczegółowe moduły.
 
@@ -49,7 +49,7 @@ Warstwa `analytics` została przewidziana jako miejsce dla metryk, raportów, pr
 
 Warstwa `serving` udostępnia odczytowe widoki danych wynikowych. Obejmuje listy i szczegóły Golden Record, wyszukiwanie osób i podmiotów, lineage, historię zmian, wyniki walidacji, kandydatów matchingu, porównanie rekordów oraz liczniki kolejnych etapów. Endpointy stosują paginację i opcjonalne filtry. Warstwa nie realizuje mechanizmu PUSH ani webhooków.
 
-## Architektura aplikacji FastAPI
+## 6.2. Architektura aplikacji FastAPI
 
 Punktem wejścia backendu jest `app/main.py`. Podczas uruchamiania aplikacji wykonywana jest funkcja `init_db()`, która:
 
@@ -86,7 +86,7 @@ Warstwa stagingu posiada dodatkowo `mapper.py`, ponieważ mapowanie danych źró
 
 Taki podział umożliwia testowanie logiki biznesowej bez uruchamiania pełnego środowiska bazodanowego. Testy integracji i goldenizacji wykorzystują repozytoria zastępcze, które implementują kontrakt potrzebny serwisom.
 
-## Główne komponenty
+## 6.3. Główne komponenty
 
 ### FastAPI
 
@@ -132,7 +132,7 @@ Neo4j znajduje się w konfiguracji Docker Compose i posiada połączenie z demon
 
 Komponent nie został przetestowany jako część procesu integracji osób i podmiotów. Z tego powodu na diagramie architektury jest oznaczony jako element demonstracyjny, a nie część działającej ścieżki przetwarzania.
 
-## Komunikacja pomiędzy komponentami
+## 6.4. Komunikacja pomiędzy komponentami
 
 Podstawowa ścieżka wykonania wygląda następująco:
 
@@ -145,7 +145,7 @@ Podstawowa ścieżka wykonania wygląda następująco:
 
 Frontend komunikuje się bezpośrednio z FastAPI, ale nie uczestniczy w wykonywaniu DAG. Neo4j jest osiągany wyłącznie przez demonstracyjne endpointy dokumentów.
 
-## Konfiguracja
+## 6.5. Konfiguracja
 
 Konfiguracja backendu jest zdefiniowana w klasie `Settings` w `app/core/config.py`. Wartości są pobierane ze zmiennych środowiskowych oraz pliku `.env`. Obejmują między innymi:
 
@@ -160,7 +160,7 @@ Połączenie z SQL Serverem jest budowane przez `sqlalchemy.engine.URL`, co zape
 
 Sekrety nie powinny być zapisywane w dokumentacji ani publikowane w repozytorium. W środowisku OpenShift przewidziano oddzielne zasoby ConfigMap i Secret.
 
-## Środowisko lokalne
+## 6.6. Środowisko lokalne
 
 `docker-compose.yml` definiuje sześć usług:
 
@@ -179,7 +179,7 @@ Wolumeny zapewniają trwałość baz danych, logów Neo4j, środowiska Airflow i
 
 Środowisko Docker Compose jest środowiskiem developerskim. API i frontend pracują w trybie umożliwiającym szybkie przeładowanie zmian, a Airflow używa własnego obrazu z `apache/airflow:3.2.2-python3.14`, menedżera uwierzytelniania FAB oraz uruchamia w jednym kontenerze procesy `api-server`, `scheduler`, `dag-processor` i `triggerer`. Lokalny executor pozostaje `SequentialExecutor`.
 
-## Przygotowane zasoby OpenShift
+## 6.7. Przygotowane zasoby OpenShift
 
 Katalog `openshift` zawiera manifesty:
 
@@ -197,7 +197,7 @@ Manifesty nie zostały przetestowane na docelowym klastrze. Nie obejmują także
 
 OpenShift nie jest uwzględniany jako część potwierdzonej ścieżki wykonania systemu. Szczegółowy opis manifestów i rozbieżności zostanie przedstawiony w rozdziale dotyczącym wdrożenia.
 
-## Ograniczenia architektury
+## 6.8. Ograniczenia architektury
 
 Najważniejsze ograniczenia obecnej architektury obejmują:
 
@@ -214,7 +214,7 @@ Najważniejsze ograniczenia obecnej architektury obejmują:
 
 Ograniczenia nie zmieniają podziału odpowiedzialności w działającym rdzeniu systemu, ale mają znaczenie przy ocenie gotowości rozwiązania do pracy poza środowiskiem demonstracyjnym.
 
-## Odniesienie do implementacji
+## 6.9. Odniesienie do implementacji
 
 | Obszar | Lokalizacja |
 |---|---|

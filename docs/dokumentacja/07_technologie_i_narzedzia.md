@@ -1,10 +1,10 @@
-# Technologie i narzędzia
+# 7. Technologie i narzędzia
 
 Dobór technologii podporządkowano warstwowemu przetwarzaniu danych, możliwości uruchomienia kompletnego środowiska lokalnego oraz oddzieleniu logiki biznesowej od sposobu składowania i udostępniania danych. Główny pipeline został wykonany w Pythonie, dane są przechowywane w Microsoft SQL Serverze, a kolejne etapy koordynuje Apache Airflow. Środowisko lokalne uruchamiane jest za pomocą Docker Compose.
 
 Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku frontendu `package.json` określa dopuszczalne zakresy wersji, natomiast `package-lock.json` zapisuje wersje faktycznie rozwiązane podczas instalacji.
 
-## Zestawienie technologii
+## 7.1. Zestawienie technologii
 
 | Technologia | Wersja w projekcie | Zastosowanie | Status wykorzystania |
 |---|---:|---|---|
@@ -38,7 +38,7 @@ Wersje bibliotek backendu są przypięte w `requirements.txt`. W przypadku front
 | Docker Compose | plik Compose w repozytorium | lokalne uruchomienie usług | podstawowe środowisko developerskie |
 | OpenShift | manifesty YAML | przygotowanie zasobów wdrożeniowych | nieprzetestowane na docelowym klastrze |
 
-## Backend
+## 7.2. Backend
 
 ### Python
 
@@ -54,7 +54,7 @@ Uvicorn pełni funkcję serwera ASGI. W Docker Compose uruchamiany jest z opcją
 
 Pydantic definiuje modele danych API, a `pydantic-settings` pobiera konfigurację ze zmiennych środowiskowych i pliku `.env`. Klasa `Settings` w `app/core/config.py` obejmuje parametry aplikacji, baz danych i CORS.
 
-## Dostęp do danych
+## 7.3. Dostęp do danych
 
 ### SQLAlchemy
 
@@ -68,11 +68,11 @@ Microsoft SQL Server 2022 jest centralnym repozytorium schematów `meta`, `raw`,
 
 Oracle Database Free 23 jest demonstracyjnym źródłem relacyjnym inicjalizowanym przez `scripts/init_oracle_insurance_core.sql`. Backend łączy się przez ODBC albo bibliotekę `oracledb`, a wyniki zapytań zapisuje jako snapshoty JSON w warstwie RAW SQL Servera.
 
-## Orkiestracja
+## 7.4. Orkiestracja
 
-Apache Airflow wywołuje przez HTTP kolejne operacje FastAPI. Lokalnie używa `SequentialExecutor`, a API server, scheduler, DAG processor i triggerer działają w jednym kontenerze. FAB Auth Manager zapewnia logowanie kontem administratora skonfigurowanym przez zmienne środowiskowe. Szczegóły przepływu i parametrów opisano w rozdziale 10.
+Apache Airflow wywołuje przez HTTP kolejne operacje FastAPI. Lokalnie używa `SequentialExecutor`, a API server, scheduler, DAG processor i triggerer działają w jednym kontenerze. FAB Auth Manager zapewnia logowanie kontem administratora skonfigurowanym przez zmienne środowiskowe. Szczegóły przepływu i parametrów opisano w rozdziale 9.
 
-## Biblioteki przetwarzania danych
+## 7.5. Biblioteki przetwarzania danych
 
 ### RapidFuzz
 
@@ -92,15 +92,15 @@ RapidFuzz dostarcza implementacje Levenshteina i Jaro-Winklera używane do oceny
 
 `openpyxl` umożliwia odczyt plików XLSX. Arkusze są otwierane w trybie tylko do odczytu, co ogranicza niepotrzebne zużycie pamięci podczas parsowania większych plików.
 
-## Frontend
+## 7.6. Frontend
 
 Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpine`, natomiast wieloetapowy `frontend/Dockerfile` buduje pliki statyczne i przekazuje je do Nginx unprivileged. Aplikacja korzysta z endpointów warstwy `serving` i udostępnia widoki walidacji oraz matchingu, w tym filtrowanie, paginację i porównanie wybranej pary rekordów. Zakres nadal pozostaje odczytowy i nie obejmuje pełnego widoku Golden Record ani ręcznej obsługi decyzji integracyjnych.
 
-## Neo4j
+## 7.7. Neo4j
 
 Backend używa sterownika Neo4j 6.2.0, natomiast serwer działa na obrazie Neo4j 5.24. Komponent obsługuje demonstracyjny zapis dokumentów, ale nie jest częścią przetestowanego pipeline'u i nie przechowuje relacji Golden Record.
 
-## Konteneryzacja i wdrożenie
+## 7.8. Konteneryzacja i wdrożenie
 
 ### Docker Compose
 
@@ -110,11 +110,11 @@ Docker Compose jest podstawowym sposobem uruchamiania kompletnego środowiska lo
 
 Manifesty OpenShift obejmują ConfigMap, Secret, PVC, Deployment, Service i Route. Nie zostały przetestowane na docelowym klastrze i nie obejmują Oracle, dlatego są wariantem wymagającym dostosowania i weryfikacji.
 
-## Narzędzia developerskie
+## 7.9. Narzędzia developerskie
 
 Skrypty w katalogu `scripts` inicjalizują bazy i wspierają przygotowanie danych syntetycznych. Testy znajdują się w `tests`, Swagger służy do ręcznego wywoływania API, a Airflow UI do uruchamiania i obserwowania DAG. DBeaver może być używany do przeglądania SQL Servera, ale nie jest częścią aplikacji.
 
-## Odniesienie do implementacji
+## 7.10. Odniesienie do implementacji
 
 | Obszar | Lokalizacja |
 |---|---|

@@ -1,4 +1,4 @@
-# 18. Interfejs użytkownika
+# 17. Interfejs użytkownika
 
 Frontend jest osobną aplikacją React, która komunikuje się z backendem przez HTTP i korzysta z odczytowych endpointów warstwy `serving`. W aktualnej wersji nie służy do uruchamiania pipeline'u ani do ręcznego zatwierdzania decyzji integracyjnych. Jego zadaniem jest prezentacja wybranych wyników procesu w czytelnej formie tabelarycznej.
 
@@ -7,7 +7,7 @@ W praktyce frontend pełni rolę lekkiej konsoli odczytowej dla dwóch obszarów
 1. wyników walidacji,
 2. wyników matchingu.
 
-## 18.1. Technologia i sposób uruchomienia
+## 17.1. Technologia i sposób uruchomienia
 
 Interfejs został wykonany w:
 
@@ -24,7 +24,7 @@ Kod wejściowy znajduje się w:
 
 W `main.jsx` aplikacja jest montowana przez `ReactDOM.createRoot(...)`, a style ładowane są z `frontend/src/styles/index.css`.
 
-## 18.2. Struktura aplikacji
+## 17.2. Struktura aplikacji
 
 W kodzie widoczny jest prosty podział na warstwy frontendowe:
 
@@ -37,7 +37,7 @@ W kodzie widoczny jest prosty podział na warstwy frontendowe:
 
 Aktualna struktura nie korzysta z globalnego store ani routingu URL. Nawigacja pomiędzy widokami jest obsługiwana lokalnym stanem komponentu `App`.
 
-## 18.3. Komunikacja z backendem
+## 17.3. Komunikacja z backendem
 
 Komunikacja z API została wydzielona do pliku:
 
@@ -60,7 +60,7 @@ Frontend korzysta obecnie z trzech funkcji:
 
 Oznacza to, że interfejs jest ściśle związany z odczytowymi endpointami `serving`, a nie z operacjami zapisu czy wywołaniami pipeline'u.
 
-## 18.4. Główny układ aplikacji
+## 17.4. Główny układ aplikacji
 
 Komponent `App.jsx` definiuje wspólny szkielet interfejsu:
 
@@ -77,7 +77,7 @@ Stan główny obejmuje:
 
 Frontend nie utrzymuje złożonego drzewa zależności pomiędzy widokami. Każdy widok sam odpowiada za pobranie i prezentację swoich danych.
 
-## 18.5. Widok walidacji
+## 17.5. Widok walidacji
 
 Widok walidacji został zaimplementowany w:
 
@@ -121,7 +121,7 @@ W tabeli prezentowane są między innymi:
 
 Dodatkowo komponent `ruleHighlight.js` nadaje części reguł wyróżnienia wizualne. Nie zmienia to logiki danych, ale poprawia czytelność najważniejszych problemów walidacyjnych.
 
-## 18.6. Widok matchingu
+## 17.6. Widok matchingu
 
 Widok matchingu znajduje się w:
 
@@ -162,7 +162,7 @@ W tabeli matchingu prezentowane są między innymi:
 
 Interfejs pokazuje więc nie tylko samą decyzję, ale także podstawowe przesłanki porównania.
 
-## 18.7. Porównanie pary rekordów
+## 17.7. Porównanie pary rekordów
 
 Szczegółowe porównanie dwóch rekordów zostało wydzielone do komponentu:
 
@@ -195,7 +195,7 @@ Modal porównania:
 
 Jest to obecnie najbardziej analityczny element frontendu, ponieważ pozwala przejść od listy kandydatów do porównania atrybut po atrybucie.
 
-## 18.8. Komponenty wspólne
+## 17.8. Komponenty wspólne
 
 Na potrzeby wielu widoków wydzielono dwa małe komponenty interfejsu:
 
@@ -214,7 +214,7 @@ Na potrzeby wielu widoków wydzielono dwa małe komponenty interfejsu:
 
 Dzięki temu oba główne widoki zachowują wspólną konwencję wizualną.
 
-## 18.9. Formatowanie i stałe
+## 17.9. Formatowanie i stałe
 
 Widoki korzystają z warstwy pomocniczej:
 
@@ -241,7 +241,7 @@ Zawierają one między innymi:
 - listy opcji filtrów,
 - listy algorytmów dostępnych w widoku matchingu.
 
-## 18.10. Warstwa stylów
+## 17.10. Warstwa stylów
 
 Style zostały podzielone na kilka plików:
 
@@ -261,7 +261,7 @@ Podział jest funkcjonalny:
 
 Takie rozdzielenie wystarcza dla obecnej skali aplikacji i ogranicza konieczność utrzymywania jednego dużego arkusza stylów.
 
-## 18.11. Zakres funkcjonalny obecnej wersji
+## 17.11. Zakres funkcjonalny obecnej wersji
 
 Aktualnie frontend realizuje:
 
@@ -283,7 +283,7 @@ Nie realizuje natomiast:
 
 Jest to więc interfejs odczytowy dla wybranych obszarów systemu, a nie pełny panel operacyjny goldenizacji.
 
-## 18.12. Miejsce frontendu w architekturze
+## 17.12. Miejsce frontendu w architekturze
 
 Frontend nie komunikuje się bezpośrednio z SQL Serverem, Airflow ani Oracle. Jego jedynym punktem dostępu do danych jest REST API backendu.
 
@@ -295,7 +295,7 @@ Z architektonicznego punktu widzenia oznacza to, że:
 
 To podejście upraszcza spójność systemu i pozwala rozwijać interfejs bez przenoszenia logiki domenowej do przeglądarki.
 
-## 18.13. Ograniczenia
+## 17.13. Ograniczenia
 
 Najważniejsze ograniczenia obecnego frontendu to:
 
@@ -308,7 +308,7 @@ Najważniejsze ograniczenia obecnego frontendu to:
 
 Nie są to braki przypadkowe. Frontend w aktualnej wersji został zawężony do czytelnego podglądu danych servingowych dla walidacji i matchingu.
 
-## 18.14. Odniesienia do implementacji
+## 17.14. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 

@@ -1,8 +1,8 @@
-# 20. Weryfikacja rozwiązania
+# 19. Weryfikacja rozwiązania
 
 Weryfikacja rozwiązania została oparta przede wszystkim na testach automatycznych backendu oraz na uruchomieniu lokalnego środowiska Docker Compose.
 
-## 20.1. Zakres przyjętej weryfikacji
+## 19.1. Zakres przyjętej weryfikacji
 
 W aktualnej wersji projektu weryfikacja obejmuje trzy poziomy:
 
@@ -18,7 +18,7 @@ Najszersze pokrycie testowe dotyczy warstw:
 - `integration_golden`,
 - `serving`.
 
-## 20.2. Testy automatyczne backendu
+## 19.2. Testy automatyczne backendu
 
 Katalog `tests/` zawiera zestaw testów obejmujących kluczowe elementy przetwarzania danych.
 
@@ -130,9 +130,9 @@ Testy te nie sprawdzają logiki API, ale kontrolują jakość przygotowanych dan
 - spójność danych osobowych i firmowych,
 - zgodność chronologii wybranych dat.
 
-## 20.3. Weryfikacja lokalnego uruchomienia
+## 19.3. Weryfikacja lokalnego uruchomienia
 
-Poza testami kod został weryfikowany w lokalnym środowisku kontenerowym opisanym w rozdziale 19.
+Poza testami kod został weryfikowany w lokalnym środowisku kontenerowym opisanym w rozdziale 18.
 
 W praktyce potwierdzony został następujący zakres:
 
@@ -145,7 +145,7 @@ W praktyce potwierdzony został następujący zakres:
 
 Oznacza to, że zweryfikowano nie tylko pojedyncze funkcje, ale również podstawowy przepływ lokalny: API -> warstwy przetwarzania -> zapis do SQL Server -> odczyt przez `serving` i frontend.
 
-## 20.4. Zakres nieobjęty pełną automatyzacją
+## 19.4. Zakres nieobjęty pełną automatyzacją
 
 Obecna weryfikacja ma charakter głównie backendowy.
 
@@ -157,7 +157,7 @@ W szczególności:
 
 Nie zmienia to faktu, że rdzeń logiki przetwarzania danych jest objęty testami w kodzie w znacznie większym stopniu niż elementy interfejsu i wdrożenia.
 
-## 20.5. Odniesienia do implementacji
+## 19.5. Odniesienia do implementacji
 
 Najważniejsze pliki związane z weryfikacją rozwiązania:
 

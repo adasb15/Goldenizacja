@@ -1,4 +1,4 @@
-# Przepływ i orkiestracja danych
+# 9. Przepływ i orkiestracja danych
 
 Proces integracji danych jest wykonywany jako sekwencja operacji rozpoczynająca się od utworzenia partii importu i zapisu materiału RAW, a kończąca utworzeniem lub aktualizacją rekordów w schemacie GOLD. Orkiestratorem procesu jest Apache Airflow, natomiast logika poszczególnych etapów znajduje się w aplikacji FastAPI.
 
@@ -6,7 +6,7 @@ Airflow nie wykonuje bezpośrednio operacji na SQL Serverze. Zadania DAG-u wywo�
 
 Główna definicja procesu znajduje się w `airflow/dags/goldenizacja_pipeline.py`. DAG ma identyfikator `goldenizacja_pipeline`, nie posiada harmonogramu cyklicznego i jest uruchamiany ręcznie z wybranymi parametrami.
 
-## Ogólny przebieg procesu
+## 9.1. Ogólny przebieg procesu
 
 Przepływ obejmuje siedem zadań Airflow:
 
@@ -34,7 +34,7 @@ raw_load
 
 Takie wykonanie odpowiada zależnościom danych: staging wymaga materiału RAW, preprocessing wymaga stagingu, walidacja korzysta z danych po preprocessingu, a goldenizacja wymaga wyników matchingu i grupowania.
 
-## Parametry uruchomienia DAG-u
+## 9.2. Parametry uruchomienia DAG-u
 
 DAG przyjmuje parametry opisujące źródło danych, typ encji oraz konfigurację walidacji i matchingu.
 
@@ -65,7 +65,7 @@ Typ encji może zostać podany bezpośrednio jako `PERSON` lub `PARTY`. Przy war
 
 Import relacyjny również domyślnie wykonuje oba typy encji. W takim przypadku backend pobiera dane osobno dla osoby i podmiotu, tworząc dwa materiały RAW i dwie partie importu.
 
-## Komunikacja Airflow z FastAPI
+## 9.3. Komunikacja Airflow z FastAPI
 
 Wszystkie operacje są wywoływane metodą HTTP `POST`. Adres bazowy API w środowisku kontenerowym to:
 
@@ -98,7 +98,7 @@ Poprawna odpowiedź jest deserializowana z JSON i zwracana przez zadanie. Python
 
 Endpointy przekazują logikę do funkcji serwisowych. Serwisy korzystają z repozytoriów SQLAlchemy, które wykonują odczyt i zapis w SQL Serverze.
 
-## Przekazywanie identyfikatorów
+## 9.4. Przekazywanie identyfikatorów
 
 ### ImportBatch_ID
 
@@ -127,7 +127,7 @@ Każdy kolejny krok wybiera identyfikator właściwy dla aktualnie przetwarzaneg
 
 Przy pliku zawierającym oba typy encji ten sam `RawFile_ID` jest używany dwukrotnie: raz do zbudowania stagingu `PERSON`, a drugi raz do stagingu `PARTY`. Rozdzielenie następuje przez parametr `entity_type` i osobne tabele docelowe.
 
-## Zakres zadań DAG-u
+## 9.5. Zakres zadań DAG-u
 
 | Zadanie | Odpowiedzialność orkiestracyjna | Wynik |
 |---|---|---|
@@ -143,7 +143,7 @@ Dla zakresu obejmującego obie encje zadania warstwowe wykonują osobne wywołan
 
 Pliki `/opt/airflow/data/teryt/SIMC.csv` i `/opt/airflow/data/teryt/ULIC.csv` są przesyłane przy każdym uruchomieniu DAG-u. Brak jednego z nich powoduje błąd przed wywołaniem API. Szczegółowe reguły przetwarzania poszczególnych warstw opisano w kolejnych rozdziałach.
 
-## Statusy i logowanie
+## 9.6. Statusy i logowanie
 
 Stan procesu jest widoczny na dwóch poziomach:
 
@@ -187,7 +187,7 @@ Logi bazodanowe są tworzone dla:
 
 Matching Levenshteina, Jaro-Winklera i grupowanie nie tworzą oddzielnych wpisów `ProcessLog`. Ich przebieg jest widoczny w logach zadania `integration_golden_match` oraz w tabelach wynikowych matchingu.
 
-## Transakcje i powtarzalność
+## 9.7. Transakcje i powtarzalność
 
 Repozytoria wykonują zatwierdzenia po utworzeniu logów oraz po zapisaniu wyników etapów. W razie błędu serwis wycofuje bieżącą transakcję i, jeżeli log został już utworzony, kończy go statusem `FAILED`.
 
@@ -212,7 +212,7 @@ Powtarzalność operacji zależy od etapu:
 
 Mechanizmy te ograniczają powstawanie duplikatów, ale pełne ponowienie całego DAG-u od początku tworzy nową próbę RAW load. W przypadku potrzeby powtórzenia tylko późniejszego etapu można wywołać odpowiedni endpoint bezpośrednio z istniejącym `RawFile_ID`, z uwzględnieniem zasad danego etapu.
 
-## Obsługa błędów
+## 9.8. Obsługa błędów
 
 Backend rozróżnia błędy wejściowe i błędy nieoczekiwane:
 
@@ -234,7 +234,7 @@ Airflow traktuje każdą odpowiedź spoza zakresu powodzenia jako wyjątek zadan
 
 Operatory nie mają jawnie skonfigurowanej liczby ponowień ani opóźnienia pomiędzy próbami. Proces korzysta więc z ustawień domyślnych środowiska Airflow. W dostarczonej konfiguracji DAG-u nie zdefiniowano automatycznej polityki retry właściwej dla poszczególnych zadań.
 
-## Ograniczenia orkiestracji
+## 9.9. Ograniczenia orkiestracji
 
 Aktualna orkiestracja jest przeznaczona do kontrolowanego uruchamiania procesu demonstracyjnego. Należy uwzględnić następujące właściwości:
 
@@ -250,7 +250,7 @@ Aktualna orkiestracja jest przeznaczona do kontrolowanego uruchamiania procesu d
 
 Nie uniemożliwia to wykonania pełnego procesu. Właściwości te wpływają przede wszystkim na obserwowalność, selektywne ponawianie kroków i skalowanie wielu równoległych importów.
 
-## Odniesienie do implementacji
+## 9.10. Odniesienie do implementacji
 
 | Obszar | Lokalizacja |
 |---|---|

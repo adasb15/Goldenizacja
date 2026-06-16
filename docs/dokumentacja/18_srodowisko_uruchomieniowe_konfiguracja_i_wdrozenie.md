@@ -1,4 +1,4 @@
-# 19. Środowisko uruchomieniowe, konfiguracja i wdrożenie
+# 18. Środowisko uruchomieniowe, konfiguracja i wdrożenie
 
 Projekt został przygotowany przede wszystkim do uruchamiania lokalnego w środowisku kontenerowym. Repozytorium zawiera również zestaw manifestów OpenShift, jednak mają one charakter przygotowanej podstawy wdrożeniowej, a nie potwierdzonego odwzorowania środowiska lokalnego.
 
@@ -7,7 +7,7 @@ W praktyce należy rozróżnić dwa poziomy:
 1. środowisko lokalne Docker Compose, które stanowi główną i rzeczywiście używaną ścieżkę uruchomienia,
 2. środowisko OpenShift, dla którego przygotowano manifesty wymagające dostosowania i weryfikacji.
 
-## 19.1. Środowisko lokalne Docker Compose
+## 18.1. Środowisko lokalne Docker Compose
 
 Główny plik uruchomieniowy to:
 
@@ -26,7 +26,7 @@ Definiuje on sześć usług:
 
 Środowisko to jest developerskie. API i frontend działają w trybie umożliwiającym szybkie przeładowanie zmian, a Airflow uruchamiany jest w uproszczonej konfiguracji z jednym kontenerem i `SequentialExecutor`.
 
-## 19.2. Kontenery i obrazy
+## 18.2. Kontenery i obrazy
 
 ### Backend API
 
@@ -117,7 +117,7 @@ SQL Server jest głównym repozytorium procesu.
 Oracle służy jako źródło demonstracyjne dla importu relacyjnego.  
 Neo4j pozostaje komponentem demonstracyjnym i nie uczestniczy w głównym pipeline.
 
-## 19.3. Wolumeny i trwałość danych
+## 18.3. Wolumeny i trwałość danych
 
 Docker Compose definiuje wolumeny:
 
@@ -144,7 +144,7 @@ Dodatkowo montowane są katalogi robocze z repozytorium:
 - `./airflow/dags`, `./airflow/logs`, `./airflow/plugins`, `./airflow/config` do kontenera Airflow,
 - `./data` do Airflow tylko do odczytu.
 
-## 19.4. Zależności startowe i healthchecki
+## 18.4. Zależności startowe i healthchecki
 
 Usługa `api` oczekuje na zdrowy stan:
 
@@ -161,7 +161,7 @@ Sprawdzanie gotowości realizowane jest przez healthchecki:
 Airflow zależy od API, ponieważ wykonuje wywołania HTTP do warstw backendu.  
 Frontend zależy od API, ponieważ pobiera dane z endpointów `serving`.
 
-## 19.5. Konfiguracja backendu
+## 18.5. Konfiguracja backendu
 
 Konfiguracja backendu jest zdefiniowana w:
 
@@ -192,7 +192,7 @@ Przykładowe kluczowe zmienne:
 
 Hasła baz danych są wymagane z `.env` albo środowiska uruchomieniowego. Nie powinny być zapisywane w dokumentacji ani publikowane w repozytorium jako wartości produkcyjne.
 
-## 19.6. Konfiguracja frontendu
+## 18.6. Konfiguracja frontendu
 
 Frontend korzysta z jednej najważniejszej zmiennej środowiskowej:
 
@@ -206,7 +206,7 @@ http://localhost:8000
 
 Oznacza to, że aplikacja React kieruje odczyt danych do lokalnego backendu FastAPI. Jeżeli adres API się zmienia, frontend wymaga odpowiedniej aktualizacji tej wartości przy budowie albo uruchomieniu.
 
-## 19.7. Konfiguracja Airflow
+## 18.7. Konfiguracja Airflow
 
 W Compose Airflow otrzymuje między innymi:
 
@@ -227,7 +227,7 @@ Konfiguracja ta oznacza, że:
 
 Domyślne wartości developerskie dla logowania to `admin/admin`, jeśli nie zostaną zastąpione przez zmienne środowiskowe.
 
-## 19.8. Lokalne uruchomienie
+## 18.8. Lokalne uruchomienie
 
 Podstawowe uruchomienie developerskie odbywa się przez:
 
@@ -254,7 +254,7 @@ Najważniejsze lokalne adresy dostępu:
 - Airflow UI: `http://localhost:8080`,
 - Neo4j Browser: `http://localhost:7474`.
 
-## 19.9. Inicjalizacja baz danych
+## 18.9. Inicjalizacja baz danych
 
 SQL Server korzysta z przygotowanego skryptu:
 
@@ -275,7 +275,7 @@ zamontowanego do kontenera podczas startu. Służy on do zainicjalizowania demon
 
 Backend przy starcie wykonuje dodatkowo własną inicjalizację bazy przez `init_db()`, aby kontener API był gotowy bez osobnego ręcznego przygotowania struktur ORM.
 
-## 19.10. OpenShift
+## 18.10. OpenShift
 
 Repozytorium zawiera katalog:
 
@@ -313,7 +313,7 @@ Manifesty zakładają użycie obrazów w wewnętrznym rejestrze OpenShift i wyma
 - `REPLACE_API_ROUTE`,
 - `REPLACE_FRONTEND_ROUTE`.
 
-## 19.11. Różnice między Docker Compose i OpenShift
+## 18.11. Różnice między Docker Compose i OpenShift
 
 Najważniejsze rozbieżności są następujące:
 
@@ -325,7 +325,7 @@ Najważniejsze rozbieżności są następujące:
 
 Z tego powodu środowiska OpenShift nie można traktować jako gotowego, przetestowanego odpowiednika Compose.
 
-## 19.12. Bezpieczeństwo konfiguracji
+## 18.12. Bezpieczeństwo konfiguracji
 
 W repozytorium rozdzielono konfigurację jawną od sekretów:
 
@@ -341,7 +341,7 @@ Dotyczy to zwłaszcza:
 
 Samo rozdzielenie konfiguracji nie oznacza jednak pełnego zabezpieczenia systemu. API aplikacji nadal nie implementuje własnego mechanizmu uwierzytelniania i autoryzacji.
 
-## 19.13. Ograniczenia środowiskowe
+## 18.13. Ograniczenia środowiskowe
 
 Najważniejsze ograniczenia obecnego sposobu uruchomienia to:
 
@@ -354,7 +354,7 @@ Najważniejsze ograniczenia obecnego sposobu uruchomienia to:
 
 Ograniczenia te nie uniemożliwiają działania lokalnego rdzenia systemu, ale mają znaczenie przy ocenie gotowości rozwiązania do wdrożenia poza środowiskiem demonstracyjnym.
 
-## 19.14. Odniesienia do implementacji
+## 18.14. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 

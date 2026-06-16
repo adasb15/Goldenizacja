@@ -1,4 +1,4 @@
-# 16. Audytowalność, lineage i historia zmian
+# 15. Audytowalność, lineage i historia zmian
 
 System przechowuje informacje pozwalające odtworzyć, z jakiego źródła pochodzą aktualne wartości Golden Record, kiedy wykonano poszczególne kroki procesu oraz jakie atrybuty osób i podmiotów uległy zmianie przy kolejnych aktualizacjach. Mechanizm ten nie jest jednak pełnym wersjonowaniem całego stanu encji w czasie. Obejmuje trzy uzupełniające się obszary:
 
@@ -6,7 +6,7 @@ System przechowuje informacje pozwalające odtworzyć, z jakiego źródła pocho
 2. lineage aktualnie wybranych wartości i relacji,
 3. rejestr zmian atrybutów wymiarów.
 
-## 16.1. Logi przebiegu procesu
+## 15.1. Logi przebiegu procesu
 
 Podstawowym technicznym śladem wykonania jest tabela `meta.ProcessLog`. Rekord logu jest tworzony dla wybranych etapów i zawiera:
 
@@ -41,7 +41,7 @@ Log procesu służy do odpowiedzi na pytania:
 
 Nie jest to jednak dziennik wszystkich decyzji biznesowych podejmowanych podczas matchingu i survivorship. Na przykład matching i grupowanie nie zapisują osobnych wpisów `ProcessLog` dla każdej pary lub każdej decyzji.
 
-## 16.2. Logowanie etapu GOLD
+## 15.2. Logowanie etapu GOLD
 
 Warstwa `integration_golden` tworzy wpis `ProcessLog` dla kroku `GOLDEN_LOAD`, jeżeli wywołanie odbywa się w kontekście konkretnego `RawFile_ID`.
 
@@ -59,7 +59,7 @@ Przy powodzeniu zapisywane są:
 
 Przy błędzie zapisywany jest komunikat wyjątku. Log ten opisuje wynik techniczny całego wywołania `golden-load`, a nie wynik każdej pojedynczej reguły survivorship.
 
-## 16.3. Czym jest lineage w tym systemie
+## 15.3. Czym jest lineage w tym systemie
 
 Lineage opisuje pochodzenie aktualnie wybranej wartości Golden Record albo aktualnie utrwalonej relacji. Dla każdej zapisanej wartości system stara się zachować:
 
@@ -72,7 +72,7 @@ Lineage opisuje pochodzenie aktualnie wybranej wartości Golden Record albo aktu
 
 Lineage nie przechowuje całej ścieżki wszystkich rozważanych kandydatów dla każdego atrybutu. Przechowuje wyłącznie to źródło, które zostało wykorzystane do zapisania bieżącej wartości.
 
-## 16.4. Tabele lineage
+## 15.4. Tabele lineage
 
 Aktualna implementacja wykorzystuje następujące tabele:
 
@@ -106,7 +106,7 @@ W praktyce oznacza to, że dla bieżącej wartości można ustalić nie tylko ź
 - `NEWEST_IMPORT`,
 - `INPUT_ORDER_FALLBACK`.
 
-## 16.5. Lineage osób, podmiotów i adresów
+## 15.5. Lineage osób, podmiotów i adresów
 
 Lineage atrybutów wymiarów jest zapisywane funkcją `write_dimension_lineage()`. Mechanizm działa po utworzeniu albo aktualizacji:
 
@@ -126,7 +126,7 @@ Przykładowo można ustalić:
 
 Lineage adresu jest zapisywane osobno od lineage osoby albo podmiotu. Oznacza to, że adres jako obiekt `DimAddress` posiada własne pochodzenie swoich atrybutów, niezależne od tego, z kim został później powiązany.
 
-## 16.6. Lineage relacji adresowych
+## 15.6. Lineage relacji adresowych
 
 Oprócz lineage samych wymiarów system zapisuje lineage relacji adresowych:
 
@@ -148,7 +148,7 @@ Nie jest to kopia całego zestawu pól adresowych. Implementacja wybiera jeden r
 
 Na tej podstawie system zapisuje, z którego źródła i importu pochodzi utworzenie albo aktualizacja konkretnego powiązania adresowego. Reguła wyboru jest dodatkowo oznaczana prefiksem `ADDRESS_LINK_FROM_...`.
 
-## 16.7. Wykorzystanie walidacji w lineage
+## 15.7. Wykorzystanie walidacji w lineage
 
 Warstwa goldenizacji nie zapisuje do lineage surowego wyniku wszystkich reguł walidacyjnych. Zamiast tego:
 
@@ -169,7 +169,7 @@ Agregacja działa następująco:
 
 Mechanizm ten wzmacnia użyteczność lineage, ale nie zastępuje pełnego wglądu w tabelę `stg.Validation_Result`.
 
-## 16.8. Rejestr zmian wymiarów
+## 15.8. Rejestr zmian wymiarów
 
 Zmiany atrybutów są zapisywane w tabeli `gold.EntityChangeLog`. Rekord zmiany zawiera:
 
@@ -195,7 +195,7 @@ W aktualnej logice warstwy `integration_golden` rejestr zmian jest wykorzystywan
 
 Jeżeli nowa wartość atrybutu różni się od poprzedniej, funkcja `record_dimension_changes()` zapisuje wpis z poprzednią i nową wartością. Gdy wartości są równoważne, zmiana nie jest dopisywana.
 
-## 16.9. Co dokładnie daje historia zmian
+## 15.9. Co dokładnie daje historia zmian
 
 Rejestr zmian pozwala odpowiedzieć na pytania typu:
 
@@ -206,7 +206,7 @@ Rejestr zmian pozwala odpowiedzieć na pytania typu:
 
 Jest to więc historia ewolucji pól wymiaru, a nie pełna migawka całego rekordu po każdym przebiegu procesu. System nie zapisuje kompletnej wersji encji po każdym imporcie.
 
-## 16.10. Ograniczenia historii lineage i zmian
+## 15.10. Ograniczenia historii lineage i zmian
 
 Najważniejsze ograniczenia są następujące:
 
@@ -224,7 +224,7 @@ W praktyce oznacza to, że system dobrze pokazuje:
 
 Nie pozwala natomiast odtworzyć kompletnego, historycznego obrazu wszystkich wcześniejszych wariantów lineage dla tego samego atrybutu.
 
-## 16.11. Przykłady informacji możliwych do odtworzenia
+## 15.11. Przykłady informacji możliwych do odtworzenia
 
 Na podstawie aktualnych struktur można ustalić między innymi:
 
@@ -236,7 +236,7 @@ Na podstawie aktualnych struktur można ustalić między innymi:
 
 Takie informacje są wystarczające do audytu bieżącego wyniku oraz do prześledzenia najważniejszych zmian biznesowych, ale nie zastępują pełnego mechanizmu temporalnego.
 
-## 16.12. Wykorzystanie przez warstwę serving
+## 15.12. Wykorzystanie przez warstwę serving
 
 Zapisane dane audytowe nie pozostają wyłącznie wewnętrznym artefaktem warstwy GOLD. Zgodnie z zakresem projektu są później udostępniane przez warstwę `serving`, która potrafi zwrócić między innymi:
 
@@ -246,7 +246,7 @@ Zapisane dane audytowe nie pozostają wyłącznie wewnętrznym artefaktem warstw
 
 Oznacza to, że audytowalność nie jest wyłącznie cechą bazy danych, ale także częścią interfejsu odczytowego systemu.
 
-## 16.13. Odniesienia do implementacji
+## 15.13. Odniesienia do implementacji
 
 Najważniejsze elementy implementacji znajdują się w plikach:
 
