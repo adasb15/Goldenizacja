@@ -21,6 +21,7 @@ from app.layers.serving.schemas import (
     AddressResponse,
     ChangeHistoryEntry,
     ChangeHistoryResponse,
+    FieldSourceResponse,
     GoldenRecordListResponse,
     GoldenRecordSummary,
     LineageEntry,
@@ -43,16 +44,41 @@ class GoldenRecordNotFoundError(Exception):
     pass
 
 
+PERSON_FIELD_MAP = {
+    "PESEL": "pesel",
+    "Serial_Number_ID_Card": "serial_number_id_card",
+    "Serial_Number_Passport": "serial_number_passport",
+    "First_Name": "first_name",
+    "Second_Name": "second_name",
+    "Last_Name": "last_name",
+    "Family_Name": "family_name",
+    "Birth_Date": "birth_date",
+    "Place_Of_Birth": "place_of_birth",
+    "Sex": "sex",
+    "Citizenship": "citizenship",
+    "Phone_Number": "phone_number",
+    "Email_Address": "email_address",
+    "Created_At": "created_at",
+    "Updated_At": "updated_at",
+}
+
+
 def list_golden_records(
     db: Session,
     *,
     entity_type: str | None = None,
+    search: str | None = None,
     limit: int = 50,
     offset: int = 0,
     repo: ServingRepository | None = None,
 ) -> GoldenRecordListResponse:
     repo = repo or ServingRepository(db)
-    records, total = repo.list_golden_records(entity_type=entity_type, limit=limit, offset=offset)
+    records, total = repo.list_golden_records(
+        entity_type=entity_type,
+        search=search,
+        limit=limit,
+        offset=offset,
+    )
     return GoldenRecordListResponse(
         items=[_golden_summary(record) for record in records],
         page=PageMeta(limit=limit, offset=offset, total=total),
@@ -69,7 +95,18 @@ def get_person_detail(
     person = repo.get_person(person_id)
     if person is None:
         raise GoldenRecordNotFoundError(f"Person_ID={person_id} not found.")
-    return _person_detail(person, repo.get_person_addresses(person_id))
+    address_rows = repo.get_person_addresses(person_id)
+    return _person_detail(
+        person,
+        address_rows,
+        provenance=_field_provenance_map(repo.get_lineage("PERSON", person_id), PERSON_FIELD_MAP),
+        address_provenance=_address_provenance_map(
+            repo.get_address_lineage([address.Address_ID for _, address, _ in address_rows]),
+            repo.get_address_link_lineage("PERSON", [link.PersonAddress_ID for link, _, _ in address_rows]),
+            link_id_field="PersonAddress_ID",
+            address_by_link_id={int(link.PersonAddress_ID): int(address.Address_ID) for link, address, _ in address_rows},
+        ),
+    )
 
 
 def get_party_detail(
@@ -99,7 +136,18 @@ def search_person_by_pesel(
     person = repo.search_person_by_pesel(pesel=pesel)
     if person is None:
         raise GoldenRecordNotFoundError(f"Person with PESEL={pesel} not found.")
-    return _person_detail(person, repo.get_person_addresses(person.Person_ID))
+    address_rows = repo.get_person_addresses(person.Person_ID)
+    return _person_detail(
+        person,
+        address_rows,
+        provenance=_field_provenance_map(repo.get_lineage("PERSON", person.Person_ID), PERSON_FIELD_MAP),
+        address_provenance=_address_provenance_map(
+            repo.get_address_lineage([address.Address_ID for _, address, _ in address_rows]),
+            repo.get_address_link_lineage("PERSON", [link.PersonAddress_ID for link, _, _ in address_rows]),
+            link_id_field="PersonAddress_ID",
+            address_by_link_id={int(link.PersonAddress_ID): int(address.Address_ID) for link, address, _ in address_rows},
+        ),
+    )
 
 
 def search_parties(
@@ -309,7 +357,13 @@ def _golden_summary(record: Any) -> GoldenRecordSummary:
     )
 
 
-def _person_detail(person: DimPerson, address_rows: list[Any]) -> PersonDetailResponse:
+def _person_detail(
+    person: DimPerson,
+    address_rows: list[Any],
+    *,
+    provenance: dict[str, FieldSourceResponse],
+    address_provenance: dict[int, dict[str, FieldSourceResponse]],
+) -> PersonDetailResponse:
     return PersonDetailResponse(
         person_id=person.Person_ID,
         pesel=person.PESEL,
@@ -327,7 +381,16 @@ def _person_detail(person: DimPerson, address_rows: list[Any]) -> PersonDetailRe
         email_address=person.Email_Address,
         created_at=person.Created_At,
         updated_at=person.Updated_At,
-        addresses=[_address_response(link, address, address_type) for link, address, address_type in address_rows],
+        provenance=provenance,
+        addresses=[
+            _address_response(
+                link,
+                address,
+                address_type,
+                provenance=address_provenance.get(int(address.Address_ID), {}),
+            )
+            for link, address, address_type in address_rows
+        ],
     )
 
 
@@ -355,6 +418,8 @@ def _address_response(
     link: FactlessPersonAddress | FactlessPartyAddress,
     address: DimAddress,
     address_type: DimAddressType,
+    *,
+    provenance: dict[str, FieldSourceResponse] | None = None,
 ) -> AddressResponse:
     return AddressResponse(
         address_id=address.Address_ID,
@@ -370,6 +435,7 @@ def _address_response(
         country=address.Country,
         valid_from=link.Valid_From,
         valid_to=link.Valid_To,
+        provenance=provenance or {},
     )
 
 
@@ -406,6 +472,66 @@ def _lineage_entry(
         validation_status=lineage.Validation_Status,
         recorded_at=lineage.Recorded_At,
     )
+
+
+def _field_source_response(lineage: Any, source_system: Any) -> FieldSourceResponse:
+    return FieldSourceResponse(
+        attribute_name=getattr(lineage, "Attribute_Name", "LINK"),
+        source_system_code=source_system.SourceSystem_Code,
+        source_record_id=lineage.Source_Record_ID,
+        selection_rule=lineage.Selection_Rule,
+        trust_score=float(lineage.Trust_Score) if getattr(lineage, "Trust_Score", None) is not None else None,
+        quality_score=float(lineage.Quality_Score) if getattr(lineage, "Quality_Score", None) is not None else None,
+        validation_status=lineage.Validation_Status,
+        recorded_at=lineage.Recorded_At,
+    )
+
+
+def _field_provenance_map(rows: list[Any], attribute_map: dict[str, str]) -> dict[str, FieldSourceResponse]:
+    result: dict[str, FieldSourceResponse] = {}
+    for lineage, source_system in rows:
+        api_field = attribute_map.get(lineage.Attribute_Name)
+        if api_field:
+            result[api_field] = _field_source_response(lineage, source_system)
+    return result
+
+
+def _address_provenance_map(
+    address_rows: list[Any],
+    link_rows: list[Any],
+    *,
+    link_id_field: str,
+    address_by_link_id: dict[int, int],
+) -> dict[int, dict[str, FieldSourceResponse]]:
+    attribute_map = {
+        "Street": "street",
+        "Building_Number": "building_number",
+        "Apartment_Number": "apartment_number",
+        "City": "city",
+        "Postal_City": "postal_city",
+        "Postal_Code": "postal_code",
+        "District": "district",
+        "Province": "province",
+        "Country": "country",
+    }
+    result: dict[int, dict[str, FieldSourceResponse]] = {}
+
+    for lineage, source_system in address_rows:
+        address_id = int(lineage.DimAddress_ID)
+        api_field = attribute_map.get(lineage.Attribute_Name)
+        if api_field:
+          result.setdefault(address_id, {})[api_field] = _field_source_response(lineage, source_system)
+
+    for lineage, source_system in link_rows:
+        link_id = int(getattr(lineage, link_id_field))
+        address_id = address_by_link_id.get(link_id)
+        if address_id is None:
+            continue
+        source = _field_source_response(lineage, source_system)
+        for field_name in ("address_type", "valid_from", "valid_to"):
+            result.setdefault(address_id, {})[field_name] = source
+
+    return result
 
 
 def _change_history_entry(change: EntityChangeLog) -> ChangeHistoryEntry:

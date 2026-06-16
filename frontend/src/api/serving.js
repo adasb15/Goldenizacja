@@ -38,6 +38,18 @@ function getValidationResults(params) {
   return fetchJson('/layers/serving/validation-results', params)
 }
 
+function getGoldenRecords(params) {
+  return fetchJson('/layers/serving/golden-records', params)
+}
+
+function getPersonDetail(personId) {
+  return fetchJson(`/layers/serving/persons/${personId}`)
+}
+
+function getPartyDetail(partyId) {
+  return fetchJson(`/layers/serving/parties/${partyId}`)
+}
+
 function getMatchResults({ algorithm, ...params }) {
   return fetchJson(`/layers/serving/match-results/${algorithm}`, params)
 }
@@ -46,4 +58,22 @@ function getMatchComparison(params) {
   return fetchJson('/layers/serving/match-results/comparison', params)
 }
 
-export { API_URL, getValidationResults, getMatchResults, getMatchComparison }
+function getLineage(entityType, recordId) {
+  return fetchJson(`/layers/serving/lineage/${entityType}/${recordId}`)
+}
+
+function getChangeHistory(entityType, recordId) {
+  return fetchJson(`/layers/serving/history/${entityType}/${recordId}`)
+}
+
+export {
+  API_URL,
+  getGoldenRecords,
+  getPersonDetail,
+  getPartyDetail,
+  getValidationResults,
+  getMatchResults,
+  getMatchComparison,
+  getLineage,
+  getChangeHistory,
+}

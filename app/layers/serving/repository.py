@@ -16,10 +16,13 @@ from app.layers.integration_golden.models import (
     FactlessPartyAddress,
     FactlessPartyIdentities,
     FactlessPersonAddress,
+    GoldenAddressLineage,
     GoldenPartyLineage,
     GoldenPersonLineage,
     JaroWinklerCandidateRecord,
     MatchCandidateRecord,
+    PartyAddressLineage,
+    PersonAddressLineage,
 )
 from app.layers.preprocessing.models import PartyPreprocessed, PersonPreprocessed
 from app.layers.staging_validation.mapper import normalize_entity_type
@@ -35,27 +38,29 @@ class ServingRepository:
         self,
         *,
         entity_type: str | None,
+        search: str | None,
         limit: int,
         offset: int,
     ) -> tuple[list[Any], int]:
         normalized_entity_type = normalize_entity_type(entity_type) if entity_type else None
+        person_query = self._golden_person_query(search=search)
+        party_query = self._golden_party_query(search=search)
 
         if normalized_entity_type == "PERSON":
-            query = select(DimPerson).order_by(DimPerson.Person_ID)
+            query = person_query.order_by(DimPerson.Person_ID)
             return list(self.db.scalars(query.offset(offset).limit(limit))), self._count(query)
         if normalized_entity_type == "PARTY":
-            query = select(DimParty).order_by(DimParty.Party_ID)
+            query = party_query.order_by(DimParty.Party_ID)
             return list(self.db.scalars(query.offset(offset).limit(limit))), self._count(query)
 
-        person_total = self._count_table(DimPerson)
-        party_total = self._count_table(DimParty)
+        person_total = self._count(person_query)
+        party_total = self._count(party_query)
         total = person_total + party_total
         items: list[Any] = []
         remaining = limit
 
         if offset < person_total:
-            person_query = select(DimPerson).order_by(DimPerson.Person_ID)
-            people = list(self.db.scalars(person_query.offset(offset).limit(remaining)))
+            people = list(self.db.scalars(person_query.order_by(DimPerson.Person_ID).offset(offset).limit(remaining)))
             items.extend(people)
             remaining -= len(people)
             party_offset = 0
@@ -63,8 +68,11 @@ class ServingRepository:
             party_offset = offset - person_total
 
         if remaining > 0:
-            party_query = select(DimParty).order_by(DimParty.Party_ID)
-            items.extend(self.db.scalars(party_query.offset(party_offset).limit(remaining)))
+            items.extend(
+                self.db.scalars(
+                    party_query.order_by(DimParty.Party_ID).offset(party_offset).limit(remaining)
+                )
+            )
 
         return items, total
 
@@ -150,6 +158,32 @@ class ServingRepository:
             )
             .where(FactlessPartyIdentities.Party_ID == party_id)
             .order_by(FactlessPartyIdentities.PartyIdentity_ID)
+        )
+        return list(self.db.execute(query))
+
+    def get_address_lineage(self, address_ids: list[int]) -> list[Any]:
+        if not address_ids:
+            return []
+        query = (
+            select(GoldenAddressLineage, SourceSystem)
+            .join(SourceSystem, SourceSystem.SourceSystem_ID == GoldenAddressLineage.SourceSystem_ID)
+            .where(GoldenAddressLineage.DimAddress_ID.in_(address_ids))
+            .order_by(GoldenAddressLineage.DimAddress_ID, GoldenAddressLineage.Lineage_ID)
+        )
+        return list(self.db.execute(query))
+
+    def get_address_link_lineage(self, entity_type: str, link_ids: list[int]) -> list[Any]:
+        if not link_ids:
+            return []
+
+        normalized = normalize_entity_type(entity_type)
+        lineage_model = PersonAddressLineage if normalized == "PERSON" else PartyAddressLineage
+        id_column = lineage_model.PersonAddress_ID if normalized == "PERSON" else lineage_model.PartyAddress_ID
+        query = (
+            select(lineage_model, SourceSystem)
+            .join(SourceSystem, SourceSystem.SourceSystem_ID == lineage_model.SourceSystem_ID)
+            .where(id_column.in_(link_ids))
+            .order_by(id_column)
         )
         return list(self.db.execute(query))
 
@@ -335,3 +369,56 @@ class ServingRepository:
 
     def _is_present(self, value: str | None) -> bool:
         return value is not None and value.strip() != ""
+
+    def _golden_person_query(self, *, search: str | None) -> Any:
+        query = select(DimPerson)
+        tokens = self._search_tokens(search)
+        if not tokens:
+            return query
+
+        conditions = []
+        for token in tokens:
+            pattern = f"%{token}%"
+            conditions.append(
+                or_(
+                    DimPerson.PESEL.ilike(pattern),
+                    DimPerson.Serial_Number_ID_Card.ilike(pattern),
+                    DimPerson.Serial_Number_Passport.ilike(pattern),
+                    DimPerson.First_Name.ilike(pattern),
+                    DimPerson.Second_Name.ilike(pattern),
+                    DimPerson.Last_Name.ilike(pattern),
+                    DimPerson.Family_Name.ilike(pattern),
+                )
+            )
+        return query.where(and_(*conditions))
+
+    def _golden_party_query(self, *, search: str | None) -> Any:
+        query = (
+            select(DimParty)
+            .outerjoin(FactlessPartyIdentities, FactlessPartyIdentities.Party_ID == DimParty.Party_ID)
+            .outerjoin(
+                DimIdentityType,
+                DimIdentityType.IdentityType_ID == FactlessPartyIdentities.IdentityType_ID,
+            )
+        )
+        tokens = self._search_tokens(search)
+        if not tokens:
+            return query.distinct()
+
+        conditions = []
+        for token in tokens:
+            pattern = f"%{token}%"
+            conditions.append(
+                or_(
+                    DimParty.Name.ilike(pattern),
+                    DimParty.Short_Name.ilike(pattern),
+                    FactlessPartyIdentities.Identity_Value.ilike(pattern),
+                    DimIdentityType.IdentityType_Name.ilike(pattern),
+                )
+            )
+        return query.where(and_(*conditions)).distinct()
+
+    def _search_tokens(self, search: str | None) -> list[str]:
+        if not self._is_present(search):
+            return []
+        return [token for token in search.strip().split() if token]

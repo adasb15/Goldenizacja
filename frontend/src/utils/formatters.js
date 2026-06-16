@@ -9,6 +9,16 @@ function formatDateTime(value) {
   }).format(new Date(value))
 }
 
+function formatDate(value) {
+  if (!value) {
+    return '-'
+  }
+
+  return new Intl.DateTimeFormat('pl-PL', {
+    dateStyle: 'short',
+  }).format(new Date(value))
+}
+
 function formatValue(value) {
   if (value === null || value === undefined || value === '') {
     return '-'
@@ -32,7 +42,7 @@ function formatValue(value) {
 function badgeTone(value) {
   const normalized = String(value || '').toUpperCase()
 
-  if (normalized === 'PASS' || normalized === 'AUTO_MERGE') {
+  if (normalized === 'PASS' || normalized === 'AUTO_MERGE' || normalized === 'POPRAWNY') {
     return 'success'
   }
 
@@ -40,11 +50,11 @@ function badgeTone(value) {
     return 'warning'
   }
 
-  if (normalized === 'ERROR' || normalized === 'NO_MATCH' || normalized === 'CRITICAL') {
+  if (normalized === 'ERROR' || normalized === 'NO_MATCH' || normalized === 'CRITICAL' || normalized === 'BŁĘDNY') {
     return 'danger'
   }
 
   return 'neutral'
 }
 
-export { formatDateTime, formatValue, badgeTone }
+export { formatDate, formatDateTime, formatValue, badgeTone }

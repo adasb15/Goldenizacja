@@ -98,6 +98,11 @@ tbody tr:nth-child(even) {
   word-break: break-word;
 }
 
+.cell-nowrap {
+  min-width: 160px;
+  white-space: nowrap;
+}
+
 .rule-cell {
   display: grid;
   gap: 6px;
@@ -319,8 +324,79 @@ body.modal-open {
   overflow: auto;
 }
 
+.detail-modal {
+  width: min(1240px, 100%);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+.detail-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.detail-modal .comparison__header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: -20px -20px 0;
+  padding: 20px 56px 16px 20px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(19, 34, 56, 0.08);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.detail-card {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(247, 250, 252, 0.92);
+  border: 1px solid rgba(19, 34, 56, 0.08);
+}
+
+.detail-card span {
+  color: #516072;
+  font-size: 0.84rem;
+}
+
+.detail-card strong {
+  color: #132238;
+  font-size: 0.98rem;
+  word-break: break-word;
+}
+
+.detail-section {
+  display: grid;
+  gap: 12px;
+}
+
+.detail-section__header {
+  margin-bottom: 0;
+}
+
+.detail-section__header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.detail-table table {
+  min-width: 820px;
+}
+
 @media (max-width: 640px) {
   .comparison-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-grid {
     grid-template-columns: 1fr;
   }
 
