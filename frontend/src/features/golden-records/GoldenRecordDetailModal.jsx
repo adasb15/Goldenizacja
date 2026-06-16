@@ -98,10 +98,10 @@ function formatFieldValue(value, type) {
 
   if (type === 'sex') {
     if (value === true) {
-      return 'M'
+      return 'K'
     }
     if (value === false) {
-      return 'K'
+      return 'M'
     }
     return '-'
   }
