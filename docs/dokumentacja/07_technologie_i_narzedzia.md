@@ -94,7 +94,7 @@ RapidFuzz dostarcza implementacje Levenshteina i Jaro-Winklera używane do oceny
 
 ## 7.6. Frontend
 
-Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpine`, natomiast wieloetapowy `frontend/Dockerfile` buduje pliki statyczne i przekazuje je do Nginx unprivileged. Aplikacja korzysta z endpointów warstwy `serving` i udostępnia widoki walidacji oraz matchingu, w tym filtrowanie, paginację i porównanie wybranej pary rekordów. Zakres nadal pozostaje odczytowy i nie obejmuje pełnego widoku Golden Record ani ręcznej obsługi decyzji integracyjnych.
+Frontend wykorzystuje React 18 i Vite. Lokalnie działa na obrazie `node:20-alpine`, natomiast wieloetapowy `frontend/Dockerfile` buduje pliki statyczne i przekazuje je do Nginx unprivileged. Aplikacja korzysta z endpointów warstwy `serving` i udostępnia widoki listy Golden Record, szczegółów osoby i podmiotu, lineage, historii zmian, walidacji oraz matchingu, w tym filtrowanie, paginację i porównanie wybranej pary rekordów. Zakres nadal pozostaje odczytowy i nie obejmuje ręcznej obsługi decyzji integracyjnych ani operacji zapisu.
 
 ## 7.7. Neo4j
 
